@@ -45,3 +45,28 @@ export async function renderWithProviders(ui: React.ReactElement, options?: Rend
     options,
   );
 }
+
+/**
+ * Render real screens inside a native-stack navigator (needed for hooks like
+ * usePreventRemove). The first entry is the initial route.
+ */
+export async function renderInStack(
+  screens: {name: string; component: React.ComponentType<any>; params?: object}[],
+) {
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  const {createNativeStackNavigator} = require('@react-navigation/native-stack');
+  const Stack = createNativeStackNavigator();
+  return await render(
+    <SafeAreaProvider>
+      <ThemeProvider>
+        <NavigationContainer>
+          <Stack.Navigator>
+            {screens.map(s => (
+              <Stack.Screen key={s.name} name={s.name} component={s.component} initialParams={s.params} />
+            ))}
+          </Stack.Navigator>
+        </NavigationContainer>
+      </ThemeProvider>
+    </SafeAreaProvider>,
+  );
+}

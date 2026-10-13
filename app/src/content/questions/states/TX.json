@@ -1,0 +1,2054 @@
+[
+  {
+    "id": "tx.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Texas, a driver who is 21 or older is legally intoxicated at what blood alcohol concentration (BAC)?",
+    "choices": [
+      "0.08 or more",
+      "0.05 or more",
+      "0.10 or more",
+      "0.04 or more"
+    ],
+    "answer": 0,
+    "explanation": "Texas considers a person 21 or older legally intoxicated at a BAC of 0.08 or more. A driver can also be intoxicated at a lower BAC if they have lost the normal use of their mental or physical faculties.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 61"
+  },
+  {
+    "id": "tx.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 19-year-old Texas driver has a small but detectable amount of alcohol in their system, well below 0.08. Which is true?",
+    "choices": [
+      "They have committed the offense of Driving Under the Influence by a Minor",
+      "It is legal because their BAC is below 0.08",
+      "It is legal unless their BAC is 0.05 or higher",
+      "It is only an offense if they are also speeding"
+    ],
+    "answer": 0,
+    "explanation": "Under Texas's zero tolerance law, a driver under 21 with any detectable amount of alcohol commits Driving Under the Influence of Alcohol by a Minor, even if not legally intoxicated.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 62"
+  },
+  {
+    "id": "tx.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "An adult driver arrested for DWI in Texas refuses to give a breath or blood specimen. For a first refusal, how long will the license be suspended?",
+    "choices": [
+      "180 days",
+      "90 days",
+      "30 days",
+      "2 years"
+    ],
+    "answer": 0,
+    "explanation": "Refusing a breath or blood specimen brings a 180-day suspension, and up to 730 days for later offenses. A failed test (0.08 or more) brings a shorter suspension of 90 days for a first offense.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 64"
+  },
+  {
+    "id": "tx.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "An adult driver gives a breath specimen that shows a BAC of 0.08 or more. For a first offense, how long may the license be suspended?",
+    "choices": [
+      "90 days",
+      "180 days",
+      "30 days",
+      "730 days"
+    ],
+    "answer": 0,
+    "explanation": "If the specimen shows a BAC of 0.08 or greater, the license may be suspended for 90 days (up to 365 days for later offenses). The 180-day suspension applies to refusing the test.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 64"
+  },
+  {
+    "id": "tx.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the maximum fine for a first DWI conviction for an adult in Texas?",
+    "choices": [
+      "$2,000",
+      "$500",
+      "$4,000",
+      "$10,000"
+    ],
+    "answer": 0,
+    "explanation": "A first DWI offense for an adult is punishable by a fine of up to $2,000. Up to $4,000 applies to a second offense, and up to $10,000 to a third or later offense.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 64"
+  },
+  {
+    "id": "tx.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "For a first DWI conviction, an adult Texas driver faces how much time in jail?",
+    "choices": [
+      "72 hours to 180 days",
+      "24 hours to 30 days",
+      "30 days to 1 year",
+      "2 to 10 years"
+    ],
+    "answer": 0,
+    "explanation": "A first DWI offense carries 72 hours to 180 days in jail. 30 days to 1 year applies to a second offense, and 2 to 10 years in prison to a third offense.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 64"
+  },
+  {
+    "id": "tx.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "You are parked on the shoulder of a public highway in Texas, and your passenger is holding an open can of beer. Which is true?",
+    "choices": [
+      "It is illegal because an open container is in the passenger area on a public highway",
+      "It is legal because the vehicle is parked",
+      "It is legal because the driver is not the one drinking",
+      "It is illegal only if the engine is running"
+    ],
+    "answer": 0,
+    "explanation": "Possessing an open container of alcohol in the passenger area of a vehicle on a public highway is illegal whether the vehicle is being operated, stopped, or parked.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 62"
+  },
+  {
+    "id": "tx.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the maximum fine for an open container conviction in Texas?",
+    "choices": [
+      "$500",
+      "$200",
+      "$1,000",
+      "$2,000"
+    ],
+    "answer": 0,
+    "explanation": "Possessing an open container of alcohol in a vehicle's passenger area is punishable by a fine not to exceed $500.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 62"
+  },
+  {
+    "id": "tx.car.009",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 17-year-old Texas driver is asked to give a breath specimen and refuses. It is the first refusal. What happens to the license?",
+    "choices": [
+      "It is suspended for 180 days",
+      "It is suspended for 30 days",
+      "It is suspended for 60 days",
+      "Nothing, because minors cannot be tested"
+    ],
+    "answer": 0,
+    "explanation": "A minor who refuses to give a breath or blood specimen has the license suspended (or privilege denied if unlicensed) for 180 days on a first offense, and 2 years for later offenses.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 63"
+  },
+  {
+    "id": "tx.car.010",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 20-year-old's breath test shows a detectable amount of alcohol below 0.08. For a first offense, how long is the license suspended?",
+    "choices": [
+      "60 days",
+      "30 days",
+      "120 days",
+      "180 days"
+    ],
+    "answer": 0,
+    "explanation": "A minor whose specimen shows a detectable amount of alcohol below 0.08 faces a 60-day suspension for a first offense, 120 days for a second, and 180 days for a third or later.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 63"
+  },
+  {
+    "id": "tx.car.011",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 19-year-old is convicted for the first time of possessing alcohol (not while driving). What happens to their driver license?",
+    "choices": [
+      "It is suspended for 30 days",
+      "Nothing, because they were not driving",
+      "It is suspended for 1 year",
+      "It is suspended until age 21"
+    ],
+    "answer": 0,
+    "explanation": "Texas zero tolerance applies even to non-driving alcohol offenses by minors. A first offense brings a 30-day license suspension (or denial if unlicensed), plus a fine, community service, and an alcohol awareness course.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 62"
+  },
+  {
+    "id": "tx.car.012",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Which penalty applies to a minor's FIRST conviction for Driving Under the Influence (DUI) in Texas?",
+    "choices": [
+      "A fine of up to $500, 20 to 40 hours of community service, and an alcohol awareness course",
+      "A fine of up to $2,000 and 72 hours in jail",
+      "A written warning only",
+      "A fine of up to $10,000 and prison time"
+    ],
+    "answer": 0,
+    "explanation": "A minor's first DUI is a Class C misdemeanor: a fine of up to $500, 20 to 40 hours of community service, and a required alcohol awareness course.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 63"
+  },
+  {
+    "id": "tx.car.013",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Texas, driving while intoxicated with a passenger younger than 15 is what kind of offense?",
+    "choices": [
+      "A state jail felony",
+      "A Class C misdemeanor",
+      "A traffic infraction",
+      "A Class B misdemeanor, the same as any first DWI"
+    ],
+    "answer": 0,
+    "explanation": "DWI with a passenger under 15 is a state jail felony: a fine of up to $10,000 and 180 days to 2 years in state jail.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 63"
+  },
+  {
+    "id": "tx.car.014",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Texas, it is illegal to drive a commercial motor vehicle (CMV) at what BAC?",
+    "choices": [
+      "0.04 or more",
+      "0.08 or more",
+      "0.02 or more",
+      "0.10 or more"
+    ],
+    "answer": 0,
+    "explanation": "The legal limit for a CMV driver is lower than for a car driver: operating a CMV with a BAC of .04% or more is illegal and costs the CDL for at least one year on a first offense.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Commercial Motor Vehicle Drivers Handbook (DL-7C), p. 22"
+  },
+  {
+    "id": "tx.car.015",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 17-year-old with a provisional license wants to make a call with a hands-free device while driving. Is this allowed in Texas?",
+    "choices": [
+      "No, drivers under 18 may not use a wireless device, even hands-free, except in an emergency",
+      "Yes, hands-free calls are allowed for all drivers",
+      "Yes, but only on highways",
+      "Yes, if a passenger 21 or older is in the car"
+    ],
+    "answer": 0,
+    "explanation": "All Texas drivers under 18 are banned from using a wireless communication device, including a hands-free device, except in an emergency.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 9"
+  },
+  {
+    "id": "tx.car.016",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 35-year-old Texas driver wants to reply to a text message while driving on a city street. What does Texas law say?",
+    "choices": [
+      "It is illegal for any driver to read, write, or send messages while driving",
+      "It is legal for drivers 18 and older",
+      "It is illegal only in school zones",
+      "It is legal if the car is moving under 30 mph"
+    ],
+    "answer": 0,
+    "explanation": "In Texas, it is against the law for any driver to read, write, or send messages on a cell phone or other portable wireless device while driving.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 60"
+  },
+  {
+    "id": "tx.car.017",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "You are an adult driving into a school zone with a sign saying wireless communication devices are prohibited. You are holding your phone. What should you do?",
+    "choices": [
+      "Put the phone down; you may not use a handheld phone while driving in the school zone",
+      "You may keep using it if you stay under the school zone speed limit",
+      "Nothing; the rule applies only to drivers under 18",
+      "Nothing; the rule applies only to school bus drivers"
+    ],
+    "answer": 0,
+    "explanation": "The handbook explains that this sign means wireless device use is prohibited in the school zone. Under state law the only exceptions are a hands-free device or a stopped vehicle.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 37"
+  },
+  {
+    "id": "tx.car.018",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Texas law, who in a passenger vehicle must wear a safety belt?",
+    "choices": [
+      "The driver and all passengers, regardless of age or seat",
+      "Only the driver and front-seat passengers",
+      "Only passengers under 17",
+      "Only the driver"
+    ],
+    "answer": 0,
+    "explanation": "In Texas, the driver and all passengers of any age must wear a safety belt if their seat is equipped with one, including in pickups, SUVs, and trucks.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 70"
+  },
+  {
+    "id": "tx.car.019",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "You are driving and your 16-year-old passenger in the back seat is not wearing a seat belt. Who can be fined?",
+    "choices": [
+      "You, the driver",
+      "Only the 16-year-old passenger",
+      "The passenger's parent, even if not in the car",
+      "No one, because back-seat passengers are exempt"
+    ],
+    "answer": 0,
+    "explanation": "The driver is fined $100 to $200 when a passenger under 17 is not wearing a safety belt. Passengers 15 and older can also be cited themselves.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 70"
+  },
+  {
+    "id": "tx.car.020",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "In Texas, which child must ride in a federally approved child safety seat?",
+    "choices": [
+      "A child under 8 years old, unless the child is taller than 4 feet 9 inches",
+      "Any child under 4 years old",
+      "Any child under 12 years old",
+      "A child under 8 only when riding in the front seat"
+    ],
+    "answer": 0,
+    "explanation": "A child under 8 must be secured in a federally approved child car seat unless the child is more than 4 feet 9 inches tall.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 70"
+  },
+  {
+    "id": "tx.car.021",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "You are driving a 7-year-old who is 4 feet 10 inches tall. Which is true under Texas law?",
+    "choices": [
+      "The child may use a regular safety belt instead of a child safety seat",
+      "The child must ride in a child safety seat until age 8",
+      "The child must ride in a booster seat until age 12",
+      "The child does not need any restraint in the back seat"
+    ],
+    "answer": 0,
+    "explanation": "The child-seat rule applies to children under 8 unless they are more than 4 feet 9 inches tall. This child is taller, so a properly worn safety belt is required instead.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 70"
+  },
+  {
+    "id": "tx.car.022",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "May a 15-year-old ride in the open bed of a pickup truck on a Texas city street on a normal trip?",
+    "choices": [
+      "No, it is an offense to drive with a child under 18 riding in an open truck bed",
+      "Yes, if the truck stays under 30 mph",
+      "Yes, if the child is sitting down",
+      "Yes, children over 12 may ride in the bed"
+    ],
+    "answer": 0,
+    "explanation": "It is an offense to drive an open-bed truck when a child younger than 18 is in the bed. Limited defenses exist, such as parades, emergencies, and driving on a beach.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 70"
+  },
+  {
+    "id": "tx.car.023",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age to get a learner license (instruction permit) in Texas?",
+    "choices": [
+      "15",
+      "14",
+      "15 and a half",
+      "16"
+    ],
+    "answer": 0,
+    "explanation": "A learner license applicant must be at least 15 but under 18 and must complete the classroom portion of driver education, a vision exam, and a knowledge exam.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 7"
+  },
+  {
+    "id": "tx.car.024",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Who may supervise a Texas learner license holder while they practice driving?",
+    "choices": [
+      "A licensed driver at least 21 with at least one year of driving experience, seated beside the driver",
+      "Any licensed driver 18 or older, seated anywhere in the car",
+      "Any licensed driver 16 or older",
+      "Only a certified driving instructor"
+    ],
+    "answer": 0,
+    "explanation": "The supervising driver must be at least 21, have at least one year of driving experience, sit beside the learner, and be alert (not intoxicated or asleep).",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 7"
+  },
+  {
+    "id": "tx.car.025",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long must a Texas teen hold a learner license before getting a provisional license?",
+    "choices": [
+      "At least 6 months",
+      "At least 3 months",
+      "At least 9 months",
+      "At least 12 months"
+    ],
+    "answer": 0,
+    "explanation": "Phase One of the Texas Graduated Driver License program requires holding a learner (or hardship) license for at least six months before a provisional license is issued.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 8"
+  },
+  {
+    "id": "tx.car.026",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A teen's learner license is suspended for 20 days during Phase One. What happens to the six-month learner period?",
+    "choices": [
+      "It is extended by 20 days",
+      "It starts over from the beginning",
+      "It is not affected",
+      "It is extended by six months"
+    ],
+    "answer": 0,
+    "explanation": "If a learner license is suspended during Phase One, the six-month period is extended by the number of days of the suspension, because the license was invalid during that time.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 8"
+  },
+  {
+    "id": "tx.car.027",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age for a provisional driver license in Texas?",
+    "choices": [
+      "16",
+      "15",
+      "16 and a half",
+      "17"
+    ],
+    "answer": 0,
+    "explanation": "A provisional license is issued to drivers 16 to 18 who completed driver education, passed the vision and driving exams, and held a learner license for at least six months.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 9"
+  },
+  {
+    "id": "tx.car.028",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During which hours are Texas provisional license holders generally prohibited from driving?",
+    "choices": [
+      "Midnight to 5:00 a.m.",
+      "11:00 p.m. to 5:00 a.m.",
+      "10:00 p.m. to 6:00 a.m.",
+      "1:00 a.m. to 5:00 a.m."
+    ],
+    "answer": 0,
+    "explanation": "Phase Two drivers may not drive between midnight and 5:00 a.m. unless it is necessary for work, a school-related activity, or a medical emergency.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 9"
+  },
+  {
+    "id": "tx.car.029",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 17-year-old with a provisional license drives home from her job at 12:45 a.m. Is this allowed?",
+    "choices": [
+      "Yes, driving that is necessary for work is an exception to the curfew",
+      "No, provisional drivers may never drive after midnight",
+      "Only if a parent is in the car",
+      "Only on weekends"
+    ],
+    "answer": 0,
+    "explanation": "The midnight-to-5 a.m. restriction has exceptions for driving necessary for work, a school-related activity, or a medical emergency.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 9"
+  },
+  {
+    "id": "tx.car.030",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Texas provisional license holder may not drive with more than how many passengers under 21 who are not family members?",
+    "choices": [
+      "One",
+      "None",
+      "Two",
+      "Three"
+    ],
+    "answer": 0,
+    "explanation": "A provisional driver may not drive with more than one passenger under 21 who is not a family member. Family members do not count toward this limit.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 9"
+  },
+  {
+    "id": "tx.car.031",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old provisional driver wants to drive two friends, ages 16 and 19, to the mall. Neither is a family member. Is this allowed?",
+    "choices": [
+      "No, that is more than one non-family passenger under 21",
+      "Yes, because both passengers are licensed",
+      "Yes, because it is during daytime",
+      "Yes, because one passenger is over 18"
+    ],
+    "answer": 0,
+    "explanation": "Two non-family passengers under 21 exceed the one-passenger limit for provisional drivers. Being over 18 does not matter; the limit covers non-family passengers under 21.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 9"
+  },
+  {
+    "id": "tx.car.032",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "When does a Texas provisional license expire?",
+    "choices": [
+      "On the holder's 18th birthday",
+      "One year after it is issued",
+      "On the holder's 21st birthday",
+      "Two years after it is issued"
+    ],
+    "answer": 0,
+    "explanation": "A provisional license is marked \"PROVISIONAL\" and expires on the holder's 18th birthday. The Phase Two restrictions apply until then.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 9"
+  },
+  {
+    "id": "tx.car.033",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Before getting a Texas provisional license, how much behind-the-wheel practice must a teen complete with a licensed driver 21 or older?",
+    "choices": [
+      "30 hours, including at least 10 hours at night",
+      "50 hours, including at least 10 hours at night",
+      "20 hours, including at least 5 hours at night",
+      "40 hours, including at least 15 hours at night"
+    ],
+    "answer": 0,
+    "explanation": "Texas requires 30 hours of behind-the-wheel practice, at least 10 of them at night, with a licensed driver 21 or older. This is in addition to 7 hours of observation and 7 hours of in-car instruction.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas DPS, Texas Provisional License as a Teen (dps.texas.gov)"
+  },
+  {
+    "id": "tx.car.034",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "In Texas, who must complete an approved driver education course to get a driver license?",
+    "choices": [
+      "Applicants younger than 25",
+      "Only applicants younger than 18",
+      "Only applicants younger than 21",
+      "Every applicant, regardless of age"
+    ],
+    "answer": 0,
+    "explanation": "Under the Less Tears More Years Act, all first-time applicants younger than 25 must complete an approved driver education course.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 13"
+  },
+  {
+    "id": "tx.car.035",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What score must you get to pass a Texas knowledge (written) exam?",
+    "choices": [
+      "70 percent or better",
+      "80 percent or better",
+      "75 percent or better",
+      "85 percent or better"
+    ],
+    "answer": 0,
+    "explanation": "You must score a grade of 70 percent or better to pass any Texas knowledge exam.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 13"
+  },
+  {
+    "id": "tx.car.036",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You fail your first Texas knowledge exam. How long is your license application held?",
+    "choices": [
+      "90 days; after 90 days or three failed exams, you need a new application and fee",
+      "30 days; then you must start over",
+      "One year",
+      "7 days; after that you may only retest once"
+    ],
+    "answer": 0,
+    "explanation": "If you do not pass on the first attempt, your application is held for 90 days. After 90 days or three failed exams, a new application and fee are required.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 13"
+  },
+  {
+    "id": "tx.car.037",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What are the minimum liability insurance amounts required in Texas?",
+    "choices": [
+      "$30,000 per person, $60,000 per crash for injuries, and $25,000 for property damage",
+      "$25,000 per person, $50,000 per crash for injuries, and $25,000 for property damage",
+      "$15,000 per person, $30,000 per crash for injuries, and $5,000 for property damage",
+      "$50,000 per person, $100,000 per crash for injuries, and $50,000 for property damage"
+    ],
+    "answer": 0,
+    "explanation": "Texas requires at least $30,000 for injury or death of one person, $60,000 for injury or death of two or more people, and $25,000 for property damage (often written 30/60/25).",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 24"
+  },
+  {
+    "id": "tx.car.038",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum property damage liability coverage required in Texas?",
+    "choices": [
+      "$25,000",
+      "$10,000",
+      "$30,000",
+      "$60,000"
+    ],
+    "answer": 0,
+    "explanation": "The Texas minimum for property damage is $25,000. The $30,000 and $60,000 amounts are for bodily injury or death.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 24"
+  },
+  {
+    "id": "tx.car.039",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the fine for a first conviction of driving without proof of financial responsibility (insurance) in Texas?",
+    "choices": [
+      "$175 to $350",
+      "$50 to $100",
+      "$350 to $1,000",
+      "Up to $2,000"
+    ],
+    "answer": 0,
+    "explanation": "A first conviction carries a fine of $175 to $350. A second or later conviction brings a $350 to $1,000 fine, a license suspension, and possible vehicle impoundment.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 24"
+  },
+  {
+    "id": "tx.car.040",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "After moving to a new address in Texas, how soon must you report the change to DPS?",
+    "choices": [
+      "Within 30 days",
+      "Within 10 days",
+      "Within 60 days",
+      "At your next license renewal"
+    ],
+    "answer": 0,
+    "explanation": "A change of address must be reported to DPS within 30 days. It can often be done online.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 15"
+  },
+  {
+    "id": "tx.car.041",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "After a hearing, Texas DPS may suspend a license for repeated traffic violations. Which driving record can lead to this?",
+    "choices": [
+      "Four or more traffic convictions within 12 months",
+      "Two traffic convictions within 24 months for an adult",
+      "Any single speeding ticket",
+      "Three parking tickets in one year"
+    ],
+    "answer": 0,
+    "explanation": "DPS may suspend a license after a hearing for four or more separate traffic convictions within any 12-month period, or seven or more within any 24-month period.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 17"
+  },
+  {
+    "id": "tx.car.042",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 17-year-old Texas driver is convicted of two separate traffic violations within 12 months. What can happen?",
+    "choices": [
+      "DPS may suspend the license after a hearing",
+      "Nothing until the driver has four convictions",
+      "The license is automatically revoked for 5 years",
+      "The driver must retake driver education only"
+    ],
+    "answer": 0,
+    "explanation": "For a driver under 18, two or more traffic convictions occurring separately within any 12-month period are grounds for suspension after a hearing.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 18"
+  },
+  {
+    "id": "tx.car.043",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You just bought a vehicle. How soon must you register it in Texas?",
+    "choices": [
+      "Within 30 days of purchase",
+      "Within 10 days of purchase",
+      "Within 60 days of purchase",
+      "Within 90 days of purchase"
+    ],
+    "answer": 0,
+    "explanation": "An owner must register a newly purchased vehicle within 30 days of purchase in the county where they live.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 22"
+  },
+  {
+    "id": "tx.car.044",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You move to Texas from another state and bring your car. How long may you drive it before it must be registered in Texas?",
+    "choices": [
+      "30 days",
+      "60 days",
+      "90 days",
+      "6 months"
+    ],
+    "answer": 0,
+    "explanation": "When a nonresident becomes a Texas resident or takes a job in Texas, the vehicle may be operated for 30 days. After that, it must be registered in Texas.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 23"
+  },
+  {
+    "id": "tx.car.045",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How often must a vehicle registered in Texas pass a safety inspection?",
+    "choices": [
+      "Every year",
+      "Every two years",
+      "Only when it is sold",
+      "Only when it is first registered"
+    ],
+    "answer": 0,
+    "explanation": "All motor vehicles registered in Texas, including motorcycles and mopeds, must be inspected each year at an official inspection station.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 21"
+  },
+  {
+    "id": "tx.car.046",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How often must a standard Texas driver license be renewed?",
+    "choices": [
+      "Every 8 years",
+      "Every 4 years",
+      "Every 6 years",
+      "Every 10 years"
+    ],
+    "answer": 0,
+    "explanation": "A Texas driver license must be renewed every eight years. You must appear in person at least once every 16 years for a vision exam and a new photo.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 16"
+  },
+  {
+    "id": "tx.car.047",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum tire tread depth required on vehicles in Texas?",
+    "choices": [
+      "2/32 of an inch",
+      "4/32 of an inch",
+      "1/16 of an inch",
+      "6/32 of an inch"
+    ],
+    "answer": 0,
+    "explanation": "All vehicles must have tires in safe condition with a minimum tread depth of 2/32 of an inch.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 21"
+  },
+  {
+    "id": "tx.car.048",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are on a two-lane road that meets a four-lane road at an intersection with no signs or signals. Who must yield?",
+    "choices": [
+      "You, on the two-lane road",
+      "Traffic on the four-lane road",
+      "Whoever is on the left",
+      "Whichever vehicle is larger"
+    ],
+    "answer": 0,
+    "explanation": "A driver on a single- or two-lane road that meets a divided road or a road with three or more lanes must yield to vehicles on the larger road.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 26"
+  },
+  {
+    "id": "tx.car.049",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are driving on an unpaved road that meets a paved road. Who has the right-of-way?",
+    "choices": [
+      "Vehicles on the paved road",
+      "You, on the unpaved road",
+      "Whoever arrives first",
+      "The vehicle on the right"
+    ],
+    "answer": 0,
+    "explanation": "A driver on an unpaved road that intersects a paved road must yield to vehicles traveling on the paved road.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 26"
+  },
+  {
+    "id": "tx.car.050",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are driving on a frontage road beside a Texas freeway. A car is leaving the freeway on an exit ramp that crosses your frontage road lane. Who must yield?",
+    "choices": [
+      "You, the driver on the frontage road",
+      "The car exiting the freeway",
+      "Whoever is going faster",
+      "The car on the left"
+    ],
+    "answer": 0,
+    "explanation": "A driver on a frontage road must yield to vehicles entering the frontage road from the highway and to vehicles leaving the frontage road to enter the highway.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 27"
+  },
+  {
+    "id": "tx.car.051",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "On a one-way road with three or more lanes, you are moving into the middle lane from the right lane while another car moves into the same lane from the left. Who must yield?",
+    "choices": [
+      "You, the vehicle entering from the right",
+      "The vehicle entering from the left",
+      "Whichever vehicle is slower",
+      "The two drivers may merge at the same time"
+    ],
+    "answer": 0,
+    "explanation": "On a road with three or more lanes in the same direction, a vehicle entering a lane from the right must yield to a vehicle entering the same lane from the left.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 27"
+  },
+  {
+    "id": "tx.car.052",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A fire truck answering an alarm passes you with its red lights flashing. How closely may you follow it?",
+    "choices": [
+      "No closer than 500 feet",
+      "No closer than 200 feet",
+      "No closer than 100 feet",
+      "No closer than 1,000 feet"
+    ],
+    "answer": 0,
+    "explanation": "You may not follow within 500 feet of a fire truck answering an alarm or an ambulance with its flashing red lights on.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 28"
+  },
+  {
+    "id": "tx.car.053",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are on a two-lane road (one lane each way) posted at 60 mph. A police car is stopped on the shoulder with its lights flashing. What must you do?",
+    "choices": [
+      "Slow to 40 mph or less (20 mph below the limit)",
+      "Slow to 50 mph",
+      "Keep your speed but tap your horn",
+      "Stop completely behind the police car"
+    ],
+    "answer": 0,
+    "explanation": "If you cannot move out of the lane next to a stopped emergency vehicle, you must slow to 20 mph below a posted limit of 25 mph or more. Here that means 40 mph.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 29"
+  },
+  {
+    "id": "tx.car.054",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "On a street posted at 20 mph, you approach a stopped ambulance with its lights on. How slow must you go?",
+    "choices": [
+      "Less than 5 mph",
+      "10 mph",
+      "15 mph",
+      "No change is needed under 25 mph"
+    ],
+    "answer": 0,
+    "explanation": "When the posted limit is less than 25 mph, you must slow to less than 5 mph when passing a stopped emergency vehicle with its lights activated.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 29"
+  },
+  {
+    "id": "tx.car.055",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "On a Texas highway with two lanes in your direction, a tow truck is stopped on the right shoulder with its lights flashing. What should you do?",
+    "choices": [
+      "Move out of the lane closest to the tow truck, or slow to 20 mph below the limit if you cannot",
+      "Nothing, the move-over law covers only police and ambulances",
+      "Stop in your lane until the tow truck leaves",
+      "Speed up to pass it quickly"
+    ],
+    "answer": 0,
+    "explanation": "The Texas Slow Down or Move Over law covers emergency vehicles, police, fire trucks, tow trucks, utility vehicles, and TxDOT vehicles stopped with lights on.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 52"
+  },
+  {
+    "id": "tx.car.056",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are on an undivided two-lane road. A school bus coming toward you from the opposite direction stops with red lights flashing. What must you do?",
+    "choices": [
+      "Stop, and wait until the bus moves, the driver signals you, or the lights stop flashing",
+      "Slow to 20 mph and pass carefully",
+      "Continue, because you are going the opposite direction",
+      "Stop only if children are crossing in front of you"
+    ],
+    "answer": 0,
+    "explanation": "In Texas you must stop for a school bus with alternately flashing red lights when approaching from either direction, unless it is on a different roadway.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 29"
+  },
+  {
+    "id": "tx.car.057",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are on a highway divided by a grass median. A school bus on the other side of the median stops with its red lights flashing. What must you do?",
+    "choices": [
+      "You are not required to stop, because the bus is on a different roadway",
+      "Stop until the bus turns off its lights",
+      "Slow to 20 mph below the limit and continue",
+      "Stop only if you are in the left lane"
+    ],
+    "answer": 0,
+    "explanation": "You need not stop for a school bus on a different road. Under Texas law, a highway with roadways separated by a median, barrier, or dividing section counts as separate roadways.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 29"
+  },
+  {
+    "id": "tx.car.058",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are on a four-lane street whose directions are separated only by a center left-turn lane. A school bus stops on the other side with red lights flashing. What must you do?",
+    "choices": [
+      "Stop; a center turn lane does not make it a separate roadway",
+      "Keep going; the bus is across the center lane",
+      "Slow down to 20 mph and pass",
+      "Stop only if you are in the lane closest to the center"
+    ],
+    "answer": 0,
+    "explanation": "Texas law says a highway is not considered to have separate roadways if its roadways are separated only by a left-turn lane, so traffic in both directions must stop.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Transportation Code, Sec. 545.066(b) and (f)"
+  },
+  {
+    "id": "tx.car.059",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "What is the fine range for a first conviction of illegally passing a stopped school bus in Texas?",
+    "choices": [
+      "$500 to $1,250",
+      "$100 to $200",
+      "$1,000 to $2,000",
+      "Up to $50"
+    ],
+    "answer": 0,
+    "explanation": "A first conviction carries a fine of $500 to $1,250. A second conviction within 5 years brings $1,000 to $2,000 and a possible suspension of up to six months.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 29"
+  },
+  {
+    "id": "tx.car.060",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "The light turns green, and there is no pedestrian signal at the intersection. A pedestrian is starting to cross in the crosswalk in front of you. What should you do?",
+    "choices": [
+      "Yield to the pedestrian",
+      "Go first, since you have a green light",
+      "Honk so the pedestrian waits",
+      "Proceed if the pedestrian is not yet in your lane"
+    ],
+    "answer": 0,
+    "explanation": "If there is no pedestrian control signal, give the pedestrian the right-of-way on a green light, and keep yielding even if the light changes after they enter the crosswalk.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 29"
+  },
+  {
+    "id": "tx.car.061",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A railroad crossing signal is flashing. Where should you stop?",
+    "choices": [
+      "Between 15 and 50 feet from the nearest rail",
+      "Between 5 and 10 feet from the nearest rail",
+      "Right next to the crossing gate, as close as possible",
+      "At least 100 feet from the nearest rail"
+    ],
+    "answer": 0,
+    "explanation": "When a signal, lowered gate, flagger, or approaching train requires you to stop, stop between 15 and 50 feet from the nearest rail.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 27"
+  },
+  {
+    "id": "tx.car.062",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are stopped at a steady red light and want to turn right. No sign prohibits it. What may you do in Texas?",
+    "choices": [
+      "Turn right after stopping, yielding to pedestrians and other traffic",
+      "Turn right without stopping if the way is clear",
+      "Wait for the green light",
+      "Turn right only if a green arrow appears"
+    ],
+    "answer": 0,
+    "explanation": "At a steady red light, stop before the crosswalk or intersection, then you may turn right unless prohibited, yielding to pedestrians and other traffic.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 31"
+  },
+  {
+    "id": "tx.car.063",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "When may you turn left on a steady red light in Texas?",
+    "choices": [
+      "When turning from a one-way street onto another one-way street, after stopping, unless prohibited",
+      "From any street, after stopping, if no traffic is coming",
+      "Never",
+      "Only from a two-way street onto a one-way street"
+    ],
+    "answer": 0,
+    "explanation": "A left turn on red is allowed only if both streets are one-way, after a complete stop and yielding, unless a sign prohibits it.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 31"
+  },
+  {
+    "id": "tx.car.064",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "How far before turning must you signal continuously in Texas?",
+    "choices": [
+      "At least 100 feet",
+      "At least 50 feet",
+      "At least 200 feet",
+      "At least 300 feet"
+    ],
+    "answer": 0,
+    "explanation": "Signal continuously for at least 100 feet before turning or stopping, and turn your signal off after the turn.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 44"
+  },
+  {
+    "id": "tx.car.065",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are inside a roundabout's circle when an ambulance with its siren on approaches. What should you do?",
+    "choices": [
+      "Continue out of the circle, then pull over",
+      "Stop immediately inside the circle",
+      "Stop and reverse out of the circle",
+      "Speed up and keep circling"
+    ],
+    "answer": 0,
+    "explanation": "Do not stop for emergency vehicles in the roundabout circle. Clear the circle first, then pull over.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 56"
+  },
+  {
+    "id": "tx.car.066",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "Within what distance of an intersection, railroad crossing, bridge, or tunnel are you prohibited from driving on the left side of the road?",
+    "choices": [
+      "100 feet",
+      "50 feet",
+      "200 feet",
+      "500 feet"
+    ],
+    "answer": 0,
+    "explanation": "Never drive on the left side of the road within 100 feet of an intersection or railroad crossing, or within 100 feet of a bridge, viaduct, or tunnel.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 44"
+  },
+  {
+    "id": "tx.car.067",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "The car ahead of you on a two-lane highway is stopped, waiting to turn left. When may you pass it on the right in Texas?",
+    "choices": [
+      "You may pass on a paved shoulder if it is safe",
+      "Never; you must wait behind it",
+      "You may drive onto the unpaved shoulder or grass to pass",
+      "Only if the driver waves you around"
+    ],
+    "answer": 0,
+    "explanation": "You may pass on a paved shoulder when the vehicle ahead is slowing or stopped on the main road, disabled, or preparing to turn left. Never pass on the right by leaving the pavement.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 45"
+  },
+  {
+    "id": "tx.car.068",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "You see a sign saying the left lane is for passing only. You are driving slower than other traffic. Where should you drive?",
+    "choices": [
+      "In a lane other than the farthest left lane",
+      "In the left lane if you are at the speed limit",
+      "On the shoulder",
+      "In any lane you prefer"
+    ],
+    "answer": 0,
+    "explanation": "On roads with more than one lane in the same direction, slower traffic should travel in a lane other than the farthest left lane, which is for passing only.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 37"
+  },
+  {
+    "id": "tx.car.069",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless another limit is posted, what is the speed limit in a Texas urban district?",
+    "choices": [
+      "30 mph",
+      "25 mph",
+      "35 mph",
+      "20 mph"
+    ],
+    "answer": 0,
+    "explanation": "The Texas speed limit in an urban district is 30 mph unless a different limit is posted.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 52"
+  },
+  {
+    "id": "tx.car.070",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the speed limit in an alley in Texas?",
+    "choices": [
+      "15 mph",
+      "10 mph",
+      "20 mph",
+      "25 mph"
+    ],
+    "answer": 0,
+    "explanation": "The speed limit in an alley is 15 mph. The same 15 mph limit applies on beaches and county roads next to a public beach when declared by the county.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 52"
+  },
+  {
+    "id": "tx.car.071",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the maximum speed limit for a passenger car on a Texas or U.S.-numbered highway outside an urban district, unless otherwise posted?",
+    "choices": [
+      "70 mph",
+      "65 mph",
+      "60 mph",
+      "75 mph"
+    ],
+    "answer": 0,
+    "explanation": "On highways numbered by Texas or the U.S. outside an urban district, including Farm to Market and Ranch to Market roads, the limit for passenger cars is 70 mph.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 52"
+  },
+  {
+    "id": "tx.car.072",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the speed limit for a passenger car on a rural highway that is NOT numbered by Texas or the U.S., unless otherwise posted?",
+    "choices": [
+      "60 mph",
+      "70 mph",
+      "55 mph",
+      "50 mph"
+    ],
+    "answer": 0,
+    "explanation": "Outside an urban district, the limit is 60 mph on highways not numbered by Texas or the U.S., and 70 mph on numbered highways.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 52"
+  },
+  {
+    "id": "tx.car.073",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Some Texas limited-access highways are posted with speed limits up to what speed?",
+    "choices": [
+      "85 mph",
+      "75 mph",
+      "80 mph",
+      "90 mph"
+    ],
+    "answer": 0,
+    "explanation": "Many Texas limited-access highways have posted speed limits of 75 mph up to 85 mph. Always obey the posted limit.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 52"
+  },
+  {
+    "id": "tx.car.074",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "In good conditions at speeds above 30 mph, what following distance does the Texas handbook say to keep?",
+    "choices": [
+      "4 seconds",
+      "2 seconds",
+      "3 seconds",
+      "6 seconds"
+    ],
+    "answer": 0,
+    "explanation": "For speeds above 30 mph, keep a 4-second gap in good road conditions. At 30 mph or less, the minimum is 2 seconds. Allow more time in poor conditions.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 51"
+  },
+  {
+    "id": "tx.car.075",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are driving 25 mph on a dry city street. What is the minimum following time the Texas handbook recommends?",
+    "choices": [
+      "2 seconds",
+      "4 seconds",
+      "1 second",
+      "5 seconds"
+    ],
+    "answer": 0,
+    "explanation": "At speeds of 30 mph or less in good conditions, the minimum following time is 2 seconds. Above 30 mph it is 4 seconds.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 51"
+  },
+  {
+    "id": "tx.car.076",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "The posted limit is 70 mph, but heavy fog limits how far you can see. What does the Texas basic speed law require?",
+    "choices": [
+      "Drive slower than 70 mph, at a speed that is safe for the conditions",
+      "Drive 70 mph, since that is the legal limit",
+      "Drive no slower than 60 mph to avoid being rear-ended",
+      "Turn on your hazard lights and keep your speed"
+    ],
+    "answer": 0,
+    "explanation": "The basic speed law says you may not drive faster than is safe and prudent for existing conditions, regardless of the posted speed limit.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 77"
+  },
+  {
+    "id": "tx.car.077",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "When is the reduced speed on a Texas school zone sign in effect?",
+    "choices": [
+      "When the yellow light on the sign is flashing",
+      "Only between 7 a.m. and 9 a.m.",
+      "Only when children are visible",
+      "At all times, every day"
+    ],
+    "answer": 0,
+    "explanation": "The speed shown on a school zone sign is in effect when the sign's yellow light is flashing.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 37"
+  },
+  {
+    "id": "tx.car.078",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "According to the Texas handbook, what should you do if you cannot or do not want to drive at or above a highway's posted minimum speed?",
+    "choices": [
+      "Do not use that highway",
+      "Drive in the left lane with your hazard lights on",
+      "Drive on the shoulder",
+      "Use the highway only at night"
+    ],
+    "answer": 0,
+    "explanation": "Drivers must obey posted minimum speed limits. If you cannot or do not want to drive at or above the minimum, do not use the highway.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 53"
+  },
+  {
+    "id": "tx.car.079",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Traffic fines double in a Texas construction or maintenance work zone under what condition?",
+    "choices": [
+      "When workers are present",
+      "Only at night",
+      "Only on interstate highways",
+      "At all times, even with no workers"
+    ],
+    "answer": 0,
+    "explanation": "Fines double for violations in a construction or maintenance work zone when workers are present anywhere in the zone.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 43"
+  },
+  {
+    "id": "tx.car.080",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When must you drive with your headlights on in Texas?",
+    "choices": [
+      "From 30 minutes after sunset to 30 minutes before sunrise",
+      "From sunset to sunrise only",
+      "From 1 hour after sunset to 1 hour before sunrise",
+      "Only when streetlights are off"
+    ],
+    "answer": 0,
+    "explanation": "Headlights are required from 30 minutes after sunset until 30 minutes before sunrise, and any time people or vehicles cannot be seen clearly for at least 1,000 feet.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 53"
+  },
+  {
+    "id": "tx.car.081",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "During the day, heavy rain makes it hard to see. Texas law requires headlights when you cannot clearly see people or vehicles at what distance?",
+    "choices": [
+      "1,000 feet",
+      "500 feet",
+      "300 feet",
+      "2,000 feet"
+    ],
+    "answer": 0,
+    "explanation": "You must use headlights any time individuals or vehicles cannot be seen clearly for at least 1,000 feet, even during daylight.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 53"
+  },
+  {
+    "id": "tx.car.082",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You are using high beams at night. When must you switch to low beams for an oncoming vehicle?",
+    "choices": [
+      "Within 500 feet of the vehicle",
+      "Within 300 feet of the vehicle",
+      "Within 1,000 feet of the vehicle",
+      "Within 200 feet of the vehicle"
+    ],
+    "answer": 0,
+    "explanation": "Use low beams when within 500 feet of an approaching vehicle.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 53"
+  },
+  {
+    "id": "tx.car.083",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You are following another vehicle at night. Within what distance must you use your low beams?",
+    "choices": [
+      "300 feet",
+      "500 feet",
+      "200 feet",
+      "100 feet"
+    ],
+    "answer": 0,
+    "explanation": "Use low beams when following within 300 feet behind another vehicle. The 500-foot rule is for oncoming vehicles.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 53"
+  },
+  {
+    "id": "tx.car.084",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "A driver ignores a barricade placed where water is over the road and drives through. What is this offense in Texas?",
+    "choices": [
+      "A Class B misdemeanor, with a fine of up to $2,000 and/or up to 180 days in jail",
+      "A minor traffic ticket of up to $200",
+      "No offense if the vehicle makes it through",
+      "A warning on a first offense"
+    ],
+    "answer": 0,
+    "explanation": "Driving around a warning sign or barricade placed where water covers the road is a Class B misdemeanor: up to $2,000 fine and/or up to 180 days in jail. Turn Around Don't Drown.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 43"
+  },
+  {
+    "id": "tx.car.085",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Texas, how close to a fire hydrant may you park?",
+    "choices": [
+      "No closer than 15 feet",
+      "No closer than 10 feet",
+      "No closer than 20 feet",
+      "No closer than 30 feet"
+    ],
+    "answer": 0,
+    "explanation": "Do not park or let a vehicle stand within 15 feet of a fire hydrant, whether or not the vehicle is occupied.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 48"
+  },
+  {
+    "id": "tx.car.086",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You are parking near a corner. How close may you park to a crosswalk at an intersection?",
+    "choices": [
+      "No closer than 20 feet",
+      "No closer than 15 feet",
+      "No closer than 30 feet",
+      "No closer than 10 feet"
+    ],
+    "answer": 0,
+    "explanation": "Do not park or stand within 20 feet of a crosswalk at an intersection.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 48"
+  },
+  {
+    "id": "tx.car.087",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How close may you park on the approach to a stop sign located at the side of the road?",
+    "choices": [
+      "No closer than 30 feet",
+      "No closer than 15 feet",
+      "No closer than 20 feet",
+      "No closer than 50 feet"
+    ],
+    "answer": 0,
+    "explanation": "Do not park within 30 feet on the approach to a flashing signal, stop sign, yield sign, or other traffic control signal at the side of the road.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 48"
+  },
+  {
+    "id": "tx.car.088",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How close may you park to the nearest rail of a railroad crossing in Texas?",
+    "choices": [
+      "No closer than 50 feet",
+      "No closer than 15 feet",
+      "No closer than 30 feet",
+      "No closer than 100 feet"
+    ],
+    "answer": 0,
+    "explanation": "Do not park a vehicle, occupied or not, within 50 feet of the nearest rail of a railroad crossing.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 48"
+  },
+  {
+    "id": "tx.car.089",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You want to park on the side of the street opposite a fire station entrance. How far from the entrance must you be?",
+    "choices": [
+      "At least 75 feet",
+      "At least 20 feet",
+      "At least 15 feet",
+      "At least 50 feet"
+    ],
+    "answer": 0,
+    "explanation": "Do not park within 20 feet of a fire station driveway entrance on the same side, or within 75 feet of the entrance on the opposite side of the street.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 48"
+  },
+  {
+    "id": "tx.car.090",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "When you parallel park on a two-way street in Texas, how far may your curb-side wheels be from the curb?",
+    "choices": [
+      "No more than 18 inches",
+      "No more than 12 inches",
+      "No more than 24 inches",
+      "No more than 6 inches"
+    ],
+    "answer": 0,
+    "explanation": "Do not park more than 18 inches from the curb or edge of the road. Aim for about six inches.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 50"
+  },
+  {
+    "id": "tx.car.091",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "What is the fine for a first offense of illegally parking in a space reserved for people with disabilities in Texas?",
+    "choices": [
+      "$500 to $750",
+      "$100 to $200",
+      "$50",
+      "$1,000 to $1,250"
+    ],
+    "answer": 0,
+    "explanation": "Illegally parking in a disabled space is a misdemeanor with a fine of $500 to $750 for the first offense. Fines rise to $1,250 for five or more offenses, plus community service.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 48"
+  },
+  {
+    "id": "tx.car.092",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "How much following distance does the Texas handbook recommend when you are behind a motorcycle?",
+    "choices": [
+      "At least 4 to 6 seconds",
+      "At least 2 seconds",
+      "At least 1 car length",
+      "At least 10 seconds"
+    ],
+    "answer": 0,
+    "explanation": "Allow more following distance behind a motorcycle, at least four to six seconds, so the rider has time to maneuver or stop in an emergency.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 59"
+  },
+  {
+    "id": "tx.car.093",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A bicyclist is riding in an outside lane that is less than 14 feet wide with no bike lane next to it. Which is true in Texas?",
+    "choices": [
+      "The cyclist does not have to stay at the far right of the lane",
+      "The cyclist must ride on the sidewalk",
+      "The cyclist must stay within 3 feet of the curb",
+      "The cyclist must get off the road and walk the bike"
+    ],
+    "answer": 0,
+    "explanation": "A slower-moving cyclist normally rides near the right edge. That rule does not apply in an outside lane less than 14 feet wide without an adjacent bike lane, or in a lane too narrow to share side by side.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 68"
+  },
+  {
+    "id": "tx.car.094",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You are in a crash that no officer investigates, and a written crash report is required. By when must it be filed with TxDOT?",
+    "choices": [
+      "No later than the 10th day after the crash",
+      "Within 24 hours",
+      "Within 30 days",
+      "Within 60 days"
+    ],
+    "answer": 0,
+    "explanation": "When a written report is required for a crash no officer investigated, it must be on a TxDOT form and filed with TxDOT no later than the 10th day after the crash.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 65"
+  },
+  {
+    "id": "tx.car.095",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "After a crash, in which situation should you notify law enforcement as soon as possible?",
+    "choices": [
+      "Someone is injured, or the vehicles cannot be moved off the roadway",
+      "Only if you think the crash was your fault",
+      "Only if the damage is over $5,000",
+      "Never, if both drivers exchange insurance information"
+    ],
+    "answer": 0,
+    "explanation": "Notify law enforcement as soon as possible when there is an injury or death, the vehicles cannot be moved off the road, a driver leaves the scene, or you suspect a driver is intoxicated.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 65"
+  },
+  {
+    "id": "tx.car.096",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You have a minor crash on a freeway main lane. No one is hurt and both cars can be driven safely. What does Texas law require?",
+    "choices": [
+      "Move the vehicles as soon as possible to a safe place such as the frontage road or nearest cross street",
+      "Leave the cars exactly where they stopped until police arrive",
+      "Stay in your car in the lane with hazard lights on",
+      "Drive home and report it later"
+    ],
+    "answer": 0,
+    "explanation": "If a damage-only crash happens on a main lane, ramp, shoulder, or median and each vehicle can be driven safely, drivers must move them as soon as possible to a crash investigation site, the frontage road, the nearest suitable cross street, or another suitable location.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 65"
+  },
+  {
+    "id": "tx.car.097",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You back into a parked car and the owner is nowhere to be found. What must you do in Texas?",
+    "choices": [
+      "Stop and leave a securely attached written note with your name, address, and what happened",
+      "Leave, since no one saw it",
+      "Wait one hour, then leave",
+      "Report it only if the damage is over $1,000"
+    ],
+    "answer": 0,
+    "explanation": "If you damage an unattended vehicle, stop and either find the owner or securely attach a visible written notice with your name, address, and a statement of the circumstances.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 66"
+  },
+  {
+    "id": "tx.car.098",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "On a multi-lane highway in Texas, which lane should you use if you are driving at the posted minimum speed or slower than the normal flow?",
+    "choices": [
+      "The right lane",
+      "The left lane",
+      "The middle lane",
+      "The shoulder"
+    ],
+    "answer": 0,
+    "explanation": "Use the right lane to drive at the minimum posted speed or below the normal flow of traffic. Use the middle or left lane to travel faster or to pass.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 53"
+  },
+  {
+    "id": "tx.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "In Texas, which motorcycle riders must always wear a helmet?",
+    "choices": [
+      "All riders and passengers under 21",
+      "All riders, regardless of age",
+      "Only riders under 18",
+      "Only passengers"
+    ],
+    "answer": 0,
+    "explanation": "Texas requires approved protective headgear for operators and passengers. Only people 21 or older who completed a training course or have qualifying health insurance are exempt.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Transportation Code, Sec. 661.003"
+  },
+  {
+    "id": "tx.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 30-year-old Texas rider wants to ride without a helmet. When is that legally allowed?",
+    "choices": [
+      "If they completed a motorcycle operator training course or have health insurance covering motorcycle crash injuries",
+      "Any time, because they are over 21",
+      "Only on roads posted at 45 mph or less",
+      "Never; all riders must wear helmets"
+    ],
+    "answer": 0,
+    "explanation": "A rider 21 or older is exempt from the helmet requirement only if they have completed a motorcycle operator training and safety course or are covered by health insurance for motorcycle crash injuries.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Transportation Code, Sec. 661.003"
+  },
+  {
+    "id": "tx.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Is lane splitting (riding between lanes of traffic moving in the same direction) legal in Texas?",
+    "choices": [
+      "No, it is prohibited",
+      "Yes, at speeds under 30 mph",
+      "Yes, when traffic is stopped",
+      "Yes, on highways with three or more lanes"
+    ],
+    "answer": 0,
+    "explanation": "Since September 1, 2023, Texas law says a motorcyclist may not operate between lanes of traffic moving in the same direction.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Transportation Code, Sec. 545.0605"
+  },
+  {
+    "id": "tx.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "In Texas, how many motorcycles may ride side by side in a single lane?",
+    "choices": [
+      "No more than two",
+      "No more than three",
+      "Only one",
+      "Any number if they fit"
+    ],
+    "answer": 0,
+    "explanation": "A motorcyclist may ride two abreast in a single lane with another motorcycle, but not more than two abreast. Riders also may not pass a vehicle in the same lane.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Transportation Code, Sec. 545.0605"
+  },
+  {
+    "id": "tx.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What must you complete before applying for a Class M (motorcycle) license in Texas?",
+    "choices": [
+      "A state-approved motorcycle operator training course",
+      "Six months with a motorcycle learner license",
+      "A 50-hour supervised riding log",
+      "Nothing beyond the written test"
+    ],
+    "answer": 0,
+    "explanation": "Before applying for a Class M license in Texas, you must pass a state-approved motorcycle operator training course.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 10"
+  },
+  {
+    "id": "tx.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "You complete a state-approved motorcycle operator training course and show proof. What happens with the Class M knowledge exam?",
+    "choices": [
+      "It is waived",
+      "You must still take it at a DPS office",
+      "You must take it twice",
+      "You take it after the skills test"
+    ],
+    "answer": 0,
+    "explanation": "The Class M knowledge exam is waived for applicants who complete a state-approved motorcycle operator training course and present proof of completion.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 13"
+  },
+  {
+    "id": "tx.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 15-year-old in Texas qualifies for a motorcycle license. What engine size limit applies?",
+    "choices": [
+      "250 cc or less",
+      "500 cc or less",
+      "125 cc or less",
+      "No limit"
+    ],
+    "answer": 0,
+    "explanation": "At age 15, a Texas rider may be licensed only for a motorcycle of 250 cc or less. The limit can be removed at 16 by passing a DPS skills test.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 11"
+  },
+  {
+    "id": "tx.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 17-year-old completes a motorcycle training course and has a Texas driver license. Must they take a motorcycle driving (skills) exam?",
+    "choices": [
+      "Yes, applicants under 18 must pass the motorcycle driving exam",
+      "No, the course replaces the exam for all ages",
+      "No, a Class C license holder never needs it",
+      "Only if they want to carry passengers"
+    ],
+    "answer": 0,
+    "explanation": "The skills test is waived for adults with a valid unrestricted Texas license who complete the course, but individuals younger than 18 must pass the motorcycle driving exam.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 14"
+  },
+  {
+    "id": "tx.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Where must the Texas registration sticker be displayed on a motorcycle?",
+    "choices": [
+      "On the rear license plate",
+      "On the front fork",
+      "On the windshield",
+      "On the fuel tank"
+    ],
+    "answer": 0,
+    "explanation": "The registration sticker goes on the windshield of most vehicles, but on the rear license plate of a motorcycle or moped.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 22"
+  },
+  {
+    "id": "tx.mc.010",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Which Texas license allows you to drive an autocycle (a three-wheeled vehicle with a steering wheel and non-straddle seats), but not a motorcycle?",
+    "choices": [
+      "Class C",
+      "Class M",
+      "Class A only",
+      "A learner license only"
+    ],
+    "answer": 0,
+    "explanation": "An autocycle may be driven with a Class C license. A Class C license does not permit driving a motorcycle; that requires Class M.",
+    "states": [
+      "TX"
+    ],
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 10"
+  }
+]

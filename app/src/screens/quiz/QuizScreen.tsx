@@ -72,13 +72,6 @@ export function QuizScreen({navigation, route}: RootScreenProps<'Quiz'>) {
     [],
   );
 
-  // Navigate once prevention is off (state update re-rendered with done != null).
-  useEffect(() => {
-    if (done) {
-      navigation.replace('Results', done);
-    }
-  }, [done, navigation]);
-
   useEffect(
     () => () => {
       if (advanceTimer.current) {
@@ -95,6 +88,10 @@ export function QuizScreen({navigation, route}: RootScreenProps<'Quiz'>) {
   const hasProgress = answeredCount > 0 || isExam;
   usePreventRemove(!done && total > 0 && hasProgress, ({data}) => {
     const leave = () => navigation.dispatch(data.action);
+    if (finishing.current) {
+      leave(); // the session is over: going to Results must never be blocked
+      return;
+    }
     if (isExam) {
       Alert.alert('Leave the exam?', 'This attempt will not be scored or saved.', [
         {text: 'Keep going', style: 'cancel'},
@@ -113,6 +110,13 @@ export function QuizScreen({navigation, route}: RootScreenProps<'Quiz'>) {
       ]);
     }
   });
+
+  // Declared after usePreventRemove so the guard has already been lifted when this runs.
+  useEffect(() => {
+    if (done) {
+      navigation.replace('Results', done);
+    }
+  }, [done, navigation]);
 
   useLayoutEffect(() => {
     navigation.setOptions({
