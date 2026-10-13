@@ -1,0 +1,2092 @@
+[
+  {
+    "id": "ca.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In California, a driver who is 21 or older is breaking the law at what blood alcohol concentration (BAC)?",
+    "choices": [
+      "0.08% or higher",
+      "0.10% or higher",
+      "0.05% or higher",
+      "0.12% or higher"
+    ],
+    "answer": 0,
+    "explanation": "California's limit for drivers 21 and older is 0.08% BAC. You can still be arrested for DUI below that level if your driving is impaired.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 79"
+  },
+  {
+    "id": "ca.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 19-year-old driver in California has a BAC of 0.02%. What does the law say?",
+    "choices": [
+      "It is legal, because it is below 0.05%",
+      "It is illegal, because the limit for drivers under 21 is 0.01%",
+      "It is legal, because it is below 0.08%",
+      "It is illegal only if the driver also fails a field sobriety test"
+    ],
+    "answer": 1,
+    "explanation": "Drivers under 21 may not drive with a BAC of 0.01% or higher. A BAC of 0.02% is over that limit.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 79"
+  },
+  {
+    "id": "ca.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the BAC limit for someone driving a vehicle that requires a commercial driver's license in California?",
+    "choices": [
+      "0.08%",
+      "0.02%",
+      "0.04%",
+      "0.06%"
+    ],
+    "answer": 2,
+    "explanation": "The limit is 0.04% when you drive a vehicle that requires a commercial license, half the 0.08% limit for other adult drivers.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 79"
+  },
+  {
+    "id": "ca.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A California officer suspects you of DUI and asks you to take a chemical test. What happens if you refuse?",
+    "choices": [
+      "Nothing, because the test is optional",
+      "You get a warning the first time",
+      "Your license is suspended for 30 days",
+      "DMV will suspend or revoke your driving privilege for one year"
+    ],
+    "answer": 3,
+    "explanation": "By driving in California you have consented to chemical testing. If you refuse, DMV will suspend or revoke your driving privilege for one year.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 78"
+  },
+  {
+    "id": "ca.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "When you are arrested for DUI in California, the officer may take your license. How long is the temporary license they give you good for?",
+    "choices": [
+      "30 days",
+      "10 days",
+      "60 days",
+      "6 months"
+    ],
+    "answer": 0,
+    "explanation": "Under the Administrative Per Se law, the officer may take your license and give you a 30-day temporary license.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 80"
+  },
+  {
+    "id": "ca.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "After a DUI arrest in California, how long do you have to ask for a DMV administrative hearing?",
+    "choices": [
+      "30 days from the date of the arrest",
+      "10 days from the date of the arrest",
+      "Until your court date",
+      "24 hours from the arrest"
+    ],
+    "answer": 1,
+    "explanation": "You may request a DMV administrative hearing within 10 days of your arrest. The 30 days is how long the temporary license lasts, not the hearing deadline.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 80"
+  },
+  {
+    "id": "ca.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What license penalty does DMV impose after a DUI conviction in California?",
+    "choices": [
+      "Suspension for 30 days",
+      "Two points with no suspension",
+      "Suspension or revocation for one year",
+      "A warning letter for a first conviction"
+    ],
+    "answer": 2,
+    "explanation": "After a DUI conviction, DMV suspends or revokes your driving privilege for one year. You must also complete a DUI program and file an SR 22/SR 1P.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 80"
+  },
+  {
+    "id": "ca.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "How long does a DUI conviction stay on your California driver record?",
+    "choices": [
+      "3 years",
+      "5 years",
+      "7 years",
+      "10 years"
+    ],
+    "answer": 3,
+    "explanation": "All DUI convictions stay on your record for 10 years. Another DUI during that time can bring extra penalties.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 80"
+  },
+  {
+    "id": "ca.car.009",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "You are bringing home a bottle of wine that has been opened. Where may it legally ride in your car?",
+    "choices": [
+      "In the trunk",
+      "In the glove box",
+      "Under the driver's seat",
+      "In the back seat cup holder"
+    ],
+    "answer": 0,
+    "explanation": "An opened container must be kept in the trunk or an area where passengers do not sit. California specifically bans keeping an open container in the glove box.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 78"
+  },
+  {
+    "id": "ca.car.010",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Your adult passenger wants to eat a cannabis edible while you drive. Is this legal in California?",
+    "choices": [
+      "Yes, as long as the driver does not eat any",
+      "No, it is illegal to smoke or eat cannabis while driving or riding as a passenger",
+      "Yes, if the passenger is 21 or older",
+      "Yes, if the windows are open"
+    ],
+    "answer": 1,
+    "explanation": "It is illegal to drink alcohol or smoke or eat cannabis while driving or riding as a passenger. Being 21 does not change this.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 78"
+  },
+  {
+    "id": "ca.car.011",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "An 18-year-old driver's preliminary alcohol screening (PAS) test shows 0.05%. What may the officer do next?",
+    "choices": [
+      "Nothing, because 0.05% is under the adult limit",
+      "Only issue a parking ticket",
+      "Require a breath or blood test",
+      "Let the driver go if a passenger can drive"
+    ],
+    "answer": 2,
+    "explanation": "For drivers under 21, a PAS of 0.05% or higher lets the officer require a breath or blood test. A later result of 0.05% or more can lead to a DUI arrest.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 3,
+    "ref": "California Driver’s Handbook, p. 81"
+  },
+  {
+    "id": "ca.car.012",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the youngest age at which you can apply for a California instruction permit?",
+    "choices": [
+      "15",
+      "16",
+      "14 and a half",
+      "15 and a half"
+    ],
+    "answer": 3,
+    "explanation": "Applicants under 18 must be at least 15½ years old, finish a driver education program, and have a parent or guardian sign.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 9"
+  },
+  {
+    "id": "ca.car.013",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "If you are under 18, how long must you hold your instruction permit before you can schedule the drive test?",
+    "choices": [
+      "At least 6 months",
+      "At least 3 months",
+      "At least 9 months",
+      "At least 12 months"
+    ],
+    "answer": 0,
+    "explanation": "Minors must hold a permit from California or another state for at least 6 months, or turn 18, before scheduling the behind-the-wheel test.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 9"
+  },
+  {
+    "id": "ca.car.014",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many hours of supervised practice must a California teen complete before getting a provisional license?",
+    "choices": [
+      "40 hours, with 10 at night",
+      "50 hours, with 10 at night",
+      "50 hours, with 15 at night",
+      "30 hours, with 5 at night"
+    ],
+    "answer": 1,
+    "explanation": "Teens must practice at least 50 hours with a licensed driver who is 25 or older. Ten of those hours must be at night.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 9"
+  },
+  {
+    "id": "ca.car.015",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old permit holder wants to practice with her 21-year-old licensed cousin. Is this allowed?",
+    "choices": [
+      "Yes, any licensed driver 18 or older may supervise",
+      "Yes, if the cousin has had a license for 3 years",
+      "No, a minor's supervising driver must be at least 25",
+      "Yes, but only in daylight"
+    ],
+    "answer": 2,
+    "explanation": "A minor must practice with a California-licensed driver who is at least 25. The 18-year minimum applies only to adult permit holders.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 9"
+  },
+  {
+    "id": "ca.car.016",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 30-year-old with a new California instruction permit practices driving. Who may supervise?",
+    "choices": [
+      "Only a driver who is at least 25",
+      "Only a licensed driving instructor",
+      "Any adult passenger, licensed or not",
+      "A California-licensed driver who is at least 18"
+    ],
+    "answer": 3,
+    "explanation": "Adult permit holders may practice with a California-licensed driver who is at least 18. The supervisor must sit close enough to take control of the vehicle.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 3,
+    "ref": "California Driver’s Handbook, p. 9"
+  },
+  {
+    "id": "ca.car.017",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age for a provisional driver's license in California?",
+    "choices": [
+      "16",
+      "15 and a half",
+      "16 and a half",
+      "17"
+    ],
+    "answer": 0,
+    "explanation": "You must be at least 16 to get a license as a minor, and you must have held your permit for at least 6 months.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 9"
+  },
+  {
+    "id": "ca.car.018",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During the first year with a provisional license, a California teen may not drive alone during which hours?",
+    "choices": [
+      "10 p.m. to 5 a.m.",
+      "11 p.m. to 5 a.m.",
+      "Midnight to 6 a.m.",
+      "9 p.m. to 6 a.m."
+    ],
+    "answer": 1,
+    "explanation": "Provisional drivers may not drive between 11 p.m. and 5 a.m. during the first 12 months, unless an exception applies.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 10"
+  },
+  {
+    "id": "ca.car.019",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old got a provisional license 4 months ago. Without an approved exception, which trip is legal?",
+    "choices": [
+      "Driving two 17-year-old friends to school with no adult",
+      "Driving home alone at 11:45 p.m.",
+      "Driving alone to work at 7 p.m.",
+      "Driving a 19-year-old sibling with no adult in the car"
+    ],
+    "answer": 2,
+    "explanation": "In the first 12 months, provisional drivers cannot drive from 11 p.m. to 5 a.m. or carry passengers under 20 without a licensed adult 25+ or parent. A solo trip at 7 p.m. is allowed.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 10"
+  },
+  {
+    "id": "ca.car.020",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A provisional driver wants to drive friends who are under 20. Who must ride along?",
+    "choices": [
+      "Any licensed driver who is 18 or older",
+      "Any passenger who is 21 or older",
+      "No one, if the friends are related to each other",
+      "A parent or guardian, or a California-licensed driver at least 25"
+    ],
+    "answer": 3,
+    "explanation": "Passengers under 20 are allowed only when a parent or guardian, or another California-licensed driver at least 25, rides along.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 10"
+  },
+  {
+    "id": "ca.car.021",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old fails the knowledge test on Monday. How long must they wait before retaking it?",
+    "choices": [
+      "7 days, not counting the day of the failure",
+      "24 hours",
+      "14 days",
+      "30 days"
+    ],
+    "answer": 0,
+    "explanation": "Minors must wait seven days, not counting the day of the failure, to retake a failed knowledge test. The 14-day wait applies to a failed drive test.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 11"
+  },
+  {
+    "id": "ca.car.022",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You move to a new home in California. How soon must you notify DMV of your new address?",
+    "choices": [
+      "Within 30 days",
+      "Within 10 days",
+      "Within 5 days",
+      "At your next renewal"
+    ],
+    "answer": 1,
+    "explanation": "You must notify DMV of a new address within ten days. You do not automatically receive a new license card.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 14"
+  },
+  {
+    "id": "ca.car.023",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "An adult driver in California may have their license suspended for reaching how many points in 12 months?",
+    "choices": [
+      "6 points",
+      "3 points",
+      "4 points",
+      "8 points"
+    ],
+    "answer": 2,
+    "explanation": "Adult licenses may be suspended at 4 points in 12 months, 6 points in 24 months, or 8 points in 36 months.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 60"
+  },
+  {
+    "id": "ca.car.024",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A judge offers you traffic violator school for a one-point ticket. How often can you use this option?",
+    "choices": [
+      "Once in any 12-month period",
+      "Once every 3 years",
+      "Once in your lifetime",
+      "Once in any 18-month period"
+    ],
+    "answer": 3,
+    "explanation": "Traffic violator school can be used once in any 18-month period. It keeps the citation from your insurance company, but it stays on your driver record.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 3,
+    "ref": "California Driver’s Handbook, p. 60"
+  },
+  {
+    "id": "ca.car.025",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A provisional driver gets two traffic convictions in the first year. What can DMV require?",
+    "choices": [
+      "For 30 days, they cannot drive unless a licensed adult 25 or older rides along",
+      "An automatic one-year suspension",
+      "Only a warning letter",
+      "Retaking the knowledge test"
+    ],
+    "answer": 0,
+    "explanation": "Two at-fault collisions or convictions (or one of each) mean the minor cannot drive for 30 days unless a licensed adult at least 25 rides with them.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 3,
+    "ref": "California Driver’s Handbook, p. 61"
+  },
+  {
+    "id": "ca.car.026",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is California's minimum liability insurance coverage?",
+    "choices": [
+      "$15,000 / $30,000 / $5,000",
+      "$30,000 / $60,000 / $15,000",
+      "$25,000 / $50,000 / $25,000",
+      "$50,000 / $100,000 / $25,000"
+    ],
+    "answer": 1,
+    "explanation": "California requires at least $30,000 for one person's injury or death, $60,000 for more than one person, and $15,000 for property damage.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 82"
+  },
+  {
+    "id": "ca.car.027",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You have a collision while driving without the required insurance. It was not your fault. What can happen to your license?",
+    "choices": [
+      "Nothing, because you were not at fault",
+      "It can be suspended for 30 days",
+      "It can be suspended for up to four years",
+      "You receive one point only"
+    ],
+    "answer": 2,
+    "explanation": "Your driving privilege can be suspended for up to four years if you are in a collision without proper insurance, no matter who was at fault.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 82"
+  },
+  {
+    "id": "ca.car.028",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You sell your car to a private buyer. How soon must you notify DMV?",
+    "choices": [
+      "Within 10 days",
+      "Within 20 days",
+      "Within 30 days",
+      "Within 5 days"
+    ],
+    "answer": 3,
+    "explanation": "Sellers must notify DMV within five days by completing a Notice of Transfer and Release of Liability. Buyers have 10 days to transfer ownership.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 85"
+  },
+  {
+    "id": "ca.car.029",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You are in a collision in California that causes $1,500 in property damage and no injuries. What must you do?",
+    "choices": [
+      "Report it to DMV on an SR 1 within 10 days",
+      "Nothing, because no one was hurt",
+      "Report it to DMV within 30 days",
+      "Only report it to your insurance company"
+    ],
+    "answer": 0,
+    "explanation": "You must report a collision to DMV within 10 days if property damage is more than $1,000 or anyone is injured or killed.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 84"
+  },
+  {
+    "id": "ca.car.030",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Which statement about the DMV collision report (SR 1) is correct?",
+    "choices": [
+      "Only the at-fault driver needs to file it",
+      "Each driver must file it, even if the officer wrote a police report",
+      "It is not needed for crashes on private property",
+      "Law enforcement files it for you"
+    ],
+    "answer": 1,
+    "explanation": "Each driver must file an SR 1 whether or not they caused the collision, even on private property. Law enforcement will not file it for you.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 3,
+    "ref": "California Driver’s Handbook, p. 84"
+  },
+  {
+    "id": "ca.car.031",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Someone is hurt in a collision you are involved in. By when must the collision be reported to law enforcement?",
+    "choices": [
+      "Within 10 days",
+      "Within 72 hours",
+      "Within 24 hours",
+      "Only if the police did not come to the scene"
+    ],
+    "answer": 2,
+    "explanation": "You must report a collision to law enforcement within 24 hours if anyone is injured or killed. Your insurance agent, broker, or legal representative can also file it.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 83"
+  },
+  {
+    "id": "ca.car.032",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Your car breaks down on a California freeway and you pull onto the right shoulder. What number can you dial for help?",
+    "choices": [
+      "411",
+      "311",
+      "611",
+      "511"
+    ],
+    "answer": 3,
+    "explanation": "Dial 511 from your cell phone or find a call box. Stay in the vehicle with your seat belt on until help arrives.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 75"
+  },
+  {
+    "id": "ca.car.033",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "A CHP officer turns on their emergency lights and weaves slowly across all lanes ahead of you (a traffic break). What should you do?",
+    "choices": [
+      "Turn on your flashers and slow to the officer's speed without passing",
+      "Pass the patrol car carefully on the left",
+      "Stop in your lane immediately",
+      "Exit the freeway at once"
+    ],
+    "answer": 0,
+    "explanation": "During a traffic break, turn on your emergency flashers, slowly match the officer's speed, and do not drive past the patrol vehicle.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 70"
+  },
+  {
+    "id": "ca.car.034",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "How may an adult driver in California use a cell phone while driving?",
+    "choices": [
+      "Holding it, as long as it is on speaker",
+      "Only in hands-free mode, when necessary",
+      "Holding it, at red lights only",
+      "Any way, if they are 21 or older"
+    ],
+    "answer": 1,
+    "explanation": "Driving while using a handheld phone is illegal. Adults should use a phone only in hands-free mode, and only when necessary.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 76"
+  },
+  {
+    "id": "ca.car.035",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Where may you mount your cell phone in your car?",
+    "choices": [
+      "Only on the steering wheel",
+      "Anywhere, as long as you hold it steady",
+      "On the windshield, dashboard, or center console, without blocking your view",
+      "Only on the rearview mirror"
+    ],
+    "answer": 2,
+    "explanation": "Mount your phone on the windshield, dashboard, or center console, and do not let it block your view. Use only a single swipe or touch.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 77"
+  },
+  {
+    "id": "ca.car.036",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 17-year-old with a provisional license is driving. When may they use a cell phone?",
+    "choices": [
+      "Hands-free, for short calls",
+      "To read texts at red lights",
+      "Whenever a parent calls",
+      "Only to call for emergency help"
+    ],
+    "answer": 3,
+    "explanation": "It is against the law for a minor to use a phone or wireless device while driving. The only exception is calling for emergency assistance.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 77"
+  },
+  {
+    "id": "ca.car.037",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Your 15-year-old passenger refuses to buckle up. Who can be ticketed?",
+    "choices": [
+      "You, the driver, as well as the passenger",
+      "Only the passenger",
+      "No one, because the passenger is a minor",
+      "Only the vehicle owner"
+    ],
+    "answer": 0,
+    "explanation": "Everyone must wear a seat belt. If a passenger is under 16 and not buckled, the driver can also be ticketed.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 71"
+  },
+  {
+    "id": "ca.car.038",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 6-year-old who is 4 feet tall rides in your car. How must the child be secured?",
+    "choices": [
+      "With an adult seat belt in the front seat",
+      "In a child passenger restraint system in a rear seat",
+      "With an adult seat belt in any seat",
+      "On an adult's lap in the back seat"
+    ],
+    "answer": 1,
+    "explanation": "Children under 8, or shorter than 4 feet 9 inches, must ride in a child passenger restraint system in a rear seat, with limited exceptions.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 72"
+  },
+  {
+    "id": "ca.car.039",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "At what point may a California child use a regular seat belt instead of a child restraint?",
+    "choices": [
+      "At age 6, regardless of height",
+      "Once they weigh 40 pounds",
+      "At age 8 or older, or once they are at least 4 feet 9 inches tall",
+      "At age 10, regardless of height"
+    ],
+    "answer": 2,
+    "explanation": "Children who are 8 or older, or at least 4 feet 9 inches tall, may use a properly secured safety belt.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 72"
+  },
+  {
+    "id": "ca.car.040",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Where may a child in a rear-facing child seat NOT ride?",
+    "choices": [
+      "Behind the driver",
+      "In the middle of the back seat",
+      "Behind the front passenger",
+      "In the front seat of a vehicle with an active passenger airbag"
+    ],
+    "answer": 3,
+    "explanation": "A child in a rear-facing restraint may not ride in the front seat of an airbag-equipped vehicle.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 72"
+  },
+  {
+    "id": "ca.car.041",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under California law, a child of what age may NOT be left alone in a vehicle?",
+    "choices": [
+      "6 years old or younger",
+      "4 years old or younger",
+      "10 years old or younger",
+      "2 years old or younger"
+    ],
+    "answer": 0,
+    "explanation": "It is illegal to leave a child 6 or younger unattended in a vehicle. The child may be left only with someone at least 12 years old.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 73"
+  },
+  {
+    "id": "ca.car.042",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "When is it illegal to smoke inside your vehicle in California?",
+    "choices": [
+      "Only while the vehicle is moving",
+      "When a minor is in the vehicle",
+      "Only on freeways",
+      "Only in rental cars"
+    ],
+    "answer": 1,
+    "explanation": "You may not smoke in a vehicle when a minor is present. You can be fined.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 58"
+  },
+  {
+    "id": "ca.car.043",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which is illegal while driving in California?",
+    "choices": [
+      "Wearing one earbud for a hands-free call",
+      "Listening to the radio",
+      "Wearing earbuds or earplugs in both ears",
+      "Using a mounted navigation app"
+    ],
+    "answer": 2,
+    "explanation": "It is illegal to wear a headset or earplugs in both ears while driving, because you must be able to hear horns and sirens.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 15"
+  },
+  {
+    "id": "ca.car.044",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What does California's Basic Speed Law mean?",
+    "choices": [
+      "You may always drive at the posted limit",
+      "You must drive at least 45 mph on highways",
+      "You may go 5 mph over the limit to pass",
+      "You may never drive faster than is safe for current conditions"
+    ],
+    "answer": 3,
+    "explanation": "The Basic Speed Law says you may never drive faster than is safe for current conditions, whatever the posted limit.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 73"
+  },
+  {
+    "id": "ca.car.045",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "The posted limit is 65 mph, but there is heavy fog. You drive 60 mph and can barely see. Are you following California law?",
+    "choices": [
+      "No, because the Basic Speed Law requires a speed safe for conditions",
+      "Yes, because you are under the posted limit",
+      "Yes, as long as your headlights are on",
+      "Yes, if you stay in the right lane"
+    ],
+    "answer": 0,
+    "explanation": "Under the Basic Speed Law, your speed must be safe for current conditions such as weather and traffic. Staying under the posted limit is not enough.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 3,
+    "ref": "California Driver’s Handbook, p. 73"
+  },
+  {
+    "id": "ca.car.046",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the speed limit near a school while children are outside or crossing the street?",
+    "choices": [
+      "15 mph",
+      "25 mph",
+      "20 mph",
+      "30 mph"
+    ],
+    "answer": 1,
+    "explanation": "The limit is 25 mph within 500 feet of a school while children are outside or crossing. Some school zones are posted as low as 15 mph.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 56"
+  },
+  {
+    "id": "ca.car.047",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "How close to a school does the 25 mph school-zone limit apply when children are present?",
+    "choices": [
+      "Within 1,000 feet",
+      "Within 250 feet",
+      "Within 500 feet",
+      "Within 100 feet"
+    ],
+    "answer": 2,
+    "explanation": "The 25 mph limit applies within 500 feet of a school while children are outside or crossing the street.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 56"
+  },
+  {
+    "id": "ca.car.048",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless a sign says otherwise, what is the speed limit in a California residential or business district?",
+    "choices": [
+      "30 mph",
+      "35 mph",
+      "20 mph",
+      "25 mph"
+    ],
+    "answer": 3,
+    "explanation": "The speed limit in business and residential districts is 25 mph unless otherwise posted.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 58"
+  },
+  {
+    "id": "ca.car.049",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the maximum speed on a two-lane undivided highway in California?",
+    "choices": [
+      "55 mph",
+      "65 mph",
+      "50 mph",
+      "60 mph"
+    ],
+    "answer": 0,
+    "explanation": "The limit is 55 mph on a two-lane undivided highway. The 65 mph figure applies to most other highways.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 73"
+  },
+  {
+    "id": "ca.car.050",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the maximum speed limit on most California highways?",
+    "choices": [
+      "55 mph",
+      "65 mph",
+      "70 mph",
+      "75 mph"
+    ],
+    "answer": 1,
+    "explanation": "The maximum on most California highways is 65 mph unless a different limit is posted.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 73"
+  },
+  {
+    "id": "ca.car.051",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You approach an intersection with no stop signs on any corner, and buildings block your view. What is the speed limit?",
+    "choices": [
+      "25 mph",
+      "10 mph",
+      "15 mph",
+      "20 mph"
+    ],
+    "answer": 2,
+    "explanation": "An intersection with no stop signs at any corner and a blocked view is a blind intersection. The speed limit is 15 mph.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 57"
+  },
+  {
+    "id": "ca.car.052",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are 100 feet from a railroad crossing with no gates, signals, or flagger. You cannot see 400 feet down the tracks in either direction. What is the speed limit?",
+    "choices": [
+      "25 mph",
+      "10 mph",
+      "20 mph",
+      "15 mph"
+    ],
+    "answer": 3,
+    "explanation": "The limit is 15 mph within 100 feet of such a crossing. You may go faster only if the crossing has gates, a warning signal, or a flagman.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 3,
+    "ref": "California Driver’s Handbook, p. 57"
+  },
+  {
+    "id": "ca.car.053",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "In a heavy rainstorm you cannot see farther than 100 feet ahead. What is the fastest speed that is considered safe?",
+    "choices": [
+      "30 mph",
+      "45 mph",
+      "20 mph",
+      "40 mph"
+    ],
+    "answer": 0,
+    "explanation": "If you cannot see farther than 100 feet, it is not safe to drive faster than 30 mph.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 3,
+    "ref": "California Driver’s Handbook, p. 68"
+  },
+  {
+    "id": "ca.car.054",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What following distance does the California Driver's Handbook recommend under normal conditions?",
+    "choices": [
+      "At least 1 second",
+      "At least 3 seconds",
+      "At least 2 seconds",
+      "At least 6 seconds"
+    ],
+    "answer": 1,
+    "explanation": "Use the three-second rule. When the vehicle ahead passes a fixed point, you should not reach that point before you count to three.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 63"
+  },
+  {
+    "id": "ca.car.055",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Can you be cited in California for driving too slowly?",
+    "choices": [
+      "No, slow driving is always legal",
+      "Only on freeways at night",
+      "Yes, if you block the normal and reasonable flow of traffic",
+      "Only if you drive under 25 mph"
+    ],
+    "answer": 2,
+    "explanation": "You should not block normal and reasonable traffic flow by driving too slowly. Drivers going faster or slower than the limit may be cited.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 56"
+  },
+  {
+    "id": "ca.car.056",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "How far before a turn should you start signaling?",
+    "choices": [
+      "At least 50 feet",
+      "At least 200 feet",
+      "At least 300 feet",
+      "At least 100 feet"
+    ],
+    "answer": 3,
+    "explanation": "Signal at least 100 feet before you turn.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 17"
+  },
+  {
+    "id": "ca.car.057",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "How long should you signal before changing lanes on a freeway?",
+    "choices": [
+      "At least 5 seconds",
+      "At least 2 seconds",
+      "At least 3 seconds",
+      "At least 10 seconds"
+    ],
+    "answer": 0,
+    "explanation": "Signal at least five seconds before changing lanes on a freeway.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 17"
+  },
+  {
+    "id": "ca.car.058",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "It is daytime and light rain makes you turn on your windshield wipers. What else does California law require?",
+    "choices": [
+      "Turn on your high beams",
+      "Turn on your low-beam headlights",
+      "Turn on your parking lights only",
+      "Turn on your emergency flashers"
+    ],
+    "answer": 1,
+    "explanation": "If you need your wipers because of fog, rain, or snow, you must turn on your low-beam headlights. Driving with only parking lights is illegal.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 17"
+  },
+  {
+    "id": "ca.car.059",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "When must you begin using your headlights in the evening?",
+    "choices": [
+      "At sunset",
+      "1 hour after sunset",
+      "30 minutes after sunset",
+      "15 minutes after sunset"
+    ],
+    "answer": 2,
+    "explanation": "Use your headlights beginning 30 minutes after sunset and until 30 minutes before sunrise.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 17"
+  },
+  {
+    "id": "ca.car.060",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "A car is coming toward you at night. Within what distance must you dim your high beams?",
+    "choices": [
+      "300 feet",
+      "200 feet",
+      "1,000 feet",
+      "500 feet"
+    ],
+    "answer": 3,
+    "explanation": "Dim to low beams within 500 feet of an oncoming vehicle. The 300-foot rule is for a vehicle you are following.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 17"
+  },
+  {
+    "id": "ca.car.061",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You are following another car at night with your high beams on. Within what distance must you switch to low beams?",
+    "choices": [
+      "300 feet",
+      "500 feet",
+      "100 feet",
+      "1,000 feet"
+    ],
+    "answer": 0,
+    "explanation": "Dim your high beams within 300 feet of a vehicle you are following. The 500-foot distance applies to oncoming vehicles.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 17"
+  },
+  {
+    "id": "ca.car.062",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "On a California freeway, which lane is called the Number 1 Lane?",
+    "choices": [
+      "The far-right lane",
+      "The far-left (fast) lane",
+      "The lane next to the on-ramp",
+      "The carpool lane only"
+    ],
+    "answer": 1,
+    "explanation": "Lanes are numbered from the left. The left (fast) lane is the Number 1 Lane, the next lane to the right is the Number 2 Lane, and so on.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 21"
+  },
+  {
+    "id": "ca.car.063",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "When may you turn right on a red light in California?",
+    "choices": [
+      "Only when a green arrow is showing",
+      "Never",
+      "After a complete stop, unless a NO TURN ON RED sign is posted",
+      "Without stopping, if no cars are coming"
+    ],
+    "answer": 2,
+    "explanation": "You may turn right on a red light after a complete stop, unless a NO TURN ON RED sign is posted. Yield to pedestrians and traffic.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 24"
+  },
+  {
+    "id": "ca.car.064",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are stopped at a red right-turn arrow and no cars are coming. What may you do?",
+    "choices": [
+      "Turn right after a full stop",
+      "Turn right without stopping",
+      "Turn right if no pedestrians are present",
+      "Wait until the light turns green before turning"
+    ],
+    "answer": 3,
+    "explanation": "You may not turn right at a red arrow. Remain stopped until a green light or green arrow appears.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 24"
+  },
+  {
+    "id": "ca.car.065",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "When is a left turn on a red light allowed in California?",
+    "choices": [
+      "From a one-way street onto a one-way street, after stopping, if no sign prohibits it",
+      "From any street, after a complete stop",
+      "Never",
+      "From a two-way street onto a one-way street"
+    ],
+    "answer": 0,
+    "explanation": "You may turn left on red only from a one-way street onto a one-way street, after stopping and yielding, if no sign prohibits it.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 26"
+  },
+  {
+    "id": "ca.car.066",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "What is the farthest you may drive in a two-way center left turn lane?",
+    "choices": [
+      "100 feet",
+      "200 feet",
+      "300 feet",
+      "500 feet"
+    ],
+    "answer": 1,
+    "explanation": "You may drive no more than 200 feet in the center left turn lane, and only to prepare for a left turn or U-turn. It is not a passing lane.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 22"
+  },
+  {
+    "id": "ca.car.067",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You plan to turn right and there is a bike lane next to the curb. When may you enter the bike lane?",
+    "choices": [
+      "Only at the intersection itself",
+      "Within 500 feet of the turn",
+      "Within 200 feet of the turn, after checking for bicyclists",
+      "Never; you must turn from your lane"
+    ],
+    "answer": 2,
+    "explanation": "You may drive in a bike lane to turn within 200 feet of the intersection. Check your blind spots for bicyclists first.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 23"
+  },
+  {
+    "id": "ca.car.068",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "In a residential district, when may you make a U-turn?",
+    "choices": [
+      "Only at a signal with a green arrow",
+      "Never",
+      "When no vehicles are approaching within 100 feet",
+      "When no vehicles are approaching within 200 feet"
+    ],
+    "answer": 3,
+    "explanation": "A U-turn in a residential district is allowed when no vehicles are approaching within 200 feet. Never make one where a NO U-TURN sign is posted.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 26"
+  },
+  {
+    "id": "ca.car.069",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "You are driving slowly on a two-lane road where passing is unsafe. How many vehicles behind you require you to use a turnout?",
+    "choices": [
+      "Five or more",
+      "Three or more",
+      "Two or more",
+      "Ten or more"
+    ],
+    "answer": 0,
+    "explanation": "You must use a turnout to let others pass when driving slowly on a two-lane road where passing is unsafe and five or more vehicles are following you.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 22"
+  },
+  {
+    "id": "ca.car.070",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "How close to an intersection, bridge, tunnel, or railroad crossing is passing not allowed?",
+    "choices": [
+      "Within 50 feet",
+      "Within 100 feet",
+      "Within 200 feet",
+      "Within 500 feet"
+    ],
+    "answer": 1,
+    "explanation": "Do not pass within 100 feet of an intersection, bridge, tunnel, railroad crossing, or other hazardous area.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 30"
+  },
+  {
+    "id": "ca.car.071",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "You are towing a trailer on a road with four lanes in your direction and no lanes marked for slower vehicles. Which lanes may you use?",
+    "choices": [
+      "Any lane",
+      "Only the far-left lane",
+      "Only the two lanes closest to the right edge",
+      "Only the carpool lane"
+    ],
+    "answer": 2,
+    "explanation": "When towing, use the far-right lane or a lane marked for slower vehicles. With four or more lanes in your direction and none marked, use only the two right lanes.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 3,
+    "ref": "California Driver’s Handbook, p. 56"
+  },
+  {
+    "id": "ca.car.072",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "You are in the correct lane to exit the freeway. When should you signal?",
+    "choices": [
+      "Just as you reach the exit ramp",
+      "One mile before the exit",
+      "About 100 feet before the exit",
+      "About five seconds (about 400 feet) before the exit"
+    ],
+    "answer": 3,
+    "explanation": "Once you are in the proper lane, signal about five seconds (approximately 400 feet) before you exit.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 3,
+    "ref": "California Driver’s Handbook, p. 29"
+  },
+  {
+    "id": "ca.car.073",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "How do you enter or leave a carpool (HOV) lane that is separated by double solid lines?",
+    "choices": [
+      "Only at the designated entrances and exits",
+      "Cross the lines whenever traffic is clear",
+      "Cross the lines only at night",
+      "Cross the lines only with a decal"
+    ],
+    "answer": 0,
+    "explanation": "Do not cross double solid lines to enter or exit an HOV lane. Use the designated entrances and exits.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 22"
+  },
+  {
+    "id": "ca.car.074",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "You are in the carpool lane when an officer signals you to pull over. What should you do?",
+    "choices": [
+      "Stop in the carpool lane",
+      "Signal right and move completely onto the right shoulder",
+      "Pull onto the left shoulder next to the carpool lane",
+      "Keep driving to the next exit"
+    ],
+    "answer": 1,
+    "explanation": "Turn on your right signal to show you see the officer, then move completely onto the right shoulder, even if you are in the carpool lane.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 35"
+  },
+  {
+    "id": "ca.car.075",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "During a traffic stop, what must a California officer do before asking questions about a traffic violation?",
+    "choices": [
+      "Ask for your phone password",
+      "Ask about your immigration status",
+      "State the reason for the stop",
+      "Search the vehicle"
+    ],
+    "answer": 2,
+    "explanation": "Officers must state the reason for the stop before questioning, except when withholding it is needed to protect life or property from an imminent threat.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 35"
+  },
+  {
+    "id": "ca.car.076",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How close to a fire hydrant may you park in California?",
+    "choices": [
+      "No closer than 10 feet",
+      "No closer than 20 feet",
+      "No closer than 5 feet",
+      "No closer than 15 feet"
+    ],
+    "answer": 3,
+    "explanation": "Never park within 15 feet of a fire hydrant.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 34"
+  },
+  {
+    "id": "ca.car.077",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "What is the minimum distance you must park from a fire station driveway?",
+    "choices": [
+      "15 feet",
+      "20 feet",
+      "30 feet",
+      "10 feet"
+    ],
+    "answer": 0,
+    "explanation": "Do not park within 15 feet of a fire station driveway, and never use one to turn around.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 34"
+  },
+  {
+    "id": "ca.car.078",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "On a street with no curb extension, how close may you park to a marked or unmarked crosswalk?",
+    "choices": [
+      "No closer than 15 feet",
+      "No closer than 20 feet",
+      "No closer than 10 feet",
+      "Right up to the crosswalk line"
+    ],
+    "answer": 1,
+    "explanation": "California bans parking within 20 feet of any marked or unmarked crosswalk. The distance drops to 15 feet where a curb extension is present.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 34"
+  },
+  {
+    "id": "ca.car.079",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "The sidewalk juts out into the street at a crosswalk (a curb extension). How far from that crosswalk must you park?",
+    "choices": [
+      "At least 20 feet",
+      "At least 25 feet",
+      "At least 15 feet",
+      "At least 5 feet"
+    ],
+    "answer": 2,
+    "explanation": "Where a curb extension is present, you may not park within 15 feet of the crosswalk. Otherwise the distance is 20 feet.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 3,
+    "ref": "California Driver’s Handbook, p. 34"
+  },
+  {
+    "id": "ca.car.080",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "After parallel parking, how close to the curb should your wheels be?",
+    "choices": [
+      "Within 12 inches",
+      "Within 24 inches",
+      "Within 6 inches",
+      "Within 18 inches"
+    ],
+    "answer": 3,
+    "explanation": "Your vehicle should end up parallel to the curb and within 18 inches of it.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 32"
+  },
+  {
+    "id": "ca.car.081",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "What does a white painted curb mean?",
+    "choices": [
+      "Stop only long enough to pick up or drop off passengers",
+      "Park for a limited time",
+      "Load and unload freight",
+      "No stopping at any time"
+    ],
+    "answer": 0,
+    "explanation": "A white curb allows stopping only long enough to pick up or drop off passengers.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 34"
+  },
+  {
+    "id": "ca.car.082",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You drive a regular passenger car and stop at a yellow curb. What is the rule?",
+    "choices": [
+      "You may park for up to two hours",
+      "You may load or unload, usually must stay with your car, and must not exceed the posted time",
+      "You may only drop off passengers, never freight",
+      "You may not stop at all"
+    ],
+    "answer": 1,
+    "explanation": "Yellow curbs are for loading and unloading passengers and freight within the posted time. Drivers of noncommercial vehicles usually must stay with the vehicle.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 34"
+  },
+  {
+    "id": "ca.car.083",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "What does a red painted curb mean?",
+    "choices": [
+      "Loading zone",
+      "Short-term parking",
+      "No stopping, standing, or parking",
+      "Emergency vehicles may park; others may stop briefly"
+    ],
+    "answer": 2,
+    "explanation": "Red means no stopping, standing, or parking. Buses may stop at a red zone marked for buses.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 34"
+  },
+  {
+    "id": "ca.car.084",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Who may park at a blue painted curb?",
+    "choices": [
+      "Anyone, for up to 15 minutes",
+      "Electric vehicles only",
+      "Delivery trucks only",
+      "A disabled person, or someone driving a disabled person, with a special placard or plate"
+    ],
+    "answer": 3,
+    "explanation": "Blue curbs are for disabled persons, or people driving a disabled person, who display a special placard or license plate.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 34"
+  },
+  {
+    "id": "ca.car.085",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You cannot change lanes to pass a bicyclist. How much space must you leave?",
+    "choices": [
+      "At least 3 feet",
+      "At least 2 feet",
+      "At least 5 feet",
+      "At least 1 foot"
+    ],
+    "answer": 0,
+    "explanation": "Allow at least three feet between your car and the bicyclist. If you cannot give three feet, wait to pass until you can.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 54"
+  },
+  {
+    "id": "ca.car.086",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A motorcycle is riding between two lanes of slow traffic on a California freeway. Is this legal?",
+    "choices": [
+      "No, motorcycles must always use a full lane",
+      "Yes, sharing lanes (lane splitting) is legal in California",
+      "Only in carpool lanes",
+      "Only when traffic is completely stopped"
+    ],
+    "answer": 1,
+    "explanation": "Lane splitting is legal in California. When possible, move to one side of your lane to give motorcyclists room.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 50"
+  },
+  {
+    "id": "ca.car.087",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "It is illegal to follow an emergency vehicle with its siren or flashing lights on within what distance?",
+    "choices": [
+      "500 feet",
+      "100 feet",
+      "300 feet",
+      "200 feet"
+    ],
+    "answer": 2,
+    "explanation": "California law prohibits following within 300 feet of a fire engine, police car, ambulance, or other emergency vehicle with its siren or flashing lights on.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 51"
+  },
+  {
+    "id": "ca.car.088",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are in the middle of an intersection when you hear a siren behind you. What should you do?",
+    "choices": [
+      "Stop right where you are",
+      "Back out of the intersection",
+      "Speed up and stay ahead of the emergency vehicle",
+      "Continue through the intersection, then pull to the right and stop"
+    ],
+    "answer": 3,
+    "explanation": "If you are in an intersection, continue through it. Then drive to the right as soon as it is safe and stop until the emergency vehicle passes.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 3,
+    "ref": "California Driver’s Handbook, p. 51"
+  },
+  {
+    "id": "ca.car.089",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A tow truck is stopped on the shoulder with flashing amber lights. What does California law require?",
+    "choices": [
+      "Move over and slow down",
+      "Honk to warn the driver",
+      "Stop next to it",
+      "Speed up to pass quickly"
+    ],
+    "answer": 0,
+    "explanation": "Drivers must move over and slow down for stopped emergency vehicles, tow trucks with flashing amber lights, and road work vehicles.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 55"
+  },
+  {
+    "id": "ca.car.090",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A school bus ahead of you stops and flashes red lights. What could happen if you drive past it?",
+    "choices": [
+      "A $100 fine only",
+      "A fine of up to $1,000 and a one-year suspension",
+      "A warning for a first offense",
+      "One point with no fine"
+    ],
+    "answer": 1,
+    "explanation": "You must stop from either direction while the red lights flash. Failing to stop can bring a fine of up to $1,000 and a one-year suspension.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 57"
+  },
+  {
+    "id": "ca.car.091",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A school bus with flashing red lights is stopped on the other side of a highway with two lanes in each direction. What must you do?",
+    "choices": [
+      "Stop until the lights stop flashing",
+      "Stop, then go when the children are on the sidewalk",
+      "You do not need to stop",
+      "Slow to 10 mph"
+    ],
+    "answer": 2,
+    "explanation": "You do not need to stop if the bus is on the other side of a divided highway or one with two or more lanes in each direction.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 3,
+    "ref": "California Driver’s Handbook, p. 57"
+  },
+  {
+    "id": "ca.car.092",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a two-lane road with one lane each way, an oncoming school bus stops and flashes its red lights. What must you do?",
+    "choices": [
+      "Keep going, because the bus is across the center line",
+      "Slow down and pass with care",
+      "Stop only if children are on your side of the road",
+      "Stop until the children are across and the lights stop flashing"
+    ],
+    "answer": 3,
+    "explanation": "Drivers must stop from either direction for flashing red lights. The no-stop exception applies only to divided highways or roads with two or more lanes each way.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 3,
+    "ref": "California Driver’s Handbook, p. 57"
+  },
+  {
+    "id": "ca.car.093",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A crossing signal warns that a train is coming. How far from the nearest rail must you stop?",
+    "choices": [
+      "At least 15 feet",
+      "At least 5 feet",
+      "At least 50 feet",
+      "At least 25 feet"
+    ],
+    "answer": 0,
+    "explanation": "When crossing devices or a person warn of a train, stop at least 15 feet from the nearest track.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 57"
+  },
+  {
+    "id": "ca.car.094",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "At a railroad crossing, the gate starts to rise but the red lights are still flashing. What should you do?",
+    "choices": [
+      "Go as soon as the gate is up",
+      "Stay stopped until the lights stop flashing",
+      "Drive around the gate",
+      "Cross quickly if you cannot see a train"
+    ],
+    "answer": 1,
+    "explanation": "Do not cross the tracks until the red lights stop flashing, even if the gate rises.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 57"
+  },
+  {
+    "id": "ca.car.095",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Under California law, which bicyclists must wear a helmet?",
+    "choices": [
+      "All bicyclists",
+      "Bicyclists under 12",
+      "Bicyclists under 18",
+      "Only bicyclists on highways"
+    ],
+    "answer": 2,
+    "explanation": "Bicyclists under 18 years old must wear a helmet.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 53"
+  },
+  {
+    "id": "ca.car.096",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "What happens to traffic fines in a highway construction zone when workers are present?",
+    "choices": [
+      "They stay the same",
+      "They are tripled",
+      "Only warnings are issued",
+      "They are doubled"
+    ],
+    "answer": 3,
+    "explanation": "Fines are doubled in construction or maintenance zones when workers are present, and in Safety Enhanced-Double Fine Zones.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 55"
+  },
+  {
+    "id": "ca.car.097",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A blind pedestrian at a corner pulls in their white cane and steps back from the curb. What does this usually mean?",
+    "choices": [
+      "You may go",
+      "They are about to cross",
+      "You must honk to let them know you are there",
+      "You must get out and help"
+    ],
+    "answer": 0,
+    "explanation": "When a blind person pulls in their cane and steps away from the intersection, it usually means you may go. Never honk at a blind pedestrian.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 48"
+  },
+  {
+    "id": "ca.car.098",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A pedestrian is still in the crosswalk while the DON'T WALK signal is flashing. What must you do?",
+    "choices": [
+      "Proceed, because the pedestrian should have waited",
+      "Yield to the pedestrian",
+      "Honk so they hurry",
+      "Go around the pedestrian"
+    ],
+    "answer": 1,
+    "explanation": "Drivers must yield to pedestrians even if the DON'T WALK light is flashing.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 41"
+  },
+  {
+    "id": "ca.car.099",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A text message arrives while you are driving on a California street. What should you do?",
+    "choices": [
+      "Read it quickly at the next red light",
+      "Read it if the phone is mounted on the dashboard",
+      "Leave it unread until you are no longer driving",
+      "Reply using one hand while keeping the other on the wheel"
+    ],
+    "answer": 2,
+    "explanation": "Do not send or read text messages or emails while driving. If you must respond, pull safely off the road first.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Driver’s Handbook, p. 76"
+  },
+  {
+    "id": "ca.car.100",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What word appears on the driver's license of a California driver who is under 18?",
+    "choices": [
+      "Restricted",
+      "Junior",
+      "Learner",
+      "Provisional"
+    ],
+    "answer": 3,
+    "explanation": "Licenses issued to drivers under 18 carry the word provisional. Turning 18 does not erase existing restrictions, suspensions, or probation.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 10"
+  },
+  {
+    "id": "ca.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Who must wear a helmet on a motorcycle in California?",
+    "choices": [
+      "Every rider and every passenger",
+      "Riders under 21 only",
+      "Passengers only",
+      "Riders on freeways only"
+    ],
+    "answer": 0,
+    "explanation": "All riders and passengers must wear a U.S. DOT-compliant motorcycle safety helmet (Vehicle Code §27803), whatever their age or road.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 1,
+    "ref": "California Motorcycle Handbook, p. 13"
+  },
+  {
+    "id": "ca.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What makes a motorcycle helmet legal to wear in California?",
+    "choices": [
+      "It has a full face shield",
+      "It is certified by the manufacturer to meet U.S. DOT standard FMVSS 218",
+      "It carries a store-applied DOT sticker",
+      "It is any hard-shell helmet"
+    ],
+    "answer": 1,
+    "explanation": "The helmet must be certified by the manufacturer as meeting U.S. DOT FMVSS 218. Novelty helmets that only look like DOT helmets do not qualify.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Motorcycle Handbook, p. 13"
+  },
+  {
+    "id": "ca.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 19-year-old wants a motorcycle instruction permit. What must they complete first?",
+    "choices": [
+      "50 hours of supervised riding",
+      "A Class C drive test",
+      "A California Motorcyclist Safety Program (CMSP) training course",
+      "Nothing extra; only riders under 18 need training"
+    ],
+    "answer": 2,
+    "explanation": "Applicants under 21 must complete a CMSP training course before receiving a motorcycle permit. Riders 21 and older are encouraged, but not required, to take it.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Motorcycle Handbook, p. 11"
+  },
+  {
+    "id": "ca.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Which ride is allowed with a California Class M1 instruction permit?",
+    "choices": [
+      "Carrying a passenger in daylight",
+      "Riding on the freeway",
+      "Riding at night on surface streets",
+      "Riding alone on city streets in daylight"
+    ],
+    "answer": 3,
+    "explanation": "M1/M2 permit holders may not carry passengers, ride on the freeway, or ride at night.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Motorcycle Handbook, p. 10"
+  },
+  {
+    "id": "ca.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What may a rider with only a Class M2 license operate?",
+    "choices": [
+      "A motorized bicycle, moped, or motorized scooter",
+      "Any two-wheel motorcycle",
+      "A motorcycle under 500 cc",
+      "A three-wheel motorcycle only"
+    ],
+    "answer": 0,
+    "explanation": "Class M2 covers motorized bicycles, mopeds, and motorized scooters. Class M1 covers any two-wheel motorcycle as well as M2 vehicles.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Motorcycle Handbook, p. 8"
+  },
+  {
+    "id": "ca.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Without a motorcycle license, a driver with a Class C license may operate which of these?",
+    "choices": [
+      "A two-wheel motorcycle over 150 cc",
+      "A three-wheel motorcycle",
+      "A motor-driven cycle",
+      "Any two-wheel motorcycle on surface streets"
+    ],
+    "answer": 1,
+    "explanation": "Class C licensees may operate a motorcycle with a sidecar, a three-wheel motorcycle, or a motorized scooter. Two-wheel motorcycles need an M1.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 3,
+    "ref": "California Motorcycle Handbook, p. 8"
+  },
+  {
+    "id": "ca.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "In California, a motor-driven cycle is a motorcycle with an engine smaller than what?",
+    "choices": [
+      "50 cc",
+      "250 cc",
+      "150 cc",
+      "500 cc"
+    ],
+    "answer": 2,
+    "explanation": "A motor-driven cycle has an engine under 150 cc. It may not be ridden on freeways or expressways where signs prohibit it.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 3,
+    "ref": "California Motorcycle Handbook, p. 7"
+  },
+  {
+    "id": "ca.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Under California law, may a motorcyclist ride between lanes of slower traffic (lane splitting)?",
+    "choices": [
+      "No, it is always illegal",
+      "Only on city streets",
+      "Only when traffic is fully stopped at a light",
+      "Yes, lane splitting is legal in California"
+    ],
+    "answer": 3,
+    "explanation": "California law allows motorcycles to share lanes. The Motorcycle Handbook still warns that it leaves riders vulnerable to sudden lane changes and opening doors.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 50"
+  },
+  {
+    "id": "ca.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What is the maximum speed for a motorcycle towing a trailer in California?",
+    "choices": [
+      "55 mph",
+      "45 mph",
+      "65 mph",
+      "The posted limit"
+    ],
+    "answer": 0,
+    "explanation": "Motorcycles towing trailers must not exceed 55 mph, must stay in the right lane (or the right two lanes on a four-lane highway), and may not use carpool lanes.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 3,
+    "ref": "California Motorcycle Handbook, p. 42"
+  },
+  {
+    "id": "ca.mc.010",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "When may a California motorcyclist wear earplugs in both ears?",
+    "choices": [
+      "Never",
+      "When they are designed to reduce harmful noise and still let you hear sirens and horns",
+      "Any time, if the rider wears a full-face helmet",
+      "Only on freeways"
+    ],
+    "answer": 1,
+    "explanation": "Vehicle Code §27400 bans earplugs or earphones in both ears unless they are designed to reduce injurious noise, and they must not keep you from hearing sirens or horns.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 3,
+    "ref": "California Motorcycle Handbook, p. 15"
+  }
+]

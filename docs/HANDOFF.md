@@ -39,8 +39,9 @@ picks up the work._
 - Foundation: types, data loaders, quiz engine (13 modes), SRS, readiness model, achievements, stats, stores,
   native module, UI kit, navigation (≈31 routes), theme (light/dark), app icon (adaptive + themed), splash.
 - Tests: `__tests__/engine/engine.test.ts` (33 tests), `__tests__/App.test.tsx` (smoke). All pass.
-- Screens implemented: Quiz, Results, Review, ExamIntro, QuestionDetail, Welcome, PickState, PickTrack, Goal,
-  Home, Practice, Topic. Shared helpers: `src/components/quiz/*`, `src/screens/practice/shared/*`.
+- Screens implemented (type-check clean): Quiz, Results, Review, ExamIntro, QuestionDetail, Welcome, PickState,
+  PickTrack, Goal, Home, StudyPlan, Practice, Topic, QuestionList, Search, Signs, SignDetail, Flashcards, Learn,
+  Lesson. Shared helpers: `src/components/quiz/*`, `src/screens/practice/shared/*`.
 - Content: **783 universal car questions** in 13 topic files (`app/src/content/questions/car/*.json`) — drafted
   and validated (0 errors) but the adversarial review pass did NOT run yet (session limit).
 - Research: official handbook text for AL AK AZ AR CA CO FL GA IL MI MT NE NV NH NJ NM NY NC OH PA TX +
@@ -57,9 +58,8 @@ picks up the work._
   `research/facts/CA.json`, `TX.json`, `app/src/content/states/*.json`, `app/src/content/questions/states/*.json`.
 
 ### Not done yet (prioritized next steps)
-1. Remaining screens (placeholders contain "PLACEHOLDER"): QuestionList, Search, StudyPlan, Signs, SignDetail,
-   Flashcards, Learn, Lesson, CheatSheet, ExamInfo, Progress, ExamHistory, Achievements, DriveLog, DriveEntry,
-   Settings, About, Sources, Privacy. Spec: `app/docs/APP_SPEC.md`.
+1. Remaining screens (files still contain "PLACEHOLDER"): CheatSheet, ExamInfo, Progress, ExamHistory,
+   Achievements, DriveLog, DriveEntry, Settings, About, Sources, Privacy. Spec: `app/docs/APP_SPEC.md`.
 2. Top-10 state content: run `state-content-v2.js` for FL+NY, PA+IL, OH+GA, NC+MI (2 states per run).
 3. Universal car bank review: correctness/universality + quality pass for all 13 topics (batch 3–4 topics per
    reviewer agent), then one lesson per topic (`app/src/content/lessons/car/<topic>.json`).
