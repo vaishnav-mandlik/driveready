@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "car.it.001",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are about to make a right turn from a two-way street. Where should your vehicle be as you approach the corner?",
+    "choices": [
+      "Close to the right curb or edge of the road",
+      "Near the center line, so you have room to swing around the corner",
+      "In the middle of the lane, away from the curb",
+      "Partly in the lane to your left"
+    ],
+    "answer": 0,
+    "explanation": "Approach a right turn as far to the right as practical, close to the curb or road edge. Swinging toward the center line first makes your intent unclear and leaves room on your right for others.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 24, AZ p. 47, NJ p. 74)"
+  },
+  {
+    "id": "car.it.002",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You turn right from one two-way street onto another that has two lanes in your direction. Unless signs or markings say otherwise, which lane should you end the turn in?",
+    "choices": [
+      "The left lane, so you are out of the way of parked cars",
+      "Whichever lane is empty at the moment",
+      "The lane closest to the right curb or edge",
+      "The lane next to the center line"
+    ],
+    "answer": 2,
+    "explanation": "Begin and end a right turn in the lane closest to the right edge of the road. Do not turn wide into another lane; change lanes later if you need to.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 27, NY p. 36, AZ p. 47)"
+  },
+  {
+    "id": "car.it.003",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Why is it a mistake to swing out to the left just before you make a right turn?",
+    "choices": [
+      "It wears out your tires faster",
+      "It leaves a gap on your right that a car, bicycle, or motorcycle can move into",
+      "It forces you to turn into the far lane of the new street",
+      "It is only a mistake when the road is wet"
+    ],
+    "answer": 1,
+    "explanation": "Keeping close to the right curb before a right turn reduces the chance that another road user ends up in the space on your right as you turn. A wide swing also confuses drivers behind you.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NJ p. 74, NH p. 31, AZ p. 47)"
+  },
+  {
+    "id": "car.it.004",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Just before you turn right, what extra check should you make?",
+    "choices": [
+      "Look in your left side mirror for passing cars",
+      "Tap the horn to warn anyone nearby",
+      "Glance at the speedometer",
+      "Check your right mirror and look over your right shoulder for bicyclists or pedestrians next to you"
+    ],
+    "answer": 3,
+    "explanation": "Bicyclists, motorcyclists, and pedestrians can be between your vehicle and the curb, often in your blind spot. Check the right mirror and over your right shoulder before turning.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 24, NY p. 36)"
+  },
+  {
+    "id": "car.it.005",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You turn right onto a two-way street with two lanes in your direction, and you plan to turn left one block later. What should you do?",
+    "choices": [
+      "Turn directly into the left lane to save time",
+      "Turn into the right lane, then signal and change lanes when it is safe",
+      "Turn into the right lane and stay there, then turn left from it",
+      "Stop in the intersection until the left lane is clear"
+    ],
+    "answer": 1,
+    "explanation": "Finish a right turn in the right lane, then signal, check your blind spot, and move over when safe. Turning straight into a far lane can put you in the path of other turning traffic.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., NY p. 36, AZ p. 47, TX p. 46)"
+  },
+  {
+    "id": "car.it.006",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "When you make a right turn, what path do your rear wheels follow compared with your front wheels?",
+    "choices": [
+      "A shorter path, closer to the curb",
+      "Exactly the same path",
+      "A wider path, farther from the curb",
+      "A path that depends only on your speed"
+    ],
+    "answer": 0,
+    "explanation": "A turning vehicle's rear wheels track inside the front wheels, so on a right turn they pass closer to the curb. Leave enough room so your rear wheel does not hit the curb or people waiting at the corner.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NY p. 36, CA p. 49, AR p. 76)"
+  },
+  {
+    "id": "car.it.007",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "On a two-way street with no left-turn lane, where should you position your vehicle to turn left?",
+    "choices": [
+      "As close as possible to the right curb",
+      "In the lane or part of the lane just to the right of the center line",
+      "Straddling the center line",
+      "In the oncoming lane, so you are ready to turn"
+    ],
+    "answer": 1,
+    "explanation": "Approach a left turn from the part of your side of the road closest to the center line. Never cross into oncoming lanes before you actually turn.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., AZ p. 47, NY p. 37, CA p. 25)"
+  },
+  {
+    "id": "car.it.008",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "A street has a marked left-turn lane at the intersection ahead. Where should you make your left turn from?",
+    "choices": [
+      "From the lane next to the turn lane, if it is less crowded",
+      "From any lane, as long as you signal",
+      "From the marked left-turn lane",
+      "From the right lane after the light turns green"
+    ],
+    "answer": 2,
+    "explanation": "When a lane is signed or marked for left turns, use that lane. Turning left from another lane cuts across drivers who are going straight.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., AZ p. 47, CA p. 25, TX p. 37)"
+  },
+  {
+    "id": "car.it.009",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You turn left from a two-way street onto another two-way street. Which lane should you end the turn in?",
+    "choices": [
+      "The lane just to the right of the center line",
+      "The lane closest to the right curb",
+      "The center left-turn lane, if there is one",
+      "Whichever lane lets you take the widest, smoothest turn"
+    ],
+    "answer": 0,
+    "explanation": "End a left turn in the left-most lane going your way, just to the right of the center line. This avoids conflict with oncoming drivers turning right onto the same street.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 27, NY p. 37, AZ p. 47, NJ p. 75)"
+  },
+  {
+    "id": "car.it.010",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You want to turn left from a one-way street onto a two-way street. Which lane should you turn from?",
+    "choices": [
+      "The right lane",
+      "The center lane",
+      "Any lane, as long as you signal",
+      "The far-left lane"
+    ],
+    "answer": 3,
+    "explanation": "When turning left from a one-way street, start from the lane nearest the left curb, then turn into the lane just right of the center line of the two-way street.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 27, AZ p. 47, NY p. 36)"
+  },
+  {
+    "id": "car.it.011",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You turn left from a two-way street onto a one-way street that has two lanes. Which lane should you end in?",
+    "choices": [
+      "The right lane of the one-way street",
+      "The left lane of the one-way street",
+      "Either lane, whichever you can reach by turning wide",
+      "The lane that matches the side of the road you came from"
+    ],
+    "answer": 1,
+    "explanation": "Approach from the lane closest to the center of the two-way street and turn into the left lane of the one-way street. Change lanes afterward if needed.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AZ p. 47, NY p. 37, CA p. 27)"
+  },
+  {
+    "id": "car.it.012",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You turn left from a one-way street onto another one-way street. Both have two lanes. Which lanes should you use?",
+    "choices": [
+      "Start in the right lane and end in the right lane",
+      "Start in the right lane and end in the left lane",
+      "Start in the left lane and end in the left lane",
+      "Start in the left lane and end in the right lane"
+    ],
+    "answer": 2,
+    "explanation": "On a left turn from one one-way street onto another, start in the far-left lane and finish in the left lane of the street you enter.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NY p. 36, NJ p. 75, AZ p. 47)"
+  },
+  {
+    "id": "car.it.013",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You turn left from a two-lane road onto a four-lane highway (two lanes each way). Which lane should you enter first?",
+    "choices": [
+      "The lane closest to the right shoulder",
+      "The oncoming lane nearest the center",
+      "Whichever lane is open, by crossing both lanes at once",
+      "The lane just to the right of the center line, moving right later when it is safe"
+    ],
+    "answer": 3,
+    "explanation": "Turn into the lane nearest the center line on your side of the highway. When traffic permits, signal and move to the right lane.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., NJ p. 75, NY p. 37, AL p. 23)"
+  },
+  {
+    "id": "car.it.014",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You and an oncoming driver are both waiting to turn left at the same intersection. When it is safe, how should you each turn?",
+    "choices": [
+      "Each turns to the left of the center of the intersection, so your paths do not cross",
+      "Each drives past the center of the intersection before turning",
+      "One driver waits until the other has fully cleared the intersection",
+      "Each swings wide to the outside lanes of the new street"
+    ],
+    "answer": 0,
+    "explanation": "Opposing left-turning drivers should each turn before reaching the center point, passing in front of each other. Driving past the center would make your paths cross.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., NJ p. 75, PA p. 53, AZ p. 47)"
+  },
+  {
+    "id": "car.it.015",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "While you are stopped, waiting to turn left, how should your front wheels be pointed?",
+    "choices": [
+      "Turned slightly left, so you are ready to go",
+      "Straight ahead",
+      "Turned slightly right, toward the curb",
+      "It does not matter while you are stopped"
+    ],
+    "answer": 1,
+    "explanation": "Keep your wheels straight until you actually begin the turn. If they are turned left and you are hit from behind, you could be pushed into oncoming traffic.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 25, NY p. 34, CO p. 16)"
+  },
+  {
+    "id": "car.it.016",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are waiting to turn left. An oncoming car has its right turn signal on. What should you do?",
+    "choices": [
+      "Turn now, because the car is clearly turning right",
+      "Flash your headlights to tell the driver to turn",
+      "Turn quickly before the car reaches the intersection",
+      "Wait until the car actually starts its turn before you go"
+    ],
+    "answer": 3,
+    "explanation": "A turn signal shows intent, not action. The driver may have left it on by mistake or may be turning just past you, so wait until the vehicle begins to turn.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., CA p. 30)"
+  },
+  {
+    "id": "car.it.017",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Why should you look especially carefully for oncoming motorcycles before turning left?",
+    "choices": [
+      "Motorcycles always have the right-of-way",
+      "They are small and hard to see, and their speed and distance are hard to judge",
+      "Motorcycles cannot stop on wet pavement",
+      "Motorcyclists usually do not use headlights"
+    ],
+    "answer": 1,
+    "explanation": "Many crashes happen when a driver turning left fails to see an oncoming motorcycle or misjudges how fast it is coming. Look twice and wait if you are unsure.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NY p. 35, NY p. 37)"
+  },
+  {
+    "id": "car.it.018",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are turning left across two lanes of oncoming traffic. A driver in the nearer lane stops and waves you on. What should you do?",
+    "choices": [
+      "Go immediately, since the driver is letting you through",
+      "Wave back and turn slowly through both lanes",
+      "Make sure the far lane is also clear before you turn, because the stopped car may hide traffic",
+      "Honk to warn the far lane, then turn"
+    ],
+    "answer": 2,
+    "explanation": "Never start a left turn until you can see that every lane you must cross is clear. A stopped car can block your view of a vehicle coming in the next lane.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 53, CO p. 16)"
+  },
+  {
+    "id": "car.it.019",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "What makes a left turn \"protected\"?",
+    "choices": [
+      "Oncoming traffic is stopped by a signal while you turn",
+      "There is a center median on the street you are entering",
+      "You are turning from a marked left-turn lane",
+      "No pedestrians are in the area"
+    ],
+    "answer": 0,
+    "explanation": "During a protected turn, such as on a green arrow, the signal holds oncoming traffic so your turn path is clear of it. You still watch for anyone who is already in the intersection.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 40, AL p. 57)"
+  },
+  {
+    "id": "car.it.020",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are turning left onto a divided highway that has a wide median. How should you make the turn?",
+    "choices": [
+      "Turn left into the first roadway you reach",
+      "Cross the first roadway, then turn left into the far roadway on the other side of the median",
+      "Turn left and drive in the median until there is a gap",
+      "Turn right first, then make a U-turn across the median anywhere"
+    ],
+    "answer": 1,
+    "explanation": "A divided highway is like two one-way roads. Cross the near roadway when traffic from the left is clear, then turn left beyond the median when traffic from the right is clear. Turning left too early puts you into oncoming traffic.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 53)"
+  },
+  {
+    "id": "car.it.021",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Before you move into a center two-way left-turn lane, what hazard should you check for?",
+    "choices": [
+      "Parked cars along the curb",
+      "Drivers coming toward you who are also using the center lane",
+      "Bicyclists in the right lane",
+      "Vehicles waiting at the next stop sign"
+    ],
+    "answer": 1,
+    "explanation": "Drivers from both directions share the center lane, so look ahead for oncoming vehicles already in it before you enter.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 22, AZ p. 48)"
+  },
+  {
+    "id": "car.it.022",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "How should you enter a center two-way left-turn lane to turn left?",
+    "choices": [
+      "Signal, check your blind spot, and move completely into the center lane",
+      "Stay half in your lane so you can return quickly",
+      "Stop in your travel lane first, then angle into the center lane",
+      "Enter it as early as possible to get out of traffic"
+    ],
+    "answer": 0,
+    "explanation": "Signal, check over your shoulder, and merge completely into the center lane so you do not block traffic behind you. Then turn when it is safe.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 22, AZ p. 48)"
+  },
+  {
+    "id": "car.it.023",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Why should you enter a center two-way left-turn lane only shortly before your turn, instead of driving in it for a long stretch?",
+    "choices": [
+      "Driving in it longer uses more fuel",
+      "It is only for vehicles larger than cars",
+      "It is not a travel lane, and the farther you drive in it, the more likely you are to meet a driver turning from the other direction",
+      "It is reserved for buses between intersections"
+    ],
+    "answer": 2,
+    "explanation": "The center lane exists so you can slow and wait for your turn. Using it as a travel lane is not allowed and greatly raises the risk of a head-on conflict with oncoming turners.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., TX p. 37, CA p. 22, AZ p. 48)"
+  },
+  {
+    "id": "car.it.024",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "When should you move into the correct lane for an upcoming turn?",
+    "choices": [
+      "Right at the intersection",
+      "Only after you start to turn",
+      "Only when the traffic light turns green",
+      "Well before the turn, and sooner when traffic is moving faster"
+    ],
+    "answer": 3,
+    "explanation": "Plan ahead and get into the proper lane well before the turn. The faster traffic is moving, the earlier you should change lanes.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., TX p. 45, AL p. 23, PA p. 52)"
+  },
+  {
+    "id": "car.it.025",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "When may you turn from a lane other than the one closest to the direction you are turning?",
+    "choices": [
+      "Whenever traffic is light",
+      "Only when signs or pavement markings show that turns are allowed from that lane",
+      "Whenever you signal early enough",
+      "Only at night"
+    ],
+    "answer": 1,
+    "explanation": "Normally you turn from the lane closest to the direction you are going. Some intersections allow turns from more than one lane, and signs, signals, or pavement arrows will show it.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 27, AZ p. 47, CO p. 15, AL p. 23)"
+  },
+  {
+    "id": "car.it.026",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are in one of two side-by-side left-turn lanes. What should you do during the turn?",
+    "choices": [
+      "Stay in your own lane from start to finish",
+      "Move into the other lane if it looks smoother",
+      "Speed up to get ahead of the car turning next to you",
+      "Cut the corner to finish the turn faster"
+    ],
+    "answer": 0,
+    "explanation": "With double turn lanes, another driver is turning right next to you. Pick your lane before the turn and stay in it until the turn is complete.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NH p. 31, PA p. 52, NJ p. 58)"
+  },
+  {
+    "id": "car.it.027",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You turn left from the right-hand lane of two left-turn lanes. Where should you end the turn?",
+    "choices": [
+      "In the lane nearest the center line",
+      "In the matching lane, which is the second lane from the center line, following any guide lines",
+      "In any lane, since both lanes are turning",
+      "In the lane farthest right, ready for parking"
+    ],
+    "answer": 1,
+    "explanation": "With dual turn lanes, each lane turns into its matching lane on the new street. Follow the painted guide lines through the intersection so you do not cross into the other turning car's path.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NE p. 64, CO p. 15, PA p. 52)"
+  },
+  {
+    "id": "car.it.028",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "While turning in one of two side-by-side turn lanes, what extra danger should you watch for?",
+    "choices": [
+      "Vehicles behind you changing lanes",
+      "The traffic light changing to green",
+      "The vehicle turning next to you drifting into your lane",
+      "Pedestrians on the far side of the street you just left"
+    ],
+    "answer": 2,
+    "explanation": "In dual turn lanes, the driver beside you may stray into your turning path. Stay centered in your lane and keep an eye on the car next to you.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 52)"
+  },
+  {
+    "id": "car.it.029",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You realize you are in a lane marked with a turn-only arrow, but you wanted to go straight. What should you do?",
+    "choices": [
+      "Go straight, since you have not started turning yet",
+      "Stop and wait for a gap to move into the next lane",
+      "Make the turn the lane requires, then find another route",
+      "Turn on your hazard lights and go straight"
+    ],
+    "answer": 2,
+    "explanation": "Lane-use arrows are mandatory. If you are in a turn-only lane, you must turn. Then find a safe, legal way back to your route.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 52, TX p. 37)"
+  },
+  {
+    "id": "car.it.030",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Heavy traffic keeps you from reaching the turn lane for your street. What is the safest choice?",
+    "choices": [
+      "Cut across the lanes at the last moment",
+      "Stop in your lane and wait for a gap, even if traffic behind you must stop",
+      "Turn from the wrong lane while signaling",
+      "Pass this turn and take the next safe route or turn around later"
+    ],
+    "answer": 3,
+    "explanation": "If you cannot get into the proper lane in time, do not turn. Keep going and turn at the next opportunity; last-second lane changes cause many crashes.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., TX p. 45, CA p. 21)"
+  },
+  {
+    "id": "car.it.031",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Halfway through a left turn, you realize it is the wrong street. What should you do?",
+    "choices": [
+      "Stop in the intersection and back up",
+      "Finish the turn, then find a safe place to turn around",
+      "Swerve back into your original lane",
+      "Stop and wait for traffic to clear before reversing"
+    ],
+    "answer": 1,
+    "explanation": "Once you start a turn, follow through. Stopping or backing up in an intersection is dangerous; complete the turn and correct your route later.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 21, NH p. 31)"
+  },
+  {
+    "id": "car.it.032",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "What is the main purpose of using your turn signal before a turn?",
+    "choices": [
+      "To ask other drivers for permission to turn",
+      "To let other drivers, bicyclists, and pedestrians know what you plan to do",
+      "To give you the right-of-way",
+      "To make your car more visible at night"
+    ],
+    "answer": 1,
+    "explanation": "A signal communicates your intentions so others can react. It does not give you any special right to turn.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CO p. 15, AZ p. 26)"
+  },
+  {
+    "id": "car.it.033",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You have just finished a turn. What should you check about your turn signal?",
+    "choices": [
+      "That it is still on, so drivers know you just turned",
+      "That it has switched to the hazard flashers",
+      "That it is off, so others do not think you are turning again",
+      "Nothing, since signals always cancel themselves"
+    ],
+    "answer": 2,
+    "explanation": "Make sure your signal is canceled after the turn. A signal left on can mislead other drivers into pulling out in front of you.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NJ p. 74, AL p. 23, NH p. 31)"
+  },
+  {
+    "id": "car.it.034",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "When should you turn on your signal for a turn?",
+    "choices": [
+      "Early enough that other road users can see it and react before you slow and turn",
+      "After you start steering into the turn",
+      "Only if another car is directly behind you",
+      "Only when you are already stopped at the corner"
+    ],
+    "answer": 0,
+    "explanation": "Signal before you begin to slow and turn, so drivers and pedestrians have time to react. The exact minimum distance is set by your state.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., TX p. 46, CA p. 24, CO p. 15)"
+  },
+  {
+    "id": "car.it.035",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Before you pull into an intersection from a stop, in what order should you look?",
+    "choices": [
+      "Left, right, then left again",
+      "Right, left, then right again",
+      "Straight ahead only",
+      "Left only, then go"
+    ],
+    "answer": 0,
+    "explanation": "Use the left-right-left scan. Look left first, then right, then left again before you pull out.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 24, PA p. 42, NY p. 34)"
+  },
+  {
+    "id": "car.it.036",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Why do you look to the left first, and then left again, before entering an intersection?",
+    "choices": [
+      "Drivers from the left always have the right-of-way",
+      "Traffic from the left is in the nearest lane and reaches you first",
+      "Your car's blind spot is always on the left",
+      "Signs are posted on the left side of the road"
+    ],
+    "answer": 1,
+    "explanation": "Vehicles coming from the left are closest to you. A final look left catches a car you may have missed the first time.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 42, CA p. 24)"
+  },
+  {
+    "id": "car.it.037",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Besides traffic, what should you check before turning at an intersection?",
+    "choices": [
+      "Only the traffic light",
+      "Whether the car behind you has its lights on",
+      "The crosswalks on your left and right for people about to cross",
+      "Only the street you are leaving"
+    ],
+    "answer": 2,
+    "explanation": "Search all corners and crosswalks before you turn. Pedestrians in the crosswalk of the street you are entering are easy to miss.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NY p. 35, NH p. 31, AZ p. 47)"
+  },
+  {
+    "id": "car.it.038",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Where should you look while you are making a turn?",
+    "choices": [
+      "At the curb right next to your front tire",
+      "At your hands on the steering wheel",
+      "In the rearview mirror",
+      "Through the turn, toward the far end of the path you will follow"
+    ],
+    "answer": 3,
+    "explanation": "Look through the turn to the farthest point you can see along your path. This helps you steer smoothly and spot hazards early.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NH p. 31)"
+  },
+  {
+    "id": "car.it.039",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You must stop at an intersection that has a painted stop line. Where should you stop?",
+    "choices": [
+      "With your front bumper over the line",
+      "Behind the stop line",
+      "In the crosswalk, past the line",
+      "At the edge of the cross street"
+    ],
+    "answer": 1,
+    "explanation": "When there is a stop line, stop before your front bumper reaches it. Stopping over it can put you in pedestrians' path.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 24, PA p. 14, CO p. 10)"
+  },
+  {
+    "id": "car.it.040",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You must stop at an intersection with no stop line and no crosswalk. Where should you stop?",
+    "choices": [
+      "Before entering the intersection, at a point where you can see approaching traffic",
+      "In the middle of the intersection",
+      "One car length past the corner",
+      "Anywhere, since there is no line"
+    ],
+    "answer": 0,
+    "explanation": "With no stop line or crosswalk, stop before entering the intersection, at the point nearest the cross street where you can see traffic coming.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CO p. 10, CA p. 24)"
+  },
+  {
+    "id": "car.it.041",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You stopped correctly at the stop line, but parked trucks block your view of the cross street. What should you do?",
+    "choices": [
+      "Go, because you already stopped",
+      "Honk and drive through quickly",
+      "Back up to get a wider view",
+      "Check for pedestrians, then creep forward slowly until you can see clearly"
+    ],
+    "answer": 3,
+    "explanation": "After the required stop, yield to pedestrians and edge forward carefully until you can see. Then go only when the way is clear.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 14, CO p. 10)"
+  },
+  {
+    "id": "car.it.042",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Your light is green, but traffic is backed up on the far side of the intersection. What should you do?",
+    "choices": [
+      "Enter the intersection and wait there",
+      "Stay behind the line until there is room for your vehicle on the far side",
+      "Pull halfway into the crosswalk",
+      "Go around the stopped traffic on the shoulder"
+    ],
+    "answer": 1,
+    "explanation": "Do not enter an intersection unless you can get all the way through. Stopping inside it blocks cross traffic when the light changes.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 30, NY p. 35, CO p. 16)"
+  },
+  {
+    "id": "car.it.043",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Traffic is crawling, and you are about to stop across the entrance of a side street. What should you do?",
+    "choices": [
+      "Stop where traffic stops, even across the side street",
+      "Pull onto the shoulder",
+      "Turn on your hazard lights so side-street drivers wait",
+      "Stop before the side street so you leave it open"
+    ],
+    "answer": 3,
+    "explanation": "Watch for cross streets and offset intersections in slow traffic. Leaving them open prevents gridlock.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NY p. 35)"
+  },
+  {
+    "id": "car.it.044",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Why do trucks and buses often swing wide when they turn?",
+    "choices": [
+      "Their drivers cannot see the curb",
+      "Their brakes work better on wide turns",
+      "Their rear wheels follow a shorter path than the front wheels",
+      "They are required to use two lanes"
+    ],
+    "answer": 2,
+    "explanation": "When any vehicle turns, the rear wheels cut inside the path of the front wheels. The longer the vehicle, the bigger the difference, so large vehicles swing wide to keep the rear wheels off the curb.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 49, AR p. 76, CO p. 23)"
+  },
+  {
+    "id": "car.it.045",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "A large truck ahead of you has its right signal on but moves left before the corner, leaving space on its right. What should you do?",
+    "choices": [
+      "Stay behind the truck and let it finish its turn",
+      "Pass on the right through the open space",
+      "Honk so the driver stays in the lane",
+      "Pull alongside on the left"
+    ],
+    "answer": 0,
+    "explanation": "Trucks swing left to make tight right turns. If you move into the gap on the right, you can be caught between the truck and the curb.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., TX p. 57, AK p. 83, NV p. 63)"
+  },
+  {
+    "id": "car.it.046",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are stopped at a red light. A large truck on the cross street signals to turn into your street and seems to have little room. What should you do?",
+    "choices": [
+      "Pull forward over the stop line to get out of its way",
+      "Stay stopped behind the stop line and leave the truck room to complete its turn",
+      "Edge forward so the truck driver can see you clearly",
+      "Honk to warn the truck driver that you are there"
+    ],
+    "answer": 1,
+    "explanation": "Large vehicles need extra space to turn and may swing into nearby lanes. Stay stopped behind the line (do not pull into the intersection) and give them room.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., AK p. 83, CA p. 49, CO p. 23)"
+  },
+  {
+    "id": "car.it.047",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "In the United States, which way does traffic travel around a roundabout?",
+    "choices": [
+      "Clockwise",
+      "Either direction, depending on your exit",
+      "Toward the nearest exit, in either direction",
+      "Counterclockwise"
+    ],
+    "answer": 3,
+    "explanation": "Traffic moves counterclockwise around the central island. You always enter by turning right and keep the island on your left.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 46, NY p. 50, TX p. 56, PA p. 54)"
+  },
+  {
+    "id": "car.it.048",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You want to go to the exit on the left side of a roundabout. How do you enter?",
+    "choices": [
+      "Turn right into the roundabout and circle around to your exit",
+      "Turn left into the roundabout to take the shortest path",
+      "Drive across the central island",
+      "Enter in whichever direction has less traffic"
+    ],
+    "answer": 0,
+    "explanation": "Never turn left to enter a roundabout. Enter to the right of the central island and travel counterclockwise until you reach your exit.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AL p. 60, AZ p. 28, CA p. 46)"
+  },
+  {
+    "id": "car.it.049",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "What should you do first as you approach a roundabout?",
+    "choices": [
+      "Speed up to merge with circulating traffic",
+      "Slow down and watch for pedestrians at the crosswalk",
+      "Turn on your left signal",
+      "Move to the far-right lane, whatever your exit"
+    ],
+    "answer": 1,
+    "explanation": "Roundabouts are designed for low speeds. Slow down as you approach and be ready to stop for pedestrians in the crosswalk before the entry.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 46, PA p. 54, NY p. 50)"
+  },
+  {
+    "id": "car.it.050",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You miss your exit in a roundabout. What should you do?",
+    "choices": [
+      "Stop and back up to the exit",
+      "Stop and wait for traffic to let you over",
+      "Exit across the central island",
+      "Keep going around until you come back to your exit"
+    ],
+    "answer": 3,
+    "explanation": "If you miss your exit, continue around the roundabout again. Never stop or back up in a roundabout.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 46, AL p. 60, AZ p. 28)"
+  },
+  {
+    "id": "car.it.051",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Which turn signal should you use as you approach your exit from a roundabout?",
+    "choices": [
+      "Right turn signal",
+      "Left turn signal",
+      "Hazard flashers",
+      "No signal, since the road curves"
+    ],
+    "answer": 0,
+    "explanation": "Signal right as you near your exit so drivers waiting to enter and pedestrians know you are leaving the circle.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NY p. 51, PA p. 54, TX p. 56, NE p. 57)"
+  },
+  {
+    "id": "car.it.052",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "At a two-lane roundabout, you plan to take the first exit to the right. Unless signs show otherwise, which lane should you use?",
+    "choices": [
+      "The left lane",
+      "The right lane",
+      "Either lane, then cut across at the exit",
+      "The truck apron"
+    ],
+    "answer": 1,
+    "explanation": "To turn right in a multi-lane roundabout, enter in the right lane and exit in the right lane. Always follow lane signs and pavement arrows.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 46, NV p. 44, NE p. 57)"
+  },
+  {
+    "id": "car.it.053",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "At a two-lane roundabout, you plan to turn left (go about three-quarters of the way around). Unless signs show otherwise, which lane should you use?",
+    "choices": [
+      "The right lane",
+      "The lane with the shortest line",
+      "The left lane",
+      "The right lane, then move left inside the circle"
+    ],
+    "answer": 2,
+    "explanation": "For a left turn or U-turn at a two-lane roundabout, use the left lane, as shown by signs and pavement arrows.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NV p. 44, NE p. 57, CA p. 46)"
+  },
+  {
+    "id": "car.it.054",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "When should you choose your lane at a multi-lane roundabout?",
+    "choices": [
+      "After you enter the circle",
+      "Only when you reach your exit",
+      "Whenever a gap opens in the circle",
+      "Before you enter, based on your exit and the lane signs and markings"
+    ],
+    "answer": 3,
+    "explanation": "Read the lane-use signs and pavement arrows as you approach and pick your lane before entering. Do not wait until you are in the circle.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., TX p. 56, NY p. 50, NE p. 57)"
+  },
+  {
+    "id": "car.it.055",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "A tractor-trailer is entering a roundabout next to you. What should you do?",
+    "choices": [
+      "Stay out of its way and do not drive beside it or pass it",
+      "Drive next to it so it can see you",
+      "Speed up to get ahead of it in the circle",
+      "Follow it closely onto the truck apron"
+    ],
+    "answer": 0,
+    "explanation": "Large vehicles may need more than one lane in a roundabout. Give them room and do not try to pass or ride alongside them.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., TX p. 56, AZ p. 28, NE p. 57)"
+  },
+  {
+    "id": "car.it.056",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "What is the raised, paved area next to the central island of some roundabouts for?",
+    "choices": [
+      "Cars that want a shortcut to their exit",
+      "Parking for emergency vehicles",
+      "The rear wheels of large trucks that need extra room to turn",
+      "Bicyclists who do not want to ride in traffic"
+    ],
+    "answer": 2,
+    "explanation": "A truck apron gives the rear wheels of long vehicles room as they turn. Cars, pickups, and SUVs should not drive on it.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AL p. 60, NE p. 57, NV p. 44)"
+  },
+  {
+    "id": "car.it.057",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "A bicyclist is riding in the travel lane inside a single-lane roundabout ahead of you. What should you do?",
+    "choices": [
+      "Pass the bicyclist inside the circle",
+      "Stay behind the bicyclist and do not pass in the roundabout",
+      "Honk so the bicyclist moves to the edge",
+      "Use the truck apron to go around"
+    ],
+    "answer": 1,
+    "explanation": "Bicyclists may ride through a roundabout like any vehicle. Do not pass them inside the circle; stay behind until you both exit.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., NY p. 50, PA p. 54, CA p. 46)"
+  },
+  {
+    "id": "car.it.058",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "A line of cars is waiting at a roundabout entry, and the car ahead of you is stopped at the yield line. Where should you wait?",
+    "choices": [
+      "In the crosswalk, as close as possible to the car ahead",
+      "Behind the crosswalk, keeping it clear for pedestrians",
+      "Inside the circle, next to the waiting car",
+      "On the truck apron"
+    ],
+    "answer": 1,
+    "explanation": "When you are not first in line, do not stop in the crosswalk. Keep it clear so pedestrians can cross.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., NY p. 50)"
+  },
+  {
+    "id": "car.it.059",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Once you are inside a roundabout, when should you stop?",
+    "choices": [
+      "Only when necessary to avoid a crash or other danger",
+      "At every entry point, in case cars are waiting",
+      "Whenever you need time to read the exit signs",
+      "Halfway around, to check your mirrors"
+    ],
+    "answer": 0,
+    "explanation": "Traffic in the circle should keep moving. Stopping without need can cause a rear-end crash; if you are unsure of your exit, just go around again.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AL p. 60, AZ p. 28, CA p. 46)"
+  },
+  {
+    "id": "car.it.060",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Where is a U-turn most dangerous?",
+    "choices": [
+      "On a quiet residential street with a clear view",
+      "Near the top of a hill or on a curve",
+      "At a wide intersection with no traffic",
+      "In an empty parking lot"
+    ],
+    "answer": 1,
+    "explanation": "Near a hilltop or curve, other drivers cannot see you in time to stop. Do not make a U-turn anywhere your view, or other drivers' view of you, is limited.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NY p. 37, NV p. 46, MT p. 49)"
+  },
+  {
+    "id": "car.it.061",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You see a NO U-TURN sign at an intersection, and no cars are coming. May you make a U-turn there?",
+    "choices": [
+      "Yes, if there is no traffic",
+      "Yes, if you use the left-turn lane",
+      "Yes, if you signal first",
+      "No, never where a NO U-TURN sign is posted"
+    ],
+    "answer": 3,
+    "explanation": "A NO U-TURN sign prohibits the turn at all times, even when the road looks empty. Continue to a place where turning around is allowed.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 26, NV p. 46, CO p. 16)"
+  },
+  {
+    "id": "car.it.062",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You missed your driveway. Just ahead is a blind curve. What is the best way to turn around?",
+    "choices": [
+      "Make a quick U-turn before the curve",
+      "Back up along the shoulder to your driveway",
+      "Continue to a place with a clear view, such as a side street or parking lot, and turn around there",
+      "Stop in the lane and make a three-point turn"
+    ],
+    "answer": 2,
+    "explanation": "If you cannot safely make a U-turn, keep going to the next street or turnaround area where you can see and be seen. Never back up or turn around suddenly in front of traffic.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CO p. 16, NY p. 37, CA p. 21)"
+  },
+  {
+    "id": "car.it.063",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "On a divided highway, where may you make a U-turn?",
+    "choices": [
+      "Only where an opening in the median is provided and turning is not prohibited",
+      "Anywhere you can drive across the median",
+      "Across the curb if no traffic is coming",
+      "Anywhere the median is grass instead of concrete"
+    ],
+    "answer": 0,
+    "explanation": "Never cross a median, curb, or dividing strip to turn around. Use an opening that is provided for that purpose, and only where turning is not prohibited.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 26, NV p. 46, NY p. 37)"
+  },
+  {
+    "id": "car.it.064",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You need to turn around on a busy highway. What is the safest way to do it?",
+    "choices": [
+      "Make a U-turn across the travel lanes",
+      "Back into a side road from the highway",
+      "Stop on the shoulder and wait for a gap to back up",
+      "Use a parking lot or driveway and re-enter the road moving forward"
+    ],
+    "answer": 3,
+    "explanation": "Avoid U-turns on highways. Turn around in a parking lot, driveway, or other area, and re-enter the road driving forward, not backing up.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NY p. 37, NH p. 31)"
+  },
+  {
+    "id": "car.it.065",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "When is a three-point turn the right way to turn around?",
+    "choices": [
+      "When the street is too narrow for a U-turn, you can see well in both directions, and no traffic is coming",
+      "On any busy street, because it is faster than a U-turn",
+      "On a curve, so you can use the extra road width",
+      "Whenever you miss an exit on a freeway"
+    ],
+    "answer": 0,
+    "explanation": "A three-point turn is for a narrow two-way street when a U-turn will not fit. Choose a spot with good visibility in both directions and wait for traffic to clear.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., NJ p. 58, NH p. 32, NY p. 37)"
+  }
+]

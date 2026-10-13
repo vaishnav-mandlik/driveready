@@ -1,0 +1,1266 @@
+[
+  {
+    "id": "car.hz.001",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Why is driving at night more dangerous than driving during the day?",
+    "choices": [
+      "You cannot see as far ahead or as well to the sides",
+      "Speed limits are higher at night",
+      "Traffic signals work differently at night",
+      "Roads are more crowded at night"
+    ],
+    "answer": 0,
+    "explanation": "At night your headlights limit how far you can see, and your ability to judge distances, see colors and use side vision is reduced. More tired and impaired drivers are also on the road.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., PA p. 43-44, NY p. 62)"
+  },
+  {
+    "id": "car.hz.002",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "What does \"overdriving your headlights\" mean?",
+    "choices": [
+      "Using high beams when other vehicles are nearby",
+      "Driving with headlights that are aimed too high",
+      "Keeping your headlights on during the daytime",
+      "Driving so fast you cannot stop within the distance your headlights light up"
+    ],
+    "answer": 3,
+    "explanation": "If a hazard appears at the edge of your headlight beam and you are going too fast to stop before reaching it, you are overdriving your headlights. Slow down so you can stop within the lighted distance.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., PA p. 44, NY p. 62, TX p. 53)"
+  },
+  {
+    "id": "car.hz.003",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You are driving on a dark, unlit rural road at night. How should you choose your speed?",
+    "choices": [
+      "At the posted limit, since the road is empty",
+      "Faster than usual so you spend less time on the dark road",
+      "Slow enough that you can stop within the area lit by your headlights",
+      "At whatever speed lets you keep up with the taillights ahead"
+    ],
+    "answer": 2,
+    "explanation": "Always be able to stop within the distance you can see. On a dark road that means within your headlight range, which may require driving below the posted limit.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 65, TX p. 53, NY p. 62)"
+  },
+  {
+    "id": "car.hz.004",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "The headlights of an oncoming vehicle are blinding you. Where should you look?",
+    "choices": [
+      "Directly at the oncoming headlights",
+      "Toward the right edge of your lane or the road",
+      "At the center line next to the oncoming car",
+      "Down at your dashboard until the car passes"
+    ],
+    "answer": 1,
+    "explanation": "Looking toward the right edge of the road keeps you from being blinded while still letting you stay on course. Watch the oncoming vehicle out of the corner of your eye.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 65, NY p. 63, TX p. 53)"
+  },
+  {
+    "id": "car.hz.005",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "An oncoming driver keeps their high beams on as they approach you at night. What is the best response?",
+    "choices": [
+      "Switch on your high beams until they dim theirs",
+      "Keep your low beams on and look toward the right edge of the road",
+      "Speed up so you pass them sooner",
+      "Stop in your lane until they go by"
+    ],
+    "answer": 1,
+    "explanation": "Do not \"punish\" the other driver with your own high beams; that only blinds both of you. Stay on low beams, look to the right edge, and keep going at a safe speed.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 65, PA p. 44)"
+  },
+  {
+    "id": "car.hz.006",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When should you switch from high beams to low beams?",
+    "choices": [
+      "When you are approaching an oncoming vehicle",
+      "Only when the other driver flashes their lights at you",
+      "Only after you enter a city or town",
+      "Whenever you are on a dark, empty country road"
+    ],
+    "answer": 0,
+    "explanation": "High beams can blind oncoming drivers, so dim them when a vehicle approaches. The exact distance is set by state law; check your state's rule in the State Cheat Sheet.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 17, TX p. 53, NY p. 63)"
+  },
+  {
+    "id": "car.hz.007",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You are using high beams and come up behind another vehicle traveling in your direction. What should you do?",
+    "choices": [
+      "Keep high beams on so the driver knows you are there",
+      "Flash your high beams to ask the driver to speed up",
+      "Turn off your headlights and use parking lights",
+      "Switch to low beams so you don't blind the driver through their mirrors"
+    ],
+    "answer": 3,
+    "explanation": "Your high beams reflect in the mirrors of the vehicle ahead and can blind its driver. Dim your lights when following another vehicle; the exact distance varies by state.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 17, TX p. 53, NY p. 63)"
+  },
+  {
+    "id": "car.hz.008",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Where are high-beam headlights most useful?",
+    "choices": [
+      "In fog",
+      "In heavy rain or snow",
+      "On dark, open roads with no other vehicles nearby",
+      "On brightly lit city streets"
+    ],
+    "answer": 2,
+    "explanation": "High beams let you see farther on dark, open roads when no one is coming toward you or ahead of you. In fog, rain or snow they reflect back and reduce visibility.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 65, TX p. 53)"
+  },
+  {
+    "id": "car.hz.009",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "At night, the headlights of the car behind you reflect brightly in your inside rearview mirror. What can you do?",
+    "choices": [
+      "Switch your own headlights to high beam",
+      "Turn on your interior dome light",
+      "Switch the mirror to its night setting",
+      "Turn on your rear window defroster"
+    ],
+    "answer": 2,
+    "explanation": "Most inside mirrors have a day/night setting that reduces glare from the headlights of following vehicles.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 44, NY p. 63)"
+  },
+  {
+    "id": "car.hz.010",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "At night, a vehicle with only one headlight is coming toward you. What should you keep in mind?",
+    "choices": [
+      "It is always a motorcycle, so it will stay at the far edge of its lane",
+      "It could be a motorcycle or a car with a burned-out headlight, so give it room on your right",
+      "It is a police vehicle signaling you to pull over",
+      "Single lights are only used by farm equipment, which is always on the shoulder"
+    ],
+    "answer": 1,
+    "explanation": "A single light could be a bicycle, a motorcycle or a car missing a headlight, and you cannot tell how wide it is. Keep as far to the right as is safe until it passes.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., CA p. 65, CO p. 19)"
+  },
+  {
+    "id": "car.hz.011",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Which of these is usually hardest to see at night?",
+    "choices": [
+      "A pedestrian wearing dark clothing",
+      "A car with its headlights on",
+      "A road sign with reflective lettering",
+      "A truck with lit marker lights"
+    ],
+    "answer": 0,
+    "explanation": "Pedestrians are harder to see at night than signs and other roadside objects, especially in dark clothing. Watch closely for them, along with bicyclists and motorcyclists.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., PA p. 44, CA p. 65)"
+  },
+  {
+    "id": "car.hz.012",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You pull out of a brightly lit gas station onto a dark road. What should you do?",
+    "choices": [
+      "Drive at normal speed, since eyes adjust instantly",
+      "Use high beams even when other cars approach",
+      "Look at oncoming headlights to help your eyes adjust",
+      "Drive slowly for a short time until your eyes adjust to the dark"
+    ],
+    "answer": 3,
+    "explanation": "Your eyes need time to adjust after leaving a brightly lit area. Drive slowly until you can see well in the darkness.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 65)"
+  },
+  {
+    "id": "car.hz.013",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Before a night drive, why should you clean your windshield and headlights?",
+    "choices": [
+      "Dirt only matters for daytime driving",
+      "Clean glass is only needed for the road test",
+      "Dirty headlights make your high beams brighter for others",
+      "Dirt increases glare and cuts down the light your headlights give"
+    ],
+    "answer": 3,
+    "explanation": "A dirty windshield increases glare from oncoming headlights, and dirty headlights can give only a fraction of their normal light.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NY p. 63, PA p. 44)"
+  },
+  {
+    "id": "car.hz.014",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "In the late afternoon, when should you turn on your headlights?",
+    "choices": [
+      "Only once it is completely dark",
+      "Only after the streetlights come on",
+      "As soon as daylight begins to fade",
+      "Only if another driver flashes their lights at you"
+    ],
+    "answer": 2,
+    "explanation": "Turning on headlights early helps other drivers and pedestrians see you. Your state also sets a legal time for headlight use; check your state's rule in the State Cheat Sheet.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., AZ p. 57, NY p. 63)"
+  },
+  {
+    "id": "car.hz.015",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Why are dawn and dusk especially risky times to drive?",
+    "choices": [
+      "Roads are always icy at those times",
+      "Light is low, some drivers have not turned on headlights, and animals are most active",
+      "Traffic signals switch to flashing mode",
+      "Speed limits are automatically lowered"
+    ],
+    "answer": 1,
+    "explanation": "Visibility is poor in twilight, vehicles without headlights are hard to see, and deer and other animals move the most at dawn and dusk.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NY p. 64-65, FL p. 79, PA p. 43)"
+  },
+  {
+    "id": "car.hz.016",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "It is getting dark and your car's daytime running lights are on. Is that enough?",
+    "choices": [
+      "No. Turn on your headlights so your taillights are lit too",
+      "Yes. Daytime running lights also light up the rear of the car",
+      "Yes, as long as your dashboard lights are on",
+      "No. Switch to parking lights instead"
+    ],
+    "answer": 0,
+    "explanation": "Daytime running lights usually do not turn on your taillights, so drivers behind you may not see you. Use your headlights; parking lights are not a substitute.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 44, NY p. 63)"
+  },
+  {
+    "id": "car.hz.017",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You are driving into a low, bright sun in the early morning. What helps reduce glare?",
+    "choices": [
+      "Use your sun visor and wear sunglasses",
+      "Turn on your high beams",
+      "Speed up to get through the glare quickly",
+      "Turn on your windshield wipers"
+    ],
+    "answer": 0,
+    "explanation": "Sun visors, sunglasses and a clean windshield all reduce glare. Slow down if glare makes it hard to see.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 66, AZ p. 54)"
+  },
+  {
+    "id": "car.hz.018",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "At sunset, the low sun is behind you as you drive. What should you be aware of?",
+    "choices": [
+      "You have no glare risk, so you can follow more closely",
+      "Glare only affects drivers going your direction",
+      "Drivers behind you are blinded, so tap your brakes often",
+      "Oncoming drivers face the glare and may not see your car or your signals"
+    ],
+    "answer": 3,
+    "explanation": "When the sun is behind you, drivers coming toward you are looking into it. They may not see your vehicle or turn signals, so drive with extra caution.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., AZ p. 54)"
+  },
+  {
+    "id": "car.hz.019",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When is a paved road often the most slippery during a rainstorm?",
+    "choices": [
+      "After it has rained steadily for several hours",
+      "Right after the rain stops",
+      "In the first few minutes after the rain begins",
+      "Only when it rains at night"
+    ],
+    "answer": 2,
+    "explanation": "When rain starts, it mixes with oil and grime on the pavement and makes a slick film. As rain continues, much of that oil washes away.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., PA p. 44-45, CA p. 67, AZ p. 55)"
+  },
+  {
+    "id": "car.hz.020",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "How should you adjust your driving when the road is wet?",
+    "choices": [
+      "Keep your normal speed but brake harder",
+      "Slow down and increase your following distance",
+      "Speed up to throw water off your tires",
+      "Use cruise control to keep a steady speed"
+    ],
+    "answer": 1,
+    "explanation": "Wet roads reduce traction and increase stopping distance. Slowing down and leaving more space gives you time and room to stop.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., TX p. 51, CO p. 19, FL p. 80)"
+  },
+  {
+    "id": "car.hz.021",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "What is hydroplaning?",
+    "choices": [
+      "When your brakes overheat on a long downhill",
+      "When your tires ride on a layer of water instead of gripping the road",
+      "When your engine stalls after a deep puddle",
+      "When fog forms on the inside of your windshield"
+    ],
+    "answer": 1,
+    "explanation": "In hydroplaning, water builds up under the tires faster than they can push it away, so the tires lose contact with the pavement and you can lose steering and braking control.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 68, PA p. 45, NY p. 63)"
+  },
+  {
+    "id": "car.hz.022",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Your car starts to hydroplane on a wet highway. What should you do first?",
+    "choices": [
+      "Ease your foot off the gas and hold the steering wheel steady",
+      "Brake hard to stop as quickly as possible",
+      "Steer sharply toward the shoulder",
+      "Accelerate to push through the water"
+    ],
+    "answer": 0,
+    "explanation": "Let the car slow down gradually so the tires can regain contact with the road. Avoid hard braking and sudden steering, which can cause a skid.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 68, AZ p. 56, PA p. 45)"
+  },
+  {
+    "id": "car.hz.023",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "On a rainy road you hear a sloshing sound from your tires. What does it suggest?",
+    "choices": [
+      "Your tires are low on air, so speed up to warm them",
+      "The road is draining well and grip is normal",
+      "Your windshield wipers need to be replaced",
+      "There is enough water on the road to risk hydroplaning, so slow down"
+    ],
+    "answer": 3,
+    "explanation": "Sloshing tires mean you are driving through a lot of water. Slow down to keep your tires in contact with the road.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 68)"
+  },
+  {
+    "id": "car.hz.024",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "How can you lower your risk of hydroplaning in heavy rain?",
+    "choices": [
+      "Drive through puddles quickly so you spend less time in them",
+      "Lower your tire pressure for better grip",
+      "Slow down and steer around standing water when you safely can",
+      "Turn on cruise control to avoid speed changes"
+    ],
+    "answer": 2,
+    "explanation": "Slowing down is the best way to prevent hydroplaning. Avoid standing water when it is safe to do so, and keep good tread and proper tire pressure.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 68, NY p. 63, AZ p. 55)"
+  },
+  {
+    "id": "car.hz.025",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Why should you avoid using cruise control on wet, icy or snowy roads?",
+    "choices": [
+      "Cruise control stops working below freezing",
+      "It makes your headlights dim",
+      "If your wheels start to slip, cruise control can keep applying power",
+      "It is designed only for city driving"
+    ],
+    "answer": 2,
+    "explanation": "On a slippery road you need to reduce power to stop wheel spin and stay in control. Cruise control keeps feeding power and can make a skid worse.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 45, CA p. 69)"
+  },
+  {
+    "id": "car.hz.026",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "In a heavy downpour you can barely see the road ahead. What is the safest choice?",
+    "choices": [
+      "Follow closely behind the taillights of the car ahead",
+      "Slow down, and if you still can't see, pull completely off the road to a safe place",
+      "Switch to high beams to see through the rain",
+      "Stop in your travel lane and wait"
+    ],
+    "answer": 1,
+    "explanation": "In very heavy rain you may see only a short distance ahead. Slow down; if conditions are too bad to drive, get fully off the road where you won't be hit.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 68, PA p. 46)"
+  },
+  {
+    "id": "car.hz.027",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "After driving through deep water, your brakes feel weak and pull to one side. What should you do?",
+    "choices": [
+      "Drive slowly and press the brake pedal lightly until the brakes dry",
+      "Pump the brakes hard at highway speed",
+      "Keep driving normally; they will dry on their own",
+      "Use only the parking brake until you get home"
+    ],
+    "answer": 0,
+    "explanation": "Wet brakes may not hold or may pull. Test them after going through water and dry them by driving slowly while applying light pressure.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 67, NV p. 58, FL p. 80)"
+  },
+  {
+    "id": "car.hz.028",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Which headlight setting should you use in fog?",
+    "choices": [
+      "High beams",
+      "Parking lights only",
+      "Headlights off so they don't reflect",
+      "Low beams"
+    ],
+    "answer": 3,
+    "explanation": "Low beams light the road without bouncing back into your eyes, and they help others see you. Never drive in fog with only parking lights.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 70, FL p. 79, PA p. 46)"
+  },
+  {
+    "id": "car.hz.029",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You are driving in fog and can barely see. What can help you stay in your lane?",
+    "choices": [
+      "Follow close behind the taillights ahead",
+      "Drive on top of the center line",
+      "Watch the brake lights of oncoming cars",
+      "Use the right edge line of the road as a guide"
+    ],
+    "answer": 3,
+    "explanation": "Road edge lines and center lines are useful guides when visibility is poor. Following another car closely leaves you no room to stop.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., FL p. 79)"
+  },
+  {
+    "id": "car.hz.030",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Fog hides most of the clues that tell you how fast you are going. What should you do?",
+    "choices": [
+      "Match the speed of the vehicle behind you",
+      "Set cruise control at the posted limit",
+      "Check your speedometer often so you don't speed up without noticing",
+      "Speed up so you get out of the fog sooner"
+    ],
+    "answer": 2,
+    "explanation": "Without visual clues it is easy to creep faster than you think. Keep checking your speed and drive slowly enough to stop within the distance you can see.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 46, CA p. 70)"
+  },
+  {
+    "id": "car.hz.031",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "The fog becomes so thick that you cannot see well enough to drive safely. What should you do?",
+    "choices": [
+      "Stop in your lane and turn on your hazard flashers",
+      "Pull completely off the road to a safe spot, turn on your hazard flashers, and wait",
+      "Keep going and follow the car ahead closely",
+      "Switch to high beams and continue at the same speed"
+    ],
+    "answer": 1,
+    "explanation": "Stopping in a travel lane in fog invites a rear-end crash. Get fully off the road, preferably into a parking area, and wait for the fog to clear.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., CA p. 70, PA p. 46)"
+  },
+  {
+    "id": "car.hz.032",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Which is a good practice when you must drive in fog?",
+    "choices": [
+      "Increase your following distance and avoid passing",
+      "Use only your fog lights instead of headlights",
+      "Pass slow vehicles to get clear of the fog",
+      "Drive in the left lane to stay away from the shoulder"
+    ],
+    "answer": 0,
+    "explanation": "In fog, slow down, use low beams, leave extra space ahead and avoid changing lanes or passing unless absolutely necessary.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 70)"
+  },
+  {
+    "id": "car.hz.033",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "In cold weather, which part of the road often freezes first?",
+    "choices": [
+      "Bridges and overpasses",
+      "Sunny stretches of open highway",
+      "Busy downtown intersections",
+      "Freshly paved roads"
+    ],
+    "answer": 0,
+    "explanation": "Bridges and overpasses tend to freeze before the rest of the road, so they can be icy even when other pavement is just wet.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 67, NY p. 64, PA p. 45)"
+  },
+  {
+    "id": "car.hz.034",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "On a cold, wet day, where is ice most likely to remain on the road?",
+    "choices": [
+      "On stretches in full sunshine",
+      "In lanes with heavy traffic",
+      "On roads that were just salted and are steaming",
+      "In spots shaded by trees or buildings"
+    ],
+    "answer": 3,
+    "explanation": "Shaded areas freeze first and dry out last, so they can hold hidden icy spots after the rest of the road looks clear.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., CA p. 67, PA p. 45)"
+  },
+  {
+    "id": "car.hz.035",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "What is \"black ice\"?",
+    "choices": [
+      "Ice mixed with dirt that is easy to see",
+      "Ice that forms only on gravel roads",
+      "A thin, clear layer of ice that makes the road look only wet",
+      "Snow packed down hard by traffic"
+    ],
+    "answer": 2,
+    "explanation": "Black ice is a thin, nearly invisible coating of ice. Because you can see the dark pavement through it, it looks like a wet road.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 45)"
+  },
+  {
+    "id": "car.hz.036",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "On a freezing morning, the road ahead looks wet, but the cars in front of you are not throwing up any spray. What could this mean?",
+    "choices": [
+      "The road is drying, so you can speed up",
+      "There may be black ice, so ease off the gas and avoid sudden moves",
+      "The road has been salted and is safe",
+      "The cars ahead must have new tires"
+    ],
+    "answer": 1,
+    "explanation": "When a road looks wet but tires are not throwing water, the \"water\" may actually be ice. Slow down gently without hard braking or sharp steering.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 45)"
+  },
+  {
+    "id": "car.hz.037",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When is ice usually the MOST slippery?",
+    "choices": [
+      "On extremely cold, dry days",
+      "When it is near freezing and a thin layer of water sits on top",
+      "When it is covered with a deep layer of fresh snow",
+      "Late at night in a well-lit city"
+    ],
+    "answer": 1,
+    "explanation": "Ice near the freezing point often has a film of water on it, which is even more slippery than ice alone. Be extra careful when rain or sleet falls near freezing.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 45)"
+  },
+  {
+    "id": "car.hz.038",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "How should you brake, steer and accelerate on snow or ice?",
+    "choices": [
+      "Gently and smoothly",
+      "Quickly and firmly to stay in control",
+      "The same as on dry pavement if you have snow tires",
+      "Only with the parking brake"
+    ],
+    "answer": 0,
+    "explanation": "Sudden or hard inputs can break traction and cause a skid. Brake early and gently, steer smoothly, and accelerate slowly.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NY p. 64, PA p. 45, CA p. 66)"
+  },
+  {
+    "id": "car.hz.039",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You are approaching a stop sign on a snow-covered road. What should you do?",
+    "choices": [
+      "Brake at the usual point, but press harder",
+      "Shift into neutral and coast up to the sign",
+      "Keep your speed until the last moment, then brake firmly",
+      "Start braking earlier and more gently than usual"
+    ],
+    "answer": 3,
+    "explanation": "Stopping takes much more distance on snow and ice. Begin slowing early with steady, gentle pressure so the wheels keep turning.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NY p. 64, CA p. 66)"
+  },
+  {
+    "id": "car.hz.040",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Your vehicle has four-wheel drive. How does that affect driving on ice?",
+    "choices": [
+      "It lets you drive at normal speed on ice",
+      "It makes your stopping distance on ice much shorter",
+      "It can help you get moving, but it does not help you stop or turn on ice",
+      "It means you no longer need extra following distance"
+    ],
+    "answer": 2,
+    "explanation": "Four-wheel and all-wheel drive improve traction for getting going, but they do not prevent skids or shorten braking distance. Slow down like everyone else.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., NY p. 64, CO p. 19)"
+  },
+  {
+    "id": "car.hz.041",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Before driving after a snowfall, what should you clear of snow and ice?",
+    "choices": [
+      "Only a small spot on the windshield in front of you",
+      "Only the windshield; the other windows will clear while driving",
+      "All windows, mirrors, lights, and the roof and hood",
+      "Only the headlights"
+    ],
+    "answer": 2,
+    "explanation": "You need a full view and your lights must be visible. Snow left on the roof or hood can slide onto your windshield or blow onto drivers behind you.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., PA p. 46, NY p. 64)"
+  },
+  {
+    "id": "car.hz.042",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "On an icy road, when should you slow down for a curve?",
+    "choices": [
+      "In the middle of the curve",
+      "Before you enter the curve",
+      "As you come out of the curve",
+      "Only if the car starts to slide"
+    ],
+    "answer": 1,
+    "explanation": "Braking in a curve on a slippery surface can cause a skid. Slow down on the straight road before the curve, then drive through it smoothly.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 66, PA p. 44)"
+  },
+  {
+    "id": "car.hz.043",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Besides ice and snow, which of these can make the road surface very slick?",
+    "choices": [
+      "Wet leaves",
+      "Dry concrete",
+      "Fresh, dry asphalt",
+      "A dry gravel shoulder in summer"
+    ],
+    "answer": 0,
+    "explanation": "Wet leaves, oil and standing water can be as slippery as ice. Slow down and avoid them when you safely can.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NY p. 63, CA p. 66)"
+  },
+  {
+    "id": "car.hz.044",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "What most often causes a car to skid on a slippery road?",
+    "choices": [
+      "Driving with low-beam headlights",
+      "Driving too slowly on a straight road",
+      "Keeping a long following distance",
+      "Driving too fast and making sudden turns, stops or speed changes"
+    ],
+    "answer": 3,
+    "explanation": "Skids happen when tires lose grip. Excess speed and sudden steering, braking or acceleration are the usual causes, so drive slowly and smoothly.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 66, PA p. 44)"
+  },
+  {
+    "id": "car.hz.045",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You are driving up a snowy hill behind another car. What should you do?",
+    "choices": [
+      "Follow closely so you can use its tracks",
+      "Pass it so you are not stuck behind it",
+      "Brake often to test your traction on the way up",
+      "Stay far enough back that you won't have to slow down or stop partway up"
+    ],
+    "answer": 3,
+    "explanation": "Stopping on a snowy upgrade can leave you unable to get moving again. Hang back so you can keep a slow, steady pace to the top.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 45)"
+  },
+  {
+    "id": "car.hz.046",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "How should you drive in strong winds?",
+    "choices": [
+      "Speed up to spend less time in the wind",
+      "Use cruise control to hold a steady speed",
+      "Slow down and keep a firm grip on the steering wheel",
+      "Loosen your grip so the car can drift with gusts"
+    ],
+    "answer": 2,
+    "explanation": "Gusts are unpredictable. A lower speed and a firm grip give you more control and time to react when the wind pushes your vehicle.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 69, AZ p. 54)"
+  },
+  {
+    "id": "car.hz.047",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "On a windy day, you drive from a sheltered stretch of road onto an open bridge. What should you expect?",
+    "choices": [
+      "Calmer winds, since bridges are protected",
+      "A sudden crosswind that may push your vehicle sideways",
+      "Your brakes locking up",
+      "Better tire grip in the open"
+    ],
+    "answer": 1,
+    "explanation": "When you leave a protected area for an open space, strong crosswinds can push you toward the side or middle of the road. Be ready to correct your steering.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AZ p. 54)"
+  },
+  {
+    "id": "car.hz.048",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Which vehicles are most affected by strong crosswinds?",
+    "choices": [
+      "Campers, trucks and vehicles pulling trailers",
+      "Low, heavy passenger sedans",
+      "All vehicles are affected equally",
+      "Vehicles with all-wheel drive"
+    ],
+    "answer": 0,
+    "explanation": "Tall vehicles and vehicles towing trailers catch more wind and are the hardest to control in strong winds. Lightweight vehicles are also affected.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 69, AZ p. 54)"
+  },
+  {
+    "id": "car.hz.049",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "On a windy two-lane road, a large truck is about to pass you going the other way. What should you be ready for?",
+    "choices": [
+      "A gust of air that pushes your car, needing a small steering correction",
+      "Nothing, because trucks block the wind",
+      "To steer sharply away onto the shoulder",
+      "To brake hard as the truck goes by"
+    ],
+    "answer": 0,
+    "explanation": "Large trucks and buses create wind gusts as they pass. Keep a firm grip and make small, smooth steering corrections rather than sudden moves.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., AZ p. 55, NJ p. 187)"
+  },
+  {
+    "id": "car.hz.050",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You come to a road covered by moving water. What should you do?",
+    "choices": [
+      "Drive through slowly in a low gear",
+      "Speed up so you make it across",
+      "Follow a larger vehicle through",
+      "Turn around and find another route"
+    ],
+    "answer": 3,
+    "explanation": "\"Turn Around, Don't Drown.\" You can't tell how deep or fast the water is, and nearly half of flood deaths happen in vehicles.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., TX p. 56, PA p. 66, FL p. 80)"
+  },
+  {
+    "id": "car.hz.051",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "As little as how much moving water can make a car lose control or stall?",
+    "choices": [
+      "About 2 feet",
+      "About 3 feet",
+      "About 6 inches",
+      "Only water deep enough to reach the windows"
+    ],
+    "answer": 2,
+    "explanation": "About six inches of water reaches the bottom of many cars and can cause loss of control or stalling. About two feet of moving water can sweep away most vehicles, including SUVs.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., TX p. 56, PA p. 66)"
+  },
+  {
+    "id": "car.hz.052",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "A driver says, \"My SUV sits high, so it can handle a flooded road.\" Why is that wrong?",
+    "choices": [
+      "SUVs float only in salt water",
+      "About two feet of moving water can carry away most vehicles, including SUVs and pickups",
+      "It is right; SUVs are safe in any flood water",
+      "SUVs are only at risk if the engine is off"
+    ],
+    "answer": 1,
+    "explanation": "Moving water pushes on the whole vehicle and can lift it off the road. Two feet of moving water is enough to sweep away most SUVs and pickups.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 66, TX p. 56, AK p. 84)"
+  },
+  {
+    "id": "car.hz.053",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Why is it unsafe to drive onto a flooded road that looks shallow?",
+    "choices": [
+      "Floodwater is always deeper than 3 feet",
+      "You can't judge the depth, and the road underneath may be washed out",
+      "Shallow water only affects large trucks",
+      "It is safe as long as you drive quickly"
+    ],
+    "answer": 1,
+    "explanation": "Water can hide missing pavement, collapsed roadbed, debris and even a missing bridge. Its depth is very hard to judge by looking.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 69, TX p. 56, PA p. 66)"
+  },
+  {
+    "id": "car.hz.054",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Your car stalls in rising floodwater. What should you do?",
+    "choices": [
+      "Get out quickly and move to higher ground",
+      "Stay inside with the windows up until the water goes down",
+      "Keep trying to restart the engine",
+      "Push the car back the way you came"
+    ],
+    "answer": 0,
+    "explanation": "Rising water can lift and carry a car away and trap the people inside. Leave the vehicle quickly and get to higher ground.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., TX p. 56, PA p. 66)"
+  },
+  {
+    "id": "car.hz.055",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Before going down a long, steep hill, what should you do?",
+    "choices": [
+      "Shift into neutral and coast",
+      "Shift into the highest gear",
+      "Turn off the engine to save fuel",
+      "Shift into a lower gear"
+    ],
+    "answer": 3,
+    "explanation": "A lower gear lets the engine help hold your speed down, so you don't have to rely only on your brakes.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CO p. 20, CA p. 66, PA p. 45)"
+  },
+  {
+    "id": "car.hz.056",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Why should you avoid riding your brakes all the way down a long mountain grade?",
+    "choices": [
+      "It wears out your tires but not your brakes",
+      "It drains the battery",
+      "Constant braking can overheat the brakes and make them work poorly",
+      "It causes the engine to stall"
+    ],
+    "answer": 2,
+    "explanation": "Brakes produce heat, and long, steady braking can overheat them so they fade. Use a lower gear and brake firmly only when needed.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NV p. 58); AAMVA CDL Manual, Section 2.17"
+  },
+  {
+    "id": "car.hz.057",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "On a steep downgrade, a driver shifts into neutral to save fuel. Why is this a bad idea?",
+    "choices": [
+      "It is fine as long as the brakes are new",
+      "It only matters for manual-transmission cars",
+      "Without engine braking, speed builds and the brakes must do all the work",
+      "Neutral gives better control because the wheels roll freely"
+    ],
+    "answer": 2,
+    "explanation": "Coasting in neutral removes the engine's braking effect, so the vehicle speeds up and the brakes can overheat. Many states also prohibit it.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., TX p. 50, AL p. 75, CO p. 20)"
+  },
+  {
+    "id": "car.hz.058",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You are approaching the top of a hill where you can't see the road beyond. What should you do?",
+    "choices": [
+      "Speed up to get over the hill quickly",
+      "Slow down and be ready for a hazard just over the top",
+      "Move toward the center line for a better view",
+      "Keep your speed; hills never hide traffic"
+    ],
+    "answer": 1,
+    "explanation": "Hills and curves can hide stopped vehicles, animals or oncoming traffic. Slow down and stay to the right until you can see ahead.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CO p. 20, AZ p. 54)"
+  },
+  {
+    "id": "car.hz.059",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "What should you expect when driving through a highway work zone?",
+    "choices": [
+      "Sudden slowing or stopping, shifting lanes, and workers near traffic",
+      "Higher speed limits so traffic clears faster",
+      "No changes if you don't see workers right away",
+      "Signals that apply only to trucks"
+    ],
+    "answer": 0,
+    "explanation": "Work zones change normal traffic patterns. Slow down, leave extra space, and expect sudden stops and lane changes.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 55, TX p. 41, NY p. 49)"
+  },
+  {
+    "id": "car.hz.060",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "A flagger in a work zone holds up a STOP paddle. What must you do?",
+    "choices": [
+      "Slow down and continue carefully",
+      "Stop, then go once no workers are in your lane",
+      "Drive around the flagger on the shoulder",
+      "Stop and wait until the flagger signals you to go"
+    ],
+    "answer": 3,
+    "explanation": "A flagger's directions must be obeyed. Stop in your lane and do not move until the flagger tells you to proceed.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., TX p. 42, NY p. 49, CA p. 55)"
+  },
+  {
+    "id": "car.hz.061",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "What is the most common type of crash in work zones?",
+    "choices": [
+      "Head-on crashes",
+      "Rollover crashes",
+      "Crashes with parked cars",
+      "Rear-end crashes"
+    ],
+    "answer": 3,
+    "explanation": "Traffic in work zones often slows or stops suddenly. Keep extra following distance and stay alert to avoid hitting the vehicle ahead.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NY p. 49, CA p. 55)"
+  },
+  {
+    "id": "car.hz.062",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You drive through a work zone at night and see no workers. What should you do?",
+    "choices": [
+      "Treat the zone as closed for the night and use any lane that looks open",
+      "Return to your normal speed, since no one is working",
+      "Stay alert and follow the work zone signs until you pass the end of the zone",
+      "Drive between the cones to avoid uneven pavement"
+    ],
+    "answer": 2,
+    "explanation": "Road work can happen at night, workers may be out of sight, and lane shifts and hazards remain. Follow the signs until you pass the end-of-work-zone sign.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., NY p. 49, TX p. 42, CA p. 65)"
+  },
+  {
+    "id": "car.hz.063",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Cones and arrow panels in a work zone show that your lane is closed ahead. What should you do?",
+    "choices": [
+      "Drive between the cones to save time",
+      "Slow down and move into the open lane when it is safe, without crossing the cones",
+      "Stop in your lane until it reopens",
+      "Use the shoulder to get past the closed lane"
+    ],
+    "answer": 1,
+    "explanation": "Channelizing devices guide you safely around the work area. Slow down, check traffic, and merge into the open lane; never drive through or between the cones.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 55, TX p. 42)"
+  },
+  {
+    "id": "car.hz.064",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When are deer and other wild animals most active near roads?",
+    "choices": [
+      "At dawn and dusk",
+      "At midday",
+      "Between midnight and 3 a.m.",
+      "Only during rainstorms"
+    ],
+    "answer": 0,
+    "explanation": "Animals move the most around sunrise and sunset, which is also when visibility is poor. Be extra alert at those times.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NY p. 64, FL p. 79, MT p. 71)"
+  },
+  {
+    "id": "car.hz.065",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "A deer crosses the road ahead of you. What should you expect?",
+    "choices": [
+      "More deer may follow, so slow down",
+      "It is the only one, so you can speed up",
+      "It will always stay on the far shoulder",
+      "It will freeze and stay in place until you pass"
+    ],
+    "answer": 0,
+    "explanation": "Deer usually travel in groups. If you see one, slow down and watch for others that may follow.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NY p. 64, MT p. 71)"
+  },
+  {
+    "id": "car.hz.066",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "A small animal suddenly runs in front of your car, and there is oncoming traffic. What should you do?",
+    "choices": [
+      "Swerve into the oncoming lane to miss it",
+      "Swerve onto the shoulder at full speed",
+      "Speed up to get past before it moves",
+      "Brake firmly but stay in your lane; do not swerve"
+    ],
+    "answer": 3,
+    "explanation": "Swerving can cause a much worse crash with another vehicle, a tree or a rollover. Brake firmly and keep control of your vehicle in your lane.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AK p. 72, FL p. 79, MT p. 71)"
+  },
+  {
+    "id": "car.hz.067",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Why do safety experts say \"Don't veer for deer\"?",
+    "choices": [
+      "Deer always jump out of the way at the last second",
+      "Hitting a deer never damages a car",
+      "Swerving can lead to a worse crash with another vehicle, a tree, or a rollover",
+      "Swerving is illegal in every state"
+    ],
+    "answer": 2,
+    "explanation": "Drivers are more likely to be killed or hurt when they swerve off the road or into oncoming traffic than when they brake firmly and stay in control.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., NE p. 34, MT p. 71, FL p. 79)"
+  },
+  {
+    "id": "car.hz.068",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "At night on a rural road, how can you spot animals early?",
+    "choices": [
+      "Watch only the center line",
+      "Scan the road edges for your headlights reflecting in their eyes",
+      "Look only at the road directly in front of the hood",
+      "Keep your eyes on the taillights ahead"
+    ],
+    "answer": 1,
+    "explanation": "Animals' eyes often shine in your headlights. Scan both sides of the road, especially near woods, fields and water.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., FL p. 79)"
+  },
+  {
+    "id": "car.hz.069",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You see horses or cattle standing near the road. What should you do?",
+    "choices": [
+      "Speed up to pass before they move",
+      "Slow down and be ready to stop",
+      "Swerve into the opposite lane to give them room",
+      "Keep your speed; farm animals never enter the road"
+    ],
+    "answer": 1,
+    "explanation": "Animals can move suddenly and unpredictably. Slow down or stop as needed and be ready for them to step into the road.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 55, NJ p. 104)"
+  },
+  {
+    "id": "car.hz.070",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Where should your eyes be while you drive?",
+    "choices": [
+      "Scanning far down the road and to the sides, not just the car in front",
+      "Fixed on the bumper of the car ahead",
+      "On the road just in front of your hood",
+      "Mostly on your speedometer"
+    ],
+    "answer": 0,
+    "explanation": "Keep your eyes moving. Look well ahead, check the sides of the road and glance at your mirrors so you can spot problems early.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NY p. 45, PA p. 41, CA p. 63)"
+  },
+  {
+    "id": "car.hz.071",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "How often should you check your mirrors during normal driving?",
+    "choices": [
+      "Only when changing lanes",
+      "Only when backing up",
+      "Only when you hear a horn or siren",
+      "Regularly, as part of scanning, even when you are not changing lanes"
+    ],
+    "answer": 3,
+    "explanation": "Checking your mirrors frequently keeps you aware of traffic behind and beside you so you are ready if you need to slow, stop or move over.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NY p. 45, CA p. 65, PA p. 42)"
+  },
+  {
+    "id": "car.hz.072",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "A car is approaching a STOP sign on a side road ahead. What should a defensive driver assume?",
+    "choices": [
+      "It will stop, so you don't need to watch it",
+      "It must yield, so you should speed up",
+      "It might not stop, so be ready to react",
+      "Its driver will wave you through"
+    ],
+    "answer": 2,
+    "explanation": "Defensive drivers expect others to make mistakes. Don't assume a driver will stop or yield; watch them and be ready to slow or stop.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NY p. 45, PA p. 42)"
+  },
+  {
+    "id": "car.hz.073",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Before changing lanes, how should you check your blind spot?",
+    "choices": [
+      "Use your side mirror only",
+      "Use your inside mirror only",
+      "Look over your shoulder in the direction you plan to move",
+      "Watch for other drivers' turn signals"
+    ],
+    "answer": 2,
+    "explanation": "Mirrors don't show your blind spots. A quick look over your shoulder shows whether a vehicle is beside you.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 64, PA p. 42, TX p. 45)"
+  },
+  {
+    "id": "car.hz.074",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You notice you have been driving alongside another car, slightly behind its side. What should you do?",
+    "choices": [
+      "Stay there so the driver knows where you are",
+      "Speed up or drop back so you are out of its blind spot",
+      "Honk to let the driver know you are there",
+      "Move closer to the lane line so they can see you"
+    ],
+    "answer": 1,
+    "explanation": "That position is in the other driver's blind spot. Don't linger there; adjust your speed so the driver can see you.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 41, TX p. 45, CA p. 64)"
+  },
+  {
+    "id": "car.hz.075",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Your car's blind-spot warning light is off and you want to change lanes. What should you still do?",
+    "choices": [
+      "Glance over your shoulder before moving over",
+      "Change lanes, because the system replaces a head check",
+      "Signal only; no other check is needed",
+      "Check your inside mirror only"
+    ],
+    "answer": 0,
+    "explanation": "Driver-assist systems can miss vehicles, especially fast or small ones like motorcycles. Don't depend on mirrors or sensors alone; turn your head to check.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 42, CA p. 13)"
+  },
+  {
+    "id": "car.hz.076",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "On a busy highway you find yourself boxed in by a pack of cars. What is a good way to get a space cushion back?",
+    "choices": [
+      "Speed up and weave through the pack",
+      "Stay in the pack; it is the safest place",
+      "Tailgate the car ahead so others can't cut in",
+      "Ease off your speed a little so the pack can move ahead"
+    ],
+    "answer": 3,
+    "explanation": "Driving in a pack keeps you in other drivers' blind spots with no escape route. Slowing slightly lets traffic clear so you have space around you.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 47)"
+  },
+  {
+    "id": "car.hz.077",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You are on a narrow street with parked cars on your right and steady oncoming traffic on your left. Both are equally close. What should you do?",
+    "choices": [
+      "Drive close to the parked cars to give oncoming traffic room",
+      "Drive near the center line to stay away from car doors",
+      "Speed up to get through the narrow area quickly",
+      "Slow down and steer a middle path between them"
+    ],
+    "answer": 3,
+    "explanation": "When dangers on both sides are about equal, slow down and split the difference. If one hazard is greater, give it more room.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 40, CA p. 64)"
+  },
+  {
+    "id": "car.hz.078",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "A small piece of tire tread suddenly appears in your lane, with traffic beside you. What may be the safer choice?",
+    "choices": [
+      "Swerve hard into the next lane to miss it",
+      "Slam on the brakes no matter who is behind you",
+      "Slow down and drive over it rather than swerving sharply",
+      "Steer onto the shoulder at full speed"
+    ],
+    "answer": 2,
+    "explanation": "A common debris crash happens when a driver swerves, loses control and leaves the road. Hitting small debris is often less dangerous than a sudden swerve.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., AZ p. 70)"
+  },
+  {
+    "id": "car.hz.079",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Why should you slow down on a road with many potholes?",
+    "choices": [
+      "Potholes only affect large trucks",
+      "Potholes can jolt the car and cause the tires to lose traction",
+      "Driving fast lets the tires skip over the holes",
+      "Speed has no effect on how potholes affect you"
+    ],
+    "answer": 1,
+    "explanation": "Potholes can bounce your vehicle and reduce tire grip. Scan ahead, slow down, and steer around them only when it is safe.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CO p. 20, NJ p. 187)"
+  }
+]

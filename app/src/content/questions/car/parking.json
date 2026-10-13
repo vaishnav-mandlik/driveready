@@ -1,0 +1,609 @@
+[
+  {
+    "id": "car.pk.001",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You park on a level street in a car with an automatic transmission. What should you do before leaving it?",
+    "choices": [
+      "Shift into Neutral and set the parking brake",
+      "Shift into Park and set the parking brake",
+      "Shift into Park; the parking brake is only needed on hills",
+      "Shift into Park and leave the engine running if you will be back soon"
+    ],
+    "answer": 1,
+    "explanation": "Whenever you park, shift an automatic into Park and set the parking brake. Equipment can fail, so the parking brake is a backup on level ground too, not just on hills.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NM p. 16, NJ p. 59, NV p. 48)"
+  },
+  {
+    "id": "car.pk.002",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You park facing downhill next to a curb. Which way should you turn your front wheels?",
+    "choices": [
+      "Away from the curb, toward the center of the road",
+      "Straight ahead, parallel to the curb",
+      "Toward the curb",
+      "It does not matter if the parking brake is set"
+    ],
+    "answer": 2,
+    "explanation": "Facing downhill, turn the front wheels toward the curb. If the car starts to roll, the curb stops it. Set the parking brake as well.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 33, AZ p. 30, NJ p. 59, CO p. 17)"
+  },
+  {
+    "id": "car.pk.003",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You park facing uphill next to a curb. Which way should you turn your front wheels?",
+    "choices": [
+      "Toward the curb",
+      "Straight ahead, parallel to the curb",
+      "Toward the curb, then roll forward until the tire touches it",
+      "Away from the curb"
+    ],
+    "answer": 3,
+    "explanation": "Facing uphill with a curb, turn the wheels away from the curb (toward the center of the road) so the back of the front tire can rest against the curb. Turning toward the curb is the downhill rule.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 33, AZ p. 30, NJ p. 59, AK p. 74)"
+  },
+  {
+    "id": "car.pk.004",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You park facing uphill on a road with no curb, only a gravel shoulder. Which way should you turn your front wheels?",
+    "choices": [
+      "To the right, toward the shoulder",
+      "To the left, away from the shoulder, as you would with a curb",
+      "Straight ahead, so the tires do not dig into the gravel",
+      "Left if the hill is steep, right if it is gentle"
+    ],
+    "answer": 0,
+    "explanation": "With no curb, turn the wheels to the right toward the shoulder whether you face uphill or downhill, so a rolling car goes off the road instead of into traffic. The \"away from the curb\" rule only works when a curb is there to catch the tire.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., CA p. 33, AZ p. 30, CO p. 17, NV p. 49)"
+  },
+  {
+    "id": "car.pk.005",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Why should you turn your front wheels when you park on a hill?",
+    "choices": [
+      "So the parking brake is not needed",
+      "So the car will roll into the curb or off the road, not into traffic, if it starts to move",
+      "So the car is easier to steer when you pull out",
+      "To keep the tires from wearing unevenly"
+    ],
+    "answer": 1,
+    "explanation": "Brakes or the transmission can fail. Turned wheels mean a rolling car is stopped by the curb or heads off the road instead of into traffic. You still need to set the parking brake.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 33, NV p. 49, NM p. 16, AL p. 30)"
+  },
+  {
+    "id": "car.pk.006",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You have turned your wheels away from the curb to park facing uphill. What should you do next?",
+    "choices": [
+      "Pull forward until your bumper is close to the car ahead",
+      "Straighten the wheels so the tires are parallel to the curb",
+      "Let the car roll back slowly until the front tire gently rests against the curb, then set the parking brake",
+      "Shift into Neutral so the car settles against the curb"
+    ],
+    "answer": 2,
+    "explanation": "Let the car roll back a few inches until the back of the front tire touches the curb, using the curb as a block. Then set the parking brake and shift into Park; leaving it in Neutral removes a layer of protection.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 33, AZ p. 30, CO p. 17)"
+  },
+  {
+    "id": "car.pk.007",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "When you park a car with a manual (stick-shift) transmission, how should you leave it?",
+    "choices": [
+      "In Neutral with the parking brake set",
+      "In Neutral, with the wheels turned toward the curb",
+      "In a high gear with the parking brake released",
+      "In gear (first or reverse) with the parking brake set"
+    ],
+    "answer": 3,
+    "explanation": "Leave a manual car in gear, usually first or reverse, and set the parking brake. In Neutral only the brake holds the car, so it can roll if the brake slips.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NM p. 16, NV p. 49, PA p. 56, AZ p. 31)"
+  },
+  {
+    "id": "car.pk.008",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You drive a manual-transmission car and park on a hill with a curb. Which gear choice do driver handbooks recommend?",
+    "choices": [
+      "Reverse when facing uphill and first gear when facing downhill",
+      "Neutral in both cases, since the curb holds the car",
+      "First (low) gear when facing uphill and reverse when facing downhill",
+      "The highest gear in both cases"
+    ],
+    "answer": 2,
+    "explanation": "Leave the car in first (low) gear when facing uphill and in reverse when facing downhill, with the parking brake set. An easy way to remember it: the gear points the opposite way from the direction the car would roll.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., NJ p. 59, CO p. 16, AL p. 30)"
+  },
+  {
+    "id": "car.pk.009",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You park in a driveway that slopes toward the street. What should you do with your front wheels?",
+    "choices": [
+      "Keep them straight so the car is easy to back out",
+      "Turn them so the car would not roll into the street if it moved",
+      "Turn them toward the street so you can leave faster",
+      "Nothing; hill-parking steps are only for public streets"
+    ],
+    "answer": 1,
+    "explanation": "On a sloping driveway, turn the wheels so the car will not roll into the street if it moves. Then shift into Park and set the parking brake.",
+    "difficulty": 2,
+    "ref": "California Driver's Handbook, p. 33"
+  },
+  {
+    "id": "car.pk.010",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "On a one-way street, you park along the LEFT curb, facing downhill. Which way should you turn your front wheels?",
+    "choices": [
+      "To the left, toward the curb",
+      "To the right, away from the curb",
+      "Straight ahead, parallel to the curb"
+    ],
+    "answer": 0,
+    "explanation": "The downhill rule is \"toward the curb,\" not \"to the right.\" When the curb is on your left, turn the wheels left so the curb stops the car if it rolls.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., NV p. 49, CA p. 33)"
+  },
+  {
+    "id": "car.pk.011",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You spot an open parallel parking space ahead on the right. What should you do first?",
+    "choices": [
+      "Stop right away and start backing in",
+      "Pull nose-first into the space",
+      "Turn on your hazard flashers and back in quickly",
+      "Check traffic behind you and turn on your right turn signal"
+    ],
+    "answer": 3,
+    "explanation": "Check the traffic behind you and signal so following drivers know you plan to stop and back up. Stopping suddenly without warning invites a rear-end crash.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., AZ p. 30, NJ p. 60, NV p. 49, CA p. 32)"
+  },
+  {
+    "id": "car.pk.012",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Where should you stop to begin parallel parking into a space on the right?",
+    "choices": [
+      "Directly behind the open space, so you can back straight in",
+      "Beside the car parked behind the open space",
+      "Beside the car parked in front of the space, with your rear bumpers about even",
+      "Halfway into the space, with your car at an angle"
+    ],
+    "answer": 2,
+    "explanation": "Pull up alongside the vehicle parked in front of the open space, a short distance away from it, with your rear bumper roughly even with its rear bumper. From there you back in while turning toward the curb.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AZ p. 30, NV p. 49, AK p. 74, PA p. 57)"
+  },
+  {
+    "id": "car.pk.013",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You are starting to back into a parallel parking space on the right side of the street. How should you turn the steering wheel at first?",
+    "choices": [
+      "Sharply to the right, toward the curb",
+      "Sharply to the left, away from the curb",
+      "Keep it straight until the car is fully inside the space",
+      "A little to the left, then quickly to the right"
+    ],
+    "answer": 0,
+    "explanation": "Back slowly while turning the wheel sharply right so the rear of the car swings toward the curb. You turn the wheel left later, once your front end clears the car ahead.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AZ p. 30, CO p. 16, PA p. 57)"
+  },
+  {
+    "id": "car.pk.014",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "While backing into a parallel space on the right, when should you turn the steering wheel to the left?",
+    "choices": [
+      "As soon as you shift into reverse",
+      "When your rear tire touches the curb",
+      "Only after you have stopped fully inside the space",
+      "When your front end has cleared the rear bumper of the car ahead"
+    ],
+    "answer": 3,
+    "explanation": "Once your front end is past the rear bumper of the vehicle ahead, turn the wheel sharply left to swing the front in, and back slowly until you are parallel. Touching the curb means you waited too long.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AZ p. 30, NJ p. 60, AK p. 74)"
+  },
+  {
+    "id": "car.pk.015",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Your car has a backup camera. When backing into a parking space, what is the best way to see behind you?",
+    "choices": [
+      "Rely on the backup camera, since it shows everything behind you",
+      "Use only your side mirrors",
+      "Turn your head and look back through the rear window, using mirrors and the camera only as aids",
+      "Watch the car in front of you to judge your angle"
+    ],
+    "answer": 2,
+    "explanation": "Turn your body and look back through the rear window as you back up. Mirrors and backup cameras have blind areas, so do not depend on them alone.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AZ p. 30, MT p. 65, NJ p. 60)"
+  },
+  {
+    "id": "car.pk.016",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "While backing into a parallel space on the right, your right rear tire bumps the curb before the car is in. What most likely went wrong?",
+    "choices": [
+      "You turned the wheel to the left too early",
+      "You kept the wheel turned right too long before turning left",
+      "You signaled too early",
+      "You backed up too slowly"
+    ],
+    "answer": 1,
+    "explanation": "If you keep the wheel turned right too long, the rear of the car swings into the curb. Turning left too early or too far causes the opposite problem: your front fender can hit the car ahead.",
+    "difficulty": 3,
+    "ref": "Nevada Driver Handbook, p. 49"
+  },
+  {
+    "id": "car.pk.017",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You are ready to pull away from the curb where you were parallel parked. What should you do?",
+    "choices": [
+      "Pull out quickly so traffic has to make room for you",
+      "Tap the horn, then pull out; other drivers must let you in",
+      "Turn on your hazard flashers and ease into the lane",
+      "Signal, check your mirrors, look over your left shoulder, and pull out when the lane is clear"
+    ],
+    "answer": 3,
+    "explanation": "Signal, check your mirrors, and look over your shoulder for vehicles and bicycles in your blind spot. Wait for a safe gap; traffic already in the lane does not have to stop for you.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., MT p. 64, AL p. 22, CO p. 16)"
+  },
+  {
+    "id": "car.pk.018",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "A driver pulls out of a parallel parking spot and is hit by a car already moving in the lane. Who had the main duty to avoid this crash?",
+    "choices": [
+      "The driver moving in the lane, who should have slowed down",
+      "The driver leaving the parking space, who must yield to traffic",
+      "Right-of-way rules do not apply to cars leaving a parking space",
+      "Whichever vehicle was larger"
+    ],
+    "answer": 1,
+    "explanation": "A driver leaving a parking space must look, signal and yield to traffic already in the lane. Handbooks note that most crashes between parked and moving cars are caused by the driver pulling away from the curb.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AK p. 75, MT p. 73)"
+  },
+  {
+    "id": "car.pk.019",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You are parallel parked with very little room in front of and behind your car. What is the best way to get out of the space?",
+    "choices": [
+      "Back straight out into the travel lane",
+      "Pull forward and steer out even if your bumper may brush the car ahead",
+      "Back up close to the car behind you without touching it, then check traffic, signal and steer out",
+      "Wait for the car in front of you to leave"
+    ],
+    "answer": 2,
+    "explanation": "Back up as far as you safely can toward the car behind you to gain room, then check traffic, signal and move forward slowly while steering into the lane. Make sure your front bumper will clear the car ahead.",
+    "difficulty": 3,
+    "ref": "New Hampshire Driver's Manual, p. 35"
+  },
+  {
+    "id": "car.pk.020",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You are pulling into an angle parking space on your right. Which is the correct way to do it?",
+    "choices": [
+      "Swing wide into the opposite lane first to get a straighter angle",
+      "Signal, slow down, make sure your rear will clear the parked cars, then steer into the space and center your car",
+      "Pull in quickly without signaling so you do not hold up traffic",
+      "Stop past the space and back into it against the flow of traffic"
+    ],
+    "answer": 1,
+    "explanation": "Watch traffic ahead and behind, signal and slow down. Make sure your rear end will clear the parked vehicles, steer into the space, then straighten the wheels and center the car.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NJ p. 59, NH p. 35)"
+  },
+  {
+    "id": "car.pk.021",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You are backing out of a perpendicular space in a parking lot. When should you start turning the steering wheel?",
+    "choices": [
+      "Right away, as soon as the car starts moving",
+      "Before you shift into reverse",
+      "Only after the whole car is out in the lane",
+      "After your front bumper has cleared the vehicle parked beside you"
+    ],
+    "answer": 3,
+    "explanation": "Back straight out slowly while checking traffic until your front bumper clears the vehicle next to you, then turn the wheel the way you want the rear to go. Turning too soon can swing your front end into the neighboring car.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NH p. 35, NJ p. 60)"
+  },
+  {
+    "id": "car.pk.022",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You back out of a parking space and turn the steering wheel so the rear of your car swings to the right. Which way does the front of your car swing?",
+    "choices": [
+      "To the left, the opposite way",
+      "To the right, the same way as the rear",
+      "It stays in line; only the rear moves sideways",
+      "It depends on how fast you back up"
+    ],
+    "answer": 0,
+    "explanation": "When backing and turning, the front of the vehicle swings opposite to the direction of the turn. Watch that front corner so it does not hit the car parked beside you.",
+    "difficulty": 3,
+    "ref": "New Jersey Driver Manual, p. 60"
+  },
+  {
+    "id": "car.pk.023",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You parked on a busy street and need to get out on the traffic side. What should you do before opening your door?",
+    "choices": [
+      "Open the door a little so traffic sees you are getting out",
+      "Check your mirrors and look back for bicycles, motorcycles and cars",
+      "Turn on your hazard flashers and open the door quickly",
+      "Nothing special; approaching traffic must steer around your door"
+    ],
+    "answer": 1,
+    "explanation": "Before opening a door on the traffic side, check your mirrors and look back for bicyclists, motorcyclists and other vehicles. Get out only when it is safe and close the door promptly.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 32, NV p. 48, NJ p. 85, CO p. 26)"
+  },
+  {
+    "id": "car.pk.024",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "What is the \"Dutch Reach\" way of opening a car door?",
+    "choices": [
+      "Opening the door with the hand closest to it so you can get out quickly",
+      "Opening the door only a few inches and waiting a few seconds",
+      "Reaching out the window to open the door from the outside",
+      "Opening the door with the hand farther from it, so your body turns and you see traffic behind you"
+    ],
+    "answer": 3,
+    "explanation": "Using your far hand turns your upper body toward the door, so you naturally look back for approaching bicyclists. It also keeps the door from swinging open too fast.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 97, CO p. 26)"
+  },
+  {
+    "id": "car.pk.025",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You open your car door into the street and a bicyclist riding past hits it. Who was responsible for making sure the door could be opened safely?",
+    "choices": [
+      "The person who opened the door",
+      "The bicyclist, who should have ridden farther from parked cars",
+      "No one; door crashes cannot be prevented",
+      "The city, for not providing a bike lane"
+    ],
+    "answer": 0,
+    "explanation": "The person opening a door must first make sure it is safe and may be held liable for a crash with a passing vehicle or bicycle. Bicyclists are advised to stay out of the \"door zone,\" but that does not remove your duty to look.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., NJ p. 85, PA p. 97)"
+  },
+  {
+    "id": "car.pk.026",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Which of these is a place where you may never park?",
+    "choices": [
+      "In a marked space in a shopping center lot",
+      "In a metered street space after paying the meter",
+      "On a crosswalk",
+      "In a marked parallel space along a residential curb"
+    ],
+    "answer": 2,
+    "explanation": "Parking on a crosswalk is prohibited everywhere because it forces people on foot into traffic. The other choices are normal legal parking places as long as no signs say otherwise.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 34, AZ p. 31, PA p. 57, NJ p. 87)"
+  },
+  {
+    "id": "car.pk.027",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "What is \"double parking\"?",
+    "choices": [
+      "Taking up two marked parking spaces with one vehicle",
+      "Parking on the street side of a vehicle already parked at the curb",
+      "Parking in the same spot two days in a row",
+      "Parking two vehicles bumper to bumper in one long space"
+    ],
+    "answer": 1,
+    "explanation": "Double parking means stopping or parking on the roadway side of a vehicle already parked at the curb. It blocks a travel lane and is prohibited.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., PA p. 57, NJ p. 87, NM p. 16, AK p. 74)"
+  },
+  {
+    "id": "car.pk.028",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You need to run into a store for five minutes, and the only open curb space is in front of a private driveway. What should you do?",
+    "choices": [
+      "Park there, since you will be back quickly",
+      "Park there if you turn on your hazard flashers",
+      "Park there if the driveway looks unused",
+      "Find another place; you may not park in front of a driveway"
+    ],
+    "answer": 3,
+    "explanation": "You may not park in front of a public or private driveway, even for a short time. Hazard flashers do not make an illegal parking spot legal.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 34, AZ p. 31, PA p. 57, NV p. 50)"
+  },
+  {
+    "id": "car.pk.029",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You pull into a disabled parking space to wait for a friend, staying in the driver's seat with the engine running. You have no disability placard or plate. Is this allowed?",
+    "choices": [
+      "Yes, because you are not leaving the car",
+      "Yes, if you move as soon as someone with a placard arrives",
+      "Yes, for a few minutes only",
+      "No; without a valid placard or plate you may not park there, even if you stay in the car"
+    ],
+    "answer": 3,
+    "explanation": "Disabled parking spaces may be used only by vehicles displaying a valid placard or plate and carrying the person it was issued to. Staying in the car or planning to move quickly does not make it legal.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., AL p. 45, NM p. 16, NJ p. 87, CA p. 34)"
+  },
+  {
+    "id": "car.pk.030",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Your grandmother has a disability placard. You borrow her car to run errands alone. May you use her placard to park in a disabled space?",
+    "choices": [
+      "Yes, because the placard is already in her car",
+      "No; the placard may be used only when the person it was issued to is in the vehicle",
+      "Yes, as long as you hang it from the mirror",
+      "Yes, as long as you are a family member"
+    ],
+    "answer": 1,
+    "explanation": "A disability placard belongs to the person, not the car. It may be used only when that person is driving or riding in the vehicle; using it otherwise is illegal.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., AR p. 26, AL p. 45)"
+  },
+  {
+    "id": "car.pk.031",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "What is the striped (crosshatched) area painted next to a disabled parking space for?",
+    "choices": [
+      "Motorcycle parking",
+      "Short stops to load groceries",
+      "Overflow parking when the lot is full",
+      "Room for wheelchairs, lifts and ramps; you may not park there"
+    ],
+    "answer": 3,
+    "explanation": "The striped access aisle gives people with disabilities room to open doors fully and use wheelchairs, lifts or ramps. It is not a parking space, and vehicles may not be left there.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 34, NH p. 34)"
+  },
+  {
+    "id": "car.pk.032",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Which of these is always off-limits for parking?",
+    "choices": [
+      "A public parking garage",
+      "Railroad tracks",
+      "A marked space along a downtown curb",
+      "A residential street with no signs or painted curbs"
+    ],
+    "answer": 1,
+    "explanation": "Never park, stop or stand on railroad tracks. A train cannot stop quickly or steer around your vehicle.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., PA p. 57, CO p. 16, NM p. 16)"
+  },
+  {
+    "id": "car.pk.033",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "When may you stop your car inside an intersection or on a crosswalk?",
+    "choices": [
+      "When you are dropping off a passenger quickly",
+      "When your hazard flashers are on",
+      "When a police officer directs you to, or to avoid a crash",
+      "When no pedestrians are nearby"
+    ],
+    "answer": 2,
+    "explanation": "Intersections and crosswalks are no-stopping places. The exceptions are stopping to avoid a crash or because a police officer tells you to; a quick drop-off or flashers do not count.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 57, NJ p. 87)"
+  },
+  {
+    "id": "car.pk.034",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "At a corner with no painted crosswalk lines, may you park across the spot where the sidewalk meets the street?",
+    "choices": [
+      "No; an unmarked crosswalk is still a crosswalk, and you may not park on it",
+      "Yes, because a crosswalk only exists where lines are painted",
+      "Yes, if you leave room for people to walk around your car",
+      "Yes, if there is no walk signal at the corner"
+    ],
+    "answer": 0,
+    "explanation": "Where sidewalks meet at an intersection there is a crosswalk even if no lines are painted. Parking is banned on marked and unmarked crosswalks alike.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., CA p. 34, NM p. 16)"
+  },
+  {
+    "id": "car.pk.035",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You want to park along the curb of a two-way street. Which way should your car face?",
+    "choices": [
+      "Either way, as long as you are close to the curb",
+      "Against traffic, so you can watch oncoming cars",
+      "Whichever way makes it easier to pull out later",
+      "The same direction as traffic in the lane next to you"
+    ],
+    "answer": 3,
+    "explanation": "Park in the same direction traffic moves on your side of the road. Parking on the wrong side, facing oncoming traffic, is prohibited and makes pulling out dangerous.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 56, NV p. 48, CA p. 35, NM p. 16)"
+  },
+  {
+    "id": "car.pk.036",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "What are a vehicle's parking lights meant for?",
+    "choices": [
+      "Driving at dusk before it is fully dark",
+      "Driving in light fog or rain",
+      "Showing where a stopped or parked vehicle is",
+      "Replacing headlights on well-lit city streets"
+    ],
+    "answer": 2,
+    "explanation": "Parking lights are for parked or stopped vehicles. Never drive with only your parking lights on; turn on your headlights whenever you need lights to see or be seen.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 17, NM p. 21, AK p. 67, CO p. 19)"
+  },
+  {
+    "id": "car.pk.037",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You must leave your car parked along the edge of an unlit road at night. What should you leave on so other drivers can see it?",
+    "choices": [
+      "Your parking lights or hazard flashers",
+      "Your high-beam headlights",
+      "Only the interior dome light",
+      "No lights; the rear reflectors are enough"
+    ],
+    "answer": 0,
+    "explanation": "A car parked along the road at night or in poor visibility should show its parking lights or four-way flashers so approaching drivers can see it. High beams would blind oncoming drivers.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NV p. 48, CO p. 19, AK p. 74, NJ p. 85)"
+  },
+  {
+    "id": "car.pk.038",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Before you walk away from your parked car, what should you do?",
+    "choices": [
+      "Leave the key inside so you will not lose it",
+      "Turn off the engine, take the key with you, and lock the doors",
+      "Leave the engine running if you will be back within a few minutes",
+      "Leave the doors unlocked so you can get back in quickly"
+    ],
+    "answer": 1,
+    "explanation": "Turn off the engine, remove the key and lock the doors before leaving your vehicle. A running or unlocked car with the key inside is easy to steal and could be moved by someone else.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., PA p. 57, NM p. 16, AK p. 74, NV p. 48)"
+  }
+]

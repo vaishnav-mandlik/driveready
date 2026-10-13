@@ -1,0 +1,434 @@
+[
+  {
+    "id": "car.ll.001",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "When must you have your driver license with you?",
+    "choices": [
+      "Only when you drive outside your home state",
+      "Any time you are driving",
+      "Only when you drive someone else's vehicle",
+      "Only during your first year of driving"
+    ],
+    "answer": 1,
+    "explanation": "You must have your license with you whenever you drive and show it to a police officer who asks for it. The rule is not limited to trips out of state or to new drivers.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., FL p. 9, GA p. 8, AK p. 77)"
+  },
+  {
+    "id": "car.ll.002",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Can a learner permit holder legally drive alone?",
+    "choices": [
+      "Yes, during daylight hours",
+      "Yes, if they stay on local streets",
+      "No, a licensed driver who meets the state's supervisor rules must be with them",
+      "Yes, once they have passed the knowledge test"
+    ],
+    "answer": 2,
+    "explanation": "A learner permit lets you practice only while supervised by a licensed driver who meets your state's requirements. Passing the knowledge test is how you get the permit; it does not let you drive alone.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., FL p. 9, NY p. 13)"
+  },
+  {
+    "id": "car.ll.003",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A police car behind you turns on its flashing lights and siren. What should you do?",
+    "choices": [
+      "Signal, then pull over to the right side of the road as soon as it is safe",
+      "Stop right away in your lane, wherever you are",
+      "Keep driving at the same speed until you get home",
+      "Speed up to get out of the officer's way"
+    ],
+    "answer": 0,
+    "explanation": "Signal to show the officer you have seen them, then move to the right and stop as soon as you can do so safely. Stopping suddenly in a traffic lane can cause a crash.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 35, CO p. 22, TX p. 71)"
+  },
+  {
+    "id": "car.ll.004",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You have been pulled over by a police officer. Where should you and your passengers wait?",
+    "choices": [
+      "Outside the car, next to the driver's door",
+      "Walking back toward the patrol car",
+      "Standing on the shoulder behind your car",
+      "Inside the vehicle, unless the officer tells you to get out"
+    ],
+    "answer": 3,
+    "explanation": "Stay inside your vehicle during a traffic stop unless the officer tells you to get out. Getting out and walking toward the officer can be dangerous and alarming.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 35, CO p. 22, NJ p. 83)"
+  },
+  {
+    "id": "car.ll.005",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "While an officer walks up to your stopped car, what should you do with your hands?",
+    "choices": [
+      "Dig through the glove box so your papers are ready",
+      "Keep them where the officer can see them, such as on the steering wheel",
+      "Keep them in your lap, below the window",
+      "Reach under the seat for your wallet"
+    ],
+    "answer": 1,
+    "explanation": "Keep your hands in plain view, such as on top of the steering wheel, and avoid sudden movements. Wait for the officer to ask before reaching for documents.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., TX p. 71, NJ p. 83, AK p. 77)"
+  },
+  {
+    "id": "car.ll.006",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Does a state identification (ID) card allow you to drive?",
+    "choices": [
+      "Yes, if it shows your photo and address",
+      "Yes, but only with a licensed adult in the car",
+      "No, an ID card is for identification only",
+      "Yes, for short trips near home"
+    ],
+    "answer": 2,
+    "explanation": "An ID card proves who you are but does not give you any driving privilege. To drive, you need a valid driver license or learner permit.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 7)"
+  },
+  {
+    "id": "car.ll.007",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which statement best describes driving on public roads?",
+    "choices": [
+      "It is a privilege that can be suspended or revoked",
+      "It is a right that cannot be taken away once you have a license",
+      "It is a right that every adult has, with or without a license",
+      "It is a privilege only for drivers under 18"
+    ],
+    "answer": 0,
+    "explanation": "Driving is a privilege, not a right. You earn it by meeting the licensing rules, and the state can suspend or revoke it if you break serious traffic laws.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., AK p. 9, MI p. 11, PA p. 3, NJ p. 2)"
+  },
+  {
+    "id": "car.ll.008",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What does it mean when your driver license is suspended?",
+    "choices": [
+      "You may drive only during the day",
+      "You may drive only if you carry the suspension notice",
+      "You may drive, but you will pay a higher fine if stopped",
+      "Your driving privilege has been taken away for a period of time"
+    ],
+    "answer": 3,
+    "explanation": "A suspension temporarily takes away your privilege to drive. You may not legally drive until the privilege is restored, and driving while suspended brings further penalties.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., TX p. 81, AZ p. 62, NE p. 25)"
+  },
+  {
+    "id": "car.ll.009",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is a \"hit-and-run\"?",
+    "choices": [
+      "A crash in which one car hits the back of another",
+      "Leaving the scene of a crash you were involved in without stopping as the law requires",
+      "Hitting a parked car while backing up",
+      "A crash that happens while a driver is running a red light"
+    ],
+    "answer": 1,
+    "explanation": "Failing to stop, or leaving the scene of a crash you were involved in, is called a hit-and-run. It is against the law, and the penalties are severe, especially when someone is hurt.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 83, NY p. 77, FL p. 85)"
+  },
+  {
+    "id": "car.ll.010",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During a traffic stop, the officer asks for your license, which is in a backpack on the back seat. What should you do?",
+    "choices": [
+      "Tell the officer where it is and wait for permission before reaching for it",
+      "Quickly turn around and grab the backpack before the officer asks again",
+      "Get out of the car and open the back door to get it",
+      "Say you do not have it so you can avoid reaching around"
+    ],
+    "answer": 0,
+    "explanation": "Tell the officer where your documents are and wait for the officer's okay before you reach for them. Sudden reaching can look like you are grabbing something dangerous.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CO p. 22, TX p. 71, NJ p. 83)"
+  },
+  {
+    "id": "car.ll.011",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You are pulled over by police at night. Which action helps make the stop safer?",
+    "choices": [
+      "Turn on your high beams so you can see the officer",
+      "Get out of the car so the officer can see you",
+      "Turn on the interior light so the officer can see inside the car",
+      "Turn off all of your lights so you do not blind the officer"
+    ],
+    "answer": 2,
+    "explanation": "At night, turn on your interior (dome) light so the officer can see inside your vehicle. This reduces uncertainty for the officer and helps the stop go smoothly.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CO p. 22, TX p. 71, NJ p. 83, AK p. 77)"
+  },
+  {
+    "id": "car.ll.012",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A friend who does not have a driver license asks to drive your car around the block. What should you do?",
+    "choices": [
+      "Let them, as long as you ride along",
+      "Let them, because it is only a short distance",
+      "Let them, as long as your car's registration is current",
+      "Say no, because letting an unlicensed person drive your car is against the law"
+    ],
+    "answer": 3,
+    "explanation": "It is illegal to let an unlicensed person drive your vehicle, even for a short trip. Riding along does not make it legal unless they hold a learner permit and you meet the supervisor rules.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., FL p. 3, FL p. 33)"
+  },
+  {
+    "id": "car.ll.013",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Your cousin, who looks a lot like you, wants to borrow your driver license for a weekend trip. Is this allowed?",
+    "choices": [
+      "Yes, if your cousin is a careful driver",
+      "No, lending your license to someone else is illegal",
+      "Yes, if your cousin is over 18",
+      "Yes, if your cousin only drives your car"
+    ],
+    "answer": 1,
+    "explanation": "Your license may be used only by you. Lending it to someone else, or using someone else's license, is illegal and can cost you your driving privilege.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., TX p. 17, AZ p. 65)"
+  },
+  {
+    "id": "car.ll.014",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Your vehicle registration expired last week, but you never got a renewal notice in the mail. Which is true?",
+    "choices": [
+      "It is fine to keep driving until a notice arrives",
+      "Registration only matters if you drive out of state",
+      "You are responsible for renewing on time, even without a reminder",
+      "An expired registration is fine as long as your license is valid"
+    ],
+    "answer": 2,
+    "explanation": "The vehicle owner is responsible for knowing when the registration expires and renewing it on time. Not getting a reminder is not an excuse, and a valid driver license does not cover an expired registration.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NY p. 26, NJ p. 160)"
+  },
+  {
+    "id": "car.ll.015",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You want to put a dark tinted cover over your license plate. Is that allowed?",
+    "choices": [
+      "No, your license plate must stay clearly visible and readable",
+      "Yes, as long as the plate can be read in daylight",
+      "Yes, as long as your registration is current",
+      "Yes, if the cover came from a car dealer"
+    ],
+    "answer": 0,
+    "explanation": "License plates must be kept clean, visible and readable at all times. Covers or frames that hide or darken the letters and numbers are not allowed.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NJ p. 161, NC p. 99)"
+  },
+  {
+    "id": "car.ll.016",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You move to a new address in the same state. What must you do?",
+    "choices": [
+      "Nothing until it is time to renew your license",
+      "Tell only the post office",
+      "Update your address only if you move to a new county",
+      "Report your new address to the state licensing agency within the time your state allows"
+    ],
+    "answer": 3,
+    "explanation": "When you move, you must report your new address to the driver licensing agency within your state's deadline. Telling only the post office does not update your driver record.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 14, TX p. 15, NY p. 17, FL p. 20)"
+  },
+  {
+    "id": "car.ll.017",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You move permanently to a new state. What should you do about your driver license?",
+    "choices": [
+      "Keep using your old license until it expires",
+      "Get a license from your new state within the time its law allows",
+      "Carry both your old license and a new one at all times",
+      "Do nothing as long as you register your car in the new state"
+    ],
+    "answer": 1,
+    "explanation": "Once you become a resident of a new state, you must get that state's license within the period its law allows, usually by turning in your old one. Visitors may drive on a valid home-state license, but new residents may not keep doing so indefinitely.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NY p. 18, TX p. 7)"
+  },
+  {
+    "id": "car.ll.018",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You have a regular car license. A friend offers to let you ride their motorcycle on a public street. Which is true?",
+    "choices": [
+      "You may ride it, because a car license covers all vehicle types",
+      "You may ride it if you stay under the speed limit",
+      "You need a motorcycle license or endorsement to ride it on public roads",
+      "You may ride it if your friend rides behind you"
+    ],
+    "answer": 2,
+    "explanation": "You must hold the correct license class for the vehicle you drive. A regular car license does not let you ride a motorcycle on public roads; you need a motorcycle license or endorsement.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 7, TX p. 7, NY p. 7)"
+  },
+  {
+    "id": "car.ll.019",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During a traffic stop, the officer asks you to step out of your car. What should you do?",
+    "choices": [
+      "Refuse, because drivers should always stay inside",
+      "Get out quickly and walk toward the officer with your wallet in hand",
+      "Reach under your seat for your papers before you get out",
+      "Check for passing traffic, step out carefully and keep your hands visible"
+    ],
+    "answer": 3,
+    "explanation": "If the officer asks you to get out, do so carefully, watch for traffic, keep your hands visible and stand where the officer directs. Staying inside is the rule only until the officer tells you otherwise.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CO p. 22, GA p. 5, TX p. 71)"
+  },
+  {
+    "id": "car.ll.020",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A friend offers to change the birth date on your driver license so you look older. What is true?",
+    "choices": [
+      "Altering a license is illegal and can lead to losing your driving privilege",
+      "It is legal if you do not use it to drive",
+      "It is only a problem if a police officer notices",
+      "It is legal as long as the photo is still yours"
+    ],
+    "answer": 0,
+    "explanation": "Changing any information on a license, or showing a license you know is altered or fake, is illegal. It can lead to suspension of your driving privilege and other penalties.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AZ p. 65, TX p. 17)"
+  },
+  {
+    "id": "car.ll.021",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Another driver runs a red light and hits your car. The damage to your car is small. What must you do?",
+    "choices": [
+      "Leave, because the crash was not your fault",
+      "Stop and stay at the scene to share the required information",
+      "Leave, because the damage is too small to matter",
+      "Drive home first and call the other driver later"
+    ],
+    "answer": 1,
+    "explanation": "Every driver involved in a crash must stop, no matter who caused it, and exchange the required information. Being the innocent driver does not excuse you from staying at the scene.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 83, NY p. 77, TX p. 65)"
+  },
+  {
+    "id": "car.ll.022",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You are in the far left lane of a four-lane highway when a police car signals you to stop. The left shoulder is wide. What should you usually do?",
+    "choices": [
+      "Stop on the left shoulder because it is closer",
+      "Stop in the left lane and turn on your hazard lights",
+      "Signal and move over safely to the right side of the road, unless the officer directs you otherwise",
+      "Take the next exit and drive to the nearest police station"
+    ],
+    "answer": 2,
+    "explanation": "Even from the left lane, signal and move to the right side of the road when it is safe, unless the officer tells you otherwise. Officers expect drivers to pull to the right, and stopping in a lane is dangerous.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., AK p. 77, CA p. 35)"
+  },
+  {
+    "id": "car.ll.023",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Late at night on a dark, empty road, an unmarked car with flashing lights signals you to stop, and you are not sure it is a real officer. What is a reasonable way to respond?",
+    "choices": [
+      "Speed up and try to lose the car",
+      "Stop right away on the dark shoulder and get out to check",
+      "Ignore the lights and keep driving at normal speed until you get home",
+      "Turn on your hazard lights, slow down, and drive carefully to a nearby well-lit public place, calling 911 if needed"
+    ],
+    "answer": 3,
+    "explanation": "Show the officer you are cooperating by turning on your hazard lights and slowing down, then stop at a nearby well-lit, busy place. You can call 911 to confirm the officer is real. Fleeing or ignoring the lights can lead to arrest.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., TX p. 71)"
+  },
+  {
+    "id": "car.ll.024",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "An officer gives you a ticket you believe is unfair. What is the right way to handle it?",
+    "choices": [
+      "Stay calm, do not argue, and contest the ticket later through the court",
+      "Argue until the officer agrees to cancel it",
+      "Refuse to take the ticket and drive away",
+      "Get out of the car to explain your side face to face"
+    ],
+    "answer": 0,
+    "explanation": "If you disagree with an officer, stay calm and respectful and do not argue at the roadside. You can contest the ticket in court through the normal legal process.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., CO p. 22, GA p. 5, FL p. 84, NE p. 36)"
+  },
+  {
+    "id": "car.ll.025",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You panic after a minor crash and drive away. A block later you realize what you did. What should you do?",
+    "choices": [
+      "Go home and wait to see if anyone contacts you",
+      "Return to the scene right away and give the required information",
+      "Leave a message on social media describing the crash",
+      "Nothing, because the damage was minor"
+    ],
+    "answer": 1,
+    "explanation": "If you failed to stop after a crash you were involved in, you must go back to the scene right away and meet your legal duties. Staying away turns the crash into a hit-and-run.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., TX p. 65, CA p. 83, NY p. 77)"
+  },
+  {
+    "id": "car.ll.026",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You have a learner permit. Your licensed parent says you can drive alone to a store two blocks away. What is true?",
+    "choices": [
+      "It is legal because your parent gave permission",
+      "It is legal because the trip is short",
+      "It is not legal; a qualified licensed supervisor must ride with you",
+      "It is legal as long as you carry your permit"
+    ],
+    "answer": 2,
+    "explanation": "A permit holder may drive only with a qualified licensed supervisor in the vehicle. A parent's permission does not replace the supervisor's presence, no matter how short the trip.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., FL p. 9, NY p. 13)"
+  },
+  {
+    "id": "car.ll.027",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You know your friend's license is suspended, but you let him borrow your car anyway. If he is caught driving it, who can face penalties?",
+    "choices": [
+      "Only your friend, because he was the one driving",
+      "Only you, because you own the car",
+      "No one, as long as the car's registration is current",
+      "Your friend for driving while suspended, and you as the owner for knowingly allowing it"
+    ],
+    "answer": 3,
+    "explanation": "Driving while suspended is illegal, and so is knowingly letting someone without a valid license drive your vehicle. As the owner, you can be penalized too.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., FL p. 3, FL p. 33)"
+  }
+]

@@ -1,0 +1,33 @@
+# ---- OS / editors ----
+.DS_Store
+.idea/
+*.swp
+
+# ---- Node / React Native build output ----
+node_modules/
+app/android/app/build/
+app/android/build/
+app/android/.gradle/
+app/android/.kotlin/
+app/android/app/.cxx/
+app/ios/Pods/
+app/ios/build/
+*.jsbundle
+
+# ---- SECRETS: Google Play upload key — NEVER commit ----
+app/android/keystore.properties
+app/android/keystores/
+*.keystore
+!app/android/app/debug.keystore
+*.jks
+
+# ---- Local machine config ----
+app/android/local.properties
+
+# ---- Research downloads (raw PDFs are re-downloadable; extracted text IS committed) ----
+research/raw/
+**/__pycache__/
+
+# ---- Scratch previews ----
+app/assets/brand/preview.png
+app/docs/play-store/fg-preview.png

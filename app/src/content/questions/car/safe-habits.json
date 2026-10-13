@@ -1,0 +1,1026 @@
+[
+  {
+    "id": "car.sh.001",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Why is texting while driving especially dangerous?",
+    "choices": [
+      "It is only risky at highway speeds",
+      "It only distracts you while you type, not while you read",
+      "It takes your eyes, your hands, and your mind off driving at the same time",
+      "It is only risky for drivers who text slowly"
+    ],
+    "answer": 2,
+    "explanation": "Texting combines all three kinds of distraction: visual (eyes off the road), manual (hands off the wheel) and cognitive (mind off driving). Reading a message is just as distracting as typing one.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NJ p. 94, PA p. 36, TX p. 60)"
+  },
+  {
+    "id": "car.sh.002",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which type of distraction takes your eyes off the road?",
+    "choices": [
+      "Visual",
+      "Manual",
+      "Cognitive",
+      "Mechanical"
+    ],
+    "answer": 0,
+    "explanation": "A visual distraction is any task that takes your eyes off the road, such as looking at a phone or a billboard. Manual distractions take your hands off the wheel, and cognitive distractions take your mind off driving.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NJ p. 94, PA p. 36)"
+  },
+  {
+    "id": "car.sh.003",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Daydreaming or thinking hard about a problem while you drive is an example of which type of distraction?",
+    "choices": [
+      "Visual",
+      "Manual",
+      "None, as long as your eyes are on the road",
+      "Cognitive"
+    ],
+    "answer": 3,
+    "explanation": "A cognitive distraction takes your mind off driving even when your eyes are on the road and your hands are on the wheel. Handbooks warn that mental activities are just as dangerous as looking away.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NJ p. 94, TX p. 60, NY p. 45)"
+  },
+  {
+    "id": "car.sh.004",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Why can a hands-free phone call still be dangerous while driving?",
+    "choices": [
+      "It is not dangerous; only handheld phones distract drivers",
+      "It takes your attention off driving, even with your eyes on the road",
+      "It is only dangerous for drivers under 18",
+      "It is only dangerous if the call is longer than an hour"
+    ],
+    "answer": 1,
+    "explanation": "A phone conversation is a cognitive distraction whether or not you hold the phone. Handbooks list talking on a cell phone, even hands-free, as a distraction that slows your reactions.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 36, NJ p. 94)"
+  },
+  {
+    "id": "car.sh.005",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Your phone rings while you are driving. What is the safest choice?",
+    "choices": [
+      "Answer quickly and keep the call short",
+      "Let it go to voicemail, and pull safely off the road if you must call back",
+      "Check who is calling while you wait at the next red light",
+      "Hold the phone low in your lap so you can still see the road"
+    ],
+    "answer": 1,
+    "explanation": "Do not answer while driving. If you must return or make a call, first pull safely off the road, or have a passenger make the call for you.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 76, TX p. 60)"
+  },
+  {
+    "id": "car.sh.006",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "When is the best time to enter a destination into your navigation system?",
+    "choices": [
+      "While driving slowly in a parking lot exit",
+      "While stopped at a stop sign",
+      "On the highway when traffic is light",
+      "Before you start driving"
+    ],
+    "answer": 3,
+    "explanation": "Plan your route and set up the navigation system before you move. Programming a GPS while the vehicle is moving takes your eyes, hands and attention off driving.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., TX p. 60, NJ p. 94, AK p. 29)"
+  },
+  {
+    "id": "car.sh.007",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Your young child in the back seat is upset and needs help while you are driving. What should you do?",
+    "choices": [
+      "Pull over to a safe place, then help the child",
+      "Reach back to help while watching the road in the mirror",
+      "Turn around to help each time you stop at a light",
+      "Speed up so you get to your destination sooner"
+    ],
+    "answer": 0,
+    "explanation": "Do not try to handle children while driving. Pull over to a safe location to deal with distracting or urgent situations.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NE p. 72, AK p. 29, CO p. 9)"
+  },
+  {
+    "id": "car.sh.008",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "What is the safest way to bring a dog along on a drive?",
+    "choices": [
+      "Let it sit on your lap so it stays calm",
+      "Let it move freely around the back seat",
+      "Secure it in a pet carrier, kennel, or pet harness",
+      "Let it ride in the front seat with its head out the window"
+    ],
+    "answer": 2,
+    "explanation": "A loose pet is a dangerous distraction and can be thrown around in a crash. Secure pets in a carrier, portable kennel or pet harness, and never let a pet sit on your lap while you drive.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NE p. 72, NY p. 45, AK p. 29)"
+  },
+  {
+    "id": "car.sh.009",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "On a mild, sunny day, is it safe to leave a pet in a parked car with the windows up for \"just a few minutes\"?",
+    "choices": [
+      "Yes, as long as the outside temperature is mild",
+      "Yes, if you ran the air conditioning right before parking",
+      "Yes, if the car is parked in partial shade",
+      "No, the temperature inside a parked car can rise quickly to dangerous levels"
+    ],
+    "answer": 3,
+    "explanation": "The inside of a parked car heats up fast, even when the outside temperature is mild. Never leave children or pets unattended in a vehicle.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 73, NE p. 34)"
+  },
+  {
+    "id": "car.sh.010",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "You are passing a crash scene on the other side of the highway. What should you do?",
+    "choices": [
+      "Slow down sharply to see what happened",
+      "Keep your attention on driving and avoid staring at the scene",
+      "Take a quick photo to share with others",
+      "Drift toward the center line to get a better view"
+    ],
+    "answer": 1,
+    "explanation": "\"Rubbernecking\" at a crash or work zone is a visual and mental distraction that can cause another crash. Keep your eyes on your own lane and the traffic around you.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 36, CO p. 9)"
+  },
+  {
+    "id": "car.sh.011",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "The car ahead of you keeps drifting within its lane and changing speed for no clear reason. What is the best response?",
+    "choices": [
+      "Pass it closely and quickly to get away from it",
+      "Follow closely so the driver notices you in the mirror",
+      "Give it extra room and be very careful about passing it",
+      "Hold your horn down until the driver pulls over"
+    ],
+    "answer": 2,
+    "explanation": "Drifting and uneven speed are signs of a distracted driver who may not know you are there. Keep a safe following distance and take extra care when passing, since the driver may drift in front of you.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., TX p. 60)"
+  },
+  {
+    "id": "car.sh.012",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Why might a driver deep in a phone conversation fail to notice a red light right in front of them?",
+    "choices": [
+      "Your eyes can look at something without your mind really seeing it when your attention is elsewhere",
+      "Phone signals interfere with the color of traffic lights",
+      "Phone calls only affect hearing, not seeing",
+      "It only happens to drivers who need glasses"
+    ],
+    "answer": 0,
+    "explanation": "Handbooks warn that your eyes can gaze at objects in the driving scene but fail to see them because your attention is somewhere else. This is why mental distractions are so dangerous.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., TX p. 60, NY p. 45)"
+  },
+  {
+    "id": "car.sh.013",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A passenger starts a heated argument with you while you are driving in heavy traffic. What should you do?",
+    "choices": [
+      "Put off the discussion until you are stopped somewhere safe",
+      "Turn toward the passenger so you can talk it through",
+      "Drive faster to end the trip sooner",
+      "Keep arguing but grip the wheel tighter"
+    ],
+    "answer": 0,
+    "explanation": "Emotionally intense conversations are a cognitive distraction. Handbooks advise avoiding arguments while driving and holding them in a safe place instead.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NY p. 45, TX p. 60, NE p. 72)"
+  },
+  {
+    "id": "car.sh.014",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "At highway speed, looking away from the road for just a few seconds can mean traveling about how far without watching where you are going?",
+    "choices": [
+      "About one car length",
+      "About 10 feet",
+      "The length of a football field",
+      "The width of a single lane"
+    ],
+    "answer": 2,
+    "explanation": "Even a few seconds of inattention at highway speed can mean traveling the length of a football field blind. A short glance at a phone covers a long distance.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NJ p. 94)"
+  },
+  {
+    "id": "car.sh.015",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "What is the only real cure for being drowsy behind the wheel?",
+    "choices": [
+      "Turning up the radio",
+      "Sleep",
+      "Opening the windows for cold air",
+      "Chewing gum"
+    ],
+    "answer": 1,
+    "explanation": "Rest is the only safe remedy for drowsiness. Radio, open windows and similar tricks do not prevent you from falling asleep.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., AZ p. 61, NY p. 52, PA p. 37)"
+  },
+  {
+    "id": "car.sh.016",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which of these is a warning sign that you are too drowsy to drive safely?",
+    "choices": [
+      "You are checking your mirrors often",
+      "Your hands feel warm on the steering wheel",
+      "You notice signs for an upcoming rest area",
+      "You can't remember driving the last few miles"
+    ],
+    "answer": 3,
+    "explanation": "Warning signs of drowsy driving include not remembering the last few miles, frequent yawning, heavy eyelids, drifting out of your lane and hitting rumble strips.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NY p. 51)"
+  },
+  {
+    "id": "car.sh.017",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "On a long night drive you keep yawning, and you just drifted onto the rumble strip. What is the best thing to do?",
+    "choices": [
+      "Turn the air conditioning to cold and keep going",
+      "Speed up to reach your destination sooner",
+      "Pull off at a safe place away from traffic and rest or take a nap",
+      "Drink a coffee and keep driving right away"
+    ],
+    "answer": 2,
+    "explanation": "Hitting rumble strips and constant yawning mean you are close to falling asleep. Stop in a safe place and rest. Caffeine takes time to work and does not replace sleep.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NY p. 51-52, PA p. 37)"
+  },
+  {
+    "id": "car.sh.018",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "How does caffeine affect a drowsy driver?",
+    "choices": [
+      "It may help you stay alert for a short time, but it does not replace sleep",
+      "It completely cures drowsiness",
+      "It works the moment you drink it",
+      "It makes it safe to drive all night"
+    ],
+    "answer": 0,
+    "explanation": "Caffeine can promote short-term alertness, and it takes time to reach your bloodstream. Only sleep actually fixes drowsiness.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NY p. 52, TX p. 61)"
+  },
+  {
+    "id": "car.sh.019",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which plan best lowers the risk of drowsy driving on a long road trip?",
+    "choices": [
+      "Leave right after a late night out so the roads are empty",
+      "Drive straight through without stopping to finish sooner",
+      "Do most of the driving during the hours you usually sleep",
+      "Get a full night's sleep, plan regular breaks, and share the driving with a companion"
+    ],
+    "answer": 3,
+    "explanation": "Before a long trip, get enough sleep, schedule regular rest stops and drive with a companion if you can. Driving through the night or at times you would normally be asleep raises the risk.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NY p. 52, AZ p. 61)"
+  },
+  {
+    "id": "car.sh.020",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "After hours on a straight, monotonous highway, you feel like you are in a trance. What helps prevent this \"highway hypnosis\"?",
+    "choices": [
+      "Stare at the center of the lane ahead to stay focused",
+      "Keep your eyes moving by scanning ahead and checking mirrors, and take breaks",
+      "Turn on cruise control so you can relax your attention",
+      "Move to the left lane to make the drive more interesting"
+    ],
+    "answer": 1,
+    "explanation": "Highway hypnosis is a drowsy, trance-like state caused by monotony. Avoid fixing your eyes on one spot: scan the road, check mirrors and gauges, and stop for rest.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., NJ p. 94, AZ p. 61)"
+  },
+  {
+    "id": "car.sh.021",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Why is it risky to keep driving \"just a few more miles\" when you are very sleepy?",
+    "choices": [
+      "Feeling sleepy always passes after a few minutes",
+      "You can fall asleep for a few seconds without realizing it, and that is enough to crash",
+      "You can always feel yourself about to fall asleep in time to stop",
+      "Sleepiness only affects you after midnight"
+    ],
+    "answer": 1,
+    "explanation": "If you are tired enough, you may fall asleep and never know it, and you cannot predict when sleep will come. A few seconds asleep at the wheel can kill you.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 37, NY p. 52)"
+  },
+  {
+    "id": "car.sh.022",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "How should a lap and shoulder belt be worn?",
+    "choices": [
+      "Lap belt across the stomach; shoulder belt under the arm",
+      "Lap belt loose; shoulder belt behind the back for comfort",
+      "Lap belt high on the waist; shoulder belt against the neck",
+      "Lap belt snug and low across the hips; shoulder belt across the chest and shoulder"
+    ],
+    "answer": 3,
+    "explanation": "Wear the lap belt snug and low across your hips and the shoulder belt across your shoulder and chest with little slack. Never put the shoulder belt under your arm or behind your back.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 71, PA p. 95, NJ p. 43)"
+  },
+  {
+    "id": "car.sh.023",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A passenger tucks the shoulder belt behind his back because it rubs his neck. Why is this unsafe?",
+    "choices": [
+      "His upper body and head can be thrown forward in a crash with nothing to hold them back",
+      "It is safe as long as the lap belt is fastened",
+      "It only matters in rear-end crashes",
+      "It just makes the belt wear out faster"
+    ],
+    "answer": 0,
+    "explanation": "A lap belt alone does not stop your head and chest from hitting the dashboard, steering wheel or windshield. The shoulder belt must cross the shoulder and chest, never behind the back or under the arm.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 71, AK p. 25)"
+  },
+  {
+    "id": "car.sh.024",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "How should a pregnant driver wear her seat belt?",
+    "choices": [
+      "Lap belt across the middle of the belly",
+      "Shoulder belt only, with the lap belt left off",
+      "Lap belt as low as possible under the belly, shoulder belt across the chest and to the side of the belly",
+      "No belt, relying on the airbag instead"
+    ],
+    "answer": 2,
+    "explanation": "Pregnant drivers and passengers should still wear both parts of the belt. The lap belt goes low, under the abdomen, and the shoulder belt crosses the chest to the side of the belly.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., CA p. 71, NJ p. 43)"
+  },
+  {
+    "id": "car.sh.025",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Your car has an automatic shoulder belt that moves into place by itself, plus a separate lap belt. What should you do?",
+    "choices": [
+      "Nothing; the automatic shoulder belt is enough",
+      "Unhook the shoulder belt and use only the lap belt",
+      "Buckle the lap belt only on the highway",
+      "Buckle the lap belt too"
+    ],
+    "answer": 3,
+    "explanation": "With a two-part belt system, wear both parts. Using only the shoulder belt can let you slide out underneath it in a crash.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., AZ p. 20, MT p. 29, NM p. 6)"
+  },
+  {
+    "id": "car.sh.026",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Do airbags replace the need to wear a seat belt?",
+    "choices": [
+      "Yes, for people in the front seats",
+      "No, airbags are designed to work together with seat belts",
+      "Yes, if the car also has side airbags",
+      "Yes, in low-speed crashes"
+    ],
+    "answer": 1,
+    "explanation": "Airbags are meant to work with seat belts, not replace them. The combination of a seat belt and an airbag gives the most protection.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NY p. 49, NJ p. 43)"
+  },
+  {
+    "id": "car.sh.027",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A friend says it is safer to be thrown clear of a crash than to be trapped by a seat belt. What is correct?",
+    "choices": [
+      "Your friend is right whenever a crash involves fire or water",
+      "Your friend is right at speeds under 30 mph",
+      "Being thrown from the vehicle greatly increases your chance of being killed, so stay buckled",
+      "It depends on whether the car has airbags"
+    ],
+    "answer": 2,
+    "explanation": "Your chance of being killed is far greater if you are thrown from the vehicle. Even in rare fire or underwater crashes, a belted person is more likely to stay conscious and escape.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., AK p. 25, PA p. 36)"
+  },
+  {
+    "id": "car.sh.028",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Can a belted adult safely hold a baby on their lap in a moving car?",
+    "choices": [
+      "No, crash forces make the baby impossible to hold, and the adult could crush the baby",
+      "Yes, as long as the adult is wearing a seat belt",
+      "Yes, for short trips close to home",
+      "Yes, if the adult sits in the back seat"
+    ],
+    "answer": 0,
+    "explanation": "In even a moderate crash, a baby's weight multiplies many times, and no one can hold on. An adult can also be thrown into the child. Children need a proper child restraint.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AK p. 26)"
+  },
+  {
+    "id": "car.sh.029",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Who in the vehicle should be buckled up?",
+    "choices": [
+      "Everyone, in every seat, on every trip",
+      "Only the driver and the front-seat passenger",
+      "Only people riding on the highway",
+      "Only children"
+    ],
+    "answer": 0,
+    "explanation": "Make sure everyone is buckled up with a seat belt or proper child restraint on every trip, front seat and back.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NJ p. 46, PA p. 35)"
+  },
+  {
+    "id": "car.sh.030",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "How far should you sit from the steering wheel airbag?",
+    "choices": [
+      "At least 3 inches",
+      "About 6 inches",
+      "At least 10 inches, from the center of your chest to the center of the wheel",
+      "As close as possible for better control"
+    ],
+    "answer": 2,
+    "explanation": "Sit with at least 10 inches between your breastbone and the center of the steering wheel. An airbag inflates with great force and can injure someone who sits too close.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 73, NY p. 49, PA p. 95, NJ p. 46)"
+  },
+  {
+    "id": "car.sh.031",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Where should an infant in a rear-facing child seat NEVER ride?",
+    "choices": [
+      "In the back seat behind the driver",
+      "In the front seat, in front of an active passenger airbag",
+      "In the middle of the back seat",
+      "In the back seat behind the front passenger"
+    ],
+    "answer": 1,
+    "explanation": "Never put a rear-facing child seat in front of an active passenger airbag. A deploying airbag strikes the back of the child seat close to the baby's head.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NY p. 49, PA p. 95, NJ p. 46)"
+  },
+  {
+    "id": "car.sh.032",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Where is it recommended that children 12 and under ride?",
+    "choices": [
+      "In the front seat, so the driver can watch them",
+      "In the front seat, as long as the airbag is on",
+      "Anywhere, as long as they wear a lap belt",
+      "In the back seat, properly restrained"
+    ],
+    "answer": 3,
+    "explanation": "Children 12 and under should ride in the back seat. Most crashes are frontal, and a child in front can be badly hurt by a deploying airbag.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., PA p. 95, NJ p. 46)"
+  },
+  {
+    "id": "car.sh.033",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Why are children safer in the back seat of a car that has a front passenger airbag?",
+    "choices": [
+      "Back seats have stronger seat belts",
+      "Airbags never deploy in crashes involving children",
+      "Most crashes are frontal, and children who sit or lean close to the airbag can be seriously injured when it deploys",
+      "The back seat is the only place a child seat fits"
+    ],
+    "answer": 2,
+    "explanation": "The back seat keeps children farther from the point of impact in frontal crashes. Children also fidget and can end up too close to the airbag compartment.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 95, NJ p. 46)"
+  },
+  {
+    "id": "car.sh.034",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A short driver has to sit close to the steering wheel to reach the pedals. What is the recommended approach?",
+    "choices": [
+      "Move the seat back as far as possible while still reaching the controls, and ask the dealer or manufacturer if 10 inches is not possible",
+      "Sit as close to the wheel as possible for better control",
+      "Pull the airbag fuse so it cannot deploy",
+      "Tilt the steering wheel up so it points at the face"
+    ],
+    "answer": 0,
+    "explanation": "Sit as far back as you can while still safely reaching the pedals and controls. If you cannot keep 10 inches from the airbag, the dealer or manufacturer may suggest other options.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., CA p. 73, PA p. 95)"
+  },
+  {
+    "id": "car.sh.035",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which hand positions are recommended on the steering wheel for normal driving?",
+    "choices": [
+      "One hand at 12 o'clock",
+      "10 and 2 o'clock with thumbs hooked inside the rim",
+      "One hand at 6 o'clock",
+      "9 and 3 o'clock or 8 and 4 o'clock"
+    ],
+    "answer": 3,
+    "explanation": "Hold the wheel at 9 and 3 or 8 and 4 o'clock, with thumbs along the face of the wheel. These positions give good control and lower the risk of injury if the airbag deploys.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., PA p. 65, CA p. 15, NJ p. 53)"
+  },
+  {
+    "id": "car.sh.036",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Why do handbooks recommend holding the wheel at 9 and 3 or 8 and 4 rather than higher on the wheel?",
+    "choices": [
+      "It makes the horn easier to reach",
+      "A deploying airbag is less likely to throw your hands and arms into your face",
+      "It lets you spin the wheel faster in parking lots",
+      "It keeps your arms out of the driver's view of the gauges"
+    ],
+    "answer": 1,
+    "explanation": "With your hands lower on the wheel, an inflating airbag is less likely to force your arms back into your face. These positions also reduce over-steering and arm fatigue.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 65, NJ p. 53, NY p. 49)"
+  },
+  {
+    "id": "car.sh.037",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "When using hand-to-hand (push-pull) steering, what is the key rule?",
+    "choices": [
+      "You steer with one hand at the 12 o'clock position",
+      "Your hands do not cross over each other",
+      "You cross one arm over the other at the top of the wheel",
+      "You grip the inside of the rim with your palm facing in"
+    ],
+    "answer": 1,
+    "explanation": "In push-pull steering, one hand pushes the wheel up while the other slides and pulls down, so your hands never cross over the middle of the wheel.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 15, PA p. 65)"
+  },
+  {
+    "id": "car.sh.038",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Another driver cuts you off and then makes an angry gesture. What should you do?",
+    "choices": [
+      "Gesture back so they know they were wrong",
+      "Speed up and pull alongside to confront them",
+      "Follow closely to show them how it feels",
+      "Ignore it, avoid eye contact, and give the driver room"
+    ],
+    "answer": 3,
+    "explanation": "Never take it personally or retaliate. Avoid eye contact, ignore gestures and do not return them, and move away from the aggressive driver.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NY p. 46, PA p. 64)"
+  },
+  {
+    "id": "car.sh.039",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "An angry driver has followed you for several miles after a traffic dispute. Where should you go?",
+    "choices": [
+      "To a police station or a busy public place where you can get help",
+      "Straight home so you can get inside and lock the door",
+      "Onto a quiet side road to talk it out",
+      "To the shoulder, then get out to photograph their plate"
+    ],
+    "answer": 0,
+    "explanation": "If an aggressive driver follows you, do not go home and do not stop and get out. Drive to a police station or another place with people who can help.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 64, NY p. 46)"
+  },
+  {
+    "id": "car.sh.040",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A driver behind you is tailgating and flashing their lights because they want to pass. What is the best response?",
+    "choices": [
+      "Tap your brakes so they back off",
+      "Speed up so they can't get around you",
+      "Let them pass when it is safe, without speeding up or braking suddenly",
+      "Pace the car next to you so they can't pass"
+    ],
+    "answer": 2,
+    "explanation": "Do not challenge an aggressive driver. If someone demands to pass, let them go. Speeding up, blocking or brake-checking only raises the danger.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 64, TX p. 72, NY p. 46)"
+  },
+  {
+    "id": "car.sh.041",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "You often feel rushed and angry in traffic on your way to work. Which habit best helps prevent aggressive driving?",
+    "choices": [
+      "Drive faster to make up time when the road clears",
+      "Use your horn to keep slow traffic moving",
+      "Switch lanes whenever another lane looks faster",
+      "Leave earlier and allow extra time for delays"
+    ],
+    "answer": 3,
+    "explanation": "Planning ahead and allowing extra travel time for traffic, construction or crashes helps you stay calm. Rushing leads to speeding, tailgating and risky lane changes.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., TX p. 72, NY p. 46)"
+  },
+  {
+    "id": "car.sh.042",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "What is the difference between aggressive driving and road rage?",
+    "choices": [
+      "They are two names for the same thing",
+      "Aggressive driving usually breaks traffic laws; road rage is an angry, hostile act meant to provoke, threaten, or harm others",
+      "Road rage only means honking too much",
+      "Aggressive driving is a crime, but road rage is only rude"
+    ],
+    "answer": 1,
+    "explanation": "Aggressive driving, such as speeding, tailgating and unsafe lane changes, generally breaks traffic laws. It can grow into road rage, an angry, hostile state that can lead to threats or violence and break criminal laws.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., NY p. 46, NJ p. 92)"
+  },
+  {
+    "id": "car.sh.043",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "You just got upsetting news and feel very angry. What should you do before driving?",
+    "choices": [
+      "Drive right away, since focusing on the road will calm you",
+      "Drive faster to get somewhere you can relax",
+      "Take time to calm down, or let someone else drive",
+      "Turn the music up loud and start driving"
+    ],
+    "answer": 2,
+    "explanation": "Strong emotions such as anger, worry or excitement affect your judgment and reactions. Take time to cool off before you drive, or have someone else drive.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NJ p. 92, NY p. 46, CO p. 9)"
+  },
+  {
+    "id": "car.sh.044",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Where should you find the correct air pressure for your car's tires?",
+    "choices": [
+      "On the label on the driver's door jamb or in the owner's manual",
+      "The maximum pressure printed on the tire sidewall",
+      "The default setting on a gas station air pump",
+      "Whatever pressure makes the tires look full"
+    ],
+    "answer": 0,
+    "explanation": "Use the pressure listed on the driver's door jamb or in the owner's manual. A tire can be underinflated without looking low, so check it with a gauge.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., NJ p. 48, PA p. 35)"
+  },
+  {
+    "id": "car.sh.045",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "When is the best time to check your tire pressure?",
+    "choices": [
+      "When the tires are cold, before driving or after the car has sat for a while",
+      "Right after a long highway drive",
+      "Only when a tire looks flat",
+      "Only once a year"
+    ],
+    "answer": 0,
+    "explanation": "Check tire pressure when the tires are cold. Driving warms the air inside, which raises the reading and can hide underinflation.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NJ p. 48, PA p. 35)"
+  },
+  {
+    "id": "car.sh.046",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "How do worn or bald tires affect your driving?",
+    "choices": [
+      "They grip better in rain because more rubber touches the road",
+      "They only affect fuel economy",
+      "They increase stopping distance and the risk of hydroplaning",
+      "They make no difference unless a tire goes flat"
+    ],
+    "answer": 2,
+    "explanation": "Worn tires increase stopping distance, make turning harder, raise the risk of hydroplaning on wet roads and are more likely to go flat.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CO p. 9, NJ p. 48)"
+  },
+  {
+    "id": "car.sh.047",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Your steering wheel shakes and the car pulls to one side. What should you do?",
+    "choices": [
+      "Ignore it unless it gets worse",
+      "Have a mechanic check the tires, wheels, and steering",
+      "Grip the wheel harder and keep driving as usual",
+      "Let some air out of all four tires"
+    ],
+    "answer": 1,
+    "explanation": "A shaking wheel or a vehicle that pulls to one side can mean tire, wheel balance or steering problems. Have a mechanic check it before it causes a breakdown or crash.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CO p. 9, NJ p. 48)"
+  },
+  {
+    "id": "car.sh.048",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Your windshield wipers leave streaks and smears when it rains. What should you do?",
+    "choices": [
+      "Turn the defroster to high instead",
+      "Use the wipers only on the highway",
+      "Wait until they stop working completely",
+      "Replace the wiper blades"
+    ],
+    "answer": 3,
+    "explanation": "Wipers must keep rain and snow off the windshield so you can see. If the blades are not working well, replace them, and keep the washer fluid full.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CO p. 9)"
+  },
+  {
+    "id": "car.sh.049",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "You hear a loud rumble from under the car and smell exhaust inside. Why should you get it fixed right away?",
+    "choices": [
+      "It means the engine is low on oil",
+      "It only affects fuel economy",
+      "A leaking exhaust system can let deadly carbon monoxide into the car",
+      "It means the tires are underinflated"
+    ],
+    "answer": 2,
+    "explanation": "Fumes from a leaky exhaust system can kill in a very short time. Most exhaust problems can be heard, so have them repaired promptly.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CO p. 9, TX p. 74)"
+  },
+  {
+    "id": "car.sh.050",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "In what order should you adjust the seat and mirrors before driving?",
+    "choices": [
+      "Adjust the seat first, then the mirrors",
+      "Adjust the mirrors first, then the seat",
+      "Adjust the mirrors while driving",
+      "Adjust the seat only; mirrors never need changing"
+    ],
+    "answer": 0,
+    "explanation": "Set your mirrors after you adjust your seat, since moving the seat changes your view. Mirrors may need adjusting for each driver.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 35, CO p. 9)"
+  },
+  {
+    "id": "car.sh.051",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Where should your head restraint be adjusted?",
+    "choices": [
+      "As low as it goes, behind your neck",
+      "Removed for comfort on long drives",
+      "Tilted away so it does not touch your head",
+      "Directly behind the back of your head, not down at your neck"
+    ],
+    "answer": 3,
+    "explanation": "Head restraints help prevent whiplash, especially when you are hit from behind. Set it so it sits right behind the back of your head; one that is too low gives little protection.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CO p. 9, MT p. 29, AZ p. 20, PA p. 36)"
+  },
+  {
+    "id": "car.sh.052",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "How should the side mirrors be set?",
+    "choices": [
+      "So the side of your car fills most of the mirror",
+      "So that when you lean toward that side, you can just barely see the side of your car",
+      "Aimed down at the rear tires",
+      "Folded in to reduce wind noise"
+    ],
+    "answer": 1,
+    "explanation": "Set side mirrors so you barely see the side of your vehicle when you lean toward that side. This shows more of the lane next to you and reduces blind spots.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 35, CO p. 9)"
+  },
+  {
+    "id": "car.sh.053",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Why should heavy loose items like backpacks or tools be secured or put in the trunk?",
+    "choices": [
+      "They make the car use much more fuel",
+      "In a sudden stop or crash they keep moving and can hit people",
+      "They can set off the airbags",
+      "They can block the radio signal"
+    ],
+    "answer": 1,
+    "explanation": "Loose items become projectiles in a crash, traveling at the speed the car was moving. Put heavy objects in the trunk or secure them.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., PA p. 35, NY p. 49)"
+  },
+  {
+    "id": "car.sh.054",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Why is a water bottle rolling around on the driver's floor dangerous?",
+    "choices": [
+      "It may freeze in winter",
+      "It mainly distracts passengers",
+      "It can damage the floor mats",
+      "It can roll under the brake or gas pedal and keep you from using it"
+    ],
+    "answer": 3,
+    "explanation": "Objects on the floor can roll under the brake pedal or accelerator and interfere with your ability to slow or stop. Clear the driver's floor before you drive.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CO p. 9, MT p. 29)"
+  },
+  {
+    "id": "car.sh.055",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "In an emergency stop in a car with anti-lock brakes (ABS), how should you brake?",
+    "choices": [
+      "Press hard and keep firm, steady pressure on the pedal",
+      "Pump the pedal rapidly",
+      "Press gently and release over and over",
+      "Pull the parking brake"
+    ],
+    "answer": 0,
+    "explanation": "With ABS, apply firm and continuous pressure and do not pump the brakes. ABS only works while you keep the pedal pressed.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., PA p. 65, NH p. 40, CO p. 28)"
+  },
+  {
+    "id": "car.sh.056",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "During a hard stop, your ABS-equipped car's brake pedal vibrates and you hear a clicking noise. What should you do?",
+    "choices": [
+      "Lift your foot because the brakes are failing",
+      "Start pumping the brake pedal",
+      "Keep firm pressure on the pedal; this is the ABS working normally",
+      "Shift into neutral"
+    ],
+    "answer": 2,
+    "explanation": "A vibrating or pushing-back pedal and mechanical noises are normal when ABS is working. Do not let up on the pedal or pump it.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NH p. 40, PA p. 65, CO p. 28)"
+  },
+  {
+    "id": "car.sh.057",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "What is a key advantage of anti-lock brakes (ABS) in an emergency?",
+    "choices": [
+      "You can safely follow other cars more closely",
+      "It keeps working even after you take your foot off the brake",
+      "It lets you brake later before every curve",
+      "You can keep steering while braking hard because the wheels do not lock"
+    ],
+    "answer": 3,
+    "explanation": "ABS keeps the wheels from locking, so you can stop without skidding and still steer around a hazard. It is not a reason to follow closely, and it only works while you hold the pedal down.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., CO p. 28-29, NH p. 40)"
+  },
+  {
+    "id": "car.sh.058",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "When should you NOT use cruise control?",
+    "choices": [
+      "On a dry, flat highway with light traffic",
+      "On wet, icy, or snowy roads",
+      "On a long, straight interstate in clear weather",
+      "When you want to save fuel on a dry highway"
+    ],
+    "answer": 1,
+    "explanation": "Do not use cruise control on slippery roads. You need full control of the accelerator in rain, snow and ice.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., PA p. 45, CO p. 19, NE p. 70)"
+  },
+  {
+    "id": "car.sh.059",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Why is cruise control dangerous on a slippery road?",
+    "choices": [
+      "It turns off the anti-lock brakes",
+      "It locks the steering wheel straight",
+      "If the wheels start to spin, cruise control keeps applying power when you need to reduce it",
+      "It can only hold speeds above 70 mph"
+    ],
+    "answer": 2,
+    "explanation": "To stop wheel spin and regain control, you must reduce power. An active cruise control keeps applying power, which keeps the wheels spinning.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 45)"
+  },
+  {
+    "id": "car.sh.060",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Why is carbon monoxide from a car's exhaust especially dangerous?",
+    "choices": [
+      "It is a deadly gas that you cannot see or smell",
+      "It has a strong smell that warns you right away",
+      "It is only produced by diesel engines",
+      "It is only harmful in very hot weather"
+    ],
+    "answer": 0,
+    "explanation": "All gas-powered vehicles produce carbon monoxide, a deadly, colorless and odorless gas. You cannot smell it, so you may not know you are breathing it.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 77, PA p. 99, TX p. 74)"
+  },
+  {
+    "id": "car.sh.061",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "It is freezing outside and you want to warm up your car, which is parked in an attached garage. What is the safe way?",
+    "choices": [
+      "Open the garage door fully before starting the engine, or back the car outside",
+      "Keep the garage door closed so the heat stays in",
+      "Open the garage door a few inches",
+      "Keep the car windows up while it runs in the garage"
+    ],
+    "answer": 0,
+    "explanation": "Never run your engine in a closed or partly closed garage. Carbon monoxide builds up quickly and can kill.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 99, CA p. 77, TX p. 74)"
+  },
+  {
+    "id": "car.sh.062",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "You are stuck in deep snow and will wait in the car with the engine running for heat. What is most important?",
+    "choices": [
+      "Keep all the windows tightly closed to hold in heat",
+      "Run the engine at high idle without stopping",
+      "Keep the tailpipe clear of snow and open a window slightly",
+      "Cover the tailpipe to keep snow out"
+    ],
+    "answer": 2,
+    "explanation": "A tailpipe blocked by snow can push carbon monoxide into the car. Clear the tailpipe and partly open a window whenever you sit in an idling vehicle.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 99, TX p. 74)"
+  },
+  {
+    "id": "car.sh.063",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which group of symptoms can signal carbon monoxide poisoning in a vehicle?",
+    "choices": [
+      "Sneezing, itchy eyes, and a runny nose",
+      "Headache, dizziness, drowsiness, and nausea",
+      "A sudden burst of energy and alertness",
+      "Sore muscles in your legs and back"
+    ],
+    "answer": 1,
+    "explanation": "Carbon monoxide poisoning can cause tiredness, yawning, dizziness, headache, nausea and confusion. If you notice these, get fresh air and have the exhaust system checked.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 77, PA p. 99)"
+  },
+  {
+    "id": "car.sh.064",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A passenger becomes dizzy and confused after sitting in an idling car, and you suspect carbon monoxide. What should you do first?",
+    "choices": [
+      "Turn up the heater and keep them in the car",
+      "Give them coffee and let them rest in the back seat",
+      "Close the windows and drive them home",
+      "Get them out into fresh air and call 911"
+    ],
+    "answer": 3,
+    "explanation": "Move a carbon monoxide victim to fresh air right away and call 911 or seek emergency medical care.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., TX p. 74, PA p. 99)"
+  }
+]

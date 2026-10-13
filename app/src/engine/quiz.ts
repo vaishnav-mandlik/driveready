@@ -1,0 +1,392 @@
+import type {Bank} from '../data/bank';
+import {resolveIds} from '../data/bank';
+import type {ExamConfig, Question, StateCode, TopicId, TrackId} from '../data/types';
+import type {MarathonState} from '../store/progress';
+import {dayKey} from './dates';
+import {createRng, hashString, Rng, sample, shuffle} from './random';
+import {isDue, isMistake, knowledge, QStat} from './srs';
+
+export type QuizMode =
+  | 'practice'
+  | 'exam'
+  | 'marathon'
+  | 'mistakes'
+  | 'bookmarks'
+  | 'due'
+  | 'hardest'
+  | 'signs'
+  | 'daily'
+  | 'survival'
+  | 'speed'
+  | 'custom';
+
+/** What the user asked for (serializable navigation param). */
+export interface QuizSpec {
+  mode: QuizMode;
+  title?: string;
+  topic?: TopicId;
+  examId?: string;
+  questionIds?: string[];
+  count?: number;
+}
+
+export interface QuizSession {
+  id: string;
+  spec: QuizSpec;
+  track: TrackId;
+  state: StateCode;
+  title: string;
+  questionIds: string[];
+  /** Per question: original choice indexes in display order. */
+  orders: number[][];
+  /** Per question: chosen ORIGINAL choice index, or null if unanswered. */
+  answers: (number | null)[];
+  /** 'instant' shows right/wrong + explanation after each answer; 'end' only at the end (exams). */
+  feedback: 'instant' | 'end';
+  exam: ExamConfig | null;
+  /** Passing score scaled to the questions actually available (exam only). */
+  passingScore: number | null;
+  timeLimitSec: number | null;
+  startedAt: number;
+  finishedAt: number | null;
+  endedEarly: boolean;
+  timedOut: boolean;
+  /** Marathons save progress under this key and can be resumed. */
+  marathonKey: string | null;
+  /** Index to start at (resumed marathons). */
+  startIndex: number;
+  /** Marathon totals from before this session (resumed) — added to this session's answers. */
+  marathonBase: {correct: number; wrong: number; startedAt: number} | null;
+  /** Survival mode: wrong answers allowed before the run ends (null = unlimited). */
+  lives: number | null;
+}
+
+export interface BuildContext {
+  bank: Bank;
+  stats: Record<string, QStat>;
+  bookmarks: Record<string, number>;
+  shuffleChoices: boolean;
+  examTimer: boolean;
+  exam?: ExamConfig;
+  marathon?: MarathonState;
+  now: number;
+  seed: number;
+}
+
+export const DEFAULT_COUNTS: Record<QuizMode, number> = {
+  practice: 20,
+  exam: 0,
+  marathon: 0,
+  mistakes: 50,
+  bookmarks: 100,
+  due: 30,
+  hardest: 20,
+  signs: 20,
+  daily: 10,
+  survival: 250,
+  speed: 120,
+  custom: 0,
+};
+
+/** Survival: wrong answers allowed. Speed round: seconds on the clock. */
+export const SURVIVAL_LIVES = 3;
+export const SPEED_ROUND_SECONDS = 120;
+
+export const MODE_TITLES: Record<QuizMode, string> = {
+  practice: 'Practice Test',
+  exam: 'Exam Simulator',
+  marathon: 'Marathon',
+  mistakes: 'Mistakes Review',
+  bookmarks: 'Saved Questions',
+  due: 'Smart Review',
+  hardest: 'Hardest Questions',
+  signs: 'Road Signs Quiz',
+  daily: 'Daily Challenge',
+  survival: 'Survival',
+  speed: 'Speed Round',
+  custom: 'Practice',
+};
+
+export function marathonKey(track: TrackId, state: StateCode, topic?: TopicId): string {
+  return `${track}:${state}:${topic ?? 'all'}`;
+}
+
+function topicPool(bank: Bank, topic?: TopicId): Question[] {
+  return topic ? bank.byTopic.get(topic) ?? [] : bank.questions;
+}
+
+/**
+ * Adaptive selection: mistakes and unseen questions first, then due reviews,
+ * then weak ones, with randomness so repeated tests feel fresh.
+ */
+function pickAdaptive(pool: Question[], count: number, stats: Record<string, QStat>, now: number, rng: Rng): Question[] {
+  const scored = pool.map(q => {
+    const s = stats[q.id];
+    let p: number;
+    if (!s || s.a === 0) {
+      p = 2.6;
+    } else if (isMistake(s)) {
+      p = 3;
+    } else if (isDue(s, now)) {
+      p = 2.2;
+    } else {
+      p = 1.6 * (1 - knowledge(s, 0.6));
+    }
+    return {q, score: p + rng() * 1.4};
+  });
+  scored.sort((a, b) => b.score - a.score);
+  return shuffle(
+    scored.slice(0, count).map(x => x.q),
+    rng,
+  );
+}
+
+/** Real-test-like mix: ~20% sign questions, up to ~30% state-specific, the rest general. */
+function pickExam(bank: Bank, exam: ExamConfig, rng: Rng): Question[] {
+  const n = exam.questions;
+  if (exam.topic) {
+    return sample(bank.byTopic.get(exam.topic) ?? [], n, rng);
+  }
+  const signs = exam.track === 'car' ? bank.signQuestions : [];
+  const stateQs = bank.stateSpecific.filter(q => !q.sign);
+  const used = new Set<string>();
+  const take = (from: Question[], k: number) => {
+    const out = sample(
+      from.filter(q => !used.has(q.id)),
+      k,
+      rng,
+    );
+    out.forEach(q => used.add(q.id));
+    return out;
+  };
+  const picked = [
+    ...take(signs, Math.round(n * 0.2)),
+    ...take(stateQs, Math.round(n * 0.3)),
+  ];
+  picked.push(...take(bank.questions, n - picked.length));
+  return shuffle(picked, rng);
+}
+
+export function buildSession(spec: QuizSpec, ctx: BuildContext): QuizSession {
+  const {bank, stats, now} = ctx;
+  const rng = createRng(ctx.seed);
+  const count = spec.count ?? DEFAULT_COUNTS[spec.mode];
+  let questions: Question[] = [];
+  let exam: ExamConfig | null = null;
+  let mKey: string | null = null;
+  let startIndex = 0;
+  let marathonBase: QuizSession['marathonBase'] = null;
+
+  switch (spec.mode) {
+    case 'exam': {
+      exam = ctx.exam ?? null;
+      if (exam) {
+        questions = pickExam(bank, exam, rng);
+      }
+      break;
+    }
+    case 'practice':
+      questions = pickAdaptive(topicPool(bank, spec.topic), count, stats, now, rng);
+      break;
+    case 'marathon': {
+      mKey = marathonKey(bank.track, bank.state, spec.topic);
+      const saved = ctx.marathon;
+      const savedQs = saved ? resolveIds(bank, saved.ids) : [];
+      if (saved && savedQs.length === saved.ids.length && saved.index < saved.ids.length) {
+        questions = savedQs;
+        startIndex = saved.index;
+        marathonBase = {correct: saved.correct, wrong: saved.wrong, startedAt: saved.startedAt};
+      } else {
+        questions = shuffle(topicPool(bank, spec.topic), rng);
+        marathonBase = {correct: 0, wrong: 0, startedAt: now};
+      }
+      break;
+    }
+    case 'mistakes':
+      questions = shuffle(
+        topicPool(bank, spec.topic).filter(q => isMistake(stats[q.id])),
+        rng,
+      ).slice(0, count);
+      break;
+    case 'bookmarks':
+      questions = topicPool(bank, spec.topic)
+        .filter(q => ctx.bookmarks[q.id])
+        .sort((a, b) => ctx.bookmarks[b.id] - ctx.bookmarks[a.id])
+        .slice(0, count);
+      break;
+    case 'due':
+      questions = topicPool(bank, spec.topic)
+        .filter(q => isDue(stats[q.id], now))
+        .sort((a, b) => stats[a.id].d - stats[b.id].d)
+        .slice(0, count);
+      questions = shuffle(questions, rng);
+      break;
+    case 'hardest': {
+      const pool = topicPool(bank, spec.topic);
+      const missed = pool
+        .filter(q => (stats[q.id]?.w ?? 0) > 0)
+        .sort((a, b) => {
+          const sa = stats[a.id];
+          const sb = stats[b.id];
+          return sb.w / sb.a - sa.w / sa.a || sb.w - sa.w;
+        });
+      const hard = pool.filter(q => q.difficulty === 3 && !missed.includes(q));
+      questions = shuffle([...missed, ...shuffle(hard, rng)].slice(0, count), rng);
+      break;
+    }
+    case 'signs':
+      questions = pickAdaptive(bank.signQuestions, count, stats, now, rng);
+      break;
+    case 'daily': {
+      const dayRng = createRng(hashString(`${dayKey(now)}:${bank.track}:${bank.state}`));
+      questions = sample(bank.questions, count, dayRng);
+      break;
+    }
+    case 'survival':
+    case 'speed':
+      questions = shuffle(topicPool(bank, spec.topic), rng).slice(0, count);
+      break;
+    case 'custom':
+      questions = resolveIds(bank, spec.questionIds ?? []);
+      break;
+  }
+
+  const orders = questions.map(q => {
+    const idx = q.choices.map((_, i) => i);
+    return ctx.shuffleChoices && !q.lockOrder ? shuffle(idx, rng) : idx;
+  });
+
+  const passingScore = exam
+    ? Math.min(questions.length, Math.ceil((exam.passingScore * questions.length) / Math.max(1, exam.questions)))
+    : null;
+
+  return {
+    id: `${now.toString(36)}-${ctx.seed.toString(36)}`,
+    spec,
+    track: bank.track,
+    state: bank.state,
+    title: spec.title ?? exam?.title ?? MODE_TITLES[spec.mode],
+    questionIds: questions.map(q => q.id),
+    orders,
+    answers: questions.map(() => null),
+    feedback: spec.mode === 'exam' ? 'end' : 'instant',
+    exam,
+    passingScore,
+    timeLimitSec:
+      spec.mode === 'speed'
+        ? SPEED_ROUND_SECONDS
+        : exam && ctx.examTimer && exam.timeLimitMinutes
+          ? exam.timeLimitMinutes * 60
+          : null,
+    startedAt: now,
+    finishedAt: null,
+    endedEarly: false,
+    timedOut: false,
+    marathonKey: mKey,
+    startIndex,
+    marathonBase,
+    lives: spec.mode === 'survival' ? SURVIVAL_LIVES : null,
+  };
+}
+
+/** How many questions a mode would currently offer (for badges like "Mistakes (12)"). */
+export function poolSize(mode: QuizMode, bank: Bank, stats: Record<string, QStat>, bookmarks: Record<string, number>, now: number, topic?: TopicId): number {
+  const pool = topicPool(bank, topic);
+  switch (mode) {
+    case 'mistakes':
+      return pool.filter(q => isMistake(stats[q.id])).length;
+    case 'bookmarks':
+      return pool.filter(q => bookmarks[q.id]).length;
+    case 'due':
+      return pool.filter(q => isDue(stats[q.id], now)).length;
+    case 'hardest':
+      return pool.filter(q => (stats[q.id]?.w ?? 0) > 0 || q.difficulty === 3).length;
+    case 'signs':
+      return bank.signQuestions.length;
+    default:
+      return pool.length;
+  }
+}
+
+export interface SessionResult {
+  total: number;
+  answered: number;
+  correct: number;
+  wrong: number;
+  skipped: number;
+  /** correct / total, 0–100 */
+  percent: number;
+  passed: boolean | null;
+  passingScore: number | null;
+  byTopic: Partial<Record<TopicId, [number, number]>>;
+  wrongIds: string[];
+  durationSec: number;
+}
+
+export function scoreSession(session: QuizSession, bank: Bank, now: number = Date.now()): SessionResult {
+  let correct = 0;
+  let answered = 0;
+  const byTopic: Partial<Record<TopicId, [number, number]>> = {};
+  const wrongIds: string[] = [];
+  session.questionIds.forEach((id, i) => {
+    const q = bank.byId.get(id);
+    const a = session.answers[i];
+    if (!q) {
+      return;
+    }
+    const t = byTopic[q.topic] ?? [0, 0];
+    if (a !== null) {
+      answered++;
+      t[1]++;
+      if (a === q.answer) {
+        correct++;
+        t[0]++;
+      } else {
+        wrongIds.push(id);
+      }
+    }
+    byTopic[q.topic] = t;
+  });
+  const total = session.questionIds.length;
+  const passingScore = session.passingScore;
+  return {
+    total,
+    answered,
+    correct,
+    wrong: answered - correct,
+    skipped: total - answered,
+    percent: total ? Math.round((correct / total) * 100) : 0,
+    passed: passingScore === null ? null : correct >= passingScore,
+    passingScore,
+    byTopic,
+    wrongIds,
+    durationSec: Math.round(((session.finishedAt ?? now) - session.startedAt) / 1000),
+  };
+}
+
+/** For "realistic" exams: has the outcome already been decided? */
+export function examDecided(session: QuizSession, bank: Bank): 'pass' | 'fail' | null {
+  if (session.passingScore === null) {
+    return null;
+  }
+  let correct = 0;
+  let wrong = 0;
+  session.questionIds.forEach((id, i) => {
+    const a = session.answers[i];
+    if (a === null) {
+      return;
+    }
+    if (a === bank.byId.get(id)?.answer) {
+      correct++;
+    } else {
+      wrong++;
+    }
+  });
+  if (correct >= session.passingScore) {
+    return 'pass';
+  }
+  if (wrong > session.questionIds.length - session.passingScore) {
+    return 'fail';
+  }
+  return null;
+}

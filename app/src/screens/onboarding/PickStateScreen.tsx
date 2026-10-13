@@ -1,0 +1,121 @@
+import React, {useMemo, useState} from 'react';
+import {FlatList, Pressable, StyleSheet, TextInput, View} from 'react-native';
+import {Chip, Icon, Screen, Text} from '../../components';
+import {hasResearchedData, STATE_LIST, StateListItem} from '../../data/states';
+import type {StateCode} from '../../data/types';
+import {haptic} from '../../native';
+import type {RootScreenProps} from '../../navigation/types';
+import {useSettings} from '../../store/settings';
+import {useTheme} from '../../theme/ThemeProvider';
+
+export function PickStateScreen({navigation, route}: RootScreenProps<'PickState'>) {
+  const {colors, spacing, radius, textScale} = useTheme();
+  const mode = route.params?.mode ?? 'onboarding';
+  const current = useSettings(s => s.state);
+  const update = useSettings(s => s.update);
+  const [query, setQuery] = useState('');
+
+  const data = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    return q ? STATE_LIST.filter(s => s.name.toLowerCase().includes(q) || s.code.toLowerCase() === q) : STATE_LIST;
+  }, [query]);
+
+  const choose = (code: StateCode) => {
+    haptic('selection');
+    update({state: code});
+    if (mode === 'onboarding') {
+      navigation.navigate('PickTrack', {mode: 'onboarding'});
+    } else {
+      navigation.goBack();
+    }
+  };
+
+  const renderItem = ({item}: {item: StateListItem}) => {
+    const selected = item.code === current;
+    return (
+      <Pressable
+        onPress={() => choose(item.code)}
+        accessibilityRole="button"
+        accessibilityState={{selected}}
+        accessibilityLabel={item.name}
+        testID={`state-${item.code}`}
+        style={({pressed}) => [
+          styles.row,
+          {
+            paddingVertical: spacing.md,
+            paddingHorizontal: spacing.lg,
+            gap: spacing.md,
+            backgroundColor: selected ? colors.primarySoft : pressed ? colors.surfaceAlt : 'transparent',
+            borderRadius: radius.md,
+          },
+        ]}>
+        <View style={[styles.code, {backgroundColor: selected ? colors.primary : colors.surfaceAlt, borderRadius: radius.sm}]}>
+          <Text variant="captionStrong" color={selected ? 'onPrimary' : 'textMuted'}>
+            {item.code}
+          </Text>
+        </View>
+        <Text variant="bodyStrong" style={styles.flex}>
+          {item.name}
+        </Text>
+        {hasResearchedData(item.code) ? <Chip label="Verified" icon="badge-check" tone="success" /> : null}
+        {selected ? <Icon name="check" color={colors.primary} /> : null}
+      </Pressable>
+    );
+  };
+
+  return (
+    <Screen edges={mode === 'onboarding' ? ['top'] : []} scroll={false} padded={false}>
+      <View style={{paddingHorizontal: spacing.lg, paddingTop: spacing.lg, gap: spacing.md}}>
+        {mode === 'onboarding' ? (
+          <>
+            <Text variant="label" color="primary">
+              Step 1 of 3
+            </Text>
+            <Text variant="title" accessibilityRole="header">
+              Which state are you testing in?
+            </Text>
+            <Text variant="body" color="textMuted">
+              Rules, numbers and the test format differ by state. You can change this anytime.
+            </Text>
+          </>
+        ) : null}
+        <View style={[styles.search, {backgroundColor: colors.surface, borderColor: colors.border, borderRadius: radius.md, paddingHorizontal: spacing.md}]}>
+          <Icon name="search" size={18} color="textFaint" />
+          <TextInput
+            value={query}
+            onChangeText={setQuery}
+            placeholder="Search states"
+            placeholderTextColor={colors.textFaint}
+            style={[styles.input, {color: colors.text, fontSize: 16 * textScale}]}
+            autoCorrect={false}
+            autoCapitalize="words"
+            returnKeyType="search"
+            accessibilityLabel="Search states"
+            testID="state-search"
+          />
+        </View>
+      </View>
+      <FlatList
+        data={data}
+        keyExtractor={s => s.code}
+        renderItem={renderItem}
+        contentContainerStyle={{padding: spacing.sm, paddingBottom: spacing.huge}}
+        keyboardShouldPersistTaps="handled"
+        initialNumToRender={20}
+        ListEmptyComponent={
+          <Text variant="body" color="textMuted" align="center" style={{marginTop: spacing.xl}}>
+            No matching state
+          </Text>
+        }
+      />
+    </Screen>
+  );
+}
+
+const styles = StyleSheet.create({
+  flex: {flex: 1},
+  row: {flexDirection: 'row', alignItems: 'center'},
+  code: {width: 40, height: 32, alignItems: 'center', justifyContent: 'center'},
+  search: {flexDirection: 'row', alignItems: 'center', gap: 8, borderWidth: 1, minHeight: 48},
+  input: {flex: 1, paddingVertical: 10},
+});

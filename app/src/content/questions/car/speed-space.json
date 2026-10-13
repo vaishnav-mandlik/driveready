@@ -1,0 +1,930 @@
+[
+  {
+    "id": "car.ss.001",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What does the basic speed law require of every driver?",
+    "choices": [
+      "Drive at exactly the posted speed limit whenever possible",
+      "Never drive faster than is safe for current conditions, even if you are under the posted limit",
+      "You may go slightly over the limit to keep up with traffic",
+      "Follow the limit only on highways that have no other posted speed"
+    ],
+    "answer": 1,
+    "explanation": "The basic speed law says you may never drive faster than is safe for traffic, weather, visibility and road conditions. The posted limit is a maximum, not a target.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 73, NJ p. 65, TX p. 77)"
+  },
+  {
+    "id": "car.ss.002",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Posted speed limits are set for which kind of driving conditions?",
+    "choices": [
+      "Rain and fog",
+      "Night driving",
+      "Ideal or normal conditions",
+      "Heavy, stop-and-go traffic"
+    ],
+    "answer": 2,
+    "explanation": "Speed limits are designed for normal, good conditions. When it is wet, dark, foggy or crowded, you must slow below the limit.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., AR p. 70, TX p. 52, CO p. 11)"
+  },
+  {
+    "id": "car.ss.003",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are driving a little under the posted limit on a fog-covered highway and can barely see ahead. Can you be ticketed for your speed?",
+    "choices": [
+      "No, a ticket is only possible when you go over the posted limit",
+      "Only if you are also following another vehicle too closely",
+      "Only if your speed causes a crash",
+      "Yes, if your speed is too fast for the conditions"
+    ],
+    "answer": 3,
+    "explanation": "Under the basic speed law you can be cited for driving too fast for conditions even when you are below the posted limit. The limit is for ideal conditions, not fog.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., NY p. 47, AR p. 70, NJ p. 65)"
+  },
+  {
+    "id": "car.ss.004",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Which of these should help you decide how fast it is safe to drive?",
+    "choices": [
+      "The condition of the road surface",
+      "The speed limit on the road you just left",
+      "How late you are for your appointment",
+      "The speed of the fastest car around you"
+    ],
+    "answer": 0,
+    "explanation": "Safe speed depends on conditions such as the road surface, weather, visibility, traffic and people near the road. Running late or matching the fastest car is never a safe reason.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 73, NV p. 35)"
+  },
+  {
+    "id": "car.ss.005",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Light rain starts falling on a road that has been dry for weeks. What should you do?",
+    "choices": [
+      "Keep your speed, since the posted limit has not changed",
+      "Speed up a little to get through the rain sooner",
+      "Slow down and increase your following distance",
+      "Keep your speed but turn on your hazard flashers"
+    ],
+    "answer": 2,
+    "explanation": "Wet roads give your tires less grip, so it takes longer to stop. Slow down and leave more space ahead, especially when rain first begins and oil on the road makes it slick.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., TX p. 51, PA p. 44, NV p. 41)"
+  },
+  {
+    "id": "car.ss.006",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Why can driving much slower than the normal flow of traffic be dangerous?",
+    "choices": [
+      "It is always the safest choice, so it is never dangerous",
+      "Other drivers may have to brake suddenly or make risky passes around you",
+      "It is only a problem on residential streets",
+      "It has no effect on other drivers"
+    ],
+    "answer": 1,
+    "explanation": "Driving far below the flow of traffic can be as dangerous as speeding. Traffic backs up behind you, and other drivers may brake hard, weave or pass when it is not safe.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NY p. 47, AR p. 68, NJ p. 65)"
+  },
+  {
+    "id": "car.ss.007",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "On a road with two or more lanes in your direction, you choose to drive slower than other traffic. Which lane should you use?",
+    "choices": [
+      "The far-left lane",
+      "Any lane, as long as you are under the limit",
+      "The center lane",
+      "The right lane"
+    ],
+    "answer": 3,
+    "explanation": "Slower traffic should keep right so faster vehicles can pass safely on the left.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 56, FL p. 76)"
+  },
+  {
+    "id": "car.ss.008",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are driving slowly on a two-lane road and a long line of cars has formed behind you. What should you do?",
+    "choices": [
+      "Pull over where it is safe, such as a turnout, and let them pass",
+      "Speed up above the limit so they stop following you",
+      "Keep going; it is their job to find a place to pass",
+      "Turn on your hazard flashers and continue at the same speed"
+    ],
+    "answer": 0,
+    "explanation": "If vehicles are stacking up behind you, pull off where it is safe and let them go by. This prevents frustrated drivers from making risky passes.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AR p. 72, CA p. 56)"
+  },
+  {
+    "id": "car.ss.009",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Why is it usually safest to keep pace with the flow of traffic while staying within the speed limit?",
+    "choices": [
+      "Police rarely stop drivers who match the traffic around them",
+      "It lets you follow other cars more closely",
+      "Crashes often happen when some vehicles go much faster or slower than others",
+      "It always uses less fuel than any other speed"
+    ],
+    "answer": 2,
+    "explanation": "Vehicles moving in the same direction at about the same speed are less likely to collide. Going much faster means constant passing, and going much slower causes others to brake and weave.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AR p. 68, PA p. 47)"
+  },
+  {
+    "id": "car.ss.010",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Traffic on the highway is moving faster than the posted speed limit. What should you do?",
+    "choices": [
+      "Match the flow, since keeping pace with traffic is always safest",
+      "Stay at or below the limit and keep to the right so faster vehicles can pass",
+      "Drive at the limit in the far-left lane",
+      "Go over the limit by a small amount, since small overages are allowed"
+    ],
+    "answer": 1,
+    "explanation": "Keeping pace with traffic is good advice only within the speed limit. There is no legal 'speeding buffer', so stay at or below the limit and keep right.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., FL p. 76, PA p. 47, NJ p. 65)"
+  },
+  {
+    "id": "car.ss.011",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is a 'space cushion'?",
+    "choices": [
+      "The gap you leave only in front of your car",
+      "Extra room you leave only when parking",
+      "The area you can see in your mirrors",
+      "Open space around your vehicle on all sides: ahead, beside and behind"
+    ],
+    "answer": 3,
+    "explanation": "A space cushion is the open space you keep all around your vehicle. It gives you time to react and room to steer if something goes wrong.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., PA p. 39, NJ p. 96, NY p. 47)"
+  },
+  {
+    "id": "car.ss.012",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Which part of the space around your car do you have the most control over?",
+    "choices": [
+      "The space ahead of you",
+      "The space behind you",
+      "The space to your left",
+      "The space to your right"
+    ],
+    "answer": 0,
+    "explanation": "You control the space ahead most easily by adjusting your speed and following distance. The driver behind you controls more of the space behind you.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., AL p. 38, PA p. 41)"
+  },
+  {
+    "id": "car.ss.013",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "To check your following distance, you watch the vehicle ahead pass a fixed object, such as a sign. What do you do next?",
+    "choices": [
+      "Count how many car lengths are between you",
+      "Check your speedometer",
+      "Count the seconds until your own vehicle reaches the same object",
+      "Count the seconds until the vehicle ahead reaches the next object"
+    ],
+    "answer": 2,
+    "explanation": "When the rear of the vehicle ahead passes a fixed object, count the seconds until you reach that same object. If you reach it too soon for conditions, you are following too closely.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., PA p. 40, FL p. 69, NY p. 47)"
+  },
+  {
+    "id": "car.ss.014",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "When you measure following distance, which makes the best reference point?",
+    "choices": [
+      "A vehicle in the next lane",
+      "A road sign or utility pole",
+      "A bicyclist on the shoulder",
+      "A pedestrian walking along the road"
+    ],
+    "answer": 1,
+    "explanation": "Use a stationary object, such as a sign, pole, tree or overpass. A moving reference point gives a false count.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NJ p. 97, AL p. 38, NY p. 47)"
+  },
+  {
+    "id": "car.ss.015",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "While counting your following distance, you reach the fixed object before you finish counting. What should you do?",
+    "choices": [
+      "Ease off the gas, drop back, and count again",
+      "Pass the vehicle ahead as soon as possible",
+      "Brake hard to open up space right away",
+      "Change lanes immediately"
+    ],
+    "answer": 0,
+    "explanation": "Reaching the object too soon means you are following too closely. Slow gradually to drop back, then check again with another fixed object. Braking hard could get you hit from behind.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AL p. 38, FL p. 69, AR p. 71)"
+  },
+  {
+    "id": "car.ss.016",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Why is counting seconds a better way to judge following distance than keeping a fixed number of feet?",
+    "choices": [
+      "A time gap stays the same distance at every speed",
+      "It only needs to be used on city streets",
+      "It measures how quickly the vehicle ahead can stop",
+      "The gap in feet grows automatically as your speed increases"
+    ],
+    "answer": 3,
+    "explanation": "At higher speeds you cover more ground each second, so the same time gap becomes a longer distance. That is why a seconds count works at any speed.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., NJ p. 97, AL p. 38)"
+  },
+  {
+    "id": "car.ss.017",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the most common cause of rear-end collisions?",
+    "choices": [
+      "Driving too slowly",
+      "Brake failure on the lead vehicle",
+      "Following too closely",
+      "Changing lanes without signaling"
+    ],
+    "answer": 2,
+    "explanation": "Most rear-end crashes happen because the driver behind was following too closely and could not stop in time.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., AL p. 38, FL p. 69, AZ p. 25)"
+  },
+  {
+    "id": "car.ss.018",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Which situation calls for a LONGER following distance than usual?",
+    "choices": [
+      "A dry road in daylight with light traffic",
+      "A wet or icy road",
+      "Following a small car in clear weather",
+      "A straight, dry highway with good visibility"
+    ],
+    "answer": 1,
+    "explanation": "Slippery roads give your tires less grip, so stopping takes longer. Leave extra space ahead whenever the road is wet, icy, snowy or unpaved.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., PA p. 40, AR p. 71, FL p. 69)"
+  },
+  {
+    "id": "car.ss.019",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are following a large truck that blocks your view of the road ahead. Why should you drop back farther than usual?",
+    "choices": [
+      "Extra space lets you see around the truck and spot hazards ahead",
+      "Trucks always stop more quickly than cars",
+      "So you can pass it more easily on the right",
+      "Large trucks must drive slower than cars"
+    ],
+    "answer": 0,
+    "explanation": "A large vehicle hides what is happening ahead. Dropping back widens your view so you have more time to see and react to problems.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 40, NY p. 47, AR p. 71)"
+  },
+  {
+    "id": "car.ss.020",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Why should you leave extra space when following a school bus or a truck carrying hazardous materials?",
+    "choices": [
+      "They speed up faster than other vehicles",
+      "They are not allowed to use brake lights",
+      "They usually drive faster than other traffic",
+      "They may make required stops, such as at railroad crossings"
+    ],
+    "answer": 3,
+    "explanation": "School buses and vehicles carrying hazardous materials must stop at railroad crossings and may make other frequent stops. Extra space keeps you from rear-ending them.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 40, AR p. 71)"
+  },
+  {
+    "id": "car.ss.021",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Why should you leave extra following distance behind a motorcycle?",
+    "choices": [
+      "Motorcycles always travel slower than cars",
+      "Motorcycle riders cannot see vehicles behind them",
+      "A motorcycle can stop quickly, and the rider could fall on slippery or uneven surfaces",
+      "Motorcycle exhaust reduces your visibility"
+    ],
+    "answer": 2,
+    "explanation": "Motorcycles can stop in a short distance, and a rider may fall on wet roads, gravel, gratings or tracks. Extra space gives you time to stop without hitting them.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 63, AR p. 71)"
+  },
+  {
+    "id": "car.ss.022",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "A driver behind you is passing you on a two-lane road. How can you help the pass finish safely?",
+    "choices": [
+      "Speed up so the pass is over quickly",
+      "Keep right and hold or slightly reduce your speed so there is room ahead for them",
+      "Move toward the center line so they stay patient",
+      "Close the gap to the vehicle ahead of you"
+    ],
+    "answer": 1,
+    "explanation": "When you are being passed, keep right and do not speed up. Leaving extra space ahead gives the passing driver room to pull back into the lane.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AZ p. 53, PA p. 40, FL p. 69)"
+  },
+  {
+    "id": "car.ss.023",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are pulling a loaded trailer. How should this affect your following distance?",
+    "choices": [
+      "No change is needed if the trailer has its own brakes",
+      "You can follow closer because heavier vehicles grip the road better",
+      "Increase it, because the extra weight makes it take longer to stop",
+      "Decrease it so other drivers cannot cut in front of you"
+    ],
+    "answer": 2,
+    "explanation": "Extra weight from a heavy load or trailer increases stopping distance. Leave more space ahead so you have room to stop.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AR p. 71, PA p. 40, FL p. 69)"
+  },
+  {
+    "id": "car.ss.024",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Why should you allow more space ahead when driving down a long, steep hill?",
+    "choices": [
+      "Vehicles ahead always speed up going downhill",
+      "Your tires grip better downhill, so others will brake harder",
+      "Downhill roads are usually icier than flat roads",
+      "Gravity makes it harder for your brakes to slow the car"
+    ],
+    "answer": 3,
+    "explanation": "Going downhill, gravity works against your brakes, especially at higher speeds, so it takes longer to stop. More space ahead makes up for that.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 40)"
+  },
+  {
+    "id": "car.ss.025",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are stopped in traffic behind another car on a steep uphill. Why should you leave extra space in front of you?",
+    "choices": [
+      "Your parking brake will not hold on a hill",
+      "The vehicle ahead may roll back when it starts moving",
+      "Your car needs a running start to climb the hill",
+      "It keeps drivers behind you from following too closely"
+    ],
+    "answer": 1,
+    "explanation": "When traffic starts moving on a hill, the vehicle ahead may roll backward. Extra space keeps it from rolling into you.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 40, AR p. 71)"
+  },
+  {
+    "id": "car.ss.026",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Compared with clear daytime driving, how should your following distance change at night or in fog?",
+    "choices": [
+      "It should be longer",
+      "It should be shorter, so you can follow the taillights ahead",
+      "It should stay the same",
+      "It should be shorter, because traffic is usually lighter at night"
+    ],
+    "answer": 0,
+    "explanation": "When you cannot see as far, you need more time to spot and react to hazards. Increase your following distance at dusk, at night and in fog.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., FL p. 69, TX p. 51, AR p. 71)"
+  },
+  {
+    "id": "car.ss.027",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Total stopping distance is made up of which parts?",
+    "choices": [
+      "Reaction distance and skid distance only",
+      "Braking distance only",
+      "Following distance plus braking distance",
+      "Perception distance, reaction distance and braking distance"
+    ],
+    "answer": 3,
+    "explanation": "Total stopping distance = perception distance + reaction distance + braking distance. You keep moving while you notice the hazard and move your foot, before the brakes ever start working.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NJ p. 97, FL p. 68, NV p. 41)"
+  },
+  {
+    "id": "car.ss.028",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is 'reaction distance'?",
+    "choices": [
+      "How far the car travels after the brakes are applied until it stops",
+      "The space between your car and the vehicle ahead",
+      "How far the car travels after you see a hazard until your foot presses the brake",
+      "How far the car travels before your brain recognizes the hazard"
+    ],
+    "answer": 2,
+    "explanation": "Reaction distance is the ground you cover between seeing the hazard and actually pressing the brake. The distance before you recognize the hazard is perception distance.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., FL p. 68, NV p. 41, NJ p. 102)"
+  },
+  {
+    "id": "car.ss.029",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is 'braking distance'?",
+    "choices": [
+      "How far your vehicle travels from the moment the brakes are applied until it stops",
+      "How far your vehicle travels from first seeing a hazard until it stops",
+      "How far your vehicle travels from seeing a hazard until you press the brake",
+      "The gap you keep between your car and the vehicle ahead"
+    ],
+    "answer": 0,
+    "explanation": "Braking distance starts when the brakes are applied and ends when the vehicle stops. Seeing the hazard through stopping is total stopping distance.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., TX p. 77, FL p. 68, NV p. 41)"
+  },
+  {
+    "id": "car.ss.030",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "If you double your speed, about how much longer is your braking distance?",
+    "choices": [
+      "About twice as long",
+      "About four times as long",
+      "About the same",
+      "About three times as long"
+    ],
+    "answer": 1,
+    "explanation": "Braking distance grows with the square of speed. Doubling your speed makes it about four times as long, not twice as long.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NV p. 41, FL p. 68, NH p. 22)"
+  },
+  {
+    "id": "car.ss.031",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You speed up from 30 mph to 60 mph. Which statement about stopping is true?",
+    "choices": [
+      "Reaction distance and braking distance both double",
+      "Reaction distance and braking distance both become four times longer",
+      "Reaction distance about doubles, and braking distance becomes about four times longer",
+      "Reaction distance stays the same, and braking distance doubles"
+    ],
+    "answer": 2,
+    "explanation": "Reaction distance grows in step with speed, so doubling speed doubles it. Braking distance grows with the square of speed, so it becomes about four times as long.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., NV p. 41, NJ p. 102, FL p. 68)"
+  },
+  {
+    "id": "car.ss.032",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "If a car's speed doubles, about how much greater is its force of impact in a crash?",
+    "choices": [
+      "About twice as great",
+      "About the same",
+      "About eight times as great",
+      "About four times as great"
+    ],
+    "answer": 3,
+    "explanation": "Impact force rises much faster than speed. Doubling speed makes the force of impact about four times greater, so crashes become much more severe.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., FL p. 68, FL p. 76, NJ p. 65)"
+  },
+  {
+    "id": "car.ss.033",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Which of these mainly increases your REACTION distance, rather than your braking distance?",
+    "choices": [
+      "Being tired or distracted",
+      "Driving on a wet road",
+      "Worn tires",
+      "Driving down a steep hill"
+    ],
+    "answer": 0,
+    "explanation": "Reaction distance depends on how quickly you notice and respond. Fatigue and distraction slow you down. Wet roads, worn tires and downhill grades lengthen braking distance instead.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., NV p. 41, FL p. 68)"
+  },
+  {
+    "id": "car.ss.034",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Which of these mainly affects your BRAKING distance?",
+    "choices": [
+      "How tired you are",
+      "The condition of your tires and the road surface",
+      "Distractions inside the car",
+      "How quickly you notice a hazard"
+    ],
+    "answer": 1,
+    "explanation": "Once the brakes are on, how far you travel depends on speed, tires, brakes, vehicle weight and the road surface. Alertness and distraction affect perception and reaction distance.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AZ p. 53, AL p. 38, NV p. 41)"
+  },
+  {
+    "id": "car.ss.035",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You see brake lights several cars ahead and a child playing near the road. How can you cut your reaction time?",
+    "choices": [
+      "Keep your foot on the gas until the hazard is closer",
+      "Shift into neutral",
+      "Turn on your hazard flashers",
+      "Take your foot off the gas and hold it over the brake pedal"
+    ],
+    "answer": 3,
+    "explanation": "Covering the brake removes the time needed to move your foot, which shortens reaction distance if you need to stop.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NJ p. 97, AL p. 38)"
+  },
+  {
+    "id": "car.ss.036",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Compared with dry pavement, how does a wet road change your stopping distance?",
+    "choices": [
+      "It makes it shorter, because water cools the brakes",
+      "It stays about the same if your tires are new",
+      "It makes it longer",
+      "It makes it shorter at low speeds"
+    ],
+    "answer": 2,
+    "explanation": "Wet pavement reduces tire grip, so stopping takes longer, sometimes much longer than on a dry road. Slow down and leave more space.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NV p. 41, PA p. 40, TX p. 51)"
+  },
+  {
+    "id": "car.ss.037",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What does 'overdriving your headlights' mean?",
+    "choices": [
+      "Driving so fast that you cannot stop within the distance your headlights light up",
+      "Using high beams when other cars are near",
+      "Driving with headlights that are aimed too high",
+      "Leaving your headlights on after you park"
+    ],
+    "answer": 0,
+    "explanation": "You overdrive your headlights when your stopping distance is longer than the stretch of road your lights show. A hazard could appear too late to stop.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., PA p. 44, NV p. 56, AZ p. 57)"
+  },
+  {
+    "id": "car.ss.038",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "At night on a dark road, you realize you could not stop within the distance your low beams light up. What should you do?",
+    "choices": [
+      "Keep your speed as long as you are under the limit",
+      "Slow down until you can stop within the lighted distance",
+      "Follow the taillights of the car ahead more closely",
+      "Turn on your hazard flashers and keep going"
+    ],
+    "answer": 1,
+    "explanation": "If you could not stop within the area your headlights show, you are overdriving them. Slow down so a hazard in your lights leaves you room to stop.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 44, NJ p. 102, AR p. 70)"
+  },
+  {
+    "id": "car.ss.039",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Thick fog limits how far ahead you can see. Which rule should set your speed?",
+    "choices": [
+      "Drive at the minimum speed posted for the road",
+      "Stay close behind the taillights of the vehicle ahead",
+      "Drive slowly enough that you can stop within the distance you can see",
+      "Switch to high beams and keep your normal speed"
+    ],
+    "answer": 2,
+    "explanation": "Always be able to stop within the distance you can see ahead. Following taillights closely leaves no room to stop, and high beams reflect off fog and make it harder to see.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., TX p. 51, NJ p. 102, AR p. 70)"
+  },
+  {
+    "id": "car.ss.040",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "How does driving at higher speeds affect your vision?",
+    "choices": [
+      "It widens your side vision",
+      "It has no effect on what you can see",
+      "It improves your depth perception",
+      "It narrows your field of vision, making hazards at the side harder to notice"
+    ],
+    "answer": 3,
+    "explanation": "The faster you go, the narrower your field of vision becomes. You may miss vehicles or people coming from the side.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., TX p. 51)"
+  },
+  {
+    "id": "car.ss.041",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "A driver is following you too closely on a multi-lane road. What is the best response?",
+    "choices": [
+      "When it is safe, move into the right lane and let them pass",
+      "Brake suddenly to warn them to back off",
+      "Speed up to get away from them",
+      "Stay in your lane and slow down sharply"
+    ],
+    "answer": 0,
+    "explanation": "Do not try to punish a tailgater. When it is safe, change lanes to the right and let them go by. Sudden braking could cause a rear-end crash.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CA p. 63, NY p. 47, AR p. 72)"
+  },
+  {
+    "id": "car.ss.042",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are being tailgated on a two-lane road and cannot change lanes. What should you do?",
+    "choices": [
+      "Tap your brakes hard several times to make them back off",
+      "Speed up above the limit to stay ahead of them",
+      "Leave more space ahead, then slow gradually when the road ahead is clear so they can pass",
+      "Close up on the car ahead so the tailgater has nowhere to go"
+    ],
+    "answer": 2,
+    "explanation": "Give yourself extra space ahead so you will not have to stop suddenly. When the road ahead is clear, ease off gradually or pull off where safe to let them pass. Never brake suddenly to send a message.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., AZ p. 26, AR p. 72, PA p. 41)"
+  },
+  {
+    "id": "car.ss.043",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Why should you increase the space AHEAD of you when someone is tailgating you?",
+    "choices": [
+      "So you can accelerate away from the tailgater",
+      "So you can slow down gradually instead of stopping suddenly",
+      "So you can stop suddenly without warning",
+      "So other cars can merge between you and the tailgater"
+    ],
+    "answer": 1,
+    "explanation": "With more room ahead, you can brake gently and early if traffic slows. That gives the tailgater more time to react and lowers your chance of being hit from behind.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., AZ p. 26, CA p. 63)"
+  },
+  {
+    "id": "car.ss.044",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "How can you help the driver behind you keep a safe following distance?",
+    "choices": [
+      "Tap your brakes often to keep them alert",
+      "Change your speed often so they stay attentive",
+      "Drive close to the vehicle ahead so no one cuts in",
+      "Keep a steady speed and signal and brake early before you slow down or turn"
+    ],
+    "answer": 3,
+    "explanation": "A steady speed and early, gentle braking with signals give the driver behind plenty of warning. Sudden or unexpected slowing invites rear-end crashes.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AZ p. 25, NY p. 47, AR p. 72)"
+  },
+  {
+    "id": "car.ss.045",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Another car changes lanes and cuts into the space in front of you, leaving a small gap. What should you do?",
+    "choices": [
+      "Ease off the accelerator to rebuild a safe gap",
+      "Brake hard right away",
+      "Stay close and honk so they know they cut you off",
+      "Speed up and pass them right away"
+    ],
+    "answer": 0,
+    "explanation": "Taking your foot off the gas lets the gap grow smoothly. Hard braking could cause the driver behind you to hit you.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 63)"
+  },
+  {
+    "id": "car.ss.046",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "When should you slow down for a curve?",
+    "choices": [
+      "In the middle of the curve",
+      "While exiting the curve",
+      "Before you enter the curve",
+      "Only if a warning sign is posted"
+    ],
+    "answer": 2,
+    "explanation": "Slow down before you enter a curve. Taking a curve too fast can make your tires lose grip and skid.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., CO p. 19, MT p. 70, NJ p. 74)"
+  },
+  {
+    "id": "car.ss.047",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Why should you avoid braking while you are in the middle of a curve?",
+    "choices": [
+      "Drivers behind cannot see your brake lights on a curve",
+      "Braking in a curve can make the vehicle skid",
+      "It wears out your brakes faster",
+      "It turns off your power steering"
+    ],
+    "answer": 1,
+    "explanation": "In a curve your tires are already using grip to turn. Braking there can cause a skid, so slow down before the curve instead.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., MT p. 70, NM p. 23, AR p. 66)"
+  },
+  {
+    "id": "car.ss.048",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "A curve warning sign shows an advisory speed, but the road is wet. How fast should you take the curve?",
+    "choices": [
+      "At exactly the advisory speed",
+      "Faster than the advisory speed, since it is only a suggestion",
+      "At the regular speed limit, since the advisory is for trucks only",
+      "Slower than the advisory speed"
+    ],
+    "answer": 3,
+    "explanation": "Advisory speeds show a safe speed for the curve in ideal conditions. On a wet or slippery road, go slower than the posted advisory speed.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., CO p. 11, PA p. 44, AK p. 46)"
+  },
+  {
+    "id": "car.ss.049",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You slowed down before a curve. When is it appropriate to begin accelerating gently?",
+    "choices": [
+      "After you pass the middle of the curve",
+      "As soon as you start turning the wheel",
+      "Just before you enter, to carry speed through the curve",
+      "At the sharpest point, while still braking"
+    ],
+    "answer": 0,
+    "explanation": "Enter the curve at a safe, steady speed and begin accelerating gently only after reaching the middle of the curve as it straightens out.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CO p. 19)"
+  },
+  {
+    "id": "car.ss.050",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are approaching the top of a hill and cannot see the road beyond it. What should you do?",
+    "choices": [
+      "Speed up to get over the top quickly",
+      "Drift toward the center line for a better view",
+      "Slow down and be ready to stop",
+      "Keep your speed; hills rarely hide hazards on roads you know"
+    ],
+    "answer": 2,
+    "explanation": "Hills and curves can hide stalled cars, animals or other hazards, even on familiar roads. Slow down until you can see the road ahead again.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CO p. 19, AR p. 70, AZ p. 54)"
+  },
+  {
+    "id": "car.ss.051",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "In driving, what is an 'escape route'?",
+    "choices": [
+      "An emergency ramp built only for trucks",
+      "Open space, like an empty lane or shoulder, you could steer into to avoid a hazard",
+      "A detour you plan ahead of time to avoid traffic",
+      "The shoulder you must pull onto whenever you are tailgated"
+    ],
+    "answer": 1,
+    "explanation": "An escape route is open space around you that you could move into if a hazard suddenly appears. Keeping space to the sides gives you these options.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., PA p. 40, NY p. 47)"
+  },
+  {
+    "id": "car.ss.052",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "On a multi-lane highway, why should you avoid driving right alongside another vehicle for long?",
+    "choices": [
+      "It uses more fuel",
+      "It is illegal on most highways",
+      "It makes the other driver drive faster",
+      "It blocks your escape route, and you may be in that driver's blind spot"
+    ],
+    "answer": 3,
+    "explanation": "A vehicle beside you closes off your space to that side and may not see you. Move ahead or drop back to keep room around you.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 40, CA p. 64)"
+  },
+  {
+    "id": "car.ss.053",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "On a busy highway you are boxed in by a pack of vehicles, with cars on both sides and close behind. What is a good way to regain a space cushion?",
+    "choices": [
+      "Ease off your speed slightly so the pack moves ahead and opens space around you",
+      "Move closer to the vehicle ahead so others cannot cut in",
+      "Stay alongside the other vehicles so they can see you",
+      "Weave between lanes to find an opening"
+    ],
+    "answer": 0,
+    "explanation": "Slowing down a little lets the group pull away and opens space around you. Weaving and crowding the car ahead only add risk.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 47)"
+  },
+  {
+    "id": "car.ss.054",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "There is no open space on either side of your car to steer into. How should you adjust?",
+    "choices": [
+      "Shorten your following distance to keep up with traffic",
+      "Keep the same following distance as usual",
+      "Increase your following distance ahead",
+      "Drive closer to the center line"
+    ],
+    "answer": 2,
+    "explanation": "If you cannot escape to the side, your only option in an emergency may be to stop. Extra space ahead gives you room to do that.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 40)"
+  },
+  {
+    "id": "car.ss.055",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "On a two-lane road, a bicyclist is ahead on your right and an oncoming car is approaching. What is the safest plan?",
+    "choices": [
+      "Speed up and pass the bicyclist before the oncoming car arrives",
+      "Slow down, let the oncoming car go by, then move left to pass the bicyclist with plenty of room",
+      "Squeeze between the bicyclist and the oncoming car",
+      "Honk so the bicyclist moves off the road"
+    ],
+    "answer": 1,
+    "explanation": "When hazards are on both sides, take them one at a time. Slow down, let the oncoming car pass, then give the bicyclist a wide margin.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., CA p. 74, PA p. 47)"
+  },
+  {
+    "id": "car.ss.056",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Why should you leave as much space as you safely can when driving past a row of parked cars?",
+    "choices": [
+      "A door may open, or a person or vehicle may suddenly come out",
+      "Parked cars are required to have that space by law",
+      "It helps you check whether parking spots are open",
+      "It keeps your tires away from debris near the curb"
+    ],
+    "answer": 0,
+    "explanation": "Someone may open a door, step out between parked cars, or pull out without warning. Extra side space gives you time and room to react.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 40, CA p. 64)"
+  },
+  {
+    "id": "car.ss.057",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Where is driving too fast on a slippery road most likely to make you lose control?",
+    "choices": [
+      "On a straight, flat stretch",
+      "On a curve",
+      "On a gentle uphill",
+      "On a straight downhill at low speed"
+    ],
+    "answer": 1,
+    "explanation": "Your risk is greatest when you go too fast on slippery roads, especially on curves. Take turns and curves more slowly when the road is slick.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., PA p. 44, MT p. 70)"
+  },
+  {
+    "id": "car.ss.058",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Why should you increase your following distance in a highway work zone?",
+    "choices": [
+      "Work zones always have higher speed limits",
+      "Workers need you to drive closer to the vehicle ahead",
+      "Traffic in work zones often slows or stops suddenly, and rear-end crashes are common there",
+      "It lets you change lanes more often"
+    ],
+    "answer": 2,
+    "explanation": "Traffic often slows or stops without warning in work zones, so rear-end crashes are common. Extra space gives you time to stop.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 58)"
+  }
+]

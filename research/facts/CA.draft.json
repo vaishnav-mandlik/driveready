@@ -1,0 +1,791 @@
+{
+  "code": "CA",
+  "name": "California",
+  "agency": {
+    "name": "California Department of Motor Vehicles",
+    "abbreviation": "DMV",
+    "website": "https://www.dmv.ca.gov"
+  },
+  "handbook": {
+    "title": "California Driver’s Handbook",
+    "edition": "DL 600 (REV. 6/2025)",
+    "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/"
+  },
+  "knowledgeTest": {
+    "questions": null,
+    "passingScore": null,
+    "passingPercent": 80,
+    "roadSigns": "No separate road-signs section for English test takers. Per the DMV Senior Drivers page: \"If you take the written test in a foreign language, you must also take a traffic signs test.\"",
+    "timeLimitMinutes": null,
+    "format": "Multiple choice on a touchscreen at a DMV office, or online at home (remotely proctored, webcam required, computer only, weekdays 8 a.m.-4 p.m.); in-office tests must be started before 4:30 p.m.",
+    "languages": "Online knowledge test offered in 35 languages (DMV news release, Dec 28, 2023); the handbook is available in nine languages.",
+    "retestWait": "Minors (under 18) must wait 7 days, not counting the day of the failure (DMV teen page says retake after 8 days). Three attempts per test before you must reapply. No adult wait period is stated by DMV.",
+    "notes": "The current DMV pages state only the 80% passing score; they do not state the question count for an original Class C applicant. DMV Fast Facts FFDL 19 (rev. 7/2019) says minors 'may miss no more than 8 questions'. Older DMV research reports (1998-2006) describe a 46-question test for applicants under 18 and a 36-question test for adults (30 correct to pass); this could not be confirmed on a current DMV page, so counts are left null. Renewal tests are 25 questions (DMV Senior Drivers page). Renewing drivers may instead take the no-fail eLearning course. Applicants under 18 need driver education completed and parent/guardian signatures before the permit test. Online test may be attempted twice; the third attempt must be at a DMV office.",
+    "sourceUrl": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/instruction-permits/"
+  },
+  "motorcycleTest": {
+    "questions": null,
+    "passingScore": null,
+    "passingPercent": 80,
+    "notes": "Multiple-choice motorcycle knowledge test based on the California Motorcycle Handbook (DL 665, rev. 2/2024); applicants also take the regular driver's knowledge test. Riders under 21 must complete the California Motorcyclist Safety Program (CMSP) course (DL 389) before getting an M1/M2 permit. Question count not stated on current DMV pages.",
+    "sourceUrl": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/instruction-permits/"
+  },
+  "cdlTest": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08%",
+      "detail": "Drivers 21 and older may not drive with a BAC of 0.08% or higher. You can still be arrested for DUI below this level if you are impaired.",
+      "number": 0.08,
+      "unit": "percent",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 79,
+        "quote": "0.08% or higher if you are over 21 years old."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.01%",
+      "detail": "Drivers under 21 may not drive with a BAC of 0.01% or higher. The same 0.01% limit applies at any age to drivers on DUI probation.",
+      "number": 0.01,
+      "unit": "percent",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 79,
+        "quote": "0.01% or higher if you are under 21 years old."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04%",
+      "detail": "The limit is 0.04% when driving a vehicle that requires a commercial license, and also when driving a passenger for hire.",
+      "number": 0.04,
+      "unit": "percent",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 79,
+        "quote": "0.04% or higher if you drive a vehicle that requires a commercial driver’s license."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusing a chemical test: license suspended or revoked for 1 year",
+      "detail": "By driving in California you consent to a breath, blood, or urine test when suspected of DUI. Refusing leads DMV to suspend or revoke your driving privilege for one year.",
+      "number": 1,
+      "unit": "years",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 78,
+        "quote": "If you refuse to take one, DMV will suspend or revoke your driving privilege for one year."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "License suspended or revoked for 1 year; DUI program, SR 22/SR 1P, possible ignition interlock; up to 6 months jail and a fine",
+      "detail": "A DUI conviction brings a one-year suspension or revocation, a required DUI program, proof-of-insurance filing (SR 22/SR 1P), and possibly an ignition interlock device. Courts may add up to six months in jail, a fine, and vehicle impound; DUI convictions stay on your record for 10 years.",
+      "number": 1,
+      "unit": "years",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 80,
+        "quote": "If you are convicted of a DUI, DMV will suspend or revoke your driving privilege for one year."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "open_container",
+      "value": "Alcohol or cannabis must be sealed and unopened; an open container must be in the trunk or where passengers do not sit",
+      "detail": "Drinking alcohol or smoking/eating cannabis is illegal for drivers and passengers. An open container may not be kept in the glove box; it must go in the trunk or an area where passengers do not sit. Passengers in a bus, taxi, camper, or motorhome are exempt.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 78,
+        "quote": "If you are carrying alcohol or cannabis in your vehicle, the container must be sealed and unopened. If it is open, you must keep the container in the trunk or place where passengers do not sit."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15½ years",
+      "detail": "Applicants under 18 must be at least 15½, complete a driver education program, and have a parent or guardian sign. The permit cannot be used until behind-the-wheel training begins with an instructor who validates it.",
+      "number": 15.5,
+      "unit": "years",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 9,
+        "quote": "Be at least 15½ years old."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "6 months",
+      "detail": "Applicants under 18 must hold an instruction permit (from California or another state) for at least 6 months, or turn 18, before scheduling the drive test.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 9,
+        "quote": "Have an instruction permit from California or another state for at least 6 months (or turn 18 years old) before scheduling your"
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "50 hours, including 10 at night",
+      "detail": "Minors must practice at least 50 hours with a California-licensed driver who is at least 25; 10 of those hours must be at night.",
+      "number": 50,
+      "unit": "hours",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 9,
+        "quote": "Practice driving for at least 50 hours with a California-licensed driver who is at least 25 years old. Ten hours must be at night."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "California-licensed driver at least 18 (at least 25 for minors), seated close enough to take control",
+      "detail": "A permit holder must practice with a California-licensed driver who is at least 18 years old, or at least 25 when the permit holder is a minor. The supervisor must sit close enough to take control of the vehicle.",
+      "number": 25,
+      "unit": "years",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 9,
+        "quote": "Practice driving with a California-licensed driver who is at least 18 years old (25 for minors). This person must sit close enough to take control of the vehicle if needed."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 years",
+      "detail": "A minor must be at least 16, have held a permit for 6 months, finish driver education and driver training, and log 50 practice hours (10 at night) before getting a provisional license.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 9,
+        "quote": "Be at least 16 years old."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "No driving 11 p.m.-5 a.m. during the first 12 months",
+      "detail": "Provisional drivers may not drive between 11 p.m. and 5 a.m. during their first year of licensure, unless they carry a signed note for a medical, school, work, or family-need exception.",
+      "number": 12,
+      "unit": "months",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 10,
+        "quote": "Between 11 p.m. and 5 a.m. during the first 12 months you have your license."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "No passengers under 20 unless a parent/guardian or a California-licensed driver 25+ rides along",
+      "detail": "Provisional drivers may not carry passengers under 20 years old unless a parent or guardian, or another California-licensed driver at least 25, is in the vehicle.",
+      "number": 20,
+      "unit": "years",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 10,
+        "quote": "With passengers under 20 years old, unless your parent or guardian or other California-licensed driver (at least 25 years old) rides with you."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "18 years",
+      "detail": "Licenses issued to drivers under 18 are marked provisional. Turning 18 does not erase existing restrictions, suspensions, or probation.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 10,
+        "quote": "When you are under 18 years old, your driver’s license will have the word provisional."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "Handheld phone use while driving is illegal for all drivers",
+      "detail": "Adults may use a phone only in hands-free mode when necessary. A phone must be mounted on the windshield, dashboard, or center console, and only a single swipe or touch may be used.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 76,
+        "quote": "Driving while using a handheld cell phone is unsafe and illegal."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "texting_ban",
+      "value": "Do not send or read texts or emails while driving",
+      "detail": "Reading or sending text messages or emails while driving is not allowed. If you must make or return a call, pull safely off the road.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 76,
+        "quote": "Do not send or read text messages or emails while driving."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Drivers under 18 may not use a cell phone or wireless device while driving, except to call for emergency help",
+      "detail": "Minors may not use a cell phone or electronic wireless device to answer calls or to send or respond to texts while driving. DMV Fast Facts FFDL 19 adds that this includes hands-free devices. The only exception is calling for emergency assistance.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 77,
+        "quote": "It is against the law for a minor to use a cell phone or electronic wireless device to answer calls and send or respond to text messages while driving."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Driver and all passengers must wear seat belts; the driver can be ticketed for passengers under 16",
+      "detail": "Everyone in the vehicle must buckle up. The driver can also be ticketed if a passenger under 16 is not wearing a seat belt.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 71,
+        "quote": "You and your passengers must wear seat belts. You can get a ticket if you do not. If your passenger is under 16 years old, you can also get a ticket if they are not wearing their seat belt."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Under 8 or shorter than 4'9\": child restraint in a rear seat; under 2 (and under 40 lb and 3'4\"): rear-facing",
+      "detail": "Children under 8 years old or under 4 feet 9 inches tall must ride in a child passenger restraint system in a rear seat, with limited exceptions. Children under 2, under 40 pounds, and under 3 feet 4 inches ride rear-facing, never in front of an active airbag. Children 8 or older, or at least 4 feet 9 inches tall, may use a seat belt.",
+      "number": 8,
+      "unit": "years",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 72,
+        "quote": "Children who are under 8 years old, or who are less than 4 feet 9 inches tall: Secure in a child passenger restraint system in a rear seat."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Never drive faster than is safe for current conditions",
+      "detail": "California's Basic Speed Law means your speed must suit traffic, road surface, weather, and pedestrians or bicyclists, regardless of the posted limit.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 73,
+        "quote": "In California, you may never drive faster than is safe for the current road conditions. This is known as the Basic Speed Law."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "25 mph within 500 feet of a school while children are present (some zones 15 mph)",
+      "detail": "The limit is 25 mph within 500 feet of a school while children are outside or crossing the street. Some school zones are posted as low as 15 mph.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 56,
+        "quote": "The speed limit is 25 mph within 500 feet of a school while children are outside or crossing the street."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "25 mph unless posted",
+      "detail": "In business and residential districts the speed limit is 25 mph unless a different limit is posted.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 58,
+        "quote": "Business or Residential Districts The speed limit is 25 mph, unless otherwise posted."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "25 mph unless posted",
+      "detail": "Business districts share the 25 mph default limit with residential districts.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 58,
+        "quote": "Business or Residential Districts The speed limit is 25 mph, unless otherwise posted."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "55 mph on a two-lane undivided highway",
+      "detail": "Unless posted otherwise, the maximum is 55 mph on a two-lane undivided highway. The same 55 mph limit applies to vehicles towing trailers.",
+      "number": 55,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 73,
+        "quote": "It is 55 mph on a two-lane undivided highway and for vehicles towing trailers."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "65 mph on most highways unless otherwise posted",
+      "detail": "The handbook gives 65 mph as the maximum on most California highways unless a different limit is posted. Higher limits apply only where signs say so.",
+      "number": 65,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 73,
+        "quote": "Unless otherwise posted, the ideal maximum speed limit on most California highways is 65 mph."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Do not block normal and reasonable traffic flow by driving too slowly",
+      "detail": "Driving too slowly can be as illegal as speeding; you may be cited for driving faster or slower than the limit. Slower drivers should use the right lane.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 56,
+        "quote": "At the same time, you should not block normal and reasonable traffic flow by driving too slowly."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop unless a NO TURN ON RED sign is posted",
+      "detail": "Stop at the limit line, yield to pedestrians and traffic, then turn when safe. Right turns are not allowed on a red arrow.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 24,
+        "quote": "You may turn right at a red light after a complete stop unless there is a NO TURN ON RED sign."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Allowed from a one-way street onto a one-way street, unless a sign prohibits it",
+      "detail": "After stopping, you may turn left on red only from a one-way street onto a one-way street, yielding to traffic, pedestrians, and bicyclists who have a green light.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 26,
+        "quote": "street onto a one-way street. Make sure there is no sign prohibiting the turn. Yield to other vehicles, pedestrians, or bicyclists who have a green light."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 100 feet before turning; at least 5 seconds before changing lanes on a freeway",
+      "detail": "Signal at least 100 feet before a turn, and at least five seconds before a freeway lane change. When exiting a highway, signal about five seconds (about 400 feet) before the exit.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 17,
+        "quote": "At least 100 feet before you turn."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the right edge and stop until they pass; never follow within 300 feet",
+      "detail": "Yield to emergency vehicles using a siren and red lights by driving to the right edge of the road and stopping. If you are already in an intersection, keep going through it and then pull over. It is illegal to follow within 300 feet of an emergency vehicle with its siren or flashing lights on.",
+      "number": 300,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 51,
+        "quote": "It is against the law to follow within 300 feet of any fire engine, law enforcement vehicle, ambulance, or other emergency vehicle when their siren or flashing lights are on."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "move_over_law",
+      "value": "Move over and slow down for stopped emergency, tow, and road work vehicles with flashing lights",
+      "detail": "Move over and slow down for stationary emergency vehicles or tow trucks with flashing amber warning lights, and stopped road work vehicles with emergency flashing or amber lights.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 55,
+        "quote": "Drivers must move over and slow down for emergency and road work vehicles."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop from either direction for flashing red lights; no stop needed on the other side of a divided or multilane (2+ lanes each way) highway",
+      "detail": "When a school bus flashes red lights, stop from either direction and stay stopped until the lights stop flashing. Failing to stop can bring a fine of up to $1,000 and a one-year suspension. You need not stop if the bus is on the other side of a divided highway or one with two or more lanes in each direction.",
+      "number": 1000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 57,
+        "quote": "If the school bus is on the other side of a divided or multilane highway (two or more lanes in each direction), you do not need to stop."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "following_distance",
+      "value": "3 seconds",
+      "detail": "Use the three-second rule; leave more space when a tailgater is behind you or when following motorcyclists on metal surfaces or gravel.",
+      "number": 3,
+      "unit": "seconds",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 63,
+        "quote": "Use the three-second rule to ensure a safe following distance and avoid a collision."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "headlights_required",
+      "value": "From 30 minutes after sunset to 30 minutes before sunrise, when you cannot see 1,000 feet, and whenever wipers are needed",
+      "detail": "Headlights are required from 30 minutes after sunset until 30 minutes before sunrise, and when it is too dark to see 1,000 feet. You must use low beams whenever you need wipers because of fog, rain, or snow. Driving with only parking lights is illegal.",
+      "number": 30,
+      "unit": "minutes",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 17,
+        "quote": "If you need to use your windshield wipers due to fog, rain, or snow, you must turn on your low-beam headlights."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "500 feet",
+      "detail": "Switch to low beams within 500 feet of an oncoming vehicle.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 17,
+        "quote": "Dim your high-beam headlights to low beams within 500 feet of a vehicle coming toward you or within 300 feet of a vehicle you are following."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "300 feet",
+      "detail": "Switch to low beams within 300 feet of a vehicle you are following.",
+      "number": 300,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 17,
+        "quote": "Dim your high-beam headlights to low beams within 500 feet of a vehicle coming toward you or within 300 feet of a vehicle you are following."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet",
+      "detail": "Never park within 15 feet of a fire hydrant.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 34,
+        "quote": "Within 15 feet of a fire hydrant or fire station driveway."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "15 feet of a fire station driveway",
+      "detail": "Never park within 15 feet of a fire station driveway. You also may never use a fire station driveway to turn around.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 34,
+        "quote": "Within 15 feet of a fire hydrant or fire station driveway."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "20 feet (15 feet where there is a curb extension)",
+      "detail": "Never park on a crosswalk, or within 20 feet of a marked or unmarked crosswalk. Where a curb extension is present, the distance is 15 feet.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 34,
+        "quote": "Within 20 feet of an unmarked or marked crosswalk, or within 15 feet of a crosswalk where a curb extension is present."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "Within 18 inches of the curb",
+      "detail": "After parallel parking, the vehicle should be parallel to and within 18 inches of the curb.",
+      "number": 18,
+      "unit": "inches",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 32,
+        "quote": "Your vehicle should now be parallel and within 18 inches of the curb."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "At least 15 feet from the nearest track",
+      "detail": "When crossing devices or a person warn of a train, stop at least 15 feet from the nearest track. Never go under or around lowered gates, and do not cross until red lights stop flashing, even if the gate rises.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 57,
+        "quote": "When the crossing devices or a person warns you a train is coming, stop at least 15 feet from the nearest track."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet; change lanes to pass when possible",
+      "detail": "If you cannot change lanes to pass a bicyclist, leave at least three feet. If you cannot give three feet, wait until you can.",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 54,
+        "quote": "When you cannot change lanes to pass a bicyclist, allow at least three feet between your vehicle and the bicyclist."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Pedestrians have the right-of-way in marked or unmarked crosswalks",
+      "detail": "Yield to pedestrians in any crosswalk, even when the DON'T WALK light is flashing. Do not pass a vehicle stopped at a crosswalk. Pedestrians using a guide dog or white cane have the right-of-way at all times.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 47,
+        "quote": "Pedestrians have the right-of-way in marked or unmarked crosswalks."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Report to DMV (SR 1) within 10 days if damage exceeds $1,000 or anyone is injured or killed; report injury/death crashes to law enforcement within 24 hours",
+      "detail": "Each driver must file an SR 1 with DMV within 10 days when property damage is over $1,000 or anyone is hurt or killed, even on private property and regardless of fault. Not filing leads to suspension. Injury or fatal collisions must also be reported to law enforcement within 24 hours.",
+      "number": 10,
+      "unit": "days",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 84,
+        "quote": "If you are in a collision, you must report it to DMV within 10 days if: • The collision caused more than $1,000 in damage to property."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "$30,000 / $60,000 / $15,000",
+      "detail": "Minimum liability coverage is $30,000 for one person's injury or death, $60,000 for injury or death to more than one person, and $15,000 for property damage. Driving uninsured in a collision can bring a suspension of up to four years.",
+      "number": 30000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 82,
+        "quote": "$30,000 for a single death or injury. • $60,000 for death or injury to more than one person. • $15,000 for property damage."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "point_system",
+      "value": "Adult license may be suspended at 4 points in 12 months, 6 in 24 months, or 8 in 36 months",
+      "detail": "Drivers who reach these point totals are considered negligent operators. Convictions and collisions stay on the record for 36 months or longer. A judge may allow traffic violator school for a one-point violation once in any 18-month period.",
+      "number": 4,
+      "unit": "points",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 60,
+        "quote": "4 points in 12 months. • 6 points in 24 months. • 8 points in 36 months."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "All riders and passengers must wear a U.S. DOT-compliant helmet",
+      "detail": "California requires every rider and passenger to wear a U.S. DOT-compliant motorcycle safety helmet (VC §27803), certified to FMVSS 218. This applies on motorcycles, motor-driven cycles, and motorized bicycles. Source: California Motorcycle Handbook DL 665 (REV. 2/2024).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/motorcycle-driver-handbook-pdf/",
+        "page": 13,
+        "quote": "All riders and passengers are required per VC §27803 to wear a U.S. DOT compliant motorcycle safety helmet when riding a motorcycle"
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Legal",
+      "detail": "Sharing lanes with motorcycles (lane splitting) is legal in California. Drivers should give motorcycles the full lane when possible and never try to pass a motorcycle in the same lane.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 50,
+        "quote": "It is legal to share lanes with motorcycles, this is known as lane splitting."
+      },
+      "status": "unverified"
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "No parking within 20 feet of a crosswalk",
+      "summary": "California bans parking within 20 feet of any marked or unmarked crosswalk, or within 15 feet where there is a curb extension. This 'daylighting' rule keeps pedestrians visible.",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 34,
+        "quote": "Within 20 feet of an unmarked or marked crosswalk, or within 15 feet of a crosswalk where a curb extension is present."
+      },
+      "status": "unverified"
+    },
+    {
+      "title": "Lane splitting is legal",
+      "summary": "Motorcycles may legally share lanes with other vehicles. Drivers should not try to pass a motorcycle in the same lane, and should move to one side of the lane to give riders room.",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 50,
+        "quote": "It is legal to share lanes with motorcycles, this is known as lane splitting."
+      },
+      "status": "unverified"
+    },
+    {
+      "title": "15 mph at blind intersections",
+      "summary": "An intersection with no stop signs at any corner and a blocked view is 'blind', and the speed limit is 15 mph. Alleys are also 15 mph, as are railroad crossings where you cannot see 400 feet down the tracks within 100 feet of the crossing.",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 57,
+        "quote": "The speed limit for a blind intersection is 15 mph."
+      },
+      "status": "unverified"
+    },
+    {
+      "title": "15 mph near uncontrolled railroad crossings",
+      "summary": "The limit is 15 mph within 100 feet of a railroad crossing when you cannot see the tracks for 400 feet in both directions, unless the crossing has gates, a warning signal, or a flagman.",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 57,
+        "quote": "The speed limit is 15 mph within 100 feet of a railroad crossing and you cannot see the tracks for 400 feet in both directions."
+      },
+      "status": "unverified"
+    },
+    {
+      "title": "Wipers on means headlights on",
+      "summary": "If you need your windshield wipers because of fog, rain, or snow, you must also turn on your low-beam headlights.",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 17,
+        "quote": "If you need to use your windshield wipers due to fog, rain, or snow, you must turn on your low-beam headlights."
+      },
+      "status": "unverified"
+    },
+    {
+      "title": "Center left turn lane: 200-foot limit",
+      "summary": "A two-way center left turn lane may only be used to prepare for and make a left turn or U-turn, and you may drive in it for no more than 200 feet.",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 22,
+        "quote": "You may only drive for 200 feet in the center left turn lane."
+      },
+      "status": "unverified"
+    },
+    {
+      "title": "Slow drivers must use turnouts",
+      "summary": "On a two-lane road where passing is unsafe, a slow driver with five or more vehicles following must use a turnout area or lane to let them pass.",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 22,
+        "quote": "You must use a turnout area or lane to let other vehicles pass when you are driving slowly on a two-lane road, where passing is unsafe, and there are five or more vehicles following you."
+      },
+      "status": "unverified"
+    },
+    {
+      "title": "No smoking with a minor in the vehicle",
+      "summary": "It is illegal to smoke in a vehicle when a minor is present, and you can be fined.",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 58,
+        "quote": "Not smoke when a minor is in the vehicle. You can be fined."
+      },
+      "status": "unverified"
+    },
+    {
+      "title": "Children 6 or younger cannot be left alone in a vehicle",
+      "summary": "A child six years old or younger may not be left unattended in a vehicle. They may be left only under the supervision of someone at least 12 years old.",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 73,
+        "quote": "It is illegal to leave a child who is six years old or younger unattended in a vehicle. A child may be left under the supervision of a person who is at least 12 years old."
+      },
+      "status": "unverified"
+    },
+    {
+      "title": "Headsets or earplugs in both ears are illegal",
+      "summary": "California prohibits wearing a headset or earplugs in both ears while driving, because you must be able to hear horns and sirens.",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 15,
+        "quote": "It is illegal to wear a headset or earplugs in both ears while driving."
+      },
+      "status": "unverified"
+    },
+    {
+      "title": "Officers must state the reason for a stop",
+      "summary": "Law enforcement officers must state why they stopped you before asking questions about a criminal investigation or traffic violation, unless withholding it is necessary to protect life or property from an imminent threat.",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 35,
+        "quote": "Law enforcement officers must state the reason for a traffic or pedestrian stop before they begin any questioning related to a criminal investigation or traffic violation."
+      },
+      "status": "unverified"
+    },
+    {
+      "title": "Report a vehicle sale to DMV within 5 days",
+      "summary": "When you sell a vehicle you must notify DMV within five days with a Notice of Transfer and Release of Liability. Buyers have 10 days to transfer ownership, and new residents have 20 days to register an out-of-state vehicle.",
+      "source": {
+        "url": "https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf/",
+        "page": 85,
+        "quote": "When you sell a vehicle, you must notify DMV within five days by completing a Notice of Transfer and Release of Liability at dmv.ca.gov/nrl."
+      },
+      "status": "unverified"
+    }
+  ],
+  "officialPracticeTests": [
+    "https://www.dmv.ca.gov/portal/driver-education-and-safety/educational-materials/sample-driver-license-dl-knowledge-tests/"
+  ],
+  "gaps": [
+    "parking_intersection: the California Driver's Handbook (DL 600 rev. 6/2025) gives no general no-parking distance from an intersection (only the 20-foot crosswalk rule); the Vehicle Code site (leginfo) was blocked by a bot check.",
+    "parking_stop_sign_signal: not stated in the California Driver's Handbook; no official source checked states a distance.",
+    "parking_railroad: not stated in the California Driver's Handbook; the Vehicle Code site (leginfo) was blocked by a bot check.",
+    "knowledgeTest.questions/passingScore: current DMV pages state only the 80% passing score; question counts (46 for under 18 / 36 for adults) appear only in DMV research reports from 1998-2006, so they were left null."
+  ]
+}
