@@ -31,12 +31,19 @@ export function getSign(code: string | undefined): SignInfo | undefined {
   return code ? byCode.get(code) : undefined;
 }
 
+const LIBRARY = SIGNS.filter(s => s.category !== 'scenario');
+
+/** Signs, signals and markings for the library/flashcards (scenario illustrations excluded). */
 export function allSigns(): SignInfo[] {
-  return SIGNS;
+  return LIBRARY;
+}
+
+export function isScenario(code: string | undefined): boolean {
+  return !!code && byCode.get(code)?.category === 'scenario';
 }
 
 export function signsByCategory(): {meta: SignCategoryMeta; signs: SignInfo[]}[] {
-  return SIGN_CATEGORIES.map(meta => ({meta, signs: SIGNS.filter(s => s.category === meta.id)})).filter(
+  return SIGN_CATEGORIES.map(meta => ({meta, signs: LIBRARY.filter(s => s.category === meta.id)})).filter(
     g => g.signs.length > 0,
   );
 }
@@ -44,9 +51,9 @@ export function signsByCategory(): {meta: SignCategoryMeta; signs: SignInfo[]}[]
 export function searchSigns(query: string): SignInfo[] {
   const q = query.trim().toLowerCase();
   if (!q) {
-    return SIGNS;
+    return LIBRARY;
   }
-  return SIGNS.filter(
+  return LIBRARY.filter(
     s =>
       s.name.toLowerCase().includes(q) ||
       s.meaning.toLowerCase().includes(q) ||

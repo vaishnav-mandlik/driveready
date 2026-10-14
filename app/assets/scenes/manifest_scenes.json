@@ -1,0 +1,57 @@
+[
+  {
+    "code": "SCN-4WAY-SAME-TIME",
+    "name": "4-way stop: two cars arrive together",
+    "category": "scenario",
+    "shape": "Illustration",
+    "colors": "",
+    "meaning": "Car A (heading north) and car B (heading west) arrive at an all-way stop at the same time. B is on A's right.",
+    "license": "app-drawn",
+    "svgPath": "svg/SCN-4WAY-SAME-TIME.svg",
+    "module": "scenes_core.py"
+  },
+  {
+    "code": "SCN-LEFT-TURN-ONCOMING",
+    "name": "Left turn on a green light with oncoming traffic",
+    "category": "scenario",
+    "shape": "Illustration",
+    "colors": "",
+    "meaning": "Car A is turning left on a circular green light while car B approaches from the opposite direction going straight.",
+    "license": "app-drawn",
+    "svgPath": "svg/SCN-LEFT-TURN-ONCOMING.svg",
+    "module": "scenes_core.py"
+  },
+  {
+    "code": "SCN-SCHOOL-BUS-2LANE",
+    "name": "School bus stopped on a two-lane road",
+    "category": "scenario",
+    "shape": "Illustration",
+    "colors": "",
+    "meaning": "A school bus is stopped with red lights flashing and its stop arm out on a two-lane road; car A approaches from the opposite direction.",
+    "license": "app-drawn",
+    "svgPath": "svg/SCN-SCHOOL-BUS-2LANE.svg",
+    "module": "scenes_core.py"
+  },
+  {
+    "code": "SCN-ROUNDABOUT-ENTRY",
+    "name": "Entering a roundabout",
+    "category": "scenario",
+    "shape": "Illustration",
+    "colors": "",
+    "meaning": "Car A is approaching the yield line of a roundabout while car B is already circulating inside it.",
+    "license": "app-drawn",
+    "svgPath": "svg/SCN-ROUNDABOUT-ENTRY.svg",
+    "module": "scenes_core.py"
+  },
+  {
+    "code": "SCN-EMERGENCY-BEHIND",
+    "name": "Emergency vehicle approaching from behind",
+    "category": "scenario",
+    "shape": "Illustration",
+    "colors": "",
+    "meaning": "An ambulance with flashing lights is coming up behind car A on a two-lane road; A pulls to the right edge and stops.",
+    "license": "app-drawn",
+    "svgPath": "svg/SCN-EMERGENCY-BEHIND.svg",
+    "module": "scenes_core.py"
+  }
+]

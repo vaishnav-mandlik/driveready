@@ -20,11 +20,12 @@ import {optimize} from 'svgo';
 const APP = join(dirname(fileURLToPath(import.meta.url)), '..');
 const RESEARCH_SIGNS = join(APP, '..', 'research', 'signs');
 const CUSTOM = join(APP, 'assets', 'signs-custom');
+const SCENES = join(APP, 'assets', 'scenes');
 const OUT = join(APP, 'src', 'content', 'signs');
 const pngIdx = process.argv.indexOf('--png');
 const pngDir = pngIdx > 0 ? resolve(process.argv[pngIdx + 1]) : null;
 
-const CATEGORIES = ['regulatory', 'warning', 'school', 'railroad', 'work_zone', 'guide', 'service', 'recreation', 'signal', 'marking', 'hand_signal', 'other'];
+const CATEGORIES = ['regulatory', 'warning', 'school', 'railroad', 'work_zone', 'guide', 'service', 'recreation', 'signal', 'marking', 'hand_signal', 'other', 'scenario'];
 const CATEGORY_ALIASES = {'work zone': 'work_zone', workzone: 'work_zone', 'temporary traffic control': 'work_zone', services: 'service', hand: 'hand_signal', 'hand signal': 'hand_signal', signals: 'signal', markings: 'marking', 'pavement marking': 'marking'};
 
 function loadManifests() {
@@ -41,9 +42,11 @@ function loadManifests() {
       add(join(RESEARCH_SIGNS, f), RESEARCH_SIGNS);
     }
   }
-  if (existsSync(CUSTOM)) {
-    for (const f of readdirSync(CUSTOM).filter(n => /^manifest.*\.json$/.test(n)).sort()) {
-      add(join(CUSTOM, f), CUSTOM);
+  for (const dir of [CUSTOM, SCENES]) {
+    if (existsSync(dir)) {
+      for (const f of readdirSync(dir).filter(n => /^manifest.*\.json$/.test(n)).sort()) {
+        add(join(dir, f), dir);
+      }
     }
   }
   return out;

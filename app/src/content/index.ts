@@ -41,12 +41,15 @@ export const universalQuestionLoaders: Record<TrackId, Array<() => Question[]>> 
 };
 
 export const stateQuestionLoaders: Partial<Record<StateCode, () => Question[]>> = {
+  AL: () => require('./questions/states/AL.json'),
   AZ: () => require('./questions/states/AZ.json'),
   CA: () => require('./questions/states/CA.json'),
+  CO: () => require('./questions/states/CO.json'),
   FL: () => require('./questions/states/FL.json'),
   GA: () => require('./questions/states/GA.json'),
   IL: () => require('./questions/states/IL.json'),
   IN: () => require('./questions/states/IN.json'),
+  LA: () => require('./questions/states/LA.json'),
   MA: () => require('./questions/states/MA.json'),
   MD: () => require('./questions/states/MD.json'),
   MI: () => require('./questions/states/MI.json'),
@@ -64,12 +67,15 @@ export const stateQuestionLoaders: Partial<Record<StateCode, () => Question[]>> 
 };
 
 export const stateInfoLoaders: Partial<Record<StateCode, () => StateInfo>> = {
+  AL: () => require('./states/AL.json'),
   AZ: () => require('./states/AZ.json'),
   CA: () => require('./states/CA.json'),
+  CO: () => require('./states/CO.json'),
   FL: () => require('./states/FL.json'),
   GA: () => require('./states/GA.json'),
   IL: () => require('./states/IL.json'),
   IN: () => require('./states/IN.json'),
+  LA: () => require('./states/LA.json'),
   MA: () => require('./states/MA.json'),
   MD: () => require('./states/MD.json'),
   MI: () => require('./states/MI.json'),

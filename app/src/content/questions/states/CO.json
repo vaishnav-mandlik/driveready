@@ -1,0 +1,2301 @@
+[
+  {
+    "id": "co.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Colorado, a driver 21 or older can be convicted of DUI per se at what blood alcohol concentration (BAC)?",
+    "choices": [
+      "0.10%",
+      "0.04%",
+      "0.05%",
+      "0.08%"
+    ],
+    "answer": 3,
+    "explanation": "Colorado's DUI per se level for adult drivers is 0.08% BAC. A lower BAC can still lead to a DWAI (Driving While Ability Impaired) conviction.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, p. 6",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A Colorado driver under 21 can have their license revoked for a BAC over what level?",
+    "choices": [
+      "0.00%",
+      "0.04%",
+      "0.02%",
+      "0.05%"
+    ],
+    "answer": 2,
+    "explanation": "Colorado can revoke the license of a driver under 21 whose BAC is over 0.02%. For adults the level is 0.08%, and for CDL drivers 0.04%.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, p. 6",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Colorado law, a commercial (CDL) driver can lose their license for a BAC over what level?",
+    "choices": [
+      "0.08%",
+      "0.04%",
+      "0.02%",
+      "0.05%"
+    ],
+    "answer": 1,
+    "explanation": "The handbook lists 0.04% for CDL drivers, half the 0.08% adult limit for regular drivers.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 6",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Colorado has two impaired-driving offenses, DUI and DWAI. What does DWAI mean?",
+    "choices": [
+      "The driver is impaired by alcohol or drugs to the slightest degree",
+      "The driver is substantially incapable of driving safely",
+      "The driver has a BAC of 0.08% or higher",
+      "The driver was impaired by drugs but not alcohol"
+    ],
+    "answer": 0,
+    "explanation": "DWAI (Driving While Ability Impaired) means impaired to the slightest degree. DUI means substantially incapable of safe driving. Either can involve alcohol, drugs or both.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 6",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In the Colorado handbook's penalty table, a first DWAI conviction is listed at what BAC level?",
+    "choices": [
+      "0.08%",
+      "0.10%",
+      "0.02%",
+      "0.05%"
+    ],
+    "answer": 3,
+    "explanation": "The table lists a 1st DWAI at 0.05% BAC, with 8 points, a $200-$500 fine and 2-180 days in jail. A 1st DUI is listed at 0.08%.",
+    "difficulty": 3,
+    "ref": "Colorado Driver Handbook, p. 7",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "You are pulled over on suspicion of impaired driving in Colorado and refuse a chemical test. What happens to your license?",
+    "choices": [
+      "Nothing, if you later pass a field sobriety test",
+      "It is revoked for 6 months",
+      "It is revoked for one year, and you must use an ignition interlock for two years",
+      "It is suspended for 90 days"
+    ],
+    "answer": 2,
+    "explanation": "Under Colorado's Express Consent Law, refusing or not complying with testing means a one-year revocation plus two years of an ignition interlock on any vehicle you drive.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 8",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "After refusing a chemical test in Colorado, how long must a driver have an ignition interlock device on any vehicle they drive?",
+    "choices": [
+      "1 year",
+      "2 years",
+      "5 years",
+      "6 months"
+    ],
+    "answer": 1,
+    "explanation": "A refusal brings a one-year revocation and a two-year ignition interlock requirement. Penalties from the same incident are added on afterward, one after the other.",
+    "difficulty": 3,
+    "ref": "Colorado Driver Handbook, p. 8",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "According to the Colorado handbook's penalty table, how long is the license revoked for a first DUI conviction (age 21+)?",
+    "choices": [
+      "9 months",
+      "2 years",
+      "3 months",
+      "6 months"
+    ],
+    "answer": 0,
+    "explanation": "A 1st DUI carries a 9-month revocation, a $600-$1,000 fine, 5-365 days in jail and 48-96 hours of public service. Two years applies to a 3rd or later offense.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 7",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.009",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "How many points toward suspension does a first DWAI conviction carry in Colorado?",
+    "choices": [
+      "4 points",
+      "6 points",
+      "12 points",
+      "8 points"
+    ],
+    "answer": 3,
+    "explanation": "The handbook's penalty table lists 8 points for a 1st DWAI. A 1st DUI brings a 9-month revocation instead.",
+    "difficulty": 3,
+    "ref": "Colorado Driver Handbook, p. 7",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.010",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Colorado, a blood THC level of how many nanograms per milliliter allows a permissible inference that a driver was DUI?",
+    "choices": [
+      "Any detectable amount",
+      "2 ng/ml",
+      "5 ng/ml",
+      "10 ng/ml"
+    ],
+    "answer": 2,
+    "explanation": "There is a permissible inference of DUI at 5 ng/ml of THC in the blood. There is no THC inference level for DWAI, and most marijuana-impaired drivers are convicted based on behavior plus blood levels.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 8",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.011",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Your 30-year-old passenger opens a can of beer while you drive on a Colorado road. Is this legal?",
+    "choices": [
+      "Yes, as long as the driver is not drinking",
+      "No, open alcohol or marijuana containers are not allowed in the passenger area",
+      "Yes, if the passenger is 21 or older",
+      "Only on private roads"
+    ],
+    "answer": 1,
+    "explanation": "Colorado law makes it unlawful to possess an open container of alcohol or of marijuana in the passenger area of a motor vehicle on a public road.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, p. 6",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.012",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Can a Colorado driver charged with an alcohol- or drug-related driving offense plea bargain it down to a non-alcohol offense?",
+    "choices": [
+      "No, Colorado law does not allow it",
+      "Yes, for a first offense",
+      "Yes, if the BAC was under 0.08%",
+      "Only with a judge's approval"
+    ],
+    "answer": 0,
+    "explanation": "Colorado law does not allow plea bargaining out of an alcohol- or drug-related driving offense.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 8",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.013",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Colorado's mobile device law, how may an adult driver talk on a cellphone while driving?",
+    "choices": [
+      "Any way, as long as they are not texting",
+      "Holding the phone, if the call is under 2 minutes",
+      "Only on speakerphone while holding the phone",
+      "Only with a hands-free accessory (or to contact police/fire or in an emergency)"
+    ],
+    "answer": 3,
+    "explanation": "Colorado prohibits using a mobile device while driving unless it is with a hands-free accessory, to contact law enforcement or the fire department, or in an emergency.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, pp. 21, 27",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.014",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "You are stopped at a red light in Colorado. May you pick up your phone to read a message?",
+    "choices": [
+      "Yes, the law only applies while moving",
+      "Yes, if traffic is stopped for more than 30 seconds",
+      "No, you may not hold or handle the phone while driving, even at a signal",
+      "Yes, if you are on a city street"
+    ],
+    "answer": 2,
+    "explanation": "Colorado's mobile device law bans holding a phone or reading texts while operating a vehicle on a public road. The law's definition of operating excludes only being at rest on the shoulder or lawfully parked, so a stop at a signal still counts. Pull over and park if you need to use your phone.",
+    "difficulty": 3,
+    "ref": "C.R.S. 42-4-239(1)(e), (2); Colorado Driver Handbook, p. 21",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.015",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "In which situation may a Colorado driver type a text message on a phone while driving?",
+    "choices": [
+      "When driving under 25 mph",
+      "To contact law enforcement or the fire department, or in an emergency",
+      "On a rural highway with no traffic",
+      "To tell family they are running late"
+    ],
+    "answer": 1,
+    "explanation": "Texting while driving is prohibited unless it is to contact law enforcement, the fire department, or in an emergency.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 21",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.016",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "What is the fine for a first violation of Colorado's mobile device (hands-free) law?",
+    "choices": [
+      "$75",
+      "$150",
+      "$250",
+      "$50"
+    ],
+    "answer": 0,
+    "explanation": "A first offense is a $75 fine plus a $10 surcharge. The fine rises to $150 for a second offense and $250 for a third or later offense within 24 months.",
+    "difficulty": 2,
+    "ref": "C.R.S. 42-4-239(4)(a)",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.017",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which of these may a Colorado driver wear while driving?",
+    "choices": [
+      "A headset that covers both ears, if the volume is low",
+      "Headphones covering both ears",
+      "Earbuds in both ears playing music",
+      "A device covering only one ear that is connected to a phone"
+    ],
+    "answer": 3,
+    "explanation": "You may not drive wearing earphones that cover all or part of both ears. Hearing aids and a device covering only one ear connected to a wireless device are allowed.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 8",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.018",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Colorado's seat belt law, which people in a passenger car must be buckled?",
+    "choices": [
+      "Only people in the front seat on highways",
+      "Only the driver",
+      "The driver, front-seat passengers and children",
+      "Only passengers under 18"
+    ],
+    "answer": 2,
+    "explanation": "Colorado requires the driver, front-seat passengers and children to wear a fastened seat belt (or child restraint) in vehicles with factory-installed belts.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, p. 6",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.019",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 17-year-old Colorado driver who has been licensed for more than a year has a car with five seat belts. How many passengers may ride along, and must they buckle up?",
+    "choices": [
+      "Any number, if the driver is licensed",
+      "No more passengers than seat belts, and all must be restrained",
+      "Two passengers, belts optional",
+      "Up to five passengers, belts optional in back"
+    ],
+    "answer": 1,
+    "explanation": "Passengers of a driver under 18 must all be properly restrained, and the number of passengers may not exceed the number of seat belts. (During the first year of licensure, separate limits on passengers under 21 also apply.)",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 6",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.020",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 1-year-old who weighs 22 pounds is riding in your car in Colorado. How must the child ride?",
+    "choices": [
+      "Rear-facing child restraint in the rear seat",
+      "Adult seat belt in the rear seat",
+      "Forward-facing car seat in the front seat",
+      "Booster seat in the rear seat"
+    ],
+    "answer": 0,
+    "explanation": "Children under 2 who weigh less than 40 pounds must be secured in a rear-facing child restraint in the rear seat.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 6",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.021",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 6-year-old who weighs 45 pounds is riding in Colorado. What restraint does the law require?",
+    "choices": [
+      "An adult seat belt in any seat",
+      "A rear-facing car seat only",
+      "No special restraint if riding in the back",
+      "A child restraint system or booster seat in the rear seat, if available"
+    ],
+    "answer": 3,
+    "explanation": "Children 4 through 8 who weigh at least 40 pounds must be in a child restraint system or booster seat, in the rear seat if one is available.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 6",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.022",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age to get a Colorado instruction (learner's) permit?",
+    "choices": [
+      "16",
+      "14",
+      "15",
+      "15 1/2"
+    ],
+    "answer": 2,
+    "explanation": "You must be at least 15 to get a Colorado learner's permit, and applicants under 16 must complete driver education first. Starting Jan. 1, 2027, all permit applicants ages 15-17 need a 30-hour driver education course.",
+    "difficulty": 1,
+    "ref": "Colorado DMV, Permits and First-Time Driver License (dmv.colorado.gov)",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.023",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long must a Colorado driver under 18 hold an instruction permit before applying for a driver license?",
+    "choices": [
+      "9 months",
+      "12 months",
+      "18 months",
+      "6 months"
+    ],
+    "answer": 1,
+    "explanation": "Minors must hold the permit for 12 months (or until turning 18, if sooner) before applying for a license.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, p. 5",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.024",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many total hours of supervised driving must a Colorado minor log before getting a license?",
+    "choices": [
+      "50 hours",
+      "60 hours",
+      "100 hours",
+      "40 hours"
+    ],
+    "answer": 0,
+    "explanation": "Minors must submit a signed driving log showing 50 hours of driving, 10 of them at night.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, p. 5",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.025",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Of the required supervised driving hours, how many must a Colorado minor drive at night?",
+    "choices": [
+      "15 hours",
+      "20 hours",
+      "5 hours",
+      "10 hours"
+    ],
+    "answer": 3,
+    "explanation": "The log must show 50 hours total, with 10 of those hours at night.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 5",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.026",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Who may supervise a Colorado instruction permit holder while they drive?",
+    "choices": [
+      "A licensed sibling 16 or older",
+      "Any licensed driver 18 or older, in any seat",
+      "A licensed driver 21 or older with a valid Colorado license, in the front passenger seat",
+      "Any adult 25 or older, licensed or not"
+    ],
+    "answer": 2,
+    "explanation": "A permit driver must have a person 21 or older with a valid Colorado license in the front passenger seat.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, p. 4",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.027",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Colorado permit holder is younger than 16 1/2. How many hours of behind-the-wheel training with an approved driving instructor must they complete?",
+    "choices": [
+      "4 hours",
+      "6 hours",
+      "8 hours",
+      "12 hours"
+    ],
+    "answer": 1,
+    "explanation": "Applicants younger than 16 years 6 months must complete 6 hours of behind-the-wheel training with an approved driver education instructor.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 5",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.028",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "No qualifying driving school operates within 30 miles of a Colorado teen's home. What can replace the 6 hours of professional behind-the-wheel training?",
+    "choices": [
+      "12 extra hours of driving with a parent, guardian or permit supervisor",
+      "An online driving course",
+      "Nothing; they must travel to a school",
+      "6 extra hours with a parent or permit supervisor"
+    ],
+    "answer": 0,
+    "explanation": "If no approved school offering enough training is within 30 miles, 12 extra hours with a parent, guardian or alternate supervisor may replace the 6 hours (62 logged hours total). Bring a printed map of the route to the school.",
+    "difficulty": 3,
+    "ref": "Colorado Driver Handbook, p. 5",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.029",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age for a Colorado driver license?",
+    "choices": [
+      "16 1/2",
+      "17",
+      "15 1/2",
+      "16"
+    ],
+    "answer": 3,
+    "explanation": "You must be at least 16 and meet all permit, driving log and training requirements to get a Colorado minor license.",
+    "difficulty": 1,
+    "ref": "Colorado DMV, Permits and First-Time Driver License (dmv.colorado.gov); Colorado Driver Handbook, p. 4",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.030",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During their first year with a license, Colorado drivers under 18 may not drive during which hours (unless an exception applies)?",
+    "choices": [
+      "10 p.m. to 6 a.m.",
+      "11 p.m. to 5 a.m.",
+      "Midnight to 5 a.m.",
+      "Midnight to 6 a.m."
+    ],
+    "answer": 2,
+    "explanation": "For the first year of licensure, driving between midnight and 5 a.m. is not allowed unless accompanied by an instructor, parent or legal guardian, or another exception applies.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, p. 5; C.R.S. 42-4-116(2)",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.031",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old Colorado driver licensed 3 months ago needs to drive home from a late work shift at 12:30 a.m., alone. When is this allowed?",
+    "choices": [
+      "Only on weekends",
+      "With a signed statement from the employer",
+      "Only if the trip is under 5 miles",
+      "Never during the first year"
+    ],
+    "answer": 1,
+    "explanation": "Exceptions to the midnight-5 a.m. curfew include driving to and from school or work with a signed statement, medical emergencies, and emancipated minors.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 5",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.032",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "For the first six months after a Colorado driver under 18 gets a license, what is the passenger rule?",
+    "choices": [
+      "No passengers under 21 unless a parent or another licensed adult driver is in the car",
+      "One passenger under 21",
+      "No more than three passengers of any age",
+      "No passengers at all"
+    ],
+    "answer": 0,
+    "explanation": "For the first six months, a minor driver may not carry passengers under 21 unless a parent or other licensed adult driver is in the vehicle. Siblings and medical emergencies are exceptions.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 5",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.033",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old Colorado driver has had a license for 8 months. How many passengers under 21 (not siblings) may they carry without an adult?",
+    "choices": [
+      "Two",
+      "As many as there are seat belts",
+      "None",
+      "One"
+    ],
+    "answer": 3,
+    "explanation": "After 6 months, a minor may carry one passenger younger than 21. After 1 year, they may carry as many passengers as there are seat belts.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 5",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.034",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Applicants under 18 must submit an Affidavit of Liability signed by a responsible adult. What happens if that adult later withdraws their signature?",
+    "choices": [
+      "Nothing changes",
+      "The minor must retake the written test",
+      "The minor's permit or license is canceled",
+      "The minor must add 10 more hours to the driving log"
+    ],
+    "answer": 2,
+    "explanation": "The signer accepts legal responsibility for the minor's driving. If they withdraw their signature, the minor's permit or license is canceled.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 5",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.035",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "After moving or changing your name, how long do you have to notify the Colorado DMV?",
+    "choices": [
+      "10 days",
+      "30 days",
+      "60 days",
+      "90 days"
+    ],
+    "answer": 1,
+    "explanation": "You must notify the Division of Motor Vehicles of a name or address change within 30 days.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, p. 4",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.036",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What are Colorado's minimum auto liability insurance limits?",
+    "choices": [
+      "$25,000 / $50,000 / $15,000",
+      "$30,000 / $60,000 / $25,000",
+      "$50,000 / $100,000 / $25,000",
+      "$15,000 / $30,000 / $5,000"
+    ],
+    "answer": 0,
+    "explanation": "Colorado requires $25,000 per person for bodily injury, $50,000 per accident and $15,000 for property damage (25/50/15).",
+    "difficulty": 2,
+    "ref": "Colorado Division of Insurance, Auto Insurance (doi.colorado.gov)",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.037",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Colorado driver age 21 or older faces license suspension after collecting how many points within 12 months?",
+    "choices": [
+      "18 points",
+      "6 points",
+      "9 points",
+      "12 points"
+    ],
+    "answer": 3,
+    "explanation": "Adults 21 and over can be suspended at 12 or more points in any 12 months, or 18 or more in any 24 months.",
+    "difficulty": 2,
+    "ref": "C.R.S. 42-2-127(1)(a)",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.038",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Colorado driver under 18 can have their license suspended after how many points within any 12 months?",
+    "choices": [
+      "12 points",
+      "4 points",
+      "6 points",
+      "9 points"
+    ],
+    "answer": 2,
+    "explanation": "Drivers under 18 can be suspended for more than 5 points (6 or more) in any 12 months, or more than 6 points (7 or more) for violations before turning 18. Nine points in 12 months is the limit for minor drivers 18 to 20.",
+    "difficulty": 3,
+    "ref": "C.R.S. 42-2-127(1)(a)",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.039",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "If convicted under Colorado's reckless driving statute, up to how many points can be assessed against your record?",
+    "choices": [
+      "6 points",
+      "8 points",
+      "12 points",
+      "4 points"
+    ],
+    "answer": 1,
+    "explanation": "A reckless driving conviction can add up to eight points to your driving record.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 28",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.040",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "When does a Colorado minor driver license expire?",
+    "choices": [
+      "20 days after the 21st birthday",
+      "On the 21st birthday",
+      "5 years after it is issued",
+      "On the 18th birthday"
+    ],
+    "answer": 0,
+    "explanation": "A minor license expires 20 days after the 21st birthday. You can renew it as an adult license on or after turning 21.",
+    "difficulty": 3,
+    "ref": "Colorado DMV, Permits and First-Time Driver License (dmv.colorado.gov)",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.041",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the speed limit in a Colorado residence district?",
+    "choices": [
+      "35 mph",
+      "20 mph",
+      "25 mph",
+      "30 mph"
+    ],
+    "answer": 3,
+    "explanation": "Unless otherwise posted, Colorado's speed limit is 30 mph in any residence district and 25 mph in any business district.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, p. 15",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.042",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the speed limit in a Colorado business district?",
+    "choices": [
+      "15 mph",
+      "20 mph",
+      "25 mph",
+      "30 mph"
+    ],
+    "answer": 2,
+    "explanation": "The default limit in any business district is 25 mph. Residence districts default to 30 mph.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, p. 15",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.043",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the speed limit on narrow, winding mountain highways and blind curves in Colorado?",
+    "choices": [
+      "15 mph",
+      "20 mph",
+      "25 mph",
+      "30 mph"
+    ],
+    "answer": 1,
+    "explanation": "Colorado's default is 20 mph on narrow, winding mountain highways and blind curves.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 15",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.044",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the speed limit on open mountain highways in Colorado?",
+    "choices": [
+      "40 mph",
+      "45 mph",
+      "55 mph",
+      "35 mph"
+    ],
+    "answer": 0,
+    "explanation": "The default speed limit on open mountain highways is 40 mph. Narrow, winding mountain highways and blind curves are 20 mph.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 15",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.045",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the highest speed limit allowed on any Colorado road?",
+    "choices": [
+      "80 mph",
+      "65 mph",
+      "70 mph",
+      "75 mph"
+    ],
+    "answer": 3,
+    "explanation": "Designated rural interstates and highways can be posted at up to 75 mph, which is Colorado's maximum lawful speed.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 15; C.R.S. 42-4-1101(8)(b)",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.046",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Under normal conditions, what following-distance rule does the Colorado handbook recommend?",
+    "choices": [
+      "One car length per 20 mph",
+      "Two-second rule",
+      "Three-second rule",
+      "Five-second rule"
+    ],
+    "answer": 2,
+    "explanation": "Use the three-second rule under normal conditions. Leave more space in bad weather, poor road conditions, heavy traffic and at night.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, pp. 21, 22",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.047",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "A Colorado freeway has a posted minimum speed of 45 mph. When is it legal to drive below it?",
+    "choices": [
+      "Never",
+      "When road or weather conditions require it",
+      "Whenever you are in the right lane",
+      "Only when towing a trailer"
+    ],
+    "answer": 1,
+    "explanation": "Driving slower than a posted minimum is a traffic violation unless it is due to road or weather conditions.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 15",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.048",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What can happen if you speed in a Colorado work or construction zone?",
+    "choices": [
+      "The fine can be doubled",
+      "Only a warning is given",
+      "The fine is the same as anywhere else",
+      "Points are waived"
+    ],
+    "answer": 0,
+    "explanation": "Failing to follow the speed limit in a work zone can result in double fines. As in school zones, work zone fines are doubled.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, pp. 15, 21",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.049",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "When may you turn right on a steady red light in Colorado?",
+    "choices": [
+      "Without stopping, if no one is coming",
+      "Only if a green arrow is also lit",
+      "Never",
+      "After stopping and yielding to pedestrians and traffic, unless a sign prohibits it"
+    ],
+    "answer": 3,
+    "explanation": "After stopping and yielding to pedestrians and other traffic, you may turn right on red unless a traffic sign prohibits it.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, p. 10",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.050",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "When does Colorado allow a left turn on a steady red light?",
+    "choices": [
+      "Whenever no oncoming traffic is present",
+      "Never",
+      "From a one-way street onto another one-way street, unless a sign prohibits it",
+      "From a two-way street onto a one-way street"
+    ],
+    "answer": 2,
+    "explanation": "You may turn left on red only from a one-way street onto another one-way street, unless a sign prohibits it. Stop and yield first.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 10",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.051",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "In Colorado, when may you cross a solid yellow center line on your side of the road?",
+    "choices": [
+      "To pass a slow car on a straight road",
+      "To pass a bicyclist with at least 3 feet of space when the oncoming lane is clear, or to turn left into a driveway",
+      "Whenever the speed limit is under 40 mph",
+      "Never"
+    ],
+    "answer": 1,
+    "explanation": "You may cross a solid yellow line to turn left into an alley, private road or driveway, or to pass a bicyclist with at least 3 feet of space when the oncoming lane is clear.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 12",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.052",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "You see a white sign reading \"PASS 3 FT MIN\" with a bicycle symbol. What is true in Colorado?",
+    "choices": [
+      "Drivers must give bicyclists at least 3 feet when passing on all roads, even without the sign",
+      "Bicyclists must stay 3 feet from the curb",
+      "Vehicles must stay 3 feet behind bicyclists",
+      "The 3-foot passing rule applies only where this sign is posted"
+    ],
+    "answer": 0,
+    "explanation": "Colorado requires at least 3 feet of clearance when passing a bicyclist on all roadways, even if no sign is posted.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 12",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.053",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does a blue Emergency Notification System (ENS) sign at a railroad crossing provide?",
+    "choices": [
+      "Directions to the nearest hospital",
+      "The speed limit for trains",
+      "The train schedule",
+      "A phone number to report problems or emergencies at the crossing, plus the crossing's ID number"
+    ],
+    "answer": 3,
+    "explanation": "Blue ENS signs at every highway-rail crossing list a 24/7 phone number and a DOT crossing number so dispatchers can stop trains if needed.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, pp. 11, 24",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.054",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "A \"No Train Horn\" sign is posted below a railroad advance warning sign. What does it mean?",
+    "choices": [
+      "The crossing is closed",
+      "Trains do not use this crossing",
+      "The crossing is in a quiet zone; trains will not sound horns, so watch the lights and gates",
+      "Drivers may not honk near the tracks"
+    ],
+    "answer": 2,
+    "explanation": "Crossings in designated quiet zones have a No Train Horn sign. Train horns do not blow there, and the flashing lights and gates warn you of a train.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 24",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.055",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are entering a Colorado roundabout as a large truck approaches it. What does Colorado law require?",
+    "choices": [
+      "The truck must yield to you because you arrived first",
+      "You must yield the right-of-way to the truck",
+      "Whoever is on the right goes first",
+      "The truck must wait until the roundabout is empty"
+    ],
+    "answer": 1,
+    "explanation": "Colorado law requires drivers to yield to a truck, bus, emergency vehicle or recreational vehicle (large vehicle) when entering, exiting or driving in a roundabout.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 13",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.056",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "Two large trucks enter a Colorado roundabout at the same time. Which one must yield?",
+    "choices": [
+      "The truck on the right yields to the truck on the left",
+      "The heavier truck goes first",
+      "The truck already turning goes first",
+      "The truck on the left yields to the truck on the right"
+    ],
+    "answer": 0,
+    "explanation": "When two large vehicles enter, exit or drive in a roundabout at the same time, the driver on the right must yield to the driver on the left.",
+    "difficulty": 3,
+    "ref": "Colorado Driver Handbook, p. 13",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.057",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "Two vehicles meet on a steep mountain road too narrow for both. Who generally must yield?",
+    "choices": [
+      "The larger vehicle",
+      "The vehicle that arrived second",
+      "The vehicle going uphill",
+      "The vehicle going downhill, by backing up to a wider place or stopping"
+    ],
+    "answer": 3,
+    "explanation": "The vehicle going downhill must yield by backing to a wider place or stopping and leaving room for the uphill vehicle, unless it is more practical for the uphill vehicle to back up.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, pp. 14, 20",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.058",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A transit bus is signaling to pull back into your lane, and the yield sign on the rear of the bus is lit. What must you do?",
+    "choices": [
+      "Speed up to pass before it moves",
+      "Honk to warn the bus driver",
+      "Yield the right-of-way to the bus",
+      "Change lanes to the left without slowing"
+    ],
+    "answer": 2,
+    "explanation": "You must yield to a transit bus signaling to enter a traffic lane when the yield sign on its rear is illuminated.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 14",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.059",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are driving through an intersection when an ambulance with its siren on comes up behind you. What should you do?",
+    "choices": [
+      "Stop immediately in the intersection",
+      "Continue through the intersection, then pull to the right edge and stop",
+      "Back up out of the intersection",
+      "Speed up and keep going"
+    ],
+    "answer": 1,
+    "explanation": "Yield to emergency vehicles by pulling to the right edge and stopping. If you are in an intersection, drive through it first, then pull over.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, p. 14",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.060",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "At a Colorado intersection with no painted crosswalk lines, a pedestrian starts to cross. Who has the right-of-way?",
+    "choices": [
+      "The pedestrian, because unmarked crosswalks count too",
+      "Whoever reaches the center first",
+      "You, if your light is green",
+      "You, because the crosswalk is not marked"
+    ],
+    "answer": 0,
+    "explanation": "Pedestrians have the right-of-way at all intersections and crosswalks, even if the lines are not marked or painted.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, p. 27",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.061",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "In urban areas of Colorado, how far before a turn or lane change must you signal continuously?",
+    "choices": [
+      "200 feet",
+      "300 feet",
+      "50 feet",
+      "100 feet"
+    ],
+    "answer": 3,
+    "explanation": "In urban areas, signal continuously for 100 feet before turning or changing lanes. On four-lane highways posted above 40 mph, signal for 200 feet.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, p. 15",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.062",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "On a four-lane highway with a posted speed limit above 40 mph, how far ahead must you signal before turning or changing lanes in Colorado?",
+    "choices": [
+      "100 feet",
+      "150 feet",
+      "200 feet",
+      "500 feet"
+    ],
+    "answer": 2,
+    "explanation": "On four-lane highways posted faster than 40 mph, you must signal for 200 feet before a turn or lane change.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 15",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.063",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "After completing a turn or lane change, the Colorado handbook says your turn signal should be canceled within how many seconds?",
+    "choices": [
+      "When the next intersection is reached",
+      "3 seconds",
+      "5 seconds",
+      "10 seconds"
+    ],
+    "answer": 1,
+    "explanation": "Cancel your turn signal within 3 seconds of finishing a turn or lane change so you do not confuse other road users.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, pp. 5, 18",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.064",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "In Colorado, it is illegal to pass another vehicle within how many feet of an intersection or railroad crossing?",
+    "choices": [
+      "100 feet",
+      "200 feet",
+      "500 feet",
+      "50 feet"
+    ],
+    "answer": 0,
+    "explanation": "Passing within 100 feet of any intersection or railroad crossing is illegal. The same 100-foot rule applies to bridges, viaducts and tunnels when your view is blocked.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 19",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.065",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "Do not start to pass on a two-lane road unless you can return to your lane before coming within how many feet of an oncoming vehicle?",
+    "choices": [
+      "300 feet",
+      "500 feet",
+      "100 feet",
+      "200 feet"
+    ],
+    "answer": 3,
+    "explanation": "Do not pass if you cannot safely return to the right side before coming within 200 feet of an oncoming vehicle, including a bicyclist in the oncoming lane or shoulder.",
+    "difficulty": 3,
+    "ref": "Colorado Driver Handbook, p. 18",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.066",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "You are behind a bicyclist on a road with a double yellow line and no oncoming traffic. What does Colorado law allow?",
+    "choices": [
+      "You may honk to make the bicyclist move onto the shoulder",
+      "You must stay behind the bicyclist until the line becomes broken",
+      "You may cross the double yellow line if needed to give at least 3 feet",
+      "You may pass within 1 foot if you slow down"
+    ],
+    "answer": 2,
+    "explanation": "It is legal to cross a double yellow line, with no oncoming traffic, if needed to give a bicyclist at least 3 feet. If you can't give 3 feet, slow down and stay behind.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 25",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.067",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "Several city snow plows with flashing yellow lights are clearing a highway together in a staggered formation. What is the law?",
+    "choices": [
+      "You may pass them on the left",
+      "It is illegal to pass them while they work in tandem",
+      "You may pass them on the shoulder",
+      "You may pass if you honk first"
+    ],
+    "answer": 1,
+    "explanation": "It is illegal to pass city, county or state snow plows working in tandem with yellow lights flashing. Their blowing snow can also hide the plow.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, pp. 14, 20",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.068",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "How far before changing lanes on a Colorado freeway should you signal?",
+    "choices": [
+      "At least 200 feet",
+      "At least 1,000 feet",
+      "At least 50 feet",
+      "At least 100 feet"
+    ],
+    "answer": 0,
+    "explanation": "On freeways, signal at least 200 feet before you change lanes, and avoid frequent lane changes.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, p. 17",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.069",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "When exiting a Colorado freeway, when should you turn on your signal?",
+    "choices": [
+      "Only once you are in the deceleration lane",
+      "Half a mile after passing the exit sign",
+      "At the exit ramp's stop sign",
+      "200 feet before the start of the deceleration lane"
+    ],
+    "answer": 3,
+    "explanation": "Signal 200 feet before the beginning of the deceleration lane. Keep your speed until you enter it, then slow to the ramp's advised speed.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 18",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.070",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "According to the Colorado handbook, what is the leftmost (passing) lane of a freeway reserved for?",
+    "choices": [
+      "Vehicles exiting on the right",
+      "Any vehicle traveling at the speed limit",
+      "Passing, left turns, and times when traffic is too heavy to merge into other lanes",
+      "Trucks and buses"
+    ],
+    "answer": 2,
+    "explanation": "The leftmost lane is reserved for passing, left turns, and conditions where traffic volume doesn't allow merging into non-passing lanes. Drive in the rightmost lane when slower than normal traffic.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 17",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.071",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Colorado, you may not park within how many feet of a fire hydrant?",
+    "choices": [
+      "10 feet",
+      "15 feet",
+      "20 feet",
+      "30 feet"
+    ],
+    "answer": 1,
+    "explanation": "Do not park within 15 feet of a fire hydrant.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, p. 16",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.072",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Colorado, you may not park within how many feet of a stop sign or traffic signal?",
+    "choices": [
+      "30 feet",
+      "50 feet",
+      "15 feet",
+      "20 feet"
+    ],
+    "answer": 0,
+    "explanation": "Parking is not allowed within 30 feet of a traffic signal or stop sign.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 16",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.073",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Where parallel parking is allowed in Colorado, how close to the curb must your vehicle be?",
+    "choices": [
+      "Within 18 inches",
+      "Within 24 inches",
+      "Within 6 inches",
+      "Within 12 inches"
+    ],
+    "answer": 3,
+    "explanation": "Park within 12 inches of the curb, or as close as possible to the outside edge of the shoulder, so traffic is not blocked or slowed.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, p. 17",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.074",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Under Colorado law, you may not stand or park within how many feet of a crosswalk at an intersection?",
+    "choices": [
+      "10 feet",
+      "15 feet",
+      "20 feet",
+      "30 feet"
+    ],
+    "answer": 2,
+    "explanation": "C.R.S. 42-4-1204 prohibits standing or parking within 20 feet of a crosswalk at an intersection. Parking on a crosswalk is never allowed.",
+    "difficulty": 2,
+    "ref": "C.R.S. 42-4-1204(2)(c); Colorado Driver Handbook, p. 16",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.075",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In a Colorado disabled parking area, what are the crosshatched sections next to the spaces for?",
+    "choices": [
+      "Parking motorcycles",
+      "Van access only; parking is not allowed at any time",
+      "Short-term parking up to 15 minutes",
+      "Parking for vehicles with a placard"
+    ],
+    "answer": 1,
+    "explanation": "Crosshatched sections are for van access only, and parking there is not allowed at any time.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 12",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.076",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You are driving a friend's car that has a disabled parking placard, but the placard holder is not with you. May you park in a disabled space?",
+    "choices": [
+      "No, the placard holder must be entering or exiting the vehicle",
+      "Yes, for up to 30 minutes",
+      "Yes, if you leave a note",
+      "Yes, the placard covers the car"
+    ],
+    "answer": 0,
+    "explanation": "The person who owns the disabled placard must be entering or exiting the vehicle. Using someone else's placard brings jail time, loss of driving privileges, towing and doubled fines.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 12",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.077",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "What fine can a Colorado driver face if convicted of illegally parking in a disabled space without a placard or plate?",
+    "choices": [
+      "$10,000",
+      "$50-$100",
+      "$150-$300",
+      "$350-$5,000"
+    ],
+    "answer": 3,
+    "explanation": "Illegally parking in a designated disabled space can bring a misdemeanor with a $350-$5,000 fine, possible jail, loss of driving privileges or impoundment.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 12",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.078",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Your car is parked along a Colorado roadway after sunset. What lights must it show?",
+    "choices": [
+      "Hazard lights only if attended",
+      "No lights",
+      "Parking lights",
+      "High beams"
+    ],
+    "answer": 2,
+    "explanation": "Any vehicle parked alongside the roadway, attended or not, must have parking lights on from sunset to sunrise or when visibility is under 1,000 feet. Never drive with only parking lights on.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 19",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.079",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Colorado law requires your headlights to be on from sunset to sunrise and whenever visibility is less than how many feet?",
+    "choices": [
+      "500 feet",
+      "1,000 feet",
+      "1,500 feet",
+      "200 feet"
+    ],
+    "answer": 1,
+    "explanation": "Headlights are required from sunset to sunrise or when visibility is less than 1,000 feet.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, p. 19",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.080",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You must dim your high beams before coming within how many feet of an oncoming vehicle in Colorado?",
+    "choices": [
+      "500 feet",
+      "1,000 feet",
+      "200 feet",
+      "300 feet"
+    ],
+    "answer": 0,
+    "explanation": "Dim high beams (or low beams with fog lights on) before coming within 500 feet of any oncoming vehicle.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, p. 19",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.081",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When following another vehicle at night in Colorado, you must use low beams with fog lights off when within how many feet of it?",
+    "choices": [
+      "300 feet",
+      "500 feet",
+      "100 feet",
+      "200 feet"
+    ],
+    "answer": 3,
+    "explanation": "When within 200 feet of the vehicle ahead, use low beams with your fog lights off.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 19",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.082",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When do about 90% of crashes with deer and elk occur in Colorado?",
+    "choices": [
+      "During morning rush hour",
+      "Only in winter",
+      "Between dusk and dawn",
+      "At midday"
+    ],
+    "answer": 2,
+    "explanation": "About 90% of deer and elk crashes happen between dusk and dawn. Watch for animals, especially in rural and mountain areas.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 29",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.083",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "There is no painted stop line at a railroad crossing in Colorado. How far from the tracks should you stop while a train passes?",
+    "choices": [
+      "At least 5 feet",
+      "At least 10 feet",
+      "At least 15 feet",
+      "At least 50 feet"
+    ],
+    "answer": 1,
+    "explanation": "Stay behind the painted stop line. If there is none, stop at least 10 feet from the tracks; trains overhang the tracks by 3 feet.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 24",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.084",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "During Colorado \"Accident Alert\" status, you have a minor crash with no injuries, no alcohol or drugs, and drivable cars. Within how long must you file an accident report with law enforcement?",
+    "choices": [
+      "24 hours",
+      "48 hours",
+      "72 hours",
+      "10 days"
+    ],
+    "answer": 0,
+    "explanation": "During Accident Alert, exchange information with the other driver and file an accident report with law enforcement within 24 hours.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 29",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.085",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "In Colorado, when do the Accident Alert procedures (exchange information, then report within 24 hours) apply to a crash?",
+    "choices": [
+      "When the damage is under $1,000",
+      "Whenever the other driver agrees",
+      "Any time it is snowing",
+      "When Accident Alert is declared and the crash has no injuries, no alcohol or drugs, and all vehicles are drivable"
+    ],
+    "answer": 3,
+    "explanation": "Accident Alert is declared when severe weather keeps police from responding to the number of crashes. It applies only with no injuries, no alcohol or drugs, and drivable vehicles.",
+    "difficulty": 3,
+    "ref": "Colorado Driver Handbook, p. 29",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.086",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You have a minor fender-bender on a Colorado divided highway. No one is hurt, no drugs or alcohol are involved, and both cars can be driven. What does the Move It Law require?",
+    "choices": [
+      "Drive home and report the crash within 30 days",
+      "Leave the cars where they are until police arrive",
+      "Move the vehicles off the highway, then exchange information",
+      "Turn on hazard lights and wait in your car"
+    ],
+    "answer": 2,
+    "explanation": "Colorado's Move It Law requires drivers in a minor crash on a divided highway to move off the highway when the vehicles are drivable, no one is injured and no drugs or alcohol are involved. You are not penalized for moving.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 29",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.087",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "After a crash in Colorado, where must you be able to provide proof of insurance?",
+    "choices": [
+      "Only to your insurance company",
+      "To law enforcement at the scene or at the police station",
+      "Only in court",
+      "To the other driver only"
+    ],
+    "answer": 1,
+    "explanation": "If you are in a crash, you must provide proof of insurance to law enforcement at the scene or at the police station.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 29",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.088",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "On a multi-lane Colorado highway, you approach a stopped tow truck with flashing lights on the shoulder. What should you do first?",
+    "choices": [
+      "Move over one lane if you can safely",
+      "Stop in your lane",
+      "Speed up to pass quickly",
+      "Flash your high beams"
+    ],
+    "answer": 0,
+    "explanation": "Colorado's Move Over Law requires moving over one lane, when safe, for stationary vehicles with flashing lights or hazards, including emergency vehicles and tow trucks.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, pp. 14, 30",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.089",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "On a highway posted at 65 mph, you can't change lanes away from a stopped emergency vehicle with lights flashing. What speed should you slow to?",
+    "choices": [
+      "60 mph",
+      "25 mph",
+      "55 mph",
+      "45 mph"
+    ],
+    "answer": 3,
+    "explanation": "When the posted limit is above 45 mph and you can't move over, slow to 20 mph below the limit: 45 mph on a 65 mph road.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, pp. 14, 30; C.R.S. 42-4-705(2)(c)",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.090",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "On a street posted at 35 mph, you approach a stopped police car with flashing lights and cannot move over a lane. What speed should you slow to?",
+    "choices": [
+      "35 mph",
+      "40 mph",
+      "25 mph",
+      "30 mph"
+    ],
+    "answer": 2,
+    "explanation": "If you can't change lanes and the posted limit is 45 mph or less, slow to 25 mph and use care as you pass. On roads posted above 45 mph, slow to 20 mph below the limit.",
+    "difficulty": 3,
+    "ref": "Colorado Driver Handbook, p. 14; C.R.S. 42-4-705(2)(c)(II)",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.091",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "What number can Colorado drivers dial from a cellphone to report an aggressive driver to the State Patrol?",
+    "choices": [
+      "411",
+      "*277 (*CSP)",
+      "311",
+      "*55"
+    ],
+    "answer": 1,
+    "explanation": "Dial *CSP (*277) to report aggressive drivers. The Colorado State Patrol or a local agency handles the call, which is free.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, p. 28",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.092",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "How much space must Colorado drivers leave when passing a bicyclist, including one in a bike lane?",
+    "choices": [
+      "At least 3 feet",
+      "At least 6 feet",
+      "At least 1 foot",
+      "At least 2 feet"
+    ],
+    "answer": 0,
+    "explanation": "Give at least 3 feet from the outermost part of your vehicle or attachments, such as mirrors or trailers. Give more on rural roads, in wind or in a large vehicle.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, pp. 18, 25",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.093",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Under a 2022 Colorado law, how may bicyclists 15 and older treat a stop sign when the intersection is clear and they have the right-of-way?",
+    "choices": [
+      "As a stop sign, like cars",
+      "They may ignore it at any time",
+      "As a red light",
+      "As a yield sign"
+    ],
+    "answer": 3,
+    "explanation": "Bicyclists 15 and older may treat stop signs as yield signs, and red lights as stop signs, when the intersection is clear and they have the right-of-way.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 26",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.094",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Two bicyclists are riding side-by-side ahead of you on a Colorado road. When is this legal?",
+    "choices": [
+      "Only on weekends",
+      "Never",
+      "When they are not impeding the normal and reasonable movement of traffic",
+      "Only in a bike lane"
+    ],
+    "answer": 2,
+    "explanation": "Bicyclists may ride side-by-side if they are not impeding the normal and reasonable movement of traffic.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 25",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.095",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "What is the \"Dutch Reach\" recommended in the Colorado handbook?",
+    "choices": [
+      "Adjusting your mirrors from the passenger seat",
+      "Opening your car door with the hand farthest from the door, so you turn and see bicyclists behind you",
+      "Reaching for your license with your left hand during a traffic stop",
+      "A hand signal for a right turn"
+    ],
+    "answer": 1,
+    "explanation": "The Dutch Reach means opening your door with the hand closest to the center of the vehicle. This turns your body so you can check for bicyclists before opening the door.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 26",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.096",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are stopped in traffic at a red light in Colorado when a two-wheeled motorcycle slowly rides past you, between your car and the stopped car in the next lane. Is this legal?",
+    "choices": [
+      "Yes, if the vehicles are stopped and the motorcycle goes no faster than 15 mph",
+      "Yes, at any speed",
+      "Only if the motorcycle uses the shoulder",
+      "No, motorcycles may never pass in the same lane"
+    ],
+    "answer": 0,
+    "explanation": "Colorado allows lane filtering: a two-wheeled motorcycle may pass stopped vehicles in the same lane when adjacent traffic is stopped and it can pass safely at no more than 15 mph.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, pp. 22, 26",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.097",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A school bus has stopped with its red lights flashing in Colorado. How far from the bus must you stop?",
+    "choices": [
+      "At least 50 feet",
+      "At least 10 feet",
+      "At least 15 feet",
+      "At least 20 feet"
+    ],
+    "answer": 3,
+    "explanation": "You must stop at least 20 feet before reaching a school bus with flashing red lights, and stay stopped until the lights stop flashing.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, pp. 14, 23",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.098",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are on a four-lane divided highway with a median. A school bus going the opposite direction stops with red lights flashing. What must you do?",
+    "choices": [
+      "Slow to 20 mph and pass",
+      "Stop at least 20 feet from the bus",
+      "You are not required to stop, but watch for children",
+      "Stop only if children are crossing"
+    ],
+    "answer": 2,
+    "explanation": "On a divided highway with a median, only traffic behind the bus must stop. Traffic going the opposite direction does not have to stop.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, pp. 14, 23",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.099",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are on a four-lane road without a median. An oncoming school bus stops with red lights flashing. What must you do?",
+    "choices": [
+      "Continue, since the bus is on the other side",
+      "Stop, because traffic in both directions must stop on a four-lane road without a median",
+      "Slow to 15 mph and pass",
+      "Stop only if you are in the left lane"
+    ],
+    "answer": 1,
+    "explanation": "On a two-lane road or a four-lane road without a median, traffic in both directions must stop for a school bus with flashing red lights.",
+    "difficulty": 3,
+    "ref": "Colorado Driver Handbook, p. 23",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.100",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a road with five or more lanes including a shared center turn lane, a school bus going the other way stops with flashing red lights. Must you stop?",
+    "choices": [
+      "No, only vehicles behind the bus must stop",
+      "Only if you are in the lane next to the turn lane",
+      "Yes, but only for 10 seconds",
+      "Yes, all traffic must stop"
+    ],
+    "answer": 0,
+    "explanation": "On highways with five or more lanes and a shared center turn lane, only vehicles behind the bus must stop; opposite-direction traffic is not required to.",
+    "difficulty": 3,
+    "ref": "Colorado Driver Handbook, pp. 23, 24",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.101",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the speed limit on an open Colorado highway that is not an interstate or a four-lane freeway?",
+    "choices": [
+      "45 mph",
+      "55 mph",
+      "65 mph",
+      "70 mph"
+    ],
+    "answer": 1,
+    "explanation": "Colorado's default limit on other open highways that are not interstates or four-lane freeways is 55 mph. Open mountain highways default to 40 mph, and surfaced four-lane freeways to 65 mph.",
+    "difficulty": 2,
+    "ref": "C.R.S. 42-4-1101(2)(f)",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.102",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "According to the Colorado handbook, posted maximum speed limits are meant for what kind of conditions?",
+    "choices": [
+      "Ideal conditions; you must slow down when conditions require it",
+      "All weather, day or night",
+      "Daytime only; night limits are 10 mph lower",
+      "Dry roads only; wet roads lower the limit by 5 mph"
+    ],
+    "answer": 0,
+    "explanation": "Colorado's maximum speed limits are for ideal conditions. You must reduce your speed when weather, traffic or road conditions require it.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, pp. 10, 15",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.103",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Which of these places does the Colorado handbook list as a place where you may NOT park?",
+    "choices": [
+      "On a runaway truck ramp",
+      "25 feet from a fire hydrant",
+      "40 feet from a stop sign",
+      "Within 12 inches of the curb"
+    ],
+    "answer": 0,
+    "explanation": "Colorado bans parking within an intersection, tunnel, runaway truck ramp or on/off ramp, or blocking a driveway. The other choices are beyond the 15-foot hydrant and 30-foot stop sign limits, and parking within 12 inches of the curb is required.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, pp. 16, 17",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.104",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Under Colorado statute, you may not park within how many feet of the nearest rail of a railroad crossing?",
+    "choices": [
+      "10 feet",
+      "15 feet",
+      "20 feet",
+      "50 feet"
+    ],
+    "answer": 3,
+    "explanation": "C.R.S. 42-4-1204(3)(a) bars parking within 50 feet of the nearest rail of a railroad crossing. (The handbook's shorter list says 30 feet of a crossing; staying 50 feet away satisfies both.)",
+    "difficulty": 3,
+    "ref": "C.R.S. 42-4-1204(3)(a); Colorado Driver Handbook, p. 16",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.105",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Under Colorado statute, how close may you park to the driveway entrance of a fire station on the same side of the street?",
+    "choices": [
+      "No closer than 20 feet",
+      "No closer than 5 feet",
+      "No closer than 10 feet",
+      "No closer than 15 feet"
+    ],
+    "answer": 0,
+    "explanation": "C.R.S. 42-4-1204(2)(e) bars parking within 20 feet of a fire station driveway entrance. On the opposite side of the street, the limit is 75 feet when signs are posted.",
+    "difficulty": 3,
+    "ref": "C.R.S. 42-4-1204(2)(e)",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.106",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You move to Colorado and become a resident. You are not in the military or a student. How soon must you get a Colorado driver license?",
+    "choices": [
+      "Within 30 days",
+      "Within 90 days",
+      "Within 60 days",
+      "Within 1 year"
+    ],
+    "answer": 0,
+    "explanation": "New residents must get a Colorado driver license within 30 days of becoming a resident. Living in Colorado for 90 days in a row is one way you become a resident; it is not the deadline.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 4",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.107",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "According to the Colorado handbook, if you fail the drive test, when may you retake it?",
+    "choices": [
+      "The same day, after a 1-hour wait",
+      "After 7 days",
+      "After 30 days",
+      "No sooner than the next business day"
+    ],
+    "answer": 3,
+    "explanation": "If you fail the drive test, you must wait until the next business day before retaking it. A state retest fee also applies.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, p. 4",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.108",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "According to the Colorado handbook's penalty table, how long is the license revoked for a second DWAI or DUI conviction (age 21+)?",
+    "choices": [
+      "9 months",
+      "1 year",
+      "2 years",
+      "6 months"
+    ],
+    "answer": 1,
+    "explanation": "A 2nd DWAI or DUI brings a 1-year revocation, a $600-$1,500 fine and 10-365 days in jail. A 1st DUI is 9 months, and a 3rd or later offense is 2 years.",
+    "difficulty": 3,
+    "ref": "Colorado Driver Handbook, p. 7",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.109",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "The painted lines of a Colorado bike lane stop at the edge of an intersection. Does the bike lane continue through the intersection?",
+    "choices": [
+      "No, it ends where the paint ends",
+      "Yes, bike lanes extend through intersections even without paint",
+      "Only if a bike lane sign is posted",
+      "Only for bicyclists going straight"
+    ],
+    "answer": 1,
+    "explanation": "A bike lane extends through an intersection whether or not paint connects it on either side, and people on bikes have the right-of-way in a bike lane.",
+    "difficulty": 2,
+    "ref": "Colorado Driver Handbook, pp. 13, 25",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.car.110",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "In Denver-area light rail zones, overhead electric wires are normally at what height above the center of the tracks?",
+    "choices": [
+      "13 feet, 6 inches",
+      "15 feet",
+      "18 feet, 6 inches",
+      "22 feet"
+    ],
+    "answer": 2,
+    "explanation": "Overhead light rail wires are a standard 18 feet 6 inches above the center of the tracks. Know your vehicle's height, and treat any hanging wire as electrified.",
+    "difficulty": 3,
+    "ref": "Colorado Driver Handbook, p. 25",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Under Colorado law, which motorcycle riders must wear a DOT-compliant helmet?",
+    "choices": [
+      "Only operators under 21",
+      "Only passengers",
+      "All riders and passengers",
+      "Riders and passengers under 18"
+    ],
+    "answer": 3,
+    "explanation": "Colorado requires motorcycle operators and passengers under 18 to wear a protective motorcycle helmet that meets the federal FMVSS 218 standard. Riders 18 and older are not required by law to wear one.",
+    "difficulty": 1,
+    "ref": "C.R.S. 42-4-1502(4.5)",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 30-year-old rides a motorcycle in Colorado without a helmet or windshield. What protective equipment does Colorado law still require?",
+    "choices": [
+      "Leather gloves",
+      "None",
+      "Eye protection, such as goggles or eyeglasses with safety glass or plastic lenses",
+      "A reflective vest"
+    ],
+    "answer": 2,
+    "explanation": "Every motorcycle operator and passenger must wear goggles or eyeglasses with safety glass or plastic lenses unless their helmet has such eye protection.",
+    "difficulty": 2,
+    "ref": "C.R.S. 42-4-232(1)",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Does a motorcycle windshield satisfy Colorado's eye protection requirement?",
+    "choices": [
+      "Only for passengers",
+      "No, riders still need goggles, safety glasses or a helmet with eye protection",
+      "Yes, if it is taller than the rider's eyes",
+      "Yes, any windshield counts"
+    ],
+    "answer": 1,
+    "explanation": "Colorado law requires goggles or eyeglasses with safety glass or plastic lenses, or a helmet containing such eye protection. The law makes no windshield exception for motorcycles; only certain three-wheeled autocycles with a windshield are exempt.",
+    "difficulty": 2,
+    "ref": "C.R.S. 42-4-232(1)",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "When lane filtering in Colorado, what is the maximum speed a motorcyclist may travel while passing stopped vehicles?",
+    "choices": [
+      "15 mph",
+      "20 mph",
+      "25 mph",
+      "10 mph"
+    ],
+    "answer": 0,
+    "explanation": "Colorado's lane filtering law allows a two-wheeled motorcycle to pass stopped vehicles in the same lane at 15 mph or less.",
+    "difficulty": 1,
+    "ref": "Colorado Driver Handbook, pp. 22, 26; C.R.S. 42-4-1503(3)(b)",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "You are lane filtering between stopped cars at a Colorado light when the traffic around you starts moving. What must you do?",
+    "choices": [
+      "Move onto the right shoulder",
+      "Continue at 15 mph",
+      "Speed up to finish passing",
+      "Stop filtering and stop overtaking in the lane"
+    ],
+    "answer": 3,
+    "explanation": "Filtering is allowed only while the vehicles being passed, and the same-direction vehicles beside you, are stopped. When they begin moving, you must stop overtaking or passing in the lane.",
+    "difficulty": 2,
+    "ref": "C.R.S. 42-4-1503(3)(b)(II)",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Which of these is allowed under Colorado's motorcycle lane filtering law?",
+    "choices": [
+      "Passing stopped cars on the right shoulder",
+      "Riding between lanes of moving traffic at 30 mph",
+      "Passing stopped cars between same-direction lanes at 15 mph or less",
+      "Passing in a lane of oncoming traffic"
+    ],
+    "answer": 2,
+    "explanation": "Filtering is allowed only past stopped traffic at 15 mph or less. Passing on the right shoulder, in opposing lanes, or between moving vehicles (lane splitting) is illegal.",
+    "difficulty": 2,
+    "ref": "C.R.S. 42-4-1503(3)(b)",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Is lane splitting (riding between lanes of moving traffic) legal in Colorado?",
+    "choices": [
+      "Yes, on interstates only",
+      "No, it is illegal; only filtering past stopped traffic is allowed",
+      "Yes, if traffic is slower than 10 mph",
+      "Yes, below 25 mph"
+    ],
+    "answer": 1,
+    "explanation": "Colorado law bars riding between lanes of traffic or between rows of vehicles. The only exception is lane filtering: a two-wheeled motorcycle passing stopped vehicles at 15 mph or less.",
+    "difficulty": 2,
+    "ref": "C.R.S. 42-4-1503(3)(a), (3)(b); Colorado Driver Handbook, p. 22",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Colorado's lane filtering law applies to which vehicles?",
+    "choices": [
+      "Two-wheeled motorcycles only",
+      "All motorcycles, including three-wheelers",
+      "Autocycles and motorcycles",
+      "Any vehicle narrower than 4 feet"
+    ],
+    "answer": 0,
+    "explanation": "The filtering exception is limited to two-wheeled motorcycles. Three-wheeled motorcycles and autocycles may not pass in the same lane.",
+    "difficulty": 3,
+    "ref": "C.R.S. 42-4-1503(3)(b)(I); Colorado Driver Handbook, p. 22",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Under Colorado law, what is the maximum number of motorcycles that may ride side by side in a single lane?",
+    "choices": [
+      "Three",
+      "Four",
+      "There is no limit",
+      "Two"
+    ],
+    "answer": 3,
+    "explanation": "Colorado law says motorcycles may not be operated more than two abreast in a single lane.",
+    "difficulty": 2,
+    "ref": "C.R.S. 42-4-1503(4)",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.mc.010",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Under Colorado law, a motorcycle that carries a passenger (not in a sidecar or enclosed cab) must be equipped with what?",
+    "choices": [
+      "A passenger backrest",
+      "Footrests for the passenger",
+      "A second rearview mirror for the passenger",
+      "A passenger seat belt"
+    ],
+    "answer": 1,
+    "explanation": "Colorado requires any motorcycle carrying a passenger, other than in a sidecar or enclosed cab, to have footrests for that passenger.",
+    "difficulty": 2,
+    "ref": "C.R.S. 42-4-232(3)",
+    "states": [
+      "CO"
+    ]
+  },
+  {
+    "id": "co.mc.011",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Under Colorado law, when may a motorcyclist carry a package while riding?",
+    "choices": [
+      "Only if it does not keep them from keeping both hands on the handlebars",
+      "Never",
+      "Any time, if it is held with one hand",
+      "Only if it weighs under 10 pounds"
+    ],
+    "answer": 0,
+    "explanation": "Colorado law bars operating a motorcycle while carrying packages, bundles or other articles that prevent you from keeping both hands on the handlebars.",
+    "difficulty": 2,
+    "ref": "C.R.S. 42-4-1502(3)",
+    "states": [
+      "CO"
+    ]
+  }
+]

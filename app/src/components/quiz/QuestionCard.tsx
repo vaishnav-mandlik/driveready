@@ -1,9 +1,10 @@
 import React, {memo, useMemo} from 'react';
-import {StyleSheet, View} from 'react-native';
+import {StyleSheet, useWindowDimensions, View} from 'react-native';
 import {Card} from '../Card';
 import {ChoiceButton} from '../ChoiceButton';
 import {SignImage} from '../SignImage';
 import {Text} from '../Text';
+import {isScenario} from '../../data/signs';
 import type {Question} from '../../data/types';
 import {useTheme} from '../../theme/ThemeProvider';
 import {ExplanationCard} from './ExplanationCard';
@@ -59,6 +60,9 @@ export const QuestionCard = memo(function QuestionCard({
 }: QuestionCardProps) {
   const {colors, radius, spacing} = useTheme();
   const shown = useMemo(() => displayOrder(question, order), [question, order]);
+  const {width} = useWindowDimensions();
+  const scene = isScenario(question.sign);
+  const imageSize = scene ? Math.min(width - 64, 420) : compact ? 96 : 150;
   const interactive = !!onChoose && !locked;
 
   const body = (
@@ -74,11 +78,11 @@ export const QuestionCard = memo(function QuestionCard({
         <View
           style={[
             styles.signBox,
-            {backgroundColor: colors.surfaceAlt, borderRadius: radius.lg, padding: compact ? spacing.md : spacing.lg},
+            {backgroundColor: colors.surfaceAlt, borderRadius: radius.lg, padding: scene ? spacing.xs : compact ? spacing.md : spacing.lg, overflow: 'hidden'},
           ]}>
           <SignImage
             code={question.sign}
-            size={compact ? 96 : 150}
+            size={imageSize}
             accessibilityLabel={signLabelFor(question, revealed)}
           />
         </View>

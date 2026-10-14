@@ -1,0 +1,2111 @@
+[
+  {
+    "id": "la.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Louisiana, a driver who is 21 or older is over the legal limit at what blood alcohol concentration (BAC)?",
+    "choices": [
+      "0.05%",
+      "0.08%",
+      "0.10%",
+      "0.04%"
+    ],
+    "answer": 1,
+    "explanation": "Louisiana's legal limit is .08 BAC for drivers 21 and older. You can still be arrested below that level if you are impaired.",
+    "difficulty": 1,
+    "ref": "Class D & E Driver's Guide, p. 128",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 20-year-old Louisiana driver is stopped after having one beer. At what BAC is this driver over the legal limit?",
+    "choices": [
+      "0.08%",
+      "0.05%",
+      "0.02%",
+      "Any amount above 0.00% is legal for a 20-year-old"
+    ],
+    "answer": 2,
+    "explanation": "Louisiana sets the limit at .02 BAC for drivers 20 years of age and younger, far below the .08 adult limit.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 128",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the legal BAC limit in Louisiana for someone operating a commercial motor vehicle?",
+    "choices": [
+      "0.04%",
+      "0.08%",
+      "0.02%",
+      "0.06%"
+    ],
+    "answer": 0,
+    "explanation": "Commercial motor vehicle operators are held to a .04 BAC limit, half the .08 limit for other adult drivers.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 128",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A Louisiana driver arrested for DWI refuses the chemical (breath/blood) test for the first time. How long will driving privileges be suspended?",
+    "choices": [
+      "90 days",
+      "180 days",
+      "365 days",
+      "730 days"
+    ],
+    "answer": 2,
+    "explanation": "Under implied consent, a first refusal suspends driving privileges for 365 days. A second or later refusal brings a 730-day suspension.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 131",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A driver who has refused a chemical test before refuses again on a second DWI arrest. What suspension does the Louisiana guide list?",
+    "choices": [
+      "365 days",
+      "730 days",
+      "180 days",
+      "Permanent revocation"
+    ],
+    "answer": 1,
+    "explanation": "A second or subsequent refusal suspends driving privileges for 730 days (two years); a first refusal is 365 days.",
+    "difficulty": 3,
+    "ref": "Class D & E Driver's Guide, p. 131",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "After a test-refusal suspension in Louisiana, what must a driver file before driving privileges can be reinstated?",
+    "choices": [
+      "Only a letter of apology to the court",
+      "Proof of future financial responsibility, such as an SR-22 or $30,000 in cash or security",
+      "A new birth certificate",
+      "Proof of completing a road test only"
+    ],
+    "answer": 1,
+    "explanation": "Before reinstatement you must file proof of future financial responsibility: an SR-22 (high-risk insurance) or $30,000 in cash or security, kept for three years.",
+    "difficulty": 3,
+    "ref": "Class D & E Driver's Guide, p. 131",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 30-year-old Louisiana driver takes the breath test and registers 0.10% BAC. What administrative suspension applies?",
+    "choices": [
+      "90 days",
+      "180 days",
+      "365 days",
+      "Two years"
+    ],
+    "answer": 1,
+    "explanation": "For drivers 21 and older, a test result of 0.08% to 0.149% leads to a 180-day suspension. At 0.15% or higher it is two years.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 131",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A driver 21 or older submits to the test and has a BAC of 0.16%. How long is the suspension for this result?",
+    "choices": [
+      "180 days",
+      "365 days",
+      "Two years (730 days)",
+      "90 days"
+    ],
+    "answer": 2,
+    "explanation": "A BAC of 0.15% or greater brings a two-year (730-day) suspension, compared with 180 days for 0.08% to 0.149%.",
+    "difficulty": 3,
+    "ref": "Class D & E Driver's Guide, p. 131",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.009",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "An 18-year-old submits to a chemical test and registers 0.03% BAC. What happens to their driving privileges?",
+    "choices": [
+      "Nothing, because 0.03% is under the adult limit",
+      "Suspended for 180 days",
+      "Suspended for 30 days",
+      "Suspended for two years"
+    ],
+    "answer": 1,
+    "explanation": "Drivers under 21 who test at 0.02% or more have their driving privileges suspended for 180 days.",
+    "difficulty": 3,
+    "ref": "Class D & E Driver's Guide, p. 131",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.010",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "According to the Louisiana guide, what is the maximum license loss for a first DWI conviction?",
+    "choices": [
+      "90 days",
+      "6 months",
+      "1 year (365 days)",
+      "3 years"
+    ],
+    "answer": 2,
+    "explanation": "The maximum penalties for a first DWI conviction include loss of your license for 1 year (365 days), up to six months in jail and a $1,025 fine plus court costs.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 129",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.011",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the maximum fine for a first DWI conviction in Louisiana, not counting court costs?",
+    "choices": [
+      "$500",
+      "$1,025",
+      "$2,100",
+      "$5,250"
+    ],
+    "answer": 1,
+    "explanation": "A first DWI conviction carries a maximum $1,025 fine plus court costs. The guide estimates the total cost of a first conviction at about $4,500.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 129",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.012",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Louisiana's DWI penalties, which conviction is the first one that results in a felony record?",
+    "choices": [
+      "The first conviction",
+      "The second conviction",
+      "The third conviction",
+      "Only a fifth conviction"
+    ],
+    "answer": 2,
+    "explanation": "A third DWI conviction brings a felony criminal record, 1-5 years in prison and loss of license for three years. The first- and second-conviction penalty lists show a criminal record, but not a felony record.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 129",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.013",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Your passenger is holding an open can of beer while you drive in Louisiana. Which statement is correct?",
+    "choices": [
+      "It is legal as long as the driver is not drinking",
+      "It is legal if the can is half empty",
+      "The open container puts the driver at risk of fines and penalties",
+      "Only the passenger can be cited, never the driver"
+    ],
+    "answer": 2,
+    "explanation": "Louisiana's open-container law bans possessing an open alcoholic beverage container in a vehicle. Even if you are not drinking, the open container puts you, the driver, at risk of fines and penalties.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 129",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.014",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age to get a Class E learner's permit in Louisiana?",
+    "choices": [
+      "14",
+      "15",
+      "16",
+      "15 and a half"
+    ],
+    "answer": 1,
+    "explanation": "You must be at least 15 for a learner's permit (Stage 1). At 14 you can only get a Temporary Instructional Permit for driver education.",
+    "difficulty": 1,
+    "ref": "Class D & E Driver's Guide, p. 12",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.015",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Before taking the knowledge test or any behind-the-wheel instruction, what must a new Louisiana driver obtain from OMV?",
+    "choices": [
+      "An intermediate license",
+      "A Temporary Instructional Permit (TIP)",
+      "A learner's permit",
+      "A vehicle registration in their name"
+    ],
+    "answer": 1,
+    "explanation": "A Temporary Instructional Permit (TIP) must be obtained before the knowledge or skills test or any behind-the-wheel instruction. The TIP is later converted to a learner's permit at no extra cost.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 8; Louisiana OMV, Graduated Driver's License Laws sheet, p. 1",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.016",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the youngest age at which Louisiana OMV may issue a Temporary Instructional Permit (TIP)?",
+    "choices": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "answer": 1,
+    "explanation": "OMV may issue a TIP to anyone at least 14. It lets a driver education student drive only with a driver education instructor or during a skills test.",
+    "difficulty": 2,
+    "ref": "Louisiana OMV, Permits page (expresslane.la.gov)",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.017",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What driver education must a teen complete before getting a Louisiana learner's permit?",
+    "choices": [
+      "30 hours of classroom instruction and 8 hours of behind-the-wheel instruction",
+      "6 hours of classroom instruction only",
+      "50 hours of parent-supervised driving only",
+      "20 hours of classroom and 4 hours behind the wheel"
+    ],
+    "answer": 0,
+    "explanation": "Stage 1 requires 30 hours of classroom instruction and 8 hours of behind-the-wheel instruction (a 38-hour course), plus passing vision and knowledge exams.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 12",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.018",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 15-year-old gets a learner's permit. What is the earliest they can move up to an intermediate license?",
+    "choices": [
+      "After 90 days",
+      "After 180 days, and not before turning 16",
+      "After 1 year, regardless of age",
+      "Immediately after passing a road test"
+    ],
+    "answer": 1,
+    "explanation": "The learner's permit must be held at least 180 days, and the driver cannot advance to the intermediate stage until their 16th birthday.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 12",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.019",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many hours of supervised driving must a Louisiana teen complete before getting an intermediate license?",
+    "choices": [
+      "30 hours, 5 at night",
+      "40 hours, 10 at night",
+      "50 hours, 15 at night",
+      "60 hours, 20 at night"
+    ],
+    "answer": 2,
+    "explanation": "A parent or guardian must sign a statement that the teen has at least 50 hours of behind-the-wheel experience, with at least 15 of those hours at night.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 12",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.020",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 15-year-old with a Louisiana learner's permit wants to practice driving. Who may ride along as the supervising driver?",
+    "choices": [
+      "Their licensed 18-year-old sister",
+      "Their licensed 17-year-old brother",
+      "A licensed 20-year-old family friend",
+      "Any passenger who has a learner's permit"
+    ],
+    "answer": 0,
+    "explanation": "A permit holder may drive only with a licensed adult at least 21 or a licensed sibling at least 18. A 20-year-old friend does not qualify because they are not a sibling and are under 21.",
+    "difficulty": 3,
+    "ref": "Class D & E Driver's Guide, p. 12",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.021",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age for a Louisiana intermediate license?",
+    "choices": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "answer": 1,
+    "explanation": "The intermediate license (Stage 2) requires age 16, completion of Stage 1 and passing the road skills test. It is kept until the 17th birthday.",
+    "difficulty": 1,
+    "ref": "Class D & E Driver's Guide, p. 12",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.022",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During which hours may a Louisiana intermediate license holder NOT drive unless accompanied by a licensed adult 21+ or a licensed sibling 18+?",
+    "choices": [
+      "10:00 p.m. to 6:00 a.m.",
+      "11:00 p.m. to 5:00 a.m.",
+      "Midnight to 6:00 a.m.",
+      "9:00 p.m. to 5:00 a.m."
+    ],
+    "answer": 1,
+    "explanation": "Intermediate licensees may not drive between 11:00 p.m. and 5:00 a.m. unless accompanied by a licensed adult at least 21 or a licensed sibling at least 18.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 12",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.023",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "At 8 p.m., a 16-year-old with an intermediate license wants to drive two friends (both 16, not family) to a game, with no adult in the car. Is this allowed?",
+    "choices": [
+      "Yes, passenger limits apply only after 11 p.m.",
+      "Yes, as long as everyone wears a seat belt",
+      "No, from 6 p.m. to 5 a.m. only one non-family passenger under 21 is allowed without a licensed adult 21+",
+      "No, intermediate drivers may never carry passengers"
+    ],
+    "answer": 2,
+    "explanation": "Between 6 p.m. and 5 a.m., an intermediate licensee may not carry more than one passenger under 21 who is not an immediate family member unless accompanied by a licensed adult 21 or older.",
+    "difficulty": 3,
+    "ref": "Louisiana OMV, Graduated Driver's License Laws sheet, p. 2",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.024",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "At what age can a Louisiana driver hold a full (unrestricted) Class E license?",
+    "choices": [
+      "16",
+      "17",
+      "18",
+      "21"
+    ],
+    "answer": 1,
+    "explanation": "Stage 3, the full license, is available after completing Stages 1 and 2, or to a first-time applicant who is at least 17. The intermediate license is kept until the 17th birthday.",
+    "difficulty": 1,
+    "ref": "Class D & E Driver's Guide, p. 12",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.025",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "An 18-year-old who has never had a license wants a Louisiana Class E license. Which training option meets the requirement?",
+    "choices": [
+      "No training is required at 18",
+      "A 6-hour pre-licensing course plus an 8-hour behind-the-wheel course",
+      "Only 50 hours of supervised practice",
+      "A 2-hour online video course"
+    ],
+    "answer": 1,
+    "explanation": "Applicants 18 or older who did not enter the graduated program may get a full Class E license or a learner's permit after a 38-hour driver education course, or a 6-hour pre-licensing course plus 8 hours behind the wheel.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 12",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.026",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "OMV's learner's permit knowledge test has 40 questions. What minimum score is needed to pass?",
+    "choices": [
+      "70%",
+      "75%",
+      "80%",
+      "90%"
+    ],
+    "answer": 2,
+    "explanation": "You must answer at least 80 percent of the knowledge test questions correctly; on the 40-question test that is 32 correct answers.",
+    "difficulty": 1,
+    "ref": "Class D & E Driver's Guide, p. 13; Louisiana OMV, Permits page (expresslane.la.gov)",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.027",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What vision standard does Louisiana's driver's license vision screening check for?",
+    "choices": [
+      "20/20",
+      "20/40",
+      "20/60",
+      "20/100"
+    ],
+    "answer": 1,
+    "explanation": "The vision screening checks whether your vision meets the minimum standard of 20/40. If you need glasses or contacts to pass, your license will show restriction code 01.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 13",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.028",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You just moved to Louisiana and established residency. How long do you have to get a Louisiana driver's license?",
+    "choices": [
+      "10 days",
+      "30 days",
+      "60 days",
+      "90 days"
+    ],
+    "answer": 1,
+    "explanation": "New residents have 30 days from the time residency is established to obtain a Louisiana license.",
+    "difficulty": 1,
+    "ref": "Class D & E Driver's Guide, p. 6",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.029",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A non-resident with a valid license from another state is visiting Louisiana. For how long may they drive here on that license?",
+    "choices": [
+      "30 days",
+      "60 days",
+      "90 days",
+      "One year"
+    ],
+    "answer": 2,
+    "explanation": "Non-residents who have a valid license issued by another state may drive in Louisiana for 90 days. New residents, however, must get a Louisiana license within 30 days.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 6",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.030",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "After you move, how soon must you correct the address on your Louisiana driver's license?",
+    "choices": [
+      "Within 10 days",
+      "Within 30 days",
+      "Within 60 days",
+      "At your next renewal"
+    ],
+    "answer": 0,
+    "explanation": "Louisiana law requires you to correct the address on your license within 10 days after a move. The same 10-day rule applies to your vehicle registration.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 15",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.031",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long is a Louisiana Class E driver's license valid before it expires?",
+    "choices": [
+      "4 years",
+      "5 years",
+      "6 years",
+      "8 years"
+    ],
+    "answer": 2,
+    "explanation": "A Louisiana driver's license expires six years from your nearest birthday. It can be renewed any time within 180 days before it expires.",
+    "difficulty": 1,
+    "ref": "Class D & E Driver's Guide, p. 15",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.032",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long does Louisiana's Office of Motor Vehicles keep DWI convictions on your public driving record?",
+    "choices": [
+      "3 years",
+      "5 years",
+      "10 years",
+      "Permanently"
+    ],
+    "answer": 2,
+    "explanation": "OMV keeps traffic convictions and collisions for five years, but DWI convictions are kept for 10 years.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 16",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.033",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What are Louisiana's minimum liability insurance limits for a private passenger vehicle?",
+    "choices": [
+      "$10,000 / $20,000 / $10,000",
+      "$15,000 / $30,000 / $25,000",
+      "$25,000 / $50,000 / $25,000",
+      "$30,000 / $60,000 / $25,000"
+    ],
+    "answer": 1,
+    "explanation": "Louisiana requires at least $15,000 for injury to one person, $30,000 for injuries to two or more people, and $25,000 for property damage in one accident (15/30/25).",
+    "difficulty": 2,
+    "ref": "La. R.S. 32:900(B)(2)",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.034",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Louisiana officer stops you and you cannot show proof of insurance. What happens to your vehicle's license plate?",
+    "choices": [
+      "Nothing, you just get a warning",
+      "It is seized, and you have 3 days (not counting weekends and holidays) to show proof at an OMV office",
+      "It is seized and can never be returned",
+      "You must mail proof within 30 days"
+    ],
+    "answer": 1,
+    "explanation": "If you cannot provide proof of insurance, the plate is seized and the vehicle may be impounded. You have three calendar days, excluding weekends and legal holidays, to bring proof to OMV or the plate is destroyed.",
+    "difficulty": 3,
+    "ref": "Class D & E Driver's Guide, p. 141",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.035",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You buy a used car from a private seller in Louisiana. How long do you have to apply for a title in your name?",
+    "choices": [
+      "5 days from the date of sale",
+      "15 days",
+      "30 days",
+      "60 days"
+    ],
+    "answer": 0,
+    "explanation": "You have five days from the date of sale to apply for a title, bringing the notarized title, proof of liability insurance and the required fees.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 140",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.036",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many reckless driving convictions within 12 months will cause loss of driving privileges in Louisiana?",
+    "choices": [
+      "One",
+      "Two",
+      "Three",
+      "Five"
+    ],
+    "answer": 2,
+    "explanation": "Three convictions of reckless driving committed within a 12-month period are grounds for losing your driving privileges.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 132",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.037",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old Louisiana driver drops out of high school before graduating. What can happen to their license?",
+    "choices": [
+      "Nothing, school has no effect on driving",
+      "They can lose their driving privilege",
+      "They must retake the vision test",
+      "They get a curfew extension"
+    ],
+    "answer": 1,
+    "explanation": "Withdrawing from school before graduation when you are 15 but under 18 (or being habitually absent or tardy) is a reason you can lose your driving privilege.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 17",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.038",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Louisiana law, may an adult driver hold a cell phone to talk while driving on a city street?",
+    "choices": [
+      "Yes, adults may use handheld phones anywhere except school zones",
+      "No, a wireless device may be used while driving only if it is hands-free",
+      "Yes, if the call lasts under one minute",
+      "Yes, but only on interstates"
+    ],
+    "answer": 1,
+    "explanation": "Louisiana law prohibits anyone from using any type of wireless communication device while driving unless it is hands-free (see R.S. 32:59 for exceptions).",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 83",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.039",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which drivers does Louisiana's ban on writing, sending or reading text messages while driving apply to?",
+    "choices": [
+      "Only drivers under 18",
+      "Only drivers with a learner's permit",
+      "Drivers of every age",
+      "Only commercial drivers"
+    ],
+    "answer": 2,
+    "explanation": "Louisiana prohibits anyone from writing, sending or reading a text-based communication while driving, regardless of age.",
+    "difficulty": 1,
+    "ref": "Class D & E Driver's Guide, p. 83",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.040",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Is it legal in Louisiana to check or post to social media while driving if you are over 21?",
+    "choices": [
+      "Yes, if the phone is mounted on the dashboard",
+      "No, accessing, reading or posting to social networking sites is banned for drivers of any age",
+      "Yes, at speeds under 25 mph",
+      "Yes, if you are on a rural road"
+    ],
+    "answer": 1,
+    "explanation": "Louisiana law prohibits anyone, regardless of age, from accessing, reading or posting to a social networking site while driving.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 83",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.041",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Louisiana law bars drivers in which age group from using a wireless device to make calls or text at all while driving (except emergencies)?",
+    "choices": [
+      "15 and younger",
+      "17 and younger",
+      "18 and younger",
+      "20 and younger"
+    ],
+    "answer": 1,
+    "explanation": "No person 17 years of age or younger may drive while using a wireless telecommunications device to make a call or write, send or read a text-based message.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 116",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.042",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 15-year-old with a learner's permit wants to answer a call using the car's hands-free system. What do OMV's graduated license rules say?",
+    "choices": [
+      "It is allowed because the call is hands-free",
+      "It is allowed if the supervising adult agrees",
+      "It is not allowed; learner's permit holders may not use a cell phone at all, including hands-free",
+      "It is allowed only on interstates"
+    ],
+    "answer": 2,
+    "explanation": "OMV's learner's permit restrictions say no cell phone usage, including hands-free.",
+    "difficulty": 3,
+    "ref": "Louisiana OMV, Graduated Driver's License Laws sheet, p. 1",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.043",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Louisiana's mandatory safety belt law, who must be buckled up in a car, van or pickup truck?",
+    "choices": [
+      "Only the driver",
+      "Only front-seat occupants",
+      "All occupants in both the front and back seats",
+      "Only passengers under 18"
+    ],
+    "answer": 2,
+    "explanation": "Louisiana's safety belt law requires everyone in both the front and back seats of cars, vans and pickup trucks to be properly buckled.",
+    "difficulty": 1,
+    "ref": "Class D & E Driver's Guide, p. 44",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.044",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Louisiana's child passenger restraint law, a child must ride rear-facing in an approved car seat until at least what age?",
+    "choices": [
+      "6 months",
+      "1 year",
+      "2 years",
+      "4 years"
+    ],
+    "answer": 2,
+    "explanation": "Louisiana's law (R.S. 32:295) requires children from birth to at least 2 years old to ride in a rear-facing, federally approved car seat.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 45",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.045",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Louisiana law, which age group should ride in a booster seat with restraints?",
+    "choices": [
+      "2 to 4 years",
+      "4 to 9 years",
+      "9 to 13 years",
+      "Under 2 years"
+    ],
+    "answer": 1,
+    "explanation": "Children ages 4 to 9 ride in a booster seat. Ages 2-4 use a forward-facing seat, and at 9 a child may use a correctly fitted lap/shoulder belt.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 45",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.046",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Louisiana's child restraint law, children younger than what age must ride in the rear seat when one is available?",
+    "choices": [
+      "8",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": 3,
+    "explanation": "Children younger than 13 years must ride in the rear seat of a vehicle when available and be properly restrained.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 45",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.047",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A child's age puts them in one car seat category but their size fits another. What does Louisiana's child restraint law require?",
+    "choices": [
+      "Use the more protective category",
+      "Use whichever seat is cheaper",
+      "Use the seat for the older age group",
+      "Let the child choose"
+    ],
+    "answer": 0,
+    "explanation": "A child who falls into more than one category for age or weight must use the more protective category.",
+    "difficulty": 3,
+    "ref": "Class D & E Driver's Guide, p. 46",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.048",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which of these is illegal for a Louisiana driver?",
+    "choices": [
+      "Wearing earbuds or headphones in both ears",
+      "Wearing a hearing aid in each ear",
+      "Wearing an earbud in one ear",
+      "Listening to the radio through the car speakers"
+    ],
+    "answer": 0,
+    "explanation": "Wearing headphones or other listening devices (other than hearing aids) in both ears is prohibited. One ear is allowed.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 102",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.049",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Who may ride in the open bed of a pickup truck traveling on a Louisiana interstate highway?",
+    "choices": [
+      "Anyone 12 or older",
+      "Anyone 18 or older",
+      "No one, of any age",
+      "Anyone, if the tailgate is closed"
+    ],
+    "answer": 2,
+    "explanation": "No one of any age may ride in the open bed of a truck on an interstate. On other roads, children under 12 may never ride in an open truck bed.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 101",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.050",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "On a Louisiana parish road (not an interstate), who is NOT permitted to ride as a passenger in the open bed of a pickup truck?",
+    "choices": [
+      "Anyone under 12",
+      "Anyone under 16",
+      "Anyone over 65",
+      "Anyone without a driver's license"
+    ],
+    "answer": 0,
+    "explanation": "Louisiana does not allow anyone under 12 to ride in the open bed of a truck, and on interstates no one of any age may ride there.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 101",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.051",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "What is the most people Louisiana law allows in the front seat of a moving vehicle?",
+    "choices": [
+      "Two",
+      "Three",
+      "Four",
+      "As many as there are seat belts"
+    ],
+    "answer": 1,
+    "explanation": "It is against the law for more than three persons to occupy the front seat of a moving vehicle.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 101",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.052",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "In Louisiana, children under what age must wear an approved helmet when riding a bicycle, as an operator or passenger?",
+    "choices": [
+      "Under 10",
+      "Under 12",
+      "Under 16",
+      "Under 18"
+    ],
+    "answer": 1,
+    "explanation": "Louisiana law requires children under the age of twelve to wear an approved, properly fastened helmet when riding a bicycle as an operator or passenger.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 86",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.053",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless a different limit is posted, what is the maximum speed on a Louisiana interstate highway?",
+    "choices": [
+      "65 mph",
+      "70 mph",
+      "75 mph",
+      "80 mph"
+    ],
+    "answer": 1,
+    "explanation": "The maximum speed allowed on Louisiana interstates is 70 mph unless otherwise posted. Some posted portions of I-49 allow 75 mph.",
+    "difficulty": 1,
+    "ref": "Class D & E Driver's Guide, p. 105",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.054",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "On a Louisiana highway that is not an interstate or a multi-lane divided highway, what is the maximum speed by state law if no lower limit is posted?",
+    "choices": [
+      "45 mph",
+      "55 mph",
+      "60 mph",
+      "65 mph"
+    ],
+    "answer": 1,
+    "explanation": "R.S. 32:61 sets a 55 mph maximum on highways unless a lower limit is posted; the exceptions are 70 mph on interstates and 65 mph on multi-lane divided highways.",
+    "difficulty": 3,
+    "ref": "La. R.S. 32:61",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.055",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "According to the Louisiana guide, what is the speed limit when a vehicle is pulling or towing another motor vehicle?",
+    "choices": [
+      "35 mph",
+      "45 mph",
+      "55 mph",
+      "The same as the posted limit"
+    ],
+    "answer": 1,
+    "explanation": "The guide's Class D chapter says the 70 mph maximum does not apply when pulling or towing another motor vehicle; the limit is then 45 mph.",
+    "difficulty": 3,
+    "ref": "Class D & E Driver's Guide, p. 133",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.056",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What following distance rule does the Louisiana Driver's Guide recommend in normal conditions?",
+    "choices": [
+      "1 second",
+      "2 seconds",
+      "3 seconds",
+      "6 seconds"
+    ],
+    "answer": 2,
+    "explanation": "The guide uses the 3-second rule: if you pass the checkpoint in less than three seconds after the car ahead, you are following too closely.",
+    "difficulty": 1,
+    "ref": "Class D & E Driver's Guide, p. 70",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.057",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "It starts raining and the pavement is wet. What following distance does the Louisiana guide say to use?",
+    "choices": [
+      "Keep 2 seconds",
+      "Keep 3 seconds",
+      "Increase to 4 seconds",
+      "Following distance does not change in rain"
+    ],
+    "answer": 2,
+    "explanation": "Increase the 3-second rule to four seconds during bad weather or on wet pavement, because you need more distance to stop.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 71",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.058",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "In good conditions, how much following distance does the Louisiana guide recommend behind a large truck?",
+    "choices": [
+      "At least 2 seconds",
+      "At least 3 seconds",
+      "At least 4 to 5 seconds",
+      "At least 10 seconds"
+    ],
+    "answer": 2,
+    "explanation": "Leave a gap of at least 4-5 seconds behind a truck in good conditions, and more when conditions are poor, so spray and the truck's size don't block your view.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 89",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.059",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are driving at night on a road you have never driven before. At minimum, how many extra seconds of following distance does the Louisiana guide say to add?",
+    "choices": [
+      "None",
+      "1 second",
+      "2 seconds",
+      "5 seconds"
+    ],
+    "answer": 2,
+    "explanation": "Add at least one second for night driving and at least two additional seconds when driving on unfamiliar roads at night.",
+    "difficulty": 3,
+    "ref": "Class D & E Driver's Guide, p. 80",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.060",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "On which Louisiana interstate do some posted portions have a 75 mph speed limit?",
+    "choices": [
+      "I-10",
+      "I-12",
+      "I-20",
+      "I-49"
+    ],
+    "answer": 3,
+    "explanation": "The guide notes that on portions of I-49 the speed limit is 75 mph; elsewhere the interstate maximum is 70 mph unless a different limit is posted.",
+    "difficulty": 3,
+    "ref": "Class D & E Driver's Guide, p. 134",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.061",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "A Louisiana interstate has a posted minimum speed. The weather is clear and traffic is moving normally. Which statement is correct?",
+    "choices": [
+      "You may drive below the minimum if you stay in the right lane",
+      "You must not drive slower than the posted minimum unless weather or road conditions require it",
+      "Minimum speeds are only advisory",
+      "Minimum speeds apply only to trucks"
+    ],
+    "answer": 1,
+    "explanation": "You should not drive slower than the posted minimum speed on the interstate unless weather or road conditions demand a slower speed. Driving too slowly can be as dangerous as speeding.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 105",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.062",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "When merging onto a Louisiana interstate, how large a gap in traffic does the guide say you need?",
+    "choices": [
+      "1 second",
+      "2 seconds",
+      "4 seconds",
+      "8 seconds"
+    ],
+    "answer": 2,
+    "explanation": "You need a gap of four seconds to merge, which gives both you and the car you merge in front of a two-second following distance.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 106",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.063",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "In Louisiana, how far before a turn must you begin signaling and keep signaling continuously?",
+    "choices": [
+      "At least 50 feet",
+      "At least 100 feet",
+      "At least 200 feet",
+      "At least 300 feet"
+    ],
+    "answer": 1,
+    "explanation": "A right or left turn signal must be given continuously for not less than 100 feet before turning. Signal earlier at higher speeds or in heavy traffic.",
+    "difficulty": 1,
+    "ref": "Class D & E Driver's Guide, p. 97",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.064",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "Which use of turn signals is illegal in Louisiana?",
+    "choices": [
+      "Using your left arm for hand signals",
+      "Flashing your turn signal to tell the driver behind you it is safe to pass",
+      "Using the left signal when pulling out of a parallel parking space",
+      "Signaling before changing lanes"
+    ],
+    "answer": 1,
+    "explanation": "It is illegal to flash your turn signals on just one side of a parked or disabled vehicle or as a signal to another vehicle to pass you.",
+    "difficulty": 3,
+    "ref": "Class D & E Driver's Guide, p. 97",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.065",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What is the farthest you may drive in a shared center (two-way) left-turn lane in Louisiana?",
+    "choices": [
+      "100 feet",
+      "200 feet",
+      "300 feet",
+      "500 feet"
+    ],
+    "answer": 1,
+    "explanation": "Louisiana law prohibits traveling in a shared center left-turn lane for more than 200 feet, and the lane may be used only for left turns.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 96",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.066",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You reach an intersection where the traffic signal is completely dark because of a power outage. What does Louisiana law require?",
+    "choices": [
+      "Proceed at normal speed if the main road",
+      "Treat it as an all-way (four-way) stop",
+      "Yield only to traffic on your left",
+      "Honk and go through"
+    ],
+    "answer": 1,
+    "explanation": "When a traffic-control signal is not working, the intersection reverts to an all-way or four-way stop.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 91",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.067",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What is the penalty rule for traffic fines in Louisiana highway construction zones?",
+    "choices": [
+      "They are the same as anywhere else",
+      "They are doubled",
+      "They are tripled",
+      "They are waived if no workers are present"
+    ],
+    "answer": 1,
+    "explanation": "In Louisiana, traffic fines are doubled in construction zones.",
+    "difficulty": 1,
+    "ref": "Class D & E Driver's Guide, p. 36",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.068",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "On a multi-lane highway, what does Louisiana law say about driving in the left lane?",
+    "choices": [
+      "You may drive in the left lane at any speed",
+      "A vehicle in the left lane may not go slower than vehicles traveling to its right",
+      "Only trucks may use the left lane",
+      "The left lane is for vehicles going under the speed limit"
+    ],
+    "answer": 1,
+    "explanation": "All vehicles should use the right-hand lane except to turn left, pass or when right lanes are congested. A vehicle in the left lane may not drive slower than traffic to its right.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 40",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.069",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "In Louisiana, when may you turn right on a steady red light?",
+    "choices": [
+      "Never",
+      "After coming to a stop and yielding, unless a sign prohibits it",
+      "Without stopping, if no cars are coming",
+      "Only when a green arrow is also shown"
+    ],
+    "answer": 1,
+    "explanation": "If no sign prohibits it, you may turn right on red after stopping and yielding to traffic, including pedestrians.",
+    "difficulty": 1,
+    "ref": "Class D & E Driver's Guide, p. 39",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.070",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "When may a left turn on a red light be permitted in Louisiana?",
+    "choices": [
+      "From any street, after stopping",
+      "When moving from a one-way street onto another one-way street",
+      "From a two-way street onto a one-way street",
+      "Never"
+    ],
+    "answer": 1,
+    "explanation": "Some left turns may be permitted on red when moving from a one-way street onto another one-way street, after yielding to all traffic and pedestrians.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 39",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.071",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You should not turn around on a hill or curve if other drivers cannot see your vehicle from what distance?",
+    "choices": [
+      "100 feet",
+      "200 feet",
+      "500 feet",
+      "1,000 feet"
+    ],
+    "answer": 2,
+    "explanation": "Do not turn around on a hill or in a curve where approaching drivers in either direction cannot see your vehicle within 500 feet.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 95",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.072",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "When passing on a two-lane road, you must complete the pass before coming within what distance of a vehicle approaching from the opposite direction?",
+    "choices": [
+      "50 feet",
+      "100 feet",
+      "200 feet",
+      "500 feet"
+    ],
+    "answer": 1,
+    "explanation": "You must complete a passing maneuver before coming within 100 feet of any vehicle approaching from the opposite direction.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 76",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.073",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "According to the Louisiana guide, it is illegal to pass another vehicle when you are within how many feet of an intersection, railroad crossing, bridge or tunnel?",
+    "choices": [
+      "50 feet",
+      "100 feet",
+      "300 feet",
+      "500 feet"
+    ],
+    "answer": 1,
+    "explanation": "It is unsafe and against the law to pass within one hundred feet of an intersection, railroad crossing, bridge or tunnel.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 76",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.074",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "What is the minimum distance Louisiana law requires between your vehicle and a bicyclist you are passing?",
+    "choices": [
+      "2 feet",
+      "3 feet",
+      "4 feet",
+      "6 feet"
+    ],
+    "answer": 1,
+    "explanation": "R.S. 32:76.1 requires a three-foot distance between a passing automobile and a slower bicyclist.",
+    "difficulty": 1,
+    "ref": "Class D & E Driver's Guide, p. 85",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.075",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A school bus ahead has stopped with its red lights flashing to unload children. How far from the bus must you stop in Louisiana?",
+    "choices": [
+      "At least 10 feet",
+      "At least 20 feet",
+      "At least 30 feet",
+      "At least 50 feet"
+    ],
+    "answer": 2,
+    "explanation": "You must stop at least thirty feet from a stopped school bus that is loading or unloading children, whether you are meeting it or following it.",
+    "difficulty": 1,
+    "ref": "Class D & E Driver's Guide, p. 93",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.076",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are driving on a five-lane road (two lanes each way plus a two-way left-turn lane) when a school bus stops on the other side. Must you stop?",
+    "choices": [
+      "Yes, all traffic must always stop",
+      "No, drivers on the opposite side of a 4- or 5-lane road separated by a two-way left-turn lane are not required to stop",
+      "Only if the bus has a stop arm out on your side",
+      "Only on school days"
+    ],
+    "answer": 1,
+    "explanation": "Drivers on the opposite side are not required to stop when traveling on four- or five-lane roads separated by a dedicated two-way left-turn lane. Traffic behind the bus must still stop.",
+    "difficulty": 3,
+    "ref": "Class D & E Driver's Guide, p. 93",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.077",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a road with one lane in each direction and a center two-way left-turn lane, a school bus stops in the opposite lane with red lights flashing. What must you do?",
+    "choices": [
+      "Stop, because this road is not considered a divided highway",
+      "Continue, because the center lane divides the road",
+      "Slow to 15 mph and pass",
+      "Stop only if children are visible"
+    ],
+    "answer": 0,
+    "explanation": "A roadway with one lane in each direction and a two-way left-turn lane is not considered a divided highway, so drivers in both directions must stop for the school bus.",
+    "difficulty": 3,
+    "ref": "Class D & E Driver's Guide, p. 94",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.078",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A school bus stops for children on the far side of a highway separated by a grassy median. You are traveling the opposite direction. What must you do?",
+    "choices": [
+      "Stop at least 30 feet away",
+      "You are not required to stop",
+      "Stop until the bus turns off its lights, then wait 30 seconds",
+      "Turn on your hazard lights and stop"
+    ],
+    "answer": 1,
+    "explanation": "When a school bus is stopped in opposite lanes on a roadway separated by a ditch, grassy median, barrier or similar obstacle, you are not required to stop. Use caution anyway.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 93",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.079",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "School bus drivers turn on the flashing yellow lights how far before the bus stop?",
+    "choices": [
+      "At least 50 feet but no more than 200 feet",
+      "At least 100 feet but no more than 500 feet",
+      "Exactly 300 feet",
+      "Only after the bus has stopped"
+    ],
+    "answer": 1,
+    "explanation": "Bus drivers activate the flashing yellow lights at least 100 feet but no more than 500 feet before the stop. Red lights and stop signs come on when the bus stops.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 93",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.080",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "An ambulance with its siren and lights on passes you. How close may you legally follow it?",
+    "choices": [
+      "No closer than 100 feet",
+      "No closer than 300 feet",
+      "No closer than 500 feet",
+      "Any distance, if you match its speed"
+    ],
+    "answer": 2,
+    "explanation": "Following an emergency vehicle that is responding to a call closer than 500 feet is unlawful, and you must not follow it into or park within the block where it stops.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 102",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.081",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "An emergency vehicle using its siren and flashing lights approaches you from behind. What does Louisiana law require?",
+    "choices": [
+      "Speed up to stay ahead of it",
+      "Pull parallel to the right edge or curb, clear of intersections, and stop until it passes",
+      "Stop immediately in your lane",
+      "Move to the left lane"
+    ],
+    "answer": 1,
+    "explanation": "Yield the right-of-way and immediately drive parallel to the right-hand edge or curb, clear of any intersection, and remain stopped until the emergency vehicle has passed.",
+    "difficulty": 1,
+    "ref": "Class D & E Driver's Guide, pp. 98, 126",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.082",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a four-lane interstate, you see a vehicle with flashing warning lights parked on the right shoulder. What does Louisiana's move-over law require?",
+    "choices": [
+      "Keep your speed and lane",
+      "Change to a lane not next to the parked vehicle if safe; if not, slow to a reasonably safe speed",
+      "Stop behind the parked vehicle",
+      "Honk to warn the workers"
+    ],
+    "answer": 1,
+    "explanation": "On a highway with two or more lanes in your direction, move into a lane not adjacent to the parked vehicle if you safely can. If a lane change is not possible, slow to a reasonably safe speed.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 126",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.083",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A funeral procession is passing through an intersection in Louisiana. What must other drivers do?",
+    "choices": [
+      "Yield the right-of-way to the vehicles in the procession",
+      "Cut through gaps between procession vehicles",
+      "Honk to show respect",
+      "Only yield if a police escort is present"
+    ],
+    "answer": 0,
+    "explanation": "All motorists must yield the right-of-way to vehicles in a funeral procession. Procession vehicles drive with headlights on and emergency flashers flashing.",
+    "difficulty": 1,
+    "ref": "Class D & E Driver's Guide, p. 102",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.084",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A pedestrian is crossing mid-block, outside any crosswalk, in front of you. What does the Louisiana guide say you must do?",
+    "choices": [
+      "Keep going, because jaywalking is illegal",
+      "Honk and proceed",
+      "Stop for the pedestrian",
+      "Stop only if the pedestrian is a child"
+    ],
+    "answer": 2,
+    "explanation": "You must yield to pedestrians at all times. Even when someone is jaywalking, which is illegal, you must stop for them.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 81",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.085",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "How much following distance does the Louisiana guide say to leave behind a motorcycle?",
+    "choices": [
+      "At least 2 seconds",
+      "At least 3 seconds",
+      "At least 4 seconds",
+      "At least 8 seconds"
+    ],
+    "answer": 2,
+    "explanation": "When driving behind a motorcycle, allow at least a four-second following distance, which is even more important on wet roads.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 87",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.086",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When does Louisiana law require your headlights (not just parking lights) to be on?",
+    "choices": [
+      "From 30 minutes after sunset to 30 minutes before sunrise",
+      "Between sunset and sunrise",
+      "Only after 9 p.m.",
+      "Only when street lights are off"
+    ],
+    "answer": 1,
+    "explanation": "Louisiana law requires headlights, not just parking lights, between sunset and sunrise.",
+    "difficulty": 1,
+    "ref": "Class D & E Driver's Guide, p. 80",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.087",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "It is daytime and a light rain means you need your windshield wipers. What does Louisiana law require?",
+    "choices": [
+      "Nothing extra during daytime",
+      "Turn on your headlights (low beams)",
+      "Turn on your high beams",
+      "Turn on your emergency flashers"
+    ],
+    "answer": 1,
+    "explanation": "Louisiana law requires your headlights on (low beam) whenever moisture or precipitation makes windshield wipers necessary.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 102",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.088",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Louisiana requires headlights when weather makes it hard for others to see your vehicle clearly from what distance?",
+    "choices": [
+      "200 feet",
+      "500 feet",
+      "1,000 feet",
+      "1 mile"
+    ],
+    "answer": 1,
+    "explanation": "Headlights must be on when weather conditions make it difficult for other people to see your vehicle clearly from a distance of 500 feet.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 80",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.089",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Within what distance of an oncoming vehicle must you switch from high beams to low beams in Louisiana?",
+    "choices": [
+      "200 feet",
+      "300 feet",
+      "500 feet",
+      "1,000 feet"
+    ],
+    "answer": 2,
+    "explanation": "You must use low beams when approaching within 500 feet of an oncoming vehicle. When following, dim within 200 feet.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 80",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.090",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You are using high beams on a dark road and catch up to a car going the same direction. Within what distance must you dim your lights?",
+    "choices": [
+      "100 feet",
+      "200 feet",
+      "350 feet",
+      "500 feet"
+    ],
+    "answer": 1,
+    "explanation": "Louisiana requires low beams when following within 200 feet of another vehicle (500 feet for oncoming vehicles).",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 80",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.091",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How close to a fire hydrant may you park in Louisiana?",
+    "choices": [
+      "No closer than 10 feet",
+      "No closer than 15 feet",
+      "No closer than 20 feet",
+      "No closer than 30 feet"
+    ],
+    "answer": 1,
+    "explanation": "R.S. 32:143 prohibits parking within 15 feet of a fire hydrant.",
+    "difficulty": 1,
+    "ref": "Class D & E Driver's Guide, p. 75",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.092",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Louisiana, you may not park within how many feet of a crosswalk at an intersection?",
+    "choices": [
+      "10 feet",
+      "15 feet",
+      "20 feet",
+      "30 feet"
+    ],
+    "answer": 2,
+    "explanation": "Parking is prohibited within 20 feet of a crosswalk at an intersection.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 75",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.093",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How close may you park to a stop sign located at the side of the road in Louisiana?",
+    "choices": [
+      "No closer than 10 feet",
+      "No closer than 20 feet",
+      "No closer than 30 feet",
+      "No closer than 50 feet"
+    ],
+    "answer": 1,
+    "explanation": "You may not park within 20 feet of a traffic signal, flashing beacon, stop sign, yield sign or traffic-control signal at the side of a roadway.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 75",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.094",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "What is the closest you may park to a railroad crossing in Louisiana?",
+    "choices": [
+      "15 feet",
+      "20 feet",
+      "30 feet",
+      "50 feet"
+    ],
+    "answer": 3,
+    "explanation": "Louisiana prohibits parking within 50 feet of a railroad crossing.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 75",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.095",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You want to park across the street from a fire station driveway. How far away from the driveway must you park in Louisiana?",
+    "choices": [
+      "At least 20 feet",
+      "At least 50 feet",
+      "At least 75 feet",
+      "At least 100 feet"
+    ],
+    "answer": 2,
+    "explanation": "You may not park within 20 feet of a fire station driveway on the same side of the street, or within 75 feet of it on the other side of the street.",
+    "difficulty": 3,
+    "ref": "Class D & E Driver's Guide, p. 75",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.096",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "When you parallel park in Louisiana, your right wheels must be within what distance of the curb?",
+    "choices": [
+      "6 inches",
+      "12 inches",
+      "18 inches",
+      "24 inches"
+    ],
+    "answer": 2,
+    "explanation": "When parallel parked, the vehicle's right wheels must be within 18 inches of the right-hand curb.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 75",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.097",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "Railroad warning lights are flashing at a crossing. Under Louisiana law (R.S. 32:171), where must you stop?",
+    "choices": [
+      "Within 50 feet but no less than 15 feet from the nearest rail",
+      "Within 10 feet of the nearest rail",
+      "At least 100 feet from the crossing",
+      "Directly on the first track so you can see"
+    ],
+    "answer": 0,
+    "explanation": "Louisiana law requires you to stop within 50 feet but no less than 15 feet from the nearest rail when a signal is flashing, a gate is down or a train is close enough to be a hazard.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 99",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.098",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You back into a parked, unattended car and damage it. What must you do in Louisiana?",
+    "choices": [
+      "Leave, since no one saw it",
+      "Notify the police, try to find the owner, and leave a note with your name, address and phone number",
+      "Only tell your insurance company",
+      "Wait one hour for the owner, then leave"
+    ],
+    "answer": 1,
+    "explanation": "If you damage an unattended vehicle or property, you must notify the police and attempt to locate the owner, and leave your name, address and phone number where the owner will see it.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 125",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.099",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "What is the goal of Louisiana's \"Move It, Move It, Move It - Steer It Clear\" campaign?",
+    "choices": [
+      "Moving vehicles off the roadway to the nearest soft shoulder",
+      "Moving over a lane for police cars",
+      "Keeping traffic moving in work zones",
+      "Getting out of a car that is sinking in water"
+    ],
+    "answer": 0,
+    "explanation": "The campaign (R.S. 32:141(D)) reminds drivers of their responsibility to remove vehicles from the roadway to the nearest soft shoulder, which reduces congestion and secondary crashes.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 126",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.100",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "According to the Louisiana guide, which number can you dial to report a driver who appears impaired or reckless to Louisiana State Police?",
+    "choices": [
+      "*577 (*LSP)",
+      "511",
+      "*347",
+      "411"
+    ],
+    "answer": 0,
+    "explanation": "The guide says to notify police immediately about a motorist driving suspiciously or recklessly by calling *LSP (*577). Have a passenger call or pull over safely first.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 59",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.101",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "The posted limit is 55 mph, but heavy rain is making it hard to see. What does Louisiana's General Speed Law require?",
+    "choices": [
+      "You may drive 55 mph because that is the posted limit",
+      "You must not drive faster than is reasonable for the conditions, even if that is below 55 mph",
+      "You must drive at least 45 mph to avoid blocking traffic",
+      "You must turn on your hazard lights and keep driving at 55 mph"
+    ],
+    "answer": 1,
+    "explanation": "Louisiana's General Speed Law says you must not drive at a speed greater than is reasonable for the area, road, traffic, light and weather conditions. Posted limits are for ideal conditions, so you can be cited for driving too fast for conditions even under the limit.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, pp. 91-92",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.car.102",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Which of these parking spots is illegal under Louisiana law (R.S. 32:143)?",
+    "choices": [
+      "Inside an intersection",
+      "25 feet from a fire hydrant",
+      "60 feet from a railroad crossing",
+      "Parallel parked with your right wheels 12 inches from the curb"
+    ],
+    "answer": 0,
+    "explanation": "R.S. 32:143 makes it illegal to park in an intersection. The other spots meet Louisiana's limits: at least 15 feet from a hydrant, at least 50 feet from a railroad crossing, and right wheels within 18 inches of the curb.",
+    "difficulty": 2,
+    "ref": "Class D & E Driver's Guide, p. 75",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Who must wear a safety helmet on a motorcycle in Louisiana?",
+    "choices": [
+      "Every operator and passenger, regardless of age",
+      "Only riders under 21",
+      "Only riders without health insurance",
+      "Only the operator"
+    ],
+    "answer": 0,
+    "explanation": "Louisiana has a universal helmet law: no one may operate or ride on a motorcycle, motor-driven cycle or motorized bicycle without a safety helmet.",
+    "difficulty": 1,
+    "ref": "La. R.S. 32:190",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 45-year-old motorcyclist in Louisiana has a helmet strapped to the back seat while riding. Is this legal?",
+    "choices": [
+      "Yes, riders over 21 may carry the helmet instead of wearing it",
+      "No, the helmet must be worn on the head and secured with the chin strap while moving",
+      "Yes, if riding under 35 mph",
+      "Yes, on rural roads only"
+    ],
+    "answer": 1,
+    "explanation": "R.S. 32:190 requires the helmet to be worn on the head and secured properly with a chin strap while the vehicle is in motion; there is no age exemption.",
+    "difficulty": 2,
+    "ref": "La. R.S. 32:190",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "When must a Louisiana motorcycle operator wear an approved eye protective device?",
+    "choices": [
+      "Only at night",
+      "Only on interstates",
+      "Always, unless the motorcycle has a windshield high enough to give adequate eye protection",
+      "Never; eye protection is only recommended"
+    ],
+    "answer": 2,
+    "explanation": "R.S. 32:190.1 requires approved eye protection unless the motorcycle has a windshield of sufficient height to afford adequate eye protection.",
+    "difficulty": 2,
+    "ref": "La. R.S. 32:190.1",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What does Louisiana law say about eye protection used by motorcyclists at night?",
+    "choices": [
+      "It must not be tinted",
+      "It must be tinted to reduce glare",
+      "It is not required at night",
+      "Only face shields may be used at night"
+    ],
+    "answer": 0,
+    "explanation": "Eye protective devices used at night shall not be tinted (R.S. 32:190.1).",
+    "difficulty": 2,
+    "ref": "La. R.S. 32:190.1",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Is lane splitting (riding between lanes or rows of vehicles) legal for motorcyclists in Louisiana?",
+    "choices": [
+      "Yes, at any speed",
+      "Yes, but only in stopped traffic",
+      "No, it is prohibited",
+      "Yes, on interstates only"
+    ],
+    "answer": 2,
+    "explanation": "R.S. 32:191.1 says no person shall operate a motorcycle between lanes of traffic or between adjacent lines or rows of vehicles.",
+    "difficulty": 1,
+    "ref": "La. R.S. 32:191.1",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What is the maximum number of motorcycles that may ride side by side in a single lane in Louisiana?",
+    "choices": [
+      "One",
+      "Two",
+      "Three",
+      "There is no limit"
+    ],
+    "answer": 1,
+    "explanation": "Motorcycles may not be operated more than two abreast in a single lane (R.S. 32:191.1).",
+    "difficulty": 2,
+    "ref": "La. R.S. 32:191.1",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A motorcyclist wants to pass a slow car by squeezing past it within the car's own lane. What does Louisiana law say?",
+    "choices": [
+      "It is allowed if the car is going under the limit",
+      "It is allowed on the right side only",
+      "It is prohibited; a motorcyclist may not pass in the same lane occupied by the vehicle being overtaken",
+      "It is allowed if the rider signals"
+    ],
+    "answer": 2,
+    "explanation": "The operator of a motorcycle shall not overtake and pass in the same lane occupied by the vehicle being overtaken (R.S. 32:191.1).",
+    "difficulty": 2,
+    "ref": "La. R.S. 32:191.1",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A car driver moves over to share a lane with a single motorcycle. What does Louisiana law say?",
+    "choices": [
+      "It is legal if the car stays on the right side",
+      "It is illegal; motorcycles are entitled to the full use of a lane",
+      "It is legal in heavy traffic",
+      "It is legal if the motorcyclist waves the car over"
+    ],
+    "answer": 1,
+    "explanation": "All motorcycles are entitled to full use of a lane, and no motor vehicle may be driven in a way that deprives a motorcycle of the full use of a lane (R.S. 32:191.1).",
+    "difficulty": 2,
+    "ref": "La. R.S. 32:191.1",
+    "states": [
+      "LA"
+    ]
+  },
+  {
+    "id": "la.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 30-year-old rides as a passenger on a friend's motorized bicycle (moped) in Louisiana. Must the passenger wear a helmet?",
+    "choices": [
+      "No, helmets are required only on full-size motorcycles",
+      "No, only the operator must wear a helmet",
+      "Yes, the helmet law covers anyone operating or riding a motorized bicycle",
+      "Only if riding faster than 30 mph"
+    ],
+    "answer": 2,
+    "explanation": "R.S. 32:190 says no person shall operate or ride upon any motorcycle, motor-driven cycle or motorized bicycle without wearing a safety helmet secured with a chin strap. It covers passengers too, with no age exemption.",
+    "difficulty": 2,
+    "ref": "La. R.S. 32:190",
+    "states": [
+      "LA"
+    ]
+  }
+]

@@ -412,7 +412,7 @@
     {
       "key": "emergency_vehicles",
       "value": "Pull as close as possible to the edge of the road, stay out of intersections, and stop until it passes",
-      "detail": "If you are going the same direction as an emergency vehicle using its signals, you may not pass it unless it stops or a police officer tells you to. Neither the manual nor the Transportation Article sections reviewed set a following distance.",
+      "detail": "If you are going the same direction as an emergency vehicle using its signals, you may not pass it unless it stops or a police officer tells you to. Separately, Transportation Article 21-1109 bars following within 500 feet of fire apparatus responding to a fire alarm (see notable laws).",
       "number": null,
       "unit": null,
       "source": {
@@ -420,7 +420,7 @@
         "page": 37,
         "quote": "Immediately after you see or hear an emergency vehicle approaching that is using its signals, you must: • Move as close as possible to the edge of the road. • Stay out of intersections, and • Remain stopped until the emergency vehicle has passed."
       },
-      "status": "verified"
+      "status": "corrected"
     },
     {
       "key": "move_over_law",
@@ -826,6 +826,36 @@
         "quote": "The driver of each vehicle involved in an accident that results in bodily injury to or death of any person shall, within 15 days after the accident, report the matter in writing to the Administration."
       },
       "status": "verified"
+    },
+    {
+      "title": "Do not follow fire trucks within 500 feet",
+      "summary": "Unless on official business, you may not follow within 500 feet of fire apparatus traveling in response to a fire alarm, or drive or park within 300 feet of fire apparatus stopped at a fire alarm. Not stated in the Driver's Manual.",
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-1109&enactments=false",
+        "page": null,
+        "quote": "Follow within 500 feet of any fire apparatus traveling in response to a fire alarm; or"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Leaving the scene of a crash",
+      "summary": "Leaving the scene of a crash that causes serious injury brings license revocation and up to 5 years in prison and a $5,000 fine. Leaving the scene of a fatal crash is a felony with up to 10 years and a $10,000 fine.",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 43,
+        "quote": "Leaving the scene of a crash where someone dies is a felony. You could go to prison for up to 10 years and a be fined up to $10,000."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Bicycle helmets required under 16",
+      "summary": "Anyone under 16 riding on a bicycle, including passengers who are not steering, must wear a helmet. Helmets are strongly recommended for all ages.",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 54,
+        "quote": "Helmets are required for anyone under age 16 riding on a bike. This includes passengers that are not steering the bike."
+      },
+      "status": "verified"
     }
   ],
   "officialPracticeTests": [
@@ -834,9 +864,9 @@
     "https://mvarookie.mva.maryland.gov/?id=MVA-English-tutorial-timed"
   ],
   "gaps": [
-    "emergency_vehicles: no following distance behind emergency vehicles/fire apparatus is stated in the manual, and none was found in the Transportation Article sections reviewed (21-405); fact covers yielding only.",
+    "emergency_vehicles: the manual gives no following distance behind emergency vehicles; Transportation Article 21-1109 sets 500 feet behind fire apparatus responding to an alarm (added as a notable law).",
     "speed_limit_school_zone: no statewide default school-zone limit; 21-803(b) only lets counties/municipalities lower school-zone limits to 15 mph during school hours.",
-    "parking_*, signal_distance, railroad_stop_distance, speed limits, insurance_minimums, point_system, texting_ban, implied_consent, dui_first_offense, bac_limit_commercial, motorcycle laws: the Driver's Manual (DL-002, Oct 2025) does not give these numbers; sourced from the Maryland Code, Transportation Article (mgaleg.maryland.gov).",
+    "parking_*, signal_distance, fire-apparatus following distance, railroad_stop_distance, speed limits, insurance_minimums, point_system, texting_ban, implied_consent, dui_first_offense, bac_limit_commercial, motorcycle laws: the Driver's Manual (DL-002, Oct 2025) does not give these numbers; sourced from the Maryland Code, Transportation Article (mgaleg.maryland.gov).",
     "provisional_license_min_age: the Driver's Manual does not state 16 years 6 months; sourced from the MVA Rookie Driver Manual RD-006 (Oct 2026 edition), p. 30.",
     "bac_limit_under21: Maryland uses an alcohol restriction (any alcohol) rather than a numeric 0.02 limit; number set to 0.",
     "knowledgeTest.retestWait: the main knowledge-test page text says 'you may retake it the next day' while its FAQ says 'the next business day'; the FAQ wording is used.",

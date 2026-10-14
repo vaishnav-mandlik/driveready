@@ -1,0 +1,715 @@
+{
+  "code": "AL",
+  "name": "Alabama",
+  "agency": {
+    "name": "Alabama Law Enforcement Agency, Driver License Division",
+    "abbreviation": "ALEA",
+    "website": "https://www.alea.gov"
+  },
+  "handbook": {
+    "title": "Alabama Driver Manual",
+    "edition": "November 2024 (current ALEA PDF, re-downloaded Oct 2026 and identical to the stored text). Page numbers in this file are PDF page numbers (the printed page number is 2 lower, e.g. PDF p. 35 = printed p. 33).",
+    "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf"
+  },
+  "exam": {
+    "questions": 40,
+    "passingScore": 32,
+    "passingPercent": 80,
+    "timeLimitMinutes": null,
+    "roadSigns": "No separate road-signs section is described officially. The Driver Manual says the knowledge test contains questions on Alabama traffic laws, road signs, and rules of safe driving, taken from material in the manual.",
+    "format": "Automated (computer) knowledge test, available to all applicants taking the driver license knowledge test. The fee is $5 per knowledge test and checks are not accepted (Driver Manual p. 13; ALEA License and ID Cards page). Applicants who cannot read the test can take an oral exam on the automated testing equipment.",
+    "languages": "English plus Arabic, Chinese, Farsi, French, German, Japanese, Korean, Russian, Spanish, Thai and Vietnamese (per the Driver Manual's Foreign Examinations section).",
+    "retestWait": "Not stated on official ALEA pages.",
+    "notes": "Stage I learner license from age 15 (supervisor must be 21+ until age 16, then any licensed driver). Teens need 50 hours of behind-the-wheel practice certified by a parent, grandparent, legal guardian or certified driving instructor, or an approved driver-ed course. Stage II restricted license at 16 after 6 months with Stage I (road test; 16-year-olds must be accompanied by a parent or guardian). Stage III unrestricted at 17 after 6 months with Stage II, or immediately at 18+. Applicants under 19 must present a Student Enrollment/Exclusion Form (DL-1-93). Neither the Driver Manual nor ALEA's website (License and ID Cards and Graduated Driver License pages, checked Oct 2026) states the number of questions or the passing score. Some test details could not be confirmed; check your state agency before test day.",
+    "sourceUrl": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf"
+  },
+  "motorcycleExam": null,
+  "cdlExam": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC",
+      "detail": "It is unlawful in Alabama to drive with a blood alcohol concentration of .08 percent or more, or while under the influence of alcohol. The manual notes that a BAC of .05 already impairs the driving ability of most people to some degree, and at .08 everyone is definitely impaired.",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 35,
+        "quote": "it is unlawful to drive with a concentration of .08 percent or more alcohol in the blood"
+      }
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% BAC",
+      "detail": "Drivers under 21 are in violation at a BAC of .02% or more. The same .02% limit applies to school bus and daycare drivers.",
+      "number": 0.02,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 35,
+        "quote": "Persons under 21 years of age whose blood alcohol content is .02% or more."
+      }
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC",
+      "detail": "Commercial vehicle operators are in violation at a BAC of .04% or more.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 35,
+        "quote": "Commercial vehicle operators whose blood alcohol content is .04% or more."
+      }
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusing a chemical test after a DUI arrest leads to license suspension",
+      "detail": "Anyone who drives on Alabama public highways is deemed to have consented to a chemical test of blood, breath or urine. A driver under arrest for DUI who refuses the breath test when directed by an officer has the license suspended (the manual does not state the length). ALEA's Ignition Interlock page adds that a refusal adds one year to the ignition-interlock term, except on a 1st conviction.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 36,
+        "quote": "Any person who operates a motor vehicle upon the public highways of this state shall be deemed to have given his consent to a chemical test or tests of his blood, breath, or urine to determine blood alcohol content."
+      }
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "$600-$2,100 fine, up to 1 year in jail, 90-day license suspension",
+      "detail": "A first DUI conviction carries a fine of $600 to $2,100, up to one year in jail, or both, plus a 90-day license suspension. A 2nd conviction within 10 years brings a $1,100-$5,100 fine, mandatory 48 hours in jail or 20 days community service, and a one-year revocation; a 3rd brings a 3-year revocation; a 4th is a Class C felony with a 5-year revocation.",
+      "number": 90,
+      "unit": "days",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 35,
+        "quote": "Penalty for a first conviction is a fine of $600 to $2,100, up to one year in jail or by both fine and imprisonment. In addition, the driver license will be suspended for 90 days."
+      }
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15",
+      "detail": "At 15 you may get a restricted Learner License (Class D with a \"Y\" restriction) by passing the knowledge exam taken from the Alabama Driver Manual. The learner license is valid for four years.",
+      "number": 15,
+      "unit": "years",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 11,
+        "quote": "Any person 15 years of age may obtain a restricted Learner License"
+      }
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "6 months",
+      "detail": "Drivers under 18 must hold a Stage I (learner) license for at least 6 months before applying for a Stage II restricted license.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license",
+        "page": null,
+        "quote": "Those who are under age 18 must have a Stage I license for at least 6 months before applying for a Stage II license."
+      }
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "50 hours (or an approved driver education course)",
+      "detail": "Before Stage II, a teen needs either an ALEA verification form signed by a parent, grandparent, legal guardian or certified driving instructor showing at least 50 hours of behind-the-wheel practice, or a State Department of Education completion form for an approved driver education course. No separate night-hours requirement is stated.",
+      "number": 50,
+      "unit": "hours",
+      "source": {
+        "url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license",
+        "page": null,
+        "quote": "signed by a parent, grandparent, legal guardian or certified driving instructor verifying that the applicant has COMPLETED a minimum of 50 hours of behind-the-wheel practice"
+      }
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "A licensed driver 21 or older (or a licensed/certified driving instructor) in the seat beside the driver; after age 16, any licensed driver",
+      "detail": "A 15-year-old learner may drive only with a licensed driver who is 21 or older, or a licensed or certified driving instructor, in the seat beside them. The manual adds that after the holder's 16th birthday any licensed driver may sit beside the learner, while ALEA's GDL page describes Stage I supervision only as a parent, legal guardian or licensed driver 21+ (or instructor) in the front seat.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 11,
+        "quote": "may operate a motor vehicle while accompanied by a person who is 21 years of age or older and, who is duly licensed in this state or a licensed or certified driving instructor"
+      }
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 (after 6 months with a learner license)",
+      "detail": "A driver who is 16 or 17 and has held a learner license for six months (or until turning 18) may take the road test; a 16-year-old must be accompanied by a parent or guardian at the road test. This Stage II license carries GDL restrictions.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 12,
+        "quote": "Any person 16 years of age but under 18 years of age who has held a Learner License (to include a comparable license issued by another state) for six months or until their 18th birthday"
+      }
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "No driving from midnight to 6 a.m.",
+      "detail": "Stage II drivers may not drive between 12 midnight and 6 a.m. unless with a parent or legal guardian, a licensed driver 21+ with parental consent, or when going to or from work, a school- or religious-sponsored event, or for a medical, fire or law-enforcement emergency.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 86,
+        "quote": "The student may not operate a vehicle between 12 midnight and 6 a.m. unless accompanied by a parent or legal guardian"
+      }
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "No more than 1 non-family passenger",
+      "detail": "A 16-year-old (or a 17-year-old licensed less than 6 months) may not carry more than one passenger other than a parent, guardian, supervising licensed driver 21+ or family members.",
+      "number": 1,
+      "unit": "passengers",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 86,
+        "quote": "May not have more than 1 nonfamily passenger other than the parent, guardian or supervising licensed driver at least 21 years of age."
+      }
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "17 (after 6 months with a Stage II license); 18+ may apply immediately",
+      "detail": "A Stage III (unrestricted) license requires age 17 and at least six months with a Stage II license. Applicants 18 and older may apply immediately (road skills exam still required).",
+      "number": 17,
+      "unit": "years",
+      "source": {
+        "url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license",
+        "page": null,
+        "quote": "Must be age 17 or older. Those who are age 17 must have a Stage II license for at least six months before applying for Stage III license."
+      }
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "Hands-Free Law (effective June 2024)",
+      "detail": "The Driver Manual states that physically holding a wireless telecommunications device (any device used to send or receive communication information or data) violates Alabama's Hands-Free Law when the driver is seen crossing in and out of a traffic lane without signaling, swerving, or otherwise driving improperly. Penalties within a 24-month period: 1st conviction $50 and 1 point, 2nd $100 and 2 points, 3rd $150 and 3 points.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 18,
+        "quote": "Physically holding a wireless telecommunications device* is a violation of Alabama’s Hands-Free Law"
+      }
+    },
+    {
+      "key": "texting_ban",
+      "value": "Texting, instant messaging and e-mail banned for all drivers",
+      "detail": "Using a wireless device to write, send or read a text, instant message or e-mail while driving is illegal. Fines are $25 (1st), $50 (2nd) and $75 (3rd or later), and each offense adds 2 points to the driving record.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 34,
+        "quote": "Alabama’s new law prohibits using a wireless device to write, send or read a text message, instant message or e-mail while operating a motor vehicle."
+      }
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Stage II drivers may not use any handheld communication device",
+      "detail": "Restricted (Stage II) license holders must not use any handheld communication device while driving. A GDL violation extends the restricted period by 6 months (or until age 18).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license",
+        "page": null,
+        "quote": "Must not use any handheld communication devices while driving."
+      }
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Every occupant must be restrained",
+      "detail": "Alabama's safety belt law requires each occupant, regardless of age, to be restrained. Under Code §32-5B-4 (posted on ALEA's Seat Belt Law page), a violation in any seat other than a front seat is a secondary violation.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 32,
+        "quote": "Alabama’s safety belt law requires that each occupant, regardless of age, be restrained."
+      }
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Size-appropriate restraints through age 15",
+      "detail": "Rear-facing infant/convertible seat until at least age 1 or 20 lb; forward-facing seat until at least age 5 or 40 lb; booster seat until age 6; seat belt until age 15. Applies in passenger cars, pickups, vans seating 10 or fewer, minivans and SUVs; violators get points plus a fine.",
+      "number": 15,
+      "unit": "years",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 32,
+        "quote": "Alabama’s child restraint law requires that children through age 15 must be restrained when riding in motor vehicles in Alabama."
+      }
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Never faster than reasonable for existing conditions",
+      "detail": "Consider road, weather, vehicle and your own physical condition. Speeds over the posted or statutory limits are prima facie evidence that they are unlawful.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 61,
+        "quote": "Alabama’s basic speed law provides that you must never drive a vehicle at a speed that is faster than reasonable under existing conditions."
+      }
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "15 mph (ALEA Highway Patrol speed-limit table)",
+      "detail": "ALEA's Highway Patrol speed-limit table lists 15 MPH for school zones. The Driver Manual says the school-zone limit applies during the hours shown on the sign (sometimes on a lighted sign with flashing amber lights), so always obey the posted school-zone limit.",
+      "number": 15,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.alea.gov/dps/highway-patrol/speed-limits",
+        "page": null,
+        "quote": "15 MPH School zones"
+      }
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "30 mph in an urban district",
+      "detail": "The statutory limit in an urban district is 30 mph unless another limit is posted. All speed limits in municipalities are maximum speeds.",
+      "number": 30,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 62,
+        "quote": "30 miles per hour in an urban district"
+      }
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "55 mph (45 on county paved roads, 35 on unpaved roads)",
+      "detail": "Statutory limits: 55 mph in other locations, 45 mph on county paved roads unless posted, 35 mph on unpaved roads, and 65 mph where posted (ALEA lists 65 for roadways with four or more lanes).",
+      "number": 55,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 62,
+        "quote": "55 miles per hour in other locations"
+      }
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "70 mph where posted on interstates",
+      "detail": "The highest statutory limit is 70 mph where posted on an interstate.",
+      "number": 70,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 62,
+        "quote": "70 miles per hour where posted on interstate"
+      }
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Driving below a posted minimum is unlawful under normal conditions",
+      "detail": "Where minimum limits are posted (usually on freeways), driving slower is unlawful under normal weather, road and traffic conditions. Never drive so slowly that you interfere with traffic moving at normal safe speeds.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 62,
+        "quote": "Where they are posted, any speed below that minimum is considered to be unlawful under normal weather, road, and traffic conditions."
+      }
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop unless a sign prohibits it",
+      "detail": "After stopping at a red light you may turn right if you are in the proper lane, yielding to traffic and pedestrians, unless a sign prohibits the turn.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 62,
+        "quote": "You may make a right turn after stopping for a red light if you are in the proper lane for such turn."
+      }
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Allowed only from a one-way street onto a one-way street (traffic moving right to left)",
+      "detail": "After stopping, you may turn left on red only when driving on a one-way street and turning onto a one-way street with traffic moving from right to left, yielding to traffic and pedestrians, unless a sign prohibits it.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 62,
+        "quote": "You may make a left turn after stopping if you are driving on a one-way street"
+      }
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 100 feet before turning",
+      "detail": "Signal at least 100 feet before the turn and continue the signal until you are ready to make the actual turn.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 23,
+        "quote": "At least 100 feet before making the turn, signal your intentions."
+      }
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the side and stop; do not follow within 500 feet",
+      "detail": "When an emergency vehicle with flashing red or blue lights and a siren approaches from either direction, pull to the side of the road and stop (clear an intersection first) until it passes. Only vehicles on necessary official business may follow within 500 feet of an emergency vehicle on an emergency run.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 67,
+        "quote": "Only vehicles on necessary official business are permitted to follow within 500 feet of emergency vehicles on an emergency run."
+      }
+    },
+    {
+      "key": "move_over_law",
+      "value": "Vacate the closest lane (roads with 4+ lanes), or slow to at least 15 mph below the limit",
+      "detail": "When approaching a stopped emergency vehicle with flashing lights or a wrecker with flashing amber lights on a roadway with four or more lanes, vacate the lane closest to it; if changing lanes is unsafe or not possible, slow to at least 15 mph below the posted limit. On a two-lane road, move as far away as possible within your lane and slow to 15 mph below the limit when the limit is 25 mph or more, or travel at 10 mph when the limit is 20 mph or less.",
+      "number": 15,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 70,
+        "quote": "When changing lanes is unsafe or not possible, the driver must slow to a speed that is at least 15 miles per hour less then the posted speed limit."
+      }
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop for a school or church bus with red lights and stop arm; exception for opposing traffic on a divided highway of 4+ lanes",
+      "detail": "Stop (at least 20 feet from the bus) when meeting or following a school or church bus with flashing red lights and extended stop arm, and remain stopped until the arm is retracted and the lights turn off. Stop on a 4-6 lane undivided highway too. You need not stop when the bus is on the opposite roadway of a divided highway with four or more lanes, or is in a loading zone where pedestrians may not cross.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 63,
+        "quote": "A stop is not required on a divided highway having four or more lanes which permits at least two lanes of traffic to travel in opposite directions when meeting a school or church bus which is stopped in the opposing roadway"
+      }
+    },
+    {
+      "key": "following_distance",
+      "value": "2 seconds (4-5 seconds in poor conditions)",
+      "detail": "Use the two-second rule in good and bad weather; when road or weather conditions are not good, or when driving longer vehicles, increase to a four- or five-second count.",
+      "number": 2,
+      "unit": "seconds",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 38,
+        "quote": "If the road and weather conditions are not good, increase your following distance to a four or five second count."
+      }
+    },
+    {
+      "key": "headlights_required",
+      "value": "Half-hour after sunset to half-hour before sunrise, when visibility is under 500 feet, and when wipers are in use",
+      "detail": "Headlights (not just parking lights) are required from a half-hour after sunset to a half-hour before sunrise and whenever you cannot see clearly for 500 feet. Alabama also requires headlights whenever windshield wipers are in use because of rain, sleet or snow (intermittent wiper use excepted).",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 71,
+        "quote": "headlights (not parking lights only) must be turned on from a half-hour after sunset to a half-hour before sunrise and during other periods of limited visibility when you cannot see clearly for at least 500 feet."
+      }
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "Within 500 feet of an oncoming vehicle",
+      "detail": "Dim your high beams when within 500 feet of an oncoming vehicle.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 71,
+        "quote": "500 feet of an oncoming vehicle and within 200 feet when following"
+      }
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "Within 200 feet when following",
+      "detail": "Dim your high beams when within 200 feet of a vehicle you are following.",
+      "number": 200,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 71,
+        "quote": "500 feet of an oncoming vehicle and within 200 feet when following"
+      }
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet",
+      "detail": "Do not park within 15 feet of a fire hydrant.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 31,
+        "quote": "Within 15 feet of a fire hydrant."
+      }
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "20 feet (crosswalk at an uncontrolled intersection); never on a crosswalk",
+      "detail": "Do not park on a crosswalk or sidewalk, or within 20 feet of a crosswalk at an uncontrolled intersection.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 31,
+        "quote": "Within 20 feet of a crosswalk at an uncontrolled intersection."
+      }
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Not within an intersection",
+      "detail": "Parking is not allowed within intersections (the manual gives no separate distance from an intersection).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 31,
+        "quote": "Parking is NOT allowed at the following places: • Within intersections."
+      }
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet",
+      "detail": "Do not park within 30 feet of any flashing beacon, stop sign or traffic control signal located at the side of a roadway.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 31,
+        "quote": "Within 30 feet of any flashing beacon, stop sign, or traffic control signal located at the side of a roadway."
+      }
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet",
+      "detail": "Do not park within 50 feet of the nearest rail of a railroad crossing.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 31,
+        "quote": "Within 50 feet of the nearest rail of a railroad crossing."
+      }
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "15 to 50 feet from the tracks",
+      "detail": "When you must stop at a railroad crossing, stop within 15 to 50 feet of it. School, church and passenger buses and trucks carrying flammables, explosives or other hazardous material must always stop.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 41,
+        "quote": "You must stop within 15 to 50 ft."
+      }
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet",
+      "detail": "Pass a person on a bicycle with at least three feet between your vehicle and the rider. If you cannot pass safely, stay back at a safe interval and do not blast the horn.",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 26,
+        "quote": "Alabama state law requires that you pass a person on a bicycle with a distance of not less than three feet between your motor vehicle and the person on a bicycle."
+      }
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Stop for pedestrians in crosswalks without signals; yield to blind pedestrians",
+      "detail": "Drivers must stop at crosswalks occupied by pedestrians when there are no controlling signals, stop and yield to a blind person with a white cane tipped with red or a guide dog, and not block crosswalks. Pedestrians crossing outside crosswalks must yield to vehicles.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 55,
+        "quote": "A driver must stop at all crosswalks which are occupied by pedestrians if there are no controlling signals."
+      }
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Report injury/fatal crashes immediately; SR-31 within 30 days for injury, death or $500+ damage when the at-fault party was uninsured",
+      "detail": "Injury or fatal crashes must be reported by the quickest means to local police (in a city) or State Troopers (on a state highway). For injury, death or $500+ damage, a written Form SR-31 must be sent within 30 days if the at-fault party was not insured; if both parties were insured, neither files it.",
+      "number": 500,
+      "unit": "dollars",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 40,
+        "quote": "In case of injury, a fatality, or if damage to any vehicle or property in the crash amount to $500 or more, a written (Form SR-31) must be sent within 30 days"
+      }
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "25/50/25",
+      "detail": "Liability insurance of at least $25,000 for injury/death of one person, $50,000 for two or more persons and $25,000 for property damage. A first violation can bring a fine of up to $500 (up to $1,000 for later violations) and/or a six-month license suspension.",
+      "number": 25000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 70,
+        "quote": "$25,000 for death or bodily injury to one person;"
+      }
+    },
+    {
+      "key": "point_system",
+      "value": "12+ points in 2 years = suspension (60 days at 12-14 points)",
+      "detail": "Suspension schedule for points within 2 years: 12-14 = 60 days, 15-17 = 90, 18-20 = 120, 21-23 = 180, 24+ = 365 days. Examples: alcohol-related conviction 6, reckless driving 6, failure to yield 5, passing a stopped school bus 5, speeding 26+ mph over 5, following too closely 3, speeding 1-25 mph over 2.",
+      "number": 12,
+      "unit": "points",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 21,
+        "quote": "12-14 Points in a 2-year period 60 days"
+      }
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Universal helmet law (operators and riders)",
+      "detail": "No person may operate or ride on a motorcycle or motor-driven cycle without approved protective headgear (helmet). Riders must also wear shoes.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/Updated%20ALEA%202024%20Motorcycle%20Manual%20Proof%209.pdf",
+        "page": 4,
+        "quote": "unless wearing approved protective headgear (helmet)."
+      }
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Illegal",
+      "detail": "No person may operate a motorcycle between lanes of traffic or between rows of vehicles, and a motorcyclist may not pass in the same lane occupied by the vehicle being overtaken. No more than two motorcycles may ride abreast in a single lane.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/Updated%20ALEA%202024%20Motorcycle%20Manual%20Proof%209.pdf",
+        "page": 4,
+        "quote": "No person shall operate a motorcycle between lanes of traffic or between rows of vehicles."
+      }
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Hands-Free Law penalties",
+      "summary": "Holding a wireless device while driving: $50 and 1 point for a 1st conviction, $100 and 2 points for a 2nd, and $150 and 3 points for a 3rd within 24 months.",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 18,
+        "quote": "First conviction, $50 fine and 1 point; second conviction, $100 fine and 2 points; third conviction, $150 and 3 points on driver’s record within a 24-month period."
+      }
+    },
+    {
+      "title": "Texting fines and points",
+      "summary": "Texting while driving costs $25 (1st), $50 (2nd) and $75 (3rd+), plus 2 points on the driving record for each offense.",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 34,
+        "quote": "The fine for violating the law is $25 for a first-time offense, $50 for a second offense and $75 for a third or subsequent offense."
+      }
+    },
+    {
+      "title": "Headlights with wipers",
+      "summary": "Headlights must be on whenever windshield wipers are in use because of rain, sleet or snow; intermittent wiper use does not require headlights.",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 73,
+        "quote": "Alabama law requires that headlights be turned on when the windshield wipers of the vehicle are in use because of rain, sleet, or snow."
+      }
+    },
+    {
+      "title": "No bicycles on sidewalks",
+      "summary": "People on bicycles must use a bicycle lane where one is available, and riding a bicycle on the sidewalk is illegal in Alabama. Riders under 16 must wear a helmet.",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 26,
+        "quote": "In Alabama, it is illegal for people on bicycles to ride on the sidewalk."
+      }
+    },
+    {
+      "title": "Bicyclists may ride two abreast",
+      "summary": "People on bicycles may ride two abreast at all times, and must ride with traffic and use the same hand signals as drivers.",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 25,
+        "quote": "People on bicycles may ride two abreast at all times."
+      }
+    },
+    {
+      "title": "Stop at least 20 feet from a school bus",
+      "summary": "Drivers from either direction must stop at least 20 feet from a school bus displaying its stop signals. Amber pre-warning lights come on at least 300 feet before the stop in rural areas and at least 100 feet in municipalities. The rule also covers church buses.",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 64,
+        "quote": "STOP AT LEAST 20 FEET FROM THE BUS."
+      }
+    },
+    {
+      "title": "Vehicles that must always stop at railroad crossings",
+      "summary": "School buses, church buses, any passenger bus, and trucks carrying flammables, explosives or other hazardous material must stop before every railroad crossing.",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 41,
+        "quote": "School bus, church bus, or any passenger bus."
+      }
+    },
+    {
+      "title": "Move Over Act fines",
+      "summary": "The John Hubbard Move Over Act also covers utility, maintenance/construction/survey vehicles with flashing lights and garbage trucks actively collecting. Fines: $200 (1st), $250 (2nd), $300 plus a license suspension of at least 90 days (3rd or later).",
+      "source": {
+        "url": "https://www.alea.gov/dps/highway-patrol/alabama-move-over-act",
+        "page": null,
+        "quote": "A violation of this section is a misdemeanor punishable by a fine of two hundred dollars ($200)."
+      }
+    },
+    {
+      "title": "Rear-seat belt violations are secondary",
+      "summary": "Every passenger-car occupant must be belted, but a violation in any seat other than a front seat can be cited only after a lawful stop for another violation.",
+      "source": {
+        "url": "https://www.alea.gov/dps/highway-patrol/seat-belt-law",
+        "page": null,
+        "quote": "a violation of this section in any seat other than a front seat of a vehicle shall be a secondary violation after a lawful stop of the vehicle based on probable cause of another violation of law"
+      }
+    },
+    {
+      "title": "Window tint limits",
+      "summary": "Only the top 6 inches of the windshield may be tinted. Side and rear windows of passenger cars (and front side windows of SUVs, trucks and vans) must let at least 32 percent of light through.",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 70,
+        "quote": "all windows (side and rear) may have tinting that allows at least 32 percent light transmission."
+      }
+    },
+    {
+      "title": "Projecting loads need a red flag",
+      "summary": "A load projecting 4 feet or more from the rear needs a red flag at least 12 inches square by day and a red light visible for at least 200 feet at night.",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 69,
+        "quote": "a red flag at least 12 inches square must be attached at its end in daytime"
+      }
+    },
+    {
+      "title": "GDL violations extend the restricted period",
+      "summary": "Violating Stage II restrictions adds 6 months to the restricted period (or until 18), with no points or criminal penalties, and a citation only after a stop for a separate violation. A second moving violation or a 4+ point offense brings an automatic 60-day suspension.",
+      "source": {
+        "url": "https://www.alea.gov/sites/default/files/ALEA%20DL%20Manual.pdf",
+        "page": 86,
+        "quote": "Violation of any of the above restrictions will result in the restrictive period being extended by 6 months or until the driver reaches 18 years of age."
+      }
+    },
+    {
+      "title": "Ignition interlock after a DUI",
+      "summary": "For offenses after July 1, 2018: a 1st DUI conviction with a BAC above 0.15 brings a mandatory 1-year ignition interlock term (the 90-day suspension is stayed with proof of installation). Below 0.15, a 90-day interlock is voluntary and stays the suspension. Terms are 2 years for a 2nd conviction, 3 years for a 3rd and 4 years for a 4th or later. A refusal adds one year to the interlock term, except on a 1st conviction.",
+      "source": {
+        "url": "https://www.alea.gov/dps/driver-license/license-and-id-cards/ignition-interlock-laws",
+        "page": null,
+        "quote": "Mandatory Ignition Interlock, suspension stayed w/proof of IID installation"
+      }
+    }
+  ],
+  "officialPracticeTests": [],
+  "verifiedOn": "2026-10-14"
+}

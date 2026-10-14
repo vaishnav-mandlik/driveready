@@ -1,0 +1,755 @@
+{
+  "code": "CO",
+  "name": "Colorado",
+  "agency": {
+    "name": "Colorado Department of Revenue, Division of Motor Vehicles",
+    "abbreviation": "DMV",
+    "website": "https://dmv.colorado.gov/"
+  },
+  "handbook": {
+    "title": "Colorado Driver Handbook",
+    "edition": "DR 2337 (12/05/24), posted as DR_2337_Jan2025 (current English edition linked from dmv.colorado.gov/drivereducation, checked Oct 2026)",
+    "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf"
+  },
+  "exam": {
+    "questions": 40,
+    "passingScore": 32,
+    "passingPercent": 80,
+    "timeLimitMinutes": 60,
+    "roadSigns": "No separately scored road-signs section. The handbook says the test covers its contents, including road signs, driving under the influence, driving rules, safety rules and legal items.",
+    "format": "Multiple-choice Driving Knowledge (written/permit) test. It can be taken online (@Home test, webcam-proctored, 60 minutes), in a state driver license office, or at an approved third-party driving school. Appointments are required.",
+    "languages": "English and Spanish (the @Home test can read questions aloud in either language). Accommodations: in-office audio, an interpreter you provide, ASL interpretation, or other ADA accommodations.",
+    "retestWait": "You can retake the test as many times as needed, but no more than twice in one day. A $11.50 state fee applies to each knowledge-test retake (1 CCR 204-30, Rule 17). At a third-party tester, an applicant who misses more than 50% of the questions on a first attempt must wait until the next day (1 CCR 204-30, Rule 8).",
+    "notes": "80% to pass, per 1 CCR 204-30 Rule 8 (402)(B)(4) for written exams given by third-party testers. The DMV does not publish a question count. Permit at 15 with driver education (30-hour course at 15-15 1/2; 30-hour course or 4-hour driver awareness program at 15 1/2-16); no driver-ed requirement at 16-17 before Jan. 1, 2027. From Jan. 1, 2027 (HB24-1021), applicants 15-17 need the 30-hour course, 18-20 need the 30-hour course or 4-hour program, and motorcycle permit applicants under 21 must complete a motorcycle safety training program approved by the Colorado State Patrol. Under 18: hold the permit 12 months (or until 18), log 50 hours (10 at night), and complete 6 hours of behind-the-wheel training if under 16 1/2. 18+: no hold time. @Home test takers younger than 19 need an adult older than 19 as a proxy. Drive tests are given mainly by approved third-party driving schools. The official site does not publish the number of questions; this practice exam uses 40 questions at the official 80% passing standard.",
+    "sourceUrl": "https://dmv.colorado.gov/home-driving-knowledge-tests"
+  },
+  "motorcycleExam": {
+    "passingPercent": 80,
+    "notes": "Motorcycle written exams (DR 2256/DR 2321) given by third-party testers require a score of 80% or higher, with no more than two attempts per day; an applicant who misses more than 50% on a first attempt must wait until the next day (1 CCR 204-30, Rule 9). The DMV does not publish a question count. From Jan. 1, 2027, motorcycle permit/endorsement applicants under 21 must first complete a Colorado State Patrol-approved motorcycle safety training program.",
+    "sourceUrl": "https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=12085&fileName=1%20CCR%20204-30"
+  },
+  "cdlExam": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC (DUI per se)",
+      "detail": "A BAC of 0.08% is DUI per se for adult drivers. Colorado also has the lesser offense DWAI (driving while ability impaired), which the handbook's penalty table lists at 0.05% BAC.",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 6,
+        "quote": "A driver may also be convicted of DUI per se if the driver’s BAC is greater than 0.08%."
+      }
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% BAC (drivers under 21)",
+      "detail": "A driver under 21 can lose their license for a BAC over 0.02%. A driver under 21 convicted of buying or possessing alcohol can lose their driving privilege even if no driving was involved.",
+      "number": 0.02,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 6,
+        "quote": "Licenses may be revoked if the driver refuses a toxicological test, set forth in Colorado Statute, or based on a BAC over .08 or over .02 if the driver is under 21, or over .04 for a CDL driver."
+      }
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC (CDL drivers)",
+      "detail": "Commercial (CDL) drivers can lose their license for a BAC over 0.04%.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 6,
+        "quote": "Licenses may be revoked if the driver refuses a toxicological test, set forth in Colorado Statute, or based on a BAC over .08 or over .02 if the driver is under 21, or over .04 for a CDL driver."
+      }
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusal: license revoked 1 year plus 2 years of ignition interlock",
+      "detail": "Under Colorado's Express Consent Law, driving in Colorado means you agree to a chemical test (blood, breath, saliva or urine). If you refuse, your license is revoked for one year and you must use an ignition interlock for two years. Any other suspensions from the same incident are added on afterward.",
+      "number": 1,
+      "unit": "year",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 8,
+        "quote": "If you refuse to take the test or do not comply with being tested, your driver license will be revoked for one year and you will be required to install an ignition interlock device on any motor vehicle you drive for two years."
+      }
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "1st DUI: 9-month revocation, $600-$1,000 fine, 5-365 days jail, 48-96 hours public service",
+      "detail": "Handbook Table 1 (drivers 21+). A 1st DWAI (0.05%) carries 8 points, a $200-$500 fine, 2-180 days in jail and 24-48 hours of public service. Colorado does not allow plea bargaining out of an alcohol or drug driving offense.",
+      "number": 9,
+      "unit": "months",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 7,
+        "quote": "1st Driving Under the Influence (DUI) 0.08% Revocation: 9 months $600-$1,000 5-365 days 48-96 hours"
+      }
+    },
+    {
+      "key": "open_container",
+      "value": "No open alcohol or open marijuana container in the passenger area",
+      "detail": "Colorado's open container ban covers both alcohol and marijuana in the passenger area of a vehicle on a public road.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 6,
+        "quote": "It is unlawful for someone to either possess an open container of alcohol or possess an open container of marijuana while in the passenger area of a motor vehicle that is on a public road."
+      }
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15 years old",
+      "detail": "Applicants 15 to 15 years 6 months must complete a 30-hour driver education course; from 15 1/2 to 16 they may take a 30-hour course or a 4-hour driver awareness program. Starting Jan. 1, 2027 (HB24-1021), all applicants 15-17 need the 30-hour course, and 18-20 need the 30-hour course or the 4-hour program.",
+      "number": 15,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.colorado.gov/permits-first-time-driver-license",
+        "page": null,
+        "quote": "You must be at least 15 years old to get a Colorado learner’s permit."
+      }
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "12 months (under 18)",
+      "detail": "Minors must hold the permit for 12 months before applying for a license. The DMV says this is 12 months or until the 18th birthday, whichever comes first. Applicants 18 and older have no minimum hold time.",
+      "number": 12,
+      "unit": "months",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 5,
+        "quote": "Colorado law requires minors to have an instruction permit for 12 months before applying for a driver license"
+      }
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "50 hours total, including 10 at night",
+      "detail": "Minors submit a signed driving log of 50 hours (10 at night). Applicants under 16 1/2 also need 6 hours of behind-the-wheel training with a driving school; if no qualifying school is within 30 miles, 12 extra supervised hours (62 total) may substitute.",
+      "number": 50,
+      "unit": "hours",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 5,
+        "quote": "submit a completed and signed driving log showing 50 hours of driving experience (10 of which must have been at night)"
+      }
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Licensed driver 21+ with a valid Colorado license, in the front passenger seat",
+      "detail": "A permit driver must have a supervisor who is at least 21 and holds a valid Colorado license, seated in the front passenger seat. The DMV website also accepts a military ID plus a valid out-of-state license.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 4,
+        "quote": "When you are driving with an instruction permit, you must have a person who is 21 years or older who has a valid Colorado license in the front passenger seat."
+      }
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 years old",
+      "detail": "A minor license requires being at least 16 and meeting all permit, driving-log and training requirements. The drive test is given mainly by approved third-party driving schools.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.colorado.gov/permits-first-time-driver-license",
+        "page": null,
+        "quote": "You must be at least 16 years old and complete all requirements."
+      }
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "No driving midnight-5 a.m. during the first year of licensure",
+      "detail": "Applies to drivers under 18 (C.R.S. 42-4-116(4)(b) defines 'minor driver' as under 18) during their first year of licensure. Exceptions: accompanied by an instructor, parent or legal guardian (the statute also allows a licensed adult 21+ who has held a license at least 1 year); driving to/from school or work with a signed statement; medical emergencies; emancipated minors.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 5,
+        "quote": "For your first year as a licensed driver, driving between midnight and 5 a.m. is not allowed unless you are accompanied by an instructor, parent or legal guardian."
+      }
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "First 6 months: no passengers under 21; months 6-12: one passenger under 21",
+      "detail": "Applies while the driver is under 18. A parent or other licensed adult driver in the vehicle lifts the first-6-month limit; siblings and passengers with medical emergencies are exceptions. After 1 year, passengers are limited to the number of seat belts.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 5,
+        "quote": "For the first six months after your license is issued, you cannot have any passengers under 21, unless a parent or another licensed adult driver is in the vehicle. After 6 months, you may have one passenger younger than 21."
+      }
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "Minor license converts to an adult license at 21",
+      "detail": "Teen restrictions apply while under 18 (curfew and passenger limits run for the first year of licensure). The minor license expires 20 days after the 21st birthday and is renewed as an adult license.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.colorado.gov/permits-first-time-driver-license",
+        "page": null,
+        "quote": "You can renew your minor license (which will convert it to an adult license) on or after your 21st birthday."
+      }
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "Hands-free only for all drivers (since Jan. 1, 2025)",
+      "detail": "Drivers may not hold or manually use a mobile device while driving unless contacting police or fire, in an emergency, or using a hands-free accessory. Under C.R.S. 42-4-239 (effective Jan. 1, 2025) a first offense is a $75 fine plus a $10 surcharge ($150 second, $250 third within 24 months). A charge can be dismissed once if the driver shows a hands-free accessory or proof of buying one. 'Operating' excludes only being at rest on the shoulder or lawfully parked.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 21,
+        "quote": "Colorado law prohibits drivers from using a mobile device while driving, unless it is to contact law enforcement, the fire department, if it is an emergency or they are doing so with the use of a hands-free accessory."
+      }
+    },
+    {
+      "key": "texting_ban",
+      "value": "Texting while driving prohibited for all drivers",
+      "detail": "Texting is allowed only to contact law enforcement or the fire department, or in an emergency.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 21,
+        "quote": "Colorado law also prohibits the use of mobile devices for text messaging while driving unless it is to contact law enforcement, the fire department or it is an emergency."
+      }
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Driver, front-seat passengers and children must be buckled",
+      "detail": "The handbook lists the driver, front-seat passengers and children under 16. All passengers of a driver under 18 must be buckled, with no more passengers than seat belts. Exceptions include emergency personnel, buses, farm equipment, delivery drivers on the job and people with a written medical statement.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 6,
+        "quote": "Colorado law requires a fastened seat belt to be worn in all motor vehicles with a factory-equipped seat belt system while in operation on public roadways by:"
+      }
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Car seat or booster to age 9; rear-facing under 2 and under 40 lb",
+      "detail": "Under 2 and under 40 lb: rear-facing in the rear seat. Under 2 and 40 lb or more: rear- or forward-facing. Ages 2-3 and at least 20 lb: rear- or forward-facing seat, in the rear seat if available. Ages 4-8 and at least 40 lb: child seat or booster in the rear seat if available. Ages 9-17: seat belt or child restraint.",
+      "number": 9,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 6,
+        "quote": "Children 4 years of age or older, but less than 9 years of age and weighing at least 40 pounds: must be properly secured in a child restraint system or booster seat in the rear seat of a vehicle, if a rear seat is available."
+      }
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Posted limits are for ideal conditions; slow down when conditions require",
+      "detail": "C.R.S. 42-4-1101(1) bars driving faster than is reasonable and prudent for existing conditions.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 10,
+        "quote": "The maximum limits are for ideal conditions and you must reduce your speed when conditions require it."
+      }
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "30 mph",
+      "detail": "Applies in any residence district unless otherwise posted.",
+      "number": 30,
+      "unit": "mph",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 15,
+        "quote": "30 mph in any residence district"
+      }
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "25 mph",
+      "detail": "Applies in any business district unless otherwise posted.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 15,
+        "quote": "25 mph in any business district"
+      }
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "55 mph on open highways that are not interstates/four-lane freeways, unless posted",
+      "detail": "Statutory defaults (C.R.S. 42-4-1101(2)): 20 mph on narrow, winding mountain highways and blind curves; 40 mph on open mountain highways; 55 mph on other open highways that are not interstates or four-lane freeways/expressways; 65 mph on surfaced four-lane freeways. The handbook (p. 15) lists 55 mph on urban interstates and highways and 65-75 mph on designated rural interstates and highways.",
+      "number": 55,
+      "unit": "mph",
+      "source": {
+        "url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-42.pdf",
+        "page": 535,
+        "quote": "Fifty-five miles per hour on other open highways which are not on the interstate system"
+      }
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "75 mph",
+      "detail": "75 mph is the maximum lawful speed anywhere in Colorado (designated rural interstates and highways).",
+      "number": 75,
+      "unit": "mph",
+      "source": {
+        "url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-42.pdf",
+        "page": 536,
+        "quote": "no person shall drive a vehicle on a highway at a speed in excess of a maximum lawful speed limit of seventy-five miles per hour"
+      }
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Driving below a posted minimum is a violation unless road/weather conditions require it",
+      "detail": "Some roads, such as freeways, post minimum speeds. Driving much slower than the posted speed in normal conditions can also create unsafe situations.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 15,
+        "quote": "Driving slower than the minimum speed limit is a traffic violation, unless due to road or weather conditions."
+      }
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a full stop and yielding, unless a sign prohibits it",
+      "detail": "Stop, yield to pedestrians and other traffic, then turn right unless a sign forbids it.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 10,
+        "quote": "After stopping and yielding to pedestrians and other traffic, and if not prohibited by a traffic sign, you may turn right while the light is red."
+      }
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Only from a one-way street onto another one-way street, unless prohibited by a sign",
+      "detail": "Stop and yield first, as with a right turn on red.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 10,
+        "quote": "Also, you may turn left on a red light if you are turning from a one-way street onto another one-way street, unless prohibited by a sign."
+      }
+    },
+    {
+      "key": "signal_distance",
+      "value": "100 feet in urban areas; 200 feet on four-lane highways over 40 mph",
+      "detail": "Signal continuously before turning or changing lanes. Rule of thumb: at least 3 seconds. On freeways, signal at least 200 feet before changing lanes or the deceleration lane.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 15,
+        "quote": "In urban areas, you must signal continuously for 100 feet before making a turn or lane change. On four lane highways where the posted speed limit is faster than 40 mph, you must signal for 200 feet before making a turn or lane change."
+      }
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Yield; pull to the right edge and stop (drive through an intersection first)",
+      "detail": "Applies to emergency vehicles using a siren, air horn and/or flashing red, blue, white or yellow lights. The handbook gives no following distance for emergency vehicles.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 14,
+        "quote": "You must yield the right-of-way to all emergency vehicles using a siren, air horn and/ or flashing red, blue, white or yellow lights. Where possible, you must pull to the right edge of the road and come to a stop."
+      }
+    },
+    {
+      "key": "move_over_law",
+      "value": "Move over one lane; if you can't, slow to 25 mph (limit under 45) or 20 mph below the limit (45+)",
+      "detail": "Applies to stationary emergency vehicles, tow trucks, utility vehicles and any stationary vehicle with hazards flashing (C.R.S. 42-4-705(2)). If you can't move over, slow down: handbook p. 14 says 25 mph if posted 45 mph or less, or 20 mph under the limit if posted above 45; C.R.S. 42-4-705(2)(c)(II) presumes the same speeds safe. Handbook p. 30 states the rule more generally as at least 20 mph below the limit.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 30,
+        "quote": "When you encounter any stationary vehicle on a highway with its hazards flashing, you must move over one lane if you can do so safely."
+      }
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop at least 20 feet away from a bus with flashing red lights",
+      "detail": "Two-lane roads and four-lane roads without a median: both directions stop. Divided highway (four or more lanes with a median) or five or more lanes with a shared center turn lane: only traffic behind the bus must stop. Stay stopped until the red lights stop flashing.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 23,
+        "quote": "If a school bus displays alternating flashing red light signals, visible from the front or rear, you must stop at least 20 feet before reaching the bus."
+      }
+    },
+    {
+      "key": "following_distance",
+      "value": "3 seconds (normal conditions)",
+      "detail": "Count three seconds after the vehicle ahead passes a fixed point. Increase the gap for weather, road conditions, traffic and night driving.",
+      "number": 3,
+      "unit": "seconds",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 21,
+        "quote": "Under normal conditions, use the three-second rule to gauge how much space you should leave between your vehicle and the vehicle in front of you."
+      }
+    },
+    {
+      "key": "headlights_required",
+      "value": "Sunset to sunrise, or when visibility is under 1,000 feet",
+      "detail": "Parked vehicles along the road must show parking lights during the same times. Never drive with only parking lights on.",
+      "number": 1000,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 19,
+        "quote": "Colorado law requires you to drive with your headlights on from sunset to sunrise or when visibility is less than 1,000 feet."
+      }
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "Within 500 feet of an oncoming vehicle",
+      "detail": "Dim high beams (or low beams with fog lights) before coming within 500 feet of oncoming traffic.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 19,
+        "quote": "you must dim them before coming within 500 feet of any oncoming vehicle"
+      }
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "Within 200 feet of the vehicle ahead",
+      "detail": "Use low beams with fog lights off when following within 200 feet.",
+      "number": 200,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 19,
+        "quote": "When following another vehicle, you must use your low beam lights, with your fog lights off, if you are within 200 feet of the vehicle ahead of you."
+      }
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet",
+      "detail": "No parking within 15 feet of a fire hydrant.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 16,
+        "quote": "Within 30 feet of a traffic signal, stop sign, railroad crossing or within 15 feet of a fire hydrant"
+      }
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "Not on a crosswalk; not within 20 feet of a crosswalk at an intersection",
+      "detail": "The handbook lists only 'on a crosswalk'; C.R.S. 42-4-1204(2)(c) adds the 20-foot rule at intersections.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-42.pdf",
+        "page": 545,
+        "quote": "Within twenty feet of a crosswalk at an intersection"
+      }
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Not within an intersection",
+      "detail": "Also no parking in a tunnel, on a runaway truck ramp, on an on/off ramp, blocking a driveway, or in a bike lane. No specific distance from an intersection beyond the crosswalk rule.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 16,
+        "quote": "Within an intersection, tunnel, runaway truck ramp, on/ off ramp or blocking a driveway"
+      }
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet",
+      "detail": "No parking within 30 feet of a traffic signal or stop sign.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 16,
+        "quote": "Within 30 feet of a traffic signal, stop sign, railroad crossing or within 15 feet of a fire hydrant"
+      }
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet from the nearest rail (statute); handbook says 30 feet of a railroad crossing",
+      "detail": "Discrepancy: C.R.S. 42-4-1204(3)(a) says 50 feet from the nearest rail; handbook p. 16 lists 'within 30 feet of ... railroad crossing'. Parking on railroad tracks is always prohibited.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-42.pdf",
+        "page": 546,
+        "quote": "Within fifty feet of the nearest rail of a railroad crossing"
+      }
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet from a fire station driveway (75 feet on the opposite side when signposted)",
+      "detail": "From C.R.S. 42-4-1204(2)(e); the handbook does not list this distance.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-42.pdf",
+        "page": 545,
+        "quote": "Within twenty feet of the driveway entrance to any fire station"
+      }
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "Within 12 inches of the curb",
+      "detail": "Where parallel parking is allowed, park within 12 inches of the curb or as close as possible to the outside edge of the shoulder.",
+      "number": 12,
+      "unit": "inches",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 17,
+        "quote": "your vehicle must be within 12 inches of the curb"
+      }
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "Behind the stop line, or at least 10 feet from the tracks if there is no line",
+      "detail": "Trains overhang the tracks by 3 feet. Never stop on the tracks.",
+      "number": 10,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 24,
+        "quote": "If no line is visible, you must be at least 10 feet from the tracks."
+      }
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet of clearance",
+      "detail": "Applies even to bicyclists in a bike lane, measured from mirrors and trailers. You may briefly cross a solid or double yellow line to give 3 feet when there is no oncoming traffic. If you can't give 3 feet, stay behind.",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 25,
+        "quote": "When passing bicyclists, including those in a bike lane, motorists are required to give a minimum of three feet from the outermost part of their vehicle or any attachments."
+      }
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Pedestrians have the right-of-way at all intersections and crosswalks, marked or unmarked",
+      "detail": "Never pass a vehicle stopped at a crosswalk; stop behind it (or behind the crosswalk in the next lane).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 27,
+        "quote": "Pedestrians have the right-of-way at all intersections and crosswalks, even if the lines are not marked or painted."
+      }
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Stop, help, call law enforcement; during Accident Alert, report within 24 hours",
+      "detail": "After any crash: stop, check for injuries, call law enforcement and exchange information. During Accident Alert Status (no injuries, no alcohol/drugs, vehicles drivable), exchange information and file a report within 24 hours. A passenger must report the crash if the driver can't.",
+      "number": 24,
+      "unit": "hours",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 29,
+        "quote": "You must file an accident report with law enforcement within 24 hours."
+      }
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "25/50/15 liability",
+      "detail": "$25,000 bodily injury per person, $50,000 per accident, $15,000 property damage. Drivers must carry proof of insurance and show it after a crash or when an officer asks.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://doi.colorado.gov/types-of-insurance/auto-insurance",
+        "page": null,
+        "quote": "The minimum limit of liability coverage that is required is $25,000 per person for bodily injury, $50,000 per accident and $15,000 for property damage to another."
+      }
+    },
+    {
+      "key": "point_system",
+      "value": "Adults (21+): suspension at 12 points in 12 months or 18 in 24 months",
+      "detail": "C.R.S. 42-2-127(1)(a). Minor drivers 18 and older: 9 points in 12 months, 12 in 24 months, or 14 points after turning 18. Under 18: more than 5 points (6+) in 12 months or more than 6 points (7+) total. Handbook examples: 1st DWAI = 8 points; reckless driving = up to 8 points.",
+      "number": 12,
+      "unit": "points",
+      "source": {
+        "url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-42.pdf",
+        "page": 107,
+        "quote": "accumulation of twelve points or more within any twelve consecutive months or eighteen points or more within any twenty-four consecutive months"
+      }
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Helmets required for riders and passengers under 18; eye protection for all",
+      "detail": "Helmets must meet DOT FMVSS 218 standards. All riders and passengers need goggles or safety glasses unless their helmet has safety glass/plastic eye protection (C.R.S. 42-4-232).",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-42.pdf",
+        "page": 606,
+        "quote": "Each person under eighteen years of age is wearing a protective helmet of a type and design manufactured for use by operators of motorcycles"
+      }
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Lane splitting illegal; lane filtering past stopped traffic at 15 mph or less allowed",
+      "detail": "Two-wheeled motorcycles may pass stopped vehicles in the same lane when adjacent same-direction traffic is also stopped, at 15 mph or less (C.R.S. 42-4-1503, since Aug. 7, 2024; set to repeal Sept. 1, 2027). Riding between moving vehicles stays illegal, as does filtering on the right shoulder or in opposing lanes.",
+      "number": 15,
+      "unit": "mph",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 22,
+        "quote": "An operator of a two-wheeled motorcycle can pass other motor vehicles in the same lane as long as the other vehicles are stopped, motor vehicles in lanes next to the lane occupied by the two-wheeled motorcycle are stopped, and there is enough room for the two-wheeled motorcycle to pass safely at a speed no greater than 15 miles per hour."
+      }
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "DWAI: impaired to the slightest degree",
+      "summary": "Besides DUI, Colorado has DWAI (Driving While Ability Impaired) for drivers impaired 'to the slightest degree'; the handbook's penalty table lists DWAI at 0.05% BAC with 8 points.",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 6,
+        "quote": "DWAI means the driver is impaired to the slightest degree."
+      }
+    },
+    {
+      "title": "THC 5 ng/ml permissible inference",
+      "summary": "A blood THC level of 5 nanograms per milliliter allows an inference of DUI. Medical use of marijuana is not a defense.",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 8,
+        "quote": "There is a permissible inference that a driver was DUI if the driver’s blood contained 5 nanograms of THC per milliliter (ng/ml) of blood."
+      }
+    },
+    {
+      "title": "No plea bargaining alcohol/drug offenses",
+      "summary": "Colorado does not allow plea bargaining out of an alcohol- or drug-related driving offense.",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 8,
+        "quote": "Colorado law does not allow you to plea bargain out of an alcohol or drug related driving offense."
+      }
+    },
+    {
+      "title": "No earphones covering both ears",
+      "summary": "Drivers may not wear earphones (any device covering all or part of both ears). Hearing aids and single-ear devices connected to a phone are allowed.",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 8,
+        "quote": "You may not operate a motor vehicle while wearing earphones."
+      }
+    },
+    {
+      "title": "Yield to large vehicles in roundabouts",
+      "summary": "Drivers must yield to trucks, buses, emergency vehicles and RVs in a roundabout; when two large vehicles meet, the one on the right yields to the one on the left.",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 13,
+        "quote": "Before entering the roundabout, Colorado law requires drivers to yield the right-of-way to the driver of a truck, bus, emergency vehicle or recreational vehicle (large vehicle) when entering, exiting or driving in a roundabout."
+      }
+    },
+    {
+      "title": "Narrow mountain roads: downhill yields",
+      "summary": "On a steep road too narrow for two vehicles, the vehicle going downhill must yield by backing up or stopping, unless it is more practical for the uphill vehicle to back up.",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 14,
+        "quote": "the vehicle going downhill must yield the right-of-way by backing up to a wider place or by stopping, then leaving enough space for the vehicle going uphill"
+      }
+    },
+    {
+      "title": "No passing snow plows in tandem",
+      "summary": "It is illegal to pass government snow plows working in tandem (staggered formation) with yellow lights flashing.",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 20,
+        "quote": "It is illegal to pass a city, county or state-operated snow plow while it’s working with its yellow lights flashing and is driving in tandem with one or more other snow plows."
+      }
+    },
+    {
+      "title": "Move It Law",
+      "summary": "After a minor crash on a divided highway with no injuries, no alcohol or drugs, and drivable vehicles, drivers must move off the highway before exchanging information.",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 29,
+        "quote": "State law requires motorists involved in a minor crash on a divided highway to move their vehicles off the highway when:"
+      }
+    },
+    {
+      "title": "Bicyclist 'safety stop'",
+      "summary": "Since 2022, bicyclists 15 and older may treat stop signs as yield signs and red lights as stop signs when the intersection is clear and they have the right-of-way.",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 26,
+        "quote": "bicyclists ages 15 and older may now treat stop signs as yield signs and treat stop lights as stop signs"
+      }
+    },
+    {
+      "title": "Crossing double yellow to pass bicyclists",
+      "summary": "Drivers may cross a double yellow line, with no oncoming traffic, to give a bicyclist the required 3 feet.",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 25,
+        "quote": "It is legal to cross a double yellow line with no oncoming traffic if necessary to provide a minimum of three feet of passing distance."
+      }
+    },
+    {
+      "title": "*CSP (*277) aggressive driver line",
+      "summary": "Call *277 (*CSP) from a cellphone to report aggressive drivers to the Colorado State Patrol; the call is free.",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 28,
+        "quote": "Dial *CSP (*277) to report aggressive drivers."
+      }
+    },
+    {
+      "title": "Double fines in work zones",
+      "summary": "Speeding fines are doubled in work/construction zones (as in school zones).",
+      "source": {
+        "url": "https://dmv.colorado.gov/sites/default/files/documents/DR_2337_Jan2025.pdf",
+        "page": 15,
+        "quote": "Failure to follow the speed limit in a work/ construction zone can result in double fines."
+      }
+    },
+    {
+      "title": "Motorcycles: no more than two abreast",
+      "summary": "Motorcycles may not ride more than two abreast in a single lane. A motorcycle may not pass in the same lane or ride between lanes, except for two-wheeled motorcycles lane filtering past stopped traffic at 15 mph or less (never on the right shoulder or in an opposing lane).",
+      "source": {
+        "url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-42.pdf",
+        "page": 607,
+        "quote": "Motorcycles shall not be operated more than two abreast in a single lane."
+      }
+    },
+    {
+      "title": "Motorcycle eye protection",
+      "summary": "Every motorcycle operator and passenger must wear goggles or eyeglasses with safety glass or plastic lenses, unless their helmet contains such eye protection. Colorado has no windshield exception for motorcycles (only certain three-wheeled autocycles).",
+      "source": {
+        "url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-42.pdf",
+        "page": 402,
+        "quote": "is wearing goggles or eyeglasses with lenses made of safety glass or plastic; except that this subsection (1) does not apply to a person wearing a helmet containing eye protection made of safety glass or plastic"
+      }
+    }
+  ],
+  "officialPracticeTests": [
+    "https://dmv.colorado.gov/drivereducation",
+    "https://docs.google.com/forms/d/e/1FAIpQLSc54bWiCy0TWVtzxUn7O7EAgPdqXe16A_U19RmDe3YPSYhHVQ/viewform"
+  ],
+  "verifiedOn": "2026-10-14"
+}

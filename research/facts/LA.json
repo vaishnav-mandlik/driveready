@@ -1,0 +1,776 @@
+{
+  "code": "LA",
+  "name": "Louisiana",
+  "agency": {
+    "name": "Louisiana Department of Public Safety and Corrections, Office of Motor Vehicles",
+    "abbreviation": "OMV",
+    "website": "https://expresslane.la.gov/omv"
+  },
+  "handbook": {
+    "title": "Class D & E Driver's Guide",
+    "edition": "Form DPSMV2052 (table-of-contents footer reads R03/2021; the PDF was last modified June 22, 2026 and includes 2024-2025 content such as the all-driver hands-free law citing R.S. 32:59). It is the Class D & E guide linked from the OMV Driver Manuals page (expresslane.la.gov/omv/resources/driver-manuals/) as of Oct 2026. Page numbers are PDF pages (printed page number + 5).",
+    "url": "https://public.powerdms.com/LADPSC/documents/347039"
+  },
+  "knowledgeTest": {
+    "questions": 40,
+    "passingScore": 32,
+    "passingPercent": 80,
+    "roadSigns": null,
+    "timeLimitMinutes": null,
+    "format": "Multiple-choice knowledge test on traffic signs and signals, safe driving practices and Louisiana laws, taken from the Driver's Guide and given on a computer in most OMV offices (Guide p. 13). For new drivers it may be taken with OMV or the driving school after the applicant obtains a Temporary Instructional Permit (TIP).",
+    "languages": "OMV publishes no list of test languages. If an applicant does not have a good understanding of written English, they may bring a translator to assist with any class knowledge test, excluding CDL (OMV Translate page). OMV's free LanguageLine interpreter service is not available for testing visits.",
+    "retestWait": "Not published by OMV.",
+    "notes": "OMV's Permits page: learner's permit applicants must pass a 40-question test with a minimum score of 80% and have 20/40 vision in one eye. Teens: a TIP is required first (available at 14); learner's permit at 15 after a 38-hour course (30 classroom + 8 behind-the-wheel), held 180 days and until age 16; intermediate license at 16 with 50 supervised hours (15 at night) and a road test; full Class E at 17. Age 17: eligible for either a learner's permit or a full license. Applicants 18+ who never entered the GDL program may get a full Class E license or a learner's permit after a 38-hour driver education course or a 6-hour pre-licensing course plus 8 hours behind the wheel. No separately scored road-signs section is described; the test covers traffic signs and signals, safe driving practices and Louisiana laws.",
+    "sourceUrl": "https://expresslane.la.gov/omv/drivers/personal-driver-s-licenses/permits/"
+  },
+  "motorcycleTest": null,
+  "cdlTest": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08%",
+      "detail": "Drivers 21 or older are over the legal limit at a BAC of .08. A test result of 0.08% or more also triggers an administrative license suspension.",
+      "number": 0.08,
+      "unit": "percent BAC",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 128,
+        "quote": ".08 if you are 21 years of age or older"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02%",
+      "detail": "Drivers 20 and younger are over the limit at .02 BAC. An under-21 driver who tests 0.02% or more loses driving privileges for 180 days.",
+      "number": 0.02,
+      "unit": "percent BAC",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 128,
+        "quote": ".02 if you are 20 years of age and younger"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04%",
+      "detail": "The limit is .04 BAC while operating a commercial motor vehicle.",
+      "number": 0.04,
+      "unit": "percent BAC",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 128,
+        "quote": ".04 if you are operating a commercial motor vehicle"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusal = 365-day suspension (1st); 730 days (2nd or later)",
+      "detail": "By driving in Louisiana you are deemed to have consented to a chemical test. Refusing suspends driving privileges for 365 days on a first offense and 730 days on a second or later offense, and reinstatement requires an SR-22 (or $30,000 security) kept for 3 years.",
+      "number": 365,
+      "unit": "days",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 131,
+        "quote": "If you refuse to submit to the test, your driving privileges will be suspended for 365 days on your first offense."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "Up to 6 months jail, $1,025 fine + costs, 1-year license loss",
+      "detail": "Maximum penalties for a 1st DWI conviction: criminal record, six months in jail, a $1,025 fine plus court costs, and loss of license for 1 year (365 days). The guide says a first conviction can cost about $4,500 in all.",
+      "number": 365,
+      "unit": "days",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 129,
+        "quote": "Loss of driver’s license for 1 year (365 days)"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "open_container",
+      "value": "No open alcoholic beverage containers or drinking in a vehicle",
+      "detail": "Louisiana's open-container law bans both possessing an open alcoholic beverage container and drinking any alcoholic beverage in a vehicle; the driver is at risk of fines even if not drinking.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 129,
+        "quote": "This law prohibits both the possession of any open alcoholic beverage container and consumption of any alcohol beverage in a vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15",
+      "detail": "A learner's permit can be issued at 15 after a 30-hour classroom / 8-hour behind-the-wheel driver education course and passing vision and knowledge tests (80%). A Temporary Instructional Permit (TIP) is needed first and can be issued at 14.",
+      "number": 15,
+      "unit": "years",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 12,
+        "quote": "Must be a minimum of fifteen (15) years of age."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "180 days",
+      "detail": "The learner's permit must be held at least 180 days, and the holder cannot move to the intermediate stage before turning 16.",
+      "number": 180,
+      "unit": "days",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 12,
+        "quote": "Must maintain learner’s license for a minimum of one hundred eighty (180) days and cannot advance to intermediate stage until attainment of sixteenth (16th) birthday."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "50 hours, including 15 at night",
+      "detail": "Before an intermediate license is issued, a parent or guardian must sign a statement that the teen has at least 50 hours of supervised behind-the-wheel driving, at least 15 of them at night.",
+      "number": 50,
+      "unit": "hours",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 12,
+        "quote": "At least fifteen (15) of these hours must be night time driving."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Licensed adult 21+ or licensed sibling 18+",
+      "detail": "A learner's permit holder may drive only with a licensed adult at least 21 or a sibling at least 18.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 12,
+        "quote": "Is authorized to drive only with a licensed adult at least twenty-one (21) years of age or sibling at least eighteen (18) years of age."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 (intermediate license)",
+      "detail": "The intermediate license (Stage 2) requires age 16, completion of Stage 1 and passing the road skills test with at least 80%. It must be kept until the 17th birthday.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 12,
+        "quote": "Must be a minimum of sixteen (16) years of age."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "No driving 11 p.m. - 5 a.m. unless with a licensed adult 21+ or sibling 18+",
+      "detail": "Intermediate licensees may not drive between 11:00 p.m. and 5:00 a.m. unless accompanied by a licensed adult at least 21 or a licensed sibling at least 18.",
+      "number": 23,
+      "unit": "hour (11 p.m.)",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 12,
+        "quote": "Is prohibited from driving between the hours of 11:00 p.m. and 5:00 a.m., unless accompanied by a licensed adult at least twenty-one (21) years of age or sibling at least eighteen (18) years of age."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "6 p.m. - 5 a.m.: no more than 1 non-family passenger under 21",
+      "detail": "From 6 p.m. to 5 a.m., an intermediate licensee may carry no more than one passenger under 21 who is not an immediate family member, unless a licensed adult 21 or older is in the car.",
+      "number": 1,
+      "unit": "passenger",
+      "source": {
+        "url": "https://expresslane.la.gov/omv/media/qa0jml1m/louisiana-graduated-dl-program.pdf",
+        "page": 2,
+        "quote": "Unless accompanied by a licensed adult 21 years old or older, the teen may not transport more than one passenger under age 21 and who is not an immediate family member, between the hours of 6 pm–5am."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "17",
+      "detail": "A full Class E license is available after completing Stages 1 and 2, or to a first-time applicant who is at least 17 (after the required driver education and tests).",
+      "number": 17,
+      "unit": "years",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 12,
+        "quote": "Must be at least seventeen (17) years of age prior to application for first license."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "All drivers: wireless devices only if hands-free",
+      "detail": "Louisiana law prohibits anyone from using a wireless communication device while driving unless it is hands-free (exceptions in R.S. 32:59).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 83,
+        "quote": "Anyone using any type of wireless communication device while operating a motor vehicle, unless they are hands free"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "texting_ban",
+      "value": "No writing, sending or reading texts, any age",
+      "detail": "No driver of any age may write, send or read a text-based communication, or access, read or post to a social networking site, while driving.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 83,
+        "quote": "Anyone to write, send, or read a text-based communication, regardless of age"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Drivers 17 and under: no calls or texting (learner's permit: no phone use at all, even hands-free)",
+      "detail": "Drivers 17 or younger may not use any wireless device to make a call or to write, send or read texts. The OMV GDL sheet adds that learner's permit holders may not use a cell phone at all, including hands-free.",
+      "number": 17,
+      "unit": "years",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 116,
+        "quote": "no person who is seventeen years of age or younger shall operate a motor vehicle on any public road or highway in this state while using any wireless telecommunications device to engage in a call or write, send or read a text-based communication."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "All occupants, front and back seats",
+      "detail": "Louisiana's mandatory safety belt law covers every occupant in both the front and back seats of cars, vans and pickup trucks.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 44,
+        "quote": "Louisiana has a mandatory safety belt use law which requires all passengers in both the front and back seats in cars, vans and pickup trucks to be properly buckled."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Rear-facing to at least 2; forward-facing 2-4; booster 4-9; belt at 9; back seat under 13",
+      "detail": "R.S. 32:295: birth to at least 2 years rear-facing seat; 2-4 years forward-facing seat; 4-9 years booster seat; 9 years lap/shoulder belt; children younger than 13 ride in the rear seat when available. A child who fits more than one category must use the more protective one.",
+      "number": 13,
+      "unit": "years (rear seat)",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 45,
+        "quote": "Younger than 13 years – ride in the rear seat of a vehicle, when available and properly restrained"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Never faster than is reasonable for conditions",
+      "detail": "Louisiana's General Speed Law: you must not drive faster than is reasonable for the area, road, traffic, light and weather conditions, even under the posted limit.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 92,
+        "quote": "The General Speed Law is that you must not drive at a speed greater than is reasonable."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "55 mph unless posted; 65 mph on multi-lane divided highways",
+      "detail": "By statute (R.S. 32:61) the default maximum on Louisiana highways is 55 mph unless a lower limit is posted; 65 mph on multi-lane divided highways with partial or no access control; 70 mph on interstates/controlled-access highways.",
+      "number": 55,
+      "unit": "mph",
+      "source": {
+        "url": "https://legis.la.gov/Legis/Law.aspx?d=88480",
+        "page": null,
+        "quote": "No person shall operate a vehicle on any highway of this state in excess of fifty-five miles per hour, unless a lower maximum speed is posted on the highway"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "70 mph (75 mph on posted portions of I-49)",
+      "detail": "The maximum speed on Louisiana interstates is 70 mph unless otherwise posted (Guide p. 105). The guide's Class D chapter (p. 134) notes that on portions of I-49 the speed limit is 75 mph.",
+      "number": 70,
+      "unit": "mph",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 105,
+        "quote": "Remember that the maximum speed allowed is 70 miles per hour unless otherwise posted."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Do not drive below a posted minimum or so slowly you impede traffic",
+      "detail": "You must not drive slower than a posted minimum (minimums are posted on interstates) and must not drive so slowly that you impede traffic, unless weather or road conditions require it.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 92,
+        "quote": "You must not drive slower than the posted minimum limit."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a full stop unless a sign prohibits it",
+      "detail": "After stopping and yielding to traffic and pedestrians, you may turn right on a steady red unless a NO TURN ON RED sign is posted.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 39,
+        "quote": "When turning right at an intersection, if there is no sign prohibiting a right turn on red, you may turn after stopping and yielding to traffic, including pedestrians."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Only from a one-way street onto another one-way street",
+      "detail": "A left turn on red may be permitted from a one-way street onto another one-way street, after yielding to all traffic and pedestrians.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 39,
+        "quote": "Some left turns may be permitted on red when moving from a one-way street onto another one-way street."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "signal_distance",
+      "value": "100 feet",
+      "detail": "A turn signal must be given continuously for at least 100 feet before turning; signal earlier at higher speeds or in heavy traffic.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 97,
+        "quote": "A right or left turn signal must be given continuously for not less than 100 feet before making the turn."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the right edge, stop until it passes; do not follow within 500 feet",
+      "detail": "Yield to an emergency vehicle using audible or visual signals by driving to a position parallel to the right-hand edge or curb (clear of intersections, p. 98) and stopping until it passes. It is unlawful to follow an emergency vehicle answering a call closer than 500 feet or to park in the block where it has stopped (p. 102).",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 126,
+        "quote": "you will always yield the right-of-way and immediately drive to a position parallel to the right-hand edge or curb and remain stopped until that vehicle has passed."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "move_over_law",
+      "value": "Change to a non-adjacent lane; if impossible, slow down",
+      "detail": "When passing a vehicle parked on or near the road using flashing warning lights on a highway with two or more lanes in your direction, move into a lane not next to it if safe; if you cannot, slow to a reasonably safe speed. On a two-lane road, keep a safe speed for conditions (R.S. 32:125, procedure unchanged by the 2026 amendment).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 126,
+        "quote": "When driving on an interstate highway or other highway with two or more lanes traveling in the same direction, yield the right-of-way by making a lane change into a lane not adjacent to the parked vehicle, if possible with due regard to safety and traffic conditions."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop at least 30 feet away (both directions unless physically divided)",
+      "detail": "Stop at least 30 feet from a school bus loading or unloading children, whether meeting or following it. Opposite-direction traffic need not stop where the road is separated by a ditch, grassy median, barrier or similar obstacle, or on 4- or 5-lane roads separated by a two-way left-turn lane; on an undivided 4-lane road, or a 2-lane road with a center turn lane, everyone stops.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 93,
+        "quote": "You must stop at least thirty feet from a stopped school bus that is loading or unloading children."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "following_distance",
+      "value": "3 seconds (4+ in bad conditions)",
+      "detail": "Use the 3-second rule in normal conditions; increase to 4 seconds in bad weather, on wet pavement, behind motorcycles and in other risky situations, and leave 4-5 seconds behind large trucks.",
+      "number": 3,
+      "unit": "seconds",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 70,
+        "quote": "Since most people have trouble judging distances, the “3-second rule” makes it easier for you."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "headlights_required",
+      "value": "Sunset to sunrise; when wipers are needed; visibility under 500 feet",
+      "detail": "Headlights (not just parking lights) are required from sunset to sunrise, whenever moisture or precipitation requires windshield wipers, and when weather makes it hard to see your vehicle from 500 feet.",
+      "number": 500,
+      "unit": "feet (visibility)",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 80,
+        "quote": "Louisiana law requires that your headlights (not just parking lights) be on between sunset and sunrise."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "500 feet",
+      "detail": "Switch to low beams when approaching within 500 feet of an oncoming vehicle.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 80,
+        "quote": "You are required by law to use lower headlight beams, not your “bright lights”, when approaching within 500 feet of or following within 200 feet of another vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "200 feet",
+      "detail": "Switch to low beams when following within 200 feet of another vehicle.",
+      "number": 200,
+      "unit": "feet",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 80,
+        "quote": "You are required by law to use lower headlight beams, not your “bright lights”, when approaching within 500 feet of or following within 200 feet of another vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet",
+      "detail": "No parking within 15 feet of a fire hydrant (R.S. 32:143).",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 75,
+        "quote": "Within 15 feet of a fire hydrant or within 50 feet of a railroad crossing"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "20 feet (crosswalk at an intersection)",
+      "detail": "No parking within 20 feet of a crosswalk at an intersection.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 75,
+        "quote": "Within 20 feet of a crosswalk at an intersection"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Not in an intersection",
+      "detail": "Parking in an intersection is prohibited; the guide gives no separate distance from an intersection other than 20 feet from a crosswalk at an intersection.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 75,
+        "quote": "In an intersection"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "20 feet",
+      "detail": "No parking within 20 feet of a traffic signal, flashing beacon, stop sign, yield sign or traffic-control signal at the side of the road.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 75,
+        "quote": "Within 20 feet of a traffic signal, flashing beacon, stop sign, yield sign or traffic control signal located at the side of a roadway"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet",
+      "detail": "No parking within 50 feet of a railroad crossing.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 75,
+        "quote": "Within 15 feet of a fire hydrant or within 50 feet of a railroad crossing"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet same side; 75 feet across the street",
+      "detail": "No parking within 20 feet of a fire station driveway on the same side of the street, or within 75 feet of it on the opposite side.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 75,
+        "quote": "Within 20 feet of a fire station driveway on the same side of the street, or within 75 feet of the driveway on the other side of the street"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "Within 18 inches",
+      "detail": "When parallel parked, the right wheels must be within 18 inches of the right-hand curb.",
+      "number": 18,
+      "unit": "inches",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 75,
+        "quote": "When parallel parked, the vehicle’s right wheels must be within 18 inches of the right-hand curb of the street."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "Between 15 and 50 feet from the nearest rail",
+      "detail": "R.S. 32:171: when a signal is flashing, a gate is down, or a train is near enough to be a hazard, stop within 50 feet but no closer than 15 feet from the nearest rail. Never drive around a lowered gate.",
+      "number": 15,
+      "unit": "feet (minimum)",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 99,
+        "quote": "stop within 50 feet but no less than 15 feet from the nearest rail of a railroad crossing when:"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet",
+      "detail": "R.S. 32:76.1 requires at least three feet between a passing vehicle and a slower bicyclist.",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 85,
+        "quote": "A three-foot distance must be present between the passing automobile and slower traveling bicyclists. (R.S. 32:76.1)"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Yield to pedestrians at all times, even jaywalkers",
+      "detail": "Pedestrians have the right of way in marked crosswalks, when crossing with a green or WALK signal, and over a car turning right on red. You must stop even for a pedestrian crossing illegally, and must not pass a vehicle stopped at a crosswalk.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 81,
+        "quote": "You must yield to pedestrians at all times."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Stop, give aid, call police; exchange information",
+      "detail": "After a crash with injury, death or property damage you must stop, check for injuries, call the police (and an ambulance if needed), and give your name, address and plate number (and show your license if asked). If you hit an unattended vehicle or property, notify police, try to find the owner and leave a note. No dollar threshold is given in the guide.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 125,
+        "quote": "If you are involved in a traffic crash resulting in injury, death or property damage, you are required to:"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "15/30/25",
+      "detail": "Minimum liability limits (R.S. 32:900): $15,000 bodily injury per person, $30,000 per accident, $25,000 property damage. Proof of insurance must be kept in the vehicle.",
+      "number": 15000,
+      "unit": "dollars per person",
+      "source": {
+        "url": "https://legis.la.gov/Legis/Law.aspx?d=88632",
+        "page": null,
+        "quote": "Fifteen thousand dollars because of bodily injury to or death of one person in any one accident"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "All operators and riders must wear a helmet",
+      "detail": "R.S. 32:190 requires every person operating or riding a motorcycle, motor-driven cycle or motorized bicycle to wear a safety helmet secured with a chin strap while the vehicle is in motion; there is no age exemption. Under R.S. 32:190.1 the operator must also wear an eye protective device unless the motorcycle has a windshield high enough to give adequate eye protection, and eye protection used at night must not be tinted.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://legis.la.gov/Legis/Law.aspx?d=88170",
+        "page": null,
+        "quote": "No person shall operate or ride upon any motorcycle, motor-driven cycle, or motorized bicycle unless the person is equipped with and is wearing on the head a safety helmet"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Prohibited",
+      "detail": "R.S. 32:191.1: no riding between lanes of traffic or between rows of vehicles; motorcycles are entitled to the full use of a lane and may ride no more than two abreast in one lane.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://legis.la.gov/Legis/Law.aspx?d=88173",
+        "page": null,
+        "quote": "No person shall operate a motorcycle between lanes of traffic or between adjacent lines or rows of vehicles."
+      },
+      "status": "verified"
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Do not follow emergency vehicles within 500 feet",
+      "summary": "It is unlawful to follow an emergency vehicle that is answering a call closer than 500 feet, or to follow it into and park in the block where it has stopped.",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 102,
+        "quote": "Following emergency vehicles responding to call closer than 500 feet is unlawful."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "School buses on roads with a two-way left-turn lane",
+      "summary": "Opposite-direction traffic does not stop for a school bus on 4- or 5-lane roads separated by a two-way left-turn lane, but must stop on an undivided 4-lane road and on a 2-lane road with a center turn lane, which is not considered divided.",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 94,
+        "quote": "A roadway with one lane in each direction and with a dedicated two-way left turn lane is not considered a divided highway and drivers must stop for the school bus."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "200-foot limit in a shared center left-turn lane",
+      "summary": "You may not travel more than 200 feet in a shared center (two-way) left-turn lane, and may use it only to turn left, never to pass.",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 96,
+        "quote": "Louisiana law prohibits traveling in this lane for more than 200 feet."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Dark traffic signal = all-way stop",
+      "summary": "When a traffic signal at an intersection is not working, the intersection becomes an all-way (four-way) stop.",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 91,
+        "quote": "When a traffic-control signal is not functioning at an intersection, the intersection shall revert to an all-way or four-way stop."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Riding in open truck beds",
+      "summary": "No one under 12 may ride in the open bed of a truck, and no one of any age may ride in an open truck bed on an interstate.",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 101,
+        "quote": "No person(s) of any age is permitted to be a passenger in the open bed of a truck when the truck is moving upon an interstate highway of this state."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Headphones in both ears prohibited",
+      "summary": "Drivers may not wear headphones or other listening devices (other than hearing aids) in both ears; one ear is allowed.",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 102,
+        "quote": "Wearing headphones (headset, headphone, or listening devise other than a hearing aid) in both ears is prohibited."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Double fines in construction zones",
+      "summary": "Traffic fines are doubled in Louisiana highway construction zones.",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 36,
+        "quote": "In Louisiana, traffic fines are double for construction zones."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Keep right; left lane is not for slower traffic",
+      "summary": "Vehicles should use the right-hand lane except to prepare for a left turn, pass, or when right lanes are congested; a vehicle in the left lane may not go slower than traffic to its right.",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 40,
+        "quote": "No vehicle driven in the left hand lane shall be driven at speeds slower than vehicles traveling to its right."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Administrative suspension after a failed chemical test",
+      "summary": "Drivers 21+ who test 0.08-0.149% lose driving privileges for 180 days; 0.15% or more means a two-year (730-day) suspension. Under 21 at 0.02% or more: 180 days.",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 131,
+        "quote": "If your BAC level is 0.15% or greater, your driving privileges will be suspended for two years (730 day)."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "No proof of insurance: plate seized",
+      "summary": "If you cannot show proof of insurance when stopped, your license plate is seized and the vehicle may be impounded; you have 3 calendar days (excluding weekends and holidays) to bring proof to an OMV office or the plate is destroyed.",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 141,
+        "quote": "If you are stopped by a law enforcement officer and you are unable to provide the proof of insurance, the vehicle’s license plate will be seized and the vehicle may be impounded."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Learner's permit: no phone use, even hands-free",
+      "summary": "OMV's Graduated Driver's License sheet lists restriction 02 for learner's permit holders: no cell phone usage at all, including hands-free.",
+      "source": {
+        "url": "https://expresslane.la.gov/omv/media/qa0jml1m/louisiana-graduated-dl-program.pdf",
+        "page": 1,
+        "quote": "No cell phone usage, including hands free."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "\"Move It\" - clear minor crashes from the roadway",
+      "summary": "Louisiana's \"Move It, Move It, Move It - Steer It Clear\" campaign (R.S. 32:141(D)) reminds drivers to remove vehicles from the roadway to the nearest soft shoulder; an unattended vehicle must have the motor stopped, ignition locked, key removed and brake set.",
+      "source": {
+        "url": "https://public.powerdms.com/LADPSC/documents/347039",
+        "page": 126,
+        "quote": "Louisiana’s “Move It, Move It, Move It - Steer It Clear” campaign, R.S. 32:141(D), is an attempt to make the public aware of your responsibility to remove vehicles from the roadway to the nearest soft shoulder."
+      },
+      "status": "verified"
+    }
+  ],
+  "officialPracticeTests": [],
+  "gaps": [
+    "speed_limit_school_zone: The Driver's Guide gives no numeric school-zone limit; it only says reduced limits apply near schools and a 'school speed limit when flashing' sign applies only while flashing (pp. 32, 92).",
+    "speed_limit_residential: No statewide residential speed limit is stated in the Guide (p. 92 says only that reduced limits apply in residential areas).",
+    "speed_limit_business_district: No statewide business-district speed limit is stated in the Guide (p. 92).",
+    "point_system: The Guide describes no driver point system; it lists violations that lead to suspension/revocation (pp. 17, 132).",
+    "knowledgeTest.retestWait: OMV does not publish a retest waiting period; the Guide says only that you may return at a later date (for the road test).",
+    "motorcycleTest: OMV does not publish the motorcycle knowledge-test question count or pass mark on its website; left null.",
+    "officialPracticeTests: No official OMV practice test was found.",
+    "following_distance: The Guide is inconsistent - the Following Distances section uses a 3-second rule (4 seconds in bad weather), while the interstate section (p. 106) says keep at least a 4-second cushion and double it in bad weather; questions avoid asking for a single interstate number.",
+    "parking_curb_distance: p. 75 says parallel-parked right wheels must be within 18 inches of the curb, while the R.S. 32:143 list on the same page also names 'more than 2 feet from the curb' as illegal; questions use only the 18-inch rule.",
+    "knowledgeTest.timeLimitMinutes: neither the Guide nor the OMV Permits page states a time limit for the knowledge test."
+  ]
+}

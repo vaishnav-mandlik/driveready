@@ -179,7 +179,7 @@
       "Driving while impaired (DWI)",
       "No offense, because the limit is .08",
       "Driving under the influence (DUI)",
-      "A parking-type civil infraction"
+      "Only a warning, with no charge"
     ],
     "answer": 0,
     "explanation": "The MVA states that for drivers 21 and over, a .07 BAC is DWI (driving while impaired) and .08 or higher is DUI. Drivers under 21 have zero tolerance.",
@@ -881,11 +881,11 @@
     "choices": [
       "You may exceed the limit by up to 5 mph",
       "Speed limits only apply in bad weather",
-      "You should match the speed of traffic",
+      "You may match the speed of traffic, even above the limit",
       "It is illegal to drive faster than the posted limit"
     ],
     "answer": 3,
-    "explanation": "You may drive slower than the posted limit when conditions call for it, but it is illegal to drive any faster than the posted speed limit.",
+    "explanation": "It is safest to keep up with traffic only up to the speed limit. You may drive slower than the posted limit when conditions call for it, but it is illegal to drive any faster than the posted limit.",
     "difficulty": 2,
     "ref": "Maryland Driver's Manual, p. 14",
     "states": [
@@ -2033,6 +2033,44 @@
     ]
   },
   {
+    "id": "md.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Your motorcycle has a windscreen. Under Maryland law, which protective gear must you still wear?",
+    "choices": [
+      "Approved protective headgear (a helmet)",
+      "Nothing; the windscreen replaces all required gear",
+      "Only eye protection",
+      "Only a reflective vest"
+    ],
+    "answer": 0,
+    "explanation": "A windscreen only excuses the operator from wearing an approved eye-protective device. Maryland's helmet law still requires every operator and rider to wear approved protective headgear.",
+    "difficulty": 3,
+    "ref": "Md. Code, Transportation § 21-1306",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.mc.010",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Who may supervise a Maryland learner who is practicing on a motorcycle with a learner's permit?",
+    "choices": [
+      "A person at least 21 who has been licensed at least 3 years to drive motorcycles",
+      "Any adult with a car license",
+      "A licensed rider at least 18 years old",
+      "Anyone who has finished a motorcycle safety course"
+    ],
+    "answer": 0,
+    "explanation": "A supervising driver must be at least 21 and licensed for at least three years to drive the same class of vehicle the learner is driving, so for a motorcycle the supervisor needs motorcycle licensing.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 51",
+    "states": [
+      "MD"
+    ]
+  },
+  {
     "id": "md.car.100",
     "track": "car",
     "topic": "speed-space",
@@ -2104,6 +2142,25 @@
     "explanation": "When an emergency vehicle using its signals approaches, move as close as possible to the edge of the road, stay out of intersections, and remain stopped until it has passed.",
     "difficulty": 1,
     "ref": "Maryland Driver's Manual, p. 37",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.104",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A fire truck is responding to a fire alarm ahead of you in Maryland. Unless you are on official business, how closely may you follow it?",
+    "choices": [
+      "No closer than 500 feet",
+      "No closer than 300 feet",
+      "No closer than 100 feet",
+      "No closer than 1,000 feet"
+    ],
+    "answer": 0,
+    "explanation": "Maryland law bars following within 500 feet of fire apparatus traveling in response to a fire alarm. The 300-foot distance applies to driving or parking near fire apparatus that has stopped at an alarm.",
+    "difficulty": 3,
+    "ref": "Md. Code, Transportation § 21-1109",
     "states": [
       "MD"
     ]

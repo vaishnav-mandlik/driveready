@@ -202,7 +202,9 @@ export type SignCategory =
   | 'signal'
   | 'marking'
   | 'hand_signal'
-  | 'other';
+  | 'other'
+  /** Illustrated driving situations used in questions (not shown in the sign library). */
+  | 'scenario';
 
 export interface SignInfo {
   /** MUTCD code (e.g. "R1-1") or an app code for signals/markings (e.g. "SIG-RED"). */

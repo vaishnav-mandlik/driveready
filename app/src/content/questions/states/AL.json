@@ -1,0 +1,2168 @@
+[
+  {
+    "id": "al.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Alabama law, a driver 21 or older is breaking the law when their blood alcohol concentration reaches what level?",
+    "choices": [
+      "0.08 percent or more",
+      "0.05 percent or more",
+      "0.10 percent or more",
+      "0.02 percent or more"
+    ],
+    "answer": 0,
+    "explanation": "Alabama makes it unlawful to drive with a BAC of .08 percent or more, or while under the influence of alcohol. The manual notes .05 already impairs most drivers, but .08 is the legal limit for drivers 21 and older.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 1,
+    "ref": "Alabama Driver Manual, p. 35"
+  },
+  {
+    "id": "al.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 19-year-old Alabama driver is stopped and tests at 0.03 BAC. How does the law treat this driver?",
+    "choices": [
+      "Legal, because the BAC is below .08",
+      "In violation, because the limit for drivers under 21 is .02",
+      "Legal, because the BAC is below .04",
+      "In violation only if a crash occurred"
+    ],
+    "answer": 1,
+    "explanation": "Drivers under 21 are in violation at a BAC of .02% or more. The .08 limit applies only to drivers 21 and older.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 35"
+  },
+  {
+    "id": "al.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Alabama, what is the BAC limit for someone operating a commercial vehicle?",
+    "choices": [
+      ".08 percent",
+      ".02 percent",
+      ".04 percent",
+      ".06 percent"
+    ],
+    "answer": 2,
+    "explanation": "Commercial vehicle operators are in violation at a BAC of .04% or more, half the .08 limit for other adult drivers.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 35"
+  },
+  {
+    "id": "al.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Alabama holds school bus and daycare drivers to which BAC limit?",
+    "choices": [
+      ".04 percent",
+      ".08 percent",
+      ".05 percent",
+      ".02 percent"
+    ],
+    "answer": 3,
+    "explanation": "School bus and daycare drivers are in violation at .02% or more, the same as drivers under 21. Commercial drivers in general have a .04 limit.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "Alabama Driver Manual, p. 35"
+  },
+  {
+    "id": "al.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "How long is the driver license suspension for a first DUI conviction in Alabama?",
+    "choices": [
+      "90 days",
+      "30 days",
+      "6 months",
+      "1 year"
+    ],
+    "answer": 0,
+    "explanation": "A first conviction brings a 90-day license suspension in addition to a $600-$2,100 fine and up to one year in jail. A one-year revocation applies to a second conviction.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 35"
+  },
+  {
+    "id": "al.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What fine range does the Alabama Driver Manual list for a first DUI conviction?",
+    "choices": [
+      "$100 to $500",
+      "$600 to $2,100",
+      "$1,100 to $5,100",
+      "$2,100 to $10,100"
+    ],
+    "answer": 1,
+    "explanation": "A first conviction carries a fine of $600 to $2,100, up to a year in jail, or both. $1,100-$5,100 is the range for a second conviction within 10 years.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 35"
+  },
+  {
+    "id": "al.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A driver is convicted of DUI for the second time within 10 years. What happens to their Alabama license?",
+    "choices": [
+      "It is suspended for 90 days",
+      "It is revoked for three years",
+      "It is revoked for one year",
+      "It is revoked for five years"
+    ],
+    "answer": 2,
+    "explanation": "A second conviction within 10 years requires a one-year revocation, plus 48 hours in jail or 20 days of community service. Three years is for a third conviction.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 35"
+  },
+  {
+    "id": "al.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "How is a fourth (or later) DUI conviction classified in Alabama?",
+    "choices": [
+      "A misdemeanor with a one-year suspension",
+      "A misdemeanor with a three-year revocation",
+      "A traffic violation with 6 points",
+      "A Class C felony with a five-year license revocation"
+    ],
+    "answer": 3,
+    "explanation": "A fourth or subsequent DUI conviction is a Class C felony, with fines of $4,100-$10,100, a five-year revocation and 1 year and 1 day to 10 years in prison.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 36"
+  },
+  {
+    "id": "al.car.009",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "By driving on Alabama's public highways, you are considered to have agreed to what?",
+    "choices": [
+      "A chemical test of your blood, breath or urine to check for alcohol",
+      "A search of your vehicle at any traffic stop",
+      "A field sobriety test at any checkpoint without arrest",
+      "Giving up your license if you are charged with any offense"
+    ],
+    "answer": 0,
+    "explanation": "Under Alabama's implied consent law, anyone who drives on public highways is deemed to have consented to a chemical test of blood, breath or urine to determine blood alcohol content.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 1,
+    "ref": "Alabama Driver Manual, p. 36"
+  },
+  {
+    "id": "al.car.010",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A driver arrested for DUI in Alabama refuses the breath test an officer directs them to take. What does the Alabama Driver Manual say happens?",
+    "choices": [
+      "Nothing, because the test is voluntary",
+      "The driver's license is suspended",
+      "The driver only pays a small fine",
+      "The DUI charge is dropped for lack of evidence"
+    ],
+    "answer": 1,
+    "explanation": "A driver under arrest for DUI who refuses a chemical breath test when directed by an officer will have the driver license suspended.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 36"
+  },
+  {
+    "id": "al.car.011",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "After a first Alabama DUI conviction with a BAC above 0.15, what does ALEA say about an ignition interlock device?",
+    "choices": [
+      "It is optional for 90 days",
+      "It is never required for a first offense",
+      "It is mandatory for 1 year",
+      "It is required for 5 years"
+    ],
+    "answer": 2,
+    "explanation": "For a first conviction with a BAC above 0.15, a 1-year ignition interlock term is mandatory, and the 90-day suspension is stayed with proof of installation. Below 0.15 the interlock is voluntary for 90 days.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "ALEA Ignition Interlock Laws page (alea.gov)"
+  },
+  {
+    "id": "al.car.012",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "How many points does Alabama assess for a conviction involving drinking and driving that did not require mandatory license revocation?",
+    "choices": [
+      "2 points",
+      "4 points",
+      "12 points",
+      "6 points"
+    ],
+    "answer": 3,
+    "explanation": "An alcohol-related driving conviction that does not require mandatory revocation is worth 6 points, the same as reckless driving.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "Alabama Driver Manual, p. 20"
+  },
+  {
+    "id": "al.car.013",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Alabama's Hands-Free Law (effective June 2024), what is the penalty for a first conviction?",
+    "choices": [
+      "$50 fine and 1 point",
+      "$25 fine and no points",
+      "$100 fine and 2 points",
+      "$150 fine and 3 points"
+    ],
+    "answer": 0,
+    "explanation": "A first Hands-Free Law conviction costs $50 and 1 point. The second is $100 and 2 points, and the third is $150 and 3 points within a 24-month period.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 18"
+  },
+  {
+    "id": "al.car.014",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "An Alabama driver is convicted a third time within 24 months for holding a phone while driving. What penalty applies?",
+    "choices": [
+      "$75 fine and 2 points",
+      "$150 fine and 3 points",
+      "$100 fine and 2 points",
+      "License revoked for one year"
+    ],
+    "answer": 1,
+    "explanation": "Hands-Free Law penalties increase within a 24-month period: $50/1 point, then $100/2 points, then $150/3 points.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "Alabama Driver Manual, p. 18"
+  },
+  {
+    "id": "al.car.015",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "What is the fine for a first texting-while-driving offense in Alabama?",
+    "choices": [
+      "$50",
+      "$75",
+      "$25",
+      "$100"
+    ],
+    "answer": 2,
+    "explanation": "Alabama's texting law fines are $25 for a first offense, $50 for a second and $75 for a third or later offense.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 34"
+  },
+  {
+    "id": "al.car.016",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "According to the Alabama Driver Manual, which vehicle occupants must be restrained?",
+    "choices": [
+      "Only the driver and front-seat passenger",
+      "Only children under 15",
+      "Only occupants under 18",
+      "Each occupant, regardless of age"
+    ],
+    "answer": 3,
+    "explanation": "Alabama's safety belt law requires that each occupant, regardless of age, be restrained.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 1,
+    "ref": "Alabama Driver Manual, p. 32"
+  },
+  {
+    "id": "al.car.017",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "An adult passenger in the back seat of a car in Alabama is not wearing a seat belt. How can this be enforced?",
+    "choices": [
+      "Only as a secondary violation after a stop for another offense",
+      "As a primary violation, like the front seat",
+      "It cannot be enforced, because rear seats are exempt",
+      "Only on interstate highways"
+    ],
+    "answer": 0,
+    "explanation": "Every passenger-car occupant must be belted, but under Code §32-5B-4 a violation in any seat other than a front seat is a secondary violation, cited only after a lawful stop for another violation.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "ALEA Seat Belt Law page (Code of Alabama §32-5B-4)"
+  },
+  {
+    "id": "al.car.018",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Alabama's child restraint law, a rear-facing infant or convertible seat must be used until the child is at least:",
+    "choices": [
+      "2 years old or 30 pounds",
+      "1 year old or 20 pounds",
+      "6 months old or 15 pounds",
+      "5 years old or 40 pounds"
+    ],
+    "answer": 1,
+    "explanation": "Infants ride rear-facing until at least 1 year of age or 20 pounds. Five years or 40 pounds is the forward-facing seat stage.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 32"
+  },
+  {
+    "id": "al.car.019",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Alabama law, a forward-facing child seat must be used until a child is at least:",
+    "choices": [
+      "3 years old or 30 pounds",
+      "8 years old or 80 pounds",
+      "5 years old or 40 pounds",
+      "1 year old or 20 pounds"
+    ],
+    "answer": 2,
+    "explanation": "After the rear-facing stage, a convertible seat in the forward position or a forward-facing seat is required until the child is at least 5 years old or 40 pounds.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 32"
+  },
+  {
+    "id": "al.car.020",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Until what age does Alabama law require a child to ride in a booster seat?",
+    "choices": [
+      "8 years old",
+      "5 years old",
+      "10 years old",
+      "6 years old"
+    ],
+    "answer": 3,
+    "explanation": "Alabama requires a booster seat until a child is 6. Many people expect 8, which is the rule in some other states, not Alabama.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 32"
+  },
+  {
+    "id": "al.car.021",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 7-year-old is riding in an Alabama passenger car. What does the child restraint law require?",
+    "choices": [
+      "A properly worn seat belt",
+      "A booster seat",
+      "A forward-facing child seat with harness",
+      "Nothing, the law only covers children under 6"
+    ],
+    "answer": 0,
+    "explanation": "Booster seats are required until age 6; from then until age 15 the child must be restrained by a seat belt.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "Alabama Driver Manual, p. 32"
+  },
+  {
+    "id": "al.car.022",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the youngest age at which you can get an Alabama learner license (Stage I)?",
+    "choices": [
+      "14",
+      "15",
+      "16",
+      "15 and a half"
+    ],
+    "answer": 1,
+    "explanation": "Any person 15 years of age may obtain a restricted learner license by passing the knowledge exam taken from the Alabama Driver Manual.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 1,
+    "ref": "Alabama Driver Manual, p. 11"
+  },
+  {
+    "id": "al.car.023",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 15-year-old with an Alabama learner license wants to practice driving. Who may sit in the seat beside them?",
+    "choices": [
+      "Any licensed driver age 18 or older",
+      "Any licensed driver, regardless of age",
+      "A licensed driver age 21 or older, or a licensed or certified driving instructor",
+      "Only a parent or legal guardian"
+    ],
+    "answer": 2,
+    "explanation": "A 15-year-old learner must be accompanied by a licensed driver who is 21 or older, or a licensed or certified driving instructor, in the seat beside them.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 11"
+  },
+  {
+    "id": "al.car.024",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long must a driver under 18 hold an Alabama Stage I learner license before applying for a Stage II license?",
+    "choices": [
+      "At least 30 days",
+      "At least 1 year",
+      "At least 90 days",
+      "At least 6 months"
+    ],
+    "answer": 3,
+    "explanation": "Those under 18 must hold a Stage I license for at least 6 months before applying for a Stage II (restricted) license.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 1,
+    "ref": "ALEA Graduated Driver License page (alea.gov)"
+  },
+  {
+    "id": "al.car.025",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Before an Alabama teen can get a Stage II license, how much behind-the-wheel practice must be certified if they do not take an approved driver education course?",
+    "choices": [
+      "At least 50 hours",
+      "At least 30 hours",
+      "At least 40 hours",
+      "At least 60 hours"
+    ],
+    "answer": 0,
+    "explanation": "Teens need a verification form signed by a parent, grandparent, legal guardian or certified driving instructor showing at least 50 hours of practice, or a completion form for an approved driver education course.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "ALEA Graduated Driver License page (alea.gov)"
+  },
+  {
+    "id": "al.car.026",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old with an Alabama Stage II restricted license may NOT drive during which hours unless an exception applies?",
+    "choices": [
+      "10 p.m. to 5 a.m.",
+      "Midnight to 6 a.m.",
+      "11 p.m. to 6 a.m.",
+      "9 p.m. to 6 a.m."
+    ],
+    "answer": 1,
+    "explanation": "Stage II drivers may not drive between 12 midnight and 6 a.m. unless accompanied by a parent or guardian or another listed exception applies.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 86"
+  },
+  {
+    "id": "al.car.027",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old Alabama Stage II driver is driving alone at 1 a.m. Which reason is an allowed exception to the night restriction?",
+    "choices": [
+      "Driving home from a friend's party",
+      "Driving to a 24-hour store for snacks",
+      "Driving home from their regular job",
+      "Driving a friend home after a movie"
+    ],
+    "answer": 2,
+    "explanation": "Exceptions include going to or from work, a school- or religious-sponsored event, a medical, fire or law-enforcement emergency, or driving with a parent, guardian or a licensed adult 21+ with parental consent.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 86"
+  },
+  {
+    "id": "al.car.028",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many passengers who are not family members may a 16-year-old Alabama Stage II driver carry?",
+    "choices": [
+      "None",
+      "Two",
+      "Three",
+      "One"
+    ],
+    "answer": 3,
+    "explanation": "A Stage II driver may not have more than 1 nonfamily passenger other than a parent, guardian or supervising licensed driver 21 or older. The limit was cut from four to one in 2010.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 86"
+  },
+  {
+    "id": "al.car.029",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Under Alabama's GDL rules, what may a Stage II restricted license holder NOT do while driving?",
+    "choices": [
+      "Use any handheld communication device",
+      "Listen to the radio",
+      "Drive on an interstate",
+      "Drive with a parent in the car"
+    ],
+    "answer": 0,
+    "explanation": "Stage II drivers must not use any handheld communication device while driving. Violations extend the restricted period and can lead to suspension.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 1,
+    "ref": "ALEA Graduated Driver License page (alea.gov)"
+  },
+  {
+    "id": "al.car.030",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the youngest age at which an Alabama teen can get a Stage III (unrestricted) license?",
+    "choices": [
+      "16, after holding a learner license for six months",
+      "17, after holding a Stage II license for at least six months",
+      "18, with no exceptions",
+      "17, with no waiting period"
+    ],
+    "answer": 1,
+    "explanation": "A Stage III license requires age 17 and at least six months with a Stage II license. Applicants 18 and older may apply immediately.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "ALEA Graduated Driver License page (alea.gov)"
+  },
+  {
+    "id": "al.car.031",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "An Alabama Stage II driver violates a GDL restriction, such as the passenger limit. What happens to their restricted period?",
+    "choices": [
+      "It is extended by 30 days",
+      "It starts over from the beginning",
+      "It is extended by 6 months or until age 18",
+      "Nothing, if no crash occurred"
+    ],
+    "answer": 2,
+    "explanation": "Violating a GDL restriction extends the restrictive period by 6 months or until the driver turns 18.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 86"
+  },
+  {
+    "id": "al.car.032",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many points go on the record of a Stage II driver for violating a GDL restriction such as the night limit?",
+    "choices": [
+      "2 points",
+      "4 points",
+      "6 points",
+      "None"
+    ],
+    "answer": 3,
+    "explanation": "No points are assessed for GDL restriction violations, and there are no criminal penalties or court costs. The restricted period is extended instead.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "Alabama Driver Manual, p. 86"
+  },
+  {
+    "id": "al.car.033",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "When can an Alabama Stage II driver be ticketed for breaking a GDL restriction, such as the passenger limit?",
+    "choices": [
+      "Only when stopped for a separate violation and cited for it",
+      "Any time an officer sees the violation",
+      "Only after a crash",
+      "Only when a parent files a complaint"
+    ],
+    "answer": 0,
+    "explanation": "No citation is issued for a GDL restriction violation unless the licensee is stopped and cited for a separate violation of the law.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "Alabama Driver Manual, p. 86"
+  },
+  {
+    "id": "al.car.034",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "An Alabama Stage II driver is convicted of a second moving traffic violation. What happens to their license?",
+    "choices": [
+      "It is suspended for 1 year",
+      "It is automatically suspended for 60 days",
+      "They receive a warning letter only",
+      "It is converted back to a learner license"
+    ],
+    "answer": 1,
+    "explanation": "A second moving violation, or an offense worth four or more points (such as reckless driving), brings an automatic 60-day suspension for a GDL licensee.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 86"
+  },
+  {
+    "id": "al.car.035",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old takes the Alabama road test. Who must come with them?",
+    "choices": [
+      "A licensed driving instructor",
+      "Any licensed driver age 21 or older",
+      "A parent or guardian",
+      "No one, they may come alone"
+    ],
+    "answer": 2,
+    "explanation": "A 16-year-old applicant must be accompanied by a parent or guardian at the road skills test.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 13"
+  },
+  {
+    "id": "al.car.036",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What must every Alabama driver license applicant under age 19 present?",
+    "choices": [
+      "A completed driver education certificate",
+      "A parent's driver license",
+      "Proof of car insurance in their own name",
+      "A Student Enrollment/Exclusion Form (DL-1-93)"
+    ],
+    "answer": 3,
+    "explanation": "All applicants under 19 must present a current Student Enrollment/Exclusion Form (DL-1-93), because Alabama requires school attendance or graduation for licensing.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 10"
+  },
+  {
+    "id": "al.car.037",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "After an Alabama driver license expires, how long is the grace period during which it is still valid for renewal?",
+    "choices": [
+      "60 days",
+      "30 days",
+      "90 days",
+      "1 year"
+    ],
+    "answer": 0,
+    "explanation": "Alabama provides a 60-day grace period after expiration, during which the license remains valid for renewal purposes.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 15"
+  },
+  {
+    "id": "al.car.038",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Your Alabama license expired two years ago. Which statement is true?",
+    "choices": [
+      "You can keep driving until you renew",
+      "You can renew it without an exam, but you may not drive until you do",
+      "You must retake all driver exams",
+      "It can no longer be renewed"
+    ],
+    "answer": 1,
+    "explanation": "A license may be renewed without examination within 3 years after expiration, but a person cannot legally drive with an expired license.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "Alabama Driver Manual, p. 15"
+  },
+  {
+    "id": "al.car.039",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "After moving to a new address within Alabama, how long do you have to notify the Driver License Division?",
+    "choices": [
+      "10 days",
+      "60 days",
+      "30 days",
+      "90 days"
+    ],
+    "answer": 2,
+    "explanation": "You have 30 days after changing your address within Alabama to notify the Driver License Division.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 16"
+  },
+  {
+    "id": "al.car.040",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A new Alabama resident has a valid license from their previous state. How long may they drive in Alabama without an Alabama license?",
+    "choices": [
+      "60 days",
+      "90 days",
+      "1 year",
+      "30 days"
+    ],
+    "answer": 3,
+    "explanation": "A new resident with a valid license from their previous state may drive without an Alabama license for 30 days after becoming a resident.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 7"
+  },
+  {
+    "id": "al.car.041",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What are the minimum liability insurance amounts required in Alabama?",
+    "choices": [
+      "$25,000 per person, $50,000 per crash for injury, $25,000 property damage",
+      "$15,000 per person, $30,000 per crash, $10,000 property damage",
+      "$30,000 per person, $60,000 per crash, $25,000 property damage",
+      "$50,000 per person, $100,000 per crash, $50,000 property damage"
+    ],
+    "answer": 0,
+    "explanation": "Alabama requires at least $25,000 for injury or death of one person, $50,000 for two or more persons and $25,000 for property damage (25/50/25).",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 70"
+  },
+  {
+    "id": "al.car.042",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "An Alabama driver collects 13 points in a 2-year period. How long is the suspension?",
+    "choices": [
+      "30 days",
+      "60 days",
+      "90 days",
+      "120 days"
+    ],
+    "answer": 1,
+    "explanation": "12-14 points in 2 years brings a 60-day suspension; 15-17 points brings 90 days.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "Alabama Driver Manual, p. 21"
+  },
+  {
+    "id": "al.car.043",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many points does a conviction for driving 30 mph over the speed limit add to an Alabama driving record?",
+    "choices": [
+      "2 points",
+      "3 points",
+      "5 points",
+      "6 points"
+    ],
+    "answer": 2,
+    "explanation": "Speeding 26 mph or more over the limit is worth 5 points. Speeding 1-25 mph over is 2 points.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 21"
+  },
+  {
+    "id": "al.car.044",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many points does Alabama assess for passing a stopped school bus?",
+    "choices": [
+      "2 points",
+      "3 points",
+      "4 points",
+      "5 points"
+    ],
+    "answer": 3,
+    "explanation": "Passing a stopped school bus is a 5-point offense, the same as failure to yield the right-of-way.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 21"
+  },
+  {
+    "id": "al.car.045",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which of these will cause the Director of ALEA to revoke an Alabama driver license?",
+    "choices": [
+      "Three reckless driving convictions within 12 months",
+      "One speeding ticket for 10 mph over",
+      "Two parking tickets in one year",
+      "A first texting-while-driving offense"
+    ],
+    "answer": 0,
+    "explanation": "Mandatory revocation offenses include three reckless driving convictions within 12 months, vehicular homicide, a second DUI, and leaving the scene of an injury crash.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 19"
+  },
+  {
+    "id": "al.car.046",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During an Alabama traffic stop, the officer hands you a citation. According to the Driver Manual, what is true about signing it?",
+    "choices": [
+      "Signing means you plead guilty",
+      "Signing is not an admission of guilt, but refusing may result in arrest",
+      "You must refuse to sign if you plan to contest it",
+      "Signing is optional and refusing has no consequences"
+    ],
+    "answer": 1,
+    "explanation": "Your signature on a traffic citation is not an admission of guilt; you can contest it in court. Refusing the citation may result in your arrest.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 69"
+  },
+  {
+    "id": "al.car.047",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless another limit is posted, what is the statutory speed limit in an Alabama urban district?",
+    "choices": [
+      "20 mph",
+      "35 mph",
+      "30 mph",
+      "40 mph"
+    ],
+    "answer": 2,
+    "explanation": "Alabama's statutory limit in an urban district is 30 mph unless other speed zones are posted.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 62"
+  },
+  {
+    "id": "al.car.048",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is Alabama's statutory speed limit on an unpaved road?",
+    "choices": [
+      "25 mph",
+      "45 mph",
+      "55 mph",
+      "35 mph"
+    ],
+    "answer": 3,
+    "explanation": "The statutory limit on an unpaved road is 35 mph. County paved roads are 45 mph unless posted.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 62"
+  },
+  {
+    "id": "al.car.049",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless posted otherwise, what is the speed limit on an Alabama county paved road?",
+    "choices": [
+      "45 mph",
+      "35 mph",
+      "55 mph",
+      "50 mph"
+    ],
+    "answer": 0,
+    "explanation": "County paved roads have a 45 mph statutory limit unless posted. Other locations not specifically covered are 55 mph.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 62"
+  },
+  {
+    "id": "al.car.050",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the highest speed limit Alabama law allows, where posted, on an interstate?",
+    "choices": [
+      "65 mph",
+      "70 mph",
+      "75 mph",
+      "80 mph"
+    ],
+    "answer": 1,
+    "explanation": "The statutory maximum is 70 mph where posted on interstates. 65 mph applies where posted on other highways.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 1,
+    "ref": "Alabama Driver Manual, p. 62"
+  },
+  {
+    "id": "al.car.051",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Alabama's statutory limits are 30 mph in urban districts, 45 mph on county paved roads and 35 mph on unpaved roads. Unless posted otherwise, what is the limit in other locations?",
+    "choices": [
+      "45 mph",
+      "60 mph",
+      "55 mph",
+      "65 mph"
+    ],
+    "answer": 2,
+    "explanation": "Alabama's statutory limit is 55 mph in other locations, with 65 or 70 mph only where posted.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 62"
+  },
+  {
+    "id": "al.car.052",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What following distance does the Alabama Driver Manual recommend in good conditions?",
+    "choices": [
+      "At least 1 second",
+      "One car length per 20 mph",
+      "At least 6 seconds",
+      "At least 2 seconds"
+    ],
+    "answer": 3,
+    "explanation": "Alabama teaches the two-second rule: when the vehicle ahead passes a fixed object, you should not reach it before counting 'one thousand one, one thousand two.'",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 1,
+    "ref": "Alabama Driver Manual, p. 38"
+  },
+  {
+    "id": "al.car.053",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "It is raining hard on an Alabama highway. What following distance does the Driver Manual recommend?",
+    "choices": [
+      "A four- or five-second count",
+      "Two seconds, the same as dry roads",
+      "Three seconds",
+      "Ten seconds"
+    ],
+    "answer": 0,
+    "explanation": "When road and weather conditions are not good, increase your following distance to a four- or five-second count. The same applies when driving longer vehicles.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 38"
+  },
+  {
+    "id": "al.car.054",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "How much following distance does the Alabama Driver Manual say you should keep behind a motorcycle in normal conditions?",
+    "choices": [
+      "At least 1 second",
+      "The same 2 seconds you give any other vehicle",
+      "At least 4 seconds at all times",
+      "One car length"
+    ],
+    "answer": 1,
+    "explanation": "Following distance behind a motorcyclist should be the same 2-second distance given any other vehicle, with more room at night or on wet roads.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 28"
+  },
+  {
+    "id": "al.car.055",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "How far ahead of a turn does the Alabama Driver Manual say you must signal?",
+    "choices": [
+      "At least 50 feet",
+      "At least 200 feet",
+      "At least 100 feet",
+      "At least 300 feet"
+    ],
+    "answer": 2,
+    "explanation": "Signal at least 100 feet before making the turn, and continue the signal until you are ready to turn.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 1,
+    "ref": "Alabama Driver Manual, p. 23"
+  },
+  {
+    "id": "al.car.056",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are stopped at a red light in Alabama, in the right lane, and no sign prohibits turning. What may you do?",
+    "choices": [
+      "Turn right without stopping if the way is clear",
+      "Turn only when the light turns green",
+      "Turn right only if a green arrow appears",
+      "Turn right after stopping, yielding to traffic and pedestrians"
+    ],
+    "answer": 3,
+    "explanation": "After stopping for a red light you may turn right if you are in the proper lane, yielding to other traffic and pedestrians, unless a sign prohibits the turn.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 1,
+    "ref": "Alabama Driver Manual, p. 62"
+  },
+  {
+    "id": "al.car.057",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "When may an Alabama driver turn left on a red light after stopping?",
+    "choices": [
+      "When turning from a one-way street onto a one-way street with traffic moving right to left",
+      "Whenever no oncoming traffic is in sight",
+      "When turning from a two-way street onto a one-way street",
+      "Never, left turns on red are always illegal"
+    ],
+    "answer": 0,
+    "explanation": "A left turn on red is allowed only from a one-way street onto a one-way street with traffic moving from right to left, after stopping and yielding, unless a sign prohibits it.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "Alabama Driver Manual, p. 62"
+  },
+  {
+    "id": "al.car.058",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You reach an intersection where the traffic light is not working. How should you treat it in Alabama?",
+    "choices": [
+      "As a yield sign for all drivers",
+      "As a four-way stop",
+      "As if the light were green for the main road",
+      "As an uncontrolled intersection with no stop needed"
+    ],
+    "answer": 1,
+    "explanation": "If the traffic light is inoperative, treat the intersection as you would a four-way stop.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 1,
+    "ref": "Alabama Driver Manual, p. 63"
+  },
+  {
+    "id": "al.car.059",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Where does the Alabama Driver Manual say a three-point turn is NOT permitted?",
+    "choices": [
+      "On any two-lane road",
+      "Anywhere inside city limits",
+      "Where drivers approaching from either direction cannot see you within 500 feet",
+      "On any road with a speed limit above 25 mph"
+    ],
+    "answer": 2,
+    "explanation": "Three-point turns are not permitted on interstate freeways, on curves, or near hilltops where approaching drivers cannot see you within 500 feet.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 25"
+  },
+  {
+    "id": "al.car.060",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "On an Alabama two-lane road, you may not cross the center line to pass on a curve or hill unless you can see a clear distance of at least:",
+    "choices": [
+      "200 feet",
+      "300 feet",
+      "1,000 feet",
+      "500 feet"
+    ],
+    "answer": 3,
+    "explanation": "You may not cross the center line to pass on a curve or hill where you cannot see a clear passing distance of at least 500 feet.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 67"
+  },
+  {
+    "id": "al.car.061",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "Under Alabama law, it is unlawful to drive with more than how many people in the front seat if they block your view or control?",
+    "choices": [
+      "Three",
+      "Two",
+      "Four",
+      "Five"
+    ],
+    "answer": 0,
+    "explanation": "It is unlawful to drive with more than three people in the front seat if they obstruct the driver's view to the front and sides or hinder control of the vehicle.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 69"
+  },
+  {
+    "id": "al.car.062",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "Your load sticks out 4 feet past the rear of your pickup during the day. What does Alabama law require?",
+    "choices": [
+      "A yellow flag at least 6 inches square",
+      "A red flag at least 12 inches square at the end of the load",
+      "Your hazard lights on",
+      "Nothing, unless the load extends more than 6 feet"
+    ],
+    "answer": 1,
+    "explanation": "If a load projects 4 feet or more from the rear, attach a red flag at least 12 inches square in daytime and a red light visible for at least 200 feet at night.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 69"
+  },
+  {
+    "id": "al.car.063",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "An Alabama driver has the windshield wipers on steadily because of rain at noon. What does Alabama law require?",
+    "choices": [
+      "Only the parking lights must be on",
+      "The hazard flashers must be on",
+      "The headlights must be on",
+      "Nothing extra, because it is daytime"
+    ],
+    "answer": 2,
+    "explanation": "Alabama requires headlights whenever the windshield wipers are in use because of rain, sleet or snow. Intermittent wiper use does not require headlights.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 73"
+  },
+  {
+    "id": "al.car.064",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "During which hours does Alabama law require headlights?",
+    "choices": [
+      "From sunset to sunrise only",
+      "From one hour after sunset to one hour before sunrise",
+      "Only when streetlights are off",
+      "From a half-hour after sunset to a half-hour before sunrise"
+    ],
+    "answer": 3,
+    "explanation": "Headlights (not just parking lights) are required from a half-hour after sunset to a half-hour before sunrise, and whenever you cannot see clearly for at least 500 feet.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 1,
+    "ref": "Alabama Driver Manual, p. 71"
+  },
+  {
+    "id": "al.car.065",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "When must you dim your high beams for an oncoming vehicle in Alabama?",
+    "choices": [
+      "When within 500 feet of it",
+      "When within 200 feet of it",
+      "When within 1,000 feet of it",
+      "Only if the other driver flashes their lights"
+    ],
+    "answer": 0,
+    "explanation": "You must dim your headlights within 500 feet of an oncoming vehicle, and within 200 feet when following another vehicle.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 71"
+  },
+  {
+    "id": "al.car.066",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You are using high beams on a dark Alabama road and come up behind another car. Within what distance must you dim them?",
+    "choices": [
+      "100 feet",
+      "200 feet",
+      "300 feet",
+      "500 feet"
+    ],
+    "answer": 1,
+    "explanation": "When following another vehicle, dim your headlights within 200 feet. The 500-foot distance applies to oncoming vehicles.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 71"
+  },
+  {
+    "id": "al.car.067",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "According to the Alabama Driver Manual, how far before the tracks is the round yellow railroad advance warning sign placed?",
+    "choices": [
+      "100 feet",
+      "300 feet",
+      "750 feet",
+      "1,500 feet"
+    ],
+    "answer": 2,
+    "explanation": "The round yellow sign with a black X and the letters RR means a crossing is ahead; the manual says it is placed 750 feet before the track.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "Alabama Driver Manual, p. 40"
+  },
+  {
+    "id": "al.car.068",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When you are required to stop at an Alabama railroad crossing, how far from it must you stop?",
+    "choices": [
+      "Within 5 to 10 feet",
+      "Within 50 to 100 feet",
+      "At least 100 feet away",
+      "Within 15 to 50 feet"
+    ],
+    "answer": 3,
+    "explanation": "When stopping at a railroad crossing, you must stop within 15 to 50 feet of it.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 41"
+  },
+  {
+    "id": "al.car.069",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Which vehicle must ALWAYS stop before crossing railroad tracks in Alabama, even when no train is in sight?",
+    "choices": [
+      "A church bus",
+      "A pickup truck towing a boat",
+      "A motorcycle",
+      "A passenger car with a learner driver"
+    ],
+    "answer": 0,
+    "explanation": "School buses, church buses, any passenger bus, and trucks carrying flammables, explosives or other hazardous materials must stop before any railroad crossing.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 41"
+  },
+  {
+    "id": "al.car.070",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Your car breaks down at night on an Alabama highway. Where does the manual say to place flares or reflectors?",
+    "choices": [
+      "Directly beside the driver's door",
+      "100 to 500 feet behind the vehicle, on the right edge of the highway",
+      "10 to 50 feet in front of the vehicle",
+      "In the center of your lane, 1,000 feet back"
+    ],
+    "answer": 1,
+    "explanation": "If you have flares or reflectors, place them 100 to 500 feet to the rear of your vehicle on the right-hand edge of the highway.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 72"
+  },
+  {
+    "id": "al.car.071",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "What does Alabama law say about coasting downhill?",
+    "choices": [
+      "It is allowed to save fuel on long grades",
+      "It is allowed only in vehicles with automatic transmissions",
+      "It is forbidden to coast downhill with the transmission in neutral",
+      "It is only illegal for trucks"
+    ],
+    "answer": 2,
+    "explanation": "The law forbids coasting downhill with the transmission in neutral, and coasting is a 2-point violation.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 75"
+  },
+  {
+    "id": "al.car.072",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Alabama, how close to a fire hydrant may you park?",
+    "choices": [
+      "No closer than 10 feet",
+      "No closer than 20 feet",
+      "No closer than 30 feet",
+      "No closer than 15 feet"
+    ],
+    "answer": 3,
+    "explanation": "Parking is not allowed within 15 feet of a fire hydrant.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 1,
+    "ref": "Alabama Driver Manual, p. 31"
+  },
+  {
+    "id": "al.car.073",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How close may you park to a crosswalk at an uncontrolled intersection in Alabama?",
+    "choices": [
+      "No closer than 20 feet",
+      "No closer than 10 feet",
+      "No closer than 15 feet",
+      "No closer than 30 feet"
+    ],
+    "answer": 0,
+    "explanation": "You may not park within 20 feet of a crosswalk at an uncontrolled intersection, or on the crosswalk itself.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 31"
+  },
+  {
+    "id": "al.car.074",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Alabama, you may not park within how many feet of a stop sign, flashing beacon or traffic signal at the side of the road?",
+    "choices": [
+      "15 feet",
+      "30 feet",
+      "20 feet",
+      "50 feet"
+    ],
+    "answer": 1,
+    "explanation": "Parking is not allowed within 30 feet of any flashing beacon, stop sign or traffic control signal located at the side of a roadway.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 31"
+  },
+  {
+    "id": "al.car.075",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How close to the nearest rail of a railroad crossing may you park in Alabama?",
+    "choices": [
+      "No closer than 15 feet",
+      "No closer than 30 feet",
+      "No closer than 50 feet",
+      "No closer than 100 feet"
+    ],
+    "answer": 2,
+    "explanation": "You may not park within 50 feet of the nearest rail of a railroad crossing.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 31"
+  },
+  {
+    "id": "al.car.076",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Which of these parking spots is legal in Alabama, assuming no signs or yellow curbs?",
+    "choices": [
+      "25 feet from a stop sign",
+      "40 feet from the nearest rail of a railroad crossing",
+      "10 feet from a crosswalk at an uncontrolled intersection",
+      "20 feet from a fire hydrant"
+    ],
+    "answer": 3,
+    "explanation": "The minimums are 15 feet from a hydrant, 30 feet from a stop sign, 50 feet from a railroad rail and 20 feet from a crosswalk at an uncontrolled intersection. Only the spot 20 feet from a hydrant meets its rule.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "Alabama Driver Manual, p. 31"
+  },
+  {
+    "id": "al.car.077",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "How much space does Alabama law require when you pass a person on a bicycle?",
+    "choices": [
+      "At least 3 feet",
+      "At least 2 feet",
+      "At least 5 feet",
+      "At least 6 feet"
+    ],
+    "answer": 0,
+    "explanation": "Alabama law requires you to pass a person on a bicycle with not less than three feet between your vehicle and the rider.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 1,
+    "ref": "Alabama Driver Manual, p. 26"
+  },
+  {
+    "id": "al.car.078",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Where may people ride bicycles in Alabama?",
+    "choices": [
+      "On sidewalks whenever a road is busy",
+      "On the road with traffic, using a bike lane where one is available, but not on sidewalks",
+      "On the road facing oncoming traffic",
+      "Only on multipurpose paths"
+    ],
+    "answer": 1,
+    "explanation": "Bicyclists must ride with the flow of traffic and use a bicycle lane where available. Riding a bicycle on the sidewalk is illegal in Alabama.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 26"
+  },
+  {
+    "id": "al.car.079",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Two bicyclists are riding side by side in your lane on an Alabama road. Is this legal?",
+    "choices": [
+      "No, bicyclists must always ride single file",
+      "Only on roads with a bike lane",
+      "Yes, Alabama allows bicyclists to ride two abreast at all times",
+      "Only during daylight hours"
+    ],
+    "answer": 2,
+    "explanation": "The Alabama Driver Manual states that people on bicycles may ride two abreast at all times.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "Alabama Driver Manual, p. 25"
+  },
+  {
+    "id": "al.car.080",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Which bicycle riders must wear a helmet on Alabama public roads, paths and parks?",
+    "choices": [
+      "Riders under 12",
+      "Riders under 18",
+      "All riders, regardless of age",
+      "Riders under 16"
+    ],
+    "answer": 3,
+    "explanation": "People on bicycles under the age of 16 must wear a securely fastened protective helmet on public roadways, bicycle paths and in public parks.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 26"
+  },
+  {
+    "id": "al.car.081",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You need to turn right across a marked bicycle lane in Alabama. What does the Driver Manual say to do?",
+    "choices": [
+      "Move into the bike lane before the turn, when it is safe for any cyclist in it",
+      "Turn from your lane across the bike lane",
+      "Stop and wait until no bicycles are in sight within a block",
+      "Sound your horn and turn"
+    ],
+    "answer": 0,
+    "explanation": "When turning across a bicycle lane, drive into the bicycle lane before making the turn, as long as this does not endanger a person on a bicycle in the lane.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "Alabama Driver Manual, p. 26"
+  },
+  {
+    "id": "al.car.082",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A motorcycle is riding far to one side of a wide lane. May you drive alongside it in the same lane in Alabama?",
+    "choices": [
+      "Yes, if the lane is wide enough",
+      "No, it is illegal and extremely hazardous",
+      "Yes, if the motorcyclist waves you by",
+      "Yes, but only in town"
+    ],
+    "answer": 1,
+    "explanation": "Motorcycles are entitled to the full lane. Drivers should never move into the same lane alongside a motorcycle; it is illegal and extremely hazardous.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 28"
+  },
+  {
+    "id": "al.car.083",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Under Alabama law, a driver must stop and give the right-of-way to a blind pedestrian who is using a guide dog or carrying what?",
+    "choices": [
+      "A yellow cane",
+      "A plain black cane",
+      "A white cane tipped with red",
+      "An orange flag"
+    ],
+    "answer": 2,
+    "explanation": "The law requires drivers to stop and yield at any intersection to a blind person carrying a white cane tipped with red, held with the arm extended, or using a guide dog.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 65"
+  },
+  {
+    "id": "al.car.084",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A school bus has stopped with red lights flashing and its stop arm out. How far from the bus must Alabama drivers stop?",
+    "choices": [
+      "At least 10 feet",
+      "At least 50 feet",
+      "At least 100 feet",
+      "At least 20 feet"
+    ],
+    "answer": 3,
+    "explanation": "Drivers coming from either direction must stop at least 20 feet from a school bus displaying its stop signals, and stay stopped until the arm is retracted and the lights are off.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 64"
+  },
+  {
+    "id": "al.car.085",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are on a divided highway with four lanes. A school bus is stopped with red lights flashing on the opposite side of the median. What must you do?",
+    "choices": [
+      "You are not required to stop",
+      "Stop until the stop arm is retracted",
+      "Stop only if children are visible",
+      "Slow to 15 mph and pass"
+    ],
+    "answer": 0,
+    "explanation": "A stop is not required on a divided highway of four or more lanes when the school or church bus is stopped in the opposing roadway.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "Alabama Driver Manual, p. 63"
+  },
+  {
+    "id": "al.car.086",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a four-lane undivided highway with no median, you meet a school bus stopped with red lights flashing in the opposite lanes. What must you do in Alabama?",
+    "choices": [
+      "Keep going, because the bus is on the other side",
+      "Stop, because a four-to-six lane undivided highway still requires stopping",
+      "Stop only if you are in the left lane",
+      "Slow down but do not stop"
+    ],
+    "answer": 1,
+    "explanation": "Alabama drivers must also stop when meeting or following a school or church bus stopped on a four-to-six lane undivided highway. Only a divided highway exempts opposing traffic.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "Alabama Driver Manual, p. 63"
+  },
+  {
+    "id": "al.car.087",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Besides school buses, Alabama's bus stopping law also requires you to stop for which kind of bus showing flashing red lights and an extended stop arm?",
+    "choices": [
+      "A city transit bus",
+      "A charter tour bus",
+      "A church bus",
+      "Any bus with hazard lights on"
+    ],
+    "answer": 2,
+    "explanation": "You must stop when following or meeting a school bus or church bus that is stopped with its stop arm extended and red lights flashing.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 63"
+  },
+  {
+    "id": "al.car.088",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "In rural areas of Alabama, a school bus must turn on its flashing amber lights at least how far before stopping?",
+    "choices": [
+      "100 feet",
+      "500 feet",
+      "50 feet",
+      "300 feet"
+    ],
+    "answer": 3,
+    "explanation": "Flashing amber lights warn that the bus is preparing to stop. They come on at least 300 feet before stopping in rural areas and at least 100 feet in municipalities.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "Alabama Driver Manual, p. 64"
+  },
+  {
+    "id": "al.car.089",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "In Alabama, how close may you follow a fire truck or ambulance on an emergency run?",
+    "choices": [
+      "No closer than 500 feet, unless you are on official business",
+      "No closer than 100 feet",
+      "No closer than 200 feet",
+      "As close as you like if you use your hazard lights"
+    ],
+    "answer": 0,
+    "explanation": "Only vehicles on necessary official business may follow within 500 feet of emergency vehicles on an emergency run.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 67"
+  },
+  {
+    "id": "al.car.090",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You are driving in the right lane of a four-lane interstate in Alabama and see a police car stopped on the shoulder with lights flashing. What does the Move Over law require?",
+    "choices": [
+      "Slow to 25 mph and stay in your lane",
+      "Move out of the lane closest to it; if that is unsafe, slow to at least 15 mph below the limit",
+      "Stop behind the police car",
+      "Nothing, as long as you stay in your lane"
+    ],
+    "answer": 1,
+    "explanation": "On roadways with four or more lanes, vacate the lane closest to the stopped emergency vehicle or wrecker. If changing lanes is unsafe or impossible, slow to at least 15 mph less than the posted limit.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 70"
+  },
+  {
+    "id": "al.car.091",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "On a two-lane Alabama road with a 45 mph limit, you approach a wrecker with flashing amber lights on the shoulder. What is the required speed?",
+    "choices": [
+      "45 mph, as long as you stay in your lane",
+      "25 mph",
+      "30 mph, while moving as far away as possible in your lane",
+      "10 mph"
+    ],
+    "answer": 2,
+    "explanation": "On a two-lane road, move as far away as possible within your lane and slow to 15 mph less than the posted limit when the limit is 25 mph or more: 45 - 15 = 30 mph.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "Alabama Driver Manual, p. 70"
+  },
+  {
+    "id": "al.car.092",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "On a two-lane Alabama street with a posted limit of 20 mph, you pass an emergency vehicle stopped with flashing lights. How fast may you go?",
+    "choices": [
+      "5 mph",
+      "15 mph",
+      "20 mph",
+      "10 mph"
+    ],
+    "answer": 3,
+    "explanation": "When the posted limit is 20 mph or less, the Move Over law requires you to travel at 10 mph as you pass.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "Alabama Driver Manual, p. 70"
+  },
+  {
+    "id": "al.car.093",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "What is the fine for a first violation of Alabama's Move Over Act?",
+    "choices": [
+      "$200",
+      "$50",
+      "$100",
+      "$500"
+    ],
+    "answer": 0,
+    "explanation": "A first violation is a misdemeanor with a $200 fine; a second is $250, and a third or later is $300 plus a license suspension of at least 90 days.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "ALEA Alabama Move Over Act page (Code of Alabama §32-5A-58.2)"
+  },
+  {
+    "id": "al.car.094",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "A crash in Alabama caused $800 in damage, and the at-fault driver had no insurance. What written report must be filed, and when?",
+    "choices": [
+      "Form SR-31, within 10 days",
+      "Form SR-31, within 30 days",
+      "A police report, within 24 hours",
+      "No report, because no one was hurt"
+    ],
+    "answer": 1,
+    "explanation": "For injury, death, or damage of $500 or more, Form SR-31 must be sent within 30 days if the at-fault party was not insured.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 40"
+  },
+  {
+    "id": "al.car.095",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Two insured Alabama drivers have a crash that causes $1,500 in damage. Who must submit Form SR-31?",
+    "choices": [
+      "Each driver must file one",
+      "Only the driver who was at fault",
+      "No SR-31 is required from either of them",
+      "Only the driver who was not at fault"
+    ],
+    "answer": 2,
+    "explanation": "The SR-31 is required when the at-fault party was not insured. If both parties were insured at the time of the crash, neither has to submit it.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "Alabama Driver Manual, p. 40"
+  },
+  {
+    "id": "al.car.096",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "An injury crash happens on a state highway outside any city in Alabama. Who must be notified by the quickest means?",
+    "choices": [
+      "The county probate judge",
+      "The driver's insurance company only",
+      "The Driver License Division by mail",
+      "The State Troopers"
+    ],
+    "answer": 3,
+    "explanation": "Injury or fatal crashes must be reported by the quickest means to local police if within a city, or to the State Troopers if on a state highway.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 40"
+  },
+  {
+    "id": "al.car.097",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "What can you dial on a cell phone in Alabama to reach the State Troopers to report a crash or drunk driver?",
+    "choices": [
+      "*HP (*47)",
+      "*55",
+      "*77",
+      "411"
+    ],
+    "answer": 0,
+    "explanation": "To report highway emergencies, crashes and drunk drivers, dial *HP or (*47) toll-free to contact the Alabama State Troopers.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 78"
+  },
+  {
+    "id": "al.car.098",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "On a passenger car in Alabama, side and rear window tint must let through at least what percentage of light?",
+    "choices": [
+      "20 percent",
+      "32 percent",
+      "35 percent",
+      "50 percent"
+    ],
+    "answer": 1,
+    "explanation": "On passenger cars all side and rear windows may be tinted as long as they allow at least 32 percent light transmission. Only the top 6 inches of the windshield may be tinted.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 70"
+  },
+  {
+    "id": "al.car.099",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Under Alabama law, a tire is illegal when its tread depth is less than:",
+    "choices": [
+      "1/8 inch",
+      "1/32 inch",
+      "1/16 inch",
+      "1/4 inch"
+    ],
+    "answer": 2,
+    "explanation": "A tire is illegal if the tread is less than 1/16 inch deep. The manual's penny test is a quick check for worn tires.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 82"
+  },
+  {
+    "id": "al.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Under Alabama law, who on a motorcycle or motor-driven cycle must wear approved protective headgear?",
+    "choices": [
+      "Only riders under 21",
+      "Only the operator",
+      "The operator and any passenger, regardless of age",
+      "Only riders without health insurance"
+    ],
+    "answer": 2,
+    "explanation": "Alabama has a universal helmet law: no person may operate or ride upon a motorcycle or motor-driven cycle unless wearing approved protective headgear.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 1,
+    "ref": "Alabama Motorcycle Operator Manual, p. 4"
+  },
+  {
+    "id": "al.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Is lane splitting (riding between lanes or rows of vehicles) legal in Alabama?",
+    "choices": [
+      "Yes, at speeds under 30 mph",
+      "Yes, on interstates only",
+      "Yes, when traffic is stopped",
+      "No, it is prohibited"
+    ],
+    "answer": 3,
+    "explanation": "No person may operate a motorcycle between lanes of traffic or between rows of vehicles in Alabama.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 1,
+    "ref": "Alabama Motorcycle Operator Manual, p. 4"
+  },
+  {
+    "id": "al.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What is the maximum number of motorcycles that may ride side by side in a single lane in Alabama?",
+    "choices": [
+      "Two",
+      "Three",
+      "One",
+      "Four"
+    ],
+    "answer": 0,
+    "explanation": "Motorcycles shall not be operated more than two abreast in a single lane.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Motorcycle Operator Manual, p. 4"
+  },
+  {
+    "id": "al.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Under Alabama law, how high may a motorcycle's handlebars be?",
+    "choices": [
+      "No more than 12 inches above the operator's seat",
+      "No more than 15 inches above the operator's seat",
+      "No more than 20 inches above the operator's seat",
+      "There is no height limit"
+    ],
+    "answer": 1,
+    "explanation": "No person may operate a motorcycle with handlebars more than fifteen (15) inches above the part of the seat occupied by the operator.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Motorcycle Operator Manual, p. 4"
+  },
+  {
+    "id": "al.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Which of these is required by Alabama law for anyone operating or riding a motorcycle?",
+    "choices": [
+      "Wearing a reflective vest",
+      "Wearing gloves",
+      "Wearing shoes",
+      "Wearing a face shield"
+    ],
+    "answer": 2,
+    "explanation": "No person may operate or ride upon a motorcycle or motor-driven cycle without wearing shoes. Face shields and protective clothing are encouraged but not required.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Motorcycle Operator Manual, p. 4"
+  },
+  {
+    "id": "al.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "When may an Alabama motorcyclist carry a passenger?",
+    "choices": [
+      "Any time the passenger wears a helmet",
+      "Only after holding a Class M license for one year",
+      "Only if the passenger is 16 or older",
+      "Only if the motorcycle is designed and equipped with footpegs for a passenger"
+    ],
+    "answer": 3,
+    "explanation": "Riders may not carry another person unless the cycle is designed and equipped with footpegs to carry more than one person.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Motorcycle Operator Manual, p. 4"
+  },
+  {
+    "id": "al.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "At what age can an Alabama resident get a restricted license to operate a motor-driven cycle (such as a moped)?",
+    "choices": [
+      "14",
+      "15",
+      "16",
+      "12"
+    ],
+    "answer": 0,
+    "explanation": "A person at least 14 may apply for a restricted Class M license with a 'B' restriction to operate a motor-driven cycle only. A full Class M motorcycle license requires age 16.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Motorcycle Operator Manual, p. 3"
+  },
+  {
+    "id": "al.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 15-year-old in Alabama holds a Class M license with a 'B' restriction. What may they ride?",
+    "choices": [
+      "Any motorcycle up to 500cc",
+      "Only a motor-driven cycle (5 horsepower or smaller)",
+      "Any motorcycle, if a parent rides along",
+      "Only a three-wheeled motorcycle"
+    ],
+    "answer": 1,
+    "explanation": "Restriction 'B' limits 14- and 15-year-olds to motor-driven cycles of 5 horsepower or smaller. At 16 they may transfer to a motorcycle class license without the size restriction.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 3,
+    "ref": "Alabama Motorcycle Operator Manual, p. 3"
+  },
+  {
+    "id": "al.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "In Alabama, may a motorcyclist pass a car by riding in the same lane as that car?",
+    "choices": [
+      "Yes, if the lane is wide enough",
+      "Yes, on multi-lane highways",
+      "No, a motorcyclist may not overtake and pass in the same lane occupied by the vehicle being passed",
+      "Yes, if the car signals"
+    ],
+    "answer": 2,
+    "explanation": "The operator of a motorcycle shall not overtake and pass in the same lane occupied by the vehicle being overtaken.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Motorcycle Operator Manual, p. 4"
+  },
+  {
+    "id": "al.mc.010",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Under Alabama law, how many wheels in contact with the ground may a vehicle have and still be a motorcycle?",
+    "choices": [
+      "Exactly two",
+      "Not more than four",
+      "Two or four",
+      "Not more than three"
+    ],
+    "answer": 3,
+    "explanation": "Alabama defines a motorcycle as a motor vehicle with a seat or saddle for the rider designed to travel on not more than three wheels in contact with the ground, excluding a tractor.",
+    "states": [
+      "AL"
+    ],
+    "difficulty": 2,
+    "ref": "Alabama Motorcycle Operator Manual, p. 3"
+  },
+  {
+    "id": "al.car.100",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the youngest age at which an Alabama teen can get a Stage II restricted driver license?",
+    "choices": [
+      "16, after holding a learner license for six months",
+      "15, after holding a learner license for six months",
+      "17, after holding a learner license for one year",
+      "16 and a half, with no learner license required"
+    ],
+    "answer": 0,
+    "explanation": "A person 16 or older but under 18 who has held a learner license for six months (or until turning 18) may take the road test for a restricted license. Age 17 is the minimum for the unrestricted Stage III license.",
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 12",
+    "states": [
+      "AL"
+    ]
+  },
+  {
+    "id": "al.car.101",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Under Alabama's basic speed law, you must never drive faster than what?",
+    "choices": [
+      "What is reasonable under existing conditions",
+      "The average speed of surrounding traffic",
+      "10 mph over the posted limit when passing",
+      "55 mph on any road"
+    ],
+    "answer": 0,
+    "explanation": "Alabama's basic speed law says you must never drive faster than is reasonable under existing conditions, considering the road, weather, your vehicle and your own physical condition.",
+    "difficulty": 1,
+    "ref": "Alabama Driver Manual, p. 61",
+    "states": [
+      "AL"
+    ]
+  },
+  {
+    "id": "al.car.102",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "A highway in Alabama has a posted minimum speed. In normal weather and traffic, what is true about driving below that minimum?",
+    "choices": [
+      "It is unlawful",
+      "It is allowed if your hazard lights are on",
+      "It is allowed in the right lane",
+      "It is allowed for drivers with a learner license"
+    ],
+    "answer": 0,
+    "explanation": "Where minimum limits are posted, any speed below the minimum is unlawful under normal weather, road and traffic conditions. Driving too slowly can block other traffic and cause crashes.",
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 62",
+    "states": [
+      "AL"
+    ]
+  },
+  {
+    "id": "al.car.103",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "ALEA's Highway Patrol speed-limit table lists what speed limit for Alabama school zones?",
+    "choices": [
+      "15 mph",
+      "20 mph",
+      "25 mph",
+      "35 mph"
+    ],
+    "answer": 0,
+    "explanation": "ALEA lists 15 mph for school zones. The Driver Manual adds that the school-zone limit applies during the hours shown on the sign, which may have flashing amber lights, so always obey the posted limit.",
+    "difficulty": 2,
+    "ref": "ALEA Highway Patrol Speed Limits page (alea.gov); Alabama Driver Manual, p. 46",
+    "states": [
+      "AL"
+    ]
+  },
+  {
+    "id": "al.car.104",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Assuming no signs or yellow curbs, which of these is a place where parking is NOT allowed in Alabama?",
+    "choices": [
+      "Within an intersection",
+      "25 feet from a fire hydrant",
+      "60 feet from the nearest rail of a railroad crossing",
+      "40 feet from a stop sign at the side of the road"
+    ],
+    "answer": 0,
+    "explanation": "Parking is never allowed within an intersection. The other spots are legal: the minimums are 15 feet from a hydrant, 50 feet from the nearest railroad rail and 30 feet from a stop sign.",
+    "difficulty": 2,
+    "ref": "Alabama Driver Manual, p. 31",
+    "states": [
+      "AL"
+    ]
+  }
+]
