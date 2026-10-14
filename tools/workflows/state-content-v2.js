@@ -61,7 +61,7 @@ function authorPrompt(code, name) {
     'You build the ' + name + ' (' + code + ') content for "DriveReady", a free DMV practice-test app. Accuracy beats volume: learners will rely on this to pass the real test.',
     RULES,
     '',
-    'The official ' + name + ' driver handbook is already extracted at "' + R + '/handbooks/' + code + '.txt". Check its first pages: if it is clearly not the current official edition, download the current one from the official agency site into a NEW empty dir "' + R + '/raw/' + code + '" (curl with a browser User-Agent), extract with python3 -I "' + R + '/tools/extract_pdf.py" "<pdf>" "' + R + '/handbooks/' + code + '.txt", then rm -rf the raw dir.',
+    'Handbook text: "' + R + '/handbooks/' + code + '.txt". If it exists, check its first pages against the agency site and reuse it if it is the current official edition. If it does NOT exist (or is outdated), find the current official ' + name + ' non-commercial driver handbook on the state agency site (WebSearch; prefer the PDF), download it into a NEW empty dir "' + R + '/raw/' + code + '" with curl -sSL -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36", confirm with the file command that it is a PDF, extract with python3 -I "' + R + '/tools/extract_pdf.py" "<pdf>" "' + R + '/handbooks/' + code + '.txt" (HTML-only handbooks: save chapter pages as 01.html, 02.html... and use python3 -I "' + R + '/tools/extract_html.py" "<out.txt>" <pages...>), sanity-check the text, then rm -rf the raw dir.',
     '',
     'Part 1 — facts. Write "' + R + '/facts/' + code + '.draft.json" following this template exactly (same keys; status "unverified" everywhere — the verifier sets it):',
     TEMPLATE,
