@@ -1,0 +1,2244 @@
+[
+  {
+    "id": "ky.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Kentucky, a driver age 21 or older violates the DUI law at what alcohol concentration?",
+    "choices": [
+      "0.05 or above",
+      "0.08 or above",
+      "0.10 or above",
+      "0.04 or above"
+    ],
+    "answer": 1,
+    "explanation": "Kentucky law prohibits operating or being in physical control of a vehicle with an alcohol concentration of 0.08 or above.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 34",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A Kentucky driver who is under 21 is in violation of the law at what alcohol concentration?",
+    "choices": [
+      "0.02 or more",
+      "0.04 or more",
+      "0.08 or more",
+      "Only 0.10 or more"
+    ],
+    "answer": 0,
+    "explanation": "Drivers under 21 violate Kentucky law with an alcohol concentration of 0.02 or more, which the manual calls \"Zero Alcohol Tolerance.\"",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 34",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A Kentucky driver tests at 0.06, but an officer saw clear signs of impaired driving. Which statement is true?",
+    "choices": [
+      "The driver cannot be charged because the result is under 0.08",
+      "Only a commercial driver could be charged at 0.06",
+      "The driver must be retested after two hours before any charge",
+      "The driver can still be in violation of the DUI law because of the impaired driving"
+    ],
+    "answer": 3,
+    "explanation": "The manual says you can still violate the DUI law below 0.08 if there is evidence of impaired driving while under the influence of alcohol or other substances.",
+    "difficulty": 3,
+    "ref": "Kentucky Driver Manual, p. 34",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Kentucky's implied consent law, what can happen if you refuse an officer's lawful request for a breath, blood or urine test?",
+    "choices": [
+      "Nothing, as long as you later pass a field sobriety test",
+      "You receive a warning on the first refusal",
+      "Your license may be suspended by the court, and the refusal can be used against you in court",
+      "You must pay a $100 fine but keep your license"
+    ],
+    "answer": 2,
+    "explanation": "Refusing a requested test may result in the court suspending your license, and the refusal may be used against you as evidence of DUI.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 34",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A Kentucky driver refused a breath test and is later convicted of a second DUI within 10 years. How does the refusal affect the mandatory minimum jail sentence?",
+    "choices": [
+      "It has no effect on jail time",
+      "The mandatory minimum jail sentence is twice as long as if the driver had taken the test",
+      "It reduces the sentence because no test result exists",
+      "It replaces jail time with community service"
+    ],
+    "answer": 1,
+    "explanation": "For a second or later offense within 10 years, refusing a breath or urine test is an aggravating circumstance that doubles the mandatory minimum jail sentence.",
+    "difficulty": 3,
+    "ref": "Kentucky Driver Manual, p. 34",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "For a first DUI conviction within a 10-year period in Kentucky, how long is the license suspension for an adult driver, according to the manual?",
+    "choices": [
+      "4 to 6 months",
+      "30 days",
+      "1 year",
+      "2 years"
+    ],
+    "answer": 0,
+    "explanation": "A first DUI conviction within 10 years brings a license suspension of 4 to 6 months, plus a fine and jail time.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 35",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What fine range does Kentucky set for a first DUI conviction within 10 years?",
+    "choices": [
+      "$100 to $250",
+      "$500 to $1,000",
+      "$1,000 to $2,500",
+      "$200 to $500 plus court costs"
+    ],
+    "answer": 3,
+    "explanation": "A first offense within 10 years carries a fine of not less than $200 nor more than $500 plus court costs.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 35",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Which of these is an aggravating circumstance under Kentucky's DUI law, requiring mandatory jail time?",
+    "choices": [
+      "Driving with a passenger over 65",
+      "Driving at night",
+      "Driving with a passenger under 12 years old",
+      "Driving a vehicle registered in another state"
+    ],
+    "answer": 2,
+    "explanation": "Transporting a passenger under the age of 12 while driving under the influence is one of the listed aggravating circumstances.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 35",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.009",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Kentucky, a DUI with an alcohol concentration at or above what level (within two hours of driving) is an aggravating circumstance?",
+    "choices": [
+      ".10",
+      ".15",
+      ".20",
+      ".12"
+    ],
+    "answer": 1,
+    "explanation": "An alcohol concentration of .15 or higher within two hours of driving is an aggravating circumstance that triggers mandatory jail time.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 35",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.010",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A court-ordered ignition interlock device in Kentucky prevents the vehicle from being driven if the driver's breath-alcohol concentration exceeds what level?",
+    "choices": [
+      ".02",
+      ".08",
+      ".05",
+      ".04"
+    ],
+    "answer": 0,
+    "explanation": "The ignition interlock device prevents a driver from operating the vehicle if the breath-alcohol concentration exceeds .02.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 35",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.011",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Before a Kentucky driver convicted of DUI can get driving privileges reinstated, what must they complete?",
+    "choices": [
+      "A new road test only",
+      "A first-aid course",
+      "Nothing beyond paying the fine",
+      "An assessment and an approved alcohol education or treatment program"
+    ],
+    "answer": 3,
+    "explanation": "Every DUI offender must be assessed and must satisfactorily complete an approved alcohol education or treatment program before reinstatement.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 26",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.012",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A person driving a commercial motor vehicle in Kentucky is considered to be under the influence at what alcohol concentration?",
+    "choices": [
+      "0.02 or more",
+      "0.08 or more",
+      "0.04 or more",
+      "0.06 or more"
+    ],
+    "answer": 2,
+    "explanation": "Kentucky law deems a commercial vehicle driver with an alcohol concentration of 0.04 or more to be operating under the influence.",
+    "difficulty": 2,
+    "ref": "Kentucky Revised Statutes, KRS 281A.210",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.013",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age to take the written and vision tests for a Kentucky driving permit?",
+    "choices": [
+      "14",
+      "15",
+      "16",
+      "15 and a half"
+    ],
+    "answer": 1,
+    "explanation": "Drivers must be at least 15 years old to take the vision and written knowledge tests and apply for a permit.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 13",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.014",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Kentucky permit holder who is 15 to 20 years old must hold the permit for at least how long before taking the road test?",
+    "choices": [
+      "180 days",
+      "30 days",
+      "90 days",
+      "1 year"
+    ],
+    "answer": 0,
+    "explanation": "Permit holders ages 15 to 20 must hold the permit for a minimum of 180 days.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 13",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.015",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 25-year-old gets a Kentucky instruction permit. How long must they hold it before they can take the road skills test?",
+    "choices": [
+      "180 days",
+      "10 days",
+      "No waiting period",
+      "30 days"
+    ],
+    "answer": 3,
+    "explanation": "Applicants 21 and older must hold the permit for 30 days before they are eligible to take the road test.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 17",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.016",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many hours of practice driving must a Kentucky teen log before applying for an intermediate license?",
+    "choices": [
+      "40 hours",
+      "50 hours",
+      "60 hours",
+      "100 hours"
+    ],
+    "answer": 2,
+    "explanation": "The Practice Driving Log must show at least 60 hours of practice driving, 10 of them at night.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 13",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.017",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Who may supervise a Kentucky permit holder while they drive?",
+    "choices": [
+      "Any licensed driver 18 or older, in any seat",
+      "Any licensed driver 21 or older, seated in the front passenger seat",
+      "A licensed driver 25 or older, seated anywhere",
+      "Any passenger who has their own permit"
+    ],
+    "answer": 1,
+    "explanation": "Permit holders may only drive with a licensed driver 21 years of age or older in the front passenger seat.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 13",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.018",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 19-year-old Kentucky permit holder wants to drive with their 20-year-old licensed sister in the front seat. Is this allowed?",
+    "choices": [
+      "No, the supervising driver must be at least 21",
+      "Yes, any licensed adult may supervise",
+      "Yes, because the permit holder is over 18",
+      "No, only a parent may supervise"
+    ],
+    "answer": 0,
+    "explanation": "All permit holders, regardless of age, must be accompanied by a licensed driver 21 or older in the passenger seat beside them.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 16",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.019",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many unrelated passengers under age 20 may ride with a Kentucky permit holder who is under 18?",
+    "choices": [
+      "None",
+      "Two",
+      "Three",
+      "One"
+    ],
+    "answer": 3,
+    "explanation": "Permit holders under 18 are limited to one unrelated passenger under 20 years of age (KRS 186.450(6)).",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 13",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.020",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During what hours may a Kentucky intermediate license holder under 18 NOT drive, unless they can show good cause?",
+    "choices": [
+      "10:00 p.m. to 5:00 a.m.",
+      "11:00 p.m. to 5:00 a.m.",
+      "12:00 a.m. to 6:00 a.m.",
+      "1:00 a.m. to 5:00 a.m."
+    ],
+    "answer": 2,
+    "explanation": "Intermediate drivers may not drive between 12:00 a.m. and 6:00 a.m. unless they can show good cause such as emergencies, school or work.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 14",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.021",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Kentucky intermediate license holder under 18 must drive home from work at 12:30 a.m. Which statement is correct?",
+    "choices": [
+      "It is never allowed",
+      "It is allowed because work-related activity is good cause",
+      "It is allowed only with a parent in the car",
+      "It is allowed only on weekends"
+    ],
+    "answer": 1,
+    "explanation": "The midnight to 6 a.m. restriction has exceptions for good cause, such as emergencies, school or work-related activities.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 14",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.022",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 17-year-old Kentucky intermediate driver wants to drive two unrelated 17-year-old friends to school. Is this allowed?",
+    "choices": [
+      "No, the limit is one unrelated passenger under 20",
+      "Yes, as long as everyone wears a seat belt",
+      "Yes, during daylight hours",
+      "No, intermediate drivers may not carry any passengers"
+    ],
+    "answer": 0,
+    "explanation": "A driver under 18 with an intermediate license may carry no more than one unrelated passenger under 20 years of age.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 15",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.023",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Kentucky permit holder under 18 is convicted of a moving violation. How does this affect their path to an intermediate license?",
+    "choices": [
+      "It has no effect",
+      "Their permit is permanently canceled",
+      "They must wait only 30 extra days",
+      "It adds at least 180 days from the date of the violation before they can apply"
+    ],
+    "answer": 3,
+    "explanation": "Permit restriction violations, moving violations under KRS 189 and DUI violations add a minimum of 180 days from the date of the violation before applying for an intermediate license.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 14",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.024",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which set of requirements qualifies a Kentucky teen for a full unrestricted license?",
+    "choices": [
+      "Holding the permit 1 year and turning 16",
+      "Passing a second road test at age 18",
+      "Holding the intermediate license 180 days, completing driver education, and reaching age 17",
+      "Logging 100 more practice hours"
+    ],
+    "answer": 2,
+    "explanation": "A full unrestricted license requires holding the intermediate license for 180 days, completing the driver education requirement, and reaching age 17.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 14",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.025",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "If you fail the Kentucky road skills test, how long must you wait before trying again?",
+    "choices": [
+      "You can retest the same day",
+      "At least one week",
+      "30 days",
+      "90 days"
+    ],
+    "answer": 1,
+    "explanation": "After failing the road skills test, you must wait at least one week from the date of the failure before trying again.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 14",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.026",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What minimum visual acuity is required to move on to the written test in Kentucky?",
+    "choices": [
+      "20/40",
+      "20/20",
+      "20/30",
+      "20/70"
+    ],
+    "answer": 0,
+    "explanation": "A minimum visual acuity of 20/40 (corrected or uncorrected) is required; applicants who fall short are referred to a vision specialist.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 18",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.027",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What minimum score do you need to pass the Kentucky written knowledge test?",
+    "choices": [
+      "70%",
+      "75%",
+      "85%",
+      "80%"
+    ],
+    "answer": 3,
+    "explanation": "Applicants must make a minimum score of 80% to pass the written test.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 19",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.028",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Under Kentucky's point system, a driver 18 or older may face suspension after accumulating how many points within two years?",
+    "choices": [
+      "6 points",
+      "8 points",
+      "12 points",
+      "10 points"
+    ],
+    "answer": 2,
+    "explanation": "Accumulating 12 points within a two-year period (7 points if under 18) can lead to suspension after a hearing.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 25",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.029",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "For a Kentucky driver under 18, how many points within two years can lead to a suspension hearing?",
+    "choices": [
+      "4",
+      "7",
+      "10",
+      "12"
+    ],
+    "answer": 1,
+    "explanation": "The threshold is 7 points within two years for a driver under age 18, compared with 12 for adults.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 25",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.030",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long do points stay active against a Kentucky driver's license?",
+    "choices": [
+      "Two years from the conviction, though the conviction stays on the record five years",
+      "Six months from the conviction",
+      "One year from the conviction",
+      "Five years from the conviction"
+    ],
+    "answer": 0,
+    "explanation": "Points expire two years from the date of conviction, but the conviction remains part of the driving record for five years.",
+    "difficulty": 3,
+    "ref": "Kentucky Driver Manual, p. 25",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.031",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What are Kentucky's minimum liability insurance limits?",
+    "choices": [
+      "$15,000 per person, $30,000 per accident, and $5,000 property damage",
+      "$50,000 per person, $100,000 per accident, and $50,000 property damage",
+      "$20,000 per person, $40,000 per accident, and $15,000 property damage",
+      "$25,000 per person, $50,000 per accident bodily injury, and $25,000 property damage"
+    ],
+    "answer": 3,
+    "explanation": "Kentucky requires $25,000 per person and $50,000 per accident for bodily injury plus $25,000 for property damage.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 27",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.032",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Instead of split limits, what single-limit liability policy does Kentucky accept?",
+    "choices": [
+      "$50,000",
+      "$75,000",
+      "$60,000",
+      "$100,000"
+    ],
+    "answer": 2,
+    "explanation": "As an alternative to 25/50/25 coverage, a policy with a single limit of $60,000 is acceptable.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 27",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.033",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What penalty can a Kentucky owner or driver face for failing to maintain vehicle insurance?",
+    "choices": [
+      "A warning letter only",
+      "A fine of $500 to $1,000, up to 90 days in jail, or both",
+      "A $50 fine",
+      "Loss of license for 10 years"
+    ],
+    "answer": 1,
+    "explanation": "Failure to maintain insurance is a criminal offense: registration is revoked and the owner and driver face a $500-$1,000 fine, up to 90 days in jail, or both.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 27",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.034",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "After buying a vehicle or bringing one into Kentucky from another state, how long do you have to apply for registration?",
+    "choices": [
+      "15 days",
+      "10 days",
+      "30 days",
+      "60 days"
+    ],
+    "answer": 0,
+    "explanation": "A person who purchases a vehicle or brings one into Kentucky must apply for registration within 15 days.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 27",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.035",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Is there a grace period for renewing a Kentucky vehicle registration after it expires?",
+    "choices": [
+      "Yes, 10 days",
+      "Yes, 30 days",
+      "Yes, until the next birthday",
+      "No, there is no grace period"
+    ],
+    "answer": 3,
+    "explanation": "Registration must be renewed on or before the expiration date; the manual stresses there is no grace period, and not receiving the mailed notice is no defense.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 27",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.036",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A new resident moves to Kentucky. How soon must they get a Kentucky driver's license?",
+    "choices": [
+      "Within 10 days",
+      "Within 60 days",
+      "Within 30 days",
+      "Within 1 year"
+    ],
+    "answer": 2,
+    "explanation": "Persons moving into Kentucky must obtain a Kentucky driver's license within 30 days of establishing residence.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 21",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.037",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "After changing your address or name in Kentucky, how soon must you obtain a duplicate license?",
+    "choices": [
+      "Within 30 days",
+      "Within 10 days",
+      "Within 60 days",
+      "At your next renewal"
+    ],
+    "answer": 1,
+    "explanation": "You must obtain a duplicate license within 10 days of an address or name change and may be cited for failing to do so.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 24",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.038",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Under Kentucky's No Pass/No Drive law, what must an applicant under 18 bring when applying for a permit?",
+    "choices": [
+      "A School Compliance Verification Form from their school",
+      "A report card with all A's",
+      "A letter from a driving instructor",
+      "Proof of a part-time job"
+    ],
+    "answer": 0,
+    "explanation": "Applicants under 18 must present a School Compliance Verification Form issued by their school (No Pass/No Drive Law).",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 13",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.039",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age to legally operate a moped in Kentucky?",
+    "choices": [
+      "14",
+      "15",
+      "18",
+      "16"
+    ],
+    "answer": 3,
+    "explanation": "You must be at least 16 and hold a learner's permit, driver's license, motorcycle permit or license, or a Class E moped license.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 10",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.040",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Does Kentucky law require moped operators to wear a helmet?",
+    "choices": [
+      "Yes, at all times",
+      "Yes, only on state highways",
+      "No, but helmets and eye protection are strongly recommended",
+      "Only riders under 21"
+    ],
+    "answer": 2,
+    "explanation": "Moped operators are not required to wear helmets or eye protection, though both are strongly recommended.",
+    "difficulty": 3,
+    "ref": "Kentucky Driver Manual, p. 11",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.041",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What license do you need to drive an autocycle in Kentucky?",
+    "choices": [
+      "A motorcycle license or endorsement",
+      "A valid operator's license",
+      "A commercial license",
+      "A Class E moped license"
+    ],
+    "answer": 1,
+    "explanation": "An autocycle is treated as a motorcycle for traffic rules, but its operator only needs a valid operator's license and is exempt from headgear requirements.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 78",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.042",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Kentucky's texting law, which of these is illegal for a driver age 18 or older while the vehicle is moving?",
+    "choices": [
+      "Reading or sending a text message or email",
+      "Using the phone's GPS feature",
+      "Entering a phone number to make a call",
+      "Using the vehicle's built-in navigation system"
+    ],
+    "answer": 0,
+    "explanation": "KRS 189.292 bans writing, sending or reading text-based messages while driving; GPS use and dialing a number to make a call are exempt.",
+    "difficulty": 2,
+    "ref": "Kentucky Revised Statutes, KRS 189.292",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.043",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 17-year-old Kentucky driver with an intermediate license wants to take a quick hands-free phone call while driving. Is this legal?",
+    "choices": [
+      "Yes, hands-free calls are allowed for everyone",
+      "Yes, if the call is under one minute",
+      "No, but only on interstates",
+      "No, drivers under 18 may not use a personal communication device while driving except to call for help in an emergency"
+    ],
+    "answer": 3,
+    "explanation": "KRS 189.294 bars drivers under 18 from using a personal communication device while the vehicle is moving, except to summon medical help or police in an emergency.",
+    "difficulty": 2,
+    "ref": "Kentucky Revised Statutes, KRS 189.294",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.044",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 16-year-old Kentucky driver types a new address into the GPS app on their phone while the car is moving. Is that allowed?",
+    "choices": [
+      "Yes, GPS use is always allowed",
+      "Yes, if the phone is mounted",
+      "No, manually entering information into a phone's GPS counts as using the device",
+      "Only at speeds under 25 mph"
+    ],
+    "answer": 2,
+    "explanation": "For drivers under 18, the ban includes manually entering information into the GPS feature of a personal communication device; a vehicle's built-in navigation system is not covered.",
+    "difficulty": 3,
+    "ref": "Kentucky Revised Statutes, KRS 189.294",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.045",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Kentucky's seat belt law is a primary law. What does that mean?",
+    "choices": [
+      "Only the driver must wear a belt",
+      "An officer can stop you just for not wearing a seat belt",
+      "Belts are required only on highways",
+      "You can be cited for no belt only after another violation"
+    ],
+    "answer": 1,
+    "explanation": "Because the law is primary, drivers can be stopped by law enforcement if observed not wearing seat belts.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 38",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.046",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Who must wear a seat belt in a vehicle manufactured after 1981 on Kentucky roads?",
+    "choices": [
+      "The driver and all passengers (children in proper child restraints)",
+      "Only the driver",
+      "The driver and front-seat passenger",
+      "Only passengers under 18"
+    ],
+    "answer": 0,
+    "explanation": "Kentucky law requires the driver and all passengers to wear a properly adjusted and fastened seat belt, unless a child is secured in an approved child restraint.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 37",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.047",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "In Kentucky, a child of what height or less must be secured in a federally approved child restraint system?",
+    "choices": [
+      "36 inches",
+      "48 inches",
+      "57 inches",
+      "40 inches"
+    ],
+    "answer": 3,
+    "explanation": "A child 40 inches tall or less must be secured in a child restraint system meeting federal safety standards.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 39",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.048",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "In Kentucky, a child under age 8 who is between 40 and 57 inches tall must ride in what?",
+    "choices": [
+      "A rear-facing infant seat",
+      "Only an adult seat belt",
+      "A child booster seat",
+      "The front seat with the air bag off"
+    ],
+    "answer": 2,
+    "explanation": "Children under 8 who are between 40 and 57 inches tall must be secured in a child booster seat.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 39",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.049",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 7-year-old in Kentucky is 58 inches tall. Is a booster seat required?",
+    "choices": [
+      "Yes, all children under 8 need a booster",
+      "No, a child taller than 57 inches does not need a booster seat",
+      "Yes, until age 12",
+      "Only on interstate highways"
+    ],
+    "answer": 1,
+    "explanation": "A child of any age who is taller than 57 inches is not required to ride in a booster seat; a properly worn seat belt is still required.",
+    "difficulty": 3,
+    "ref": "Kentucky Driver Manual, p. 39",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.050",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "According to the Kentucky manual, children of what age and younger should ride properly restrained in the back seat?",
+    "choices": [
+      "12",
+      "5",
+      "8",
+      "10"
+    ],
+    "answer": 0,
+    "explanation": "The manual says all children age 12 and younger should be properly restrained in the back seat, and a rear-facing seat must never face an active air bag.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 39",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.051",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "When no speed limit is posted, what is the limit on Kentucky interstate highways and parkways?",
+    "choices": [
+      "55 mph",
+      "60 mph",
+      "70 mph",
+      "65 mph"
+    ],
+    "answer": 3,
+    "explanation": "The unposted speed limit on interstates and parkways is 65 mph; specific highways may be raised to 70 mph.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 57",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.052",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "When no limit is posted, what is the speed limit on Kentucky state highways other than interstates and parkways?",
+    "choices": [
+      "45 mph",
+      "50 mph",
+      "55 mph",
+      "60 mph"
+    ],
+    "answer": 2,
+    "explanation": "Fifty-five mph is the speed limit on all other state highways.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 57",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.053",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the unposted speed limit in a Kentucky business or residential district?",
+    "choices": [
+      "25 mph",
+      "35 mph",
+      "30 mph",
+      "40 mph"
+    ],
+    "answer": 1,
+    "explanation": "Thirty-five mph is the speed limit in a business or residential district when no other limit is posted.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 57",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.054",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the speed limit in an off-street parking facility open to the public in Kentucky?",
+    "choices": [
+      "15 mph",
+      "5 mph",
+      "10 mph",
+      "20 mph"
+    ],
+    "answer": 0,
+    "explanation": "The speed limit in an off-street parking facility offered for public use, publicly or privately owned, is 15 mph.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 57",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.055",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the highest speed limit the Kentucky secretary of transportation may set on specific highways?",
+    "choices": [
+      "65 mph",
+      "75 mph",
+      "80 mph",
+      "70 mph"
+    ],
+    "answer": 3,
+    "explanation": "The secretary of transportation may raise the limit to 70 mph, but only on specific interstate and parkway segments listed in KRS 189.390; the unposted interstate default is 65 mph.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 57",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.056",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "In heavy rain, snow or fog you cannot see more than 100 feet ahead. What is the fastest you can safely drive, per the Kentucky manual?",
+    "choices": [
+      "15 mph",
+      "35 mph",
+      "25 mph",
+      "45 mph"
+    ],
+    "answer": 2,
+    "explanation": "When you cannot see farther than about 100 feet, you cannot safely drive faster than 25 mph, and you should use low beams.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 58",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.057",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What minimum following distance does the Kentucky manual recommend behind the vehicle ahead?",
+    "choices": [
+      "2 seconds",
+      "4 seconds",
+      "3 seconds",
+      "6 seconds"
+    ],
+    "answer": 1,
+    "explanation": "Always try to keep a minimum following distance of 4 seconds, and increase it in poor conditions.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 59",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.058",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "When driving at night on an unfamiliar road, how much should you add to your normal following distance?",
+    "choices": [
+      "At least two seconds",
+      "Nothing extra",
+      "At least half a second",
+      "At least five seconds"
+    ],
+    "answer": 0,
+    "explanation": "Add at least one second for night driving and at least two seconds for driving on unfamiliar roads at night.",
+    "difficulty": 3,
+    "ref": "Kentucky Driver Manual, p. 76",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.059",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Speeding near a Kentucky school where the school flasher lights are flashing has what effect on the fine?",
+    "choices": [
+      "No change",
+      "The fine is tripled",
+      "An automatic license suspension",
+      "The fine is doubled"
+    ],
+    "answer": 3,
+    "explanation": "If the offense occurs near a school where flasher lights are flashing and a speed limit is set, the speeding fine is doubled.",
+    "difficulty": 2,
+    "ref": "Kentucky Revised Statutes, KRS 189.394",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.060",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Under Kentucky law, how close to a fire hydrant may you park?",
+    "choices": [
+      "No closer than 10 feet",
+      "No closer than 20 feet",
+      "No closer than 15 feet",
+      "No closer than 30 feet"
+    ],
+    "answer": 2,
+    "explanation": "KRS 189.450 prohibits stopping or parking within 15 feet of a fire hydrant.",
+    "difficulty": 1,
+    "ref": "Kentucky Revised Statutes, KRS 189.450",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.061",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Kentucky, you may not park within how many feet on the approach to a stop sign, traffic signal or flashing beacon at the side of the road?",
+    "choices": [
+      "15 feet",
+      "30 feet",
+      "20 feet",
+      "50 feet"
+    ],
+    "answer": 1,
+    "explanation": "Parking is prohibited within 30 feet on the approach to any flashing beacon, stop sign or traffic control signal located at the side of a roadway.",
+    "difficulty": 2,
+    "ref": "Kentucky Revised Statutes, KRS 189.450",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.062",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Which of these places is a no-parking location under Kentucky law?",
+    "choices": [
+      "In front of a sidewalk ramp for persons with disabilities",
+      "40 feet from a stop sign",
+      "Along a curb in a residential street with no signs",
+      "In a marked space in a parking lot"
+    ],
+    "answer": 0,
+    "explanation": "KRS 189.450 bans stopping or parking in front of sidewalk ramps for persons with disabilities, as well as on sidewalks, crosswalks, in front of driveways and within intersections.",
+    "difficulty": 2,
+    "ref": "Kentucky Revised Statutes, KRS 189.450",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.063",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "When may you stop on the shoulder of a Kentucky interstate highway or its ramps?",
+    "choices": [
+      "Any time for up to 15 minutes",
+      "To check a map or phone",
+      "Whenever traffic is light",
+      "Only in an emergency or when signaled by a peace officer"
+    ],
+    "answer": 3,
+    "explanation": "No vehicle may park, stop or stand on the shoulder of an interstate or other fully controlled access highway, except in an emergency or in response to a peace officer's signal.",
+    "difficulty": 2,
+    "ref": "Kentucky Revised Statutes, KRS 189.450",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.064",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How long may a disabled vehicle remain on the shoulder of a Kentucky state-maintained highway?",
+    "choices": [
+      "Up to 48 hours",
+      "Up to 72 hours",
+      "Less than 24 hours",
+      "Until the owner returns, with no limit"
+    ],
+    "answer": 2,
+    "explanation": "In no event may a disabled vehicle remain on the shoulder of a state-maintained highway for 24 hours or more; it may be towed at the owner's cost.",
+    "difficulty": 3,
+    "ref": "Kentucky Revised Statutes, KRS 189.450",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.065",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "When parking along a Kentucky roadway with a curb, where should you place your vehicle?",
+    "choices": [
+      "In the middle of the lane",
+      "As close to the curb as possible",
+      "At least 2 feet from the curb",
+      "With two wheels on the sidewalk"
+    ],
+    "answer": 1,
+    "explanation": "Park as far from the flow of traffic as possible, and if there is a curb, as close to it as possible.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 52",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.066",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "How far before a turn at an intersection should a Kentucky driver signal?",
+    "choices": [
+      "100 feet",
+      "50 feet",
+      "200 feet",
+      "500 feet"
+    ],
+    "answer": 0,
+    "explanation": "The Kentucky manual says to signal 100 feet before you turn at an intersection, and to cancel the signal after the turn.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 50",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.067",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "Your car's turn signals stop working. What does the Kentucky manual say about using hand signals instead?",
+    "choices": [
+      "Hand signals are fine for any vehicle",
+      "Hand signals may be used only at night",
+      "Use hand signals only on highways",
+      "Your vehicle must have mechanical signals; hand signals cannot be used"
+    ],
+    "answer": 3,
+    "explanation": "Kentucky requires motor vehicles to have working mechanical signals; hand signals cannot be used for a motor vehicle.",
+    "difficulty": 3,
+    "ref": "Kentucky Driver Manual, p. 62",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.068",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "When may you turn right on a red light in Kentucky?",
+    "choices": [
+      "Never",
+      "Without stopping if no cars are coming",
+      "After stopping, from the proper lane, when clear, unless a sign prohibits it",
+      "Only when a green arrow is shown"
+    ],
+    "answer": 2,
+    "explanation": "Unless prohibited by signs, you must first stop in the proper lane, then turn right when the roadway is clear of vehicles and pedestrians.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 43",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.069",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "When is a left turn on a red light allowed in Kentucky?",
+    "choices": [
+      "Never",
+      "Only from a one-way street onto a one-way street, after stopping",
+      "From a two-way street onto a one-way street",
+      "Any time the intersection is clear"
+    ],
+    "answer": 1,
+    "explanation": "Left turns on red are permitted only from a one-way street onto a one-way street, after a full stop and when clear.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 43",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.070",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are on a two-way street at a red light and want to turn left onto a one-way street. What does Kentucky allow?",
+    "choices": [
+      "Wait for a green light or green arrow",
+      "Stop, then turn left when clear",
+      "Turn left without stopping",
+      "Turn left only if a police officer is present"
+    ],
+    "answer": 0,
+    "explanation": "A left turn on red is allowed only when turning from a one-way street onto another one-way street, so from a two-way street you must wait for green.",
+    "difficulty": 3,
+    "ref": "Kentucky Driver Manual, p. 43",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.071",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "A funeral procession led by an escort with flashing lights is going through an intersection in Kentucky. What should you do?",
+    "choices": [
+      "Join the procession to get through",
+      "Turn on your headlights and proceed",
+      "Honk to signal you are crossing",
+      "Yield; the procession has the right-of-way"
+    ],
+    "answer": 3,
+    "explanation": "A funeral procession led by an escort vehicle with flashing yellow, red or blue lights has the right-of-way at intersections; do not drive between procession vehicles.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 76",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.072",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "What penalty does Kentucky set for violating the funeral procession law?",
+    "choices": [
+      "A $50 fine",
+      "3 points only",
+      "A $250 fine or 90 days in jail",
+      "A warning on the first offense"
+    ],
+    "answer": 2,
+    "explanation": "Violating the funeral procession law may bring a $250 fine or 90 days in jail.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 77",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.073",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "What fine can a Kentucky driver face for failing to yield to a blind pedestrian with a white cane or guide dog?",
+    "choices": [
+      "Up to $50",
+      "Up to $250",
+      "Up to $100",
+      "Up to $1,000"
+    ],
+    "answer": 1,
+    "explanation": "Failure to yield the right-of-way to a blind pedestrian could result in a fine of up to $250.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 67",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.074",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "At a stop light near a crosswalk, how close should you stop so a blind pedestrian can hear your vehicle (unless there is an advanced stop bar)?",
+    "choices": [
+      "No more than 5 feet from the crosswalk",
+      "At least 20 feet back",
+      "Inside the crosswalk",
+      "At least one car length back"
+    ],
+    "answer": 0,
+    "explanation": "Do not stop more than 5 feet from the crosswalk, so the blind pedestrian can use the sound of your vehicle as a guide.",
+    "difficulty": 3,
+    "ref": "Kentucky Driver Manual, p. 67",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.075",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "An emergency vehicle with flashing red or blue lights and a siren approaches. What does Kentucky law require?",
+    "choices": [
+      "Speed up to stay ahead of it",
+      "Stop immediately where you are, even in an intersection",
+      "Move to the left lane and keep driving",
+      "Drive to the right side of the road or curb, clear of any intersection, and stop"
+    ],
+    "answer": 3,
+    "explanation": "You must immediately drive to the right side of the road or curb, clear of any intersection, and stop until the emergency vehicle has passed.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 73",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.076",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "How closely may you lawfully follow an emergency vehicle in Kentucky?",
+    "choices": [
+      "No closer than 100 feet",
+      "No closer than 300 feet",
+      "No closer than 500 feet",
+      "Any distance, if you keep up"
+    ],
+    "answer": 2,
+    "explanation": "It is unlawful to follow any emergency vehicle closer than 500 feet.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 73",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.077",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "Kentucky law requires a pass to be completed before you come within how many feet of an oncoming vehicle?",
+    "choices": [
+      "100 feet",
+      "200 feet",
+      "300 feet",
+      "500 feet"
+    ],
+    "answer": 1,
+    "explanation": "A pass must be completed before reaching a no-passing zone and before coming within 200 feet of an oncoming vehicle.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 55",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.078",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "On a Kentucky limited-access highway, which statement about the left lane is correct?",
+    "choices": [
+      "Remaining in the left lane is illegal; use it to pass",
+      "You may cruise in it at the speed limit",
+      "Only trucks may use it",
+      "It is reserved for exiting traffic"
+    ],
+    "answer": 0,
+    "explanation": "The left lane is reserved for passing, and remaining in the left lane on a limited access highway is illegal.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 54",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.079",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "On a road with only one lane in your direction, how much space must you leave when passing a bicyclist in Kentucky?",
+    "choices": [
+      "At least 1 foot",
+      "At least 2 feet",
+      "At least 6 feet",
+      "At least 3 feet"
+    ],
+    "answer": 3,
+    "explanation": "With only one lane in your direction, pass to the left keeping at least 3 feet between your vehicle and the bicycle, and keep that distance until past.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 56",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.080",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "You are overtaking a bicyclist on a road with two lanes in your direction. What does Kentucky law say to do?",
+    "choices": [
+      "Pass within the same lane at 3 feet",
+      "Honk and pass on the right",
+      "Move to the lane immediately to the left if it is available and safe",
+      "Wait for the cyclist to pull off the road"
+    ],
+    "answer": 2,
+    "explanation": "If there is more than one lane in your direction, move to the immediate left lane if it is available and reasonably safe.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 56",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.081",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "May a Kentucky driver cross the center line in a no-passing zone to pass a bicyclist?",
+    "choices": [
+      "Never",
+      "Yes, if the roadway to the left is clear far enough to pass safely without interfering with oncoming traffic",
+      "Yes, at any time",
+      "Only if the cyclist waves you by"
+    ],
+    "answer": 1,
+    "explanation": "Kentucky allows driving left of center, even in a no-passing zone, to pass a bicycle or electric low-speed scooter only when the way is clear for a safe pass.",
+    "difficulty": 3,
+    "ref": "Kentucky Driver Manual, p. 56",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.082",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "Where are bicyclists never allowed to ride in Kentucky?",
+    "choices": [
+      "On interstates and parkways",
+      "On county roads",
+      "In bike lanes",
+      "On city streets after dark"
+    ],
+    "answer": 0,
+    "explanation": "The rules for bicyclists say never to ride on interstates and parkways.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 69",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.083",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "Mopeds may NOT be operated on which Kentucky roads?",
+    "choices": [
+      "Any road with a center line",
+      "Roads posted 35 mph",
+      "Residential streets",
+      "Limited-access highways where the minimum speed is more than 30 mph"
+    ],
+    "answer": 3,
+    "explanation": "Mopeds cannot be operated on limited-access highways where the minimum speed is more than 30 mph.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 11",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.084",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Kentucky's stop-for-the-bus law applies to which stopped buses that are loading or unloading passengers?",
+    "choices": [
+      "Only yellow school buses",
+      "Only city transit buses",
+      "School buses and church buses",
+      "Any bus with flashing lights"
+    ],
+    "answer": 2,
+    "explanation": "When you come to a school or church bus stopped to load or unload passengers, you must stop.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 52",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.085",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "When does a Kentucky driver NOT have to stop for a stopped school bus with its stop arm out?",
+    "choices": [
+      "When behind the bus on a two-lane road",
+      "When traveling in the opposite direction on a road of four or more lanes separated by an elevated barrier or unpaved median",
+      "When traveling in the opposite direction on any four-lane road",
+      "When no children are visible"
+    ],
+    "answer": 1,
+    "explanation": "The only exception is for traffic going the opposite direction on a roadway of four or more lanes separated by an elevated barrier or an unpaved median.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 52",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.086",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are approaching a stopped school bus from the opposite direction on a four-lane road divided only by a painted center line. What must you do in Kentucky?",
+    "choices": [
+      "Stop and remain stopped until passengers are clear and the bus is moving",
+      "Slow to 10 mph and pass",
+      "Continue at normal speed",
+      "Stop only if the bus is on your side"
+    ],
+    "answer": 0,
+    "explanation": "A painted line is not an elevated barrier or unpaved median, so traffic from either direction must stop until the bus is in motion.",
+    "difficulty": 3,
+    "ref": "Kentucky Driver Manual, p. 52",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.087",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a four-lane Kentucky highway you approach a police car stopped on the shoulder with lights flashing. What should you do?",
+    "choices": [
+      "Keep your lane and speed",
+      "Stop behind the police car",
+      "Speed up to pass quickly",
+      "Slow down and move into the lane not next to it if safe"
+    ],
+    "answer": 3,
+    "explanation": "Proceed with caution, slow down, and change to a lane not next to the stopped emergency vehicle if safety and traffic permit.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 74",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.088",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a two-lane Kentucky highway you approach an emergency vehicle stopped on the shoulder. What does the manual say to do?",
+    "choices": [
+      "Cross the center line at full speed",
+      "Stop and wait until it leaves",
+      "Approach slowly and pass with caution",
+      "Honk to alert the officer"
+    ],
+    "answer": 2,
+    "explanation": "On two-lane highways, approach slowly and pass with caution when you cannot change lanes.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 74",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.089",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Under Kentucky's move-over law (KRS 189.930), which stopped vehicle also requires you to move over or slow down?",
+    "choices": [
+      "A parked car with no lights on",
+      "A disabled vehicle showing emergency flashers, flares or reflective signals",
+      "A vehicle in a private driveway",
+      "A bus at a bus stop"
+    ],
+    "answer": 1,
+    "explanation": "KRS 189.930 applies the move-over rule to a stationary disabled vehicle displaying warning signals such as flashers, flares or retroreflective signals.",
+    "difficulty": 3,
+    "ref": "Kentucky Revised Statutes, KRS 189.930",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.090",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "An orange and red triangle on the back of a farm vehicle in Kentucky means the vehicle travels at less than what speed?",
+    "choices": [
+      "25 mph",
+      "15 mph",
+      "35 mph",
+      "45 mph"
+    ],
+    "answer": 0,
+    "explanation": "The slow-moving vehicle emblem means the vehicle is traveling less than 25 mph.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 74",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.091",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "In Kentucky, when must you file a written crash report with the Kentucky State Police yourself?",
+    "choices": [
+      "After any crash, no matter the damage",
+      "Only when someone is killed",
+      "When damage exceeds $1,500, within 30 days",
+      "When property damage exceeds $500 and no officer investigated, within 10 days"
+    ],
+    "answer": 3,
+    "explanation": "If property damage exceeds $500 and no law enforcement officer investigates, you must file a written report with KSP within 10 days.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 64",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.092",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You are in a crash on a Kentucky interstate and no one is hurt. If the vehicles can be moved safely, what does Kentucky law require?",
+    "choices": [
+      "Leave them exactly where they stopped until police arrive",
+      "Move them off the roadway to the shoulder near the crash scene",
+      "Push them to the next exit before stopping",
+      "Have them towed before calling anyone"
+    ],
+    "answer": 1,
+    "explanation": "KRS 189.580(1)(b) requires moving vehicles off the roadway of an interstate, parkway or ramp after a crash with no death, known or visible injury, or hazardous material, as soon as they can be moved safely. The manual tells drivers to move vehicles to the shoulder after any non-injury crash.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 64; KRS 189.580(1)(b)",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.093",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "A police officer investigated your Kentucky crash at the scene. Should you also file a Civilian Traffic Collision report?",
+    "choices": [
+      "Yes, always",
+      "No, do not complete a civilian report if an officer investigated",
+      "Only if damage was over $1,000",
+      "Only if you were at fault"
+    ],
+    "answer": 1,
+    "explanation": "The manual says not to complete a civilian collision report if the collision was investigated by a law enforcement officer.",
+    "difficulty": 3,
+    "ref": "Kentucky Driver Manual, p. 65",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.094",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Your car breaks down on a Kentucky highway. Where does the manual say to place emergency flares?",
+    "choices": [
+      "About 200 to 300 feet behind the car",
+      "Right next to the car",
+      "About 50 feet behind the car",
+      "In front of the car only"
+    ],
+    "answer": 0,
+    "explanation": "Place emergency flares about 200 to 300 feet behind the vehicle so other drivers have time to change lanes.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 66",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.095",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When must headlights be on in Kentucky?",
+    "choices": [
+      "From sunset to sunrise",
+      "From 1 hour after sunset to 1 hour before sunrise",
+      "Only when it is fully dark",
+      "From 1/2 hour after sunset to 1/2 hour before sunrise"
+    ],
+    "answer": 3,
+    "explanation": "Headlights must be illuminated from one-half hour after sunset to one-half hour before sunrise.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 62",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.096",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Within how many feet of an oncoming vehicle must you dim your high beams in Kentucky?",
+    "choices": [
+      "200 feet",
+      "300 feet",
+      "500 feet",
+      "1,000 feet"
+    ],
+    "answer": 2,
+    "explanation": "Dim your lights whenever you come within 500 feet of an oncoming vehicle.",
+    "difficulty": 1,
+    "ref": "Kentucky Driver Manual, p. 76",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.097",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Within how many feet of a vehicle you are following should you switch to low beams in Kentucky?",
+    "choices": [
+      "100 feet",
+      "300 feet",
+      "200 feet",
+      "500 feet"
+    ],
+    "answer": 1,
+    "explanation": "Dim your lights within 300 feet of any vehicle you are following.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 76",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.098",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "In Kentucky, when can traffic fines be doubled in a highway work zone?",
+    "choices": [
+      "When signs announce the work zone and doubled fines and at least one worker is present",
+      "Any time you are in a work zone",
+      "Only at night",
+      "Only on interstates"
+    ],
+    "answer": 0,
+    "explanation": "Fines may be doubled in a highway work zone when signs tell drivers about the work zone and that fines are doubled, and at least one bona fide worker is present.",
+    "difficulty": 3,
+    "ref": "Kentucky Driver Manual, p. 77",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.099",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "At a Kentucky railroad crossing designated unsafe and marked with a STOP sign, where must every driver stop?",
+    "choices": [
+      "Right on the first rail",
+      "At least 50 feet away",
+      "Stopping is optional if no train is visible",
+      "No closer than 15 feet and no more than 30 feet from the nearest rail (or at the marked stop line)"
+    ],
+    "answer": 3,
+    "explanation": "KRS 189.560 requires a full stop no closer than the marked stop line or 15 feet, and no more than 30 feet, from the nearest rail at crossings designated unsafe.",
+    "difficulty": 3,
+    "ref": "Kentucky Revised Statutes, KRS 189.560",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.100",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "How should cargo weight be divided when loading a trailer, according to the Kentucky manual?",
+    "choices": [
+      "50% front and 50% back",
+      "40% front and 60% back",
+      "60% front and 40% back",
+      "All weight over the rear axle"
+    ],
+    "answer": 2,
+    "explanation": "Sixty percent of the cargo weight should go in the front of the trailer and 40 percent in the back to reduce sway.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 78",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.101",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A Kentucky driver keeps an opened bottle of beer in the unlocked glove compartment while driving on a public highway. Is this legal?",
+    "choices": [
+      "Yes, as long as the driver is not drinking it",
+      "No, an open alcoholic beverage container in the passenger area is illegal, and an unlocked glove compartment counts",
+      "Yes, the glove compartment is not part of the passenger area",
+      "Only if the driver is under 21"
+    ],
+    "answer": 1,
+    "explanation": "KRS 189.530 bans possessing an open alcoholic beverage container in the passenger area of a vehicle on a public highway. The passenger area includes the glove compartment unless it is locked.",
+    "difficulty": 2,
+    "ref": "Kentucky Revised Statutes, KRS 189.530",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.102",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Under Kentucky law (KRS 186.452), what is the minimum age to apply for an intermediate license after holding a permit for 180 days?",
+    "choices": [
+      "15",
+      "16",
+      "15 and a half",
+      "18"
+    ],
+    "answer": 1,
+    "explanation": "KRS 186.452 and the Transportation Cabinet's GDL page set age 16 for the intermediate license, after 180 days on the permit and 60 supervised hours (10 at night). A full unrestricted license comes later, at 17 or older.",
+    "difficulty": 2,
+    "ref": "Kentucky Revised Statutes, KRS 186.452(1)(a); drive.ky.gov GDL page",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.103",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 30-year-old Kentucky driver holds a phone and dials a number to make a call while driving. Under Kentucky's texting law, is this a violation?",
+    "choices": [
+      "Yes, all hand-held phone use is banned",
+      "Yes, but only in school zones",
+      "No, the texting law exempts entering a number or name to make a call",
+      "No, because adults may also text while driving"
+    ],
+    "answer": 2,
+    "explanation": "Kentucky has no hands-free law for drivers 18 and older. KRS 189.292 bans texting while the vehicle is moving but exempts reading, selecting or entering a phone number or name to make a call.",
+    "difficulty": 3,
+    "ref": "Kentucky Revised Statutes, KRS 189.292",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.104",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What does Kentucky law say about driving well below the flow of traffic?",
+    "choices": [
+      "You may drive as slowly as you like",
+      "You may not drive so slowly that you impede or block normal traffic, unless slower speed is needed for safety or the law",
+      "Slow driving is only illegal on interstates",
+      "You must always drive exactly at the posted limit"
+    ],
+    "answer": 1,
+    "explanation": "KRS 189.390(7) bars driving at a speed that impedes or blocks the normal and reasonable movement of traffic, except when a reduced speed is needed for safe operation or to comply with the law.",
+    "difficulty": 2,
+    "ref": "Kentucky Revised Statutes, KRS 189.390(7)",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.105",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "The posted limit on a Kentucky highway is 55 mph, but the road is icy. What does Kentucky's basic speed law require?",
+    "choices": [
+      "Drive at 55 mph, since that is the legal limit",
+      "Drive no faster than 45 mph on any icy road",
+      "Drive no faster than is reasonable and prudent for traffic and road conditions",
+      "Drive at least 40 mph to avoid blocking traffic"
+    ],
+    "answer": 2,
+    "explanation": "KRS 189.390(2) says you may not drive faster than is reasonable and prudent for traffic and the condition and use of the highway, even below the posted limit.",
+    "difficulty": 1,
+    "ref": "Kentucky Revised Statutes, KRS 189.390(2)",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.106",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Where does Kentucky law (KRS 189.450) prohibit stopping or parking unless traffic or an officer requires it?",
+    "choices": [
+      "On a crosswalk",
+      "Within 50 feet of any bus stop",
+      "On any street with a center line",
+      "Within 100 feet of a school"
+    ],
+    "answer": 0,
+    "explanation": "KRS 189.450 lists a crosswalk as a place where you may not stop or park, along with intersections, sidewalks, and in front of driveways.",
+    "difficulty": 1,
+    "ref": "Kentucky Revised Statutes, KRS 189.450",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.107",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You need to drop off a passenger quickly in Kentucky. Which spot is illegal for stopping under KRS 189.450?",
+    "choices": [
+      "Along the curb 40 feet past a stop sign",
+      "Inside an intersection",
+      "In a marked parking space",
+      "In a private parking lot"
+    ],
+    "answer": 1,
+    "explanation": "KRS 189.450 bans stopping or parking within an intersection or on a crosswalk unless needed to avoid traffic or directed by an officer or traffic control device.",
+    "difficulty": 1,
+    "ref": "Kentucky Revised Statutes, KRS 189.450",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.car.108",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A pedestrian is crossing at a Kentucky intersection with no painted crosswalk lines. What must you do?",
+    "choices": [
+      "Yield, because an unmarked crosswalk still gives the pedestrian the right-of-way",
+      "Proceed, because only marked crosswalks count",
+      "Honk and continue if you have a green light",
+      "Yield only if the pedestrian is a child"
+    ],
+    "answer": 0,
+    "explanation": "The Kentucky manual says you must yield to a pedestrian in a crosswalk even if it is unmarked, and to all pedestrians in the intersection even on a green light.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 67",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Which Kentucky motorcyclists are required by law to wear a helmet?",
+    "choices": [
+      "All riders of any age",
+      "Riders and passengers under 21, permit holders, and riders licensed less than 1 year",
+      "Only riders under 18",
+      "No one; helmets are optional for everyone"
+    ],
+    "answer": 1,
+    "explanation": "KRS 189.285 requires helmets for operators and passengers under 21, anyone riding on an instruction permit, and anyone licensed for less than one year.",
+    "difficulty": 1,
+    "ref": "Kentucky Revised Statutes, KRS 189.285",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 30-year-old earned a Kentucky motorcycle license eight months ago. Must they wear a helmet?",
+    "choices": [
+      "Yes, riders licensed for less than one year must wear a helmet",
+      "No, helmets are only for riders under 21",
+      "Only on interstates",
+      "Only when carrying a passenger"
+    ],
+    "answer": 0,
+    "explanation": "A person who has held a motorcycle license for less than one year must wear protective headgear, regardless of age.",
+    "difficulty": 2,
+    "ref": "Kentucky Revised Statutes, KRS 189.285",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 19-year-old rides as a passenger on a friend's motorcycle in Kentucky. Is a helmet required?",
+    "choices": [
+      "No, the helmet rule applies only to operators",
+      "Only if the operator has a permit",
+      "Only at night",
+      "Yes, passengers under 21 must wear a helmet"
+    ],
+    "answer": 3,
+    "explanation": "The helmet requirement covers anyone under 21 who is operating a motorcycle or riding as a passenger, including in a sidecar.",
+    "difficulty": 2,
+    "ref": "Kentucky Revised Statutes, KRS 189.285",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "May a rider with a Kentucky motorcycle instruction permit carry a passenger?",
+    "choices": [
+      "Yes, if the passenger is 21 or older",
+      "Yes, during daylight",
+      "No, permit holders may not carry passengers",
+      "Yes, if both wear helmets"
+    ],
+    "answer": 2,
+    "explanation": "A motorcycle operator on an instruction permit is not authorized to carry passengers.",
+    "difficulty": 2,
+    "ref": "Kentucky Revised Statutes, KRS 189.285",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What eye-protection rule applies to every motorcycle operator in Kentucky?",
+    "choices": [
+      "Eye protection is optional for adults",
+      "An approved eye-protective device must be used at all times the motorcycle is moving",
+      "Only required above 45 mph",
+      "Only required without a windshield on the bike"
+    ],
+    "answer": 1,
+    "explanation": "KRS 189.285 bars operating a motorcycle on a highway unless the rider uses an approved eye-protective device at all times the vehicle is in motion.",
+    "difficulty": 2,
+    "ref": "Kentucky Revised Statutes, KRS 189.285",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Who may apply for a Kentucky motorcycle instruction permit?",
+    "choices": [
+      "A person 18 or older, or a person with a valid intermediate license",
+      "Anyone 15 or older",
+      "Anyone 16 or older with a learner's permit",
+      "Only people with a full license held for 1 year"
+    ],
+    "answer": 0,
+    "explanation": "A person who holds a valid intermediate operator's license or who is at least 18 may apply for a motorcycle instruction permit.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 11",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 17-year-old applying for a Kentucky motorcycle instruction permit already has a parent's signature on file for a car license. What else is needed?",
+    "choices": [
+      "Nothing; the existing signature covers it",
+      "A letter from the school",
+      "Proof of motorcycle insurance only",
+      "The parent or guardian must sign the motorcycle permit application too"
+    ],
+    "answer": 3,
+    "explanation": "Applicants under 18 need a parent or guardian to sign the motorcycle permit application, even if they already signed for a car or moped license.",
+    "difficulty": 3,
+    "ref": "Kentucky Driver Manual, p. 11",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What benefit do riders get by completing a RideSmartKY-approved rider training course?",
+    "choices": [
+      "Lower registration fees",
+      "Permission to ride without a helmet",
+      "Exemption from the motorcycle written and skills tests",
+      "A free motorcycle"
+    ],
+    "answer": 2,
+    "explanation": "Applicants who present proof of completing an approved rider training course are exempted from the licensing written and skills tests.",
+    "difficulty": 2,
+    "ref": "Kentucky Driver Manual, p. 12",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How long is a Kentucky motorcycle instruction permit valid?",
+    "choices": [
+      "30 days",
+      "1 year, renewable one time",
+      "4 years",
+      "Until the rider turns 21"
+    ],
+    "answer": 1,
+    "explanation": "A motorcycle instruction permit is valid for one year and may be renewed one time.",
+    "difficulty": 3,
+    "ref": "Kentucky Revised Statutes, KRS 186.450",
+    "states": [
+      "KY"
+    ]
+  },
+  {
+    "id": "ky.mc.010",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 17-year-old with a Kentucky motorcycle permit wants to answer a hands-free call while riding. What does the law say?",
+    "choices": [
+      "It is not allowed; drivers under 18 may not use a personal communication device on a moving motorcycle except to call for emergency help",
+      "It is allowed with a helmet headset",
+      "It is allowed below 35 mph",
+      "It is allowed if the rider is supervised"
+    ],
+    "answer": 0,
+    "explanation": "KRS 189.294 bars anyone under 18 from using a personal communication device while operating a moving motor vehicle, motorcycle or moped, except to summon emergency help.",
+    "difficulty": 2,
+    "ref": "Kentucky Revised Statutes, KRS 189.294",
+    "states": [
+      "KY"
+    ]
+  }
+]

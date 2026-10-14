@@ -1,0 +1,732 @@
+{
+  "code": "SC",
+  "name": "South Carolina",
+  "agency": {
+    "name": "South Carolina Department of Motor Vehicles",
+    "abbreviation": "SCDMV",
+    "website": "https://dmv.sc.gov/"
+  },
+  "handbook": {
+    "title": "South Carolina Driver's Manual",
+    "edition": "Online edition posted April 2026 (based on the 06/2024 revision; adds the 30-day permit hold for drivers 18+ and the 2025 Hands-Free and Distracted Driving Act)",
+    "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf"
+  },
+  "exam": {
+    "questions": 40,
+    "passingScore": 32,
+    "passingPercent": 80,
+    "timeLimitMinutes": null,
+    "roadSigns": "No separate road-sign section is published; the knowledge test covers traffic laws, road signs and driving safety rules (Driver's Manual p. 16), and the skills test may also ask you to identify road signs.",
+    "format": "Knowledge test taken at any SCDMV branch (before 4 p.m.) or through an SCDMV-authorized One Stop Driver Training and Testing Program (third-party tester), together with a vision test; manuals, notes and electronic devices are not allowed, and leaving the test area or talking to anyone is an automatic failure. Fee: $2.00 for the knowledge test, $2.50 for the beginner's permit.",
+    "languages": "Not stated on the SCDMV pages checked.",
+    "retestWait": "No knowledge-test retest wait is published. Skills (road) test: 2 business days after a first failure, 7 calendar days after a second, 30 calendar days after a third or later.",
+    "notes": "SCDMV's official online practice exam (apps.sc.gov/DLPracticeExam) states on its results page: 'A score of 80% or higher is needed to pass the exam.' Beginner's permit at 15; applicants under 18 need a qualified adult's consent. Permit holding period: 180 days if under 18, at least 30 days if 18 or older. Teens 15-16 also need driver education (8 hours classroom + 6 hours driving) and 40 hours of practice (10 at night) for a conditional (15 1/2) or special restricted (16) license. The official site does not publish the number of questions; this practice exam uses 40 questions at the official 80% passing standard.",
+    "sourceUrl": "https://dmv.sc.gov/driver-services/drivers-license/beginner-permits"
+  },
+  "motorcycleExam": null,
+  "cdlExam": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC",
+      "detail": "Driving with an alcohol concentration of 0.08% or more is the separate offense of driving with an unlawful alcohol concentration (DUAC). The handbook warns you can still be convicted of impaired driving (DUI) at a lower BAC, such as 0.05, or a lower BAC combined with drugs.",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t56c005.php",
+        "page": null,
+        "quote": "It is unlawful for a person to drive a motor vehicle within this State while his alcohol concentration is eight one-hundredths of one percent or more."
+      }
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% BAC (zero tolerance)",
+      "detail": "A driver under 21 with a BAC of 0.02% or more is suspended immediately for at least three months; refusing testing brings a suspension of at least six months (S.C. Code 56-1-286).",
+      "number": 0.02,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 38,
+        "quote": "If you are under 21 years of age and register a BAC of 0.02 percent or greater, your privilege to drive will be suspended immediately for at least three months."
+      }
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC in a commercial motor vehicle",
+      "detail": "A CMV driver with 0.04% or more is disqualified from driving a commercial motor vehicle; any measurable alcohol (or a test refusal) puts a CMV driver out of service for 24 hours.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t56c001.php",
+        "page": null,
+        "quote": "A person who drives a commercial motor vehicle in this State with an alcohol concentration of four one-hundredths of one percent or more must be disqualified from driving a commercial motor vehicle under Section 56-1-2110."
+      }
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusal (first, no prior DUI in 10 years): 6-month suspension",
+      "detail": "Under implied consent, by driving you have consented to breath, blood or urine testing. A first refusal brings a six-month suspension (a BAC of 0.15% or more brings one month); the driver may instead enroll in the Ignition Interlock Device Program for the remaining period.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t56c005.php",
+        "page": null,
+        "quote": "six months for a person who refuses to submit to a test pursuant to Section 56-5-2950"
+      }
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "Ignition interlock for 6 months; $400 fine or 48 hours-30 days jail",
+      "detail": "A first DUI/DUAC conviction suspends the license; the driver must enroll in the Ignition Interlock Device Program and drive with an interlock for six months, and is not eligible for a provisional license (S.C. Code 56-5-2990; the manual says the provisional license is not available for any DUI or DUAC on or after May 19, 2024). The base criminal penalty (S.C. Code 56-5-2930/2933) is a $400 fine or 48 hours to 30 days in jail, higher at BAC 0.10+.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t56c005.php",
+        "page": null,
+        "quote": "For a first offense, a person shall enroll in the Ignition Interlock Device Program pursuant to Section 56-5-2941, end the suspension, and obtain an ignition interlock restricted license pursuant to Section 56-1-400. The ignition interlock device is required to be affixed to the motor vehicle for six months."
+      }
+    },
+    {
+      "key": "open_container",
+      "value": "No open beer or wine except in the trunk or luggage compartment",
+      "detail": "An open container of beer or wine is illegal in a vehicle on a public highway or right of way unless it is in the trunk or luggage compartment; opened liquor may be carried only in the trunk or a cargo area separate from the passenger compartment (S.C. Code 61-6-4020). Fine up to $100 or 30 days.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t61c004.php",
+        "page": null,
+        "quote": "It is unlawful for a person to have in his possession, except in the trunk or luggage compartment, beer or wine in an open container in a motor vehicle of any kind while located upon the public highways or highway rights of way of this State."
+      }
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15 years",
+      "detail": "You must be at least 15 and pass the vision and knowledge tests to get a beginner's permit (Class D). Applicants under 18 need a qualified adult to sign consent.",
+      "number": 15,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 8,
+        "quote": "You must be at least 15 years old."
+      }
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "180 days if 17 or younger; 30 days if 18 or older",
+      "detail": "Drivers 17 and under must hold the beginner's permit at least 180 days (apply on the 181st day); drivers 18 and older at least 30 days (apply on the 31st day).",
+      "number": 180,
+      "unit": "days",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 9,
+        "quote": "If you are 18 years and older, you must hold your beginner’s permit for at least 30 days before you may apply for your driver’s license."
+      }
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "40 hours, including 10 at night (ages 15-16)",
+      "detail": "Applicants who are 15 or 16 must log at least 40 hours of practice, including 10 hours at night, with a parent, guardian or other qualified adult, and complete driver education (8 hours classroom, 6 hours driving).",
+      "number": 40,
+      "unit": "hours",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 9,
+        "quote": "If you are 15 or 16, you must practice driving for at least 40 hours, including ten hours of night driving"
+      }
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Licensed driver 21+ with 1+ year experience in front seat (6 a.m.-midnight)",
+      "detail": "From 6 a.m. to midnight a permit holder must drive with a licensed driver at least 21 with at least one year of experience in the front seat; after midnight only a qualified individual listed in SC Code 56-1-100(A)(1-7), such as a parent or guardian, may supervise.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 8,
+        "quote": "You may drive from 6 a.m. to midnight if a licensed driver who is at least 21 years old and has at least one year of driving experience is in the front seat with you."
+      }
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "15 1/2 (conditional license)",
+      "detail": "A conditional license is available at 15 1/2 to under 16; a special restricted license at 16 to under 17. Both require 180 days on the permit, driver education, 40 hours of practice and passing the vision and skills tests.",
+      "number": 15.5,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 11,
+        "quote": "If you are at least 15 ½, but less than 16, and have met the requirements listed in this section, you are eligible for a conditional license."
+      }
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "Alone 6 a.m.-6 p.m. (8 p.m. DST); 6 p.m.-midnight with licensed driver 21+; midnight-6 a.m. only with a parent/qualified adult",
+      "detail": "Conditional and special restricted license holders may drive alone only from 6 a.m. to 6 p.m. (8 p.m. during daylight saving time). A special restricted license with a waiver can allow driving alone until midnight for work or certain activities.",
+      "number": 6,
+      "unit": "p.m.",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 11,
+        "quote": "You may drive alone from 6 a.m. to 6 p.m. (8 p.m. during daylight savings time)."
+      }
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "No more than 2 passengers under 21 (unless a licensed adult 21+ is present)",
+      "detail": "Exceptions: a licensed adult 21 or older is in the vehicle, or the passengers are family members or students being taken to or from school.",
+      "number": 2,
+      "unit": "passengers",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 11,
+        "quote": "You cannot have more than two passengers under 21 in the vehicle with you unless you are with a licensed adult who is at least 21."
+      }
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "17 (or after 1 year on a conditional/special restricted license with no offenses or at-fault collisions)",
+      "detail": "Full privileges come at 17, or after one year on the restricted license with no traffic offenses and no at-fault collisions. No branch visit is needed; the SCDMV mails a sleeve to wrap around the license.",
+      "number": 17,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 13,
+        "quote": "You will earn full driving privileges at 17, or after keeping your conditional or special restricted license for one year"
+      }
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "Hands-free law: may not hold or support a phone/device while driving",
+      "detail": "The South Carolina Hands-Free and Distracted Driving Act (effective Sept. 1, 2025) bars all drivers from holding or supporting a mobile electronic device with any part of the body. Earpieces and wrist-worn devices for voice calls are allowed. Fines: $100 first offense; $200 plus 2 points for a second or later offense.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 36,
+        "quote": "Physically hold or support a mobile electronic device with any part of their body"
+      }
+    },
+    {
+      "key": "texting_ban",
+      "value": "No reading, writing or sending texts (all drivers)",
+      "detail": "All drivers are barred from reading, writing or sending any text (messages, email, apps, websites) and from watching video or video calls while driving. Penalty: $100 first offense; $200 and 2 points for second and later offenses.",
+      "number": 100,
+      "unit": "dollars (1st offense)",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 36,
+        "quote": "Read, write or send any form of text, which includes, but is not limited to, text messages, emails, interactions with applications, or information from websites"
+      }
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Primary enforcement; driver and all occupants must be belted",
+      "detail": "An officer may stop a driver solely for an unbelted driver or occupant (or an unrestrained child) seen in clear view. Under S.C. Code 56-5-6520, the driver and every occupant must wear a fastened seat belt.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 49,
+        "quote": "South Carolina has a primary safety belt enforcement law."
+      }
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Car seat in rear seat for children 7 and under; rear-facing under 2; booster from 4; adult belt at 8 or 57 inches",
+      "detail": "Under 2: rear-facing seat in a rear seat; 2+ (or outgrown rear-facing): forward-facing harness seat; 4+ who outgrew it: booster with lap and shoulder belt; at least 8 or 57 inches tall: adult belt if it fits properly. Never place a rear-facing seat in front of an air bag.",
+      "number": 8,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 50,
+        "quote": "Children age seven and younger must sit in a car seat in the back seat of the vehicle to avoid injury from an air bag in the event of a collision."
+      }
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Never faster than reasonable and prudent for conditions",
+      "detail": "Posted limits are maximums for ideal conditions; you must drive at a speed that lets you avoid colliding with anyone on or entering the road, and slow down for intersections, railroad crossings, curves, hills, narrow bridges and bad weather.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t56c005.php",
+        "page": null,
+        "quote": "A person shall not drive a vehicle on a highway at a speed greater than is reasonable and prudent under the conditions and having regard to the actual and potential hazards then existing."
+      }
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "30 mph in an urban district (unless posted otherwise)",
+      "detail": "An urban district is any street built up with business, industrial or residential buildings less than 100 feet apart for at least a quarter mile. Local authorities may set a lower limit after an engineering study.",
+      "number": 30,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t56c005.php",
+        "page": null,
+        "quote": "Thirty miles an hour is the maximum speed in an urban district."
+      }
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "30 mph in an urban (business or residential) district",
+      "detail": "South Carolina uses one 'urban district' limit of 30 mph for built-up business, industrial or residential areas unless a different limit is posted.",
+      "number": 30,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t56c005.php",
+        "page": null,
+        "quote": "Thirty miles an hour is the maximum speed in an urban district."
+      }
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "55 mph (40 mph on unpaved roads)",
+      "detail": "Unless posted otherwise, the limit is 55 mph on highways outside urban districts; multilane divided primary highways may be posted at 60 mph; unpaved roads are limited to 40 mph.",
+      "number": 55,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t56c005.php",
+        "page": null,
+        "quote": "fifty-five miles an hour in other locations or on other sections of highways and unpaved roads are limited to the speed of forty miles an hour"
+      }
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "70 mph",
+      "detail": "70 mph is the maximum on interstates and other freeways where signs giving notice of this limit are posted.",
+      "number": 70,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t56c005.php",
+        "page": null,
+        "quote": "seventy miles an hour on the interstate highway system and other freeways where official signs giving notice of this speed are posted"
+      }
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Do not drive so slowly that you impede normal traffic",
+      "detail": "Driving so slowly that you block the normal and reasonable movement of traffic is illegal unless slower speed is needed for safety or by law. SCDOT or local authorities may post minimum speed limits.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t56c005.php",
+        "page": null,
+        "quote": "No person shall drive a motor vehicle at such a slow speed as to impede the normal and reasonable movement of traffic except when reduced speed is necessary for safe operation or in compliance with law."
+      }
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a full stop unless a sign prohibits it",
+      "detail": "Stop before the crosswalk on the near side, then yield to pedestrians in or near the crosswalk and to other traffic lawfully using the intersection.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 62,
+        "quote": "An exception to this rule permits traffic facing a red signal to turn right except where a sign prohibits a right turn on red."
+      }
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Allowed only from a one-way street onto a one-way street, after stopping",
+      "detail": "Unless a sign prohibits it, a driver facing a steady red signal may, after stopping, turn left from a one-way street into a one-way street, yielding to pedestrians and other traffic.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t56c005.php",
+        "page": null,
+        "quote": "vehicular traffic facing any steady red signal may cautiously enter the intersection to turn right or to turn left from a one-way street into a one-way street after stopping as required by item (1) or (2)."
+      }
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 100 feet",
+      "detail": "State law requires a turn signal at least 100 feet before changing lanes, turning, or merging into traffic. Cancel the signal once the move is complete.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 102,
+        "quote": "It is state law that you must use a turn signal 100 feet or more before changing lanes, turning left or right, or when merging into traffic."
+      }
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull over to the edge of the road and let it pass; stay 500 feet behind fire apparatus",
+      "detail": "When an emergency vehicle uses its flashing lights and siren, yield by pulling to the edge of the road (on a two-lane road, stop parallel to the right edge until it passes) and avoid blocking intersections. S.C. Code 56-5-1960 bars following a responding fire truck closer than 500 feet.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 121,
+        "quote": "you must yield right-of-way to an emergency vehicle when the flashing lights and siren are on by pulling over to the edge of the road so the emergency vehicle(s) may more easily pass."
+      }
+    },
+    {
+      "key": "move_over_law",
+      "value": "Slow down and move to a lane away from a stopped emergency vehicle; if unsafe, slow down",
+      "detail": "Applies to stopped authorized emergency vehicles with flashing lights (police, fire, EMS, recovery and tow vehicles). By statute (56-5-1538) the fine is $300-$500.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 124,
+        "quote": "Slow down and yield the right-of-way by making a lane change into a lane away from the authorized emergency vehicle, if safety and traffic conditions permit."
+      }
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop both directions on two-lane roads; opposite traffic need not stop on a multi-lane (4+ lane) highway",
+      "detail": "Stop whenever a school bus has red lights flashing or stop arm out. Always stop when behind the bus. Oncoming traffic need not stop on a highway with at least two lanes in each direction. Do not pass a bus with amber lights flashing. Passing a stopped school bus is 6 points.",
+      "number": 4,
+      "unit": "lanes",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 85,
+        "quote": "A driver of a vehicle does not have to stop upon meeting a stopped school bus when traveling in the opposite direction on a multi-lane highway or multi-lane private road."
+      }
+    },
+    {
+      "key": "following_distance",
+      "value": "At least 4 seconds",
+      "detail": "Keep at least a 4-second following distance (count 'one thousand one' to 'one thousand four' past a fixed point). Add at least one second at night and two on unfamiliar roads at night; allow at least 4 seconds behind motorcycles.",
+      "number": 4,
+      "unit": "seconds",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 99,
+        "quote": "keep a minimum following distance of 4 seconds between your vehicle and the vehicle in front."
+      }
+    },
+    {
+      "key": "headlights_required",
+      "value": "From 1/2 hour after sunset to 1/2 hour before sunrise; whenever wipers are used for rain, sleet or snow; when visibility is under 500 feet",
+      "detail": "Parking lights alone do not count. Intermittent wiper use in misting rain does not trigger the wiper rule.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t56c005.php",
+        "page": null,
+        "quote": "from a half hour after sunset to a half hour before sunrise, and at any other time when windshield wipers are in use as a result of rain, sleet, or snow"
+      }
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "500 feet",
+      "detail": "Dim high beams when an oncoming vehicle is within 500 feet. If an oncoming driver keeps high beams on, glance toward the right edge of the road.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 126,
+        "quote": "Dim your high beams when you are 500 feet or more away from any oncoming vehicle."
+      }
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "200 feet",
+      "detail": "Use low beams when following another vehicle within 200 feet.",
+      "number": 200,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 127,
+        "quote": "Use your low beams when following another vehicle that is less than 200 feet in front of you."
+      }
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet",
+      "detail": "Do not stand or park within 15 feet of a fire hydrant, except momentarily to pick up or drop off passengers.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t56c005.php",
+        "page": null,
+        "quote": "Within fifteen feet of a fire hydrant."
+      }
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "Not on a crosswalk; not within 20 feet of a crosswalk at an intersection",
+      "detail": "Stopping or parking on a crosswalk is prohibited; standing or parking within 20 feet of a crosswalk at an intersection is also prohibited.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t56c005.php",
+        "page": null,
+        "quote": "Within twenty feet of a crosswalk at an intersection."
+      }
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Not within an intersection",
+      "detail": "You may not stop, stand or park within an intersection (except to avoid conflict with traffic or when directed by police or a traffic-control device).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t56c005.php",
+        "page": null,
+        "quote": "Within an intersection."
+      }
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet",
+      "detail": "Do not stand or park within 30 feet on the approach to a flashing signal, stop sign, yield sign or traffic signal at the side of the road.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t56c005.php",
+        "page": null,
+        "quote": "Within thirty feet upon the approach to any flashing signal, stop sign, yield sign or traffic-control signal located at the side of a roadway."
+      }
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet from the nearest rail",
+      "detail": "Do not park within 50 feet of the nearest rail of a railroad crossing (except while actually loading or unloading); never stop or park on the tracks.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t56c005.php",
+        "page": null,
+        "quote": "Within fifty feet of the nearest rail of a railroad crossing."
+      }
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet from the driveway; 75 feet on the opposite side when signposted",
+      "detail": "Do not stand or park within 20 feet of a fire station driveway entrance, or within 75 feet of the entrance on the opposite side of the street when properly signposted.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t56c005.php",
+        "page": null,
+        "quote": "Within twenty feet of the driveway entrance to any fire station and on the side of a street opposite to any fire station within seventy-five feet of the entrance when properly signposted."
+      }
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "18 inches",
+      "detail": "When parking along a curb or the edge of the pavement, park no more than 18 inches away.",
+      "number": 18,
+      "unit": "inches",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 86,
+        "quote": "Do not park more than 18 inches from the curb or edge of pavement."
+      }
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "15 to 50 feet from the nearest rail",
+      "detail": "When a signal flashes, a gate is down, a flagger signals, or a train is close and hazardous, stop no closer than 15 feet and no farther than 50 feet from the nearest rail. Never drive around or under a lowered gate.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t56c005.php",
+        "page": null,
+        "quote": "the driver of the vehicle shall stop within fifty feet, but not less than fifteen feet, from the nearest rail of the railroad and shall not proceed until he can do so safely."
+      }
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "Slow down and give as much room as possible (safe operating distance)",
+      "detail": "South Carolina sets no fixed passing distance; S.C. Code 56-5-3435 requires drivers to keep a safe operating distance from bicycles at all times.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 91,
+        "quote": "Slow down when passing a bicyclist, allow as much space as possible between your vehicle and the bicyclist and consider the bicyclist’s speed when you pass."
+      }
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Yield to pedestrians in marked or unmarked crosswalks and in the intersection, even on green",
+      "detail": "You must yield to a pedestrian in any crosswalk, marked or unmarked, and come to a complete stop for a pedestrian using a guide dog or white cane.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 110,
+        "quote": "You must yield the right-of-way to all pedestrians in the intersection even if the traffic light is green."
+      }
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Report injury/death immediately; written report within 15 days if injury, death or $1,000+ damage not investigated by police",
+      "detail": "Crashes with injury or death must be reported immediately to local police, the sheriff or the Highway Patrol (56-5-1260). If an officer did not investigate a crash with injury, death or apparent damage of $1,000 or more, the driver or owner must send a written report with proof of insurance to the SCDMV within 15 days.",
+      "number": 1000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t56c005.php",
+        "page": null,
+        "quote": "The operator or owner of a motor vehicle involved in an accident resulting in injury to or death of any person or total property damage to an apparent extent of one thousand dollars or more which was not investigated by a law enforcement officer, within fifteen days after the accident, shall forward a written report and verification of liability insurance coverage of the accident to the Department of Motor Vehicles"
+      }
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "25/50/25",
+      "detail": "Liability coverage of at least $25,000 bodily injury per person, $50,000 per accident, and $25,000 property damage. Uninsured motorist coverage with the same limits is also required (S.C. Code 38-77-150).",
+      "number": 25000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t38c077.php",
+        "page": null,
+        "quote": "twenty-five thousand dollars because of bodily injury to one person in any one accident and, subject to the limit for one person; (2) fifty thousand dollars because of bodily injury to two or more persons in any one accident; and (3) twenty-five thousand dollars because of injury to or destruction of property of others in any one accident."
+      }
+    },
+    {
+      "key": "point_system",
+      "value": "Suspension at 12 points (17+); 6 points for permit/conditional/special restricted holders",
+      "detail": "Drivers 17+ get a warning letter at 6 points and a suspension at 12. Points are cut in half one year after the violation date. Permit, conditional and special restricted holders with 6+ points are suspended. Examples (S.C. Code 56-1-720): speeding no more than 10 mph over = 2, more than 10 but less than 25 over = 4, 25 or more over = 6; passing a stopped school bus = 6.",
+      "number": 12,
+      "unit": "points",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 23,
+        "quote": "If you are 17 or older and have six or more points on your driving record, the SCDMV will send you a letter to drive more carefully. If your point total reaches 12 or more, your license will be suspended."
+      }
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Required for operators and passengers under 21",
+      "detail": "Riders and passengers under 21 must wear an approved helmet with a neck or chin strap, reflectorized on both sides; operators under 21 must also wear goggles or a face shield. Helmets are not required by law at 21 and older.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-06/Motorcycle%20and%20Moped%20Operator%27s%20Manual.pdf",
+        "page": 18,
+        "quote": "SC requires motorcycle operators and passengers under 21 years of age to wear approved motorcycle protective helmets at all times while they are riding a motorcycle."
+      }
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Illegal",
+      "detail": "Motorcycles may not ride between lanes or rows of vehicles, may not pass in the same lane as the vehicle being passed, and may ride no more than two abreast in one lane.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-06/Motorcycle%20and%20Moped%20Operator%27s%20Manual.pdf",
+        "page": 20,
+        "quote": "Do not operate a motorcycle between lanes of traffic, or between adjacent lines or rows of vehicles."
+      }
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Two-minute rule at red lights for motorcycles, mopeds and bicycles",
+      "summary": "A motorcycle or moped driver (or, under S.C. Code 56-5-970, a bicycle rider) at a steady red light may go through only after a full stop of 120 seconds, then treating the signal like a stop sign and going only when safe.",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-06/Motorcycle%20and%20Moped%20Operator%27s%20Manual.pdf",
+        "page": 20,
+        "quote": "You come to a full and complete stop at the intersection for one hundred twenty seconds (two minutes); and"
+      }
+    },
+    {
+      "title": "Left lane of controlled-access highways is for passing",
+      "summary": "On a controlled-access highway (such as an interstate) you may not drive in the far-left lane except to pass, with exceptions such as no vehicle directly behind you, congestion, bad weather, obstructions, or an upcoming left exit.",
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t56c005.php",
+        "page": null,
+        "quote": "A vehicle may not be driven in the farthest left-hand lane of a controlled access highway except when overtaking and passing another vehicle."
+      }
+    },
+    {
+      "title": "Hands-free law penalties",
+      "summary": "Violating the Hands-Free and Distracted Driving Act costs $100 for a first offense, and $200 plus two points for a second or later offense.",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 36,
+        "quote": "Second and Subsequent Offenses: $200 fine and two points on your driving record"
+      }
+    },
+    {
+      "title": "Teen drivers: 6 points in the first year = 6-month suspension",
+      "summary": "A driver under 17 who gets six or more points before holding the license for one year has the license suspended for six months.",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 12,
+        "quote": "If you are under 17 and receive six or more points on your record before you have held your license for one year, your license will be suspended for six months."
+      }
+    },
+    {
+      "title": "Points drop by half after one year",
+      "summary": "Points on a South Carolina record are reduced by half one year after the violation date (e.g., 4 points become 2).",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 22,
+        "quote": "Points are reduced by half after one year from the violation date on the ticket."
+      }
+    },
+    {
+      "title": "Defensive driving point reduction once every three years",
+      "summary": "Completing an approved 8-hour classroom defensive driving course in SC (not online), taken after the violation, can reduce points (schools are certified for a four-point reduction), but only once in a three-year period and not after a suspension has begun.",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 24,
+        "quote": "A reduction in points may only be made one time in a three-year period."
+      }
+    },
+    {
+      "title": "Stay 500 feet behind a responding fire truck",
+      "summary": "Unless on official business, do not follow a fire apparatus answering an emergency closer than 500 feet, or stop within 500 feet of a fire apparatus stopped at an emergency.",
+      "source": {
+        "url": "https://www.scstatehouse.gov/code/t56c005.php",
+        "page": null,
+        "quote": "The driver of any vehicle other than one on official business shall not follow any fire apparatus traveling in response to an emergency closer than five hundred feet"
+      }
+    },
+    {
+      "title": "Skills test retest waiting periods",
+      "summary": "After failing the skills (road) test: wait 2 business days after the first failure, 7 calendar days after the second, and 30 calendar days after the third or later.",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 17,
+        "quote": "If you fail the skills test on your first attempt, you must wait two business days before you can be re-tested, regardless of age or driving experience."
+      }
+    },
+    {
+      "title": "New residents: SC license within 45 days",
+      "summary": "A person who moves to South Carolina permanently with a valid out-of-state license must apply for an SC license within 45 days (active-duty military and U.S. government employees excepted) and surrender the old license.",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 17,
+        "quote": "you must apply for an SC license or ID within forty-five (45) days of moving to SC unless you are active-duty military or an employee of the US Government."
+      }
+    },
+    {
+      "title": "Golf cart operation rules",
+      "summary": "Golf cart drivers must be at least 16 with a valid license; the cart needs an SCDMV permit decal and may be driven in daytime only within four miles of the registration address (or a gated community's gate) on secondary roads posted 35 mph or less.",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 30,
+        "quote": "You must be at least 16 years old and have a valid driver’s license to drive a golf cart."
+      }
+    },
+    {
+      "title": "No requirement to sign a traffic ticket in SC",
+      "summary": "Accepting a ticket is not an admission of guilt, and South Carolina does not require a driver to sign a traffic ticket (other states may).",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 122,
+        "quote": "In SC it is not a requirement that a driver sign a traffic ticket."
+      }
+    },
+    {
+      "title": "BAC of 0.15 or more triggers administrative suspension",
+      "summary": "Besides DUI/DUAC convictions and implied-consent refusals, a test showing a BAC of 0.15 percent or more can lead to suspension of driving privileges (one month for a first offense under S.C. Code 56-5-2951).",
+      "source": {
+        "url": "https://dmv.sc.gov/sites/scdmv/files/2026-04/Driver's%20Manual.pdf",
+        "page": 38,
+        "quote": "If you are convicted of DUI or DUAC, have a BAC of 0.15 percent or more, or refuse implied consent testing, your driver’s license and driving privileges may be suspended."
+      }
+    }
+  ],
+  "officialPracticeTests": [
+    "https://apps.sc.gov/DLPracticeExam/regdl/StartExam"
+  ],
+  "verifiedOn": "2026-10-14"
+}

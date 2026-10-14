@@ -1,0 +1,718 @@
+{
+  "code": "KY",
+  "name": "Kentucky",
+  "agency": {
+    "name": "Kentucky Transportation Cabinet, Division of Driver Licensing (licensing); Kentucky State Police Driver Testing Branch (all knowledge and road tests)",
+    "abbreviation": "KYTC / KSP",
+    "website": "https://drive.ky.gov/"
+  },
+  "handbook": {
+    "title": "Kentucky Driver Manual",
+    "edition": "Updated July 23, 2026 (Kentucky State Police; linked from kentuckystatepolice.ky.gov/driver-testing as of Oct 2026). Page numbers below are PDF pages (printed page number + 8).",
+    "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf"
+  },
+  "exam": {
+    "questions": 40,
+    "passingScore": 32,
+    "passingPercent": 80,
+    "timeLimitMinutes": null,
+    "roadSigns": "The test covers driving rules, regulations, procedures and highway signs. The manual refers to a \"signs portion\" that oral-test applicants must still answer from their own knowledge; KSP does not publish a separately scored signs section or its size.",
+    "format": "Written knowledge test given by the Kentucky State Police at regional testing sites, by appointment only. Testing offices have tablet devices that present the test audibly in English and several other languages; oral administration or an interpreter requires a special appointment.",
+    "languages": "KSP driver-testing page (standard operator test only): Arabic, Burmese, Chinese, Dari, English, French, Kinyarwanda, Japanese, Pashto, Somali, Spanish and Swahili. The manual (p. 19) lists a longer set of languages, with Arabic, Burmese, Chinese, French, Japanese, Somali and Spanish available on the testing software and in audio.",
+    "retestWait": "drive.ky.gov GDL page: if you fail the written test, you may return the next available day to retake it. (Road skills test: wait at least one week from the date of the failure, manual p. 14.)",
+    "notes": "Neither KSP nor KYTC publishes the number of questions or a time limit; the published standard is a minimum score of 80% (manual p. 19; drive.ky.gov GDL page). KSP says the only approved study source for the written/permit test is the Kentucky Driver Manual. A vision screening (20/40 minimum) comes first. Teens: permit at 15 (parent/guardian signature + School Compliance Verification Form), hold 180 days with 60 supervised hours (10 at night); intermediate license by road test at age 16 or older (KRS 186.452 and drive.ky.gov; the July 2026 manual says 17); full license after 180 days on the intermediate license, driver education, and age 17. Ages 18-20: hold permit 180 days; age 21+: hold permit 30 days. The official site does not publish the number of questions; this practice exam uses 40 questions at the official 80% passing standard.",
+    "sourceUrl": "https://drive.ky.gov/Drivers/Pages/GDLP.aspx"
+  },
+  "motorcycleExam": null,
+  "cdlExam": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08 or above",
+      "detail": "Kentucky's per se DUI limit is an alcohol concentration of 0.08. You can still be convicted below 0.08 if there is evidence your driving was impaired by alcohol or other substances.",
+      "number": 0.08,
+      "unit": "percent BAC",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 34,
+        "quote": "In Kentucky, a person shall not operate or be in physical control of a motor vehicle while having an alcohol concentration of 0.08 or above"
+      }
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02 or more",
+      "detail": "Drivers under 21 violate the law at an alcohol concentration of 0.02. The manual calls this \"Zero Alcohol Tolerance\" (defined as .02) for permit and intermediate license holders.",
+      "number": 0.02,
+      "unit": "percent BAC",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 34,
+        "quote": "If you are under the age of twenty-one (21), you are in violation of the law with an alcohol concentration of 0.02 or more."
+      }
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04 or more (CMV drivers)",
+      "detail": "A person driving a commercial motor vehicle with an alcohol concentration of 0.04 or more is deemed to be under the influence. Any detectable amount (or a test refusal) puts the driver out of service for 24 hours.",
+      "number": 0.04,
+      "unit": "percent BAC",
+      "source": {
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=14482",
+        "page": null,
+        "quote": "A person who drives a commercial motor vehicle within this state with an alcohol concentration of four hundredths (0.04) or more shall be deemed to be operating a vehicle under the influence."
+      }
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusal may lead to license suspension by the court; refusal is an aggravating circumstance",
+      "detail": "By driving you have implicitly consented to lawfully requested blood, breath or urine tests. Refusing may get your license suspended by the court, can be used against you in court as evidence, and is listed as an aggravating circumstance requiring mandatory jail time if convicted.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 34,
+        "quote": "If a police officer requests that you submit to a test of your breath, blood, or urine, or any combination of these tests and you refuse to submit to any requested test, your refusal may result in the suspension of your driver’s license by the court"
+      }
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "$200-$500 fine plus court costs, 48 hours to 30 days in jail, 4-6 month license suspension",
+      "detail": "First DUI conviction within 10 years: fine of $200 to $500 plus court costs, 48 hours to 30 days in county jail, and a 4 to 6 month license suspension (may be longer for drivers under 18). Offenders must also complete an assessment and alcohol education or treatment program before reinstatement.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 35,
+        "quote": "if you are found guilty of an alcohol violation and it is your first conviction within a ten (10) year period, you will be fined not less than $200 nor more than $500 plus court costs, imprisoned in the county jail for not less than forty-eight (48) hours nor more than thirty (30) days, and your license suspended for four (4) to six (6) months."
+      }
+    },
+    {
+      "key": "open_container",
+      "value": "No open alcoholic beverage container in the passenger area on a public highway",
+      "detail": "It is illegal to possess an open alcoholic beverage container in the passenger area of a motor vehicle on a public highway or its right-of-way (the glove compartment counts unless locked). Exceptions: passengers (not the driver) in buses, taxis, limousines, RVs and motor homes.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=6410",
+        "page": null,
+        "quote": "A person is guilty of possession of an open alcoholic beverage container in a motor vehicle, when he or she has in his or her possession an open alcoholic beverage container in the passenger area of a motor vehicle located on a public highway or on the right-of-way of a public highway."
+      }
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15 years old",
+      "detail": "You must be at least 15 to take the vision and written knowledge tests and apply for a permit. Applicants under 18 need a parent or legal guardian to sign and a School Compliance Verification Form (No Pass/No Drive).",
+      "number": 15,
+      "unit": "years",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 13,
+        "quote": "Drivers must be at least 15 years of age to take the vision and written knowledge tests and apply for a permit."
+      }
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "180 days (ages 15-20); 30 days (age 21+)",
+      "detail": "Permit holders ages 15 to 20 must hold the permit at least 180 days before the road test. Applicants 21 and older need to hold the permit only 30 days (p. 17). Permit-phase violations by drivers under 18 add at least 180 more days.",
+      "number": 180,
+      "unit": "days",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 13,
+        "quote": "Permit holders ages 15 – 20 must hold the driving permit for a minimum of 180 days."
+      }
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "60 hours total, including 10 at night",
+      "detail": "To qualify for an intermediate license, a teen must complete a Practice Driving Log with at least 60 hours of practice driving, 10 of them at night, signed by a parent or legal guardian.",
+      "number": 60,
+      "unit": "hours",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 13,
+        "quote": "a driver must complete a Practice Driving Log with a minimum of 60 hours of practice driving. 10 hours must be completed at night."
+      }
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Licensed driver 21 or older in the front passenger seat",
+      "detail": "Every permit holder (any age) must be accompanied by a licensed driver who is at least 21, seated in the front passenger seat, and must carry the permit. Driving yourself alone to the road test is unlawful.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 13,
+        "quote": "Permit holders may only drive when accompanied (in the front passenger seat) by a licensed driver 21 years of age or older"
+      }
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 years old (after 180 days on the permit)",
+      "detail": "KRS 186.452 (amended 2025) lets a driver under 18 apply for an intermediate license at age 16 after holding the permit 180 days without violations and certifying 60 supervised hours (10 at night); drive.ky.gov's GDL page also says at least 16. Note: the July 2026 KSP manual (p. 14) says 'reaching age 17' for this step; the statute and the Transportation Cabinet site are used here.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=55914",
+        "page": null,
+        "quote": "a person who is under eighteen (18) years of age may apply for an intermediate license to operate a motor vehicle if the person has: (a) Attained the age of sixteen (16) years;"
+      }
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "No driving 12:00 a.m. to 6:00 a.m. (unless good cause)",
+      "detail": "Intermediate license holders (and permit holders under 18) may not drive between midnight and 6 a.m. unless they can show good cause such as emergencies, school or work-related activities.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 14,
+        "quote": "The driver is not permitted to drive between 12:00 a.m. and 6:00 a.m. unless the driver can demonstrate a good cause for driving, such as emergencies, school, or work-related activities."
+      }
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "No more than 1 unrelated passenger under 20 (driver under 18)",
+      "detail": "An intermediate licensee under 18 may carry only one unrelated passenger under age 20. The same limit applies to permit holders.",
+      "number": 1,
+      "unit": "passenger",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 15,
+        "quote": "Passenger restriction if the driver is under 18 – limited to 1 (one) unrelated person under 20 years of age."
+      }
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "17 years old (after 180 days on the intermediate license and driver education)",
+      "detail": "A full unrestricted license requires holding the intermediate license for 180 days, completing an approved driver education program, and reaching age 17.",
+      "number": 17,
+      "unit": "years",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 14,
+        "quote": "Drivers are eligible for a full unrestricted license after holding an intermediate license for 180 days while also having completed the driver education requirements and reaching age 17."
+      }
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "No general hand-held ban for drivers 18 and older (texting ban only)",
+      "detail": "Kentucky has no hands-free law for drivers 18 and older: the texting ban (KRS 189.292) expressly exempts reading, selecting or entering a phone number or name to make a call. Drivers under 18 may not use a personal communication device at all while driving (KRS 189.294).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=39750",
+        "page": null,
+        "quote": "The reading, selecting, or entering of a telephone number or name in a personal communication device for the purpose of making a phone call"
+      }
+    },
+    {
+      "key": "texting_ban",
+      "value": "No texting, instant messaging or email while the vehicle is moving (all drivers)",
+      "detail": "No driver may write, send or read text-based communications on a phone while the vehicle is in motion on the traveled roadway. Exceptions include GPS use, dialing to make a call, and texting to report illegal activity or summon help.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=39750",
+        "page": null,
+        "quote": "no person shall, while operating a motor vehicle that is in motion on the traveled portion of a roadway, write, send, or read text-based communication using a personal communication device"
+      }
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Drivers under 18 may not use any personal communication device while driving",
+      "detail": "Anyone under 18 with a permit, intermediate or operator's license may not use a cell phone or other personal communication device while driving a moving car, motorcycle or moped, except to summon medical help or police in an emergency. Manually entering GPS information on a phone also counts as use.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=39751",
+        "page": null,
+        "quote": "Any person under the age of eighteen (18) who has been issued an instruction permit, intermediate license, or operator's license shall not operate a motor vehicle, motorcycle, or moped that is in motion on the traveled portion of a roadway while using a personal communication device, except to summon medical help or a law enforcement or public safety agency in an emergency situation."
+      }
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Primary law; driver and all passengers must be belted",
+      "detail": "In vehicles manufactured after 1981 the driver and all passengers must wear a properly adjusted and fastened seat belt, unless a child is in a proper child restraint (manual p. 37). The law is primary: officers can stop you just for not wearing a belt.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 38,
+        "quote": "Seat Belt Law is primary in Kentucky and drivers can be stopped by law enforcement officers if observed driving while not wearing seat belts."
+      }
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Child seat for children 40 inches or less; booster seat for under-8s 40-57 inches",
+      "detail": "Children 40 inches tall or less must ride in a federally approved child restraint system (fine $50 plus a $10 fee). Children under 8 who are 40 to 57 inches tall must use a booster seat; children taller than 57 inches need no booster. Children 12 and under should ride in the back seat.",
+      "number": 40,
+      "unit": "inches",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 39,
+        "quote": "when transporting a child of forty (40) inches in height or less in a motor vehicle operated on the roadways, streets, and highways of this state, shall have the child properly secured in a child restraint system of a type meeting federal motor vehicle safety standards."
+      }
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Never faster than reasonable and prudent for conditions",
+      "detail": "Regardless of the posted limit, you may not drive faster than is reasonable and prudent for traffic and the condition and use of the highway. The manual adds that if heavy rain, snow or fog limits visibility to about 100 feet, you cannot safely go faster than 25 mph.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=52569",
+        "page": null,
+        "quote": "An operator of a vehicle upon a highway shall not drive at a greater speed than is reasonable and prudent, having regard for the traffic and for the condition and use of the highway."
+      }
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "Set locally where school flasher lights operate; speeding fines doubled",
+      "detail": "Kentucky has no single statewide school-zone number: the local government controlling the road sets the limit where school flasher lights are operating. Speeding fines are doubled when the school flashers are flashing.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=48666",
+        "page": null,
+        "quote": "If the offense occurred in an area near a school where flasher lights have been installed and are flashing, and a speed limit has been set pursuant to KRS 189.336, the fine established by subsection (1) or (2) of this section shall be doubled."
+      }
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "35 mph",
+      "detail": "When no limit is posted, the speed limit in a business or residential district is 35 mph.",
+      "number": 35,
+      "unit": "mph",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 57,
+        "quote": "35 MPH – Thirty-five miles per hour is the speed limit in a business/residential district."
+      }
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "35 mph",
+      "detail": "When no limit is posted, the speed limit in a business or residential district is 35 mph (the same default as residential areas).",
+      "number": 35,
+      "unit": "mph",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 57,
+        "quote": "35 MPH – Thirty-five miles per hour is the speed limit in a business/residential district."
+      }
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "55 mph",
+      "detail": "When no limit is posted, the limit is 55 mph on all state highways other than interstates and parkways.",
+      "number": 55,
+      "unit": "mph",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 57,
+        "quote": "55 MPH – Fifty-five miles per hour is the speed limit on all other state highways."
+      }
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "65 mph (default on interstates and parkways; 70 mph where the Transportation Secretary raises it)",
+      "detail": "The default limit on interstate highways and parkways is 65 mph. The secretary of transportation may raise the limit to 70 mph, but only on specific listed interstate and parkway segments (KRS 189.390(4)); 70 mph is the highest limit the secretary may set.",
+      "number": 65,
+      "unit": "mph",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 57,
+        "quote": "65 MPH – Sixty-five miles per hour is the speed limit on interstate highways and parkways."
+      }
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Do not drive so slowly that you impede or block normal traffic",
+      "detail": "You may not drive at a speed that impedes or blocks the normal and reasonable movement of traffic unless a slower speed is needed for safety or to comply with the law.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=52569",
+        "page": null,
+        "quote": "a person shall not drive a motor vehicle at a speed that will impede or block the normal and reasonable movement of traffic, except when reduced speed is necessary for safe operation or in compliance with law."
+      }
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a full stop unless a sign prohibits it",
+      "detail": "Unless a sign prohibits it, you may turn right on red from the proper lane after coming to a complete stop and making sure the roadway is clear of vehicles and pedestrians.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 43,
+        "quote": "Right turns on red – If not prohibited by signs, and you are in the proper lane, you must first stop, and then turn right when the roadway is clear of vehicle or pedestrian traffic."
+      }
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Only from a one-way street onto a one-way street, after stopping",
+      "detail": "A left turn on red is allowed only from a one-way street onto another one-way street, after a full stop and when the roadway is clear.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 43,
+        "quote": "Even though the light is red, a turn is permitted from a one-way street into the nearest lane of another one-way street running in the direction of that turn."
+      }
+    },
+    {
+      "key": "signal_distance",
+      "value": "100 feet before the turn",
+      "detail": "Signal at least 100 feet before turning at an intersection. Motor vehicles must use signal lamps or mechanical signals; hand signals cannot be used (bicycles signal for the last 50 feet).",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 50,
+        "quote": "If you plan to turn at an intersection, signal 100 feet before the turn."
+      }
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the right edge/curb clear of intersections and stop; do not follow closer than 500 feet",
+      "detail": "When an emergency vehicle approaches with flashing red or blue lights or a siren, drive to the right side of the road or curb, clear of any intersection, stop, and stay stopped until it passes. It is unlawful to follow an emergency vehicle closer than 500 feet.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 73,
+        "quote": "you must immediately drive to the right side of the road or to the curb, clear of any intersection, and stop. You must remain stopped until the emergency vehicle has passed, unless you are directed by a police officer or a firefighter to move. It is also unlawful to follow any emergency vehicle closer than 500 feet."
+      }
+    },
+    {
+      "key": "move_over_law",
+      "value": "Move to a non-adjacent lane if safe; otherwise slow down",
+      "detail": "When approaching a stopped emergency vehicle on the roadside, slow down and change into a lane not next to it if safe; if a lane change is unsafe (or on a two-lane road), slow down and pass with caution. KRS 189.930 also applies the rule to disabled vehicles showing flashers, flares or reflective signals.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 74,
+        "quote": "When approaching an authorized emergency vehicle stopped on the roadside, you should proceed with caution by slowing and yielding the right-of-way by making a lane change into a lane not next to that of the authorized emergency vehicle if safety and traffic conditions permit."
+      }
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop from either direction; exception only for opposite direction on 4+ lane road divided by an elevated barrier or unpaved median",
+      "detail": "You must stop for a school or church bus loading/unloading from either direction on all roads, and stay stopped until everyone is clear and the bus is moving. Only traffic going the opposite way on a road of four or more lanes separated by an elevated barrier or unpaved median does not have to stop.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 52,
+        "quote": "A stop is required for a stopped school bus or church bus from either direction on all roads. A stop is not required only when traveling in the opposite direction on a roadway with four or more lanes that is separated by an elevated barrier or an unpaved median."
+      }
+    },
+    {
+      "key": "following_distance",
+      "value": "4 seconds minimum",
+      "detail": "Keep at least a 4-second following distance, and increase it on slippery roads, behind large vehicles and motorcycles, at night and in fog or bad weather. At night add at least one more second, and at least two more on unfamiliar roads at night (p. 76).",
+      "number": 4,
+      "unit": "seconds",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 59,
+        "quote": "You should always try to keep a minimum following distance of 4 seconds between your car and the vehicle in front."
+      }
+    },
+    {
+      "key": "headlights_required",
+      "value": "From 1/2 hour after sunset to 1/2 hour before sunrise",
+      "detail": "Headlights must be on from one-half hour after sunset to one-half hour before sunrise, and should also be used in rain, snow or fog and whenever you have trouble seeing other vehicles.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 62,
+        "quote": "Headlights must be illuminated during the period from one-half (1/2) hour after sunset to one-half (1/2) hour before sunrise."
+      }
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "500 feet",
+      "detail": "Dim your high beams whenever you come within 500 feet of an oncoming vehicle.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 76,
+        "quote": "Dim your lights whenever you come within 500 feet of oncoming vehicles, and within 300 feet of any vehicle you are following."
+      }
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "300 feet",
+      "detail": "Dim your high beams when you are within 300 feet of a vehicle you are following.",
+      "number": 300,
+      "unit": "feet",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 76,
+        "quote": "Dim your lights whenever you come within 500 feet of oncoming vehicles, and within 300 feet of any vehicle you are following."
+      }
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet",
+      "detail": "Do not stop or park within 15 feet of a fire hydrant.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=46536",
+        "page": null,
+        "quote": "Within fifteen (15) feet of a fire hydrant"
+      }
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "Not on a crosswalk (no set distance in state law)",
+      "detail": "Kentucky law prohibits stopping or parking on a crosswalk; KRS 189.450 sets no additional distance from a crosswalk.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=46536",
+        "page": null,
+        "quote": "Within an intersection or on a crosswalk"
+      }
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Not within an intersection (no set distance in state law)",
+      "detail": "Kentucky law prohibits stopping or parking within an intersection; KRS 189.450 sets no additional distance from an intersection (the 30-foot rule applies to stop signs, signals and flashing beacons).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=46536",
+        "page": null,
+        "quote": "Within an intersection or on a crosswalk"
+      }
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet on the approach",
+      "detail": "Do not stop or park within 30 feet on the approach to a flashing beacon, stop sign or traffic control signal at the side of the road.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=46536",
+        "page": null,
+        "quote": "Within thirty (30) feet upon the approach to any flashing beacon, stop sign, or traffic control signal located at the side of a roadway"
+      }
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "As close to the curb as possible (no specific inches stated)",
+      "detail": "When parking along the roadway, park as far from traffic as possible and, if there is a curb, as close to it as possible. Neither the manual nor KRS 189.450 gives an inch measurement.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 52,
+        "quote": "If there is a curb, park as close to it as possible."
+      }
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "15 to 30 feet from the nearest rail (crossings designated unsafe); otherwise stop at the stop line",
+      "detail": "At crossings the Transportation Cabinet designates \"unsafe\" (marked with a STOP sign), every vehicle must stop no closer than the stop line or 15 feet and no more than 30 feet from the nearest rail. Elsewhere, stop when signals flash, gates are down, a flagger signals, or a train is near; the manual says to stop at the stop line before the tracks.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47790",
+        "page": null,
+        "quote": "no operator of any vehicle shall cross the crossing without first bringing his vehicle to a full stop no closer than a marked stop line or fifteen (15) feet, nor more than thirty (30) feet, from the nearest rail of the tracks."
+      }
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet (or change lanes on multi-lane roads)",
+      "detail": "When passing a bicycle or electric low-speed scooter: on a road with more than one lane in your direction, move to the next lane to the left if safe; with only one lane, pass at least 3 feet away and keep that distance until past. You may cross the center line, even in a no-passing zone, if the way is clear.",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 56,
+        "quote": "pass to the left keeping at least three (3) feet between your vehicle and the bicycle or electric low-speed scooter."
+      }
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Yield to pedestrians in marked or unmarked crosswalks",
+      "detail": "Drivers must yield to pedestrians in any crosswalk, marked or unmarked, and to all pedestrians in the intersection even on a green light. Blind pedestrians with a white cane or guide dog always get the right-of-way (fine up to $250).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 67,
+        "quote": "You must yield when a pedestrian is in a crosswalk, even if it is unmarked, including mid-block crosswalks marked by warning signs and pavement markings."
+      }
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Written report to KSP within 10 days if damage exceeds $500 and no police investigation",
+      "detail": "If a collision causes more than $500 in property damage and no law enforcement officer investigates it, you must file a written report with the Kentucky State Police within 10 days. A Civilian Traffic Collision report can be completed online; do not file one if an officer investigated (p. 65).",
+      "number": 500,
+      "unit": "dollars",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 64,
+        "quote": "Any person who is involved in an automobile collision resulting in any property damage exceeding $500 in which an investigation is not conducted by a law enforcement officer, shall file a written report of the accident with the Kentucky State Police within ten (10) days of the collision."
+      }
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "25/50/25 (or $60,000 single limit)",
+      "detail": "Minimum liability: $25,000 bodily injury per person, $50,000 per accident, and $25,000 property damage, or a $60,000 single-limit policy. Driving uninsured can bring a $500-$1,000 fine, up to 90 days in jail, or both, and registration revocation.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 27,
+        "quote": "liability coverage of $25,000.00 for all claims for bodily injury damages sustained by any one person and not less than $50,000.00 for all bodily injury damages sustained by all persons as a result of an accident, as well as $25,000.00 for all property damage as a result of any one accident."
+      }
+    },
+    {
+      "key": "point_system",
+      "value": "12 points in 2 years (7 if under 18) may lead to suspension",
+      "detail": "Accumulating 12 points within two years (7 points for drivers under 18) can lead to suspension after a hearing. Points expire two years after conviction, but the conviction stays on your record five years. Under-18 drivers with more than six points may be suspended.",
+      "number": 12,
+      "unit": "points",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 25,
+        "quote": "Upon the accumulation of 12 points (7 points if under age eighteen) within a two-year period, a driver’s privilege to operate a motor vehicle may be suspended."
+      }
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Required for riders and passengers under 21, instruction-permit holders, and riders licensed less than 1 year",
+      "detail": "Helmets are required for anyone under 21 operating or riding on a motorcycle (including a sidecar), anyone operating on a motorcycle instruction permit, and anyone licensed for less than one year. All motorcycle operators must use approved eye protection, and permit holders may not carry passengers. Autocycle operators are exempt from headgear requirements (manual p. 78).",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=6361",
+        "page": null,
+        "quote": "A person under the age of twenty-one (21) years who is operating a motorcycle or who is a passenger on a motorcycle or in a sidecar attachment"
+      }
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Church buses are treated like school buses",
+      "summary": "Kentucky's stop-for-the-bus law covers church buses as well as school buses: stop from either direction and stay stopped until passengers are clear and the bus moves.",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 52,
+        "quote": "When you come to a school or church bus that is stopped on any roadway to load or unload passengers you must stop."
+      }
+    },
+    {
+      "title": "Left-lane camping on limited-access highways is illegal",
+      "summary": "On multi-lane highways the left lane is for passing; staying in the left lane on a limited-access highway is illegal. KRS 189.340(8) applies on limited-access highways of 4+ lanes posted at least 65 mph, except when passing, yielding to merging traffic, or when conditions make the right lanes unsafe.",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 54,
+        "quote": "Remaining in the left lane on a limited access highway is illegal."
+      }
+    },
+    {
+      "title": "Motor vehicles must use mechanical turn signals",
+      "summary": "Signals for motor vehicles must be given with signal lamps or mechanical devices; hand signals are only for bicycles and other non-motor vehicles.",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 62,
+        "quote": "Your vehicle must have mechanical signals. Hand signals cannot be used."
+      }
+    },
+    {
+      "title": "Passes must be finished 200 feet before oncoming traffic",
+      "summary": "A pass must be completed before the start of a no-passing zone and before you come within 200 feet of an oncoming vehicle.",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 55,
+        "quote": "Kentucky law requires that a pass be completed before reaching the beginning of a “no passing zone”, and that a pass be completed before coming within two hundred (200) feet of an oncoming vehicle."
+      }
+    },
+    {
+      "title": "Funeral processions have the right-of-way",
+      "summary": "An escorted funeral procession may proceed through intersections; do not drive between or pass procession vehicles (except outside city limits or on interstates/parkways). Violations: $250 fine or 90 days in jail.",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 76,
+        "quote": "A funeral procession has the right-of-way at an intersection and may pass through the intersection if the procession is led by an escort vehicle displaying flashing yellow, red, or blue lights."
+      }
+    },
+    {
+      "title": "Double fines in posted work zones",
+      "summary": "Fines are doubled in a highway work zone when signs say so and at least one worker is present.",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 77,
+        "quote": "Kentucky law allows for fines to be doubled in a highway work zone when signs are displayed informing drivers of the existence of a highway work zone and that fines are double in it."
+      }
+    },
+    {
+      "title": "Move vehicles off the road after a non-injury crash on an interstate or parkway",
+      "summary": "The manual tells drivers in a non-injury crash to move the damaged vehicles to the shoulder. The statute it cites, KRS 189.580(1)(b), makes this mandatory on interstates, parkways and their ramps when there is no death, known or visible injury, or hazardous material, as soon as the vehicle can be moved safely.",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 64,
+        "quote": "In accordance with Kentucky law, when involved in a non-injury accident move the damaged vehicles to the shoulder of the roadway."
+      }
+    },
+    {
+      "title": "Blind pedestrian right-of-way",
+      "summary": "Drivers must yield to a blind pedestrian carrying a white cane or using an assistance dog; failure to yield can bring a fine of up to $250. Stop no more than 5 feet from the crosswalk so the person can hear your vehicle.",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 67,
+        "quote": "Failure to yield the right-of-way to a blind pedestrian is a violation that could result in a fine up to two hundred fifty dollars ($250)."
+      }
+    },
+    {
+      "title": "Booster seats for children under 8 between 40 and 57 inches",
+      "summary": "Children under age 8 who are 40 to 57 inches tall must ride in a booster seat; any child over 57 inches is exempt from the booster requirement.",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 39,
+        "quote": "Any driver of a motor vehicle, when transporting a child under the age of eight (8) years who is between forty (40) inches and fifty-seven (57) inches in height in a motor vehicle operated on the roadways, streets, and highways of this state, shall have the child properly secured in a child booster seat."
+      }
+    },
+    {
+      "title": "15 mph in public off-street parking facilities",
+      "summary": "The speed limit in any off-street parking facility offered for public use (public or private) is 15 mph.",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 57,
+        "quote": "15 MPH – The speed limit in an off-street parking facility offered for public use, whether publicly or privately owned, shall be fifteen miles per hour."
+      }
+    },
+    {
+      "title": "DUI aggravating circumstances",
+      "summary": "Mandatory jail applies when a DUI involves aggravating circumstances such as speeding 30+ mph over the limit, wrong-way driving on a limited-access highway, a BAC of .15 or more, refusing testing, causing death or serious injury, or carrying a passenger under 12.",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 35,
+        "quote": "Operating a motor vehicle while transporting a passenger under the age of twelve (12) years of age."
+      }
+    },
+    {
+      "title": "Penalty for driving uninsured",
+      "summary": "Failing to maintain insurance is a criminal offense: registration is revoked and the owner and driver face a $500-$1,000 fine, up to 90 days in jail, or both. Proof of insurance (paper or electronic) must be kept in the vehicle.",
+      "source": {
+        "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2026/07/Kentucky-Driver-Manual_Updated_7-23-26.pdf",
+        "page": 27,
+        "quote": "the vehicle owner and driver are subject to a fine of $500.00 to $1,000.00, up to 90 days in jail, or both."
+      }
+    }
+  ],
+  "officialPracticeTests": [],
+  "verifiedOn": "2026-10-14"
+}
