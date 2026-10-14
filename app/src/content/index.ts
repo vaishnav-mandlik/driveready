@@ -51,6 +51,7 @@ export const stateQuestionLoaders: Partial<Record<StateCode, () => Question[]>> 
   OH: () => require('./questions/states/OH.json'),
   PA: () => require('./questions/states/PA.json'),
   TX: () => require('./questions/states/TX.json'),
+  WA: () => require('./questions/states/WA.json'),
 };
 
 export const stateInfoLoaders: Partial<Record<StateCode, () => StateInfo>> = {

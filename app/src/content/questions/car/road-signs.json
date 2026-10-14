@@ -6,7 +6,7 @@
     "prompt": "What does this sign require you to do?",
     "choices": [
       "Slow down and keep going if no other vehicles are coming",
-      "Come to a complete stop, yield to traffic and pedestrians, then go when it is safe",
+      "Stop completely, yield, then go when it is safe",
       "Stop only if other vehicles are already in the intersection",
       "Slow down and yield, but stop only if traffic is close"
     ],
@@ -17,32 +17,15 @@
     "ref": "MUTCD Sec. 2B; state driver handbooks (e.g. PA p.14-16, TX p.32-36, FL p.55)"
   },
   {
-    "id": "car.rs.002",
-    "track": "car",
-    "topic": "road-signs",
-    "prompt": "You face this sign at an intersection that has a white stop line followed by a crosswalk. Where should you make your stop?",
-    "choices": [
-      "Before the white stop line",
-      "Just past the crosswalk, where you can see better",
-      "Inside the crosswalk, at the edge of the cross street",
-      "Anywhere before the cross street, as long as you stop"
-    ],
-    "answer": 0,
-    "explanation": "Stop at the marked stop line. If there is no stop line, stop before the crosswalk; if there is no crosswalk, stop before entering the intersection. You may then creep forward to see if your view is blocked.",
-    "sign": "R1-1",
-    "difficulty": 2,
-    "ref": "MUTCD Sec. 2B; state driver handbooks (e.g. PA p.14-16, TX p.32-36, FL p.55)"
-  },
-  {
     "id": "car.rs.003",
     "track": "car",
     "topic": "road-signs",
     "prompt": "What must you do when you see this sign?",
     "choices": [
-      "Always come to a complete stop before going on",
-      "Keep your speed, because cross traffic must yield to you",
-      "Speed up so you can merge ahead of approaching traffic",
-      "Slow down and be ready to stop, letting traffic and pedestrians with the right-of-way go first"
+      "Always come to a complete stop, even when no traffic or pedestrians are near",
+      "Keep your speed, because cross traffic and pedestrians must yield to you",
+      "Speed up so you can merge ahead of the approaching traffic",
+      "Slow down, be ready to stop, and let others with the right-of-way go first"
     ],
     "answer": 3,
     "explanation": "This downward-pointing triangle means yield: slow down, check for traffic and pedestrians, and stop if needed to let them go first. A full stop is required only when traffic or pedestrians make it necessary.",
@@ -73,10 +56,10 @@
     "topic": "road-signs",
     "prompt": "This plaque is mounted below a yield sign at the entrance to a one-lane bridge. What does it tell you?",
     "choices": [
-      "Vehicles coming toward you must yield to you",
-      "Let vehicles coming toward you from the other direction go first",
-      "Traffic on the bridge moves in one direction only",
-      "Yield only to vehicles approaching from your right"
+      "Drivers coming toward you on the bridge must wait and yield to you",
+      "Let oncoming vehicles go first before you enter the bridge",
+      "Traffic on the bridge ahead moves in only one direction at a time",
+      "Yield only to vehicles that approach the bridge from your right side"
     ],
     "answer": 1,
     "explanation": "The plaque means you must yield the right-of-way to oncoming (opposing) traffic, such as on a one-lane bridge or underpass. It does not make the road one-way.",
@@ -91,9 +74,9 @@
     "prompt": "This plaque is mounted under a stop sign. What does it tell you?",
     "choices": [
       "Traffic from every direction must stop at this intersection",
-      "Only traffic on the side road must stop",
-      "You may turn right without stopping",
-      "Cross traffic does not have to stop"
+      "Only traffic on the side road must stop; the main road does not",
+      "You may turn right without stopping if the way is clear",
+      "Cross traffic does not have to stop, so wait for a gap"
     ],
     "answer": 0,
     "explanation": "The plaque means every approach to the intersection has a stop sign (an all-way stop). After stopping, the first vehicle to arrive goes first.",
@@ -124,10 +107,10 @@
     "topic": "road-signs",
     "prompt": "What does this sign tell drivers?",
     "choices": [
-      "Pedestrians must yield to vehicles at this crosswalk",
-      "Drivers must stop at the line even when no one is crossing",
-      "When pedestrians are crossing, yield to them at the line shown, well before the crosswalk",
-      "Pedestrians may cross only in the direction of the arrow"
+      "Pedestrians must yield to vehicles before stepping into this crosswalk",
+      "Drivers must stop at the line every time, even when no one is crossing",
+      "Yield to crossing pedestrians at the line, back from the crosswalk",
+      "Pedestrians may cross only in the direction the arrow is pointing"
     ],
     "answer": 2,
     "explanation": "This sign marks the yield line set back from an unsignalized crosswalk. Yielding back at that line lets drivers in other lanes see the pedestrian, helping prevent a \"multiple-threat\" crash.",
@@ -147,7 +130,7 @@
       "Keep to the left of the sign only"
     ],
     "answer": 1,
-    "explanation": "This in-street sign reminds drivers that the law requires them to yield to pedestrians within the crosswalk. Its fluorescent yellow-green border is the color used for pedestrian warnings.",
+    "explanation": "This in-street sign reminds drivers that the law requires them to yield to pedestrians within the crosswalk. It does not require a stop when the crosswalk is empty.",
     "sign": "R1-6",
     "difficulty": 1,
     "ref": "MUTCD Sec. 2B (pedestrian and bicycle signs); state driver handbooks (e.g. CA p.23-24, FL p.70, PA p.16)"
@@ -175,10 +158,10 @@
     "topic": "road-signs",
     "prompt": "What does this sign mean?",
     "choices": [
-      "The recommended speed for a curve ahead is 50 mph",
-      "You must drive at exactly 50 mph",
-      "The lowest speed allowed here is 50 mph",
-      "The most you may legally drive here under good conditions is 50 mph"
+      "The recommended speed for a curve or hazard ahead is 50 mph",
+      "You must drive at exactly 50 mph whenever traffic allows it",
+      "The lowest speed allowed on this road is 50 mph",
+      "The maximum legal speed here in good conditions is 50 mph"
     ],
     "answer": 3,
     "explanation": "A white rectangular speed limit sign shows the maximum legal speed under ideal conditions. Yellow signs with speeds are advisory, and minimum speeds are shown separately.",
@@ -243,10 +226,10 @@
     "topic": "road-signs",
     "prompt": "What does this sign mean?",
     "choices": [
-      "Cars may go 50 mph and trucks may go 30 mph",
-      "The limit is 50 mph by day and 30 mph at night",
-      "The speed limit drops from 50 mph to 30 mph ahead",
-      "Under normal conditions, drive no faster than 50 mph and no slower than 30 mph"
+      "Cars may go up to 50 mph, but trucks are limited to 30 mph or less",
+      "The limit is 50 mph during the day and 30 mph at night",
+      "The speed limit drops from 50 mph to 30 mph just ahead",
+      "Normally, drive no faster than 50 mph and no slower than 30 mph"
     ],
     "answer": 3,
     "explanation": "This sign shows both a maximum and a minimum speed. Driving far below the flow of traffic can be as dangerous as speeding, but you may go slower than the minimum when conditions make it unsafe.",
@@ -277,13 +260,13 @@
     "topic": "road-signs",
     "prompt": "You want to turn left at an intersection where this sign is posted. What should you do?",
     "choices": [
-      "Turn left after yielding to oncoming traffic",
-      "Do not turn left here; use another route where left turns are allowed",
-      "Turn left only on a green arrow",
-      "Make a U-turn instead, then turn right"
+      "Turn left after yielding to oncoming traffic and pedestrians",
+      "Do not turn left here; use another route",
+      "Turn left only when a green arrow is shown",
+      "Turn left only if no oncoming traffic is in sight"
     ],
     "answer": 1,
-    "explanation": "The red circle and slash over a left-turn arrow means left turns are prohibited at this location. A U-turn is also a left-side maneuver and is not a substitute.",
+    "explanation": "The red circle and slash over a left-turn arrow means left turns are not allowed at this location, whatever the signal shows. Continue on and use another route.",
     "sign": "R3-2",
     "difficulty": 1,
     "ref": "MUTCD Sec. 2B (lane-use and turn signs); state driver handbooks (e.g. CA p.22, PA p.15-16, TX p.34-36)"
@@ -311,8 +294,8 @@
     "topic": "road-signs",
     "prompt": "What does this sign prohibit?",
     "choices": [
-      "Turning left onto the cross street",
-      "Entering a one-way street",
+      "Turning left onto the cross street at this spot",
+      "Entering a one-way street from the wrong end",
       "Backing up on the roadway",
       "Turning around to go back the way you came"
     ],
@@ -345,10 +328,10 @@
     "topic": "road-signs",
     "prompt": "What does this sign mean?",
     "choices": [
-      "This is a one-way street; go straight only",
+      "This is a one-way street, so you may only go straight ahead",
       "You may not continue straight through the intersection",
       "Do not pass the vehicle ahead of you",
-      "Left turns are not allowed"
+      "Left turns are not allowed, but right turns are"
     ],
     "answer": 1,
     "explanation": "A red slash over a straight-ahead arrow means through movement is prohibited, so you must turn. Compare it with the \"straight only\" lane sign, which has no slash.",
@@ -379,10 +362,10 @@
     "topic": "road-signs",
     "prompt": "You want to go straight at the next intersection, and this sign is over the lane you are in. What should you do?",
     "choices": [
-      "Stay in the lane and go straight through",
-      "Go straight only when the light is green",
+      "Stay in the lane and go straight through the intersection",
+      "Go straight from this lane only when the light is green",
       "Stop at the intersection and wait for a chance to merge",
-      "Safely change lanes before the intersection, because this lane must turn left"
+      "Move to another lane before the intersection"
     ],
     "answer": 3,
     "explanation": "Traffic in a lane marked this way must turn left. Move out of the lane early, when it is safe; if you are still in it at the intersection, you must make the turn.",
@@ -447,10 +430,10 @@
     "topic": "road-signs",
     "prompt": "What does this sign mean?",
     "choices": [
-      "The right lane ends and traffic must merge left",
-      "Drivers may turn right on red here",
-      "Slower traffic should use the right lane",
-      "Drivers in the right lane must turn right at the next intersection"
+      "The right lane ends ahead, so traffic in it must merge left",
+      "Drivers may turn right on red here without stopping first",
+      "Slower traffic should move into the right lane ahead",
+      "Drivers in the right lane must turn right ahead"
     ],
     "answer": 3,
     "explanation": "Drivers in the right lane must turn right. If you want to go straight, move left before the intersection. A lane that ends ahead is shown with a yellow warning sign instead.",
@@ -462,12 +445,12 @@
     "id": "car.rs.028",
     "track": "car",
     "topic": "road-signs",
-    "prompt": "What is the center lane on this road for?",
+    "prompt": "You see this sign. How may drivers use the center lane?",
     "choices": [
-      "Passing slower vehicles",
-      "Emergency vehicles only",
-      "Left turns by traffic from both directions",
-      "Through traffic during rush hour"
+      "To pass slower vehicles when the way is clear",
+      "As a travel lane for emergency vehicles only",
+      "For left turns by traffic from both directions",
+      "As a travel lane during rush hour, for through traffic"
     ],
     "answer": 2,
     "explanation": "This sign marks a two-way left-turn lane, shared by drivers going in both directions to make left turns. It is never a passing or travel lane.",
@@ -476,32 +459,15 @@
     "ref": "MUTCD Sec. 2B (lane-use and turn signs); state driver handbooks (e.g. CA p.22, PA p.15-16, TX p.34-36)"
   },
   {
-    "id": "car.rs.029",
-    "track": "car",
-    "topic": "road-signs",
-    "prompt": "Which statement about the lane described by this sign is true?",
-    "choices": [
-      "Only drivers traveling in one direction may use it",
-      "Drivers from both directions use it, so watch for oncoming drivers in it",
-      "You may use it to pass when the way ahead is clear",
-      "You may drive in it until you reach the next traffic light"
-    ],
-    "answer": 1,
-    "explanation": "Because the center lane is shared by both directions, an oncoming driver may be in it at the same time. Enter it only to begin or finish a left turn, and never use it to pass or travel.",
-    "sign": "R3-9b",
-    "difficulty": 3,
-    "ref": "MUTCD Sec. 2B (lane-use and turn signs); state driver handbooks (e.g. CA p.22, PA p.15-16, TX p.34-36)"
-  },
-  {
     "id": "car.rs.030",
     "track": "car",
     "topic": "road-signs",
     "prompt": "What does this sign mean?",
     "choices": [
-      "During the hours shown, the lane is only for vehicles carrying two or more people",
-      "The lane is for vehicles with two or more axles",
-      "Only buses may use the lane at all times",
-      "Two lanes merge into one ahead"
+      "At the times shown, only vehicles with 2 or more people may use it",
+      "The lane is only for vehicles with two or more axles at the times shown",
+      "Only buses may use the lane, at all times of the day and night",
+      "Two lanes merge into one lane during the hours shown"
     ],
     "answer": 0,
     "explanation": "The diamond symbol and \"2+\" mark a high-occupancy vehicle (HOV) lane. During the posted times, only vehicles with at least two occupants (counting the driver) may use it.",
@@ -515,10 +481,10 @@
     "topic": "road-signs",
     "prompt": "It is 8:00 a.m. on a Tuesday and you are driving alone in an ordinary gasoline car. May you use the lane with this sign?",
     "choices": [
-      "Yes, any car may use it on weekdays",
-      "Yes, as long as you drive at the speed limit",
-      "Yes, but only to pass slower traffic",
-      "No, during those hours it is for vehicles with at least two people"
+      "Yes, any car may use this lane on weekdays before 9:30 a.m.",
+      "Yes, as long as you keep up with the posted speed limit",
+      "Yes, but only to pass slower traffic, then move back out",
+      "No, at that time it is for vehicles with 2 or more people"
     ],
     "answer": 3,
     "explanation": "The sign limits the lane to vehicles with two or more occupants from 6:30 to 9:30 a.m., Monday through Friday. A solo driver may use it only outside those hours.",
@@ -534,11 +500,11 @@
     "choices": [
       "Bicyclists may share the full travel lane with cars",
       "Bicycles are not allowed on this road",
-      "The lane is reserved for bicycles; drivers may not drive or park in it",
-      "This is a bike route; follow it to a bike path"
+      "The lane is reserved for bicyclists",
+      "This is a bike route; follow it to reach a bike path"
     ],
     "answer": 2,
-    "explanation": "This sign marks a bike lane. Drivers may not travel or park in it and may cross it only where allowed, such as to turn, after yielding to bicyclists.",
+    "explanation": "This sign marks a lane reserved for bicyclists. Do not drive or park in it except where your state allows, such as when preparing to turn, and always yield to bicyclists in it.",
     "sign": "R3-17",
     "difficulty": 1,
     "ref": "MUTCD Sec. 2B (pedestrian and bicycle signs); state driver handbooks (e.g. CA p.23-24, FL p.70, PA p.16)"
@@ -549,10 +515,10 @@
     "topic": "road-signs",
     "prompt": "What does this sign mean?",
     "choices": [
-      "You may pass only on the right",
+      "You may pass, but only on the right side of the vehicle ahead",
       "You may not cross the center line to pass other vehicles here",
-      "You may pass if no oncoming traffic is in sight",
-      "Other vehicles may not pass you"
+      "You may pass here if no oncoming traffic is in sight",
+      "Other drivers may not pass you, but you may pass them"
     ],
     "answer": 1,
     "explanation": "This sign marks a no-passing zone, usually where hills, curves or intersections limit how far ahead you can see. Do not pass until the zone ends.",
@@ -566,10 +532,10 @@
     "topic": "road-signs",
     "prompt": "You are behind a car going 10 mph under the speed limit where this sign is posted. What should you do?",
     "choices": [
-      "Stay behind it until the no-passing zone ends and it is safe to pass",
-      "Pass quickly if no oncoming traffic is visible",
-      "Pass on the right shoulder",
-      "Flash your headlights until the driver pulls over"
+      "Stay behind it until the zone ends and passing is safe",
+      "Pass quickly if no oncoming traffic is visible ahead",
+      "Pass on the right shoulder if it is wide and paved",
+      "Flash your headlights until the driver pulls over to let you by"
     ],
     "answer": 0,
     "explanation": "Passing is not allowed anywhere in the zone, even when the road ahead looks clear. Be patient and pass only after the zone ends and you have enough clear road.",
@@ -583,8 +549,8 @@
     "topic": "road-signs",
     "prompt": "What does this sign mean?",
     "choices": [
-      "You may pass only on the right",
-      "Passing is not allowed",
+      "You may pass only on the right side of slower vehicles",
+      "Passing is not allowed for the next stretch of road",
       "Watch for vehicles passing you on the left",
       "You may pass other vehicles when it is safe to do so"
     ],
@@ -598,7 +564,7 @@
     "id": "car.rs.036",
     "track": "car",
     "topic": "road-signs",
-    "prompt": "This sign is usually found where?",
+    "prompt": "Where is this sign usually posted?",
     "choices": [
       "At the start of a no-passing zone",
       "Just before a one-lane bridge",
@@ -651,9 +617,9 @@
     "topic": "road-signs",
     "prompt": "What does this sign tell you?",
     "choices": [
-      "The road curves to the right ahead",
+      "The road ahead curves to the right, so slow down",
       "The right lane ends ahead",
-      "You must turn right at the next intersection",
+      "You must turn right at the next intersection ahead",
       "Keep to the right of the island or obstacle ahead"
     ],
     "answer": 3,
@@ -668,10 +634,10 @@
     "topic": "road-signs",
     "prompt": "What does this sign tell you?",
     "choices": [
-      "The road curves to the left ahead",
-      "Left turn only from this lane",
+      "The road ahead curves to the left, so slow down",
+      "Only left turns are allowed from this lane ahead",
       "Keep to the left of the island or obstacle ahead",
-      "The left lane ends ahead"
+      "The left lane ends ahead, so merge to the right"
     ],
     "answer": 2,
     "explanation": "This sign marks an island or obstruction that traffic must pass on the left side, as the arrow shows.",
@@ -702,10 +668,10 @@
     "topic": "road-signs",
     "prompt": "What does this sign mean?",
     "choices": [
-      "You may not enter this road or ramp from this direction",
-      "Stop, then enter when traffic is clear",
-      "The road is closed for construction",
-      "Yield to traffic entering from the side"
+      "You may not enter the road from this direction",
+      "Stop first, then enter the road when traffic is clear",
+      "The road ahead is closed for construction work",
+      "Yield to traffic entering from the side road ahead"
     ],
     "answer": 0,
     "explanation": "This red-and-white square sign means do not enter: traffic on the road or ramp beyond it is coming toward you. It is common at the wrong end of one-way streets and freeway exit ramps.",
@@ -717,12 +683,12 @@
     "id": "car.rs.043",
     "track": "car",
     "topic": "road-signs",
-    "prompt": "This sign is usually found where?",
+    "prompt": "Where is this sign usually posted?",
     "choices": [
-      "At the start of a freeway entrance ramp",
-      "At a railroad crossing without gates",
-      "At the start of a school zone",
-      "Where a one-way street or freeway exit ramp would carry you against traffic"
+      "At the start of a freeway on-ramp, before you merge",
+      "At a railroad crossing that has no gates or lights",
+      "At the start of a school zone near a school",
+      "At the wrong end of a one-way street or exit ramp"
     ],
     "answer": 3,
     "explanation": "It is posted where entering would put you against the flow of traffic, such as the end of a one-way street or an off-ramp seen from the cross street.",
@@ -736,9 +702,9 @@
     "topic": "road-signs",
     "prompt": "You see this sign facing you after turning onto a ramp. What does it mean?",
     "choices": [
-      "You must turn right at the next intersection",
-      "The ramp is closed ahead for repairs",
-      "You are going against traffic and must safely get out of the way and turn around",
+      "You must turn right at the next intersection on the ramp",
+      "The ramp is closed ahead for repairs, so follow the detour",
+      "You are driving the wrong way, against traffic",
       "You took the wrong exit and should continue to the next one"
     ],
     "answer": 2,
@@ -753,10 +719,10 @@
     "topic": "road-signs",
     "prompt": "Late at night you pass this sign and see headlights coming toward you in your lane. What should you do?",
     "choices": [
-      "Keep driving to reach the next exit",
-      "Pull safely out of the travel lane, then turn around when it is safe",
-      "Speed up so you spend less time on the ramp",
-      "Stop in the lane and wait for the other car to go around"
+      "Keep driving forward until you reach the next exit ramp",
+      "Pull out of the travel lane and turn around when safe",
+      "Speed up so you spend as little time as possible on the ramp",
+      "Stop in your lane and wait for the other car to go around you"
     ],
     "answer": 1,
     "explanation": "You are traveling the wrong way. Get out of the path of oncoming traffic as quickly and safely as possible, then turn around or wait for help. Continuing ahead risks a head-on crash.",
@@ -787,9 +753,9 @@
     "topic": "road-signs",
     "prompt": "Who may NOT use the road or path where this sign is posted?",
     "choices": [
-      "Pedestrians",
-      "Drivers of motor vehicles",
-      "Bicyclists"
+      "People walking on foot",
+      "Motor vehicle drivers",
+      "People riding bicycles"
     ],
     "answer": 1,
     "explanation": "This sign closes the road or path to motor vehicles. It is often posted at the entrance to a path for pedestrians and bicyclists.",
@@ -837,10 +803,10 @@
     "topic": "road-signs",
     "prompt": "What does this sign mean?",
     "choices": [
-      "Traffic on this street moves only in the direction of the arrow",
-      "You must turn right at this intersection",
-      "The road turns sharply to the right ahead",
-      "Follow the detour to the right"
+      "Traffic on this street flows only in the arrow's direction",
+      "Drivers on this street must turn right at the next corner",
+      "The road ahead turns sharply to the right, so slow down",
+      "Follow the posted detour route to the right"
     ],
     "answer": 0,
     "explanation": "This black-and-white sign marks a one-way street. Driving the opposite way risks a head-on crash. A yellow arrow sign, by contrast, warns of a sharp turn.",
@@ -872,9 +838,9 @@
     "prompt": "You are on a side road and see this sign before you reach a highway. What does it tell you?",
     "choices": [
       "The highway ahead becomes a two-way road",
-      "The divided highway ends ahead",
-      "You will cross a divided highway made up of two separate one-way roadways",
-      "Two roads merge into one ahead"
+      "The divided highway ends just ahead",
+      "You are about to cross a divided highway",
+      "Two roads merge into one road ahead"
     ],
     "answer": 2,
     "explanation": "This sign tells you the road ahead is a divided highway. Traffic on the near roadway comes from your left, and traffic on the far roadway comes from your right. The yellow DIVIDED HIGHWAY ENDS warning sign is different.",
@@ -888,10 +854,10 @@
     "topic": "road-signs",
     "prompt": "This sign is placed on the center island of a roundabout, facing traffic that is entering. What does it tell you?",
     "choices": [
-      "Turn left and go around the island clockwise",
+      "Turn left and travel clockwise around the center island",
       "Travel to the right, counterclockwise around the island",
-      "Stop before entering the circle",
-      "Keep to the left of the island"
+      "Stop before entering the circle, then turn right",
+      "Keep to the left of the island as you go around it"
     ],
     "answer": 1,
     "explanation": "In a roundabout, traffic always circulates counterclockwise, passing to the right of the center island. This sign points entering drivers to the right.",
@@ -905,10 +871,10 @@
     "topic": "road-signs",
     "prompt": "What does this sign mean?",
     "choices": [
-      "Parking is not allowed at any time along the curb in the direction of the arrow",
-      "Parking is allowed for a limited time only",
-      "Parking is banned only at night",
-      "Only delivery vehicles may park here"
+      "Parking is never allowed along this part of the curb",
+      "Parking is allowed here for a limited time only",
+      "Parking is banned only at night, in the direction shown",
+      "Only delivery vehicles may park here, in the arrow's direction"
     ],
     "answer": 0,
     "explanation": "This sign prohibits parking at all times. The arrow shows which part of the curb the restriction covers.",
@@ -922,10 +888,10 @@
     "topic": "road-signs",
     "prompt": "Who may park in a space marked with this sign?",
     "choices": [
-      "Anyone, for up to 15 minutes",
-      "Any driver who stays inside the car",
-      "Delivery vehicles that are loading",
-      "Only a vehicle displaying a valid disability placard or license plate"
+      "Anyone, for up to 15 minutes with hazard lights on",
+      "Any driver who stays inside the car with the engine running",
+      "Delivery vehicles that are loading or unloading goods",
+      "Only vehicles showing a valid disability placard or plate"
     ],
     "answer": 3,
     "explanation": "The space is reserved for vehicles with a valid disability placard or plate. Parking there without one is illegal, even for a short time.",
@@ -956,8 +922,8 @@
     "topic": "road-signs",
     "prompt": "Who is this sign meant for, and what does it tell them?",
     "choices": [
-      "Drivers: keep to the left of pedestrians",
-      "Pedestrians: walk on the left side of the road, facing oncoming traffic",
+      "Drivers: keep to the left of pedestrians on the road",
+      "Pedestrians: walk on the left, facing traffic",
       "Bicyclists: ride on the left side, facing traffic",
       "Pedestrians: walk on the right side, with traffic"
     ],
@@ -974,7 +940,7 @@
     "prompt": "What does this sign tell pedestrians?",
     "choices": [
       "Cross the street only within marked crosswalks",
-      "Cross anywhere when no cars are coming",
+      "Cross anywhere along the block when no cars are coming",
       "The crosswalk ahead is closed",
       "Wait for a walk signal before crossing"
     ],
@@ -991,7 +957,7 @@
     "prompt": "What does this sign mean?",
     "choices": [
       "A pedestrian crossing is ahead",
-      "Drivers must yield to pedestrians here",
+      "Drivers must yield to pedestrians crossing here",
       "This area is for pedestrians only",
       "Pedestrians may not cross the street here"
     ],
@@ -1007,7 +973,7 @@
     "topic": "road-signs",
     "prompt": "What does this sign prohibit?",
     "choices": [
-      "Picking up passengers at a bus stop",
+      "Picking up or dropping off passengers at a bus stop",
       "Pedestrians crossing the road",
       "Standing in or beside the road to ask for a ride",
       "Using hand signals while driving"
@@ -1025,7 +991,7 @@
     "prompt": "What does this sign tell drivers?",
     "choices": [
       "Bicyclists must stay at the far right edge of the lane",
-      "Bicyclists may ride in the middle of the lane, so be ready to change lanes to pass them",
+      "Bicyclists may use the whole travel lane",
       "The lane is reserved for bicycles only",
       "Bicycles are not allowed in this lane"
     ],
@@ -1058,7 +1024,7 @@
     "topic": "road-signs",
     "prompt": "What does this sign mean?",
     "choices": [
-      "On a circular green light, left turns must yield",
+      "On a circular green light, left turns must yield first",
       "The left-turn lane ends ahead",
       "Left turns are allowed on any green light",
       "You may turn left only while a green arrow is shown"
@@ -1073,12 +1039,12 @@
     "id": "car.rs.064",
     "track": "car",
     "topic": "road-signs",
-    "prompt": "Where should you stop when the signal is red?",
+    "prompt": "Where does this sign tell you to stop when the signal is red?",
     "choices": [
-      "Just past the crosswalk",
-      "Wherever you can see cross traffic best",
-      "At the point shown by the arrow, usually the stop line",
-      "At the edge of the cross street"
+      "Just past the crosswalk, where you can see better",
+      "Wherever you have the best view of cross traffic",
+      "Where the arrow points, usually at a stop line",
+      "At the edge of the cross street, past the crosswalk"
     ],
     "answer": 2,
     "explanation": "This sign shows where to stop for a red light, often a stop line set back to give turning trucks room.",
@@ -1090,15 +1056,15 @@
     "id": "car.rs.065",
     "track": "car",
     "topic": "road-signs",
-    "prompt": "Your light is green, but traffic ahead is backed up through the intersection where this sign is posted. What should you do?",
+    "prompt": "What does this sign require?",
     "choices": [
-      "Enter the intersection, because you have a green light",
-      "Wait before the intersection until there is room for your car on the other side",
-      "Go around the stopped traffic on the shoulder",
-      "Pull into the intersection and stop there until traffic moves"
+      "Do not stop in the crosswalk while waiting for a red light",
+      "Do not enter unless you can clear the intersection",
+      "Do not change lanes while you are inside the intersection",
+      "Do not make turns on red at this intersection"
     ],
     "answer": 1,
-    "explanation": "Do not enter an intersection unless you can get all the way through it. Stopping inside blocks cross traffic and pedestrians when the light changes.",
+    "explanation": "Even on a green light, do not enter the intersection unless there is room for your vehicle on the far side. A car stopped inside blocks cross traffic and pedestrians when the light changes.",
     "sign": "R10-7",
     "difficulty": 2,
     "ref": "MUTCD Sec. 2B (traffic signal signs); state driver handbooks (e.g. CA p.39-40, TX p.30-31, PA p.11-13)"
@@ -1126,9 +1092,9 @@
     "topic": "road-signs",
     "prompt": "At an intersection with this sign, may you turn right after the light turns green?",
     "choices": [
-      "No; turns are banned at all times",
-      "Yes; the sign only prohibits turning while the light is red",
-      "Only if a green arrow appears"
+      "No; turns are banned here at all times, even on green",
+      "Yes; the sign applies only while the light is red",
+      "Only if a green right-turn arrow appears on the signal"
     ],
     "answer": 1,
     "explanation": "The sign restricts turns on red only. When the signal is green, you may turn after yielding to pedestrians and other traffic.",
@@ -1159,30 +1125,13 @@
     "topic": "road-signs",
     "prompt": "What does this sign mean?",
     "choices": [
-      "Left-turning drivers have the right-of-way on green",
-      "On a circular green light, you may turn left but must yield to oncoming traffic",
-      "Left turns are allowed only on a green arrow",
-      "Oncoming traffic must stop for left-turning drivers"
+      "Left-turning drivers have the right-of-way on a green light",
+      "You may turn left on green after yielding to oncoming traffic",
+      "Left turns are allowed only while a green arrow is shown",
+      "Oncoming traffic must stop for drivers turning left on green"
     ],
     "answer": 1,
     "explanation": "On a circular green (not a green arrow), left turns are permitted but not protected. You must yield to oncoming vehicles and pedestrians.",
-    "sign": "R10-12",
-    "difficulty": 2,
-    "ref": "MUTCD Sec. 2B (traffic signal signs); state driver handbooks (e.g. CA p.39-40, TX p.30-31, PA p.11-13)"
-  },
-  {
-    "id": "car.rs.070",
-    "track": "car",
-    "topic": "road-signs",
-    "prompt": "The signal shows a circular green light and this sign is posted. You want to turn left, and an oncoming car is close. What should you do?",
-    "choices": [
-      "Wait for the oncoming car to pass, then turn when there is a safe gap",
-      "Turn first, because your light is green",
-      "Turn quickly before the oncoming car arrives",
-      "Back up and wait for a green arrow"
-    ],
-    "answer": 0,
-    "explanation": "This sign reminds left-turning drivers that oncoming traffic has the right-of-way on a green light. Turn only when there is a safe gap.",
     "sign": "R10-12",
     "difficulty": 2,
     "ref": "MUTCD Sec. 2B (traffic signal signs); state driver handbooks (e.g. CA p.39-40, TX p.30-31, PA p.11-13)"
@@ -1193,10 +1142,10 @@
     "topic": "road-signs",
     "prompt": "You are turning right at an intersection with this sign. What must you do?",
     "choices": [
-      "Pedestrians must wait until you finish your turn",
-      "Yield only to other vehicles",
-      "Turn only on a green arrow",
-      "Yield to pedestrians crossing the street you are turning onto"
+      "Go first; pedestrians must wait until you finish your turn",
+      "Yield only to other vehicles, not to pedestrians",
+      "Turn only when a green arrow is shown for your lane",
+      "Yield to pedestrians crossing where you turn"
     ],
     "answer": 3,
     "explanation": "This sign reminds turning drivers that pedestrians crossing the street they are turning onto have the right-of-way.",
@@ -1210,10 +1159,10 @@
     "topic": "road-signs",
     "prompt": "What does this sign allow?",
     "choices": [
-      "Turning right on red without stopping",
-      "Turning left on a red arrow after stopping",
-      "Turning right on a red arrow after a complete stop, yielding to pedestrians and traffic",
-      "Nothing; turns on red are banned here"
+      "A right turn on red without needing to stop first",
+      "A left turn on a red arrow after a full stop",
+      "A right turn on a red arrow after a full stop",
+      "Nothing; all turns on red are banned at this signal"
     ],
     "answer": 2,
     "explanation": "This sign permits a right turn on a red arrow, but only after a full stop and after yielding to pedestrians and other traffic.",
@@ -1245,7 +1194,7 @@
     "prompt": "This sign is posted across the road ahead. What should you do?",
     "choices": [
       "Do not drive past it; follow the detour",
-      "Drive slowly through the closed area",
+      "Drive slowly and carefully through the closed area",
       "Continue if no workers are present",
       "Go around it on the shoulder"
     ],
@@ -1261,9 +1210,9 @@
     "topic": "road-signs",
     "prompt": "Who may continue past this sign?",
     "choices": [
-      "All traffic, at reduced speed",
-      "Only construction vehicles",
-      "No one at all",
+      "All traffic, as long as drivers slow down and use caution",
+      "Only construction and road-maintenance vehicles",
+      "No one at all may drive past this sign",
       "Only local traffic going to places before the closure"
     ],
     "answer": 3,
@@ -1278,9 +1227,9 @@
     "topic": "road-signs",
     "prompt": "What does this sign mean?",
     "choices": [
-      "The road is closed to every vehicle",
-      "Trucks may not use the road",
-      "Through traffic must use another route; only local traffic may use the road",
+      "The road is closed to every vehicle, including local traffic",
+      "Trucks and buses may not use this road",
+      "Only local traffic may use the road",
       "The road is open, but expect delays"
     ],
     "answer": 2,
@@ -1295,10 +1244,10 @@
     "topic": "road-signs",
     "prompt": "What does this sign mean?",
     "choices": [
-      "The speed limit is 10 mph",
-      "Vehicles weighing more than 10 tons may not use this road or bridge",
+      "The speed limit is 10 mph for heavy vehicles",
+      "Vehicles over 10 tons may not use this road",
       "No more than 10 vehicles may be on the bridge at once",
-      "Trucks must stop at a weigh station ahead"
+      "Trucks must stop at a weigh station 10 miles ahead"
     ],
     "answer": 1,
     "explanation": "A weight limit sign bans vehicles heavier than the posted weight, protecting roads and bridges from damage.",
@@ -1329,10 +1278,10 @@
     "topic": "road-signs",
     "prompt": "What does this sign tell drivers to do?",
     "choices": [
-      "Stop behind any vehicle stopped on the shoulder",
-      "Never stop on the shoulder",
-      "Use the shoulder to pass slower traffic",
-      "Change lanes away from, or slow down for, vehicles stopped on the shoulder"
+      "Stop behind any vehicle that is stopped on the shoulder",
+      "Never stop on the shoulder unless your car breaks down",
+      "Use the shoulder to pass slower traffic when it is clear",
+      "Move over or slow down for vehicles on the shoulder"
     ],
     "answer": 3,
     "explanation": "This sign tells drivers to move over a lane or reduce speed when passing vehicles stopped on the shoulder. Check your state cheat sheet for which vehicles the law covers.",
@@ -1380,10 +1329,10 @@
     "topic": "road-signs",
     "prompt": "How is the bend shown on this sign different from a smoothly curved arrow on a similar sign?",
     "choices": [
-      "It warns of a sharper bend that needs a lower speed than a normal curve",
+      "It warns of a sharper bend needing a lower speed",
       "It means you must turn at the next intersection",
-      "It warns of a gentler bend than a curve sign",
-      "It applies only to trucks"
+      "It warns of a gentler bend than a curve sign does",
+      "It means the bend applies only to large trucks"
     ],
     "answer": 0,
     "explanation": "Turn signs (right-angle arrow) are used for sharp bends, generally with a recommended speed of 30 mph or less. Curve signs (smoothly bent arrow) are used for gentler bends.",
@@ -1397,7 +1346,7 @@
     "topic": "road-signs",
     "prompt": "You see this sign. What should you do?",
     "choices": [
-      "Turn right at the next intersection",
+      "Get ready to turn right at the next intersection",
       "Keep to the right of an obstacle",
       "Move into the right lane",
       "Slow down before the sharp right turn ahead"
@@ -1517,7 +1466,7 @@
     "prompt": "What does this sign warn of?",
     "choices": [
       "A winding road with a series of curves",
-      "The road may be slippery when wet",
+      "The road ahead may be slippery when wet",
       "A single curve to the right",
       "A narrow bridge ahead"
     ],
@@ -1534,9 +1483,9 @@
     "prompt": "This sign is placed on the outside of a sharp bend in the road. What does it tell you?",
     "choices": [
       "The street ahead is one-way to the right",
-      "Follow the detour route to the right",
+      "Follow the posted detour route to the right",
       "Traffic in the right lane must turn right",
-      "The road turns sharply in the direction of the arrow, so slow down"
+      "The road turns sharply that way; slow down"
     ],
     "answer": 3,
     "explanation": "This large yellow arrow is a warning sign, not a one-way sign (which is black and white). It shows the direction of a sharp turn.",
@@ -1550,10 +1499,10 @@
     "topic": "road-signs",
     "prompt": "This sign is posted straight ahead of you as you approach the end of the road you are on. What does it mean?",
     "choices": [
-      "Two-way traffic begins ahead",
-      "You may pass an obstacle on either side",
+      "Two-way traffic begins ahead on this road",
+      "You may pass the obstacle ahead on either side",
       "The road ends, so you must turn left or right",
-      "A divided highway crossing is ahead"
+      "A divided highway crossing is just ahead"
     ],
     "answer": 2,
     "explanation": "The two-direction large arrow is placed across the end of a T-intersection to show that the road does not continue straight.",
@@ -1567,10 +1516,10 @@
     "topic": "road-signs",
     "prompt": "Several of these signs are placed along the outside of a curve. What do they tell you?",
     "choices": [
-      "Merge into the right lane",
-      "The road curves in the direction the chevrons point; slow down and follow it",
-      "The road is one-way to the right",
-      "Keep to the right of a traffic island"
+      "Merge into the right lane before the curve",
+      "Follow the curve in the direction they point",
+      "The road ahead is one-way to the right",
+      "Keep to the right of a traffic island ahead"
     ],
     "answer": 1,
     "explanation": "Chevron alignment signs outline a sharp curve and point the direction it bends. They are especially helpful at night.",
@@ -1585,7 +1534,7 @@
     "prompt": "What does this sign warn of?",
     "choices": [
       "A crossroad intersection ahead",
-      "A railroad crossing ahead",
+      "A railroad crossing a short way ahead",
       "A side road on the right only",
       "A hospital ahead"
     ],
@@ -1601,8 +1550,8 @@
     "topic": "road-signs",
     "prompt": "What does this sign warn of?",
     "choices": [
-      "The road ends at a T intersection",
-      "The right lane ends ahead",
+      "The road ends ahead at a T intersection",
+      "The right lane ends ahead; merge left",
       "Right turn only ahead",
       "A side road enters from the right ahead"
     ],
@@ -1618,9 +1567,9 @@
     "topic": "road-signs",
     "prompt": "What does this sign mean?",
     "choices": [
-      "A crossroad intersection is ahead",
+      "A four-way crossroad intersection is ahead",
       "A side road enters from the right",
-      "The road ends ahead at a T intersection; be ready to turn left or right",
+      "The road ends ahead at a T intersection",
       "A truck crossing is ahead"
     ],
     "answer": 2,
@@ -1635,10 +1584,10 @@
     "topic": "road-signs",
     "prompt": "What does this sign warn of?",
     "choices": [
-      "Two lanes merge into one ahead",
-      "The road splits ahead into a Y intersection",
-      "A divided highway begins ahead",
-      "A lane is added ahead"
+      "Two lanes merge into one lane ahead",
+      "The road splits into two ahead",
+      "A divided highway begins just ahead",
+      "A lane is added on the right ahead"
     ],
     "answer": 1,
     "explanation": "The Y symbol warns that the road divides into two branches ahead. Slow down and prepare to bear left or right.",
@@ -1652,9 +1601,9 @@
     "topic": "road-signs",
     "prompt": "What does this sign warn you about?",
     "choices": [
-      "You are approaching a school area where children may be present",
+      "A school area where children may be present",
       "A playground or park is next to the road",
-      "A pedestrian-only street is ahead",
+      "A pedestrian-only street begins just ahead",
       "A public transit stop is ahead"
     ],
     "answer": 0,
@@ -1669,10 +1618,10 @@
     "topic": "road-signs",
     "prompt": "What does the five-sided shape of this sign tell you, even from far away?",
     "choices": [
-      "It marks a railroad crossing",
-      "It warns of a no-passing zone",
-      "It marks a construction zone",
-      "It is a school zone or school crossing sign"
+      "It marks a railroad crossing just ahead",
+      "It warns that a no-passing zone begins here",
+      "It marks a road construction zone",
+      "It marks a school zone or school crossing"
     ],
     "answer": 3,
     "explanation": "The pentagon shape is used only for school zone and school crossing signs.",
@@ -1722,7 +1671,7 @@
     "choices": [
       "A school bus stop ahead",
       "A school ahead",
-      "A bus-only lane ahead",
+      "A lane for buses only ahead",
       "A bus station ahead"
     ],
     "answer": 0,
@@ -1737,10 +1686,10 @@
     "topic": "road-signs",
     "prompt": "After passing this sign, what should you be ready to do?",
     "choices": [
-      "Speed up to pass any bus before it stops",
+      "Speed up to pass any school bus before it stops",
       "Change lanes so you can drive around a stopped bus",
       "Sound your horn to warn children near the road",
-      "Slow down, watch for children and be ready to stop for a stopped school bus"
+      "Slow down and be ready to stop for a school bus"
     ],
     "answer": 3,
     "explanation": "A school bus may be stopped around the curve or over the hill. Be ready to stop when its red lights flash, and watch for children crossing.",
@@ -1773,7 +1722,7 @@
     "choices": [
       "The school is closed",
       "The speed limit is for a school zone",
-      "School parking is ahead",
+      "School parking is just ahead on the right",
       "The road is a school bus route"
     ],
     "answer": 1,
@@ -1788,7 +1737,7 @@
     "topic": "road-signs",
     "prompt": "What does this sign mean?",
     "choices": [
-      "A reduced school speed limit zone begins ahead",
+      "A school speed zone begins ahead",
       "The speed limit is 20 mph everywhere ahead",
       "The school zone ends ahead",
       "A school bus stop is ahead"
@@ -1807,7 +1756,7 @@
     "choices": [
       "At all times",
       "Only on weekends",
-      "Only when children are in the crosswalk",
+      "Only when children are in the crosswalk ahead",
       "When the attached yellow lights are flashing"
     ],
     "answer": 3,
@@ -1841,7 +1790,7 @@
     "choices": [
       "A school zone begins here",
       "You are leaving the school zone",
-      "The school is closed",
+      "The school is closed for the day",
       "Children must leave the road"
     ],
     "answer": 1,
@@ -1856,7 +1805,7 @@
     "topic": "road-signs",
     "prompt": "What does this sign mean?",
     "choices": [
-      "The reduced school speed limit ends; the normal posted limit applies again",
+      "The lower school speed limit ends here",
       "There is no speed limit beyond this point",
       "A school speed zone begins here",
       "The school speed limit applies at all times"
@@ -1873,10 +1822,10 @@
     "topic": "road-signs",
     "prompt": "What should you do when you see this sign?",
     "choices": [
-      "Always stop, even when no train is near",
+      "Always come to a full stop, even when no train is near",
       "Keep your speed, because trains must yield to cars",
-      "Stop only if gates are down",
-      "Treat it like a yield sign: slow down, look and listen, and stop if a train is coming"
+      "Stop only if the gates are down and lights flash",
+      "Yield: slow down, look, listen, and stop for any train"
     ],
     "answer": 3,
     "explanation": "The crossbuck marks a railroad crossing and means yield to trains. Slow down, look both ways, listen, and stop if a train is approaching.",
@@ -1890,10 +1839,10 @@
     "topic": "road-signs",
     "prompt": "A crossing has only this sign, with no lights or gates, and a train is approaching. What must you do?",
     "choices": [
-      "Cross if you think you can beat the train",
-      "Slow down and cross carefully",
-      "Stop before the tracks and wait until the train has passed",
-      "Stop only if the train sounds its horn"
+      "Cross quickly if you are sure you can beat the train",
+      "Slow down, then cross carefully if the train is far away",
+      "Stop and wait until the train has fully passed",
+      "Stop only if the train sounds its horn as it approaches"
     ],
     "answer": 2,
     "explanation": "Trains cannot stop quickly and always have the right-of-way. At a crossing with only a crossbuck, it is up to you to stop and wait for any approaching train.",
@@ -1905,15 +1854,15 @@
     "id": "car.rs.113",
     "track": "car",
     "topic": "road-signs",
-    "prompt": "This plaque is shown below a railroad crossing sign. What should you watch for?",
+    "prompt": "This plaque is mounted below a railroad crossing sign. What does it tell you?",
     "choices": [
-      "About 3 trains cross here each hour",
-      "There are 3 tracks, so after one train passes, another may be coming on a different track",
-      "The crossing is 3 miles ahead",
-      "You must stop 3 times before crossing"
+      "About 3 trains use this crossing each hour",
+      "The crossing has 3 sets of tracks",
+      "The railroad crossing is 3 miles ahead",
+      "You must wait 3 minutes after a train passes"
     ],
     "answer": 1,
-    "explanation": "This plaque shows how many tracks the crossing has. A second train on another track can be hidden by the first one.",
+    "explanation": "This plaque shows how many tracks the crossing has. After one train passes, another may be coming on a different track, hidden by the first.",
     "sign": "R15-2P",
     "difficulty": 2,
     "ref": "MUTCD Part 8; state driver handbooks (e.g. CA p.44, TX p.38, FL p.64, NY p.61)"
@@ -1925,9 +1874,9 @@
     "prompt": "What does this sign at a railroad crossing remind you to do?",
     "choices": [
       "Look both ways for trains before crossing",
-      "Look for a posted detour",
-      "Watch for a flagger",
-      "Look for an emergency phone"
+      "Look for a posted detour around the tracks",
+      "Watch for a flagger directing traffic",
+      "Look for the emergency phone number"
     ],
     "answer": 0,
     "explanation": "This sign reminds drivers and pedestrians to look in both directions for trains before crossing the tracks.",
@@ -1989,29 +1938,13 @@
     "topic": "road-signs",
     "prompt": "What does a diamond-shaped sign usually tell you?",
     "choices": [
-      "It warns of a possible hazard or change in the road ahead",
+      "It warns of a hazard or change ahead",
       "It tells you what you must do by law",
-      "It marks a school zone",
+      "It marks a school zone or school crossing",
       "It shows directions to a destination"
     ],
     "answer": 0,
     "explanation": "Diamond-shaped signs are warning signs, such as curves, intersections or lane changes ahead.",
-    "difficulty": 1,
-    "ref": "MUTCD Sec. 2A (sign shapes and colors); state driver handbooks (e.g. TX p.32, PA p.14)"
-  },
-  {
-    "id": "car.rs.119",
-    "track": "car",
-    "topic": "road-signs",
-    "prompt": "A five-sided (pentagon) sign is used for what?",
-    "choices": [
-      "Railroad crossings",
-      "No-passing zones",
-      "Construction zones",
-      "School zones and school crossings"
-    ],
-    "answer": 3,
-    "explanation": "The pentagon shape is used for school advance warning and school crossing signs.",
     "difficulty": 1,
     "ref": "MUTCD Sec. 2A (sign shapes and colors); state driver handbooks (e.g. TX p.32, PA p.14)"
   },
@@ -2021,7 +1954,7 @@
     "topic": "road-signs",
     "prompt": "A yellow, sideways triangle (pennant) on the left side of the road warns you of what?",
     "choices": [
-      "A yield sign ahead",
+      "A yield sign a short way ahead",
       "A school zone ahead",
       "The start of a no-passing zone",
       "A slow-moving vehicle ahead"
@@ -2029,22 +1962,6 @@
     "answer": 2,
     "explanation": "The pennant-shaped sign is posted on the left side of the road at the beginning of a no-passing zone.",
     "difficulty": 2,
-    "ref": "MUTCD Sec. 2A (sign shapes and colors); state driver handbooks (e.g. TX p.32, PA p.14)"
-  },
-  {
-    "id": "car.rs.121",
-    "track": "car",
-    "topic": "road-signs",
-    "prompt": "A white X-shaped sign with the words RAILROAD CROSSING means what?",
-    "choices": [
-      "Stop at every crossing even with no train in sight",
-      "Yield to trains at the crossing",
-      "The road crosses another highway ahead",
-      "The road is closed ahead"
-    ],
-    "answer": 1,
-    "explanation": "The crossbuck marks a highway-rail crossing and means you must yield to trains.",
-    "difficulty": 1,
     "ref": "MUTCD Sec. 2A (sign shapes and colors); state driver handbooks (e.g. TX p.32, PA p.14)"
   },
   {
@@ -2070,7 +1987,7 @@
     "prompt": "What does an orange sign usually mean?",
     "choices": [
       "There is a school zone ahead",
-      "There are motorist services ahead",
+      "There are gas, food or lodging services ahead",
       "There is a recreation area ahead",
       "There is road work or construction ahead"
     ],
@@ -2085,10 +2002,10 @@
     "topic": "road-signs",
     "prompt": "What do fluorescent yellow-green warning signs usually warn of?",
     "choices": [
-      "Road construction",
-      "Recreational areas",
-      "Pedestrians, bicyclists or schoolchildren",
-      "Freeway exits"
+      "Road construction and work zones",
+      "Parks and recreational areas ahead",
+      "Pedestrians, bicycles or schools",
+      "Upcoming freeway exits and ramps"
     ],
     "answer": 2,
     "explanation": "Fluorescent yellow-green may be used for pedestrian, bicycle and school warning signs to make them stand out.",
@@ -2101,10 +2018,10 @@
     "topic": "road-signs",
     "prompt": "What does a brown sign usually show?",
     "choices": [
-      "Hospitals, gas and food services",
-      "Recreational, cultural or scenic areas such as parks",
-      "Road work zones",
-      "Highway directions and distances"
+      "Hospitals, gas, food and lodging services",
+      "Parks and recreation or cultural areas",
+      "Road work zones and detours ahead",
+      "Highway directions and distances to cities"
     ],
     "answer": 1,
     "explanation": "Brown guide signs point the way to recreational and cultural interest areas, such as parks and historic sites.",
@@ -2117,10 +2034,10 @@
     "topic": "road-signs",
     "prompt": "What does a blue sign usually show?",
     "choices": [
-      "Services for travelers, such as gas, food, lodging or hospitals",
-      "Parks and historic sites",
-      "Directions and distances to cities",
-      "Construction zones"
+      "Services such as gas, food, lodging or hospitals",
+      "Parks, historic sites and other recreation areas",
+      "Directions and distances to cities and exits",
+      "Construction and road work zones ahead"
     ],
     "answer": 0,
     "explanation": "Blue guide signs show motorist services. Green signs give directions, and brown signs mark recreation areas.",
@@ -2133,9 +2050,9 @@
     "topic": "road-signs",
     "prompt": "What do green signs usually show?",
     "choices": [
-      "Warnings about hazards",
-      "Motorist services",
-      "Laws you must obey",
+      "Warnings about hazards on the road ahead",
+      "Motorist services such as gas and food",
+      "Laws you must obey, such as speed limits",
       "Directions, distances and highway exits"
     ],
     "answer": 3,
@@ -2149,10 +2066,10 @@
     "topic": "road-signs",
     "prompt": "What does the color red on a sign usually mean?",
     "choices": [
-      "A general warning",
-      "Motorist services",
+      "A general warning about the road",
+      "Motorist services ahead",
       "Stop, yield or a prohibition",
-      "Construction ahead"
+      "Construction or road work ahead"
     ],
     "answer": 2,
     "explanation": "Red is used on STOP, YIELD, DO NOT ENTER and WRONG WAY signs and for the circle and slash that mean an action is prohibited.",
@@ -2165,10 +2082,10 @@
     "topic": "road-signs",
     "prompt": "A white rectangular sign with black letters, such as a speed limit sign, is what type of sign?",
     "choices": [
-      "A warning sign about a hazard",
-      "A regulatory sign that states a law you must obey",
-      "A guide sign showing directions",
-      "A work zone sign"
+      "A warning sign about a hazard on the road ahead",
+      "A regulatory sign stating a law to obey",
+      "A guide sign showing directions and distances",
+      "A temporary sign used only in work zones"
     ],
     "answer": 1,
     "explanation": "Regulatory signs are usually white rectangles with black (and sometimes red) lettering. Disobeying them is a traffic violation.",
@@ -2182,7 +2099,7 @@
     "prompt": "What does a yellow sign usually mean?",
     "choices": [
       "A general warning about conditions ahead",
-      "A law you must obey",
+      "A law you must obey, such as a speed limit",
       "Directions to a destination",
       "Services such as gas and food"
     ],

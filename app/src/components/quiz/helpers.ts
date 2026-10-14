@@ -6,7 +6,8 @@ import type {ChoiceState} from '../ChoiceButton';
 import {getSign} from '../../data/signs';
 import type {Question} from '../../data/types';
 
-export const SUPPORT_EMAIL = 'support@driveready.app';
+export {SUPPORT_EMAIL} from '../../config';
+import {SUPPORT_EMAIL} from '../../config';
 
 const LETTERS = 'ABCDEFGH';
 
