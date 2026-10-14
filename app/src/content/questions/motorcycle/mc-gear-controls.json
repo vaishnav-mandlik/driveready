@@ -535,7 +535,7 @@
     "choices": [
       "Each brake alone feels firm and holds the motorcycle",
       "The brakes squeak slightly when they are applied",
-      "The front brake also works when the rear pedal is pressed",
+      "Each brake feels soft at first, then grabs suddenly",
       "The brake lever can be pulled all the way to the handgrip"
     ],
     "answer": 0,
@@ -663,7 +663,7 @@
     "choices": [
       "Avoid any that make the motorcycle more difficult to handle safely",
       "Add as many accessories as you like if they are bolted on securely",
-      "Modifications are fine as long as they make the motorcycle louder",
+      "Modifications are fine as long as a dealer installs them",
       "Wait to modify the motorcycle until after its first oil change"
     ],
     "answer": 0,
@@ -675,12 +675,12 @@
     "id": "mc.gear.043",
     "track": "motorcycle",
     "topic": "mc-gear-controls",
-    "prompt": "After you added a new accessory and loaded heavy bags, the front wheel and handlebars start to shake. What does the manual list as common causes?",
+    "prompt": "Your front wheel and handlebars suddenly start to shake from side to side. What does the manual list among the most common causes?",
     "choices": [
-      "Using the front and rear brakes together when stopping",
-      "Riding in the center third of the lane at highway speed",
-      "Wearing a full-face helmet at highway speeds",
-      "Unsuitable accessories or an improperly placed load"
+      "Shifting gears just before entering a turn",
+      "Riding in the center third of the lane",
+      "Using both brakes for every normal stop",
+      "Unsuitable accessories or improper loading"
     ],
     "answer": 3,
     "explanation": "Most wobbles can be traced to improper loading, unsuitable accessories or incorrect tire pressure. Lighten or reposition the load and make sure windshields and fairings are mounted properly.",
@@ -702,5 +702,37 @@
     "explanation": "The checklist says to check engine oil warm, on the center stand, on level ground, using the dipstick or sight glass. Coolant, by contrast, is checked only when cool.",
     "difficulty": 3,
     "ref": "MSF Motorcycle Operator Manual, p. 55 (T-CLOCS Pre-Ride Inspection Checklist)"
+  },
+  {
+    "id": "mc.gear.045",
+    "track": "motorcycle",
+    "topic": "mc-gear-controls",
+    "prompt": "What does the MSF manual say riding gloves should be made of?",
+    "choices": [
+      "Thin cotton, for the best feel of the controls",
+      "Leather or a similar durable material",
+      "Fingerless knit, so your fingers stay free",
+      "Light rubber, to keep your hands dry"
+    ],
+    "answer": 1,
+    "explanation": "Gloves allow a better grip and help protect your hands. They should be made of leather or a similar durable material.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 7 (Clothing)"
+  },
+  {
+    "id": "mc.gear.046",
+    "track": "motorcycle",
+    "topic": "mc-gear-controls",
+    "prompt": "Why does the manual stress dressing warmly for cold-weather rides?",
+    "choices": [
+      "A warm rider can safely ride faster on cold roads",
+      "Bulky clothing makes you more visible to drivers",
+      "You cannot control a motorcycle well if you are numb",
+      "Cold weather causes the throttle to stick open"
+    ],
+    "answer": 2,
+    "explanation": "You cannot control a motorcycle well if you are numb, and riding for long periods in the cold can cause severe chill and fatigue. A winter jacket should resist wind and fit snugly at the neck, wrists and waist.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 7 (Clothing)"
   }
 ]

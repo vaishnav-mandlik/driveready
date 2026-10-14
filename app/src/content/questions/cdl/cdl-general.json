@@ -1,0 +1,4034 @@
+[
+  {
+    "id": "cdl.gk.001",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Under the federal standard, you need a CDL to drive a single vehicle with a gross vehicle weight rating (GVWR) of at least:",
+    "choices": [
+      "20,000 pounds",
+      "33,001 pounds",
+      "26,001 pounds",
+      "10,001 pounds"
+    ],
+    "answer": 2,
+    "explanation": "A CDL is required for any single vehicle with a GVWR of 26,001 pounds or more. Some states add more vehicles, but none require less.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 1; 49 CFR 383.5"
+  },
+  {
+    "id": "cdl.gk.002",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "A pickup with a 14,000-lb GVWR tows a trailer with a 14,000-lb GVWR. Under the federal classes, which CDL covers this combination?",
+    "choices": [
+      "Class A",
+      "No CDL, because neither unit is over 26,000 pounds",
+      "Class C",
+      "Class B"
+    ],
+    "answer": 0,
+    "explanation": "Class A covers combinations with a GCWR of 26,001 pounds or more when the towed unit's GVWR is over 10,000 pounds. Here the GCWR is 28,000 pounds and the trailer is 14,000 pounds.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 1; 49 CFR 383.91"
+  },
+  {
+    "id": "cdl.gk.003",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "A straight truck with a 30,000-lb GVWR tows a small trailer with an 8,000-lb GVWR. Which CDL class fits this vehicle?",
+    "choices": [
+      "No CDL class applies",
+      "Class B",
+      "Class A",
+      "Class C"
+    ],
+    "answer": 1,
+    "explanation": "Class B is a single vehicle of 26,001 pounds GVWR or more, or such a vehicle towing a unit of not more than 10,000 pounds GVWR. The trailer is too light to make it Class A.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 1; 49 CFR 383.91"
+  },
+  {
+    "id": "cdl.gk.004",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Under the federal standard, a vehicle lighter than 26,001 lbs GVWR still needs a CDL if it is designed to carry how many people, counting the driver?",
+    "choices": [
+      "8 or more",
+      "16 or more",
+      "10 or more",
+      "24 or more"
+    ],
+    "answer": 1,
+    "explanation": "A vehicle designed to carry 16 or more passengers, including the driver, requires a CDL. Some states set a lower number, but the federal standard is 16.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 1; 49 CFR 383.5"
+  },
+  {
+    "id": "cdl.gk.005",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Which endorsements are the only ones that may be added to a Commercial Learner's Permit (CLP)?",
+    "choices": [
+      "Passenger, School Bus, and Tank Vehicle",
+      "Hazardous Materials, Tank Vehicle, and Doubles/Triples",
+      "Doubles/Triples, Passenger, and Tank Vehicle",
+      "Passenger, Hazardous Materials, and School Bus"
+    ],
+    "answer": 0,
+    "explanation": "Only the Passenger (P), School Bus (S), and Tank Vehicle (N) endorsements may be placed on a CLP. Hazardous Materials and Doubles/Triples cannot.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 1"
+  },
+  {
+    "id": "cdl.gk.006",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Which CDL endorsement shows that a driver has passed both the tank vehicle and the hazardous materials knowledge tests?",
+    "choices": [
+      "H",
+      "T",
+      "X",
+      "N"
+    ],
+    "answer": 2,
+    "explanation": "The X endorsement combines Tank Vehicle (N) and Hazardous Materials (H). T is for double and triple trailers.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 1"
+  },
+  {
+    "id": "cdl.gk.007",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "The CDL skills test is made up of which three parts?",
+    "choices": [
+      "Vehicle inspection, basic control, and on-road test",
+      "Written knowledge test, backing test, and highway driving test",
+      "Vehicle inspection, cargo loading test, and on-road driving test",
+      "Air brake check, night driving test, and on-road driving test"
+    ],
+    "answer": 0,
+    "explanation": "The skills test has three segments taken in order: vehicle inspection, basic vehicle control, and the on-road test. You must pass each one before moving to the next.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 1.1.2"
+  },
+  {
+    "id": "cdl.gk.008",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "It is illegal to operate a commercial motor vehicle (CMV) if your blood alcohol concentration (BAC) is:",
+    "choices": [
+      "0.02% or more",
+      "0.08% or more",
+      "0.04% or more",
+      "0.10% or more"
+    ],
+    "answer": 2,
+    "explanation": "For CMV drivers the limit is 0.04% BAC, half of the 0.08% limit most states use for car drivers.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 1.3.2; 49 CFR 383.51"
+  },
+  {
+    "id": "cdl.gk.009",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "A CMV driver is found to have a detectable amount of alcohol, but a BAC below 0.04%. What happens?",
+    "choices": [
+      "The driver loses the CDL for one year",
+      "The driver is put out of service for 24 hours",
+      "The driver is put out of service for 8 hours",
+      "Nothing, because the BAC is under the limit"
+    ],
+    "answer": 1,
+    "explanation": "Any detectable amount of alcohol under 0.04% puts a CMV driver out of service for 24 hours. Being under 0.04% only avoids the longer disqualification.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 1.3.2; 49 CFR 392.5"
+  },
+  {
+    "id": "cdl.gk.010",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "For a first offense of driving a CMV with a BAC of 0.04% or higher, a driver loses the CDL for at least:",
+    "choices": [
+      "Life",
+      "Three years",
+      "One year",
+      "60 days"
+    ],
+    "answer": 2,
+    "explanation": "A first alcohol offense in a CMV brings at least a one-year disqualification. It rises to three years if the vehicle was placarded for hazardous materials, and a second offense means life.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 1.3.2; 49 CFR 383.51"
+  },
+  {
+    "id": "cdl.gk.011",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "A driver's first alcohol offense happens while driving a CMV placarded for hazardous materials. What is the minimum disqualification?",
+    "choices": [
+      "Five years",
+      "One year",
+      "Life",
+      "Three years"
+    ],
+    "answer": 3,
+    "explanation": "The usual one-year minimum for a first offense becomes at least three years when the CMV was placarded for hazardous materials.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 1.3.2; 49 CFR 383.51"
+  },
+  {
+    "id": "cdl.gk.012",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Which offense results in losing your CDL for life even if it is your first one?",
+    "choices": [
+      "Using a CMV to commit a felony involving controlled substances",
+      "Refusing to take an alcohol test when asked while driving a CMV",
+      "Driving a CMV while your CDL is suspended or revoked",
+      "Leaving the scene of an accident while driving a CMV"
+    ],
+    "answer": 0,
+    "explanation": "Using a CMV to commit a felony involving controlled substances means a lifetime loss of the CDL. The other offenses bring at least one year for a first offense and life for a second.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 1.3.2; 49 CFR 383.51"
+  },
+  {
+    "id": "cdl.gk.013",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Speeding counts as a serious traffic violation for a CDL holder when you drive how far over the posted limit?",
+    "choices": [
+      "15 mph or more",
+      "5 mph or more",
+      "10 mph or more",
+      "20 mph or more"
+    ],
+    "answer": 0,
+    "explanation": "Excessive speeding, defined as 15 mph or more above the posted limit, is a serious traffic violation.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 1.3.3; 49 CFR 383.51"
+  },
+  {
+    "id": "cdl.gk.014",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Two serious traffic violations in a CMV within a three-year period lead to a CDL disqualification of at least:",
+    "choices": [
+      "One year",
+      "30 days",
+      "60 days",
+      "120 days"
+    ],
+    "answer": 2,
+    "explanation": "Two serious violations within three years means at least 60 days. Three or more within three years means at least 120 days.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 1.3.3; 49 CFR 383.51"
+  },
+  {
+    "id": "cdl.gk.015",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "A CDL holder is convicted for the first time of a railroad-highway grade crossing violation in a CMV. The minimum disqualification is:",
+    "choices": [
+      "60 days",
+      "30 days",
+      "120 days",
+      "One year"
+    ],
+    "answer": 0,
+    "explanation": "A first railroad crossing violation brings at least 60 days. A second within three years is at least 120 days, and a third is at least one year.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 1.3.5; 49 CFR 383.51"
+  },
+  {
+    "id": "cdl.gk.016",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "You are convicted of a moving violation while driving your personal car. Within how many days must you tell your employer?",
+    "choices": [
+      "2 business days",
+      "90 days",
+      "10 days",
+      "30 days"
+    ],
+    "answer": 3,
+    "explanation": "You must notify your employer within 30 days of a conviction for any traffic violation except parking, no matter what type of vehicle you were driving.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 1.4; 49 CFR 383.31"
+  },
+  {
+    "id": "cdl.gk.017",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When you apply for a commercial driving job, you must give the employer information about all driving jobs you held during the past:",
+    "choices": [
+      "7 years",
+      "3 years",
+      "5 years",
+      "10 years"
+    ],
+    "answer": 3,
+    "explanation": "Applicants must list all driving jobs held in the past 10 years.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 1.4"
+  },
+  {
+    "id": "cdl.gk.018",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How many driver licenses may a commercial driver hold?",
+    "choices": [
+      "One for each class of vehicle they drive",
+      "Only one, from your home state",
+      "One for each state where they drive",
+      "Two: a CDL and a separate car license"
+    ],
+    "answer": 1,
+    "explanation": "You may not have more than one license. A court can fine you up to $5,000 or jail you, keep your home state license, and return any others. All states share a computer system to check for this.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 1.4"
+  },
+  {
+    "id": "cdl.gk.019",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What is the most important reason for inspecting your vehicle?",
+    "choices": [
+      "Safety, for yourself and other road users",
+      "Avoiding fines from roadside inspectors",
+      "Meeting your employer's paperwork rules",
+      "Keeping the vehicle's resale value up"
+    ],
+    "answer": 0,
+    "explanation": "Safety is the most important reason to inspect. A defect found early can prevent a breakdown or a crash.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.1.1"
+  },
+  {
+    "id": "cdl.gk.020",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "If a federal or state inspector judges your vehicle to be unsafe, what will happen?",
+    "choices": [
+      "It will be put out of service until it is fixed",
+      "You will get a warning and may finish the trip",
+      "You must drive it straight to a repair shop",
+      "Your CDL will be suspended for 30 days"
+    ],
+    "answer": 0,
+    "explanation": "Inspectors who find a vehicle unsafe will put it out of service until it is repaired.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.1.1"
+  },
+  {
+    "id": "cdl.gk.021",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What is the minimum tread depth required in every major groove of a front tire?",
+    "choices": [
+      "4/32 inch",
+      "1/32 inch",
+      "6/32 inch",
+      "2/32 inch"
+    ],
+    "answer": 0,
+    "explanation": "Front tires need at least 4/32 inch of tread in every major groove. Other tires need at least 2/32 inch.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.1.3; 49 CFR 393.75"
+  },
+  {
+    "id": "cdl.gk.022",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What is the minimum tread depth for tires other than the front tires?",
+    "choices": [
+      "2/32 inch",
+      "1/32 inch",
+      "3/32 inch",
+      "4/32 inch"
+    ],
+    "answer": 0,
+    "explanation": "Tires other than the front tires need at least 2/32 inch of tread. The front tires need 4/32 inch.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.1.3; 49 CFR 393.75"
+  },
+  {
+    "id": "cdl.gk.023",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Which kind of tire is NOT allowed on the front wheels of a bus?",
+    "choices": [
+      "Recapped, retreaded, or re-grooved tires",
+      "Radial tires",
+      "Tubeless tires",
+      "Tires made by a different brand than the rear tires"
+    ],
+    "answer": 0,
+    "explanation": "Re-grooved, recapped, or retreaded tires are prohibited on the front wheels of a bus.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.1.3"
+  },
+  {
+    "id": "cdl.gk.024",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What should you do a short while after a tire has been changed?",
+    "choices": [
+      "Let some air out of the new tire",
+      "Avoid braking hard until the next oil change",
+      "Wait until the end of the trip to check the lug nuts",
+      "Stop and re-check the tightness of the wheel nuts"
+    ],
+    "answer": 3,
+    "explanation": "After a tire change, stop a short while later and re-check the wheel nuts. They can loosen as the wheel settles.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.1.3"
+  },
+  {
+    "id": "cdl.gk.025",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Which wheel or rim condition is considered unsafe?",
+    "choices": [
+      "A rim with no visible rust",
+      "A rim with a fresh coat of paint",
+      "A wheel with all its lugs in place",
+      "A rim that has had welding repairs"
+    ],
+    "answer": 3,
+    "explanation": "Wheels or rims that have had welding repairs are not safe. Missing clamps, studs, or lugs and bent or cracked lock rings are also dangerous.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.1.3"
+  },
+  {
+    "id": "cdl.gk.026",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How much steering wheel play is too much?",
+    "choices": [
+      "More than 10 degrees (about 2 inches on a 20-inch wheel)",
+      "More than 45 degrees (about 8 inches at the rim of the wheel)",
+      "More than 25 degrees (about 5 inches at the rim of the wheel)",
+      "More than 2 degrees (less than half an inch at the rim)"
+    ],
+    "answer": 0,
+    "explanation": "Play of more than 10 degrees, about 2 inches of movement at the rim of a 20-inch wheel, can make it hard to steer.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.1.3"
+  },
+  {
+    "id": "cdl.gk.027",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "A leaf spring has some missing leaves. When will the vehicle be put out of service?",
+    "choices": [
+      "When one-fourth or more of the leaves are missing",
+      "Only when half or more of the leaves are missing",
+      "Never; leaf springs are not checked at inspections",
+      "Only when every leaf on one side is broken"
+    ],
+    "answer": 0,
+    "explanation": "If one-fourth or more of the leaves are missing, the vehicle will be put out of service. Even so, any spring defect could be dangerous.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.1.3"
+  },
+  {
+    "id": "cdl.gk.028",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Why is a broken exhaust system dangerous?",
+    "choices": [
+      "It drains the batteries faster than normal",
+      "It makes the engine lose power on steep upgrades",
+      "It can let poison fumes into the cab or sleeper",
+      "It causes the engine to run too cold in winter"
+    ],
+    "answer": 2,
+    "explanation": "A broken exhaust system can let poison fumes, such as carbon monoxide, into the cab or sleeper berth.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.1.3"
+  },
+  {
+    "id": "cdl.gk.029",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Which of these is required emergency equipment on a commercial vehicle?",
+    "choices": [
+      "Tire chains, a spare tire, a jack, and a first-aid kit",
+      "A flashlight, jumper cables, and a heavy tow strap",
+      "A fire extinguisher, spare fuses, and warning devices",
+      "Road flares, a snow shovel, and spare light bulbs"
+    ],
+    "answer": 2,
+    "explanation": "Required emergency equipment is a fire extinguisher, spare electrical fuses (unless the vehicle has circuit breakers), and warning devices for parked vehicles. Chains and tire tools are optional items.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.1.3"
+  },
+  {
+    "id": "cdl.gk.030",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Which set of warning devices meets the requirement for a parked commercial vehicle?",
+    "choices": [
+      "Three red reflective triangles",
+      "One triangle and two flashlights",
+      "Two red reflective triangles",
+      "Three orange traffic cones"
+    ],
+    "answer": 0,
+    "explanation": "You need three reflective triangles, or at least six fuses, or three liquid-burning flares.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.1.3; 49 CFR 393.95"
+  },
+  {
+    "id": "cdl.gk.031",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Your truck is carrying hazardous materials. Besides checking that the cargo is secure, what must you inspect for?",
+    "choices": [
+      "A receipt showing the cargo was weighed twice",
+      "A tarp covering all of the cargo",
+      "Proper shipping papers and placards",
+      "A tank endorsement on your CDL"
+    ],
+    "answer": 2,
+    "explanation": "If the cargo includes hazardous materials, you must inspect for proper papers and placarding.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.1.3"
+  },
+  {
+    "id": "cdl.gk.032",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "You review the previous driver's inspection report. When are you required to sign it?",
+    "choices": [
+      "Only if you find new defects of your own during inspection",
+      "Every time you take the vehicle, even when no defects were reported",
+      "Only if listed defects were certified as repaired or not needed",
+      "Never; only the mechanic who made the repairs signs it"
+    ],
+    "answer": 2,
+    "explanation": "The carrier must repair reported safety defects and certify the repair. You sign the report only if defects were noted and certified as repaired or not needed.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.1.5; 49 CFR 396.13"
+  },
+  {
+    "id": "cdl.gk.033",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Before you check the engine compartment, what should you make sure of?",
+    "choices": [
+      "The headlights and four-way flashers are turned on",
+      "The engine is running at high idle to keep the oil warm",
+      "The parking brake is set and/or the wheels are chocked",
+      "The transmission is in reverse with the clutch released"
+    ],
+    "answer": 2,
+    "explanation": "Check that the parking brakes are on and/or the wheels are chocked before working in the engine compartment.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.1.5"
+  },
+  {
+    "id": "cdl.gk.034",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "After you start the engine during the inspection, what should the ABS warning light on the dash do?",
+    "choices": [
+      "Stay on as long as the engine runs",
+      "Flash until you release the parking brake",
+      "Come on and then go off",
+      "Never light up at all"
+    ],
+    "answer": 2,
+    "explanation": "The ABS light should come on and then turn off. If it stays on, the ABS is not working properly.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.1.5"
+  },
+  {
+    "id": "cdl.gk.035",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "After the engine is started, how soon should oil pressure come up to normal?",
+    "choices": [
+      "Within seconds",
+      "Within about 3 minutes",
+      "Once the coolant is fully warm",
+      "After a few miles of driving"
+    ],
+    "answer": 0,
+    "explanation": "Oil pressure should come up to normal within seconds after the engine starts. Coolant and oil temperature rise gradually.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.1.5"
+  },
+  {
+    "id": "cdl.gk.036",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "In Section 2's engine-start check, air pressure should build from 50 to 90 psi within about how long?",
+    "choices": [
+      "10 minutes",
+      "3 minutes",
+      "1 minute",
+      "15 seconds"
+    ],
+    "answer": 1,
+    "explanation": "Section 2 says pressure should build from 50 to 90 psi within 3 minutes, then up to governor cut-out (usually about 120-140 psi). Section 5 adds that modern dual air systems should build from 85 to 100 psi within 45 seconds.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.1.5; Section 5.3"
+  },
+  {
+    "id": "cdl.gk.037",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "During the walk-around, what color should clearance lights and reflectors at the front be?",
+    "choices": [
+      "Red",
+      "White",
+      "Amber",
+      "Blue"
+    ],
+    "answer": 2,
+    "explanation": "Parking, clearance, and identification lights and reflectors at the front should be amber. Those at the rear should be red.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.1.5"
+  },
+  {
+    "id": "cdl.gk.038",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What color should side-marker lights and reflectors at the rear of the vehicle be?",
+    "choices": [
+      "Amber",
+      "Red",
+      "White",
+      "Green"
+    ],
+    "answer": 1,
+    "explanation": "Side-marker lights and reflectors are red at the rear and amber elsewhere.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.1.5"
+  },
+  {
+    "id": "cdl.gk.039",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How do you check a hydraulic brake system for leaks during the inspection?",
+    "choices": [
+      "Pump the pedal 10 times quickly and check that it gets softer with each push",
+      "Pump the pedal 3 times, then hold firm pressure 5 seconds; it shouldn't move",
+      "Hold light pressure for 30 seconds and watch the brake fluid gauge",
+      "Press the pedal once and listen for a hissing sound near each wheel"
+    ],
+    "answer": 1,
+    "explanation": "Pump the brake pedal three times, then apply firm pressure and hold it for five seconds. If the pedal moves, there may be a leak or other problem.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.1.5"
+  },
+  {
+    "id": "cdl.gk.040",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How should you test the parking brake during your inspection?",
+    "choices": [
+      "Set it and press hard on the service brake pedal at the same time",
+      "Set it, shift to a low gear, and gently pull forward against it",
+      "Set it, shift to neutral, and rev the engine to see if the vehicle moves",
+      "Release it while rolling slowly downhill at about 5 mph"
+    ],
+    "answer": 1,
+    "explanation": "With the parking brake set, place the vehicle in a low gear and gently pull forward against it. If it doesn't hold, it is faulty.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.1.5"
+  },
+  {
+    "id": "cdl.gk.041",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When you test your service brakes, the vehicle pulls to one side. What does this suggest?",
+    "choices": [
+      "The tires are properly inflated",
+      "The road is crowned, which is normal",
+      "The ABS is working correctly",
+      "There may be brake trouble"
+    ],
+    "answer": 3,
+    "explanation": "Pulling to one side during the brake test can mean brake trouble. Get it fixed, because it is illegal to operate an unsafe vehicle.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.1.5"
+  },
+  {
+    "id": "cdl.gk.042",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When hauling cargo in a truck, when must you first check the cargo securement, and how often after that?",
+    "choices": [
+      "Within the first 25 miles, then every 2 hours or 100 miles",
+      "Within the first 100 miles, then every 4 hours or 200 miles",
+      "Within the first 50 miles, then every 3 hours or 150 miles",
+      "Within the first 50 miles, then every 6 hours or 300 miles"
+    ],
+    "answer": 2,
+    "explanation": "Check cargo securement within the first 50 miles, then every 150 miles or every three hours, whichever comes first.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.1.6; 49 CFR 392.9"
+  },
+  {
+    "id": "cdl.gk.043",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "During a trip, you smell something unusual. What should you do?",
+    "choices": [
+      "Speed up to reach the terminal sooner",
+      "Wait to see whether it gets worse",
+      "Note it in the after-trip report and keep going",
+      "Stop safely and check it out"
+    ],
+    "answer": 3,
+    "explanation": "If you see, hear, smell, or feel anything that might mean trouble, check it out.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.1.6"
+  },
+  {
+    "id": "cdl.gk.044",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "In a vehicle with a manual transmission, how do you keep from rolling back when you start?",
+    "choices": [
+      "Rev the engine high and drop the clutch",
+      "Release the brake first, then let out the clutch as quickly as possible",
+      "Partly engage the clutch before taking your right foot off the brake",
+      "Shift into neutral and release the brake"
+    ],
+    "answer": 2,
+    "explanation": "Partly engage the clutch before taking your right foot off the brake. Use the parking brake when needed to keep from rolling back.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.2.1"
+  },
+  {
+    "id": "cdl.gk.045",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Your drive wheels begin to spin as you accelerate on a slippery road. What should you do?",
+    "choices": [
+      "Apply the brakes hard",
+      "Press harder on the accelerator",
+      "Take your foot off the accelerator",
+      "Turn the steering wheel sharply"
+    ],
+    "answer": 2,
+    "explanation": "If the drive wheels spin, take your foot off the accelerator. Speed up very gradually when traction is poor.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.2.1"
+  },
+  {
+    "id": "cdl.gk.046",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How should you hold the steering wheel?",
+    "choices": [
+      "Firmly, with both hands on opposite sides",
+      "With one hand, so the other is free to shift gears",
+      "Lightly, with one hand at the top of the wheel",
+      "With both hands together at the bottom of the wheel"
+    ],
+    "answer": 0,
+    "explanation": "Hold the wheel firmly with both hands on opposite sides. Hitting a curb or pothole could pull the wheel from a loose grip.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.2.2"
+  },
+  {
+    "id": "cdl.gk.047",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Why is backing a large vehicle always dangerous?",
+    "choices": [
+      "You cannot see everything behind the vehicle",
+      "Reverse gears are weaker than forward gears",
+      "Mirrors cannot be used while backing",
+      "The brakes work poorly in reverse"
+    ],
+    "answer": 0,
+    "explanation": "Because you can't see everything behind you, backing is always dangerous. Avoid it when you can and park so you can pull forward when you leave.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.2.4"
+  },
+  {
+    "id": "cdl.gk.048",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When you must back up, which direction should you back and turn toward whenever possible?",
+    "choices": [
+      "The right (passenger) side",
+      "The driver's side",
+      "Whichever side has the curb",
+      "Away from your helper"
+    ],
+    "answer": 1,
+    "explanation": "Back toward the driver's side so you can watch the rear by looking out the side window. Backing toward the right is very dangerous because you can't see as well.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.2.4"
+  },
+  {
+    "id": "cdl.gk.049",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Which hand signal is most important for you and your backing helper to agree on?",
+    "choices": [
+      "Stop",
+      "Speed up",
+      "Turn left",
+      "Straighten out"
+    ],
+    "answer": 0,
+    "explanation": "Before backing, work out hand signals you both understand, and be sure to agree on a signal for stop.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.2.4"
+  },
+  {
+    "id": "cdl.gk.050",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Most heavy vehicles with unsynchronized manual transmissions require which shifting technique?",
+    "choices": [
+      "Single clutching at high rpm",
+      "Shifting without using the clutch",
+      "Pressing the brake while shifting",
+      "Double clutching"
+    ],
+    "answer": 3,
+    "explanation": "Unsynchronized manual transmissions usually require double clutching. Synchronized transmissions do not.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.3.1"
+  },
+  {
+    "id": "cdl.gk.051",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "While double clutching, you stay in neutral too long and can't get into the next gear. What should you do?",
+    "choices": [
+      "Keep pushing the shift lever firmly until it finally slips into the next gear",
+      "Coast in neutral until the vehicle has slowed enough to shift",
+      "Skip that gear and shift into the next higher gear instead",
+      "Return to neutral, release the clutch, match engine to road speed, and retry"
+    ],
+    "answer": 3,
+    "explanation": "Don't force it. Return to neutral, release the clutch, increase engine speed to match road speed, and try again.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.3.1"
+  },
+  {
+    "id": "cdl.gk.052",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "In which situation does the manual say you should downshift?",
+    "choices": [
+      "Before entering a curve",
+      "In the middle of a curve",
+      "While braking hard in a curve",
+      "Right after leaving a curve"
+    ],
+    "answer": 0,
+    "explanation": "Slow down and downshift before entering a curve. You can then use some power through the curve to keep the vehicle stable.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.3.1"
+  },
+  {
+    "id": "cdl.gk.053",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Why should you select a low range on an automatic transmission when going down a grade?",
+    "choices": [
+      "To keep the brakes warm",
+      "To get greater engine braking",
+      "To let the transmission upshift freely",
+      "To save fuel"
+    ],
+    "answer": 1,
+    "explanation": "A low range gives greater engine braking and keeps the transmission from shifting up past the selected gear.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.3.3"
+  },
+  {
+    "id": "cdl.gk.054",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When should you turn off your retarder?",
+    "choices": [
+      "When driving on dry highways",
+      "When the vehicle is fully loaded with cargo",
+      "When the road is wet, icy, or snowy",
+      "When starting down a long, steep grade"
+    ],
+    "answer": 2,
+    "explanation": "On roads with poor traction, a retarder can make the drive wheels skid, so turn it off on wet, icy, or snowy roads.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.3.4"
+  },
+  {
+    "id": "cdl.gk.055",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What is the main benefit of a retarder?",
+    "choices": [
+      "It keeps the drive wheels from skidding on ice",
+      "It adds engine power on hills",
+      "It helps slow the vehicle and reduces brake wear",
+      "It shortens stopping distance on wet roads"
+    ],
+    "answer": 2,
+    "explanation": "Retarders help slow the vehicle, reducing the need for the brakes and brake wear. They do not prevent skids and can cause them on slippery roads.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.3.4"
+  },
+  {
+    "id": "cdl.gk.056",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How far ahead do most good drivers look?",
+    "choices": [
+      "1 to 2 seconds",
+      "20 to 30 seconds",
+      "4 to 6 seconds",
+      "12 to 15 seconds"
+    ],
+    "answer": 3,
+    "explanation": "Most good drivers look at least 12 to 15 seconds ahead, while also shifting attention back and forth to things that are closer.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.4.1"
+  },
+  {
+    "id": "cdl.gk.057",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "At highway speed, looking 12 to 15 seconds ahead means looking about how far?",
+    "choices": [
+      "About 100 feet",
+      "About one city block",
+      "About one full mile",
+      "A quarter of a mile"
+    ],
+    "answer": 3,
+    "explanation": "12 to 15 seconds is about one block at low speeds and about a quarter of a mile at highway speeds.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.4.1"
+  },
+  {
+    "id": "cdl.gk.058",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "A traffic light ahead has been green for a long time. What should you do?",
+    "choices": [
+      "Change lanes to get around other traffic",
+      "Start slowing down and be ready to stop",
+      "Speed up to get through before it changes",
+      "Keep your speed, since it just stayed green"
+    ],
+    "answer": 1,
+    "explanation": "A light that has been green a long time will probably change before you get there, so start slowing and be ready to stop.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.4.1"
+  },
+  {
+    "id": "cdl.gk.059",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When can your mirror adjustment be checked accurately?",
+    "choices": [
+      "At the end of each trip",
+      "Only while driving at highway speed",
+      "When the vehicle is parked on a slope",
+      "When the trailer(s) are straight"
+    ],
+    "answer": 3,
+    "explanation": "Check mirror adjustment before every trip, and only when the trailer(s) are straight.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.4.2"
+  },
+  {
+    "id": "cdl.gk.060",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How should each outside mirror be adjusted?",
+    "choices": [
+      "To show only the lane beside you",
+      "Pointed as far outward as possible",
+      "Tilted up to check overhead clearance",
+      "To show some part of your own vehicle"
+    ],
+    "answer": 3,
+    "explanation": "Each mirror should show some part of the vehicle. This gives you a reference point for judging where other things are.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.4.2"
+  },
+  {
+    "id": "cdl.gk.061",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When changing lanes, when should you check your mirrors?",
+    "choices": [
+      "Before signaling, and once more when you are halfway across the line",
+      "Before, after signaling, after starting, and after finishing the change",
+      "Only before you signal, then keep your eyes on the lane ahead",
+      "Only once, after the lane change is complete and you are centered"
+    ],
+    "answer": 1,
+    "explanation": "Check before changing lanes, after signaling, right after you start the change, and after you complete it.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.4.2"
+  },
+  {
+    "id": "cdl.gk.062",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Compared with a flat mirror, things seen in a convex (curved) mirror appear:",
+    "choices": [
+      "Larger and farther away than they really are",
+      "Smaller and farther away than they are",
+      "Larger and closer than they really are",
+      "The same size, but closer than they really are"
+    ],
+    "answer": 1,
+    "explanation": "Convex mirrors show a wider area, but everything looks smaller and farther away than it really is. Allow for this.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.4.2"
+  },
+  {
+    "id": "cdl.gk.063",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What are the three good rules for using turn signals?",
+    "choices": [
+      "Signal only on highways, early, and briefly",
+      "Signal briefly, add a hand signal, and cancel early",
+      "Signal at the turn, cancel halfway through, and use the horn",
+      "Signal early, signal continuously, and cancel after the turn"
+    ],
+    "answer": 3,
+    "explanation": "Signal well before you turn, keep signaling until the turn is complete, and cancel the signal afterward.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.5.1"
+  },
+  {
+    "id": "cdl.gk.064",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How should you warn drivers behind you that you'll need to slow down?",
+    "choices": [
+      "Brake suddenly so the drivers behind will notice",
+      "Turn on your high beams so they reflect off the car ahead",
+      "Tap the brake pedal lightly to flash the brake lights",
+      "Wave your arm out the window to signal drivers behind"
+    ],
+    "answer": 2,
+    "explanation": "A few light taps on the brake pedal, enough to flash the brake lights, should warn following drivers. Don't stop suddenly.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.5.1"
+  },
+  {
+    "id": "cdl.gk.065",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "A driver behind you wants to pass. Should you signal them when it looks safe?",
+    "choices": [
+      "Yes, if you also flash your headlights",
+      "Yes; it is the courteous thing to do",
+      "Yes, but only on two-lane roads",
+      "No; you could cause a crash and be blamed"
+    ],
+    "answer": 3,
+    "explanation": "Don't direct traffic. Signaling others to pass could cause a crash, and you could be blamed.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.5.1"
+  },
+  {
+    "id": "cdl.gk.066",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "At dawn, dusk, or in rain or snow, which lights should you use so others can see you?",
+    "choices": [
+      "Identification and clearance lights only",
+      "Low-beam headlights",
+      "Four-way flashers only",
+      "High-beam headlights"
+    ],
+    "answer": 1,
+    "explanation": "Use your headlights, not just identification or clearance lights, and use low beams. High beams can bother others even in daytime.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.5.2"
+  },
+  {
+    "id": "cdl.gk.067",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "If you must stop on a road or its shoulder, you must put out your emergency warning devices within:",
+    "choices": [
+      "1 hour",
+      "30 minutes",
+      "20 minutes",
+      "10 minutes"
+    ],
+    "answer": 3,
+    "explanation": "Warning devices must be put out within ten minutes of stopping on a road or shoulder.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.5.2; 49 CFR 392.22"
+  },
+  {
+    "id": "cdl.gk.068",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "You stop on a one-way or divided highway. Where should you place your warning devices?",
+    "choices": [
+      "10 and 100 feet behind, and 100 feet ahead of the vehicle",
+      "100, 200, and 500 feet behind the vehicle",
+      "10, 100, and 200 feet toward approaching traffic",
+      "50, 100, and 150 feet behind the vehicle on the shoulder"
+    ],
+    "answer": 2,
+    "explanation": "On a one-way or divided highway, place devices 10 feet, 100 feet, and 200 feet toward approaching traffic.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.5.2; 49 CFR 392.22"
+  },
+  {
+    "id": "cdl.gk.069",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "You stop on a two-lane road with traffic in both directions. Where should your warning devices go?",
+    "choices": [
+      "Within 10 feet of a corner, plus 100 feet behind and 100 feet ahead",
+      "One 50 feet ahead of the vehicle and two 50 feet behind it",
+      "Two placed 100 feet behind the vehicle and the third one 500 feet behind",
+      "At 10, 100, and 200 feet behind the vehicle only, none ahead"
+    ],
+    "answer": 0,
+    "explanation": "On a two-way or undivided road, place one within 10 feet of the front or rear corner and the others about 100 feet behind and 100 feet ahead.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.5.2; 49 CFR 392.22"
+  },
+  {
+    "id": "cdl.gk.070",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "You had to stop just past a hill crest that hides your truck from drivers coming up behind. What should you do with the rearmost triangle?",
+    "choices": [
+      "Place it right behind your rear bumper where it's easy for you to watch",
+      "Put it on top of the crest only if it is already getting dark outside",
+      "Move it back, up to 500 feet, so drivers see it before the hill",
+      "Leave it in the cab and rely on your four-way flashers instead"
+    ],
+    "answer": 2,
+    "explanation": "If a hill, curve, or other obstruction blocks the view, move the rearmost triangle back down the road, up to 500 feet, so drivers get a warning.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.5.2; 49 CFR 392.22"
+  },
+  {
+    "id": "cdl.gk.071",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How should you carry warning triangles as you walk out to place them?",
+    "choices": [
+      "Folded flat until you reach each spot",
+      "Behind your back so they don't blow away",
+      "Between you and the oncoming traffic",
+      "Under your arm, facing the road shoulder"
+    ],
+    "answer": 2,
+    "explanation": "Hold the triangles between yourself and oncoming traffic so other drivers can see you.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.5.2"
+  },
+  {
+    "id": "cdl.gk.072",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When you pull off the road and stop, what should you turn on?",
+    "choices": [
+      "The interior dome light",
+      "Only your taillights",
+      "Four-way emergency flashers",
+      "High-beam headlights"
+    ],
+    "answer": 2,
+    "explanation": "Turn on the four-way flashers, especially at night. Don't trust taillights to warn others; drivers have hit parked vehicles thinking they were moving.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.5.2"
+  },
+  {
+    "id": "cdl.gk.073",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Total stopping distance is made up of which three parts?",
+    "choices": [
+      "Perception distance, reaction distance, and braking distance",
+      "Reaction distance, following distance, and braking distance",
+      "Signal distance, reaction distance, and coasting distance",
+      "Perception distance, following distance, and skid distance"
+    ],
+    "answer": 0,
+    "explanation": "Perception distance + reaction distance + braking distance = total stopping distance.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.6.1"
+  },
+  {
+    "id": "cdl.gk.074",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "According to the manual, what is the average perception time for an alert driver?",
+    "choices": [
+      "¼ second",
+      "4 seconds",
+      "3 seconds",
+      "1¾ seconds"
+    ],
+    "answer": 3,
+    "explanation": "The average perception time for an alert driver is 1¾ seconds, about 142 feet at 55 mph. Reaction time adds another ¾ to 1 second.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.6.1"
+  },
+  {
+    "id": "cdl.gk.075",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "In ideal conditions at 55 mph, what is the minimum total distance a vehicle travels before it stops?",
+    "choices": [
+      "About 216 feet",
+      "About 300 feet",
+      "About 419 feet",
+      "About 142 feet"
+    ],
+    "answer": 2,
+    "explanation": "At 55 mph: about 142 feet of perception distance, 61 feet of reaction distance, and 216 feet of braking distance, for a total of at least 419 feet.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.6.1"
+  },
+  {
+    "id": "cdl.gk.076",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "At 55 mph on dry pavement with good brakes, about how far does the vehicle travel while braking, not counting perception and reaction?",
+    "choices": [
+      "419 feet",
+      "61 feet",
+      "142 feet",
+      "216 feet"
+    ],
+    "answer": 3,
+    "explanation": "Braking distance alone is about 216 feet at 55 mph. Total stopping distance, including perception and reaction, is about 419 feet.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.6.1"
+  },
+  {
+    "id": "cdl.gk.077",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "If you double your speed from 20 mph to 40 mph, your braking distance becomes about:",
+    "choices": [
+      "2 times longer",
+      "3 times longer",
+      "8 times longer",
+      "4 times longer"
+    ],
+    "answer": 3,
+    "explanation": "Doubling your speed makes the impact and the braking distance about four times greater, not just twice as great.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.6.1"
+  },
+  {
+    "id": "cdl.gk.078",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Compared with driving at 20 mph, how much greater are the impact and braking distance at 60 mph?",
+    "choices": [
+      "4 times greater",
+      "3 times greater",
+      "9 times greater",
+      "6 times greater"
+    ],
+    "answer": 2,
+    "explanation": "Tripling speed from 20 to 60 mph makes impact and braking distance about 9 times greater. At 80 mph it is 16 times greater.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.6.1"
+  },
+  {
+    "id": "cdl.gk.079",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Why does an empty truck usually need more distance to stop than a loaded one?",
+    "choices": [
+      "Brakes on empty trucks are designed weaker",
+      "Its brakes overheat much faster",
+      "It rolls faster on flat roads",
+      "An empty vehicle has less traction"
+    ],
+    "answer": 3,
+    "explanation": "Brakes, tires, springs, and shocks on heavy vehicles work best when fully loaded. An empty truck has less traction, so it needs more distance to stop.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.6.1"
+  },
+  {
+    "id": "cdl.gk.080",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How much can a wet road increase your stopping distance?",
+    "choices": [
+      "It can double it",
+      "About 10 percent",
+      "It can triple it",
+      "It doesn't change it with good tires"
+    ],
+    "answer": 0,
+    "explanation": "Wet roads can double stopping distance, so you must drive slower to stop in the same distance as on a dry road.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.6.2"
+  },
+  {
+    "id": "cdl.gk.081",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "On a wet road, how much should you reduce your speed?",
+    "choices": [
+      "By about 5 mph",
+      "By about one-third, such as from 55 to about 35 mph",
+      "By about 10 percent, such as from 55 to 50 mph",
+      "By about one-half, such as from 55 to about 28 mph"
+    ],
+    "answer": 1,
+    "explanation": "Reduce speed by about one-third on a wet road. On packed snow reduce by half or more, and on ice slow to a crawl.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.6.2"
+  },
+  {
+    "id": "cdl.gk.082",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "On packed snow, you should reduce your speed by:",
+    "choices": [
+      "About one-third",
+      "About 10 percent",
+      "About 5 mph",
+      "Half or more"
+    ],
+    "answer": 3,
+    "explanation": "On packed snow, reduce speed by a half or more. One-third is the guideline for wet roads.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.6.2"
+  },
+  {
+    "id": "cdl.gk.083",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When the temperature drops near freezing, which part of the road will freeze first?",
+    "choices": [
+      "Roads in direct sunlight",
+      "Roads through towns",
+      "Freshly paved roads",
+      "Bridges"
+    ],
+    "answer": 3,
+    "explanation": "Bridges freeze before the road does. Be especially careful when the temperature is close to 32°F.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.6.2"
+  },
+  {
+    "id": "cdl.gk.084",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What is black ice?",
+    "choices": [
+      "Ice mixed with dirt and road salt that looks dark",
+      "Thick ice that forms only at night on shaded roads",
+      "Ice hidden under a layer of freshly fallen snow",
+      "A thin, clear ice layer that makes the road look wet"
+    ],
+    "answer": 3,
+    "explanation": "Black ice is clear enough that you can see the road through it, so the road just looks wet. If it's below freezing and the road looks wet, watch for it.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.6.2"
+  },
+  {
+    "id": "cdl.gk.085",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Which ice is the most slippery?",
+    "choices": [
+      "Ice on a very cold, dry day",
+      "Rough, frozen slush in ruts",
+      "Ice that has been sanded lightly",
+      "Ice that is starting to melt"
+    ],
+    "answer": 3,
+    "explanation": "Slight melting makes ice wet, and wet ice is much more slippery than ice that is not wet.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.6.2"
+  },
+  {
+    "id": "cdl.gk.086",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What is an easy way to check whether the road may be starting to ice up?",
+    "choices": [
+      "Tap the brakes hard at highway speed to test traction",
+      "Read the outside air temperature on the dashboard",
+      "Feel the mirror, mirror support, or antenna for ice",
+      "Watch for steam coming out from under the hood"
+    ],
+    "answer": 2,
+    "explanation": "Open the window and feel the mirror, its support, or the antenna. If there's ice on them, the road is probably starting to ice up.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.6.2"
+  },
+  {
+    "id": "cdl.gk.087",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Your vehicle starts to hydroplane. How can you regain control?",
+    "choices": [
+      "Accelerate gently to push through the water",
+      "Steer sharply toward the shoulder to find grip",
+      "Brake firmly and steadily to slow down",
+      "Release the accelerator and push in the clutch"
+    ],
+    "answer": 3,
+    "explanation": "Release the accelerator and push in the clutch so the vehicle slows and the wheels turn freely. Do not use the brakes.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.6.2"
+  },
+  {
+    "id": "cdl.gk.088",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Hydroplaning can happen at speeds as low as:",
+    "choices": [
+      "30 mph",
+      "65 mph",
+      "45 mph",
+      "55 mph"
+    ],
+    "answer": 0,
+    "explanation": "If there is a lot of water, hydroplaning can occur at speeds as low as 30 mph.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.6.2"
+  },
+  {
+    "id": "cdl.gk.089",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "A curve is posted at 35 mph and your truck has a high center of gravity. Which statement is true?",
+    "choices": [
+      "Braking mid-curve will keep it stable",
+      "The truck could roll over even at 35 mph",
+      "35 mph is always safe for trucks",
+      "You can safely go 5 mph faster if loaded"
+    ],
+    "answer": 1,
+    "explanation": "Tests show trucks with a high center of gravity can roll over at the posted speed for a curve. Slow down before the curve as needed.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.6.3"
+  },
+  {
+    "id": "cdl.gk.090",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When should you slow down for a curve?",
+    "choices": [
+      "Just as you exit it",
+      "Before you enter it",
+      "In the middle of it",
+      "Once you feel the trailer lean"
+    ],
+    "answer": 1,
+    "explanation": "Slow to a safe speed before entering the curve; braking in a curve can lock the wheels. Be in a gear that lets you accelerate slightly through it.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.6.3"
+  },
+  {
+    "id": "cdl.gk.091",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What is the number one cause of injury and death in roadway work zones?",
+    "choices": [
+      "Workers stepping into lanes",
+      "Speeding traffic",
+      "Narrow lanes",
+      "Poor lighting"
+    ],
+    "answer": 1,
+    "explanation": "Speeding traffic is the number one cause of work zone injuries and deaths. Obey the posted limits and don't let your speed creep up.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.6.7"
+  },
+  {
+    "id": "cdl.gk.092",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "You are driving through a work zone and a worker is close to the road. What should you do?",
+    "choices": [
+      "Keep the posted speed and sound your horn",
+      "Slow down even more than you already have",
+      "Speed up to get past the worker quickly",
+      "Move onto the shoulder to give room"
+    ],
+    "answer": 1,
+    "explanation": "Decrease your speed for bad weather or road conditions, and decrease it even further when a worker is close to the roadway.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.6.7"
+  },
+  {
+    "id": "cdl.gk.093",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Of all the space around your vehicle, which area is the most important?",
+    "choices": [
+      "The space overhead",
+      "The space ahead",
+      "The space on the right",
+      "The space behind"
+    ],
+    "answer": 1,
+    "explanation": "The space ahead, the space you're driving into, is the most important.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.7.1"
+  },
+  {
+    "id": "cdl.gk.094",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "According to accident reports, what do trucks and buses most often run into?",
+    "choices": [
+      "A vehicle merging from the right",
+      "A vehicle in their blind spot",
+      "The vehicle in front of them",
+      "A parked vehicle"
+    ],
+    "answer": 2,
+    "explanation": "Trucks and buses most often hit the vehicle in front of them, and the most frequent cause is following too closely.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.7.1"
+  },
+  {
+    "id": "cdl.gk.095",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Below 40 mph, how much following distance does the manual recommend?",
+    "choices": [
+      "Two seconds total, no matter how long the vehicle is",
+      "At least 1 second for each 10 feet of length",
+      "1 second for each 20 feet of vehicle length",
+      "1 vehicle length for each 10 mph of speed"
+    ],
+    "answer": 1,
+    "explanation": "Keep at least one second for every 10 feet of vehicle length below 40 mph, and add 1 second above 40 mph.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.7.1"
+  },
+  {
+    "id": "cdl.gk.096",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "You are driving a 40-foot truck at 55 mph. How many seconds of following distance should you keep?",
+    "choices": [
+      "6 seconds",
+      "5 seconds",
+      "4 seconds",
+      "3 seconds"
+    ],
+    "answer": 1,
+    "explanation": "One second per 10 feet gives 4 seconds for 40 feet. Above 40 mph, add 1 second, for a total of 5.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.7.1"
+  },
+  {
+    "id": "cdl.gk.097",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "You are driving a 30-foot vehicle at 55 mph. How much following distance should you allow?",
+    "choices": [
+      "2 seconds",
+      "4 seconds",
+      "3 seconds",
+      "5 seconds"
+    ],
+    "answer": 1,
+    "explanation": "A 30-foot vehicle needs 3 seconds; above 40 mph, add 1 second, for 4 seconds.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.7.1"
+  },
+  {
+    "id": "cdl.gk.098",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How can you measure your following distance?",
+    "choices": [
+      "Divide your speed by ten to get the number of car lengths",
+      "Count the seconds until you reach a landmark the vehicle ahead just passed",
+      "Count the number of lane stripes between your bumper and the vehicle ahead",
+      "Estimate the number of car lengths using your side mirrors"
+    ],
+    "answer": 1,
+    "explanation": "Wait until the vehicle ahead passes a shadow, marking, or other landmark, then count 'one thousand-and-one...' until you reach the same spot.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.7.1"
+  },
+  {
+    "id": "cdl.gk.099",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Someone is tailgating you. What should you do?",
+    "choices": [
+      "Turn on your taillights",
+      "Increase your following distance",
+      "Tap your brakes a few times to warn them",
+      "Speed up to get away from them"
+    ],
+    "answer": 1,
+    "explanation": "Opening up room ahead helps you avoid sudden changes and makes it easier for the tailgater to pass. Don't speed up or use tricks like flashing brake lights.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.7.2"
+  },
+  {
+    "id": "cdl.gk.100",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "A heavy load is slowing you down on an upgrade. What should you do?",
+    "choices": [
+      "Move to the left lane",
+      "Pass slower vehicles before the top",
+      "Turn on your high beams",
+      "Stay in the right lane if you can"
+    ],
+    "answer": 3,
+    "explanation": "If a heavy load slows you down, stay in the right lane. Going uphill, don't pass another slow vehicle unless you can get around quickly and safely.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.7.2"
+  },
+  {
+    "id": "cdl.gk.101",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Strong winds make it hard to stay in your lane. Where can this problem be especially bad?",
+    "choices": [
+      "On roads with no shoulder",
+      "Coming out of tunnels",
+      "In heavy city traffic",
+      "On long uphill grades"
+    ],
+    "answer": 1,
+    "explanation": "Strong winds can be especially bad coming out of tunnels, and the problem is usually worse for lighter vehicles.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.7.3"
+  },
+  {
+    "id": "cdl.gk.102",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Why shouldn't you trust the heights posted at bridges and overpasses?",
+    "choices": [
+      "Bridges sag several inches in hot weather",
+      "Re-paving or packed snow may have reduced the clearance",
+      "They are measured at the edge of the road, not the center",
+      "They are measured for passenger cars, not trucks"
+    ],
+    "answer": 1,
+    "explanation": "Re-paving or packed snow may have reduced the clearance since the height was posted. If you aren't sure you can make it, take another route.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.7.4"
+  },
+  {
+    "id": "cdl.gk.103",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "You got under a low bridge while your van trailer was loaded. On the return trip it is empty. What is true?",
+    "choices": [
+      "You will clear it more easily, because the van is lighter",
+      "You will clear it, because a van's height doesn't change",
+      "You will clear it as long as tire pressure stays the same",
+      "You may not clear it, because an empty van rides higher"
+    ],
+    "answer": 3,
+    "explanation": "An empty van is higher than a loaded one, so getting under a bridge when loaded doesn't mean you can when empty.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.7.4"
+  },
+  {
+    "id": "cdl.gk.104",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Your truck can't make a right turn without swinging into another lane. How should you turn?",
+    "choices": [
+      "Swing wide to the left first, then turn right from the center",
+      "Turn wide as you finish the turn, keeping the rear near the curb",
+      "Turn tightly from the curb lane and let the rear wheels ride over the curb",
+      "Start the turn from the left lane so you have room to swing"
+    ],
+    "answer": 1,
+    "explanation": "Turn wide as you complete the turn and keep the rear close to the curb, which stops others from passing on the right.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.7.6"
+  },
+  {
+    "id": "cdl.gk.105",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "During a turn you must cross into the oncoming lane, and a car is approaching. What should you do?",
+    "choices": [
+      "Sound the horn and continue the turn",
+      "Give it room to pass or stop, but don't back up",
+      "Back up a little to make room for it to pass",
+      "Keep turning, because oncoming traffic must yield to you"
+    ],
+    "answer": 1,
+    "explanation": "Give oncoming vehicles room to go by or to stop. Don't back up for them, because you might hit someone behind you.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.7.6"
+  },
+  {
+    "id": "cdl.gk.106",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When should you start a left turn?",
+    "choices": [
+      "After you reach the center of the intersection",
+      "After your trailer clears the crosswalk",
+      "As soon as your front bumper enters the intersection",
+      "Before the intersection, to cut the corner"
+    ],
+    "answer": 0,
+    "explanation": "Reach the center of the intersection before starting a left turn. Turning too soon can make the left side of the vehicle hit something because of off-tracking.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.7.6"
+  },
+  {
+    "id": "cdl.gk.107",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "There are two left-turn lanes. Which one should you use?",
+    "choices": [
+      "Whichever one has less traffic",
+      "Either one, as long as you signal",
+      "The right-hand (outer) turn lane",
+      "The left-hand (inside) turn lane"
+    ],
+    "answer": 2,
+    "explanation": "Always take the right turn lane. Starting in the inside lane may force you to swing right, and drivers on your left are easier to see.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.7.6"
+  },
+  {
+    "id": "cdl.gk.108",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "In the CDL manual, what is a hazard?",
+    "choices": [
+      "Any road condition or road user that is a possible danger",
+      "Only another vehicle that is speeding or weaving",
+      "Only an object lying on the road surface",
+      "Only a crash or collision that has already happened ahead"
+    ],
+    "answer": 0,
+    "explanation": "A hazard is any road condition or other road user (driver, bicyclist, pedestrian) that is a possible danger.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.8.1"
+  },
+  {
+    "id": "cdl.gk.109",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "A car ahead brakes hard near an exit as if unsure, then swerves back into your lane in front of you. When did it become an emergency?",
+    "choices": [
+      "When it cut in front of you",
+      "When its brake lights first came on",
+      "Only if you actually hit it",
+      "When it slowed near the exit"
+    ],
+    "answer": 0,
+    "explanation": "The uncertain car was a hazard. Once it cut in front of you, it became an emergency. Spotting the hazard early gives you time to act.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.8.1"
+  },
+  {
+    "id": "cdl.gk.110",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Why are off-ramps that go downhill and turn at the same time especially dangerous for trucks?",
+    "choices": [
+      "The downgrade makes slowing hard, and braking while turning is risky",
+      "They usually have no lighting, so the curve is hard to see until you're on it",
+      "Cars are not allowed to use them, so trucks travel faster",
+      "Speed limits are never posted on ramps for large vehicles"
+    ],
+    "answer": 0,
+    "explanation": "The downgrade makes it hard to slow down, and braking and turning together is dangerous. Posted ramp speeds may be safe for cars but not trucks.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.8.2"
+  },
+  {
+    "id": "cdl.gk.111",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "At a blind alley, you can see the rear end of a vehicle but not its driver. What should you assume?",
+    "choices": [
+      "The driver can't see you either",
+      "The driver has seen you in a mirror",
+      "The driver will wait for you to pass",
+      "The vehicle is parked and empty"
+    ],
+    "answer": 0,
+    "explanation": "If you can only see part of a vehicle and not the driver, the driver can't see you. Be ready for it to back out or enter your lane.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.8.3"
+  },
+  {
+    "id": "cdl.gk.112",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What does the 'slow-moving vehicle' symbol look like?",
+    "choices": [
+      "A red triangle with an orange center",
+      "A yellow circle with a black X",
+      "A red octagon with a white border",
+      "An orange diamond with a black border"
+    ],
+    "answer": 0,
+    "explanation": "The slow-moving vehicle symbol is a red triangle with an orange center. It is used on farm and construction machinery and similar vehicles.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.8.3"
+  },
+  {
+    "id": "cdl.gk.113",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Which is a clue that a driver may be impaired?",
+    "choices": [
+      "Signaling well before a turn",
+      "An open window in cold weather",
+      "Driving at a steady speed",
+      "Keeping a long following distance"
+    ],
+    "answer": 1,
+    "explanation": "Clues to impaired drivers include weaving, leaving the road, stopping at the wrong time, an open window in cold weather, and sudden speed changes.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.8.3"
+  },
+  {
+    "id": "cdl.gk.114",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Which road users' head and body movements give the clearest clues that they are about to turn or change lanes?",
+    "choices": [
+      "Truck drivers",
+      "Drivers of tinted-window cars",
+      "Motorcyclists and bicyclists",
+      "Bus drivers"
+    ],
+    "answer": 2,
+    "explanation": "Drivers look in the direction they plan to turn, and these clues are most easily seen in motorcyclists and bicyclists.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.8.3"
+  },
+  {
+    "id": "cdl.gk.115",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Why is an ice cream truck a hazard clue?",
+    "choices": [
+      "Children may be nearby and may not see you",
+      "It is likely to back into traffic",
+      "It may suddenly speed up",
+      "It often has bright lights that cause glare"
+    ],
+    "answer": 0,
+    "explanation": "Someone selling ice cream is a hazard clue because children may be nearby and may not see you.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.8.3"
+  },
+  {
+    "id": "cdl.gk.116",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What is a driver distraction?",
+    "choices": [
+      "Anything that takes your attention away from driving",
+      "Only using a cell phone",
+      "Only events outside the vehicle",
+      "Only things that make you take your eyes off the road"
+    ],
+    "answer": 0,
+    "explanation": "A distraction is anything that takes your attention away from driving, whether inside or outside the vehicle.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.9"
+  },
+  {
+    "id": "cdl.gk.117",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Under the federal rule, which of these is prohibited hand-held phone use while driving a CMV?",
+    "choices": [
+      "Dialing by pressing more than a single button",
+      "Using voice-activated dialing",
+      "Answering with one touch on a mounted phone",
+      "Talking through a hands-free earpiece"
+    ],
+    "answer": 0,
+    "explanation": "Prohibited use includes holding the phone for a call, dialing by pressing more than a single button, or leaving your belted seated position to reach for the phone.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.9.4; 49 CFR 392.82"
+  },
+  {
+    "id": "cdl.gk.118",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Even with a hands-free phone, which action breaks the federal mobile phone rule for CMV drivers?",
+    "choices": [
+      "Talking through an earpiece while keeping both hands on the steering wheel",
+      "Using voice-activated dialing to place the call",
+      "Using the speakerphone function on a mounted phone",
+      "Reaching for the phone so you leave your seated, belted position"
+    ],
+    "answer": 3,
+    "explanation": "Drivers are not in compliance if they unsafely reach for a phone, even to use its hands-free function. Keep the phone close enough to use while belted.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.9.4; 49 CFR 392.82"
+  },
+  {
+    "id": "cdl.gk.119",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When may a CMV driver use a hand-held phone while driving?",
+    "choices": [
+      "For short calls lasting less than one minute",
+      "Whenever the phone is set to speaker mode",
+      "When stopped briefly in traffic, such as at a red light or stop sign",
+      "To contact law enforcement or emergency services when needed"
+    ],
+    "answer": 3,
+    "explanation": "The only exception is an emergency, when you need to communicate with law enforcement or other emergency services.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.9.4; 49 CFR 392.82"
+  },
+  {
+    "id": "cdl.gk.120",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "A CDL holder gets a second conviction within 3 years for violating a hand-held phone or texting law in a CMV. What is the disqualification?",
+    "choices": [
+      "60 days",
+      "One year",
+      "120 days",
+      "30 days"
+    ],
+    "answer": 0,
+    "explanation": "Disqualification is 60 days for a second offense within 3 years and 120 days for three or more offenses within 3 years.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.9.4; 49 CFR 383.51"
+  },
+  {
+    "id": "cdl.gk.121",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Research cited in the manual says texting raises a CMV driver's odds of a safety-critical event by about how much?",
+    "choices": [
+      "2 times",
+      "6 times",
+      "23 times",
+      "50 times"
+    ],
+    "answer": 2,
+    "explanation": "Texting raises the odds about 23.2 times. Dialing a phone raises them about 6 times.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.9.5"
+  },
+  {
+    "id": "cdl.gk.122",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Sending or reading a text takes your eyes off the road for about 4.6 seconds. At 55 mph, how far do you travel?",
+    "choices": [
+      "About 50 feet, roughly a truck length",
+      "About one mile",
+      "About 371 feet, roughly a football field",
+      "About 150 feet, roughly half a block"
+    ],
+    "answer": 2,
+    "explanation": "At 55 mph, 4.6 seconds without looking means about 371 feet, the length of a football field.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.9.5"
+  },
+  {
+    "id": "cdl.gk.123",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How do hands-free phones compare with hand-held phones for distraction?",
+    "choices": [
+      "They cause no distraction at all if used with voice commands",
+      "They distract you only at night",
+      "They are twice as distracting",
+      "They are no less likely to distract you"
+    ],
+    "answer": 3,
+    "explanation": "Hands-free devices are no less likely than hand-held phones to distract you. Attention is taken from driving with either.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.9.4"
+  },
+  {
+    "id": "cdl.gk.124",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Under the federal rule, what does 'texting' include?",
+    "choices": [
+      "Talking on a hands-free phone",
+      "Manually entering or reading text on an electronic device",
+      "Only sending text messages from a cell phone, not reading them",
+      "Listening to a GPS give spoken directions"
+    ],
+    "answer": 1,
+    "explanation": "Texting means manually entering text into, or reading text from, an electronic device, including e-mail, instant messages, and web pages.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.9.5; 49 CFR 392.80"
+  },
+  {
+    "id": "cdl.gk.125",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How does road rage differ from aggressive driving?",
+    "choices": [
+      "Aggressive driving always involves a weapon",
+      "Road rage involves intent to harm or assault others",
+      "Road rage only means changing lanes often and without signaling",
+      "There is no difference between the two terms"
+    ],
+    "answer": 1,
+    "explanation": "Aggressive driving is selfish, pushy driving without regard for others. Road rage is driving with the intent to harm others or assault a driver or vehicle.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.10.1"
+  },
+  {
+    "id": "cdl.gk.126",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "An aggressive driver is tailgating you and gesturing. What should you do first?",
+    "choices": [
+      "Make every attempt to get out of their way",
+      "Hold your lane and speed up",
+      "Tap your brakes to back them off",
+      "Make eye contact so they know you see them"
+    ],
+    "answer": 0,
+    "explanation": "First, get out of their way. Don't challenge them, avoid eye contact, and ignore gestures.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.10.3"
+  },
+  {
+    "id": "cdl.gk.127",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "An aggressive driver you saw earlier has crashed farther down the road. What should you do?",
+    "choices": [
+      "Park right beside the wreck to help direct traffic around it",
+      "Stop a safe distance away, wait for police, and report what you saw",
+      "Drive on past without stopping, since the police will handle it",
+      "Walk over to the driver and tell them what you thought of their driving"
+    ],
+    "answer": 1,
+    "explanation": "Stop a safe distance from the crash scene, wait for police, and report the driving behavior you witnessed.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.10.3"
+  },
+  {
+    "id": "cdl.gk.128",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Your license requires corrective lenses. What does the manual recommend keeping in the vehicle?",
+    "choices": [
+      "A magnifying glass for gauges",
+      "Tinted lenses for night driving",
+      "An extra set of corrective lenses",
+      "A copy of your eye exam"
+    ],
+    "answer": 2,
+    "explanation": "Keep a spare set of corrective lenses so you can drive safely if your normal pair breaks or is lost.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.11.2"
+  },
+  {
+    "id": "cdl.gk.129",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "With low-beam headlights, about how far ahead can you see?",
+    "choices": [
+      "About 250 feet",
+      "About 100 feet",
+      "About 1,000 feet",
+      "About 500 feet"
+    ],
+    "answer": 0,
+    "explanation": "Low beams let you see about 250 feet ahead; high beams about 350 to 500 feet. Drive slowly enough to stop within that range.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.11.4"
+  },
+  {
+    "id": "cdl.gk.130",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "With high-beam headlights, about how far ahead can you see?",
+    "choices": [
+      "350 to 500 feet",
+      "150 to 200 feet",
+      "About 250 feet",
+      "800 to 1,000 feet"
+    ],
+    "answer": 0,
+    "explanation": "High beams let you see about 350 to 500 feet, compared with about 250 feet for low beams.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.11.4"
+  },
+  {
+    "id": "cdl.gk.131",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Dirty headlights may give only about how much of the light they should?",
+    "choices": [
+      "Three-quarters",
+      "One-tenth",
+      "Half",
+      "Nine-tenths"
+    ],
+    "answer": 2,
+    "explanation": "Dirty headlights may give only half the light they should, making it harder for you to see and for others to see you.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.11.4"
+  },
+  {
+    "id": "cdl.gk.132",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Bright headlights are coming toward you. Where should you look?",
+    "choices": [
+      "Directly at the headlights so you can judge their distance",
+      "Slightly to the right, at a lane or edge marking",
+      "Down at your instrument panel until they pass",
+      "At the center line on your left"
+    ],
+    "answer": 1,
+    "explanation": "Don't look directly at oncoming lights. Look slightly to the right at a right lane or edge marking, if there is one.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.11.5"
+  },
+  {
+    "id": "cdl.gk.133",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What is the only safe cure for drowsiness while driving?",
+    "choices": [
+      "Playing loud music",
+      "Opening the window",
+      "Getting some sleep",
+      "Coffee or other caffeine"
+    ],
+    "answer": 2,
+    "explanation": "If you are drowsy, the only safe cure is to get off the road and get some sleep. Caffeine and fresh air only help briefly.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.11.2"
+  },
+  {
+    "id": "cdl.gk.134",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "According to the manual, how does getting 6 hours of sleep or less affect your crash risk?",
+    "choices": [
+      "It about triples your risk",
+      "It has no effect if you drink coffee",
+      "It raises it by about 10 percent",
+      "It doubles it only at night"
+    ],
+    "answer": 0,
+    "explanation": "Being sleep-deprived, with 6 hours of sleep or less, triples your risk.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.11.2"
+  },
+  {
+    "id": "cdl.gk.135",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "During long trips, how often does the manual suggest taking breaks?",
+    "choices": [
+      "Only when you need fuel",
+      "About every 100 miles or 2 hours",
+      "About every 500 miles",
+      "About every 300 miles or 6 hours"
+    ],
+    "answer": 1,
+    "explanation": "Take periodic breaks about every 100 miles or 2 hours on long trips.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.11.2"
+  },
+  {
+    "id": "cdl.gk.136",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "You notice signs of fatigue. What does the manual recommend?",
+    "choices": [
+      "Drink extra coffee and keep driving until you feel better",
+      "Speed up so you can finish the trip sooner",
+      "Open the window and turn up the radio",
+      "Sleep for the night, or take a 15–20 minute nap"
+    ],
+    "answer": 3,
+    "explanation": "Trying to push on is a major cause of fatal accidents. Stop and sleep for the night or take a 15 to 20 minute nap.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.11.2"
+  },
+  {
+    "id": "cdl.gk.137",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "During which hours do many heavy-vehicle crashes occur?",
+    "choices": [
+      "Between midnight and 6 a.m.",
+      "Between 6 p.m. and 9 p.m.",
+      "Between noon and 3 p.m.",
+      "Between 6 a.m. and noon"
+    ],
+    "answer": 0,
+    "explanation": "Many heavy motor vehicle crashes happen between midnight and 6 a.m., when most people are less alert. Mid-afternoon is another risky time.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.11.2"
+  },
+  {
+    "id": "cdl.gk.138",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Headlight glare blinds you for 2 seconds while you are going 55 mph. About how far do you travel?",
+    "choices": [
+      "About 20 feet",
+      "About a quarter of a mile",
+      "More than half the length of a football field",
+      "Less than 50 feet, about the length of one tractor-trailer"
+    ],
+    "answer": 2,
+    "explanation": "Even two seconds of glare blindness is dangerous: at 55 mph you travel more than half a football field.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.11.2"
+  },
+  {
+    "id": "cdl.gk.139",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What is the best advice for driving in fog?",
+    "choices": [
+      "Don't; wait at a rest area or truck stop until it clears",
+      "Follow closely behind the taillights of the vehicle ahead",
+      "Drive in the left lane to stay away from parked vehicles",
+      "Use your high beams so you can see farther into the fog"
+    ],
+    "answer": 0,
+    "explanation": "The best advice is not to drive in fog. Pull into a rest area or truck stop until visibility improves.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.12"
+  },
+  {
+    "id": "cdl.gk.140",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "If you must drive in fog, which lights should you use?",
+    "choices": [
+      "Clearance lights only",
+      "High beams, so you can see farther ahead",
+      "Low beams and fog lights, even in daytime",
+      "Parking lights only, to reduce glare from the fog"
+    ],
+    "answer": 2,
+    "explanation": "Use low-beam headlights and fog lights for best visibility, even in daytime.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.12"
+  },
+  {
+    "id": "cdl.gk.141",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "According to the manual, why can taillights you see ahead in fog be a poor guide to where the road goes?",
+    "choices": [
+      "Taillights don't have to be lit in fog",
+      "Following taillights is illegal in fog",
+      "The vehicle may not be on the road at all",
+      "Your fog lights hide other vehicles' taillights"
+    ],
+    "answer": 2,
+    "explanation": "Taillights or headlights ahead may not show where the road is, because the vehicle may be off the road. Use roadside reflectors to judge how the road curves.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.12"
+  },
+  {
+    "id": "cdl.gk.142",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What can happen if the radiator shutters freeze shut or the winterfront is closed too tightly?",
+    "choices": [
+      "The heater will blow too hot",
+      "The engine may overheat and stop",
+      "The fuel will gel in the lines",
+      "The batteries will lose charge"
+    ],
+    "answer": 1,
+    "explanation": "Remove ice from the radiator shutters and don't close the winterfront too tightly, or the engine may overheat and stop.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.13.1"
+  },
+  {
+    "id": "cdl.gk.143",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What should you carry and check before driving where tire chains may be needed?",
+    "choices": [
+      "One set of chains for the steering tires only, since they do the steering",
+      "Chains sized for the trailer tires only",
+      "Any chains, since one size fits all tires",
+      "Enough chains and extra cross-links that fit your drive tires"
+    ],
+    "answer": 3,
+    "explanation": "Carry the right number of chains and extra cross-links, make sure they fit your drive tires, and check for broken hooks and worn links.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.13.1"
+  },
+  {
+    "id": "cdl.gk.144",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Other vehicles on a wet-looking road are throwing no spray. What does this tell you?",
+    "choices": [
+      "Ice has probably formed on the road",
+      "The road was just salted",
+      "Traffic is moving too slowly to spray",
+      "The road is drying out"
+    ],
+    "answer": 0,
+    "explanation": "A lack of spray from other vehicles indicates ice has formed. Check your mirrors and wiper blades for ice too.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.13.2"
+  },
+  {
+    "id": "cdl.gk.147",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "You have no choice but to drive through deep standing water. What should you do?",
+    "choices": [
+      "Speed up so you spend as little time as possible in the water",
+      "Slow down, use a low gear, and keep light pressure on the brakes",
+      "Shift to neutral and coast across",
+      "Pump the brakes hard while crossing"
+    ],
+    "answer": 1,
+    "explanation": "Slow down, shift to a low gear, and gently apply the brakes. Keep light brake pressure and raise engine rpm while crossing so water and mud stay out.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.13.2"
+  },
+  {
+    "id": "cdl.gk.148",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "You have just driven out of deep water. What should you do next?",
+    "choices": [
+      "Keep light brake pressure for a short distance, then do a test stop",
+      "Brake hard right away to squeeze the water out of the linings",
+      "Pull over and wait about an hour for the brakes to air-dry completely",
+      "Drive at highway speed so the wind dries the brakes quickly"
+    ],
+    "answer": 0,
+    "explanation": "Keep light pressure on the brakes for a short distance to heat and dry them. Then, when safe, check behind you and make a test stop.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.13.2"
+  },
+  {
+    "id": "cdl.gk.149",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "In very hot weather, how often should you inspect your tires?",
+    "choices": [
+      "Every 2 hours or every 100 miles",
+      "Every 4 hours or every 200 miles",
+      "Only at the start of each day",
+      "Every 30 minutes or 25 miles"
+    ],
+    "answer": 0,
+    "explanation": "Inspect tires every two hours or every 100 miles in very hot weather.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.14.1"
+  },
+  {
+    "id": "cdl.gk.150",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Your tire pressure has risen during a hot-weather drive. What should you do?",
+    "choices": [
+      "Leave it; letting air out makes it too low when the tire cools",
+      "Spray the tire with cold water to cool it",
+      "Let air out until the gauge shows the normal cold pressure again",
+      "Let out about half of the extra pressure"
+    ],
+    "answer": 0,
+    "explanation": "Air pressure increases with temperature. Don't let air out, or the pressure will be too low when the tires cool off.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.14.1"
+  },
+  {
+    "id": "cdl.gk.151",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "During a stop in hot weather, a tire is too hot to touch. What should you do?",
+    "choices": [
+      "Spray it with the fire extinguisher",
+      "Let some air out and keep going",
+      "Drive faster so air cools it",
+      "Stay stopped until it cools off"
+    ],
+    "answer": 3,
+    "explanation": "If a tire is too hot to touch, remain stopped until it cools. Otherwise the tire may blow out or catch fire.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.14.1"
+  },
+  {
+    "id": "cdl.gk.152",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When is it safe to remove the cap on a pressurized radiator?",
+    "choices": [
+      "Any time the engine is not overheated",
+      "Right after you shut off the engine, if you cover the cap with a rag",
+      "Only after the system has cooled enough to touch the cap bare-handed",
+      "Whenever the temperature gauge reads in the normal range while driving"
+    ],
+    "answer": 2,
+    "explanation": "Never remove the cap until the system has cooled; steam and boiling water can spray and cause severe burns. If you can touch the cap with a bare hand, it is probably cool enough.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.14.1"
+  },
+  {
+    "id": "cdl.gk.153",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What is 'bleeding tar'?",
+    "choices": [
+      "Oil leaking from engines and building up on the road surface",
+      "Fresh asphalt that the road crew has not yet rolled flat and hardened",
+      "Tar that has frozen and cracked open during a cold snap",
+      "Tar rising to the surface in hot weather, making the road slippery"
+    ],
+    "answer": 3,
+    "explanation": "In very hot weather, tar can rise to the surface. Spots where tar bleeds through are very slippery.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.14.2"
+  },
+  {
+    "id": "cdl.gk.154",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How should you approach every railroad-highway crossing?",
+    "choices": [
+      "Expecting that a train is coming",
+      "At the posted speed limit",
+      "Relying on the train horn to warn you",
+      "Assuming no train is coming unless lights flash"
+    ],
+    "answer": 0,
+    "explanation": "Railroad crossings are always dangerous. Approach every one expecting a train.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.15"
+  },
+  {
+    "id": "cdl.gk.155",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What does the round, black-on-yellow advance warning sign for a railroad crossing tell you?",
+    "choices": [
+      "You must stop at the sign every time, even if no train is near",
+      "The crossing ahead is protected by gates",
+      "Slow down, look and listen, and be ready to stop for a train",
+      "A train is approaching the crossing right now"
+    ],
+    "answer": 2,
+    "explanation": "The advance warning sign tells you to slow down, look and listen for a train, and be prepared to stop at the tracks.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.15.2"
+  },
+  {
+    "id": "cdl.gk.156",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "If there is no white stop line, how far from the nearest rail must a vehicle that is required to stop at a crossing stop?",
+    "choices": [
+      "No closer than 5 feet and no farther than 25 feet",
+      "No closer than 15 feet and no farther than 50 feet",
+      "No closer than 50 feet and no farther than 100 feet",
+      "No closer than 25 feet and no farther than 75 feet"
+    ],
+    "answer": 1,
+    "explanation": "Vehicles required to stop must stop no closer than 15 feet and no more than 50 feet from the nearest rail.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.15.2; 49 CFR 392.10"
+  },
+  {
+    "id": "cdl.gk.157",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "At a crossing with gates, when may you go across after a train passes?",
+    "choices": [
+      "When the bell stops ringing",
+      "When the gates start to rise",
+      "As soon as the last car of the train passes the crossing",
+      "After the gates go up and the lights stop flashing"
+    ],
+    "answer": 3,
+    "explanation": "Remain stopped until the gates go up and the lights stop flashing. Then proceed when it is safe.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.15.2"
+  },
+  {
+    "id": "cdl.gk.158",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "A train has just passed a double-track crossing. What should you do before starting across?",
+    "choices": [
+      "Sound your horn and then cross",
+      "Go right away while the gates are still up and the lights are off",
+      "Make sure no other train is coming on the other track",
+      "Wait exactly 30 seconds, then cross"
+    ],
+    "answer": 2,
+    "explanation": "A train on one track may hide a train on the other. After one train clears, be sure no other trains are near before crossing.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.15.3"
+  },
+  {
+    "id": "cdl.gk.159",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "About how long does it take a typical tractor-trailer to clear a single track?",
+    "choices": [
+      "About 8 seconds",
+      "About 5 seconds",
+      "About 30 seconds",
+      "At least 14 seconds"
+    ],
+    "answer": 3,
+    "explanation": "A typical tractor-trailer needs at least 14 seconds to clear a single track and more than 15 seconds for a double track.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.15.5"
+  },
+  {
+    "id": "cdl.gk.160",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What should you NOT do while driving across railroad tracks?",
+    "choices": [
+      "Shift gears",
+      "Look both ways",
+      "Keep a steady speed",
+      "Check your mirrors"
+    ],
+    "answer": 0,
+    "explanation": "Do not shift gears while crossing tracks. Make sure you can get all the way across before you start.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.15.5"
+  },
+  {
+    "id": "cdl.gk.161",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Which vehicle is most likely to get stuck on a raised railroad crossing?",
+    "choices": [
+      "A dump truck with high clearance",
+      "A lowboy or car carrier",
+      "A straight box truck",
+      "A tractor with no trailer"
+    ],
+    "answer": 1,
+    "explanation": "Low-slung units such as lowboys, car carriers, moving vans, and possum-belly livestock trailers can hang up on raised crossings.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.15.6"
+  },
+  {
+    "id": "cdl.gk.162",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Your truck gets stuck on the tracks. What should you do?",
+    "choices": [
+      "Stay in the cab, turn on the flashers, and sound the horn",
+      "Stay in the cab and keep trying to back up or drive off the tracks until free",
+      "Walk down the tracks toward the train to wave it down",
+      "Get out and away from the tracks, then call the posted number or 911"
+    ],
+    "answer": 3,
+    "explanation": "Get out of the vehicle and away from the tracks. Check the signpost or signal housing for emergency information, call, and give the location, including the DOT number if posted.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.15.6"
+  },
+  {
+    "id": "cdl.gk.163",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What does a cross-buck sign at a railroad crossing require you to do?",
+    "choices": [
+      "Watch for a flagger",
+      "Yield the right-of-way to trains",
+      "Speed up to clear the tracks quickly",
+      "Stop every time"
+    ],
+    "answer": 1,
+    "explanation": "The cross-buck marks the crossing and requires you to yield the right-of-way to the train. A sign below it shows the number of tracks.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.15.2"
+  },
+  {
+    "id": "cdl.gk.164",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What is brake fade?",
+    "choices": [
+      "Brakes that were adjusted too tightly at the last service",
+      "Brake linings wearing out slowly from age and normal use",
+      "Hot brakes needing more and more pressure to slow the vehicle",
+      "Brake lights getting dim, so drivers behind you can't see them well"
+    ],
+    "answer": 2,
+    "explanation": "When brakes get too hot, you must apply them harder and harder to get the same stopping power. They can fade until you cannot stop at all.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.16"
+  },
+  {
+    "id": "cdl.gk.165",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When should you shift into a low gear for a long downgrade?",
+    "choices": [
+      "Once your speed starts to build",
+      "Halfway down the grade",
+      "When the brakes begin to fade",
+      "Before you start down the grade"
+    ],
+    "answer": 3,
+    "explanation": "Shift to a low gear before starting down. After speed builds you may not be able to downshift, and you could lose all engine braking.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.16.2"
+  },
+  {
+    "id": "cdl.gk.166",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Why might a modern truck need a lower gear going down a hill than it used to climb it?",
+    "choices": [
+      "Low-friction parts and streamlined shapes leave less drag to slow it",
+      "Modern brakes are designed to be used less",
+      "Modern engines have much less braking power than the engines in older trucks",
+      "The law requires a lower gear on all downgrades"
+    ],
+    "answer": 0,
+    "explanation": "Modern trucks can climb in higher gears and have less friction and air drag holding them back downhill, so they may need lower gears going down.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.16.2"
+  },
+  {
+    "id": "cdl.gk.167",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Your 'safe' speed on a downgrade is 40 mph. What is the proper braking technique?",
+    "choices": [
+      "Pump the brakes rapidly every few seconds all the way down",
+      "Let speed build to 50 mph, then brake back down to 40 mph",
+      "At 40 mph, brake to about 35 mph, release, and repeat as needed",
+      "Hold light, steady pressure on the brake pedal the whole way down the grade"
+    ],
+    "answer": 2,
+    "explanation": "Once in the proper low gear, apply the brakes for a definite slowdown to about 5 mph below your safe speed, then release. Repeat each time you reach the safe speed.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.16.4"
+  },
+  {
+    "id": "cdl.gk.168",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Using the proper downgrade braking technique, about how long should each brake application last?",
+    "choices": [
+      "About 10 seconds",
+      "About 30 seconds",
+      "About 1 minute",
+      "About 3 seconds"
+    ],
+    "answer": 3,
+    "explanation": "Each application, bringing speed down about 5 mph below the safe speed, should last about three seconds.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.16.4"
+  },
+  {
+    "id": "cdl.gk.169",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How can brakes that are out of adjustment lead to brake fade?",
+    "choices": [
+      "They grab hard and lock the wheels every time you use them on a grade",
+      "They make the ABS switch off",
+      "They cause the engine to lose power",
+      "They stop doing their share, so the other brakes overheat"
+    ],
+    "answer": 3,
+    "explanation": "Every brake must do its share. Out-of-adjustment brakes quit working before the others, which then overheat and fade.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.16.3"
+  },
+  {
+    "id": "cdl.gk.170",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What are truck escape ramps designed to do?",
+    "choices": [
+      "Give truck drivers a safe place to pull off and test their brakes",
+      "Stop runaway vehicles safely with soft, loose material",
+      "Provide parking for drivers who need to rest",
+      "Let slow trucks get out of the way of faster traffic"
+    ],
+    "answer": 1,
+    "explanation": "Escape ramps use a long bed of loose, soft material, sometimes with an upgrade, to stop runaway vehicles without injuring the occupants.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.16.4"
+  },
+  {
+    "id": "cdl.gk.171",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When making a quick turn to avoid a crash, what should you do?",
+    "choices": [
+      "Brake hard while you turn",
+      "Turn as sharply as you can",
+      "Avoid braking while you turn",
+      "Take one hand off the wheel to signal"
+    ],
+    "answer": 2,
+    "explanation": "Don't brake while turning, since it's easy to lock the wheels and skid. Turn only as much as needed to clear the obstacle.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.17.1"
+  },
+  {
+    "id": "cdl.gk.172",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What is counter-steering?",
+    "choices": [
+      "Turning back the other way once you have passed the obstacle",
+      "Steering opposite to the way you actually want to go",
+      "Steering toward the direction of the skid",
+      "Turning the wheel quickly back and forth to keep the tires gripping"
+    ],
+    "answer": 0,
+    "explanation": "Counter-steering is turning back the other way after passing what was in your path. Think of the emergency steer and counter-steer as one action.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.17.1"
+  },
+  {
+    "id": "cdl.gk.173",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "An oncoming driver has drifted into your lane. Which way should you steer?",
+    "choices": [
+      "Into the oncoming lane",
+      "Straight ahead while braking hard",
+      "To your left",
+      "To your right"
+    ],
+    "answer": 3,
+    "explanation": "Move to your right. If the other driver realizes the mistake, the natural response is to return to their own lane.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.17.1"
+  },
+  {
+    "id": "cdl.gk.174",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Something blocks your path and both sides are also blocked. Which way may be best to steer?",
+    "choices": [
+      "To the right",
+      "To the left",
+      "Whichever side has more traffic",
+      "Straight into the obstacle"
+    ],
+    "answer": 0,
+    "explanation": "If blocked on both sides, a move to the right may be best. At least you won't force anyone into opposing traffic and a possible head-on crash.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.17.1"
+  },
+  {
+    "id": "cdl.gk.175",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "You must leave the road in an emergency. When should you start braking?",
+    "choices": [
+      "Not until the vehicle is back on the road",
+      "Only after all of the wheels are off the pavement",
+      "Not until speed drops to about 20 mph, then brake gently",
+      "Immediately, and as hard as possible, so you stop before anything"
+    ],
+    "answer": 2,
+    "explanation": "Avoid braking until speed has dropped to about 20 mph, then brake very gently to avoid skidding on the loose surface.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.17.1"
+  },
+  {
+    "id": "cdl.gk.176",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "You must return to the road from the shoulder before you can stop. How should you do it?",
+    "choices": [
+      "Turn sharply back on, then counter-steer when both front tires are on",
+      "Brake hard on the shoulder first, then steer back on",
+      "Return with only the rear wheels on the pavement",
+      "Ease back onto the pavement gradually, a little at a time, over a long distance"
+    ],
+    "answer": 0,
+    "explanation": "Don't edge back gradually; the tires might grab and you could lose control. Turn sharply, then counter-steer immediately as one steer-counter-steer move.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.17.1"
+  },
+  {
+    "id": "cdl.gk.177",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What is controlled braking?",
+    "choices": [
+      "Using only the parking brake",
+      "Pumping the brakes slowly and gently",
+      "Braking fully, releasing when the wheels lock, and repeating",
+      "Braking as hard as you can without locking the wheels"
+    ],
+    "answer": 3,
+    "explanation": "In controlled braking you brake as hard as you can without locking the wheels and keep steering movements very small.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.17.2"
+  },
+  {
+    "id": "cdl.gk.178",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When using stab braking, when should you re-apply the brakes fully?",
+    "choices": [
+      "Right after releasing, before the wheels roll",
+      "Only after the vehicle has stopped skidding sideways",
+      "After waiting five seconds",
+      "As soon as the wheels start rolling again"
+    ],
+    "answer": 3,
+    "explanation": "Apply fully, release when the wheels lock, and re-apply as soon as they start rolling. It can take up to a second; re-applying too soon keeps the vehicle from straightening.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.17.2"
+  },
+  {
+    "id": "cdl.gk.179",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Your hydraulic brake pedal goes to the floor. Which actions can help?",
+    "choices": [
+      "Downshift, pump the brakes, and use the parking brake",
+      "Shut off the engine and coast to a stop",
+      "Shift into neutral and steer onto the shoulder to coast",
+      "Hold the pedal down hard and wait for it to catch"
+    ],
+    "answer": 0,
+    "explanation": "With loss of hydraulic pressure, downshift, pump the brake pedal to build pressure, and use the parking brake, which is a separate system.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.17.3"
+  },
+  {
+    "id": "cdl.gk.180",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When using the parking brake to slow down after hydraulic brake failure, what should you do?",
+    "choices": [
+      "Apply it in short, sharp jerks",
+      "Hold the release button or lever so you can control the pressure",
+      "Apply it only after you have shifted into neutral",
+      "Pull it on as hard as you can, all at once, and keep it there until you stop"
+    ],
+    "answer": 1,
+    "explanation": "Press the release button or pull the release lever while applying the emergency brake so you can adjust pressure and keep the wheels from locking.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.17.3"
+  },
+  {
+    "id": "cdl.gk.181",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Your brakes fail on a long downgrade and there is an escape ramp ahead. What should you do?",
+    "choices": [
+      "Pump the brakes and try to stop on the shoulder",
+      "Pass it and try to stop at the bottom",
+      "Use the escape ramp to stop the truck",
+      "Use it only if there is no traffic"
+    ],
+    "answer": 2,
+    "explanation": "Any driver who loses brakes going downhill should use an escape ramp if available. Not using it may make a serious crash much more likely.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.17.3"
+  },
+  {
+    "id": "cdl.gk.182",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "The steering suddenly feels heavy. What is this probably a sign of?",
+    "choices": [
+      "The trailer is overloaded",
+      "A rear tire has failed",
+      "A front tire has failed",
+      "The power steering fluid is too full"
+    ],
+    "answer": 2,
+    "explanation": "Heavy steering is probably a sign that a front tire has failed. Heavy vibration or thumping may be the only sign of a rear tire failure.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.17.4"
+  },
+  {
+    "id": "cdl.gk.183",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "A tire blows out. Unless you are about to hit something, how should you use the brakes?",
+    "choices": [
+      "Pump the brakes rapidly to keep the wheels from locking",
+      "Use only the parking brake",
+      "Stay off them until the vehicle slows, then brake gently",
+      "Brake hard right away to stop as quickly as possible"
+    ],
+    "answer": 2,
+    "explanation": "Braking when a tire has failed could cause loss of control. Hold the wheel firmly, stay off the brake until the vehicle slows, then brake gently and pull off.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.17.4"
+  },
+  {
+    "id": "cdl.gk.184",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "After a tire failure, you come to a stop and the vehicle seems to handle fine. What should you do?",
+    "choices": [
+      "Keep driving, since it seems fine",
+      "Get out and check all the tires",
+      "Wait until the next inspection",
+      "Check only the steering tires"
+    ],
+    "answer": 1,
+    "explanation": "Check all the tires even if the vehicle seems fine. If one of your dual tires has failed, looking may be the only way to know.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.17.4"
+  },
+  {
+    "id": "cdl.gk.185",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Does ABS shorten your stopping distance?",
+    "choices": [
+      "No, it always makes stopping distance longer",
+      "Not necessarily, but it helps you keep control",
+      "Yes, it always cuts stopping distance about in half",
+      "Yes, but only on dry pavement"
+    ],
+    "answer": 1,
+    "explanation": "ABS does not necessarily shorten stopping distance, but it helps you keep the vehicle under control and steer while braking hard.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.18"
+  },
+  {
+    "id": "cdl.gk.186",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Truck tractors with air brakes are required to have ABS if they were built on or after:",
+    "choices": [
+      "March 1, 1999",
+      "January 1, 1995",
+      "March 1, 1997",
+      "March 1, 1998"
+    ],
+    "answer": 2,
+    "explanation": "ABS is required on air-braked truck tractors built on or after March 1, 1997, and on other air-braked vehicles built on or after March 1, 1998.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.18.2"
+  },
+  {
+    "id": "cdl.gk.187",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Hydraulically braked trucks and buses with a GVWR of 10,000 lbs or more are required to have ABS if built on or after:",
+    "choices": [
+      "January 1, 2001",
+      "March 1, 1998",
+      "March 1, 1997",
+      "March 1, 1999"
+    ],
+    "answer": 3,
+    "explanation": "Hydraulically braked trucks and buses of 10,000 lbs GVWR or more built on or after March 1, 1999 must have ABS.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.18.2"
+  },
+  {
+    "id": "cdl.gk.188",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Where is the ABS malfunction lamp on a trailer?",
+    "choices": [
+      "On the rear doors, near the license plate",
+      "On the right side, near the landing gear",
+      "On the left side, at the front or rear corner",
+      "On the tractor's dashboard only, not the trailer"
+    ],
+    "answer": 2,
+    "explanation": "Trailers have yellow ABS malfunction lamps on the left side, either on the front or rear corner. Tractors, trucks, and buses have them on the instrument panel.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.18.3"
+  },
+  {
+    "id": "cdl.gk.189",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "On some older ABS systems, how long may the malfunction lamp stay on after start-up?",
+    "choices": [
+      "Until the engine reaches operating temperature",
+      "For the first 10 minutes of driving",
+      "Until the air pressure reaches 60 psi",
+      "Until you are driving over 5 mph"
+    ],
+    "answer": 3,
+    "explanation": "On newer vehicles the lamp comes on briefly for a bulb check. On older systems it could stay on until you are driving over five mph.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.18.3"
+  },
+  {
+    "id": "cdl.gk.190",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "In an emergency stop, when may you fully apply the brakes?",
+    "choices": [
+      "Whenever the tractor has ABS, even if the trailer does not",
+      "Never; a vehicle with ABS must always be braked lightly, even in emergencies",
+      "Whenever only the trailer has working ABS",
+      "In a straight truck or combination with working ABS on all axles"
+    ],
+    "answer": 3,
+    "explanation": "Normally brake as you always have. The one exception: with working ABS on all axles of a straight truck or combination, you can fully apply the brakes in an emergency stop.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.18.6"
+  },
+  {
+    "id": "cdl.gk.191",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Your ABS malfunction lamp comes on while you are driving. What should you do?",
+    "choices": [
+      "Brake normally and have the system serviced soon",
+      "Brake only with the parking brake",
+      "Brake much harder than usual for the rest of the trip",
+      "Stop at once and wait for a tow truck"
+    ],
+    "answer": 0,
+    "explanation": "If ABS fails, you still have normal brakes. Drive and brake normally, but get the system serviced soon.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.18.7"
+  },
+  {
+    "id": "cdl.gk.192",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Which type of skid will ABS NOT prevent?",
+    "choices": [
+      "Wheel lockup during a hard emergency stop",
+      "A jackknife caused by over-braking the tractor",
+      "One caused by braking too hard and locking up the wheels on ice",
+      "One caused by spinning the drive wheels or turning too fast"
+    ],
+    "answer": 3,
+    "explanation": "ABS should prevent brake-induced skids and jackknifes, but not skids caused by spinning the drive wheels or going too fast in a turn.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.18.8"
+  },
+  {
+    "id": "cdl.gk.193",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Only your tractor has ABS. What should you watch for while braking?",
+    "choices": [
+      "The trailer wheels locking only at low speed",
+      "The trailer swinging out; ease off the brakes if safe",
+      "The tractor ABS lamp turning green",
+      "The steering wheel locking up in your hands during the stop"
+    ],
+    "answer": 1,
+    "explanation": "With tractor-only ABS you should keep steering control and have less chance of jackknifing, but watch the trailer and ease off the brakes if it starts to swing out.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.18.5"
+  },
+  {
+    "id": "cdl.gk.194",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "According to the manual, most serious skids result from:",
+    "choices": [
+      "Worn brake linings on the drive axle",
+      "Heavy crosswinds",
+      "Driving too fast for road conditions",
+      "Low tire pressure on the trailer"
+    ],
+    "answer": 2,
+    "explanation": "Skids come from over-braking, over-steering, over-acceleration, or driving too fast. Most serious skids result from driving too fast for conditions.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.19"
+  },
+  {
+    "id": "cdl.gk.195",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What is by far the most common type of skid?",
+    "choices": [
+      "A skid caused by a tire blowout",
+      "A skid where the drive wheels lose traction",
+      "A front-wheel skid caused by worn steering tires",
+      "A trailer skid caused by strong side winds"
+    ],
+    "answer": 1,
+    "explanation": "The most common skid is a drive-wheel skid, where the rear wheels lose traction through too much braking or acceleration.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.19.1"
+  },
+  {
+    "id": "cdl.gk.196",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How can you stop a skid caused by too much acceleration on ice?",
+    "choices": [
+      "Accelerate a bit harder so the drive tires can dig in and regain traction",
+      "Take your foot off the gas, and push in the clutch if very slippery",
+      "Turn the wheel sharply in either direction",
+      "Brake firmly and steadily until the skid stops"
+    ],
+    "answer": 1,
+    "explanation": "Taking your foot off the accelerator can easily stop it. On a very slippery road, push in the clutch so the wheels can roll freely.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.19.1"
+  },
+  {
+    "id": "cdl.gk.197",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How do you correct a drive-wheel braking skid?",
+    "choices": [
+      "Stop braking, then counter-steer as it comes back on course",
+      "Brake harder until the vehicle comes to a full stop",
+      "Accelerate and steer away from the direction of the skid",
+      "Apply the parking brake and hold the steering wheel straight"
+    ],
+    "answer": 0,
+    "explanation": "Stop braking so the rear wheels roll again, and be ready to counter-steer quickly so you don't skid the other way.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.19.2"
+  },
+  {
+    "id": "cdl.gk.198",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "In a front-wheel skid, what does the front of the vehicle tend to do?",
+    "choices": [
+      "Bounce up and down",
+      "Go straight no matter how you steer",
+      "Pull sharply to the right side of the road",
+      "Spin around toward the rear"
+    ],
+    "answer": 1,
+    "explanation": "In a front-wheel skid, the front end tends to go straight regardless of steering, so you may not be able to steer around a curve.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.19.3"
+  },
+  {
+    "id": "cdl.gk.199",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What is the only way to stop a front-wheel skid?",
+    "choices": [
+      "Speed up to shift weight onto the front",
+      "Turn the wheel harder in the direction you want the vehicle to go",
+      "Brake as hard as you can",
+      "Let the vehicle slow down; ease off turning and/or hard braking"
+    ],
+    "answer": 3,
+    "explanation": "The only way to stop a front-wheel skid is to let the vehicle slow down. Stop turning and/or braking so hard, and slow as quickly as possible without skidding.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.19.3"
+  },
+  {
+    "id": "cdl.gk.200",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What are the three basic steps to take at any accident scene?",
+    "choices": [
+      "Care for the injured, move them away, and call your company",
+      "Call your dispatcher, wait for the tow truck, and clean up the debris",
+      "Protect the area, notify authorities, and care for the injured",
+      "Move all vehicles off the road, take photos, and then leave"
+    ],
+    "answer": 2,
+    "explanation": "At any accident, protect the area, notify authorities, and care for the injured.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.20"
+  },
+  {
+    "id": "cdl.gk.201",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "You stop to help at an accident you were not involved in. Where should you park?",
+    "choices": [
+      "In the lane behind the wreck",
+      "In front of the wreck to block traffic",
+      "Right next to the damaged vehicles",
+      "Away from the accident"
+    ],
+    "answer": 3,
+    "explanation": "Park away from the accident, because the area around it will be needed for emergency vehicles. Turn on flashers and set out triangles.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.20.1"
+  },
+  {
+    "id": "cdl.gk.202",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "If you have a phone or CB radio at an accident, when should you call for help?",
+    "choices": [
+      "After you set out the triangles",
+      "Before you get out of your vehicle",
+      "Only after you have helped the injured",
+      "After the police arrive"
+    ],
+    "answer": 1,
+    "explanation": "If you have a phone or CB, call for help before getting out. If not, protect the scene first, then call or send someone.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.20.2"
+  },
+  {
+    "id": "cdl.gk.203",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When should you move a severely injured person at an accident scene?",
+    "choices": [
+      "Only after giving them something to drink",
+      "Whenever they ask you to help them move",
+      "Only if fire or passing traffic makes it necessary",
+      "Always, right away, so that they are off the road and out of traffic"
+    ],
+    "answer": 2,
+    "explanation": "Don't move a severely injured person unless the danger of fire or passing traffic makes it necessary.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.20.3"
+  },
+  {
+    "id": "cdl.gk.204",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How should you stop heavy bleeding from a wound?",
+    "choices": [
+      "Pour water over the wound",
+      "Apply direct pressure to the wound",
+      "Wait for the bleeding to stop on its own",
+      "Raise the person's feet only"
+    ],
+    "answer": 1,
+    "explanation": "Stop heavy bleeding by applying direct pressure to the wound, and keep the injured person warm.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.20.3"
+  },
+  {
+    "id": "cdl.gk.205",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Which is a common cause of tire fires?",
+    "choices": [
+      "Tires that were recently replaced or rotated",
+      "Under-inflated tires and duals that touch",
+      "Driving on wet roads for a long time",
+      "Tires with too much tread for the season"
+    ],
+    "answer": 1,
+    "explanation": "Under-inflated tires and duals that touch can cause tire fires. Check tires, wheels, and the body for signs of heat at every stop.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.21.1"
+  },
+  {
+    "id": "cdl.gk.206",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Your truck catches fire. Where should you stop?",
+    "choices": [
+      "In an open area away from buildings, trees, and brush",
+      "Next to a building that has a water supply",
+      "At the nearest service station, where help is available",
+      "Under an overpass to shelter the vehicle from wind"
+    ],
+    "answer": 0,
+    "explanation": "Pull off in an open area away from anything that might catch fire. Don't pull into a service station, and notify emergency services.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.21.3"
+  },
+  {
+    "id": "cdl.gk.207",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How should you handle an engine fire?",
+    "choices": [
+      "Pour water into the air intake",
+      "Keep the engine running so the fan can cool it",
+      "Open the hood all the way so you can reach the flames directly",
+      "Turn off the engine and avoid opening the hood if you can"
+    ],
+    "answer": 3,
+    "explanation": "Turn off the engine as soon as you can and don't open the hood if you can avoid it. Shoot extinguishing agent through louvers, the radiator, or from underneath.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.21.3"
+  },
+  {
+    "id": "cdl.gk.208",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "There is a fire in the cargo of your box trailer. What should you do with the doors?",
+    "choices": [
+      "Open them to reach the fire",
+      "Open them to let smoke out",
+      "Open them only if the cargo is hazardous",
+      "Keep them shut to limit oxygen"
+    ],
+    "answer": 3,
+    "explanation": "Keep the doors shut, especially with hazardous materials. Opening them supplies oxygen and can make the fire burn very fast.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.21.3"
+  },
+  {
+    "id": "cdl.gk.209",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When using a fire extinguisher, where should you aim?",
+    "choices": [
+      "Around the outer edges of the fire",
+      "Up into the tallest flames",
+      "At the thickest smoke",
+      "At the base of the fire"
+    ],
+    "answer": 3,
+    "explanation": "Aim at the source or base of the fire, not up in the flames, and stay as far away as possible.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.21.3"
+  },
+  {
+    "id": "cdl.gk.210",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What types of fire is a B:C extinguisher designed for?",
+    "choices": [
+      "Electrical fires and burning liquids",
+      "Tire fires only",
+      "Burning metals",
+      "Only wood, paper, and cloth fires (ordinary combustibles)"
+    ],
+    "answer": 0,
+    "explanation": "A B:C extinguisher works on electrical fires and burning liquids. An A:B:C type also works on wood, paper, and cloth.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.21.3"
+  },
+  {
+    "id": "cdl.gk.211",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Why shouldn't you use water on a gasoline fire?",
+    "choices": [
+      "It will make the fuel explode",
+      "It will spread the flames",
+      "It reacts with gasoline to make poison gas",
+      "It can cause an electric shock"
+    ],
+    "answer": 1,
+    "explanation": "Water spreads the flames of a gasoline fire, and on an electrical fire it can cause shock. Water is fine for wood, paper, or cloth.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.21.3"
+  },
+  {
+    "id": "cdl.gk.212",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How do you put out a burning tire?",
+    "choices": [
+      "Let air out of the tire",
+      "Cover it with a tarp",
+      "Drive on so the wind blows it out",
+      "Cool it; lots of water may be needed"
+    ],
+    "answer": 3,
+    "explanation": "A burning tire must be cooled, and lots of water may be required.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.21.3"
+  },
+  {
+    "id": "cdl.gk.213",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "The smoke and flames are gone after you use your extinguisher. What should you do?",
+    "choices": [
+      "Open the doors or hood so the area can air out and cool down",
+      "Drive on to the next town and report it to the fire department",
+      "Stop, since no smoke or flame means the fire is out",
+      "Keep going until it has cooled, since it can restart"
+    ],
+    "answer": 3,
+    "explanation": "Continue until the burning material has cooled. No smoke or flame doesn't mean the fire can't restart.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.21.3"
+  },
+  {
+    "id": "cdl.gk.214",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Which kind of fire is a Class D fire?",
+    "choices": [
+      "Gasoline and grease",
+      "Burning metals",
+      "Wood and paper",
+      "Electrical equipment"
+    ],
+    "answer": 1,
+    "explanation": "Class D fires involve combustible metals and need special extinguishing powders. Class A is ordinary combustibles, B is flammable liquids, and C is electrical.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.21.3"
+  },
+  {
+    "id": "cdl.gk.215",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What will sober up a person who has been drinking?",
+    "choices": [
+      "Black coffee",
+      "Only time",
+      "Fresh air and exercise",
+      "A cold shower"
+    ],
+    "answer": 1,
+    "explanation": "The liver processes alcohol at a fixed rate, so only time will sober you up, not coffee or a cold shower.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.22.1"
+  },
+  {
+    "id": "cdl.gk.216",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Which drinks contain about the same amount of alcohol?",
+    "choices": [
+      "12 oz of 5% beer, 12 oz of 12% wine, and 12 oz of 80-proof liquor",
+      "6 oz of beer, 10 oz of wine, and 3 oz of 80-proof liquor",
+      "24 oz of beer, 5 oz of wine, and 1 oz of 80-proof liquor",
+      "12 oz of 5% beer, 5 oz of 12% wine, 1½ oz of 80-proof liquor"
+    ],
+    "answer": 3,
+    "explanation": "A 12-ounce 5% beer, a 5-ounce 12% wine, and a 1½-ounce shot of 80-proof liquor all have the same amount of alcohol.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.22.1"
+  },
+  {
+    "id": "cdl.gk.217",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When may a CMV driver use a prescription drug while on duty?",
+    "choices": [
+      "Any time it was prescribed by a licensed doctor",
+      "Never; all drugs are banned while on duty",
+      "When a doctor says it won't affect safe driving",
+      "Only on trips shorter than 100 miles"
+    ],
+    "answer": 2,
+    "explanation": "Possession and use of a doctor-prescribed drug is allowed if the doctor informs the driver it will not affect safe driving ability.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.22.2"
+  },
+  {
+    "id": "cdl.gk.218",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "You become ill while on the road. What does the manual say?",
+    "choices": [
+      "Take extra medicine and continue",
+      "Keep driving if your load is due, but take more frequent breaks",
+      "Don't drive, except to the nearest safe place in an emergency",
+      "Drive slower than normal to finish the trip"
+    ],
+    "answer": 2,
+    "explanation": "If you're too ill to drive safely, you must not drive. In an emergency, you may drive to the nearest place where you can safely stop.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.22.3"
+  },
+  {
+    "id": "cdl.gk.219",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "According to the manual, about how much alcohol can the liver process per hour?",
+    "choices": [
+      "About one full ounce",
+      "About two standard drinks",
+      "About one-third of an ounce",
+      "About 3 ounces"
+    ],
+    "answer": 2,
+    "explanation": "The liver can process only about one-third of an ounce of alcohol per hour, less than the alcohol in a standard drink.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.22.1"
+  },
+  {
+    "id": "cdl.gk.220",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What are hazardous materials?",
+    "choices": [
+      "Any liquid carried in a tank",
+      "Any cargo weighing more than 10,000 pounds, no matter what it is",
+      "Products that pose a risk to health, safety, and property",
+      "Only explosives, poisons, and radioactive materials shipped in bulk"
+    ],
+    "answer": 2,
+    "explanation": "Hazardous materials are products that pose a risk to health, safety, and property during transportation.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.23.1"
+  },
+  {
+    "id": "cdl.gk.221",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Where must hazardous materials shipping papers be kept while you are driving?",
+    "choices": [
+      "In the sleeper berth, where they stay clean and dry",
+      "With the cargo inside the trailer so they stay with the load",
+      "In a pouch on the driver's door or in clear view within reach",
+      "Locked in the glove box"
+    ],
+    "answer": 2,
+    "explanation": "Keep hazmat shipping papers in a pouch on the driver's door or in clear view within reach while driving.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.23.2; 49 CFR 177.817"
+  },
+  {
+    "id": "cdl.gk.222",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When you leave the vehicle, where should hazardous materials shipping papers be?",
+    "choices": [
+      "In your pocket",
+      "On the driver's seat",
+      "Locked in the trailer",
+      "In the sleeper berth"
+    ],
+    "answer": 1,
+    "explanation": "When you are out of the vehicle, the shipping papers should be on the driver's seat so emergency responders can find them.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.23.2; 49 CFR 177.817"
+  },
+  {
+    "id": "cdl.gk.223",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How many placards must a placarded vehicle display, and where?",
+    "choices": [
+      "At least four identical placards: front, rear, and both sides",
+      "Two placards, one on each side of the trailer",
+      "Two placards, one on the front bumper and one on the rear doors",
+      "One placard, on the driver's door"
+    ],
+    "answer": 0,
+    "explanation": "A placarded vehicle must have at least four identical placards, on the front, rear, and both sides, readable from all four directions.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.23.3"
+  },
+  {
+    "id": "cdl.gk.224",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How are hazardous materials identification numbers written?",
+    "choices": [
+      "Four-digit codes preceded by 'UN' or 'NA'",
+      "The hazard class number alone",
+      "Two-letter state codes",
+      "Six-digit codes preceded by 'DOT' and the class"
+    ],
+    "answer": 0,
+    "explanation": "Identification numbers are four-digit codes used by first responders, preceded by the letters UN or NA.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.23.3"
+  },
+  {
+    "id": "cdl.gk.225",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Your truck carries a small amount of hazardous material that does not require placards. Do you need a hazardous materials endorsement?",
+    "choices": [
+      "Yes; any amount of hazardous material requires it",
+      "Yes, unless the trip is under 50 miles",
+      "No; it is needed only when placards are required",
+      "No, as long as your employer gives permission"
+    ],
+    "answer": 2,
+    "explanation": "You can drive a vehicle carrying hazardous materials if it doesn't require placards. If it requires placards, you need the hazardous materials endorsement.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.23.3"
+  },
+  {
+    "id": "cdl.gk.226",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When is a tank endorsement required for a tank designed to carry liquid or gas?",
+    "choices": [
+      "Only tanks totaling 10,000 gallons or more",
+      "Only tanks that are carrying hazardous materials",
+      "Individual tanks over 119 gallons, totaling 1,000 gallons or more",
+      "Any single tank holding more than 50 gallons, no matter the total capacity"
+    ],
+    "answer": 2,
+    "explanation": "A tank endorsement is needed for tanks with an individual rated capacity over 119 gallons and an aggregate of 1,000 gallons or more. The contents don't have to be hazardous.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.23.3"
+  },
+  {
+    "id": "cdl.gk.227",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Which book lists hazardous chemicals and the identification numbers assigned to them?",
+    "choices": [
+      "The state driver handbook",
+      "The Federal Motor Vehicle Safety Standards",
+      "The truck's owner's manual",
+      "The US DOT Emergency Response Guidebook (ERG)"
+    ],
+    "answer": 3,
+    "explanation": "The US DOT Emergency Response Guidebook lists chemicals and their identification numbers.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.23.3"
+  },
+  {
+    "id": "cdl.gk.228",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Gasoline and acetone belong to which hazard class?",
+    "choices": [
+      "Class 3, Flammable liquids",
+      "Class 2, Gases",
+      "Class 8, Corrosives",
+      "Class 4, Flammable solids"
+    ],
+    "answer": 0,
+    "explanation": "Class 3 is flammable liquids, such as gasoline and acetone. Class 2 is gases, like propane.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.23.2 (Figure 2.24)"
+  },
+  {
+    "id": "cdl.gk.229",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "If someone else loads and secures your cargo, who is responsible for inspecting it?",
+    "choices": [
+      "Only the person who loaded it",
+      "Only the shipper",
+      "You, the driver",
+      "Only the receiver"
+    ],
+    "answer": 2,
+    "explanation": "Whether or not you load and secure the cargo yourself, you are responsible for inspecting it, recognizing overloads and poor balance, and knowing it is secured.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 3"
+  },
+  {
+    "id": "cdl.gk.230",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Besides checking cargo every 3 hours or 150 miles, when else should you re-check it?",
+    "choices": [
+      "After every break you take during driving",
+      "Only at the end of the trip",
+      "Only when you cross a state line or enter a weigh station",
+      "Only after driving on rough roads"
+    ],
+    "answer": 0,
+    "explanation": "Re-check cargo and securing devices after every break you take during driving, as well as after 3 hours or 150 miles.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 3.1; 49 CFR 392.9"
+  },
+  {
+    "id": "cdl.gk.231",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What is the Gross Vehicle Weight Rating (GVWR)?",
+    "choices": [
+      "The weight of the vehicle when it is empty, without fuel or cargo",
+      "The most weight a tire can carry",
+      "The weight carried by one axle",
+      "The manufacturer's specified loaded weight of a single vehicle"
+    ],
+    "answer": 3,
+    "explanation": "GVWR is the value specified by the manufacturer as the loaded weight of a single vehicle.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 3.2.1"
+  },
+  {
+    "id": "cdl.gk.232",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Where can you find a tire's maximum safe load rating?",
+    "choices": [
+      "On the vehicle registration",
+      "On the side of the tire",
+      "On the bill of lading",
+      "On the dashboard label"
+    ],
+    "answer": 1,
+    "explanation": "Tire load is the maximum safe weight a tire can carry at a specified pressure, and it is stated on the side of each tire.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 3.2.1"
+  },
+  {
+    "id": "cdl.gk.233",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What does a bridge formula do?",
+    "choices": [
+      "It allows less weight on axles that are closer together",
+      "It sets the height clearance posted at overpasses",
+      "It sets lower speed limits for trucks crossing bridges",
+      "It allows more weight on axles that are closer together"
+    ],
+    "answer": 0,
+    "explanation": "A bridge formula permits less maximum axle weight for axles that are closer together, to prevent overloading bridges and roads.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 3.2.2"
+  },
+  {
+    "id": "cdl.gk.234",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How can overloading affect your vehicle?",
+    "choices": [
+      "It improves traction and shortens stopping distance",
+      "It only matters when crossing bridges",
+      "It hurts steering, braking, and speed control",
+      "It only affects your fuel mileage"
+    ],
+    "answer": 2,
+    "explanation": "Overloading has bad effects on steering, braking, and speed control. Stopping distance increases and brakes can fail when forced to work too hard.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 3.2.2"
+  },
+  {
+    "id": "cdl.gk.235",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "How should you load cargo to reduce the chance of tipping over?",
+    "choices": [
+      "Stack it as high as possible to save floor space",
+      "Put the heaviest parts on top to hold the rest down",
+      "Keep it low, with the heaviest parts under the lightest",
+      "Put most of the weight on one side"
+    ],
+    "answer": 2,
+    "explanation": "A high center of gravity makes rollover more likely. Distribute cargo as low as possible with the heaviest parts under the lightest.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 3.2.3"
+  },
+  {
+    "id": "cdl.gk.236",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What can happen if there is too much weight on the steering axle?",
+    "choices": [
+      "Poor traction at the drive wheels on wet roads",
+      "The trailer swinging out on curves",
+      "Steering that becomes much too light to control the vehicle safely",
+      "Hard steering and damage to the steering axle and tires"
+    ],
+    "answer": 3,
+    "explanation": "Too much weight on the steering axle can cause hard steering and damage the steering axle and tires.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 3.2.4"
+  },
+  {
+    "id": "cdl.gk.237",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What can happen if there is too little weight on the drive axles?",
+    "choices": [
+      "A higher center of gravity and rollover",
+      "Overheated brakes on the steering axle when stopping",
+      "Poor traction, so the drive wheels may spin",
+      "Hard steering at low speeds"
+    ],
+    "answer": 2,
+    "explanation": "Too little weight on the driving axles can cause poor traction, and in bad weather the truck may not be able to keep going.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 3.2.4"
+  },
+  {
+    "id": "cdl.gk.238",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "In cargo securement, what is bracing?",
+    "choices": [
+      "Supports running from the upper part of the cargo to the floor and/or walls",
+      "A tarp tied tightly over the top of the load",
+      "Chains that run over the top of the cargo to the side rails",
+      "Wooden pieces fitted snugly against the bottom of the cargo on the deck"
+    ],
+    "answer": 0,
+    "explanation": "Bracing goes from the upper part of the cargo to the floor and/or walls of the cargo compartment. Blocking, by contrast, is fitted snugly against the front, back, or sides of the cargo and secured to the deck.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 3.3.1"
+  },
+  {
+    "id": "cdl.gk.239",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Under federal rules, the total working load limit of the tie-downs securing an article must be at least:",
+    "choices": [
+      "One-tenth the weight of the article",
+      "One-half the weight of the article",
+      "Equal to twice the weight of the article",
+      "One-quarter the weight of the article"
+    ],
+    "answer": 1,
+    "explanation": "The aggregate working load limit of the securement system must be at least one-half the weight of the article or group of articles.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 3.3.2; 49 CFR 393.106"
+  },
+  {
+    "id": "cdl.gk.240",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Using the manual's rule of thumb, how many tie-downs should a 30-foot load have at minimum?",
+    "choices": [
+      "5",
+      "6",
+      "2",
+      "3"
+    ],
+    "answer": 3,
+    "explanation": "The manual's rule of thumb is at least one tie-down for each 10 feet of cargo, so a 30-foot load needs at least three. (Federal rules in 49 CFR 393.110 can require more for long articles.)",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 3.3.2"
+  },
+  {
+    "id": "cdl.gk.241",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "According to the CDL manual, what is the minimum number of tie-downs any cargo should have, no matter how small it is?",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "answer": 0,
+    "explanation": "The manual says that no matter how small the cargo, it should have at least two tie-downs, plus at least one for each 10 feet of cargo.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 3.3.2"
+  },
+  {
+    "id": "cdl.gk.242",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What does a front-end header board (headache rack) do?",
+    "choices": [
+      "Keeps the tarp from flapping in the wind",
+      "Protects you from cargo moving forward in a crash",
+      "Improves the truck's aerodynamics and cuts fuel use at highway speed",
+      "Holds the spare tire and tire chains"
+    ],
+    "answer": 1,
+    "explanation": "Header boards protect you from your cargo in a crash or emergency stop, so the front-end structure should block forward movement of the cargo.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 3.3.3"
+  },
+  {
+    "id": "cdl.gk.243",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What are the two basic reasons for covering cargo?",
+    "choices": [
+      "To hide the cargo from thieves and to reduce wind drag",
+      "To protect people from spills and the cargo from weather",
+      "To make the load look neat and to keep birds off it",
+      "To keep the cargo clean and to meet state weight limits"
+    ],
+    "answer": 1,
+    "explanation": "Cover cargo to protect people from spills and to protect the cargo from weather. Check covers in your mirrors while driving.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 3.3.4"
+  },
+  {
+    "id": "cdl.gk.244",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "You can't inspect a sealed load. What should you still check?",
+    "choices": [
+      "That the total load weighs less than 10,000 pounds, including pallets",
+      "That the cargo inside is covered with a tarp",
+      "That the seal has the shipper's logo and today's date",
+      "That you don't exceed gross weight and axle weight limits"
+    ],
+    "answer": 3,
+    "explanation": "You cannot inspect sealed loads, but you should check that you don't exceed gross weight and axle weight limits.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 3.3.5"
+  },
+  {
+    "id": "cdl.gk.245",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Why does hanging meat in a refrigerated trailer need special caution?",
+    "choices": [
+      "It is much heavier than other refrigerated loads, so it overloads the axles",
+      "It has a high center of gravity and is very unstable on sharp curves",
+      "It shifts only when you accelerate hard",
+      "It can spoil if you drive too slowly"
+    ],
+    "answer": 1,
+    "explanation": "Hanging meat can be a very unstable load with a high center of gravity. Go slowly, especially on sharp curves such as on and off ramps.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 3.4.2"
+  },
+  {
+    "id": "cdl.gk.246",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When hauling less than a full load of livestock, what should you use?",
+    "choices": [
+      "A tarp over the top of the trailer",
+      "False bulkheads to keep the animals bunched together",
+      "A higher gear to keep your speed up on curves",
+      "Extra tie-down straps fastened around each of the animals"
+    ],
+    "answer": 1,
+    "explanation": "Use false bulkheads to keep livestock bunched. Even then, animals can lean on curves, shifting the center of gravity and making rollover more likely.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 3.4.3"
+  },
+  {
+    "id": "cdl.gk.247",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What do over-length, over-width, or overweight loads require?",
+    "choices": [
+      "Special transit permits",
+      "A second driver at all times",
+      "Nothing beyond a normal CDL",
+      "A hazardous materials endorsement"
+    ],
+    "answer": 0,
+    "explanation": "Oversized loads require special transit permits and may need signs, lights, flags, escorts, or pilot vehicles. Driving times are usually limited.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 3.4.4"
+  },
+  {
+    "id": "cdl.gk.248",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Some drivers use low-beam headlights all the time at night. What does the manual say about this?",
+    "choices": [
+      "It is the safest habit for truck drivers",
+      "It is required by federal law for CMVs",
+      "It is a mistake; use high beams when safe and legal",
+      "It only matters when driving in fog"
+    ],
+    "answer": 2,
+    "explanation": "Always using low beams seriously cuts down how far you can see. Use high beams when it is safe and legal, and dim them before they cause glare for other drivers.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.11.5"
+  },
+  {
+    "id": "cdl.gk.249",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When you are driving in heavy traffic, what is usually the safest speed?",
+    "choices": [
+      "About 10 mph slower than everyone else",
+      "The speed of other traffic, if legal and safe",
+      "Fast enough to keep passing slower vehicles",
+      "The minimum speed posted for the road"
+    ],
+    "answer": 1,
+    "explanation": "In heavy traffic the safest speed is the speed of other vehicles, without going at an illegal or unsafe speed. Driving faster means constant passing, which raises crash risk and fatigue.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.6.5"
+  },
+  {
+    "id": "cdl.gk.250",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "The road makes your truck tilt so its top could hit signs or tree limbs at the edge. What should you do?",
+    "choices": [
+      "Drive a little closer to the center of the road",
+      "Move closer to the right edge so you are out of traffic",
+      "Speed up so the vehicle levels out",
+      "Let some air out of the tires on the high side"
+    ],
+    "answer": 0,
+    "explanation": "Some roads make a vehicle tilt, which can make it hard to clear signs, trees, or bridge supports along the edge. Where this is a problem, drive a little closer to the center of the road.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.7.4"
+  },
+  {
+    "id": "cdl.gk.251",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Your truck is heavily loaded and you need to cross or enter traffic. What gap do you need?",
+    "choices": [
+      "The same gap you would use in a car",
+      "A smaller gap, since other drivers will slow for a truck",
+      "A much larger gap than in a car, and more when loaded",
+      "Any gap, because merging trucks have the right-of-way"
+    ],
+    "answer": 2,
+    "explanation": "Large vehicles accelerate slowly and need more space, so you may need a much larger gap than in a car. Acceleration varies with the load, so allow more room when heavily loaded.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.7.7"
+  },
+  {
+    "id": "cdl.gk.252",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Why is steering away sometimes better than stopping in an emergency?",
+    "choices": [
+      "You can almost always turn to miss something faster than you can stop",
+      "Braking is not allowed once a crash is likely",
+      "Swerving never causes a rollover, even in a top-heavy truck",
+      "Steering keeps the wheels from locking even while braking hard"
+    ],
+    "answer": 0,
+    "explanation": "When there isn't room to stop, you can almost always turn to miss an obstacle more quickly than you can stop. Top-heavy vehicles and tractors with multiple trailers may still flip over.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.17.1"
+  },
+  {
+    "id": "cdl.gk.253",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When does an antilock braking system (ABS) come into action?",
+    "choices": [
+      "Every time you press the brake pedal",
+      "Only when the wheels are about to lock up",
+      "Only when the parking brake is set",
+      "Whenever the vehicle is over 55 mph"
+    ],
+    "answer": 1,
+    "explanation": "ABS is an addition to your normal brakes and only activates when wheels are about to lock up. At all other times the brakes work normally.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.18"
+  },
+  {
+    "id": "cdl.gk.254",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Why are exhaust system leaks especially dangerous in winter?",
+    "choices": [
+      "Cold air makes leaking pipes catch fire",
+      "Leaking exhaust melts snow onto the brakes",
+      "With windows closed, carbon monoxide can build up in the cab",
+      "Exhaust leaks make the heater stop working"
+    ],
+    "answer": 2,
+    "explanation": "Exhaust leaks are especially dangerous when cab ventilation is poor, such as with windows rolled up. Carbon monoxide makes you sleepy and in large enough amounts can kill you.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.13.1"
+  }
+]

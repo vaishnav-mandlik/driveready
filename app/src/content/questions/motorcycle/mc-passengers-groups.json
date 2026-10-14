@@ -1,0 +1,610 @@
+[
+  {
+    "id": "mc.pass.001",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "According to the manual, who should attempt to carry passengers or large loads?",
+    "choices": [
+      "Any rider who has a learner's permit",
+      "Riders of large touring motorcycles only",
+      "Only experienced riders",
+      "Any rider, as long as the trip is short"
+    ],
+    "answer": 2,
+    "explanation": "The extra weight of a passenger or cargo changes how a motorcycle handles, so only experienced riders should carry passengers or large loads.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 34 (Carrying Passengers and Cargo)"
+  },
+  {
+    "id": "mc.pass.002",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "Before carrying a passenger, which tire pressures should you check?",
+    "choices": [
+      "Only the rear tire, since it carries the added weight",
+      "The front tire and the rear tire",
+      "Only the front tire, since it controls the steering",
+      "No check is needed, since a passenger does not affect tire pressure"
+    ],
+    "answer": 1,
+    "explanation": "Check the pressure of both tires against the owner's manual or the label on the motorcycle. Most added weight goes on the rear, but don't forget the front tire.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 34 (Preparing Your Motorcycle)"
+  },
+  {
+    "id": "mc.pass.003",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "You marked your headlight beam on a garage wall before loading. With a passenger and full load, the beam now hits higher on the wall. What should you do?",
+    "choices": [
+      "Leave it alone, because a higher beam lets you see farther ahead at night",
+      "Ride with the high beam on so the beam pattern evens out",
+      "Use the adjusting screws to lower the beam to the original height",
+      "Let some air out of the rear tire to lower the beam"
+    ],
+    "answer": 2,
+    "explanation": "Before loading, mark the headlight beam on a wall about 10 feet away. After loading, recheck it and use the headlight's adjusting screws to lower the beam to the same height.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 35 (Preparing Your Motorcycle)"
+  },
+  {
+    "id": "mc.pass.004",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "What protective gear should your passenger wear?",
+    "choices": [
+      "A helmet only, since passengers face less risk",
+      "The same level of protective gear as you",
+      "Whatever is comfortable for a short ride",
+      "Less gear than the rider, to stay cooler"
+    ],
+    "answer": 1,
+    "explanation": "Be sure your passenger is properly attired, wearing the same level of personal protective gear as the rider.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 35 (Equipment for Carrying a Passenger)"
+  },
+  {
+    "id": "mc.pass.005",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "Which piece of equipment must a motorcycle have to carry a passenger safely?",
+    "choices": [
+      "Passenger footrests",
+      "A backrest for the passenger",
+      "A second set of mirrors",
+      "Saddlebags on both sides"
+    ],
+    "answer": 0,
+    "explanation": "Be sure the motorcycle has passenger footrests, a seat large enough for two without crowding, and a strap or solid handholds for the passenger.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 35 (Equipment for Carrying a Passenger)"
+  },
+  {
+    "id": "mc.pass.006",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "Where should a child passenger sit?",
+    "choices": [
+      "In front of the rider, where the rider can hold the child",
+      "On the rear rack, behind the passenger seat",
+      "Immediately behind the rider",
+      "Wherever the child feels most comfortable"
+    ],
+    "answer": 2,
+    "explanation": "Children should sit immediately behind the rider. A child in front of the rider cannot balance properly and may interfere with the rider's control.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 35 (Preparing Your Passenger to Ride)"
+  },
+  {
+    "id": "mc.pass.007",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "Your passenger also rides motorcycles. Should you still go over the basics before the trip?",
+    "choices": [
+      "Yes, always instruct your passenger before starting out",
+      "No, an experienced rider already knows what to do",
+      "Only if the trip will be on the highway",
+      "Only if your passenger asks for instructions"
+    ],
+    "answer": 0,
+    "explanation": "Do not assume passengers know about motorcycle handling and balance. Always instruct your passenger on the basics before the trip, even if the passenger is a rider.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 35 (Preparing Your Passenger to Ride)"
+  },
+  {
+    "id": "mc.pass.008",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "When should your passenger get on the motorcycle?",
+    "choices": [
+      "After you start the engine and shift to neutral",
+      "Before you start the engine, while the bike is on its stand",
+      "After you have shifted into first gear and are ready to go",
+      "Before you get on, so you can steady the motorcycle"
+    ],
+    "answer": 0,
+    "explanation": "Tell your passenger to mount only after you have started the engine and the transmission is in neutral. As the passenger mounts, keep both feet on the ground and the front brake applied.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 35 (Preparing Your Passenger to Ride)"
+  },
+  {
+    "id": "mc.pass.009",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "What should a passenger hold onto for balance?",
+    "choices": [
+      "Your waist, hips, belt or the passenger handholds",
+      "The back edge of the seat or the rear luggage rack",
+      "Your shoulders, so they can see over you",
+      "Nothing, so they can relax and lean freely"
+    ],
+    "answer": 0,
+    "explanation": "Passengers should hold firmly to the rider's waist, hips or belt, or the bike's passenger handholds, for balance and security.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 35 (Preparing Your Passenger to Ride)"
+  },
+  {
+    "id": "mc.pass.010",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "Why should a passenger keep both feet on the footrests, even when stopped?",
+    "choices": [
+      "So the motorcycle's kickstand stays down",
+      "So their feet don't block the brake light",
+      "So they can push off the ground faster",
+      "So they don't fall off and pull you off"
+    ],
+    "answer": 3,
+    "explanation": "Firm footing keeps the passenger from falling off and pulling the rider off. Passengers should also keep their legs away from mufflers, chains and moving parts.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 35 (Preparing Your Passenger to Ride)"
+  },
+  {
+    "id": "mc.pass.011",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "What should a passenger do in turns and curves?",
+    "choices": [
+      "Lean the opposite way to balance the motorcycle",
+      "Sit straight up no matter how the motorcycle leans",
+      "Stay directly behind you and lean with you",
+      "Turn around to check for traffic behind"
+    ],
+    "answer": 2,
+    "explanation": "Passengers should stay directly behind the rider and lean with the rider. Looking over the rider's shoulder in the direction of the turn helps.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 35 (Preparing Your Passenger to Ride)"
+  },
+  {
+    "id": "mc.pass.012",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "When should you remind your passenger to tighten their hold?",
+    "choices": [
+      "Only when you are riding above 50 mph",
+      "When you are about to start from a stop",
+      "When you are cruising on a straight, smooth road",
+      "When you are stopped at a red light"
+    ],
+    "answer": 1,
+    "explanation": "Remind your passenger to tighten their hold when you approach surface hazards, start from a stop or move into traffic, or are about to turn sharply or make a sudden move.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, pp. 35-36 (Preparing Your Passenger to Ride)"
+  },
+  {
+    "id": "mc.pass.013",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "How does a heavier passenger affect your motorcycle?",
+    "choices": [
+      "It improves traction, so you can stop in less distance",
+      "It lowers the center of gravity and makes turns easier",
+      "It may take longer to speed up, slow down or turn",
+      "It has no noticeable effect at normal speeds"
+    ],
+    "answer": 2,
+    "explanation": "The heavier your passenger, the longer it may take to speed up, slow down or turn.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 36 (Riding With Passengers)"
+  },
+  {
+    "id": "mc.pass.014",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "Why should you ride a little slower through curves and over bumps when carrying a passenger?",
+    "choices": [
+      "The passenger's weight makes the engine overheat at higher speed",
+      "Scraping parts at lean angle can cause loss of steering",
+      "Passengers are not allowed to lean at higher speeds",
+      "The front brake works less when a passenger is aboard"
+    ],
+    "answer": 1,
+    "explanation": "With a passenger, ride a little slower in curves, corners and over bumps. If any part of the motorcycle scrapes the ground at lean angle, steering control can be lost.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 36 (Riding With Passengers)"
+  },
+  {
+    "id": "mc.pass.015",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "How should you adjust your stopping when carrying a passenger?",
+    "choices": [
+      "Brake later and harder to keep traffic moving",
+      "Start slowing earlier and keep a larger space cushion",
+      "Use only the rear brake so the passenger stays steady and upright",
+      "Keep the same braking points you always use"
+    ],
+    "answer": 1,
+    "explanation": "With a passenger, start slowing earlier as you approach a stop and keep a larger space cushion whenever slowing or stopping.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 36 (Riding With Passengers)"
+  },
+  {
+    "id": "mc.pass.016",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "When traveling with cargo and a passenger, what weight limit should you stay within?",
+    "choices": [
+      "The towing capacity listed for the motorcycle",
+      "The motorcycle's gross vehicle weight rating",
+      "Whatever the suspension can hold without bottoming out",
+      "Twice the rider's own body weight"
+    ],
+    "answer": 1,
+    "explanation": "Do not exceed the gross vehicle weight rating when traveling with cargo and a passenger, and adjust the motorcycle for the added weight.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 36 (Carrying Loads)"
+  },
+  {
+    "id": "mc.pass.017",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "Where should you try to place a load on your motorcycle?",
+    "choices": [
+      "Behind the rear axle, as far back as it fits",
+      "High on a rack above the passenger seat",
+      "On the handlebars, where you can watch it",
+      "Over, or in front of, the rear axle"
+    ],
+    "answer": 3,
+    "explanation": "Try to place the load over or in front of the rear axle. Loads behind the rear axle can affect turning and braking and can cause a wobble.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 36 (Tips for Traveling with Passengers and Cargo)"
+  },
+  {
+    "id": "mc.pass.018",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "Why should loads be secured low or carried in saddlebags?",
+    "choices": [
+      "Low loads are protected from rain and road spray",
+      "A high load blocks your view in the mirrors",
+      "A high load raises the center of gravity",
+      "Saddlebags lower the motorcycle's wind resistance"
+    ],
+    "answer": 2,
+    "explanation": "Secure loads low or put them in saddlebags. Attaching a load higher raises the motorcycle's center of gravity and can upset its balance.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, pp. 36-37 (Tips for Traveling with Passengers and Cargo)"
+  },
+  {
+    "id": "mc.pass.019",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "What can happen if one saddlebag is much heavier than the other?",
+    "choices": [
+      "The front tire will go flat",
+      "The headlight beam will aim too low",
+      "The engine will lose power going uphill",
+      "The motorcycle may pull to one side"
+    ],
+    "answer": 3,
+    "explanation": "Load each saddlebag with about the same weight. An uneven load can cause the motorcycle to pull to one side.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 37 (Tips for Traveling with Passengers and Cargo)"
+  },
+  {
+    "id": "mc.pass.020",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "What is the recommended way to fasten a load to your motorcycle?",
+    "choices": [
+      "Elastic cords with more than one attachment point per side",
+      "Rope tied with tight knots at each corner",
+      "A single elastic cord across the middle of the load",
+      "Duct tape wrapped around the load and frame"
+    ],
+    "answer": 0,
+    "explanation": "Use elastic cords or nets, with more than one attachment point per side. Rope can stretch and knots can come loose, letting the load shift or fall.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 37 (Tips for Traveling with Passengers and Cargo)"
+  },
+  {
+    "id": "mc.pass.021",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "You take a test ride with your fully loaded motorcycle. What changes should you expect?",
+    "choices": [
+      "Quicker acceleration because of better traction",
+      "Shorter stopping distances because the added weight improves grip",
+      "Lighter steering and quicker turning",
+      "Slower acceleration and possibly longer stopping distances"
+    ],
+    "answer": 3,
+    "explanation": "A fully loaded motorcycle accelerates more slowly, increasing passing times and distances. Braking also feels different, and stopping distances may increase.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 37 (Pre-Ride Test)"
+  },
+  {
+    "id": "mc.pass.022",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "Why should every rider in the group know the route before starting out?",
+    "choices": [
+      "So the group can ride side by side",
+      "So no one has to hurry if they get separated",
+      "So no one needs to use hand signals",
+      "So riders can take turns leading"
+    ],
+    "answer": 1,
+    "explanation": "Hold a rider's meeting to discuss the route, segments, rest stops, fuel, meals and lodging. If someone gets separated, they won't have to hurry to avoid getting lost.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 37 (Group Riding: Plan)"
+  },
+  {
+    "id": "mc.pass.023",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "Who should serve as the lead rider and the sweep rider in a group?",
+    "choices": [
+      "The newest riders, so they can learn",
+      "The riders with the fastest motorcycles",
+      "Whoever arrives first at the meeting point",
+      "The most experienced riders"
+    ],
+    "answer": 3,
+    "explanation": "Choose a lead rider and a sweep rider; these should be the most experienced riders. The sweep rider is the last rider in the group.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, pp. 37-38 (Group Riding: Plan)"
+  },
+  {
+    "id": "mc.pass.024",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "Where should inexperienced riders be placed in a group?",
+    "choices": [
+      "Just behind the leader",
+      "At the very back of the group",
+      "In front of the leader",
+      "Riding beside the leader"
+    ],
+    "answer": 0,
+    "explanation": "Place inexperienced riders just behind the leader so they won't have to chase the group and the more experienced riders can watch them from behind.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 38 (Group Riding: Plan)"
+  },
+  {
+    "id": "mc.pass.025",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "One rider keeps wanting to ride faster than the rest of the group. What does the manual suggest?",
+    "choices": [
+      "Let them pass other riders within the group",
+      "Have everyone in the group speed up to match their pace",
+      "Let them go ahead to an agreed meeting point",
+      "Have them ride side by side with the leader"
+    ],
+    "answer": 2,
+    "explanation": "The most important group rules are no competition, no passing of other riders and no tailgating. If a rider insists on going faster, let them go ahead to an agreed meeting point.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 38 (Group Riding: Plan)"
+  },
+  {
+    "id": "mc.pass.026",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "A rider in your group falls behind. What should the group do?",
+    "choices": [
+      "Everyone should slow down to keep the group together",
+      "The leader should continue so the group stays on schedule",
+      "The rider behind should speed up to catch up",
+      "The sweep rider should pass the slow rider"
+    ],
+    "answer": 0,
+    "explanation": "Use your mirrors to watch the rider behind you. If a rider falls behind, everyone should slow down to keep the group together.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 38 (Observe Those Behind)"
+  },
+  {
+    "id": "mc.pass.027",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "Why should you never ride directly alongside another rider in the same lane?",
+    "choices": [
+      "It confuses other drivers about which way you plan to turn",
+      "Your headlights will blind oncoming drivers",
+      "There is no room to maneuver around a hazard",
+      "It makes your group appear smaller to traffic"
+    ],
+    "answer": 2,
+    "explanation": "Riding side by side in the same lane leaves no place to go if you need to maneuver around a car or hazard. Wait until you are both stopped to talk.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 38 (Don't Pair Up)"
+  },
+  {
+    "id": "mc.pass.028",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "In a staggered formation, where does the second rider ride?",
+    "choices": [
+      "Directly behind the leader, in the left side of the lane",
+      "Beside the leader, in the right side of the lane",
+      "At least two seconds behind the leader, in the center portion of the lane",
+      "At least one second behind the leader, in the right side of the lane"
+    ],
+    "answer": 3,
+    "explanation": "The leader rides in the left side of the lane. The second rider stays at least one second back in the right side of the lane.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 38 (Staggered Formation)"
+  },
+  {
+    "id": "mc.pass.029",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "In a staggered formation, where should the third rider ride?",
+    "choices": [
+      "In the left side of the lane, at least two seconds behind the leader",
+      "In the right side of the lane, at least one second behind the second rider",
+      "In the center of the lane, one second behind the leader",
+      "In the left side of the lane, one second behind the leader"
+    ],
+    "answer": 0,
+    "explanation": "The third rider keeps the left position, at least two seconds behind the first rider. The fourth stays at least two seconds behind the second rider, in the right side of the lane.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 38 (Staggered Formation)"
+  },
+  {
+    "id": "mc.pass.030",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "When should a group switch from a staggered formation to single file?",
+    "choices": [
+      "Only in heavy traffic on multi-lane highways",
+      "Whenever the group is riding on a freeway",
+      "Only after dark or in bad weather",
+      "In curves, when turning, and entering or leaving highways"
+    ],
+    "answer": 3,
+    "explanation": "It is best to move to single file when riding in curves, turning, and entering or leaving freeways or highways.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 38 (Staggered Formation)"
+  },
+  {
+    "id": "mc.pass.031",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "Your group is making a left turn on a green arrow, and the light turns red before everyone gets through. What should the riders who made it through do?",
+    "choices": [
+      "Stop at a safe point ahead and wait",
+      "Keep riding so the group stays on schedule",
+      "Slow down in the travel lane until the rest catch up",
+      "Pull a U-turn and rejoin the riders still waiting"
+    ],
+    "answer": 0,
+    "explanation": "Make the turn single file with a tightened formation. If not all riders get through, stop at a safe point ahead and wait so no one feels pressured to speed or run the red light.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, pp. 38-39 (Intersections)"
+  },
+  {
+    "id": "mc.pass.032",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "How should a group enter a freeway?",
+    "choices": [
+      "In single file, forming up only after all riders have merged",
+      "In staggered formation, so the group stays tight while merging",
+      "Side by side, to claim the lane quickly",
+      "Spread far apart, then regroup at the first exit"
+    ],
+    "answer": 0,
+    "explanation": "A staggered formation is essential on freeways, but enter in single file and form up only after all riders have safely merged. Use single file again when exiting.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 39 (Interstate Highways and Freeways)"
+  },
+  {
+    "id": "mc.pass.033",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "Riders in a staggered formation want to pass a slow vehicle on a two-lane highway. How should they pass?",
+    "choices": [
+      "All together as a unit",
+      "In pairs, side by side",
+      "In staggered formation",
+      "One rider at a time"
+    ],
+    "answer": 3,
+    "explanation": "On a two-lane highway, riders in a staggered formation should pass one at a time. On a freeway or interstate, the group may pass as a unit.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 39 (Passing in Formation)"
+  },
+  {
+    "id": "mc.pass.034",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "After passing a vehicle on a two-lane highway, what should the lead rider do?",
+    "choices": [
+      "Move to the right side of the lane to make room for the next rider",
+      "Slow down right away so the group can catch up",
+      "Pull onto the shoulder and wait for the group",
+      "Return to the left position and keep riding at passing speed"
+    ],
+    "answer": 3,
+    "explanation": "After passing, the leader returns to the left position and continues at passing speed to open room. Moving right could encourage the next rider to pass and cut in before there is enough space.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 39 (Passing in Formation)"
+  },
+  {
+    "id": "mc.pass.035",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "The lead rider has just passed a car safely. What should the second rider do?",
+    "choices": [
+      "Pass right away, since the leader has already found it safe to pass",
+      "Move to the left position and wait for their own safe chance to pass",
+      "Stay in the right position until the car ahead turns off the road",
+      "Pass on the right side of the car"
+    ],
+    "answer": 1,
+    "explanation": "The second rider moves up to the left position and waits for a safe chance. Conditions may have changed, so it may not be safe just because the leader passed.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 39 (Passing in Formation)"
+  },
+  {
+    "id": "mc.pass.036",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "Which parking practice does the manual recommend for a group?",
+    "choices": [
+      "Park head-in, facing downhill",
+      "Park so the group can leave as a unit in single file",
+      "Park side by side in one space",
+      "Park scattered across the lot"
+    ],
+    "answer": 1,
+    "explanation": "Park as a group when possible, avoid parking downhill or head-in, and park so the group can depart as a unit in single file.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 39 (Parking)"
+  },
+  {
+    "id": "mc.pass.037",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "Whose ability should set the pace through curves on a group ride?",
+    "choices": [
+      "The lead rider's",
+      "The most experienced rider's",
+      "The least experienced rider's",
+      "The rider with the most powerful motorcycle"
+    ],
+    "answer": 2,
+    "explanation": "Adjust the pace through curves to the ability of the least experienced rider. If necessary, form two groups with different speeds.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 40 (Ten Rules of Group Riding)"
+  },
+  {
+    "id": "mc.pass.038",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "Where should you tell your passenger to sit on the seat?",
+    "choices": [
+      "As far forward as possible without hindering your control",
+      "As far back as possible to give you more room",
+      "On the back edge of the seat, holding the grab rail",
+      "Wherever feels comfortable, shifting around as needed"
+    ],
+    "answer": 0,
+    "explanation": "Tell your passenger to sit as far forward as possible without hindering your control of the motorcycle, and to avoid sudden moves that could affect stability.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 35 (Preparing Your Passenger to Ride)"
+  }
+]

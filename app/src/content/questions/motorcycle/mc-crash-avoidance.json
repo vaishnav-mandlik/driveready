@@ -51,15 +51,15 @@
     "id": "mc.crash.004",
     "track": "motorcycle",
     "topic": "mc-crash-avoidance",
-    "prompt": "While stopping hard in a straight line on good pavement, you lock the rear wheel. The motorcycle is upright. What does the manual say you can do?",
+    "prompt": "While stopping hard in a straight line on good pavement, you lock the rear wheel. The motorcycle is upright. What does the manual say about the locked rear wheel?",
     "choices": [
-      "Release the rear brake right away, then reapply it",
-      "Keep the rear wheel locked until you have stopped",
-      "Release both brakes and coast the rest of the way to a stop",
-      "Shift down a gear so engine power unlocks the rear wheel"
+      "You can keep it locked until you have completely stopped",
+      "You must release it at once or you will crash",
+      "You should pump the rear brake rapidly until it unlocks",
+      "You should downshift so engine power unlocks the wheel"
     ],
-    "answer": 1,
-    "explanation": "On a good-traction surface, you can keep a locked rear wheel locked until you stop; the motorcycle stays controllable if it is upright and going straight. Releasing it when the wheels are out of line can cause a high-side crash.",
+    "answer": 0,
+    "explanation": "If you lock the rear brake on a good traction surface, you can keep it locked until you have completely stopped; the motorcycle stays controllable if it is upright and going straight. Releasing a locked rear wheel when the wheels are out of line can cause a high-side crash.",
     "difficulty": 3,
     "ref": "MSF Motorcycle Operator Manual, p. 27 (Quick Stops)"
   },
@@ -83,15 +83,15 @@
     "id": "mc.crash.006",
     "track": "motorcycle",
     "topic": "mc-crash-avoidance",
-    "prompt": "You must stop quickly while in a curve, and conditions allow it. What should you do first?",
+    "prompt": "You are braking to a stop in a curve and have been easing out of your lean as you slow. What should you always do in the last few feet of the stop?",
     "choices": [
-      "Brake hard with the rear brake while staying leaned over",
-      "Lean farther into the curve, then squeeze the front brake hard",
-      "Straighten up and square the handlebars, then brake",
-      "Pull in the clutch and coast"
+      "Straighten the handlebars to stay balanced and upright",
+      "Release the front brake and stop with the rear brake only",
+      "Lean farther so the motorcycle stops in a tighter arc",
+      "Turn the handlebars toward the outside of the curve"
     ],
-    "answer": 2,
-    "explanation": "If you must stop quickly in a curve, first straighten up and square the handlebars, then stop. A straight, upright motorcycle can use maximum braking.",
+    "answer": 0,
+    "explanation": "Always straighten the handlebars in the last few feet of stopping to maintain your balance and remain upright. Turning the handlebars or leaning farther as you come to a stop works against your balance.",
     "difficulty": 2,
     "ref": "MSF Motorcycle Operator Manual, p. 27 (Stopping Quickly in a Curve)"
   },
@@ -99,15 +99,15 @@
     "id": "mc.crash.007",
     "track": "motorcycle",
     "topic": "mc-crash-avoidance",
-    "prompt": "In a left-hand curve you must stop quickly, but straightening up first would run you off the road. How should you brake?",
+    "prompt": "You are leaned over in a right-hand curve and must stop quickly. Why might straightening up before braking be a bad idea?",
     "choices": [
-      "Apply full front brake immediately while still leaned over",
-      "Use only the rear brake until you have left the curve",
-      "Gradually, adding pressure as you slow and lean less",
-      "Do not brake at all and let engine drag slow the motorcycle"
+      "It could carry you into oncoming traffic",
+      "It could carry you off the right edge of the road",
+      "It would lock the front wheel right away",
+      "It would cause the engine to stall"
     ],
-    "answer": 2,
-    "explanation": "When you cannot straighten first, apply the brakes smoothly and gradually. As you slow, reduce the lean angle and add brake pressure until the motorcycle is straight and maximum braking can be used.",
+    "answer": 0,
+    "explanation": "Straightening up makes the motorcycle go straight. In a right-hand curve that carries you toward oncoming traffic (in a left-hand curve, toward the road edge). When you cannot straighten first, brake smoothly and gradually, reducing lean and adding brake pressure as you slow.",
     "difficulty": 3,
     "ref": "MSF Motorcycle Operator Manual, p. 27 (Stopping Quickly in a Curve)"
   },
@@ -467,7 +467,7 @@
     "id": "mc.crash.030",
     "track": "motorcycle",
     "topic": "mc-crash-avoidance",
-    "prompt": "Railroad tracks cross your lane at a slight angle. What is usually safest?",
+    "prompt": "Railroad tracks cross the road ahead at an angle instead of straight across. What is usually safest?",
     "choices": [
       "Turn so that you cross the tracks at exactly 90 degrees",
       "Ride straight across within your lane",
@@ -595,16 +595,16 @@
     "id": "mc.crash.038",
     "track": "motorcycle",
     "topic": "mc-crash-avoidance",
-    "prompt": "Most motorcycle wobbles can be traced to which causes?",
+    "prompt": "Your motorcycle wobbles even though the load, accessories and tire pressure are all correct. Which of these should you have checked as a possible cause?",
     "choices": [
-      "Improper loading, unsuitable accessories or wrong tire pressure",
-      "Riding too slowly in the lowest gear for long periods",
-      "Worn brake pads and a dirty or clogged air filter",
-      "Using the front brake too often in normal riding"
+      "Worn or poorly adjusted steering",
+      "A dirty or clogged engine air filter",
+      "Brake pads that have worn thin",
+      "A weak or aging battery"
     ],
     "answer": 0,
-    "explanation": "Most wobbles come from improper loading, unsuitable accessories or incorrect tire pressure. Trying to accelerate out of a wobble only makes the motorcycle more unstable.",
-    "difficulty": 2,
+    "explanation": "Besides loading, accessories and tire pressure, check for poorly adjusted steering, worn steering parts, a bent or out-of-balance front wheel, loose wheel bearings or spokes, and worn swingarm bearings. If none is the cause, have a qualified professional check the motorcycle.",
+    "difficulty": 3,
     "ref": "MSF Motorcycle Operator Manual, p. 33 (Wobble)"
   },
   {
@@ -679,7 +679,7 @@
     "choices": [
       "Swerve into another lane",
       "Stay in your lane",
-      "Brake hard and stop in the lane right away",
+      "Lay the motorcycle down to avoid hitting it",
       "Ride onto the shoulder to go around it"
     ],
     "answer": 1,

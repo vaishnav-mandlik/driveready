@@ -1,0 +1,706 @@
+[
+  {
+    "id": "mc.lane.001",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "What does a \"cushion of space\" around your motorcycle give you if someone else makes a mistake?",
+    "choices": [
+      "More time to respond and more space to maneuver",
+      "The legal right-of-way in any traffic situation",
+      "A guarantee that drivers will see you in their mirrors",
+      "Permission to ride at a higher speed than traffic"
+    ],
+    "answer": 0,
+    "explanation": "A space cushion gives you a clearer view of traffic, more time to respond, and more space to maneuver, including an escape path.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 14 (Keeping Your Distance)"
+  },
+  {
+    "id": "mc.lane.002",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "How many paths of travel does a single traffic lane give a motorcycle?",
+    "choices": [
+      "One",
+      "Two",
+      "Four",
+      "Three"
+    ],
+    "answer": 3,
+    "explanation": "Each traffic lane gives a motorcycle three paths of travel: left third (path 1), center (path 2) and right third (path 3).",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 15 (Lane Positions)"
+  },
+  {
+    "id": "mc.lane.003",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "Which of these is one of the purposes of choosing a lane position?",
+    "choices": [
+      "Staying as close to the center line as possible",
+      "Making it easier for cars to share your lane",
+      "Avoiding windblast from other vehicles",
+      "Keeping the same position for the whole trip"
+    ],
+    "answer": 2,
+    "explanation": "Your lane choice should help you see and be seen, avoid blind spots and surface hazards, communicate intentions, avoid windblast, provide an escape path and set up for turns.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 15 (Lane Positions)"
+  },
+  {
+    "id": "mc.lane.004",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "Many riders treat the left third of the lane as their default. What does the MSF manual say about the rest of the lane?",
+    "choices": [
+      "The center third should always be avoided because of oil drips",
+      "No part of the lane must be avoided, including the center",
+      "The right third should never be used on multi-lane roads",
+      "Riders must stay in the left third unless turning right"
+    ],
+    "answer": 1,
+    "explanation": "Many riders use the left tire track as a default, but you should vary your position as conditions warrant. No portion of the lane need be avoided, including the center.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 15 (Lane Positions)"
+  },
+  {
+    "id": "mc.lane.005",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "Vehicles and other hazards are on your LEFT only. Which lane paths are usually best?",
+    "choices": [
+      "Path 2 or path 3",
+      "Path 1 only",
+      "Path 1 or path 2",
+      "Straddling the left lane line"
+    ],
+    "answer": 0,
+    "explanation": "Ride in path 2 or 3 if vehicles and other potential problems are on your left only. That moves you away from the hazard.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 15 (Lane Positions)"
+  },
+  {
+    "id": "mc.lane.006",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "Hazards are on your RIGHT only. Which lane paths does the manual suggest?",
+    "choices": [
+      "Path 3 only",
+      "Path 2 or path 3",
+      "Path 1 or path 2",
+      "The road shoulder"
+    ],
+    "answer": 2,
+    "explanation": "Remain in path 1 or 2 if hazards are on your right only, keeping space between you and the hazard.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 15 (Lane Positions)"
+  },
+  {
+    "id": "mc.lane.007",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "Vehicles are traveling on both sides of you. Which lane position is usually your best option?",
+    "choices": [
+      "Path 1, the left third",
+      "Path 2, the center of the lane",
+      "Path 3, the right third",
+      "On the lane line between vehicles"
+    ],
+    "answer": 1,
+    "explanation": "If vehicles are being operated on both sides of you, the center of the lane, path 2, is usually your best option.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 15 (Lane Positions)"
+  },
+  {
+    "id": "mc.lane.008",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "What does the manual say about traction in the oily center strip of a lane?",
+    "choices": [
+      "It is always too slippery to ride on, wet or dry",
+      "It has better traction than the tire tracks do",
+      "It is slippery only on hot, dry summer days",
+      "Adequate traction, unless the road is wet"
+    ],
+    "answer": 3,
+    "explanation": "Debris and oil drippings collect in the center third, but unless the road is wet, the typical center strip permits adequate traction. You can also ride just left or right of the grease strip.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 15 (Lane Positions)"
+  },
+  {
+    "id": "mc.lane.009",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "Where are big buildups of oil and grease that you should avoid usually found?",
+    "choices": [
+      "On the shoulders of rural roads",
+      "In the left tire track of the lane",
+      "On bridges and overpasses",
+      "At busy intersections and tollbooths"
+    ],
+    "answer": 3,
+    "explanation": "Avoid riding on big buildups of oil and grease, which are usually found at busy intersections or tollbooths.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 15 (Lane Positions)"
+  },
+  {
+    "id": "mc.lane.010",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "According to the MSF manual, what is the one absolute rule about lane position?",
+    "choices": [
+      "Avoid riding in another vehicle's blind spot",
+      "Always ride in the left third of the lane",
+      "Never ride in the center third of the lane",
+      "Always ride in the same path as the car ahead"
+    ],
+    "answer": 0,
+    "explanation": "Experienced riders use their own judgment, but one absolute is to avoid riding in another vehicle's blind spot.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 15 (Lane Positions)"
+  },
+  {
+    "id": "mc.lane.011",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "Compared with a car, how much distance does a motorcycle need to stop in traffic?",
+    "choices": [
+      "About half the distance of a car",
+      "As much distance as a car",
+      "Much less, because it is lighter",
+      "Less, because it has two brakes"
+    ],
+    "answer": 1,
+    "explanation": "In traffic, motorcycles need as much distance to stop as cars. \"Following too closely\" is a frequent factor in crashes involving motorcyclists.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 15 (Following Another Vehicle)"
+  },
+  {
+    "id": "mc.lane.012",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "Under normal conditions, what minimum following distance does the MSF manual recommend?",
+    "choices": [
+      "One second",
+      "Four seconds",
+      "Two seconds",
+      "One motorcycle length per 10 mph"
+    ],
+    "answer": 2,
+    "explanation": "Normally, a minimum of two seconds of distance should be maintained when following another vehicle.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 15 (Following Another Vehicle)"
+  },
+  {
+    "id": "mc.lane.013",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "You are counting your following distance. The car ahead passes a lamppost and you reach the post as you say \"one-thousand-one.\" What does this mean?",
+    "choices": [
+      "You have the minimum safe distance",
+      "You are following too far back",
+      "You have a safe distance for wet roads",
+      "You are following too closely"
+    ],
+    "answer": 3,
+    "explanation": "Start counting when the rear of the vehicle ahead passes a marker. If you reach the marker before you reach \"two,\" you are following too closely.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 16 (Following Another Vehicle)"
+  },
+  {
+    "id": "mc.lane.014",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "Besides stopping room, what else does a two-second following distance give you?",
+    "choices": [
+      "The right to pass the vehicle ahead at any time",
+      "Protection from vehicles approaching from behind",
+      "A better view of potholes and other road hazards",
+      "Room for a second motorcycle to ride beside you"
+    ],
+    "answer": 2,
+    "explanation": "A two-second following distance leaves a minimum amount of space to stop or swerve and also permits a better view of potholes and other hazards in the road.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 16 (Following Another Vehicle)"
+  },
+  {
+    "id": "mc.lane.015",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "In which situation should you open up a following distance of three seconds or more?",
+    "choices": [
+      "Heavy traffic where someone may cut in front of you",
+      "You are on a dry, open road in daylight",
+      "The vehicle ahead is a small car you can see over",
+      "You are riding a light motorcycle that stops quickly"
+    ],
+    "answer": 0,
+    "explanation": "Open up three seconds or more if the pavement is slippery, you cannot see through the vehicle ahead, or traffic is heavy and someone may squeeze in front of you.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 16 (Following Another Vehicle)"
+  },
+  {
+    "id": "mc.lane.016",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "You are following a large van you cannot see through on a wet road. What following distance does the manual recommend?",
+    "choices": [
+      "Exactly two seconds",
+      "Three seconds or more",
+      "One second, to stay visible",
+      "Two seconds, but only on dry roads"
+    ],
+    "answer": 1,
+    "explanation": "When the pavement is slippery or you cannot see through the vehicle ahead, open up a three-second or more following distance.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 16 (Following Another Vehicle)"
+  },
+  {
+    "id": "mc.lane.017",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "You are stopped in traffic behind a car. Why should you leave space between you and that car?",
+    "choices": [
+      "So the car ahead can see your headlight in its mirror",
+      "So the car ahead can easily back into a parking space",
+      "So you can escape if a driver behind you fails to stop",
+      "So the exhaust from the car ahead does not reach you"
+    ],
+    "answer": 2,
+    "explanation": "Keep well behind the vehicle ahead even when stopped. It makes it easier to get out of the way if someone bears down on you from behind, and gives a cushion if the vehicle ahead backs up.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 16 (Following Another Vehicle)"
+  },
+  {
+    "id": "mc.lane.018",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "When following a car, where should you ride so its driver is most likely to see you?",
+    "choices": [
+      "At the far edge of the lane, visible in the sideview mirror",
+      "Directly behind the car's right rear bumper",
+      "Just off the car's left rear corner, in the next lane",
+      "In the center portion, where the inside mirror shows you"
+    ],
+    "answer": 3,
+    "explanation": "Ride where the driver can see you in the inside rearview mirror. Drivers check the inside mirror far more often than sideview mirrors, and the center portion usually puts you in view.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 16 (Following Another Vehicle)"
+  },
+  {
+    "id": "mc.lane.019",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "Why is it less effective to rely on a driver seeing you in a sideview mirror?",
+    "choices": [
+      "Drivers check them much less often than the inside mirror",
+      "Sideview mirrors cannot show motorcycles at all",
+      "Sideview mirrors make vehicles look closer than they are",
+      "Sideview mirrors are usually aimed too low to show a rider"
+    ],
+    "answer": 0,
+    "explanation": "Riding at the far side of a lane may put you in a sideview mirror, but most drivers don't look at their sideview mirrors nearly as often as the inside mirror.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 16 (Following Another Vehicle)"
+  },
+  {
+    "id": "mc.lane.020",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "A driver is tailgating you. What is the problem with speeding up to get away?",
+    "choices": [
+      "It is the best way to create a space cushion",
+      "You may end up being tailgated at a higher speed",
+      "It almost always convinces the driver to pass you",
+      "It is a problem only on wet or slippery roads"
+    ],
+    "answer": 1,
+    "explanation": "Speeding up to lose someone following too closely can end up with someone tailgating you at a higher speed.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 16 (Being Followed)"
+  },
+  {
+    "id": "mc.lane.021",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "What is the best way to handle a tailgater?",
+    "choices": [
+      "Let them pass so they are in front of you",
+      "Ignore them and keep your current pace",
+      "Speed up to put distance between you",
+      "Move to the right edge of the lane and stop"
+    ],
+    "answer": 0,
+    "explanation": "A better way to handle tailgaters is to get them in front of you. When someone follows too closely, try to let them pass.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 16 (Being Followed)"
+  },
+  {
+    "id": "mc.lane.022",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "A tailgater won't pass and you can't change lanes. What does the manual suggest?",
+    "choices": [
+      "Speed up to match the flow of faster traffic",
+      "Ride closer to the vehicle ahead to keep pace",
+      "Slow down and open up extra space ahead of you",
+      "Stop suddenly so the driver learns to back off"
+    ],
+    "answer": 2,
+    "explanation": "If you can't let them pass, slow down and open up extra space ahead to allow room for both you and the tailgater to stop. This also encourages them to pass.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 17 (Being Followed)"
+  },
+  {
+    "id": "mc.lane.023",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "Before passing a car on a two-lane road, where should you position yourself?",
+    "choices": [
+      "In the right portion of your lane, close behind the car",
+      "In the left portion of your lane, at a safe distance back",
+      "Directly behind the car, as close as you can safely get",
+      "On the center line, so oncoming drivers see you"
+    ],
+    "answer": 1,
+    "explanation": "Ride in the left portion of the lane at a safe following distance to increase your line of sight and make you more visible. Then signal, check oncoming traffic, use mirrors and turn your head to check your blind spot.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 17 (Passing)"
+  },
+  {
+    "id": "mc.lane.024",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "While passing another vehicle, what should you avoid?",
+    "choices": [
+      "Accelerating as you enter the passing lane",
+      "Using a lane position that leaves space from the car",
+      "Signaling before returning to your lane",
+      "Lingering in the vehicle's blind spot"
+    ],
+    "answer": 3,
+    "explanation": "When safe, move into the left lane and accelerate, choosing a position that doesn't crowd the car. Don't linger in the blind spot.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 17 (Passing)"
+  },
+  {
+    "id": "mc.lane.025",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "What should you do before returning to your original lane after passing?",
+    "choices": [
+      "Return immediately once your front wheel clears the car",
+      "Signal again and do mirror and head checks",
+      "Wave to the driver to let them know you are returning",
+      "Slow down so the passed car can go ahead"
+    ],
+    "answer": 1,
+    "explanation": "Signal again and complete mirror and head checks before returning to your original lane, then cancel the signal.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 17 (Passing)"
+  },
+  {
+    "id": "mc.lane.026",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "A vehicle is passing you from behind. Where in your lane should you ride?",
+    "choices": [
+      "In the portion closest to the passing vehicle",
+      "On the shoulder, to give the passing vehicle more room",
+      "On the lane line, to show you are there",
+      "In the center portion of your lane"
+    ],
+    "answer": 3,
+    "explanation": "When you are being passed, stay in the center portion of your lane. Riding close to the passing vehicle could put you in a hazardous situation.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 17 (Being Passed)"
+  },
+  {
+    "id": "mc.lane.027",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "A large truck is about to pass you. Why is it safer not to be in the part of your lane closest to it?",
+    "choices": [
+      "Trucks are required to give motorcycles a full lane when passing",
+      "The truck driver can see you only if you are close beside the truck",
+      "Its wind blast can affect your control, so you want room for error",
+      "Being close makes the truck driver pass you more quickly and safely"
+    ],
+    "answer": 2,
+    "explanation": "Blasts of wind from larger vehicles can affect your control. You have more room for error if you are in the farther portion of your lane when hit by the blast.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 18 (Being Passed)"
+  },
+  {
+    "id": "mc.lane.028",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "When being passed, which hazard does the manual specifically mention about the passing vehicle's mirrors?",
+    "choices": [
+      "Some drivers forget their mirrors extend past their fenders",
+      "Passing drivers always use their mirrors to see you",
+      "Mirrors on passing vehicles reflect sunlight into your eyes",
+      "Most cars fold their mirrors in automatically at highway speed"
+    ],
+    "answer": 0,
+    "explanation": "Extended mirrors are a hazard when being passed: some drivers forget that their mirrors hang out farther than their fenders.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 17 (Being Passed)"
+  },
+  {
+    "id": "mc.lane.029",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "Even if the passing driver knows you are there, what other danger does the manual mention?",
+    "choices": [
+      "A passenger may throw something out of a window",
+      "The driver may honk to startle you",
+      "The car's exhaust may blow hot air at your face",
+      "The car's headlights may blind you during the day"
+    ],
+    "answer": 0,
+    "explanation": "Objects thrown from windows are a hazard: even if the driver knows you're there, a passenger may not see you and might toss something on you or the road ahead.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 18 (Being Passed)"
+  },
+  {
+    "id": "mc.lane.030",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "Why is riding between rows of cars in the same lane risky?",
+    "choices": [
+      "Cars usually move to the shoulder to let a motorcycle through",
+      "It is only risky when traffic is completely stopped",
+      "A door could open or a car could turn without warning",
+      "Your headlight makes drivers think you are a car"
+    ],
+    "answer": 2,
+    "explanation": "Riding between rows of stopped or moving cars in the same lane leaves you vulnerable: a hand could come out of a window, a door could open, or a car could turn suddenly.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 18 (Lane Sharing)"
+  },
+  {
+    "id": "mc.lane.031",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "How can you discourage drivers from trying to squeeze past you in your lane?",
+    "choices": [
+      "Ride on the lane line",
+      "Keep a center-portion lane position",
+      "Ride in the right third of the lane",
+      "Ride with your high beam on"
+    ],
+    "answer": 1,
+    "explanation": "Discourage lane sharing by others: keep a center-portion position whenever drivers might be tempted to squeeze by you.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 18 (Lane Sharing)"
+  },
+  {
+    "id": "mc.lane.032",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "In which of these situations are drivers especially tempted to squeeze by you in your lane?",
+    "choices": [
+      "When you are riding in the center of an empty road",
+      "When you are stopped at a railroad crossing alone",
+      "When you are riding below the speed limit at night",
+      "When you are preparing to turn at an intersection"
+    ],
+    "answer": 3,
+    "explanation": "Drivers are most tempted to share your lane in heavy bumper-to-bumper traffic, when they want to pass you, when you are preparing to turn at an intersection, and when you are moving into an exit lane.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 18 (Lane Sharing)"
+  },
+  {
+    "id": "mc.lane.033",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "A car on an entrance ramp is merging into your lane, and there is no room to change lanes. What should you do?",
+    "choices": [
+      "Hold your speed and position; you have the right-of-way",
+      "Sound your horn and move onto the shoulder",
+      "Adjust your speed to open up space for the merging car",
+      "Speed up and pass the merging car on the ramp side"
+    ],
+    "answer": 2,
+    "explanation": "Drivers on an entrance ramp may not see you. Give them plenty of room: change lanes if one is open, or adjust speed to open up space for them.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 18 (Merging Vehicles)"
+  },
+  {
+    "id": "mc.lane.034",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "Why should you avoid riding alongside cars or trucks in other lanes?",
+    "choices": [
+      "It makes it harder for you to hear their engines",
+      "They create a draft that pulls you toward them",
+      "Drivers cannot see your brake light from there",
+      "You may be in a blind spot, and they block escape"
+    ],
+    "answer": 3,
+    "explanation": "If you ride next to vehicles, you might be in a blind spot and a vehicle could switch into your lane. They also block your escape if danger appears in your own lane.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 18 (Vehicles Alongside)"
+  },
+  {
+    "id": "mc.lane.035",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "You find yourself riding next to a car in the lane beside you. What should you do?",
+    "choices": [
+      "Speed up or drop back to a spot clear on both sides",
+      "Stay beside it so the driver can clearly see you",
+      "Move toward the car so the driver notices you",
+      "Sound your horn and keep pace with the car until it turns"
+    ],
+    "answer": 0,
+    "explanation": "Do not ride next to cars or trucks in other lanes if you don't have to. Speed up or drop back to find a place clear of traffic on both sides.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 18 (Vehicles Alongside)"
+  },
+  {
+    "id": "mc.lane.036",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "What does SEE stand for in the MSF's three-step strategy?",
+    "choices": [
+      "Signal, Enter, Exit",
+      "Search, Evaluate, Execute",
+      "Scan, Estimate, Escape",
+      "Slow, Evaluate, Exit"
+    ],
+    "answer": 1,
+    "explanation": "SEE is Search, Evaluate, Execute. It helps you assess traffic and plan and carry out the safest course of action.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 18 (SEE)"
+  },
+  {
+    "id": "mc.lane.037",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "When searching, what should you especially focus on finding in shopping areas, intersections, and school or construction zones?",
+    "choices": [
+      "Parking spaces",
+      "Potential escape paths",
+      "Speed limit signs",
+      "Other motorcyclists"
+    ],
+    "answer": 1,
+    "explanation": "As you search, focus on finding potential escape paths, especially in or around intersections, shopping areas and school and construction zones.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 18 (SEE: Search)"
+  },
+  {
+    "id": "mc.lane.038",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "In the SEE strategy, how far ahead does the manual consider your \"immediate\" path?",
+    "choices": [
+      "Anything within 4 seconds",
+      "Anything within 1 second",
+      "Anything within 12 seconds",
+      "Anything within 30 seconds"
+    ],
+    "answer": 0,
+    "explanation": "Anything within 4 seconds of your path is considered immediate, because 4 seconds can give enough time and space to swerve and/or brake.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 19 (SEE: Search)"
+  },
+  {
+    "id": "mc.lane.039",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "How far ahead should you search for hazards so you can prepare before they become urgent?",
+    "choices": [
+      "About 2 seconds ahead",
+      "About 4 seconds ahead",
+      "About one block ahead",
+      "About 12 seconds ahead"
+    ],
+    "answer": 3,
+    "explanation": "Search for hazards further out, about 12 seconds ahead. This gives time to prepare for a situation before it becomes urgent. (2 seconds is following distance; 4 seconds is the urgent path.)",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 19 (SEE: Search)"
+  },
+  {
+    "id": "mc.lane.040",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "Which step of SEE means thinking about how hazards can interact to create risk?",
+    "choices": [
+      "Search",
+      "Execute",
+      "Evaluate",
+      "Signal"
+    ],
+    "answer": 2,
+    "explanation": "Evaluate means thinking about how hazards can interact to create risks for you, anticipating problems and having a plan to reduce risk.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 19 (SEE: Evaluate)"
+  },
+  {
+    "id": "mc.lane.041",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "Which action is part of the Execute step of SEE?",
+    "choices": [
+      "Scanning for oncoming left-turning traffic",
+      "Communicating your presence with lights or horn",
+      "Thinking about how hazards might interact",
+      "Identifying traffic control devices ahead"
+    ],
+    "answer": 1,
+    "explanation": "Execute means acting: communicate your presence with lights and/or horn, adjust speed, and adjust position or direction.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 20 (SEE: Execute)"
+  },
+  {
+    "id": "mc.lane.042",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "You see two hazards ahead: a car waiting to pull out and a pedestrian near the curb. How does the manual say to handle them?",
+    "choices": [
+      "Adjust speed so they separate, then handle them one at a time",
+      "Speed up so that you pass both hazards at the same moment",
+      "Ride between them while sounding your horn continuously",
+      "Stop and wait until both hazards are gone"
+    ],
+    "answer": 0,
+    "explanation": "Handle two or more hazards one step at a time: adjust speed to let them separate, then deal with them one at a time as single hazards.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 20 (SEE: Execute)"
+  },
+  {
+    "id": "mc.lane.043",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "You face three or more hazards at once. What does the manual advise?",
+    "choices": [
+      "Ignore the smallest hazard and focus on the largest",
+      "Move as close as possible to the least dangerous hazard",
+      "Weigh the consequences of each and give them equal distance",
+      "Speed up so you get past every hazard as fast as possible"
+    ],
+    "answer": 2,
+    "explanation": "Decision-making becomes more complex with three or more hazards. Evaluate the consequences of each and give equal distance to the hazards.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 20 (SEE: Execute)"
+  },
+  {
+    "id": "mc.lane.044",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "In high-risk areas such as intersections and school zones, how can you reduce your reaction time?",
+    "choices": [
+      "Shift into neutral and coast",
+      "Rest your feet near the ground",
+      "Keep your hands off the levers",
+      "Cover the clutch and both brakes"
+    ],
+    "answer": 3,
+    "explanation": "In potential high-risk areas such as intersections, shopping areas, and school and construction zones, cover the clutch and both brakes to reduce the time you need to react.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 20 (SEE: Execute)"
+  }
+]

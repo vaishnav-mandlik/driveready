@@ -1,0 +1,514 @@
+[
+  {
+    "id": "mc.imp.001",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "According to the manual, what degrades your ability to think clearly and ride skillfully more than any other factor?",
+    "choices": [
+      "Riding in heavy traffic",
+      "Bad weather and poor visibility",
+      "Alcohol and drugs",
+      "Riding an unfamiliar motorcycle"
+    ],
+    "answer": 2,
+    "explanation": "Alcohol and drugs, more than any other factor, degrade your ability to think clearly and ride skillfully.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 41 (Being in Shape to Ride)"
+  },
+  {
+    "id": "mc.imp.002",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "How much alcohol can have a significant effect on your riding performance?",
+    "choices": [
+      "Only enough to reach the legal limit",
+      "At least three drinks in an hour",
+      "Only hard liquor, not beer or wine",
+      "As little as one drink"
+    ],
+    "answer": 3,
+    "explanation": "As little as one drink can have a significant effect on performance. Impairment begins well before the legal limit is reached.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 41 (Being in Shape to Ride)"
+  },
+  {
+    "id": "mc.imp.003",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "Compared with car drivers, what is true of motorcyclists in crashes involving alcohol or drugs?",
+    "choices": [
+      "They are more likely to be killed or severely injured",
+      "They are less likely to be hurt because they can jump clear",
+      "They face about the same injury risk as car drivers",
+      "They are injured less often because they ride more slowly"
+    ],
+    "answer": 0,
+    "explanation": "Drinking and drug use are as big a problem among motorcyclists as among drivers, but motorcyclists are more likely to be killed or severely injured in a crash.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 41 (Why This Information Is Important)"
+  },
+  {
+    "id": "mc.imp.004",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "When are the judgment and decision-making skills needed for riding first affected by alcohol?",
+    "choices": [
+      "Only once you reach the legal limit",
+      "Only after you start to feel drunk",
+      "Long before legal limits are reached",
+      "Only if you drink on an empty stomach"
+    ],
+    "answer": 2,
+    "explanation": "Judgment and the decision-making processes needed for vehicle operation are affected long before legal limits are reached.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 41 (Alcohol and Drugs in Motorcycle Operation)"
+  },
+  {
+    "id": "mc.imp.005",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "Which statement about over-the-counter and prescription drugs is correct?",
+    "choices": [
+      "They are safe to ride on because a doctor or pharmacy supplied them",
+      "Only illegal drugs can affect your riding ability",
+      "They cancel out the effects of alcohol",
+      "Many have side effects that increase the risk of riding"
+    ],
+    "answer": 3,
+    "explanation": "Many over-the-counter, prescription and illegal drugs have side effects that increase the risk of riding.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 41 (Alcohol and Drugs in Motorcycle Operation)"
+  },
+  {
+    "id": "mc.imp.006",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "How do the combined effects of alcohol and drugs compare with either one alone?",
+    "choices": [
+      "The effects cancel each other out somewhat",
+      "The combination is more dangerous than either alone",
+      "The combination is no worse than the stronger one alone",
+      "Drugs reduce how much alcohol affects you"
+    ],
+    "answer": 1,
+    "explanation": "The combined effects of alcohol and drugs are more dangerous than either is alone.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 41 (Alcohol and Drugs in Motorcycle Operation)"
+  },
+  {
+    "id": "mc.imp.007",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "How quickly does alcohol begin to affect a drinker?",
+    "choices": [
+      "Within minutes, because it does not need to be digested",
+      "Only after about an hour, once it is digested",
+      "Only after you stop drinking",
+      "Not until the next drink is finished"
+    ],
+    "answer": 0,
+    "explanation": "Alcohol enters the bloodstream quickly. Unlike most foods and drinks, it does not need to be digested, and within minutes it reaches the brain.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 41 (Alcohol in the Body)"
+  },
+  {
+    "id": "mc.imp.008",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "What does Blood Alcohol Concentration (BAC) measure?",
+    "choices": [
+      "How many drinks you had in the last hour",
+      "How fast your body is digesting alcohol",
+      "The amount of alcohol in relation to blood in the body",
+      "How long alcohol stays in your stomach"
+    ],
+    "answer": 2,
+    "explanation": "BAC is the amount of alcohol in relation to blood in the body. The more alcohol in your blood, the greater the impairment.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 41 (Blood Alcohol Concentration)"
+  },
+  {
+    "id": "mc.imp.009",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "Generally, how fast can the body eliminate alcohol?",
+    "choices": [
+      "About two drinks per hour",
+      "About one drink per hour",
+      "About one drink every 15 minutes",
+      "About one drink every four hours"
+    ],
+    "answer": 1,
+    "explanation": "Generally, alcohol can be eliminated at a rate of almost one drink per hour, though other factors can affect how much is retained.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 41 (Blood Alcohol Concentration)"
+  },
+  {
+    "id": "mc.imp.010",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "Which of these is one of the three primary factors that determine your BAC?",
+    "choices": [
+      "The type of drink, such as beer or liquor",
+      "Whether you drink coffee afterward",
+      "How many years you have been riding",
+      "How fast you drink"
+    ],
+    "answer": 3,
+    "explanation": "The three primary factors are the amount of alcohol you consume, how fast you drink, and your body weight.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 42 (Blood Alcohol Concentration)"
+  },
+  {
+    "id": "mc.imp.011",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "Which contains the most alcohol: a 12-ounce beer, a 5-ounce glass of wine, or a mixed drink with one 1.5-ounce shot of liquor?",
+    "choices": [
+      "They contain about the same amount",
+      "The mixed drink, because it has hard liquor",
+      "The 12-ounce beer, because it is the largest",
+      "The glass of wine, because wine is stronger than beer"
+    ],
+    "answer": 0,
+    "explanation": "A 12-ounce beer, a 5-ounce glass of wine and a mixed drink with one 1.5-ounce shot of liquor all contain the same amount of alcohol.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 42 (Blood Alcohol Concentration)"
+  },
+  {
+    "id": "mc.imp.012",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "A rider drinks at a pace of one drink per hour. Which statement is true?",
+    "choices": [
+      "The body removes it all, so BAC stays at zero",
+      "Riding is safe at this pace for any length of time",
+      "Alcohol may still build up, and even one drink can affect judgment",
+      "Only women are affected at this pace, not men"
+    ],
+    "answer": 2,
+    "explanation": "Alcohol may still accumulate even at one drink per hour, especially for women, and abilities and judgment can be affected by that one drink.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 42 (Blood Alcohol Concentration)"
+  },
+  {
+    "id": "mc.imp.013",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "You have two drinks within one hour. At the end of that hour, how much alcohol remains in your bloodstream?",
+    "choices": [
+      "None at all",
+      "About half a drink",
+      "Exactly two drinks",
+      "At least one drink"
+    ],
+    "answer": 3,
+    "explanation": "The body eliminates about one drink per hour, so if you drink two drinks in an hour, at least one drink will remain at the end of that hour.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 42 (Blood Alcohol Concentration)"
+  },
+  {
+    "id": "mc.imp.014",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "Someone has seven drinks over three hours. Ignoring other factors, how much longer should they wait after the third hour before considering riding?",
+    "choices": [
+      "At least one more hour",
+      "At least three more hours",
+      "At least four more hours",
+      "At least seven more hours"
+    ],
+    "answer": 2,
+    "explanation": "About three drinks are eliminated in three hours, leaving at least four drinks (7 - 3 = 4). That takes at least another four hours to eliminate.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 42 (Blood Alcohol Concentration)"
+  },
+  {
+    "id": "mc.imp.015",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "A rider has four drinks over two hours. Ignoring other factors, how many drinks' worth of alcohol remain at the end of the two hours?",
+    "choices": [
+      "At least two",
+      "At least one",
+      "At least three",
+      "None, if they ate food"
+    ],
+    "answer": 0,
+    "explanation": "About one drink per hour is eliminated, so after four drinks in two hours, at least two drinks (4 - 2 = 2) remain, needing at least two more hours.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 42 (Blood Alcohol Concentration)"
+  },
+  {
+    "id": "mc.imp.016",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "What usually determines whether you are riding legally after drinking?",
+    "choices": [
+      "A breath, blood or urine test",
+      "How sober you look and act",
+      "How many drinks you say you had",
+      "How well you can walk a straight line"
+    ],
+    "answer": 0,
+    "explanation": "It doesn't matter how sober you may look or act. A breath, blood or urine test is what usually determines whether you are riding legally or illegally.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, pp. 42-43 (Alcohol and the Law)"
+  },
+  {
+    "id": "mc.imp.017",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "Which ability is affected first when you drink?",
+    "choices": [
+      "Your ability to balance the motorcycle",
+      "Your ability to judge how well you are riding",
+      "Your ability to see colors clearly",
+      "Your ability to hear traffic"
+    ],
+    "answer": 1,
+    "explanation": "Your ability to judge how well you are riding is affected first. Even as you perform worse, you think you are doing better.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 43 (Minimize the Risks)"
+  },
+  {
+    "id": "mc.imp.018",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "Why does alcohol lead riders to take greater and greater risks?",
+    "choices": [
+      "Alcohol makes the motorcycle easier to handle",
+      "It sharpens their reflexes for a short time after drinking",
+      "They ride worse but believe they are riding better",
+      "They feel too tired to care about risks"
+    ],
+    "answer": 2,
+    "explanation": "Although you may be performing more and more poorly, you think you are doing better and better. The result is that you ride confidently, taking greater risks.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 43 (Minimize the Risks)"
+  },
+  {
+    "id": "mc.imp.019",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "What is the best way to minimize the risks of drinking and riding?",
+    "choices": [
+      "Drink only beer before you ride",
+      "Ride slowly on the way home",
+      "Drink coffee before getting on the motorcycle",
+      "Separate your drinking from your riding"
+    ],
+    "answer": 3,
+    "explanation": "Minimize the risks by taking steps before you drink or by choosing to totally separate the two. Separate your drinking from your riding.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 43 (Minimize the Risks)"
+  },
+  {
+    "id": "mc.imp.020",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "A rider plans to set a drink limit and pace themselves so they can ride home. How does the manual view this plan?",
+    "choices": [
+      "As a poor alternative at best",
+      "As a safe plan, as long as they stop at three drinks",
+      "As the best approach for experienced riders",
+      "As safe, if they wait 30 minutes after the last drink"
+    ],
+    "answer": 0,
+    "explanation": "Setting a limit or pacing yourself are poor alternatives at best. Your judgment is one of the first things alcohol affects, so you may not realize how much your skills have suffered.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 43 (Make an Intelligent Choice)"
+  },
+  {
+    "id": "mc.imp.021",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "You have been drinking and have not controlled how much you drank. What should you do?",
+    "choices": [
+      "Ride home slowly using back roads",
+      "Ride home but stay in the right lane",
+      "Leave the motorcycle and arrange another way home",
+      "Drink water for a while, then ride"
+    ],
+    "answer": 2,
+    "explanation": "If you haven't controlled your drinking, you must avoid riding. Leave the motorcycle so you won't be tempted, and arrange another way to get home.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 43 (Make an Intelligent Choice)"
+  },
+  {
+    "id": "mc.imp.022",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "After drinking, you wait one hour per drink before riding. What can still be a problem?",
+    "choices": [
+      "Your BAC will be higher than when you stopped",
+      "Your motorcycle's engine will be cold",
+      "Nothing, because all of your riding skills are fully restored",
+      "Fatiguing after-effects of the alcohol may remain"
+    ],
+    "answer": 3,
+    "explanation": "If you exceed your limit, wait until your system eliminates the alcohol and its fatiguing after-effects. Side effects of drinking may still remain after the alcohol itself is gone.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, pp. 43-44 (Make an Intelligent Choice)"
+  },
+  {
+    "id": "mc.imp.023",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "Why is it up to others to step in when a friend has had too much to drink?",
+    "choices": [
+      "Friends are legally required to stop them",
+      "Someone who has had too much can't decide responsibly",
+      "The friend will always thank you for stepping in right away",
+      "Police will not stop a rider who seems fine"
+    ],
+    "answer": 1,
+    "explanation": "People who have had too much to drink are unable to make a responsible decision, so others must step in. You are rarely thanked at the time, but the alternatives are often worse.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 43 (Step In to Protect a Friend)"
+  },
+  {
+    "id": "mc.imp.024",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "Which is one of the ways the manual suggests to keep a friend who has been drinking from riding?",
+    "choices": [
+      "Let them ride if they promise to go slowly",
+      "Serve them food and coffee and take their key if you can",
+      "Follow behind them to make sure they get home",
+      "Let them ride if they wait 15 minutes after the last drink"
+    ],
+    "answer": 1,
+    "explanation": "Keep them there: use any excuse to keep them off the motorcycle, serve food and coffee to pass the time, explain your concerns, and take their key and secure their bike if you can.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, pp. 43-44 (Step In to Protect a Friend)"
+  },
+  {
+    "id": "mc.imp.025",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "What does \"get friends involved\" mean when stopping someone from riding after drinking?",
+    "choices": [
+      "Use peer pressure from a group of friends to intervene",
+      "Ask friends to ride alongside the rider",
+      "Have friends buy the rider one last drink",
+      "Leave the decision to whoever arrived with them"
+    ],
+    "answer": 0,
+    "explanation": "One way to protect a friend is to get other friends involved, using peer pressure from the group to intervene.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 44 (Step In to Protect a Friend)"
+  },
+  {
+    "id": "mc.imp.026",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "How does cannabis tend to affect a rider?",
+    "choices": [
+      "It distorts your perception of time, space and speed",
+      "It improves your focus in complex, fast-changing traffic situations",
+      "It affects only your hearing, not your vision",
+      "It has no effect once you are used to it"
+    ],
+    "answer": 0,
+    "explanation": "Cannabis tends to distort perception of time, space and speed, which is especially critical for riders who must make split-second decisions.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 44 (Cannabis & Motorcycle Operation)"
+  },
+  {
+    "id": "mc.imp.027",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "How do the effects of eaten cannabis compare with smoked cannabis?",
+    "choices": [
+      "They begin within minutes and fade within 2 hours",
+      "They start faster and wear off faster than when cannabis is smoked",
+      "They are identical in timing to smoked cannabis",
+      "Onset can take over an hour, and effects can last over 6 hours"
+    ],
+    "answer": 3,
+    "explanation": "Smoked cannabis usually takes effect within a few minutes and lasts 2 to 4 hours. Eaten cannabis can take more than an hour to start and last more than 6 hours.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 44 (Cannabis & Motorcycle Operation)"
+  },
+  {
+    "id": "mc.imp.028",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "How does riding a motorcycle compare with driving a car in terms of fatigue?",
+    "choices": [
+      "Riding is less tiring because the trip feels shorter",
+      "They are equally tiring on long trips",
+      "Riding is more tiring, so you will tire sooner",
+      "Riding is only more tiring in hot weather"
+    ],
+    "answer": 2,
+    "explanation": "Riding a motorcycle is more tiring than driving a car. On a long trip, you will tire sooner than you would in a car.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 44 (Fatigue)"
+  },
+  {
+    "id": "mc.imp.029",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "According to the manual, how far do experienced riders seldom try to ride in a day?",
+    "choices": [
+      "More than about two hours",
+      "More than about six hours",
+      "More than about ten hours",
+      "More than about 300 miles"
+    ],
+    "answer": 1,
+    "explanation": "To limit fatigue, limit your distance: experienced riders seldom try to ride more than about six hours a day.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 44 (Fatigue)"
+  },
+  {
+    "id": "mc.imp.030",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "To fight fatigue on a long ride, how often should you stop and get off the motorcycle?",
+    "choices": [
+      "At least every four hours",
+      "Only when you need fuel",
+      "At least every six hours",
+      "At least every two hours"
+    ],
+    "answer": 3,
+    "explanation": "Take frequent rest breaks: stop and get off the motorcycle at least every two hours.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 44 (Fatigue)"
+  },
+  {
+    "id": "mc.imp.031",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "What does the manual recommend for protecting yourself from the elements on long rides?",
+    "choices": [
+      "Ride faster to shorten your time in the wind",
+      "Dress warmly and consider a windshield",
+      "Wear lighter clothing to avoid overheating",
+      "Open your face shield for fresh air"
+    ],
+    "answer": 1,
+    "explanation": "Wind, cold and rain make you tire quickly. Dress warmly; a windshield is worth its cost if you plan to ride long distances.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 44 (Fatigue)"
+  },
+  {
+    "id": "mc.imp.032",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "A rider uses an artificial stimulant to stay alert on a long trip. What often happens when it wears off?",
+    "choices": [
+      "A steady return to normal alertness",
+      "Extreme fatigue or depression",
+      "Improved focus for several more hours",
+      "Only mild hunger and thirst"
+    ],
+    "answer": 1,
+    "explanation": "Artificial stimulants often result in extreme fatigue or depression when they wear off, leaving riders unable to concentrate.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 44 (Fatigue)"
+  }
+]

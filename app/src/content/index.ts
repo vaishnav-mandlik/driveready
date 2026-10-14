@@ -18,18 +18,34 @@ export const universalQuestionLoaders: Record<TrackId, Array<() => Question[]>> 
     () => require('./questions/car/speed-space.json'),
   ],
   motorcycle: [
+    () => require('./questions/motorcycle/mc-basic-control.json'),
+    () => require('./questions/motorcycle/mc-crash-avoidance.json'),
+    () => require('./questions/motorcycle/mc-gear-controls.json'),
+    () => require('./questions/motorcycle/mc-impairment.json'),
+    () => require('./questions/motorcycle/mc-intersections.json'),
+    () => require('./questions/motorcycle/mc-lane-position.json'),
+    () => require('./questions/motorcycle/mc-passengers-groups.json'),
   ],
   cdl: [
+    () => require('./questions/cdl/cdl-general.json'),
   ],
 };
 
 export const stateQuestionLoaders: Partial<Record<StateCode, () => Question[]>> = {
   CA: () => require('./questions/states/CA.json'),
+  FL: () => require('./questions/states/FL.json'),
+  IL: () => require('./questions/states/IL.json'),
+  NY: () => require('./questions/states/NY.json'),
+  PA: () => require('./questions/states/PA.json'),
   TX: () => require('./questions/states/TX.json'),
 };
 
 export const stateInfoLoaders: Partial<Record<StateCode, () => StateInfo>> = {
   CA: () => require('./states/CA.json'),
+  FL: () => require('./states/FL.json'),
+  IL: () => require('./states/IL.json'),
+  NY: () => require('./states/NY.json'),
+  PA: () => require('./states/PA.json'),
   TX: () => require('./states/TX.json'),
 };
 

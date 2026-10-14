@@ -1,0 +1,626 @@
+[
+  {
+    "id": "mc.int.001",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "Where is the greatest potential for conflict between a motorcycle and other traffic?",
+    "choices": [
+      "At intersections",
+      "On straight highways",
+      "In parking garages",
+      "On curves in rural areas"
+    ],
+    "answer": 0,
+    "explanation": "The greatest potential for conflict between you and other traffic is at intersections, which can be anywhere traffic may cross your path, even a driveway.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 20 (Intersections)"
+  },
+  {
+    "id": "mc.int.002",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "About what share of motorcycle/car crashes are caused by drivers violating the rider's right-of-way?",
+    "choices": [
+      "About one-tenth",
+      "Over one-half",
+      "About one-quarter",
+      "Nearly every one"
+    ],
+    "answer": 1,
+    "explanation": "Over one-half of motorcycle/car crashes are caused by drivers violating a rider's right-of-way.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 20 (Intersections)"
+  },
+  {
+    "id": "mc.int.003",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "Which situation does the manual identify as one of the biggest dangers at intersections?",
+    "choices": [
+      "A car stopped behind you at a red light",
+      "A pedestrian waiting on the corner",
+      "A car in the lane next to you going straight",
+      "A car turning left in front of you"
+    ],
+    "answer": 3,
+    "explanation": "Cars that turn left in front of you, including cars turning left from the lane on your right, and cars on side streets that pull into your lane are the biggest dangers.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 20 (Intersections)"
+  },
+  {
+    "id": "mc.int.004",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "You make eye contact with a driver waiting to turn left across your path. What should you assume?",
+    "choices": [
+      "The driver has seen you and will wait for you to pass",
+      "You now have the right-of-way, so keep your speed",
+      "The driver may still not see you, so be ready to react",
+      "The driver will always signal before pulling out"
+    ],
+    "answer": 2,
+    "explanation": "Never count on eye contact. Too often a driver looks right at a rider and still fails to \"see\" them. If a car can enter your path, assume that it will.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 20 (Intersections)"
+  },
+  {
+    "id": "mc.int.005",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "A car is waiting at a side street to enter your road. According to the manual, what should you assume?",
+    "choices": [
+      "If it can enter your path, it will",
+      "It will wait because you have the right-of-way",
+      "It will stay put if you flash your high beam",
+      "It will yield once the driver has looked at you"
+    ],
+    "answer": 0,
+    "explanation": "The only eyes you can count on are your own. If a car can enter your path, assume that it will.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 20 (Intersections)"
+  },
+  {
+    "id": "mc.int.006",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "As you approach an intersection where a driver is preparing to cross your path, what should you do?",
+    "choices": [
+      "Speed up so you clear the intersection before the driver moves",
+      "Move to the edge of the lane closest to that driver",
+      "Slow and choose a lane position the driver can see",
+      "Shift into neutral so you can coast through quietly"
+    ],
+    "answer": 2,
+    "explanation": "Slow and select a lane position that increases your visibility to that driver, and cover the clutch lever and both brakes to reduce reaction time.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 21 (Intersections)"
+  },
+  {
+    "id": "mc.int.007",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "As you enter an intersection where a car may cross your path, why should you avoid radical changes in speed or position?",
+    "choices": [
+      "It always causes your rear brake to lock",
+      "It makes your headlight hard to see",
+      "It uses up your following distance",
+      "The driver may think you plan to turn"
+    ],
+    "answer": 3,
+    "explanation": "As you enter the intersection, move away from the vehicle, but do not change speed or position radically, as drivers might think you are preparing to turn.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 21 (Intersections)"
+  },
+  {
+    "id": "mc.int.008",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "An oncoming car is signaling a left turn in the middle of a block, not at an intersection. How should you treat it?",
+    "choices": [
+      "Ignore it, since cars only turn at intersections",
+      "Use the same strategy as at an intersection",
+      "Speed up so you pass before it can turn",
+      "Move toward the center line to block its turn"
+    ],
+    "answer": 1,
+    "explanation": "The intersection strategy (slow, be visible, cover the controls, be ready to brake hard) should be used whenever an oncoming vehicle is signaling a left turn, whether at an intersection or not.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 21 (Intersections)"
+  },
+  {
+    "id": "mc.int.009",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "If an oncoming vehicle turns in front of you in an intersection and other traffic is around you, what should you be prepared to do?",
+    "choices": [
+      "Swerve into the lane beside you",
+      "Accelerate to get ahead of the car",
+      "Brake hard and hold your position",
+      "Lay the motorcycle down on its side"
+    ],
+    "answer": 2,
+    "explanation": "Be prepared to brake hard and hold your position if an oncoming vehicle turns in front of you, especially when there is other traffic around you.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 21 (Intersections)"
+  },
+  {
+    "id": "mc.int.010",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "You approach a blind intersection where a parked car blocks the view of a cross street on your right. Where should you ride?",
+    "choices": [
+      "In the left portion, away from the parked car",
+      "In the right portion of the lane, next to the parked car",
+      "In the center of the lane, at a faster speed",
+      "On the shoulder, behind the parked car"
+    ],
+    "answer": 0,
+    "explanation": "At a blind intersection, move to the part of the lane that brings you into the other driver's view at the earliest moment, such as the left portion, away from the parked car.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 21 (Blind Intersections)"
+  },
+  {
+    "id": "mc.int.011",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "You must stop at a stop line at a blind intersection. What should you do next?",
+    "choices": [
+      "Go once your front wheel is in the cross lane",
+      "Edge forward and stop again short of the cross lane",
+      "Wait at the stop line until a driver waves you on",
+      "Roll through slowly while sounding your horn"
+    ],
+    "answer": 1,
+    "explanation": "Stop at the stop sign or line first. Then edge forward and stop again, just short of where the cross-traffic lane meets your lane, and look around obstructions.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 21 (Blind Intersections)"
+  },
+  {
+    "id": "mc.int.012",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "While stopped and looking around a building at a blind intersection, what must you be careful about?",
+    "choices": [
+      "Keeping the engine revved so you can leave quickly",
+      "Keeping both feet on the footrests the whole time",
+      "Keeping your head still so you don't lose balance",
+      "Keeping your front wheel out of the cross lane"
+    ],
+    "answer": 3,
+    "explanation": "From your second stop, lean your body forward to look around buildings, parked cars or bushes, but make sure your front wheel stays out of the cross lane of travel.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 22 (Blind Intersections)"
+  },
+  {
+    "id": "mc.int.013",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "When passing a row of parked cars with no oncoming traffic, where in your lane should you ride?",
+    "choices": [
+      "Toward the left of your lane",
+      "Toward the right, close to the parked cars",
+      "On the center line",
+      "In the right third, near the curb"
+    ],
+    "answer": 0,
+    "explanation": "When passing parked cars, stay toward the left of your lane to avoid doors opening, drivers getting out, or people stepping from between cars.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 22 (Passing Parked Cars)"
+  },
+  {
+    "id": "mc.int.014",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "You are passing parked cars, and there is also oncoming traffic. What position is usually best?",
+    "choices": [
+      "The far left of your lane",
+      "The far right of your lane",
+      "On the lane line",
+      "The center of your lane"
+    ],
+    "answer": 3,
+    "explanation": "If oncoming traffic is present, it is usually best to remain in the center-lane position to maximize your space cushion on both sides.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 22 (Passing Parked Cars)"
+  },
+  {
+    "id": "mc.int.015",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "A parked car's driver may pull away from the curb without seeing you. What should you do?",
+    "choices": [
+      "Speed up to get past before the car moves",
+      "Slow down or change lanes to make room",
+      "Ride closer to the car so the driver notices you",
+      "Keep your speed; the parked driver must yield"
+    ],
+    "answer": 1,
+    "explanation": "A driver may pull away from the curb without checking or may look and fail to see you. Slow down or change lanes to make room for someone who might cut in.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 22 (Passing Parked Cars)"
+  },
+  {
+    "id": "mc.int.016",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "A car ahead may be about to make a sudden U-turn across the road. What does the manual advise?",
+    "choices": [
+      "Speed up to pass the car before it can turn",
+      "Pass the car on its right side, between it and the curb",
+      "Slow, use your horn, and continue with caution",
+      "Keep your speed and assume the driver sees you"
+    ],
+    "answer": 2,
+    "explanation": "Cars making sudden U-turns can block the whole road. Since you can't tell what a driver will do, slow and get the driver's attention. Use your horn and continue with caution.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 22 (Passing Parked Cars)"
+  },
+  {
+    "id": "mc.int.017",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "How should you park a motorcycle in a parallel parking space next to a curb, unless local rules require otherwise?",
+    "choices": [
+      "At an angle, with the rear wheel to the curb",
+      "Parallel to the curb, front wheel forward",
+      "At an angle, with the front wheel to the curb",
+      "Straight out, perpendicular to the curb"
+    ],
+    "answer": 0,
+    "explanation": "Park at an angle with the rear wheel to the curb. Some cities have ordinances that require motorcycles to park parallel to the curb.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 23 (Parking at the Roadside)"
+  },
+  {
+    "id": "mc.int.018",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "Why do drivers often pull out in front of motorcycles even after seeing them?",
+    "choices": [
+      "Motorcycles almost always travel faster than the speed limit",
+      "Drivers expect motorcycles to stop for them",
+      "Small vehicles seem farther away than they are",
+      "Motorcycle headlights make them look closer"
+    ],
+    "answer": 2,
+    "explanation": "Even if a driver sees you coming, you aren't necessarily safe. Smaller vehicles appear farther away than they are, so drivers think they have plenty of time.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 23 (Increasing Conspicuity)"
+  },
+  {
+    "id": "mc.int.019",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "What mental strategy does the manual suggest to help you notice more in traffic?",
+    "choices": [
+      "Assume drivers always see you once you are close",
+      "Assume every driver will yield right-of-way",
+      "Focus only on the vehicle directly ahead",
+      "Pretend you are invisible to other drivers"
+    ],
+    "answer": 3,
+    "explanation": "Pretend you're invisible. If you assume others can't see you, you will ride in a hyper-aware mindset and notice more details around you.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 23 (Increasing Conspicuity)"
+  },
+  {
+    "id": "mc.int.020",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "Most motorcycle crashes happen at what time?",
+    "choices": [
+      "Between midnight and 4 a.m.",
+      "During daylight hours",
+      "At dusk only",
+      "In heavy fog"
+    ],
+    "answer": 1,
+    "explanation": "Most crashes occur during daylight hours, so wear bright-colored clothing to increase your chances of being seen.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 23 (Clothing)"
+  },
+  {
+    "id": "mc.int.021",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "Which jacket or vest colors does the manual call your best bets for being seen?",
+    "choices": [
+      "Black, dark blue or gray",
+      "Bright orange, red, yellow, green",
+      "Brown, tan or olive",
+      "White, cream or silver only"
+    ],
+    "answer": 1,
+    "explanation": "Bright orange, red, yellow or green jackets or vests are your best bets for being seen. Any bright color is better than drab or dark colors.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 23 (Clothing)"
+  },
+  {
+    "id": "mc.int.022",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "Where does reflective material help drivers coming from the SIDE spot you?",
+    "choices": [
+      "On the bottom of your boots",
+      "On the front of the fuel tank",
+      "On your vest and helmet sides",
+      "On the inside of your gloves"
+    ],
+    "answer": 2,
+    "explanation": "Reflective material on a vest and on the sides of the helmet will help drivers coming from the side to spot you. It also helps drivers ahead and behind.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 23 (Clothing)"
+  },
+  {
+    "id": "mc.int.023",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "During the day, how much more likely is a motorcycle with its headlight on to be noticed?",
+    "choices": [
+      "Twice as likely",
+      "Slightly more likely",
+      "Five times as likely",
+      "No more likely"
+    ],
+    "answer": 0,
+    "explanation": "Studies show that during the day, a motorcycle with its light on is twice as likely to be noticed. Keep the headlight on at all times.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 24 (Headlight)"
+  },
+  {
+    "id": "mc.int.024",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "Which headlight beam should you use in fog?",
+    "choices": [
+      "High beam",
+      "Headlight off, parking lights only",
+      "Alternate high and low beam",
+      "Low beam"
+    ],
+    "answer": 3,
+    "explanation": "The manual says to use low beam in fog. At night in clear conditions, use high beam whenever you are not following or meeting a car.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 24 (Headlight)"
+  },
+  {
+    "id": "mc.int.025",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "You are about to change lanes on an empty road with no one in sight. Should you signal?",
+    "choices": [
+      "No; signals are only needed when other traffic is present",
+      "Yes; signal even when no one seems to be around",
+      "Only on multi-lane highways",
+      "Only for turns, not for lane changes"
+    ],
+    "answer": 1,
+    "explanation": "Use signals anytime you plan to change lanes or turn, even when you think no one else is around. Signal lights also make you easier to spot.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 24 (Signals)"
+  },
+  {
+    "id": "mc.int.026",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "Why is it important to make sure your turn signal is off after you turn?",
+    "choices": [
+      "A driver may think you're turning again and pull out",
+      "A blinking signal drains the battery in a few minutes",
+      "The signal makes your brake light flash",
+      "Signals left on cause the engine to overheat"
+    ],
+    "answer": 0,
+    "explanation": "Once you turn, make sure your signal is off, or a driver may pull directly into your path thinking you plan to turn again.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 24 (Signals)"
+  },
+  {
+    "id": "mc.int.027",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "When is it especially important to flash your brake light before slowing?",
+    "choices": [
+      "When you are slowing gradually for a red light far ahead",
+      "When there is no traffic behind you",
+      "When slowing where others won't expect it, like mid-block",
+      "When you are leaving a parking space"
+    ],
+    "answer": 2,
+    "explanation": "Flash your brake light especially before slowing more quickly than others expect, slowing where they may not expect it (mid-block or at an alley), or when stopped at an intersection with traffic approaching from behind.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 24 (Brake Light)"
+  },
+  {
+    "id": "mc.int.028",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "You are being followed closely and see a hazard ahead that will make you slow. What should you do?",
+    "choices": [
+      "Turn and look back at the driver",
+      "Speed up to gain more space",
+      "Brake hard to warn the driver",
+      "Flash your brake light first"
+    ],
+    "answer": 3,
+    "explanation": "If you are being followed closely, flash your brake light before you slow. The tailgater may be watching you and not see the hazard ahead.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 24 (Brake Light)"
+  },
+  {
+    "id": "mc.int.029",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "Most motorcycles have convex (rounded) mirrors. How do they affect what you see?",
+    "choices": [
+      "Narrower view, but distances look accurate",
+      "Wider view, and cars look closer than they are",
+      "Wider view; cars seem farther away than they are",
+      "The same view as flat mirrors"
+    ],
+    "answer": 2,
+    "explanation": "Convex mirrors give a wider view of the road behind than flat mirrors, but they make cars seem farther away than they actually are. Allow extra distance before changing lanes.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 25 (Using Your Mirrors)"
+  },
+  {
+    "id": "mc.int.030",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "You are about to change lanes on a road with three lanes in your direction. Which lanes should you check with a head check?",
+    "choices": [
+      "Only the lane next to you",
+      "The lane next to you and the far lane",
+      "Only the lane you are in",
+      "No head check is needed if your mirrors are clear"
+    ],
+    "answer": 1,
+    "explanation": "On a road with several lanes, check the far lane and the one next to you. A driver in the distant lane may head for the same space you plan to take.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 25 (Head Checks)"
+  },
+  {
+    "id": "mc.int.031",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "Why are mirror checks alone not enough before changing lanes?",
+    "choices": [
+      "Mirrors show only the lane directly behind you",
+      "Mirrors always vibrate too much to read at speed",
+      "Head checks are needed only at night",
+      "Motorcycles have blind spots, just like cars"
+    ],
+    "answer": 3,
+    "explanation": "Checking your mirrors is not enough. Motorcycles have blind spots like cars. Before you change lanes, turn your head and look to the side.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 25 (Head Checks)"
+  },
+  {
+    "id": "mc.int.032",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "When is a quick tap of the horn a good idea?",
+    "choices": [
+      "Before passing a parked car with a driver inside",
+      "When a driver behind you is following too closely",
+      "Whenever you come to a stop at a red traffic light",
+      "As a greeting to other motorcyclists"
+    ],
+    "answer": 0,
+    "explanation": "Give a quick beep before passing anyone who may move into your lane, such as a parked car with someone in the driver's seat, a driver crowding the car ahead, or a cyclist or pedestrian in the street.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 26 (Horn)"
+  },
+  {
+    "id": "mc.int.033",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "How should you use your horn in an emergency?",
+    "choices": [
+      "Loud and long, while ready to stop or swerve",
+      "Tap it lightly so you don't startle the other driver",
+      "Use it only after you have come to a full stop",
+      "Rely on it alone instead of braking"
+    ],
+    "answer": 0,
+    "explanation": "In an emergency, sound your horn loud and long, and be ready to stop or swerve away from the danger.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 26 (Horn)"
+  },
+  {
+    "id": "mc.int.034",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "How should you adjust your following distance at night?",
+    "choices": [
+      "Close it to stay in the car's headlights",
+      "Open it up to three seconds or more",
+      "Keep it at exactly two seconds",
+      "Shorten it so you can see the car's taillights"
+    ],
+    "answer": 1,
+    "explanation": "Distances are harder to judge at night. Open up a three-second or more following distance, and allow more distance to pass and be passed.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 26 (Riding at Night)"
+  },
+  {
+    "id": "mc.int.035",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "At night, how can the car ahead help you?",
+    "choices": [
+      "You can follow it closely to stay inside its light",
+      "Its driver will signal to warn you of hazards",
+      "Its lights show the road ahead and reveal bumps",
+      "You can use its taillights to judge your exact speed"
+    ],
+    "answer": 2,
+    "explanation": "The headlights of the car ahead can give you a better view of the road than even your high beam, and taillights bouncing up and down can alert you to bumps or rough pavement.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 26 (Riding at Night)"
+  },
+  {
+    "id": "mc.int.036",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "When should you use your high beam at night?",
+    "choices": [
+      "Only on well-lighted city streets",
+      "Never; it can blind other drivers",
+      "Only in fog, rain or snow",
+      "When not following or meeting a car"
+    ],
+    "answer": 3,
+    "explanation": "Get all the light you can. Use your high beam whenever you are not following or meeting a car.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 26 (Riding at Night)"
+  },
+  {
+    "id": "mc.int.037",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "What does it mean to \"override your headlight\" at night?",
+    "choices": [
+      "Using your high beam when meeting other cars",
+      "Riding too fast to stop within the lit distance",
+      "Riding with your headlight turned off",
+      "Aiming your headlight too high"
+    ],
+    "answer": 1,
+    "explanation": "Do not let your total stopping distance exceed the distance your light beam illuminates. Slow down so you can stop within the distance you can see.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 26 (Riding at Night)"
+  },
+  {
+    "id": "mc.int.038",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "How does a motorcycle's horn compare with a car's, and what does that mean for you?",
+    "choices": [
+      "It is louder, so it is all you need in an emergency",
+      "It is not as loud, so use it but don't rely on it",
+      "It is just as loud, so drivers always hear it",
+      "It is not as loud, so it should never be used"
+    ],
+    "answer": 1,
+    "explanation": "A motorcycle's horn isn't as loud as a car's, so use it, but don't rely on it. Having time and space to maneuver matters along with the horn.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 26 (Horn)"
+  },
+  {
+    "id": "mc.int.039",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "You are stopped at an intersection. Why should you keep checking your mirrors?",
+    "choices": [
+      "To check that your taillight and turn signal are still on",
+      "To watch for drivers behind who may not stop in time",
+      "To see if the cross traffic signal has turned yellow",
+      "To keep track of pedestrians waiting at the corner behind you"
+    ],
+    "answer": 1,
+    "explanation": "Make a special point of using your mirrors when stopped at an intersection. Watch cars coming up from behind; if the drivers aren't paying attention, they could be on top of you before they see you.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 25 (Using Your Mirrors)"
+  }
+]
