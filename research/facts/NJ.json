@@ -1,0 +1,830 @@
+{
+  "code": "NJ",
+  "name": "New Jersey",
+  "agency": {
+    "name": "New Jersey Motor Vehicle Commission",
+    "abbreviation": "MVC",
+    "website": "https://www.nj.gov/mvc/"
+  },
+  "handbook": {
+    "title": "New Jersey Driver Manual",
+    "edition": "2026 (Revised 09/26)",
+    "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf"
+  },
+  "knowledgeTest": {
+    "questions": 50,
+    "passingScore": 40,
+    "passingPercent": 80,
+    "roadSigns": null,
+    "timeLimitMinutes": null,
+    "format": "50 questions plus a survey question about organ donation. Purchase a permit at an MVC driver testing center (6 Points of ID), then make an appointment for the knowledge test; a vision test is also given. Applicants who cannot read in any language take an oral test with headphones.",
+    "languages": "MVC website: written tests in English, Arabic, Chinese (Mandarin), French, Spanish, Korean, Polish, Portuguese, Russian, Japanese, Hindi, Albanian and Turkish; oral tests in English and Spanish. If your language is not offered, request an MVC-arranged interpreter at your permit appointment (interpreter appointments are typically scheduled within four to six weeks). MVC-approved interpreters are also available for deaf or hard of hearing applicants. The manual also lists American Sign Language.",
+    "retestWait": "7 days after a failed knowledge test (14 days after a failed road test), per the MVC First Driver License page (https://www.nj.gov/mvc/license/firstlic.htm).",
+    "notes": "Same 50-question test for all ages; 80% (40 of 50) needed, per the MVC sample knowledge test page and manual p. 33. Special learner permit at 16 (enrolled in a 6-hour behind-the-wheel course); examination permit at 17 (Option C adult road at 21+). Under 21: at least 6 months supervised driving with 50 hours including 10 at night before the road test; 21+: 3 months. Probationary license at 17 at the earliest; basic license at 18 after 1 year probationary.",
+    "sourceUrl": "https://www.nj.gov/mvc/license/sample_knowledge_test.htm"
+  },
+  "motorcycleTest": null,
+  "cdlTest": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC",
+      "detail": "It is illegal to drive under the influence of alcohol or drugs, or with a BAC of 0.08% or higher. A first offense at 0.08%-0.10% carries lighter fines than 0.10% or more.",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 117,
+        "quote": "In New Jersey, it is illegal for an individual to drive while under the influence of intoxicating liquor, narcotic, hallucinogenic or habit-producing drugs, or with a BAC of 0.08 percent or higher."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.01% BAC",
+      "detail": "Drivers under 21 may not drive with a BAC of 0.01% or more. A first underage offense (0.01% to under 0.08%) brings a 30- to 90-day suspension, 15-30 days of community service and an IDRC or alcohol education program.",
+      "number": 0.01,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 117,
+        "quote": "For individuals younger than 21, it is illegal to drive with a BAC of 0.01 percent or higher."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC (commercial motor vehicle)",
+      "detail": "Operating a commercial motor vehicle with a BAC of 0.04% (but less than 0.08%) is a violation of N.J.S.A. 39:3-10.13; a first violation requires an ignition interlock on the driver's non-commercial vehicle while the CDL is suspended.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 129,
+        "quote": "operation of a commercial motor vehicle with a BAC of 0.04% but less than 0.08%"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusal (1st): loss of driving privileges until an ignition interlock is installed, interlock 9-15 months after restoration, $1,000/year surcharge for 3 years",
+      "detail": "By driving on NJ roads you agree to a breath test after an arrest for an intoxicated-driving offense. Refusal is illegal; refusers are taken to a hospital where blood may be drawn, and face a $1,000-a-year surcharge for three years plus IDRC referral and fines.",
+      "number": 1000,
+      "unit": "dollars per year surcharge",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 129,
+        "quote": "Convictions for refusals in connection with a first offense will result in the loss of driving privileges until an ignition interlock device has been installed."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "BAC 0.08%-<0.10%: $250-$400 fine, 12-48 hours IDRC, up to 30 days jail, license lost until interlock installed, interlock 3 months; $1,000/yr surcharge for 3 years",
+      "detail": "First offense at 0.10% or more: $300-$500 fine and interlock for 7 months to 1 year (0.10%-<0.15%). At 0.15% or more: 3-month license loss plus interlock during suspension and 12-15 months after restoration.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 129,
+        "quote": "First DUI offense with BAC 0.08% or greater but less than 0.10%: Installation of ignition interlock device for three months from the date of driving privilege restoration."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "open_container",
+      "value": "$200 fine first offense; $250 or 10 days community service after",
+      "detail": "Open or unsealed alcoholic beverage containers, and unsealed cannabis items, are not allowed in the passenger area of a motor vehicle.",
+      "number": 200,
+      "unit": "dollars",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 131,
+        "quote": "Motorists who carry open or unsealed alcoholic beverage containers or unsealed cannabis items in passenger areas of motor vehicles are subject to a fine of $200 for a first offense and $250 or 10 days of community service for all subsequent offenses."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_min_age",
+      "value": "16 (special learner permit with a behind-the-wheel course); 17 (examination permit)",
+      "detail": "At 16 you can get a special learner permit only if enrolled in an approved 6-hour behind-the-wheel course; the instructor buys the permit. Anyone 17 or older can get an examination permit without a course.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 21,
+        "quote": "Any New Jersey resident who is at least 16 years old and is not in suspension status may enroll in a behind-the-wheel driver training course to obtain a special learner permit at any MVC Licensing Center."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "6 months supervised driving (3 months if 21 or older)",
+      "detail": "Permit holders under 21 must practice at least six months without suspensions or postponements before the road test; adults 21+ need three months.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 36,
+        "quote": "GDL permit holders under 21 years of age must have a minimum of six months supervised practice driving which must include a minimum of 50 practice driving hours, including 10 during darkness prior to a road test appointment."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "50 hours, including 10 during darkness (under 21)",
+      "detail": "A parent, guardian or supervising driver must complete the Certification of Supervised Driving form (BA-CSD), which is presented at the road test/licensing.",
+      "number": 50,
+      "unit": "hours",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 17,
+        "quote": "Must complete a minimum of 50 practice driving hours, including 10 hours during darkness"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Adult 21+ with a valid NJ license and at least 3 years of driving experience, in the front seat",
+      "detail": "The supervising driver rides in the front seat. Out-of-state licensed or less-experienced companions must drive the car to the road test area.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 20,
+        "quote": "Permit holder must be accompanied in the front seat by an adult supervising driver who is at least 21 years of age and who possesses a valid New Jersey driver license and has a minimum of three years' driving experience."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "17 (probationary license)",
+      "detail": "After six months of supervised driving and passing the road test, a driver at least 17 gets a probationary license, held for at least one year.",
+      "number": 17,
+      "unit": "years",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 17,
+        "quote": "Must be at least 17 years old"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "No driving 11:01 p.m. to 5:00 a.m. (under 21)",
+      "detail": "Applies to permit and probationary drivers under 21. Exemptions for employment or religious reasons require a signed certification on letterhead carried in the vehicle.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 20,
+        "quote": "No driving between 11:01 pm and 5:00 am"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "Dependents plus one additional passenger, unless a parent/guardian is in the car (under 21)",
+      "detail": "Probationary drivers under 21 may carry their own dependents and one other person; the limit does not apply when a parent or guardian is riding along. Hour, passenger and decal limits do not apply at 21+.",
+      "number": 1,
+      "unit": "additional passenger",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 20,
+        "quote": "Passengers are limited to dependents of the probationary license holder and one additional person, unless accompanied by a parent/guardian."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "18 (after 1 year with a probationary license)",
+      "detail": "The basic (unrestricted) license requires being at least 18 and completing one year of unsupervised driving with probationary restrictions.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 16,
+        "quote": "requires a minimum age of 18 in order to receive an unrestricted, basic driver license"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "Handheld phones banned for all drivers (primary offense); $200-$400 first offense",
+      "detail": "Hands-free is legal for licensed adults but discouraged. Handheld use is allowed only in emergencies (fire, crash, serious road hazard, medical or hazmat emergency) with one hand on the wheel. Third offense within 10 years: $600-$800, 3 points, possible 90-day suspension.",
+      "number": 200,
+      "unit": "dollars (minimum first-offense fine)",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 87,
+        "quote": "Using a handheld cellular telephone or texting device is a primary offense. Law enforcement may stop and cite a motorist specifically for these actions."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "texting_ban",
+      "value": "Texting while driving banned (primary offense)",
+      "detail": "Using a handheld texting device is covered by the same handheld-device law and fines; it is a primary offense.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 87,
+        "quote": "Using a handheld cellular telephone or texting device is a primary offense."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "GDL permit and probationary drivers may not use handheld OR hands-free phones",
+      "detail": "Applies to special learner permit, examination permit and probationary license holders; any use of a cell phone or other electronic device, even hands-free, violates GDL restrictions (manual p. 88).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 20,
+        "quote": "No using hand-held or hands-free cell phones or any other electronic devices."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Driver and all passengers must buckle up; primary for driver, front-seat passengers and under 18; secondary for back-seat adults",
+      "detail": "The driver is responsible for passengers under 18; front-seat passengers 18+ are responsible for themselves. Unbuckled back-seat riders 18+ can be ticketed only if the car is stopped for something else. GDL drivers must make every passenger buckle up.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 42,
+        "quote": "The driver is responsible for all passengers under age 18. Front-seat passengers 18 years of age and over are responsible for themselves. A police officer can stop a motorist solely for a violation of the seat belt law."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Under 8 and under 57 inches: car seat with harness or booster, in a rear seat; under 2 and under 30 lb: rear-facing",
+      "detail": "Under 4 and under 40 lb: rear-facing, then forward-facing harness seat, in the rear seat. All children under 8 ride in a rear seat if one exists. Fine $50-$75.",
+      "number": 57,
+      "unit": "inches",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 44,
+        "quote": "Children under age eight who are less than 57 inches (4 feet, 9 inches) tall must ride in either:"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Never drive faster than conditions safely allow, regardless of the posted limit",
+      "detail": "Drivers must adjust speed for visibility, road design, traffic volume and surrounding activity; failure to do so can result in a moving violation.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 65,
+        "quote": "Never drive faster than weather, road, or traffic conditions safely allow, regardless of the posted speed limit."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "25 mph",
+      "detail": "Unless otherwise posted, the limit in school zones, business districts and residential districts is 25 mph.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 64,
+        "quote": "25 mph School zones, business, or residential districts"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "25 mph (35 mph in suburban business and residential districts)",
+      "detail": "The handbook's default-limit table lists 25 mph for business or residential districts and 35 mph for suburban business and residential districts, unless otherwise posted.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 64,
+        "quote": "35 mph Suburban business and residential districts"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "25 mph (35 mph in suburban business districts)",
+      "detail": "Same 25 mph default as school zones and residential districts; suburban business and residential districts default to 35 mph.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 64,
+        "quote": "25 mph School zones, business, or residential districts"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "50 mph on non-posted rural roadways",
+      "detail": "Certain state highways (as posted) and interstates are 55 mph.",
+      "number": 50,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 64,
+        "quote": "50 mph Non-posted rural roadways"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "65 mph on certain interstate highways (as posted); otherwise 55 mph",
+      "detail": "Fines double for going 10 mph or more over the limit in a 65 mph zone, and for most other moving violations there.",
+      "number": 65,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 64,
+        "quote": "65 mph Certain interstate highways (as posted)"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Do not block traffic by driving slowly when road and traffic conditions are normal",
+      "detail": "If vehicle problems keep you from keeping up with traffic, pull safely off the road and turn on hazard lights. Slow speed blocking traffic is a 2-point violation.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 65,
+        "quote": "When road surfaces and traffic are normal, New Jersey law prohibits blocking traffic through slow driving."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a full stop unless a No Turn on Red sign is posted; yield to all traffic and pedestrians",
+      "detail": "Watch especially for pedestrians and hard-to-see bicycles and mopeds, which may have a green light.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 74,
+        "quote": "Unless a No Turn on Red sign is posted, New Jersey law authorizes a right turn on a red light after a motorist comes to a full stop and checks for traffic."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Not authorized: turns at a signal are made only on the \"go\" signal, except the right turn on red allowed by N.J.S.A. 39:4-115(b)",
+      "detail": "New Jersey's turn-on-red statute (N.J.S.A. 39:4-115, text as amended by P.L.2009, c.319) covers right turns only; other turns at a signal are made only on the \"go\" signal. The manual likewise authorizes only right turns on red (p. 74).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://pub.njleg.state.nj.us/bills/2008/PL09/319_.PDF",
+        "page": 2,
+        "quote": "intending to turn to the right or left at an intersection where traffic is controlled by traffic control signals or by a traffic or police officer, shall proceed to make either turn with proper care to avoid accidents and, except as provided in b. below, only upon the \"go\" signal"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 100 feet before turning",
+      "detail": "Move to the proper lane and signal at least 100 feet before any turn, and cancel the signal afterward. Failure to give a proper signal is a 2-point violation.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 57,
+        "quote": "State law requires a motorist to move to the proper lane and signal at least 100 feet before making any turn."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the extreme right, stop, let it pass; then stay at least 300 feet behind",
+      "detail": "Applies when an emergency vehicle sounds a siren and/or shows flashing red and/or blue lights. Volunteer firefighters' private vehicles use blue lights. Never park within 200 feet of a fire department vehicle in service.",
+      "number": 300,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 80,
+        "quote": "A motorist should steer to the extreme right of the roadway, stop, and wait for the emergency vehicle to pass. Afterward, the motorist should keep at least 300 feet behind a signaling emergency vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "move_over_law",
+      "value": "Change to a non-adjacent lane (or slow below the limit and be prepared to stop); fine $100-$500",
+      "detail": "Applies to stationary emergency vehicles, tow trucks, highway maintenance and other vehicles with flashing red, blue, amber or yellow lights, and to any stationary vehicle using hazard lights, flares or reflective triangles. Move Over violations carry 2 points.",
+      "number": 100,
+      "unit": "dollars (minimum fine)",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 80,
+        "quote": "If a lane change is impossible, prohibited by law or unsafe, the motorist must reduce the speed of their vehicle to a reasonable and proper speed that is lower than the posted speed limit and be prepared to stop, if necessary. Motorists who violate this law face a fine of not less than $100 and not more than $500."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop at least 25 feet away; on a dual-lane highway across a safety island or raised median, slow to 10 mph",
+      "detail": "Applies on two-lane roads, multi-lane roads separated only by lines, and private roads. If the bus is stopped directly in front of a school, you may pass from either direction at no more than 10 mph. Improper passing of a school bus is 5 points.",
+      "number": 25,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 79,
+        "quote": "State law requires a motorist to stop at least 25 feet away if they are traveling on a two-lane road or on a multi-lane highway where lanes are only separated by lines, or on a privately maintained road. When traveling on a dual-lane highway, a motorist should slow to 10 mph if on the other side of a safety island or raised median."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "following_distance",
+      "value": "Three-seconds-plus rule (4+ seconds in bad weather; 6+ seconds on snow-covered roads)",
+      "detail": "The manual also gives a rule of thumb of one car length (about 20 feet) for each 10 mph. Tailgating is a 5-point violation.",
+      "number": 3,
+      "unit": "seconds",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 97,
+        "quote": "If it takes at least three seconds before your vehicle passes the object, a motorist should have enough distance for a sudden stop."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "headlights_required",
+      "value": "From 1/2 hour after sunset to 1/2 hour before sunrise; when visibility is 500 feet or less; whenever wipers are in use",
+      "detail": "Also required in fog, mist, smoke or other conditions reducing visibility. Parking lights may not be used in place of headlights.",
+      "number": 500,
+      "unit": "feet visibility",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 85,
+        "quote": "Headlights must be used between one-half hour after sunset and one-half hour before sunrise. Headlights must also be used when visibility is 500 feet or less, when using windshield wipers (during rain, snow, and ice) or when encountering fog, mist, smoke, or other factors that reduce visibility."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "Within 500 feet of an oncoming vehicle",
+      "detail": "The manual says not to use high beams when other vehicles are approaching (no distance given). N.J.S.A. 39:3-60, as quoted by the NJ Supreme Court in State v. Scriven (2016), sets 500 feet.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.njcourts.gov/system/files/court-opinions/2016/a_11_15.pdf",
+        "page": 16,
+        "quote": "whenever the driver of a vehicle approaches an oncoming vehicle within five hundred feet, such driver shall use a distribution of light or composite beam so aimed that the glaring rays are not projected into the eyes of the oncoming driver"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "Use low beams when driving behind another vehicle (no distance specified)",
+      "detail": "Neither the manual nor N.J.S.A. 39:3-60 gives a following distance; the manual simply says not to use high beams when driving behind another vehicle.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 85,
+        "quote": "Bright beams can momentarily blind other motorists by constricting the pupils and should not be used if other vehicles are approaching or when driving behind another vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "10 feet",
+      "detail": "Do not stop or park within 10 feet of a fire hydrant.",
+      "number": 10,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 87,
+        "quote": "Within 10 feet of a fire hydrant."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "25 feet of a crosswalk at an intersection (and never in a crosswalk)",
+      "detail": "Also no parking between a pedestrian safety zone and the curb or within 20 feet of the end of the safety zone.",
+      "number": 25,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 87,
+        "quote": "Within 25 feet of a crosswalk at an intersection or sideline of a street or intersection highway, except at alleys."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Not within an intersection; not within 25 feet of the crosswalk/sideline at an intersection",
+      "detail": "The 25-foot rule is measured from the crosswalk at an intersection or the sideline of the intersecting street.",
+      "number": 25,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 87,
+        "quote": "Within an intersection."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "50 feet of a stop sign",
+      "detail": "Do not stop or park within 50 feet of a stop sign.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 87,
+        "quote": "Within 50 feet of a stop sign."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet",
+      "detail": "Do not stop or park within 50 feet of a railroad crossing.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 87,
+        "quote": "Within 50 feet of a railroad crossing."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet of the driveway entrance (75 feet on the opposite side of the street)",
+      "detail": "Separately, never park within 200 feet of a fire department vehicle in service.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 87,
+        "quote": "Within 20 feet of the driveway entrance to any fire station and within 75 feet on the street opposite a fire station entrance."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "No more than 6 inches from the curb",
+      "detail": "It is illegal to park more than six inches from the curb.",
+      "number": 6,
+      "unit": "inches",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 86,
+        "quote": "It is illegal for a vehicle to be parked more than six inches from the curb."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "At least 15 feet from the crossing",
+      "detail": "Stop when there are flashing red lights, ringing bells, descending or lowered gates, or flag signals; do not cross until gates rise, bells stop and lights stop flashing. Do not pass within 100 feet of a railroad crossing.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 78,
+        "quote": "A motorist must stop at least 15 feet from a railroad crossing when there are flashing red lights, ringing bells, descending or lowered gates, or flag signals."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "Move over a lane if possible; otherwise at least 4 feet; if 4 feet isn't possible, slow to 25 mph and be prepared to stop",
+      "detail": "Safe Passing Law (N.J.S.A. 39:4-92.4) protects vulnerable road users (pedestrians, bicyclists, skaters, etc.). Violation causing bodily injury: $500 and 2 points; no injury: $100 and no points.",
+      "number": 4,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 152,
+        "quote": "On a single-lane road, drivers must allow at least a 4-foot safety zone when they pass, and (3) If 4 feet is not possible on a section of road, drivers must slow to 25 mph and be prepared to stop"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Stop (not just slow) and remain stopped for pedestrians in a marked crosswalk or unmarked crosswalk at an intersection",
+      "detail": "Remain stopped until the pedestrian has cleared your lane and the adjacent lane in the same direction; never pass a vehicle stopped for a pedestrian. Failure to stop: up to $500, up to 25 days in jail, community service, up to 6 months' suspension and 2 points.",
+      "number": 500,
+      "unit": "dollars (maximum fine)",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 68,
+        "quote": "Stop for them. This means come to a complete stop, not just slow down or yield."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Notify police of any crash with injury, death or damage; if damage over $500 or injury and no police report is filed, send a written report to the MVC within 10 days",
+      "detail": "Also notify your insurance company at once. If someone has been killed, do not move the body until police or an ambulance arrive. If you hit a parked vehicle, notify police and try to find the owner.",
+      "number": 10,
+      "unit": "days",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 113,
+        "quote": "When damage to the property is more than $500 or there is personal injury, a motorist must: • Send a written report to the MVC within 10 days if no police report is filed."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "Standard policy: $35,000 per person / $70,000 per accident bodily injury, $25,000 property damage (policies issued or renewed on/after Jan 1, 2026)",
+      "detail": "Liability insurance is mandatory for every registered vehicle. The increases do not apply to the separate low-cost Basic policy. Keep the insurance ID card (paper or electronic) in the vehicle.",
+      "number": 35000,
+      "unit": "dollars per person",
+      "source": {
+        "url": "https://www.nj.gov/dobi/bulletins/blt22_09.pdf",
+        "page": 1,
+        "quote": "the minimum coverage limit shall be increased to $25,000 for policies issued or renewed on or after January 1, 2023, but prior to January 1, 2026; and $35,000 for policies issued or renewed on or after January 1, 2026."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "point_system",
+      "value": "12 to 14 points in a 24-month period (or more) brings a Notice of Scheduled Suspension",
+      "detail": "6+ points in 3 years brings a $150 surcharge plus $25 per extra point. Up to 3 points removed for each violation-free year; Driver Improvement Program removes 3, defensive driving course removes 2 (once every 5 years). Examples: speeding 1-14 over = 2, 15-29 = 4, 30+ = 5; tailgating 5; reckless 5; passing a school bus 5; leaving the scene with injury 8.",
+      "number": 12,
+      "unit": "points",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 135,
+        "quote": "Motorists who accumulate between 12 and 14 points in a 24-month period or more will receive a Notice of Scheduled Suspension by mail from the MVC."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Helmets required for all operators and riders",
+      "detail": "Operators who carry passengers without helmets can be fined. Operators must also wear approved goggles or a face shield unless the motorcycle has a windscreen.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 175,
+        "quote": "Helmets are required by law for motorcycle operators and riders in New Jersey. Operators who carry passengers who do not wear helmets can be fined."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Not allowed per manual guidance: do not ride between rows of stopped vehicles",
+      "detail": "The manual says vehicles and motorcycles each need a full lane; it advises against riding between rows of stopped vehicles or squeezing past a stopped vehicle in the same lane. No statute is cited.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 192,
+        "quote": "Sharing lanes. Vehicles and motorcycles each need a full lane to operate safely. To prevent lane sharing: • Do not ride between rows of stopped vehicles."
+      },
+      "status": "verified"
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Frozen dessert (ice cream) trucks",
+      "summary": "When an ice cream truck is flashing red lights and showing its stop-signal arm, drivers from either direction must yield to people crossing to or from it, stop, and then pass at no more than 15 mph (not required across a safety island or raised median on a dual highway). Improper passing is 4 points.",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 80,
+        "quote": "Stop, and then drive past the truck at a speed of no more than 15 mph."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "GDL decals",
+      "summary": "Permit and probationary drivers under 21 must display two red reflective GDL decals, one on the top left corner of the front plate and one on the top left corner of the rear plate, on any vehicle they drive. Decals cost $4 a pair.",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 21,
+        "quote": "One decal is to be displayed on the top left corner of the rear license plate and the other on the top left corner of the front license plate."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Snow and ice removal",
+      "summary": "Drivers must remove snow and ice from the hood, trunk, roof and windshield before driving: $25-$75 fine even if nothing flies off; if flying snow or ice causes injury or damage, fines up to $1,500.",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 49,
+        "quote": "Any person who violates this law is subject to fines of $25 to $75, regardless of whether any snow or ice is dislodged from the vehicle. If dislodged snow or ice causes injury or property damage, fines up to $1,500 may be assessed."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Three-minute idling limit",
+      "summary": "New Jersey limits vehicle idling to three minutes or less, with exceptions such as being stopped in traffic. Fines are $250 to $1,000 per violation.",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 52,
+        "quote": "New Jersey law requires all motorists to restrict vehicle idling to three minutes or less."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Doubled fines: work zones, 65 mph zones and Safe Corridors",
+      "summary": "Traffic fines double in roadway construction zones, for speeding 10+ mph over (and most other moving violations) in 65 mph zones, and on designated Safe Corridor highways.",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 105,
+        "quote": "In New Jersey, traffic fines are doubled for motor vehicle violations committed in roadway construction zones."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Traffic circles",
+      "summary": "New Jersey has no set rules for traffic circles; the historical flow pattern and posted stop/yield signs decide right-of-way, often favoring a major highway through the circle. When in doubt, the vehicle on the left yields to the vehicle approaching from the right.",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 70,
+        "quote": "There are no set rules for driving into, around and out of a traffic circle in New Jersey."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Weave lanes",
+      "summary": "On a weave lane (a combined entrance and exit), drivers entering from the ramp must yield to drivers leaving the expressway.",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 72,
+        "quote": "The motorist entering from the entrance ramp must yield the right-of-way to the motorist leaving the expressway."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Horses and horse-drawn vehicles",
+      "summary": "When approaching or passing a horseback rider or horse-drawn vehicle, slow to 25 mph or less; if a rider or driver coming the other way signals, stop and stay stopped until the horse passes.",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 157,
+        "quote": "When approaching or passing a person riding or driving a horse-drawn vehicle, motorists are required to reduce their speed to 25 mph or less and proceed with caution."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Maggie's Law (drowsy driving)",
+      "summary": "Knowingly driving while impaired by lack of sleep is illegal, and driving while fatigued counts as recklessness under the vehicular homicide statute.",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 94,
+        "quote": "Maggie's Law, enacted in June 2003, makes it illegal to knowingly drive a vehicle while impaired by lack of sleep."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Studded snow tires season",
+      "summary": "Studded snow tires may be used only between November 15 and April 1.",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 101,
+        "quote": "In New Jersey, motorists may use studded snow tires between November 15 and April 1."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Dark traffic signal = four-way stop",
+      "summary": "When a traffic signal is out because of a power failure or malfunction, treat it as a four-way stop.",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 70,
+        "quote": "When a traffic signal is not illuminated because of a power failure or other malfunction; the traffic signal is observed as a 4-way stop signal."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Address change within one week",
+      "summary": "Report an address change to the MVC within one week of moving (including moving out of state), and a legal name change within two weeks. A new resident with a valid out-of-state license must apply for a NJ license within 60 days or before the current license expires, whichever is sooner.",
+      "source": {
+        "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+        "page": 6,
+        "quote": "A motorist who changes addresses must report this change to the MVC within one week after moving."
+      },
+      "status": "verified"
+    }
+  ],
+  "officialPracticeTests": [
+    "https://www.nj.gov/mvc/license/sample_knowledge_test.htm"
+  ],
+  "gaps": [
+    "knowledgeTest.roadSigns: no separate road-signs section is described on MVC pages or in the manual",
+    "knowledgeTest.timeLimitMinutes: no time limit published",
+    "motorcycleTest: MVC publishes no motorcycle knowledge-test question count or passing score",
+    "left_turn_on_red: not addressed in the manual (manual authorizes right turns on red only); sourced from the text of N.J.S.A. 39:4-115 in P.L.2009, c.319 on the NJ Legislature site",
+    "high_beam_dim_oncoming: manual gives no distance; sourced from N.J.S.A. 39:3-60 as quoted in State v. Scriven (NJ Supreme Court, 2016) on njcourts.gov",
+    "high_beam_dim_following: no distance in the manual or N.J.S.A. 39:3-60; fact records the manual's no-distance rule",
+    "insurance_minimums: not in the manual; sourced from DOBI Bulletin 22-09 (standard policy limits). Basic policy limits not captured",
+    "motorcycle_lane_splitting: manual gives safety guidance only (no statute cited); questions phrase it as manual guidance",
+    "knowledge test languages: manual list (incl. ASL) differs slightly from the MVC Knowledge Test page; website list used",
+    "dui_first_offense fine: manual p. 125 lists $250-$400 for a first offense at 0.08%-<0.10% while the p. 127 table shows $250-$500; facts/questions use the p. 125 figure tied to that BAC range"
+  ]
+}

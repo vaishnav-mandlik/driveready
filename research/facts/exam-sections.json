@@ -1,11 +1,53 @@
 {
   "_doc": "Curated, structured road-sign section rules for the exam simulator, transcribed from each state's verified knowledgeTest.roadSigns text (research/facts/XX.json). Merged into app state files by app/scripts/import-state-facts.mjs. questions/passingScore here describe the WHOLE simulated exam.",
-  "NY": {"questions": 20, "passingScore": 14, "signs": {"questions": 4, "passingScore": 2}, "rulesPassingScore": null,
-         "source": "NY Driver's Manual p.10: 20 questions, 14 correct, including at least 2 of 4 road-sign questions"},
-  "IL": {"questions": 35, "passingScore": 28, "signs": {"questions": 15, "passingScore": null}, "rulesPassingScore": null,
-         "source": "IL Rules of the Road Review Workbook: 15 sign-identification + 20 multiple-choice/true-false questions"},
-  "GA": {"questions": 40, "passingScore": 30, "signs": {"questions": 20, "passingScore": 15}, "rulesPassingScore": 15,
-         "source": "GA DDS: Road Signs test 20 questions (15 needed) and Road Rules test 20 questions (15 needed), scored separately"},
-  "NC": {"questions": 52, "passingScore": 41, "signs": {"questions": 12, "passingScore": 9}, "rulesPassingScore": 32,
-         "source": "NCDMV: knowledge test (40 questions, 32 needed) plus a separate traffic-sign test (identify 9 of 12)"}
+  "NY": {
+    "questions": 20,
+    "passingScore": 14,
+    "signs": {
+      "questions": 4,
+      "passingScore": 2
+    },
+    "rulesPassingScore": null,
+    "source": "NY Driver's Manual p.10: 20 questions, 14 correct, including at least 2 of 4 road-sign questions"
+  },
+  "IL": {
+    "questions": 35,
+    "passingScore": 28,
+    "signs": {
+      "questions": 15,
+      "passingScore": null
+    },
+    "rulesPassingScore": null,
+    "source": "IL Rules of the Road Review Workbook: 15 sign-identification + 20 multiple-choice/true-false questions"
+  },
+  "GA": {
+    "questions": 40,
+    "passingScore": 30,
+    "signs": {
+      "questions": 20,
+      "passingScore": 15
+    },
+    "rulesPassingScore": 15,
+    "source": "GA DDS: Road Signs test 20 questions (15 needed) and Road Rules test 20 questions (15 needed), scored separately"
+  },
+  "NC": {
+    "questions": 52,
+    "passingScore": 41,
+    "signs": {
+      "questions": 12,
+      "passingScore": 9
+    },
+    "rulesPassingScore": 32,
+    "source": "NCDMV: knowledge test (40 questions, 32 needed) plus a separate traffic-sign test (identify 9 of 12)"
+  },
+  "VA": {
+    "questions": 40,
+    "passingScore": 34,
+    "signs": {
+      "questions": 10,
+      "passingScore": 10
+    },
+    "rulesPassingScore": 24,
+    "source": "Virginia DMV Knowledge Exam page + Driver's Manual p.5: part 1 = 10 road-sign questions, all 10 must be correct; part 2 = 30 general knowledge questions, 24 correct"
+  }
 }

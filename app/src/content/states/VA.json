@@ -1,0 +1,730 @@
+{
+  "code": "VA",
+  "name": "Virginia",
+  "agency": {
+    "name": "Virginia Department of Motor Vehicles",
+    "abbreviation": "DMV",
+    "website": "https://www.dmv.virginia.gov/"
+  },
+  "handbook": {
+    "title": "Virginia Driver's Manual",
+    "edition": "DMV 39 (current edition on dmv.virginia.gov as of Oct 2026; PDF last modified Apr 28, 2026; no revision date printed in the manual)",
+    "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf"
+  },
+  "exam": {
+    "questions": 40,
+    "passingScore": 34,
+    "passingPercent": 85,
+    "timeLimitMinutes": null,
+    "roadSigns": "Separate road-sign section: part one is 10 road sign questions and all ten must be answered correctly before you can take part two. Part two is 30 general knowledge questions; you must answer 24 correctly (80 percent) to pass.",
+    "format": "Two-part multiple-choice exam taken on a computer at DMV customer service centers or in classrooms at participating high schools; oral exams available on request at all customer service centers. Exam questions come from the Virginia Driver's Manual.",
+    "languages": "English, American Sign Language (ASL), Amharic (Ethiopian), Arabic, Chinese/Mandarin, Chinese/Mandarin (Traditional), Dari, Farsi, French, German, Haitian Creole, Italian, Japanese, Korean, Kurdish, Mongolian, Nepali, Pashto, Punjabi, Russian, Spanish, Thai, Twi (Akan), Turkish, Urdu, Vietnamese. Translators may not be used for tests in offered languages.",
+    "retestWait": "Under 18: must wait a full 15 days before retaking (fail January 1, earliest retake January 17). Age 18 or older: one attempt per day. After three failures (any age), you must complete the classroom portion of a Virginia-approved driver education program (completion date after the third failure) before testing again.",
+    "notes": "questions/passingScore/passingPercent describe the whole two-part exam (10 sign questions, all required, plus 24 of 30 general knowledge questions). The 80 percent figure in the manual applies to part two only. The same exam applies to teens and adults. Learner's permit: at least 15 years and 6 months old. Under 18: hold permit at least 9 months, complete driver education, and log 45 supervised hours (15 after sunset). If you don't get your license/permit within 1 year of passing the knowledge exam, you must retest. Applicants who hold a valid license from another U.S. state, Canada, Germany, France or the Republic of Korea do not take the knowledge exam. Beginning January 1, 2027, first-time applicants ages 18 through 20 must hold a permit for at least 90 days and complete driver education (DMV learner's permit page).",
+    "sourceUrl": "https://www.dmv.virginia.gov/licenses-ids/exams/know-exam",
+    "signs": {
+      "questions": 10,
+      "passingScore": 10
+    },
+    "rulesPassingScore": 24
+  },
+  "motorcycleExam": {
+    "questions": 25,
+    "notes": "The motorcycle knowledge exam has 25 questions based on the Virginia Motorcycle Operator Manual (DMV 2), taken on a computer; DMV does not publish the passing score. Applicants 18 or older must hold a motorcycle learner's permit at least 30 days; permit holders must wear an approved helmet and eye/face protection, be supervised by a licensed motorcyclist at least 21 from a separate vehicle, and may not carry passengers. Motorcycle learner's permits are valid 12 months. Completing a Virginia Rider Training Program course can waive the knowledge and skills tests.",
+    "sourceUrl": "https://www.dmv.virginia.gov/licenses-ids/motorcycle/knowledge-exam"
+  },
+  "cdlExam": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC (age 21 and older)",
+      "detail": "Drivers 21 or older are DUI at a BAC of .08 percent or higher. You can also be convicted of DUI below .08 if your driving is impaired.",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 26,
+        "quote": "Legally, drivers age 21 or older are considered to be driving under the influence (DUI) if your blood alcohol content (BAC) is .08 percent or higher."
+      }
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% BAC (under 21)",
+      "detail": "A driver under 21 with a BAC of at least .02 but less than .08 can be convicted of illegal consumption of alcohol: a 1-year license suspension plus either a mandatory minimum $500 fine or at least 50 hours of community service. At .08 or higher, they can be convicted of DUI.",
+      "number": 0.02,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 26,
+        "quote": "If under age 21, you can be convicted of illegal consumption of alcohol if your BAC is at least .02 but less than .08."
+      }
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC while driving a commercial motor vehicle",
+      "detail": "It is unlawful to drive a commercial motor vehicle with a BAC of 0.04 percent or more. Not covered in the Driver's Manual.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://law.lis.virginia.gov/vacode/46.2-341.24/",
+        "page": null,
+        "quote": "for a person to drive or operate a commercial motor vehicle while such person has a blood alcohol concentration of 0.04 percent or more by weight by volume"
+      }
+    },
+    {
+      "key": "implied_consent",
+      "value": "Driving on Virginia roads means you agree to a breath test; a first unreasonable refusal is a civil offense with a 1-year license suspension",
+      "detail": "Refusing a breath test (or testing .08 or higher) when charged with DUI also triggers an automatic 7-day administrative license suspension for a first offense. The 1-year court suspension for refusal is in addition to it.",
+      "number": 1,
+      "unit": "year",
+      "source": {
+        "url": "https://law.lis.virginia.gov/vacode/18.2-268.3/",
+        "page": null,
+        "quote": "A first violation is a civil offense. For a first offense, the court shall suspend the defendant's privilege to drive for a period of one year."
+      }
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "Class 1 misdemeanor; license suspended for 1 year; mandatory minimum $250 fine",
+      "detail": "A first DUI conviction takes away your privilege to drive for one year (in addition to the 7-day administrative suspension). The mandatory minimum fine is $250 (Code of Virginia 18.2-270), with extra mandatory jail time for a BAC of 0.15 or more.",
+      "number": 1,
+      "unit": "year",
+      "source": {
+        "url": "https://law.lis.virginia.gov/vacode/18.2-271/",
+        "page": null,
+        "quote": "shall of itself operate to deprive the person so convicted of the privilege to drive or operate any motor vehicle, engine, or train in the Commonwealth for a period of one year from the date of such judgment"
+      }
+    },
+    {
+      "key": "open_container",
+      "value": "Open container with contents partly removed in the passenger area plus signs of drinking can lead to a drinking-while-driving charge",
+      "detail": "The passenger area includes the seats and anywhere within the driver's reach, including an unlocked glove compartment.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 32,
+        "quote": "are stopped by law enforcement and you have an open container of alcohol in the passenger area and the contents have been partially removed, and"
+      }
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15 years and 6 months",
+      "detail": "You must be at least 15 1/2 to apply for a learner's permit; you take a vision screening and the two-part knowledge exam.",
+      "number": 15.5,
+      "unit": "years",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/licenses-ids/learners/apply",
+        "page": null,
+        "quote": "You must be at least 15 years and six months old to apply."
+      }
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "9 months (under 18), or until age 18 if sooner",
+      "detail": "Drivers under 18 must hold the learner's permit at least nine months before getting a license.",
+      "number": 9,
+      "unit": "months",
+      "source": {
+        "url": "https://law.lis.virginia.gov/vacode/46.2-335.2/",
+        "page": null,
+        "quote": "Any person under the age of 18 years issued a learner's permit pursuant to § 46.2-335 shall hold such permit for a minimum period of nine months or until he reaches the age of 18 years, whichever occurs first."
+      }
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "45 hours, at least 15 after sunset",
+      "detail": "Applicants under 18 must log at least 45 hours of driving with the permit, 15 of them after sunset, certified by a parent, foster parent or legal guardian.",
+      "number": 45,
+      "unit": "hours",
+      "source": {
+        "url": "https://law.lis.virginia.gov/vacode/46.2-335/",
+        "page": null,
+        "quote": "he has driven a motor vehicle for at least 45 hours, at least 15 of which were after sunset"
+      }
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Licensed driver 21 or older in the front passenger seat (18-20 allowed if legal guardian or sibling/half-sibling/step-sibling)",
+      "detail": "The supervising driver must hold a valid license and be alert and able to assist you.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 33,
+        "quote": "A learner’s permit allows you to operate a motor vehicle when a licensed driver at least 21 years of age is seated in the front passenger seat."
+      }
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 years and 3 months",
+      "detail": "Minors can get a (provisional) driver's license at 16 years 3 months after completing driver education, holding the permit nine months and logging 45 hours.",
+      "number": 16.25,
+      "unit": "years",
+      "source": {
+        "url": "https://law.lis.virginia.gov/vacode/46.2-334/",
+        "page": null,
+        "quote": "Minors at least 16 years and three months old may be issued driver's licenses under the following conditions:"
+      }
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "No driving midnight to 4 a.m. until age 18",
+      "detail": "Exceptions: driving to/from work, an adult-supervised school/civic/religious/public organization activity, with a parent (or spouse 18+) in the seat beside you, or emergencies. Learner's permit holders also may not drive midnight-4 a.m.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://law.lis.virginia.gov/vacode/46.2-334.01/",
+        "page": null,
+        "quote": "The holder of a provisional driver's license shall not operate a motor vehicle on the highways of the Commonwealth between the hours of midnight and 4:00 a.m."
+      }
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "Only 1 passenger under 21 until age 18; after the first year, up to 3 under 21 in limited cases",
+      "detail": "After holding the license one year, up to three passengers under 21 are allowed when driving to/from a school-sponsored activity, with a licensed driver 21+ in the front seat, or in an emergency. Family/household members don't count.",
+      "number": 1,
+      "unit": "passenger",
+      "source": {
+        "url": "https://law.lis.virginia.gov/vacode/46.2-334.01/",
+        "page": null,
+        "quote": "Until the holder is 18 years old, a provisional driver's license shall not authorize its holder to operate a motor vehicle with more than one passenger who is less than 21 years old."
+      }
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "18 (provisional passenger and curfew restrictions end on the 18th birthday)",
+      "detail": "The initial license issued under 18 is provisional; its restrictions expire automatically at 18.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://law.lis.virginia.gov/vacode/46.2-334.01/",
+        "page": null,
+        "quote": "The provisional driver's license restrictions in subsections B and C shall expire on the holder's eighteenth birthday."
+      }
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "All drivers: may not hold a phone or other wireless device while driving",
+      "detail": "Exceptions: a driver emergency or when lawfully parked or stopped. A phone may be used for navigation if you are not holding it or entering information. Fine: $125 first offense, $250 second offense or in a highway work zone.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 26,
+        "quote": "Virginia law prohibits drivers from holding cell phones or any other wireless communication devices while driving except in a driver emergency or the vehicle is lawfully parked or stopped."
+      }
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Driver and all passengers, front and rear, must wear safety belts",
+      "detail": "The driver must make sure every passenger under 18 is secured in a safety belt, booster seat or child safety seat, wherever they sit. A physician's written waiver is the only listed exception.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 28,
+        "quote": "Under Virginia law, the driver and all passengers, both front and rear, must wear safety belts."
+      }
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Children under 8 must be in a child safety seat or booster seat; rear-facing to age 2",
+      "detail": "Children should ride rear facing from birth to 2 years (or as long as the seat maker allows). Fine: $50 first offense, up to $500 for a second or later offense.",
+      "number": 8,
+      "unit": "years",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 29,
+        "quote": "All children under age 8 must be properly secured in a child safety seat or booster seat when riding in vehicles manufactured after January 1, 1968."
+      }
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Drive slower than the posted limit when school/work zone limits apply or conditions make the posted speed unsafe",
+      "detail": "Speed limits are maxima for ideal conditions. In rain, snow or ice you can be ticketed for driving too fast for conditions even at or below the posted limit.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 16,
+        "quote": "By law you must drive slower where signs indicate a school zone speed limit or work zone speed limit is in effect, and/or if conditions such as road construction or bad weather make the posted speed unsafe."
+      }
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "25 mph unless posted otherwise",
+      "detail": "School, business and residential areas default to 25 mph. Some school zones use automated photo speed enforcement.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 17,
+        "quote": "Unless there is a speed limit sign stating otherwise, the maximum speed limit for passenger vehicles and motorcycles is 25 MPH for school, business and residential areas; 35 MPH for unpaved roads and 55 MPH for all other roads."
+      }
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "25 mph unless posted otherwise",
+      "detail": "Residential areas default to 25 mph for passenger vehicles and motorcycles.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 17,
+        "quote": "Unless there is a speed limit sign stating otherwise, the maximum speed limit for passenger vehicles and motorcycles is 25 MPH for school, business and residential areas; 35 MPH for unpaved roads and 55 MPH for all other roads."
+      }
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "25 mph unless posted otherwise",
+      "detail": "Business areas default to 25 mph for passenger vehicles and motorcycles.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 17,
+        "quote": "Unless there is a speed limit sign stating otherwise, the maximum speed limit for passenger vehicles and motorcycles is 25 MPH for school, business and residential areas; 35 MPH for unpaved roads and 55 MPH for all other roads."
+      }
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "55 mph on other roads unless posted (35 mph on unpaved roads)",
+      "detail": "Unless signs say otherwise, the maximum is 35 mph on unpaved roads and 55 mph on all other roads outside school, business and residential areas.",
+      "number": 55,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 17,
+        "quote": "Unless there is a speed limit sign stating otherwise, the maximum speed limit for passenger vehicles and motorcycles is 25 MPH for school, business and residential areas; 35 MPH for unpaved roads and 55 MPH for all other roads."
+      }
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "70 mph where posted on interstates and multilane divided limited-access highways",
+      "detail": "The general maximum on interstates is 55 mph, raised to 70 mph only where signs are posted after an engineering study. Not stated in the Driver's Manual.",
+      "number": 70,
+      "unit": "mph",
+      "source": {
+        "url": "https://law.lis.virginia.gov/vacode/46.2-870/",
+        "page": null,
+        "quote": "the maximum speed limit shall be 70 miles per hour where indicated by lawfully placed signs"
+      }
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "You may drive slower than the limit only if you don't impede the normal movement of traffic",
+      "detail": "Driving so slowly that you block normal traffic flow is not allowed; on multi-lane roads, slower drivers keep right.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 16,
+        "quote": "You may drive slower than the speed limit, as long as you don’t impede the normal movement of traffic, but it is illegal to drive any faster."
+      }
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop unless a No Turn on Red sign or a red right arrow is shown",
+      "detail": "Stop completely, look both ways and yield to pedestrians and other traffic. Virginia does not allow turns on a red arrow unless a sign permits it.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 7,
+        "quote": "You may turn right while the traffic signal displays a red light. Before turning, you must come to a complete stop."
+      }
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Allowed only from a one-way street onto another one-way street, after a complete stop",
+      "detail": "Not allowed if a No Turn on Red sign is posted or a red left arrow is displayed.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 7,
+        "quote": "You may turn left at a red light if you are on a one-way street and turning left onto another one-way street while the traffic signal displays a red light."
+      }
+    },
+    {
+      "key": "signal_distance",
+      "value": "3 to 4 seconds (100 feet) before turning",
+      "detail": "Signal before every turn, lane change, or highway entry/exit, even when no other traffic is around.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 20,
+        "quote": "When you plan to turn, signal three or four seconds, 100 feet, ahead of your turn."
+      }
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the right edge and stop until it passes; never follow closer than 500 feet",
+      "detail": "Yield immediately to police, fire and rescue vehicles or ambulances using a siren or flashing lights. On an undivided road, also pull over for one approaching in the opposite lane. Don't follow an emergency vehicle with flashing lights closer than 500 feet.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 18,
+        "quote": "Never follow an emergency vehicle closer than 500 feet when its lights are flashing."
+      }
+    },
+    {
+      "key": "move_over_law",
+      "value": "Move to a lane not next to a stopped emergency vehicle or tow truck with flashing lights; if you can't, slow down",
+      "detail": "Also change lanes for stationary vehicles showing hazard lights, warning signs or flares. Violations can bring a court license suspension and demerit points.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 18,
+        "quote": "When approaching a stationary emergency vehicle or tow truck with flashing lights on a highway, proceed with caution and, if reasonable, with due regard for safety and traffic conditions, change to a lane not next to the vehicle. If you are unable to safely change lanes, reduce your speed and proceed with caution."
+      }
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop from any direction for a stopped school bus with flashing red lights and stop sign; exception: you are on the opposite side of a median or barrier",
+      "detail": "Stop for a stopped bus with flashing red lights and extended stop sign on a highway, private road or school driveway, and remain stopped until everyone is clear and the bus moves. Also stop if the bus is loading/unloading with signals off. You need not stop only when traveling the opposite direction with a median or barrier separating you from the bus.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 17,
+        "quote": "You do not have to stop if you are traveling in the opposite direction on a roadway with a median or barrier dividing the road and the bus is on the opposite side of the median or barrier."
+      }
+    },
+    {
+      "key": "following_distance",
+      "value": "2 seconds under 35 mph, 3 seconds at 35-45 mph, 4 seconds at 46-70 mph",
+      "detail": "Virginia's 2-3-4 second rule on dry roads; add seconds for bad weather, heavy traffic, poor pavement, and add one second behind a motorcycle. Double following distance in hazardous conditions.",
+      "number": null,
+      "unit": "seconds",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 21,
+        "quote": "2 seconds Under 35 MPH 3 seconds 35-45 MPH 4 seconds 46-70 MPH"
+      }
+    },
+    {
+      "key": "headlights_required",
+      "value": "Sunset to sunrise; when visibility is reduced to 500 feet; whenever wipers are on because of bad weather",
+      "detail": "Virginia ties headlight use to windshield wiper use in rain, fog, snow or sleet.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 24,
+        "quote": "Virginia law requires motorists to use headlights during inclement weather such as rain, fog, snow or sleet when visibility is reduced to 500 feet. You must use your headlights whenever you use your windshield wipers as a result of bad weather."
+      }
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "Dim high beams when an oncoming vehicle is within 500 feet",
+      "detail": "Use low beams in cities and towns except on unlit streets.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 25,
+        "quote": "Use high-beam headlights on highways, unless another vehicle is within 500 feet coming toward you."
+      }
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "Use low beams within 200 feet of the vehicle ahead",
+      "detail": "When following another vehicle, switch to low beams within 200 feet.",
+      "number": 200,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 25,
+        "quote": "When following, use low-beams whenever you are within 200 feet of the vehicle ahead."
+      }
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet",
+      "detail": "Do not park within 15 feet of a fire hydrant.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 24,
+        "quote": "within 15 feet of a fire hydrant"
+      }
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "No parking on a crosswalk (no set distance given)",
+      "detail": "The manual bans parking on crosswalks or sidewalks but gives no distance; parking within 20 feet of an intersection is also banned.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 24,
+        "quote": "on crosswalks or sidewalks"
+      }
+    },
+    {
+      "key": "parking_intersection",
+      "value": "20 feet",
+      "detail": "Do not park within 20 feet of an intersection.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 24,
+        "quote": "within 20 feet of an intersection"
+      }
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet",
+      "detail": "Do not park within 50 feet of a railroad crossing.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 24,
+        "quote": "within 50 feet of a railroad crossing"
+      }
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "15 feet of the entrance to a fire, ambulance or rescue squad station",
+      "detail": "Also: no parking within 500 feet of where fire trucks or equipment are stopped answering an alarm.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 24,
+        "quote": "within 15 feet of the entrance to a fire, ambulance or rescue squad station"
+      }
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "No more than 1 foot from the curb",
+      "detail": "On a two-way street park on the right side; on a one-way road you may park on either side.",
+      "number": 1,
+      "unit": "foot",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 24,
+        "quote": "You may not park more than one foot from the curb."
+      }
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "Stop within 50 feet but not less than 15 feet from the nearest rail (outside cities and towns)",
+      "detail": "Required when signals warn of a train, a gate is down, a flagman signals, or a train is plainly visible and near. The Driver's Manual says to stop when lights begin to flash but gives no distance.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://law.lis.virginia.gov/vacode/46.2-885/",
+        "page": null,
+        "quote": "the driver of the vehicle shall stop within 50 feet but not less than 15 feet from the nearest rail of such railroad, and shall not proceed until he can do so safely"
+      }
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet of clearance; change lanes if the lane is too narrow",
+      "detail": "Motorists must pass bicyclists (and moped or power-assisted bicycle riders) with at least three feet of clearance. Motor vehicles may not use marked bike lanes, even to pass.",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 22,
+        "quote": "State law requires motorists to pass cyclists with at least three feet of clearance."
+      }
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Yield to pedestrians and bicyclists in marked crosswalks and at unmarked intersections",
+      "detail": "Drivers must come to a full stop for pedestrians lawfully crossing and for anyone using a white cane or guide dog. Failing to stop and causing serious injury or death can be a Class 1 misdemeanor. Passing at a crosswalk is illegal.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 18,
+        "quote": "You must yield to pedestrians or bicyclists who are crossing a street within a clearly marked crosswalk or at an unmarked intersection."
+      }
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Stop, help the injured, report the crash to police as quickly as possible, exchange information, notify your insurer",
+      "detail": "Crashes involving property damage, injury or death must be reported to police. Police send a written report to DMV when there is injury, death or over $3,000 in total property damage. If you hit an unattended vehicle or property, leave a note and report to police within 24 hours.",
+      "number": 3000,
+      "unit": "USD",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 27,
+        "quote": "Law enforcement officers are required to forward a written crash report to DMV when a traffic crash results in injury or the death of any person or total property damage is in excess of $3,000."
+      }
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "30/60/20 liability ($30,000 one person, $60,000 two or more, $20,000 property) for policies effective on or after Jan. 1, 2022",
+      "detail": "Instead of insurance you may pay a $500 uninsured motor vehicle fee, which gives no coverage. Driving uninsured without paying the fee brings suspension until you pay a $600 noncompliance fee and file proof of insurance for 3 years.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 36,
+        "quote": "Policies effective on or after Jan. 1, 2022 $30,000 $60,000 $20,000"
+      }
+    },
+    {
+      "key": "point_system",
+      "value": "Demerit points (3, 4 or 6 per conviction); clinic at 12 points in 12 months or 18 in 24 months; 90-day suspension at 18 in 12 months or 24 in 24 months (age 18+)",
+      "detail": "Under 18: any demerit-point or seat belt/child restraint conviction requires a driver improvement clinic; a second conviction brings a 90-day suspension and a third a 1-year revocation (or until 18, whichever is longer).",
+      "number": 12,
+      "unit": "points",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 31,
+        "quote": "DMV will require you to complete a driver improvement clinic if you accumulate 12 demerit points within 12 months or 18 points within 24 months."
+      }
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Universal: operators and passengers must wear protective helmets; operators also need eye protection or a windshield",
+      "detail": "Helmets, face shields, glasses and goggles must meet Snell, ANSI or U.S. DOT standards. Narrow exceptions: motorcycles with wheels 8 inches or less in diameter, fully enclosed three-wheelers/autocycles, and authorized escorted parades at 15 mph or less. Not covered in the Driver's Manual.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://law.lis.virginia.gov/vacode/46.2-910/",
+        "page": null,
+        "quote": "Every person operating a motorcycle or autocycle shall wear a face shield, safety glasses or goggles, or have his motorcycle or autocycle equipped with safety glass or a windshield at all times while operating the vehicle, and operators and any passengers thereon shall wear protective helmets."
+      }
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Not allowed: driving abreast of another vehicle in a single lane is reckless driving, except two motorcycles riding side by side",
+      "detail": "Virginia law makes traveling abreast of another vehicle in a lane designed for one vehicle reckless driving; two two-wheeled motorcycles may ride abreast in one lane.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://law.lis.virginia.gov/vacode/46.2-857/",
+        "page": null,
+        "quote": "A person shall be guilty of reckless driving who drives any motor vehicle so as to be abreast of another vehicle in a lane designed for one vehicle, or drives any motor vehicle so as to travel abreast of any other vehicle traveling in a lane designed for one vehicle. Nothing in this section shall be construed to prohibit two two-wheeled motorcycles from traveling abreast while traveling in a lane designated for one vehicle."
+      }
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Reckless driving: 20+ mph over the limit or over 85 mph",
+      "summary": "Driving 20 mph or more above the speed limit, or over 85 mph anywhere, can be charged as reckless driving, a criminal misdemeanor that can bring fines, license suspension and jail. Driving 81-85 mph in a 65 zone adds a $100 fine.",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 16,
+        "quote": "According to Virginia law, if you are driving 20 or more miles per hour (MPH) above the speed limit, or over 85 MPH, a law enforcement officer may charge you with reckless driving, regardless of the speed limit."
+      }
+    },
+    {
+      "title": "Radar detectors are illegal",
+      "summary": "Using a radar detector in Virginia is against the law.",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 16,
+        "quote": "It is illegal to use radar detectors in Virginia."
+      }
+    },
+    {
+      "title": "No turns on a red arrow",
+      "summary": "Virginia prohibits right and left turns at a red arrow unless a sign says \"Right (or Left) on Red Arrow After Stop.\" Turning on a regular red light is a different rule.",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 7,
+        "quote": "Virginia law prohibits right and left turns at red arrow lights."
+      }
+    },
+    {
+      "title": "A U-turn counts as two left turns",
+      "summary": "Where a No Left Turn sign is posted, U-turns are also illegal. In business districts, cities and towns, U-turns are allowed only at intersections.",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 9,
+        "quote": "In Virginia, U-turns are considered as two left turns and are illegal if this sign is posted."
+      }
+    },
+    {
+      "title": "Center left-turn lane: 150-foot limit",
+      "summary": "On three-lane roads where the center lane has a solid and a broken yellow line on both sides, drivers from either direction may use it for left turns but may not travel more than 150 feet in it.",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 14,
+        "quote": "However, they may not travel further than 150 feet in this lane."
+      }
+    },
+    {
+      "title": "Passing stopped trash collection vehicles",
+      "summary": "On highways with at least four lanes, change to a lane not next to the stopped trash truck if safe. On roads with fewer than four lanes, or if you can't change lanes, slow to 10 mph below the posted limit and pass at least 2 feet to the left.",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 18,
+        "quote": "If on a highway of fewer than four lanes or if you are unable to change lanes, slow down to 10 miles per hour below the posted speed limit and pass at least two feet to the left of the vehicle."
+      }
+    },
+    {
+      "title": "No children under 16 in a pickup truck bed",
+      "summary": "Transporting children under 16 in the bed of a pickup is illegal, even with a camper shell.",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 29,
+        "quote": "It is illegal to transport children under age 16 in the bed of a pickup truck, even if equipped with a camper shell."
+      }
+    },
+    {
+      "title": "$500 uninsured motor vehicle fee",
+      "summary": "Virginia lets owners register a vehicle without liability insurance by paying a $500 uninsured motor vehicle fee. It provides no coverage; it only allows registering and operating the vehicle for one year.",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 36,
+        "quote": "Paying the uninsured motor vehicle fee does not provide insurance coverage, but it allows you to register and operate the vehicle in Virginia for a one-year period."
+      }
+    },
+    {
+      "title": "Highway work zone fines",
+      "summary": "Speeding in a highway work zone can bring a fine of up to $500; using a handheld device in a work zone brings a $250 fine.",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 12,
+        "quote": "If you are convicted of exceeding the speed limit in a highway work zone, you may be fined up to $500. If you are convicted of using a handheld communications device in a highway work zone, you will be fined $250."
+      }
+    },
+    {
+      "title": "Aggressive driving is a defined offense",
+      "summary": "Virginia defines aggressive driving as committing traffic offenses with intent to harass, intimidate, injure or obstruct another person. A conviction can suspend your license for 10 days up to 6 months.",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 25,
+        "quote": "Remember, if you are convicted of aggressive driving, your license could be suspended for ten days or for as long as six months."
+      }
+    },
+    {
+      "title": "Administrative license suspension at arrest",
+      "summary": "If you refuse a breath test or test at .08 or higher and are charged with DUI, your license is automatically suspended: 7 days for a first offense, 60 days or until trial for a second, and until trial for a third.",
+      "source": {
+        "url": "https://www.dmv.virginia.gov/sites/default/files/forms/dmv39.pdf",
+        "page": 32,
+        "quote": "for seven days, for a first offense"
+      }
+    },
+    {
+      "title": "DUI first offense: $250 mandatory minimum fine",
+      "summary": "A DUI is a Class 1 misdemeanor with a mandatory minimum fine of $250; a BAC of 0.15-0.20 adds 5 mandatory days in jail and over 0.20 adds 10 days.",
+      "source": {
+        "url": "https://law.lis.virginia.gov/vacode/18.2-270/",
+        "page": null,
+        "quote": "any person violating any provision of § 18.2-266 shall be guilty of a Class 1 misdemeanor with a mandatory minimum fine of $250"
+      }
+    }
+  ],
+  "officialPracticeTests": [
+    "https://www.dmv.virginia.gov/licenses-ids/exams/practice-exam",
+    "https://transactions.dmv.virginia.gov/ske/#/SampleKnowledgeExam"
+  ],
+  "verifiedOn": "2026-10-14"
+}

@@ -41,6 +41,7 @@ export const universalQuestionLoaders: Record<TrackId, Array<() => Question[]>> 
 };
 
 export const stateQuestionLoaders: Partial<Record<StateCode, () => Question[]>> = {
+  AZ: () => require('./questions/states/AZ.json'),
   CA: () => require('./questions/states/CA.json'),
   FL: () => require('./questions/states/FL.json'),
   GA: () => require('./questions/states/GA.json'),
@@ -50,15 +51,18 @@ export const stateQuestionLoaders: Partial<Record<StateCode, () => Question[]>> 
   MI: () => require('./questions/states/MI.json'),
   MO: () => require('./questions/states/MO.json'),
   NC: () => require('./questions/states/NC.json'),
+  NJ: () => require('./questions/states/NJ.json'),
   NY: () => require('./questions/states/NY.json'),
   OH: () => require('./questions/states/OH.json'),
   PA: () => require('./questions/states/PA.json'),
   TN: () => require('./questions/states/TN.json'),
   TX: () => require('./questions/states/TX.json'),
+  VA: () => require('./questions/states/VA.json'),
   WA: () => require('./questions/states/WA.json'),
 };
 
 export const stateInfoLoaders: Partial<Record<StateCode, () => StateInfo>> = {
+  AZ: () => require('./states/AZ.json'),
   CA: () => require('./states/CA.json'),
   FL: () => require('./states/FL.json'),
   GA: () => require('./states/GA.json'),
@@ -68,11 +72,13 @@ export const stateInfoLoaders: Partial<Record<StateCode, () => StateInfo>> = {
   MI: () => require('./states/MI.json'),
   MO: () => require('./states/MO.json'),
   NC: () => require('./states/NC.json'),
+  NJ: () => require('./states/NJ.json'),
   NY: () => require('./states/NY.json'),
   OH: () => require('./states/OH.json'),
   PA: () => require('./states/PA.json'),
   TN: () => require('./states/TN.json'),
   TX: () => require('./states/TX.json'),
+  VA: () => require('./states/VA.json'),
   WA: () => require('./states/WA.json'),
 };
 
