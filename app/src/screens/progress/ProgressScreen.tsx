@@ -1,6 +1,6 @@
 import React, {useMemo} from 'react';
 import {StyleSheet, View} from 'react-native';
-import {BarChart, Card, Chip, Divider, Icon, IconTile, LargeHeader, ListRow, ProgressRing, Screen, SectionHeader, StatTile, Text} from '../../components';
+import {BarChart, Card, Chip, Divider, Icon, IconTile, LargeHeader, ListRow, ProgressRing, ReadyChecklist, Screen, SectionHeader, StatTile, Text} from '../../components';
 import {getTopic} from '../../data/tracks';
 import {ACHIEVEMENTS} from '../../engine/achievements';
 import {formatDuration} from '../../engine/dates';
@@ -56,6 +56,10 @@ export function ProgressScreen({navigation}: TabScreenProps<'Progress'>) {
           </Text>
         </View>
       </Card>
+
+      <View style={{marginTop: spacing.md}}>
+        <ReadyChecklist />
+      </View>
 
       <SectionHeader title="Last 14 days" />
       <Card>

@@ -1,6 +1,6 @@
 import React, {useMemo} from 'react';
 import {Pressable, StyleSheet, View} from 'react-native';
-import {Button, Card, Chip, Icon, IconButton, ListRow, ProgressBar, ProgressRing, Screen, SectionHeader, Text, Divider} from '../../components';
+import {Button, Card, Chip, Icon, IconButton, ListRow, ProgressBar, ProgressRing, ReadyChecklist, Screen, SectionHeader, Text, Divider} from '../../components';
 import {getTopic} from '../../data/tracks';
 import type {TopicId} from '../../data/types';
 import {currentStreak, dayKey, daysUntil} from '../../engine/dates';
@@ -178,6 +178,12 @@ export function HomeScreen({navigation}: TabScreenProps<'Home'>) {
             <ProgressBar value={marathon.state.index / Math.max(1, marathon.state.ids.length)} height={5} color={colors.accent} style={{marginTop: spacing.md}} />
           ) : null}
         </Card>
+      ) : null}
+
+      {!empty && readiness.seen > 0 ? (
+        <View style={{marginTop: spacing.md}}>
+          <ReadyChecklist compact />
+        </View>
       ) : null}
 
       <SectionHeader title="Study" />

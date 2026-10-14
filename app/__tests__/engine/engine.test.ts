@@ -332,3 +332,30 @@ describe('drive log', () => {
     expect(csv).toContain('"said ""good"""');
   });
 });
+
+describe('test-ready checklist', () => {
+  const {testReadyChecklist} = require('../../src/engine/checklist');
+  test('starts mostly unchecked and completes when goals are met', () => {
+    const bank = getBank('car', 'CA');
+    const exam = getExamConfig('car', 'CA');
+    const facts = require('../fixtures/content').fixtureStateCA.facts;
+    const base = {bank, exams: [], facts, levels: {}, track: 'car', state: 'CA'};
+    const fresh = testReadyChecklist({...base, stats: {}, readiness: computeReadiness(bank, {}, exam)});
+    expect(fresh.every((i: any) => !i.done)).toBe(true);
+
+    const stats: Record<string, QStat> = {};
+    for (const q of bank.questions) {
+      let st = applyAnswer(undefined, true, NOW);
+      st = applyAnswer(st, true, NOW);
+      st = applyAnswer(st, true, NOW);
+      st = applyAnswer(st, true, NOW);
+      stats[q.id] = st;
+    }
+    const exams = [1, 2, 3].map(i => ({id: String(i), track: 'car', state: 'CA', passed: true} as any));
+    const levels = Object.fromEntries(facts.map((f: any) => [`fact:CA:${f.key}`, 2]));
+    const ready = testReadyChecklist({...base, stats, exams, levels, readiness: computeReadiness(bank, stats, exam)});
+    expect(ready.map((i: any) => [i.id, i.done])).toEqual([
+      ['coverage', true], ['chance', true], ['exams', true], ['mistakes', true], ['facts', true], ['signs', true],
+    ]);
+  });
+});

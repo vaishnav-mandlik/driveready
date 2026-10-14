@@ -10,6 +10,7 @@ export {Icon, ICON_NAMES} from './Icon';
 export type {IconName} from './Icon';
 export {Divider, IconTile, ListRow, SectionHeader, ToggleRow} from './Lists';
 export {ProgressBar, ProgressRing} from './Progress';
+export {ReadyChecklist} from './ReadyChecklist';
 export {Screen} from './Screen';
 export {SignImage} from './SignImage';
 export {Text} from './Text';
