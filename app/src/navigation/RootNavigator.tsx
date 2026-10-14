@@ -86,14 +86,16 @@ export function RootNavigator() {
         animation: 'slide_from_right',
       }}>
       {!onboarded ? (
-        <Stack.Group screenOptions={{headerShown: false}}>
+        // navigationKey: PickState/PickTrack/Goal exist in both branches; keying the groups makes
+        // React Navigation drop the onboarding routes when onboarding completes (instead of keeping them).
+        <Stack.Group navigationKey="onboarding" screenOptions={{headerShown: false}}>
           <Stack.Screen name="Welcome" component={WelcomeScreen} />
           <Stack.Screen name="PickState" component={PickStateScreen} initialParams={{mode: 'onboarding'}} />
           <Stack.Screen name="PickTrack" component={PickTrackScreen} initialParams={{mode: 'onboarding'}} />
           <Stack.Screen name="Goal" component={GoalScreen} initialParams={{mode: 'onboarding'}} />
         </Stack.Group>
       ) : (
-        <>
+        <Stack.Group navigationKey="main">
           <Stack.Screen name="Tabs" component={Tabs} options={{headerShown: false}} />
           <Stack.Group>
             <Stack.Screen name="Quiz" component={QuizScreen} options={{title: '', gestureEnabled: false}} />
@@ -122,7 +124,7 @@ export function RootNavigator() {
             <Stack.Screen name="PickTrack" component={PickTrackScreen} options={{title: 'Choose Your Test'}} />
             <Stack.Screen name="Goal" component={GoalScreen} options={{title: 'Goals & Test Date'}} />
           </Stack.Group>
-        </>
+        </Stack.Group>
       )}
     </Stack.Navigator>
   );

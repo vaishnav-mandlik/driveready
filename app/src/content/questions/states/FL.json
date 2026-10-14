@@ -591,6 +591,25 @@
   {
     "id": "fl.car.032",
     "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "At what age may a licensed Florida driver drive at any hour without an adult in the car?",
+    "choices": [
+      "18",
+      "17",
+      "16",
+      "21"
+    ],
+    "answer": 0,
+    "explanation": "Time-of-day limits apply to licensed drivers aged 16 (11 p.m.-6 a.m.) and 17 (1 a.m.-5 a.m.). At 18, driving is allowed at all hours without an adult.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "FLHSMV, Licensing Requirements for Teens FAQ page"
+  },
+  {
+    "id": "fl.car.033",
+    "track": "car",
     "topic": "safe-habits",
     "prompt": "Under Florida law, when is texting while driving prohibited?",
     "choices": [
@@ -608,7 +627,7 @@
     "ref": "Official Florida Driver License Handbook, p. 42"
   },
   {
-    "id": "fl.car.033",
+    "id": "fl.car.034",
     "track": "car",
     "topic": "safe-habits",
     "prompt": "Where does Florida law ban driving while holding a phone or other wireless device in your hand?",
@@ -627,7 +646,7 @@
     "ref": "Official Florida Driver License Handbook, p. 42"
   },
   {
-    "id": "fl.car.034",
+    "id": "fl.car.035",
     "track": "car",
     "topic": "safe-habits",
     "prompt": "You are driving through an active Florida school zone and your phone rings. Which is legal?",
@@ -646,7 +665,7 @@
     "ref": "Official Florida Driver License Handbook, p. 42"
   },
   {
-    "id": "fl.car.035",
+    "id": "fl.car.036",
     "track": "car",
     "topic": "safe-habits",
     "prompt": "Under Florida law, who must wear a safety belt?",
@@ -665,7 +684,7 @@
     "ref": "Official Florida Driver License Handbook, p. 36"
   },
   {
-    "id": "fl.car.036",
+    "id": "fl.car.037",
     "track": "car",
     "topic": "safe-habits",
     "prompt": "Which rider is NOT required by Florida's safety belt law to wear a belt?",
@@ -684,7 +703,7 @@
     "ref": "Official Florida Driver License Handbook, p. 36"
   },
   {
-    "id": "fl.car.037",
+    "id": "fl.car.038",
     "track": "car",
     "topic": "safe-habits",
     "prompt": "A 16-year-old passenger in your car is not wearing a safety belt. Who gets the ticket in Florida?",
@@ -703,7 +722,7 @@
     "ref": "Official Florida Driver License Handbook, p. 36"
   },
   {
-    "id": "fl.car.038",
+    "id": "fl.car.039",
     "track": "car",
     "topic": "safe-habits",
     "prompt": "Under Florida law, how must a 3-year-old be restrained in a car?",
@@ -722,7 +741,7 @@
     "ref": "Official Florida Driver License Handbook, p. 36"
   },
   {
-    "id": "fl.car.039",
+    "id": "fl.car.040",
     "track": "car",
     "topic": "safe-habits",
     "prompt": "A 5-year-old is riding with a parent in Florida. Which restraint meets the law?",
@@ -741,7 +760,7 @@
     "ref": "Official Florida Driver License Handbook, p. 36"
   },
   {
-    "id": "fl.car.040",
+    "id": "fl.car.041",
     "track": "car",
     "topic": "safe-habits",
     "prompt": "Another driver is threatening you on a Florida highway. What number can you dial from a mobile phone to reach the Florida Highway Patrol?",
@@ -760,7 +779,7 @@
     "ref": "Official Florida Driver License Handbook, p. 44"
   },
   {
-    "id": "fl.car.041",
+    "id": "fl.car.042",
     "track": "car",
     "topic": "safe-habits",
     "prompt": "Florida's equipment rules say which of these is NOT permitted for a driver while operating a vehicle?",
@@ -779,7 +798,7 @@
     "ref": "Official Florida Driver License Handbook, p. 47"
   },
   {
-    "id": "fl.car.042",
+    "id": "fl.car.043",
     "track": "car",
     "topic": "speed-space",
     "prompt": "What is Florida's standard speed limit in school zones?",
@@ -798,7 +817,7 @@
     "ref": "Official Florida Driver License Handbook, p. 76"
   },
   {
-    "id": "fl.car.043",
+    "id": "fl.car.044",
     "track": "car",
     "topic": "speed-space",
     "prompt": "Unless another limit is posted, what is the maximum speed in a Florida municipal, business or residential area?",
@@ -817,7 +836,7 @@
     "ref": "Official Florida Driver License Handbook, p. 76"
   },
   {
-    "id": "fl.car.044",
+    "id": "fl.car.045",
     "track": "car",
     "topic": "speed-space",
     "prompt": "Unless another limit is posted, what is the maximum speed on Florida streets and highways outside business and residential areas?",
@@ -836,7 +855,7 @@
     "ref": "Official Florida Driver License Handbook, p. 76"
   },
   {
-    "id": "fl.car.045",
+    "id": "fl.car.046",
     "track": "car",
     "topic": "speed-space",
     "prompt": "What is the highest speed limit allowed anywhere in Florida?",
@@ -855,7 +874,7 @@
     "ref": "Official Florida Driver License Handbook, p. 36"
   },
   {
-    "id": "fl.car.046",
+    "id": "fl.car.047",
     "track": "car",
     "topic": "speed-space",
     "prompt": "On a Florida highway posted at 70 MPH, what is the minimum speed limit?",
@@ -874,7 +893,7 @@
     "ref": "Official Florida Driver License Handbook, p. 76"
   },
   {
-    "id": "fl.car.047",
+    "id": "fl.car.048",
     "track": "car",
     "topic": "speed-space",
     "prompt": "Is it legal in Florida to drive up to 10 MPH over the speed limit?",
@@ -893,7 +912,7 @@
     "ref": "Official Florida Driver License Handbook, p. 76"
   },
   {
-    "id": "fl.car.048",
+    "id": "fl.car.049",
     "track": "car",
     "topic": "speed-space",
     "prompt": "What happens to speeding fines in an active Florida school zone or construction zone?",
@@ -912,7 +931,7 @@
     "ref": "Official Florida Driver License Handbook, p. 37"
   },
   {
-    "id": "fl.car.049",
+    "id": "fl.car.050",
     "track": "car",
     "topic": "speed-space",
     "prompt": "What minimum following distance does the Florida handbook recommend in good weather and traffic?",
@@ -931,7 +950,7 @@
     "ref": "Official Florida Driver License Handbook, p. 86"
   },
   {
-    "id": "fl.car.050",
+    "id": "fl.car.051",
     "track": "car",
     "topic": "speed-space",
     "prompt": "How far behind a fire truck responding to an emergency must you stay in Florida?",
@@ -950,7 +969,7 @@
     "ref": "Official Florida Driver License Handbook, p. 70"
   },
   {
-    "id": "fl.car.051",
+    "id": "fl.car.052",
     "track": "car",
     "topic": "intersections-turns",
     "prompt": "In Florida, may you turn right on a steady red light?",
@@ -969,7 +988,7 @@
     "ref": "Official Florida Driver License Handbook, p. 59"
   },
   {
-    "id": "fl.car.052",
+    "id": "fl.car.053",
     "track": "car",
     "topic": "intersections-turns",
     "prompt": "When does Florida allow a left turn on a steady red light?",
@@ -988,7 +1007,7 @@
     "ref": "Official Florida Driver License Handbook, p. 59"
   },
   {
-    "id": "fl.car.053",
+    "id": "fl.car.054",
     "track": "car",
     "topic": "intersections-turns",
     "prompt": "How far before a turn must you begin signaling in Florida?",
@@ -1007,7 +1026,7 @@
     "ref": "Official Florida Driver License Handbook, p. 77"
   },
   {
-    "id": "fl.car.054",
+    "id": "fl.car.055",
     "track": "car",
     "topic": "intersections-turns",
     "prompt": "A slow driver ahead of you turns on their left signal to tell you it is safe to pass. Is this legal in Florida?",
@@ -1026,7 +1045,7 @@
     "ref": "Official Florida Driver License Handbook, p. 77"
   },
   {
-    "id": "fl.car.055",
+    "id": "fl.car.056",
     "track": "car",
     "topic": "signals-markings",
     "prompt": "You reach an intersection where the traffic signals are dark because of a power outage and no officer is present. What should you do?",
@@ -1045,7 +1064,7 @@
     "ref": "Official Florida Driver License Handbook, p. 59"
   },
   {
-    "id": "fl.car.056",
+    "id": "fl.car.057",
     "track": "car",
     "topic": "signals-markings",
     "prompt": "You approach a Florida drawbridge and its signal is flashing yellow. What does it mean?",
@@ -1064,7 +1083,7 @@
     "ref": "Official Florida Driver License Handbook, p. 63"
   },
   {
-    "id": "fl.car.057",
+    "id": "fl.car.058",
     "track": "car",
     "topic": "signals-markings",
     "prompt": "A drawbridge's gates have flashing red lights and are starting to lower. What must you do?",
@@ -1083,7 +1102,7 @@
     "ref": "Official Florida Driver License Handbook, p. 63"
   },
   {
-    "id": "fl.car.058",
+    "id": "fl.car.059",
     "track": "car",
     "topic": "lanes-passing",
     "prompt": "A two-lane Florida road has double solid yellow center lines, and a bicyclist is riding slowly ahead. Which is true?",
@@ -1102,7 +1121,7 @@
     "ref": "Official Florida Driver License Handbook, p. 52"
   },
   {
-    "id": "fl.car.059",
+    "id": "fl.car.060",
     "track": "car",
     "topic": "lanes-passing",
     "prompt": "You are in the left lane of a Florida multi-lane highway and a faster car comes up behind you. What does Florida law require?",
@@ -1121,7 +1140,7 @@
     "ref": "Official Florida Driver License Handbook, p. 75"
   },
   {
-    "id": "fl.car.060",
+    "id": "fl.car.061",
     "track": "car",
     "topic": "lanes-passing",
     "prompt": "When passing on a two-lane road in Florida, you must return to the right side before coming within what distance of an oncoming vehicle?",
@@ -1140,7 +1159,7 @@
     "ref": "Official Florida Driver License Handbook, p. 75"
   },
   {
-    "id": "fl.car.061",
+    "id": "fl.car.062",
     "track": "car",
     "topic": "lanes-passing",
     "prompt": "Florida prohibits passing within what distance of an intersection, bridge, tunnel or railroad crossing?",
@@ -1159,7 +1178,7 @@
     "ref": "Official Florida Driver License Handbook, p. 75"
   },
   {
-    "id": "fl.car.062",
+    "id": "fl.car.063",
     "track": "car",
     "topic": "parking",
     "prompt": "In Florida, you may not park within how many feet of a fire hydrant?",
@@ -1178,7 +1197,7 @@
     "ref": "Official Florida Driver License Handbook, p. 74"
   },
   {
-    "id": "fl.car.063",
+    "id": "fl.car.064",
     "track": "car",
     "topic": "parking",
     "prompt": "In Florida, you may not park within how many feet of an intersection?",
@@ -1197,7 +1216,7 @@
     "ref": "Official Florida Driver License Handbook, p. 74"
   },
   {
-    "id": "fl.car.064",
+    "id": "fl.car.065",
     "track": "car",
     "topic": "parking",
     "prompt": "In Florida, you may not park within how many feet of a stop sign, flashing signal or traffic signal?",
@@ -1216,7 +1235,7 @@
     "ref": "Official Florida Driver License Handbook, p. 74"
   },
   {
-    "id": "fl.car.065",
+    "id": "fl.car.066",
     "track": "car",
     "topic": "parking",
     "prompt": "In Florida, you may not park within how many feet of a railroad crossing?",
@@ -1235,7 +1254,7 @@
     "ref": "Official Florida Driver License Handbook, p. 74"
   },
   {
-    "id": "fl.car.066",
+    "id": "fl.car.067",
     "track": "car",
     "topic": "parking",
     "prompt": "In Florida, you may not park within how many feet of the entrance to a fire, ambulance or rescue station?",
@@ -1254,7 +1273,7 @@
     "ref": "Official Florida Driver License Handbook, p. 74"
   },
   {
-    "id": "fl.car.067",
+    "id": "fl.car.068",
     "track": "car",
     "topic": "parking",
     "prompt": "On a Florida state highway, parking within 30 feet of a rural mailbox is prohibited during which hours?",
@@ -1273,7 +1292,7 @@
     "ref": "Official Florida Driver License Handbook, p. 74"
   },
   {
-    "id": "fl.car.068",
+    "id": "fl.car.069",
     "track": "car",
     "topic": "parking",
     "prompt": "When parallel parking in Florida, how close to the curb must your right-hand wheels be?",
@@ -1292,7 +1311,7 @@
     "ref": "Official Florida Driver License Handbook, p. 73"
   },
   {
-    "id": "fl.car.069",
+    "id": "fl.car.070",
     "track": "car",
     "topic": "parking",
     "prompt": "What does Florida law require you to do with the keys when you park and leave your vehicle?",
@@ -1311,7 +1330,7 @@
     "ref": "Official Florida Driver License Handbook, p. 73"
   },
   {
-    "id": "fl.car.070",
+    "id": "fl.car.071",
     "track": "car",
     "topic": "parking",
     "prompt": "In Florida, how close to a crosswalk at an intersection may you stand or park?",
@@ -1330,7 +1349,7 @@
     "ref": "Florida Statutes, s. 316.1945"
   },
   {
-    "id": "fl.car.071",
+    "id": "fl.car.072",
     "track": "car",
     "topic": "freeway",
     "prompt": "Your car breaks down on a Florida limited access highway. How long may it remain parked on the shoulder?",
@@ -1349,7 +1368,7 @@
     "ref": "Florida Statutes, s. 316.1945"
   },
   {
-    "id": "fl.car.072",
+    "id": "fl.car.073",
     "track": "car",
     "topic": "freeway",
     "prompt": "Which of these may legally travel on a Florida limited access highway?",
@@ -1368,7 +1387,7 @@
     "ref": "Official Florida Driver License Handbook, p. 71"
   },
   {
-    "id": "fl.car.073",
+    "id": "fl.car.074",
     "track": "car",
     "topic": "freeway",
     "prompt": "How are exit numbers on Florida interstates assigned?",
@@ -1387,7 +1406,7 @@
     "ref": "Official Florida Driver License Handbook, p. 72"
   },
   {
-    "id": "fl.car.074",
+    "id": "fl.car.075",
     "track": "car",
     "topic": "sharing-road",
     "prompt": "On a Florida multi-lane highway, you approach a police car stopped on the shoulder with its lights flashing. What does the Move Over Law require?",
@@ -1406,7 +1425,7 @@
     "ref": "Official Florida Driver License Handbook, p. 73"
   },
   {
-    "id": "fl.car.075",
+    "id": "fl.car.076",
     "track": "car",
     "topic": "sharing-road",
     "prompt": "On a two-lane Florida road posted at 55 MPH, a tow truck with flashing lights is stopped on the shoulder. How fast may you pass it?",
@@ -1425,7 +1444,7 @@
     "ref": "Official Florida Driver License Handbook, p. 73"
   },
   {
-    "id": "fl.car.076",
+    "id": "fl.car.077",
     "track": "car",
     "topic": "sharing-road",
     "prompt": "The Move Over Law applies on a two-lane road posted at 20 MPH. What speed must you slow to when passing a stopped emergency vehicle?",
@@ -1444,7 +1463,7 @@
     "ref": "Official Florida Driver License Handbook, p. 73"
   },
   {
-    "id": "fl.car.077",
+    "id": "fl.car.078",
     "track": "car",
     "topic": "sharing-road",
     "prompt": "Does Florida's Move Over Law apply to a disabled car stopped on the shoulder with its hazard lights on?",
@@ -1463,7 +1482,7 @@
     "ref": "Official Florida Driver License Handbook, p. 73"
   },
   {
-    "id": "fl.car.078",
+    "id": "fl.car.079",
     "track": "car",
     "topic": "sharing-road",
     "prompt": "An ambulance with siren and flashing lights approaches you. What does Florida law require?",
@@ -1482,7 +1501,7 @@
     "ref": "Official Florida Driver License Handbook, p. 92"
   },
   {
-    "id": "fl.car.079",
+    "id": "fl.car.080",
     "track": "car",
     "topic": "sharing-road",
     "prompt": "On a highway divided by a raised median, a school bus stopped on the other side has its stop signal out. You are traveling the opposite direction. What must you do?",
@@ -1501,7 +1520,7 @@
     "ref": "Official Florida Driver License Handbook, p. 97"
   },
   {
-    "id": "fl.car.080",
+    "id": "fl.car.081",
     "track": "car",
     "topic": "sharing-road",
     "prompt": "A four-lane road is separated only by painted lines. A school bus stopped on the other side displays its stop signal. What must you do?",
@@ -1520,7 +1539,7 @@
     "ref": "Official Florida Driver License Handbook, p. 97"
   },
   {
-    "id": "fl.car.081",
+    "id": "fl.car.082",
     "track": "car",
     "topic": "sharing-road",
     "prompt": "On a Florida highway divided by an unpaved median, how wide must the median be for opposite-direction traffic to skip stopping for a school bus?",
@@ -1539,7 +1558,7 @@
     "ref": "Official Florida Driver License Handbook, p. 97"
   },
   {
-    "id": "fl.car.082",
+    "id": "fl.car.083",
     "track": "car",
     "topic": "sharing-road",
     "prompt": "What is the minimum fine in Florida for passing a stopped school bus on the side where children enter and exit?",
@@ -1558,7 +1577,7 @@
     "ref": "Official Florida Driver License Handbook, p. 35"
   },
   {
-    "id": "fl.car.083",
+    "id": "fl.car.084",
     "track": "car",
     "topic": "sharing-road",
     "prompt": "What is the minimum clearance Florida law requires when passing a bicyclist?",
@@ -1577,7 +1596,7 @@
     "ref": "Official Florida Driver License Handbook, p. 89"
   },
   {
-    "id": "fl.car.084",
+    "id": "fl.car.085",
     "track": "car",
     "topic": "sharing-road",
     "prompt": "In Florida, which bicyclists are required to wear a helmet?",
@@ -1596,7 +1615,7 @@
     "ref": "Official Florida Driver License Handbook, p. 90"
   },
   {
-    "id": "fl.car.085",
+    "id": "fl.car.086",
     "track": "car",
     "topic": "sharing-road",
     "prompt": "A car in the next lane has stopped at a marked crosswalk, but you cannot see anyone crossing. What should you do?",
@@ -1615,7 +1634,7 @@
     "ref": "Official Florida Driver License Handbook, p. 96"
   },
   {
-    "id": "fl.car.086",
+    "id": "fl.car.087",
     "track": "car",
     "topic": "sharing-road",
     "prompt": "A funeral procession's lead vehicle has entered an intersection, and the signal facing the procession turns red. What happens?",
@@ -1634,7 +1653,7 @@
     "ref": "Official Florida Driver License Handbook, p. 92"
   },
   {
-    "id": "fl.car.087",
+    "id": "fl.car.088",
     "track": "car",
     "topic": "sharing-road",
     "prompt": "A city bus has signaled and is pulling out of a designated bus pullout bay into your lane. What does Florida law require?",
@@ -1653,7 +1672,7 @@
     "ref": "Official Florida Driver License Handbook, p. 96"
   },
   {
-    "id": "fl.car.088",
+    "id": "fl.car.089",
     "track": "car",
     "topic": "sharing-road",
     "prompt": "A train is approaching a crossing and the warning lights are flashing. Where must you stop under Florida law?",
@@ -1672,7 +1691,7 @@
     "ref": "Florida Statutes, s. 316.1575"
   },
   {
-    "id": "fl.car.089",
+    "id": "fl.car.090",
     "track": "car",
     "topic": "hazards-conditions",
     "prompt": "When does Florida law require you to use your headlights?",
@@ -1691,7 +1710,7 @@
     "ref": "Official Florida Driver License Handbook, p. 81"
   },
   {
-    "id": "fl.car.090",
+    "id": "fl.car.091",
     "track": "car",
     "topic": "hazards-conditions",
     "prompt": "It starts raining during the day and you switch on your windshield wipers. What else does Florida require?",
@@ -1710,7 +1729,7 @@
     "ref": "Official Florida Driver License Handbook, p. 80"
   },
   {
-    "id": "fl.car.091",
+    "id": "fl.car.092",
     "track": "car",
     "topic": "hazards-conditions",
     "prompt": "At night, within how many feet of an oncoming vehicle must you switch from high beams to low beams?",
@@ -1729,7 +1748,7 @@
     "ref": "Official Florida Driver License Handbook, p. 81"
   },
   {
-    "id": "fl.car.092",
+    "id": "fl.car.093",
     "track": "car",
     "topic": "hazards-conditions",
     "prompt": "At night, within how many feet of a vehicle you are following must you switch to low beams?",
@@ -1748,7 +1767,7 @@
     "ref": "Official Florida Driver License Handbook, p. 81"
   },
   {
-    "id": "fl.car.093",
+    "id": "fl.car.094",
     "track": "car",
     "topic": "emergencies",
     "prompt": "After a crash that damaged property, no officer made a report. What must a Florida driver do?",
@@ -1767,7 +1786,7 @@
     "ref": "Official Florida Driver License Handbook, p. 85"
   },
   {
-    "id": "fl.car.094",
+    "id": "fl.car.095",
     "track": "car",
     "topic": "emergencies",
     "prompt": "In which crash will a Florida law enforcement officer complete a written crash report?",
@@ -1786,7 +1805,7 @@
     "ref": "Official Florida Driver License Handbook, p. 85"
   },
   {
-    "id": "fl.car.095",
+    "id": "fl.car.096",
     "track": "car",
     "topic": "emergencies",
     "prompt": "You are in a minor crash with no injuries and your car is blocking traffic. What does Florida law say?",
@@ -1805,7 +1824,7 @@
     "ref": "Official Florida Driver License Handbook, p. 85"
   },
   {
-    "id": "fl.car.096",
+    "id": "fl.car.097",
     "track": "car",
     "topic": "emergencies",
     "prompt": "A driver leaves the scene of a Florida crash that caused an injury (not serious). What is the offense?",
@@ -1824,7 +1843,7 @@
     "ref": "Official Florida Driver License Handbook, p. 85"
   },
   {
-    "id": "fl.car.097",
+    "id": "fl.car.098",
     "track": "car",
     "topic": "emergencies",
     "prompt": "If your car stalls on railroad tracks and the warning lights start flashing, what is the minimum time before a train can reach the crossing?",
@@ -1843,7 +1862,7 @@
     "ref": "Official Florida Driver License Handbook, p. 87"
   },
   {
-    "id": "fl.car.098",
+    "id": "fl.car.099",
     "track": "car",
     "topic": "emergencies",
     "prompt": "You were at fault in a crash and someone was taken to the hospital. What does Florida require to keep your license?",

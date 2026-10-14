@@ -32,8 +32,8 @@ export function WelcomeScreen({navigation}: RootScreenProps<'Welcome'>) {
       footer={
         <View style={{gap: spacing.sm}}>
           <Button title="Get started" size="lg" iconRight="arrow-right" onPress={() => navigation.navigate('PickState', {mode: 'onboarding'})} fullWidth testID="welcome-start" />
-          <Text variant="caption" color="textFaint" align="center">
-            {DISCLAIMER.split('. ')[0]}.
+          <Text variant="caption" color="textFaint" align="center" accessibilityLabel={DISCLAIMER}>
+            Independent study app · Not affiliated with any government agency
           </Text>
         </View>
       }>

@@ -1,0 +1,2092 @@
+[
+  {
+    "id": "pa.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Pennsylvania, a driver who is 21 or older is considered to be driving under the influence at what blood alcohol concentration (BAC)?",
+    "choices": [
+      ".05 or higher",
+      ".08 or higher",
+      ".10 or higher",
+      ".02 or higher"
+    ],
+    "answer": 1,
+    "explanation": "Drivers of legal drinking age (21+) are considered DUI at a BAC of .08 or higher. You can also be convicted at a lower BAC if police stop you for driving erratically.",
+    "difficulty": 1,
+    "ref": "Pennsylvania Driver's Manual, p. 85",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Pennsylvania's Zero Tolerance law, a driver under 21 is considered to be driving under the influence at what BAC?",
+    "choices": [
+      ".02 or greater",
+      ".00 (any trace)",
+      ".05 or greater",
+      ".08 or greater"
+    ],
+    "answer": 0,
+    "explanation": "Pennsylvania lowered the DUI threshold from .08 to .02 for drivers under 21. At .02 or more, an under-21 driver is DUI.",
+    "difficulty": 1,
+    "ref": "Pennsylvania Driver's Manual, p. 86",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 19-year-old is stopped and tests at a BAC of .03. Under Pennsylvania law, what is this driver's status?",
+    "choices": [
+      "Legal, because the under-21 limit is .05",
+      "Legal, because only .08 counts as DUI for licensed drivers",
+      "Driving under the influence only if the driver was weaving",
+      "Driving under the influence, because the under-21 limit is .02"
+    ],
+    "answer": 3,
+    "explanation": "For drivers under 21 the DUI threshold is .02, so a .03 BAC is DUI. Under-21 DUI convictions are punished under the High Rate penalty table.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 86",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Pennsylvania, commercial vehicle drivers face High Rate DUI penalties starting at what BAC?",
+    "choices": [
+      ".02",
+      ".06",
+      ".04",
+      ".08"
+    ],
+    "answer": 2,
+    "explanation": "Pennsylvania's High Rate DUI table applies to commercial vehicle drivers at a BAC of .04 or more. School bus drivers and drivers under 21 face it starting at .02.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 87",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "You are arrested for DUI in Pennsylvania and refuse a breath or blood test for the first time. What happens to your license for the refusal?",
+    "choices": [
+      "It is suspended for 90 days",
+      "It is automatically suspended for 1 year",
+      "It is suspended for 6 months",
+      "Nothing happens unless you are convicted of DUI"
+    ],
+    "answer": 1,
+    "explanation": "Under the Implied Consent law, a first refusal brings an automatic 1-year suspension. This is added to any suspension for the DUI itself.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 86",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A driver with a prior DUI conviction refuses chemical testing after a new DUI arrest. How long is the suspension for the refusal alone?",
+    "choices": [
+      "18 months",
+      "12 months",
+      "6 months",
+      "5 years"
+    ],
+    "answer": 0,
+    "explanation": "With a prior DUI or prior refusal, the refusal suspension is 18 months. If the driver is also convicted of DUI, 18 more months are added, for a total of 3 years.",
+    "difficulty": 3,
+    "ref": "Pennsylvania Driver's Manual, p. 86",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "An adult's first DUI is in the General Impairment range (.08 to .099 BAC) and no crash was involved. What license penalty does the General Impairment table list?",
+    "choices": [
+      "A 12-month suspension",
+      "An 18-month suspension",
+      "A 90-day suspension",
+      "No license suspension"
+    ],
+    "answer": 3,
+    "explanation": "For a first General Impairment offense, the table lists 6 months probation, a $300 fine and no license action. Higher BAC tiers carry a 12-month suspension for a first offense.",
+    "difficulty": 3,
+    "ref": "Pennsylvania Driver's Manual, p. 87",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Pennsylvania, which DUI penalty table applies to a driver who refuses chemical testing?",
+    "choices": [
+      "General Impairment (.08 to .099)",
+      "High Rate (.10 to .159)",
+      "Highest Rate (.16 BAC and up)",
+      "None, because only the refusal suspension applies"
+    ],
+    "answer": 2,
+    "explanation": "Drivers who refuse chemical testing face the Highest Rate penalties, whatever their actual BAC was. This is on top of the refusal suspension.",
+    "difficulty": 3,
+    "ref": "Pennsylvania Driver's Manual, p. 87",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.009",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 20-year-old is convicted of DUI for the first time in Pennsylvania. How long is the license suspension?",
+    "choices": [
+      "30 days",
+      "1 year",
+      "90 days",
+      "6 months"
+    ],
+    "answer": 1,
+    "explanation": "An under-21 driver convicted of a first DUI faces 2 days to 6 months in jail, a full year of license suspension, and a fine of $500 to $5,000.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 88",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.010",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Pennsylvania requires an ignition interlock for which drivers?",
+    "choices": [
+      "First-time and repeat DUI offenders with high BAC levels, and drivers suspended for refusing a chemical test",
+      "Only drivers convicted of a third DUI",
+      "Only drivers under 21 convicted of DUI",
+      "Only commercial drivers convicted of DUI"
+    ],
+    "answer": 0,
+    "explanation": "An ignition interlock is required for first-time and repeat offenders with high BAC levels and for anyone whose license is suspended for a chemical test refusal.",
+    "difficulty": 3,
+    "ref": "Pennsylvania Driver's Manual, p. 86",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.011",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Pennsylvania, an adult convicted of knowingly giving alcohol to a minor faces what minimum fine for the first offense?",
+    "choices": [
+      "$300",
+      "$500",
+      "$2,500",
+      "$1,000"
+    ],
+    "answer": 3,
+    "explanation": "Adults, even parents, face a fine of at least $1,000 for the first offense and $2,500 for each additional offense, plus up to a year in jail.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 88",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.012",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A sober adult passenger opens a can of beer while riding in a private car on a Pennsylvania highway. Is this legal?",
+    "choices": [
+      "Yes, as long as the driver has not been drinking",
+      "Yes, if the passenger is 21 or older",
+      "No; occupants as well as drivers may not possess an open alcoholic beverage container",
+      "Yes, if the passenger sits in the back seat"
+    ],
+    "answer": 2,
+    "explanation": "Pennsylvania's open container law covers the driver and every occupant of a vehicle on a highway. The exceptions are passengers in buses, taxis and limousines, and people in the living quarters of a motor home.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Vehicle Code, 75 Pa.C.S. § 3809",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.013",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age to apply for a non-commercial learner's permit in Pennsylvania?",
+    "choices": [
+      "15",
+      "16",
+      "15 and a half",
+      "16 and a half"
+    ],
+    "answer": 1,
+    "explanation": "You cannot apply for a learner's permit before your 16th birthday.",
+    "difficulty": 1,
+    "ref": "Pennsylvania Driver's Manual, p. 5",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.014",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long is a Pennsylvania learner's permit valid after it is issued?",
+    "choices": [
+      "1 year",
+      "6 months",
+      "90 days",
+      "2 years"
+    ],
+    "answer": 0,
+    "explanation": "After you pass the knowledge test you receive a learner's permit that is valid for one year.",
+    "difficulty": 1,
+    "ref": "Pennsylvania Driver's Manual, p. 6",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.015",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "If you are under 18, how long must you hold your learner's permit before taking the road test?",
+    "choices": [
+      "3 months",
+      "9 months",
+      "12 months",
+      "6 months"
+    ],
+    "answer": 3,
+    "explanation": "Drivers under 18 must wait a mandatory six months from the permit issue date, and also have 65 certified hours of practice, before taking the road test.",
+    "difficulty": 1,
+    "ref": "Pennsylvania Driver's Manual, p. 6",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.016",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old's parent is certifying supervised practice for the road test. Which log meets Pennsylvania's requirement?",
+    "choices": [
+      "50 hours total, including 10 hours at night",
+      "65 hours total, including 5 hours at night and 10 hours in bad weather",
+      "65 hours total, including 10 hours at night and 5 hours in bad weather",
+      "40 hours total, including 10 hours at night and 5 hours in bad weather"
+    ],
+    "answer": 2,
+    "explanation": "Pennsylvania requires at least 65 hours of supervised driving, including no less than 10 hours at night and 5 hours in bad weather. A parent or guardian certifies it on form DL-180C.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 6",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.017",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Your licensed 19-year-old cousin offers to supervise you while you drive on your learner's permit. Is that allowed?",
+    "choices": [
+      "Yes; any licensed driver 18 or older may supervise",
+      "No; a supervisor who is not your parent, guardian or spouse must be at least 21",
+      "Yes, as long as your cousin sits in the back seat",
+      "Yes, but only during daylight hours"
+    ],
+    "answer": 1,
+    "explanation": "Supervisors must be licensed drivers at least 21, unless they are your parent, guardian, person in loco parentis, or spouse, who may be 18 or older. The supervisor must sit in the front seat.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 7",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.018",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Pennsylvania driver under 18 has a car with five seat belts. How many people may ride in the car, counting the driver?",
+    "choices": [
+      "No more than five, one per seat belt",
+      "Six, if one passenger is a family member",
+      "Any number, as long as everyone under 18 is belted",
+      "Three"
+    ],
+    "answer": 0,
+    "explanation": "Drivers under 18 cannot carry more passengers than there are seat belts in the vehicle.",
+    "difficulty": 1,
+    "ref": "Pennsylvania Driver's Manual, p. 7",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.019",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "With a junior driver's license, during which hours may you NOT drive without a parent, guardian or spouse (18 or older) unless an exception applies?",
+    "choices": [
+      "Midnight to 5 a.m.",
+      "10 p.m. to 6 a.m.",
+      "9 p.m. to 5 a.m.",
+      "11 p.m. to 5 a.m."
+    ],
+    "answer": 3,
+    "explanation": "Junior drivers may not drive between 11 p.m. and 5 a.m. unless a parent, guardian, person in loco parentis or spouse 18 or older is with them.",
+    "difficulty": 1,
+    "ref": "Pennsylvania Driver's Manual, p. 7",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.020",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A junior driver's job ends at 11:30 p.m. What lets the driver drive home alone legally?",
+    "choices": [
+      "Nothing; junior drivers may never drive after 11 p.m. without a parent",
+      "Having a parent's verbal permission by phone",
+      "Carrying a notarized affidavit or certificate of authorization from the employer showing the work schedule",
+      "Driving only on roads with a speed limit of 35 mph or less"
+    ],
+    "answer": 2,
+    "explanation": "Junior drivers may drive between 11 p.m. and 5 a.m. for employment, volunteer fire company duty, or public or charitable service, if they carry a notarized affidavit or certificate of authorization.",
+    "difficulty": 3,
+    "ref": "Pennsylvania Driver's Manual, p. 7",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.021",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During the first 6 months on a junior license, how many passengers under 18 who are not immediate family may ride with you without a parent or guardian in the car?",
+    "choices": [
+      "None",
+      "One",
+      "Two",
+      "Three"
+    ],
+    "answer": 1,
+    "explanation": "For the first 6 months, a junior driver may carry no more than one passenger under 18 who is not an immediate family member, unless a parent or guardian is in the vehicle.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 8",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.022",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A junior driver has held the license for 8 months but was convicted of a traffic violation last month. How many non-family passengers under 18 may ride without a parent present?",
+    "choices": [
+      "One",
+      "Three",
+      "Two",
+      "None"
+    ],
+    "answer": 0,
+    "explanation": "The limit normally rises to three after 6 months, but the increase does not apply to a junior driver who was partly or fully responsible for a crash or was convicted of any driving violation.",
+    "difficulty": 3,
+    "ref": "Pennsylvania Driver's Manual, p. 8",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.023",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which is one of the requirements to trade a junior license for a regular license before age 18?",
+    "choices": [
+      "Passing a second road test",
+      "Logging 100 more supervised hours",
+      "Holding the junior license for 6 months",
+      "Completing a driver training course approved by the PA Department of Education"
+    ],
+    "answer": 3,
+    "explanation": "You must have held the junior license for one year, passed an approved driver training course, had no at-fault crash and no Vehicle Code conviction for a year, and have parental consent.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 8",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.024",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "If a Pennsylvania junior driver never applies to upgrade early, when does the junior license become a regular license?",
+    "choices": [
+      "Automatically at age 17",
+      "Only after passing a new road test at 18",
+      "Automatically at age 18",
+      "At age 21"
+    ],
+    "answer": 2,
+    "explanation": "A junior driver's license automatically becomes a regular driver's license when the driver turns 18.",
+    "difficulty": 1,
+    "ref": "Pennsylvania Driver's Manual, p. 8",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.025",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 17-year-old is convicted of driving 72 mph in a 45 mph zone. What is the required penalty because of the driver's age?",
+    "choices": [
+      "Points only, with no suspension",
+      "A 90-day license suspension",
+      "A 30-day suspension",
+      "A 1-year suspension"
+    ],
+    "answer": 1,
+    "explanation": "Drivers under 18 are suspended for 90 days for driving 26 mph or more over the limit (72 in a 45 is 27 over) or for reaching 6 or more points.",
+    "difficulty": 3,
+    "ref": "Pennsylvania Driver's Manual, p. 83",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.026",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many questions are on Pennsylvania's non-commercial knowledge test, and how many must you answer correctly?",
+    "choices": [
+      "18 questions; 15 correct",
+      "20 questions; 16 correct",
+      "25 questions; 20 correct",
+      "18 questions; 12 correct"
+    ],
+    "answer": 0,
+    "explanation": "The knowledge test has 18 multiple-choice questions, and you must answer 15 correctly to pass.",
+    "difficulty": 1,
+    "ref": "Pennsylvania Driver's Manual, p. 9",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.027",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "If you fail the Pennsylvania knowledge test, when may you take it again?",
+    "choices": [
+      "Later the same day",
+      "After 7 days",
+      "After 30 days",
+      "The following business day"
+    ],
+    "answer": 3,
+    "explanation": "You may retake the knowledge test the following business day. It may be taken only once on any day, at any location.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 9",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.028",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old fails the road test. How long does Pennsylvania law require the teen to wait before retaking it?",
+    "choices": [
+      "1 day",
+      "14 days",
+      "7 days",
+      "30 days"
+    ],
+    "answer": 2,
+    "explanation": "Applicants under 18 must wait seven days before retaking the road test, giving them time to practice.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 10",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.029",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You move to Pennsylvania with a valid license from another state. How long do you have to get a Pennsylvania driver's license?",
+    "choices": [
+      "30 days",
+      "60 days",
+      "90 days",
+      "1 year"
+    ],
+    "answer": 1,
+    "explanation": "New residents with a valid license from another state or Canada must get a Pennsylvania license within 60 days and surrender the out-of-state license.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 7",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.030",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What happens the first time a Pennsylvania driving record reaches 6 or more points?",
+    "choices": [
+      "The driver must take a written special point examination",
+      "The driver must attend a departmental hearing",
+      "The license is suspended for 1 year",
+      "Nothing until the record reaches 11 points"
+    ],
+    "answer": 0,
+    "explanation": "PennDOT takes corrective action at 6 points. The first time, the driver receives notice to take a written special point exam.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 83",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.031",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How are points removed from a Pennsylvania driving record for safe driving?",
+    "choices": [
+      "All points are removed after 12 months",
+      "2 points for every 6 months without violations",
+      "Points are removed only by taking a driving course",
+      "3 points for every 12 consecutive months with no violations, suspension or revocation"
+    ],
+    "answer": 3,
+    "explanation": "Three points come off for every 12 consecutive months without a suspension, revocation, or a violation that brings points.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 83",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.032",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What are Pennsylvania's minimum liability insurance amounts?",
+    "choices": [
+      "$25,000 per person, $50,000 per crash, $10,000 property damage",
+      "$15,000 per person, $30,000 per crash, $10,000 property damage",
+      "$15,000 per person, $30,000 per crash for injuries, $5,000 property damage",
+      "$30,000 per person, $60,000 per crash, $25,000 property damage"
+    ],
+    "answer": 2,
+    "explanation": "Pennsylvania requires liability coverage of $15,000 for injury or death of one person, $30,000 for more than one person, and $5,000 for property damage.",
+    "difficulty": 2,
+    "ref": "PennDOT Insurance Law FAQs (pa.gov)",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.033",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "PennDOT finds that your registered vehicle had no insurance for 31 days or longer. What happens to the registration?",
+    "choices": [
+      "It is suspended for 30 days",
+      "It is suspended for 3 months",
+      "It is suspended for 1 year",
+      "You get a warning letter only"
+    ],
+    "answer": 1,
+    "explanation": "A lapse of 31 days or longer brings a 3-month registration suspension. If you drove or let someone drive the uninsured vehicle, your license is also suspended for 3 months.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 84",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.034",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Within how many days must you tell PennDOT about a change of name or address?",
+    "choices": [
+      "15 days",
+      "10 days",
+      "30 days",
+      "60 days"
+    ],
+    "answer": 0,
+    "explanation": "Pennsylvania requires you to notify PennDOT within 15 days of a name or address change, even if you are moving out of state.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 93",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.035",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "While stopped at a red light, a Pennsylvania driver picks up a phone to read a message. Is this legal?",
+    "choices": [
+      "Yes, because the vehicle is not moving",
+      "Yes, as long as the speaker is used",
+      "Yes, for drivers 18 and older",
+      "No; the hand-held ban applies even while temporarily stopped in traffic or at a light"
+    ],
+    "answer": 3,
+    "explanation": "Paul Miller's Law bans using a hand-held device while driving, and 'driving' includes being temporarily stopped for traffic, a light or a stop sign. Pull off the road and stop safely first.",
+    "difficulty": 2,
+    "ref": "PennDOT Distracted Driving page (pa.gov)",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.036",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which phone use is allowed while driving under Pennsylvania's hand-held ban (Paul Miller's Law)?",
+    "choices": [
+      "Holding the phone to your ear for a short call",
+      "Dialing a number by pressing several buttons",
+      "Making a call using hands-free technology",
+      "Balancing the phone on your knee to read a map"
+    ],
+    "answer": 2,
+    "explanation": "Hands-free calls, GPS and music are allowed. Holding or supporting a phone with any part of your body, or pressing more than a single button to dial or answer, counts as prohibited use.",
+    "difficulty": 3,
+    "ref": "PennDOT Distracted Driving page (pa.gov)",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.037",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Since June 5, 2026, what is the fine for a Pennsylvania driver convicted of using a hand-held device while driving?",
+    "choices": [
+      "$25 plus court costs",
+      "$50 plus court costs and fees",
+      "$150 plus court costs",
+      "A written warning only"
+    ],
+    "answer": 1,
+    "explanation": "Paul Miller's Law began June 5, 2025, with a year of written warnings. Since June 5, 2026, a conviction is a summary offense with a $50 fine plus costs and fees.",
+    "difficulty": 2,
+    "ref": "PennDOT Distracted Driving page (pa.gov)",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.038",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A non-commercial driver is convicted under Pennsylvania's texting-while-driving ban. What is the penalty?",
+    "choices": [
+      "A $50 fine, with no points on the driving record",
+      "A $50 fine and 2 points",
+      "A $300 fine and 3 points",
+      "A 30-day license suspension"
+    ],
+    "answer": 0,
+    "explanation": "Texting while driving is a primary offense with a $50 fine. It carries no points and is not recorded on non-commercial driving records.",
+    "difficulty": 3,
+    "ref": "PennDOT Distracted Driving page (pa.gov)",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.039",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "According to the Pennsylvania Driver's Manual, how may a driver use headphones or an earpiece?",
+    "choices": [
+      "In both ears, at low volume",
+      "Never, under any circumstances",
+      "In both ears, if the radio is off",
+      "In one ear only, for communication"
+    ],
+    "answer": 3,
+    "explanation": "Headphones or earpieces may be used in only one ear, and only for communication purposes.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 36",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.040",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "In Pennsylvania, when may a parking permit or air freshener hang from your rearview mirror?",
+    "choices": [
+      "Any time, if it is smaller than 3 inches",
+      "Any time, if it is a handicap placard",
+      "Only while the vehicle is parked",
+      "Never, even when parked"
+    ],
+    "answer": 2,
+    "explanation": "It is illegal to have anything hanging from the rearview mirror while moving. Tags, permits and placards may be attached to it only while the vehicle is parked.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 35",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.041",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "You are driving with a 12-year-old in the back seat. Does Pennsylvania law require the child to wear a seat belt?",
+    "choices": [
+      "No; only front-seat passengers must buckle up",
+      "Yes; occupants age 8 to under 18 must be buckled in any seat",
+      "Only on highways",
+      "Only if the driver is under 18"
+    ],
+    "answer": 1,
+    "explanation": "Drivers and front-seat passengers must buckle up, and every passenger 8 or older but under 18 must wear a seat belt no matter where they sit.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 93",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.042",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 25-year-old Pennsylvania driver is not wearing a seat belt but is otherwise obeying every law. Can police stop the driver just for the seat belt?",
+    "choices": [
+      "No; for drivers 18 and older the seat belt law is secondary, so a ticket comes only with another violation",
+      "Yes; the seat belt law is a primary offense for all drivers",
+      "Yes, but only at night",
+      "No; adults over 21 are not required to wear seat belts"
+    ],
+    "answer": 0,
+    "explanation": "For drivers 18 and older, the seat belt ticket is issued only when police stop you for another violation. Belt violations involving anyone under 18 are primary offenses.",
+    "difficulty": 3,
+    "ref": "PennDOT Seat Belts page (pa.gov)",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.043",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Pennsylvania law, how must an 18-month-old child ride in a car?",
+    "choices": [
+      "In a forward-facing car seat",
+      "In a booster seat",
+      "On an adult's lap with a seat belt",
+      "In a rear-facing car seat"
+    ],
+    "answer": 3,
+    "explanation": "Children under 2 must ride in a rear-facing car seat until they outgrow the seat maker's weight and height limits. Never put a rear-facing seat in front of an active air bag.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 94",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.044",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 6-year-old is riding in your car in Pennsylvania. What restraint does the law require?",
+    "choices": [
+      "An adult seat belt only",
+      "A rear-facing car seat",
+      "A federally approved booster seat used with a lap and shoulder belt",
+      "No restraint if riding in the back seat"
+    ],
+    "answer": 2,
+    "explanation": "Children 4 and older but under 8 must ride in a federally approved booster seat used with lap and shoulder belts, front or back seat.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 94",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.045",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the maximum speed limit anywhere in Pennsylvania?",
+    "choices": [
+      "65 mph",
+      "70 mph",
+      "75 mph",
+      "55 mph"
+    ],
+    "answer": 1,
+    "explanation": "The maximum speed limit in Pennsylvania is 70 mph, on freeways where it is posted.",
+    "difficulty": 1,
+    "ref": "Pennsylvania Driver's Manual, p. 43",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.046",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the speed limit in a Pennsylvania school zone when the yellow lights on the school zone sign are flashing?",
+    "choices": [
+      "15 mph",
+      "20 mph",
+      "25 mph",
+      "35 mph"
+    ],
+    "answer": 0,
+    "explanation": "You may travel no faster than 15 mph when the school zone lights are flashing or during the times posted on the sign.",
+    "difficulty": 1,
+    "ref": "Pennsylvania Driver's Manual, p. 13",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.047",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "How many points does a Pennsylvania driver get for speeding in a school zone?",
+    "choices": [
+      "2 points, plus a fine",
+      "5 points, plus a fine",
+      "No points, a fine only",
+      "3 points, plus a fine"
+    ],
+    "answer": 3,
+    "explanation": "Exceeding the school zone speed limit puts 3 points on your driving record, and you are also fined.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 13",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.048",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What maximum speed limit does Pennsylvania law set for urban districts?",
+    "choices": [
+      "25 mph",
+      "30 mph",
+      "35 mph",
+      "45 mph"
+    ],
+    "answer": 2,
+    "explanation": "75 Pa.C.S. § 3362 sets a 35 mph maximum in any urban district. Like the 25 mph residence-district limit, it must be posted to be enforced.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Vehicle Code, 75 Pa.C.S. § 3362",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.049",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "On a Pennsylvania highway outside urban and residence districts, with no other limit set, what is the maximum lawful speed?",
+    "choices": [
+      "50 mph",
+      "55 mph",
+      "60 mph",
+      "65 mph"
+    ],
+    "answer": 1,
+    "explanation": "Pennsylvania law sets 55 mph as the maximum 'in other locations.' Freeways may be posted at 65 or 70 mph.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Vehicle Code, 75 Pa.C.S. § 3362",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.050",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Pennsylvania law sets a 25 mph limit in a residence district. On which roads does that limit apply?",
+    "choices": [
+      "Local roads that are not numbered traffic routes, where the limit is posted",
+      "Every road in a residential area, posted or not",
+      "Numbered state routes through neighborhoods",
+      "Only roads next to schools"
+    ],
+    "answer": 0,
+    "explanation": "The 25 mph residence-district limit applies only on roads that are not numbered traffic routes and are classified as local highways, and it must be posted.",
+    "difficulty": 3,
+    "ref": "Pennsylvania Vehicle Code, 75 Pa.C.S. § 3362",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.051",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What following distance does the Pennsylvania Driver's Manual recommend on dry pavement?",
+    "choices": [
+      "At least 2 seconds",
+      "At least 3 seconds",
+      "One car length for every 10 mph",
+      "At least 4 seconds"
+    ],
+    "answer": 3,
+    "explanation": "Pennsylvania teaches a 4-second following distance on dry pavement. If you pass the roadside marker in less than 4 seconds, you are too close.",
+    "difficulty": 1,
+    "ref": "Pennsylvania Driver's Manual, p. 39",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.052",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "When roads are wet, what does the Pennsylvania Driver's Manual say to do?",
+    "choices": [
+      "Keep your speed but increase following distance to 3 seconds",
+      "Slow down by half and keep a 4-second following distance",
+      "Slow down 5 to 10 mph and increase following distance to 5 or 6 seconds",
+      "Use cruise control to keep a steady speed"
+    ],
+    "answer": 2,
+    "explanation": "On wet roads, reduce your speed by 5 to 10 mph and increase your following distance to 5 or 6 seconds. Never use cruise control on slippery roads.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 45",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.053",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are driving at the posted speed limit in heavy fog. Can you be ticketed for speeding in Pennsylvania?",
+    "choices": [
+      "No; you cannot be ticketed if you are at or below the limit",
+      "Yes; you can be ticketed for driving too fast for conditions even within the posted limit",
+      "Only if you cause a crash",
+      "Only on interstate highways"
+    ],
+    "answer": 1,
+    "explanation": "Posted limits are for ideal conditions. Even within the posted limit you can be ticketed for driving too fast for conditions.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 43",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.054",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are driving slowly on a road with one lane in each direction, and a line of traffic builds up behind you. What does Pennsylvania law require?",
+    "choices": [
+      "Pull completely off onto the berm or shoulder at the first safe chance, then let traffic pass",
+      "Turn on your hazard lights and keep going at the same speed",
+      "Speed up to the posted limit even if conditions are poor",
+      "Wave the drivers behind you to pass over the double yellow line"
+    ],
+    "answer": 0,
+    "explanation": "On a roadway with one lane each way, a slow driver who is impeding traffic must signal and pull completely off onto the berm or shoulder at the first reasonable and safe opportunity.",
+    "difficulty": 3,
+    "ref": "Pennsylvania Vehicle Code, 75 Pa.C.S. § 3364",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.055",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Pennsylvania law requires headlights when you cannot see people or vehicles on the highway for what distance ahead?",
+    "choices": [
+      "500 feet",
+      "300 feet",
+      "1,500 feet",
+      "1,000 feet"
+    ],
+    "answer": 3,
+    "explanation": "Headlights are required when you cannot see pedestrians or vehicles 1,000 feet ahead, from sunset to sunrise, in bad weather, in work zones, and whenever your wipers are on due to weather.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 44",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.056",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "It is a cloudy afternoon and light rain makes you run your wipers on the intermittent setting. What does Pennsylvania law require?",
+    "choices": [
+      "Nothing, because it is daytime",
+      "Turn on your high beams",
+      "Turn on your headlights, not just daytime running lights",
+      "Turn on your hazard flashers"
+    ],
+    "answer": 2,
+    "explanation": "Pennsylvania requires headlights whenever wipers are in continuous or intermittent use because of weather. Daytime running lights are not enough; your tail lights must be on too.",
+    "difficulty": 1,
+    "ref": "Pennsylvania Driver's Manual, p. 47",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.057",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "At night, within what distance of an oncoming vehicle must you switch to low beams in Pennsylvania?",
+    "choices": [
+      "300 feet",
+      "500 feet",
+      "200 feet",
+      "1,000 feet"
+    ],
+    "answer": 1,
+    "explanation": "Pennsylvania law requires low beams whenever you are within 500 feet of an oncoming vehicle.",
+    "difficulty": 1,
+    "ref": "Pennsylvania Driver's Manual, p. 44",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.058",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "At night you are following another vehicle. Within what distance must you use low beams?",
+    "choices": [
+      "300 feet",
+      "200 feet",
+      "500 feet",
+      "100 feet"
+    ],
+    "answer": 0,
+    "explanation": "Use low beams when following a vehicle within 300 feet. Use them within 500 feet of an oncoming vehicle.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 44",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.059",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You drive through a posted work zone on a Sunday when no workers are present. Must your headlights be on?",
+    "choices": [
+      "No; only in active work zones with workers present",
+      "Only between sunset and sunrise",
+      "Only if a flagger is present",
+      "Yes; headlights are required in all posted work zones, active or not"
+    ],
+    "answer": 3,
+    "explanation": "Turning on your headlights is the law for all posted work zones, not just active ones.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 22",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.060",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "What following distance does the Pennsylvania Driver's Manual advise in work zones?",
+    "choices": [
+      "Keep a 2-second gap so traffic keeps moving",
+      "Use cruise control to hold a steady gap",
+      "Double your following distance",
+      "The same distance as on an open highway"
+    ],
+    "answer": 2,
+    "explanation": "Double your following distance in work zones, because rear-end collisions are the most common work zone crash. Do not use cruise control.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 58",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.061",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Ice flies off your car roof on the highway, strikes another car, and seriously injures its driver. What fine can you face in Pennsylvania?",
+    "choices": [
+      "$25 to $100",
+      "$200 to $1,000 for each offense",
+      "$500 to $2,500",
+      "No fine, because snow and ice are natural hazards"
+    ],
+    "answer": 1,
+    "explanation": "If snow or ice from a moving vehicle strikes a vehicle or pedestrian and causes death or serious bodily injury, the driver faces a $200 to $1,000 fine for each offense. Clear your whole vehicle before driving.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 45",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.062",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You suddenly drive into a snow squall on the interstate. What does the Pennsylvania Driver's Manual advise?",
+    "choices": [
+      "Slow down gradually and turn on your hazard lights",
+      "Brake hard right away to stop in your lane",
+      "Speed up to get through it quickly",
+      "Switch to high beams to see farther"
+    ],
+    "answer": 0,
+    "explanation": "In a snow squall, slow down gradually and turn on your hazard lights, and do not slam on your brakes. If you are in a collision, stay in your vehicle when possible.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 47",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.063",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You drive around a ROAD CLOSED barrier at a flooded road and get stuck, and emergency crews must rescue you. What can you face in Pennsylvania?",
+    "choices": [
+      "A fine of up to $250 and no points",
+      "A written warning for a first offense",
+      "A $100 fine and 1 point",
+      "A fine of up to $500, the cost of the emergency response, and 2 points"
+    ],
+    "answer": 3,
+    "explanation": "Driving around signs closing a road for hazardous conditions brings 2 points and up to $250. If emergency responders are called, the fine rises to up to $500 and you must repay the response costs.",
+    "difficulty": 3,
+    "ref": "Pennsylvania Driver's Manual, p. 97",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.064",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "If you must drive below what speed on a limited access highway, should you turn on your hazard flashers?",
+    "choices": [
+      "30 mph",
+      "45 mph",
+      "40 mph",
+      "50 mph"
+    ],
+    "answer": 2,
+    "explanation": "If you must drive below 40 mph on a limited access highway, use your hazard flashers to warn drivers behind you.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 48",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.065",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "You are in a highway acceleration lane behind a slow car. May you pass it in the acceleration lane?",
+    "choices": [
+      "Yes, if the lane is long enough",
+      "No; passing a vehicle in an acceleration lane is illegal",
+      "Yes, if you signal first",
+      "Yes, if the car is going under 40 mph"
+    ],
+    "answer": 1,
+    "explanation": "It is illegal to pass a vehicle ahead of you in an acceleration lane. Match the speed of traffic and merge into an opening.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 50",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.066",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "You enter Pennsylvania on I-80 from the west and drive east. What happens to the mile marker numbers?",
+    "choices": [
+      "They start low and increase as you travel east",
+      "They start high and decrease as you travel east",
+      "They restart at zero in each county",
+      "They show the miles left to the next state line"
+    ],
+    "answer": 0,
+    "explanation": "Pennsylvania mile markers start at zero in the west for east-west roads and in the south for north-south roads, and increase as you travel east or north.",
+    "difficulty": 3,
+    "ref": "Pennsylvania Driver's Manual, p. 24",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.067",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "In Pennsylvania you face a steady red arrow pointing right, with no sign prohibiting turns on red. What may you do?",
+    "choices": [
+      "Wait for a green arrow before turning",
+      "Turn right without stopping if the way is clear",
+      "Turn only if a police officer waves you on",
+      "Stop, yield to pedestrians and traffic, then turn right, the same as at a steady red light"
+    ],
+    "answer": 3,
+    "explanation": "Pennsylvania allows the same turns on a steady red arrow as on a steady red light. You must stop first and yield.",
+    "difficulty": 3,
+    "ref": "Pennsylvania Driver's Manual, p. 11",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.068",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "In Pennsylvania, when may you turn left on a steady red light after stopping?",
+    "choices": [
+      "From a two-way street onto a one-way street",
+      "Any time oncoming traffic is clear",
+      "From the left lane of a one-way street onto another one-way street, unless a sign prohibits it",
+      "Never; left turns on red are always illegal"
+    ],
+    "answer": 2,
+    "explanation": "A left turn on red is allowed only from a one-way street onto another one-way street, from the left lane, after stopping and yielding, unless a sign says otherwise.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 11",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.069",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You are driving 30 mph and plan to turn at the next corner. At least how far before the turn must you signal under Pennsylvania law?",
+    "choices": [
+      "50 feet",
+      "100 feet",
+      "200 feet",
+      "300 feet"
+    ],
+    "answer": 1,
+    "explanation": "Below 35 mph, you must signal at least 100 feet before turning. At 35 mph or more, signal at least 300 feet before.",
+    "difficulty": 1,
+    "ref": "Pennsylvania Driver's Manual, p. 48",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.070",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You are driving 45 mph on a rural highway and plan to turn left. At least how far before the turn must you signal?",
+    "choices": [
+      "300 feet",
+      "100 feet",
+      "150 feet",
+      "500 feet"
+    ],
+    "answer": 0,
+    "explanation": "At 35 mph or more, Pennsylvania law requires a turn signal at least 300 feet before turning.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 48",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.071",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "On a Pennsylvania route marker, what does a keystone-shaped sign indicate?",
+    "choices": [
+      "The road is a U.S. traffic route",
+      "The road is an Interstate highway",
+      "The road is a toll road",
+      "The road is a Pennsylvania traffic route"
+    ],
+    "answer": 3,
+    "explanation": "The keystone marker shows the road is a Pennsylvania traffic route. U.S. routes and Interstates use different route shields.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 25",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.072",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Before making a U-turn, how far away should vehicles coming from every direction be, according to the Pennsylvania Driver's Manual?",
+    "choices": [
+      "At least 200 feet",
+      "At least 300 feet",
+      "At least 500 feet",
+      "At least 1,000 feet"
+    ],
+    "answer": 2,
+    "explanation": "U-turns are allowed only if they do not endanger traffic. Make sure drivers from all directions are at least 500 feet away and can see you clearly.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 50",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.073",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "Unless a traffic control device allows it, you may not pass another vehicle within how many feet of an intersection or railroad grade crossing?",
+    "choices": [
+      "50 feet",
+      "100 feet",
+      "200 feet",
+      "300 feet"
+    ],
+    "answer": 1,
+    "explanation": "You may not pass within 100 feet of, or while crossing, an intersection or railroad grade crossing, or within 100 feet of a bridge, elevated structure or tunnel.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 51",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.074",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How close to a fire hydrant may you park in Pennsylvania?",
+    "choices": [
+      "No closer than 15 feet",
+      "No closer than 10 feet",
+      "No closer than 20 feet",
+      "No closer than 25 feet"
+    ],
+    "answer": 0,
+    "explanation": "You may not stop, stand or park within 15 feet of a fire hydrant.",
+    "difficulty": 1,
+    "ref": "Pennsylvania Driver's Manual, p. 57",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.075",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Pennsylvania, you may not park within how many feet of a crosswalk at an intersection?",
+    "choices": [
+      "15 feet",
+      "25 feet",
+      "30 feet",
+      "20 feet"
+    ],
+    "answer": 3,
+    "explanation": "Parking is prohibited on a crosswalk and within 20 feet of a crosswalk at an intersection.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 57",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.076",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Pennsylvania, you may not park within how many feet of a stop sign, yield sign or flashing signal at the side of the road?",
+    "choices": [
+      "15 feet",
+      "20 feet",
+      "30 feet",
+      "50 feet"
+    ],
+    "answer": 2,
+    "explanation": "You may not stop, stand or park within 30 feet of any flashing signal, stop sign, yield sign or traffic control device at the side of a roadway.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 57",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.077",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Pennsylvania, you may not park within how many feet of the nearest rail of a railroad crossing?",
+    "choices": [
+      "15 feet",
+      "50 feet",
+      "30 feet",
+      "100 feet"
+    ],
+    "answer": 1,
+    "explanation": "Parking is prohibited within 50 feet of the nearest rail at a railroad crossing, and on the tracks themselves.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 57",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.078",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Pennsylvania, you may not park within how many feet of the driveway entrance to a fire station?",
+    "choices": [
+      "20 feet",
+      "15 feet",
+      "50 feet",
+      "75 feet"
+    ],
+    "answer": 0,
+    "explanation": "You may not stop, stand or park within 20 feet of a driveway entrance to a fire station.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 57",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.079",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "When you parallel park next to a curb in Pennsylvania, what is the farthest your vehicle may be from the curb?",
+    "choices": [
+      "6 inches",
+      "18 inches",
+      "24 inches",
+      "12 inches"
+    ],
+    "answer": 3,
+    "explanation": "Park as close to the curb as possible but no more than 12 inches away. If there is no curb, pull as far off the roadway as possible.",
+    "difficulty": 1,
+    "ref": "Pennsylvania Driver's Manual, p. 57",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.080",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Assuming no signs say otherwise, which parking spot is legal in Pennsylvania?",
+    "choices": [
+      "10 feet from a fire hydrant",
+      "25 feet before a stop sign at the side of the road",
+      "25 feet from a fire hydrant",
+      "40 feet from the nearest rail of a railroad crossing"
+    ],
+    "answer": 2,
+    "explanation": "25 feet from a hydrant is legal because the limit is 15 feet. The others break the 15-foot hydrant, 30-foot stop sign and 50-foot railroad rules.",
+    "difficulty": 3,
+    "ref": "Pennsylvania Driver's Manual, p. 57",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.081",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "If you must park on the roadway itself, from how far away should other drivers be able to see your vehicle, in both directions?",
+    "choices": [
+      "At least 100 feet",
+      "At least 500 feet",
+      "At least 200 feet",
+      "At least 1,000 feet"
+    ],
+    "answer": 1,
+    "explanation": "When you must park on the roadway, use your four-way flashers, leave room for passing vehicles, and make sure your vehicle can be seen from at least 500 feet in both directions.",
+    "difficulty": 3,
+    "ref": "Pennsylvania Driver's Manual, p. 56",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.082",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "After an emergency vehicle with siren and flashing lights passes you, how far behind it should you stay when you start driving again?",
+    "choices": [
+      "At least 500 feet",
+      "At least 100 feet",
+      "At least 200 feet",
+      "At least 300 feet"
+    ],
+    "answer": 0,
+    "explanation": "Pull over and stop, staying clear of intersections. After the emergency vehicle passes, check for others, then resume driving at least 500 feet behind it.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 63",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.083",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You approach a police stop on a 55 mph highway and cannot safely move to a lane that is not next to it. What is the fastest you may pass?",
+    "choices": [
+      "45 mph",
+      "40 mph",
+      "50 mph",
+      "35 mph"
+    ],
+    "answer": 3,
+    "explanation": "Under the Move Over law, if you cannot move to a non-adjacent lane you must slow to at least 20 mph below the posted limit: 55 - 20 = 35 mph.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 63",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.084",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "What is the penalty for a first violation of Pennsylvania's Move Over law, when no one is hurt?",
+    "choices": [
+      "A $100 fine and no points",
+      "A $250 fine and 3 points",
+      "A fine of up to $500 and 2 points",
+      "A 90-day license suspension"
+    ],
+    "answer": 2,
+    "explanation": "A first offense brings a fine of up to $500 and 2 points. Fines rise to $1,000 and $2,000 for later offenses, and suspensions apply if someone is seriously injured or killed.",
+    "difficulty": 3,
+    "ref": "Pennsylvania Driver's Manual, p. 63",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.085",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "When does Pennsylvania's Move Over law apply to a disabled vehicle?",
+    "choices": [
+      "Only when a police officer is with it",
+      "When it is marked with at least two signal lamps, road flares, caution signs or other traffic-control devices",
+      "Only when it is in a travel lane, not on the shoulder",
+      "Whenever any car is parked on the shoulder"
+    ],
+    "answer": 1,
+    "explanation": "A disabled vehicle in or beside a traffic lane is covered when it is marked with at least two signal lamps, road flares, caution signs or other traffic-control devices.",
+    "difficulty": 3,
+    "ref": "Pennsylvania Driver's Manual, p. 63",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.086",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A school bus is stopped with red lights flashing and its stop arm out. How far from the bus must you stop in Pennsylvania?",
+    "choices": [
+      "At least 10 feet",
+      "At least 5 feet",
+      "At least 20 feet",
+      "At least 25 feet"
+    ],
+    "answer": 0,
+    "explanation": "You must stop at least 10 feet away, whether behind the bus, coming toward it, or approaching an intersection where it is stopped. Wait until the lights stop, the arm is withdrawn and the children are safe.",
+    "difficulty": 1,
+    "ref": "Pennsylvania Driver's Manual, p. 62",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.087",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are on a four-lane road with no median. A school bus going the other way stops with red lights flashing and stop arm out. What must you do?",
+    "choices": [
+      "Slow down and pass with caution",
+      "Continue, because you are going the opposite direction",
+      "Stop only if children are crossing in front of you",
+      "Stop at least 10 feet away"
+    ],
+    "answer": 3,
+    "explanation": "Without a physical divider, traffic in both directions must stop. Only drivers on the opposite side of a divided highway may proceed.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 62",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.088",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A stopped school bus with flashing red lights is across a grass median on a divided highway, going the opposite direction. What should you do?",
+    "choices": [
+      "Stop at least 10 feet from the bus",
+      "Stop and wait until the stop arm is withdrawn",
+      "Reduce speed and continue with caution",
+      "Sound your horn and continue at normal speed"
+    ],
+    "answer": 2,
+    "explanation": "The only exception to the stopping rule is when you are on the opposite side of a divided highway (barriers, guide rails, or a grass, rock or water median). Reduce speed and drive with caution.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 62",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.089",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "What penalty does a Pennsylvania driver face for failing to stop for a school bus with flashing red lights and its stop arm out?",
+    "choices": [
+      "A 30-day suspension and 3 points",
+      "A 60-day license suspension, 5 points, and a fine",
+      "A 90-day suspension and 6 points",
+      "A fine and 2 points, with no suspension"
+    ],
+    "answer": 1,
+    "explanation": "Failing to stop for a school bus brings a 60-day suspension, 5 points on your record, and a fine.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 62",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.090",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A railroad crossing signal starts flashing as you approach. Under Pennsylvania law, where must you stop?",
+    "choices": [
+      "Within 50 feet but not less than 15 feet from the nearest rail",
+      "Between 5 and 10 feet from the nearest rail",
+      "At least 100 feet from the nearest rail",
+      "Right next to the crossing gate"
+    ],
+    "answer": 0,
+    "explanation": "When a signal warns of a train, a gate is down, a flagger signals, or a train is near, stop within 50 feet but not less than 15 feet from the nearest rail.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Vehicle Code, 75 Pa.C.S. § 3341",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.091",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "What license suspension does Pennsylvania impose for failing to obey a railroad crossing gate or barrier?",
+    "choices": [
+      "15 days",
+      "60 days",
+      "90 days",
+      "30 days"
+    ],
+    "answer": 3,
+    "explanation": "Failing to comply with a railroad crossing gate or barrier brings a 30-day suspension, plus a fine.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 83",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.092",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "At least how much space must you leave when passing a bicycle in Pennsylvania?",
+    "choices": [
+      "2 feet",
+      "3 feet",
+      "4 feet",
+      "6 feet"
+    ],
+    "answer": 2,
+    "explanation": "Pennsylvania's Safe Passing law requires at least 4 feet between your vehicle and a bicycle when passing.",
+    "difficulty": 1,
+    "ref": "Pennsylvania Driver's Manual, p. 96",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.093",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a two-lane road with a double yellow center line, you cannot give a cyclist 4 feet while staying in your lane. What does Pennsylvania allow?",
+    "choices": [
+      "Passing with less than 4 feet, since the line cannot be crossed",
+      "Crossing the double yellow line to keep 4 feet of clearance, if it is safe",
+      "Honking so the cyclist moves onto the shoulder",
+      "Passing on the shoulder to the right of the cyclist"
+    ],
+    "answer": 1,
+    "explanation": "If necessary and safe, you may cross the double yellow center line to keep 4 feet of clearance from a bicycle.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 96",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.094",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "What is the fastest an open-bed pickup truck may be driven in Pennsylvania while an adult rides in the bed?",
+    "choices": [
+      "35 mph",
+      "25 mph",
+      "45 mph",
+      "55 mph"
+    ],
+    "answer": 0,
+    "explanation": "An open-bed pickup or flatbed truck may not go faster than 35 mph if anyone is riding in the bed.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 63",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.095",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "Your light is green, but a funeral procession is going through the intersection against a red light. Its lead vehicle entered on green. What should you do?",
+    "choices": [
+      "Proceed, because your light is green",
+      "Cut into a gap in the procession",
+      "Honk to warn the procession to stop",
+      "Yield and let the procession pass"
+    ],
+    "answer": 3,
+    "explanation": "Once the lead vehicle has entered the intersection on green, the rest of the procession may proceed, and other traffic must yield. Do not cut in and out of the procession.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 68",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.096",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "A vehicle behind you is flashing only blue lights and seems to want you to pull over. What does the Pennsylvania Driver's Manual say about it?",
+    "choices": [
+      "It is an unmarked police car and you must stop at once",
+      "It is a state trooper and you must stop at once",
+      "A vehicle flashing only blue lights is not a police officer",
+      "It is a fire police vehicle with authority to stop you"
+    ],
+    "answer": 2,
+    "explanation": "Police lights are red and blue, or red only on unmarked cars. A vehicle flashing only blue lights is not a police officer.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 85",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.097",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "No one was hurt in your crash, but one car cannot be driven and needs a tow. Do you have to call the police?",
+    "choices": [
+      "No; police are needed only if someone is hurt",
+      "Yes; call the police whenever a vehicle needs to be towed",
+      "No; just exchange information",
+      "Only if the other driver has no insurance"
+    ],
+    "answer": 1,
+    "explanation": "Call the police if anyone is hurt or killed, or if any vehicle needs to be towed.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 85",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.098",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "After a crash where a vehicle had to be towed, police did not investigate. What must you do?",
+    "choices": [
+      "Send a Driver's Accident Report (AA-600) to PennDOT within 5 days",
+      "Send a crash report to PennDOT within 30 days",
+      "Report it to your insurance company only",
+      "Nothing, because no one was injured"
+    ],
+    "answer": 0,
+    "explanation": "If police do not investigate a crash in which someone died or was injured, or a vehicle must be towed, send form AA-600 to PennDOT within five days.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 85",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.099",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You get your learner's permit on your 16th birthday and log all required practice hours. What is the earliest age you can get a junior driver's license in Pennsylvania?",
+    "choices": [
+      "16",
+      "17",
+      "18",
+      "16 and a half"
+    ],
+    "answer": 3,
+    "explanation": "Permit holders under 18 must hold the permit for at least 6 months before the road test, so a driver who gets a permit at 16 can earn a junior license at 16 and a half at the earliest.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 6",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.100",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are pulling out of a parking garage, and a pedestrian is walking along the sidewalk across the driveway. What does Pennsylvania law require?",
+    "choices": [
+      "Sound your horn and continue, since you were moving first",
+      "The pedestrian must yield because you are in a vehicle",
+      "Yield to the pedestrian on the sidewalk",
+      "Yield only if the pedestrian is in a marked crosswalk"
+    ],
+    "answer": 2,
+    "explanation": "Drivers must yield to pedestrians walking on a sidewalk across a driveway or alley, as well as at intersections without signals, in marked crosswalks, and when turning across pedestrians crossing with the light.",
+    "difficulty": 1,
+    "ref": "Pennsylvania Driver's Manual, p. 52",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Under Pennsylvania law, which rider may legally ride a motorcycle without a helmet?",
+    "choices": [
+      "A 20-year-old licensed for three years",
+      "A 22-year-old who completed a PennDOT- or MSF-approved motorcycle safety course",
+      "A 25-year-old with a motorcycle learner's permit",
+      "Any rider on roads with a 35 mph limit or lower"
+    ],
+    "answer": 1,
+    "explanation": "Helmets are required unless the rider is 21 or older and either has been licensed to ride for 2 full years or has completed an approved safety course. Permit holders must always wear helmets.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Vehicle Code, 75 Pa.C.S. § 3525",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 21-year-old rider is exempt from Pennsylvania's helmet law. When is the passenger also exempt?",
+    "choices": [
+      "Only if the passenger is also 21 or older",
+      "Always, because the operator is exempt",
+      "Only if the passenger holds a motorcycle license",
+      "Never; passengers must always wear helmets"
+    ],
+    "answer": 0,
+    "explanation": "The passenger of an exempt rider is exempt only if the passenger is 21 or older.",
+    "difficulty": 3,
+    "ref": "Pennsylvania Vehicle Code, 75 Pa.C.S. § 3525",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 30-year-old with a motorcycle learner's permit has completed no safety course. Must they wear a helmet in Pennsylvania?",
+    "choices": [
+      "No; riders over 21 never need a helmet",
+      "Only on interstate highways",
+      "Only when carrying a passenger",
+      "Yes; motorcycle learner's permit holders must wear a helmet"
+    ],
+    "answer": 3,
+    "explanation": "Pennsylvania requires motorcycle learner's permit holders to wear helmets. The age-21 exemption needs 2 years of licensure or an approved safety course.",
+    "difficulty": 2,
+    "ref": "PennDOT Motorcycle Permit Process FAQs (pa.gov)",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Which protective equipment does Pennsylvania law require of every motorcycle rider, even one exempt from the helmet law?",
+    "choices": [
+      "A reflective vest",
+      "Over-the-ankle boots",
+      "An approved eye-protective device",
+      "Full-finger gloves"
+    ],
+    "answer": 2,
+    "explanation": "Pennsylvania requires an approved eye-protective device for motorcycle operators and riders, except on three-wheeled motorcycles with an enclosed cab, even when the helmet exemption applies.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Vehicle Code, 75 Pa.C.S. § 3525",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Is lane splitting (riding between lanes or rows of vehicles) legal in Pennsylvania?",
+    "choices": [
+      "Yes, in stopped traffic only",
+      "No; riding between lanes or rows of vehicles is prohibited",
+      "Yes, at speeds under 30 mph",
+      "Yes, on multi-lane highways only"
+    ],
+    "answer": 1,
+    "explanation": "No one may ride a motorcycle between lanes of traffic or between adjacent lines or rows of vehicles in Pennsylvania.",
+    "difficulty": 1,
+    "ref": "Pennsylvania Vehicle Code, 75 Pa.C.S. § 3523",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How many motorcycles may ride side by side in a single lane in Pennsylvania?",
+    "choices": [
+      "No more than two",
+      "No more than three",
+      "Any number that fits",
+      "Only one; riding abreast is illegal"
+    ],
+    "answer": 0,
+    "explanation": "Motorcycles may not ride more than two abreast in a single lane.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Vehicle Code, 75 Pa.C.S. § 3523",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "When may a Pennsylvania motorcycle learner's permit holder ride?",
+    "choices": [
+      "Any time, if supervised",
+      "Only before 11 p.m.",
+      "Only on weekends",
+      "Only between sunrise and sunset"
+    ],
+    "answer": 3,
+    "explanation": "Motorcycle permit holders may ride only between sunrise and sunset. No nighttime riding is allowed.",
+    "difficulty": 1,
+    "ref": "PennDOT Motorcycle Permit Process FAQs (pa.gov)",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Who may ride as a passenger with a Pennsylvania motorcycle learner's permit holder?",
+    "choices": [
+      "Any licensed adult",
+      "Any passenger wearing a helmet",
+      "Only an instructor properly licensed to operate a motorcycle",
+      "A parent or guardian"
+    ],
+    "answer": 2,
+    "explanation": "Motorcycle permit holders may not carry any passenger other than an instructor properly licensed to operate a motorcycle.",
+    "difficulty": 2,
+    "ref": "PennDOT Motorcycle Permit Process FAQs (pa.gov)",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Besides holding the permit for 6 months with 65 hours of practice, what must a rider under 18 complete to get a Pennsylvania motorcycle license?",
+    "choices": [
+      "A second written knowledge test at age 17",
+      "A Pennsylvania Motorcycle Safety Program Basic/Beginner Rider course",
+      "10 hours of night riding",
+      "A commercial driving course"
+    ],
+    "answer": 1,
+    "explanation": "Riders under 18 must complete a Pennsylvania Motorcycle Safety Program beginner course, plus 6 months on the permit and 65 hours of supervised riding.",
+    "difficulty": 2,
+    "ref": "PennDOT Motorcycle Permit Process FAQs (pa.gov)",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.mc.010",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How often may you apply for a Pennsylvania motorcycle learner's permit?",
+    "choices": [
+      "No more than three times in a five-year period",
+      "Once a year with no limit",
+      "As often as you like, but it can be renewed only once",
+      "Once, after which you must take a course"
+    ],
+    "answer": 0,
+    "explanation": "A motorcycle learner's permit cannot be renewed, and you may reapply no more than three times in a five-year period, passing the knowledge test each time.",
+    "difficulty": 3,
+    "ref": "PennDOT Motorcycle Permit Process FAQs (pa.gov)",
+    "states": [
+      "PA"
+    ]
+  }
+]

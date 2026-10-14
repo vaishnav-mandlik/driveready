@@ -1,0 +1,770 @@
+[
+  {
+    "id": "mc.crash.001",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "What is the best way to stop a motorcycle quickly?",
+    "choices": [
+      "Use only the front brake",
+      "Use both brakes at the same time",
+      "Apply the rear brake first, then add the front brake",
+      "Downshift quickly and rely mainly on the rear brake"
+    ],
+    "answer": 1,
+    "explanation": "To stop quickly, apply both brakes at the same time. The front brake provides most of the stopping power, so using only one brake wastes stopping ability.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 27 (Quick Stops)"
+  },
+  {
+    "id": "mc.crash.002",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "According to crash studies, what braking mistake do most crash-involved riders make?",
+    "choices": [
+      "They underbrake the front tire and overbrake the rear",
+      "They overbrake the front tire and underbrake the rear tire",
+      "They apply both brakes much too early before reaching a hazard",
+      "They rely on engine braking alone"
+    ],
+    "answer": 0,
+    "explanation": "Studies show most crash-involved riders underbrake the front tire and overbrake the rear. Squeeze the front brake firmly and progressively instead of being shy with it.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 27 (Ride Within Your Abilities)"
+  },
+  {
+    "id": "mc.crash.003",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "During a hard stop, your front wheel locks. What should you do?",
+    "choices": [
+      "Release the front brake at once, then reapply it smoothly",
+      "Keep squeezing the front brake firmly until the motorcycle stops",
+      "Release the front brake and finish the stop using only the rear",
+      "Pull in the clutch and keep holding the front brake"
+    ],
+    "answer": 0,
+    "explanation": "If the front wheel locks, release the front brake immediately and reapply it smoothly. A locked front wheel means immediate loss of steering control and balance.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, pp. 27-28 (Quick Stops; Front-Wheel Skids)"
+  },
+  {
+    "id": "mc.crash.004",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "While stopping hard in a straight line on good pavement, you lock the rear wheel. The motorcycle is upright. What does the manual say you can do?",
+    "choices": [
+      "Release the rear brake right away, then reapply it",
+      "Keep the rear wheel locked until you have stopped",
+      "Release both brakes and coast the rest of the way to a stop",
+      "Shift down a gear so engine power unlocks the rear wheel"
+    ],
+    "answer": 1,
+    "explanation": "On a good-traction surface, you can keep a locked rear wheel locked until you stop; the motorcycle stays controllable if it is upright and going straight. Releasing it when the wheels are out of line can cause a high-side crash.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 27 (Quick Stops)"
+  },
+  {
+    "id": "mc.crash.005",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "Why must you brake more carefully when the motorcycle is leaned over in a curve?",
+    "choices": [
+      "The front brake stops working whenever the motorcycle is leaning over",
+      "Leaning moves nearly all of your weight onto the front tire",
+      "Part of your traction is used for cornering, leaving less for braking",
+      "The rear brake becomes much stronger when the motorcycle leans"
+    ],
+    "answer": 2,
+    "explanation": "When the motorcycle leans, part of the available traction is used for cornering. Less traction remains for braking, so too much brake can cause a skid.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 27 (Stopping Quickly in a Curve)"
+  },
+  {
+    "id": "mc.crash.006",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "You must stop quickly while in a curve, and conditions allow it. What should you do first?",
+    "choices": [
+      "Brake hard with the rear brake while staying leaned over",
+      "Lean farther into the curve, then squeeze the front brake hard",
+      "Straighten up and square the handlebars, then brake",
+      "Pull in the clutch and coast"
+    ],
+    "answer": 2,
+    "explanation": "If you must stop quickly in a curve, first straighten up and square the handlebars, then stop. A straight, upright motorcycle can use maximum braking.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 27 (Stopping Quickly in a Curve)"
+  },
+  {
+    "id": "mc.crash.007",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "In a left-hand curve you must stop quickly, but straightening up first would run you off the road. How should you brake?",
+    "choices": [
+      "Apply full front brake immediately while still leaned over",
+      "Use only the rear brake until you have left the curve",
+      "Gradually, adding pressure as you slow and lean less",
+      "Do not brake at all and let engine drag slow the motorcycle"
+    ],
+    "answer": 2,
+    "explanation": "When you cannot straighten first, apply the brakes smoothly and gradually. As you slow, reduce the lean angle and add brake pressure until the motorcycle is straight and maximum braking can be used.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 27 (Stopping Quickly in a Curve)"
+  },
+  {
+    "id": "mc.crash.008",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "When might swerving be the only way to avoid a crash?",
+    "choices": [
+      "When there is not enough room to stop, even using both brakes",
+      "Whenever any obstacle appears in the road directly ahead of you",
+      "Only when you are riding on a wet or slippery road surface",
+      "Only when you are traveling at very low speeds"
+    ],
+    "answer": 0,
+    "explanation": "Sometimes there is not enough room to stop, even with both brakes used properly. Then turning quickly or swerving around the hazard may be the only way to avoid a crash.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 27 (Swerving or Turning Quickly)"
+  },
+  {
+    "id": "mc.crash.009",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "You need to swerve quickly to the right around an object. How do you start the swerve?",
+    "choices": [
+      "Press on the left handgrip",
+      "Turn the handlebars sharply to the right",
+      "Shift your body weight hard to the right side",
+      "Press on the right handgrip"
+    ],
+    "answer": 3,
+    "explanation": "To swerve, apply a small amount of pressure to the handgrip on the side of your escape direction. Pressing the right grip makes the motorcycle lean quickly to the right.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 27 (Swerving or Turning Quickly)"
+  },
+  {
+    "id": "mc.crash.010",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "What should your body do while you swerve?",
+    "choices": [
+      "Lean farther than the motorcycle so it turns more sharply",
+      "Stand up on the footrests to lower your center of gravity",
+      "Stay upright and let the motorcycle lean beneath you",
+      "Lift your feet off the footrests"
+    ],
+    "answer": 2,
+    "explanation": "Keep your body upright and let the motorcycle lean under you, with your knees against the tank and feet solidly on the footrests.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 27 (Swerving or Turning Quickly)"
+  },
+  {
+    "id": "mc.crash.011",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "Where should you look while swerving around an obstacle?",
+    "choices": [
+      "At the obstacle you are trying to avoid",
+      "Down at your front tire",
+      "At your escape path",
+      "In your mirrors at the traffic behind you"
+    ],
+    "answer": 2,
+    "explanation": "Make your escape path the target of your vision. Looking at the obstacle tends to steer you toward it.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 27 (Swerving or Turning Quickly)"
+  },
+  {
+    "id": "mc.crash.012",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "After a swerve has taken you clear of an obstacle, how do you return to your original direction?",
+    "choices": [
+      "Press again on the same handgrip",
+      "Apply the rear brake to stand the motorcycle up",
+      "Roll on the throttle hard",
+      "Press on the opposite handgrip"
+    ],
+    "answer": 3,
+    "explanation": "Once you are clear, press on the opposite handgrip to bring the motorcycle back to your original direction of travel.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, pp. 27-28 (Swerving or Turning Quickly)"
+  },
+  {
+    "id": "mc.crash.013",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "You need to both slow down and swerve to avoid a hazard. How should you combine braking and swerving?",
+    "choices": [
+      "Brake hard while swerving",
+      "Brake before or after the swerve, not during it",
+      "Use only the rear brake while swerving to stay stable",
+      "Swerve first and brake only if the motorcycle starts to slide"
+    ],
+    "answer": 1,
+    "explanation": "If the situation allows, separate braking from swerving: brake before or after, never while making an aggressive swerve. Braking while swerving can overload the tires' traction.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 28 (Swerving or Turning Quickly)"
+  },
+  {
+    "id": "mc.crash.014",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "How is maximum straight-line braking achieved?",
+    "choices": [
+      "Locking the rear wheel while easing off the front brake",
+      "Fully applying both brakes without locking either wheel",
+      "Using only the front brake with the clutch let out",
+      "Pumping the rear brake repeatedly while downshifting quickly"
+    ],
+    "answer": 1,
+    "explanation": "Maximum straight-line braking means fully applying the front and rear brakes without locking either wheel. Keep your body centered and look well ahead, not down.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 28 (Maximum Straight-Line Braking)"
+  },
+  {
+    "id": "mc.crash.015",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "What is the immediate result of a front-wheel skid?",
+    "choices": [
+      "The rear of the motorcycle slowly swings out to one side",
+      "Loss of steering control and balance",
+      "The engine stalls, but steering stays completely normal",
+      "The motorcycle stops sooner"
+    ],
+    "answer": 1,
+    "explanation": "Front-wheel skids cause immediate loss of steering control and balance. Failing to release the front brake right away will result in a crash.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 28 (Front-Wheel Skids)"
+  },
+  {
+    "id": "mc.crash.016",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "Your rear wheel is locked and has slid out of line with the front. What is the danger if you suddenly release the rear brake?",
+    "choices": [
+      "The front wheel will lock up as well and start to skid",
+      "The engine will stall and lose all of its power",
+      "The motorcycle will suddenly speed up",
+      "The motorcycle can snap upright and throw you off"
+    ],
+    "answer": 3,
+    "explanation": "Releasing a locked rear wheel when the wheels are out of alignment can cause a high-side crash: the motorcycle snaps upright and throws the rider. Even slight misalignment can cause one.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, pp. 28-29 (Rear-Wheel Skids)"
+  },
+  {
+    "id": "mc.crash.017",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "What is a primary cause of single-vehicle motorcycle crashes?",
+    "choices": [
+      "Running wide in a curve or turn",
+      "Braking too gently on straight roads",
+      "Using high-beam headlights",
+      "Shifting gears too often in town traffic"
+    ],
+    "answer": 0,
+    "explanation": "Motorcyclists running wide in a curve or turn is a primary cause of single-vehicle crashes. Ride within your skill level and the posted speed.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 29 (Curves)"
+  },
+  {
+    "id": "mc.crash.018",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "What lane position does the manual describe as a good choice when entering a curve?",
+    "choices": [
+      "Hugging the inside edge of the curve to shorten your path",
+      "Riding right next to the center line to see around the bend",
+      "The center of the lane, held until you exit the curve",
+      "The outside edge, to stay as far from other traffic as possible"
+    ],
+    "answer": 2,
+    "explanation": "A good choice is to move to the center of your lane before the curve and stay there until you exit. This lets you see oncoming traffic early and adjust for cars crowding the center line or debris.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 29 (Curves)"
+  },
+  {
+    "id": "mc.crash.019",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "Which statement about choosing your path through curves is correct?",
+    "choices": [
+      "You should always follow the exact curve of the road",
+      "Your best path may not follow the curve of the road",
+      "Every curve can be taken in the same lane position",
+      "Curves keep the same radius from start to finish"
+    ],
+    "answer": 1,
+    "explanation": "Every curve is different: it may stay constant, widen, tighten, or involve multiple turns. Change your lane position depending on traffic, road conditions and the curve of the road.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 29 (Curves)"
+  },
+  {
+    "id": "mc.crash.020",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "If you must ride over a small obstacle, at what angle should you approach it?",
+    "choices": [
+      "At an angle of about 45 degrees",
+      "At a shallow angle of about 20 degrees",
+      "At whatever angle lets you keep your speed",
+      "As close to 90 degrees as possible"
+    ],
+    "answer": 3,
+    "explanation": "If you must go over a smaller obstacle, approach it as close to a 90-degree angle as possible, with the motorcycle straight.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 30 (Uneven Surfaces and Obstacles)"
+  },
+  {
+    "id": "mc.crash.021",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "How should you position yourself when riding over an obstacle you cannot avoid?",
+    "choices": [
+      "Rise slightly off the seat with your weight on the footrests",
+      "Sit down firmly on the seat and lock your arms straight out",
+      "Lean back and pull up hard on the handlebars",
+      "Shift your weight to one side of the seat"
+    ],
+    "answer": 0,
+    "explanation": "Rise slightly off the seat with your weight on the footrests so your knees and elbows can absorb the shock.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 30 (Uneven Surfaces and Obstacles)"
+  },
+  {
+    "id": "mc.crash.022",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "What should you do with the throttle just before your front tire contacts an obstacle?",
+    "choices": [
+      "Roll on slightly, then roll off",
+      "Close it completely and squeeze the front brake",
+      "Hold it steady at your current speed",
+      "Roll on hard and keep accelerating over it"
+    ],
+    "answer": 0,
+    "explanation": "Slow down as much as possible first. Then, just before contact, quickly roll on the throttle slightly to lighten the front end, and roll off.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 30 (Uneven Surfaces and Obstacles)"
+  },
+  {
+    "id": "mc.crash.023",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "What should you do after riding over an object on the street?",
+    "choices": [
+      "Keep riding and check the tires at your next fuel stop",
+      "Pull off the road and check your tires and rims",
+      "Speed up briefly to test whether the steering feels normal",
+      "Bounce on the seat while riding to test the suspension"
+    ],
+    "answer": 1,
+    "explanation": "If you ride over an object, pull off the road and check your tires and rims for damage before riding any farther.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 30 (Uneven Surfaces and Obstacles)"
+  },
+  {
+    "id": "mc.crash.024",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "When is wet pavement especially slippery?",
+    "choices": [
+      "After it has rained steadily for several hours",
+      "Only when the air temperature is below freezing",
+      "Once the road starts to dry",
+      "Just after it starts to rain"
+    ],
+    "answer": 3,
+    "explanation": "Wet pavement is particularly slippery just after it starts to rain, before surface oil washes to the side of the road.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 30 (Slippery Surfaces)"
+  },
+  {
+    "id": "mc.crash.025",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "Which of these road features gives poor traction, especially when wet?",
+    "choices": [
+      "Dry, clean asphalt",
+      "Coarse concrete pavement",
+      "Dry pavement in the tire tracks",
+      "Painted lane markings"
+    ],
+    "answer": 3,
+    "explanation": "Lane markings (painted lines), steel plates and surface covers provide poor traction, especially when wet.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 30 (Slippery Surfaces)"
+  },
+  {
+    "id": "mc.crash.026",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "It has just started to rain. Where in the lane is it usually best to ride?",
+    "choices": [
+      "In the center of the lane",
+      "Along the edge of the road",
+      "In the tire tracks left by vehicles",
+      "Directly on the painted lane line"
+    ],
+    "answer": 2,
+    "explanation": "The center of the lane can be hazardous when wet. Ride in the tire tracks left by vehicles; often the left tire track is best.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 30 (Slippery Surfaces)"
+  },
+  {
+    "id": "mc.crash.027",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "How should you use your brakes on a slippery surface?",
+    "choices": [
+      "Use only the rear brake to avoid any front-wheel skid",
+      "Avoid the brakes and slow down with engine braking only",
+      "Apply the front brake hard",
+      "Use both brakes with gentle pressure"
+    ],
+    "answer": 3,
+    "explanation": "The front brake is still effective on a slippery surface. Use both brakes with gentle pressure, squeezing the lever gradually to avoid locking the front wheel.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 30 (Slippery Surfaces)"
+  },
+  {
+    "id": "mc.crash.028",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "Where are patches of ice most likely to form?",
+    "choices": [
+      "In shaded areas and on bridges and overpasses",
+      "On sunny stretches of road that face south",
+      "On busy roads that carry heavy traffic all day",
+      "On sections of freshly paved asphalt"
+    ],
+    "answer": 0,
+    "explanation": "Rain dries and snow melts faster on some parts of a road than others. Ice tends to develop in low or shaded areas and on bridges and overpasses.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 30 (Slippery Surfaces)"
+  },
+  {
+    "id": "mc.crash.029",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "You cannot avoid an icy road and are moving at a walking pace. Which technique does the manual suggest?",
+    "choices": [
+      "Use light rear brake and keep the engine in first gear",
+      "Lean slightly into each turn while holding a steady throttle",
+      "Stay off the brakes and coast with the clutch squeezed",
+      "Stand on the footrests and use the front brake gently"
+    ],
+    "answer": 2,
+    "explanation": "On ice or snow, keep the motorcycle straight up and go as slowly as possible. At a walking pace, let your feet skim the surface, keep off the brakes and, if possible, squeeze the clutch and coast.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 31 (Slippery Surfaces)"
+  },
+  {
+    "id": "mc.crash.030",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "Railroad tracks cross your lane at a slight angle. What is usually safest?",
+    "choices": [
+      "Turn so that you cross the tracks at exactly 90 degrees",
+      "Ride straight across within your lane",
+      "Speed up to cross faster",
+      "Move into the next lane to get a better angle"
+    ],
+    "answer": 1,
+    "explanation": "It is usually safer to ride straight within your lane to cross tracks. Turning to take them at 90 degrees can be more dangerous because it may put you into another lane of traffic.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 31 (Railroad Tracks, Trolley Tracks and Pavement Seams)"
+  },
+  {
+    "id": "mc.crash.031",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "You need to cross a pavement seam that runs parallel to your path. How should you cross it?",
+    "choices": [
+      "Ease across it gradually at a very shallow angle",
+      "Ride along the seam until it ends on its own",
+      "Cross at an angle of at least 45 degrees",
+      "Cross it slowly while applying the front brake"
+    ],
+    "answer": 2,
+    "explanation": "For seams, ruts or tracks that run parallel to your path, move far enough away to cross at an angle of at least 45 degrees, then make a deliberate turn so you are not thrown off balance.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 31 (Railroad Tracks, Trolley Tracks and Pavement Seams)"
+  },
+  {
+    "id": "mc.crash.032",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "Your motorcycle starts to weave as you ride over a bridge grating. What should you do?",
+    "choices": [
+      "Brake firmly until the weaving stops",
+      "Zigzag across to find a smoother path",
+      "Relax, keep a steady speed and ride straight across",
+      "Speed up quickly to get off the grating sooner"
+    ],
+    "answer": 2,
+    "explanation": "The wandering feeling on grooves and gratings is generally not hazardous. Relax, maintain a steady speed and ride straight across. Zigzagging is far more hazardous than the wandering feeling.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 31 (Grooves and Gratings)"
+  },
+  {
+    "id": "mc.crash.033",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "How will the steering feel if your front tire goes flat?",
+    "choices": [
+      "Light and loose",
+      "Heavy",
+      "Normal, with no change",
+      "Stiff only at high speeds"
+    ],
+    "answer": 1,
+    "explanation": "A flat front tire makes the steering feel heavy. It is especially hazardous because it affects your steering, which you need to keep your balance.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 32 (Tire Failure)"
+  },
+  {
+    "id": "mc.crash.034",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "What is a likely sign that your rear tire has gone flat?",
+    "choices": [
+      "The steering suddenly feels very heavy",
+      "The back of the motorcycle jerks or sways",
+      "The front brake lever feels soft and spongy",
+      "The engine loses power and starts to sputter"
+    ],
+    "answer": 1,
+    "explanation": "If the rear tire goes flat, the back of the motorcycle may jerk or sway from side to side. A heavy feel in the steering points to the front tire.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 32 (Tire Failure)"
+  },
+  {
+    "id": "mc.crash.035",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "One tire has gone flat and you need to brake. You are sure which tire it is. How should you brake?",
+    "choices": [
+      "Apply both brakes firmly to stop as quickly as you can",
+      "Use only the brake on the tire that has gone flat",
+      "Avoid all braking and coast to a stop",
+      "Gradually apply the brake on the good tire"
+    ],
+    "answer": 3,
+    "explanation": "Hold the grips firmly, ease off the throttle and keep a straight course. If braking is required, gradually apply the brake of the tire that is not flat, if you are sure which one it is.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 32 (Tire Failure)"
+  },
+  {
+    "id": "mc.crash.036",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "Your throttle sticks while you are riding. If the situation allows, what should you try first?",
+    "choices": [
+      "Twist the throttle back and forth several times",
+      "Turn off the ignition key",
+      "Apply the rear brake hard",
+      "Shift the transmission into neutral"
+    ],
+    "answer": 0,
+    "explanation": "If the situation allows, twist the throttle back and forth several times. If the throttle cable is stuck, this may free it.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, pp. 32-33 (Stuck Throttle)"
+  },
+  {
+    "id": "mc.crash.037",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "Twisting the throttle does not free it, and it stays stuck. What should you do next?",
+    "choices": [
+      "Downshift through each gear to slow the engine down",
+      "Apply both brakes hard while keeping the clutch let out",
+      "Use the engine cut-off switch and squeeze the clutch",
+      "Keep riding and twist the throttle until it frees itself"
+    ],
+    "answer": 2,
+    "explanation": "If the throttle stays stuck, immediately use the engine cut-off switch and squeeze the clutch lever together. This removes power from the rear wheel, even if the engine sound does not drop right away.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 33 (Stuck Throttle)"
+  },
+  {
+    "id": "mc.crash.038",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "Most motorcycle wobbles can be traced to which causes?",
+    "choices": [
+      "Improper loading, unsuitable accessories or wrong tire pressure",
+      "Riding too slowly in the lowest gear for long periods",
+      "Worn brake pads and a dirty or clogged air filter",
+      "Using the front brake too often in normal riding"
+    ],
+    "answer": 0,
+    "explanation": "Most wobbles come from improper loading, unsuitable accessories or incorrect tire pressure. Trying to accelerate out of a wobble only makes the motorcycle more unstable.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 33 (Wobble)"
+  },
+  {
+    "id": "mc.crash.039",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "Your front wheel and handlebars suddenly begin to shake from side to side. What should you do?",
+    "choices": [
+      "Accelerate to get out of the wobble",
+      "Apply the brakes firmly to stop quickly",
+      "Grip the handlebars firmly and close the throttle gradually",
+      "Hold the handlebars loosely and downshift"
+    ],
+    "answer": 2,
+    "explanation": "In a wobble, grip the handlebars firmly without fighting it and close the throttle gradually. Do not brake, because braking could make the wobble worse, and do not try to accelerate out of it.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 33 (Wobble)"
+  },
+  {
+    "id": "mc.crash.040",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "Where should you move your body weight during a wobble?",
+    "choices": [
+      "As far back on the seat as you can",
+      "Up off the seat onto the footrests",
+      "To one side to counter the shaking",
+      "As far forward and down as possible"
+    ],
+    "answer": 3,
+    "explanation": "During a wobble, move your weight as far forward and down as possible, close the throttle gradually and pull off the road as soon as you can.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 33 (Wobble)"
+  },
+  {
+    "id": "mc.crash.041",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "Your chain breaks while you are riding and you lose power to the rear wheel. What should you do?",
+    "choices": [
+      "Squeeze the clutch and restart the engine while rolling",
+      "Downshift one or two gears to try to regain power",
+      "Keep the throttle open and coast to the next exit",
+      "Close the throttle and brake to a stop in a safe area"
+    ],
+    "answer": 3,
+    "explanation": "If the chain or belt breaks, you will notice an instant loss of power to the rear wheel. Close the throttle and brake to a stop in a safe area. A slipping or broken chain can also lock the rear wheel.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 33 (Drive Train Problems)"
+  },
+  {
+    "id": "mc.crash.042",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "Your engine loses power and its sound changes, signs it may be seizing. What should you do?",
+    "choices": [
+      "Squeeze the clutch, pull off the road and stop",
+      "Downshift and keep riding to the nearest repair shop",
+      "Rev the engine to keep it from locking up",
+      "Turn the engine off but leave the transmission in gear"
+    ],
+    "answer": 0,
+    "explanation": "Engine seizure is usually caused by low oil. Squeeze the clutch to disengage the engine from the rear wheel, then pull off and stop; a seized engine acts like a locked rear wheel. Check the oil and let the engine cool before restarting.",
+    "difficulty": 3,
+    "ref": "MSF Motorcycle Operator Manual, p. 33 (Engine Seizure)"
+  },
+  {
+    "id": "mc.crash.043",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "A small animal runs in front of you while you are riding in traffic. What does the manual advise?",
+    "choices": [
+      "Swerve into another lane",
+      "Stay in your lane",
+      "Brake hard and stop in the lane right away",
+      "Ride onto the shoulder to go around it"
+    ],
+    "answer": 1,
+    "explanation": "Do everything you safely can to avoid an animal, but if you are in traffic, remain in your lane. Hitting something small is less dangerous to you than hitting something big, like a car.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, pp. 33-34 (Animals)"
+  },
+  {
+    "id": "mc.crash.044",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "A dog starts chasing your motorcycle. What should you do?",
+    "choices": [
+      "Downshift, approach slowly, then speed away",
+      "Kick at the dog to keep it away from your legs",
+      "Stop and wait until the dog loses interest",
+      "Swerve sharply around the dog at your current speed"
+    ],
+    "answer": 0,
+    "explanation": "If chased by a dog, downshift and approach the animal slowly. As you approach it, accelerate and leave it behind. Don't kick at the animal.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 34 (Animals)"
+  },
+  {
+    "id": "mc.crash.045",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "A deer is standing near the road ahead. What should you do?",
+    "choices": [
+      "Speed up and pass it",
+      "Sound your horn and keep your speed",
+      "Swerve toward the opposite shoulder early",
+      "Brake and prepare to stop"
+    ],
+    "answer": 3,
+    "explanation": "For larger animals such as deer, elk or cattle, brake and prepare to stop. They are unpredictable.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 34 (Animals)"
+  },
+  {
+    "id": "mc.crash.046",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "A pebble kicked up by the car ahead cracks your face shield. What should you do right away?",
+    "choices": [
+      "Lift the face shield to clear your view",
+      "Keep your eyes on the road and hands on the handlebars",
+      "Brake hard and stop in your lane",
+      "Wipe the shield clean with one hand"
+    ],
+    "answer": 1,
+    "explanation": "Whatever happens, keep your eyes on the road and your hands on the handlebars. When it is safe, pull off the road and repair the damage.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 34 (Flying Objects)"
+  },
+  {
+    "id": "mc.crash.047",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "You want to pull onto the shoulder, but it looks like soft grass or loose sand. What should you do?",
+    "choices": [
+      "Keep your speed up so the tires do not sink in",
+      "Brake hard only after you reach the shoulder",
+      "Stop in the travel lane instead",
+      "Slow way down before you turn onto it"
+    ],
+    "answer": 3,
+    "explanation": "Make sure the roadside is firm enough to ride on. If it is soft grass, loose sand or you are not sure, slow way down before you turn onto it.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 34 (Getting Off the Road)"
+  },
+  {
+    "id": "mc.crash.048",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "When you pull off the road to check your motorcycle, why should you get as far off the road as you can?",
+    "choices": [
+      "A motorcycle at the roadside is hard to see",
+      "It keeps your engine from overheating while parked",
+      "It lets you park on a steeper, safer slope",
+      "It is the only way to use the side stand"
+    ],
+    "answer": 0,
+    "explanation": "It can be very hard to spot a motorcycle beside the road, and you don't want another driver pulling off at the same place. Signal, check mirrors and do a head check before leaving the road.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 34 (Getting Off the Road)"
+  }
+]

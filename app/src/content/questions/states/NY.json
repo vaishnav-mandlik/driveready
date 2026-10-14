@@ -98,7 +98,7 @@
     "id": "ny.car.006",
     "track": "car",
     "topic": "alcohol-drugs",
-    "prompt": "A New York driver age 21 or older refuses a chemical (breath) test for the first time after an arrest. What is the minimum license penalty?",
+    "prompt": "A New York driver over age 21 refuses a chemical (breath) test for the first time after an arrest. What is the minimum license penalty?",
     "choices": [
       "Revocation for at least six months",
       "A fine only, with no license action",
@@ -106,12 +106,12 @@
       "Suspension for 90 days"
     ],
     "answer": 2,
-    "explanation": "A first chemical test refusal by a driver 21 or older brings a minimum one-year revocation, plus a $500 civil penalty before a new license can be issued.",
+    "explanation": "A first chemical test refusal by a driver over 21 brings a minimum one-year revocation, plus a $500 civil penalty before a new license can be issued.",
     "states": [
       "NY"
     ],
     "difficulty": 2,
-    "ref": "New York State Driver's Manual, p. 21"
+    "ref": "New York State Driver's Manual, pp. 21, 23"
   },
   {
     "id": "ny.car.007",
@@ -657,7 +657,7 @@
       "Within 90 days"
     ],
     "answer": 1,
-    "explanation": "New residents must turn in their out-of-state license and get a New York license within 30 days of becoming a resident. A New York registration is also required within 30 days.",
+    "explanation": "New residents must turn in their out-of-state license and get a New York license within 30 days of becoming a permanent resident.",
     "states": [
       "NY"
     ],
@@ -771,7 +771,7 @@
       "Up to 4 points"
     ],
     "answer": 3,
-    "explanation": "The course can reduce your point total by up to four points and lower liability and collision premiums by at least 10% for three years. It cannot prevent a mandatory suspension or revocation.",
+    "explanation": "A DMV-approved crash prevention course can reduce your point total by up to four points (and may lower insurance premiums). It cannot prevent a mandatory suspension or revocation.",
     "states": [
       "NY"
     ],
@@ -942,7 +942,7 @@
       "2 points"
     ],
     "answer": 2,
-    "explanation": "Hand-held phone use carries a fine up to $200 for a first offense and five license points. Texting is also a 5-point violation.",
+    "explanation": "Hand-held phone use carries a fine up to $200 for a first offense and five license points. Hands-free phones may be used at any time.",
     "states": [
       "NY"
     ],
@@ -1949,12 +1949,12 @@
       "Four"
     ],
     "answer": 0,
-    "explanation": "Two motorcyclists are allowed to ride side-by-side in a single lane. Three riding abreast is not allowed.",
+    "explanation": "Two motorcyclists are allowed to ride side-by-side in a single lane; state law (VTL 1252) forbids riding more than two abreast in one lane.",
     "states": [
       "NY"
     ],
     "difficulty": 2,
-    "ref": "New York State Driver's Manual, p. 71"
+    "ref": "New York State Driver's Manual, p. 71; NY Vehicle and Traffic Law § 1252(d)"
   },
   {
     "id": "ny.mc.005",
@@ -2069,5 +2069,62 @@
     ],
     "difficulty": 3,
     "ref": "New York State Driver's Manual, p. 14"
+  },
+  {
+    "id": "ny.car.100",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A New York teen gets a junior learner permit on their 16th birthday. What is the earliest age they could get a junior license (Class DJ)?",
+    "choices": [
+      "16 and a half, after holding the permit for six months",
+      "16, on the same day as the permit",
+      "17, after holding the permit for one year",
+      "18, when junior restrictions end"
+    ],
+    "answer": 0,
+    "explanation": "The Class DJ junior license has a minimum age of 16, but a junior permit must be held at least six months before a road test can be scheduled, so the earliest is 16 and a half.",
+    "difficulty": 3,
+    "ref": "New York State Driver's Manual, pp. 6, 19",
+    "states": [
+      "NY"
+    ]
+  },
+  {
+    "id": "ny.car.101",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Some New York highways post a minimum speed limit. Why does driving below it matter?",
+    "choices": [
+      "It interferes with traffic flow and creates a dangerous condition",
+      "It only matters for trucks and buses",
+      "It is allowed whenever the right lane is open",
+      "It matters only at night"
+    ],
+    "answer": 0,
+    "explanation": "Some highways have minimum speed limits to keep traffic flowing smoothly. Driving slower than the minimum can interfere with traffic flow and create a dangerous condition.",
+    "difficulty": 1,
+    "ref": "New York State Driver's Manual, p. 47",
+    "states": [
+      "NY"
+    ]
+  },
+  {
+    "id": "ny.car.102",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Under New York's statewide rules, when may you park, stop or stand inside an intersection?",
+    "choices": [
+      "Only when signs or parking meters permit it",
+      "Whenever your hazard lights are on",
+      "For up to five minutes to unload passengers",
+      "Never under any circumstances"
+    ],
+    "answer": 0,
+    "explanation": "You cannot park, stop or stand in an intersection unless signs or parking meters permit it. Hazard lights or a quick passenger stop do not make it legal.",
+    "difficulty": 2,
+    "ref": "New York State Driver's Manual, p. 43",
+    "states": [
+      "NY"
+    ]
   }
 ]
