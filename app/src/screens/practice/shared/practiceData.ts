@@ -101,6 +101,7 @@ export interface ModeCounts {
   due: number;
   hardest: number;
   signs: number;
+  state: number;
 }
 
 /** Pool sizes for the mode cards ("Mistakes (12)", "Smart Review (4 due)"...). */
@@ -119,6 +120,7 @@ export function modeCounts(
     due: size('due'),
     hardest: size('hardest'),
     signs: size('signs'),
+    state: size('state'),
   };
 }
 

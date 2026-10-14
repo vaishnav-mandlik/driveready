@@ -44,6 +44,15 @@ export function PracticeScreen({navigation}: TabScreenProps<'Practice'>) {
           onPress={() => navigation.navigate('Quiz', {spec: {mode: 'marathon'}})}
           disabled={empty}
         />
+        <ModeTile
+          title={`${stateInfo.name} laws`}
+          subtitle={counts.state ? `${counts.state} state-only questions` : 'Coming soon'}
+          icon="landmark"
+          color={hueAt(colors, 7)}
+          onPress={() => navigation.navigate('Quiz', {spec: {mode: 'state', title: `${stateInfo.name} Laws`}})}
+          disabled={!counts.state}
+          testID="tile-state-laws"
+        />
         <ModeTile title="Mistakes" subtitle={counts.mistakes ? `${counts.mistakes} to fix` : 'None yet'} icon="circle-x" color={hueAt(colors, 4)} badge={counts.mistakes} onPress={() => navigation.navigate('QuestionList', {kind: 'mistakes'})} />
         <ModeTile title="Smart review" subtitle={counts.due ? `${counts.due} due now` : 'Nothing due'} icon="brain" color={hueAt(colors, 5)} badge={counts.due} onPress={() => navigation.navigate('Quiz', {spec: {mode: 'due'}})} disabled={!counts.due} />
         <ModeTile title="Saved" subtitle={counts.bookmarks ? `${counts.bookmarks} questions` : 'Bookmark questions'} icon="bookmark" color={hueAt(colors, 2)} onPress={() => navigation.navigate('QuestionList', {kind: 'bookmarks'})} />

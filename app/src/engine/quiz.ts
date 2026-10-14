@@ -18,6 +18,7 @@ export type QuizMode =
   | 'daily'
   | 'survival'
   | 'speed'
+  | 'state'
   | 'custom';
 
 /** What the user asked for (serializable navigation param). */
@@ -85,6 +86,7 @@ export const DEFAULT_COUNTS: Record<QuizMode, number> = {
   daily: 10,
   survival: 250,
   speed: 120,
+  state: 25,
   custom: 0,
 };
 
@@ -104,6 +106,7 @@ export const MODE_TITLES: Record<QuizMode, string> = {
   daily: 'Daily Challenge',
   survival: 'Survival',
   speed: 'Speed Round',
+  state: 'State Laws',
   custom: 'Practice',
 };
 
@@ -237,6 +240,9 @@ export function buildSession(spec: QuizSpec, ctx: BuildContext): QuizSession {
     case 'signs':
       questions = pickAdaptive(bank.signQuestions, count, stats, now, rng);
       break;
+    case 'state':
+      questions = pickAdaptive(bank.stateSpecific, count, stats, now, rng);
+      break;
     case 'daily': {
       const dayRng = createRng(hashString(`${dayKey(now)}:${bank.track}:${bank.state}`));
       questions = sample(bank.questions, count, dayRng);
@@ -303,6 +309,8 @@ export function poolSize(mode: QuizMode, bank: Bank, stats: Record<string, QStat
       return pool.filter(q => (stats[q.id]?.w ?? 0) > 0 || q.difficulty === 3).length;
     case 'signs':
       return bank.signQuestions.length;
+    case 'state':
+      return bank.stateSpecific.length;
     default:
       return pool.length;
   }

@@ -86,7 +86,7 @@ describe('exams', () => {
 });
 
 describe('buildSession', () => {
-  const modes: QuizSpec['mode'][] = ['practice', 'marathon', 'mistakes', 'bookmarks', 'due', 'hardest', 'signs', 'daily', 'survival', 'speed', 'custom'];
+  const modes: QuizSpec['mode'][] = ['practice', 'marathon', 'mistakes', 'bookmarks', 'due', 'hardest', 'signs', 'daily', 'survival', 'speed', 'state', 'custom'];
   test.each(modes)('%s builds a consistent session', mode => {
     const s = buildSession({mode, questionIds: ['t.car.row.1', 'nope']}, ctx());
     expect(s.questionIds.length).toBe(s.orders.length);
@@ -137,6 +137,13 @@ describe('buildSession', () => {
     const a = buildSession({mode: 'daily'}, ctx({seed: 1}));
     const b = buildSession({mode: 'daily'}, ctx({seed: 999}));
     expect(a.questionIds).toEqual(b.questionIds);
+  });
+
+  test('state mode only uses state-specific questions', () => {
+    const s = buildSession({mode: 'state'}, ctx());
+    expect(s.questionIds.sort()).toEqual(['t.ca.1', 't.ca.2', 't.ca.3']);
+    expect(poolSize('state', getBank('car', 'CA'), {}, {}, NOW)).toBe(3);
+    expect(poolSize('state', getBank('car', 'TX'), {}, {}, NOW)).toBe(0);
   });
 
   test('survival has lives, speed round has a clock', () => {
