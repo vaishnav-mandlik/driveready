@@ -34,34 +34,31 @@ picks up the work._
 
 ## 3. Status (what exists now)
 
-_Updated 2026-10-13 evening._
+_Updated 2026-10-14._
 
 ### Done
-- **App**: all 31 screens implemented (no placeholders), type-check clean, 75 Jest tests passing (engine, every
-  screen with content + empty bank, full practice/exam/survival flows). Signed release APK builds (arm64 ≈24 MB).
-- **States complete & verified** (facts with page + verbatim quote → `app/src/content/states/XX.json`, state
-  questions → `app/src/content/questions/states/XX.json`): **CA** (48 facts, 101 car + 10 motorcycle),
-  **TX** (50 facts, 97 car + 10 motorcycle). Verifiers caught real errors (e.g. TX crash-report rule repealed in 2017).
-- **Universal car bank**: 747 questions in 13 topics, adversarially reviewed against ALL downloaded handbooks
-  (non-universal rules removed/rewritten, answer-length giveaway removed, duplicates removed).
-- **Signs**: 132 in-app (95 public-domain MUTCD + 37 app-drawn signals/markings/hand signals via
-  `app/assets/signs-custom/generate.py`). Remaining MUTCD SVGs are still downloading (Wikimedia rate limits):
-  rerun `python3 -I research/tools/fetch_signs.py "<repo>/research"` then `node app/scripts/build-signs.mjs`.
-- **Lessons**: Road Test Guide (`app/src/content/lessons/car/road-test.json`).
-- **Market research**: `research/notes/market.md`. **Play listing + policy answers**: `app/docs/play-store/listing.md`
-  (target API 36 verified; 12 testers × 14 days closed test for new personal accounts).
+- **App**: all 31 screens, 78 Jest tests passing, signed release APK verified on an Android 16 emulator.
+- **Top 10 states complete & verified** (facts w/ page + verbatim quote, official test format, ~110 state
+  questions each): CA, TX, FL, NY, PA, IL, OH, GA, NC, MI. Formats: CA 80%, TX 70% (counts unpublished → 40-Q
+  practice exam), FL 50/40, NY 20/14 (+2 of 4 signs), PA 18/15, IL 35/28, OH 40/30, GA 2×20 (15 each),
+  NC 40/32, MI teen Segment 1 exam 80 Q @70%.
+- **Universal car bank** 748 Q (reviewed against all handbooks); **motorcycle** 292 Q (MSF manual, reviewed);
+  **CDL General Knowledge** 252 Q (AAMVA manual, reviewed).
+- **Signs**: 132 in-app (MUTCD + app-drawn signals/markings/hand signals); remaining MUTCD SVGs downloading.
+- **Extra features**: State Laws mode, survival, speed round, driving log, share cheat sheet, road-test guide.
 
 ### In progress
-- `state-content-v2.js` for **FL, NY, PA, IL**; `bank-builder.js` for **motorcycle (7 topics) + CDL general knowledge**.
+- CDL modules: air brakes, combination, hazmat, tanker, doubles/triples, passenger, school bus (`bank-builder.js`).
+- Car lessons for 14 topics (`lessons.js`).
 
 ### Next steps (prioritized)
-1. Remaining top-10 states: **OH, GA, NC, MI** (`tools/workflows/state-content-v2.js`).
-2. Car lessons for the 13 topics (+ road-signs lesson), motorcycle + CDL lessons.
-3. CDL modules: air brakes, combination, hazmat, tanker, doubles/triples, passenger, school bus (`bank-builder.js`).
-4. Road-sign questions (~150, `sign` field) + image questions for signals/markings once all signs are downloaded.
-5. On-device/emulator QA + Play screenshots (AVD `driveready36`, Android 16 arm64, created locally).
-6. Host privacy policy, Play Console setup, closed test, production.
-7. Remaining 41 states; then iOS (needs Xcode + iOS native module implementation).
+1. Road-sign questions (~150, `sign` field) + image questions for signals/markings, after all signs download.
+2. Motorcycle + CDL lessons (`lessons.js`).
+3. Play release prep: AAB (`./gradlew bundleRelease`), screenshots (emulator), host privacy policy, Play Console
+   (owner's account), 12-tester closed test.
+4. Remaining 41 states in batches of 4 (`state-content-v2.js`; handbooks for AL AK AZ AR CO MT NE NV NH NJ NM
+   are already in research/handbooks).
+5. iOS (needs Xcode + iOS native module).
 
 ## 4. How content is produced (pipeline)
 1. Handbook PDF → text: `python3 -I research/tools/extract_pdf.py <pdf> research/handbooks/XX.txt`.
