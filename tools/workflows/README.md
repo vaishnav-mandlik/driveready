@@ -25,7 +25,9 @@ two small workflows (≤4 agents) at a time, use `effort: 'high'` for authoring,
 agents per state.
 
 ### When the Workflow tool is unavailable
-Extract the exact agent prompts from any script with the stub runner and hand them to plain agents
-(≤4 at a time): `node <scratch>/prompts.mjs "<script.js>" '<args json>' <outdir>` — the runner replaces
-`agent()` with a recorder (see the 2026-10-14 session; it is ~30 lines: strip `export`, wrap the body in an
-async function with stub `agent/pipeline/parallel/phase/log/args`). Each agent is told to read its prompt file.
+Extract the exact agent prompts from any script and hand them to plain agents (≤4 at a time):
+`node tools/workflows/extract-prompts.mjs tools/workflows/state-content-v2.js '{"states":[["AR","Arkansas"]]}' /tmp/prompts`
+writes one `<label>.txt` per agent call (it replaces `agent()` with a recorder). Tell each agent to read its file.
+
+`tools/lessonfmt.py` re-serializes lesson JSON in the repo's compact hand-formatted style (one block per line),
+so scripted lesson edits produce minimal diffs.
