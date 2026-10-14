@@ -4,6 +4,7 @@ import {Icon} from '../Icon';
 import {ProgressBar} from '../Progress';
 import {Text} from '../Text';
 import {formatClock} from '../../engine/dates';
+import {defineStrings, useStrings} from '../../i18n';
 import {useTheme} from '../../theme/ThemeProvider';
 
 /** Whole seconds left until `deadline` (never negative). Timestamp-based, so it is exact after backgrounding. */
@@ -11,15 +12,28 @@ export function secondsLeft(deadline: number, now: number = Date.now()): number 
   return Math.max(0, Math.ceil((deadline - now) / 1000));
 }
 
-function spokenTime(sec: number): string {
+const STR = defineStrings(
+  {
+    minutes: (n: number) => `${n} minute${n === 1 ? '' : 's'}`,
+    seconds: (n: number) => `${n} second${n === 1 ? '' : 's'}`,
+    timeLeft: (time: string) => `Time left: ${time}`,
+  },
+  {
+    minutes: (n: number) => `${n} minuto${n === 1 ? '' : 's'}`,
+    seconds: (n: number) => `${n} segundo${n === 1 ? '' : 's'}`,
+    timeLeft: (time: string) => `Tiempo restante: ${time}`,
+  },
+);
+
+function spokenTime(sec: number, t: (typeof STR)['en']): string {
   const m = Math.floor(sec / 60);
   const s = sec % 60;
   const parts = [];
   if (m) {
-    parts.push(`${m} minute${m === 1 ? '' : 's'}`);
+    parts.push(t.minutes(m));
   }
   if (s || !m) {
-    parts.push(`${s} second${s === 1 ? '' : 's'}`);
+    parts.push(t.seconds(s));
   }
   return parts.join(' ');
 }
@@ -76,6 +90,7 @@ export function CountdownTimer({
   dangerAt?: number;
 }) {
   const {colors, radius, spacing} = useTheme();
+  const t = useStrings(STR);
   const [left, setLeft] = useState(() => secondsLeft(deadline));
 
   useEffect(() => {
@@ -104,7 +119,7 @@ export function CountdownTimer({
     <View
       accessible
       accessibilityRole="timer"
-      accessibilityLabel={`Time left: ${spokenTime(left)}`}
+      accessibilityLabel={t.timeLeft(spokenTime(left, t))}
       testID="countdown"
       style={[styles.pill, {backgroundColor: bg, borderRadius: radius.pill, paddingHorizontal: spacing.md, gap: spacing.xs}]}>
       <Icon name="timer" size={16} color={fg} />

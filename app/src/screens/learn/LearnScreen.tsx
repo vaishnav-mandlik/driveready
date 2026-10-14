@@ -5,13 +5,78 @@ import {KEY_NUMBER_FACTS, factLabel} from '../../data/factMeta';
 import {getLessons} from '../../data/lessons';
 import {getTopic} from '../../data/tracks';
 import {useLearner} from '../../hooks/useLearner';
+import {defineStrings, useStrings} from '../../i18n';
 import type {TabScreenProps} from '../../navigation/types';
 import {useProgress} from '../../store/progress';
 import {hueAt, useTheme} from '../../theme/ThemeProvider';
 import {openOfficial} from '../quiz/ExamIntroScreen';
 
+const STR = defineStrings(
+  {
+    title: 'Learn',
+    cheatSheet: (state: string) => `${state} cheat sheet`,
+    verifiedCount: (n: number) => `${n} verified rules & numbers`,
+    keyRules: 'Key rules and numbers',
+    numbersA11y: 'Numbers to know flashcards',
+    numbers: 'Numbers to know',
+    numbersSub: (state: string) => `Flashcards of ${state}'s distances, ages, limits and penalties`,
+    aboutA11y: 'About your test',
+    about: (short: string) => `About your ${short} test`,
+    aboutSub: (questions: number, pass: number) => `${questions} questions · ${pass} correct to pass · test-day checklist`,
+    lessons: 'Lessons',
+    lessonsRead: (read: number, total: number) => `Lessons · ${read}/${total} read`,
+    minutes: (n: number, summary: string) => `${n} min · ${summary}`,
+    read: 'Read',
+    noLessons: 'Study lessons for this test are being written. Meanwhile, the cheat sheet and practice questions (with explanations) cover every rule.',
+    afterWritten: 'After the written test',
+    resources: 'Official resources',
+    handbook: 'Official handbook',
+    handbookEdition: (edition: string) => `Official handbook · ${edition}`,
+    handbookLink: (state: string) => `the official ${state} handbook`,
+    website: 'Official website — appointments, fees, documents',
+    websiteLink: (agency: string) => `the ${agency} website`,
+    sampleTest: 'Official sample test',
+    sampleTestLink: 'an official sample test',
+    driveLog: 'Driving log',
+    driveLogSub: 'Track your supervised practice hours',
+    sources: 'Sources & disclaimer',
+    sourcesSub: 'Where our information comes from',
+  },
+  {
+    title: 'Aprender',
+    cheatSheet: (state: string) => `Hoja de repaso de ${state}`,
+    verifiedCount: (n: number) => (n === 1 ? '1 regla o número verificado' : `${n} reglas y números verificados`),
+    keyRules: 'Reglas y números clave',
+    numbersA11y: 'Tarjetas de estudio de números clave',
+    numbers: 'Números clave',
+    numbersSub: (state: string) => `Tarjetas de estudio con las distancias, edades, límites y multas de ${state}`,
+    aboutA11y: 'Sobre tu examen',
+    about: (short: string) => `Sobre tu examen (${short})`,
+    aboutSub: (questions: number, pass: number) => `${questions} preguntas · ${pass} correctas para aprobar · qué llevar el día del examen`,
+    lessons: 'Lecciones',
+    lessonsRead: (read: number, total: number) => `Lecciones · ${read}/${total} leídas`,
+    minutes: (n: number, summary: string) => `${n} min · ${summary}`,
+    read: 'Leída',
+    noLessons: 'Estamos escribiendo las lecciones para este examen. Mientras tanto, la hoja de repaso y las preguntas de práctica (con explicaciones) cubren todas las reglas.',
+    afterWritten: 'Después del examen de conocimientos',
+    resources: 'Recursos oficiales',
+    handbook: 'Manual oficial',
+    handbookEdition: (edition: string) => `Manual oficial · ${edition}`,
+    handbookLink: (state: string) => `el manual oficial de ${state}`,
+    website: 'Sitio web oficial: citas, tarifas, documentos',
+    websiteLink: (agency: string) => `el sitio web de ${agency}`,
+    sampleTest: 'Examen de muestra oficial',
+    sampleTestLink: 'un examen de muestra oficial',
+    driveLog: 'Registro de manejo',
+    driveLogSub: 'Lleva la cuenta de tus horas de práctica supervisada',
+    sources: 'Fuentes y aviso legal',
+    sourcesSub: 'De dónde viene nuestra información',
+  },
+);
+
 export function LearnScreen({navigation}: TabScreenProps<'Learn'>) {
   const {colors, spacing} = useTheme();
+  const t = useStrings(STR);
   const {stateInfo, track, trackMeta, exam} = useLearner();
   const lessonsRead = useProgress(s => s.lessonsRead);
   const lessons = useMemo(() => getLessons(track), [track]);
@@ -25,15 +90,15 @@ export function LearnScreen({navigation}: TabScreenProps<'Learn'>) {
 
   return (
     <Screen edges={['top']}>
-      <LargeHeader title="Learn" subtitle={`${stateInfo.name} · ${trackMeta.title}`} />
+      <LargeHeader title={t.title} subtitle={`${stateInfo.name} · ${trackMeta.title}`} />
 
-      <Card variant="tinted" tint={colors.primarySoft} onPress={() => navigation.navigate('CheatSheet')} accessibilityLabel={`${stateInfo.name} cheat sheet`}>
+      <Card variant="tinted" tint={colors.primarySoft} onPress={() => navigation.navigate('CheatSheet')} accessibilityLabel={t.cheatSheet(stateInfo.name)}>
         <View style={[styles.row, {gap: spacing.md}]}>
           <IconTile name="file" color={colors.primary} size={44} />
           <View style={styles.flex}>
-            <Text variant="heading">{stateInfo.name} cheat sheet</Text>
+            <Text variant="heading">{t.cheatSheet(stateInfo.name)}</Text>
             <Text variant="caption" color="textMuted">
-              {stateInfo.facts.length ? `${stateInfo.facts.length} verified rules & numbers` : 'Key rules and numbers'}
+              {stateInfo.facts.length ? t.verifiedCount(stateInfo.facts.length) : t.keyRules}
             </Text>
           </View>
           <Icon name="chevron-right" color="textFaint" />
@@ -55,13 +120,13 @@ export function LearnScreen({navigation}: TabScreenProps<'Learn'>) {
       </Card>
 
       {stateInfo.facts.length ? (
-        <Card style={{marginTop: spacing.md}} onPress={() => navigation.navigate('FactCards')} accessibilityLabel="Numbers to know flashcards">
+        <Card style={{marginTop: spacing.md}} onPress={() => navigation.navigate('FactCards')} accessibilityLabel={t.numbersA11y}>
           <View style={[styles.row, {gap: spacing.md}]}>
             <IconTile name="layers" color={hueAt(colors, 3)} size={44} />
             <View style={styles.flex}>
-              <Text variant="bodyStrong">Numbers to know</Text>
+              <Text variant="bodyStrong">{t.numbers}</Text>
               <Text variant="caption" color="textMuted">
-                Flashcards of {stateInfo.name}'s distances, ages, limits and penalties
+                {t.numbersSub(stateInfo.name)}
               </Text>
             </View>
             <Icon name="chevron-right" color="textFaint" />
@@ -69,20 +134,20 @@ export function LearnScreen({navigation}: TabScreenProps<'Learn'>) {
         </Card>
       ) : null}
 
-      <Card style={{marginTop: spacing.md}} onPress={() => navigation.navigate('ExamInfo')} accessibilityLabel="About your test">
+      <Card style={{marginTop: spacing.md}} onPress={() => navigation.navigate('ExamInfo')} accessibilityLabel={t.aboutA11y}>
         <View style={[styles.row, {gap: spacing.md}]}>
           <IconTile name="info" color={hueAt(colors, 5)} size={44} />
           <View style={styles.flex}>
-            <Text variant="bodyStrong">About your {trackMeta.short} test</Text>
+            <Text variant="bodyStrong">{t.about(trackMeta.short)}</Text>
             <Text variant="caption" color="textMuted">
-              {exam.questions} questions · {exam.passingScore} correct to pass · test-day checklist
+              {t.aboutSub(exam.questions, exam.passingScore)}
             </Text>
           </View>
           <Icon name="chevron-right" color="textFaint" />
         </View>
       </Card>
 
-      <SectionHeader title={`Lessons${topicLessons.length ? ` · ${readCount}/${topicLessons.length} read` : ''}`} />
+      <SectionHeader title={topicLessons.length ? t.lessonsRead(readCount, topicLessons.length) : t.lessons} />
       {topicLessons.length ? (
         <Card padded={false} style={{paddingHorizontal: spacing.lg}}>
           {topicLessons.map((l, i) => {
@@ -93,10 +158,10 @@ export function LearnScreen({navigation}: TabScreenProps<'Learn'>) {
                 {i ? <Divider /> : null}
                 <ListRow
                   title={l.title}
-                  subtitle={`${l.minutes} min · ${l.summary}`}
+                  subtitle={t.minutes(l.minutes, l.summary)}
                   icon={meta?.icon ?? 'book'}
                   iconColor={hueAt(colors, meta?.hue ?? 0)}
-                  right={read ? <Chip label="Read" icon="check" tone="success" /> : undefined}
+                  right={read ? <Chip label={t.read} icon="check" tone="success" /> : undefined}
                   onPress={() => navigation.navigate('Lesson', {lessonId: l.id})}
                 />
               </React.Fragment>
@@ -106,14 +171,14 @@ export function LearnScreen({navigation}: TabScreenProps<'Learn'>) {
       ) : (
         <Card>
           <Text variant="body" color="textMuted">
-            Study lessons for this test are being written. Meanwhile, the cheat sheet and practice questions (with explanations) cover every rule.
+            {t.noLessons}
           </Text>
         </Card>
       )}
 
       {roadTest ? (
         <>
-          <SectionHeader title="After the written test" />
+          <SectionHeader title={t.afterWritten} />
           <Card onPress={() => navigation.navigate('Lesson', {lessonId: roadTest.id})} accessibilityLabel={roadTest.title}>
             <View style={[styles.row, {gap: spacing.md}]}>
               <IconTile name="car-front" color={hueAt(colors, 1)} size={44} />
@@ -129,17 +194,17 @@ export function LearnScreen({navigation}: TabScreenProps<'Learn'>) {
         </>
       ) : null}
 
-      <SectionHeader title="Official resources" />
+      <SectionHeader title={t.resources} />
       <Card padded={false} style={{paddingHorizontal: spacing.lg}}>
         {stateInfo.handbook.url ? (
           <ListRow
             title={stateInfo.handbook.title}
-            subtitle={`Official handbook${stateInfo.handbook.edition ? ` · ${stateInfo.handbook.edition}` : ''}`}
+            subtitle={stateInfo.handbook.edition ? t.handbookEdition(stateInfo.handbook.edition) : t.handbook}
             icon="book"
             iconColor={hueAt(colors, 0)}
             right={<Icon name="external" size={18} color="textFaint" />}
             chevron={false}
-            onPress={() => openOfficial(stateInfo.handbook.url, `the official ${stateInfo.name} handbook`)}
+            onPress={() => openOfficial(stateInfo.handbook.url, t.handbookLink(stateInfo.name))}
           />
         ) : null}
         {stateInfo.agency.website ? (
@@ -147,29 +212,29 @@ export function LearnScreen({navigation}: TabScreenProps<'Learn'>) {
             <Divider />
             <ListRow
               title={stateInfo.agency.name}
-              subtitle="Official website — appointments, fees, documents"
+              subtitle={t.website}
               icon="landmark"
               iconColor={hueAt(colors, 7)}
               right={<Icon name="external" size={18} color="textFaint" />}
               chevron={false}
-              onPress={() => openOfficial(stateInfo.agency.website, `the ${stateInfo.agency.abbreviation} website`)}
+              onPress={() => openOfficial(stateInfo.agency.website, t.websiteLink(stateInfo.agency.abbreviation))}
             />
           </>
         ) : null}
         {stateInfo.officialPracticeTests.slice(0, 2).map(url => (
           <React.Fragment key={url}>
             <Divider />
-            <ListRow title="Official sample test" subtitle={url.replace(/^https?:\/\//, '')} icon="clipboard" iconColor={hueAt(colors, 3)} right={<Icon name="external" size={18} color="textFaint" />} chevron={false} onPress={() => openOfficial(url, 'an official sample test')} />
+            <ListRow title={t.sampleTest} subtitle={url.replace(/^https?:\/\//, '')} icon="clipboard" iconColor={hueAt(colors, 3)} right={<Icon name="external" size={18} color="textFaint" />} chevron={false} onPress={() => openOfficial(url, t.sampleTestLink)} />
           </React.Fragment>
         ))}
         {track === 'car' ? (
           <>
             <Divider />
-            <ListRow title="Driving log" subtitle="Track your supervised practice hours" icon="car-front" iconColor={hueAt(colors, 1)} onPress={() => navigation.navigate('DriveLog')} />
+            <ListRow title={t.driveLog} subtitle={t.driveLogSub} icon="car-front" iconColor={hueAt(colors, 1)} onPress={() => navigation.navigate('DriveLog')} />
           </>
         ) : null}
         <Divider />
-        <ListRow title="Sources & disclaimer" subtitle="Where our information comes from" icon="shield-check" iconColor={hueAt(colors, 5)} onPress={() => navigation.navigate('Sources')} />
+        <ListRow title={t.sources} subtitle={t.sourcesSub} icon="shield-check" iconColor={hueAt(colors, 5)} onPress={() => navigation.navigate('Sources')} />
       </Card>
     </Screen>
   );

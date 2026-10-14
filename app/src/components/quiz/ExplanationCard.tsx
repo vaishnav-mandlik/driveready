@@ -3,6 +3,7 @@ import {StyleSheet, View} from 'react-native';
 import {Icon, IconName} from '../Icon';
 import {Text} from '../Text';
 import type {Question} from '../../data/types';
+import {defineStrings, useStrings} from '../../i18n';
 import {useTheme} from '../../theme/ThemeProvider';
 import {correctAnswerText, Verdict, verdictFor} from './helpers';
 
@@ -16,27 +17,40 @@ export interface ExplanationCardProps {
   seed?: number;
 }
 
-const CORRECT_TITLES = ['Correct!', 'Nice work!', 'Exactly right', 'You got it'];
-const WRONG_TITLES = ['Not quite', 'Good try', 'Almost'];
+const STR = defineStrings(
+  {
+    correctTitles: ['Correct!', 'Nice work!', 'Exactly right', 'You got it'],
+    wrongTitles: ['Not quite', 'Good try', 'Almost'],
+    explanation: 'Explanation',
+    correctIs: (answer: string) => `The correct answer is ${answer}`,
+  },
+  {
+    correctTitles: ['¡Correcto!', '¡Bien hecho!', 'Exacto', '¡Eso es!'],
+    wrongTitles: ['No del todo', 'Buen intento', 'Casi'],
+    explanation: 'Explicación',
+    correctIs: (answer: string) => `La respuesta correcta es ${answer}`,
+  },
+);
 
 /** Feedback after answering: verdict, the right answer (when missed), why, and the handbook ref. */
 export function ExplanationCard({question, chosen, order, seed = 0}: ExplanationCardProps) {
   const {colors, radius, spacing} = useTheme();
+  const t = useStrings(STR);
   const verdict: Verdict = verdictFor(question, chosen);
   const look: Record<Verdict, {bg: string; fg: string; icon: IconName; title: string}> = {
     correct: {
       bg: colors.successSoft,
       fg: colors.success,
       icon: 'circle-check',
-      title: CORRECT_TITLES[Math.abs(seed) % CORRECT_TITLES.length],
+      title: t.correctTitles[Math.abs(seed) % t.correctTitles.length],
     },
     incorrect: {
       bg: colors.dangerSoft,
       fg: colors.danger,
       icon: 'circle-x',
-      title: WRONG_TITLES[Math.abs(seed) % WRONG_TITLES.length],
+      title: t.wrongTitles[Math.abs(seed) % t.wrongTitles.length],
     },
-    unanswered: {bg: colors.primarySoft, fg: colors.primary, icon: 'lightbulb', title: 'Explanation'},
+    unanswered: {bg: colors.primarySoft, fg: colors.primary, icon: 'lightbulb', title: t.explanation},
   };
   const l = look[verdict];
 
@@ -52,7 +66,7 @@ export function ExplanationCard({question, chosen, order, seed = 0}: Explanation
         </Text>
       </View>
       {verdict !== 'correct' ? (
-        <Text variant="bodyStrong">The correct answer is {correctAnswerText(question, order)}</Text>
+        <Text variant="bodyStrong">{t.correctIs(correctAnswerText(question, order))}</Text>
       ) : null}
       <Text variant="body">{question.explanation}</Text>
       {question.ref ? (

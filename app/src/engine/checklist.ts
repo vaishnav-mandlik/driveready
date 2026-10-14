@@ -1,5 +1,6 @@
 import type {Bank} from '../data/bank';
 import type {StateFact, StateCode, TrackId} from '../data/types';
+import {defineStrings, tr} from '../i18n';
 import type {ExamRecord} from '../store/progress';
 import type {Readiness} from './readiness';
 import {isMistake, QStat} from './srs';
@@ -26,6 +27,27 @@ export interface ChecklistInput {
   state: StateCode;
 }
 
+const STR = defineStrings(
+  {
+    coverage: 'Practice at least 80% of your questions',
+    chance: 'Reach an 85% estimated pass chance',
+    exams: 'Pass 3 exam simulations in a row',
+    mistakes: 'Fix your mistakes (5 or fewer left)',
+    mistakesLeft: (n: number) => `${n} left`,
+    facts: 'Know your state’s numbers (flashcards)',
+    signs: 'Get 90% of road-sign questions right',
+  },
+  {
+    coverage: 'Practica al menos el 80% de tus preguntas',
+    chance: 'Alcanza un 85% de probabilidad estimada de aprobar',
+    exams: 'Aprueba 3 simulaciones de examen seguidas',
+    mistakes: 'Corrige tus errores (que queden 5 o menos)',
+    mistakesLeft: (n: number) => (n === 1 ? 'queda 1' : `quedan ${n}`),
+    facts: 'Conoce los números de tu estado (tarjetas de estudio)',
+    signs: 'Acierta el 90% de las preguntas de señales',
+  },
+);
+
 const clamp = (v: number) => Math.max(0, Math.min(1, Number.isFinite(v) ? v : 0));
 
 /**
@@ -35,13 +57,14 @@ const clamp = (v: number) => Math.max(0, Math.min(1, Number.isFinite(v) ? v : 0)
  */
 export function testReadyChecklist(input: ChecklistInput): ChecklistItem[] {
   const {bank, stats, exams, readiness, facts, levels, track, state} = input;
+  const t = tr(STR);
   const items: ChecklistItem[] = [];
 
   const total = bank.questions.length;
   const seen = readiness.seen;
   items.push({
     id: 'coverage',
-    label: 'Practice at least 80% of your questions',
+    label: t.coverage,
     progress: `${seen} / ${total}`,
     ratio: clamp(total ? seen / (total * 0.8) : 0),
     done: total > 0 && seen >= total * 0.8,
@@ -50,7 +73,7 @@ export function testReadyChecklist(input: ChecklistInput): ChecklistItem[] {
   const pct = Math.round(readiness.passProbability * 100);
   items.push({
     id: 'chance',
-    label: 'Reach an 85% estimated pass chance',
+    label: t.chance,
     progress: `${pct}%`,
     ratio: clamp(readiness.passProbability / 0.85),
     done: readiness.passProbability >= 0.85,
@@ -66,7 +89,7 @@ export function testReadyChecklist(input: ChecklistInput): ChecklistItem[] {
   }
   items.push({
     id: 'exams',
-    label: 'Pass 3 exam simulations in a row',
+    label: t.exams,
     progress: `${Math.min(streak, 3)} / 3`,
     ratio: clamp(streak / 3),
     done: streak >= 3,
@@ -80,8 +103,8 @@ export function testReadyChecklist(input: ChecklistInput): ChecklistItem[] {
   }
   items.push({
     id: 'mistakes',
-    label: 'Fix your mistakes (5 or fewer left)',
-    progress: `${mistakes} left`,
+    label: t.mistakes,
+    progress: t.mistakesLeft(mistakes),
     ratio: seen === 0 ? 0 : clamp(1 - Math.max(0, mistakes - 5) / Math.max(10, seen * 0.2)),
     done: seen > 0 && mistakes <= 5,
   });
@@ -90,7 +113,7 @@ export function testReadyChecklist(input: ChecklistInput): ChecklistItem[] {
     const known = facts.filter(f => (levels[`fact:${state}:${f.key}`] ?? 0) >= 2).length;
     items.push({
       id: 'facts',
-      label: 'Know your state’s numbers (flashcards)',
+      label: t.facts,
       progress: `${known} / ${facts.length}`,
       ratio: clamp(known / (facts.length * 0.8)),
       done: known >= facts.length * 0.8,
@@ -102,7 +125,7 @@ export function testReadyChecklist(input: ChecklistInput): ChecklistItem[] {
     const need = Math.ceil(bank.signQuestions.length * 0.9);
     items.push({
       id: 'signs',
-      label: 'Get 90% of road-sign questions right',
+      label: t.signs,
       progress: `${right} / ${bank.signQuestions.length}`,
       ratio: clamp(right / need),
       done: right >= need,

@@ -2,6 +2,7 @@ import React, {useMemo} from 'react';
 import {StyleSheet, View} from 'react-native';
 import {testReadyChecklist} from '../engine/checklist';
 import {useLearner, useReadiness} from '../hooks/useLearner';
+import {defineStrings, useStrings} from '../i18n';
 import {useProgress} from '../store/progress';
 import {useTheme} from '../theme/ThemeProvider';
 import {Card} from './Card';
@@ -9,9 +10,25 @@ import {Icon} from './Icon';
 import {ProgressBar} from './Progress';
 import {Text} from './Text';
 
+const STR = defineStrings(
+  {
+    label: (done: number, total: number) => `Test-ready checklist: ${done} of ${total} complete`,
+    ready: 'You’re ready for your test!',
+    question: 'Ready for your test?',
+    keepGoing: 'Keep doing a few questions a day until test day to stay sharp.',
+  },
+  {
+    label: (done: number, total: number) => `Lista de preparación para el examen: ${done} de ${total} puntos completados`,
+    ready: '¡Todo listo para tu examen!',
+    question: '¿Todo listo para tu examen?',
+    keepGoing: 'Sigue respondiendo unas cuantas preguntas al día hasta el examen para no perder el ritmo.',
+  },
+);
+
 /** "Ready for your test?" checklist card (Home + Progress). */
 export function ReadyChecklist({compact = false}: {compact?: boolean}) {
   const {colors, spacing} = useTheme();
+  const t = useStrings(STR);
   const {bank, stateInfo, track, state} = useLearner();
   const readiness = useReadiness();
   const stats = useProgress(s => s.stats);
@@ -25,11 +42,11 @@ export function ReadyChecklist({compact = false}: {compact?: boolean}) {
   const allDone = items.length > 0 && done === items.length;
 
   return (
-    <Card variant={allDone ? 'tinted' : 'default'} tint={colors.successSoft} accessibilityLabel={`Test-ready checklist: ${done} of ${items.length} complete`}>
+    <Card variant={allDone ? 'tinted' : 'default'} tint={colors.successSoft} accessibilityLabel={t.label(done, items.length)}>
       <View style={[styles.row, {gap: spacing.sm}]}>
         <Icon name={allDone ? 'badge-check' : 'list-checks'} color={allDone ? colors.success : colors.primary} />
         <Text variant="subheading" style={styles.flex}>
-          {allDone ? 'You’re ready for your test!' : 'Ready for your test?'}
+          {allDone ? t.ready : t.question}
         </Text>
         <Text variant="captionStrong" color="textMuted">
           {done}/{items.length}
@@ -55,7 +72,7 @@ export function ReadyChecklist({compact = false}: {compact?: boolean}) {
       ) : null}
       {allDone ? (
         <Text variant="caption" color="textMuted" style={{marginTop: spacing.sm}}>
-          Keep doing a few questions a day until test day to stay sharp.
+          {t.keepGoing}
         </Text>
       ) : null}
     </Card>

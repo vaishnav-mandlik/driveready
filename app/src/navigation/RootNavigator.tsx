@@ -2,6 +2,7 @@ import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {Icon, IconName} from '../components/Icon';
+import {defineStrings, useStrings} from '../i18n';
 import {useSettings} from '../store/settings';
 import {useTheme} from '../theme/ThemeProvider';
 import type {RootStackParamList, TabParamList} from './types';
@@ -50,12 +51,65 @@ const TAB_ICONS: Record<keyof TabParamList, IconName> = {
   Progress: 'chart',
 };
 
+const STR = defineStrings(
+  {
+    tabs: {Home: 'Home', Practice: 'Practice', Signs: 'Signs', Learn: 'Learn', Progress: 'Progress'} as Record<keyof TabParamList, string>,
+    results: 'Results',
+    review: 'Review Answers',
+    examSimulator: 'Exam Simulator',
+    question: 'Question',
+    search: 'Search Questions',
+    studyPlan: 'Study Plan',
+    driveLog: 'Driving Log',
+    logDrive: 'Log a Drive',
+    flashcards: 'Sign Flashcards',
+    cheatSheet: 'State Cheat Sheet',
+    factCards: 'Numbers to Know',
+    examInfo: 'About Your Test',
+    examHistory: 'Exam History',
+    achievements: 'Achievements',
+    settings: 'Settings',
+    about: 'About',
+    sources: 'Official Sources',
+    privacy: 'Privacy Policy',
+    pickState: 'Choose Your State',
+    pickTrack: 'Choose Your Test',
+    goal: 'Goals & Test Date',
+  },
+  {
+    tabs: {Home: 'Inicio', Practice: 'Práctica', Signs: 'Señales', Learn: 'Aprender', Progress: 'Progreso'} as Record<keyof TabParamList, string>,
+    results: 'Resultados',
+    review: 'Revisar respuestas',
+    examSimulator: 'Simulador de examen',
+    question: 'Pregunta',
+    search: 'Buscar preguntas',
+    studyPlan: 'Plan de estudio',
+    driveLog: 'Registro de manejo',
+    logDrive: 'Registrar práctica',
+    flashcards: 'Tarjetas de señales',
+    cheatSheet: 'Hoja de repaso del estado',
+    factCards: 'Cifras clave',
+    examInfo: 'Sobre tu examen',
+    examHistory: 'Historial de exámenes',
+    achievements: 'Logros',
+    settings: 'Ajustes',
+    about: 'Acerca de',
+    sources: 'Fuentes oficiales',
+    privacy: 'Política de privacidad',
+    pickState: 'Elige tu estado',
+    pickTrack: 'Elige tu examen',
+    goal: 'Metas y fecha del examen',
+  },
+);
+
 function Tabs() {
   const {colors} = useTheme();
+  const t = useStrings(STR);
   return (
     <Tab.Navigator
       screenOptions={({route}) => ({
         headerShown: false,
+        title: t.tabs[route.name],
         tabBarActiveTintColor: colors.primary,
         tabBarInactiveTintColor: colors.textFaint,
         tabBarStyle: {backgroundColor: colors.surface, borderTopColor: colors.border},
@@ -74,6 +128,7 @@ function Tabs() {
 export function RootNavigator() {
   const {colors} = useTheme();
   const onboarded = useSettings(s => s.onboarded);
+  const t = useStrings(STR);
 
   return (
     <Stack.Navigator
@@ -100,31 +155,31 @@ export function RootNavigator() {
           <Stack.Screen name="Tabs" component={Tabs} options={{headerShown: false}} />
           <Stack.Group>
             <Stack.Screen name="Quiz" component={QuizScreen} options={{title: '', gestureEnabled: false}} />
-            <Stack.Screen name="Results" component={ResultsScreen} options={{title: 'Results', headerBackVisible: false, gestureEnabled: false}} />
-            <Stack.Screen name="Review" component={ReviewScreen} options={{title: 'Review Answers'}} />
-            <Stack.Screen name="ExamIntro" component={ExamIntroScreen} options={{title: 'Exam Simulator'}} />
-            <Stack.Screen name="QuestionDetail" component={QuestionDetailScreen} options={{title: 'Question'}} />
+            <Stack.Screen name="Results" component={ResultsScreen} options={{title: t.results, headerBackVisible: false, gestureEnabled: false}} />
+            <Stack.Screen name="Review" component={ReviewScreen} options={{title: t.review}} />
+            <Stack.Screen name="ExamIntro" component={ExamIntroScreen} options={{title: t.examSimulator}} />
+            <Stack.Screen name="QuestionDetail" component={QuestionDetailScreen} options={{title: t.question}} />
             <Stack.Screen name="Topic" component={TopicScreen} options={{title: ''}} />
             <Stack.Screen name="QuestionList" component={QuestionListScreen} options={{title: ''}} />
-            <Stack.Screen name="Search" component={SearchScreen} options={{title: 'Search Questions'}} />
-            <Stack.Screen name="StudyPlan" component={StudyPlanScreen} options={{title: 'Study Plan'}} />
-            <Stack.Screen name="DriveLog" component={DriveLogScreen} options={{title: 'Driving Log'}} />
-            <Stack.Screen name="DriveEntry" component={DriveEntryScreen} options={{title: 'Log a Drive', presentation: 'modal'}} />
+            <Stack.Screen name="Search" component={SearchScreen} options={{title: t.search}} />
+            <Stack.Screen name="StudyPlan" component={StudyPlanScreen} options={{title: t.studyPlan}} />
+            <Stack.Screen name="DriveLog" component={DriveLogScreen} options={{title: t.driveLog}} />
+            <Stack.Screen name="DriveEntry" component={DriveEntryScreen} options={{title: t.logDrive, presentation: 'modal'}} />
             <Stack.Screen name="SignDetail" component={SignDetailScreen} options={{title: ''}} />
-            <Stack.Screen name="Flashcards" component={FlashcardsScreen} options={{title: 'Sign Flashcards'}} />
+            <Stack.Screen name="Flashcards" component={FlashcardsScreen} options={{title: t.flashcards}} />
             <Stack.Screen name="Lesson" component={LessonScreen} options={{title: ''}} />
-            <Stack.Screen name="CheatSheet" component={CheatSheetScreen} options={{title: 'State Cheat Sheet'}} />
-            <Stack.Screen name="FactCards" component={FactCardsScreen} options={{title: 'Numbers to Know'}} />
-            <Stack.Screen name="ExamInfo" component={ExamInfoScreen} options={{title: 'About Your Test'}} />
-            <Stack.Screen name="ExamHistory" component={ExamHistoryScreen} options={{title: 'Exam History'}} />
-            <Stack.Screen name="Achievements" component={AchievementsScreen} options={{title: 'Achievements'}} />
-            <Stack.Screen name="Settings" component={SettingsScreen} options={{title: 'Settings'}} />
-            <Stack.Screen name="About" component={AboutScreen} options={{title: 'About'}} />
-            <Stack.Screen name="Sources" component={SourcesScreen} options={{title: 'Official Sources'}} />
-            <Stack.Screen name="Privacy" component={PrivacyScreen} options={{title: 'Privacy Policy'}} />
-            <Stack.Screen name="PickState" component={PickStateScreen} options={{title: 'Choose Your State'}} />
-            <Stack.Screen name="PickTrack" component={PickTrackScreen} options={{title: 'Choose Your Test'}} />
-            <Stack.Screen name="Goal" component={GoalScreen} options={{title: 'Goals & Test Date'}} />
+            <Stack.Screen name="CheatSheet" component={CheatSheetScreen} options={{title: t.cheatSheet}} />
+            <Stack.Screen name="FactCards" component={FactCardsScreen} options={{title: t.factCards}} />
+            <Stack.Screen name="ExamInfo" component={ExamInfoScreen} options={{title: t.examInfo}} />
+            <Stack.Screen name="ExamHistory" component={ExamHistoryScreen} options={{title: t.examHistory}} />
+            <Stack.Screen name="Achievements" component={AchievementsScreen} options={{title: t.achievements}} />
+            <Stack.Screen name="Settings" component={SettingsScreen} options={{title: t.settings}} />
+            <Stack.Screen name="About" component={AboutScreen} options={{title: t.about}} />
+            <Stack.Screen name="Sources" component={SourcesScreen} options={{title: t.sources}} />
+            <Stack.Screen name="Privacy" component={PrivacyScreen} options={{title: t.privacy}} />
+            <Stack.Screen name="PickState" component={PickStateScreen} options={{title: t.pickState}} />
+            <Stack.Screen name="PickTrack" component={PickTrackScreen} options={{title: t.pickTrack}} />
+            <Stack.Screen name="Goal" component={GoalScreen} options={{title: t.goal}} />
           </Stack.Group>
         </Stack.Group>
       )}

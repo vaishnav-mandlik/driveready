@@ -1,14 +1,29 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import {Card, Icon, IconTile, Screen, Text} from '../../components';
-import {TRACKS} from '../../data/tracks';
+import {getTrack, TRACKS} from '../../data/tracks';
 import type {TrackId} from '../../data/types';
+import {defineStrings, useStrings} from '../../i18n';
 import type {RootScreenProps} from '../../navigation/types';
 import {useSettings} from '../../store/settings';
 import {hueAt, useTheme} from '../../theme/ThemeProvider';
 
+const STR = defineStrings(
+  {
+    step: 'Step 2 of 3',
+    title: 'What are you studying for?',
+    intro: 'You can switch test types later — your progress for each is kept.',
+  },
+  {
+    step: 'Paso 2 de 3',
+    title: '¿Para qué estás estudiando?',
+    intro: 'Puedes cambiar de tipo de examen después; se guarda tu progreso en cada uno.',
+  },
+);
+
 export function PickTrackScreen({navigation, route}: RootScreenProps<'PickTrack'>) {
   const {colors, spacing} = useTheme();
+  const str = useStrings(STR);
   const mode = route.params?.mode ?? 'onboarding';
   const current = useSettings(s => s.track);
   const update = useSettings(s => s.update);
@@ -27,18 +42,19 @@ export function PickTrackScreen({navigation, route}: RootScreenProps<'PickTrack'
       {mode === 'onboarding' ? (
         <View style={{gap: spacing.md, marginBottom: spacing.xl}}>
           <Text variant="label" color="primary">
-            Step 2 of 3
+            {str.step}
           </Text>
           <Text variant="title" accessibilityRole="header">
-            What are you studying for?
+            {str.title}
           </Text>
           <Text variant="body" color="textMuted">
-            You can switch test types later — your progress for each is kept.
+            {str.intro}
           </Text>
         </View>
       ) : null}
       <View style={{gap: spacing.md}}>
-        {TRACKS.map((t, i) => {
+        {/* getTrack returns the track in the current language (TRACKS stays the English data). */}
+        {TRACKS.map(({id}) => getTrack(id)).map((t, i) => {
           const selected = t.id === current;
           const color = hueAt(colors, i === 0 ? 0 : i === 1 ? 3 : 2);
           return (

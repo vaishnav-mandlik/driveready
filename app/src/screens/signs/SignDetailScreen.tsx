@@ -3,13 +3,44 @@ import {StyleSheet, View} from 'react-native';
 import {Button, Card, Chip, Divider, EmptyState, Icon, ListRow, Screen, SectionHeader, SignImage, Text} from '../../components';
 import {signCategories, allSigns, getSign} from '../../data/signs';
 import {useLearner} from '../../hooks/useLearner';
+import {defineStrings, useStrings} from '../../i18n';
 import {speech} from '../../native';
 import type {RootScreenProps} from '../../navigation/types';
 import {useProgress} from '../../store/progress';
 import {useTheme} from '../../theme/ThemeProvider';
 
+const STR = defineStrings(
+  {
+    notFoundTitle: 'Sign not found',
+    notFoundMessage: "This sign isn't in the library.",
+    goBack: 'Go back',
+    previous: 'Previous',
+    next: 'Next',
+    whatItMeans: 'What it means',
+    colors: (colors: string) => `Colors: ${colors}`,
+    stillLearning: 'Still learning',
+    iKnowIt: 'I know it',
+    hear: 'Hear',
+    questionsAbout: (n: number) => `Questions about this sign (${n})`,
+  },
+  {
+    notFoundTitle: 'Señal no encontrada',
+    notFoundMessage: 'Esta señal no está en la biblioteca.',
+    goBack: 'Regresar',
+    previous: 'Anterior',
+    next: 'Siguiente',
+    whatItMeans: 'Qué significa',
+    colors: (colors: string) => `Colores: ${colors}`,
+    stillLearning: 'Aún aprendiendo',
+    iKnowIt: 'Ya la sé',
+    hear: 'Escuchar',
+    questionsAbout: (n: number) => `Preguntas sobre esta señal (${n})`,
+  },
+);
+
 export function SignDetailScreen({navigation, route}: RootScreenProps<'SignDetail'>) {
   const {colors, spacing, radius} = useTheme();
+  const t = useStrings(STR);
   const {code} = route.params;
   const sign = getSign(code);
   const {bank} = useLearner();
@@ -27,7 +58,7 @@ export function SignDetailScreen({navigation, route}: RootScreenProps<'SignDetai
   if (!sign) {
     return (
       <Screen>
-        <EmptyState icon="signpost" title="Sign not found" message="This sign isn't in the library." actionLabel="Go back" onAction={() => navigation.goBack()} />
+        <EmptyState icon="signpost" title={t.notFoundTitle} message={t.notFoundMessage} actionLabel={t.goBack} onAction={() => navigation.goBack()} />
       </Screen>
     );
   }
@@ -38,8 +69,8 @@ export function SignDetailScreen({navigation, route}: RootScreenProps<'SignDetai
     <Screen
       footer={
         <View style={[styles.row, {gap: spacing.md}]}>
-          <Button title="Previous" variant="outline" icon="chevron-left" onPress={() => go(idx - 1)} style={styles.flex} />
-          <Button title="Next" variant="outline" iconRight="chevron-right" onPress={() => go(idx + 1)} style={styles.flex} />
+          <Button title={t.previous} variant="outline" icon="chevron-left" onPress={() => go(idx - 1)} style={styles.flex} />
+          <Button title={t.next} variant="outline" iconRight="chevron-right" onPress={() => go(idx + 1)} style={styles.flex} />
         </View>
       }>
       <View style={[styles.art, {backgroundColor: colors.surfaceAlt, borderRadius: radius.xl, padding: spacing.xl}]}>
@@ -57,26 +88,26 @@ export function SignDetailScreen({navigation, route}: RootScreenProps<'SignDetai
         <View style={[styles.row, {gap: spacing.sm, marginBottom: spacing.xs}]}>
           <Icon name="lightbulb" size={18} color={colors.primary} />
           <Text variant="label" color="primary">
-            What it means
+            {t.whatItMeans}
           </Text>
         </View>
         <Text variant="bodyStrong">{sign.meaning}</Text>
       </Card>
       {sign.colors ? (
         <Text variant="caption" color="textMuted" style={{marginTop: spacing.md}}>
-          Colors: {sign.colorsLabel ?? sign.colors}
+          {t.colors(sign.colorsLabel ?? sign.colors)}
         </Text>
       ) : null}
 
       <View style={[styles.row, {gap: spacing.md, marginTop: spacing.lg}]}>
-        <Button title="Still learning" variant={level === 0 ? 'danger' : 'outline'} size="sm" onPress={() => setLevel(sign.code, 0)} style={styles.flex} />
-        <Button title="I know it" variant={level >= 2 ? 'success' : 'outline'} size="sm" icon="check" onPress={() => setLevel(sign.code, 2)} style={styles.flex} />
-        <Button title="Hear" variant="ghost" size="sm" icon="volume" onPress={() => speech.speak(`${sign.name}. ${sign.meaning}`)} />
+        <Button title={t.stillLearning} variant={level === 0 ? 'danger' : 'outline'} size="sm" onPress={() => setLevel(sign.code, 0)} style={styles.flex} />
+        <Button title={t.iKnowIt} variant={level >= 2 ? 'success' : 'outline'} size="sm" icon="check" onPress={() => setLevel(sign.code, 2)} style={styles.flex} />
+        <Button title={t.hear} variant="ghost" size="sm" icon="volume" onPress={() => speech.speak(`${sign.name}. ${sign.meaning}`)} />
       </View>
 
       {related.length ? (
         <>
-          <SectionHeader title={`Questions about this sign (${related.length})`} />
+          <SectionHeader title={t.questionsAbout(related.length)} />
           <Card padded={false} style={{paddingHorizontal: spacing.lg}}>
             {related.map((q, i) => (
               <React.Fragment key={q.id}>

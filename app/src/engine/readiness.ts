@@ -1,5 +1,6 @@
 import type {Bank} from '../data/bank';
 import type {ExamConfig, Question, TopicId} from '../data/types';
+import {defineStrings, tr} from '../i18n';
 import {isMastered, knowledge, QStat} from './srs';
 
 export interface TopicReadiness {
@@ -14,6 +15,31 @@ export interface TopicReadiness {
 }
 
 export type ReadinessLabel = 'Just starting' | 'Keep practicing' | 'Getting there' | 'Almost ready' | 'Ready to pass';
+
+const LABELS = defineStrings<Record<ReadinessLabel, string>>(
+  {
+    'Just starting': 'Just starting',
+    'Keep practicing': 'Keep practicing',
+    'Getting there': 'Getting there',
+    'Almost ready': 'Almost ready',
+    'Ready to pass': 'Ready to pass',
+  },
+  {
+    'Just starting': 'Apenas empiezas',
+    'Keep practicing': 'Sigue practicando',
+    'Getting there': 'Vas por buen camino',
+    'Almost ready': 'Casi a punto',
+    'Ready to pass': 'Ya puedes aprobar',
+  },
+);
+
+/**
+ * The readiness label in the current language. `Readiness.label` stays the stable English id
+ * (used by tests and logic); show this text in the UI instead.
+ */
+export function readinessLabelText(label: ReadinessLabel): string {
+  return tr(LABELS)[label] ?? label;
+}
 
 export interface Readiness {
   passProbability: number;

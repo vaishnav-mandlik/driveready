@@ -1,6 +1,7 @@
 import {create} from 'zustand';
 import {persist} from 'zustand/middleware';
 import type {StateFact} from '../data/types';
+import {defineStrings, tr} from '../i18n';
 import {persistStorage} from './storage';
 
 /** One supervised practice drive logged by a permit holder. */
@@ -32,6 +33,36 @@ export const DRIVE_CONDITIONS = [
   'Heavy traffic',
   'Night',
 ] as const;
+
+const STR = defineStrings(
+  {
+    conditions: {} as Record<string, string>,
+    csvHeader: ['Date', 'Minutes', 'Night minutes', 'Conditions', 'Supervisor', 'Notes'],
+  },
+  {
+    conditions: {
+      Residential: 'Residencial',
+      'City traffic': 'Tráfico urbano',
+      Highway: 'Autopista',
+      'Rural road': 'Camino rural',
+      Parking: 'Estacionamiento',
+      Rain: 'Lluvia',
+      'Snow/ice': 'Nieve/hielo',
+      Fog: 'Niebla',
+      'Heavy traffic': 'Mucho tráfico',
+      Night: 'Noche',
+    } as Record<string, string>,
+    csvHeader: ['Fecha', 'Minutos', 'Minutos de noche', 'Condiciones', 'Supervisor', 'Notas'],
+  },
+);
+
+/**
+ * Display label of a drive condition. Entries store the English id (DRIVE_CONDITIONS),
+ * so saved logs keep working when the language changes.
+ */
+export function driveConditionLabel(condition: string): string {
+  return tr(STR).conditions[condition] ?? condition;
+}
 
 interface DriveLogState {
   entries: DriveEntry[];
@@ -93,17 +124,21 @@ export function requirementFromFact(fact: StateFact | undefined): {hours: number
     return {hours: null, nightHours: null};
   }
   const text = `${fact.value} ${fact.detail}`;
-  const hours = fact.number ?? (Number(text.match(/(\d{1,3})\s*hours?/i)?.[1]) || null);
-  const night = text.match(/(\d{1,3})\s*(?:hours?\s*)?(?:of\s+which\s+)?(?:must\s+be\s+)?(?:at|during)\s+night/i) ?? text.match(/(\d{1,3})\s*(?:hours?\s*)?night/i);
+  const hours = fact.number ?? (Number(text.match(/(\d{1,3})\s*(?:hours?|horas?)/i)?.[1]) || null);
+  // English, then Spanish wording (state facts are shown translated when the app is in Spanish).
+  const night =
+    text.match(/(\d{1,3})\s*(?:hours?\s*)?(?:of\s+which\s+)?(?:must\s+be\s+)?(?:at|during)\s+night/i) ??
+    text.match(/(\d{1,3})\s*(?:hours?\s*)?night/i) ??
+    text.match(/(\d{1,3})\s*(?:horas?\s*)?(?:(?:de|durante\s+la|por\s+la|en\s+la)\s+noche|nocturnas?)/i);
   return {hours: hours && hours > 0 ? hours : null, nightHours: night ? Number(night[1]) : null};
 }
 
-/** CSV export of the log (for sharing with a parent/DMV). */
+/** CSV export of the log (for sharing with a parent/DMV), with headers in the current language. */
 export function driveLogCsv(entries: DriveEntry[]): string {
   const esc = (v: string) => `"${v.replace(/"/g, '""')}"`;
-  const rows = [['Date', 'Minutes', 'Night minutes', 'Conditions', 'Supervisor', 'Notes'].join(',')];
+  const rows = [tr(STR).csvHeader.join(',')];
   for (const e of entries) {
-    rows.push([e.date, String(e.minutes), String(e.nightMinutes), esc(e.conditions.join('; ')), esc(e.supervisor), esc(e.notes)].join(','));
+    rows.push([e.date, String(e.minutes), String(e.nightMinutes), esc(e.conditions.map(driveConditionLabel).join('; ')), esc(e.supervisor), esc(e.notes)].join(','));
   }
   return rows.join('\n');
 }

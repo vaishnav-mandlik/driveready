@@ -1,5 +1,6 @@
 import React, {useEffect, useRef} from 'react';
 import {Animated, Pressable, StyleSheet, View} from 'react-native';
+import {defineStrings, useStrings} from '../i18n';
 import {useTheme} from '../theme/ThemeProvider';
 import {Icon} from './Icon';
 import {Text} from './Text';
@@ -21,8 +22,24 @@ export interface ChoiceButtonProps {
   testID?: string;
 }
 
+const STR = defineStrings(
+  {
+    correct: ', correct answer',
+    incorrect: ', your answer, incorrect',
+    selected: ', selected',
+    option: (letter: string, label: string, state: string) => `Option ${letter}: ${label}${state}`,
+  },
+  {
+    correct: ', respuesta correcta',
+    incorrect: ', tu respuesta, incorrecta',
+    selected: ', seleccionada',
+    option: (letter: string, label: string, state: string) => `Opción ${letter}: ${label}${state}`,
+  },
+);
+
 export function ChoiceButton({label, letter, state, onPress, disabled, testID}: ChoiceButtonProps) {
   const {colors, radius, spacing} = useTheme();
+  const t = useStrings(STR);
   const shake = useRef(new Animated.Value(0)).current;
   const pop = useRef(new Animated.Value(1)).current;
 
@@ -52,7 +69,7 @@ export function ChoiceButton({label, letter, state, onPress, disabled, testID}: 
   }[state];
 
   const stateLabel =
-    state === 'correct' ? ', correct answer' : state === 'missed' ? ', correct answer' : state === 'incorrect' ? ', your answer, incorrect' : state === 'selected' ? ', selected' : '';
+    state === 'correct' ? t.correct : state === 'missed' ? t.correct : state === 'incorrect' ? t.incorrect : state === 'selected' ? t.selected : '';
 
   return (
     <Animated.View
@@ -64,7 +81,7 @@ export function ChoiceButton({label, letter, state, onPress, disabled, testID}: 
         disabled={disabled}
         testID={testID}
         accessibilityRole="button"
-        accessibilityLabel={`Option ${letter}: ${label}${stateLabel}`}
+        accessibilityLabel={t.option(letter, label, stateLabel)}
         accessibilityState={{disabled: !!disabled, selected: state === 'selected'}}
         style={({pressed}) => [
           styles.base,

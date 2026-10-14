@@ -35,11 +35,23 @@ export function disclaimer(): string {
   return tr(DISCLAIMERS).text;
 }
 
+const REPORT = defineStrings(
+  {
+    subject: (id: string) => `Question report: ${id}`,
+    body: (id: string, state: string, track: string, version: string) =>
+      `Question ID: ${id}\nState: ${state}\nTest: ${track}\nApp version: ${version}\n\nWhat's wrong with this question?\n`,
+  },
+  {
+    subject: (id: string) => `Reporte de pregunta: ${id}`,
+    body: (id: string, state: string, track: string, version: string) =>
+      `ID de la pregunta: ${id}\nEstado: ${state}\nExamen: ${track}\nVersión de la app: ${version}\n\n¿Qué está mal en esta pregunta?\n`,
+  },
+);
+
 /** mailto: link for reporting a problem with a question. */
 export function reportQuestionUrl(questionId: string, state: string, track: string): string {
-  const subject = encodeURIComponent(`Question report: ${questionId}`);
-  const body = encodeURIComponent(
-    `Question ID: ${questionId}\nState: ${state}\nTest: ${track}\nApp version: ${APP_VERSION}\n\nWhat's wrong with this question?\n`,
-  );
+  const t = tr(REPORT);
+  const subject = encodeURIComponent(t.subject(questionId));
+  const body = encodeURIComponent(t.body(questionId, state, track, APP_VERSION));
   return `mailto:${SUPPORT_EMAIL}?subject=${subject}&body=${body}`;
 }

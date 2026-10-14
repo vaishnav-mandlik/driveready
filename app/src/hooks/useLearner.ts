@@ -23,6 +23,8 @@ export interface Learner {
 export function useLearner(): Learner {
   const state = useSettings(s => s.state) ?? 'CA';
   const track = useSettings(s => s.track);
+  // Track titles, topics and the question bank are localized: rebuild when the language changes.
+  const language = useSettings(s => s.language);
   return useMemo(() => {
     const exams = getExamConfigs(track, state);
     return {
@@ -34,7 +36,8 @@ export function useLearner(): Learner {
       exams,
       exam: exams[0],
     };
-  }, [state, track]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [state, track, language]);
 }
 
 /** Pass-probability model for an exam (defaults to the learner's main exam). */

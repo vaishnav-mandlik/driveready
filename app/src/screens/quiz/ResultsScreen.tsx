@@ -20,15 +20,110 @@ import type {TopicId} from '../../data/types';
 import {getAchievement} from '../../engine/achievements';
 import {formatDuration} from '../../engine/dates';
 import {scoreSession} from '../../engine/quiz';
+import {readinessLabelText} from '../../engine/readiness';
 import {useReadiness} from '../../hooks/useLearner';
+import {defineStrings, useStrings} from '../../i18n';
 import type {RootScreenProps} from '../../navigation/types';
 import {getSession} from '../../store/session';
 import {useTheme} from '../../theme/ThemeProvider';
 
 const TIER_COLOR = {bronze: '#C07A3B', silver: '#8D99AE', gold: '#E0A100'} as const;
 
+const STR = defineStrings(
+  {
+    unavailableTitle: 'Results unavailable',
+    unavailableMsg: 'These results are no longer in memory. Your progress and exam history are saved.',
+    done: 'Done',
+    passed: 'You passed!',
+    notQuite: 'Not quite — keep going',
+    newBest: 'New personal best!',
+    runComplete: 'Run complete',
+    timesUp: 'Time’s up!',
+    excellent: 'Excellent work!',
+    nice: 'Nice progress!',
+    keepPracticing: 'Keep practicing',
+    examSubline: (correct: number, total: number, need: number | null, endedEarly: boolean, timedOut: boolean) =>
+      `${correct} of ${total} correct · ${need} needed to pass${endedEarly ? ' · test ended once the result was decided' : ''}${timedOut ? ' · time ran out' : ''}`,
+    runSubline: (correct: number, best: number) =>
+      `${correct} correct answer${correct === 1 ? '' : 's'}${best ? ` · best ${best}` : ''}`,
+    practiceSubline: (correct: number, answered: number) => `${correct} of ${answered} answered correctly`,
+    shareExam: (passed: boolean, title: string, correct: number, total: number, pct: number) =>
+      `I ${passed ? 'passed' : 'took'} the ${title} practice exam in DriveReady: ${correct}/${total} (${pct}%). Free DMV practice tests for every state.`,
+    sharePractice: (title: string, correct: number, answered: number) =>
+      `I scored ${correct}/${answered} on a ${title} in DriveReady — free DMV practice tests for every state.`,
+    newExam: 'New exam',
+    practiceAgain: 'Practice again',
+    scoreA11y: (pct: number) => `Score ${pct} percent`,
+    failTip: 'Review your mistakes below, then try again — most people pass after a few practice exams.',
+    correct: 'Correct',
+    wrong: 'Wrong',
+    time: 'Time',
+    testParts: 'Test parts',
+    roadSigns: 'Road signs',
+    rules: 'Rules of the road',
+    need: (n: number) => ` (need ${n})`,
+    eachPart: 'Your overall score was high enough, but each part must be passed on its own.',
+    unansweredWrong: (n: number) => `${n} unanswered question${n === 1 ? '' : 's'} counted as wrong.`,
+    achievementsUnlocked: 'Achievements unlocked',
+    byTopic: 'By topic',
+    chanceBefore: 'Estimated chance to pass the real test: ',
+    chanceAfter: (label: string) => ` (${label.toLowerCase()}).`,
+    reviewAnswers: 'Review answers',
+    weakest: (topic: string) => `Practice your weakest topic: ${topic}`,
+    retry: (n: number) => `Retry ${n} missed question${n === 1 ? '' : 's'}`,
+    retryTitle: 'Retry Missed',
+    shareScore: 'Share score',
+  },
+  {
+    unavailableTitle: 'Resultados no disponibles',
+    unavailableMsg: 'Estos resultados ya no están en memoria. Tu progreso y tu historial de exámenes están guardados.',
+    done: 'Listo',
+    passed: '¡Aprobaste!',
+    notQuite: 'Todavía no, ¡sigue intentándolo!',
+    newBest: '¡Nuevo récord personal!',
+    runComplete: 'Partida terminada',
+    timesUp: '¡Se acabó el tiempo!',
+    excellent: '¡Excelente trabajo!',
+    nice: '¡Buen progreso!',
+    keepPracticing: 'Sigue practicando',
+    examSubline: (correct: number, total: number, need: number | null, endedEarly: boolean, timedOut: boolean) =>
+      `${correct} de ${total} correctas · se necesitan ${need} para aprobar${endedEarly ? ' · el examen terminó al decidirse el resultado' : ''}${timedOut ? ' · se acabó el tiempo' : ''}`,
+    runSubline: (correct: number, best: number) =>
+      `${correct === 1 ? '1 respuesta correcta' : `${correct} respuestas correctas`}${best ? ` · récord ${best}` : ''}`,
+    practiceSubline: (correct: number, answered: number) => `${correct} de ${answered} respondidas correctamente`,
+    shareExam: (passed: boolean, title: string, correct: number, total: number, pct: number) =>
+      `${passed ? 'Aprobé' : 'Presenté'} el examen de práctica “${title}” en DriveReady: ${correct}/${total} (${pct}%). Exámenes de práctica del DMV gratis para todos los estados.`,
+    sharePractice: (title: string, correct: number, answered: number) =>
+      `Saqué ${correct}/${answered} en “${title}” con DriveReady: exámenes de práctica del DMV gratis para todos los estados.`,
+    newExam: 'Nuevo examen',
+    practiceAgain: 'Practicar otra vez',
+    scoreA11y: (pct: number) => `Calificación: ${pct} por ciento`,
+    failTip: 'Repasa tus errores abajo y vuelve a intentarlo: la mayoría aprueba después de algunos exámenes de práctica.',
+    correct: 'Correctas',
+    wrong: 'Incorrectas',
+    time: 'Tiempo',
+    testParts: 'Partes del examen',
+    roadSigns: 'Señales de tránsito',
+    rules: 'Reglas de tránsito',
+    need: (n: number) => (n === 1 ? ' (se necesita 1)' : ` (se necesitan ${n})`),
+    eachPart: 'Tu calificación total fue suficiente, pero cada parte debe aprobarse por separado.',
+    unansweredWrong: (n: number) =>
+      n === 1 ? '1 pregunta sin responder contó como incorrecta.' : `${n} preguntas sin responder contaron como incorrectas.`,
+    achievementsUnlocked: 'Logros desbloqueados',
+    byTopic: 'Por tema',
+    chanceBefore: 'Probabilidad estimada de aprobar el examen real: ',
+    chanceAfter: (label: string) => ` (${label.toLowerCase()}).`,
+    reviewAnswers: 'Revisar respuestas',
+    weakest: (topic: string) => `Practica tu tema más débil: ${topic}`,
+    retry: (n: number) => (n === 1 ? 'Repetir 1 pregunta fallada' : `Repetir ${n} preguntas falladas`),
+    retryTitle: 'Repetir falladas',
+    shareScore: 'Compartir resultado',
+  },
+);
+
 export function ResultsScreen({navigation, route}: RootScreenProps<'Results'>) {
   const {colors, spacing} = useTheme();
+  const t = useStrings(STR);
   const {sessionId, unlocked = [], newBest = false, previousBest = 0} = route.params;
   const session = getSession(sessionId);
   const readiness = useReadiness();
@@ -45,9 +140,9 @@ export function ResultsScreen({navigation, route}: RootScreenProps<'Results'>) {
       <Screen>
         <EmptyState
           icon="clipboard"
-          title="Results unavailable"
-          message="These results are no longer in memory. Your progress and exam history are saved."
-          actionLabel="Done"
+          title={t.unavailableTitle}
+          message={t.unavailableMsg}
+          actionLabel={t.done}
           onAction={() => navigation.navigate('Tabs')}
         />
       </Screen>
@@ -64,27 +159,27 @@ export function ResultsScreen({navigation, route}: RootScreenProps<'Results'>) {
 
   const headline = isExam
     ? passed
-      ? 'You passed!'
-      : 'Not quite — keep going'
+      ? t.passed
+      : t.notQuite
     : mode === 'survival'
       ? newBest
-        ? 'New personal best!'
-        : 'Run complete'
+        ? t.newBest
+        : t.runComplete
       : mode === 'speed'
         ? newBest
-          ? 'New personal best!'
-          : 'Time’s up!'
+          ? t.newBest
+          : t.timesUp
         : pct >= 90
-          ? 'Excellent work!'
+          ? t.excellent
           : pct >= 70
-            ? 'Nice progress!'
-            : 'Keep practicing';
+            ? t.nice
+            : t.keepPracticing;
 
   const subline = isExam
-    ? `${result.correct} of ${result.total} correct · ${result.passingScore} needed to pass${session.endedEarly ? ' · test ended once the result was decided' : ''}${session.timedOut ? ' · time ran out' : ''}`
+    ? t.examSubline(result.correct, result.total, result.passingScore, session.endedEarly, session.timedOut)
     : mode === 'survival' || mode === 'speed'
-      ? `${result.correct} correct answer${result.correct === 1 ? '' : 's'}${previousBest && !newBest ? ` · best ${previousBest}` : ''}`
-      : `${result.correct} of ${result.answered} answered correctly`;
+      ? t.runSubline(result.correct, previousBest && !newBest ? previousBest : 0)
+      : t.practiceSubline(result.correct, result.answered);
 
   const topics = (Object.entries(result.byTopic) as [TopicId, [number, number]][])
     .filter(([, v]) => v && v[1] > 0)
@@ -95,17 +190,17 @@ export function ResultsScreen({navigation, route}: RootScreenProps<'Results'>) {
   const share = () =>
     Share.share({
       message: isExam
-        ? `I ${passed ? 'passed' : 'took'} the ${session.title} practice exam in DriveReady: ${result.correct}/${result.total} (${pct}%). Free DMV practice tests for every state.`
-        : `I scored ${result.correct}/${result.answered} on a ${session.title} in DriveReady — free DMV practice tests for every state.`,
+        ? t.shareExam(passed, session.title, result.correct, result.total, pct)
+        : t.sharePractice(session.title, result.correct, result.answered),
     });
 
   return (
     <Screen
       footer={
         <View style={[styles.row, {gap: spacing.md}]}>
-          <Button title="Done" variant="outline" onPress={() => navigation.navigate('Tabs')} style={styles.flex} testID="results-done" />
+          <Button title={t.done} variant="outline" onPress={() => navigation.navigate('Tabs')} style={styles.flex} testID="results-done" />
           <Button
-            title={isExam ? 'New exam' : 'Practice again'}
+            title={isExam ? t.newExam : t.practiceAgain}
             icon="repeat"
             onPress={() => navigation.replace('Quiz', {spec: session.spec.mode === 'custom' ? {...session.spec} : {...session.spec, questionIds: undefined}})}
             style={styles.flex2}
@@ -114,7 +209,7 @@ export function ResultsScreen({navigation, route}: RootScreenProps<'Results'>) {
         </View>
       }>
       <Card style={styles.center}>
-        <ProgressRing value={result.total ? result.correct / result.total : 0} size={150} stroke={12} color={accent} accessibilityLabel={`Score ${pct} percent`}>
+        <ProgressRing value={result.total ? result.correct / result.total : 0} size={150} stroke={12} color={accent} accessibilityLabel={t.scoreA11y(pct)}>
           {isExam ? (
             <Icon name={passed ? 'badge-check' : 'circle-x'} size={34} color={accent} />
           ) : null}
@@ -128,25 +223,25 @@ export function ResultsScreen({navigation, route}: RootScreenProps<'Results'>) {
         </Text>
         {isExam && !passed ? (
           <Text variant="caption" color="textMuted" align="center" style={{marginTop: spacing.sm}}>
-            Review your mistakes below, then try again — most people pass after a few practice exams.
+            {t.failTip}
           </Text>
         ) : null}
       </Card>
 
       <View style={[styles.row, {gap: spacing.md, marginTop: spacing.md}]}>
-        <StatTile label="Correct" value={String(result.correct)} icon="circle-check" tone="success" />
-        <StatTile label="Wrong" value={String(result.wrong)} icon="circle-x" tone="danger" />
-        <StatTile label="Time" value={formatDuration(result.durationSec)} icon="clock" tone="primary" />
+        <StatTile label={t.correct} value={String(result.correct)} icon="circle-check" tone="success" />
+        <StatTile label={t.wrong} value={String(result.wrong)} icon="circle-x" tone="danger" />
+        <StatTile label={t.time} value={formatDuration(result.durationSec)} icon="clock" tone="primary" />
       </View>
       {result.sections ? (
         <Card style={{marginTop: spacing.md, gap: spacing.sm}}>
           <Text variant="label" color="textMuted">
-            Test parts
+            {t.testParts}
           </Text>
           {(
             [
-              ['Road signs', result.sections.signs],
-              ['Rules of the road', result.sections.rules],
+              [t.roadSigns, result.sections.signs],
+              [t.rules, result.sections.rules],
             ] as const
           ).map(([label, sec]) => {
             const ok = sec.need === null || sec.correct >= sec.need;
@@ -158,27 +253,27 @@ export function ResultsScreen({navigation, route}: RootScreenProps<'Results'>) {
                 </Text>
                 <Text variant="bodyStrong">
                   {sec.correct}/{sec.total}
-                  {sec.need !== null ? ` (need ${sec.need})` : ''}
+                  {sec.need !== null ? t.need(sec.need) : ''}
                 </Text>
               </View>
             );
           })}
           {result.passed === false && result.passingScore !== null && result.correct >= result.passingScore ? (
             <Text variant="caption" color="danger">
-              Your overall score was high enough, but each part must be passed on its own.
+              {t.eachPart}
             </Text>
           ) : null}
         </Card>
       ) : null}
       {result.skipped > 0 && isExam ? (
         <Text variant="caption" color="textMuted" style={{marginTop: spacing.sm}}>
-          {result.skipped} unanswered question{result.skipped === 1 ? '' : 's'} counted as wrong.
+          {t.unansweredWrong(result.skipped)}
         </Text>
       ) : null}
 
       {unlocked.length ? (
         <>
-          <SectionHeader title="Achievements unlocked" />
+          <SectionHeader title={t.achievementsUnlocked} />
           <View style={{gap: spacing.sm}}>
             {unlocked.map(id => {
               const a = getAchievement(id);
@@ -203,7 +298,7 @@ export function ResultsScreen({navigation, route}: RootScreenProps<'Results'>) {
 
       {topics.length > 1 ? (
         <>
-          <SectionHeader title="By topic" />
+          <SectionHeader title={t.byTopic} />
           <Card style={{gap: spacing.md}}>
             {topics.map(([topic, [c, n]]) => {
               const meta = getTopic(topic);
@@ -230,16 +325,18 @@ export function ResultsScreen({navigation, route}: RootScreenProps<'Results'>) {
         <Card variant="tinted" tint={colors.primarySoft} style={[styles.row, {gap: spacing.md, marginTop: spacing.md}]}>
           <Icon name="sparkles" color={colors.primary} />
           <Text variant="body" style={styles.flex}>
-            Estimated chance to pass the real test: <Text variant="bodyStrong">{Math.round(readiness.passProbability * 100)}%</Text> ({readiness.label.toLowerCase()}).
+            {t.chanceBefore}
+            <Text variant="bodyStrong">{Math.round(readiness.passProbability * 100)}%</Text>
+            {t.chanceAfter(readinessLabelText(readiness.label))}
           </Text>
         </Card>
       ) : null}
 
       <View style={{gap: spacing.md, marginTop: spacing.xl}}>
-        <Button title="Review answers" variant="secondary" icon="list-checks" onPress={() => navigation.navigate('Review', {sessionId: session.id})} fullWidth testID="results-review" />
+        <Button title={t.reviewAnswers} variant="secondary" icon="list-checks" onPress={() => navigation.navigate('Review', {sessionId: session.id})} fullWidth testID="results-review" />
         {weakestTopic ? (
           <Button
-            title={`Practice your weakest topic: ${getTopic(weakestTopic)?.title ?? topicTitle(weakestTopic)}`}
+            title={t.weakest(getTopic(weakestTopic)?.title ?? topicTitle(weakestTopic))}
             variant="outline"
             icon="target"
             onPress={() => navigation.replace('Topic', {topic: weakestTopic})}
@@ -248,15 +345,15 @@ export function ResultsScreen({navigation, route}: RootScreenProps<'Results'>) {
         ) : null}
         {result.wrongIds.length ? (
           <Button
-            title={`Retry ${result.wrongIds.length} missed question${result.wrongIds.length === 1 ? '' : 's'}`}
+            title={t.retry(result.wrongIds.length)}
             variant="outline"
             icon="reset"
-            onPress={() => navigation.replace('Quiz', {spec: {mode: 'custom', title: 'Retry Missed', questionIds: result.wrongIds}})}
+            onPress={() => navigation.replace('Quiz', {spec: {mode: 'custom', title: t.retryTitle, questionIds: result.wrongIds}})}
             fullWidth
             testID="results-retry"
           />
         ) : null}
-        <Button title="Share score" variant="ghost" icon="share" onPress={share} fullWidth />
+        <Button title={t.shareScore} variant="ghost" icon="share" onPress={share} fullWidth />
       </View>
       <Confetti run={celebrate} />
     </Screen>

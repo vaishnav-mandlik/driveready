@@ -1,4 +1,5 @@
 import type {SignCategory, SignInfo} from '../../data/types';
+import {currentLang} from '../../i18n';
 
 /**
  * "Shapes & colors" knowledge (MUTCD conventions taught in every state's
@@ -66,6 +67,55 @@ export const COLOR_GUIDE: ColorGuideEntry[] = [
   {kind: 'purple', title: 'Purple', meaning: 'Lanes only for vehicles with an electronic toll account.', swatch: ['#6B3FA0'], categories: ['guide', 'regulatory']},
 ];
 
+type GuideText = {title: string; meaning: string};
+
+/** Spanish shape-guide text keyed by kind (English lives in SHAPE_GUIDE). */
+const SHAPE_ES: Partial<Record<ShapeKind, GuideText>> = {
+  octagon: {title: 'Octágono', meaning: 'Alto. Esta figura de ocho lados se usa solo para las señales de ALTO (STOP).'},
+  yield: {title: 'Triángulo, punta hacia abajo', meaning: 'Ceda el paso. Baja la velocidad y deja pasar primero a los demás. Se usa solo para las señales de CEDA EL PASO (YIELD).'},
+  diamond: {title: 'Rombo', meaning: 'Advertencia. Hay un peligro o un cambio más adelante, como una curva, una incorporación o un cruce.'},
+  pentagon: {title: 'Pentágono', meaning: 'Zona escolar o cruce escolar más adelante. Pon atención a los niños.'},
+  circle: {title: 'Círculo', meaning: 'Cruce de ferrocarril más adelante. Mira y escucha por si vienen trenes.'},
+  pennant: {title: 'Banderín', meaning: 'Comienza una zona de no rebasar. Se coloca en el lado izquierdo del camino.'},
+  crossbuck: {title: 'Señal en forma de X', meaning: 'Cruce de ferrocarril. Cede el paso a los trenes y detente si viene uno.'},
+  vrect: {title: 'Rectángulo vertical', meaning: 'Normalmente una regla que debes obedecer, como un límite de velocidad.'},
+  hrect: {title: 'Rectángulo horizontal', meaning: 'Normalmente información de guía: direcciones, distancias y salidas.'},
+};
+
+/** Spanish color-guide text keyed by kind (English lives in COLOR_GUIDE). */
+const COLOR_ES: Record<ColorKind, GuideText> = {
+  red: {title: 'Rojo', meaning: 'Alto, ceda el paso, no entre o prohibido.'},
+  yellow: {title: 'Amarillo', meaning: 'Advertencia general de lo que hay más adelante.'},
+  fyg: {title: 'Amarillo verdoso fluorescente', meaning: 'Escuelas, autobuses escolares, áreas de juego y advertencias de peatones o bicicletas.'},
+  orange: {title: 'Anaranjado', meaning: 'Zonas de obras: trabajos en el camino, desvíos y abanderados.'},
+  blackwhite: {title: 'Blanco y negro', meaning: 'Reglamentos, como límites de velocidad y reglas de carriles.'},
+  green: {title: 'Verde', meaning: 'Direcciones y distancias, y movimientos permitidos.'},
+  blue: {title: 'Azul', meaning: 'Servicios para conductores, como gasolina, comida, hospedaje y hospitales.'},
+  brown: {title: 'Café', meaning: 'Parques, áreas recreativas y sitios culturales.'},
+  pink: {title: 'Rosa fluorescente', meaning: 'Desvíos temporales alrededor de incidentes de tránsito, como choques.'},
+  purple: {title: 'Morado', meaning: 'Carriles solo para vehículos con cuenta electrónica de peaje.'},
+};
+
+function localizeShape(e: ShapeGuideEntry): ShapeGuideEntry {
+  const t = currentLang() === 'es' ? SHAPE_ES[e.kind] : undefined;
+  return t ? {...e, ...t} : e;
+}
+
+function localizeColor(e: ColorGuideEntry): ColorGuideEntry {
+  const t = currentLang() === 'es' ? COLOR_ES[e.kind] : undefined;
+  return t ? {...e, ...t} : e;
+}
+
+/** SHAPE_GUIDE in the current language. */
+export function shapeGuide(): ShapeGuideEntry[] {
+  return SHAPE_GUIDE.map(localizeShape);
+}
+
+/** COLOR_GUIDE in the current language. */
+export function colorGuide(): ColorGuideEntry[] {
+  return COLOR_GUIDE.map(localizeColor);
+}
+
 /** Signals, markings and hand signals follow different conventions; no shape/color clues for them. */
 const NO_CLUES: SignCategory[] = ['signal', 'marking', 'hand_signal'];
 
@@ -130,7 +180,8 @@ export function shapeClue(sign: Pick<SignInfo, 'shape' | 'category'>): ShapeGuid
   if (!kind || !scope || (scope !== 'any' && !scope.includes(sign.category))) {
     return null;
   }
-  return SHAPE_GUIDE.find(e => e.kind === kind) ?? null;
+  const entry = SHAPE_GUIDE.find(e => e.kind === kind);
+  return entry ? localizeShape(entry) : null;
 }
 
 /** Color kinds mentioned in free-text `SignInfo.colors` (e.g. "Red with white legend"). */
@@ -173,7 +224,7 @@ export function colorClues(sign: Pick<SignInfo, 'colors' | 'category'>): ColorGu
   const kinds = colorKindsOf(sign.colors);
   const relevant = (k: ColorKind) => {
     const entry = COLOR_GUIDE.find(e => e.kind === k);
-    return entry && entry.categories.includes(sign.category) ? entry : null;
+    return entry && entry.categories.includes(sign.category) ? localizeColor(entry) : null;
   };
   const strong = kinds
     .filter(k => k !== 'blackwhite')

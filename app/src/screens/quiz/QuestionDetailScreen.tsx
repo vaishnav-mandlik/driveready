@@ -5,14 +5,35 @@ import {QuestionTools, ReportLink} from '../../components/quiz/QuestionActions';
 import {QuestionCard} from '../../components/quiz/QuestionCard';
 import {topicTitle} from '../../data/tracks';
 import {useLearner} from '../../hooks/useLearner';
+import {defineStrings, useStrings} from '../../i18n';
 import type {RootScreenProps} from '../../navigation/types';
 import {useProgress} from '../../store/progress';
 import {useTheme} from '../../theme/ThemeProvider';
 import {questionAccuracy, questionStatus} from '../practice/shared/practiceData';
 import {StatusChip} from '../practice/shared/ui';
 
+const STR = defineStrings(
+  {
+    notFound: 'Question not found',
+    notFoundMsg: "This question isn't part of your current state and test.",
+    goBack: 'Go back',
+    stateLaw: 'State law',
+    showAnswer: 'Show answer',
+    tryAgain: 'Try again',
+  },
+  {
+    notFound: 'Pregunta no encontrada',
+    notFoundMsg: 'Esta pregunta no forma parte de tu estado y examen actuales.',
+    goBack: 'Regresar',
+    stateLaw: 'Ley estatal',
+    showAnswer: 'Ver respuesta',
+    tryAgain: 'Intentar de nuevo',
+  },
+);
+
 export function QuestionDetailScreen({navigation, route}: RootScreenProps<'QuestionDetail'>) {
   const {spacing} = useTheme();
+  const t = useStrings(STR);
   const {bank} = useLearner();
   const question = bank.byId.get(route.params.id);
   const stat = useProgress(s => s.stats[route.params.id]);
@@ -22,7 +43,7 @@ export function QuestionDetailScreen({navigation, route}: RootScreenProps<'Quest
   if (!question) {
     return (
       <Screen>
-        <EmptyState icon="search" title="Question not found" message="This question isn't part of your current state and test." actionLabel="Go back" onAction={() => navigation.goBack()} />
+        <EmptyState icon="search" title={t.notFound} message={t.notFoundMsg} actionLabel={t.goBack} onAction={() => navigation.goBack()} />
       </Screen>
     );
   }
@@ -41,17 +62,17 @@ export function QuestionDetailScreen({navigation, route}: RootScreenProps<'Quest
         eyebrow={
           <>
             <Chip label={topicTitle(question.topic)} />
-            {question.states ? <Chip label="State law" icon="landmark" tone="accent" /> : null}
+            {question.states ? <Chip label={t.stateLaw} icon="landmark" tone="accent" /> : null}
           </>
         }
         tools={<QuestionTools question={question} revealed={revealed} />}
         footer={revealed ? <ReportLink question={question} /> : null}
       />
       {!revealed ? (
-        <Button title="Show answer" variant="secondary" icon="eye" onPress={() => setRevealed(true)} style={{marginTop: spacing.md}} fullWidth />
+        <Button title={t.showAnswer} variant="secondary" icon="eye" onPress={() => setRevealed(true)} style={{marginTop: spacing.md}} fullWidth />
       ) : (
         <Button
-          title="Try again"
+          title={t.tryAgain}
           variant="outline"
           icon="reset"
           onPress={() => {

@@ -1,4 +1,5 @@
 import type {SignInfo} from '../../data/types';
+import {defineStrings, tr} from '../../i18n';
 import {useProgress} from '../../store/progress';
 import type {Tone} from '../Bits';
 
@@ -14,6 +15,24 @@ export const LEVEL_META: Record<SignLevel, {label: string; short: string; tone: 
   1: {label: 'Almost known', short: 'Almost', tone: 'primary'},
   2: {label: 'Known', short: 'Known', tone: 'success'},
 };
+
+const LEVEL_TEXT = defineStrings<Record<SignLevel, {label: string; short: string}>>(
+  {
+    0: {label: LEVEL_META[0].label, short: LEVEL_META[0].short},
+    1: {label: LEVEL_META[1].label, short: LEVEL_META[1].short},
+    2: {label: LEVEL_META[2].label, short: LEVEL_META[2].short},
+  },
+  {
+    0: {label: 'Aún aprendiendo', short: 'Aprendiendo'},
+    1: {label: 'Casi dominada', short: 'Casi'},
+    2: {label: 'Dominada', short: 'Dominada'},
+  },
+);
+
+/** Label/short label/tone for a level, in the current language. Use this instead of LEVEL_META in UI. */
+export function levelMeta(level: SignLevel): {label: string; short: string; tone: Tone} {
+  return {...tr(LEVEL_TEXT)[level], tone: LEVEL_META[level].tone};
+}
 
 /** Level for a sign, or undefined when it was never studied. Tolerates bad persisted values. */
 export function readLevel(levels: Record<string, number>, code: string): SignLevel | undefined {

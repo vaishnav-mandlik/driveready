@@ -4,10 +4,38 @@ import {Button, Card, EmptyState, Icon, IconButton, Screen, SignImage, Text} fro
 import {getSign, isScenario} from '../../data/signs';
 import {getLesson} from '../../data/lessons';
 import type {LessonBlock, TopicId} from '../../data/types';
+import {defineStrings, useStrings} from '../../i18n';
 import {speech} from '../../native';
 import type {RootScreenProps} from '../../navigation/types';
 import {useProgress} from '../../store/progress';
 import {useTheme} from '../../theme/ThemeProvider';
+
+const STR = defineStrings(
+  {
+    readAloud: 'Read lesson aloud',
+    keyPointsSpoken: 'Key points.',
+    notFound: 'Lesson not found',
+    notAvailable: "This lesson isn't available.",
+    goBack: 'Go back',
+    minRead: (n: number) => `${n} min read`,
+    readSuffix: ' · Read',
+    keyPoints: 'Key points',
+    practice: 'Practice this topic',
+    markRead: 'Mark as read',
+  },
+  {
+    readAloud: 'Leer la lección en voz alta',
+    keyPointsSpoken: 'Puntos clave.',
+    notFound: 'Lección no encontrada',
+    notAvailable: 'Esta lección no está disponible.',
+    goBack: 'Regresar',
+    minRead: (n: number) => `${n} min de lectura`,
+    readSuffix: ' · Leída',
+    keyPoints: 'Puntos clave',
+    practice: 'Practicar este tema',
+    markRead: 'Marcar como leída',
+  },
+);
 
 function blockText(b: LessonBlock): string {
   switch (b.type) {
@@ -29,6 +57,7 @@ function blockText(b: LessonBlock): string {
 
 export function LessonScreen({navigation, route}: RootScreenProps<'Lesson'>) {
   const {colors, spacing, radius} = useTheme();
+  const t = useStrings(STR);
   const lesson = getLesson(route.params.lessonId);
   const read = useProgress(s => (lesson ? !!s.lessonsRead[lesson.id] : false));
   const markRead = useProgress(s => s.markLessonRead);
@@ -40,16 +69,16 @@ export function LessonScreen({navigation, route}: RootScreenProps<'Lesson'>) {
         ? () => (
             <IconButton
               icon="volume"
-              accessibilityLabel="Read lesson aloud"
+              accessibilityLabel={t.readAloud}
               onPress={() => {
                 speech.stop();
-                speech.speak([lesson.title, ...lesson.sections.flatMap(s => [s.heading, ...s.blocks.map(blockText)]), 'Key points.', ...lesson.keyPoints].join('. '));
+                speech.speak([lesson.title, ...lesson.sections.flatMap(s => [s.heading, ...s.blocks.map(blockText)]), t.keyPointsSpoken, ...lesson.keyPoints].join('. '));
               }}
             />
           )
         : undefined,
     });
-  }, [navigation, lesson]);
+  }, [navigation, lesson, t]);
 
   useEffect(() => () => speech.stop(), []);
 
@@ -66,7 +95,7 @@ export function LessonScreen({navigation, route}: RootScreenProps<'Lesson'>) {
   if (!lesson) {
     return (
       <Screen>
-        <EmptyState icon="book" title="Lesson not found" message="This lesson isn't available." actionLabel="Go back" onAction={() => navigation.goBack()} />
+        <EmptyState icon="book" title={t.notFound} message={t.notAvailable} actionLabel={t.goBack} onAction={() => navigation.goBack()} />
       </Screen>
     );
   }
@@ -82,7 +111,8 @@ export function LessonScreen({navigation, route}: RootScreenProps<'Lesson'>) {
         <View style={[styles.row, {gap: spacing.sm, marginTop: spacing.xs}]}>
           <Icon name="clock" size={14} color="textMuted" />
           <Text variant="caption" color="textMuted">
-            {lesson.minutes} min read{read ? ' · Read' : ''}
+            {t.minRead(lesson.minutes)}
+            {read ? t.readSuffix : ''}
           </Text>
         </View>
         <Text variant="body" color="textMuted" style={{marginTop: spacing.md}}>
@@ -104,7 +134,7 @@ export function LessonScreen({navigation, route}: RootScreenProps<'Lesson'>) {
           <View style={[styles.row, {gap: spacing.sm, marginBottom: spacing.sm}]}>
             <Icon name="star" size={18} color={colors.primary} />
             <Text variant="label" color="primary">
-              Key points
+              {t.keyPoints}
             </Text>
           </View>
           <View style={{gap: spacing.sm}}>
@@ -121,9 +151,9 @@ export function LessonScreen({navigation, route}: RootScreenProps<'Lesson'>) {
 
         <View style={{gap: spacing.md, marginTop: spacing.xl}}>
           {isTopic ? (
-            <Button title="Practice this topic" icon="play" onPress={() => navigation.navigate('Quiz', {spec: {mode: 'practice', topic: lesson.topic as TopicId, count: 10, title: lesson.title}})} fullWidth />
+            <Button title={t.practice} icon="play" onPress={() => navigation.navigate('Quiz', {spec: {mode: 'practice', topic: lesson.topic as TopicId, count: 10, title: lesson.title}})} fullWidth />
           ) : null}
-          {!read ? <Button title="Mark as read" variant="outline" icon="check" onPress={() => markRead(lesson.id)} fullWidth /> : null}
+          {!read ? <Button title={t.markRead} variant="outline" icon="check" onPress={() => markRead(lesson.id)} fullWidth /> : null}
         </View>
         <View style={{height: radius.lg}} />
       </ScrollView>

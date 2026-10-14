@@ -64,15 +64,19 @@ export function signsIn(library: SignLibrary, category: CategoryFilter): SignInf
 
 /* ------------------------------------------------------------------ search */
 
-const FILLER = new Set(['sign', 'signs', 'the', 'a', 'an', 'of', 'road', 'traffic']);
+// English + Spanish filler words (Spanish sign names/categories are searchable too).
+const FILLER = new Set(['sign', 'signs', 'the', 'a', 'an', 'of', 'road', 'traffic', 'senal', 'senales', 'de', 'del', 'la', 'el', 'los', 'las', 'transito']);
+
+const ACCENTS: Record<string, string> = {á: 'a', é: 'e', í: 'i', ó: 'o', ú: 'u', ü: 'u', ñ: 'n'};
+/** Lowercase with Spanish accents folded, so "señal" and "senal" match. */
+const fold = (s: string) => s.toLowerCase().replace(/[áéíóúüñ]/g, c => ACCENTS[c]);
 
 const normalize = (s: string) =>
-  s
-    .toLowerCase()
+  fold(s)
     .replace(/[^a-z0-9]+/g, ' ')
     .trim();
 
-const compact = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '');
+const compact = (s: string) => fold(s).replace(/[^a-z0-9]+/g, '');
 
 function terms(query: string): string[] {
   const all = normalize(query).split(' ').filter(Boolean);
@@ -101,7 +105,8 @@ export function findSigns(library: SignLibrary, query: string, category: Categor
       const name = normalize(sign.name);
       const code = normalize(sign.code);
       const nameWords = name.split(' ');
-      const facts = `${name} ${code} ${categoryText} ${normalize(sign.shape)} ${normalize(sign.colors)}`;
+      const labels = sign.shapeLabel || sign.colorsLabel ? ` ${normalize(sign.shapeLabel ?? '')} ${normalize(sign.colorsLabel ?? '')}` : '';
+      const facts = `${name} ${code} ${categoryText} ${normalize(sign.shape)} ${normalize(sign.colors)}${labels}`;
       const everything = `${facts} ${normalize(sign.meaning)}`;
       let score: number;
       if (compact(sign.code) === exactCode) {

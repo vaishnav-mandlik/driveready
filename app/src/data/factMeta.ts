@@ -1,4 +1,5 @@
 import type {IconName} from '../components/Icon';
+import {currentLang} from '../i18n';
 import type {FactKey, StateFact} from './types';
 
 export interface FactGroup {
@@ -140,16 +141,103 @@ export const FACT_GROUPS: FactGroup[] = [
   },
 ];
 
-const labelByKey = new Map(FACT_GROUPS.flatMap(g => g.keys.map(k => [k.key, k.label] as const)));
+/** Spanish group titles, keyed by group id. */
+const GROUP_TITLES_ES: Record<string, string> = {
+  alcohol: 'Alcohol y drogas',
+  teen: 'Permisos y conductores jóvenes',
+  phones: 'Celulares y distracciones',
+  occupants: 'Cinturones y asientos infantiles',
+  speed: 'Límites de velocidad',
+  turns: 'Vueltas, señales y derecho de paso',
+  emergency: 'Vehículos de emergencia y autobuses escolares',
+  visibility: 'Distancia de seguimiento y luces',
+  parking: 'Distancias para estacionarse',
+  legal: 'Choques, seguro y puntos',
+  motorcycle: 'Motocicletas',
+};
 
-export function factLabel(key: FactKey): string {
-  return labelByKey.get(key) ?? key.replace(/_/g, ' ');
+/** Spanish fact labels, keyed by fact key. */
+const LABELS_ES: Partial<Record<FactKey, string>> = {
+  bac_limit_adult: 'Límite de BAC, 21 años o más',
+  bac_limit_under21: 'Límite de BAC, menores de 21',
+  bac_limit_commercial: 'Límite de BAC, conductores comerciales',
+  implied_consent: 'Negarse a una prueba química',
+  dui_first_offense: 'Pena por primer DUI',
+  open_container: 'Envases abiertos',
+  permit_min_age: 'Edad mínima para el permiso',
+  permit_holding_period: 'Tener el permiso durante',
+  supervised_driving_hours: 'Práctica supervisada',
+  permit_supervisor: 'Quién puede supervisar',
+  provisional_license_min_age: 'Edad para licencia provisional',
+  provisional_night_restriction: 'Límite para manejar de noche',
+  provisional_passenger_restriction: 'Límite de pasajeros',
+  full_license_min_age: 'Licencia sin restricciones',
+  handheld_phone_ban: 'Celular en la mano',
+  texting_ban: 'Mensajes de texto',
+  novice_phone_ban: 'Conductores jóvenes y con permiso',
+  seat_belt_law: 'Cinturones de seguridad',
+  child_restraint_law: 'Asientos de seguridad infantil',
+  basic_speed_law: 'Ley básica de velocidad',
+  speed_limit_school_zone: 'Zonas escolares',
+  speed_limit_residential: 'Zonas residenciales',
+  speed_limit_business_district: 'Distrito comercial',
+  speed_limit_rural_highway: 'Carreteras rurales',
+  speed_limit_interstate_max: 'Autopistas interestatales',
+  minimum_speed_rule: 'Manejar demasiado lento',
+  right_turn_on_red: 'Vuelta a la derecha en rojo',
+  left_turn_on_red: 'Vuelta a la izquierda en rojo',
+  signal_distance: 'Señalizar antes de dar vuelta',
+  pedestrian_rules: 'Peatones',
+  bicycle_passing: 'Rebasar a ciclistas',
+  emergency_vehicles: 'Vehículos de emergencia',
+  move_over_law: 'Ley "Move Over"',
+  school_bus_stopping: 'Autobuses escolares detenidos',
+  railroad_stop_distance: 'Cruces de ferrocarril',
+  following_distance: 'Distancia de seguimiento',
+  headlights_required: 'Cuándo usar las luces delanteras',
+  high_beam_dim_oncoming: 'Bajar luces ante tráfico de frente',
+  high_beam_dim_following: 'Bajar luces al seguir a otro',
+  parking_fire_hydrant: 'Hidrante',
+  parking_crosswalk: 'Cruce peatonal',
+  parking_intersection: 'Intersección',
+  parking_stop_sign_signal: 'Señal de alto / semáforo',
+  parking_railroad: 'Cruce de ferrocarril',
+  parking_fire_station: 'Entrada de estación de bomberos',
+  parking_curb_distance: 'Distancia del bordillo',
+  crash_reporting: 'Reportar un choque',
+  insurance_minimums: 'Seguro mínimo',
+  point_system: 'Sistema de puntos',
+  motorcycle_helmet_law: 'Cascos',
+  motorcycle_lane_splitting: 'Circular entre carriles',
+};
+
+/** FACT_GROUPS with titles and labels in the current language (English data stays in FACT_GROUPS). */
+export function factGroups(): FactGroup[] {
+  if (currentLang() !== 'es') {
+    return FACT_GROUPS;
+  }
+  return FACT_GROUPS.map(g => ({
+    ...g,
+    title: GROUP_TITLES_ES[g.id] ?? g.title,
+    keys: g.keys.map(k => ({key: k.key, label: LABELS_ES[k.key] ?? k.label})),
+  }));
 }
 
-/** Facts grouped for display, keeping only groups that have at least one fact. */
+const labelByKey = new Map(FACT_GROUPS.flatMap(g => g.keys.map(k => [k.key, k.label] as const)));
+
+/** Label of a fact in the current language. */
+export function factLabel(key: FactKey): string {
+  const en = labelByKey.get(key);
+  if (currentLang() === 'es') {
+    return LABELS_ES[key] ?? en ?? key.replace(/_/g, ' ');
+  }
+  return en ?? key.replace(/_/g, ' ');
+}
+
+/** Facts grouped for display (localized titles/labels), keeping only groups that have at least one fact. */
 export function groupFacts(facts: StateFact[]): {group: FactGroup; facts: (StateFact & {label: string})[]}[] {
   const byKey = new Map(facts.map(f => [f.key, f]));
-  return FACT_GROUPS.map(group => ({
+  return factGroups().map(group => ({
     group,
     facts: group.keys
       .map(k => {

@@ -4,6 +4,7 @@ import {Button, Card, Chip, Divider, IconButton, Screen, SectionHeader, Segmente
 import {stateName} from '../../data/states';
 import {getTrack} from '../../data/tracks';
 import {addDays, dayKey, daysUntil, parseDayKey} from '../../engine/dates';
+import {defineStrings, tr, useStrings} from '../../i18n';
 import {reminders} from '../../native';
 import type {RootScreenProps} from '../../navigation/types';
 import {useSettings} from '../../store/settings';
@@ -11,23 +12,80 @@ import {useTheme} from '../../theme/ThemeProvider';
 import {longDate} from '../practice/shared/format';
 
 const GOALS = [10, 20, 30, 50];
-const REMINDER_TIMES: {label: string; hour: number}[] = [
-  {label: '8 AM', hour: 8},
-  {label: '12 PM', hour: 12},
-  {label: '5 PM', hour: 17},
-  {label: '7 PM', hour: 19},
-  {label: '9 PM', hour: 21},
-];
+const REMINDER_HOURS = [8, 12, 17, 19, 21];
+
+const STR = defineStrings(
+  {
+    reminderTitle: 'Time for a quick practice session',
+    reminderBody: (state: string) => `A few questions a day is the fastest way to pass your ${state} test.`,
+    hours: {8: '8 AM', 12: '12 PM', 17: '5 PM', 19: '7 PM', 21: '9 PM'} as Record<number, string>,
+    remindersOffTitle: 'Reminders are off',
+    remindersOffBody: 'Notifications are blocked for DriveReady. You can turn them on later in Settings.',
+    startStudying: 'Start studying',
+    save: 'Save',
+    step: 'Step 3 of 3',
+    title: 'Set your goal',
+    intro: (state: string, track: string) => `${state} · ${track}. Everything here is optional.`,
+    testDate: 'Test date',
+    in1Week: 'In 1 week',
+    in2Weeks: 'In 2 weeks',
+    in1Month: 'In 1 month',
+    notSure: 'Not sure yet',
+    dayEarlier: 'One day earlier',
+    dayLater: 'One day later',
+    until: (days: number) => (days === 0 ? 'Today' : days === 1 ? 'Tomorrow' : `In ${days} days`),
+    dailyGoal: 'Daily goal',
+    pace: (goal: number) =>
+      `Questions per day. ${goal <= 10 ? 'A gentle pace.' : goal <= 20 ? 'Recommended for most learners.' : 'Great if your test is soon.'}`,
+    studyReminder: 'Study reminder',
+    dailyReminder: 'Daily reminder',
+    dailyReminderSub: 'A gentle nudge to keep your streak',
+    firstName: 'Your first name (optional)',
+    namePlaceholder: 'For a friendlier greeting',
+    nameLabel: 'First name',
+  },
+  {
+    reminderTitle: 'Hora de practicar un poco',
+    reminderBody: (state: string) => `Unas cuantas preguntas al día son la forma más rápida de aprobar tu examen de ${state}.`,
+    hours: {8: '8 a. m.', 12: '12 p. m.', 17: '5 p. m.', 19: '7 p. m.', 21: '9 p. m.'} as Record<number, string>,
+    remindersOffTitle: 'Recordatorios desactivados',
+    remindersOffBody: 'Las notificaciones de DriveReady están bloqueadas. Puedes activarlas más tarde en Ajustes.',
+    startStudying: 'Empezar a estudiar',
+    save: 'Guardar',
+    step: 'Paso 3 de 3',
+    title: 'Fija tu meta',
+    intro: (state: string, track: string) => `${state} · ${track}. Todo esto es opcional.`,
+    testDate: 'Fecha del examen',
+    in1Week: 'En 1 semana',
+    in2Weeks: 'En 2 semanas',
+    in1Month: 'En 1 mes',
+    notSure: 'Aún no lo sé',
+    dayEarlier: 'Un día antes',
+    dayLater: 'Un día después',
+    until: (days: number) => (days === 0 ? 'Hoy' : days === 1 ? 'Mañana' : `En ${days} días`),
+    dailyGoal: 'Meta diaria',
+    pace: (goal: number) =>
+      `Preguntas por día. ${goal <= 10 ? 'Un ritmo tranquilo.' : goal <= 20 ? 'Recomendado para la mayoría.' : 'Ideal si tu examen es pronto.'}`,
+    studyReminder: 'Recordatorio de estudio',
+    dailyReminder: 'Recordatorio diario',
+    dailyReminderSub: 'Un empujoncito para mantener tu racha',
+    firstName: 'Tu nombre (opcional)',
+    namePlaceholder: 'Para un saludo más personal',
+    nameLabel: 'Nombre',
+  },
+);
 
 export function reminderCopy(state: string | null) {
+  const t = tr(STR);
   return {
-    title: 'Time for a quick practice session',
-    body: `A few questions a day is the fastest way to pass your ${stateName(state as never)} test.`,
+    title: t.reminderTitle,
+    body: t.reminderBody(stateName(state as never)),
   };
 }
 
 export function GoalScreen({navigation, route}: RootScreenProps<'Goal'>) {
   const {colors, spacing, radius, textScale} = useTheme();
+  const t = useStrings(STR);
   const mode = route.params?.mode ?? 'onboarding';
   const s = useSettings();
   const [examDate, setExamDate] = useState<string | null>(s.examDate);
@@ -54,7 +112,7 @@ export function GoalScreen({navigation, route}: RootScreenProps<'Goal'>) {
       const ok = await reminders.schedule(hour, 0, copy.title, copy.body).catch(() => false);
       if (!ok) {
         enabled = false;
-        Alert.alert('Reminders are off', 'Notifications are blocked for DriveReady. You can turn them on later in Settings.');
+        Alert.alert(t.remindersOffTitle, t.remindersOffBody);
       }
     } else if (!reminderOn) {
       reminders.cancel();
@@ -75,7 +133,7 @@ export function GoalScreen({navigation, route}: RootScreenProps<'Goal'>) {
       edges={mode === 'onboarding' ? ['top'] : []}
       footer={
         <Button
-          title={mode === 'onboarding' ? 'Start studying' : 'Save'}
+          title={mode === 'onboarding' ? t.startStudying : t.save}
           size="lg"
           icon={mode === 'onboarding' ? 'play' : 'check'}
           loading={saving}
@@ -87,24 +145,24 @@ export function GoalScreen({navigation, route}: RootScreenProps<'Goal'>) {
       {mode === 'onboarding' ? (
         <View style={{gap: spacing.md, marginBottom: spacing.md}}>
           <Text variant="label" color="primary">
-            Step 3 of 3
+            {t.step}
           </Text>
           <Text variant="title" accessibilityRole="header">
-            Set your goal
+            {t.title}
           </Text>
           <Text variant="body" color="textMuted">
-            {stateName(s.state)} · {getTrack(s.track).title}. Everything here is optional.
+            {t.intro(stateName(s.state), getTrack(s.track).title)}
           </Text>
         </View>
       ) : null}
 
-      <SectionHeader title="Test date" />
+      <SectionHeader title={t.testDate} />
       <Card>
         <View style={[styles.wrap, {gap: spacing.sm}]}>
           {[
-            {label: 'In 1 week', days: 7},
-            {label: 'In 2 weeks', days: 14},
-            {label: 'In 1 month', days: 30},
+            {label: t.in1Week, days: 7},
+            {label: t.in2Weeks, days: 14},
+            {label: t.in1Month, days: 30},
           ].map(o => (
             <Chip
               key={o.label}
@@ -113,25 +171,25 @@ export function GoalScreen({navigation, route}: RootScreenProps<'Goal'>) {
               onPress={() => setExamDate(dayKey(addDays(parseDayKey(dayKey()), o.days)))}
             />
           ))}
-          <Chip label="Not sure yet" selected={!examDate} onPress={() => setExamDate(null)} />
+          <Chip label={t.notSure} selected={!examDate} onPress={() => setExamDate(null)} />
         </View>
         {examDate ? (
           <View style={[styles.row, {marginTop: spacing.lg, gap: spacing.sm}]}>
-            <IconButton icon="minus" accessibilityLabel="One day earlier" onPress={() => shift(-1)} background={colors.surfaceAlt} />
+            <IconButton icon="minus" accessibilityLabel={t.dayEarlier} onPress={() => shift(-1)} background={colors.surfaceAlt} />
             <View style={styles.flex}>
               <Text variant="bodyStrong" align="center">
                 {longDate(parseDayKey(examDate))}
               </Text>
               <Text variant="caption" color="textMuted" align="center">
-                {until === 0 ? 'Today' : until === 1 ? 'Tomorrow' : `In ${until} days`}
+                {t.until(until ?? 0)}
               </Text>
             </View>
-            <IconButton icon="plus" accessibilityLabel="One day later" onPress={() => shift(1)} background={colors.surfaceAlt} />
+            <IconButton icon="plus" accessibilityLabel={t.dayLater} onPress={() => shift(1)} background={colors.surfaceAlt} />
           </View>
         ) : null}
       </Card>
 
-      <SectionHeader title="Daily goal" />
+      <SectionHeader title={t.dailyGoal} />
       <Card>
         <SegmentedControl
           options={GOALS.map(g => ({label: `${g}`, value: g}))}
@@ -139,21 +197,21 @@ export function GoalScreen({navigation, route}: RootScreenProps<'Goal'>) {
           onChange={setDailyGoal}
         />
         <Text variant="caption" color="textMuted" style={{marginTop: spacing.sm}}>
-          Questions per day. {dailyGoal <= 10 ? 'A gentle pace.' : dailyGoal <= 20 ? 'Recommended for most learners.' : 'Great if your test is soon.'}
+          {t.pace(dailyGoal)}
         </Text>
       </Card>
 
       {reminders.isSupported ? (
         <>
-          <SectionHeader title="Study reminder" />
+          <SectionHeader title={t.studyReminder} />
           <Card padded={false} style={{paddingHorizontal: spacing.lg, paddingBottom: reminderOn ? spacing.lg : 0}}>
-            <ToggleRow title="Daily reminder" subtitle="A gentle nudge to keep your streak" icon="bell" value={reminderOn} onValueChange={setReminderOn} />
+            <ToggleRow title={t.dailyReminder} subtitle={t.dailyReminderSub} icon="bell" value={reminderOn} onValueChange={setReminderOn} />
             {reminderOn ? (
               <>
                 <Divider />
                 <View style={[styles.wrap, {gap: spacing.sm, marginTop: spacing.md}]}>
-                  {REMINDER_TIMES.map(t => (
-                    <Chip key={t.hour} label={t.label} selected={hour === t.hour} onPress={() => setHour(t.hour)} />
+                  {REMINDER_HOURS.map(h => (
+                    <Chip key={h} label={t.hours[h]} selected={hour === h} onPress={() => setHour(h)} />
                   ))}
                 </View>
               </>
@@ -162,15 +220,15 @@ export function GoalScreen({navigation, route}: RootScreenProps<'Goal'>) {
         </>
       ) : null}
 
-      <SectionHeader title="Your first name (optional)" />
+      <SectionHeader title={t.firstName} />
       <TextInput
         value={name}
         onChangeText={setName}
-        placeholder="For a friendlier greeting"
+        placeholder={t.namePlaceholder}
         placeholderTextColor={colors.textFaint}
         maxLength={30}
         autoCapitalize="words"
-        accessibilityLabel="First name"
+        accessibilityLabel={t.nameLabel}
         style={[
           styles.input,
           {backgroundColor: colors.surface, borderColor: colors.border, borderRadius: radius.md, color: colors.text, fontSize: 16 * textScale, paddingHorizontal: spacing.md},

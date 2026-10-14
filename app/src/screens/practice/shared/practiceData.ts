@@ -5,6 +5,7 @@
 import type {Bank} from '../../../data/bank';
 import type {Question, StateCode, TopicId, TrackId} from '../../../data/types';
 import {dayKey, parseDayKey} from '../../../engine/dates';
+import {defineStrings, tr} from '../../../i18n';
 import {buildSession, marathonKey, poolSize, QuizMode} from '../../../engine/quiz';
 import {createRng, hashString, pick, shuffle} from '../../../engine/random';
 import {isDue, isMastered, isMistake, QStat} from '../../../engine/srs';
@@ -222,10 +223,22 @@ export function latestMarathon(
   return best;
 }
 
+const STR = defineStrings(
+  {
+    notAnswered: 'Not answered yet',
+    correctOf: (correct: number, attempts: number) => `${correct} of ${attempts} correct`,
+  },
+  {
+    notAnswered: 'Aún sin responder',
+    correctOf: (correct: number, attempts: number) => `${correct} de ${attempts} correctas`,
+  },
+);
+
 /** "12 of 40 correct" style accuracy summary for one question. */
 export function questionAccuracy(s: QStat | undefined): string {
+  const t = tr(STR);
   if (!s || s.a === 0) {
-    return 'Not answered yet';
+    return t.notAnswered;
   }
-  return `${s.c} of ${s.a} correct`;
+  return t.correctOf(s.c, s.a);
 }

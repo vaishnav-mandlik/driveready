@@ -4,13 +4,64 @@ import {Button, Chip, EmptyState, Icon, ProgressBar, Screen, SignImage, Text} fr
 import {signCategories, allSigns} from '../../data/signs';
 import type {SignInfo} from '../../data/types';
 import {createRng, randomSeed, shuffle} from '../../engine/random';
+import {defineStrings, useStrings} from '../../i18n';
 import {haptic, speech} from '../../native';
 import type {RootScreenProps} from '../../navigation/types';
 import {useProgress} from '../../store/progress';
 import {useTheme} from '../../theme/ThemeProvider';
 
+const STR = defineStrings(
+  {
+    allSigns: 'All signs',
+    signs: 'Signs',
+    knowAllTitle: 'You know them all!',
+    noSignsTitle: 'No signs here yet',
+    knowAllMessage: 'Every sign in this set is marked as known.',
+    noSignsMessage: 'Signs for this category are coming soon.',
+    reviewAll: 'Review all signs',
+    goBack: 'Go back',
+    deckComplete: 'Deck complete!',
+    youKnew: (got: number, total: number, pct: number) => `You knew ${got} of ${total} (${pct}%).`,
+    practiceMissed: 'Practice the ones I missed',
+    shuffleRestart: 'Shuffle and restart',
+    takeQuiz: 'Take the signs quiz',
+    stillLearning: 'Still learning',
+    gotIt: 'Got it',
+    learningOnly: 'Learning only',
+    allCards: 'All cards',
+    cardA11y: 'Flashcard. Tap to reveal the meaning of this sign.',
+    flipHint: 'Flips the card',
+    tapToFlip: 'Tap to flip',
+    hearIt: 'Hear it',
+  },
+  {
+    allSigns: 'Todas las señales',
+    signs: 'Señales',
+    knowAllTitle: '¡Ya las dominas todas!',
+    noSignsTitle: 'Aún no hay señales aquí',
+    knowAllMessage: 'Todas las señales de este grupo están marcadas como dominadas.',
+    noSignsMessage: 'Las señales de esta categoría llegarán pronto.',
+    reviewAll: 'Repasar todas las señales',
+    goBack: 'Regresar',
+    deckComplete: '¡Terminaste las tarjetas!',
+    youKnew: (got: number, total: number, pct: number) => `Sabías ${got} de ${total} (${pct} %).`,
+    practiceMissed: 'Practicar las que fallé',
+    shuffleRestart: 'Barajar y reiniciar',
+    takeQuiz: 'Hacer la prueba de señales',
+    stillLearning: 'Aún aprendiendo',
+    gotIt: 'Ya la sé',
+    learningOnly: 'Solo aprendiendo',
+    allCards: 'Todas las tarjetas',
+    cardA11y: 'Tarjeta de estudio. Toca para ver el significado de esta señal.',
+    flipHint: 'Voltea la tarjeta',
+    tapToFlip: 'Toca para voltear',
+    hearIt: 'Escuchar',
+  },
+);
+
 export function FlashcardsScreen({navigation, route}: RootScreenProps<'Flashcards'>) {
   const {colors, spacing, radius} = useTheme();
+  const t = useStrings(STR);
   const category = route.params?.category ?? 'all';
   const levels = useProgress(s => s.signLevels);
   const setLevel = useProgress(s => s.setSignLevel);
@@ -60,16 +111,16 @@ export function FlashcardsScreen({navigation, route}: RootScreenProps<'Flashcard
     setIndex(i => i + 1);
   };
 
-  const categoryTitle = category === 'all' ? 'All signs' : signCategories().find(c => c.id === category)?.title ?? 'Signs';
+  const categoryTitle = category === 'all' ? t.allSigns : signCategories().find(c => c.id === category)?.title ?? t.signs;
 
   if (!deck.length) {
     return (
       <Screen>
         <EmptyState
           icon="badge-check"
-          title={onlyLearning ? 'You know them all!' : 'No signs here yet'}
-          message={onlyLearning ? 'Every sign in this set is marked as known.' : 'Signs for this category are coming soon.'}
-          actionLabel={onlyLearning ? 'Review all signs' : 'Go back'}
+          title={onlyLearning ? t.knowAllTitle : t.noSignsTitle}
+          message={onlyLearning ? t.knowAllMessage : t.noSignsMessage}
+          actionLabel={onlyLearning ? t.reviewAll : t.goBack}
           onAction={() => (onlyLearning ? restart(false) : navigation.goBack())}
         />
       </Screen>
@@ -82,13 +133,13 @@ export function FlashcardsScreen({navigation, route}: RootScreenProps<'Flashcard
       <Screen>
         <EmptyState
           icon="party"
-          title="Deck complete!"
-          message={`You knew ${gotIt} of ${deck.length} (${pct}%).`}
+          title={t.deckComplete}
+          message={t.youKnew(gotIt, deck.length, pct)}
         />
         <View style={{gap: spacing.md}}>
-          {gotIt < deck.length ? <Button title="Practice the ones I missed" icon="repeat" onPress={() => restart(true)} fullWidth /> : null}
-          <Button title="Shuffle and restart" variant="outline" icon="shuffle" onPress={() => restart(false)} fullWidth />
-          <Button title="Take the signs quiz" variant="ghost" icon="target" onPress={() => navigation.replace('Quiz', {spec: {mode: 'signs'}})} fullWidth />
+          {gotIt < deck.length ? <Button title={t.practiceMissed} icon="repeat" onPress={() => restart(true)} fullWidth /> : null}
+          <Button title={t.shuffleRestart} variant="outline" icon="shuffle" onPress={() => restart(false)} fullWidth />
+          <Button title={t.takeQuiz} variant="ghost" icon="target" onPress={() => navigation.replace('Quiz', {spec: {mode: 'signs'}})} fullWidth />
         </View>
       </Screen>
     );
@@ -104,30 +155,30 @@ export function FlashcardsScreen({navigation, route}: RootScreenProps<'Flashcard
       scroll={false}
       footer={
         <View style={[styles.row, {gap: spacing.md}]}>
-          <Button title="Still learning" variant="outline" icon="repeat" onPress={() => rate(false)} style={styles.flex} testID="flash-learning" />
-          <Button title="Got it" variant="success" icon="check" onPress={() => rate(true)} style={styles.flex} testID="flash-known" />
+          <Button title={t.stillLearning} variant="outline" icon="repeat" onPress={() => rate(false)} style={styles.flex} testID="flash-learning" />
+          <Button title={t.gotIt} variant="success" icon="check" onPress={() => rate(true)} style={styles.flex} testID="flash-known" />
         </View>
       }>
       <View style={[styles.row, {gap: spacing.sm}]}>
         <Text variant="captionStrong" color="textMuted" style={styles.flex}>
           {categoryTitle} · {index + 1} / {deck.length}
         </Text>
-        <Chip label={onlyLearning ? 'Learning only' : 'All cards'} icon="sliders" onPress={() => restart(!onlyLearning)} />
+        <Chip label={onlyLearning ? t.learningOnly : t.allCards} icon="sliders" onPress={() => restart(!onlyLearning)} />
       </View>
       <ProgressBar value={index / deck.length} height={6} style={{marginTop: spacing.sm}} />
 
       <Pressable
         onPress={toggleFlip}
         accessibilityRole="button"
-        accessibilityLabel={flipped ? `${card.name}. ${card.meaning}` : 'Flashcard. Tap to reveal the meaning of this sign.'}
-        accessibilityHint="Flips the card"
+        accessibilityLabel={flipped ? `${card.name}. ${card.meaning}` : t.cardA11y}
+        accessibilityHint={t.flipHint}
         style={[styles.flex, {marginTop: spacing.lg}]}>
         <Animated.View style={[cardStyle, {transform: [{perspective: 1000}, {rotateY: frontRotate}]}]}>
           <SignImage code={card.code} size={200} accessibilityLabel="" />
           <View style={[styles.hint, {gap: spacing.xs}]}>
             <Icon name="repeat" size={16} color="textFaint" />
             <Text variant="caption" color="textFaint">
-              Tap to flip
+              {t.tapToFlip}
             </Text>
           </View>
         </Animated.View>
@@ -139,7 +190,7 @@ export function FlashcardsScreen({navigation, route}: RootScreenProps<'Flashcard
           <Text variant="body" color="textMuted" align="center" style={{marginTop: spacing.sm}}>
             {card.meaning}
           </Text>
-          <Button title="Hear it" variant="ghost" size="sm" icon="volume" onPress={() => speech.speak(`${card.name}. ${card.meaning}`)} style={{marginTop: spacing.md}} />
+          <Button title={t.hearIt} variant="ghost" size="sm" icon="volume" onPress={() => speech.speak(`${card.name}. ${card.meaning}`)} style={{marginTop: spacing.md}} />
         </Animated.View>
       </Pressable>
     </Screen>

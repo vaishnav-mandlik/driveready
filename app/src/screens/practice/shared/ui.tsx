@@ -7,9 +7,21 @@ import {Pressable, StyleProp, StyleSheet, Text as RNText, View, ViewStyle} from 
 import {Badge, Card, Chip, Icon, IconName, IconTile, Text} from '../../../components';
 import type {Tone} from '../../../components';
 import type {TextVariant} from '../../../theme/tokens';
+import {defineStrings, tr, useStrings} from '../../../i18n';
 import {haptic} from '../../../native';
 import {useTheme} from '../../../theme/ThemeProvider';
 import type {QuestionStatus} from './practiceData';
+
+const STR = defineStrings(
+  {
+    mastery: (seen: number, total: number, mastered: number) => `${seen} of ${total} practiced, ${mastered} mastered`,
+    status: {new: 'New', mistake: 'Mistake', learning: 'Learning', mastered: 'Mastered'} as Record<QuestionStatus, string>,
+  },
+  {
+    mastery: (seen: number, total: number, mastered: number) => `${seen} de ${total} practicadas, ${mastered} dominadas`,
+    status: {new: 'Nueva', mistake: 'Error', learning: 'Aprendiendo', mastered: 'Dominada'},
+  },
+);
 
 const clamp01 = (v: number) => (Number.isFinite(v) ? Math.max(0, Math.min(1, v)) : 0);
 
@@ -134,13 +146,14 @@ export function MasteryBar({
   style?: StyleProp<ViewStyle>;
 }) {
   const {colors} = useTheme();
+  const t = useStrings(STR);
   const seenPct = total ? clamp01(seen / total) : 0;
   const masteredPct = total ? clamp01(mastered / total) : 0;
   const r = height / 2;
   return (
     <View
       accessibilityRole="progressbar"
-      accessibilityLabel={`${seen} of ${total} practiced, ${mastered} mastered`}
+      accessibilityLabel={t.mastery(seen, total, mastered)}
       accessibilityValue={{min: 0, max: 100, now: Math.round(seenPct * 100)}}
       style={[styles.bar, {height, borderRadius: r, backgroundColor: colors.surfaceAlt}, style]}>
       {seenPct > 0 ? (
@@ -153,27 +166,34 @@ export function MasteryBar({
   );
 }
 
-const STATUS_META: Record<QuestionStatus, {label: string; icon: IconName; tone: Tone}> = {
-  new: {label: 'New', icon: 'sparkles', tone: 'neutral'},
-  mistake: {label: 'Mistake', icon: 'circle-x', tone: 'danger'},
-  learning: {label: 'Learning', icon: 'trending', tone: 'primary'},
-  mastered: {label: 'Mastered', icon: 'badge-check', tone: 'success'},
+const STATUS_META: Record<QuestionStatus, {icon: IconName; tone: Tone}> = {
+  new: {icon: 'sparkles', tone: 'neutral'},
+  mistake: {icon: 'circle-x', tone: 'danger'},
+  learning: {icon: 'trending', tone: 'primary'},
+  mastered: {icon: 'badge-check', tone: 'success'},
 };
 
+/** Localized status name ("New", "Mastered"...). */
 export function statusLabel(status: QuestionStatus): string {
-  return STATUS_META[status].label;
+  return tr(STR).status[status];
 }
 
 /** Icon + text learning status (never color alone). */
 export function StatusChip({status}: {status: QuestionStatus}) {
+  const t = useStrings(STR);
   const meta = STATUS_META[status];
-  return <Chip label={meta.label} icon={meta.icon} tone={meta.tone} />;
+  return <Chip label={t.status[status]} icon={meta.icon} tone={meta.tone} />;
 }
 
-/** Lowercase search terms exactly like `searchBank` splits them. */
+const ACCENTS: Record<string, string> = {á: 'a', é: 'e', í: 'i', ó: 'o', ú: 'u', ü: 'u', ñ: 'n'};
+/** Accent-insensitive pattern for each plain letter (so "que" also highlights "qué"). */
+const ACCENT_CLASS: Record<string, string> = {a: '[aá]', e: '[eé]', i: '[ií]', o: '[oó]', u: '[uúü]', n: '[nñ]'};
+
+/** Lowercase search terms exactly like `searchBank` splits them (Spanish accents folded). */
 export function searchTerms(query: string): string[] {
   return query
     .toLowerCase()
+    .replace(/[áéíóúüñ]/g, c => ACCENTS[c])
     .replace(/[^a-z0-9 ]+/g, ' ')
     .split(/\s+/)
     .filter(t => t.length > 1);
@@ -186,7 +206,9 @@ export function splitHighlights(text: string, terms: string[]): {text: string; m
   if (!terms.length) {
     return [{text, match: false}];
   }
-  const sorted = [...terms].sort((a, b) => b.length - a.length).map(escapeRegExp);
+  const sorted = [...terms]
+    .sort((a, b) => b.length - a.length)
+    .map(t => escapeRegExp(t).replace(/[aeioun]/g, c => ACCENT_CLASS[c]));
   const re = new RegExp(`(${sorted.join('|')})`, 'gi');
   return text
     .split(re)

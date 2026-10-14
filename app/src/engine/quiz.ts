@@ -1,6 +1,7 @@
 import type {Bank} from '../data/bank';
 import {resolveIds} from '../data/bank';
 import type {ExamConfig, Question, StateCode, TopicId, TrackId} from '../data/types';
+import {defineStrings, tr} from '../i18n';
 import type {MarathonState} from '../store/progress';
 import {dayKey} from './dates';
 import {createRng, hashString, Rng, sample, shuffle} from './random';
@@ -111,6 +112,29 @@ export const MODE_TITLES: Record<QuizMode, string> = {
   state: 'State Laws',
   custom: 'Practice',
 };
+
+const MODE_TITLES_ES: Record<QuizMode, string> = {
+  practice: 'Examen de práctica',
+  exam: 'Simulador de examen',
+  marathon: 'Maratón',
+  mistakes: 'Repaso de errores',
+  bookmarks: 'Preguntas guardadas',
+  due: 'Repaso inteligente',
+  hardest: 'Preguntas más difíciles',
+  signs: 'Prueba de señales de tránsito',
+  daily: 'Reto diario',
+  survival: 'Supervivencia',
+  speed: 'Ronda rápida',
+  state: 'Leyes estatales',
+  custom: 'Práctica',
+};
+
+const TITLES = defineStrings<Record<QuizMode, string>>(MODE_TITLES, MODE_TITLES_ES);
+
+/** Localized title of a quiz mode (MODE_TITLES stays English). */
+export function modeTitle(mode: QuizMode): string {
+  return tr(TITLES)[mode];
+}
 
 export function marathonKey(track: TrackId, state: StateCode, topic?: TopicId): string {
   return `${track}:${state}:${topic ?? 'all'}`;
@@ -294,7 +318,7 @@ export function buildSession(spec: QuizSpec, ctx: BuildContext): QuizSession {
     spec,
     track: bank.track,
     state: bank.state,
-    title: spec.title ?? exam?.title ?? MODE_TITLES[spec.mode],
+    title: spec.title ?? exam?.title ?? modeTitle(spec.mode),
     questionIds: questions.map(q => q.id),
     orders,
     answers: questions.map(() => null),

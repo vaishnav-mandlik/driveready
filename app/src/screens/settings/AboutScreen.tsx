@@ -2,23 +2,61 @@ import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import {Card, Icon, IconName, Screen, SectionHeader, Text} from '../../components';
 import {APP_VERSION, disclaimer} from '../../config';
+import {defineStrings, useStrings} from '../../i18n';
 import type {RootScreenProps} from '../../navigation/types';
 import {useTheme} from '../../theme/ThemeProvider';
 import {BrandMark} from '../onboarding/WelcomeScreen';
 
-const INCLUDED: {icon: IconName; text: string}[] = [
-  {icon: 'clipboard-check', text: 'Exam simulator in your state’s real format'},
-  {icon: 'infinity', text: 'Every question — practice, marathon, survival and speed rounds'},
-  {icon: 'brain', text: 'Mistakes review with spaced repetition'},
-  {icon: 'signpost', text: 'Road-sign library and flashcards'},
-  {icon: 'file', text: 'Verified state cheat sheets with official sources'},
-  {icon: 'sparkles', text: 'Pass-chance meter, study plan and achievements'},
-  {icon: 'car-front', text: 'Supervised driving log'},
-  {icon: 'volume', text: 'Read-aloud, large text and dark mode'},
-];
+const ICONS: IconName[] = ['clipboard-check', 'infinity', 'brain', 'signpost', 'file', 'sparkles', 'car-front', 'volume'];
+
+const STR = defineStrings(
+  {
+    included: [
+      'Exam simulator in your state’s real format',
+      'Every question — practice, marathon, survival and speed rounds',
+      'Mistakes review with spaced repetition',
+      'Road-sign library and flashcards',
+      'Verified state cheat sheets with official sources',
+      'Pass-chance meter, study plan and achievements',
+      'Supervised driving log',
+      'Read-aloud, large text and dark mode',
+    ],
+    version: (v: string) => `Version ${v}`,
+    freeTitle: 'Every feature free. Forever.',
+    freeBody:
+      'Other test-prep apps lock their best questions and tools behind subscriptions. DriveReady gives every learner everything — no ads, no account, no paywall, and it works offline.',
+    whatsIncluded: "What's included",
+    disclaimer: 'Disclaimer',
+    credits: 'Credits',
+    creditsBody:
+      'Road-sign artwork is public-domain artwork of signs from the Manual on Uniform Traffic Control Devices (MUTCD, U.S. Federal Highway Administration), via Wikimedia Commons. Rules and numbers are drawn from each state’s official driver handbook; motorcycle content follows the Motorcycle Safety Foundation’s Motorcycle Operator Manual; CDL content follows the AAMVA model CDL manual and FMCSA rules. Built with React Native and open-source libraries under their respective licenses.',
+  },
+  {
+    included: [
+      'Simulador de examen con el formato real de tu estado',
+      'Todas las preguntas: práctica, maratón, supervivencia y rondas rápidas',
+      'Repaso de errores con repetición espaciada',
+      'Biblioteca de señales de tránsito y tarjetas de estudio',
+      'Hojas de repaso verificadas de tu estado con fuentes oficiales',
+      'Probabilidad de aprobar, plan de estudio y logros',
+      'Registro de manejo supervisado',
+      'Lectura en voz alta, texto grande y modo oscuro',
+    ],
+    version: (v: string) => `Versión ${v}`,
+    freeTitle: 'Todas las funciones gratis. Siempre.',
+    freeBody:
+      'Otras apps de preparación bloquean sus mejores preguntas y herramientas tras una suscripción. DriveReady le da todo a cada estudiante: sin anuncios, sin cuenta, sin pagos, y funciona sin conexión.',
+    whatsIncluded: 'Qué incluye',
+    disclaimer: 'Aviso legal',
+    credits: 'Créditos',
+    creditsBody:
+      'Las imágenes de las señales de tránsito son de dominio público y provienen del Manual on Uniform Traffic Control Devices (MUTCD, U.S. Federal Highway Administration), a través de Wikimedia Commons. Las reglas y cifras provienen del manual oficial del conductor de cada estado; el contenido de motocicleta sigue el Motorcycle Operator Manual de la Motorcycle Safety Foundation; el contenido de CDL sigue el manual modelo de CDL de AAMVA y las normas de la FMCSA. La app está hecha con React Native y bibliotecas de código abierto, bajo sus respectivas licencias.',
+  },
+);
 
 export function AboutScreen(_props: RootScreenProps<'About'>) {
   const {colors, spacing} = useTheme();
+  const t = useStrings(STR);
   return (
     <Screen>
       <View style={styles.center}>
@@ -27,34 +65,34 @@ export function AboutScreen(_props: RootScreenProps<'About'>) {
           DriveReady
         </Text>
         <Text variant="caption" color="textMuted">
-          Version {APP_VERSION}
+          {t.version(APP_VERSION)}
         </Text>
       </View>
       <Card variant="tinted" tint={colors.primarySoft} style={{marginTop: spacing.xl}}>
-        <Text variant="heading">Every feature free. Forever.</Text>
+        <Text variant="heading">{t.freeTitle}</Text>
         <Text variant="body" color="textMuted" style={{marginTop: spacing.sm}}>
-          Other test-prep apps lock their best questions and tools behind subscriptions. DriveReady gives every learner everything — no ads, no account, no paywall, and it works offline.
+          {t.freeBody}
         </Text>
       </Card>
-      <SectionHeader title="What's included" />
+      <SectionHeader title={t.whatsIncluded} />
       <Card style={{gap: spacing.md}}>
-        {INCLUDED.map(i => (
-          <View key={i.text} style={[styles.row, {gap: spacing.md}]}>
-            <Icon name={i.icon} size={20} color={colors.primary} />
+        {t.included.map((text, i) => (
+          <View key={text} style={[styles.row, {gap: spacing.md}]}>
+            <Icon name={ICONS[i]} size={20} color={colors.primary} />
             <Text variant="body" style={styles.flex}>
-              {i.text}
+              {text}
             </Text>
           </View>
         ))}
       </Card>
-      <SectionHeader title="Disclaimer" />
+      <SectionHeader title={t.disclaimer} />
       <Card>
         <Text variant="body">{disclaimer()}</Text>
       </Card>
-      <SectionHeader title="Credits" />
+      <SectionHeader title={t.credits} />
       <Card>
         <Text variant="caption" color="textMuted">
-          Road-sign artwork is public-domain artwork of signs from the Manual on Uniform Traffic Control Devices (MUTCD, U.S. Federal Highway Administration), via Wikimedia Commons. Rules and numbers are drawn from each state{'’'}s official driver handbook; motorcycle content follows the Motorcycle Safety Foundation{'’'}s Motorcycle Operator Manual; CDL content follows the AAMVA model CDL manual and FMCSA rules. Built with React Native and open-source libraries under their respective licenses.
+          {t.creditsBody}
         </Text>
       </Card>
     </Screen>

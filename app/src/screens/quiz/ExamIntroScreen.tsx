@@ -5,23 +5,93 @@ import {getTopic} from '../../data/tracks';
 import type {ExamConfig} from '../../data/types';
 import {formatDuration} from '../../engine/dates';
 import {useLearner, useReadiness} from '../../hooks/useLearner';
+import {defineStrings, formatDate, tr, useStrings} from '../../i18n';
 import type {RootScreenProps} from '../../navigation/types';
 import {useProgress} from '../../store/progress';
 import {useSettings} from '../../store/settings';
 import {useTheme} from '../../theme/ThemeProvider';
 
-export function openOfficial(url: string, label = 'the official website') {
+const STR = defineStrings(
+  {
+    openTitle: 'Open in your browser?',
+    opens: (label: string) => `This opens ${label}.`,
+    officialSite: 'the official website',
+    cancel: 'Cancel',
+    open: 'Open',
+    openFailed: 'Could not open the link',
+    startExam: 'Start exam',
+    noQuestions: 'No questions yet',
+    chooseTest: 'Choose a test',
+    sameFormat: 'Same format as the real test — answers revealed at the end',
+    questions: 'questions',
+    toPass: 'to pass',
+    passingScore: 'passing score',
+    minutesShort: (n: number) => `${n}m`,
+    timeLimit: 'time limit',
+    signsLine: (signs: number, signsNeed: number | null, rulesNeed: number | null | undefined, rulesTotal: number) =>
+      `${signs} road-sign questions${signsNeed !== null ? ` — you must get ${signsNeed} right` : ''}${rulesNeed != null ? `, and ${rulesNeed} of ${rulesTotal} on the rules part` : ''}.`,
+    officialInfo: 'Official test information',
+    officialInfoPage: 'the official test information page',
+    passChance: 'Your estimated pass chance: ',
+    examSettings: 'Exam settings',
+    showTimer: 'Show timer',
+    countsDown: (n: number) => `Counts down from ${n} minutes like the real test`,
+    noTimeLimit: 'This test has no official time limit',
+    endWhenDecided: 'End when result is decided',
+    endWhenDecidedSub: 'Many DMV computers stop as soon as you have passed or failed',
+    recentAttempts: 'Recent attempts',
+    history: 'History',
+    passed: 'Passed',
+    failed: 'Failed',
+  },
+  {
+    openTitle: '¿Abrir en tu navegador?',
+    opens: (label: string) => `Se abrirá ${label}.`,
+    officialSite: 'el sitio web oficial',
+    cancel: 'Cancelar',
+    open: 'Abrir',
+    openFailed: 'No se pudo abrir el enlace',
+    startExam: 'Comenzar examen',
+    noQuestions: 'Aún no hay preguntas',
+    chooseTest: 'Elige un examen',
+    sameFormat: 'Mismo formato que el examen real; las respuestas se muestran al final',
+    questions: 'preguntas',
+    toPass: 'para aprobar',
+    passingScore: 'calificación mínima',
+    minutesShort: (n: number) => `${n} min`,
+    timeLimit: 'tiempo límite',
+    signsLine: (signs: number, signsNeed: number | null, rulesNeed: number | null | undefined, rulesTotal: number) =>
+      `${signs} preguntas de señales de tránsito${signsNeed !== null ? `: debes acertar ${signsNeed}` : ''}${rulesNeed != null ? `, y ${rulesNeed} de ${rulesTotal} en la parte de reglas` : ''}.`,
+    officialInfo: 'Información oficial del examen',
+    officialInfoPage: 'la página oficial de información del examen',
+    passChance: 'Tu probabilidad estimada de aprobar: ',
+    examSettings: 'Ajustes del examen',
+    showTimer: 'Mostrar cronómetro',
+    countsDown: (n: number) => `Cuenta regresiva de ${n} minutos, como en el examen real`,
+    noTimeLimit: 'Este examen no tiene tiempo límite oficial',
+    endWhenDecided: 'Terminar al decidirse el resultado',
+    endWhenDecidedSub: 'Muchas computadoras del DMV se detienen en cuanto apruebas o repruebas',
+    recentAttempts: 'Intentos recientes',
+    history: 'Historial',
+    passed: 'Aprobado',
+    failed: 'Reprobado',
+  },
+);
+
+export function openOfficial(url: string, label?: string) {
   if (!url) {
     return;
   }
-  Alert.alert('Open in your browser?', `This opens ${label}.`, [
-    {text: 'Cancel', style: 'cancel'},
-    {text: 'Open', onPress: () => Linking.openURL(url).catch(() => Alert.alert('Could not open the link', url))},
+  const t = tr(STR);
+  Alert.alert(t.openTitle, t.opens(label ?? t.officialSite), [
+    {text: t.cancel, style: 'cancel'},
+    {text: t.open, onPress: () => Linking.openURL(url).catch(() => Alert.alert(t.openFailed, url))},
   ]);
 }
 
 export function ExamIntroScreen({navigation, route}: RootScreenProps<'ExamIntro'>) {
   const {colors, spacing} = useTheme();
+  const t = useStrings(STR);
   const learner = useLearner();
   const examTimer = useSettings(s => s.examTimer);
   const realisticExam = useSettings(s => s.realisticExam);
@@ -37,7 +107,7 @@ export function ExamIntroScreen({navigation, route}: RootScreenProps<'ExamIntro'
     <Screen
       footer={
         <Button
-          title={pool ? 'Start exam' : 'No questions yet'}
+          title={pool ? t.startExam : t.noQuestions}
           icon="play"
           size="lg"
           disabled={!pool}
@@ -49,7 +119,7 @@ export function ExamIntroScreen({navigation, route}: RootScreenProps<'ExamIntro'
       {learner.exams.length > 1 ? (
         <>
           <Text variant="label" color="textMuted">
-            Choose a test
+            {t.chooseTest}
           </Text>
           <View style={[styles.wrap, {gap: spacing.sm, marginTop: spacing.sm, marginBottom: spacing.lg}]}>
             {learner.exams.map(e => (
@@ -67,23 +137,21 @@ export function ExamIntroScreen({navigation, route}: RootScreenProps<'ExamIntro'
               {exam.title}
             </Text>
             <Text variant="caption" color="textMuted">
-              Same format as the real test — answers revealed at the end
+              {t.sameFormat}
             </Text>
           </View>
         </View>
         <View style={[styles.row, {marginTop: spacing.xl}]}>
-          <Big value={String(exam.questions)} label="questions" />
-          <Big value={String(exam.passingScore)} label="to pass" />
-          <Big value={`${Math.round((exam.passingScore / Math.max(1, exam.questions)) * 100)}%`} label="passing score" />
-          {exam.timeLimitMinutes ? <Big value={`${exam.timeLimitMinutes}m`} label="time limit" /> : null}
+          <Big value={String(exam.questions)} label={t.questions} />
+          <Big value={String(exam.passingScore)} label={t.toPass} />
+          <Big value={`${Math.round((exam.passingScore / Math.max(1, exam.questions)) * 100)}%`} label={t.passingScore} />
+          {exam.timeLimitMinutes ? <Big value={t.minutesShort(exam.timeLimitMinutes)} label={t.timeLimit} /> : null}
         </View>
         {exam.signs ? (
           <View style={[styles.row, {gap: spacing.sm, marginTop: spacing.lg}]}>
             <Icon name="signpost" size={18} color={colors.warning} />
             <Text variant="bodyStrong" style={styles.flex}>
-              {exam.signs.questions} road-sign questions
-              {exam.signs.passingScore !== null ? ` — you must get ${exam.signs.passingScore} right` : ''}
-              {exam.rulesPassingScore != null ? `, and ${exam.rulesPassingScore} of ${exam.questions - exam.signs.questions} on the rules part` : ''}.
+              {t.signsLine(exam.signs.questions, exam.signs.passingScore, exam.rulesPassingScore, exam.questions - exam.signs.questions)}
             </Text>
           </View>
         ) : null}
@@ -93,22 +161,23 @@ export function ExamIntroScreen({navigation, route}: RootScreenProps<'ExamIntro'
           </Text>
         ) : null}
         {exam.sourceUrl ? (
-          <Button title="Official test information" variant="ghost" size="sm" icon="external" onPress={() => openOfficial(exam.sourceUrl ?? '', 'the official test information page')} style={styles.left} />
+          <Button title={t.officialInfo} variant="ghost" size="sm" icon="external" onPress={() => openOfficial(exam.sourceUrl ?? '', t.officialInfoPage)} style={styles.left} />
         ) : null}
       </Card>
 
       <Card variant="tinted" tint={colors.primarySoft} style={[styles.row, {gap: spacing.md, marginTop: spacing.md}]}>
         <Icon name="sparkles" color={colors.primary} />
         <Text variant="body" style={styles.flex}>
-          Your estimated pass chance: <Text variant="bodyStrong">{Math.round(readiness.passProbability * 100)}%</Text>
+          {t.passChance}
+          <Text variant="bodyStrong">{Math.round(readiness.passProbability * 100)}%</Text>
         </Text>
       </Card>
 
-      <SectionHeader title="Exam settings" />
+      <SectionHeader title={t.examSettings} />
       <Card padded={false} style={{paddingHorizontal: spacing.lg}}>
         <ToggleRow
-          title="Show timer"
-          subtitle={exam.timeLimitMinutes ? `Counts down from ${exam.timeLimitMinutes} minutes like the real test` : 'This test has no official time limit'}
+          title={t.showTimer}
+          subtitle={exam.timeLimitMinutes ? t.countsDown(exam.timeLimitMinutes) : t.noTimeLimit}
           icon="timer"
           value={examTimer && !!exam.timeLimitMinutes}
           disabled={!exam.timeLimitMinutes}
@@ -116,8 +185,8 @@ export function ExamIntroScreen({navigation, route}: RootScreenProps<'ExamIntro'
         />
         <Divider />
         <ToggleRow
-          title="End when result is decided"
-          subtitle="Many DMV computers stop as soon as you have passed or failed"
+          title={t.endWhenDecided}
+          subtitle={t.endWhenDecidedSub}
           icon="flag"
           value={realisticExam}
           onValueChange={v => update({realisticExam: v})}
@@ -126,17 +195,17 @@ export function ExamIntroScreen({navigation, route}: RootScreenProps<'ExamIntro'
 
       {attempts.length ? (
         <>
-          <SectionHeader title="Recent attempts" actionLabel="History" onAction={() => navigation.navigate('ExamHistory')} />
+          <SectionHeader title={t.recentAttempts} actionLabel={t.history} onAction={() => navigation.navigate('ExamHistory')} />
           <Card padded={false} style={{paddingHorizontal: spacing.lg}}>
             {attempts.map((a, i) => (
               <React.Fragment key={a.id}>
                 {i ? <Divider /> : null}
                 <ListRow
                   title={`${a.correct}/${a.total} · ${Math.round((a.correct / Math.max(1, a.total)) * 100)}%`}
-                  subtitle={`${new Date(a.at).toLocaleDateString()} · ${formatDuration(a.durationSec)}`}
+                  subtitle={`${formatDate(a.at)} · ${formatDuration(a.durationSec)}`}
                   icon={a.passed ? 'badge-check' : 'circle-x'}
                   iconColor={a.passed ? colors.success : colors.danger}
-                  value={a.passed ? 'Passed' : 'Failed'}
+                  value={a.passed ? t.passed : t.failed}
                 />
               </React.Fragment>
             ))}

@@ -1,4 +1,5 @@
 import type {DayStat, ExamRecord} from '../store/progress';
+import {defineStrings, tr} from '../i18n';
 import {currentStreak, dayKey, lastNDays, longestStreak} from './dates';
 
 export interface Totals {
@@ -63,15 +64,19 @@ export interface DayPoint {
   seconds: number;
 }
 
-const WEEKDAYS = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'];
+const WEEKDAYS = defineStrings(
+  {days: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']},
+  {days: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sá']},
+);
 
 export function activitySeries(days: Record<string, DayStat>, n = 14, now: number = Date.now()): DayPoint[] {
+  const weekdays = tr(WEEKDAYS).days;
   return lastNDays(n, now).map(key => {
     const d = days[key];
     const [y, m, dd] = key.split('-').map(Number);
     return {
       key,
-      label: WEEKDAYS[new Date(y, m - 1, dd).getDay()],
+      label: weekdays[new Date(y, m - 1, dd).getDay()],
       answered: d?.q ?? 0,
       correct: d?.c ?? 0,
       seconds: d?.sec ?? 0,

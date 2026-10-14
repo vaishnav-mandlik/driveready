@@ -4,16 +4,65 @@ import {Button, Card, Divider, EmptyState, IconTile, ListRow, Screen, SectionHea
 import {getLessonsForTopic} from '../../data/lessons';
 import {getTopic} from '../../data/tracks';
 import {useLearner} from '../../hooks/useLearner';
+import {defineStrings, useStrings} from '../../i18n';
 import type {RootScreenProps} from '../../navigation/types';
 import {useProgress} from '../../store/progress';
 import {hueAt, useTheme} from '../../theme/ThemeProvider';
-import {percent, plural} from './shared/format';
+import {formatCount, percent} from './shared/format';
 import {useModeCounts, useNow, useTopicProgress} from './shared/hooks';
 import {marathonFor, questionStatus, sortByStatus} from './shared/practiceData';
 import {MasteryBar, StatusChip} from './shared/ui';
 
+const STR = defineStrings(
+  {
+    notFound: 'Topic not found',
+    notFoundMsg: 'Try another topic.',
+    goBack: 'Go back',
+    questions: (n: number) => (n === 1 ? '1 question' : `${formatCount(n)} questions`),
+    practiced: 'Practiced',
+    accuracy: 'Accuracy',
+    mastered: 'Mastered',
+    practice: 'Practice',
+    practiceN: (n: number) => `Practice ${n} questions`,
+    twenty: '20 questions',
+    all: (n: number) => `All ${n}`,
+    resumeMarathon: (index: number, total: number) => `Resume marathon (${index}/${total})`,
+    marathon: 'Marathon this topic',
+    fixMistakes: (n: number) => `Fix ${n} mistake${n === 1 ? '' : 's'}`,
+    topicExam: (title: string, n: number) => `${title} exam (${n} Q)`,
+    comingSoon: 'Questions coming soon',
+    comingSoonMsg: 'This topic\'s questions for your state are being prepared.',
+    studyFirst: 'Study first',
+    minRead: (n: number) => `${n} min read`,
+    questionsHeader: 'Questions',
+  },
+  {
+    notFound: 'Tema no encontrado',
+    notFoundMsg: 'Prueba con otro tema.',
+    goBack: 'Regresar',
+    questions: (n: number) => (n === 1 ? '1 pregunta' : `${formatCount(n)} preguntas`),
+    practiced: 'Practicadas',
+    accuracy: 'Aciertos',
+    mastered: 'Dominadas',
+    practice: 'Práctica',
+    practiceN: (n: number) => (n === 1 ? 'Practicar 1 pregunta' : `Practicar ${n} preguntas`),
+    twenty: '20 preguntas',
+    all: (n: number) => `Todas (${n})`,
+    resumeMarathon: (index: number, total: number) => `Continuar maratón (${index}/${total})`,
+    marathon: 'Maratón de este tema',
+    fixMistakes: (n: number) => (n === 1 ? 'Corregir 1 error' : `Corregir ${n} errores`),
+    topicExam: (title: string, n: number) => `Examen ${title} (${n} preg.)`,
+    comingSoon: 'Preguntas próximamente',
+    comingSoonMsg: 'Estamos preparando las preguntas de este tema para tu estado.',
+    studyFirst: 'Estudia primero',
+    minRead: (n: number) => `${n} min de lectura`,
+    questionsHeader: 'Preguntas',
+  },
+);
+
 export function TopicScreen({navigation, route}: RootScreenProps<'Topic'>) {
   const {colors, spacing} = useTheme();
+  const t = useStrings(STR);
   const {topic: topicId} = route.params;
   const meta = getTopic(topicId);
   const {bank, exams, track, state} = useLearner();
@@ -36,7 +85,7 @@ export function TopicScreen({navigation, route}: RootScreenProps<'Topic'>) {
   if (!meta) {
     return (
       <Screen>
-        <EmptyState icon="alert" title="Topic not found" message="Try another topic." actionLabel="Go back" onAction={() => navigation.goBack()} />
+        <EmptyState icon="alert" title={t.notFound} message={t.notFoundMsg} actionLabel={t.goBack} onAction={() => navigation.goBack()} />
       </Screen>
     );
   }
@@ -54,7 +103,7 @@ export function TopicScreen({navigation, route}: RootScreenProps<'Topic'>) {
               {meta.title}
             </Text>
             <Text variant="caption" color="textMuted">
-              {plural(total, 'question')}
+              {t.questions(total)}
             </Text>
           </View>
         </View>
@@ -67,45 +116,45 @@ export function TopicScreen({navigation, route}: RootScreenProps<'Topic'>) {
       {total ? (
         <>
           <View style={[styles.row, {gap: spacing.md, marginTop: spacing.md}]}>
-            <StatTile label="Practiced" value={`${progress?.seen ?? 0}/${total}`} icon="eye" tone="primary" />
-            <StatTile label="Accuracy" value={percent(progress?.accuracy)} icon="target" tone="success" />
-            <StatTile label="Mastered" value={String(progress?.mastered ?? 0)} icon="badge-check" tone="gold" />
+            <StatTile label={t.practiced} value={`${progress?.seen ?? 0}/${total}`} icon="eye" tone="primary" />
+            <StatTile label={t.accuracy} value={percent(progress?.accuracy)} icon="target" tone="success" />
+            <StatTile label={t.mastered} value={String(progress?.mastered ?? 0)} icon="badge-check" tone="gold" />
           </View>
 
-          <SectionHeader title="Practice" />
+          <SectionHeader title={t.practice} />
           <View style={{gap: spacing.md}}>
-            <Button title={`Practice ${Math.min(10, total)} questions`} icon="play" onPress={() => start(10)} fullWidth testID="topic-practice-10" />
+            <Button title={t.practiceN(Math.min(10, total))} icon="play" onPress={() => start(10)} fullWidth testID="topic-practice-10" />
             <View style={[styles.row, {gap: spacing.md}]}>
-              {total > 10 ? <Button title="20 questions" variant="secondary" onPress={() => start(20)} style={styles.flex} /> : null}
-              <Button title={`All ${total}`} variant="secondary" onPress={() => start(total)} style={styles.flex} />
+              {total > 10 ? <Button title={t.twenty} variant="secondary" onPress={() => start(20)} style={styles.flex} /> : null}
+              <Button title={t.all(total)} variant="secondary" onPress={() => start(total)} style={styles.flex} />
             </View>
             <Button
-              title={marathon ? `Resume marathon (${marathon.index}/${marathon.ids.length})` : 'Marathon this topic'}
+              title={marathon ? t.resumeMarathon(marathon.index, marathon.ids.length) : t.marathon}
               variant="outline"
               icon="infinity"
               onPress={() => navigation.navigate('Quiz', {spec: {mode: 'marathon', topic: topicId}})}
               fullWidth
             />
             {counts.mistakes ? (
-              <Button title={`Fix ${counts.mistakes} mistake${counts.mistakes === 1 ? '' : 's'}`} variant="outline" icon="circle-x" onPress={() => navigation.navigate('Quiz', {spec: {mode: 'mistakes', topic: topicId}})} fullWidth />
+              <Button title={t.fixMistakes(counts.mistakes)} variant="outline" icon="circle-x" onPress={() => navigation.navigate('Quiz', {spec: {mode: 'mistakes', topic: topicId}})} fullWidth />
             ) : null}
             {topicExam ? (
-              <Button title={`${topicExam.title} exam (${topicExam.questions} Q)`} variant="outline" icon="clipboard-check" onPress={() => navigation.navigate('ExamIntro', {examId: topicExam.id})} fullWidth />
+              <Button title={t.topicExam(topicExam.title, topicExam.questions)} variant="outline" icon="clipboard-check" onPress={() => navigation.navigate('ExamIntro', {examId: topicExam.id})} fullWidth />
             ) : null}
           </View>
         </>
       ) : (
-        <EmptyState icon="clipboard" title="Questions coming soon" message="This topic's questions for your state are being prepared." />
+        <EmptyState icon="clipboard" title={t.comingSoon} message={t.comingSoonMsg} />
       )}
 
       {lessons.length ? (
         <>
-          <SectionHeader title="Study first" />
+          <SectionHeader title={t.studyFirst} />
           <Card padded={false} style={{paddingHorizontal: spacing.lg}}>
             {lessons.map((l, i) => (
               <React.Fragment key={l.id}>
                 {i ? <Divider /> : null}
-                <ListRow title={l.title} subtitle={`${l.minutes} min read`} icon="book" iconColor={color} onPress={() => navigation.navigate('Lesson', {lessonId: l.id})} />
+                <ListRow title={l.title} subtitle={t.minRead(l.minutes)} icon="book" iconColor={color} onPress={() => navigation.navigate('Lesson', {lessonId: l.id})} />
               </React.Fragment>
             ))}
           </Card>
@@ -114,7 +163,7 @@ export function TopicScreen({navigation, route}: RootScreenProps<'Topic'>) {
 
       {preview.length ? (
         <>
-          <SectionHeader title="Questions" />
+          <SectionHeader title={t.questionsHeader} />
           <Card padded={false} style={{paddingHorizontal: spacing.lg}}>
             {preview.map((q, i) => (
               <React.Fragment key={q.id}>

@@ -6,11 +6,47 @@ import {QuestionCard} from '../../components/quiz/QuestionCard';
 import {getBank} from '../../data/bank';
 import {topicTitle} from '../../data/tracks';
 import type {Question} from '../../data/types';
+import {defineStrings, useStrings} from '../../i18n';
 import type {RootScreenProps} from '../../navigation/types';
 import {getSession} from '../../store/session';
 import {useTheme} from '../../theme/ThemeProvider';
 
 type Filter = 'all' | 'wrong' | 'correct' | 'skipped';
+
+const STR = defineStrings(
+  {
+    nothingToReview: 'Nothing to review',
+    unavailable: 'This session is no longer available.',
+    goBack: 'Go back',
+    all: (n: number) => `All ${n}`,
+    wrongN: (n: number) => `Wrong ${n}`,
+    correctN: (n: number) => `Correct ${n}`,
+    skippedN: (n: number) => `Skipped ${n}`,
+    nothingHere: 'Nothing here',
+    noWrong: 'No wrong answers — great job!',
+    noMatch: 'No questions match this filter.',
+    qNumber: (n: number) => `Q${n}`,
+    correct: 'Correct',
+    wrong: 'Wrong',
+    skipped: 'Skipped',
+  },
+  {
+    nothingToReview: 'Nada que revisar',
+    unavailable: 'Esta sesión ya no está disponible.',
+    goBack: 'Regresar',
+    all: (n: number) => `Todas ${n}`,
+    wrongN: (n: number) => `Incorrectas ${n}`,
+    correctN: (n: number) => `Correctas ${n}`,
+    skippedN: (n: number) => `Omitidas ${n}`,
+    nothingHere: 'No hay nada aquí',
+    noWrong: 'Ninguna respuesta incorrecta. ¡Buen trabajo!',
+    noMatch: 'Ninguna pregunta coincide con este filtro.',
+    qNumber: (n: number) => `P${n}`,
+    correct: 'Correcta',
+    wrong: 'Incorrecta',
+    skipped: 'Omitida',
+  },
+);
 
 interface Row {
   index: number;
@@ -22,6 +58,7 @@ interface Row {
 
 export function ReviewScreen({navigation, route}: RootScreenProps<'Review'>) {
   const {spacing} = useTheme();
+  const t = useStrings(STR);
   const session = getSession(route.params.sessionId);
   const [filter, setFilter] = useState<Filter>(route.params.filter ?? 'all');
 
@@ -62,16 +99,16 @@ export function ReviewScreen({navigation, route}: RootScreenProps<'Review'>) {
   if (!session) {
     return (
       <Screen>
-        <EmptyState icon="clipboard" title="Nothing to review" message="This session is no longer available." actionLabel="Go back" onAction={() => navigation.goBack()} />
+        <EmptyState icon="clipboard" title={t.nothingToReview} message={t.unavailable} actionLabel={t.goBack} onAction={() => navigation.goBack()} />
       </Screen>
     );
   }
 
   const filters: {key: Filter; label: string}[] = [
-    {key: 'all', label: `All ${counts.all}`},
-    {key: 'wrong', label: `Wrong ${counts.wrong}`},
-    {key: 'correct', label: `Correct ${counts.correct}`},
-    ...(counts.skipped ? [{key: 'skipped' as Filter, label: `Skipped ${counts.skipped}`}] : []),
+    {key: 'all', label: t.all(counts.all)},
+    {key: 'wrong', label: t.wrongN(counts.wrong)},
+    {key: 'correct', label: t.correctN(counts.correct)},
+    ...(counts.skipped ? [{key: 'skipped' as Filter, label: t.skippedN(counts.skipped)}] : []),
   ];
 
   return (
@@ -90,7 +127,7 @@ export function ReviewScreen({navigation, route}: RootScreenProps<'Review'>) {
           </View>
         }
         ListEmptyComponent={
-          <EmptyState icon="circle-check" title="Nothing here" message={filter === 'wrong' ? 'No wrong answers — great job!' : 'No questions match this filter.'} />
+          <EmptyState icon="circle-check" title={t.nothingHere} message={filter === 'wrong' ? t.noWrong : t.noMatch} />
         }
         renderItem={({item}) => (
           <QuestionCard
@@ -103,10 +140,10 @@ export function ReviewScreen({navigation, route}: RootScreenProps<'Review'>) {
             eyebrow={
               <>
                 <Text variant="captionStrong" color="textMuted">
-                  Q{item.index + 1}
+                  {t.qNumber(item.index + 1)}
                 </Text>
                 <Chip
-                  label={item.verdict === 'correct' ? 'Correct' : item.verdict === 'wrong' ? 'Wrong' : 'Skipped'}
+                  label={item.verdict === 'correct' ? t.correct : item.verdict === 'wrong' ? t.wrong : t.skipped}
                   icon={item.verdict === 'correct' ? 'circle-check' : item.verdict === 'wrong' ? 'circle-x' : 'minus'}
                   tone={item.verdict === 'correct' ? 'success' : item.verdict === 'wrong' ? 'danger' : 'neutral'}
                 />

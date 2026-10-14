@@ -3,6 +3,7 @@ import {StyleSheet, View} from 'react-native';
 import {Button, Card, Chip, Icon, ProgressBar, Screen, SectionHeader, Text} from '../../components';
 import type {TopicMeta} from '../../data/tracks';
 import {addDays, dayKey, daysUntil, parseDayKey} from '../../engine/dates';
+import {defineStrings, tr, useStrings} from '../../i18n';
 import {useLearner} from '../../hooks/useLearner';
 import type {RootScreenProps} from '../../navigation/types';
 import {useProgress} from '../../store/progress';
@@ -11,6 +12,45 @@ import {useTheme} from '../../theme/ThemeProvider';
 import {relativeDayLabel} from '../practice/shared/format';
 import {useNow, useTopicProgress} from '../practice/shared/hooks';
 import type {TopicProgress} from '../practice/shared/practiceData';
+
+const STR = defineStrings(
+  {
+    finalTasks: ['Take 2 full exam simulations', 'Clear your remaining mistakes', 'Skim your State Cheat Sheet'],
+    answer: (n: number) => `Answer ${n} questions`,
+    focus: (topics: string) => `Focus: ${topics}`,
+    oneExam: 'Take one exam simulation',
+    review: 'Review your mistakes',
+    daysToTest: (n: number) => `${n} day${n === 1 ? '' : 's'} to your test`,
+    twoWeekPlan: 'Your 2-week plan',
+    datedIntro: 'A day-by-day plan that covers every question before test day, weakest topics first.',
+    undatedIntro: 'No test date set — here is a two-week plan. Set a date for a personalized countdown.',
+    setDate: 'Set test date',
+    plan: 'Plan',
+    finalReview: 'Final review',
+    done: 'Done',
+    todayProgress: "Today's progress",
+    practiceTopic: (topic: string) => `Practice ${topic}`,
+    startPracticing: 'Start practicing',
+  },
+  {
+    finalTasks: ['Haz 2 simulaciones de examen completas', 'Corrige los errores que te quedan', 'Échale un vistazo a la hoja de repaso de tu estado'],
+    answer: (n: number) => (n === 1 ? 'Responde 1 pregunta' : `Responde ${n} preguntas`),
+    focus: (topics: string) => `Enfoque: ${topics}`,
+    oneExam: 'Haz una simulación de examen',
+    review: 'Repasa tus errores',
+    daysToTest: (n: number) => (n === 1 ? 'Falta 1 día para tu examen' : `Faltan ${n} días para tu examen`),
+    twoWeekPlan: 'Tu plan de 2 semanas',
+    datedIntro: 'Un plan día por día que cubre todas las preguntas antes del examen, empezando por tus temas más débiles.',
+    undatedIntro: 'Aún no tienes fecha de examen: aquí tienes un plan de dos semanas. Fija una fecha para tener una cuenta regresiva personalizada.',
+    setDate: 'Fijar fecha',
+    plan: 'Plan',
+    finalReview: 'Repaso final',
+    done: 'Hecho',
+    todayProgress: 'Progreso de hoy',
+    practiceTopic: (topic: string) => `Practicar ${topic}`,
+    startPracticing: 'Empezar a practicar',
+  },
+);
 
 export interface PlanDay {
   key: string;
@@ -32,7 +72,8 @@ export function buildPlan(
   dailyGoal: number,
   today: string,
 ): PlanDay[] {
-  const withQs = topics.filter(t => (progress.get(t.id)?.total ?? 0) > 0);
+  const t = tr(STR);
+  const withQs = topics.filter(tp => (progress.get(tp.id)?.total ?? 0) > 0);
   const order = [...withQs].sort((a, b) => {
     const pa = progress.get(a.id)!;
     const pb = progress.get(b.id)!;
@@ -42,8 +83,8 @@ export function buildPlan(
   });
   let unseen = 0;
   let mistakes = 0;
-  for (const t of withQs) {
-    const p = progress.get(t.id)!;
+  for (const tp of withQs) {
+    const p = progress.get(tp.id)!;
     unseen += p.total - p.seen;
     mistakes += p.mistakes;
   }
@@ -58,17 +99,17 @@ export function buildPlan(
     const focus = final || !order.length ? [] : order.slice((i * perDay) % order.length, ((i * perDay) % order.length) + perDay);
     const tasks: string[] = [];
     if (final) {
-      tasks.push('Take 2 full exam simulations', 'Clear your remaining mistakes', 'Skim your State Cheat Sheet');
+      tasks.push(...t.finalTasks);
     } else {
-      tasks.push(`Answer ${target} questions`);
+      tasks.push(t.answer(target));
       if (focus.length) {
-        tasks.push(`Focus: ${focus.map(f => f.title).join(', ')}`);
+        tasks.push(t.focus(focus.map(f => f.title).join(', ')));
       }
       if (i % 3 === 2 || i === n - 2) {
-        tasks.push('Take one exam simulation');
+        tasks.push(t.oneExam);
       }
       if (mistakes > 0 || i > 0) {
-        tasks.push('Review your mistakes');
+        tasks.push(t.review);
       }
     }
     days.push({key, offset: i, target: final ? 0 : target, focus, tasks, final});
@@ -78,6 +119,7 @@ export function buildPlan(
 
 export function StudyPlanScreen({navigation}: RootScreenProps<'StudyPlan'>) {
   const {colors, spacing} = useTheme();
+  const t = useStrings(STR);
   const {trackMeta} = useLearner();
   const now = useNow(navigation);
   const progress = useTopicProgress(now);
@@ -96,19 +138,17 @@ export function StudyPlanScreen({navigation}: RootScreenProps<'StudyPlan'>) {
     <Screen>
       <Card variant="tinted" tint={colors.primarySoft}>
         <Text variant="heading" accessibilityRole="header">
-          {examDate ? `${left} day${left === 1 ? '' : 's'} to your test` : 'Your 2-week plan'}
+          {examDate ? t.daysToTest(left) : t.twoWeekPlan}
         </Text>
         <Text variant="body" color="textMuted" style={{marginTop: spacing.xs}}>
-          {examDate
-            ? 'A day-by-day plan that covers every question before test day, weakest topics first.'
-            : 'No test date set — here is a two-week plan. Set a date for a personalized countdown.'}
+          {examDate ? t.datedIntro : t.undatedIntro}
         </Text>
         {!examDate ? (
-          <Button title="Set test date" variant="outline" size="sm" icon="calendar" onPress={() => navigation.navigate('Goal', {mode: 'change'})} style={{marginTop: spacing.md, alignSelf: 'flex-start'}} />
+          <Button title={t.setDate} variant="outline" size="sm" icon="calendar" onPress={() => navigation.navigate('Goal', {mode: 'change'})} style={{marginTop: spacing.md, alignSelf: 'flex-start'}} />
         ) : null}
       </Card>
 
-      <SectionHeader title="Plan" />
+      <SectionHeader title={t.plan} />
       <View style={{gap: spacing.md}}>
         {plan.map(day => {
           const isToday = day.key === today;
@@ -119,24 +159,24 @@ export function StudyPlanScreen({navigation}: RootScreenProps<'StudyPlan'>) {
                 <Text variant="bodyStrong" style={styles.flex}>
                   {relativeDayLabel(day.key, day.offset)}
                 </Text>
-                {day.final ? <Chip label="Final review" icon="flag" tone="accent" /> : null}
-                {isToday && todayDone >= day.target && day.target > 0 ? <Chip label="Done" icon="check" tone="success" /> : null}
+                {day.final ? <Chip label={t.finalReview} icon="flag" tone="accent" /> : null}
+                {isToday && todayDone >= day.target && day.target > 0 ? <Chip label={t.done} icon="check" tone="success" /> : null}
               </View>
               <View style={{gap: 6, marginTop: spacing.sm}}>
-                {day.tasks.map(t => (
-                  <View key={t} style={[styles.row, {gap: spacing.sm}]}>
+                {day.tasks.map(task => (
+                  <View key={task} style={[styles.row, {gap: spacing.sm}]}>
                     <Icon name="circle-dot" size={14} color="textFaint" />
                     <Text variant="body" style={styles.flex}>
-                      {t}
+                      {task}
                     </Text>
                   </View>
                 ))}
               </View>
               {isToday && day.target ? (
                 <>
-                  <ProgressBar value={answered / day.target} height={6} style={{marginTop: spacing.md}} accessibilityLabel="Today's progress" />
+                  <ProgressBar value={answered / day.target} height={6} style={{marginTop: spacing.md}} accessibilityLabel={t.todayProgress} />
                   <Button
-                    title={day.focus[0] ? `Practice ${day.focus[0].title}` : 'Start practicing'}
+                    title={day.focus[0] ? t.practiceTopic(day.focus[0].title) : t.startPracticing}
                     icon="play"
                     size="sm"
                     onPress={() => (day.focus[0] ? navigation.navigate('Topic', {topic: day.focus[0].id}) : navigation.navigate('Quiz', {spec: {mode: 'practice'}}))}

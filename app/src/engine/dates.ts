@@ -1,3 +1,5 @@
+import {defineStrings, tr} from '../i18n';
+
 const DAY_MS = 24 * 60 * 60 * 1000;
 
 /** Local calendar day key, e.g. "2026-10-13". */
@@ -67,17 +69,32 @@ export function longestStreak(activeDays: Record<string, unknown>): number {
   return best;
 }
 
+const DURATION = defineStrings(
+  {
+    hm: (h: number, m: number) => `${h}h ${m}m`,
+    m: (m: number) => `${m}m`,
+    s: (s: number) => `${s}s`,
+  },
+  {
+    hm: (h: number, m: number) => `${h} h ${m} min`,
+    m: (m: number) => `${m} min`,
+    s: (s: number) => `${s} s`,
+  },
+);
+
+/** Study/exam duration in the current language, e.g. "1h 5m" / "1 h 5 min". */
 export function formatDuration(totalSeconds: number): string {
+  const t = tr(DURATION);
   const s = Math.max(0, Math.round(totalSeconds));
   const h = Math.floor(s / 3600);
   const m = Math.floor((s % 3600) / 60);
   if (h > 0) {
-    return `${h}h ${m}m`;
+    return t.hm(h, m);
   }
   if (m > 0) {
-    return `${m}m`;
+    return t.m(m);
   }
-  return `${s}s`;
+  return t.s(s);
 }
 
 export function formatClock(totalSeconds: number): string {

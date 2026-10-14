@@ -1,4 +1,5 @@
 import type {IconName} from '../components/Icon';
+import {currentLang, type Lang} from '../i18n';
 import type {TopicId, TrackId} from './types';
 
 export interface TopicMeta {
@@ -91,19 +92,114 @@ export const TRACKS: TrackMeta[] = [
   },
 ];
 
-const trackById = new Map(TRACKS.map(t => [t.id, t]));
-const topicById = new Map(TRACKS.flatMap(t => t.topics).map(t => [t.id, t]));
+type TopicText = {title: string; description: string};
+type TrackText = {title: string; short: string; license: string; description: string};
 
-export function getTrack(id: TrackId): TrackMeta {
-  return trackById.get(id) ?? TRACKS[0];
+/** Spanish topic/track text keyed by id (English stays in the arrays above). */
+const ES_TOPICS: Record<TopicId, TopicText> = {
+  'road-signs': {title: 'Señales de tránsito', description: 'Formas, colores y significados de las señales reglamentarias, preventivas, informativas y de zonas de obras.'},
+  'signals-markings': {title: 'Semáforos y marcas en el pavimento', description: 'Semáforos, flechas, señales intermitentes, líneas de carril y otras marcas en el pavimento.'},
+  'right-of-way': {title: 'Derecho de paso', description: 'Quién pasa primero en intersecciones, cruces peatonales, glorietas e incorporaciones.'},
+  'intersections-turns': {title: 'Intersecciones y vueltas', description: 'Carriles para dar vuelta, vueltas en U, vueltas con luz roja, glorietas y elección de carril.'},
+  'lanes-passing': {title: 'Carriles, rebasar e incorporarse', description: 'Uso de carriles, cambios de carril, rebasar con seguridad y cuando te rebasan.'},
+  'speed-space': {title: 'Velocidad y espacio', description: 'Límites de velocidad, distancia de seguimiento, distancia para detenerte y espacio de seguridad.'},
+  parking: {title: 'Estacionamiento', description: 'Dónde está prohibido estacionarse, colores del borde de la acera, pendientes y estacionamiento en paralelo.'},
+  freeway: {title: 'Autopistas y carreteras', description: 'Entrar, salir y manejar en vías de alta velocidad y acceso controlado.'},
+  'sharing-road': {title: 'Compartir el camino', description: 'Peatones, ciclistas, motocicletas, camiones, autobuses, trenes y vehículos de emergencia.'},
+  'hazards-conditions': {title: 'Noche, clima y peligros', description: 'Poca luz, lluvia, niebla, nieve, hielo, zonas de obras y manejo defensivo.'},
+  emergencies: {title: 'Emergencias y choques', description: 'Derrapes, reventones, falla de frenos, descomposturas y qué hacer después de un choque.'},
+  'alcohol-drugs': {title: 'Alcohol y drogas', description: 'Facultades disminuidas, límites de BAC, consentimiento implícito y sanciones por DUI.'},
+  'safe-habits': {title: 'Hábitos de manejo seguro', description: 'Distracciones, somnolencia, cinturón de seguridad, furia al volante y estado del vehículo.'},
+  'laws-licensing': {title: 'Licencias y leyes estatales', description: 'Permisos, restricciones para adolescentes, seguro, puntos y las reglas específicas de tu estado.'},
+  'mc-gear-controls': {title: 'Equipo, controles e inspección', description: 'Equipo de protección, cascos, controles de la motocicleta y la revisión antes de manejar.'},
+  'mc-basic-control': {title: 'Control básico del vehículo', description: 'Posición del cuerpo, cambios de velocidad, frenado y vueltas.'},
+  'mc-lane-position': {title: 'Posición en el carril y espacio', description: 'Posiciones en el carril, distancia de seguimiento, rebasar y la estrategia SEE.'},
+  'mc-intersections': {title: 'Intersecciones y visibilidad', description: 'Estrategia en intersecciones, puntos ciegos, señales, faros y cómo hacerte notar.'},
+  'mc-crash-avoidance': {title: 'Evitar choques y peligros', description: 'Frenadas rápidas, maniobras evasivas, superficies resbalosas, fallas mecánicas y animales.'},
+  'mc-passengers-groups': {title: 'Pasajeros, carga y grupos', description: 'Llevar pasajeros y carga, y manejar en grupo.'},
+  'mc-impairment': {title: 'Alcohol, drogas y fatiga', description: 'Cómo afectan a tus habilidades para manejar y sus consecuencias legales.'},
+  'mc-laws': {title: 'Leyes y licencias de motocicleta', description: 'Las reglas de tu estado sobre casco, circular entre carriles, permiso y endoso.'},
+  'cdl-general': {title: 'Conocimientos generales', description: 'Inspección, control básico, cambios, visibilidad, espacio, peligros, carga y más.'},
+  'cdl-air-brakes': {title: 'Frenos de aire', description: 'Partes del sistema de frenos de aire, inspección y uso seguro.'},
+  'cdl-combination': {title: 'Vehículos combinados', description: 'Acoplar, desacoplar, sistemas de aire del remolque y riesgo de volcadura.'},
+  'cdl-hazmat': {title: 'Materiales peligrosos', description: 'Documentos de envío, letreros, carga y emergencias.'},
+  'cdl-tanker': {title: 'Vehículos cisterna', description: 'Oleaje del líquido, deflectores, espacio de expansión y centro de gravedad alto.'},
+  'cdl-doubles-triples': {title: 'Remolques dobles y triples', description: 'Arrastrar remolques dobles y triples, acoplamiento y plataformas convertidoras (dollies).'},
+  'cdl-passenger': {title: 'Transporte de pasajeros', description: 'Inspección del autobús, abordaje, salidas de emergencia y seguridad de los pasajeros.'},
+  'cdl-school-bus': {title: 'Autobús escolar', description: 'Zonas de peligro, espejos, subida y bajada de alumnos y cruces de ferrocarril.'},
+};
+
+const ES_TRACKS: Record<TrackId, TrackText> = {
+  car: {
+    title: 'Auto',
+    short: 'Auto',
+    license: 'Permiso de aprendizaje y licencia de manejo',
+    description: 'El examen de conocimientos estándar para el permiso de aprendizaje o la licencia de manejo regular.',
+  },
+  motorcycle: {
+    title: 'Motocicleta',
+    short: 'Motocicleta',
+    license: 'Permiso y endoso de motocicleta',
+    description: 'El examen de conocimientos de motocicleta para el permiso, la licencia o el endoso de motocicleta.',
+  },
+  cdl: {
+    title: 'Comercial (CDL)',
+    short: 'CDL',
+    license: 'Permiso de aprendizaje comercial (CLP)',
+    description: 'Conocimientos generales de CDL más frenos de aire, combinados, materiales peligrosos, cisterna, dobles/triples, pasajeros y autobús escolar.',
+  },
+};
+
+/** Localized copies of TRACKS, built once per language so object identity stays stable. */
+const localizedTracks = new Map<Lang, TrackMeta[]>([['en', TRACKS]]);
+
+function tracksFor(lang: Lang): TrackMeta[] {
+  let list = localizedTracks.get(lang);
+  if (!list) {
+    list = TRACKS.map(t => ({
+      ...t,
+      ...ES_TRACKS[t.id],
+      topics: t.topics.map(topic => ({...topic, ...ES_TOPICS[topic.id]})),
+    }));
+    localizedTracks.set(lang, list);
+  }
+  return list;
 }
 
+const indexCache = new Map<Lang, {tracks: Map<TrackId, TrackMeta>; topics: Map<TopicId, TopicMeta>}>();
+
+function index(): {tracks: Map<TrackId, TrackMeta>; topics: Map<TopicId, TopicMeta>} {
+  const lang = currentLang();
+  let idx = indexCache.get(lang);
+  if (!idx) {
+    const list = tracksFor(lang);
+    idx = {
+      tracks: new Map(list.map(t => [t.id, t])),
+      topics: new Map(list.flatMap(t => t.topics).map(t => [t.id, t])),
+    };
+    indexCache.set(lang, idx);
+  }
+  return idx;
+}
+
+/** All tracks in the current language (use this instead of `TRACKS` in UI). */
+export function tracks(): TrackMeta[] {
+  return tracksFor(currentLang());
+}
+
+/** The track in the current language. */
+export function getTrack(id: TrackId): TrackMeta {
+  const idx = index();
+  return idx.tracks.get(id) ?? tracks()[0];
+}
+
+/** The topic in the current language. */
 export function getTopic(id: TopicId): TopicMeta | undefined {
-  return topicById.get(id);
+  return index().topics.get(id);
 }
 
 export function topicTitle(id: TopicId): string {
-  return topicById.get(id)?.title ?? id;
+  return getTopic(id)?.title ?? id;
 }
 
-export const ALL_TOPIC_IDS = Array.from(topicById.keys());
+export const ALL_TOPIC_IDS = TRACKS.flatMap(t => t.topics).map(t => t.id);

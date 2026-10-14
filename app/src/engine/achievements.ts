@@ -1,5 +1,6 @@
 import type {IconName} from '../components/Icon';
 import type {Bank} from '../data/bank';
+import {currentLang, defineStrings, tr} from '../i18n';
 import type {DayStat, ExamRecord} from '../store/progress';
 import {currentStreak, dayKey} from './dates';
 import type {QStat} from './srs';
@@ -65,6 +66,53 @@ export const ACHIEVEMENTS: AchievementDef[] = [
   {id: 'ready', title: 'Test Ready', description: 'Reach a 90% estimated pass chance.', icon: 'sparkles', tier: 'gold', check: c => c.passProbability >= 0.9, progress: c => ratio(c.passProbability, 0.9)},
 ];
 
+/** Spanish title/description per achievement id (English lives in ACHIEVEMENTS). */
+const ACHIEVEMENT_ES: Record<string, {title: string; description: string}> = {
+  'first-answer': {title: 'Primer paso', description: 'Responde tu primera pregunta.'},
+  'answers-100': {title: 'Centenario', description: 'Responde 100 preguntas.'},
+  'answers-500': {title: 'Experto del camino', description: 'Responde 500 preguntas.'},
+  'answers-1000': {title: 'Mil millas', description: 'Responde 1,000 preguntas.'},
+  'first-exam': {title: 'Primera vuelta', description: 'Termina una simulación de examen.'},
+  'first-pass': {title: '¡Aprobado!', description: 'Aprueba una simulación de examen.'},
+  'perfect-exam': {title: 'Impecable', description: 'Saca 100 % en una simulación de examen completa.'},
+  'three-passes': {title: 'Triplete', description: 'Aprueba 3 simulaciones de examen seguidas.'},
+  'streak-3': {title: 'En racha', description: 'Estudia 3 días seguidos.'},
+  'streak-7': {title: 'Guerrero semanal', description: 'Estudia 7 días seguidos.'},
+  'streak-30': {title: 'Imparable', description: 'Estudia 30 días seguidos.'},
+  'daily-goal': {title: 'Meta cumplida', description: 'Alcanza tu meta diaria de preguntas.'},
+  'mistakes-25': {title: 'Cazaerrores', description: 'Elimina 25 preguntas de tus errores respondiéndolas bien dos veces seguidas.'},
+  marathon: {title: 'Maratonista', description: 'Termina un maratón con todas las preguntas.'},
+  'sign-expert': {title: 'Experto en señales', description: 'Responde bien 50 preguntas distintas de señales de tránsito.'},
+  'lessons-5': {title: 'Ratón de biblioteca', description: 'Lee 5 lecciones de estudio.'},
+  'night-owl': {title: 'Noctámbulo', description: 'Estudia después de las 10 p.m.'},
+  'early-bird': {title: 'Madrugador', description: 'Estudia antes de las 7 a.m.'},
+  ready: {title: 'Listo para el examen', description: 'Alcanza una probabilidad estimada de aprobar del 90 %.'},
+};
+
+/** An achievement with its title/description in the current language. */
+function localize(a: AchievementDef): AchievementDef {
+  if (currentLang() === 'en') {
+    return a;
+  }
+  const t = ACHIEVEMENT_ES[a.id];
+  return t ? {...a, ...t} : a;
+}
+
+/** All achievements, in order, with text in the current language. */
+export function achievements(): AchievementDef[] {
+  return currentLang() === 'en' ? ACHIEVEMENTS : ACHIEVEMENTS.map(localize);
+}
+
+const TIER_TEXT = defineStrings<Record<AchievementDef['tier'], string>>(
+  {bronze: 'bronze', silver: 'silver', gold: 'gold'},
+  {bronze: 'bronce', silver: 'plata', gold: 'oro'},
+);
+
+/** Tier name in the current language (lowercase, e.g. "bronze" / "bronce"). */
+export function tierLabel(tier: AchievementDef['tier']): string {
+  return tr(TIER_TEXT)[tier];
+}
+
 function signCorrect(c: AchievementContext): number {
   let n = 0;
   for (const q of c.bank.signQuestions) {
@@ -77,9 +125,10 @@ function signCorrect(c: AchievementContext): number {
 
 /** Ids of achievements whose condition is met but are not yet unlocked. */
 export function newlyEarned(c: AchievementContext, unlocked: Record<string, number>): AchievementDef[] {
-  return ACHIEVEMENTS.filter(a => !unlocked[a.id] && a.check(c));
+  return ACHIEVEMENTS.filter(a => !unlocked[a.id] && a.check(c)).map(localize);
 }
 
 export function getAchievement(id: string): AchievementDef | undefined {
-  return ACHIEVEMENTS.find(a => a.id === id);
+  const a = ACHIEVEMENTS.find(x => x.id === id);
+  return a ? localize(a) : undefined;
 }

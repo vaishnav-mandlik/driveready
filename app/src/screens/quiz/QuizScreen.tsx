@@ -9,6 +9,7 @@ import {QuestionCard} from '../../components/quiz/QuestionCard';
 import {getBank} from '../../data/bank';
 import {topicTitle} from '../../data/tracks';
 import {examDecided, QuizSession} from '../../engine/quiz';
+import {defineStrings, useStrings} from '../../i18n';
 import {haptic, speech} from '../../native';
 import type {RootScreenProps} from '../../navigation/types';
 import {finishSession, recordInstantAnswer, startSession} from '../../store/actions';
@@ -18,11 +19,107 @@ import {useTheme} from '../../theme/ThemeProvider';
 const AUTO_ADVANCE_MS = 900;
 const SPEED_FLASH_MS = 350;
 
+type EmptyKey = 'mistakes' | 'bookmarks' | 'due' | 'hardest' | 'signs' | 'other';
+
+const STR = defineStrings(
+  {
+    leaveExamTitle: 'Leave the exam?',
+    leaveExamMsg: 'This attempt will not be scored or saved.',
+    keepGoing: 'Keep going',
+    leave: 'Leave',
+    pauseMarathonTitle: 'Pause marathon?',
+    pauseMarathonMsg: 'Your place is saved — pick up where you left off anytime.',
+    pause: 'Pause',
+    endSessionTitle: 'End this session?',
+    endSessionMsg: 'Your answers so far are already saved to your progress.',
+    seeResults: 'See results',
+    headerProgress: (n: number, total: number) => `${n} of ${total}`,
+    close: 'Close',
+    allQuestions: 'All questions',
+    submitExamTitle: 'Submit exam?',
+    unansweredMsg: (n: number) =>
+      `You have ${n} unanswered question${n === 1 ? '' : 's'}. Unanswered questions count as wrong.`,
+    review: 'Review',
+    submit: 'Submit',
+    noQuestionsTitle: 'No questions here yet',
+    goBack: 'Go back',
+    questionOf: (n: number, total: number) => `Question ${n} of ${total}`,
+    correctCount: (n: number) => `${n} correct`,
+    outOfLives: (n: number) => `Out of lives — you got ${n} right!`,
+    back: 'Back',
+    skip: 'Skip',
+    next: 'Next',
+    nextQuestion: 'Next question',
+    speedHint: 'Answer as many as you can before time runs out',
+    chooseHint: 'Choose the best answer',
+    empty: {
+      mistakes: 'You have no mistakes to review. Questions you miss will show up here.',
+      bookmarks: 'Save questions with the bookmark button and practice them here.',
+      due: 'Nothing is due for review right now. Come back later!',
+      hardest: 'Answer some questions first — the ones you miss most will appear here.',
+      signs: 'Road sign questions for this test are not available yet.',
+      other: 'Questions for your state and test type are being prepared. Try another mode or topic.',
+    } as Record<EmptyKey, string>,
+    livesLeft: (n: number) => `${n} lives left`,
+    answeredOf: (n: number, total: number) => `${n} of ${total} answered`,
+    gridCell: (n: number, answered: boolean, flagged: boolean) =>
+      `Question ${n}, ${answered ? 'answered' : 'unanswered'}${flagged ? ', flagged' : ''}`,
+    submitExam: 'Submit exam',
+  },
+  {
+    leaveExamTitle: '¿Salir del examen?',
+    leaveExamMsg: 'Este intento no se calificará ni se guardará.',
+    keepGoing: 'Continuar',
+    leave: 'Salir',
+    pauseMarathonTitle: '¿Pausar el maratón?',
+    pauseMarathonMsg: 'Tu lugar queda guardado: retoma donde lo dejaste cuando quieras.',
+    pause: 'Pausar',
+    endSessionTitle: '¿Terminar esta sesión?',
+    endSessionMsg: 'Tus respuestas hasta ahora ya están guardadas en tu progreso.',
+    seeResults: 'Ver resultados',
+    headerProgress: (n: number, total: number) => `${n} de ${total}`,
+    close: 'Cerrar',
+    allQuestions: 'Todas las preguntas',
+    submitExamTitle: '¿Entregar el examen?',
+    unansweredMsg: (n: number) =>
+      n === 1
+        ? 'Tienes 1 pregunta sin responder. Las preguntas sin responder cuentan como incorrectas.'
+        : `Tienes ${n} preguntas sin responder. Las preguntas sin responder cuentan como incorrectas.`,
+    review: 'Revisar',
+    submit: 'Entregar',
+    noQuestionsTitle: 'Aún no hay preguntas aquí',
+    goBack: 'Regresar',
+    questionOf: (n: number, total: number) => `Pregunta ${n} de ${total}`,
+    correctCount: (n: number) => (n === 1 ? '1 correcta' : `${n} correctas`),
+    outOfLives: (n: number) => `¡Sin vidas! Acertaste ${n}.`,
+    back: 'Atrás',
+    skip: 'Omitir',
+    next: 'Siguiente',
+    nextQuestion: 'Siguiente pregunta',
+    speedHint: 'Responde todas las que puedas antes de que se acabe el tiempo',
+    chooseHint: 'Elige la mejor respuesta',
+    empty: {
+      mistakes: 'No tienes errores que repasar. Las preguntas que falles aparecerán aquí.',
+      bookmarks: 'Guarda preguntas con el botón de marcador y practícalas aquí.',
+      due: 'No hay nada pendiente de repaso por ahora. ¡Vuelve más tarde!',
+      hardest: 'Primero responde algunas preguntas: las que más falles aparecerán aquí.',
+      signs: 'Aún no hay preguntas de señales de tránsito para este examen.',
+      other: 'Estamos preparando las preguntas para tu estado y tipo de examen. Prueba otro modo o tema.',
+    } as Record<EmptyKey, string>,
+    livesLeft: (n: number) => (n === 1 ? 'Te queda 1 vida' : `Te quedan ${n} vidas`),
+    answeredOf: (n: number, total: number) => `${n} de ${total} respondidas`,
+    gridCell: (n: number, answered: boolean, flagged: boolean) =>
+      `Pregunta ${n}, ${answered ? 'respondida' : 'sin responder'}${flagged ? ', marcada' : ''}`,
+    submitExam: 'Entregar examen',
+  },
+);
+
 export function QuizScreen({navigation, route}: RootScreenProps<'Quiz'>) {
   const {colors, spacing, radius} = useTheme();
   const insets = useSafeAreaInsets();
   const autoAdvance = useSettings(s => s.autoAdvance);
   const realisticExam = useSettings(s => s.realisticExam);
+  const t = useStrings(STR);
 
   const [session, setSession] = useState<QuizSession>(() => startSession(route.params.spec));
   const sessionRef = useRef(session);
@@ -93,20 +190,20 @@ export function QuizScreen({navigation, route}: RootScreenProps<'Quiz'>) {
       return;
     }
     if (isExam) {
-      Alert.alert('Leave the exam?', 'This attempt will not be scored or saved.', [
-        {text: 'Keep going', style: 'cancel'},
-        {text: 'Leave', style: 'destructive', onPress: leave},
+      Alert.alert(t.leaveExamTitle, t.leaveExamMsg, [
+        {text: t.keepGoing, style: 'cancel'},
+        {text: t.leave, style: 'destructive', onPress: leave},
       ]);
     } else if (mode === 'marathon') {
-      Alert.alert('Pause marathon?', 'Your place is saved — pick up where you left off anytime.', [
-        {text: 'Keep going', style: 'cancel'},
-        {text: 'Pause', onPress: leave},
+      Alert.alert(t.pauseMarathonTitle, t.pauseMarathonMsg, [
+        {text: t.keepGoing, style: 'cancel'},
+        {text: t.pause, onPress: leave},
       ]);
     } else {
-      Alert.alert('End this session?', 'Your answers so far are already saved to your progress.', [
-        {text: 'Keep going', style: 'cancel'},
-        {text: 'See results', onPress: () => finish({endedEarly: true})},
-        {text: 'Leave', style: 'destructive', onPress: leave},
+      Alert.alert(t.endSessionTitle, t.endSessionMsg, [
+        {text: t.keepGoing, style: 'cancel'},
+        {text: t.seeResults, onPress: () => finish({endedEarly: true})},
+        {text: t.leave, style: 'destructive', onPress: leave},
       ]);
     }
   });
@@ -120,18 +217,18 @@ export function QuizScreen({navigation, route}: RootScreenProps<'Quiz'>) {
 
   useLayoutEffect(() => {
     navigation.setOptions({
-      title: total ? `${Math.min(index + 1, total)} of ${total}` : session.title,
+      title: total ? t.headerProgress(Math.min(index + 1, total), total) : session.title,
       headerBackVisible: false,
       headerLeft: () => (
-        <IconButton icon="x" accessibilityLabel="Close" onPress={() => navigation.goBack()} testID="quiz-close" />
+        <IconButton icon="x" accessibilityLabel={t.close} onPress={() => navigation.goBack()} testID="quiz-close" />
       ),
       headerRight: isExam
         ? () => (
-            <IconButton icon="grid" accessibilityLabel="All questions" onPress={() => setGridOpen(true)} testID="quiz-grid" />
+            <IconButton icon="grid" accessibilityLabel={t.allQuestions} onPress={() => setGridOpen(true)} testID="quiz-grid" />
           )
         : undefined,
     });
-  }, [navigation, index, total, isExam, session.title]);
+  }, [navigation, index, total, isExam, session.title, t]);
 
   // ---- moving ----------------------------------------------------------------
   const goTo = useCallback((i: number) => {
@@ -217,17 +314,17 @@ export function QuizScreen({navigation, route}: RootScreenProps<'Quiz'>) {
     const unanswered = sessionRef.current.answers.filter(a => a === null).length;
     if (unanswered > 0) {
       Alert.alert(
-        'Submit exam?',
-        `You have ${unanswered} unanswered question${unanswered === 1 ? '' : 's'}. Unanswered questions count as wrong.`,
+        t.submitExamTitle,
+        t.unansweredMsg(unanswered),
         [
-          {text: 'Review', style: 'cancel', onPress: () => setGridOpen(true)},
-          {text: 'Submit', onPress: () => finish()},
+          {text: t.review, style: 'cancel', onPress: () => setGridOpen(true)},
+          {text: t.submit, onPress: () => finish()},
         ],
       );
     } else {
       finish();
     }
-  }, [finish]);
+  }, [finish, t]);
 
   // ---- render -------------------------------------------------------------------
   if (total === 0 || !question) {
@@ -235,9 +332,9 @@ export function QuizScreen({navigation, route}: RootScreenProps<'Quiz'>) {
       <View style={[styles.flex, {backgroundColor: colors.background}]}>
         <EmptyState
           icon="clipboard"
-          title="No questions here yet"
-          message={emptyMessage(mode)}
-          actionLabel="Go back"
+          title={t.noQuestionsTitle}
+          message={t.empty[emptyKey(mode)]}
+          actionLabel={t.goBack}
           onAction={() => navigation.goBack()}
         />
       </View>
@@ -253,14 +350,14 @@ export function QuizScreen({navigation, route}: RootScreenProps<'Quiz'>) {
         <ProgressBar
           value={(isExam ? answeredCount : index + (revealed ? 1 : 0)) / total}
           height={6}
-          accessibilityLabel={`Question ${index + 1} of ${total}`}
+          accessibilityLabel={t.questionOf(index + 1, total)}
         />
         <View style={[styles.statusRow, {gap: spacing.sm}]}>
           <Text variant="captionStrong" color="textMuted" style={styles.flex} numberOfLines={1}>
             {session.title}
           </Text>
           {mode === 'survival' ? <Lives lives={lives ?? 0} /> : null}
-          {mode === 'speed' ? <Chip label={`${correctSoFar} correct`} icon="zap" tone="primary" /> : null}
+          {mode === 'speed' ? <Chip label={t.correctCount(correctSoFar)} icon="zap" tone="primary" /> : null}
           {mode === 'marathon' ? (
             <Chip label={`${index + 1}/${total}`} icon="infinity" tone="accent" />
           ) : null}
@@ -312,7 +409,7 @@ export function QuizScreen({navigation, route}: RootScreenProps<'Quiz'>) {
           <View style={[styles.banner, {backgroundColor: colors.dangerSoft, borderRadius: radius.md, padding: spacing.md, marginTop: spacing.lg}]}>
             <Icon name="heart" size={18} color={colors.danger} />
             <Text variant="bodyStrong" color="danger" style={styles.flex}>
-              Out of lives — you got {correctSoFar} right!
+              {t.outOfLives(correctSoFar)}
             </Text>
           </View>
         ) : null}
@@ -333,7 +430,7 @@ export function QuizScreen({navigation, route}: RootScreenProps<'Quiz'>) {
         {isExam ? (
           <>
             <Button
-              title="Back"
+              title={t.back}
               variant="outline"
               icon="chevron-left"
               onPress={() => goTo(index - 1)}
@@ -342,10 +439,10 @@ export function QuizScreen({navigation, route}: RootScreenProps<'Quiz'>) {
               testID="quiz-prev"
             />
             {isLast ? (
-              <Button title="Submit" icon="check" onPress={submitExam} style={styles.flex2} testID="quiz-submit" />
+              <Button title={t.submit} icon="check" onPress={submitExam} style={styles.flex2} testID="quiz-submit" />
             ) : (
               <Button
-                title={chosen === null ? 'Skip' : 'Next'}
+                title={chosen === null ? t.skip : t.next}
                 iconRight="chevron-right"
                 variant={chosen === null ? 'secondary' : 'primary'}
                 onPress={() => goTo(index + 1)}
@@ -356,7 +453,7 @@ export function QuizScreen({navigation, route}: RootScreenProps<'Quiz'>) {
           </>
         ) : revealed && mode !== 'speed' ? (
           <Button
-            title={outOfLives || isLast ? 'See results' : 'Next question'}
+            title={outOfLives || isLast ? t.seeResults : t.nextQuestion}
             iconRight={outOfLives || isLast ? 'flag' : 'arrow-right'}
             onPress={next}
             fullWidth
@@ -365,7 +462,7 @@ export function QuizScreen({navigation, route}: RootScreenProps<'Quiz'>) {
           />
         ) : (
           <Text variant="caption" color="textFaint" align="center" style={styles.flex}>
-            {mode === 'speed' ? 'Answer as many as you can before time runs out' : 'Choose the best answer'}
+            {mode === 'speed' ? t.speedHint : t.chooseHint}
           </Text>
         )}
       </View>
@@ -389,27 +486,24 @@ export function QuizScreen({navigation, route}: RootScreenProps<'Quiz'>) {
   );
 }
 
-function emptyMessage(mode: QuizSession['spec']['mode']): string {
+function emptyKey(mode: QuizSession['spec']['mode']): EmptyKey {
   switch (mode) {
     case 'mistakes':
-      return 'You have no mistakes to review. Questions you miss will show up here.';
     case 'bookmarks':
-      return 'Save questions with the bookmark button and practice them here.';
     case 'due':
-      return 'Nothing is due for review right now. Come back later!';
     case 'hardest':
-      return 'Answer some questions first — the ones you miss most will appear here.';
     case 'signs':
-      return 'Road sign questions for this test are not available yet.';
+      return mode;
     default:
-      return 'Questions for your state and test type are being prepared. Try another mode or topic.';
+      return 'other';
   }
 }
 
 function Lives({lives}: {lives: number}) {
   const {colors} = useTheme();
+  const t = useStrings(STR);
   return (
-    <View style={styles.lives} accessible accessibilityLabel={`${lives} lives left`}>
+    <View style={styles.lives} accessible accessibilityLabel={t.livesLeft(lives)}>
       {[0, 1, 2].map(i => (
         <Icon key={i} name="heart" size={18} color={i < lives ? colors.danger : colors.border} fill={i < lives ? colors.danger : 'none'} />
       ))}
@@ -437,9 +531,10 @@ function QuestionGrid({
   const {colors, spacing, radius} = useTheme();
   const insets = useSafeAreaInsets();
   const answered = answers.filter(a => a !== null).length;
+  const t = useStrings(STR);
   return (
     <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose}>
-      <Pressable style={[styles.backdrop, {backgroundColor: colors.overlay}]} onPress={onClose} accessibilityLabel="Close" />
+      <Pressable style={[styles.backdrop, {backgroundColor: colors.overlay}]} onPress={onClose} accessibilityLabel={t.close} />
       <View
         style={[
           styles.sheet,
@@ -447,9 +542,9 @@ function QuestionGrid({
         ]}>
         <View style={[styles.statusRow, {marginBottom: spacing.md}]}>
           <Text variant="heading" style={styles.flex} accessibilityRole="header">
-            {answered} of {answers.length} answered
+            {t.answeredOf(answered, answers.length)}
           </Text>
-          <IconButton icon="x" accessibilityLabel="Close" onPress={onClose} />
+          <IconButton icon="x" accessibilityLabel={t.close} onPress={onClose} />
         </View>
         <ScrollView style={styles.gridScroll} contentContainerStyle={[styles.grid, {gap: spacing.sm}]}>
           {answers.map((a, i) => {
@@ -460,7 +555,7 @@ function QuestionGrid({
                 key={i}
                 onPress={() => onJump(i)}
                 accessibilityRole="button"
-                accessibilityLabel={`Question ${i + 1}, ${a === null ? 'unanswered' : 'answered'}${flagged ? ', flagged' : ''}`}
+                accessibilityLabel={t.gridCell(i + 1, a !== null, flagged)}
                 style={[
                   styles.cell,
                   {
@@ -481,7 +576,7 @@ function QuestionGrid({
             );
           })}
         </ScrollView>
-        <Button title="Submit exam" icon="check" onPress={onSubmit} style={{marginTop: spacing.lg}} fullWidth />
+        <Button title={t.submitExam} icon="check" onPress={onSubmit} style={{marginTop: spacing.lg}} fullWidth />
       </View>
     </Modal>
   );

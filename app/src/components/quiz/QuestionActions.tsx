@@ -3,12 +3,40 @@ import {Alert, Linking, Pressable, StyleSheet, View} from 'react-native';
 import {Icon, IconName} from '../Icon';
 import {Text} from '../Text';
 import type {Question} from '../../data/types';
+import {defineStrings, tr, useStrings} from '../../i18n';
 import {haptic, speech} from '../../native';
 import {useProgress} from '../../store/progress';
 import {useTheme} from '../../theme/ThemeProvider';
 import {reportMailto, speechTextFor, SUPPORT_EMAIL} from './helpers';
 
 type ToolTone = 'primary' | 'warning';
+
+const STR = defineStrings(
+  {
+    unsave: 'Remove from saved questions',
+    save: 'Save question',
+    readAloud: 'Read question aloud',
+    unflag: 'Remove review flag',
+    flag: 'Flag for review',
+    noEmailTitle: 'No email app found',
+    noEmailBody: (email: string, id: string) => `Email ${email} and include question ID ${id}. Thanks for helping us improve!`,
+    reportLabel: 'Report a problem with this question',
+    reportHint: 'Opens your email app',
+    report: 'Report a problem',
+  },
+  {
+    unsave: 'Quitar de preguntas guardadas',
+    save: 'Guardar pregunta',
+    readAloud: 'Leer la pregunta en voz alta',
+    unflag: 'Quitar marca de revisión',
+    flag: 'Marcar para revisar',
+    noEmailTitle: 'No se encontró una app de correo',
+    noEmailBody: (email: string, id: string) => `Escribe a ${email} e incluye el ID de la pregunta ${id}. ¡Gracias por ayudarnos a mejorar!`,
+    reportLabel: 'Reportar un problema con esta pregunta',
+    reportHint: 'Abre tu app de correo',
+    report: 'Reportar un problema',
+  },
+);
 
 /** Round icon button used in the question toolbar; supports a toggled ("active") state. */
 export function ToolButton({
@@ -54,10 +82,11 @@ export function ToolButton({
 export function BookmarkButton({questionId}: {questionId: string}) {
   const saved = useProgress(s => !!s.bookmarks[questionId]);
   const toggle = useProgress(s => s.toggleBookmark);
+  const t = useStrings(STR);
   return (
     <ToolButton
       icon={saved ? 'bookmark-check' : 'bookmark'}
-      label={saved ? 'Remove from saved questions' : 'Save question'}
+      label={saved ? t.unsave : t.save}
       active={saved}
       onPress={() => toggle(questionId)}
       testID="bookmark-button"
@@ -79,16 +108,18 @@ export function ReadAloudButton({
     speech.stop();
     speech.speak(speechTextFor(question, order, revealed));
   }, [question, order, revealed]);
-  return <ToolButton icon="volume" label="Read question aloud" onPress={onPress} testID="read-aloud-button" />;
+  const t = useStrings(STR);
+  return <ToolButton icon="volume" label={t.readAloud} onPress={onPress} testID="read-aloud-button" />;
 }
 
 /** Exam mode: mark a question to come back to before submitting. */
 export function FlagButton({flagged, onToggle}: {flagged: boolean; onToggle: () => void}) {
+  const t = useStrings(STR);
   return (
     <ToolButton
       icon="flag"
       tone="warning"
-      label={flagged ? 'Remove review flag' : 'Flag for review'}
+      label={flagged ? t.unflag : t.flag}
       active={flagged}
       onPress={onToggle}
       testID="flag-button"
@@ -100,16 +131,15 @@ export async function openReport(question: Question): Promise<void> {
   try {
     await Linking.openURL(reportMailto(question));
   } catch {
-    Alert.alert(
-      'No email app found',
-      `Email ${SUPPORT_EMAIL} and include question ID ${question.id}. Thanks for helping us improve!`,
-    );
+    const t = tr(STR);
+    Alert.alert(t.noEmailTitle, t.noEmailBody(SUPPORT_EMAIL, question.id));
   }
 }
 
 /** Small "Report a problem" text link (opens an email with the question id). */
 export function ReportLink({question}: {question: Question}) {
   const {spacing} = useTheme();
+  const t = useStrings(STR);
   return (
     <Pressable
       onPress={() => {
@@ -118,12 +148,12 @@ export function ReportLink({question}: {question: Question}) {
       }}
       hitSlop={10}
       accessibilityRole="link"
-      accessibilityLabel="Report a problem with this question"
-      accessibilityHint="Opens your email app"
+      accessibilityLabel={t.reportLabel}
+      accessibilityHint={t.reportHint}
       style={({pressed}) => [styles.report, {gap: spacing.xs, paddingVertical: spacing.xs}, pressed && styles.pressed]}>
       <Icon name="alert" size={14} color="textFaint" />
       <Text variant="caption" color="textFaint">
-        Report a problem
+        {t.report}
       </Text>
     </Pressable>
   );

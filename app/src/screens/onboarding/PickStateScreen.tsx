@@ -3,13 +3,34 @@ import {FlatList, Pressable, StyleSheet, TextInput, View} from 'react-native';
 import {Chip, Icon, Screen, Text} from '../../components';
 import {hasResearchedData, STATE_LIST, stateList, StateListItem} from '../../data/states';
 import type {StateCode} from '../../data/types';
+import {defineStrings, useStrings} from '../../i18n';
 import {haptic} from '../../native';
 import type {RootScreenProps} from '../../navigation/types';
 import {useSettings} from '../../store/settings';
 import {useTheme} from '../../theme/ThemeProvider';
 
+const STR = defineStrings(
+  {
+    verified: 'Verified',
+    step: 'Step 1 of 3',
+    title: 'Which state are you testing in?',
+    intro: 'Rules, numbers and the test format differ by state. You can change this anytime.',
+    search: 'Search states',
+    empty: 'No matching state',
+  },
+  {
+    verified: 'Verificado',
+    step: 'Paso 1 de 3',
+    title: '¿En qué estado vas a tomar el examen?',
+    intro: 'Las reglas, las cifras y el formato del examen cambian según el estado. Puedes cambiarlo cuando quieras.',
+    search: 'Buscar estados',
+    empty: 'Ningún estado coincide',
+  },
+);
+
 export function PickStateScreen({navigation, route}: RootScreenProps<'PickState'>) {
   const {colors, spacing, radius, textScale} = useTheme();
+  const t = useStrings(STR);
   const mode = route.params?.mode ?? 'onboarding';
   const current = useSettings(s => s.state);
   const update = useSettings(s => s.update);
@@ -60,7 +81,7 @@ export function PickStateScreen({navigation, route}: RootScreenProps<'PickState'
         <Text variant="bodyStrong" style={styles.flex}>
           {item.name}
         </Text>
-        {hasResearchedData(item.code) ? <Chip label="Verified" icon="badge-check" tone="success" /> : null}
+        {hasResearchedData(item.code) ? <Chip label={t.verified} icon="badge-check" tone="success" /> : null}
         {selected ? <Icon name="check" color={colors.primary} /> : null}
       </Pressable>
     );
@@ -72,13 +93,13 @@ export function PickStateScreen({navigation, route}: RootScreenProps<'PickState'
         {mode === 'onboarding' ? (
           <>
             <Text variant="label" color="primary">
-              Step 1 of 3
+              {t.step}
             </Text>
             <Text variant="title" accessibilityRole="header">
-              Which state are you testing in?
+              {t.title}
             </Text>
             <Text variant="body" color="textMuted">
-              Rules, numbers and the test format differ by state. You can change this anytime.
+              {t.intro}
             </Text>
           </>
         ) : null}
@@ -87,13 +108,13 @@ export function PickStateScreen({navigation, route}: RootScreenProps<'PickState'
           <TextInput
             value={query}
             onChangeText={setQuery}
-            placeholder="Search states"
+            placeholder={t.search}
             placeholderTextColor={colors.textFaint}
             style={[styles.input, {color: colors.text, fontSize: 16 * textScale}]}
             autoCorrect={false}
             autoCapitalize="words"
             returnKeyType="search"
-            accessibilityLabel="Search states"
+            accessibilityLabel={t.search}
             testID="state-search"
           />
         </View>
@@ -107,7 +128,7 @@ export function PickStateScreen({navigation, route}: RootScreenProps<'PickState'
         initialNumToRender={20}
         ListEmptyComponent={
           <Text variant="body" color="textMuted" align="center" style={{marginTop: spacing.xl}}>
-            No matching state
+            {t.empty}
           </Text>
         }
       />
