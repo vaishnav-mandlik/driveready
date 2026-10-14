@@ -23,3 +23,9 @@ and the `args` global. The prompts inside are the real instructions given to the
 Lessons learned: ~35 concurrent max-effort agents exhausted the account's session limit. Run at most one or
 two small workflows (≤4 agents) at a time, use `effort: 'high'` for authoring, and keep state work at 2
 agents per state.
+
+### When the Workflow tool is unavailable
+Extract the exact agent prompts from any script with the stub runner and hand them to plain agents
+(≤4 at a time): `node <scratch>/prompts.mjs "<script.js>" '<args json>' <outdir>` — the runner replaces
+`agent()` with a recorder (see the 2026-10-14 session; it is ~30 lines: strip `export`, wrap the body in an
+async function with stub `agent/pipeline/parallel/phase/log/args`). Each agent is told to read its prompt file.
