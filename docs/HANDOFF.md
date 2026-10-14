@@ -34,46 +34,34 @@ picks up the work._
 
 ## 3. Status (what exists now)
 
+_Updated 2026-10-13 evening._
+
 ### Done
-- RN project in `app/` builds for Android (debug + release config with R8, resource shrinking, 3 ABIs).
-- Foundation: types, data loaders, quiz engine (13 modes), SRS, readiness model, achievements, stats, stores,
-  native module, UI kit, navigation (≈31 routes), theme (light/dark), app icon (adaptive + themed), splash.
-- Tests: `__tests__/engine/engine.test.ts` (33 tests), `__tests__/App.test.tsx` (smoke). All pass.
-- Screens implemented (type-check clean): Quiz, Results, Review, ExamIntro, QuestionDetail, Welcome, PickState,
-  PickTrack, Goal, Home, StudyPlan, Practice, Topic, QuestionList, Search, Signs, SignDetail, Flashcards, Learn,
-  Lesson. Shared helpers: `src/components/quiz/*`, `src/screens/practice/shared/*`.
-- Content: **783 universal car questions** in 13 topic files (`app/src/content/questions/car/*.json`) — drafted
-  and validated (0 errors) but the adversarial review pass did NOT run yet (session limit).
-- Research: official handbook text for AL AK AZ AR CA CO FL GA IL MI MT NE NV NH NJ NM NY NC OH PA TX +
-  MOTORCYCLE (MSF manual) + CDL (AAMVA manual) in `research/handbooks/`.
-- Road signs: catalogs of 187 signs (`research/tools/*_catalog.json`), public-domain SVGs being downloaded by
-  `research/tools/fetch_signs.py` → `research/signs/svg` + manifests → `app/scripts/build-signs.mjs`.
-- Play assets: `app/docs/play-store/feature-graphic-1024x500.png`, `play-store-icon-512.png`,
-  `app/docs/privacy-policy.html` (must be hosted at a public URL before publishing).
-- Upload key generated locally (NOT in git): `app/android/keystores/driveready-upload.keystore` +
-  `app/android/keystore.properties`.
+- **App**: all 31 screens implemented (no placeholders), type-check clean, 75 Jest tests passing (engine, every
+  screen with content + empty bank, full practice/exam/survival flows). Signed release APK builds (arm64 ≈24 MB).
+- **States complete & verified** (facts with page + verbatim quote → `app/src/content/states/XX.json`, state
+  questions → `app/src/content/questions/states/XX.json`): **CA** (48 facts, 101 car + 10 motorcycle),
+  **TX** (50 facts, 97 car + 10 motorcycle). Verifiers caught real errors (e.g. TX crash-report rule repealed in 2017).
+- **Universal car bank**: 747 questions in 13 topics, adversarially reviewed against ALL downloaded handbooks
+  (non-universal rules removed/rewritten, answer-length giveaway removed, duplicates removed).
+- **Signs**: 132 in-app (95 public-domain MUTCD + 37 app-drawn signals/markings/hand signals via
+  `app/assets/signs-custom/generate.py`). Remaining MUTCD SVGs are still downloading (Wikimedia rate limits):
+  rerun `python3 -I research/tools/fetch_signs.py "<repo>/research"` then `node app/scripts/build-signs.mjs`.
+- **Lessons**: Road Test Guide (`app/src/content/lessons/car/road-test.json`).
+- **Market research**: `research/notes/market.md`. **Play listing + policy answers**: `app/docs/play-store/listing.md`
+  (target API 36 verified; 12 testers × 14 days closed test for new personal accounts).
 
-### In progress when this was written
-- `tools/workflows/state-content-v2.js` running for **CA + TX** (author → verifier). Output:
-  `research/facts/CA.json`, `TX.json`, `app/src/content/states/*.json`, `app/src/content/questions/states/*.json`.
+### In progress
+- `state-content-v2.js` for **FL, NY, PA, IL**; `bank-builder.js` for **motorcycle (7 topics) + CDL general knowledge**.
 
-### Not done yet (prioritized next steps)
-1. Remaining screens (files still contain "PLACEHOLDER"): CheatSheet, ExamInfo, Progress, ExamHistory,
-   Achievements, DriveLog, DriveEntry, Settings, About, Sources, Privacy. Spec: `app/docs/APP_SPEC.md`.
-2. Top-10 state content: run `state-content-v2.js` for FL+NY, PA+IL, OH+GA, NC+MI (2 states per run).
-3. Universal car bank review: correctness/universality + quality pass for all 13 topics (batch 3–4 topics per
-   reviewer agent), then one lesson per topic (`app/src/content/lessons/car/<topic>.json`).
-4. Road-sign questions (~150, using `sign` codes) once `build-signs.mjs` has produced `_codes.json`.
-5. Custom illustrations (signals, pavement markings, hand signals, SMV emblem) → `app/assets/signs-custom/`
-   (`tools/workflows/custom-illustrations.js` has the full spec), then rebuild signs.
-6. Motorcycle universal bank (MSF manual, 7 topics) and CDL banks (8 modules) + lessons.
-7. Competitor research report → `research/notes/market.md`; fold gaps into the app.
-8. Integration: `npx tsc --noEmit`, `npx jest`, content validation, debug build on a device
-   (the owner's phone is on wireless ADB `10.142.224.79:5555` and must accept the debugging prompt).
-9. Release: host privacy policy, Play Console listing (copy draft in `app/docs/play-store/`), Data safety
-   (no data collected), content rating, closed testing (new personal accounts need a 12-tester/14-day test),
-   upload AAB (`./gradlew bundleRelease`).
-10. Remaining 41 states (same pipeline), then iOS (needs full Xcode; native module needs an iOS implementation).
+### Next steps (prioritized)
+1. Remaining top-10 states: **OH, GA, NC, MI** (`tools/workflows/state-content-v2.js`).
+2. Car lessons for the 13 topics (+ road-signs lesson), motorcycle + CDL lessons.
+3. CDL modules: air brakes, combination, hazmat, tanker, doubles/triples, passenger, school bus (`bank-builder.js`).
+4. Road-sign questions (~150, `sign` field) + image questions for signals/markings once all signs are downloaded.
+5. On-device/emulator QA + Play screenshots (AVD `driveready36`, Android 16 arm64, created locally).
+6. Host privacy policy, Play Console setup, closed test, production.
+7. Remaining 41 states; then iOS (needs Xcode + iOS native module implementation).
 
 ## 4. How content is produced (pipeline)
 1. Handbook PDF → text: `python3 -I research/tools/extract_pdf.py <pdf> research/handbooks/XX.txt`.

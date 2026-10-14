@@ -1,0 +1,2054 @@
+[
+  {
+    "id": "fl.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Florida, a driver 21 or older has their license administratively suspended at arrest if their breath or blood alcohol level is at or above what level?",
+    "choices": [
+      "0.08",
+      "0.05",
+      "0.10",
+      "0.02"
+    ],
+    "answer": 0,
+    "explanation": "Florida suspends the license at the time of arrest for a breath or blood alcohol level (BAL) of .08 or above. You can still be charged with DUI below .08 if you are impaired.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 33"
+  },
+  {
+    "id": "fl.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 19-year-old Florida driver is stopped and has a BAL of .03. What happens under Florida's zero tolerance law?",
+    "choices": [
+      "Their driving privilege is automatically suspended for six months",
+      "Nothing, because the BAL is under .08",
+      "They receive a written warning only",
+      "Their license is suspended for 30 days"
+    ],
+    "answer": 0,
+    "explanation": "Any driver under 21 with a BAL of .02 or higher automatically has their driving privilege suspended for six months. The .08 limit applies to adults.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 34"
+  },
+  {
+    "id": "fl.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A Florida driver under 21 is stopped with a BAL of .06. Besides the license suspension, what else is required?",
+    "choices": [
+      "Attending a substance abuse course",
+      "Installing an ignition interlock for five years",
+      "Retaking the Class E Knowledge Exam",
+      "Nothing else is required"
+    ],
+    "answer": 0,
+    "explanation": "Florida requires any driver under 21 with a BAL of .05 or higher to attend a substance abuse course, in addition to the zero tolerance suspension.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 34"
+  },
+  {
+    "id": "fl.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Florida's Implied Consent Law, what happens the first time you refuse a lawful breath, blood or urine test?",
+    "choices": [
+      "Your license is suspended for one year",
+      "Your license is suspended for 30 days",
+      "Your license is suspended for 18 months",
+      "Nothing, because the test is voluntary"
+    ],
+    "answer": 0,
+    "explanation": "By signing your Florida license you agreed to testing. A first refusal brings an automatic one-year suspension (and is now also a misdemeanor under s. 316.1939); a second refusal brings 18 months.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 34"
+  },
+  {
+    "id": "fl.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A Florida driver who has refused a breath test before refuses again. What is the penalty for this second refusal?",
+    "choices": [
+      "An 18-month suspension and a first-degree misdemeanor",
+      "A one-year suspension with no criminal charge",
+      "A 90-day suspension",
+      "A $100 fine only"
+    ],
+    "answer": 0,
+    "explanation": "A second refusal in Florida results in an 18-month license suspension and a first-degree misdemeanor charge.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 34"
+  },
+  {
+    "id": "fl.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "For a first DUI conviction in Florida, what is the minimum period of license revocation?",
+    "choices": [
+      "180 days",
+      "30 days",
+      "90 days",
+      "5 years"
+    ],
+    "answer": 0,
+    "explanation": "A first DUI conviction in Florida carries a license revocation of at least 180 days, plus fines, community service, probation and DUI school.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 34"
+  },
+  {
+    "id": "fl.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the fine range for a first DUI conviction in Florida when the BAL is under .15 and no minor is in the vehicle?",
+    "choices": [
+      "$500 to $1,000",
+      "$100 to $250",
+      "$1,000 to $2,000",
+      "$2,000 to $5,000"
+    ],
+    "answer": 0,
+    "explanation": "A first Florida DUI conviction carries a $500-$1,000 fine. It rises to $1,000-$2,000 if the BAL is .15 or higher or a minor is in the vehicle.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 34"
+  },
+  {
+    "id": "fl.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "How long must a DUI conviction stay on a Florida driving record?",
+    "choices": [
+      "75 years",
+      "3 years",
+      "10 years",
+      "Until the license is renewed"
+    ],
+    "answer": 0,
+    "explanation": "Florida's handbook states that a DUI conviction must remain on your driving record for 75 years.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 43"
+  },
+  {
+    "id": "fl.car.009",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "After a DUI conviction, how much bodily injury liability (BIL) and property damage liability (PDL) insurance must a Florida driver carry?",
+    "choices": [
+      "$100,000 per person, $300,000 per crash, and $50,000 PDL",
+      "$10,000 per person, $20,000 per crash, and $10,000 PDL",
+      "$25,000 per person, $50,000 per crash, and $25,000 PDL",
+      "No extra insurance is required"
+    ],
+    "answer": 0,
+    "explanation": "Florida requires at least $100,000/$300,000 BIL and $50,000 PDL after a DUI conviction, kept in effect for three years.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 3,
+    "ref": "Official Florida Driver License Handbook, p. 32"
+  },
+  {
+    "id": "fl.car.010",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Florida, where may an opened bottle of alcohol be carried in a car without counting as an open container in the driver's possession?",
+    "choices": [
+      "In a locked trunk or locked glove compartment",
+      "In the cup holder, if the driver is not drinking",
+      "Under the driver's seat",
+      "Anywhere, as long as the driver's BAL is under .08"
+    ],
+    "answer": 0,
+    "explanation": "Under s. 316.1936, an open container is considered in the driver's possession unless a passenger holds it or it is in a locked glove compartment, locked trunk or other locked non-passenger area.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Florida Statutes, s. 316.1936"
+  },
+  {
+    "id": "fl.car.011",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "At what BAL does a Florida commercial motor vehicle driver become subject to the CDL DUI penalties of s. 322.61?",
+    "choices": [
+      "0.04",
+      "0.08",
+      "0.02",
+      "0.10"
+    ],
+    "answer": 0,
+    "explanation": "Florida places a commercial driver with any alcohol in the body out of service for 24 hours, and a BAL of 0.04 or more triggers the CDL penalties in s. 322.61.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 3,
+    "ref": "Florida Statutes, s. 322.62"
+  },
+  {
+    "id": "fl.car.012",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age to get a Florida learner's license?",
+    "choices": [
+      "15",
+      "14",
+      "16",
+      "15 and a half"
+    ],
+    "answer": 0,
+    "explanation": "You must be at least 15 years old, complete the TLSAE course and pass the vision and Class E Knowledge exams to get a Florida learner's license.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 16"
+  },
+  {
+    "id": "fl.car.013",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long must a Florida driver under 18 hold a learner's license before getting a Class E driver license?",
+    "choices": [
+      "12 months, or until the 18th birthday if that comes first",
+      "6 months",
+      "90 days",
+      "18 months"
+    ],
+    "answer": 0,
+    "explanation": "Drivers under 18 must hold the learner's license for 12 months or until their 18th birthday, whichever comes first.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 16"
+  },
+  {
+    "id": "fl.car.014",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Before a Florida teen can move from a learner's license to a driver license, an adult must certify how much driving practice?",
+    "choices": [
+      "At least 50 hours, including 10 hours at night",
+      "At least 40 hours, including 10 hours at night",
+      "At least 30 hours, including 5 hours at night",
+      "At least 60 hours, including 15 hours at night"
+    ],
+    "answer": 0,
+    "explanation": "A parent, legal guardian or responsible adult 21 or older must certify at least 50 hours of driving experience, 10 of them at night.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 16"
+  },
+  {
+    "id": "fl.car.015",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Who must ride with a driver who holds a Florida learner's license?",
+    "choices": [
+      "A licensed driver at least 21 years old in the front passenger seat",
+      "Any licensed driver at least 18 years old, in any seat",
+      "A parent or guardian only, even if unlicensed",
+      "No one, after the first three months"
+    ],
+    "answer": 0,
+    "explanation": "A learner must always be accompanied by a licensed driver 21 or older who sits in the closest seat to the right of the driver.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 9"
+  },
+  {
+    "id": "fl.car.016",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During the first three months after a Florida learner's license is issued, when may the teen drive?",
+    "choices": [
+      "Only during daylight hours",
+      "Until 10 p.m.",
+      "Until 11 p.m.",
+      "Any time, if an adult 21+ is in the car"
+    ],
+    "answer": 0,
+    "explanation": "Learners may drive only during daylight hours for the first three months, always with a licensed driver 21 or older.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 33"
+  },
+  {
+    "id": "fl.car.017",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A teen has held a Florida learner's license for four months. What is the latest they may drive, with a licensed adult 21+ beside them?",
+    "choices": [
+      "10 p.m.",
+      "Sunset",
+      "11 p.m.",
+      "1 a.m."
+    ],
+    "answer": 0,
+    "explanation": "After the first three months, a learner may drive until 10 p.m. (still with a licensed driver 21 or older).",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 33"
+  },
+  {
+    "id": "fl.car.018",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old with a Florida driver license may NOT drive during which hours, unless driving to or from work or with a licensed driver 21+?",
+    "choices": [
+      "11 p.m. to 6 a.m.",
+      "10 p.m. to 6 a.m.",
+      "1 a.m. to 5 a.m.",
+      "Midnight to 5 a.m."
+    ],
+    "answer": 0,
+    "explanation": "A 16-year-old licensed driver may not drive between 11 p.m. and 6 a.m. unless driving to or from work or accompanied by a licensed driver 21 or older.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 33"
+  },
+  {
+    "id": "fl.car.019",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 17-year-old with a Florida driver license may NOT drive during which hours, unless driving to or from work or with a licensed driver 21+?",
+    "choices": [
+      "1 a.m. to 5 a.m.",
+      "11 p.m. to 6 a.m.",
+      "Midnight to 6 a.m.",
+      "10 p.m. to 5 a.m."
+    ],
+    "answer": 0,
+    "explanation": "A 17-year-old licensed driver may not drive between 1 a.m. and 5 a.m. unless driving to or from work or accompanied by a licensed driver 21 or older.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 33"
+  },
+  {
+    "id": "fl.car.020",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old Florida driver finishes a work shift at midnight and drives straight home alone. Is this legal?",
+    "choices": [
+      "Yes, driving to or from work is an exception to the time limits",
+      "No, 16-year-olds may never drive after 11 p.m.",
+      "Only if a parent gives written permission each time",
+      "Only if they are within 5 miles of home"
+    ],
+    "answer": 0,
+    "explanation": "The 11 p.m. to 6 a.m. limit for 16-year-olds does not apply when driving to or from work, or when accompanied by a licensed driver 21 or older.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 3,
+    "ref": "Official Florida Driver License Handbook, p. 33"
+  },
+  {
+    "id": "fl.car.021",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age for a Florida Class E driver license?",
+    "choices": [
+      "16",
+      "15",
+      "17",
+      "18"
+    ],
+    "answer": 0,
+    "explanation": "You must be at least 16 to get a Florida Class E driver license (and, if under 18, have held a learner's license for 12 months).",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 16"
+  },
+  {
+    "id": "fl.car.022",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 17-year-old Florida driver gets 6 points within 12 months. What happens?",
+    "choices": [
+      "The license is restricted to Business Purposes Only for one year",
+      "The license is suspended for 30 days",
+      "Nothing until they reach 12 points",
+      "They must retake the Class E Knowledge Exam"
+    ],
+    "answer": 0,
+    "explanation": "Drivers under 18 who get 6 or more points within 12 months are automatically restricted to Business Purposes Only driving for one year (or until 18).",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 37"
+  },
+  {
+    "id": "fl.car.023",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Who must complete a Traffic Law and Substance Abuse Education (TLSAE) course before applying for a Florida license?",
+    "choices": [
+      "Anyone who has never held a driver license in any state or country",
+      "Only drivers over 21",
+      "Only drivers moving from another state",
+      "Only drivers who failed the knowledge exam"
+    ],
+    "answer": 0,
+    "explanation": "Florida requires a TLSAE course for anyone who has never held (or does not have) a driver license in any state, country or jurisdiction. Some school driver education courses can substitute.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 25"
+  },
+  {
+    "id": "fl.car.024",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many questions are on Florida's Class E Knowledge Exam, and how many must you answer correctly?",
+    "choices": [
+      "50 questions; 40 correct (80%)",
+      "40 questions; 32 correct (80%)",
+      "25 questions; 20 correct (80%)",
+      "50 questions; 35 correct (70%)"
+    ],
+    "answer": 0,
+    "explanation": "The Class E Knowledge Exam has 50 multiple-choice questions, and you must answer 40 correctly (80 percent) to pass.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "FLHSMV, Class E Knowledge Exam & Driving Skills Test page"
+  },
+  {
+    "id": "fl.car.025",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "To register a vehicle in Florida, what insurance must the owner carry under the No-Fault Law?",
+    "choices": [
+      "$10,000 Personal Injury Protection (PIP) and $10,000 Property Damage Liability (PDL)",
+      "$10,000 PIP and $20,000 Bodily Injury Liability",
+      "$25,000 Bodily Injury Liability and $10,000 PDL",
+      "$5,000 PIP only"
+    ],
+    "answer": 0,
+    "explanation": "Florida requires at least $10,000 in PIP and $10,000 in PDL coverage, kept continuously during the registration period.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 31"
+  },
+  {
+    "id": "fl.car.026",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "When must a vehicle owner meet Florida's insurance requirements?",
+    "choices": [
+      "When the vehicle has been in Florida 90 days or more during the last 365 days",
+      "Only after the vehicle has been in Florida for a full year",
+      "Only if the owner holds a Florida driver license",
+      "Only when the vehicle is driven more than 1,000 miles a year"
+    ],
+    "answer": 0,
+    "explanation": "You must comply if you own a motor vehicle that has been in Florida for 90 days (consecutive or not) during the last 365 days.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 3,
+    "ref": "Official Florida Driver License Handbook, p. 31"
+  },
+  {
+    "id": "fl.car.027",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long is a Florida license suspended when a driver gets 12 points within 12 months?",
+    "choices": [
+      "30 days",
+      "3 months",
+      "6 months",
+      "1 year"
+    ],
+    "answer": 0,
+    "explanation": "Under Florida's point system, 12 points in 12 months brings a 30-day suspension; 18 points in 18 months, 3 months; 24 points in 36 months, 1 year.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 37"
+  },
+  {
+    "id": "fl.car.028",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Florida driver is convicted of going 20 MPH over the posted speed limit, with no crash. How many points are added?",
+    "choices": [
+      "4",
+      "3",
+      "6",
+      "2"
+    ],
+    "answer": 0,
+    "explanation": "Florida assigns 3 points for speeding 15 MPH or less over the limit and 4 points for 16 MPH or more over. A speeding violation that causes a crash is 6 points.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 38"
+  },
+  {
+    "id": "fl.car.029",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many points does a Florida driver get for using a handheld wireless device in a school zone or active work zone?",
+    "choices": [
+      "3",
+      "2",
+      "4",
+      "6"
+    ],
+    "answer": 0,
+    "explanation": "Using a handheld device in a school crossing, school zone or work zone is a moving violation worth 3 points.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 38"
+  },
+  {
+    "id": "fl.car.030",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Within how many days after moving must a Florida driver get a license showing the new address?",
+    "choices": [
+      "30 days",
+      "10 days",
+      "60 days",
+      "90 days"
+    ],
+    "answer": 0,
+    "explanation": "You must obtain a new driver license within 30 calendar days of a change to your mailing or residential address.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 20"
+  },
+  {
+    "id": "fl.car.031",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old wants to drive a golf cart on a public road where golf carts are allowed. What does Florida require?",
+    "choices": [
+      "A valid learner's license or driver license",
+      "No license, because golf carts are not motor vehicles",
+      "A golf cart permit from the county only",
+      "A motorcycle endorsement"
+    ],
+    "answer": 0,
+    "explanation": "Anyone under 18 driving a golf cart on a public road or street must have a valid learner's license or driver license. Drivers 18+ need a government-issued photo ID.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 93"
+  },
+  {
+    "id": "fl.car.032",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Florida law, when is texting while driving prohibited?",
+    "choices": [
+      "Any time you are driving a motor vehicle",
+      "Only in school zones",
+      "Only on limited access highways",
+      "Only for drivers under 18"
+    ],
+    "answer": 0,
+    "explanation": "It is illegal in Florida for any driver to operate a motor vehicle while texting. A vehicle that is stationary is not being operated.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 42"
+  },
+  {
+    "id": "fl.car.033",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Where does Florida law ban driving while holding a phone or other wireless device in your hand?",
+    "choices": [
+      "In designated school crossings, school zones and work zones",
+      "Everywhere in Florida",
+      "Only on interstates",
+      "Only between sunset and sunrise"
+    ],
+    "answer": 0,
+    "explanation": "Florida prohibits using a wireless communications device in a handheld manner while driving in a designated school crossing, school zone or work zone. Hands-free use is allowed.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 42"
+  },
+  {
+    "id": "fl.car.034",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "You are driving through an active Florida school zone and your phone rings. Which is legal?",
+    "choices": [
+      "Answering it hands-free with a Bluetooth system",
+      "Holding the phone to your ear if you keep the call short",
+      "Holding the phone if you slow to 15 MPH",
+      "Holding the phone because only texting is banned"
+    ],
+    "answer": 0,
+    "explanation": "Handheld use is illegal in school crossings, school zones and active work zones. Using the device hands-free is permitted.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 3,
+    "ref": "Official Florida Driver License Handbook, p. 42"
+  },
+  {
+    "id": "fl.car.035",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Florida law, who must wear a safety belt?",
+    "choices": [
+      "All drivers, all front-seat passengers, and all passengers under 18",
+      "Only drivers and passengers under 16",
+      "Only front-seat occupants",
+      "Everyone in the vehicle, at all ages"
+    ],
+    "answer": 0,
+    "explanation": "Florida requires safety belts for all drivers, front-seat passengers and every passenger under 18.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 36"
+  },
+  {
+    "id": "fl.car.036",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which rider is NOT required by Florida's safety belt law to wear a belt?",
+    "choices": [
+      "A 30-year-old riding in the back seat",
+      "A 30-year-old riding in the front passenger seat",
+      "A 15-year-old riding in the back seat",
+      "The driver"
+    ],
+    "answer": 0,
+    "explanation": "Florida requires belts for the driver, front-seat passengers and passengers under 18. Adults 18 or older in the back seat are not covered by the law, though wearing one is always safer.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 3,
+    "ref": "Official Florida Driver License Handbook, p. 36"
+  },
+  {
+    "id": "fl.car.037",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 16-year-old passenger in your car is not wearing a safety belt. Who gets the ticket in Florida?",
+    "choices": [
+      "The driver",
+      "The 16-year-old passenger",
+      "The vehicle owner, if not driving",
+      "The passenger's parent"
+    ],
+    "answer": 0,
+    "explanation": "Drivers are charged if any passenger under 18 is not properly restrained. Passengers 18 or older are charged for their own violation.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 36"
+  },
+  {
+    "id": "fl.car.038",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Florida law, how must a 3-year-old be restrained in a car?",
+    "choices": [
+      "In a child safety seat",
+      "In a booster seat or a safety belt",
+      "With an adult safety belt",
+      "On an adult's lap in the back seat"
+    ],
+    "answer": 0,
+    "explanation": "Florida requires children under age 4 to ride in a child safety seat. Children ages 4 and 5 may use a safety seat or a booster seat.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 36"
+  },
+  {
+    "id": "fl.car.039",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 5-year-old is riding with a parent in Florida. Which restraint meets the law?",
+    "choices": [
+      "A child safety seat or a booster seat",
+      "An adult safety belt only",
+      "No restraint is required after age 4",
+      "A rear-facing seat only"
+    ],
+    "answer": 0,
+    "explanation": "Children ages 4 and 5 must be in either a child safety seat or a booster seat. Children under 4 must be in a safety seat.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 36"
+  },
+  {
+    "id": "fl.car.040",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Another driver is threatening you on a Florida highway. What number can you dial from a mobile phone to reach the Florida Highway Patrol?",
+    "choices": [
+      "*FHP (*347)",
+      "*911",
+      "311",
+      "*DOT (*368)"
+    ],
+    "answer": 0,
+    "explanation": "Stay calm, slow down and let the aggressive driver pass. If you need help, call *FHP (*347) or 911.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 44"
+  },
+  {
+    "id": "fl.car.041",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Florida's equipment rules say which of these is NOT permitted for a driver while operating a vehicle?",
+    "choices": [
+      "Wearing a headset or headphones",
+      "Using a GPS mounted on the dashboard",
+      "Listening to the car radio",
+      "Wearing sunglasses during the day"
+    ],
+    "answer": 0,
+    "explanation": "Florida lists headsets/headphones worn by the driver among equipment that is not permitted while operating a vehicle.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 47"
+  },
+  {
+    "id": "fl.car.042",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is Florida's standard speed limit in school zones?",
+    "choices": [
+      "20 MPH",
+      "15 MPH",
+      "25 MPH",
+      "30 MPH"
+    ],
+    "answer": 0,
+    "explanation": "Florida's standard school zone limit is 20 MPH during posted times or when the beacon is flashing. Speeding fines are doubled there.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 76"
+  },
+  {
+    "id": "fl.car.043",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless another limit is posted, what is the maximum speed in a Florida municipal, business or residential area?",
+    "choices": [
+      "30 MPH",
+      "25 MPH",
+      "35 MPH",
+      "40 MPH"
+    ],
+    "answer": 0,
+    "explanation": "Florida's standard limit in municipal, business or residential areas is 30 MPH unless otherwise posted.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 76"
+  },
+  {
+    "id": "fl.car.044",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless another limit is posted, what is the maximum speed on Florida streets and highways outside business and residential areas?",
+    "choices": [
+      "55 MPH",
+      "45 MPH",
+      "60 MPH",
+      "65 MPH"
+    ],
+    "answer": 0,
+    "explanation": "Florida's standard limit on streets and highways is 55 MPH unless otherwise posted.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 76"
+  },
+  {
+    "id": "fl.car.045",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the highest speed limit allowed anywhere in Florida?",
+    "choices": [
+      "70 MPH",
+      "65 MPH",
+      "75 MPH",
+      "80 MPH"
+    ],
+    "answer": 0,
+    "explanation": "The maximum speed limit on Florida limited access highways is 70 MPH, and Florida speed limits are never higher than 70 MPH.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 36"
+  },
+  {
+    "id": "fl.car.046",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "On a Florida highway posted at 70 MPH, what is the minimum speed limit?",
+    "choices": [
+      "50 MPH",
+      "40 MPH",
+      "45 MPH",
+      "55 MPH"
+    ],
+    "answer": 0,
+    "explanation": "When the posted speed limit is 70 MPH, the minimum speed limit is 50 MPH. Driving so slowly that you block normal traffic is also illegal.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 76"
+  },
+  {
+    "id": "fl.car.047",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Is it legal in Florida to drive up to 10 MPH over the speed limit?",
+    "choices": [
+      "No, any speed over the limit can result in a ticket",
+      "Yes, there is a 10 MPH buffer",
+      "Yes, but only on limited access highways",
+      "Yes, when passing another vehicle"
+    ],
+    "answer": 0,
+    "explanation": "Florida's handbook calls the 'speeding buffer' a myth: you are not allowed to drive up to 10 MPH over the limit. It is also illegal to exceed the limit while passing.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 76"
+  },
+  {
+    "id": "fl.car.048",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What happens to speeding fines in an active Florida school zone or construction zone?",
+    "choices": [
+      "They are doubled",
+      "They are tripled",
+      "They stay the same",
+      "They are replaced by a warning on the first offense"
+    ],
+    "answer": 0,
+    "explanation": "Speeding fines are doubled in school zones and construction zones, with possible civil penalties up to $1,000 and a required driving course.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 37"
+  },
+  {
+    "id": "fl.car.049",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What minimum following distance does the Florida handbook recommend in good weather and traffic?",
+    "choices": [
+      "Four seconds",
+      "Two seconds",
+      "Three seconds",
+      "One car length per 10 MPH"
+    ],
+    "answer": 0,
+    "explanation": "Florida recommends at least four seconds of following distance in favorable conditions, and more in rain, low visibility or heavy traffic.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 86"
+  },
+  {
+    "id": "fl.car.050",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "How far behind a fire truck responding to an emergency must you stay in Florida?",
+    "choices": [
+      "At least 500 feet",
+      "At least 200 feet",
+      "At least 300 feet",
+      "At least 100 feet"
+    ],
+    "answer": 0,
+    "explanation": "It is against Florida law to follow a fire truck responding to an emergency closer than 500 feet.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 70"
+  },
+  {
+    "id": "fl.car.051",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "In Florida, may you turn right on a steady red light?",
+    "choices": [
+      "Yes, after a complete stop, if no sign prohibits it and the way is clear",
+      "Yes, without stopping, if no traffic is coming",
+      "No, never",
+      "Only when a green arrow is also shown"
+    ],
+    "answer": 0,
+    "explanation": "After stopping, you may turn right on red unless a NO TURN ON RED sign is posted, yielding to pedestrians and other traffic.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 59"
+  },
+  {
+    "id": "fl.car.052",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "When does Florida allow a left turn on a steady red light?",
+    "choices": [
+      "From a one-way street onto a one-way street with traffic moving to the left, after stopping",
+      "From a two-way street onto a one-way street, after stopping",
+      "From any street when no traffic is coming",
+      "Never"
+    ],
+    "answer": 0,
+    "explanation": "Florida allows a left turn on red only from a one-way street onto a one-way street with traffic moving to the left, after a full stop and yielding.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 59"
+  },
+  {
+    "id": "fl.car.053",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "How far before a turn must you begin signaling in Florida?",
+    "choices": [
+      "At least 100 feet",
+      "At least 50 feet",
+      "At least 200 feet",
+      "At least 500 feet"
+    ],
+    "answer": 0,
+    "explanation": "Florida law requires a turn signal at least 100 feet before making your turn.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 77"
+  },
+  {
+    "id": "fl.car.054",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "A slow driver ahead of you turns on their left signal to tell you it is safe to pass. Is this legal in Florida?",
+    "choices": [
+      "No, using directional signals to tell drivers behind you to pass is illegal",
+      "Yes, it is a required courtesy",
+      "Yes, but only on two-lane roads",
+      "Yes, but only during the day"
+    ],
+    "answer": 0,
+    "explanation": "Florida law says it is against the law to use your directional signals to tell drivers behind you that they can pass.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 77"
+  },
+  {
+    "id": "fl.car.055",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You reach an intersection where the traffic signals are dark because of a power outage and no officer is present. What should you do?",
+    "choices": [
+      "Treat it as a four-way stop",
+      "Drive through if the main road is wider",
+      "Yield only to vehicles on your left",
+      "Treat it as a yield sign"
+    ],
+    "answer": 0,
+    "explanation": "If a traffic signal is out of order and law enforcement is not present, treat the intersection as a four-way stop: first to arrive goes first; at the same time, yield to the driver on the right.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 59"
+  },
+  {
+    "id": "fl.car.056",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You approach a Florida drawbridge and its signal is flashing yellow. What does it mean?",
+    "choices": [
+      "The drawbridge is in operation; slow down and prepare to stop",
+      "The bridge is closed for the rest of the day",
+      "Proceed at normal speed; the bridge is down",
+      "Speed up to cross before the gates close"
+    ],
+    "answer": 0,
+    "explanation": "A flashing yellow drawbridge signal means the bridge is in operation. Slow down and prepare to stop. A red signal means stop at the marked stop line.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 63"
+  },
+  {
+    "id": "fl.car.057",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "A drawbridge's gates have flashing red lights and are starting to lower. What must you do?",
+    "choices": [
+      "Stop before the gate; never drive around or under it",
+      "Drive under it quickly if there is room",
+      "Drive around it if no boats are visible",
+      "Honk to alert the bridge operator, then proceed"
+    ],
+    "answer": 0,
+    "explanation": "Stop when the lights begin to flash and before the gate lowers. It is against the law to drive around or under a gate that is down or moving.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 63"
+  },
+  {
+    "id": "fl.car.058",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "A two-lane Florida road has double solid yellow center lines, and a bicyclist is riding slowly ahead. Which is true?",
+    "choices": [
+      "You may cross the lines to pass the bicyclist when it is safe",
+      "You must stay behind the bicyclist until the lines become broken",
+      "You may pass in the same lane if you leave 1 foot of space",
+      "You must sound your horn before passing"
+    ],
+    "answer": 0,
+    "explanation": "Florida allows drivers to cross double solid yellow lines to pass a bicyclist when it is safe, giving at least 3 feet of clearance.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 3,
+    "ref": "Official Florida Driver License Handbook, p. 52"
+  },
+  {
+    "id": "fl.car.059",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "You are in the left lane of a Florida multi-lane highway and a faster car comes up behind you. What does Florida law require?",
+    "choices": [
+      "Move out of the left lane",
+      "Speed up to the speed limit and stay in the lane",
+      "Stay in the lane if you are at the speed limit",
+      "Tap your brakes to slow the other driver"
+    ],
+    "answer": 0,
+    "explanation": "Florida law says a driver must move out of the left lane when being overtaken from behind by a vehicle traveling at a faster speed.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 75"
+  },
+  {
+    "id": "fl.car.060",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "When passing on a two-lane road in Florida, you must return to the right side before coming within what distance of an oncoming vehicle?",
+    "choices": [
+      "200 feet",
+      "100 feet",
+      "50 feet",
+      "500 feet"
+    ],
+    "answer": 0,
+    "explanation": "You must return to the right side of the road before coming within 200 feet of any approaching vehicle.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 75"
+  },
+  {
+    "id": "fl.car.061",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "Florida prohibits passing within what distance of an intersection, bridge, tunnel or railroad crossing?",
+    "choices": [
+      "100 feet",
+      "50 feet",
+      "200 feet",
+      "500 feet"
+    ],
+    "answer": 0,
+    "explanation": "You must not pass within 100 feet of an intersection, bridge, viaduct, tunnel or railroad crossing.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 75"
+  },
+  {
+    "id": "fl.car.062",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Florida, you may not park within how many feet of a fire hydrant?",
+    "choices": [
+      "15 feet",
+      "10 feet",
+      "20 feet",
+      "30 feet"
+    ],
+    "answer": 0,
+    "explanation": "Florida prohibits parking within 15 feet of a fire hydrant.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 74"
+  },
+  {
+    "id": "fl.car.063",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Florida, you may not park within how many feet of an intersection?",
+    "choices": [
+      "20 feet",
+      "15 feet",
+      "30 feet",
+      "50 feet"
+    ],
+    "answer": 0,
+    "explanation": "Florida prohibits parking within 20 feet of an intersection.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 74"
+  },
+  {
+    "id": "fl.car.064",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Florida, you may not park within how many feet of a stop sign, flashing signal or traffic signal?",
+    "choices": [
+      "30 feet",
+      "20 feet",
+      "15 feet",
+      "50 feet"
+    ],
+    "answer": 0,
+    "explanation": "Florida prohibits parking within 30 feet of any flashing signal, stop sign or traffic signal.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 74"
+  },
+  {
+    "id": "fl.car.065",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Florida, you may not park within how many feet of a railroad crossing?",
+    "choices": [
+      "50 feet",
+      "15 feet",
+      "30 feet",
+      "100 feet"
+    ],
+    "answer": 0,
+    "explanation": "Florida prohibits parking within 50 feet of a railroad crossing.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 74"
+  },
+  {
+    "id": "fl.car.066",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Florida, you may not park within how many feet of the entrance to a fire, ambulance or rescue station?",
+    "choices": [
+      "20 feet",
+      "15 feet",
+      "50 feet",
+      "75 feet"
+    ],
+    "answer": 0,
+    "explanation": "Florida prohibits parking within 20 feet of the entrance to a fire, ambulance or rescue station.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 74"
+  },
+  {
+    "id": "fl.car.067",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "On a Florida state highway, parking within 30 feet of a rural mailbox is prohibited during which hours?",
+    "choices": [
+      "8 a.m. to 6 p.m.",
+      "7 a.m. to 7 p.m.",
+      "Sunrise to sunset",
+      "At all times"
+    ],
+    "answer": 0,
+    "explanation": "Florida prohibits parking within 30 feet of a rural mailbox on a state highway between 8 a.m. and 6 p.m.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 3,
+    "ref": "Official Florida Driver License Handbook, p. 74"
+  },
+  {
+    "id": "fl.car.068",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "When parallel parking in Florida, how close to the curb must your right-hand wheels be?",
+    "choices": [
+      "Within 12 inches",
+      "Within 18 inches",
+      "Within 6 inches",
+      "Within 24 inches"
+    ],
+    "answer": 0,
+    "explanation": "Park parallel to the curb in the direction of traffic, with the right-hand wheels within 12 inches of the curb or side of the roadway.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 73"
+  },
+  {
+    "id": "fl.car.069",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "What does Florida law require you to do with the keys when you park and leave your vehicle?",
+    "choices": [
+      "Take the keys out of the vehicle",
+      "Leave them in the ignition so it can be moved",
+      "Hide them inside the vehicle",
+      "Nothing; there is no rule about keys"
+    ],
+    "answer": 0,
+    "explanation": "Florida law requires that you take the keys out of your vehicle before leaving it.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 73"
+  },
+  {
+    "id": "fl.car.070",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Florida, how close to a crosswalk at an intersection may you stand or park?",
+    "choices": [
+      "No closer than 20 feet",
+      "No closer than 10 feet",
+      "No closer than 30 feet",
+      "Right up to the crosswalk line"
+    ],
+    "answer": 0,
+    "explanation": "Florida law bars standing or parking on a crosswalk or within 20 feet of a crosswalk at an intersection, except briefly to pick up or drop off passengers.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Florida Statutes, s. 316.1945"
+  },
+  {
+    "id": "fl.car.071",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "Your car breaks down on a Florida limited access highway. How long may it remain parked on the shoulder?",
+    "choices": [
+      "No more than 6 hours",
+      "No more than 2 hours",
+      "No more than 24 hours",
+      "As long as the hazard lights are on"
+    ],
+    "answer": 0,
+    "explanation": "A disabled vehicle must be moved completely off the pavement, and may stay on the shoulder of a limited access highway for no more than 6 hours.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Florida Statutes, s. 316.1945"
+  },
+  {
+    "id": "fl.car.072",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "Which of these may legally travel on a Florida limited access highway?",
+    "choices": [
+      "A motorcycle with a 650 cc engine",
+      "A motor scooter with a 150 cc engine",
+      "A bicycle",
+      "A pedestrian walking on the shoulder"
+    ],
+    "answer": 0,
+    "explanation": "Pedestrians, bicycles, animal-drawn vehicles and motor-driven cycles/motor scooters of 150 cc or less are not allowed on Florida limited access highways.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 71"
+  },
+  {
+    "id": "fl.car.073",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "How are exit numbers on Florida interstates assigned?",
+    "choices": [
+      "They match the mile markers",
+      "They are numbered in order, 1, 2, 3, from the state line",
+      "They match the speed limit",
+      "They are assigned by county"
+    ],
+    "answer": 0,
+    "explanation": "In Florida, exits match the mile markers on the highway, so knowing your mile marker helps you plan your exit.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 72"
+  },
+  {
+    "id": "fl.car.074",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a Florida multi-lane highway, you approach a police car stopped on the shoulder with its lights flashing. What does the Move Over Law require?",
+    "choices": [
+      "Move out of the lane closest to it, or slow to 20 MPH below the limit if you cannot move over safely",
+      "Slow to 10 MPH below the limit and stay in your lane",
+      "Stop until the officer waves you on",
+      "Nothing, unless the officer is outside the vehicle"
+    ],
+    "answer": 0,
+    "explanation": "On a multi-lane road you must vacate the lane closest to the stopped vehicle when safe. If you cannot move over safely, slow to 20 MPH below the posted limit.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 73"
+  },
+  {
+    "id": "fl.car.075",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a two-lane Florida road posted at 55 MPH, a tow truck with flashing lights is stopped on the shoulder. How fast may you pass it?",
+    "choices": [
+      "35 MPH",
+      "45 MPH",
+      "25 MPH",
+      "50 MPH"
+    ],
+    "answer": 0,
+    "explanation": "On a two-lane road the Move Over Law requires slowing to 20 MPH below the posted limit: 55 - 20 = 35 MPH.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 73"
+  },
+  {
+    "id": "fl.car.076",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "The Move Over Law applies on a two-lane road posted at 20 MPH. What speed must you slow to when passing a stopped emergency vehicle?",
+    "choices": [
+      "5 MPH",
+      "10 MPH",
+      "15 MPH",
+      "0 MPH; you must stop"
+    ],
+    "answer": 0,
+    "explanation": "If the speed limit is 20 MPH or less, the Move Over Law requires you to travel at 5 MPH.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 3,
+    "ref": "Official Florida Driver License Handbook, p. 73"
+  },
+  {
+    "id": "fl.car.077",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Does Florida's Move Over Law apply to a disabled car stopped on the shoulder with its hazard lights on?",
+    "choices": [
+      "Yes, you must move over or slow down for it",
+      "No, it only covers police and fire vehicles",
+      "No, it only covers vehicles with blue lights",
+      "Only if a tow truck is already there"
+    ],
+    "answer": 0,
+    "explanation": "Florida's Move Over Law also protects disabled vehicles that are stopped and showing hazard lights, using flares or signs, or with people visibly present.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 73"
+  },
+  {
+    "id": "fl.car.078",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "An ambulance with siren and flashing lights approaches you. What does Florida law require?",
+    "choices": [
+      "Pull over to the closest edge of the road and stop until it passes",
+      "Speed up to get out of its way",
+      "Stop immediately in your lane",
+      "Keep driving at the same speed and let it go around"
+    ],
+    "answer": 0,
+    "explanation": "Yield to emergency vehicles using sirens or flashing lights: pull over to the closest edge of the roadway, stop until they pass, and do not block intersections.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 92"
+  },
+  {
+    "id": "fl.car.079",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a highway divided by a raised median, a school bus stopped on the other side has its stop signal out. You are traveling the opposite direction. What must you do?",
+    "choices": [
+      "You do not have to stop, but proceed with caution",
+      "Stop and wait until the stop signal is withdrawn",
+      "Stop only if children are visible",
+      "Slow to 20 MPH and keep going"
+    ],
+    "answer": 0,
+    "explanation": "If the highway is divided by a raised barrier or an unpaved median at least five feet wide, traffic moving in the opposite direction of the bus does not have to stop.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 97"
+  },
+  {
+    "id": "fl.car.080",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A four-lane road is separated only by painted lines. A school bus stopped on the other side displays its stop signal. What must you do?",
+    "choices": [
+      "Stop, because painted lines are not a barrier",
+      "Keep going, because you are on the other side of the road",
+      "Slow to 15 MPH and keep going",
+      "Stop only if you are in the lane next to the center line"
+    ],
+    "answer": 0,
+    "explanation": "Painted lines or pavement markings are not barriers. On a road without a raised barrier or 5-foot unpaved median, traffic in both directions must stop for a stopped school bus.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 3,
+    "ref": "Official Florida Driver License Handbook, p. 97"
+  },
+  {
+    "id": "fl.car.081",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a Florida highway divided by an unpaved median, how wide must the median be for opposite-direction traffic to skip stopping for a school bus?",
+    "choices": [
+      "At least 5 feet",
+      "At least 2 feet",
+      "At least 10 feet",
+      "At least 20 feet"
+    ],
+    "answer": 0,
+    "explanation": "Opposite-direction traffic need not stop if the highway is divided by a raised barrier or an unpaved median at least five feet wide.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 3,
+    "ref": "Official Florida Driver License Handbook, p. 97"
+  },
+  {
+    "id": "fl.car.082",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "What is the minimum fine in Florida for passing a stopped school bus on the side where children enter and exit?",
+    "choices": [
+      "$465",
+      "$265",
+      "$100",
+      "$1,500"
+    ],
+    "answer": 0,
+    "explanation": "Passing a stopped school bus carries a minimum $265 fine, 4 points and a required driver improvement course; passing on the side where children enter and exit raises the minimum fine to $465.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 3,
+    "ref": "Official Florida Driver License Handbook, p. 35"
+  },
+  {
+    "id": "fl.car.083",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "What is the minimum clearance Florida law requires when passing a bicyclist?",
+    "choices": [
+      "3 feet",
+      "2 feet",
+      "4 feet",
+      "5 feet"
+    ],
+    "answer": 0,
+    "explanation": "Florida law requires at least three feet of clearance and caution or slow speed when driving next to or passing bicyclists.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 89"
+  },
+  {
+    "id": "fl.car.084",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "In Florida, which bicyclists are required to wear a helmet?",
+    "choices": [
+      "Riders and passengers under age 16",
+      "Riders and passengers under age 18",
+      "All riders, of any age",
+      "Only riders under age 12"
+    ],
+    "answer": 0,
+    "explanation": "All bicyclists and passengers under age 16 must wear a helmet that meets federal safety standards.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 90"
+  },
+  {
+    "id": "fl.car.085",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A car in the next lane has stopped at a marked crosswalk, but you cannot see anyone crossing. What should you do?",
+    "choices": [
+      "Stop; you may not pass a vehicle stopped at a crosswalk",
+      "Pass carefully, since no pedestrian is visible",
+      "Honk and then pass",
+      "Change lanes and pass on the left"
+    ],
+    "answer": 0,
+    "explanation": "You may not pass a vehicle stopped at a crosswalk to let a pedestrian cross. Assume a pedestrian may be crossing even if you cannot see one.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 96"
+  },
+  {
+    "id": "fl.car.086",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A funeral procession's lead vehicle has entered an intersection, and the signal facing the procession turns red. What happens?",
+    "choices": [
+      "The rest of the procession may continue through; other traffic must yield",
+      "The procession must stop and wait for the green light",
+      "Cross traffic may drive between the procession cars",
+      "Only the lead vehicle has the right-of-way"
+    ],
+    "answer": 0,
+    "explanation": "Drivers must yield to funeral processions. Once the lead vehicle enters an intersection, the rest of the procession may follow through regardless of traffic control devices.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 92"
+  },
+  {
+    "id": "fl.car.087",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A city bus has signaled and is pulling out of a designated bus pullout bay into your lane. What does Florida law require?",
+    "choices": [
+      "Yield the right-of-way to the bus",
+      "Speed up to pass the bus first",
+      "Sound your horn and keep going",
+      "Change lanes without signaling"
+    ],
+    "answer": 0,
+    "explanation": "All drivers must yield to public transit buses traveling in the same direction that have signaled and are reentering traffic from a designated pullout bay.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 96"
+  },
+  {
+    "id": "fl.car.088",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A train is approaching a crossing and the warning lights are flashing. Where must you stop under Florida law?",
+    "choices": [
+      "Between 15 and 50 feet from the nearest rail",
+      "Between 5 and 10 feet from the nearest rail",
+      "Between 50 and 100 feet from the nearest rail",
+      "Right at the edge of the first rail"
+    ],
+    "answer": 0,
+    "explanation": "Florida law requires stopping within 50 feet but not less than 15 feet from the nearest rail, and waiting until it is safe to cross. Never drive around or under a gate.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Florida Statutes, s. 316.1575"
+  },
+  {
+    "id": "fl.car.089",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When does Florida law require you to use your headlights?",
+    "choices": [
+      "From sunset to sunrise, and in rain, smoke or fog",
+      "Only after dark on unlit roads",
+      "From one hour after sunset to one hour before sunrise",
+      "Only when visibility is under 500 feet"
+    ],
+    "answer": 0,
+    "explanation": "Florida requires headlights between sunset and sunrise, and the handbook says to turn them on in low visibility such as rain, smoke or fog. Parking lights are not a substitute.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 81"
+  },
+  {
+    "id": "fl.car.090",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "It starts raining during the day and you switch on your windshield wipers. What else does Florida require?",
+    "choices": [
+      "Turn on your headlights",
+      "Turn on your hazard lights",
+      "Turn on your high beams",
+      "Nothing else, since it is daytime"
+    ],
+    "answer": 0,
+    "explanation": "Florida's handbook says that when you turn on your windshield wipers, you must turn on your headlights.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 80"
+  },
+  {
+    "id": "fl.car.091",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "At night, within how many feet of an oncoming vehicle must you switch from high beams to low beams?",
+    "choices": [
+      "500 feet",
+      "300 feet",
+      "200 feet",
+      "1,000 feet"
+    ],
+    "answer": 0,
+    "explanation": "Florida law prohibits using high beams within 500 feet of an oncoming vehicle.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 81"
+  },
+  {
+    "id": "fl.car.092",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "At night, within how many feet of a vehicle you are following must you switch to low beams?",
+    "choices": [
+      "300 feet",
+      "500 feet",
+      "200 feet",
+      "100 feet"
+    ],
+    "answer": 0,
+    "explanation": "Florida law prohibits using high beams within 300 feet of the vehicle ahead of you.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 81"
+  },
+  {
+    "id": "fl.car.093",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "After a crash that damaged property, no officer made a report. What must a Florida driver do?",
+    "choices": [
+      "Submit a written crash report to FLHSMV within 10 days",
+      "Nothing, if no one was hurt",
+      "Report it to the insurance company within 30 days only",
+      "Call the DMV within 24 hours"
+    ],
+    "answer": 0,
+    "explanation": "If a crash damages a vehicle or property and does not require a law enforcement report, you must make a written report to FLHSMV within 10 days (this can be done online).",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 85"
+  },
+  {
+    "id": "fl.car.094",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "In which crash will a Florida law enforcement officer complete a written crash report?",
+    "choices": [
+      "One where a vehicle has to be towed from the scene",
+      "Any crash, no matter how minor",
+      "Only crashes on interstates",
+      "Only crashes involving a commercial truck"
+    ],
+    "answer": 0,
+    "explanation": "An officer completes a written report if the crash involves a DUI charge, death, injury, or property damage to the extent a vehicle must be towed.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 85"
+  },
+  {
+    "id": "fl.car.095",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You are in a minor crash with no injuries and your car is blocking traffic. What does Florida law say?",
+    "choices": [
+      "You must move the vehicle, or have it moved, out of traffic",
+      "Leave it exactly where it is until police arrive",
+      "Leave it in place only if it is drivable",
+      "Move it only if the other driver agrees"
+    ],
+    "answer": 0,
+    "explanation": "If the crash is minor and your vehicle is blocking the flow of traffic, Florida requires you to move it or have it moved.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 85"
+  },
+  {
+    "id": "fl.car.096",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "A driver leaves the scene of a Florida crash that caused an injury (not serious). What is the offense?",
+    "choices": [
+      "A third-degree felony, with a license loss of at least 3 years",
+      "A noncriminal traffic infraction",
+      "A second-degree misdemeanor with no license loss",
+      "A first-degree felony with a 4-year minimum prison term"
+    ],
+    "answer": 0,
+    "explanation": "Leaving the scene of a crash with injury is a third-degree felony in Florida. Leaving the scene of any injury or death crash brings a license loss of at least 3 years.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 3,
+    "ref": "Official Florida Driver License Handbook, p. 85"
+  },
+  {
+    "id": "fl.car.097",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "If your car stalls on railroad tracks and the warning lights start flashing, what is the minimum time before a train can reach the crossing?",
+    "choices": [
+      "20 seconds",
+      "60 seconds",
+      "2 minutes",
+      "5 seconds"
+    ],
+    "answer": 0,
+    "explanation": "Florida's handbook says 20 seconds is the minimum time it takes a train to reach the crossing after the warning lights begin flashing. Get everyone out and away immediately.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 3,
+    "ref": "Official Florida Driver License Handbook, p. 87"
+  },
+  {
+    "id": "fl.car.098",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You were at fault in a crash and someone was taken to the hospital. What does Florida require to keep your license?",
+    "choices": [
+      "Complete a basic driver improvement (Traffic Collision Avoidance) course",
+      "Retake the Class E Knowledge Exam",
+      "Install an ignition interlock device",
+      "Nothing, if your insurance pays for the damage"
+    ],
+    "answer": 0,
+    "explanation": "If you are found at fault in a crash where someone was transported to a hospital, Florida requires you to complete a basic driver improvement course.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 3,
+    "ref": "Official Florida Driver License Handbook, p. 25"
+  },
+  {
+    "id": "fl.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Under Florida law, who may ride a motorcycle without a helmet?",
+    "choices": [
+      "A rider 21 or older who carries at least $10,000 in medical insurance",
+      "Any rider 18 or older",
+      "Any rider with a motorcycle endorsement",
+      "No one; helmets are always required"
+    ],
+    "answer": 0,
+    "explanation": "Florida requires motorcycle operators to wear a helmet unless they are 21 or older AND carry a medical insurance policy with at least $10,000 in benefits for injuries.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 95"
+  },
+  {
+    "id": "fl.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 20-year-old Florida rider has $25,000 in medical insurance. Must they wear a helmet?",
+    "choices": [
+      "Yes, riders under 21 must always wear a helmet",
+      "No, because their insurance is over $10,000",
+      "No, because they are over 18",
+      "Only on limited access highways"
+    ],
+    "answer": 0,
+    "explanation": "The helmet exemption applies only to riders 21 or older who also carry at least $10,000 in medical benefits. A 20-year-old must wear a helmet.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 95"
+  },
+  {
+    "id": "fl.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Is lane splitting (riding between lanes or rows of vehicles) legal in Florida?",
+    "choices": [
+      "No, it is illegal",
+      "Yes, when traffic is stopped",
+      "Yes, below 30 MPH",
+      "Yes, on limited access highways only"
+    ],
+    "answer": 0,
+    "explanation": "Florida law prohibits operating a motorcycle between lanes of traffic or between adjacent lines or rows of vehicles.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Florida Statutes, s. 316.209"
+  },
+  {
+    "id": "fl.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "In Florida, how many motorcycles may ride side by side in a single lane?",
+    "choices": [
+      "No more than two",
+      "No more than three",
+      "Only one",
+      "Any number"
+    ],
+    "answer": 0,
+    "explanation": "Florida law says motorcycles may not be operated more than two abreast in a single lane.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Florida Statutes, s. 316.209"
+  },
+  {
+    "id": "fl.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What must a new rider complete before Florida will add a motorcycle endorsement to their license?",
+    "choices": [
+      "The Basic RiderCourse with an authorized Florida Rider Training Program sponsor",
+      "A road test at a driver license office only",
+      "A 20-question motorcycle knowledge test only",
+      "50 hours of supervised riding"
+    ],
+    "answer": 0,
+    "explanation": "New motorcyclists must pass the Basic RiderCourse (BRC) through an authorized sponsor before the endorsement can be added (s. 322.12(5)(a)).",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 95"
+  },
+  {
+    "id": "fl.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "In Florida, a motorcycle endorsement or Motorcycle Only license is required to ride a motorcycle with an engine larger than what size?",
+    "choices": [
+      "50 cc",
+      "150 cc",
+      "250 cc",
+      "100 cc"
+    ],
+    "answer": 0,
+    "explanation": "To operate any two- or three-wheel motorcycle with an engine over 50 cc, you need a motorcycle endorsement or a Motorcycle Only license.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 12"
+  },
+  {
+    "id": "fl.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 16-year-old in Florida wants a Motorcycle Only license. What must they do first?",
+    "choices": [
+      "Hold a learner's license for 12 months with no moving violation convictions",
+      "Hold a learner's license for 6 months",
+      "Wait until age 18",
+      "Get a parent to ride along for 50 hours"
+    ],
+    "answer": 0,
+    "explanation": "Riders under 18 must hold a learner's license for 12 months with no moving violation convictions before a Motorcycle Only license is issued, and must complete the BRC.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 95"
+  },
+  {
+    "id": "fl.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Are Florida motorcycle operators required to carry Personal Injury Protection (PIP) insurance?",
+    "choices": [
+      "No, motorcycle and moped operators do not have to carry PIP",
+      "Yes, the same $10,000 PIP as cars",
+      "Yes, $20,000 PIP",
+      "Only riders under 21"
+    ],
+    "answer": 0,
+    "explanation": "Florida does not require motorcycle and moped operators to carry PIP insurance. Riders 21+ who skip the helmet must have at least $10,000 in medical coverage.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 3,
+    "ref": "Official Florida Driver License Handbook, p. 95"
+  },
+  {
+    "id": "fl.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Besides a helmet for younger riders, what protective gear does Florida law require for every motorcycle operator?",
+    "choices": [
+      "An approved eye-protective device",
+      "A reflective vest",
+      "Over-the-ankle boots",
+      "Full-finger gloves"
+    ],
+    "answer": 0,
+    "explanation": "Florida law says a person may not operate a motorcycle unless wearing an approved eye-protective device over the eyes.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 2,
+    "ref": "Florida Statutes, s. 316.211"
+  },
+  {
+    "id": "fl.mc.010",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "After passing the Basic RiderCourse, how long do you have to get the motorcycle endorsement added in Florida?",
+    "choices": [
+      "One year",
+      "30 days",
+      "90 days",
+      "Two years"
+    ],
+    "answer": 0,
+    "explanation": "You must obtain the endorsement within one year of passing the course; after that, the completion card is invalid and you must take another course.",
+    "states": [
+      "FL"
+    ],
+    "difficulty": 3,
+    "ref": "FLHSMV, Motorcycle Rider Education & Endorsements page"
+  }
+]

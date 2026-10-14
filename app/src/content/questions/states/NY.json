@@ -98,52 +98,14 @@
     "id": "ny.car.006",
     "track": "car",
     "topic": "alcohol-drugs",
-    "prompt": "After a first Zero Tolerance suspension, what must a young New York driver pay to be relicensed?",
-    "choices": [
-      "A $50 suspension termination fee only",
-      "A $750 civil penalty and a $100 reapplication fee",
-      "A $125 civil penalty and a $100 suspension termination fee",
-      "A $500 civil penalty only"
-    ],
-    "answer": 2,
-    "explanation": "To be relicensed after a Zero Tolerance suspension, the driver must pay a $125 civil penalty and a $100 suspension termination fee.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 3,
-    "ref": "New York State Driver's Manual, p. 57"
-  },
-  {
-    "id": "ny.car.007",
-    "track": "car",
-    "topic": "alcohol-drugs",
-    "prompt": "What is the penalty for a second Zero Tolerance violation by a driver under 21?",
-    "choices": [
-      "License revoked for 60 days",
-      "License revoked for at least one year or until age 21, whichever is longer",
-      "Another six-month suspension",
-      "A 90-day suspension and a fine"
-    ],
-    "answer": 1,
-    "explanation": "For a second Zero Tolerance violation, the license is revoked for at least one year or until the driver turns 21, whichever is longer.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 3,
-    "ref": "New York State Driver's Manual, p. 57"
-  },
-  {
-    "id": "ny.car.008",
-    "track": "car",
-    "topic": "alcohol-drugs",
     "prompt": "A New York driver age 21 or older refuses a chemical (breath) test for the first time after an arrest. What is the minimum license penalty?",
     "choices": [
-      "Revocation for at least one year",
-      "Suspension for 90 days",
       "Revocation for at least six months",
-      "A fine only, with no license action"
+      "A fine only, with no license action",
+      "Revocation for at least one year",
+      "Suspension for 90 days"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "A first chemical test refusal by a driver 21 or older brings a minimum one-year revocation, plus a $500 civil penalty before a new license can be issued.",
     "states": [
       "NY"
@@ -152,36 +114,17 @@
     "ref": "New York State Driver's Manual, p. 21"
   },
   {
-    "id": "ny.car.009",
-    "track": "car",
-    "topic": "alcohol-drugs",
-    "prompt": "What civil penalty must a New York driver pay after a first chemical test refusal revocation (non-commercial vehicle) before getting a new license?",
-    "choices": [
-      "$125",
-      "$250",
-      "$1,000",
-      "$500"
-    ],
-    "answer": 3,
-    "explanation": "After a chemical test refusal revocation, the driver must pay a $500 civil penalty ($550 if driving a commercial vehicle), or $750 if within five years of an earlier alcohol, drug or refusal revocation.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 3,
-    "ref": "New York State Driver's Manual, p. 23"
-  },
-  {
-    "id": "ny.car.010",
+    "id": "ny.car.007",
     "track": "car",
     "topic": "alcohol-drugs",
     "prompt": "You refuse a breath test after a DWI arrest, and later the court finds you not guilty of DWI. A DMV hearing confirms you refused the test. What happens?",
     "choices": [
-      "Only a warning is placed on your record",
       "You must retake the written test but keep your license",
       "Your license is still revoked for the refusal",
-      "Your license is returned because you were found not guilty"
+      "Your license is returned because you were found not guilty",
+      "Only a warning is placed on your record"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Refusal is a separate issue from guilt. If a DMV hearing confirms you refused, your license is revoked even if you are found not guilty of the alcohol or drug charge.",
     "states": [
       "NY"
@@ -190,26 +133,7 @@
     "ref": "New York State Driver's Manual, p. 56"
   },
   {
-    "id": "ny.car.011",
-    "track": "car",
-    "topic": "alcohol-drugs",
-    "prompt": "Under New York's Implied Consent law, when is your license first suspended if you refuse a chemical test after an arrest?",
-    "choices": [
-      "Thirty days after the arrest",
-      "When you are arraigned in court on the alcohol or drug charge",
-      "Only after you are convicted",
-      "Only if you also fail a field sobriety test"
-    ],
-    "answer": 1,
-    "explanation": "If you refuse the test after being arrested, your license is suspended at your arraignment on the alcohol or drug-related charge, and a DMV hearing can then lead to revocation.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 3,
-    "ref": "New York State Driver's Manual, p. 56"
-  },
-  {
-    "id": "ny.car.012",
+    "id": "ny.car.008",
     "track": "car",
     "topic": "alcohol-drugs",
     "prompt": "What is the minimum license penalty for a first DWI conviction (.08 BAC or higher) for a New York driver 21 or older?",
@@ -228,7 +152,7 @@
     "ref": "New York State Driver's Manual, p. 20"
   },
   {
-    "id": "ny.car.013",
+    "id": "ny.car.009",
     "track": "car",
     "topic": "alcohol-drugs",
     "prompt": "What is the fine range for a first-offense DWI in New York (not counting surcharges)?",
@@ -247,7 +171,7 @@
     "ref": "New York State Driver's Manual, p. 58"
   },
   {
-    "id": "ny.car.014",
+    "id": "ny.car.010",
     "track": "car",
     "topic": "alcohol-drugs",
     "prompt": "What license penalty applies to a first conviction for Driving While Ability Impaired by alcohol (DWAI) in New York?",
@@ -266,7 +190,7 @@
     "ref": "New York State Driver's Manual, p. 20"
   },
   {
-    "id": "ny.car.015",
+    "id": "ny.car.011",
     "track": "car",
     "topic": "alcohol-drugs",
     "prompt": "Under Leandra's Law, a driver who commits an alcohol-related driving offense with a child of what age in the vehicle can be charged with a felony?",
@@ -285,7 +209,7 @@
     "ref": "New York State Driver's Manual, p. 59"
   },
   {
-    "id": "ny.car.016",
+    "id": "ny.car.012",
     "track": "car",
     "topic": "alcohol-drugs",
     "prompt": "After a DWI conviction in New York, the court must order an ignition interlock on any vehicle the driver owns or operates for at least how long?",
@@ -304,7 +228,7 @@
     "ref": "New York State Driver's Manual, p. 59"
   },
   {
-    "id": "ny.car.017",
+    "id": "ny.car.013",
     "track": "car",
     "topic": "alcohol-drugs",
     "prompt": "Which statement about New York's open container law is correct?",
@@ -323,7 +247,7 @@
     "ref": "New York State Driver's Manual, p. 57"
   },
   {
-    "id": "ny.car.018",
+    "id": "ny.car.014",
     "track": "car",
     "topic": "alcohol-drugs",
     "prompt": "What is the maximum fine for a first open container conviction in New York (not counting surcharges)?",
@@ -342,7 +266,7 @@
     "ref": "New York State Driver's Manual, p. 57"
   },
   {
-    "id": "ny.car.019",
+    "id": "ny.car.015",
     "track": "car",
     "topic": "alcohol-drugs",
     "prompt": "A passenger in a regular car on a New York street consumes cannabis while the car is moving. Under state law, this is:",
@@ -361,55 +285,17 @@
     "ref": "New York State Driver's Manual, p. 57"
   },
   {
-    "id": "ny.car.020",
-    "track": "car",
-    "topic": "alcohol-drugs",
-    "prompt": "A New York driver under 21 is convicted of an alcohol-related driving violation. What is the minimum license penalty?",
-    "choices": [
-      "Revocation for at least one year",
-      "Suspension for 90 days",
-      "Revocation for six months",
-      "Suspension for 60 days"
-    ],
-    "answer": 0,
-    "explanation": "If you are under 21 when arrested, a conviction for any of the alcohol or drug-related violations results in a minimum one-year revocation.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 3,
-    "ref": "New York State Driver's Manual, p. 21"
-  },
-  {
-    "id": "ny.car.021",
-    "track": "car",
-    "topic": "alcohol-drugs",
-    "prompt": "If you are convicted of DWI in New York, what Driver Responsibility Assessment must you pay in addition to fines?",
-    "choices": [
-      "$100 each year for three years",
-      "$250 one time",
-      "$500 each year for two years",
-      "$250 each year for three years"
-    ],
-    "answer": 3,
-    "explanation": "A DWI, DWAI, Agg-DWI, drug-impaired conviction or a chemical test refusal brings a Driver Responsibility Assessment of $250 per year for three years.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 3,
-    "ref": "New York State Driver's Manual, p. 23"
-  },
-  {
-    "id": "ny.car.022",
+    "id": "ny.car.016",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "What is the minimum age to apply for a learner permit in New York?",
     "choices": [
-      "15 and a half",
-      "17",
       "16",
-      "15"
+      "15",
+      "15 and a half",
+      "17"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "You must be at least 16 to apply for a New York learner permit. Students who are 15 years and 11 months can take the written test online at participating high schools, but must be 16 to get the permit.",
     "states": [
       "NY"
@@ -418,17 +304,17 @@
     "ref": "New York State Driver's Manual, p. 11"
   },
   {
-    "id": "ny.car.023",
+    "id": "ny.car.017",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "How long must a New York junior learner permit be held before you can schedule a road test?",
     "choices": [
-      "At least one year",
-      "At least six months, not counting any time it was suspended or revoked",
       "At least 30 days",
-      "At least 90 days"
+      "At least 90 days",
+      "At least one year",
+      "At least six months, not counting any time it was suspended or revoked"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "A junior permit must be held for a minimum of six months, excluding any time it was suspended or revoked, before a road test can be scheduled.",
     "states": [
       "NY"
@@ -437,17 +323,17 @@
     "ref": "New York State Driver's Manual, p. 19"
   },
   {
-    "id": "ny.car.024",
+    "id": "ny.car.018",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "Before a junior driver's road test, the parent or guardian must certify how much supervised practice driving?",
     "choices": [
-      "At least 50 hours, including at least 15 hours after sunset",
-      "At least 40 hours, including 10 at night",
       "At least 30 hours, including 5 at night",
-      "At least 60 hours, including 20 at night"
+      "At least 60 hours, including 20 at night",
+      "At least 50 hours, including at least 15 hours after sunset",
+      "At least 40 hours, including 10 at night"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Form MV-262 certifies at least 50 hours of supervised practice, with at least 15 hours after sunset. DMV also recommends at least 10 hours in moderate to heavy traffic.",
     "states": [
       "NY"
@@ -456,17 +342,17 @@
     "ref": "New York State Driver's Manual, p. 14"
   },
   {
-    "id": "ny.car.025",
+    "id": "ny.car.019",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "In New York, who may supervise a learner permit holder upstate (outside NYC and Long Island) during daytime hours?",
     "choices": [
-      "Any licensed driver at least 18 years old",
-      "Any passenger who is 25 or older",
       "Only a parent or guardian",
-      "A licensed driver at least 21 years old with a license valid for the vehicle, seated in the front seat"
+      "A licensed driver at least 21 years old with a license valid for the vehicle, seated in the front seat",
+      "Any licensed driver at least 18 years old",
+      "Any passenger who is 25 or older"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "A permit holder must be supervised by a licensed driver at least 21 years old, with a license valid for the vehicle being driven, who sits in the front seat.",
     "states": [
       "NY"
@@ -475,17 +361,17 @@
     "ref": "New York State Driver's Manual, p. 11"
   },
   {
-    "id": "ny.car.026",
+    "id": "ny.car.020",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "A 16-year-old with a junior learner permit wants to practice in New York City. Who may supervise?",
     "choices": [
-      "Any licensed driver age 18 or older",
-      "Any adult passenger, licensed or not",
       "Only a parent, guardian, or driving instructor (age 21+ and properly licensed)",
-      "Any licensed driver age 21 or older"
+      "Any licensed driver age 21 or older",
+      "Any licensed driver age 18 or older",
+      "Any adult passenger, licensed or not"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "In Long Island and New York City, the supervising driver must be a parent, guardian or driving instructor (including a driver education teacher), age 21 or older with a valid license for the vehicle.",
     "states": [
       "NY"
@@ -494,17 +380,17 @@
     "ref": "New York State Driver's Manual, p. 13"
   },
   {
-    "id": "ny.car.027",
+    "id": "ny.car.021",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "With a junior learner permit, who may ride in the front passenger seat?",
     "choices": [
-      "Any passenger over 16",
-      "Only the supervising driver",
       "Any licensed adult",
-      "Any family member"
+      "Any family member",
+      "Any passenger over 16",
+      "Only the supervising driver"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "If you hold a junior permit, the only passenger allowed in the front seat is your supervising driver.",
     "states": [
       "NY"
@@ -513,45 +399,7 @@
     "ref": "New York State Driver's Manual, p. 13"
   },
   {
-    "id": "ny.car.028",
-    "track": "car",
-    "topic": "laws-licensing",
-    "prompt": "Where are New York learner permit holders NOT allowed to drive, even with a proper supervisor?",
-    "choices": [
-      "On the Taconic State Parkway in Westchester County",
-      "On any road with a speed limit over 45 mph",
-      "On any state highway",
-      "On rural roads after 6 PM"
-    ],
-    "answer": 0,
-    "explanation": "Permit holders cannot drive in DMV road test areas, on streets within NYC parks, on bridges or tunnels under the Triborough Bridge and Tunnel Authority, or on the Cross County, Hutchinson River, Saw Mill River or Taconic State parkways in Westchester County.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 3,
-    "ref": "New York State Driver's Manual, p. 13"
-  },
-  {
-    "id": "ny.car.029",
-    "track": "car",
-    "topic": "laws-licensing",
-    "prompt": "A junior permit holder lives on Long Island (Nassau or Suffolk County). May they practice driving there at 10 PM with a parent?",
-    "choices": [
-      "Yes, with any licensed driver age 21 or older",
-      "Yes, if the parent is in the front seat",
-      "Yes, but only on expressways",
-      "No, junior permit holders may not drive on Long Island between 9 PM and 5 AM"
-    ],
-    "answer": 3,
-    "explanation": "Under the regional restrictions for a junior permit, driving is not allowed in New York City or on Long Island between 9 PM and 5 AM. Upstate, night practice is allowed with a parent, guardian, or instructor.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 3,
-    "ref": "New York State Driver's Manual, p. 12"
-  },
-  {
-    "id": "ny.car.030",
+    "id": "ny.car.022",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "What is the minimum age for a New York Class D (senior) driver license?",
@@ -570,7 +418,7 @@
     "ref": "New York State Driver's Manual, p. 6"
   },
   {
-    "id": "ny.car.031",
+    "id": "ny.car.023",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "A 16-year-old has a New York junior license (Class DJ). How many passengers under age 21 may ride with them?",
@@ -589,7 +437,7 @@
     "ref": "New York State Driver's Manual, p. 15"
   },
   {
-    "id": "ny.car.032",
+    "id": "ny.car.024",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "Where may a New York junior license (Class DJ) holder NOT drive at all?",
@@ -608,7 +456,7 @@
     "ref": "New York State Driver's Manual, p. 16"
   },
   {
-    "id": "ny.car.033",
+    "id": "ny.car.025",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "An upstate junior license holder wants to drive alone to a friend's house at 3 PM. Is this allowed?",
@@ -627,7 +475,7 @@
     "ref": "New York State Driver's Manual, p. 16"
   },
   {
-    "id": "ny.car.034",
+    "id": "ny.car.026",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "An upstate junior license holder wants to drive at 11 PM. Which trip may they make alone?",
@@ -646,7 +494,7 @@
     "ref": "New York State Driver's Manual, p. 16"
   },
   {
-    "id": "ny.car.035",
+    "id": "ny.car.027",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "A junior driver is convicted of a serious traffic violation worth three or more points. What happens to the junior license?",
@@ -665,7 +513,7 @@
     "ref": "New York State Driver's Manual, p. 19"
   },
   {
-    "id": "ny.car.036",
+    "id": "ny.car.028",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "A junior driver is convicted of texting while driving for the first time. What is the license penalty?",
@@ -684,7 +532,7 @@
     "ref": "New York State Driver's Manual, p. 19"
   },
   {
-    "id": "ny.car.037",
+    "id": "ny.car.029",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "If you are 18 or older when you pass your road test in New York, how long is your probation period?",
@@ -703,7 +551,7 @@
     "ref": "New York State Driver's Manual, p. 19"
   },
   {
-    "id": "ny.car.038",
+    "id": "ny.car.030",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "A new driver on probation is convicted of speeding. What happens?",
@@ -722,7 +570,7 @@
     "ref": "New York State Driver's Manual, p. 19"
   },
   {
-    "id": "ny.car.039",
+    "id": "ny.car.031",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "Before scheduling a New York road test, most new drivers must complete which course?",
@@ -741,7 +589,7 @@
     "ref": "New York State Driver's Manual, p. 14"
   },
   {
-    "id": "ny.car.040",
+    "id": "ny.car.032",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "What vision standard must you meet to pass the New York DMV vision test?",
@@ -760,7 +608,7 @@
     "ref": "New York State Driver's Manual, p. 10"
   },
   {
-    "id": "ny.car.041",
+    "id": "ny.car.033",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "To pass the New York written permit test, what must you score?",
@@ -779,7 +627,7 @@
     "ref": "New York State Driver's Manual, p. 10"
   },
   {
-    "id": "ny.car.042",
+    "id": "ny.car.034",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "You move to a new address in New York. How soon must you notify the DMV?",
@@ -798,7 +646,7 @@
     "ref": "New York State Driver's Manual, p. 17"
   },
   {
-    "id": "ny.car.043",
+    "id": "ny.car.035",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "You become a permanent New York resident and hold a valid license from another state. How soon must you get a New York license?",
@@ -817,36 +665,17 @@
     "ref": "New York State Driver's Manual, p. 6"
   },
   {
-    "id": "ny.car.044",
-    "track": "car",
-    "topic": "laws-licensing",
-    "prompt": "What is the minimum age to register a vehicle in New York?",
-    "choices": [
-      "16",
-      "18",
-      "21",
-      "17"
-    ],
-    "answer": 0,
-    "explanation": "You must be at least 16 to register a vehicle in New York. You can title a vehicle at any age.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 2,
-    "ref": "New York State Driver's Manual, p. 24"
-  },
-  {
-    "id": "ny.car.045",
+    "id": "ny.car.036",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "Which is New York's minimum liability insurance coverage for injury?",
     "choices": [
+      "$25,000 for one person and $50,000 for two or more people",
       "$15,000 for one person and $30,000 for two or more people",
       "$50,000 for one person and $100,000 for two or more people",
-      "$30,000 for one person and $60,000 for two or more people",
-      "$25,000 for one person and $50,000 for two or more people"
+      "$30,000 for one person and $60,000 for two or more people"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "New York requires $25,000/$50,000 for injury, $50,000/$100,000 for death, and $10,000 for property damage. The $50,000/$100,000 figures apply to death, not injury.",
     "states": [
       "NY"
@@ -855,17 +684,17 @@
     "ref": "New York State Driver's Manual, p. 27"
   },
   {
-    "id": "ny.car.046",
+    "id": "ny.car.037",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "What is New York's minimum property damage liability coverage?",
     "choices": [
+      "$5,000",
       "$25,000",
       "$15,000",
-      "$10,000",
-      "$5,000"
+      "$10,000"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Minimum liability coverage includes $10,000 against property damage in any one incident.",
     "states": [
       "NY"
@@ -874,17 +703,17 @@
     "ref": "New York State Driver's Manual, p. 27"
   },
   {
-    "id": "ny.car.047",
+    "id": "ny.car.038",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "Your auto insurance policy is about to end and you will not renew it. What should you do first?",
     "choices": [
+      "Mail the registration sticker to your insurance company",
       "Notify the DMV within 90 days after it lapses",
       "Turn in your license plates at a motor vehicle office before the insurance ends",
-      "Keep the plates and just stop driving the car",
-      "Mail the registration sticker to your insurance company"
+      "Keep the plates and just stop driving the car"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Before liability insurance expires, return the plates and get a receipt (FS-6T). Otherwise you may pay a civil penalty for each uninsured day or have your registration suspended; 90 uninsured days also suspends your license.",
     "states": [
       "NY"
@@ -893,17 +722,17 @@
     "ref": "New York State Driver's Manual, p. 27"
   },
   {
-    "id": "ny.car.048",
+    "id": "ny.car.039",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "What happens to your New York license if you are convicted of driving an uninsured vehicle?",
     "choices": [
+      "You receive points but keep your license",
       "It is revoked for at least one year",
       "It is suspended for 30 days",
-      "It is suspended until you show proof of insurance",
-      "You receive points but keep your license"
+      "It is suspended until you show proof of insurance"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Driving, or letting someone drive, your uninsured vehicle, or a crash without insurance, results in at least a one-year revocation and a $750 civil penalty to relicense.",
     "states": [
       "NY"
@@ -912,17 +741,17 @@
     "ref": "New York State Driver's Manual, p. 21"
   },
   {
-    "id": "ny.car.049",
+    "id": "ny.car.040",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "Under the New York DMV point system, how many points within 24 months lead to a license suspension?",
     "choices": [
+      "11 or more",
       "8 or more",
       "12 or more",
-      "6 or more",
-      "11 or more"
+      "6 or more"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "If you get 11 or more points within 24 months, DMV will suspend your license. Points count from the date of the violation.",
     "states": [
       "NY"
@@ -931,36 +760,17 @@
     "ref": "New York State Driver's Manual, p. 22"
   },
   {
-    "id": "ny.car.050",
-    "track": "car",
-    "topic": "laws-licensing",
-    "prompt": "For the New York point system, points are counted from which date?",
-    "choices": [
-      "The date you paid the fine",
-      "January 1 of each year",
-      "The date you committed the violation",
-      "The date you were convicted"
-    ],
-    "answer": 2,
-    "explanation": "Point values are charged from the date you commit the violation, not the date you are convicted.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 3,
-    "ref": "New York State Driver's Manual, p. 22"
-  },
-  {
-    "id": "ny.car.051",
+    "id": "ny.car.041",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "How many points can a DMV-approved Point and Insurance Reduction Program (crash prevention course) remove from your New York record?",
     "choices": [
-      "All points",
-      "Up to 4 points",
       "Up to 2 points",
-      "Up to 6 points"
+      "Up to 6 points",
+      "All points",
+      "Up to 4 points"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The course can reduce your point total by up to four points and lower liability and collision premiums by at least 10% for three years. It cannot prevent a mandatory suspension or revocation.",
     "states": [
       "NY"
@@ -969,17 +779,17 @@
     "ref": "New York State Driver's Manual, p. 22"
   },
   {
-    "id": "ny.car.052",
+    "id": "ny.car.042",
     "track": "car",
     "topic": "laws-licensing",
     "prompt": "A New York driver gets six points within 18 months. Besides the fines, what must they pay?",
     "choices": [
-      "A Driver Responsibility Assessment of $100 per year for three years",
-      "A $500 one-time civil penalty",
       "Nothing extra unless they reach 11 points",
-      "A $25 fee to reinstate their points"
+      "A $25 fee to reinstate their points",
+      "A Driver Responsibility Assessment of $100 per year for three years",
+      "A $500 one-time civil penalty"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Six points in any 18-month period triggers a Driver Responsibility Assessment of $100 per year for three years, plus $25 per year for each additional point.",
     "states": [
       "NY"
@@ -988,74 +798,17 @@
     "ref": "New York State Driver's Manual, p. 23"
   },
   {
-    "id": "ny.car.053",
-    "track": "car",
-    "topic": "laws-licensing",
-    "prompt": "You are found guilty of three speeding or misdemeanor traffic violations within 18 months. What happens to your New York license?",
-    "choices": [
-      "It is suspended for 30 days",
-      "You get a warning letter",
-      "It is revoked for 60 days",
-      "It is revoked for at least six months"
-    ],
-    "answer": 3,
-    "explanation": "Three speeding and/or misdemeanor traffic violations within 18 months (based on violation dates) lead to a revocation of at least six months.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 3,
-    "ref": "New York State Driver's Manual, p. 21"
-  },
-  {
-    "id": "ny.car.054",
-    "track": "car",
-    "topic": "laws-licensing",
-    "prompt": "A New York driver gets a speeding ticket in Pennsylvania and is convicted. Are points added to the driver's New York record?",
-    "choices": [
-      "Yes, but at half value",
-      "Only if the speed was over 20 mph above the limit",
-      "No; only convictions in Ontario and Quebec are added to the New York point record",
-      "Yes, the same points as for a New York ticket"
-    ],
-    "answer": 2,
-    "explanation": "New York does not add out-of-state moving violations to its point record, except offenses committed in Ontario and Quebec, Canada. Failing to answer an out-of-state ticket can still lead to suspension.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 3,
-    "ref": "New York State Driver's Manual, p. 20"
-  },
-  {
-    "id": "ny.car.055",
-    "track": "car",
-    "topic": "laws-licensing",
-    "prompt": "You buy a used car from a private seller (not a New York dealer). After registering it, how long do you have to get it inspected?",
-    "choices": [
-      "One year",
-      "10 days",
-      "30 days",
-      "60 days"
-    ],
-    "answer": 1,
-    "explanation": "If you buy from someone who is not a New York dealer, you must have the vehicle inspected within 10 days after you register it (ask for a 10-day inspection extension).",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 2,
-    "ref": "New York State Driver's Manual, p. 27"
-  },
-  {
-    "id": "ny.car.056",
+    "id": "ny.car.043",
     "track": "car",
     "topic": "safe-habits",
     "prompt": "New York is a \"primary enforcement\" seat belt state. What does this mean?",
     "choices": [
+      "Seat belts are required only on highways",
       "An officer can stop you just because someone in the vehicle is not wearing a seat belt",
       "You can be ticketed for a seat belt only after being stopped for something else",
-      "Only the driver must wear a seat belt",
-      "Seat belts are required only on highways"
+      "Only the driver must wear a seat belt"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "In a primary enforcement state, a police officer can pull you over solely because you or a passenger is not wearing a seat belt. The law also applies to visitors.",
     "states": [
       "NY"
@@ -1064,17 +817,17 @@
     "ref": "New York State Driver's Manual, p. 48"
   },
   {
-    "id": "ny.car.057",
+    "id": "ny.car.044",
     "track": "car",
     "topic": "safe-habits",
     "prompt": "In New York, which passengers are personally responsible for wearing their own seat belt and can be fined up to $50?",
     "choices": [
+      "Passengers 16 and older",
       "Only front-seat passengers",
       "Passengers 18 and older",
-      "Passengers 21 and older",
-      "Passengers 16 and older"
+      "Passengers 21 and older"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Passengers 16 or older must be belted, one person per belt, and can be fined up to $50. The driver is responsible for passengers under 16.",
     "states": [
       "NY"
@@ -1083,17 +836,17 @@
     "ref": "New York State Driver's Manual, p. 48"
   },
   {
-    "id": "ny.car.058",
+    "id": "ny.car.045",
     "track": "car",
     "topic": "safe-habits",
     "prompt": "You are driving with a 12-year-old passenger who is not buckled up. What penalty can you, the driver, receive?",
     "choices": [
+      "No penalty; the child is fined",
       "A $50 fine and no points",
       "A warning for a first offense",
-      "A fine of $25 to $100 and three points for each violation",
-      "No penalty; the child is fined"
+      "A fine of $25 to $100 and three points for each violation"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "The driver must make sure every passenger under 16 is properly restrained, and can be fined $25 to $100 and receive three points for each violation.",
     "states": [
       "NY"
@@ -1102,17 +855,17 @@
     "ref": "New York State Driver's Manual, p. 48"
   },
   {
-    "id": "ny.car.059",
+    "id": "ny.car.046",
     "track": "car",
     "topic": "safe-habits",
     "prompt": "Under New York law, a child under what age must ride in a federally approved child safety seat?",
     "choices": [
+      "Under 6",
       "Under 8",
       "Under 4",
-      "Under 2",
-      "Under 6"
+      "Under 2"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "A child under age four must be restrained in a federally approved child safety seat attached by a seat belt or LATCH system.",
     "states": [
       "NY"
@@ -1121,17 +874,17 @@
     "ref": "New York State Driver's Manual, p. 48"
   },
   {
-    "id": "ny.car.060",
+    "id": "ny.car.047",
     "track": "car",
     "topic": "safe-habits",
     "prompt": "What does New York law require for a 5-year-old passenger of average size?",
     "choices": [
+      "No restraint if riding in the back seat",
       "An appropriate child restraint such as a booster seat used with a lap and shoulder belt",
       "A regular seat belt only",
-      "A rear-facing car seat",
-      "No restraint if riding in the back seat"
+      "A rear-facing car seat"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Children ages 4 through 7 must use an appropriate federally approved child restraint system, commonly a booster seat with a lap and shoulder belt. A seat belt alone is not an appropriate child restraint for them.",
     "states": [
       "NY"
@@ -1140,17 +893,17 @@
     "ref": "New York State Driver's Manual, p. 48"
   },
   {
-    "id": "ny.car.061",
+    "id": "ny.car.048",
     "track": "car",
     "topic": "safe-habits",
     "prompt": "Under New York law, a child must ride rear-facing until at least what age (unless they outgrow the seat's rear-facing limits)?",
     "choices": [
+      "2 years old",
       "1 year old",
       "3 years old",
-      "4 years old",
-      "2 years old"
+      "4 years old"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "A child must be restrained rear-facing until age two or until reaching the highest rear-facing weight or height limit allowed by the car seat manufacturer.",
     "states": [
       "NY"
@@ -1159,17 +912,17 @@
     "ref": "New York State Driver's Manual, p. 48"
   },
   {
-    "id": "ny.car.062",
+    "id": "ny.car.049",
     "track": "car",
     "topic": "safe-habits",
     "prompt": "Which use of a mobile phone is legal for a fully licensed adult driver in New York?",
     "choices": [
+      "Holding the phone to your ear at a red light",
       "Reading a text while stopped in traffic",
       "Holding the phone to listen on speaker",
-      "Talking on a hands-free phone",
-      "Holding the phone to your ear at a red light"
+      "Talking on a hands-free phone"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "It is a traffic infraction to speak into or listen to a hand-held phone while driving, but a hands-free phone (no hands needed to communicate) may be used at any time.",
     "states": [
       "NY"
@@ -1178,17 +931,17 @@
     "ref": "New York State Driver's Manual, p. 52"
   },
   {
-    "id": "ny.car.063",
+    "id": "ny.car.050",
     "track": "car",
     "topic": "safe-habits",
     "prompt": "How many points does a first conviction for using a hand-held cell phone while driving add to a New York driving record?",
     "choices": [
+      "3 points",
       "No points",
       "5 points",
-      "2 points",
-      "3 points"
+      "2 points"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Hand-held phone use carries a fine up to $200 for a first offense and five license points. Texting is also a 5-point violation.",
     "states": [
       "NY"
@@ -1197,17 +950,17 @@
     "ref": "New York State Driver's Manual, p. 52"
   },
   {
-    "id": "ny.car.064",
+    "id": "ny.car.051",
     "track": "car",
     "topic": "safe-habits",
     "prompt": "What is the maximum fine for a third texting-while-driving offense committed within 18 months in New York?",
     "choices": [
+      "$1,000",
       "$450",
       "$250",
-      "$200",
-      "$1,000"
+      "$200"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Texting fines are up to $200 for a first offense, up to $250 for a second within 18 months, and up to $450 for a third or subsequent offense within 18 months.",
     "states": [
       "NY"
@@ -1216,36 +969,17 @@
     "ref": "New York State Driver's Manual, p. 52"
   },
   {
-    "id": "ny.car.065",
-    "track": "car",
-    "topic": "safe-habits",
-    "prompt": "Under New York's cell phone law, when may a driver hold a phone in hand?",
-    "choices": [
-      "Any time the vehicle is moving under 25 mph",
-      "Only on roads without traffic lights",
-      "Never, not even to start a call",
-      "Only to activate, begin, or end a call"
-    ],
-    "answer": 3,
-    "explanation": "The phone may be hand-held only to activate, begin or end a call; talking or listening on a hand-held phone while driving is an infraction. Emergency calls are exempt.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 3,
-    "ref": "New York State Driver's Manual, p. 52"
-  },
-  {
-    "id": "ny.car.066",
+    "id": "ny.car.052",
     "track": "car",
     "topic": "speed-space",
     "prompt": "When no speed limit is posted, what is New York State's general maximum speed limit?",
     "choices": [
-      "50 mph",
-      "45 mph",
       "55 mph",
-      "65 mph"
+      "65 mph",
+      "50 mph",
+      "45 mph"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "If no limit is posted, drive no more than 55 mph. Some cities have lower limits that are not always posted.",
     "states": [
       "NY"
@@ -1254,17 +988,17 @@
     "ref": "New York State Driver's Manual, p. 47"
   },
   {
-    "id": "ny.car.067",
+    "id": "ny.car.053",
     "track": "car",
     "topic": "speed-space",
     "prompt": "What is the speed limit in New York City when no other limit is posted?",
     "choices": [
-      "20 mph",
-      "25 mph",
       "30 mph",
-      "35 mph"
+      "35 mph",
+      "20 mph",
+      "25 mph"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The speed limit is 25 mph in New York City unless another limit is posted.",
     "states": [
       "NY"
@@ -1273,17 +1007,17 @@
     "ref": "New York State Driver's Manual, p. 47"
   },
   {
-    "id": "ny.car.068",
+    "id": "ny.car.054",
     "track": "car",
     "topic": "speed-space",
     "prompt": "What is the highest speed limit New York expressways can be posted at, according to the Driver's Manual?",
     "choices": [
-      "65 mph, in some rural areas",
-      "55 mph everywhere",
       "70 mph on the Thruway",
-      "75 mph on interstates"
+      "75 mph on interstates",
+      "65 mph, in some rural areas",
+      "55 mph everywhere"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "The expressway speed limit is normally 55 mph but can be posted at 65 mph in some rural areas.",
     "states": [
       "NY"
@@ -1292,17 +1026,17 @@
     "ref": "New York State Driver's Manual, p. 62"
   },
   {
-    "id": "ny.car.069",
+    "id": "ny.car.055",
     "track": "car",
     "topic": "speed-space",
     "prompt": "You are driving 50 mph on a foggy, slippery expressway posted at 55 mph. Can you be ticketed for speeding?",
     "choices": [
-      "No, because you are under the posted limit",
-      "No, because the minimum speed is 45 mph",
       "Only if you cause a crash",
-      "Yes, for driving at a speed not reasonable for conditions"
+      "Yes, for driving at a speed not reasonable for conditions",
+      "No, because you are under the posted limit",
+      "No, because the minimum speed is 45 mph"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Posted limits are maximums. On a hazardous highway, even 50 mph can be ticketed as a speed \"not reasonable\" for the conditions.",
     "states": [
       "NY"
@@ -1311,17 +1045,17 @@
     "ref": "New York State Driver's Manual, p. 47"
   },
   {
-    "id": "ny.car.070",
+    "id": "ny.car.056",
     "track": "car",
     "topic": "speed-space",
     "prompt": "The New York Driver's Manual recommends a following distance of at least how many seconds in good conditions?",
     "choices": [
-      "Four seconds",
-      "Six seconds",
       "Two seconds",
-      "One second"
+      "One second",
+      "Four seconds",
+      "Six seconds"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Use the two-second rule: when the vehicle ahead passes a fixed object, you should not reach it before counting \"one thousand one, one thousand two.\"",
     "states": [
       "NY"
@@ -1330,17 +1064,17 @@
     "ref": "New York State Driver's Manual, p. 47"
   },
   {
-    "id": "ny.car.071",
+    "id": "ny.car.057",
     "track": "car",
     "topic": "speed-space",
     "prompt": "In bad weather or when following a large truck, New York's manual says to increase your following count to at least:",
     "choices": [
-      "One car length per 10 mph",
-      "Three or four seconds",
       "Two seconds",
-      "Eight seconds"
+      "Eight seconds",
+      "One car length per 10 mph",
+      "Three or four seconds"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "In bad weather and when following large trucks, increase the two-second count to at least three or four seconds.",
     "states": [
       "NY"
@@ -1349,17 +1083,17 @@
     "ref": "New York State Driver's Manual, p. 47"
   },
   {
-    "id": "ny.car.072",
+    "id": "ny.car.058",
     "track": "car",
     "topic": "speed-space",
     "prompt": "You are caught speeding in a New York highway work zone on a weekend when no workers are present. What happens to the fine?",
     "choices": [
-      "It is doubled, even when workers are not present",
-      "It is the normal fine because no workers are there",
       "It is doubled only if workers are present",
-      "It is waived for a first offense"
+      "It is waived for a first offense",
+      "It is doubled, even when workers are not present",
+      "It is the normal fine because no workers are there"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Speeding fines double in work zones, even when the workers or work vehicles are not there.",
     "states": [
       "NY"
@@ -1368,17 +1102,17 @@
     "ref": "New York State Driver's Manual, p. 49"
   },
   {
-    "id": "ny.car.073",
+    "id": "ny.car.059",
     "track": "car",
     "topic": "right-of-way",
     "prompt": "You are on a two-way road and an ambulance with lights and siren approaches from the opposite direction. What must you do in New York?",
     "choices": [
-      "Keep driving, since it is in the other lane",
-      "Slow down but keep moving",
       "Stop where you are, even in the travel lane",
-      "Pull over to the right edge of the road and stop until it passes"
+      "Pull over to the right edge of the road and stop until it passes",
+      "Keep driving, since it is in the other lane",
+      "Slow down but keep moving"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "You must pull over and stop for an emergency vehicle even if it is headed toward you in the opposite lane of a two-way roadway.",
     "states": [
       "NY"
@@ -1387,17 +1121,17 @@
     "ref": "New York State Driver's Manual, p. 35"
   },
   {
-    "id": "ny.car.074",
+    "id": "ny.car.060",
     "track": "car",
     "topic": "right-of-way",
     "prompt": "You are in the middle of an intersection when a fire truck with flashing red lights approaches. What should you do?",
     "choices": [
-      "Back up out of the intersection",
-      "Turn left to get out of its way",
       "Drive out of the intersection, then pull over to the right and stop",
-      "Stop immediately inside the intersection"
+      "Stop immediately inside the intersection",
+      "Back up out of the intersection",
+      "Turn left to get out of its way"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "If you are in an intersection, drive out of it before you pull over. Then stop at the right edge until the emergency vehicle passes.",
     "states": [
       "NY"
@@ -1406,17 +1140,17 @@
     "ref": "New York State Driver's Manual, p. 35"
   },
   {
-    "id": "ny.car.075",
+    "id": "ny.car.061",
     "track": "car",
     "topic": "right-of-way",
     "prompt": "In New York, a personal car showing a flashing blue light is most likely driven by:",
     "choices": [
-      "A volunteer ambulance member",
-      "A volunteer firefighter responding to an alarm",
       "An undercover police officer",
-      "A rural mail carrier"
+      "A rural mail carrier",
+      "A volunteer ambulance member",
+      "A volunteer firefighter responding to an alarm"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Volunteer firefighters may display blue lights on personal vehicles, and volunteer ambulance or rescue squad members may display green lights. These are not authorized emergency vehicles.",
     "states": [
       "NY"
@@ -1425,17 +1159,17 @@
     "ref": "New York State Driver's Manual, p. 35"
   },
   {
-    "id": "ny.car.076",
+    "id": "ny.car.062",
     "track": "car",
     "topic": "right-of-way",
     "prompt": "A personal car with a flashing green light comes up behind you. What does New York law require?",
     "choices": [
-      "You are not required to yield, but should yield as a courtesy if safe",
-      "You must pull over and stop as for an ambulance",
       "You must speed up to clear the lane",
-      "You must stop immediately"
+      "You must stop immediately",
+      "You are not required to yield, but should yield as a courtesy if safe",
+      "You must pull over and stop as for an ambulance"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Green lights mark volunteer ambulance or rescue members' personal vehicles. They are not authorized emergency vehicles and must obey traffic laws; you are not required to yield, but should as a courtesy if safe.",
     "states": [
       "NY"
@@ -1444,17 +1178,17 @@
     "ref": "New York State Driver's Manual, p. 35"
   },
   {
-    "id": "ny.car.077",
+    "id": "ny.car.063",
     "track": "car",
     "topic": "right-of-way",
     "prompt": "Under New York's Move Over Law, what must you do on a multi-lane interstate when passing a police car stopped on the shoulder with its lights flashing?",
     "choices": [
-      "Only slow down to 10 mph below the limit",
-      "Stop behind the police car",
       "Move over only if an officer is outside the car",
-      "Slow down and move out of the lane next to it, if you can do so safely"
+      "Slow down and move out of the lane next to it, if you can do so safely",
+      "Only slow down to 10 mph below the limit",
+      "Stop behind the police car"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Drivers must reduce speed on all roads, and on parkways, interstates and other multi-lane controlled-access roads must also move out of the adjacent lane unless traffic or hazards prevent it.",
     "states": [
       "NY"
@@ -1463,17 +1197,17 @@
     "ref": "New York State Driver's Manual, p. 35"
   },
   {
-    "id": "ny.car.078",
+    "id": "ny.car.064",
     "track": "car",
     "topic": "right-of-way",
     "prompt": "Does New York's Move Over Law apply to a tow truck stopped on the shoulder with amber flashing lights?",
     "choices": [
-      "No, it covers only fire trucks and ambulances",
-      "Only at night",
       "Yes, it covers hazard vehicles with amber lights",
-      "No, it covers only police cars"
+      "No, it covers only police cars",
+      "No, it covers only fire trucks and ambulances",
+      "Only at night"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "The Move Over Law covers authorized emergency vehicles and hazard vehicles (like tow trucks and snow plows) displaying amber hazard lights, including amber-and-blue combinations.",
     "states": [
       "NY"
@@ -1482,17 +1216,17 @@
     "ref": "New York State Driver's Manual, p. 35"
   },
   {
-    "id": "ny.car.079",
+    "id": "ny.car.065",
     "track": "car",
     "topic": "right-of-way",
     "prompt": "On a New York parkway, a regular passenger car with a flat tire is stopped on the shoulder. Does the Move Over Law apply?",
     "choices": [
-      "Only if the driver waves you over",
-      "Yes, drivers must also move over for vehicles stopped on the shoulder of a parkway or controlled-access highway",
       "No, it applies only to vehicles with emergency lights",
-      "No, it applies only to police vehicles"
+      "No, it applies only to police vehicles",
+      "Only if the driver waves you over",
+      "Yes, drivers must also move over for vehicles stopped on the shoulder of a parkway or controlled-access highway"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "New York's Move Over Law also requires drivers to move over for motor vehicles parked, stopped or standing on the shoulder or any part of a parkway or controlled-access highway.",
     "states": [
       "NY"
@@ -1501,17 +1235,17 @@
     "ref": "New York State Driver's Manual, p. 35"
   },
   {
-    "id": "ny.car.080",
+    "id": "ny.car.066",
     "track": "car",
     "topic": "right-of-way",
     "prompt": "A school bus is stopped with red lights flashing on the opposite side of a divided highway. What must you do in New York?",
     "choices": [
-      "Stop; New York requires stopping even on the opposite side of a divided highway",
-      "Continue carefully, because a median separates you",
       "Slow to 15 mph and pass",
-      "Stop only if children are crossing"
+      "Stop only if children are crossing",
+      "Stop; New York requires stopping even on the opposite side of a divided highway",
+      "Continue carefully, because a median separates you"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "New York's school bus law applies on all roadways. You must stop for a school bus with flashing red lights even if it is on the opposite side of a divided highway.",
     "states": [
       "NY"
@@ -1520,17 +1254,17 @@
     "ref": "New York State Driver's Manual, p. 40"
   },
   {
-    "id": "ny.car.081",
+    "id": "ny.car.067",
     "track": "car",
     "topic": "right-of-way",
     "prompt": "When you stop behind a school bus with flashing red lights in New York, how far away should you stop?",
     "choices": [
-      "At least 10 feet",
-      "At least 50 feet",
       "At least 100 feet",
-      "At least 20 feet"
+      "At least 20 feet",
+      "At least 10 feet",
+      "At least 50 feet"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Traffic from either direction must stop before reaching the bus, and you should stop at least 20 feet away.",
     "states": [
       "NY"
@@ -1539,17 +1273,17 @@
     "ref": "New York State Driver's Manual, p. 40"
   },
   {
-    "id": "ny.car.082",
+    "id": "ny.car.068",
     "track": "car",
     "topic": "right-of-way",
     "prompt": "What happens to your New York license if you are convicted of passing a stopped school bus three times within three years?",
     "choices": [
-      "Nothing beyond the fines",
-      "It is revoked for five years",
       "It is revoked for at least six months",
-      "It is suspended for 30 days"
+      "It is suspended for 30 days",
+      "Nothing beyond the fines",
+      "It is revoked for five years"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Fines range from at least $250 for a first violation up to $1,000 for three violations in three years, and three convictions in three years bring a revocation of at least six months.",
     "states": [
       "NY"
@@ -1558,17 +1292,17 @@
     "ref": "New York State Driver's Manual, p. 40"
   },
   {
-    "id": "ny.car.083",
+    "id": "ny.car.069",
     "track": "car",
     "topic": "right-of-way",
     "prompt": "A blind pedestrian with a white cane starts across at an unmarked crosswalk, but your light is green. What must you do?",
     "choices": [
-      "Drive around them slowly",
-      "Yield to the pedestrian",
       "Proceed, because you have the green light",
-      "Sound your horn to warn them"
+      "Sound your horn to warn them",
+      "Drive around them slowly",
+      "Yield to the pedestrian"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "New York's special right-of-way law requires you to always yield to blind pedestrians using a guide dog or a white or metal cane at a marked or unmarked crosswalk, even if signals are not in their favor.",
     "states": [
       "NY"
@@ -1577,17 +1311,17 @@
     "ref": "New York State Driver's Manual, p. 67"
   },
   {
-    "id": "ny.car.084",
+    "id": "ny.car.070",
     "track": "car",
     "topic": "intersections-turns",
     "prompt": "You are driving in Manhattan and stopped at a red light. There is no sign about turns. May you turn right on red?",
     "choices": [
-      "No, turning on red is not allowed in New York City unless a sign permits it",
-      "Yes, after a full stop",
       "Yes, if no pedestrians are present",
-      "Only between 10 PM and 6 AM"
+      "Only between 10 PM and 6 AM",
+      "No, turning on red is not allowed in New York City unless a sign permits it",
+      "Yes, after a full stop"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Outside New York City, right turns on red are allowed after a full stop unless prohibited. In New York City, you may not turn on red unless a sign permits it.",
     "states": [
       "NY"
@@ -1596,17 +1330,17 @@
     "ref": "New York State Driver's Manual, p. 31"
   },
   {
-    "id": "ny.car.085",
+    "id": "ny.car.071",
     "track": "car",
     "topic": "intersections-turns",
     "prompt": "Outside New York City, when may you make a LEFT turn on a steady red light?",
     "choices": [
-      "Whenever no cars are coming",
-      "Only with a green arrow",
       "Never in New York State",
-      "When turning from a one-way road onto another one-way road, after a full stop and yielding"
+      "When turning from a one-way road onto another one-way road, after a full stop and yielding",
+      "Whenever no cars are coming",
+      "Only with a green arrow"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "A left turn on red is allowed only from a one-way road into another one-way road, after a full stop and yielding to traffic and pedestrians.",
     "states": [
       "NY"
@@ -1615,17 +1349,17 @@
     "ref": "New York State Driver's Manual, p. 31"
   },
   {
-    "id": "ny.car.086",
+    "id": "ny.car.072",
     "track": "car",
     "topic": "intersections-turns",
     "prompt": "New York law requires you to signal a turn or lane change at least how far ahead?",
     "choices": [
-      "200 feet",
-      "300 feet",
       "100 feet",
-      "50 feet"
+      "50 feet",
+      "200 feet",
+      "300 feet"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "You must signal a turn or lane change with turn lights or hand signals at least 100 feet ahead.",
     "states": [
       "NY"
@@ -1634,36 +1368,17 @@
     "ref": "New York State Driver's Manual, p. 36"
   },
   {
-    "id": "ny.car.087",
-    "track": "car",
-    "topic": "intersections-turns",
-    "prompt": "In New York, which driver may never turn right on a red light?",
-    "choices": [
-      "A truck driver",
-      "The driver of a school bus carrying students",
-      "A taxi driver",
-      "A driver with a junior license"
-    ],
-    "answer": 1,
-    "explanation": "The driver of a school bus containing students cannot turn right on any red light.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 3,
-    "ref": "New York State Driver's Manual, p. 31"
-  },
-  {
-    "id": "ny.car.088",
+    "id": "ny.car.073",
     "track": "car",
     "topic": "intersections-turns",
     "prompt": "Under New York law, you may not make a U-turn where other drivers cannot see your vehicle from how far away in either direction?",
     "choices": [
-      "500 feet",
       "200 feet",
       "100 feet",
-      "1,000 feet"
+      "1,000 feet",
+      "500 feet"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "You cannot make a U-turn near the top of a hill, a curve or any location where other drivers cannot see your vehicle from 500 feet away in either direction.",
     "states": [
       "NY"
@@ -1672,17 +1387,17 @@
     "ref": "New York State Driver's Manual, p. 37"
   },
   {
-    "id": "ny.car.089",
+    "id": "ny.car.074",
     "track": "car",
     "topic": "intersections-turns",
     "prompt": "Where are U-turns illegal in New York even if no sign prohibits them?",
     "choices": [
-      "On any two-lane road",
       "At any intersection with a traffic light",
       "On one-way streets only",
-      "In New York City business districts and in school zones"
+      "In New York City business districts and in school zones",
+      "On any two-lane road"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "U-turns are illegal in NYC business districts, in school zones, where NO U-TURN signs are posted, near hills or curves without 500 feet of visibility, and on limited-access expressways.",
     "states": [
       "NY"
@@ -1691,17 +1406,17 @@
     "ref": "New York State Driver's Manual, p. 37"
   },
   {
-    "id": "ny.car.090",
+    "id": "ny.car.075",
     "track": "car",
     "topic": "lanes-passing",
     "prompt": "On a two-way road, you may not pass on the left within how many feet of a railroad crossing?",
     "choices": [
-      "200 feet",
       "500 feet",
       "100 feet",
-      "50 feet"
+      "50 feet",
+      "200 feet"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "You cannot pass on the left within 100 feet of a railroad crossing on a two-way roadway, or within 100 feet of a bridge, tunnel or viaduct when your view is obstructed.",
     "states": [
       "NY"
@@ -1710,17 +1425,17 @@
     "ref": "New York State Driver's Manual, p. 39"
   },
   {
-    "id": "ny.car.091",
+    "id": "ny.car.076",
     "track": "car",
     "topic": "lanes-passing",
     "prompt": "When passing on the left on a two-way road, you must be able to return to the right lane before an oncoming vehicle comes within how many feet?",
     "choices": [
-      "500 feet",
       "200 feet",
       "100 feet",
-      "50 feet"
+      "50 feet",
+      "500 feet"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "You cannot pass if you cannot safely return to the right lane before any oncoming vehicle comes within 200 feet of you.",
     "states": [
       "NY"
@@ -1729,17 +1444,17 @@
     "ref": "New York State Driver's Manual, p. 39"
   },
   {
-    "id": "ny.car.092",
+    "id": "ny.car.077",
     "track": "car",
     "topic": "lanes-passing",
     "prompt": "How does New York law require you to pass a bicyclist you are overtaking from behind?",
     "choices": [
-      "On the left, at a safe distance, until you are clear of the bicycle",
       "On the right, as close to the curb as possible",
       "Only after honking to warn the cyclist",
-      "Within the same lane if the cyclist moves to the edge"
+      "Within the same lane if the cyclist moves to the edge",
+      "On the left, at a safe distance, until you are clear of the bicycle"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "When overtaking a bicyclist, the law requires you to pass on the left at a safe distance until the bicycle has been cleared. Reduce speed, since air pressure can push the rider off balance.",
     "states": [
       "NY"
@@ -1748,26 +1463,7 @@
     "ref": "New York State Driver's Manual, p. 39"
   },
   {
-    "id": "ny.car.093",
-    "track": "car",
-    "topic": "lanes-passing",
-    "prompt": "On a New York city street, a diamond-marked bus/HOV lane is separated by a broken white line near the next intersection. When may a regular car enter it?",
-    "choices": [
-      "Any time traffic is heavy",
-      "To pass a slow vehicle",
-      "Never, under any circumstances",
-      "To make a right turn at the next intersection"
-    ],
-    "answer": 3,
-    "explanation": "Where the solid line next to a diamond lane is replaced by broken white lines on city streets, non-HOV vehicles may enter the lane to make a right turn at the next intersection.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 3,
-    "ref": "New York State Driver's Manual, p. 33"
-  },
-  {
-    "id": "ny.car.094",
+    "id": "ny.car.078",
     "track": "car",
     "topic": "parking",
     "prompt": "How close to a fire hydrant may you park in New York?",
@@ -1786,7 +1482,7 @@
     "ref": "New York State Driver's Manual, p. 43"
   },
   {
-    "id": "ny.car.095",
+    "id": "ny.car.079",
     "track": "car",
     "topic": "parking",
     "prompt": "In New York, parking or standing is not allowed within how many feet of a crosswalk at an intersection?",
@@ -1805,7 +1501,7 @@
     "ref": "New York State Driver's Manual, p. 43"
   },
   {
-    "id": "ny.car.096",
+    "id": "ny.car.080",
     "track": "car",
     "topic": "parking",
     "prompt": "How far must you park from a traffic light, STOP sign, or YIELD sign in New York?",
@@ -1824,7 +1520,7 @@
     "ref": "New York State Driver's Manual, p. 43"
   },
   {
-    "id": "ny.car.097",
+    "id": "ny.car.081",
     "track": "car",
     "topic": "parking",
     "prompt": "In New York, you may not park within how many feet of a railroad crossing?",
@@ -1843,7 +1539,7 @@
     "ref": "New York State Driver's Manual, p. 43"
   },
   {
-    "id": "ny.car.098",
+    "id": "ny.car.082",
     "track": "car",
     "topic": "parking",
     "prompt": "You want to park across the street from a fire station driveway. How far from the driveway must you be?",
@@ -1862,36 +1558,17 @@
     "ref": "New York State Driver's Manual, p. 43"
   },
   {
-    "id": "ny.car.099",
-    "track": "car",
-    "topic": "parking",
-    "prompt": "New York law prohibits parking, stopping, or standing within how many feet of a pedestrian safety area (unless another distance is marked)?",
-    "choices": [
-      "50 feet",
-      "30 feet",
-      "15 feet",
-      "20 feet"
-    ],
-    "answer": 1,
-    "explanation": "You cannot park, stop or stand within 30 feet of a pedestrian safety area unless another distance is marked.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 3,
-    "ref": "New York State Driver's Manual, p. 43"
-  },
-  {
-    "id": "ny.car.100",
+    "id": "ny.car.083",
     "track": "car",
     "topic": "parking",
     "prompt": "After parallel parking in New York, your wheels may be no more than how far from the curb?",
     "choices": [
+      "Two feet",
       "One foot",
       "Six inches",
-      "18 inches",
-      "Two feet"
+      "18 inches"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "In your final parallel-parked position, your wheels must be no more than one foot (30 cm) from the curb.",
     "states": [
       "NY"
@@ -1900,17 +1577,17 @@
     "ref": "New York State Driver's Manual, p. 42"
   },
   {
-    "id": "ny.car.101",
+    "id": "ny.car.084",
     "track": "car",
     "topic": "parking",
     "prompt": "In New York, what may you do where a NO STANDING sign is posted?",
     "choices": [
+      "Stop only briefly to pick up or drop off passengers, without leaving the vehicle",
       "Stop to load or unload merchandise",
       "Park for up to 15 minutes",
-      "Stop only to obey traffic signals; no passenger stops at all",
-      "Stop only briefly to pick up or drop off passengers, without leaving the vehicle"
+      "Stop only to obey traffic signals; no passenger stops at all"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "A NO STANDING sign allows only a temporary stop to load or discharge passengers, and the driver cannot exit the vehicle. Loading merchandise is allowed under a NO PARKING sign, not NO STANDING.",
     "states": [
       "NY"
@@ -1919,36 +1596,17 @@
     "ref": "New York State Driver's Manual, p. 43"
   },
   {
-    "id": "ny.car.102",
-    "track": "car",
-    "topic": "parking",
-    "prompt": "In New York, what does a NO PARKING sign allow?",
-    "choices": [
-      "Parking for up to one hour",
-      "Stops only to obey a traffic officer",
-      "A temporary stop to load or unload merchandise or passengers",
-      "No stops of any kind"
-    ],
-    "answer": 2,
-    "explanation": "A NO PARKING sign means you can make a temporary stop to load or discharge merchandise or passengers. NO STOPPING allows stops only to obey signs, signals, officers or avoid conflicts.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 2,
-    "ref": "New York State Driver's Manual, p. 43"
-  },
-  {
-    "id": "ny.car.103",
+    "id": "ny.car.085",
     "track": "car",
     "topic": "hazards-conditions",
     "prompt": "When does New York law require you to use your headlights?",
     "choices": [
-      "Only when visibility is under 500 feet",
-      "From 1/2 hour after sunset to 1/2 hour before sunrise, when visibility is under 1,000 feet, and when using wipers",
       "Only from sunset to sunrise",
-      "From one hour after sunset to one hour before sunrise"
+      "From one hour after sunset to one hour before sunrise",
+      "Only when visibility is under 500 feet",
+      "From 1/2 hour after sunset to 1/2 hour before sunrise, when visibility is under 1,000 feet, and when using wipers"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Headlights are required from one-half hour after sunset to one-half hour before sunrise, when visibility is less than 1,000 feet, and whenever you use your wipers for rain, snow, sleet or fog.",
     "states": [
       "NY"
@@ -1957,17 +1615,17 @@
     "ref": "New York State Driver's Manual, p. 63"
   },
   {
-    "id": "ny.car.104",
+    "id": "ny.car.086",
     "track": "car",
     "topic": "hazards-conditions",
     "prompt": "It is a cloudy afternoon and you turn on your wipers to clear light rain. What does New York law require?",
     "choices": [
-      "Turn on your headlights (daytime running lights do not count)",
-      "Nothing, because it is daytime",
       "Turn on your hazard flashers",
-      "Turn on your parking lights"
+      "Turn on your parking lights",
+      "Turn on your headlights (daytime running lights do not count)",
+      "Nothing, because it is daytime"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "New York requires headlights whenever conditions require windshield wipers to clear rain, snow, sleet or fog. Daytime running lights and parking lights do not qualify.",
     "states": [
       "NY"
@@ -1976,17 +1634,17 @@
     "ref": "New York State Driver's Manual, p. 63"
   },
   {
-    "id": "ny.car.105",
+    "id": "ny.car.087",
     "track": "car",
     "topic": "hazards-conditions",
     "prompt": "In New York, you must switch to low beams when an oncoming vehicle is within how many feet?",
     "choices": [
-      "200 feet",
-      "300 feet",
       "1,000 feet",
-      "500 feet"
+      "500 feet",
+      "200 feet",
+      "300 feet"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Your headlights must be on low beam within 500 feet of an oncoming vehicle and within 200 feet of a vehicle ahead of you.",
     "states": [
       "NY"
@@ -1995,17 +1653,17 @@
     "ref": "New York State Driver's Manual, p. 63"
   },
   {
-    "id": "ny.car.106",
+    "id": "ny.car.088",
     "track": "car",
     "topic": "hazards-conditions",
     "prompt": "In New York, you must dim your high beams when you are following another vehicle within how many feet, even if it is in a different lane?",
     "choices": [
-      "100 feet",
-      "350 feet",
       "200 feet",
-      "500 feet"
+      "500 feet",
+      "100 feet",
+      "350 feet"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Use low beams within 200 feet of a vehicle ahead of you, even if it is in a different lane, and within 500 feet of an oncoming vehicle.",
     "states": [
       "NY"
@@ -2014,17 +1672,17 @@
     "ref": "New York State Driver's Manual, p. 63"
   },
   {
-    "id": "ny.car.107",
+    "id": "ny.car.089",
     "track": "car",
     "topic": "hazards-conditions",
     "prompt": "During what period may tires with metal studs be used in New York State?",
     "choices": [
-      "December 1 through April 1",
-      "October 16 through April 30",
       "November 1 through March 31",
-      "Any time it is snowing"
+      "Any time it is snowing",
+      "December 1 through April 1",
+      "October 16 through April 30"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Tires with metal studs can be used in New York State only from October 16 through April 30.",
     "states": [
       "NY"
@@ -2033,17 +1691,17 @@
     "ref": "New York State Driver's Manual, p. 64"
   },
   {
-    "id": "ny.car.108",
+    "id": "ny.car.090",
     "track": "car",
     "topic": "hazards-conditions",
     "prompt": "When railroad crossing lights are flashing or the gates are coming down, how far from the tracks must you stop in New York?",
     "choices": [
-      "At least 15 feet",
-      "At least 5 feet",
       "At least 50 feet",
-      "At least 30 feet"
+      "At least 30 feet",
+      "At least 15 feet",
+      "At least 5 feet"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Flashing red lights, lowered gates or a bell mean you must stop at least 15 feet from the tracks and wait until the lights and bell stop and the gates are fully up.",
     "states": [
       "NY"
@@ -2052,45 +1710,7 @@
     "ref": "New York State Driver's Manual, p. 61"
   },
   {
-    "id": "ny.car.109",
-    "track": "car",
-    "topic": "hazards-conditions",
-    "prompt": "According to the New York Driver's Manual, during which months do about two-thirds of deer-vehicle collisions occur?",
-    "choices": [
-      "June, July, and August",
-      "January, February, and March",
-      "April, May, and June",
-      "October, November, and December"
-    ],
-    "answer": 3,
-    "explanation": "Two-thirds of deer-vehicle collisions occur in October, November and December, during breeding season. Deer are most active at dawn and dusk.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 2,
-    "ref": "New York State Driver's Manual, p. 64"
-  },
-  {
-    "id": "ny.car.110",
-    "track": "car",
-    "topic": "hazards-conditions",
-    "prompt": "In New York, what color must rear fog lights be?",
-    "choices": [
-      "White",
-      "Blue",
-      "Red",
-      "Amber"
-    ],
-    "answer": 2,
-    "explanation": "Front fog lights can be amber or white, while back (rear) fog lights must be red. Fog lights must be an approved type and correctly installed.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 3,
-    "ref": "New York State Driver's Manual, p. 63"
-  },
-  {
-    "id": "ny.car.111",
+    "id": "ny.car.091",
     "track": "car",
     "topic": "sharing-road",
     "prompt": "Under New York law, what must you NOT do when approaching or passing a horse on the road?",
@@ -2109,36 +1729,17 @@
     "ref": "New York State Driver's Manual, p. 76"
   },
   {
-    "id": "ny.car.112",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "In New York, which bicycle riders and passengers must wear an approved helmet under state law?",
-    "choices": [
-      "Those ages 1 through 13",
-      "Only riders under 18",
-      "All riders of any age",
-      "Only riders on state highways"
-    ],
-    "answer": 0,
-    "explanation": "Bicyclists and their passengers ages 1 to 13 must wear an approved helmet; adults must follow any local helmet laws. Infants under 1 may not be carried at all.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 2,
-    "ref": "New York State Driver's Manual, p. 69"
-  },
-  {
-    "id": "ny.car.113",
+    "id": "ny.car.092",
     "track": "car",
     "topic": "sharing-road",
     "prompt": "Where must Class B and Class C mopeds be driven in New York?",
     "choices": [
+      "In the right lane, as far to the right as possible",
       "In any lane, like a car",
       "Only on sidewalks",
-      "Only on expressways",
-      "In the right lane, as far to the right as possible"
+      "Only on expressways"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Class B and C mopeds may be driven only in the right lane as far right as possible (except when turning left). Mopeds are not allowed on expressways unless signs permit.",
     "states": [
       "NY"
@@ -2147,17 +1748,17 @@
     "ref": "New York State Driver's Manual, p. 74"
   },
   {
-    "id": "ny.car.114",
+    "id": "ny.car.093",
     "track": "car",
     "topic": "sharing-road",
     "prompt": "A motorcycle is riding near the left side of your lane. In New York, may you move into the same lane space to pass it?",
     "choices": [
+      "Yes, if the lane is wide enough",
       "Yes, if the rider waves you by",
       "Yes, on multi-lane highways only",
-      "No; a motorcycle is entitled to the full width of the lane",
-      "Yes, if the lane is wide enough"
+      "No; a motorcycle is entitled to the full width of the lane"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Give a motorcycle the same full-lane width as other vehicles. Never move into the same lane space as a motorcycle, even if the lane is wide and the motorcycle is to one side.",
     "states": [
       "NY"
@@ -2166,36 +1767,17 @@
     "ref": "New York State Driver's Manual, p. 39"
   },
   {
-    "id": "ny.car.115",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "How must all-terrain vehicles (ATVs) and snowmobiles cross a New York highway where crossing is allowed?",
-    "choices": [
-      "Cross only with a police escort",
-      "Stop, yield to traffic, and cross at a 90-degree angle",
-      "Cross diagonally to save time",
-      "Ride along the shoulder to the next intersection"
-    ],
-    "answer": 1,
-    "explanation": "Before crossing, ATVs and snowmobiles must stop and yield to traffic, and must cross at a 90-degree angle to the road.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 2,
-    "ref": "New York State Driver's Manual, p. 76"
-  },
-  {
-    "id": "ny.car.116",
+    "id": "ny.car.094",
     "track": "car",
     "topic": "emergencies",
     "prompt": "In New York, you must file a crash report with the DMV if property damage to any one person is at least how much?",
     "choices": [
-      "$1,000",
-      "$500",
       "$2,500",
-      "$1,500"
+      "$1,500",
+      "$1,000",
+      "$500"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "You must report any crash involving death or personal injury, or $1,000 or more in damage to the property of any one person, using form MV-104.",
     "states": [
       "NY"
@@ -2204,17 +1786,17 @@
     "ref": "New York State Driver's Manual, p. 77"
   },
   {
-    "id": "ny.car.117",
+    "id": "ny.car.095",
     "track": "car",
     "topic": "emergencies",
     "prompt": "How long do you have to file a required crash report (MV-104) with the New York DMV?",
     "choices": [
-      "30 days",
-      "5 days",
       "72 hours",
-      "10 days"
+      "10 days",
+      "30 days",
+      "5 days"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "You must file a report with DMV within 10 days of the crash. Reporting to your insurance company does not satisfy this obligation.",
     "states": [
       "NY"
@@ -2223,17 +1805,17 @@
     "ref": "New York State Driver's Manual, p. 77"
   },
   {
-    "id": "ny.car.118",
+    "id": "ny.car.096",
     "track": "car",
     "topic": "emergencies",
     "prompt": "You reported a crash with $2,000 in damage to your insurance company. Do you still need to report it to the New York DMV?",
     "choices": [
-      "Only if the police were called",
-      "Only if someone was injured",
       "Yes, within 10 days; reporting to your insurer does not satisfy the law",
-      "No, the insurer reports it for you"
+      "No, the insurer reports it for you",
+      "Only if the police were called",
+      "Only if someone was injured"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Reporting to your insurer does not end your legal obligation. You must file with DMV within 10 days for damage of $1,000 or more to one person's property; failure to report is a misdemeanor.",
     "states": [
       "NY"
@@ -2242,17 +1824,17 @@
     "ref": "New York State Driver's Manual, p. 77"
   },
   {
-    "id": "ny.car.119",
+    "id": "ny.car.097",
     "track": "car",
     "topic": "emergencies",
     "prompt": "In New York, leaving the scene of a crash that caused personal injury is:",
     "choices": [
-      "Legal if no police are present",
-      "A criminal offense",
       "A traffic infraction with a small fine",
-      "Legal if you leave a note"
+      "Legal if you leave a note",
+      "Legal if no police are present",
+      "A criminal offense"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Leaving the scene of a property-damage crash is a traffic violation, but leaving the scene of a crash involving injury or death is a criminal violation.",
     "states": [
       "NY"
@@ -2261,45 +1843,7 @@
     "ref": "New York State Driver's Manual, p. 77"
   },
   {
-    "id": "ny.car.120",
-    "track": "car",
-    "topic": "emergencies",
-    "prompt": "What happens if you fail to file a required crash report with the New York DMV?",
-    "choices": [
-      "It is a misdemeanor, and your license and registration can be suspended or revoked",
-      "Nothing, if no one was injured",
-      "Your insurance rates go up, but there is no legal penalty",
-      "You get a written warning"
-    ],
-    "answer": 0,
-    "explanation": "Failure to report a crash is a criminal offense (misdemeanor) and can lead to suspension or revocation of the driver's license and/or registrations, including those of the vehicle owner.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 3,
-    "ref": "New York State Driver's Manual, p. 77"
-  },
-  {
-    "id": "ny.car.121",
-    "track": "car",
-    "topic": "emergencies",
-    "prompt": "The driver in a New York crash is too injured to complete the MV-104 report. Who may complete it?",
-    "choices": [
-      "Only the driver's lawyer",
-      "No one; the report is waived",
-      "Only the police officer",
-      "A passenger or the vehicle owner"
-    ],
-    "answer": 3,
-    "explanation": "If the driver is injured and unable to complete the report, a passenger or the vehicle owner may do so.",
-    "states": [
-      "NY"
-    ],
-    "difficulty": 3,
-    "ref": "New York State Driver's Manual, p. 77"
-  },
-  {
-    "id": "ny.car.122",
+    "id": "ny.car.098",
     "track": "car",
     "topic": "freeway",
     "prompt": "How far before an expressway exit ramp should you signal in New York?",
@@ -2318,7 +1862,7 @@
     "ref": "New York State Driver's Manual, p. 62"
   },
   {
-    "id": "ny.car.123",
+    "id": "ny.car.099",
     "track": "car",
     "topic": "freeway",
     "prompt": "Under New York law, where may you NEVER make a U-turn, even if a path connects both sides?",
