@@ -11,7 +11,11 @@ and the `args` global. The prompts inside are the real instructions given to the
 | `universal-review.js` | Batch review of universal car questions (correctness + universality across all handbooks + quality), one agent per 3–4 topics. | `{"batches": [["right-of-way","freeway"], ...]}` |
 | `bank-builder.js` | Universal banks from a manual (motorcycle MSF, CDL AAMVA): one author per job of several topics → independent reviewer. | `{"jobs": [{name, track, topics:[{topic,title,prefix,target,scope}]}]}` |
 | `lessons.js` | Study lessons per topic (several per agent), grounded in sources and aligned with the question bank → independent fact-check. | `{"jobs": [{name, track, topics:[{topic,title}]}]}` |
-| `sign-questions.js` | Image-based questions (`sign` field) for every sign/signal/marking code in `_codes.json` → independent review. Re-run after new signs are added (top-up). | none |
+| `sign-questions.js` | Image-based questions (`sign` field) for every sign/signal/marking code in `_codes.json` → independent review. | none |
+| `sign-questions-topup.js` | Questions only for sign codes that have none yet, one writer per group into a new file → independent review against the rendered sign. | `{"groups": [{key, file, prefix, codes: [...]}]}` |
+| `scenario-images.js` | Illustrators compose top-down scenes with `app/assets/scenes/scene.py` and write scenario questions → reviewers render every scene and check it against US conventions + universal rules. | — |
+| `ui-i18n.js` | Moves all UI strings into `defineStrings(en, es)` tables with Spanish, one agent per file group (≤4 at a time) → bilingual code review. | `{"groups": [{key, files: [...]}]}` |
+| `content-i18n.js` | Spanish content via `scripts/i18n.mjs`: optional glossary from official Spanish handbooks, then translator → bilingual reviewer per job, `wave` jobs at a time (default 2). | `{"lang": "es", "glossary": bool, "wave": 2, "jobs": [{key, sources: [...]}]}` |
 | `app-screens.js` | Parallel screen implementation + adversarial code review (superseded: screens are now written directly). | none |
 | `custom-illustrations.js` | Draw signal / pavement-marking / hand-signal SVGs into `app/assets/signs-custom/` and visually review them. | none |
 | `state-research-v1.js`, `state-e2e-v1.js` | Earlier, heavier versions (4 agents/state). Kept for their prompts (fact keys, verification procedure). | `{"states": [...], "side": bool}` |

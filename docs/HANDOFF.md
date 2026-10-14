@@ -1,6 +1,6 @@
 # DriveReady — project log & handoff
 
-_Last updated: 2026-10-13 (America/Phoenix). Keep this file current: it is how the next agent (human or AI)
+_Last updated: 2026-10-14 (America/Phoenix). Keep this file current: it is how the next agent (human or AI)
 picks up the work._
 
 ## 1. What the owner asked for (verbatim, in order)
@@ -15,6 +15,13 @@ picks up the work._
 4. "do research about other app/... take suggestion.. ref that app.. make our app improve add more feature and all.."
 5. "put all this code and all research whatever all to github private repo.. use my github acc only.. push all
    also make sure all ai chat context or whatever we did its easy for other ai coding agent to grab.."
+6. "again push all.. uptodate.."
+7. On release items (privacy URL, support email, app name): "i will do later ... first complete all app end to
+   end.. all things.. to prepare user for test must get pass", "can add later.. comment need to add.. i will
+   create later", "will add some diff name.. also dont build now will do once all done.. complete add all
+   things.. first" → no builds/release work until content is complete; placeholders carry `TODO(owner)`.
+8. "continue.. do all.. all things .. all images.. kinda all that other top app.. do all" → full sign library
+   with questions for every sign, illustrated driving-scenario pictures (like Zutobi/DMV Genie), Spanish.
 
 ## 2. Key decisions (and why)
 
@@ -37,32 +44,41 @@ picks up the work._
 _Updated 2026-10-14._
 
 ### Done
-- **App**: all 31 screens, 78 Jest tests passing, signed release APK verified on an Android 16 emulator.
-- **States complete & verified** (facts w/ page + verbatim quote, official test format, ~110 state questions
-  each): top 10 = CA, TX, FL, NY, PA, IL, OH, GA, NC, MI; plus WA, MA, TN, IN, MO (15 total).
-  NY/IL/GA/NC exams are sectioned (separately scored road-signs part) — see research/facts/exam-sections.json. Formats: CA 80%, TX 70% (counts unpublished → 40-Q
-  practice exam), FL 50/40, NY 20/14 (+2 of 4 signs), PA 18/15, IL 35/28, OH 40/30, GA 2×20 (15 each),
-  NC 40/32, MI teen Segment 1 exam 80 Q @70%.
-- **Universal car bank** 748 Q (reviewed against all handbooks); **motorcycle** 292 Q (MSF manual, reviewed);
-  **CDL General Knowledge** 252 Q (AAMVA manual, reviewed).
-- **Signs**: 132 in-app (MUTCD + app-drawn signals/markings/hand signals); remaining MUTCD SVGs downloading.
-- **Extra features**: State Laws mode, "Numbers to know" fact flashcards, test-ready checklist, weakest-topic
-  practice after results, sectioned exams, survival, speed round, driving log, share cheat sheet, road-test guide.
-- **Lessons**: 30 (14 car topics + road test, 7 motorcycle, 8 CDL), all fact-checked. **Sign questions**: 166.
+- **App**: 32 screens, 91 Jest tests (engine, screens, i18n, App-level onboarding e2e), release APK verified
+  earlier on an Android 16 emulator (no builds since — owner's instruction).
+- **30 states live & verified** (facts with page + verbatim quote checked by an independent verifier, official
+  test format, ~100 state questions each): CA TX FL NY PA IL OH GA NC MI · WA MA TN IN MO · NJ VA AZ MD MN ·
+  WI CO SC AL LA KY · OR OK CT UT. Sectioned exams (separately scored signs part): NY, IL, GA, NC, VA, WI —
+  `research/facts/exam-sections.json`.
+- **Universal banks**: car 1,018 (incl. 256 sign/signal/marking image questions), motorcycle 292, CDL 812 (general +
+  endorsements), all reviewed. **Lessons** 30 (car 15, motorcycle 7, CDL 8).
+- **Signs**: 228 in the library (public-domain MUTCD art + app-drawn signals, markings, hand signals); every
+  sign has at least one image question.
+- **Scenario illustrations** (`app/assets/scenes/`): top-down scene engine (`scene.py`) + scene modules →
+  SVG → shown in questions (wide) and lessons; screen readers get the scene description.
+- **Spanish (infrastructure)**: language setting (Settings + Welcome toggle, defaults to phone language),
+  `defineStrings` UI tables, content translations under `app/src/content/i18n/es/` with English-fingerprint
+  fallback, `scripts/i18n.mjs`, validator checks, `app/docs/TRANSLATION.md`, TTS language.
 
-### In progress
-- CDL modules: air brakes, combination, hazmat, tanker, doubles/triples, passenger, school bus (`bank-builder.js`).
-- Car lessons for 14 topics (`lessons.js`).
+### In progress (workflows; see tools/workflows/)
+- `scenario-images` — ~35 more scenes + scenario questions (intersections/right-of-way, sharing the road,
+  school bus, trucks, parking on hills, freeway merge...), independent visual + rules review.
+- `state-content-v2` — IA NV AR KS.
+- `ui-i18n` — all screens' strings into Spanish tables (7 groups, reviewed).
+- `content-i18n` — Spanish glossary from official Spanish handbooks (CA/TX/FL/NY) → universal car questions
+  and car lessons (translator → bilingual reviewer).
 
 ### Next steps (prioritized)
-1. Road-sign questions (~150, `sign` field) + image questions for signals/markings, after all signs download.
-2. Motorcycle + CDL lessons (`lessons.js`).
-3. Play release prep: AAB (`./gradlew bundleRelease`), screenshots (emulator), host privacy policy, Play Console
-   (owner's account), 12-tester closed test.
-4. Remaining 36 jurisdictions in batches of 4 (`state-content-v2.js`), population order. In progress: NJ VA AZ,
-   MD WI CO MN. Then: SC AL LA KY · OR OK CT UT · IA NV AR KS · MS NM NE ID · WV HI NH ME · MT RI DE SD · ND AK DC VT · WY.
-   Use `EXCLUDE_STATES=XX,YY node scripts/build-content-index.mjs` to keep unverified states out of the app index.
-5. iOS (needs Xcode + iOS native module).
+1. Remaining 17 jurisdictions in batches of 4 (`state-content-v2.js`): MS NM NE ID · WV HI NH ME · MT RI DE SD ·
+   ND AK DC VT · WY. Keep in-progress states out of the app index:
+   `EXCLUDE_STATES=XX,YY node scripts/build-content-index.mjs` (also `EXCLUDE_FILES=<file>.json` for universal
+   files still in review).
+2. Spanish content waves: state questions + state facts (after each state is verified), signs/scenes,
+   motorcycle, CDL (`content-i18n.js`, `{"wave": 2}` jobs at a time).
+3. Scenario pictures inside lessons (add `{"type":"sign","code":"SCN-..."}` blocks to the car lessons).
+4. One consolidated on-device check (debug build on the emulator) of scenes, Spanish UI and new screens.
+5. Owner items before publishing (do not start without the owner): final app name/package id, support email,
+   hosted privacy policy, screenshots, AAB, Play Console, 12-tester closed test. Then iOS (needs Xcode).
 
 ## 4. How content is produced (pipeline)
 1. Handbook PDF → text: `python3 -I research/tools/extract_pdf.py <pdf> research/handbooks/XX.txt`.

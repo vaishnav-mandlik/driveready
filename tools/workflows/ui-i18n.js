@@ -38,7 +38,7 @@ const COMMON = g => [
   '- Dates: formatDate/formatDateTime from src/i18n instead of toLocaleDateString()/toLocaleString().',
   '- Do NOT translate: the app name DriveReady, state agency names, URLs, emails, sign codes, testIDs, analytics-free internal ids, content coming from JSON (questions, lessons, facts, sign names — translated elsewhere).',
   '- Do not change behavior, layout, styles, testIDs or logic. No new dependencies.',
-  'Check: cd "' + APP + '" && npx tsc --noEmit (fix errors in YOUR files; errors in other groups\' files may be their work in progress — re-run later) and npx jest (must pass; English is the default language in tests). If a failure is in another group\'s file, wait a minute and re-run.',
+  'Check: cd "' + APP + '" && npx tsc --noEmit (fix errors in YOUR files; errors in other groups\' files may be their work in progress — re-run later) and npx jest --runInBand (must pass; English is the default language in tests; --runInBand keeps memory low on this 8 GB machine — never run jest without it). If a failure is in another group\'s file, wait a minute and re-run.',
 ].join('\n')
 
 const convertPrompt = g => [
@@ -53,9 +53,15 @@ const reviewPrompt = g => [
   'For each of your files: (1) git diff it (cd "' + APP + '/.." && git diff -- "app/<file>") and confirm no behavior/layout change and the English is unchanged; (2) find any user-visible English left un-tabled (grep JSX text, string props, Alert, template strings) and convert it; (3) review every Spanish string: correct grammar/accents/¿¡, natural wording, tú register, UI-terms table used consistently, plural/number agreement, no truncation risk on buttons/chips; (4) tr() never called at module scope; formatDate used for dates. Fix in place, re-run tsc and jest. Return the summary with concrete issues found and fixed.',
 ].join('\n')
 
-const out = await pipeline(
-  GROUPS,
-  g => agent(convertPrompt(g), { label: 'convert:' + g.key, phase: 'Convert', schema: SUMMARY, effort: 'high' }),
-  (c, g) => c ? agent(reviewPrompt(g), { label: 'review:' + g.key, phase: 'Review', schema: SUMMARY, effort: 'high' }).then(r => ({ c, r })) : null,
-)
+// At most 4 groups at a time: each agent runs tsc/jest, and the machine has 8 GB of RAM.
+const out = []
+for (let i = 0; i < GROUPS.length; i += 4) {
+  const wave = GROUPS.slice(i, i + 4)
+  log('groups ' + wave.map(g => g.key).join(', '))
+  out.push(...(await pipeline(
+    wave,
+    g => agent(convertPrompt(g), { label: 'convert:' + g.key, phase: 'Convert', schema: SUMMARY, effort: 'high' }),
+    (c, g) => c ? agent(reviewPrompt(g), { label: 'review:' + g.key, phase: 'Review', schema: SUMMARY, effort: 'high' }).then(r => ({ c, r })) : null,
+  )))
+}
 return out.map((x, i) => ({ group: GROUPS[i].key, converted: x && x.c && x.c.stringsConverted, tsc: x && x.r && x.r.tsc, jest: x && x.r && x.r.jest, convertIssues: x && x.c && x.c.issues.slice(0, 6), reviewIssues: x && x.r && x.r.issues.slice(0, 8) }))

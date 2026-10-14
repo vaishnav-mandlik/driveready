@@ -65,9 +65,16 @@ if (args && args.glossary) {
   await agent(glossaryPrompt, { label: 'glossary', phase: 'Glossary', effort: 'high' })
 }
 
-const out = await pipeline(
-  JOBS,
-  j => agent(translatePrompt(j), { label: 'translate:' + j.key, phase: 'Translate', schema: SUMMARY, effort: 'high' }),
-  (t, j) => t ? agent(reviewPrompt(j), { label: 'review:' + j.key, phase: 'Review', schema: SUMMARY, effort: 'high' }).then(r => ({ t, r })) : null,
-)
+// Two jobs at a time: big fan-outs exhaust the owner's usage limit (see AGENTS.md / workflows README).
+const WAVE = (args && args.wave) || 2
+const out = []
+for (let i = 0; i < JOBS.length; i += WAVE) {
+  const wave = JOBS.slice(i, i + WAVE)
+  log('jobs ' + wave.map(j => j.key).join(', '))
+  out.push(...(await pipeline(
+    wave,
+    j => agent(translatePrompt(j), { label: 'translate:' + j.key, phase: 'Translate', schema: SUMMARY, effort: 'high' }),
+    (t, j) => t ? agent(reviewPrompt(j), { label: 'review:' + j.key, phase: 'Review', schema: SUMMARY, effort: 'high' }).then(r => ({ t, r })) : null,
+  )))
+}
 return out.map((x, i) => ({ job: JOBS[i].key, translated: x && x.t && x.t.itemsTranslated, problemsLeft: x && x.r && x.r.importProblemsLeft, errors: x && x.r && x.r.validatorErrors, issues: x && x.r && x.r.issues.slice(0, 8) }))
