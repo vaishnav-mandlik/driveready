@@ -63,6 +63,16 @@
           ]
         },
         {
+          "type": "sign",
+          "code": "SCN-PASS-BICYCLE",
+          "caption": "A waits behind bicyclist C until oncoming B has passed, then passes with plenty of room."
+        },
+        {
+          "type": "sign",
+          "code": "SCN-RIGHT-TURN-BIKE-LANE",
+          "caption": "Turning right across a bike lane: let bicyclist B go first."
+        },
+        {
           "type": "tip",
           "text": "The minimum distance you must leave when passing a bicyclist varies by state. Check your State Cheat Sheet."
         },
@@ -111,6 +121,11 @@
           "text": "No-Zones are large blind spots in front of, behind and beside a truck or bus where the driver cannot see you. If you cannot see the truck's side mirrors, or the driver's face in them, the driver cannot see you."
         },
         {
+          "type": "sign",
+          "code": "SCN-TRUCK-NO-ZONES",
+          "caption": "Car A is in the truck's right-side No-Zone, where the driver cannot see it."
+        },
+        {
           "type": "bullets",
           "items": [
             "A loaded truck needs a much longer distance to stop than a car. Never cut in front of one.",
@@ -157,6 +172,16 @@
         },
         {
           "type": "sign",
+          "code": "SCN-SCHOOL-BUS-2LANE",
+          "caption": "On a two-lane road, A must stop even though the bus is across the road."
+        },
+        {
+          "type": "sign",
+          "code": "SCN-SCHOOL-BUS-BEHIND",
+          "caption": "Behind the bus: stay stopped while the red lights flash and the stop arm is out."
+        },
+        {
+          "type": "sign",
           "code": "S3-1",
           "caption": "School bus stop ahead"
         },
@@ -195,6 +220,11 @@
           ]
         },
         {
+          "type": "sign",
+          "code": "SCN-RAILROAD-GATES-DOWN",
+          "caption": "Lights flashing and gates down: stay stopped until the gates are up and the lights stop."
+        },
+        {
           "type": "tip",
           "text": "The exact distance you must stop from the nearest rail varies by state. Check your State Cheat Sheet."
         }
@@ -224,8 +254,18 @@
           "text": "Every state has a Move Over law, but the details, and how far you must stay behind emergency vehicles, vary. Check your State Cheat Sheet."
         },
         {
+          "type": "sign",
+          "code": "SCN-MOVE-OVER-POLICE",
+          "caption": "Move over: when it is safe, change lanes away from a stopped emergency vehicle, or slow down."
+        },
+        {
           "type": "p",
           "text": "In a work zone, flaggers control traffic with STOP/SLOW paddles or red flags. Their directions, like a police officer's, come before normal signs and signals."
+        },
+        {
+          "type": "sign",
+          "code": "SCN-FLAGGER-STOP",
+          "caption": "A flagger's STOP paddle means stop, just like a STOP sign."
         },
         {
           "type": "table",
@@ -261,6 +301,11 @@
             "After passing a horse-drawn vehicle, move back only when you are well ahead of the horse.",
             "If cattle or other animals are near the road, slow down or stop and go on only when it is safe."
           ]
+        },
+        {
+          "type": "sign",
+          "code": "SCN-SLOW-MOVING-VEHICLE",
+          "caption": "Slow down early behind the orange triangle, and pass only where it is legal and safe."
         }
       ]
     }

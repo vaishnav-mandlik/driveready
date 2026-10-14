@@ -19,7 +19,8 @@
         {"type": "bullets", "items": [
           "Even on a green light, do not enter until there is room on the far side for your whole car.",
           "In slow traffic, stop before a side street entrance so you leave it open for others."
-        ]}
+        ]},
+        {"type": "sign", "code": "SCN-INT-GRIDLOCK", "caption": "Green light, but no room past the intersection: A waits so it does not block cross traffic."}
       ]
     },
     {
@@ -46,6 +47,7 @@
           "Slow down and yield to pedestrians crossing the street you are turning onto.",
           "Turn into the lane closest to the right curb. If you need another lane later, finish the turn first and then change lanes safely."
         ]},
+        {"type": "sign", "code": "SCN-INT-RIGHT-TURN-PED", "caption": "Turning right on green: A yields to the pedestrian crossing the street it is turning into."},
         {"type": "warning", "text": "Do not swing left before a right turn. It leaves room on your right for a car or bike to slip in, and it confuses drivers behind you."},
         {"type": "p", "text": "From a one-way street, turn right from the far-right lane unless signs or markings say otherwise. Remember that your rear wheels follow a shorter path than your front wheels and cut closer to the curb, so do not cut the corner."}
       ]
@@ -67,8 +69,10 @@
           "If a driver in the near lane waves you on, make sure the far lane is clear before you turn.",
           "A protected left turn is one where a signal, such as a green arrow, stops oncoming traffic while you turn."
         ]},
+        {"type": "sign", "code": "SCN-INT-4WAY-LEFT-STRAIGHT", "caption": "All-way stop, stopped together: A, turning left, lets oncoming B go straight first."},
         {"type": "signs", "codes": ["MARK-TWLTL", "R3-9b"]},
-        {"type": "p", "text": "To use a center two-way left-turn lane, check for oncoming drivers already in it, signal, and move fully into the lane shortly before your turn. It is not a travel lane, and drivers from the other direction use it too."}
+        {"type": "p", "text": "To use a center two-way left-turn lane, check for oncoming drivers already in it, signal, and move fully into the lane shortly before your turn. It is not a travel lane, and drivers from the other direction use it too."},
+        {"type": "sign", "code": "SCN-INT-CENTER-TURN-LANE", "caption": "Center turn lane: A waits in the lane until oncoming B has passed."}
       ]
     },
     {
@@ -81,7 +85,8 @@
           "If you are in a turn-only lane but wanted to go straight, make the turn the lane requires, then find another route.",
           "If heavy traffic keeps you from reaching your turn lane, skip this turn and take the next safe route.",
           "If you start turning onto the wrong street, finish the turn, then find a safe place to turn around."
-        ]}
+        ]},
+        {"type": "sign", "code": "SCN-INT-DUAL-LEFT", "caption": "A turns left from the left lane, next to the center line."}
       ]
     },
     {
@@ -91,7 +96,8 @@
         {"type": "bullets", "items": [
           "If a truck signals right but moves left first, it is making room for its turn. Stay behind it; never pull into the space on its right.",
           "When stopped at a light, stay behind the stop line so a turning truck has room to swing into your street."
-        ]}
+        ]},
+        {"type": "sign", "code": "SCN-INT-TRUCK-RIGHT", "caption": "A truck swinging wide for a right turn: A stays out of the shaded space beside it."}
       ]
     },
     {
@@ -106,6 +112,7 @@
           "Use your right turn signal as you approach your exit, and yield to pedestrians in the exit crosswalk.",
           "If you miss your exit, keep going around until you come back to it. Never back up in a roundabout."
         ]},
+        {"type": "sign", "code": "SCN-INT-ROUNDABOUT-PATH", "caption": "Inside a roundabout, go counterclockwise and signal right before your exit."},
         {"type": "bullets", "items": [
           "Do not drive beside a large truck in a roundabout; give it room.",
           "The raised paved area by the central island, called a truck apron, is for the rear wheels of large trucks, not for cars.",

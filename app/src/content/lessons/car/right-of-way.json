@@ -25,9 +25,11 @@
           "Slow down as you approach and be ready to stop for traffic from either side.",
           "A vehicle already in the intersection goes first.",
           "If two vehicles on different roads arrive at about the same time, the driver on the left yields to the driver on the right.",
-          "At a T-intersection, the driver on the road that ends yields to traffic on the through road."
+          "At a T-intersection, many states say the driver on the road that ends yields to traffic on the through road. Where your handbook has no such rule, the yield-to-the-right rule applies."
         ]},
-        {"type": "tip", "text": "A car on your right only goes first if it arrives at about the same time. A car still far away does not get to go first just because it is on your right. And if a car on your left should yield to you, be ready to stop in case it does not."}
+        {"type": "sign", "code": "SCN-INT-UNCONTROLLED", "caption": "No signs or signals: A and B arrive together, so A yields to B on its right."},
+        {"type": "tip", "text": "A car on your right only goes first if it arrives at about the same time. A car still far away does not get to go first just because it is on your right. And if a car on your left should yield to you, be ready to stop in case it does not."},
+        {"type": "sign", "code": "SCN-INT-T-JUNCTION", "caption": "T-intersection with no signs: A, turning out of the road that ends, waits for B."}
       ]
     },
     {
@@ -43,7 +45,10 @@
           "If you are turning left and the driver facing you is going straight, they go first.",
           "Even when it is your turn, stop fully and check for pedestrians. If another car rolls through without stopping, let it go."
         ]},
-        {"type": "p", "text": "When a traffic signal is dark because of a power outage, most states require you to treat the intersection as an all-way stop: drivers on the main road must stop too, and the same take-turns rules apply. A few states, such as Minnesota, treat it as an uncontrolled intersection instead. Either way, slow down, be ready to stop, and yield to anyone with the right-of-way."}
+        {"type": "sign", "code": "SCN-INT-4WAY-FIRST", "caption": "All-way stop: A stopped first, so A goes first. B must stop and wait its turn."},
+        {"type": "sign", "code": "SCN-4WAY-SAME-TIME", "caption": "All-way stop, arriving together: A yields to B on its right."},
+        {"type": "p", "text": "When a traffic signal is dark because of a power outage, most states require you to treat the intersection as an all-way stop: drivers on the main road must stop too, and the same take-turns rules apply. A few states, such as Minnesota, treat it as an uncontrolled intersection instead. Either way, slow down, be ready to stop, and yield to anyone with the right-of-way."},
+        {"type": "sign", "code": "SCN-INT-SIGNAL-DARK", "caption": "Signal out: A and B stopped at the same time, so A yields to B on its right."}
       ]
     },
     {
@@ -56,7 +61,9 @@
           "Turning left into a driveway or alley mid-block, yield to oncoming traffic close enough to be a hazard.",
           "On a green arrow, you still yield to vehicles and pedestrians already in the intersection.",
           "Motorcycles are small, so their speed and distance are easy to misjudge. If unsure, yield."
-        ]}
+        ]},
+        {"type": "sign", "code": "SCN-LEFT-TURN-ONCOMING", "caption": "Left turn on a green light: A waits until oncoming B has passed."},
+        {"type": "sign", "code": "SCN-INT-FLASHING-YELLOW-ARROW", "caption": "Flashing yellow arrow: A may turn only after yielding to oncoming B."}
       ]
     },
     {
@@ -69,7 +76,8 @@
           "Pulling away from the curb, traffic already on the road goes first. Wait for a safe gap.",
           "Backing out of a parking space, yield to vehicles and pedestrians passing behind you.",
           "On the main road you have the right-of-way over a car waiting in a driveway, but watch in case it pulls out."
-        ]}
+        ]},
+        {"type": "sign", "code": "SCN-INT-DRIVEWAY-EXIT", "caption": "Leaving a driveway: stop before the sidewalk, let the pedestrian pass, then wait for B."}
       ]
     },
     {
@@ -84,7 +92,9 @@
           "If someone crosses mid-block outside a crosswalk, you must still slow down or stop to avoid hitting them.",
           "Do not wave a pedestrian across a multilane road. A driver in another lane may not stop."
         ]},
-        {"type": "warning", "text": "A person with a white cane or guide dog always gets the right-of-way, even if they start against the signal. Do not honk, which can confuse them, and do not stop in the crosswalk, which can force them to walk around your car into traffic. Quiet hybrid and electric cars are hard for them to hear, so take extra care."}
+        {"type": "sign", "code": "SCN-INT-RED-RIGHT-PED", "caption": "Right on red (where allowed): A stops first and lets the pedestrian finish crossing."},
+        {"type": "warning", "text": "A person with a white cane or guide dog always gets the right-of-way, even if they start against the signal. Do not honk, which can confuse them, and do not stop in the crosswalk, which can force them to walk around your car into traffic. Quiet hybrid and electric cars are hard for them to hear, so take extra care."},
+        {"type": "sign", "code": "SCN-INT-WHITE-CANE", "caption": "A pedestrian with a white cane always has the right-of-way."}
       ]
     },
     {
@@ -97,6 +107,8 @@
           "Do not enter a roundabout while an emergency vehicle is approaching. If you are already in one, keep moving, exit, then pull over.",
           "After it passes, check for more emergency vehicles before you move again."
         ]},
+        {"type": "sign", "code": "SCN-EMERGENCY-BEHIND", "caption": "An ambulance behind you: pull to the right edge and stop."},
+        {"type": "sign", "code": "SCN-INT-EMERGENCY", "caption": "Already in the intersection: drive through it, then pull to the right and stop."},
         {"type": "p", "text": "A police car behind you with no siren or flashing lights does not require you to pull over. Rules for moving over or slowing down when passing stopped emergency vehicles vary by state; check your State Cheat Sheet."}
       ]
     },
@@ -110,7 +122,9 @@
           "When you change lanes, a car already in that lane has the right-of-way.",
           "When your lane ends, you must yield and merge into the next lane.",
           "Merging from an on-ramp, highway traffic has the right-of-way. If no one makes room, adjust your speed and find a safe gap."
-        ]}
+        ]},
+        {"type": "sign", "code": "SCN-INT-ROUNDABOUT-YIELD", "caption": "Entering a roundabout: A yields to B, already circling from A's left."},
+        {"type": "sign", "code": "SCN-INT-YIELD-MERGE", "caption": "At a yield sign, A lets B pass before joining the road."}
       ]
     }
   ],

@@ -24,6 +24,7 @@
       "heading": "Blind spots and lane changes",
       "blocks": [
         {"type": "p", "text": "Blind spots are areas beside and just behind your car, on both sides, that your mirrors do not show. Even correctly adjusted mirrors leave them, so you must turn your head."},
+        {"type": "sign", "code": "SCN-BLIND-SPOT-LANE-CHANGE", "caption": "B is in A's blind spot: look over your shoulder before changing lanes."},
         {"type": "steps", "items": [
           "Signal, even if you do not see anyone nearby.",
           "Check your rearview and side mirrors.",
@@ -49,6 +50,8 @@
           "Never pass a vehicle that has slowed and signaled a left turn by going around its left side.",
           "Do not use a center two-way left-turn lane to pass. It is only for turning."
         ]},
+        {"type": "sign", "code": "SCN-NO-PASSING-SOLID-YELLOW", "caption": "Solid yellow on A's side: A may not pass B."},
+        {"type": "sign", "code": "SCN-PASSING-BROKEN-YELLOW", "caption": "Broken yellow on A's side: A may pass when it is safe, returning well ahead of B."},
         {"type": "p", "text": "A few states allow you to cross a solid yellow line in limited cases, such as to pass a bicyclist or a very slow vehicle when the way is clear. These exceptions vary; check your State Cheat Sheet."}
       ]
     },
