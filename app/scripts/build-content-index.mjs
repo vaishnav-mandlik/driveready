@@ -38,6 +38,8 @@ const walk = dir => {
 };
 
 const rel = p => './' + relative(CONTENT, p).split('\\').join('/');
+// States still being produced/verified can be left out: EXCLUDE_STATES=NJ,VA node scripts/build-content-index.mjs
+const EXCLUDE = new Set((process.env.EXCLUDE_STATES ?? '').split(',').map(s => s.trim().toUpperCase()).filter(Boolean));
 const code = p => p.split('/').pop().replace('.json', '');
 
 const lines = [];
@@ -56,13 +58,13 @@ for (const t of TRACKS) {
 lines.push('};');
 lines.push('');
 lines.push('export const stateQuestionLoaders: Partial<Record<StateCode, () => Question[]>> = {');
-for (const f of jsonFiles(join(CONTENT, 'questions', 'states'))) {
+for (const f of jsonFiles(join(CONTENT, 'questions', 'states')).filter(f => !EXCLUDE.has(code(f)))) {
   lines.push(`  ${code(f)}: () => require('${rel(f)}'),`);
 }
 lines.push('};');
 lines.push('');
 lines.push('export const stateInfoLoaders: Partial<Record<StateCode, () => StateInfo>> = {');
-for (const f of jsonFiles(join(CONTENT, 'states'))) {
+for (const f of jsonFiles(join(CONTENT, 'states')).filter(f => !EXCLUDE.has(code(f)))) {
   lines.push(`  ${code(f)}: () => require('${rel(f)}'),`);
 }
 lines.push('};');

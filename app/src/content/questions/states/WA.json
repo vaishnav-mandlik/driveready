@@ -11,9 +11,9 @@
       ".08% or higher"
     ],
     "answer": 3,
-    "explanation": "For drivers 21 and older, a BAC of .08% or higher is a DUI in Washington. You can still be arrested below .08% if alcohol or drugs affect your driving.",
+    "explanation": "For drivers 21 and older, a BAC of .08% or higher is a DUI in Washington. You can also be guilty of DUI below .08% if alcohol or drugs affect your driving (RCW 46.61.502).",
     "difficulty": 1,
-    "ref": "Washington State Driver Guide, p. 37",
+    "ref": "Washington State Driver Guide, p. 37; RCW 46.61.502",
     "states": [
       "WA"
     ]
@@ -51,7 +51,7 @@
     "answer": 2,
     "explanation": "Driving a commercial motor vehicle at 0.04 or more leads to at least a one-year commercial driving disqualification for a first violation. The 0.08 limit applies to drivers 21+ in regular vehicles.",
     "difficulty": 2,
-    "ref": "RCW 46.25.090",
+    "ref": "Revised Code of Washington, RCW 46.25.090",
     "states": [
       "WA"
     ]
@@ -62,15 +62,15 @@
     "topic": "alcohol-drugs",
     "prompt": "For a Washington driver age 21 or older, what level of active THC (cannabis) in the blood is considered a DUI?",
     "choices": [
-      "More than 5 nanograms per milliliter",
+      "5.00 nanograms per milliliter or more",
       "There is no THC limit for adults",
-      "More than 2 nanograms per milliliter",
-      "More than 10 nanograms per milliliter"
+      "2.00 nanograms per milliliter or more",
+      "10.00 nanograms per milliliter or more"
     ],
     "answer": 0,
-    "explanation": "Drivers 21 and older with more than 5 nanograms of active THC per milliliter of blood are considered under the influence. The guide also stresses that no amount of cannabis is safe before driving.",
+    "explanation": "For drivers 21 and older, an active THC level of 5.00 nanograms per milliliter of blood or more is a DUI. The guide also stresses that no amount of cannabis is safe before driving.",
     "difficulty": 2,
-    "ref": "Washington State Driver Guide, p. 37",
+    "ref": "Washington State Driver Guide, pp. 37-38; RCW 46.61.502",
     "states": [
       "WA"
     ]
@@ -117,17 +117,17 @@
     "id": "wa.car.007",
     "track": "car",
     "topic": "alcohol-drugs",
-    "prompt": "After a DUI arrest, a Washington driver refuses a breath test for the first time. How long is their license revoked?",
+    "prompt": "According to the Washington Driver Guide, what can happen if you refuse a breath or blood test when an officer suspects you of DUI?",
     "choices": [
-      "No license action, only a fine",
-      "1 year",
-      "90 days",
-      "30 days"
+      "You could lose your driving privilege for 90 to 730 days, or until age 21 if that is longer",
+      "Nothing, because testing is always voluntary",
+      "You get a warning for a first refusal",
+      "Your license is suspended for no more than 30 days"
     ],
-    "answer": 1,
-    "explanation": "A first refusal brings revocation or denial for one year. A second refusal within seven years means two years, or until age 21 if that is longer. The refusal can also be used as evidence in a criminal trial.",
-    "difficulty": 3,
-    "ref": "RCW 46.20.3101",
+    "answer": 0,
+    "explanation": "Under the Implied Consent Law, refusing a test can cost you your driving privilege for 90 to 730 days, or until age 21 if that is longer. By statute (RCW 46.20.3101), a first refusal brings a 1-year revocation.",
+    "difficulty": 2,
+    "ref": "Washington State Driver Guide, p. 37",
     "states": [
       "WA"
     ]
@@ -203,7 +203,7 @@
     "answer": 2,
     "explanation": "A first DUI with no prior offense in seven years carries a fine of $350 to $5,000, plus at least 24 consecutive hours in jail (or an alternative). The minimums rise at a BAC of 0.15 or more.",
     "difficulty": 3,
-    "ref": "RCW 46.61.5055",
+    "ref": "Revised Code of Washington, RCW 46.61.5055",
     "states": [
       "WA"
     ]
@@ -220,7 +220,7 @@
       "Drivers may hold a phone on roads with speed limits under 35 mph"
     ],
     "answer": 2,
-    "explanation": "Washington prohibits all drivers, regardless of age or experience, from holding any electronic device while driving. Adults may use hands-free devices.",
+    "explanation": "Washington prohibits all drivers, regardless of age or experience, from holding any electronic device while driving. Hands-free use is allowed, except for permit and intermediate license holders.",
     "difficulty": 1,
     "ref": "Washington State Driver Guide, p. 85",
     "states": [
@@ -241,7 +241,7 @@
     "answer": 3,
     "explanation": "Under RCW 46.61.672, 'driving' includes being temporarily stopped because of traffic or a traffic signal. Pull off the road to a safe spot before using your phone.",
     "difficulty": 3,
-    "ref": "RCW 46.61.672",
+    "ref": "Revised Code of Washington, RCW 46.61.672",
     "states": [
       "WA"
     ]
@@ -258,7 +258,7 @@
       "Yes, but only when a passenger is present"
     ],
     "answer": 1,
-    "explanation": "Permit holders and intermediate license holders may not use a cell phone or other wireless device while driving, even hands-free. The only exception is reporting an emergency.",
+    "explanation": "Permit and intermediate license holders may not use a cell phone or other wireless device while driving, even hands-free. The only exceptions are reporting an emergency or illegal activity, or preventing injury.",
     "difficulty": 2,
     "ref": "Washington State Driver Guide, p. 29",
     "states": [
@@ -412,7 +412,7 @@
     "answer": 3,
     "explanation": "Your knowledge exam score is valid for 2 years. If you wait too long to take the skills exam, you may have to take the knowledge exam again.",
     "difficulty": 2,
-    "ref": "Washington State Driver Guide, p. 32",
+    "ref": "Washington State Driver Guide, p. 25",
     "states": [
       "WA"
     ]
@@ -640,7 +640,7 @@
     "answer": 3,
     "explanation": "New residents licensed in another state have 30 days to get a Washington license. New residents also have 30 days to register their vehicles.",
     "difficulty": 2,
-    "ref": "Washington State Driver Guide, p. 20",
+    "ref": "Washington State Driver Guide, pp. 20, 41",
     "states": [
       "WA"
     ]
@@ -687,7 +687,7 @@
     "id": "wa.car.037",
     "track": "car",
     "topic": "laws-licensing",
-    "prompt": "Washington does not use a point system. What happens if you are ticketed for moving violations on too many separate occasions, such as 3 times in 12 months?",
+    "prompt": "In Washington, what happens if you get moving-violation tickets on 3 separate occasions within 12 months?",
     "choices": [
       "Your license is suspended for 60 days, followed by 1 year of probation",
       "You pay a one-time surcharge with no suspension",
@@ -695,9 +695,9 @@
       "Your license is revoked for 5 years"
     ],
     "answer": 0,
-    "explanation": "Moving-violation infractions on 3 occasions in 12 months, or 4 in 24 months, bring a 60-day suspension and a 1-year probation. Tickets from the same stop count as one occasion.",
+    "explanation": "Moving violations on 3 occasions in 12 months, or 4 in 24 months, bring a 60-day suspension followed by 1 year of probation. Tickets from the same traffic stop count as one occasion.",
     "difficulty": 3,
-    "ref": "RCW 46.20.2892; Washington DOL suspension pages (dol.wa.gov)",
+    "ref": "Revised Code of Washington, RCW 46.20.2892",
     "states": [
       "WA"
     ]
@@ -754,7 +754,7 @@
     "answer": 2,
     "explanation": "The school zone speed limit is 20 mph. Signs may say when it applies, such as when flashing or when children are present. School zone speeding fines are doubled.",
     "difficulty": 1,
-    "ref": "Washington State Driver Guide, p. 140",
+    "ref": "Washington State Driver Guide, p. 140; RCW 46.61.440",
     "states": [
       "WA"
     ]
@@ -792,7 +792,7 @@
     "answer": 3,
     "explanation": "Washington's default maximum on city and town streets is 25 mph. Lower or higher limits apply only where posted.",
     "difficulty": 2,
-    "ref": "RCW 46.61.400",
+    "ref": "Revised Code of Washington, RCW 46.61.400",
     "states": [
       "WA"
     ]
@@ -811,7 +811,7 @@
     "answer": 2,
     "explanation": "The default limits are 25 mph on city and town streets, 50 mph on county roads, and 60 mph on state highways.",
     "difficulty": 2,
-    "ref": "RCW 46.61.400",
+    "ref": "Revised Code of Washington, RCW 46.61.400",
     "states": [
       "WA"
     ]
@@ -830,7 +830,7 @@
     "answer": 2,
     "explanation": "State highways have a default maximum of 60 mph. Higher limits apply only where WSDOT posts them.",
     "difficulty": 2,
-    "ref": "RCW 46.61.400",
+    "ref": "Revised Code of Washington, RCW 46.61.400",
     "states": [
       "WA"
     ]
@@ -844,12 +844,12 @@
       "Half the length of your vehicle",
       "At least twice the length of your vehicle",
       "Exactly 10 feet",
-      "At least one car length for every 20 mph"
+      "Exactly one car length"
     ],
     "answer": 1,
     "explanation": "When driving near other vehicles, leave a distance at least twice the length of your vehicle. Leave more room at night, in bad weather, and behind motorcycles.",
     "difficulty": 2,
-    "ref": "Washington State Driver Guide, p. 159",
+    "ref": "Washington State Driver Guide, pp. 100, 159",
     "states": [
       "WA"
     ]
@@ -861,12 +861,12 @@
     "prompt": "A posted minimum speed limit on a Washington road means:",
     "choices": [
       "You may drive slower if you turn on your hazard lights",
-      "You must drive at least that fast unless conditions make it unsafe",
+      "You must drive at least that fast so you are not a hazard to other drivers",
       "It applies only to trucks",
       "It is only a suggestion"
     ],
     "answer": 1,
-    "explanation": "Some roads have minimum speed limits so slow drivers do not become a hazard. You must drive at least that fast unless slower speed is needed for safety (RCW 46.61.425).",
+    "explanation": "Some Washington roads have minimum speed limits. You're required to travel at least that fast so you are not a hazard to other drivers.",
     "difficulty": 1,
     "ref": "Washington State Driver Guide, p. 114",
     "states": [
@@ -965,7 +965,7 @@
     "answer": 3,
     "explanation": "Shared center lanes are only for left turns (and legal U-turns), never for passing. You shouldn't travel farther than 300 feet in a center lane.",
     "difficulty": 2,
-    "ref": "Washington State Driver Guide, p. 134",
+    "ref": "Washington State Driver Guide, pp. 133-134",
     "states": [
       "WA"
     ],
@@ -1023,7 +1023,7 @@
     "answer": 0,
     "explanation": "HOV lanes are for carpools, vanpools and buses that meet the posted occupancy requirement, but motorcycles are also allowed. Remember that carpool lanes are not passing lanes.",
     "difficulty": 2,
-    "ref": "Washington State Driver Guide, p. 134",
+    "ref": "Washington State Driver Guide, pp. 108, 134",
     "states": [
       "WA"
     ],
@@ -1062,7 +1062,7 @@
     "answer": 1,
     "explanation": "For pedestrians using a wheelchair, cane, guide dog or other service animal, wait until they have completely crossed. Don't honk; it could confuse or frighten them.",
     "difficulty": 2,
-    "ref": "Washington State Driver Guide, p. 93",
+    "ref": "Washington State Driver Guide, pp. 93-94",
     "states": [
       "WA"
     ]
@@ -1076,7 +1076,7 @@
       "A driver entering a state highway from a secondary road",
       "A driver already on the state highway",
       "The driver of the larger vehicle",
-      "A driver going straight on a paved road"
+      "A driver on a paved road when a car is entering from an unpaved road"
     ],
     "answer": 0,
     "explanation": "You must yield if you are entering or crossing a state highway from a secondary road, entering a paved road from an unpaved road, turning left with traffic approaching, or if a vehicle is already in the intersection.",
@@ -1152,13 +1152,13 @@
     "choices": [
       "A four-way stop at the overpass",
       "To stop for oncoming traffic before turning left onto the freeway",
-      "To cross over to the left side of the roadway for a short distance",
+      "To cross over to the other side of the roadway",
       "A traffic circle with a center island"
     ],
     "answer": 2,
-    "explanation": "In a diverging diamond, traffic is guided to the left side of the road, which allows free-flowing left turns onto the freeway, then crosses back to the right.",
+    "explanation": "A diverging diamond is designed so traffic crosses to the other side of the roadway. This lets vehicles turn left onto and off freeway ramps without turning against oncoming traffic.",
     "difficulty": 2,
-    "ref": "Washington State Driver Guide, p. 129",
+    "ref": "Washington State Driver Guide, p. 128",
     "states": [
       "WA"
     ]
@@ -1226,13 +1226,13 @@
     "topic": "sharing-road",
     "prompt": "What penalty applies in Washington for passing a stopped school bus with its red lights flashing?",
     "choices": [
-      "Points on your record",
+      "A reduced fine if no children were present",
       "A fine only if a child is hurt",
       "A warning for a first offense",
       "The fine is doubled"
     ],
     "answer": 3,
-    "explanation": "Fines are doubled for anyone who passes a stopped school bus. The penalty cannot be waived, reduced or suspended (RCW 46.61.370).",
+    "explanation": "Fines are doubled for anyone who passes a stopped school bus. Never pass a bus with flashing red lights; children are getting on or off.",
     "difficulty": 2,
     "ref": "Washington State Driver Guide, p. 95",
     "states": [
@@ -1280,18 +1280,18 @@
   {
     "id": "wa.car.068",
     "track": "car",
-    "topic": "sharing-road",
-    "prompt": "A motorcyclist is riding near the right edge of a wide lane. May you drive alongside them in the same lane?",
+    "topic": "intersections-turns",
+    "prompt": "You want to make a U-turn at an intersection on a straight road with a clear view in all directions. No sign mentions U-turns. Is this allowed in Washington?",
     "choices": [
-      "Yes, if you stay under the speed limit",
-      "No, motorcycles are entitled to the full width of the lane",
-      "Yes, if the lane is wide enough",
-      "Only on freeways"
+      "Yes; U-turns are generally allowed unless a sign says they are not",
+      "No; U-turns are allowed only where a sign permits them",
+      "No; U-turns are never allowed at intersections",
+      "Only if a police officer directs you to turn"
     ],
-    "answer": 1,
-    "explanation": "Never move into the same lane alongside a motorcyclist, even if the lane is wide and the rider is far to one side (RCW 46.61.608).",
+    "answer": 0,
+    "explanation": "In Washington, U-turns are generally allowed unless a sign is posted saying they are not. You must have clear visibility in all directions, so never make one on a curve or near the crest of a hill.",
     "difficulty": 2,
-    "ref": "Washington State Driver Guide, p. 101",
+    "ref": "Washington State Driver Guide, p. 124",
     "states": [
       "WA"
     ]
@@ -1369,7 +1369,7 @@
     "answer": 1,
     "explanation": "Washington law bars following a fire truck answering an alarm closer than 500 feet, or stopping within 500 feet of one stopped at a fire.",
     "difficulty": 3,
-    "ref": "RCW 46.61.635",
+    "ref": "Revised Code of Washington, RCW 46.61.635",
     "states": [
       "WA"
     ]
@@ -1464,7 +1464,7 @@
     "answer": 1,
     "explanation": "An emergency or work zone covers the adjacent lanes 200 feet before and after the stopped vehicle. Penalties for violations in the zone are doubled.",
     "difficulty": 3,
-    "ref": "RCW 46.61.212",
+    "ref": "Revised Code of Washington, RCW 46.61.212",
     "states": [
       "WA"
     ]
@@ -1502,7 +1502,7 @@
     "answer": 1,
     "explanation": "A report is required for crashes involving injury, death, or property damage of $1,000 or more (the Washington State Patrol threshold since 2015).",
     "difficulty": 3,
-    "ref": "RCW 46.52.030; WAC 446-85-010",
+    "ref": "Revised Code of Washington, RCW 46.52.030; WAC 446-85-010",
     "states": [
       "WA"
     ]
@@ -1510,18 +1510,18 @@
   {
     "id": "wa.car.080",
     "track": "car",
-    "topic": "emergencies",
-    "prompt": "A power line has fallen on your car after a crash, and there is no fire. What should you do?",
+    "topic": "parking",
+    "prompt": "In Washington, you may not park within how many feet of a driveway, alley, or private road?",
     "choices": [
-      "Stay inside, call 911, and keep others at least 35 feet away",
-      "Get out and run away quickly",
-      "Drive forward off the line",
-      "Touch the car frame to ground it"
+      "5 feet",
+      "10 feet",
+      "15 feet",
+      "20 feet"
     ],
     "answer": 0,
-    "explanation": "Stay in your vehicle and call 911; assume the line is energized. Encourage people to stay at least 35 feet away. Leave only if there is a fire, by jumping clear and shuffling 35 feet away.",
+    "explanation": "Do not park within 5 feet of a driveway, alley, or private road. Don't mix this up with the 15-foot fire hydrant rule.",
     "difficulty": 2,
-    "ref": "Washington State Driver Guide, p. 178",
+    "ref": "Washington State Driver Guide, p. 143",
     "states": [
       "WA"
     ]
@@ -1635,7 +1635,7 @@
     "answer": 3,
     "explanation": "Washington law prohibits standing or parking within 20 feet of a crosswalk, and never on the crosswalk itself.",
     "difficulty": 2,
-    "ref": "RCW 46.61.570",
+    "ref": "Revised Code of Washington, RCW 46.61.570",
     "states": [
       "WA"
     ]
@@ -1777,17 +1777,17 @@
     "id": "wa.car.094",
     "track": "car",
     "topic": "freeway",
-    "prompt": "You miss your exit on a Washington freeway. What should you do?",
+    "prompt": "Is it legal to pick up a hitchhiker on a Washington freeway?",
     "choices": [
-      "Back up slowly on the shoulder",
-      "Continue to the next exit",
-      "Make a U-turn through the median",
-      "Stop and wait for a gap to reverse"
+      "No; hitchhiking and picking up hitchhikers on freeways are illegal",
+      "Yes, if you stop completely on the shoulder",
+      "Yes, but only on an on-ramp",
+      "Yes, during daylight hours"
     ],
-    "answer": 1,
-    "explanation": "Keep moving forward. Don't drive in reverse on the road; it's illegal to back up on a shoulder or freeway. It's also illegal to drive across medians.",
+    "answer": 0,
+    "explanation": "Do not hitchhike or pick up hitchhikers on Washington freeways; it's illegal and dangerous. You also shouldn't stop on a freeway shoulder unless you have an emergency.",
     "difficulty": 1,
-    "ref": "Washington State Driver Guide, p. 108",
+    "ref": "Washington State Driver Guide, p. 109",
     "states": [
       "WA"
     ]
@@ -1796,17 +1796,17 @@
     "id": "wa.car.095",
     "track": "car",
     "topic": "freeway",
-    "prompt": "A lane is closed ahead and traffic is slow. How does the Washington Driver Guide say to \"zipper merge\"?",
+    "prompt": "Washington's express toll lanes give toll-free trips to which of these?",
     "choices": [
-      "Use both lanes until the merge area, then take turns",
-      "Stay in the closing lane and force your way in",
-      "Merge into the open lane as early as possible",
-      "Use the shoulder to reach the front"
+      "Buses, vanpools, carpools, and motorcycles",
+      "Any solo driver who has a Good To Go! account",
+      "Only electric vehicles",
+      "Only commercial trucks"
     ],
     "answer": 0,
-    "explanation": "Keep using both lanes until the designated merge area, then take turns merging like the teeth of a zipper. The guide says zipper merging improves traffic flow by 60 percent.",
+    "explanation": "Express toll and high occupancy toll lanes are toll-free for buses, vanpools, carpools, and motorcycles. Solo drivers can choose to pay the toll; a Good To Go! account is the best way to pay.",
     "difficulty": 2,
-    "ref": "Washington State Driver Guide, p. 160",
+    "ref": "Washington State Driver Guide, p. 136",
     "states": [
       "WA"
     ]
@@ -1825,7 +1825,7 @@
     "answer": 3,
     "explanation": "A slow-moving vehicle with five or more vehicles lined up behind it must turn off the road where there is a safe turnout, so the others can pass.",
     "difficulty": 3,
-    "ref": "RCW 46.61.427",
+    "ref": "Revised Code of Washington, RCW 46.61.427",
     "states": [
       "WA"
     ]
@@ -1833,18 +1833,18 @@
   {
     "id": "wa.car.097",
     "track": "car",
-    "topic": "lanes-passing",
-    "prompt": "May you use an HOV lane to pass slower traffic if your vehicle does not meet the occupancy requirement?",
+    "topic": "laws-licensing",
+    "prompt": "How many correct answers do you need to pass the Washington driver knowledge test?",
     "choices": [
-      "No; carpool lanes are not passing lanes",
-      "Yes, during rush hour",
-      "Yes, if you signal first",
-      "Yes, for short passes"
+      "32 out of 40",
+      "30 out of 40",
+      "20 out of 25",
+      "35 out of 40"
     ],
     "answer": 0,
-    "explanation": "Carpool lanes are not passing lanes. You need to meet the posted occupancy requirement, or be on a motorcycle, to use an HOV lane.",
+    "explanation": "The knowledge test is a written multiple-choice test. You must get 32 of 40 questions right (80%), and a passing score is good for 2 years.",
     "difficulty": 1,
-    "ref": "Washington State Driver Guide, p. 108",
+    "ref": "Washington DOL, \"Do I need to take a test?\" (dol.wa.gov)",
     "states": [
       "WA"
     ]
@@ -1882,7 +1882,7 @@
     "answer": 2,
     "explanation": "The Secretary of Transportation may raise a highway's limit to no more than 75 mph after an engineering study, effective only where signs are posted. Trucks over 10,000 pounds are capped at 60 mph.",
     "difficulty": 3,
-    "ref": "RCW 46.61.410",
+    "ref": "Revised Code of Washington, RCW 46.61.410",
     "states": [
       "WA"
     ]
@@ -1920,7 +1920,7 @@
     "answer": 0,
     "explanation": "Washington requires everyone operating or riding on a motorcycle, motor-driven cycle or moped to wear a DOT-compliant motorcycle helmet with the chin strap fastened.",
     "difficulty": 1,
-    "ref": "RCW 46.37.530",
+    "ref": "Revised Code of Washington, RCW 46.37.530",
     "states": [
       "WA"
     ]
@@ -1939,7 +1939,7 @@
     "answer": 1,
     "explanation": "No person may operate a motorcycle between lanes of traffic or between rows of vehicles. Riders also may not pass another vehicle in the same lane.",
     "difficulty": 1,
-    "ref": "RCW 46.61.608",
+    "ref": "Revised Code of Washington, RCW 46.61.608",
     "states": [
       "WA"
     ]
@@ -1958,7 +1958,7 @@
     "answer": 1,
     "explanation": "Motorcycles may not be operated more than two abreast in a single lane.",
     "difficulty": 2,
-    "ref": "RCW 46.61.608",
+    "ref": "Revised Code of Washington, RCW 46.61.608",
     "states": [
       "WA"
     ]
@@ -1977,7 +1977,7 @@
     "answer": 0,
     "explanation": "It is unlawful to transport a child under the age of five on a motorcycle or motor-driven cycle.",
     "difficulty": 2,
-    "ref": "RCW 46.37.530",
+    "ref": "Revised Code of Washington, RCW 46.37.530",
     "states": [
       "WA"
     ]
@@ -1996,7 +1996,7 @@
     "answer": 1,
     "explanation": "If a motorcycle has no windshield, the rider must wear glasses, goggles or a face shield that meets Washington State Patrol rules.",
     "difficulty": 2,
-    "ref": "RCW 46.37.530",
+    "ref": "Revised Code of Washington, RCW 46.37.530",
     "states": [
       "WA"
     ]
@@ -2072,7 +2072,7 @@
     "answer": 3,
     "explanation": "Motorcycles must have mirrors on both the left and right sides, giving a view of at least 200 feet to the rear (with narrow exceptions for some antique motorcycles).",
     "difficulty": 2,
-    "ref": "RCW 46.37.530",
+    "ref": "Revised Code of Washington, RCW 46.37.530",
     "states": [
       "WA"
     ]
@@ -2091,7 +2091,7 @@
     "answer": 0,
     "explanation": "Motorcycles are allowed in HOV lanes, and express toll lanes are toll-free for motorcycles.",
     "difficulty": 1,
-    "ref": "Washington State Driver Guide, p. 134",
+    "ref": "Washington State Driver Guide, pp. 134, 136",
     "states": [
       "WA"
     ]

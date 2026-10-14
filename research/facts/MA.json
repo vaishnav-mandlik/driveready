@@ -1,0 +1,792 @@
+{
+  "code": "MA",
+  "name": "Massachusetts",
+  "agency": {
+    "name": "Massachusetts Department of Transportation, Registry of Motor Vehicles",
+    "abbreviation": "RMV",
+    "website": "https://www.mass.gov/orgs/massachusetts-registry-of-motor-vehicles"
+  },
+  "handbook": {
+    "title": "Massachusetts Driver's Manual",
+    "edition": "Revised April 2026 (English Driver's Manual listed on mass.gov/lists/drivers-manuals as of Sept-Oct 2026). Page numbers are PDF page numbers; the printed page number is the PDF page minus 8.",
+    "url": "https://www.mass.gov/doc/english-drivers-manual/download"
+  },
+  "knowledgeTest": {
+    "questions": 25,
+    "passingScore": 18,
+    "passingPercent": 72,
+    "roadSigns": null,
+    "timeLimitMinutes": 25,
+    "format": "Multiple-choice learner's permit exam (25 questions, 25 minutes, about one minute per question). Taken on an automated touch-screen testing station (ATS) at an RMV Service Center during the permit appointment, or online (camera required, no phones or tablets) within 60 days of visiting the Service Center. Road-sign identification is one of the exam topics, not a separately scored section.",
+    "languages": "37 languages for Class D/M exams: Albanian, American Sign Language (Service Center only), Arabic, Armenian, Burmese, Cape Verdean Creole, English, Farsi, French, German, Greek, Gujarati, Haitian Creole, Hindi, Hungarian, Italian, Japanese, Khmer/Cambodian, Kiswahili, Korean, Laotian, Mandarin (Simplified), Mandarin (Traditional), Nepali, Pashto, Polish, Portuguese, Russian, Serbo-Croatian, Somali, Spanish, Tagalog, Thai, Turkish, Ukrainian, Urdu, Vietnamese. Audio exams are available in all of these languages.",
+    "retestWait": "No waiting period is published: after a failed exam you can retake it once you pay another $30 exam fee through your myRMV profile. Being caught cheating fails the exam and bars you from holding any license or permit for 60 days.",
+    "notes": "Minimum age 16 for a Class D or M learner's permit; applicants under 18 need written parental/guardian consent. The same 25-question, 18-correct exam applies to all ages. Topics include rules of the road, road signs, alcohol/drug misuse, suspensions and Junior Operator License (JOL) violations. Fee $30 per exam attempt. Online exams fail automatically after 2 minutes of inactivity, after 25 minutes, or if you leave the browser. The permit is valid for 2 years; if it expires you must retake the exam.",
+    "sourceUrl": "https://www.mass.gov/how-to/apply-for-a-passenger-class-d-learners-permit"
+  },
+  "motorcycleTest": {
+    "questions": 25,
+    "passingScore": 18,
+    "passingPercent": 72,
+    "notes": "The Class M learner's permit exam has 25 questions, 25 minutes, 18 correct to pass; study the RMV Motorcycle Manual. A Class M permit holder may not carry passengers, may ride only between sunrise and sunset, and must wear a US DOT helmet and eye protection (unless the motorcycle has a windshield). Completing the Massachusetts Rider Education Program (MREP) course replaces the RMV Class M road test, and under-18 applicants must complete the MREP basic rider course.",
+    "sourceUrl": "https://www.mass.gov/how-to/apply-for-a-motorcycle-class-m-learners-permit"
+  },
+  "cdlTest": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC",
+      "detail": "Any driver fails a chemical test at a BAC of 0.08 or higher. Drivers under 21 face administrative penalties starting at 0.02.",
+      "number": 0.08,
+      "unit": "percent BAC",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 77,
+        "quote": "All drivers will fail a chemical test if they have a Blood Alcohol Content (BAC) of 0.08 or greater."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% BAC (zero tolerance)",
+      "detail": "Massachusetts has a zero-tolerance law: a driver under 21 with a BAC of 0.02 or higher loses their license. The under-21 suspension adds 180 days (ages 18-21) or one year (under 18) on top of the 30-day suspension.",
+      "number": 0.02,
+      "unit": "percent BAC",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 81,
+        "quote": "If you are under 21 and are caught with a BAC as low as 0.02 while driving, you will lose your license."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC in a commercial motor vehicle",
+      "detail": "Operating a commercial motor vehicle at 0.04 or more is a disqualifying offense: at least 1 year for a first violation (3 years if hauling placarded hazardous materials).",
+      "number": 0.04,
+      "unit": "percent BAC",
+      "source": {
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90F/Section9",
+        "page": null,
+        "quote": "Operating a commercial motor vehicle while the alcohol concentration in the person's blood or breath is 0.04 or more"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusing a breath or blood test: 180-day license suspension (driver over 21, no prior OUI)",
+      "detail": "Under the Implied Consent Law, refusing a chemical test means the officer takes your license immediately. Suspensions for a refusal with no prior OUI: 180 days over 21; 3 years + 180 days for ages 18-21; 3 years + 1 year under 18. With one prior OUI it is 3 years (over 21); with three or more priors it is lifetime.",
+      "number": 180,
+      "unit": "days",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 78,
+        "quote": "Drivers over age 21 No Prior OUI Offenses 180 days"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "First OUI: $500-$5,000 fine, up to 2 1/2 years in prison, 1-year license suspension",
+      "detail": "A first operating-under-the-influence conviction carries a $500-$5,000 fine, a maximum of 2 1/2 years in prison and a one-year license suspension. The court may allow an alcohol education course to reduce the suspension (45-90 days over 21; 210 days under 21). Reinstatement fee for a first OUI is $500.",
+      "number": 1,
+      "unit": "year suspension",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 76,
+        "quote": "First Offense $500–$5,000 Maximum 2 1/2 years One Year"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "open_container",
+      "value": "No open alcoholic drink anywhere in the vehicle; $100-$500 fine",
+      "detail": "You may not drink while driving or have an open alcoholic drink in the vehicle, even if a passenger is holding it. Fine $100-$500; drivers under 21 are arrested, fined and have their license suspended.",
+      "number": 500,
+      "unit": "dollars (maximum fine)",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 82,
+        "quote": "You may not have an open alcoholic drink inside your vehicle, even if someone else is holding it. If you are convicted of this offense, you will be fined $100 to $500."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_min_age",
+      "value": "16 years",
+      "detail": "You must be at least 16 to apply for a Class D (passenger) or Class M (motorcycle) learner's permit. No one under 16 may drive in Massachusetts, even with an out-of-state license.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 23,
+        "quote": "You must be at least 16 years old to apply for a Class D or M learner’s permit."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "6 consecutive months (applicants under 18)",
+      "detail": "A Junior Operator applicant must hold a valid learner's permit for at least six consecutive months and keep a clean driving record for six months before the road test. A suspension restarts the six months.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 17,
+        "quote": "Have a valid learner's permit for at least six consecutive months"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "40 hours of supervised driving (30 with a driver skills development program); no separate night-hour requirement stated",
+      "detail": "Applicants 16 1/2 to 18 need 40 hours of parent/guardian-certified supervised driving (30 hours if they completed a driver skills development program), on top of driver's ed: 30 classroom hours, 12 hours behind the wheel and 6 hours observing. A parent must attend a 2-hour parent class.",
+      "number": 40,
+      "unit": "hours",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 27,
+        "quote": "You must also complete 40 hours of supervised driving (30 hours if you completed a driver skills development program)"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Licensed driver at least 21 with at least 1 year of driving experience, in the front passenger seat",
+      "detail": "A Class D permit holder must be accompanied by a licensed driver who is at least 21, holds a valid license from Massachusetts or another state, has at least one year of experience, and sits in the seat beside the driver.",
+      "number": 21,
+      "unit": "years old (minimum)",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 26,
+        "quote": "You must be accompanied by a licensed operator who occupies the passenger seat next to you and is at least 21 years old, holds a valid driver’s license from Massachusetts or another state, and has at least one year of driving experience."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 1/2 years (Junior Operator License)",
+      "detail": "The earliest age for a Class D license is 16 1/2, after holding the permit in good standing for six consecutive months and completing an RMV-approved driver education program. Drivers 16 1/2 to 18 hold a Junior Operator License (JOL).",
+      "number": 16.5,
+      "unit": "years",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 11,
+        "quote": "you may not receive a Class D or a Class M driver's license until you are at least 16 1/2 and have had your permit in good standing for six consecutive months"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "No driving 12:30 a.m.-5:00 a.m. unless a parent or legal guardian is in the car",
+      "detail": "A JOL holder may not drive between 12:30 a.m. and 5:00 a.m. unless accompanied by a parent or legal guardian. From 12:30-1:00 a.m. and 4:00-5:00 a.m. this is enforced only after a stop for another violation (secondary enforcement). Violations: 60-day suspension first offense, 180 days second, 1 year after that. (Learner's permit holders under 18 may not drive 12:00-5:00 a.m. without a licensed parent/guardian.)",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 18,
+        "quote": "As the holder of a JOL, you may not operate a motor vehicle between 12:30 a.m. and 5:00 a.m. unless you are accompanied by one of your"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "First 6 months: no passengers under 18 (except immediate family) unless a qualified 21+ driver is beside you",
+      "detail": "For the first six months with a JOL, you may not carry passengers under 18 other than immediate family unless accompanied by a licensed driver at least 21 with one year of experience sitting beside you. The restriction ends after six months or at age 18, whichever is first. First violation: 60-day suspension.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 18,
+        "quote": "You may not operate a motor vehicle within the first six months after receiving your JOL while any person under age 18 is in the vehicle (other than you or an immediate family member), unless you are accompanied by a person who is at least 21 years old"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "18 years",
+      "detail": "Drivers from 16 1/2 to 18 are Junior Operators with JOL restrictions (code I on the license). The Junior Operator restrictions end at 18.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 17,
+        "quote": "Any motor vehicle operator or motorcyclist between the ages of 16 1/2 and 18 is considered a Junior Operator."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "Hands-free only for drivers 18+; no handheld use even at red lights or stop signs",
+      "detail": "Drivers 18 and older may use a device only in hands-free mode, mounted to the windshield, dashboard or center console, and may touch it only to activate hands-free mode. Handheld use is allowed only when stopped and out of a public travel lane. Fines: $100 first, $250 second (plus distracted-driving class), $500 third and later (plus insurance surcharge).",
+      "number": 100,
+      "unit": "dollars (first-offense fine)",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 47,
+        "quote": "Handheld device use is only allowed if the vehicle is stationary and is not located in a public travel lane. It is not allowed at red lights or stop signs."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "texting_ban",
+      "value": "No writing, sending or reading any electronic message while driving (all drivers)",
+      "detail": "No driver may use a mobile device to write, send or read texts, emails or instant messages, or access the internet, while driving. A mounted GPS may be used for navigation.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 47,
+        "quote": "Mobile electronic devices cannot be used to write, send, or read an electronic message (including text messages, emails, instant messages, or accessing the Internet) while driving."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Drivers under 18: no mobile electronic device use at all, even hands-free (emergency reports only)",
+      "detail": "Drivers under 18 may not use any mobile electronic device for any reason while driving, even in hands-free mode. The only exception is reporting an emergency. A Junior Operator's first conviction brings a 60-day suspension, a $100 fine, a new permit exam, a Driver Attitudinal Retraining course and a new road test.",
+      "number": 18,
+      "unit": "years (age below which all use is banned)",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 48,
+        "quote": "Drivers under 18 cannot use any mobile electronic device for any reason while driving. The only exception is for reporting an emergency."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Every occupant must be belted; $25 fine; secondary enforcement",
+      "detail": "Everyone in a passenger vehicle must wear a belt or use a child restraint. A driver or a passenger 16+ who is unbelted can be fined $25, and the driver is fined $25 for each unbelted passenger aged 12-15. You can be fined only when stopped for another traffic violation.",
+      "number": 25,
+      "unit": "dollars",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 43,
+        "quote": "Any driver who is not wearing a safety belt can be fined $25. Any passenger 16 years old or older who is not wearing a safety belt can be fined $25."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Child seat until at least 8 years old OR at least 57 inches tall",
+      "detail": "Children must ride in a federally approved child restraint until they are at least 8 years old or at least 57 inches tall, then must wear a properly used safety belt. Fine $25. Never put a rear-facing seat in front of an active air bag.",
+      "number": 57,
+      "unit": "inches",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 44,
+        "quote": "Children at least eight years old or at least fifty-seven inches tall must wear safety belts."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Never drive faster than is safe for conditions, even below the posted limit",
+      "detail": "The fundamental speed law: base your speed on traffic, road, weather/visibility and pedestrians or bicyclists. The manual's example: 40 mph in a heavy rainstorm on a 50-mph highway can get you a ticket.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 87,
+        "quote": "You must never travel so fast that it is not safe. That is the fundamental speed law."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "20 mph",
+      "detail": "Unless posted otherwise, the speed limit in a school zone is 20 mph. It may be posted with flashing yellow lights or for certain hours.",
+      "number": 20,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 88,
+        "quote": "The speed limit on roads near schools is 20 mph."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "30 mph in a thickly settled district (25 mph where a community has adopted it and posted signs)",
+      "detail": "Unless posted, 30 mph in a thickly settled or business district. A thickly settled district is where buildings are less than 200 feet apart for at least 1/4 mile. Some communities have adopted a 25 mph thickly settled limit, posted at their entrances.",
+      "number": 30,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 87,
+        "quote": "30 mph in a thickly settled or business district (unless there are signs showing a 25 mph limit)"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "30 mph (unless signs show 25 mph)",
+      "detail": "Unless posted otherwise, speeds over 30 mph in a business district are not reasonable and proper.",
+      "number": 30,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 87,
+        "quote": "30 mph in a thickly settled or business district (unless there are signs showing a 25 mph limit)"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "50 mph on a highway outside a thickly settled or business district (40 mph on other roads outside such districts)",
+      "detail": "Unless posted: 40 mph outside a thickly settled or business district, and 50 mph on a highway outside a thickly settled or business district. Smaller highways are posted at 55 mph or lower.",
+      "number": 50,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 87,
+        "quote": "50 mph on a highway outside a thickly settled or business district"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "65 mph",
+      "detail": "Limited-access highways such as interstates are posted at 50 to 65 mph. The maximum is 65.",
+      "number": 65,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 87,
+        "quote": "Limited-access highways, like interstate routes, have speed limits from 50 to 65 mph."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "40 mph minimum on the Massachusetts Turnpike; 20 mph minimum in the Boston Harbor tunnels",
+      "detail": "There is a posted 40 mph minimum on the Mass Pike and a 20 mph minimum in the Callahan, Sumner and Ted Williams tunnels. Even without a minimum, police may order a driver who is slowing traffic off a state highway.",
+      "number": 40,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 87,
+        "quote": "There is a minimum speed of 40 mph on the Massachusetts Turnpike."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop, yielding to pedestrians and vehicles, unless NO TURN ON RED is posted",
+      "detail": "Stop completely at the red light, yield to pedestrians and other vehicles, then turn right unless a NO TURN ON RED sign is posted. The same rule applies to a steady red arrow in Massachusetts.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 106,
+        "quote": "You must come to a complete stop at a red traffic light. You may then turn right unless a NO TURN ON RED sign is posted."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Only from a one-way street onto another one-way street, after a complete stop",
+      "detail": "A left turn on red is legal only from a one-way street onto another one-way street, after stopping and yielding to pedestrians and traffic. The same rules as right-on-red apply.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 106,
+        "quote": "You may turn left on red only if you are turning from a one-way street onto another one-way street."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 100 feet before a turn; at least 500 feet on a highway",
+      "detail": "Signal at least 100 feet before turning, and at least 500 feet before a turn or exit ramp on a highway. Signal before braking when possible.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 105,
+        "quote": "Signal your turn at least 100 feet before making the turn. On a highway, signal at least 500 feet before a turn."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull as far right as possible and stop until it passes; never follow within 300 feet of an emergency vehicle answering an alarm",
+      "detail": "For an emergency vehicle using a siren or flashing lights from any direction, signal, pull to the right and stop (slowly rolling is not acceptable). Never stop in an intersection; drive through it first. Following closer than 300 feet behind an emergency vehicle responding to an alarm is illegal.",
+      "number": 300,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 128,
+        "quote": "It is illegal to follow closer than 300 feet behind an emergency vehicle responding to an alarm."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "move_over_law",
+      "value": "Slow down for stopped emergency, highway-maintenance or recovery vehicles with flashing lights; on a 4+ lane highway leave an open lane",
+      "detail": "Approaching a stationary emergency vehicle with flashing lights, slow to a reasonable and safe speed. On a highway with at least four lanes (two or more in your direction), move to a lane not next to the stopped vehicle. If you cannot move over, you must still slow down.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 112,
+        "quote": "In other words, leave an open lane between your vehicle and the stopped emergency vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop in both directions for flashing red lights/stop arm; exception only across a divided highway with a barrier",
+      "detail": "When a school bus or school pupil transport vehicle shows flashing red lights and an extended stop sign, stop no matter which side of the road you are on, and remain stopped until the lights stop flashing or the stop sign folds back. You need not stop only if the bus is on the other side of a divided highway with a barrier between travel directions. A first violation can bring a $250 fine and a license suspension.",
+      "number": 250,
+      "unit": "dollars (first-offense fine)",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 113,
+        "quote": "The only exception to this law is if a school bus has stopped on the other side of a divided highway with a barrier between travel directions. In this case, you do not have to stop."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "following_distance",
+      "value": "At least 3 seconds (4 seconds behind a motorcycle, 10 seconds behind heavy equipment)",
+      "detail": "Use the three-second rule as the minimum in good conditions and moderate traffic. Keep at least four seconds behind a motorcycle and at least ten seconds behind heavy equipment such as dump trucks or tractors. Tailgating fines can reach $100.",
+      "number": 3,
+      "unit": "seconds",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 51,
+        "quote": "Use the \"three-second\" rule to keep a safe distance from the vehicle in front of you."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "headlights_required",
+      "value": "From 1/2 hour after sunset to 1/2 hour before sunrise, when you can't see 500 feet ahead, and whenever wipers are on",
+      "detail": "Use headlights and taillights from half an hour after sunset to half an hour before sunrise, when you cannot see people or vehicles 500 feet ahead, whenever your wipers are on (daytime running lights are not enough), and in tunnels.",
+      "number": 500,
+      "unit": "feet (visibility)",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 54,
+        "quote": "You must use your headlights from one-half hour after sunset until one-half hour before sunrise."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "500 feet",
+      "detail": "Switch to low beams within 500 feet of an oncoming vehicle.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 54,
+        "quote": "You must lower your high beam headlights to low beam when you are within 500 feet of an oncoming vehicle or within 200 feet of a vehicle traveling ahead of you."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "200 feet",
+      "detail": "Switch to low beams within 200 feet of a vehicle you are following.",
+      "number": 200,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 54,
+        "quote": "You must lower your high beam headlights to low beam when you are within 500 feet of an oncoming vehicle or within 200 feet of a vehicle traveling ahead of you."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "10 feet",
+      "detail": "No parking within ten feet of a fire hydrant or fire lane.",
+      "number": 10,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 119,
+        "quote": "Within ten feet of a fire hydrant or fire lane"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "Not in a crosswalk (no separate distance given)",
+      "detail": "You may not park in a crosswalk, in front of a driveway, or in front of a handicap-access ramp. The manual gives no extra setback distance from a crosswalk. The 20-foot rule applies to intersections.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 118,
+        "quote": "In a crosswalk, in front of a driveway, or in front of a handicap-access ramp"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_intersection",
+      "value": "20 feet",
+      "detail": "No parking within 20 feet of an intersection.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 118,
+        "quote": "Within 20 feet of an intersection"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "No more than 12 inches from the curb (business or residential district)",
+      "detail": "When parking in a business or residential district, your vehicle must be no more than 12 inches from the curb, unless angled parking is allowed. Always leave at least a 12-foot-wide clear roadway for traffic.",
+      "number": 12,
+      "unit": "inches",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 117,
+        "quote": "If you park in a business or residential district, your vehicle must be no more than 12 inches from the curb."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "At least 15 feet before the light post or gate",
+      "detail": "When railroad crossing lights flash, stop at least 15 feet before the light post or gate and stay stopped until the gate rises and the lights stop. Never drive around a lowered gate.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 95,
+        "quote": "If the lights begin to flash, you must stop at least 15 feet before the light post or gate."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 4 feet when passing any vulnerable road user",
+      "detail": "Massachusetts' Vulnerable Road Users Law requires at least four feet when passing pedestrians, bicyclists, roadside workers, horse riders, and people on scooters, skateboards, wheelchairs and similar devices. You may use the next lane or cross the center line if safe, but must obey the speed limit.",
+      "number": 4,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 57,
+        "quote": "When you pass a vulnerable road user, you must leave a safe passing distance of at least four feet between your vehicle and the road user."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Yield to pedestrians entering or using a crosswalk in your path; stop fully for blind pedestrians (White Cane Law)",
+      "detail": "Yield to pedestrians entering or in a crosswalk in your travel path, never block a crosswalk, and never pass a vehicle stopped or slowing for a pedestrian. Yield when turning into a driveway or parking lot. The White Cane Law requires a complete stop for a blind pedestrian crossing.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 91,
+        "quote": "You must yield to pedestrians entering or using a crosswalk in your travel path."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Report within 5 days any crash with injury, death, or $1,000+ property damage (to the RMV, local police and your insurer)",
+      "detail": "File a written Motor Vehicle Crash Operator Report within five days with the RMV and the local police department where the crash happened, and send a copy to your insurance company. Reporting only to your insurer is not enough. Failing to report can lead to a fine and license suspension or revocation.",
+      "number": 1000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 139,
+        "quote": "You must report any motor vehicle crash you are in that causes someone to be killed or hurt, or that causes $1,000 or more in property damage. You must file a written report with the RMV within five days of the crash."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "$25,000/$50,000 bodily injury and $30,000 property damage",
+      "detail": "Massachusetts minimum liability limits are $25,000 per person / $50,000 per accident for bodily injury and $30,000 for property damage. Massachusetts does not issue insurance cards; your registration identifies your insurer.",
+      "number": 25000,
+      "unit": "dollars (bodily injury per person)",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 32,
+        "quote": "proof of insurance coverage equal to Massachusetts minimum limits, which are $25,000/$50,000 for bodily injury and $30,000 for property damage."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "point_system",
+      "value": "Surchargeable events (moving violations and at-fault crashes): 3 in 2 years = mandatory Driver Retraining; 7 in 3 years = automatic 60-day suspension",
+      "detail": "Three surchargeable events in 2 years require the Driver Retraining course within 90 days or the license is suspended. Seven in 3 years means an automatic 60-day suspension. Three speeding violations in 12 months means an automatic 30-day suspension. Surchargeable events also raise insurance under the Safe Driver Insurance Plan.",
+      "number": 3,
+      "unit": "surchargeable events in 2 years",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 67,
+        "quote": "If you have seven surchargeable events within a three-year period, your license will be suspended automatically for 60 days."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Universal: every motorcycle operator and passenger must wear a helmet",
+      "detail": "All motorcycle operators and passengers (including sidecar riders) must wear protective headgear. The only exception is riders 18+ in a properly permitted parade. Riders without a windshield must also wear glasses, goggles or a face shield. Moped and motorized scooter riders must also wear DOT helmets.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section7",
+        "page": null,
+        "quote": "Every person operating a motorcycle or riding as a passenger on a motorcycle or in a sidecar attached to a motorcycle shall wear protective head gear"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Illegal: motorcycles may not weave between lanes or ride between lanes of traffic",
+      "detail": "It is illegal for a motorcyclist to weave between lanes at any time or ride along the lane lines between lanes of traffic. Motorcycles may ride no more than two abreast, and drivers must never share a lane with a motorcycle.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 59,
+        "quote": "It is illegal for a motorcycle operator to weave between lanes at any time."
+      },
+      "status": "verified"
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Rotaries: yield to traffic already in the rotary",
+      "summary": "Rotaries are much more common in Massachusetts than elsewhere. Traffic moves counter-clockwise; yield to vehicles already in the rotary (unless signs or police say otherwise) and to pedestrians, and use your right signal to exit. In a multi-lane rotary with no signs, use the right lane for a quarter turn or straight, and the left lane for a three-quarter turn or U-turn.",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 109,
+        "quote": "Traffic travels counter-clockwise in a rotary. Always yield the right-of-way to vehicles already in the rotary (unless told differently by signs or police officers) and to pedestrians."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Three speeding violations in 12 months = automatic 30-day suspension",
+      "summary": "Being found responsible for three speeding violations within a 12-month period suspends an adult's license automatically for 30 days. The 12 months start when you pay or are found responsible for the first citation.",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 67,
+        "quote": "If you are found guilty for three speeding violations within a 12-month period, your license will be suspended automatically for 30 days."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Junior Operator speeding and drag racing suspensions",
+      "summary": "A Junior Operator's license is suspended 90 days for a first speeding offense and one year for any later one. Drag racing brings a one-year suspension (three years for a later offense). Reinstatement requires a new permit exam, a Driver Attitudinal Retraining course and a new road test.",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 67,
+        "quote": "A Junior Operator license (for drivers under age 18) will be suspended for 90 days for a first speeding citation and one year for any later citation."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Penalties for breaking JOL passenger or night restrictions",
+      "summary": "Violating the Junior Operator passenger or night restriction brings a 60-day suspension for a first offense, 180 days for a second and one year after that. Second and later offenses also require a Driver Attitudinal Retraining course.",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 19,
+        "quote": "If you violate the passenger restriction or the night restriction, you will be subject to a license suspension of 60 days for a first offense, 180 days for a second offense, and one year for subsequent offenses."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Learner's permit night limit for drivers under 18",
+      "summary": "A permit holder under 18 may not drive between midnight and 5:00 a.m. unless accompanied by a parent or legal guardian who is a licensed driver with at least one year of experience.",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 26,
+        "quote": "If you are under 18, you may not drive between 12:00 a.m. and 5:00 a.m. unless accompanied by a parent or legal guardian who is a validly licensed operator with at least one year of driving experience."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Seat belt law is secondary enforcement",
+      "summary": "Massachusetts police can fine you for not wearing a seat belt only when you have been stopped for some other traffic violation.",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 43,
+        "quote": "You can only get a fine for the safety belt law when you are stopped for a traffic violation."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Speeding fine formula",
+      "summary": "The lowest speeding penalty is a $100 fine (plus a $5 surcharge). Above 10 mph over the limit, add $10 for each extra mph: 73 mph in a 55 zone is a $185 fine. Speeding fines double in posted work zones.",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 65,
+        "quote": "If you drive more than ten miles per hour (mph) over the speed limit, you must pay an extra $10 for each mph you were traveling above the first ten."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Funeral processions have the right-of-way",
+      "summary": "Funeral processions have the right-of-way at intersections (but must yield to emergency vehicles). Other drivers may not cut into or join a procession, and a procession may not exceed 55 mph on highways.",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 115,
+        "quote": "Funeral processions have the right-of-way at intersections, with the EXCEPTION that they must yield to emergency vehicles with flashing lights or sirens or when directed by law enforcement."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Stay 8 feet from a trolley's passenger step",
+      "summary": "Massachusetts law forbids driving closer than eight feet to a trolley's passenger step while it is loading or unloading passengers.",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 115,
+        "quote": "You must not drive closer than eight feet of a trolley passenger step when the trolley is letting passengers on or off."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Clear all snow and ice, including the roof",
+      "summary": "Before driving in winter, remove all ice and snow from windows, lights, roof, hood and trunk. Leaving snow that blows onto other vehicles can lead to a negligent operation charge.",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 56,
+        "quote": "It is very important that you clear the roof, hood, and trunk so ice and snow does not blow into vehicles behind you. If you do not, you can be charged with negligent operation."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "No driving by or parking within 800 feet of a fire",
+      "summary": "It is illegal to drive by or park within 800 feet of a fire, and you may not drive over an unprotected fire hose unless a firefighter or public safety official directs you to.",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 129,
+        "quote": "It is illegal to drive by or park within 800 feet of a fire."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Opening a door into a bicyclist: up to $100 fine",
+      "summary": "Drivers and passengers can be fined up to $100 for opening a vehicle door into an oncoming bicyclist. The manual recommends the 'Dutch Reach': open the door with your far hand so you turn and look back.",
+      "source": {
+        "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+        "page": 123,
+        "quote": "Drivers and passengers can be fined up to $100 for opening a vehicle door into an oncoming bicycle."
+      },
+      "status": "verified"
+    }
+  ],
+  "officialPracticeTests": [
+    "https://atlas-myrmv.massdot.state.ma.us/myrmv/?Link=PracticeExam"
+  ],
+  "gaps": [
+    "parking_stop_sign_signal: the Massachusetts Driver's Manual (rev. April 2026) gives no no-parking distance from a stop sign or traffic signal; parking rules are mostly set by local ordinance.",
+    "parking_railroad: the manual gives no no-parking distance from a railroad crossing; only the 15-foot stopping distance is stated.",
+    "parking_fire_station: the manual gives no no-parking distance from a fire station entrance (only 10 feet from a hydrant or fire lane, and 800 feet from a fire).",
+    "supervised_driving_hours (night): Massachusetts requires 40 supervised hours (30 with a skills program) but states no separate night-driving hour requirement.",
+    "knowledgeTest sources: mass.gov returns HTTP 403 to automated fetches; the verifier confirmed the exam details (25 questions, 18 correct, 25 minutes, 37 languages, $30 fee, online exam rules, 60-day cheating bar) from Internet Archive captures of the official mass.gov Class D/M permit pages (Oct 7 and Jun 18, 2026) and the mass.gov 'Learner's Permit Exam Overview' PDF, plus handbook pp. 24-25."
+  ]
+}

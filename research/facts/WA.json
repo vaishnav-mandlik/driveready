@@ -1,0 +1,833 @@
+{
+  "code": "WA",
+  "name": "Washington",
+  "agency": {
+    "name": "Washington State Department of Licensing",
+    "abbreviation": "DOL",
+    "website": "https://dol.wa.gov/"
+  },
+  "handbook": {
+    "title": "Washington State Driver Guide",
+    "edition": "2025 (form 520-400, R/4/25; current English edition on dol.wa.gov, checked Oct 2026)",
+    "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf"
+  },
+  "knowledgeTest": {
+    "questions": 40,
+    "passingScore": 32,
+    "passingPercent": 80,
+    "roadSigns": "No separately scored road-signs section is described by DOL; the exam tests Washington's rules of the road, including signs, signals and markings covered in the Driver Guide.",
+    "timeLimitMinutes": null,
+    "format": "Written multiple-choice test (40 questions; 32 correct to pass), scheduled at a DOL-approved training and testing location; the fee varies by location.",
+    "languages": "12 languages: English, Spanish, Traditional Chinese, Simplified Chinese, Korean, Russian, Vietnamese, Japanese, Arabic, Punjabi, Tagalog, Ukrainian (check that your testing location offers your language).",
+    "retestWait": "DOL says only that there may be a waiting period before you can retest; the length is set by the testing location.",
+    "notes": "Teens enrolling in driver training can apply for a permit at 15 (1 to 10 days before the course starts); otherwise the knowledge exam can be taken at 15 1/2. DOL lists the same knowledge test for all first-time applicants, including adults. A passing knowledge score is valid for 2 years; the drive test requires 80 of 100 points and that score is valid for 1 year. Under 18 must complete approved driver training. From Nov 1, 2026, first-time applicants under 25 must also pass a free online Work Zone and First Responder course. Applicants 18+ transferring a valid license from another U.S. state need no tests.",
+    "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/do-i-need-take-test"
+  },
+  "motorcycleTest": {
+    "questions": null,
+    "passingScore": null,
+    "passingPercent": null,
+    "notes": "DOL does not publish the question count or passing score. 2-wheel permit: age 16+, valid WA driver license, pass the permit knowledge and riding skills tests at an approved motorcycle safety training school; parent/guardian consent under 18. Permit is valid 180 days (one initial permit and one renewal in 5 years); permit riders may not carry passengers or ride during hours of darkness. Endorsement: separate endorsement knowledge and skills tests (valid 365 days); under 18 must pass an approved 2-wheel safety course.",
+    "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/motorcycle/get-2-wheel-motorcycle-permit-or-endorsement"
+  },
+  "cdlTest": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC (age 21 and older)",
+      "detail": "A BAC of .08% or higher is a DUI for drivers 21 and older. You can also be convicted below .08% if alcohol or drugs affect your driving (RCW 46.61.502).",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 37,
+        "quote": "For drivers age 21 and older, having a BAC of .08% or higher is considered a DUI and can result in legal consequences."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% BAC (under 21)",
+      "detail": "Drivers under 21 face DUI-type consequences at a BAC of 0.02%. For THC, the under-21 limit is anything above 0.00 ng/mL.",
+      "number": 0.02,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 37,
+        "quote": "Drivers under age 21 have the same potential consequences for having a BAC of 0.02%."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC while driving a commercial motor vehicle",
+      "detail": "A first violation (CMV at 0.04 or more) disqualifies the driver from driving a commercial motor vehicle for at least one year. Not covered in the Driver Guide.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.25.090",
+        "page": null,
+        "quote": "Driving a commercial motor vehicle while the alcohol concentration in the person's system is 0.04 or more"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "implied_consent",
+      "value": "First refusal of a breath test: license revoked or denied for 1 year",
+      "detail": "Everyone who drives in Washington is deemed to have agreed to testing if an officer suspects impairment. The Driver Guide (p. 37) summarizes refusal penalties as 90 to 730 days, or until age 21 if longer; RCW 46.20.3101 sets 1 year for a first refusal and 2 years (or until 21) for a later one. The refusal can also be used in a criminal trial.",
+      "number": 1,
+      "unit": "year",
+      "source": {
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.20.3101",
+        "page": null,
+        "quote": "For a first refusal within seven years, where there has not been a previous incident within seven years that resulted in administrative action under this section, revocation or denial for one year"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "1st DUI (BAC under 0.15): 24 hours to 364 days in jail and a $350-$5,000 fine; 90-day administrative license suspension",
+      "detail": "At a BAC of 0.15 or more (or a test refusal), the minimums rise to 48 hours and $500. A first test at 0.08+ (or 0.02+ under 21) also brings a 90-day administrative suspension (RCW 46.20.3101); for a 0.08+ result, the suspension does not apply if the person completes or is enrolled in a pretrial 24/7 sobriety program. The Driver Guide lists suspensions of 90 days to 4 years, ignition interlock, proof of financial responsibility and an alcohol assessment as possible outcomes.",
+      "number": 350,
+      "unit": "dollars (minimum fine)",
+      "source": {
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.5055",
+        "page": null,
+        "quote": "By a fine of not less than $350 nor more than $5,000."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "open_container",
+      "value": "Open alcohol or cannabis may only be carried in the trunk or truck bed",
+      "detail": "It is a traffic infraction for anyone in a vehicle on the road to drink alcohol or consume cannabis, or to have an opened or partly used alcohol or cannabis container. Containers cannot be kept in compartments the driver can reach.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 39,
+        "quote": "Open alcohol and cannabis products can only be transported in a trunk or truck bed."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15 if enrolled in driver training; otherwise 15 1/2",
+      "detail": "If you are enrolling in a driver training course, you can apply as early as age 15 (1 to 10 days before the course starts). If you are not, you can take the knowledge exam at 15 1/2. The permit is valid for 1 year.",
+      "number": 15,
+      "unit": "years",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 25,
+        "quote": "You can apply for your permit as early as 15 years old."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "6 months",
+      "detail": "Teens (16-17) must hold the instruction permit for at least 6 months before getting an intermediate license, and have no traffic violations in the 6 months before applying.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 26,
+        "quote": "Have your instruction permit for at least 6 months."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "50 hours: 40 daytime + 10 at night",
+      "detail": "A parent, guardian or responsible adult must certify the hours. The supervising driver for these hours must be a licensed driver with 3 or more years of experience (RCW 46.20.075 adds: at least 21 years old).",
+      "number": 50,
+      "unit": "hours",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 26,
+        "quote": "Complete at least 40 hours of day driving and 10 hours of night driving with a licensed driver who has 3 or more years of experience."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "A driver training instructor, or a licensed driver with at least 5 years of driving experience, in the seat beside the permit driver",
+      "detail": "The Driver Guide repeats the 5-year rule for adult permit holders (p. 28). Permit holders also may not use a wireless device except to report an emergency or illegal activity.",
+      "number": 5,
+      "unit": "years of driving experience",
+      "source": {
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.20.055",
+        "page": null,
+        "quote": "A driver training education course instructor who meets the qualifications of chapter 46.82 or 28A.220 RCW, or a licensed driver with at least five years of driving experience, occupies the seat beside the driver."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 (intermediate driver license)",
+      "detail": "Requires a 6-month permit, approved driver training (30 hours classroom + 6 hours behind the wheel), passing both exams, 50 supervised hours, no violations in the last 6 months, and parent/guardian authorization.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 26,
+        "quote": "Be at least 16 years old and a Washington resident."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "No driving 1 a.m. to 5 a.m. unless with a parent, guardian, or licensed driver at least 25",
+      "detail": "The night restriction ends after one year of safe driving (no crashes or traffic offenses). Agricultural driving is exempt. RCW 46.20.075 also exempts school, religious and employment activities.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 28,
+        "quote": "No driving between 1 a.m. and 5 a.m. unless accompanied by a parent, guardian, or licensed driver at least age 25"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "First 6 months: no passengers under 20 except immediate family; after that: no more than 3 passengers under 20 except immediate family",
+      "detail": "Passenger limits last until age 18, or until the driver has one year of safe driving with no crashes or traffic offenses.",
+      "number": 20,
+      "unit": "years (passenger age threshold)",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 28,
+        "quote": "No passengers under age 20 except immediate family members"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "18 (intermediate restrictions lift automatically)",
+      "detail": "No new card is needed at 18; the intermediate restrictions are lifted automatically. Drivers who do not take driver training must wait until 18 to take the skills exam.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 29,
+        "quote": "You don’t need to get a new license when you turn 18. Intermediate driver license restrictions are automatically lifted."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "No holding any electronic device while driving (all ages)",
+      "detail": "This includes phones, tablets and gaming devices, and under RCW 46.61.672 it applies while temporarily stopped in traffic or at a light. Hands-free use is permitted, except for permit and intermediate license holders. Fines for a second or later violation are doubled.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 85,
+        "quote": "You cannot hold any electronic device while driving (like cell phones, tablets, or gaming devices). This applies to all drivers, regardless of age or experience."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "texting_ban",
+      "value": "Texting, emailing, browsing or watching video on a personal electronic device while driving is prohibited",
+      "detail": "Under the E-DUI law, 'use' includes holding the device or using a hand or finger to read or send messages. Only minimal finger use to start or stop a function is allowed. Contacting emergency services is an exception.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.672",
+        "page": null,
+        "quote": "Using your hand or finger to compose, send, read, view, access, browse, transmit, save, or retrieve email, text messages, instant messages, photographs, or other electronic data"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Permit and intermediate drivers may not use any phone or device while driving, even hands-free (emergencies excepted)",
+      "detail": "The Driver Guide says intermediate drivers can only use a phone to report an emergency. The statutes (RCW 46.20.055 and 46.20.075) allow use only to report illegal activity, summon medical or other emergency help, or prevent injury.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 70,
+        "quote": "Remember: If you have an instruction permit or intermediate license, you cannot use a cell phone or any mobile electronic device while driving, even if it is hands-free."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Every occupant must be buckled or in an approved child restraint",
+      "detail": "Washington law (RCW 46.61.687 and 46.61.688) makes it illegal to drive or ride without a seat belt or proper child restraint. Children under 13 should ride in the back seat.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 52,
+        "quote": "Every person in a moving vehicle must wear a seat belt or be securely fastened into an approved child restraint device."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Rear-facing until age 2; harness seat ages 2-4; booster from age 4 until 4'9\" tall",
+      "detail": "Children up to age 2 ride rear-facing; ages 2 to 4 ride in a harnessed car seat; from age 4 they use a car or booster seat until the lap and shoulder belt fits (typically ages 8 to 12, at 4'9\"). Because of airbags, children under 13 should never ride in the front seat.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 54,
+        "quote": "Ages 4 and older must ride in a car or booster seat until the vehicle lap and shoulder seat belts fit properly"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Drive at a speed that is safe for conditions, even below the posted limit",
+      "detail": "Posted limits are for ideal conditions. You can be ticketed for driving too fast for conditions even when under the limit.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 158,
+        "quote": "Washington law also requires you to drive at speeds that are safe for current road conditions."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "20 mph",
+      "detail": "Signs may say when the limit applies (for example, when flashing or when children are present). Speeding fines in school zones are doubled (RCW 46.61.440).",
+      "number": 20,
+      "unit": "mph",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 140,
+        "quote": "The school zone speed limit is 20 mph because higher speeds increase the risk of fatal crashes."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "25 mph on city and town streets (unless posted otherwise)",
+      "detail": "Statutory default maximum for city and town streets. Not stated in the Driver Guide.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.400",
+        "page": null,
+        "quote": "Twenty-five miles per hour on city and town streets"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "25 mph on city and town streets (unless posted otherwise)",
+      "detail": "Washington's statute sets one default for all city and town streets; it has no separate business-district number. Not stated in the Driver Guide.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.400",
+        "page": null,
+        "quote": "Twenty-five miles per hour on city and town streets"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "60 mph on state highways; 50 mph on county roads (unless posted otherwise)",
+      "detail": "Statutory default maximums. Not stated in the Driver Guide.",
+      "number": 60,
+      "unit": "mph",
+      "source": {
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.400",
+        "page": null,
+        "quote": "Sixty miles per hour on state highways"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "Up to 75 mph where posted by the Secretary of Transportation",
+      "detail": "The statute lets WSDOT raise limits to no more than 75 mph after an engineering study, effective only where signs are posted. Trucks over 10,000 lbs and vehicles in combination are capped at 60 mph.",
+      "number": 75,
+      "unit": "mph",
+      "source": {
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.410",
+        "page": null,
+        "quote": "the secretary may increase the maximum speed limit on any highway or portion thereof to not more than seventy-five miles per hour"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Obey posted minimum speed limits; do not drive so slowly that you block normal traffic",
+      "detail": "Some roads have minimum limits so slow drivers do not become a hazard (see also RCW 46.61.425).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 114,
+        "quote": "Some roads have minimum speed limits. You’re required to travel at least this fast so you are not a hazard to other drivers."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop unless a 'no turn on red' sign is posted",
+      "detail": "You must come to a complete stop and have plenty of room to enter traffic. You can't turn right on red at an intersection with a bicycle box.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 110,
+        "quote": "After coming to a complete stop at a red light, you can turn right if you don’t see a “no turn on red” sign and you have plenty of room to enter traffic."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Allowed onto a one-way street after a complete stop unless a 'no turn on red' sign is posted",
+      "detail": "Stop completely, yield, and turn left only onto a one-way street.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 110,
+        "quote": "After coming to a complete stop at a red light, you can turn left onto a one-way street if you don’t see a “no turn on red” sign and you have plenty of room to enter traffic."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "signal_distance",
+      "value": "100 feet before turning or changing direction",
+      "detail": "Signal at least 100 feet before you turn left or right; make sure the signal shuts off after the turn.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 50,
+        "quote": "Signal 100 feet before you make your move."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the right side of the road and stop until the emergency vehicle passes",
+      "detail": "Reenter traffic in the order you were traveling. Separately, RCW 46.61.635 bars following a fire truck answering an alarm closer than 500 feet.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 107,
+        "quote": "As soon as you see or hear the signals, immediately pull your vehicle to the right side of the road and stop."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "move_over_law",
+      "value": "Move over into a farther lane, or slow to at least 10 mph below the limit (never over 50 mph) near a stopped roadside response vehicle",
+      "detail": "An emergency zone covers 200 feet before and after a stopped emergency, tow, roadside assistance, maintenance, solid waste or utility vehicle with flashing lights (RCW 46.61.212). Penalties in the zone are doubled.",
+      "number": 10,
+      "unit": "mph below the posted limit",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 143,
+        "quote": "Slow down to at least 10 mph below the posted speed limit. Never drive faster than 50 mph in an emergency zone."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop for red lights/stop arm in both directions on 2-lane roads; opposite-direction traffic need not stop on roads with 3+ lanes or a median/barrier",
+      "detail": "Traffic behind the bus always stops, including in turn lanes; never use a center turn lane to pass. Go only after lights stop flashing, the sign retracts and the arm returns. Fines are doubled for passing a stopped school bus.",
+      "number": 3,
+      "unit": "lanes",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 97,
+        "quote": "Drivers traveling in the opposite direction as the bus don’t need to stop when the red lights flash or the stop sign extends IF:"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "following_distance",
+      "value": "At least twice the length of your vehicle (no seconds rule given for cars)",
+      "detail": "The Driver Guide states following space in vehicle lengths and asks for more room at night, in bad weather and behind motorcycles; its motorcycle illustration shows 3-4 seconds. It gives no general 2- or 3-second rule.",
+      "number": 2,
+      "unit": "vehicle lengths",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 159,
+        "quote": "When you’re driving near other vehicles, it’s important to leave a distance that’s at least twice the length of your vehicle between you and the vehicle ahead."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "headlights_required",
+      "value": "From a half hour after sunset to a half hour before sunrise",
+      "detail": "The guide also recommends headlights any time it is dark, rainy, snowy, foggy or smoky. Daytime running lights do not turn on taillights.",
+      "number": 30,
+      "unit": "minutes",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 49,
+        "quote": "Washington law says you need to have your headlights on a half hour after sunset to a half hour before sunrise."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "500 feet",
+      "detail": "Switch to low beams when within 500 feet of an oncoming vehicle.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 50,
+        "quote": "500 feet in front of an oncoming vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "300 feet",
+      "detail": "Switch to low beams when within 300 feet behind another vehicle.",
+      "number": 300,
+      "unit": "feet",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 50,
+        "quote": "300 feet when you’re behind."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet",
+      "detail": "Do not park within 15 feet of a fire hydrant.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 144,
+        "quote": "Within 15 feet of a fire hydrant."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "20 feet (and never on a crosswalk)",
+      "detail": "The Driver Guide says not to park on a crosswalk and not within 20 feet of pedestrian safety zones; the statute sets 20 feet from a crosswalk.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.570",
+        "page": null,
+        "quote": "Within 20 feet of a crosswalk"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Never within an intersection",
+      "detail": "The Driver Guide notes that every intersection is legally a crosswalk, marked or not, and RCW 46.61.570 also bars parking on a crosswalk or within 20 feet of one.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 143,
+        "quote": "In an intersection."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet from a traffic signal, stop sign, or yield sign",
+      "detail": "Do not park within 30 feet of a traffic signal, stop sign or yield sign.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 143,
+        "quote": "Within 30 feet of a traffic signal, stop sign, or yield sign."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet from a railroad crossing",
+      "detail": "Never park on railroad tracks or within 50 feet of a crossing.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 144,
+        "quote": "Within 50 feet of a railroad crossing."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "75 feet from a fire station driveway on the opposite side of the street",
+      "detail": "RCW 46.61.570 also bars parking within 20 feet of a fire station driveway entrance on the same side.",
+      "number": 75,
+      "unit": "feet",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 143,
+        "quote": "Within 75 feet of a fire station driveway on the opposite side of the street."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "No more than 12 inches from the curb",
+      "detail": "When parallel parking, your vehicle must be no more than 12 inches from the curb.",
+      "number": 12,
+      "unit": "inches",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 144,
+        "quote": "More than 12 inches from the curb."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "Between 15 and 50 feet from the nearest rail",
+      "detail": "Stop when signals flash, a gate is lowering or down, a flagger signals, a train is near, you hear a train horn, or a stop sign is posted. Never drive around a gate.",
+      "number": 15,
+      "unit": "feet (minimum)",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 105,
+        "quote": "Stop between 15 and 50 feet away from the nearest rail of a crossing when:"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet; move over a full lane where there are 2 lanes in your direction",
+      "detail": "On a one-lane-each-way road, move into the other lane when there is no oncoming traffic. Never cross into oncoming traffic to pass, and don't pass a cyclist just before turning right.",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 103,
+        "quote": "Leave at least 3 feet between the bicyclist and the widest part of your vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Wait until the pedestrian has cleared your lane plus one more lane",
+      "detail": "Pedestrians and bicyclists have the right-of-way at marked and unmarked crosswalks. For a person using a wheelchair, cane, guide dog or service animal, wait until they have completely crossed.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 93,
+        "quote": "Wait until a pedestrian has cleared your lane and one additional lane before proceeding."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "crash_reporting",
+      "value": "File a collision report within 4 days if police do not",
+      "detail": "Required by state law for crashes involving injury, death, or property damage of $1,000 or more (RCW 46.52.030; WAC 446-85-010). If anyone is injured or killed, call 911.",
+      "number": 4,
+      "unit": "days",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 176,
+        "quote": "File a collision report form, within 4 days of a crash, if a law enforcement officer doesn’t do this for you."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "25/50/10 liability: $25,000 one person, $50,000 two or more people, $10,000 property damage",
+      "detail": "You must carry proof of liability insurance with you or in your vehicle.",
+      "number": 25000,
+      "unit": "dollars (per person bodily injury)",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 43,
+        "quote": "$25,000 or more, payable for the bodily injury or death of one person in a collision in which only one person was injured or killed"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "point_system",
+      "value": "60-day suspension for moving violations on 3 occasions within 1 year or 4 occasions within 2 years",
+      "detail": "Washington counts moving-violation occasions; multiple tickets from one traffic stop count as one occasion. DOL sends a warning after 2 occasions in 1 year or 3 in 2 years. A safe driving course is required before reinstatement, and a 1-year probation follows; each new moving violation during probation adds a 30-day suspension. Since April 1, 2026 (2025 c 175), finishing the course early can end the 60-day suspension sooner.",
+      "number": 60,
+      "unit": "days (suspension)",
+      "source": {
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.20.2892",
+        "page": null,
+        "quote": "has committed a traffic infraction for a moving violation on three or more occasions within a one-year period, or on four or more occasions within a two-year period, the department must suspend the license of the driver for a period of 60 days"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Helmets required for all motorcycle and moped riders and passengers",
+      "detail": "The helmet must meet DOT standards and the chin strap must be fastened while moving. Riders also need eye protection if the motorcycle has no windshield, and children under 5 may not be carried on a motorcycle.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.37.530",
+        "page": null,
+        "quote": "For any person to operate or ride upon a motorcycle, motor-driven cycle, or moped on a state highway, county road, or city street unless wearing upon his or her head a motorcycle helmet"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Prohibited",
+      "detail": "Motorcycles may not ride between lanes or rows of vehicles, may not pass in the same lane as the vehicle being passed, and may not ride more than two abreast in a lane.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.608",
+        "page": null,
+        "quote": "No person shall operate a motorcycle between lanes of traffic or between adjacent lines or rows of vehicles."
+      },
+      "status": "verified"
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Emergency/work zone: move over or slow down (200 feet)",
+      "summary": "An emergency or work zone covers the lanes 200 feet before and after a stopped emergency vehicle, tow truck, roadside assistance vehicle, or working highway/utility/solid-waste vehicle with flashing lights. Move over if safe; otherwise slow to at least 10 mph under the limit (no more than 50 mph where the limit is over 60). Penalties are doubled.",
+      "source": {
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.212",
+        "page": null,
+        "quote": "An emergency or work zone is defined as the adjacent lanes of the roadway 200 feet before and after"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Following a fire truck: 500 feet",
+      "summary": "Unless on official business, do not follow a fire truck answering an alarm closer than 500 feet, or stop within 500 feet of one stopped at a fire.",
+      "source": {
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.635",
+        "page": null,
+        "quote": "shall not follow any fire apparatus traveling in response to a fire alarm closer than five hundred feet"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Shared center turn lane: 300-foot limit",
+      "summary": "Two-way left-turn center lanes are only for left turns (and legal U-turns), never for passing, and you should not travel more than 300 feet in them.",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 134,
+        "quote": "You shouldn’t travel farther than 300 feet in a center lane."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "THC limits for driving",
+      "summary": "Driving with 5.00 ng/mL or more of active THC in the blood (age 21+) or any amount above 0.00 (under 21) is a DUI. Cannabis is legal at 21, but driving after use is illegal at any age.",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 37,
+        "quote": "For drivers age 21 and older, having more than 5 nanograms of active THC per milliliter of blood in their system is considered a DUI and can result in legal consequences."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Headphones and earbuds banned while driving",
+      "summary": "Driving while wearing earbuds, earphones, headphones or headsets that play sound or cancel noise is illegal. A hands-free device in one ear is allowed.",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 70,
+        "quote": "It is against the law to drive a vehicle while wearing earbuds, earphones, headphones, or headsets that broadcast sound or cancel noise."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Children left in vehicles",
+      "summary": "It is a crime to leave a child under 16 alone in a parked vehicle with the motor running, or a child under 12 alone in a parked vehicle at all.",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 145,
+        "quote": "It’s a crime to leave a child under the age of 16 unattended in a parked vehicle while the motor is running."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Beach driving (Grays Harbor and Pacific counties)",
+      "summary": "Ocean beach driving is allowed only in Grays Harbor and Pacific counties. The beach is a state highway: all traffic laws apply, the speed limit is 25 mph, pedestrians and bicyclists always have the right-of-way, and you may drive only on hard-packed sand via marked approaches.",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 152,
+        "quote": "Driving is allowed on ocean beaches only in Grays Harbor and Pacific counties."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "No flashing green signals in Washington",
+      "summary": "Washington does not use flashing green lights. In British Columbia, a flashing green warns that pedestrians may be waiting to cross.",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 112,
+        "quote": "You won’t see a flashing green light in Washington state."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Bicycle boxes: no right turn on red",
+      "summary": "Where a green bicycle box is painted at an intersection, you may not turn right on red; stay behind the white line until the box is clear.",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 140,
+        "quote": "You can’t turn right on red near a bicycle box."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Slow vehicles must pull over for 5 or more following vehicles",
+      "summary": "On a two-lane highway where passing is unsafe, a slow-moving vehicle with five or more vehicles lined up behind it must turn off at a safe turnout to let them pass.",
+      "source": {
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.427",
+        "page": null,
+        "quote": "a slow moving vehicle, behind which five or more vehicles are formed in a line, shall turn off the roadway wherever sufficient area for a safe turn-out exists"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Respond to a ticket within 15 days",
+      "summary": "You must sign a ticket (signing is not an admission of guilt) and follow the instructions on the back within 15 days, or your driving privileges can be suspended.",
+      "source": {
+        "url": "https://dol.wa.gov/media/pdf/4745/driver-guidepdf",
+        "page": 182,
+        "quote": "You need to follow the instructions on the back of the ticket within 15 days to avoid having your driving privileges suspended."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Work Zone and First Responder course (from Nov. 1, 2026)",
+      "summary": "Starting November 1, 2026, first-time Washington driver license applicants under 25 must pass a free, online work zone and first responder safety course (about an hour, with a test) to get a license.",
+      "source": {
+        "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/do-i-need-take-test",
+        "page": null,
+        "quote": "Starting November 1, 2026, first-time driver license applicants under the age of 25 must pass a free online course for work zone and first responder safety to get their license."
+      },
+      "status": "verified"
+    }
+  ],
+  "officialPracticeTests": [
+    "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-training-online-practice-test"
+  ],
+  "gaps": [
+    "following_distance: the Driver Guide gives no seconds-based rule for cars (only 'at least twice the length of your vehicle'; its motorcycle illustration shows 3-4 seconds).",
+    "speed_limit_interstate_max: no official source found listing the highest limit actually posted; RCW 46.61.410 caps it at 75 mph where WSDOT posts it.",
+    "speed_limit_business_district: Washington has no separate business-district default; RCW 46.61.400 sets 25 mph for all city and town streets.",
+    "implied_consent: the Driver Guide (p. 37) says a refusal can cost 90 to 730 days or until age 21; the fact uses RCW 46.20.3101 (1 year for a first refusal).",
+    "knowledgeTest.timeLimitMinutes / retestWait: DOL does not state a time limit or a fixed retest wait (checked dol.wa.gov 'Do I need to take a test?' Oct 2026).",
+    "motorcycleTest.questions/passingScore: not published by DOL.",
+    "cdlTest: not researched (outside the scope of the non-commercial guide)."
+  ]
+}

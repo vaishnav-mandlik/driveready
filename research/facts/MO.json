@@ -1,0 +1,745 @@
+{
+  "code": "MO",
+  "name": "Missouri",
+  "agency": {
+    "name": "Missouri Department of Revenue (driver licensing); written, road sign, vision and driving tests given by the Missouri State Highway Patrol",
+    "abbreviation": "DOR",
+    "website": "https://dor.mo.gov/"
+  },
+  "handbook": {
+    "title": "Missouri Driver Guide",
+    "edition": "Revised August 2026 (current edition linked from dor.mo.gov/driver-license/guide as of Oct 2026)",
+    "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf"
+  },
+  "knowledgeTest": {
+    "questions": 25,
+    "passingScore": 20,
+    "passingPercent": 80,
+    "roadSigns": "Separate road sign recognition test. The driver examination has four parts: a written test, a vision test, a road sign test and a driving skills test. The vision and road sign tests are also required at every renewal and when transferring an out-of-state license.",
+    "timeLimitMinutes": null,
+    "format": "Multiple-choice written test given by the Missouri State Highway Patrol. You can take it on a touch screen PC or tablet (with or without headphones), as a printed paper test, or have an examiner read it to you.",
+    "languages": "Class F written test in 20 languages: English, American Sign Language (video), Arabic, Bosnian, Chinese, Dari, French, German, Greek, Italian, Japanese, Kinyarwanda, Korean, Marshallese, Pashto, Russian, Spanish, Swahili, Ukrainian and Vietnamese. Oral (headphone) versions are available in English and Spanish.",
+    "retestWait": "No waiting period is published. Any written test may be taken up to two times per day statewide during normal business hours. Driving skills tests are limited to one per day, and after 3 failed attempts you need written approval from the Department of Revenue.",
+    "notes": "There is no time limit on the written test, whatever format you choose. Teens: instruction permit at 15 (vision, road sign and written tests plus a parent or guardian's permission); intermediate license at 16 after holding the permit for 6 months (182 days) with 40 hours of supervised driving, 10 of them at night; full license at 18. Adults applying for a new license take the same four-part exam. A new resident with an out-of-state license that is valid or expired for less than 184 days takes only the vision and road sign tests. The Class F written test does not cover Chapter 15 (Commercial Vehicles); the Class E (for-hire) test does.",
+    "sourceUrl": "https://statepatrol.dps.mo.gov/divisions/driver-and-vehicle-safety-division/de-faqs"
+  },
+  "motorcycleTest": {
+    "questions": 25,
+    "passingScore": 20,
+    "passingPercent": 80,
+    "notes": "The Class M written test covers the Missouri Motorcycle Operator Manual. It is offered in English and Spanish, with an oral version in English only. Motorcycle instruction permit at 15 1/2 only after an approved rider training course (plus the Class F and Class M written, vision and road sign tests and parental consent); it allows daylight riding only, within 50 miles of home, on a motorcycle of no more than 250 cc, with no passengers. At 16 or older, no course is required for the permit, but you must have passed both the Class F and Class M written tests. At 16 or older, the M endorsement can be earned either by passing the written and skills tests at an MSHP testing site or by completing an approved MSF rider training course.",
+    "sourceUrl": "https://statepatrol.dps.mo.gov/divisions/driver-and-vehicle-safety-division/de-faqs"
+  },
+  "cdlTest": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC",
+      "detail": "Driving with a BAC of 0.08% or more is illegal in Missouri. You can also be charged with DWI for driving impaired by alcohol, illegal drugs, prescription or over-the-counter medication.",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 73,
+        "quote": "It is illegal to drive with a blood alcohol content (BAC) of 0.08% or more (0.04% for commercial vehicle drivers and 0.02% if under 21)."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% BAC (drivers under 21)",
+      "detail": "For minors, a BAC of .02% or more leads the officer to take the license and issue a notice of suspension or revocation that takes effect after 15 days. Minors with a BAC of .02% or more do not have to file proof of insurance (SR-22) on a first offense.",
+      "number": 0.02,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 69,
+        "quote": "If your BAC level is .08% or more (or for minors .02% or more), the officer will take your license away and give you a notice."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC (commercial vehicle drivers)",
+      "detail": "Drivers of commercial vehicles are held to a lower limit of 0.04%.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 73,
+        "quote": "It is illegal to drive with a blood alcohol content (BAC) of 0.08% or more (0.04% for commercial vehicle drivers and 0.02% if under 21)."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusing a chemical test: license taken away for 1 year",
+      "detail": "If you refuse a chemical (breath, blood or urine) test, your license is taken away for one year. Reinstatement requires a $45 fee, SATOP completion and 2 years of SR-22 proof of insurance; an ignition interlock is also required in some cases.",
+      "number": 1,
+      "unit": "year",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 72,
+        "quote": "If a police officer stops you and you refuse to take a chemical test to determine your BAC, your driver license will be taken away for one year."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "Up to 6 months in jail and up to a $500 fine; 90-day license suspension",
+      "detail": "Missouri calls it DWI (or BAC .08%+). A court conviction for a 1st offense brings up to six months in jail, a fine of up to $500 and a 90-day suspension (a 90-day or 60-day Restricted Driving Privilege may be available). A 2nd offense brings a one-year revocation.",
+      "number": 500,
+      "unit": "dollars (maximum fine)",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 70,
+        "quote": "1st Offense - Spend up to six months in jail. Pay up to a $500 fine."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "open_container",
+      "value": "Drinking an alcoholic beverage while driving is an infraction (RSMo 577.017)",
+      "detail": "No one may operate a moving motor vehicle on a public road while consuming an alcoholic beverage. The offense is an infraction and is not recorded by the Department of Revenue. The Missouri Driver Guide does not state an open-container rule; local ordinances may add one.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://revisor.mo.gov/main/OneSection.aspx?section=577.017",
+        "page": null,
+        "quote": "A person commits the offense of consumption of an alcoholic beverage while driving if he or she operates a moving motor vehicle upon any public thoroughfare for vehicles, including state roads, county roads and public streets, avenues, boulevards, parkways or alleys in any municipality while consuming any alcoholic beverage."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15 years old",
+      "detail": "The instruction permit is Step One of Missouri's Graduated Driver License program. You must pass the vision, road sign and written tests, and a parent, stepparent, legal guardian or certified trainer must come to the license office with you to sign a permission statement.",
+      "number": 15,
+      "unit": "years",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 17,
+        "quote": "Step One: Instruction Permit  Eligible Age: 15"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "6 months (182 days)",
+      "detail": "You must hold the instruction permit for at least six months (182 days), counting from the day after it is issued, before you can get an intermediate license. The period starts when the permit is issued, not when you pass the test.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 18,
+        "quote": "You must have an instruction permit for a minimum of six months (182 days) beginning the day after issuance."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "40 hours total, including at least 10 hours at night",
+      "detail": "Before getting an intermediate license, permit holders need 40 hours of driving instruction with a parent, stepparent, legal guardian or certified trainer. At least 10 of those hours must be nighttime driving.",
+      "number": 40,
+      "unit": "hours",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 18,
+        "quote": "You must have completed 40 hours of driving instruction with a parent, stepparent, legal guardian, or certified trainer (with a federal residential job training program). The required 40 hours must include at least ten hours of nighttime driving."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Under 16: a parent, stepparent, grandparent, legal guardian, qualified instructor, or a person 25+ licensed at least 3 years with written parental permission. Age 16+: any licensed driver at least 21.",
+      "detail": "The supervisor must ride in the front seat. A physically disabled parent or guardian may name up to two people to supervise. Seat belts must be worn by the driver and all passengers.",
+      "number": 21,
+      "unit": "years (minimum supervisor age once the permit holder is 16)",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 17,
+        "quote": "At age 16 or older, you may drive when accompanied in the front seat by a person who is at least 21 years old and has a valid driver license."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 (intermediate license, ages 16 to 18)",
+      "detail": "You must have held the permit for 6 months, completed 40 hours (10 at night), had no alcohol-related convictions in the last 12 months and no traffic convictions in the last 6 months, and passed the driving test.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 18,
+        "quote": "Step Two:  Intermediate License  Eligible Age: 16 to 18"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "No driving alone from 1:00 a.m. to 5:00 a.m.",
+      "detail": "Exceptions are trips to or from a school activity, a job or an emergency, or driving with a licensed driver 21 or older.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 18,
+        "quote": "You may not drive alone between 1:00 a.m. and 5:00 a.m. except to and from a school activity, job, or an emergency, unless accompanied by a licensed driver 21 years of age or older."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "First 6 months: no more than 1 passenger under 19 who is not immediate family; after that: no more than 3",
+      "detail": "Immediate family includes parents, grandparents, brothers, sisters, stepbrothers, stepsisters, and adopted or foster children living in the driver's household. The limits may not apply during agricultural work.",
+      "number": 1,
+      "unit": "non-family passenger under 19 (first 6 months)",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 18,
+        "quote": "During the first six months, you may not operate a motor vehicle with more than one passenger who is under the age of 19 and who is not a member of your immediate family"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "18",
+      "detail": "To get the full (under-21) license you need a valid intermediate license, no alcohol-related offenses or traffic convictions in the last 12 months, and no suspension, revocation or denial. You must pass the vision and road sign tests.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 19,
+        "quote": "Step Three: Full Driver License (Under 21) Eligible Age: 18"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "Hands-free law: all drivers may not hold or support a phone while the vehicle is moving",
+      "detail": "While the vehicle is moving, drivers may not hold a phone, type or read texts, record, post or broadcast video, or watch video. Hands-free calls, voice-to-text, and GPS or audio with a single touch are allowed. Since January 1, 2025, a violation can be an infraction instead of a warning (RSMo 304.822).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 95,
+        "quote": "Physically holding or supporting a cellphone with any part of their body."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "texting_ban",
+      "value": "Texting while driving is illegal for all drivers",
+      "detail": "No driver may read, write or send a text or electronic message while operating a vehicle. Voice-to-text is allowed under the hands-free law.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 94,
+        "quote": "It is against the law for any person to read, write, or send a text message or electronic message while operating a vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Driver and front-seat occupants must buckle up; ALL passengers of permit and intermediate drivers",
+      "detail": "Missouri requires the driver and front-seat occupants of passenger vehicles to wear seat belts. When the driver has an instruction permit or an intermediate license, every passenger must be restrained.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 57,
+        "quote": "Missouri law requires the operator and front seat occupants of all passenger vehicles to wear a properly adjusted and fastened seat belt."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Under 4 or under 40 lbs: child restraint; ages 4-7 who weigh 40-79 lbs and are under 4'9\": child restraint or booster; 8+, 80+ lbs or over 4'9\": safety belt or booster",
+      "detail": "Children under 4, whatever their weight, and children under 40 pounds, whatever their age, must be in a child restraint system. Children 4 to 7 who weigh 40 to 79 pounds and are under 4'9\" need a child restraint or booster seat. Children who are at least 8, at least 80 pounds or taller than 4'9\" may use a safety belt or booster. Children 12 and under should ride in a rear seat.",
+      "number": 4,
+      "unit": "years",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 57,
+        "quote": "Children less than four years old, regardless of weight, shall be secured in a child passenger restraint system appropriate for that child."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Speed limits are for ideal conditions; you must slow down when conditions require it",
+      "detail": "The posted limit is the maximum in ideal conditions. Hills, curves, slippery roads, limited sight distance, pedestrians, bicyclists and slow vehicles may make it unsafe.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 52,
+        "quote": "By law, when conditions demand it, you must slow down."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "Obey the slower posted school-zone limit when lights are flashing or children are present",
+      "detail": "The Driver Guide gives no single statewide school-zone number. Obey the posted school-zone limit, and stop and yield if a school traffic patrol member signals you to.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 32,
+        "quote": "You must obey a slower speed limit in a school zone when lights are flashing or children are present."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "25 mph in any city, town or village unless posted otherwise",
+      "detail": "Unless a sign says otherwise, the Driver Guide gives 25 mph as the speed limit inside a city, town or village.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 52,
+        "quote": "The speed limit in any city, town, or village is 25 mph, unless posted otherwise."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "60 mph on other roads outside urbanized areas; 65 mph on rural expressways; 55 mph on lettered roads",
+      "detail": "Unless posted otherwise, the uniform maximums are 65 mph on rural expressways and 60 mph on all other roads and highways outside urbanized areas. Lettered state roads (such as Route A or Route ZZ) have a 55 mph maximum.",
+      "number": 60,
+      "unit": "mph",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 52,
+        "quote": "All other roads and highways not located in an urbanized area 60"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "75 mph on rural interstates and freeways; 60 mph on interstates and freeways in urbanized areas",
+      "detail": "RSMo 304.010, as amended effective August 28, 2026 (SB 1408), raised the rural interstate and freeway maximum to 75 mph, and the guide's speed table shows 75. The paragraph below that table still says the interstate maximum is 70 mph; the table and the statute are current.",
+      "number": 75,
+      "unit": "mph",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 52,
+        "quote": "Rural interstates and freeways 75"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "40 mph minimum on interstates under normal conditions",
+      "detail": "You may drive slower than a posted minimum only in bad weather, heavy traffic or on a bad road. Even with no posted minimum, it is illegal to drive so slowly that you block traffic.",
+      "number": 40,
+      "unit": "mph",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 52,
+        "quote": "You may not drive slower than 40 mph on interstate highways under normal roadway conditions."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop when clear, unless a 'No Right Turn On Red' sign is posted",
+      "detail": "Stop completely, yield to pedestrians and traffic, then turn right. Do not turn where a 'No Right Turn On Red' sign is posted.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 46,
+        "quote": "After making a complete stop, you may turn right on a red light if the way is clear of pedestrians and traffic."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 100 feet before turning",
+      "detail": "Get into the proper lane and signal at least 100 feet before you turn. If there are other streets or driveways between you and your turn, wait until you have passed them before signaling.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 26,
+        "quote": "You should signal at least 100 feet before you turn so the other drivers can be ready."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the right edge and stop until the emergency vehicle passes",
+      "detail": "Yield to emergency vehicles using a siren or air horn and red or blue flashing lights. If you are in an intersection, drive through it first, then pull over. More emergency vehicles may follow, so proceed only when the way is clear. The Driver Guide gives no following distance for emergency vehicles.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 25,
+        "quote": "Pull over to the right edge of the road, or as near to the right as possible, when you see or hear an emergency vehicle approaching from any direction."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "move_over_law",
+      "value": "Move to a non-adjacent lane if safe, or slow down, for stopped vehicles showing red, red/blue, amber or amber/white lights",
+      "detail": "On a road with at least two lanes in your direction, change into a lane not next to the stopped vehicle if it is safe. Otherwise slow down to a safe speed. A violation is a Class A misdemeanor (RSMo 304.022).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 100,
+        "quote": "motorists upon approaching a stationary emergency vehicle displaying lighted red or red and blue lights, or vehicles displaying amber or amber and white lights"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop both directions on two-lane roads; opposite-direction traffic need not stop on a road of 4+ lanes or a divided highway with separate roadways",
+      "detail": "Amber lights flash 500 feet before the bus stops. When the red lights and stop arm are on, following and oncoming traffic must stop on two-lane roads. Stay stopped until the bus moves or the driver signals you on. You need not stop if you are going the opposite direction on a highway of four or more lanes or a divided highway, or if the bus is in a school loading zone where students do not cross. Failing to stop brings 5 points.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 26,
+        "quote": "When you are traveling the opposite direction of a school bus on a highway containing four or more lanes of traffic"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "following_distance",
+      "value": "3 seconds (three-second rule); 8-10 seconds on snow or ice",
+      "detail": "Pick a fixed object. When the vehicle ahead passes it, count 'one-thousand one, one-thousand two, one-thousand three'. On snow or ice, leave about eight to ten seconds (p. 65).",
+      "number": 3,
+      "unit": "seconds",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 59,
+        "quote": "A good way to measure your safe following distance is to use the “three second rule.”"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "headlights_required",
+      "value": "From 1/2 hour after sunset to 1/2 hour before sunrise, and whenever weather requires windshield wipers",
+      "detail": "Headlights must be on from half an hour after sunset until half an hour before sunrise. Missouri also requires headlights any time the weather calls for windshield wipers (p. 64).",
+      "number": 30,
+      "unit": "minutes",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 64,
+        "quote": "Turn your headlights on from ½ hour after sunset until ½ hour before sunrise."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "Within 500 feet of an oncoming vehicle",
+      "detail": "Switch to low beams when you come within 500 feet (about one block) of an oncoming vehicle.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 64,
+        "quote": "Use your low beams when you come within 500 feet (about one block) of an oncoming vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "Within 300 feet when following another vehicle",
+      "detail": "Use low beams when you are following another vehicle within 300 feet.",
+      "number": 300,
+      "unit": "feet",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 64,
+        "quote": "Also use your low beams when following another vehicle within 300 feet."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "Do not park blocking a fire hydrant (no distance given)",
+      "detail": "The Driver Guide lists blocking a fire hydrant as a no-parking situation but gives no minimum distance. Check local signs and ordinances.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 37,
+        "quote": "Blocking a fire hydrant."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "Do not park on a crosswalk or sidewalk (no distance given)",
+      "detail": "The Driver Guide prohibits parking on a crosswalk or sidewalk but sets no distance from a crosswalk.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 37,
+        "quote": "On a crosswalk or sidewalk."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Do not park in an intersection (no distance given)",
+      "detail": "The Driver Guide prohibits parking in an intersection but gives no distance from one. Other no-parking places it lists: across a driveway, on the left side of a two-way street, beside a yellow curb, on a bridge, and facing against traffic.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 37,
+        "quote": "In an intersection."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "No more than 18 inches from the curb",
+      "detail": "On the driving test, parallel parking (a space 25 feet long and 7 feet wide) and hill parking are scored on parking no more than 18 inches from the curb.",
+      "number": 18,
+      "unit": "inches",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 22,
+        "quote": "Parking no more than 18” from the curb."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "15 to 50 feet from the nearest rail",
+      "detail": "You must stop when red lights flash or the gate is down, and you may not go around the gate. A crossbuck means the same as a yield sign.",
+      "number": 15,
+      "unit": "feet (minimum)",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 53,
+        "quote": "You must stop within 15 to 50 feet before the railroad tracks."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "Give bicycles and mopeds a full lane width",
+      "detail": "Do not squeeze past cyclists. Wait for a clear stretch of road before passing in a lane too narrow to share. You must yield to bicyclists in a bicycle lane.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 33,
+        "quote": "When you are passing, give bicycles and mopeds a full lane width."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Yield to pedestrians in marked or unmarked crosswalks; stop completely for blind pedestrians with a guide dog or white cane",
+      "detail": "Even on a green light you must yield to pedestrians still in the intersection. Do not pass a vehicle that has stopped for a pedestrian. Pedestrians crossing mid-block must yield to traffic.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 33,
+        "quote": "When a pedestrian is crossing a street or highway guided by a dog or carrying a white cane (or a white cane with a red tip), vehicles must come to a complete stop."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Report to the Driver License Bureau within 30 days if a driver was uninsured and there was over $500 in property damage, or any injury or death",
+      "detail": "Report even if the crash happened in a parking lot or was settled. Use Motor Vehicle Accident Report Form 1140. Never leave the scene; leaving the scene can bring 12 points. Under the 'Move It' (steer it and clear it) law, move vehicles off the road after a minor crash with no injuries.",
+      "number": 30,
+      "unit": "days",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 83,
+        "quote": "State law requires the accident report to be filed within 30 days."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "25/50/25 liability plus 25/50 uninsured motorist coverage",
+      "detail": "The minimum liability coverage is $25,000 for bodily injury per person, $50,000 for bodily injury per crash, and $25,000 for property damage per crash. Uninsured motorist coverage of $25,000 per person and $50,000 per crash is also required. Keep proof of insurance in your vehicle.",
+      "number": 25000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 81,
+        "quote": "$25,000 per person for bodily injury; • $50,000 per crash for bodily injury; and • $25,000 per crash for property damage."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "point_system",
+      "value": "4 points in 12 months: advisory letter; 8 points in 18 months: suspension; 12 in 12, 18 in 24 or 24 in 36 months: 1-year revocation",
+      "detail": "Point suspensions last 30 days the first time, 60 days the second and 90 days the third. Example point values: speeding 3, careless and imprudent driving 4, failure to stop for a school bus 5, driving while suspended or revoked 12.",
+      "number": 8,
+      "unit": "points in 18 months",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 75,
+        "quote": "If you accumulate a total of 8 or more points in 18 months, your driving privilege will be suspended."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Helmets required for all operators and passengers under 26, and for any operator with an instruction permit",
+      "detail": "Under RSMo 302.020 (effective Aug 28, 2020), riders and passengers under 26 must wear protective headgear, and so must operators 26 or older riding on an instruction permit. The Driver Guide's rider tips (p. 30) simply say the law requires a helmet.",
+      "number": 26,
+      "unit": "years",
+      "source": {
+        "url": "https://revisor.mo.gov/main/OneSection.aspx?section=302.020",
+        "page": null,
+        "quote": "Every person under twenty-six years of age who is operating or riding as a passenger on any motorcycle or motortricycle, as defined in section 301.010, upon any highway of this state shall wear protective headgear at all times the vehicle is in motion"
+      },
+      "status": "verified"
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Abuse and Lose law (under 21)",
+      "summary": "Drivers under 21 can lose their license for 90 days for any alcohol-related traffic offense, for possessing or using alcohol or drugs while driving, or for altering or misrepresenting a driver license. Drivers 21 or older who possess or use drugs while driving can lose their license for one year.",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 71,
+        "quote": "If you are younger than 21 years of age, your driver license may be taken away for 90 days for any of the following:"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Minor in Possession (MIP) license penalties",
+      "summary": "A minor's license can be suspended for buying or possessing alcohol (drinking counts as possession), being visibly intoxicated, or having a BAC over .02%. The suspension is 30 days for a 1st offense and 90 days for a 2nd, and a 3rd offense brings a one-year revocation.",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 71,
+        "quote": "1st Offense — 30-day suspension 2nd Offense — 90-day suspension"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Work zone speeding/passing fines",
+      "summary": "Speeding or passing in a construction or work zone on Missouri state roads brings a minimum fine of $250 for a first offense and $300 for a second or later offense, on top of other fines (RSMo 304.582).",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 24,
+        "quote": "you could be fined a minimum of $250 for the first offense and a minimum of $300 for a second or subsequent offense"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Failure to stop for a school bus: 5 points and suspension",
+      "summary": "Failing to stop for a school bus that is loading or unloading students brings 5 points. The license suspension is 90 days (or as the court sets) for a 1st offense, 90 days for a 2nd offense within 5 years, and 180 days for a 3rd offense within 5 years.",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 26,
+        "quote": "Any driver convicted of an offense of failing to stop for a school bus that is receiving or discharging students shall be assessed five points."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Funeral processions have the right-of-way",
+      "summary": "An organized funeral procession, with every vehicle's flashers on, has the right-of-way at all intersections regardless of traffic signals, except for emergency vehicles or police direction. Other drivers may not cut through, join or pass the procession, except where a passing lane is provided.",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 35,
+        "quote": "An organized funeral procession has the right-of-way at all intersections regardless of any traffic control device, except for emergency vehicles or when directed otherwise by law enforcement officials."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "\"Move It\" / Steer It and Clear It law",
+      "summary": "After a minor crash with no injuries, Missouri law requires drivers to move their vehicles onto the shoulder or another nearby spot off the roadway to prevent secondary crashes.",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 83,
+        "quote": "A state law that took effect ten years ago requires vehicles involved in minor, non-injury crashes to move off the road."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Two-way left-turn lane: 500-foot limit",
+      "summary": "Enter a center two-way left-turn lane only to slow or stop for a left turn from the main road. You may not travel in it for more than 500 feet or use it to enter the roadway from a side street.",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 28,
+        "quote": "a vehicle may not travel in this lane for more than 500 feet"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Ignition interlock for high-BAC or repeat offenders",
+      "summary": "To be reinstated, a driver with more than one intoxication-related contact, an alcohol conviction at .15% BAC or higher, or a crash causing property damage or injury needs an ignition interlock device on every vehicle they drive. The device must stay for at least 6 months with no violations in the last 3 months.",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 72,
+        "quote": "The IID must be maintained for a minimum of six months from your reinstatement date without any violations in the last three months."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "No passing within 100 feet of intersections, railroad crossings, bridges and tunnels",
+      "summary": "You may not drive on the left side of the road to pass within 100 feet of an intersection or railroad crossing, within 100 feet of a bridge, viaduct or tunnel when your view is blocked, near a hill crest or curve with a blocked view, or where there is a solid yellow line.",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 24,
+        "quote": "Approaching within 100 feet of or at any intersection or railroad grade crossing"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Points drop after reinstatement and safe driving",
+      "summary": "When a driving privilege is reinstated, total points are reduced to 4. After that, each year without new points lowers them: by one-third after one year, by one-half after two years, and to zero after three years.",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 76,
+        "quote": "When your driving privilege is reinstated, the Department reduces your total points to four."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Parent or guardian can request license denial (under 18)",
+      "summary": "A parent or guardian of a driver under 18 can ask the Director of Revenue to deny or cancel the teen's license (Form 4811). The denial lasts until the teen turns 18 or the parent asks for it to be cleared.",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 16,
+        "quote": "If you already have a driver license, the request will cancel your license."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Studded snow tires: November 1 to April 1 only",
+      "summary": "Studded snow tires are allowed only from November 1 to April 1.",
+      "source": {
+        "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+        "page": 87,
+        "quote": "Your vehicle may have studded snow tires only from November 1 to April 1."
+      },
+      "status": "verified"
+    }
+  ],
+  "officialPracticeTests": [],
+  "gaps": [
+    "open_container: the Missouri Driver Guide has no open-container rule. RSMo 577.017 makes drinking while driving an infraction (see open_container); no official source checked states a statewide ban on passengers' open containers.",
+    "novice_phone_ban: there is no separate teen phone rule; Missouri's hands-free law (RSMo 304.822) applies to all drivers (see handheld_phone_ban).",
+    "speed_limit_business_district: the Driver Guide gives no separate business-district limit, only a 25 mph default for any city, town or village unless posted (see speed_limit_residential).",
+    "speed_limit_school_zone: no statewide number; drivers must obey the slower posted school-zone limit when lights flash or children are present.",
+    "left_turn_on_red: the Driver Guide does not address turning left on red (it covers only right on red and red arrows).",
+    "parking_stop_sign_signal: the Driver Guide gives no parking distance from stop signs or traffic signals.",
+    "parking_railroad: the Driver Guide gives no parking distance from railroad crossings.",
+    "parking_fire_station: the Driver Guide gives no parking distance from fire station driveways.",
+    "parking_fire_hydrant / parking_crosswalk / parking_intersection: the Driver Guide prohibits blocking a hydrant and parking on a crosswalk or in an intersection, but gives no distances.",
+    "emergency_vehicles: the Driver Guide gives no minimum following distance behind emergency vehicles.",
+    "motorcycle_lane_splitting: neither the Driver Guide nor the agency site addresses lane splitting; the guide says only that car drivers should not share a lane with a motorcycle.",
+    "speed_limit_interstate_max: the guide contradicts itself, with a table showing 75 mph for rural interstates and freeways and a paragraph saying 70 mph. RSMo 304.010 (effective Aug 28, 2026) confirms 75 mph."
+  ]
+}

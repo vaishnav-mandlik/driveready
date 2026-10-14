@@ -1,0 +1,2149 @@
+[
+  {
+    "id": "mo.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Missouri, it is illegal for a driver age 21 or older to drive with a blood alcohol content (BAC) of at least what level?",
+    "choices": [
+      "0.02%",
+      "0.08%",
+      "0.05%",
+      "0.10%"
+    ],
+    "answer": 1,
+    "explanation": "Missouri makes it illegal to drive with a BAC of 0.08% or more. Lower limits apply to commercial drivers (0.04%) and drivers under 21 (0.02%).",
+    "difficulty": 1,
+    "ref": "Missouri Driver Guide, p. 73",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 19-year-old Missouri driver is stopped and tests at 0.03% BAC. Which statement is correct?",
+    "choices": [
+      "The driver is over the 0.02% limit for drivers under 21",
+      "The driver is legal because the limit is 0.08%",
+      "The driver is legal because the under-21 limit is 0.04%",
+      "Drivers under 21 can only be warned for a first stop"
+    ],
+    "answer": 0,
+    "explanation": "In Missouri it is illegal for a driver under 21 to have a BAC of 0.02% or more, so 0.03% is over the limit.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 73",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What BAC limit does Missouri set for drivers of commercial vehicles?",
+    "choices": [
+      "0.04%",
+      "0.06%",
+      "0.08%",
+      "0.02%"
+    ],
+    "answer": 0,
+    "explanation": "Missouri sets a 0.04% BAC limit for commercial vehicle drivers, compared with 0.08% for other adult drivers.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 73",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A Missouri officer stops you and you refuse a chemical test to measure your BAC. What happens to your driver license?",
+    "choices": [
+      "It is taken away for one year",
+      "It is suspended for 90 days",
+      "Nothing happens unless you are later convicted of DWI",
+      "It is suspended for 30 days"
+    ],
+    "answer": 0,
+    "explanation": "Refusing a chemical test in Missouri means your driver license is taken away for one year, even without a DWI conviction.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 72",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Missouri law, what are the maximum jail time and fine for a first-offense DWI conviction?",
+    "choices": [
+      "Up to six months in jail and up to a $500 fine",
+      "Up to four years in jail and up to a $5,000 fine",
+      "Up to one year in jail and up to a $1,000 fine",
+      "Up to 30 days in jail and up to a $250 fine"
+    ],
+    "answer": 0,
+    "explanation": "A first DWI or BAC conviction in Missouri brings up to six months in jail and a fine of up to $500. One year and $1,000 are the maximums for a second offense.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 70",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A Missouri court convicts a driver of a first DWI offense. What happens to the driver's license?",
+    "choices": [
+      "A one-year revocation",
+      "Only points; no suspension",
+      "A 90-day suspension",
+      "A five-year denial"
+    ],
+    "answer": 2,
+    "explanation": "A first court-convicted DWI or BAC offense brings a 90-day suspension, and the driver may qualify for a restricted driving privilege. A second offense brings a one-year revocation.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 70",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A Missouri court convicts a driver of a second DWI offense within five years. What license action follows?",
+    "choices": [
+      "A five-year license denial",
+      "A 90-day suspension",
+      "A one-year revocation",
+      "A ten-year license denial"
+    ],
+    "answer": 0,
+    "explanation": "Under the Driver Guide's court-convicted actions chart, a second offense within 5 years brings a five-year license denial. A one-year revocation is for a second offense outside that window, and a third offense brings a ten-year denial.",
+    "difficulty": 3,
+    "ref": "Missouri Driver Guide, p. 70",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A Missouri officer takes your license after a breath test shows a BAC of 0.08% or more. When does the suspension or revocation take effect?",
+    "choices": [
+      "After 15 days, unless you request a hearing",
+      "After 30 days",
+      "Immediately, at the roadside",
+      "Only after a court conviction"
+    ],
+    "answer": 0,
+    "explanation": "The officer gives you a notice that your license will be suspended or revoked after 15 days. The notice can include a 15-day driving permit and lets you request a hearing.",
+    "difficulty": 3,
+    "ref": "Missouri Driver Guide, p. 69",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.009",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Missouri's \"Abuse and Lose\" law, how long can a driver under 21 lose their license for an alcohol-related traffic offense?",
+    "choices": [
+      "30 days",
+      "90 days",
+      "One year",
+      "Until age 21"
+    ],
+    "answer": 1,
+    "explanation": "Under the Abuse and Lose law, a driver younger than 21 can lose their license for 90 days for any alcohol-related traffic offense, for possessing alcohol or drugs while driving, or for altering a driver license.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 71",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.010",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Missouri law, what can happen to a driver age 21 or older who possesses or uses drugs while driving?",
+    "choices": [
+      "Their license is suspended for 30 days",
+      "Their license can be taken away for 90 days",
+      "They receive a warning for a first offense",
+      "Their license can be taken away for one year"
+    ],
+    "answer": 3,
+    "explanation": "Missouri's Abuse and Lose law lets the state take the license of a driver 21 or older for one year for possessing or using drugs while driving.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 71",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.011",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 17-year-old in Missouri is convicted of a first Minor in Possession (MIP) offense. What license penalty applies?",
+    "choices": [
+      "A one-year revocation",
+      "No license penalty for a first offense",
+      "A 30-day suspension",
+      "A 90-day suspension"
+    ],
+    "answer": 2,
+    "explanation": "MIP penalties increase with each offense: a 30-day suspension for the first, 90 days for the second and a one-year revocation for the third.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 71",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.012",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "When is an ignition interlock device required before a Missouri driver's license can be reinstated?",
+    "choices": [
+      "For every first-offense BAC of 0.08%",
+      "Only for commercial drivers",
+      "Only after a third DWI",
+      "When the driver had an alcohol conviction with a BAC of 0.15% or higher"
+    ],
+    "answer": 3,
+    "explanation": "An ignition interlock is required for reinstatement after more than one intoxication-related contact, an alcohol conviction with a BAC of 0.15% or higher, or a case involving property damage or injury.",
+    "difficulty": 3,
+    "ref": "Missouri Driver Guide, p. 72",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.013",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "When Missouri requires an ignition interlock device for reinstatement, how long must it stay on the vehicle at a minimum?",
+    "choices": [
+      "Six months, with no violations in the last three months",
+      "Until the driver turns 21",
+      "30 days",
+      "One year, regardless of violations"
+    ],
+    "answer": 0,
+    "explanation": "The device must stay on for at least six months from reinstatement, with no violations in the last three months. Failing to keep it re-suspends your driving privilege.",
+    "difficulty": 3,
+    "ref": "Missouri Driver Guide, p. 72",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.014",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "After an alcohol-related suspension in Missouri, how long must you keep proof of insurance (such as an SR-22) on file with the Driver License Bureau?",
+    "choices": [
+      "Five years",
+      "One year",
+      "Six months",
+      "Two years"
+    ],
+    "answer": 3,
+    "explanation": "Drivers facing DWI or BAC consequences must keep proof of insurance, usually an SR-22, on file for two years. If it lapses, the license is suspended for the rest of that period.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 71",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.015",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Missouri, how are DWI penalties for impairment by a prescription drug different from penalties for alcohol?",
+    "choices": [
+      "They are lower because the drug was prescribed",
+      "There are no penalties if the drug was taken as directed",
+      "They apply only to commercial drivers",
+      "They are exactly the same"
+    ],
+    "answer": 3,
+    "explanation": "Missouri law does not distinguish between prescription, over-the-counter and illegal drugs. DWI penalties are exactly the same whether the impairment comes from drugs or alcohol.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 73",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.016",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the youngest age at which you can get a Missouri instruction permit?",
+    "choices": [
+      "16",
+      "15",
+      "14",
+      "15 1/2"
+    ],
+    "answer": 1,
+    "explanation": "The instruction permit, Step One of Missouri's graduated licensing program, is available at age 15 after you pass the vision, road sign and written tests.",
+    "difficulty": 1,
+    "ref": "Missouri Driver Guide, p. 17",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.017",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "In Missouri, how long must a teen hold an instruction permit before getting an intermediate license?",
+    "choices": [
+      "At least 30 days",
+      "At least six months (182 days)",
+      "At least one year",
+      "At least three months"
+    ],
+    "answer": 1,
+    "explanation": "You must hold the instruction permit for at least six months (182 days), counting from the day after it is issued. The test record from the Highway Patrol does not start this period.",
+    "difficulty": 1,
+    "ref": "Missouri Driver Guide, p. 18",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.018",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many hours of supervised driving instruction does Missouri require before an intermediate license?",
+    "choices": [
+      "50 hours, including 10 at night",
+      "30 hours, including 5 at night",
+      "40 hours, with no night requirement",
+      "40 hours, including at least 10 hours at night"
+    ],
+    "answer": 3,
+    "explanation": "Missouri requires 40 hours of driving instruction with a parent, guardian or certified trainer. At least 10 of those hours must be at night.",
+    "difficulty": 1,
+    "ref": "Missouri Driver Guide, p. 18",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.019",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 15-year-old Missouri permit holder wants to practice with a 22-year-old cousin who has been licensed for four years. Is this allowed?",
+    "choices": [
+      "Yes; any licensed driver age 21 or older may supervise",
+      "No; a non-family supervisor for a driver under 16 must be at least 25, licensed 3+ years, with written parental permission",
+      "No; only a parent may supervise a driver under 16",
+      "Yes; any licensed adult relative may supervise"
+    ],
+    "answer": 1,
+    "explanation": "Under 16, the supervisor must be a parent, stepparent, grandparent, legal guardian or qualified instructor. Anyone else must be at least 25, licensed for at least three years and have written permission from the parent or guardian.",
+    "difficulty": 3,
+    "ref": "Missouri Driver Guide, p. 17",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.020",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Once a Missouri permit holder turns 16, who may supervise them in the front seat?",
+    "choices": [
+      "Any licensed driver who is at least 18",
+      "Only a certified driving instructor",
+      "Only a parent or legal guardian",
+      "Any licensed driver who is at least 21"
+    ],
+    "answer": 3,
+    "explanation": "At age 16 or older, a permit holder may drive with a person in the front seat who is at least 21 and has a valid driver license.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 17",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.021",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age for a Missouri intermediate license?",
+    "choices": [
+      "16",
+      "15",
+      "17",
+      "16 1/2"
+    ],
+    "answer": 0,
+    "explanation": "The intermediate license, Step Two of the graduated program, is available from age 16 to 18 after you meet the permit requirements and pass the driving test.",
+    "difficulty": 1,
+    "ref": "Missouri Driver Guide, p. 18",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.022",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During which hours may a Missouri intermediate license holder NOT drive alone (with some exceptions)?",
+    "choices": [
+      "11:00 p.m. to 5:00 a.m.",
+      "10:00 p.m. to 6:00 a.m.",
+      "Midnight to 6:00 a.m.",
+      "1:00 a.m. to 5:00 a.m."
+    ],
+    "answer": 3,
+    "explanation": "Intermediate drivers may not drive alone between 1:00 a.m. and 5:00 a.m. unless going to or from a school activity, job or emergency, or riding with a licensed driver 21 or older.",
+    "difficulty": 1,
+    "ref": "Missouri Driver Guide, p. 18",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.023",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old with a Missouri intermediate license drives home alone from a job at 1:30 a.m. Is this legal?",
+    "choices": [
+      "No, intermediate drivers may never drive after midnight",
+      "Yes, but only on weekends",
+      "Yes, trips to and from a job are an exception to the night restriction",
+      "No, a licensed driver 21 or older must always be in the car"
+    ],
+    "answer": 2,
+    "explanation": "The 1:00 a.m. to 5:00 a.m. restriction has exceptions for trips to and from a school activity, a job or an emergency.",
+    "difficulty": 3,
+    "ref": "Missouri Driver Guide, p. 18",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.024",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During the first six months, how many passengers under 19 who are not immediate family may a Missouri intermediate driver carry?",
+    "choices": [
+      "None",
+      "One",
+      "Two",
+      "Three"
+    ],
+    "answer": 1,
+    "explanation": "In the first six months, intermediate drivers may carry no more than one passenger under 19 who is not immediate family. After six months, the limit rises to three.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 18",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.025",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Missouri driver has held an intermediate license for eight months. What is the most passengers under 19 who are not immediate family they may carry?",
+    "choices": [
+      "No limit after six months",
+      "Two",
+      "Three",
+      "One"
+    ],
+    "answer": 2,
+    "explanation": "After the first six months, an intermediate driver may carry no more than three passengers under 19 who are not immediate family.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 18",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.026",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Four months after getting an intermediate license, a Missouri teen wants to drive two 17-year-old friends (not family) to a game. What does the law say?",
+    "choices": [
+      "Not allowed; only one non-family passenger under 19 is allowed in the first six months",
+      "Allowed only during daylight",
+      "Allowed, as long as everyone wears a seat belt",
+      "Allowed, because the limit is three passengers"
+    ],
+    "answer": 0,
+    "explanation": "During the first six months, an intermediate license holder may carry only one passenger under 19 who is not immediate family.",
+    "difficulty": 3,
+    "ref": "Missouri Driver Guide, p. 18",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.027",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "To move from an instruction permit to an intermediate license in Missouri, which driving record is required?",
+    "choices": [
+      "No alcohol-related convictions in the last 12 months and no traffic convictions in the last six months",
+      "Fewer than four points in the last 12 months",
+      "No requirement as long as the permit was held six months",
+      "No traffic tickets of any kind since the permit was issued"
+    ],
+    "answer": 0,
+    "explanation": "Moving to an intermediate license requires no alcohol-related convictions in the last 12 months and no traffic convictions in the last six months.",
+    "difficulty": 3,
+    "ref": "Missouri Driver Guide, p. 18",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.028",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "At what age can a Missouri driver move from an intermediate license to a full driver license?",
+    "choices": [
+      "17",
+      "16 1/2",
+      "21",
+      "18"
+    ],
+    "answer": 3,
+    "explanation": "The full (under-21) driver license, Step Three of the graduated program, is available at 18. You need no alcohol-related offenses or traffic convictions in the last 12 months.",
+    "difficulty": 1,
+    "ref": "Missouri Driver Guide, p. 19",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.029",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many questions are on Missouri's Class F written test, and how many must you answer correctly to pass?",
+    "choices": [
+      "30 questions; 24 correct",
+      "25 questions; 18 correct",
+      "20 questions; 15 correct",
+      "25 questions; 20 correct"
+    ],
+    "answer": 3,
+    "explanation": "The Class F written test has 25 multiple-choice questions, and you must answer 20 correctly (80%) to pass.",
+    "difficulty": 1,
+    "ref": "Missouri Driver Guide, p. 4",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.030",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which four parts make up Missouri's driver examination?",
+    "choices": [
+      "Vision test, written test and driving test only",
+      "Written test, road sign test, first-aid test and driving test",
+      "Written test, vision test, road sign test and driving test",
+      "Written test, vision test, hearing test and driving test"
+    ],
+    "answer": 2,
+    "explanation": "Missouri's driver examination has four parts: a written test on traffic laws, a vision test, a separate road sign test and a driving skills test.",
+    "difficulty": 1,
+    "ref": "Missouri Driver Guide, p. 20",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.031",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "On a Missouri driving skills test, how many points can you lose before you fail?",
+    "choices": [
+      "More than 30 points",
+      "More than 10 points",
+      "More than 50 points",
+      "More than 20 points"
+    ],
+    "answer": 0,
+    "explanation": "The examiner subtracts points for errors, and losing more than 30 points fails the test. A traffic violation or an at-fault crash fails you automatically.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 23",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.032",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Your Missouri driver license expired seven months ago. Which tests must you take to get it back?",
+    "choices": [
+      "No tests, just a late fee",
+      "The written and driving tests, plus the vision and road sign tests",
+      "Only the vision and road sign tests",
+      "Only the vision test"
+    ],
+    "answer": 1,
+    "explanation": "If you do not renew within six months (184 days) after the expiration date, you must take the written and driving tests in addition to the vision and road sign tests.",
+    "difficulty": 3,
+    "ref": "Missouri Driver Guide, p. 13",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.033",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A new Missouri resident has a valid license from another state. To transfer it to the same type of Missouri license, which tests are required?",
+    "choices": [
+      "No tests at all",
+      "Only the written test",
+      "Only the vision and road sign tests",
+      "The full four-part examination"
+    ],
+    "answer": 2,
+    "explanation": "A driver with an out-of-state license that is valid or expired for less than 184 days, applying for the same type of license, only has to take the vision and road sign tests.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 20",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.034",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which tests must you pass each time you renew a Missouri driver license?",
+    "choices": [
+      "The vision and road sign tests",
+      "The written test only",
+      "The written and driving tests",
+      "No tests are required to renew"
+    ],
+    "answer": 0,
+    "explanation": "Every time you renew a Missouri license, you must take the vision and road sign tests.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 12",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.035",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What minimum liability insurance does Missouri require?",
+    "choices": [
+      "$25,000 per person and $50,000 per crash for bodily injury; $25,000 for property damage",
+      "$15,000 per person and $30,000 per crash for bodily injury; $10,000 for property damage",
+      "$50,000 per person and $100,000 per crash for bodily injury; $50,000 for property damage",
+      "$30,000 per person and $60,000 per crash for bodily injury; $25,000 for property damage"
+    ],
+    "answer": 0,
+    "explanation": "Missouri's minimums are $25,000 per person and $50,000 per crash for bodily injury, plus $25,000 per crash for property damage.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 81",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.036",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Besides liability insurance, which coverage does Missouri law also require?",
+    "choices": [
+      "Rental car reimbursement",
+      "Comprehensive coverage for theft",
+      "Collision coverage for your own vehicle",
+      "Uninsured motorist coverage of $25,000 per person and $50,000 per crash"
+    ],
+    "answer": 3,
+    "explanation": "Missouri also requires uninsured motorist coverage of $25,000 per person and $50,000 per crash for bodily injury.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 81",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.037",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many points within 18 months will get a Missouri driver's privilege suspended?",
+    "choices": [
+      "12 or more points",
+      "8 or more points",
+      "4 or more points",
+      "6 or more points"
+    ],
+    "answer": 1,
+    "explanation": "Getting 8 or more points in 18 months suspends your driving privilege: 30 days the first time, 60 days the second and 90 days the third.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 75",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.038",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What happens when a Missouri driver accumulates 4 points within 12 months?",
+    "choices": [
+      "The driver must retake the full exam",
+      "The license is suspended for 30 days",
+      "The Department sends a point accumulation advisory",
+      "The license is revoked for one year"
+    ],
+    "answer": 2,
+    "explanation": "Four points in 12 months brings an advisory letter. Suspension starts at 8 points in 18 months.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 75",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.039",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which point total causes a one-year revocation of a Missouri driving privilege?",
+    "choices": [
+      "12 or more points in 12 months",
+      "6 or more points in 12 months",
+      "8 or more points in 18 months",
+      "10 or more points in 24 months"
+    ],
+    "answer": 0,
+    "explanation": "A one-year revocation applies at 12 or more points in 12 months, 18 or more in 24 months, or 24 or more in 36 months.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 75",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.040",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "After a Missouri driver's privilege is reinstated following a point suspension, what happens to their point total?",
+    "choices": [
+      "It is reduced to four points",
+      "It stays the same for three years",
+      "It is cut in half",
+      "It is erased to zero"
+    ],
+    "answer": 0,
+    "explanation": "On reinstatement, the Department reduces total points to four. Points then drop by one-third after a year without new points, by one-half after two years, and to zero after three.",
+    "difficulty": 3,
+    "ref": "Missouri Driver Guide, p. 76",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.041",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many points does a Missouri driver receive for leaving the scene of a traffic crash?",
+    "choices": [
+      "12 points, along with revocation",
+      "4 points",
+      "3 points",
+      "8 points"
+    ],
+    "answer": 0,
+    "explanation": "Leaving the scene of a traffic crash can bring 12 points and revocation of your driving privilege. Driving with a suspended or revoked license is also 12 points.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 75",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.042",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You just moved to Missouri. How long do you have to register your vehicle here?",
+    "choices": [
+      "60 days",
+      "30 days after becoming a resident",
+      "10 days",
+      "6 months"
+    ],
+    "answer": 1,
+    "explanation": "New Missouri residents must register their vehicles within 30 days of becoming a resident. They must also surrender the out-of-state title and apply for a Missouri title.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 78",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.043",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During which months may you use studded snow tires in Missouri?",
+    "choices": [
+      "From November 1 to April 1",
+      "From December 1 to March 1",
+      "From October 1 to May 1",
+      "Any time there is snow on the ground"
+    ],
+    "answer": 0,
+    "explanation": "Missouri allows studded snow tires only from November 1 to April 1.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 87",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.044",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Missouri parent wants to stop their 17-year-old from driving. What does state law allow?",
+    "choices": [
+      "The parent can do this only before the permit is issued",
+      "The parent may ask the Director of Revenue to deny or cancel the teen's license",
+      "Nothing; only a court can cancel a license",
+      "The parent can only remove the teen from the insurance policy"
+    ],
+    "answer": 1,
+    "explanation": "A parent or guardian of a driver under 18 may file Form 4811 to deny a license or cancel an existing one. The denial lasts until the teen turns 18 or the parent clears it.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 16",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.045",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Missouri's general seat belt law, who must wear a seat belt in a passenger vehicle?",
+    "choices": [
+      "Only passengers under 18",
+      "The driver and front-seat occupants",
+      "Only back-seat passengers",
+      "Only the driver"
+    ],
+    "answer": 1,
+    "explanation": "Missouri requires the driver and front-seat occupants of all passenger vehicles to wear a properly fastened seat belt. Stricter rules apply when a teen permit or intermediate driver is at the wheel.",
+    "difficulty": 1,
+    "ref": "Missouri Driver Guide, p. 57",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.046",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A Missouri intermediate license holder is driving with a parent in front and two siblings in back. Who must wear seat belts?",
+    "choices": [
+      "Only passengers under 16",
+      "The driver and all passengers",
+      "Only the driver",
+      "Only the driver and the front-seat passenger"
+    ],
+    "answer": 1,
+    "explanation": "Every passenger riding with an intermediate license holder must be properly restrained, not just those in the front seat.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 57",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.047",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Missouri's child restraint law, how must a 3-year-old weighing 42 pounds ride?",
+    "choices": [
+      "In a child passenger restraint system",
+      "With the vehicle safety belt only",
+      "In any seat, as long as an adult is present",
+      "In a booster seat"
+    ],
+    "answer": 0,
+    "explanation": "Children under four, whatever their weight, must ride in a child passenger restraint system appropriate for them.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 57",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.048",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 6-year-old who weighs 50 pounds and is 4 feet 2 inches tall is riding in a car in Missouri. What does the law require?",
+    "choices": [
+      "A rear-facing infant seat",
+      "A child passenger restraint system or booster seat",
+      "A vehicle safety belt alone",
+      "No restraint if they ride in the back seat"
+    ],
+    "answer": 1,
+    "explanation": "Children from 4 through 7 who weigh 40 to 79 pounds and are under 4'9\" must ride in a child restraint system or booster seat.",
+    "difficulty": 3,
+    "ref": "Missouri Driver Guide, p. 58",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.049",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Missouri's hands-free law, what may a driver NOT do while the vehicle is moving?",
+    "choices": [
+      "Use GPS navigation on a mounted phone",
+      "Hold or support a cellphone with any part of the body",
+      "Talk on the phone through in-car Bluetooth",
+      "Send a text using voice-to-text"
+    ],
+    "answer": 1,
+    "explanation": "While the vehicle is moving, Missouri drivers may not hold or support a phone with any part of their body. Hands-free calls, voice-to-text and GPS are allowed.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 95",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.050",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which phone use is allowed for an adult driver under Missouri's electronic communication device law?",
+    "choices": [
+      "Reading a text message at a slow speed",
+      "A hands-free voice call started with a single touch or swipe",
+      "Holding the phone to your ear for a quick call",
+      "Recording a short video for social media"
+    ],
+    "answer": 1,
+    "explanation": "Drivers may make or take voice calls with voice-operated or hands-free features that start or stop with a single touch or swipe. Holding the phone, reading texts and recording video are banned while moving.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 95",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.051",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "To which Missouri drivers does the ban on reading, writing or sending text messages apply?",
+    "choices": [
+      "Only drivers under 21",
+      "All drivers, of any age",
+      "Only commercial drivers",
+      "Only intermediate license holders"
+    ],
+    "answer": 1,
+    "explanation": "Missouri makes it illegal for any person to read, write or send a text or electronic message while operating a vehicle.",
+    "difficulty": 1,
+    "ref": "Missouri Driver Guide, p. 94",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.052",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless a sign shows otherwise, what is the speed limit in any Missouri city, town or village?",
+    "choices": [
+      "20 mph",
+      "30 mph",
+      "35 mph",
+      "25 mph"
+    ],
+    "answer": 3,
+    "explanation": "According to the Missouri Driver Guide, the speed limit in any city, town or village is 25 mph unless another limit is posted.",
+    "difficulty": 1,
+    "ref": "Missouri Driver Guide, p. 52",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.053",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is Missouri's maximum speed limit on rural interstates and freeways?",
+    "choices": [
+      "75 mph",
+      "65 mph",
+      "60 mph",
+      "80 mph"
+    ],
+    "answer": 0,
+    "explanation": "Missouri's speed table lists 75 mph for rural interstates and freeways, matching RSMo 304.010 as amended in 2026. Lower limits are posted in urban areas.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 52",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.054",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the maximum speed on interstates, freeways and expressways inside Missouri's urbanized areas, unless posted otherwise?",
+    "choices": [
+      "60 mph",
+      "70 mph",
+      "65 mph",
+      "55 mph"
+    ],
+    "answer": 0,
+    "explanation": "Missouri's uniform limit for interstates, freeways and expressways in urbanized areas is 60 mph.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 52",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.055",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "In Missouri, what is the maximum speed on a lettered state road (such as Route K), unless posted otherwise?",
+    "choices": [
+      "45 mph",
+      "55 mph",
+      "60 mph",
+      "65 mph"
+    ],
+    "answer": 1,
+    "explanation": "Missouri's lettered roads have a maximum speed of 55 mph. Other roads outside urbanized areas have a 60 mph maximum.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 52",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.056",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is Missouri's maximum speed on rural expressways, unless posted otherwise?",
+    "choices": [
+      "75 mph",
+      "55 mph",
+      "65 mph",
+      "60 mph"
+    ],
+    "answer": 2,
+    "explanation": "Rural expressways in Missouri have a 65 mph maximum. That is lower than rural interstates and freeways (75 mph) and higher than other rural roads (60 mph).",
+    "difficulty": 3,
+    "ref": "Missouri Driver Guide, p. 52",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.057",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Under normal road conditions, what is the minimum speed on Missouri interstate highways?",
+    "choices": [
+      "30 mph",
+      "50 mph",
+      "40 mph",
+      "45 mph"
+    ],
+    "answer": 2,
+    "explanation": "You may not drive slower than 40 mph on Missouri interstates under normal conditions. If that is too fast for you, use another route.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 52",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.058",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What following distance rule does the Missouri Driver Guide recommend for normal driving?",
+    "choices": [
+      "The four-second rule",
+      "The three-second rule",
+      "One car length for every 20 mph",
+      "The two-second rule"
+    ],
+    "answer": 1,
+    "explanation": "Missouri teaches the three-second rule. When the vehicle ahead passes a fixed object, count three seconds. If you reach the object first, you are too close.",
+    "difficulty": 1,
+    "ref": "Missouri Driver Guide, p. 59",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.059",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "How much following time does the Missouri Driver Guide recommend when driving on snow or ice?",
+    "choices": [
+      "About three seconds",
+      "About 15 to 20 seconds",
+      "About four to five seconds",
+      "About eight to ten seconds"
+    ],
+    "answer": 3,
+    "explanation": "Stopping takes longer on snow and ice, so Missouri recommends about eight to ten seconds between you and the vehicle ahead.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 65",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.060",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "When must you obey a reduced school-zone speed limit in Missouri?",
+    "choices": [
+      "Only on school days between 7 a.m. and 4 p.m.",
+      "Only when a crossing guard is present",
+      "When lights are flashing or children are present",
+      "At all times, day or night"
+    ],
+    "answer": 2,
+    "explanation": "In Missouri, you must obey the slower school-zone limit when its lights are flashing or children are present. If a school traffic patrol member signals you to stop, stop and yield.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 32",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.061",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "How far before a turn does the Missouri Driver Guide say you should signal?",
+    "choices": [
+      "At least 100 feet",
+      "At least 50 feet",
+      "At least 300 feet",
+      "At least 200 feet"
+    ],
+    "answer": 0,
+    "explanation": "Missouri says to signal at least 100 feet before you turn so other drivers can be ready. If there are driveways or side streets before your turn, wait until you pass them to signal.",
+    "difficulty": 1,
+    "ref": "Missouri Driver Guide, p. 26",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.062",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "In Missouri, when may you turn right at a steady red light?",
+    "choices": [
+      "Without stopping, if no cars are coming",
+      "After a complete stop, when clear of pedestrians and traffic, unless a sign prohibits it",
+      "Never; Missouri prohibits right turns on red",
+      "Only when a green arrow appears"
+    ],
+    "answer": 1,
+    "explanation": "After stopping completely, you may turn right on red if the way is clear of pedestrians and traffic. You may not turn where a \"No Right Turn On Red\" sign is posted.",
+    "difficulty": 1,
+    "ref": "Missouri Driver Guide, p. 46",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.063",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You come to a Missouri intersection where the traffic signals are dark because of a power outage. What should you do?",
+    "choices": [
+      "Yield only to vehicles on your right",
+      "Proceed with caution without stopping",
+      "Treat it as a four-way stop",
+      "Stop only if traffic is heavy"
+    ],
+    "answer": 2,
+    "explanation": "The Missouri Driver Guide says dark signals, or traffic signals that are not working, operate as a four-way stop.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 47",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.064",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "Along Missouri interstates, how often are emergency reference markers placed on the outside shoulder?",
+    "choices": [
+      "Every mile",
+      "Every half mile",
+      "Every five miles",
+      "Every two-tenths of a mile"
+    ],
+    "answer": 3,
+    "explanation": "Emergency reference markers are spaced every two-tenths of a mile, so a sign is always in sight. They show your direction of travel and route number for emergencies and navigation.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 56",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.065",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "A vehicle ahead has a reflective orange triangle on its rear. According to the Missouri Driver Guide, what does it mean?",
+    "choices": [
+      "It is an oversize load wider than 8 1/2 feet",
+      "It is a slow-moving vehicle, traveling under 25 mph",
+      "It is carrying hazardous materials",
+      "It must stop at all railroad crossings"
+    ],
+    "answer": 1,
+    "explanation": "The orange triangle marks a slow-moving vehicle traveling under 25 mph, such as farm or construction equipment.",
+    "difficulty": 1,
+    "ref": "Missouri Driver Guide, p. 49",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.066",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are in the middle of an intersection when you hear a siren behind you. What should you do in Missouri?",
+    "choices": [
+      "Speed up to stay ahead of the emergency vehicle",
+      "Drive through the intersection, then pull to the right and stop",
+      "Stop immediately inside the intersection",
+      "Pull to the left edge and stop"
+    ],
+    "answer": 1,
+    "explanation": "If you are in an intersection, drive through it before pulling over. Then pull to the right edge of the road and stay stopped until the emergency vehicle passes.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 25",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.067",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "On a four-lane highway in Missouri, you approach a stopped highway maintenance truck showing amber lights. What does Missouri's move-over law require?",
+    "choices": [
+      "Nothing, because the law covers only red and blue lights",
+      "Turn on your hazard lights and keep your speed",
+      "Stop completely until the truck leaves",
+      "Move to a lane not next to it if safe; otherwise slow down"
+    ],
+    "answer": 3,
+    "explanation": "Missouri's law covers stopped vehicles with red, red and blue, amber, or amber and white lights. Change to a non-adjacent lane if it is safe; if not, slow down to a safe speed.",
+    "difficulty": 3,
+    "ref": "Missouri Driver Guide, p. 100",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.068",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "What type of offense is violating Missouri's move-over law (RSMo 304.022)?",
+    "choices": [
+      "A warning only",
+      "An infraction with no fine",
+      "A Class A misdemeanor",
+      "A felony"
+    ],
+    "answer": 2,
+    "explanation": "The Missouri Driver Guide states that violating the move-over section is a Class A misdemeanor.",
+    "difficulty": 3,
+    "ref": "Missouri Driver Guide, p. 100",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.069",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A funeral procession with its flashers on enters an intersection in Missouri while your light is green. What should you do?",
+    "choices": [
+      "Yield and let the procession pass",
+      "Go, because you have a green light",
+      "Join the procession to get through faster",
+      "Pass the procession vehicles"
+    ],
+    "answer": 0,
+    "explanation": "An organized funeral procession has the right-of-way at all intersections regardless of traffic signals, except for emergency vehicles or police direction.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 35",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.070",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A pedestrian carrying a white cane is crossing the street in front of you. What does Missouri law require?",
+    "choices": [
+      "Slow down and steer around the person",
+      "Come to a complete stop",
+      "Yield only if they are in a marked crosswalk",
+      "Honk to let them know you are there"
+    ],
+    "answer": 1,
+    "explanation": "When a pedestrian guided by a dog or carrying a white cane (or white cane with a red tip) is crossing, vehicles must come to a complete stop.",
+    "difficulty": 1,
+    "ref": "Missouri Driver Guide, p. 33",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.071",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a two-lane road in Missouri, a school bus ahead stops with red lights flashing and its stop arm out. Which drivers must stop?",
+    "choices": [
+      "No one, if no children are visible",
+      "Only drivers behind the bus",
+      "Only drivers coming toward the bus",
+      "Drivers going in both directions"
+    ],
+    "answer": 3,
+    "explanation": "On a two-lane road, both oncoming and following traffic must stop before reaching the bus while its red lights and stop arm are on.",
+    "difficulty": 1,
+    "ref": "Missouri Driver Guide, p. 25",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.072",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are driving on a Missouri highway with four or more lanes. A school bus stops on the opposite side with red lights flashing. What must you do?",
+    "choices": [
+      "Stop, then continue after 10 seconds",
+      "Stop until the bus moves",
+      "Stop only if children are crossing",
+      "You are not required to stop, but proceed with caution"
+    ],
+    "answer": 3,
+    "explanation": "Missouri does not require drivers going the opposite direction to stop on a highway with four or more lanes, or on a divided highway with separate roadways. Following traffic must still stop.",
+    "difficulty": 3,
+    "ref": "Missouri Driver Guide, p. 26",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.073",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "How far before a stop does a Missouri school bus begin flashing its amber warning lights?",
+    "choices": [
+      "200 feet",
+      "100 feet",
+      "500 feet",
+      "1,000 feet"
+    ],
+    "answer": 2,
+    "explanation": "Amber warning lights flash 500 feet before the bus reaches its stop. Red lights and the stop arm come on once the bus is stopped.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 25",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.074",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "How many points does a Missouri driver get for failing to stop for a school bus loading or unloading students?",
+    "choices": [
+      "2 points",
+      "12 points",
+      "5 points",
+      "3 points"
+    ],
+    "answer": 2,
+    "explanation": "Failing to stop for a school bus receiving or discharging students brings 5 points, and the license can be suspended for 90 days or more.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 26",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.075",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A Missouri driver is convicted a third time within 5 years of failing to stop for a school bus. How long is the license suspension?",
+    "choices": [
+      "One year",
+      "180 days",
+      "90 days",
+      "30 days"
+    ],
+    "answer": 1,
+    "explanation": "Suspensions are 90 days (or as the court sets) for a first offense, 90 days for a second within 5 years, and 180 days for a third or later offense within 5 years.",
+    "difficulty": 3,
+    "ref": "Missouri Driver Guide, p. 26",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.076",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "How much room does the Missouri Driver Guide say to give a bicycle or moped when passing?",
+    "choices": [
+      "At least 2 feet",
+      "At least 3 feet",
+      "Half a lane",
+      "A full lane width"
+    ],
+    "answer": 3,
+    "explanation": "When passing, give bicycles and mopeds a full lane width. If the lane is too narrow to share, wait for a clear stretch of road.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 33",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.077",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "From 1/2 hour after sunset, a Missouri bicyclist needs a white front light that can be seen from how far?",
+    "choices": [
+      "500 feet",
+      "1,000 feet",
+      "100 feet",
+      "300 feet"
+    ],
+    "answer": 0,
+    "explanation": "From 1/2 hour after sunset to 1/2 hour before sunrise, a bicycle needs a white front light visible from 500 feet, plus a rear red reflector or light and side and pedal reflectors.",
+    "difficulty": 3,
+    "ref": "Missouri Driver Guide, p. 35",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.078",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Where are mopeds (motorized bicycles) NOT allowed in Missouri?",
+    "choices": [
+      "On any part of the federal interstate highway system",
+      "On two-lane state highways",
+      "On city streets",
+      "In residential neighborhoods"
+    ],
+    "answer": 0,
+    "explanation": "Missouri law does not allow mopeds on any part of the federal interstate highway system.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 34",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.079",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "What does Missouri require of someone riding a moped (motorized bicycle) on public streets?",
+    "choices": [
+      "A motorcycle endorsement",
+      "Only a moped registration sticker",
+      "No license of any kind",
+      "A valid driver license, but not a motorcycle endorsement"
+    ],
+    "answer": 3,
+    "explanation": "Moped riders must have a valid driver license, but a motorcycle endorsement is not required. Mopeds do not have to be registered or inspected.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 34",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.080",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Under Missouri law, does an adult need a license to ride an electric bicycle that meets the Class 1, 2 or 3 definition?",
+    "choices": [
+      "Yes, a motorcycle license is required",
+      "No, no operator or motorcycle license is required",
+      "Yes, a regular operator license is required",
+      "Only for Class 3 e-bikes"
+    ],
+    "answer": 1,
+    "explanation": "Operating an electric bicycle as defined in RSMo 301.010 does not require the rider to hold an operator license or motorcycle license.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 35",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.081",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "Missouri law prohibits driving on the left side of the road to pass when you are within how many feet of an intersection or railroad crossing?",
+    "choices": [
+      "200 feet",
+      "500 feet",
+      "100 feet",
+      "50 feet"
+    ],
+    "answer": 2,
+    "explanation": "You may not drive on the left side of the roadway within 100 feet of an intersection or railroad grade crossing. The same applies within 100 feet of a bridge, viaduct or tunnel when your view is blocked.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 24",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.082",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "What is the farthest you may travel in a two-way left-turn lane in Missouri?",
+    "choices": [
+      "500 feet",
+      "100 feet",
+      "1,000 feet",
+      "250 feet"
+    ],
+    "answer": 0,
+    "explanation": "Use a center two-way left-turn lane only to slow or stop before a left turn. You may not travel in it for more than 500 feet or use it to enter the road from a side street.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 28",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.083",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "What is the minimum fine for a first offense of speeding or passing in a work zone on Missouri state roads?",
+    "choices": [
+      "$100",
+      "$250",
+      "$150",
+      "$500"
+    ],
+    "answer": 1,
+    "explanation": "Speeding or passing in a construction or work zone brings a minimum fine of $250 for a first offense and $300 for later offenses, on top of other fines.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 53",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.084",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "What is the minimum fine for a second offense of speeding in a work zone on Missouri state roads?",
+    "choices": [
+      "$1,000",
+      "$500",
+      "$300",
+      "$250"
+    ],
+    "answer": 2,
+    "explanation": "Missouri's minimum work zone fine is $250 for a first offense and $300 for a second or subsequent offense (RSMo 304.582).",
+    "difficulty": 3,
+    "ref": "Missouri Driver Guide, p. 24",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.085",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "At a J-turn intersection on a Missouri four-lane highway, how do you go left across the highway?",
+    "choices": [
+      "Back up to the nearest crossover",
+      "Turn left into the median and wait for a signal",
+      "Cross all lanes directly when there is a gap",
+      "Turn right with traffic, merge into the far left lane, then turn left in the direction you want to go"
+    ],
+    "answer": 3,
+    "explanation": "At a J-turn, instead of crossing fast traffic, you turn right in the same direction as traffic, merge into the far left lane, then turn left to head the way you want to go.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 29",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.086",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "What is unusual about driving through a Diverging Diamond Interchange (DDI) in Missouri?",
+    "choices": [
+      "You must stop at every ramp",
+      "You travel on the left side of the road for a short distance",
+      "All turns are made from the right lane only",
+      "Traffic circles around a center island"
+    ],
+    "answer": 1,
+    "explanation": "When driving through a DDI, you travel on the left side of the roadway for a short distance. Follow the directional signs.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 42",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.087",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "In a Missouri roundabout, who may drive on the truck apron (the paved area on the inside of the roundabout)?",
+    "choices": [
+      "Large trucks, for their rear wheels when turning",
+      "Only emergency vehicles",
+      "Cars and pickup trucks when the roundabout is crowded",
+      "Any vehicle passing slower traffic"
+    ],
+    "answer": 0,
+    "explanation": "The truck apron gives large trucks space for their rear wheels when turning. Cars, SUVs and pickup trucks must not use it.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 29",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.088",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "On the Missouri driving test, how close to the curb must you park when parallel parking or parking on a hill?",
+    "choices": [
+      "No more than 24 inches",
+      "No more than 12 inches",
+      "No more than 18 inches",
+      "No more than 6 inches"
+    ],
+    "answer": 2,
+    "explanation": "Examiners check that you park no more than 18 inches from the curb.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 22",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.089",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "On a Missouri one-way street, which side of the street may you normally park on?",
+    "choices": [
+      "Only the right side",
+      "Only the left side",
+      "Either the right or the left side",
+      "Only where parking meters are installed"
+    ],
+    "answer": 2,
+    "explanation": "On one-way streets you may normally park on either side. On a two-way street, do not park on the left side, and never park facing against traffic.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 37",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.090",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "What is the fine range in Missouri for illegally parking in a space marked with the International Symbol of Access (handicapped parking)?",
+    "choices": [
+      "$25 to $100",
+      "$250 to $1,000",
+      "$100 to $500",
+      "$50 to $300"
+    ],
+    "answer": 3,
+    "explanation": "Violators are fined no less than $50 and no more than $300. It is also illegal to park in the access aisles.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 38",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.091",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When must you use your headlights in Missouri?",
+    "choices": [
+      "Only on highways at night",
+      "Only when visibility is under 1,000 feet",
+      "From 1/2 hour after sunset to 1/2 hour before sunrise, and whenever weather requires windshield wipers",
+      "Only from sunset to sunrise"
+    ],
+    "answer": 2,
+    "explanation": "Turn on headlights from 1/2 hour after sunset until 1/2 hour before sunrise. Missouri also requires headlights any time the weather calls for windshield wipers.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 64",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.092",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "It starts raining in the middle of the afternoon and you turn on your windshield wipers. What does Missouri require?",
+    "choices": [
+      "Turn on your high beams",
+      "Turn on your headlights",
+      "Turn on your hazard flashers",
+      "Nothing extra during daylight"
+    ],
+    "answer": 1,
+    "explanation": "In Missouri you must use headlights any time weather conditions require windshield wipers, even in daylight.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 64",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.093",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "How close to an oncoming vehicle can you get before you must switch to low beams in Missouri?",
+    "choices": [
+      "300 feet",
+      "1,000 feet",
+      "200 feet",
+      "500 feet"
+    ],
+    "answer": 3,
+    "explanation": "Use low beams when you come within 500 feet (about one block) of an oncoming vehicle.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 64",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.094",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "How close behind another vehicle can you follow before the Missouri Driver Guide says to switch to low beams?",
+    "choices": [
+      "500 feet",
+      "100 feet",
+      "300 feet",
+      "1,000 feet"
+    ],
+    "answer": 2,
+    "explanation": "Use low beams when following another vehicle within 300 feet. The 500-foot rule applies to oncoming vehicles.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 64",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.095",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Red lights are flashing at a railroad crossing. Where must you stop in Missouri?",
+    "choices": [
+      "Within 5 to 10 feet of the tracks",
+      "Right on the edge of the first rail",
+      "At least 100 feet from the tracks",
+      "Within 15 to 50 feet of the tracks"
+    ],
+    "answer": 3,
+    "explanation": "Stop within 15 to 50 feet of the railroad tracks when the red lights flash or the gate is down, and never go around the gate.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 53",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.096",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "When Missouri requires you to file an accident report with the Department of Revenue, how long do you have?",
+    "choices": [
+      "30 days",
+      "60 days",
+      "5 days",
+      "10 days"
+    ],
+    "answer": 0,
+    "explanation": "State law requires the accident report to be filed within 30 days.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 83",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.097",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Which Missouri crash must be reported to the Driver License Bureau?",
+    "choices": [
+      "Only crashes with over $2,000 in damage",
+      "A crash in Missouri where someone was uninsured and there was over $500 in property damage, or an injury or death",
+      "Every crash, no matter how minor",
+      "Only crashes on interstate highways"
+    ],
+    "answer": 1,
+    "explanation": "You must report a crash in Missouri within the past year if someone involved had no liability insurance and there was more than $500 in property damage, or an injury or death. This applies even in a parking lot or after a settlement.",
+    "difficulty": 3,
+    "ref": "Missouri Driver Guide, p. 84",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.098",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You have a minor crash on a Missouri freeway and nobody is hurt. What does Missouri's \"Move It\" (Steer It and Clear It) law say to do?",
+    "choices": [
+      "Move your vehicle onto the shoulder or off the roadway",
+      "Stay in your car with hazard lights on in the travel lane",
+      "Leave the vehicles where they are until police arrive",
+      "Drive to the nearest exit and go home"
+    ],
+    "answer": 0,
+    "explanation": "Missouri law requires vehicles in minor, non-injury crashes to move off the road. This helps prevent the secondary crashes behind 18 percent of the state's traffic deaths.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 83",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.099",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "What number can you dial on a cellphone in Missouri to reach the Highway Patrol in an emergency?",
+    "choices": [
+      "*47",
+      "*77",
+      "#911",
+      "*55"
+    ],
+    "answer": 3,
+    "explanation": "The cellular number for highway emergencies in Missouri is *55. In a metropolitan area you may dial 911.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 43",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.100",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "According to the Missouri Driver Guide, what does a posted speed limit tell you?",
+    "choices": [
+      "The maximum speed in ideal conditions; you must slow down when conditions demand it",
+      "The speed you must drive whenever traffic allows",
+      "A suggested speed you may exceed by up to 5 mph",
+      "The maximum speed during daylight hours only"
+    ],
+    "answer": 0,
+    "explanation": "A speed limit is the maximum allowed in ideal conditions. Hills, curves, slippery roads, limited sight distance, pedestrians, bicyclists and slow vehicles can make it unsafe, and by law you must slow down when conditions demand it.",
+    "difficulty": 1,
+    "ref": "Missouri Driver Guide, p. 52",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.101",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Outside urbanized areas, what is Missouri's maximum speed on roads that are not interstates, freeways, expressways or lettered roads, unless posted otherwise?",
+    "choices": [
+      "55 mph",
+      "60 mph",
+      "65 mph",
+      "70 mph"
+    ],
+    "answer": 1,
+    "explanation": "Missouri's uniform maximum on these other roads outside urbanized areas is 60 mph. Lettered roads are 55 mph, rural expressways 65 mph, and rural interstates and freeways 75 mph.",
+    "difficulty": 3,
+    "ref": "Missouri Driver Guide, p. 52",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.102",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "If no signs say otherwise, which of these places does the Missouri Driver Guide allow you to park?",
+    "choices": [
+      "At an unpainted curb on the right side of a two-way street, facing with traffic",
+      "In an intersection",
+      "On a crosswalk",
+      "Where your car blocks a fire hydrant"
+    ],
+    "answer": 0,
+    "explanation": "Parking at the right-hand curb of a two-way street, facing with traffic, is allowed if no signs or curb markings forbid it. The Guide's no-parking list includes intersections, crosswalks and sidewalks, and blocking a fire hydrant.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 37",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.car.103",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Missouri law (RSMo 577.017), what kind of offense is drinking an alcoholic beverage while driving a moving vehicle?",
+    "choices": [
+      "An infraction that is not recorded on your Department of Revenue driving record",
+      "A felony",
+      "A Class A misdemeanor that adds 4 points",
+      "No offense for drivers 21 or older below 0.08% BAC"
+    ],
+    "answer": 0,
+    "explanation": "RSMo 577.017 makes drinking an alcoholic beverage while driving an infraction, and it is not recorded by the Department of Revenue. You can still be charged with DWI if you are impaired or at 0.08% BAC or more.",
+    "difficulty": 3,
+    "ref": "RSMo 577.017",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What is the youngest age at which a Missouri teen can get a motorcycle instruction permit, if they complete an approved rider training course?",
+    "choices": [
+      "15",
+      "15 1/2",
+      "17",
+      "16"
+    ],
+    "answer": 1,
+    "explanation": "At 15 1/2 (15 years and 182 days), you can get a motorcycle instruction permit only after completing an approved rider training course and passing the Class F and Class M written, vision and road sign tests.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 6",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 15 1/2-year-old Missouri motorcycle permit holder may ride only within what distance of home?",
+    "choices": [
+      "10 miles",
+      "50 miles",
+      "25 miles",
+      "100 miles"
+    ],
+    "answer": 1,
+    "explanation": "The 15 1/2-year-old motorcycle permit allows daylight riding only, within 50 miles of home, on a motorcycle of no more than 250 cc, with no passengers.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 6",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What is the largest engine size a 15 1/2-year-old Missouri motorcycle permit holder may ride?",
+    "choices": [
+      "250 cc",
+      "Any size, with an adult present",
+      "50 cc",
+      "500 cc"
+    ],
+    "answer": 0,
+    "explanation": "The 15 1/2-year-old motorcycle permit is limited to a motorcycle of no more than 250 cc, in daylight, within 50 miles of home, with no passengers.",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 6",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Which is a restriction on a Missouri motorcycle instruction permit issued at age 15 1/2?",
+    "choices": [
+      "Night riding allowed with a helmet",
+      "Passengers allowed if over 21",
+      "Highway riding only",
+      "No passengers and daylight riding only"
+    ],
+    "answer": 3,
+    "explanation": "The 15 1/2-year-old permit allows daylight riding only, within 50 miles of home, on a motorcycle of no more than 250 cc, and no passengers.",
+    "difficulty": 1,
+    "ref": "Missouri Driver Guide, p. 6",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 17-year-old in Missouri wants a motorcycle instruction permit. Is a motorcycle rider training course required?",
+    "choices": [
+      "No; at 16 or older the course is not required for the permit",
+      "Yes; everyone must take the course regardless of age",
+      "No; and no written tests are required either",
+      "Yes; everyone under 18 must take the course"
+    ],
+    "answer": 0,
+    "explanation": "At 16 or older, you may get a motorcycle instruction permit without the rider training course. Without a valid driver license, you must pass the Class F and Class M written tests.",
+    "difficulty": 3,
+    "ref": "Missouri Driver Guide, p. 6",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How long is a Missouri motorcycle instruction permit valid?",
+    "choices": [
+      "One year",
+      "30 days",
+      "Two years",
+      "Up to 6 months (182 days)"
+    ],
+    "answer": 3,
+    "explanation": "Missouri's motorcycle permit is valid for 0 to 6 months (182 days).",
+    "difficulty": 2,
+    "ref": "Missouri Driver Guide, p. 10",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Can a Missouri driver with only a Class F license legally ride a motorcycle on public roads?",
+    "choices": [
+      "Yes, any Class F license covers motorcycles",
+      "No; they need a motorcycle (M) endorsement or Class M license",
+      "Yes, if the motorcycle is under 500 cc",
+      "Yes, during daylight hours"
+    ],
+    "answer": 1,
+    "explanation": "A Class F license does not allow you to drive a motorcycle unless it shows the motorcycle (M) endorsement. You can also hold a Class M license or a motorcycle permit.",
+    "difficulty": 1,
+    "ref": "Missouri Driver Guide, p. 6",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Under Missouri law, which motorcycle riders and passengers must wear protective headgear?",
+    "choices": [
+      "Everyone, regardless of age",
+      "Everyone under 26, plus any operator riding on an instruction permit",
+      "Only passengers",
+      "Only riders under 18"
+    ],
+    "answer": 1,
+    "explanation": "RSMo 302.020 requires helmets for every operator and passenger under 26. Operators 26 or older must also wear one while riding on an instruction permit. (The Driver Guide's rider tips simply say a helmet is required; the statute sets the age rule.)",
+    "difficulty": 3,
+    "ref": "RSMo 302.020",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 30-year-old is learning to ride in Missouri on a motorcycle instruction permit. Must they wear a helmet?",
+    "choices": [
+      "No; helmets are optional for all adults",
+      "Yes; permit holders must wear a helmet at any age",
+      "Only when carrying a passenger",
+      "No; helmets are only required under 26"
+    ],
+    "answer": 1,
+    "explanation": "Missouri exempts most riders 26 and older from the helmet requirement, but an operator 26 or older with an instruction permit must wear protective headgear whenever the motorcycle is moving.",
+    "difficulty": 3,
+    "ref": "RSMo 302.020",
+    "states": [
+      "MO"
+    ]
+  },
+  {
+    "id": "mo.mc.010",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How many questions are on Missouri's Class M (motorcycle) written test, and what score do you need to pass?",
+    "choices": [
+      "25 questions; 80%",
+      "20 questions; 70%",
+      "30 questions; 80%",
+      "25 questions; 70%"
+    ],
+    "answer": 0,
+    "explanation": "Missouri's Class M written test has 25 questions, and you must score 80% (miss no more than five) to pass. It is offered in English and Spanish.",
+    "difficulty": 2,
+    "ref": "Missouri State Highway Patrol, Driver Examination FAQs",
+    "states": [
+      "MO"
+    ]
+  }
+]

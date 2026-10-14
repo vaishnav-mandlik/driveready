@@ -1,0 +1,2035 @@
+[
+  {
+    "id": "in.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Indiana, what is the legal blood alcohol concentration (BAC) limit for drivers age 21 and older?",
+    "choices": [
+      "0.08%",
+      "0.10%",
+      "0.04%",
+      "0.05%"
+    ],
+    "answer": 0,
+    "explanation": "Indiana's legal limit is .08. Driving while intoxicated or with a BAC over that limit is a criminal offense.",
+    "difficulty": 1,
+    "ref": "Indiana Driver's Manual, p. 28",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 19-year-old Indiana driver is stopped and tests at 0.03% BAC. Which statement is correct?",
+    "choices": [
+      "They are legal because the limit is 0.08%",
+      "They have broken the law, because the limit for drivers under 21 is 0.02%",
+      "Drivers under 21 can only be charged at 0.05% or higher",
+      "Only a warning can be given below 0.04%"
+    ],
+    "answer": 1,
+    "explanation": "A driver under 21 with a BAC of at least 0.02 (but under 0.08) commits a Class C infraction, and the court may recommend a suspension of up to 1 year.",
+    "difficulty": 2,
+    "ref": "Indiana Code, IC 9-30-5-8.5",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the alcohol concentration limit for a person driving a commercial motor vehicle in Indiana?",
+    "choices": [
+      "0.08",
+      "0.02",
+      "0.06",
+      "0.04"
+    ],
+    "answer": 3,
+    "explanation": "Indiana law bars operating a commercial motor vehicle at 0.04 or more. The 0.08 limit is for drivers 21+ in ordinary vehicles.",
+    "difficulty": 2,
+    "ref": "Indiana Code, IC 9-24-6.1-6",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "An Indiana driver with no prior OWI convictions refuses to take a chemical test when an officer has probable cause. What license suspension does the driver face?",
+    "choices": [
+      "Two years",
+      "One year",
+      "90 days",
+      "180 days"
+    ],
+    "answer": 1,
+    "explanation": "Refusing a chemical test means a one-year suspension. That is longer than the 180-day suspension for failing the test.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 29",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A driver who already has an OWI conviction refuses a chemical test in Indiana. How long is the suspension?",
+    "choices": [
+      "One year",
+      "180 days",
+      "Five years",
+      "Two years"
+    ],
+    "answer": 3,
+    "explanation": "A motorist with a previous conviction for operating while intoxicated who refuses a chemical test faces a two-year suspension.",
+    "difficulty": 3,
+    "ref": "Indiana Driver's Manual, p. 29",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Indiana's probable-cause rules, how long is the license suspension for a motorist who takes and fails a chemical test?",
+    "choices": [
+      "30 days",
+      "One year",
+      "180 days",
+      "90 days"
+    ],
+    "answer": 2,
+    "explanation": "Failing a chemical test brings a 180-day suspension. Refusing the test brings a longer one-year suspension.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 29",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A sober driver's adult passenger has an opened can of beer in the cup holder while they drive on an Indiana highway. Is this legal?",
+    "choices": [
+      "No, but only if the can is more than half full",
+      "Yes, as long as the driver is not drinking",
+      "No, an open container in the passenger compartment is a violation",
+      "Yes, if the passenger is 21 or older"
+    ],
+    "answer": 2,
+    "explanation": "Possessing an opened container in the passenger compartment of a vehicle in operation is a Class C infraction. Exceptions include a locked fixed console and passengers in a vehicle for hire.",
+    "difficulty": 2,
+    "ref": "Indiana Code, IC 9-30-15-3",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "You are convicted of operating a boat while intoxicated in Indiana. How does this affect your driver's license?",
+    "choices": [
+      "Your driving privileges face the same penalties as for a motor vehicle OWI",
+      "Only a fine applies, with no record kept",
+      "It has no effect because boating is separate from driving",
+      "It only affects a boating safety certificate"
+    ],
+    "answer": 0,
+    "explanation": "A watercraft OWI conviction is sent to the BMV, becomes part of your driver record, and carries the same driving-privilege penalties as a motor vehicle OWI.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 29",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.009",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the youngest age at which you can get an Indiana learner's permit?",
+    "choices": [
+      "15, if enrolled in a BMV-licensed driver education program",
+      "15, with no other requirements",
+      "16, in all cases",
+      "14 years and 6 months, with a parent's consent"
+    ],
+    "answer": 0,
+    "explanation": "At 15 you can get a permit by showing a Certificate of Driver Education Enrollment from a BMV-licensed training provider. Without driver education you must be 16.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 8",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.010",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 15-year-old does not plan to take driver education. When can they get an Indiana learner's permit?",
+    "choices": [
+      "At age 16",
+      "Right away, with a parent's signature",
+      "At 15 years and 6 months",
+      "At age 17"
+    ],
+    "answer": 0,
+    "explanation": "Getting a permit at 15 requires proof of enrollment in a BMV-licensed driver education program. Without driver education, you must be at least 16.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 8",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.011",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long must you hold an Indiana learner's permit before you can apply for a driver's license?",
+    "choices": [
+      "270 days",
+      "90 days",
+      "1 year",
+      "180 days"
+    ],
+    "answer": 3,
+    "explanation": "You must hold a valid learner's permit for at least 180 days. Time with a valid permit counts toward that period.",
+    "difficulty": 1,
+    "ref": "Indiana Driver's Manual, p. 14",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.012",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many hours of supervised driving practice must a new Indiana driver complete before getting a license?",
+    "choices": [
+      "60 hours",
+      "30 hours",
+      "40 hours",
+      "50 hours"
+    ],
+    "answer": 3,
+    "explanation": "Indiana requires at least 50 hours of supervised practice, recorded on the Log of Supervised Driving Practice (State Form 54706).",
+    "difficulty": 1,
+    "ref": "Indiana Driver's Manual, p. 14",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.013",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Of the required supervised practice hours in Indiana, how many must be driven at night?",
+    "choices": [
+      "15 hours",
+      "10 hours",
+      "20 hours",
+      "5 hours"
+    ],
+    "answer": 1,
+    "explanation": "At least 10 of the 50 hours must be at night, unless the permit has a daytime-only restriction (G); then all 50 hours are still required.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 14; Indiana Code, IC 9-24-3-2.5",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.014",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old Indiana permit holder (not in driver education) wants to practice with a licensed older cousin. What is the minimum age of the supervising relative?",
+    "choices": [
+      "18",
+      "21",
+      "25",
+      "30"
+    ],
+    "answer": 2,
+    "explanation": "The supervising licensed driver must be at least 25 and related to you by blood, marriage or legal status, and must sit in the front passenger seat.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 9",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.015",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A married 17-year-old Indiana permit holder wants to practice with their licensed spouse. How old must the spouse be?",
+    "choices": [
+      "Any age, if licensed",
+      "At least 18",
+      "At least 21",
+      "At least 25"
+    ],
+    "answer": 2,
+    "explanation": "A permit holder may practice with a licensed spouse who is at least 21. Other supervising relatives must be at least 25.",
+    "difficulty": 3,
+    "ref": "Indiana Driver's Manual, p. 9",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.016",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age for an Indiana probationary driver's license if you complete a BMV-licensed driver education program?",
+    "choices": [
+      "16 years and 270 days",
+      "17 years",
+      "15 years and 6 months",
+      "16 years"
+    ],
+    "answer": 3,
+    "explanation": "With driver education you may be licensed at 16. Without it you must be at least 16 years and 270 days old.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 14",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.017",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "An Indiana teen skips driver education. What is the earliest age they can get a driver's license?",
+    "choices": [
+      "16 years and 180 days",
+      "16 years and 270 days",
+      "18 years",
+      "16 years"
+    ],
+    "answer": 1,
+    "explanation": "Without a BMV-licensed driver education program, you must be at least 16 years and 270 days old, after holding a permit for 180 days.",
+    "difficulty": 3,
+    "ref": "Indiana Driver's Manual, p. 14",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.018",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Until what age is an Indiana driver's license considered probationary?",
+    "choices": [
+      "18",
+      "19",
+      "21",
+      "20"
+    ],
+    "answer": 2,
+    "explanation": "A license obtained before age 21 is probationary until you turn 21. It is valid until 21 years and 30 days, and renewing after 21 gives an unrestricted license.",
+    "difficulty": 1,
+    "ref": "Indiana Driver's Manual, p. 15",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.019",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During the first 180 days with an Indiana probationary license, during which hours are you not allowed to drive?",
+    "choices": [
+      "9 p.m. to 6 a.m.",
+      "Midnight to 5 a.m.",
+      "11 p.m. to 5 a.m.",
+      "10 p.m. to 5 a.m."
+    ],
+    "answer": 3,
+    "explanation": "For the first 180 days, a probationary driver may not drive between 10 p.m. and 5 a.m.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 15",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.020",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 17-year-old has had an Indiana probationary license for 8 months. On a Tuesday night, after what time may they not drive (unless an exception applies)?",
+    "choices": [
+      "Midnight",
+      "1 a.m.",
+      "10 p.m.",
+      "11 p.m."
+    ],
+    "answer": 3,
+    "explanation": "After 180 days and while under 18, a probationary driver may not drive after 11 p.m. Sunday through Thursday, unless going to or from work, a school activity, a religious event, or with a licensed driver 25+ (or spouse 21+).",
+    "difficulty": 3,
+    "ref": "Indiana Driver's Manual, p. 15",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.021",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During the first 180 days of an Indiana probationary license, which passenger may ride with the new driver without another adult in the car?",
+    "choices": [
+      "The driver's younger brother",
+      "A 20-year-old friend",
+      "A neighbor's child",
+      "A classmate who also has a license"
+    ],
+    "answer": 0,
+    "explanation": "No passengers are allowed in the first 180 days unless a licensed driver 25+ (or a spouse 21+, or a driving instructor) is in the front seat. A child, stepchild, sibling or spouse is allowed.",
+    "difficulty": 3,
+    "ref": "Indiana Driver's Manual, p. 15",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.022",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During the first 180 days with an Indiana probationary license, when may a new driver carry a non-family friend as a passenger?",
+    "choices": [
+      "Only during daylight hours",
+      "When a licensed driver age 25 or older is in the front passenger seat",
+      "When the friend is also a licensed driver",
+      "When the friend is at least 18"
+    ],
+    "answer": 1,
+    "explanation": "For the first 180 days, passengers are not allowed unless a licensed driver 25+, a spouse 21+, or a driving instructor sits in the front seat.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 15",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.023",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum liability insurance coverage required in Indiana?",
+    "choices": [
+      "50/100/50",
+      "15/30/5",
+      "25/50/25",
+      "30/60/25"
+    ],
+    "answer": 2,
+    "explanation": "Indiana requires 25/50/25: $25,000 for injury or death of one person, $50,000 for two or more people, and $25,000 for property damage in one accident.",
+    "difficulty": 1,
+    "ref": "Indiana Driver's Manual, p. 27",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.024",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long do points stay active on an Indiana driver record?",
+    "choices": [
+      "3 years from the conviction date",
+      "5 years from the conviction date",
+      "1 year from the conviction date",
+      "2 years from the conviction date"
+    ],
+    "answer": 3,
+    "explanation": "Points stay active on your driver record for two years from the conviction date.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 26",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.025",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many points does Indiana assess for driving 16 to 25 mph over the speed limit?",
+    "choices": [
+      "4 points",
+      "6 points",
+      "8 points",
+      "2 points"
+    ],
+    "answer": 0,
+    "explanation": "Speeding 1-15 mph over is 2 points, 16-25 mph over is 4 points, and 26 mph or more over is 6 points.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 26",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.026",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What does completing a BMV-approved Driver Safety Program (DSP) do for an Indiana driver?",
+    "choices": [
+      "Removes all points from the record",
+      "Gives a four-point credit, once every three years",
+      "Gives a two-point credit every year",
+      "Lowers insurance minimums to 15/30/10"
+    ],
+    "answer": 1,
+    "explanation": "Any Indiana driver may take a BMV-approved DSP for a four-point credit, but only one credit is allowed in a three-year period.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 26",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.027",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 35-year-old Indiana driver has 6 active points when renewing their license. What extra step is required?",
+    "choices": [
+      "Nothing extra",
+      "A driving skills exam",
+      "A medical exam",
+      "Passing the knowledge exam"
+    ],
+    "answer": 3,
+    "explanation": "Drivers 21 or older with six or more active points must take the knowledge exam to renew.",
+    "difficulty": 3,
+    "ref": "Indiana Driver's Manual, p. 24",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.028",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You just moved to Indiana. How long do you have to get an Indiana driver's license?",
+    "choices": [
+      "90 days",
+      "6 months",
+      "30 days",
+      "60 days"
+    ],
+    "answer": 3,
+    "explanation": "New residents have 60 days to get an Indiana license, and you may not hold another state's credential at the same time.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 7",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.029",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "The Indiana knowledge exam has a road-signs section and a traffic-rules section. An applicant scores 100% on rules but 75% on signs. What is the result?",
+    "choices": [
+      "Fail, because each section needs at least 80%",
+      "Pass, because only the rules section counts",
+      "Fail, because each section needs 90%",
+      "Pass, because the overall average is above 80%"
+    ],
+    "answer": 0,
+    "explanation": "You must answer at least 80% correctly on each component of the exam. A high score on one section cannot make up for a low score on the other.",
+    "difficulty": 3,
+    "ref": "Indiana Driver's Manual, p. 68",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.030",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "If you fail the Indiana knowledge exam, when can you take it again?",
+    "choices": [
+      "The same day",
+      "The next business day",
+      "After 7 days",
+      "After 30 days"
+    ],
+    "answer": 1,
+    "explanation": "After a failed knowledge exam you must wait until the next business day. A failed driving skills exam requires a 7-day wait.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 10",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.031",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which school event can lead to the BMV suspending an Indiana teen's driving privileges?",
+    "choices": [
+      "Changing schools",
+      "Missing one day of class",
+      "Being expelled or dropping out of school",
+      "Failing a single course"
+    ],
+    "answer": 2,
+    "explanation": "When notified by the school, the BMV must suspend a juvenile's driving privileges for expulsion, exclusion, a second suspension in one school year, habitual truancy or withdrawing from school.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 15",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.032",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the maximum speed allowed for a motor driven cycle (MDC) in Indiana?",
+    "choices": [
+      "35 mph",
+      "45 mph",
+      "25 mph",
+      "30 mph"
+    ],
+    "answer": 0,
+    "explanation": "An MDC must be operated at no more than 35 mph, may not carry passengers, and may not be ridden on an interstate or sidewalk.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 20",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.033",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What do you need to drive an autocycle on Indiana roads?",
+    "choices": [
+      "A motorcycle learner's permit",
+      "A valid Indiana driver's license",
+      "A special autocycle license",
+      "A motorcycle endorsement"
+    ],
+    "answer": 1,
+    "explanation": "A valid Indiana driver's license is enough. A motorcycle permit or endorsement is not required, but everyone on board must wear a seat belt.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 20",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.034",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which phone use is legal for a 30-year-old Indiana driver while the car is moving?",
+    "choices": [
+      "Holding the phone to read a map",
+      "Making a call using hands-free technology",
+      "Typing a short text at low speed",
+      "Holding the phone on speaker"
+    ],
+    "answer": 1,
+    "explanation": "Indiana bans holding or using a phone while driving unless it is hands-free or voice-operated. Calling 911 for a real emergency is also allowed.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 50",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.035",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "An 18-year-old Indiana driver wants to make a phone call through the car's hands-free system while driving. Is this allowed?",
+    "choices": [
+      "No, unless a parent is in the car",
+      "Yes, hands-free is legal for all drivers",
+      "No, drivers under 21 may not use a phone at all while driving, except to call 911",
+      "Yes, but only on highways"
+    ],
+    "answer": 2,
+    "explanation": "Drivers under 21 may not drive while using any telecommunications device, even hands-free, except to make a 911 emergency call.",
+    "difficulty": 3,
+    "ref": "Indiana Code, IC 9-24-11-3.7; Indiana Driver's Manual, p. 15",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.036",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "When may an Indiana driver hold a phone while driving a moving vehicle?",
+    "choices": [
+      "To read a text from a family member",
+      "When traffic is light",
+      "To check directions at a stop sign",
+      "To call 911 to report an emergency"
+    ],
+    "answer": 3,
+    "explanation": "The only exception to the hand-held ban is a call to 911 for a real emergency. Otherwise only hands-free or voice-operated use is allowed.",
+    "difficulty": 1,
+    "ref": "Indiana Driver's Manual, p. 16",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.037",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Who must wear a seat belt in a moving passenger car in Indiana?",
+    "choices": [
+      "The driver and front-seat passengers",
+      "The driver and all passengers",
+      "Only passengers under 16",
+      "Only the driver"
+    ],
+    "answer": 1,
+    "explanation": "Indiana law requires the driver and all passengers to use seat belts at all times when the vehicle is in operation.",
+    "difficulty": 1,
+    "ref": "Indiana Driver's Manual, p. 60",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.038",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Indiana law, children younger than what age must ride in a child car seat or booster seat?",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "answer": 2,
+    "explanation": "Passengers younger than eight must be properly secured in a child restraint system such as a car seat or booster seat.",
+    "difficulty": 1,
+    "ref": "Indiana Driver's Manual, p. 61",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.039",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless signs show otherwise, what is the maximum speed for a passenger car on a rural Indiana interstate?",
+    "choices": [
+      "60 mph",
+      "65 mph",
+      "70 mph",
+      "75 mph"
+    ],
+    "answer": 2,
+    "explanation": "On rural interstates, passenger vehicles may not exceed 70 mph or the posted limit.",
+    "difficulty": 1,
+    "ref": "Indiana Driver's Manual, p. 45",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.040",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "On a rural Indiana interstate, what is the default maximum speed for a truck with a declared gross weight over 26,000 pounds?",
+    "choices": [
+      "65 mph",
+      "70 mph",
+      "55 mph",
+      "60 mph"
+    ],
+    "answer": 0,
+    "explanation": "Heavy trucks over 26,000 pounds are limited to 65 mph on rural interstates, while passenger vehicles may go 70 mph.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 45",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.041",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the default speed limit on an urban interstate in Indiana when no other limit is posted?",
+    "choices": [
+      "55 mph",
+      "65 mph",
+      "70 mph",
+      "50 mph"
+    ],
+    "answer": 0,
+    "explanation": "In urban areas (population of at least 50,000), interstate speeds may not exceed 55 mph or the posted limit.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 46",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.042",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the speed limit on a rural state divided highway in Indiana?",
+    "choices": [
+      "55 mph",
+      "60 mph",
+      "65 mph",
+      "70 mph"
+    ],
+    "answer": 1,
+    "explanation": "Rural state divided highways have a 60 mph limit unless posted. Non-divided state highways and county roads default to 55 mph.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 45",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.043",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the usual speed limit in most urban residential areas of Indiana when no sign is posted?",
+    "choices": [
+      "35 mph",
+      "20 mph",
+      "25 mph",
+      "30 mph"
+    ],
+    "answer": 3,
+    "explanation": "In most urban residential areas, vehicles may not exceed 30 mph or the posted limit.",
+    "difficulty": 1,
+    "ref": "Indiana Driver's Manual, p. 46",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.044",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "According to the Indiana Driver's Manual, what are common hours for school zone speed limits?",
+    "choices": [
+      "8 a.m. to 3 p.m., school days only",
+      "Only while a crossing guard is present",
+      "6 a.m. to 6 p.m., every day",
+      "7 a.m. to 4:30 p.m., Monday through Friday, or when beacons flash"
+    ],
+    "answer": 3,
+    "explanation": "Common school-zone hours are 7 a.m. to 4:30 p.m. on weekdays or whenever school speed limit beacons flash. Local authorities may also set lower limits when children are present.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 46",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.045",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "In an Indiana highway work zone, how does the work-site speed limit compare to the normal limit?",
+    "choices": [
+      "It is at least 10 mph below the normal maximum",
+      "It is 5 mph below the normal maximum",
+      "It applies only when workers are visible",
+      "It is always exactly 45 mph"
+    ],
+    "answer": 0,
+    "explanation": "Work-site limits are always at least 10 mph below the normal maximum. Some apply only when lights are flashing; others apply at all times.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 46",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.046",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What following distance does the Indiana Driver's Manual recommend behind the vehicle ahead?",
+    "choices": [
+      "At least 1 second",
+      "At least 2 to 3 seconds",
+      "At least 5 seconds",
+      "One car length per 20 mph"
+    ],
+    "answer": 1,
+    "explanation": "Stay at least two to three seconds behind the vehicle ahead. Count from when it passes a fixed object until you pass the same object.",
+    "difficulty": 1,
+    "ref": "Indiana Driver's Manual, p. 46",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.047",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "The posted limit is 55 mph, but thick fog has cut visibility to about 100 feet. What does Indiana law require?",
+    "choices": [
+      "Turn on high beams and keep pace with traffic",
+      "You may drive 55 mph because it is the posted limit",
+      "Drive no faster than is reasonable and prudent for the conditions",
+      "Drive exactly 10 mph under the limit"
+    ],
+    "answer": 2,
+    "explanation": "Indiana's basic speed law forbids driving faster than is reasonable and prudent for conditions, even under the posted limit.",
+    "difficulty": 2,
+    "ref": "Indiana Code, IC 9-21-5-1",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.048",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are driving slowly on a two-lane Indiana road and three cars are stuck behind you, unable to pass. What must you do?",
+    "choices": [
+      "Pull off to the right at the first reasonable chance and let them pass",
+      "Turn on your hazard lights and continue",
+      "Keep going; slower traffic always has the right to the lane",
+      "Speed up to the limit even if it feels unsafe"
+    ],
+    "answer": 0,
+    "explanation": "On a road with one lane each way, a slow driver blocking three or more vehicles that cannot pass must pull off to the right at the earliest reasonable opportunity.",
+    "difficulty": 3,
+    "ref": "Indiana Code, IC 9-21-5-7",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.049",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "When may you turn left on a red light in Indiana?",
+    "choices": [
+      "From a one-way street onto another one-way street, after a full stop",
+      "From any street, if no cars are coming",
+      "Only with a green arrow",
+      "Never"
+    ],
+    "answer": 0,
+    "explanation": "A left turn on red is allowed only from a one-way street onto a one-way street, after a full stop, yielding to traffic and pedestrians, and if no sign prohibits it.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 39",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.050",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Before turning right on a red light in Indiana, what must you do?",
+    "choices": [
+      "Slow to 5 mph and turn if clear",
+      "Come to a full stop, check for traffic and pedestrians, and make sure no sign prohibits the turn",
+      "Wait for the light to turn yellow",
+      "Sound your horn and proceed"
+    ],
+    "answer": 1,
+    "explanation": "To turn right on red, stop fully, check that no vehicles or pedestrians are in or about to enter your path, look for a No Turn on Red sign and use the correct lane.",
+    "difficulty": 1,
+    "ref": "Indiana Driver's Manual, p. 39",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.052",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are driving a car and stopped at a red light that seems stuck. After two minutes nothing changes. What may you do in Indiana?",
+    "choices": [
+      "Turn left after honking",
+      "Proceed after flashing your headlights",
+      "Proceed through the red light carefully",
+      "Wait for green or another legal option; the two-minute rule is only for motorcycles, MDCs and bicycles"
+    ],
+    "answer": 3,
+    "explanation": "Only motorcycle and motor driven cycle riders (and bicyclists at bicycle signals) may go through a steady red after a two-minute stop. Car drivers may not.",
+    "difficulty": 3,
+    "ref": "Indiana Driver's Manual, p. 40",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.053",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are driving a car in a two-lane roundabout when a tractor-trailer enters next to you. What does Indiana require?",
+    "choices": [
+      "Yield to the large vehicle, slowing or stopping if needed",
+      "Stay beside the truck in your lane",
+      "Sound your horn so the driver sees you",
+      "Speed up to clear the roundabout first"
+    ],
+    "answer": 0,
+    "explanation": "In a multi-lane roundabout, drivers must yield to large vehicles going through at the same time, including slowing or stopping to let them pass safely.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 45",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.054",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Two large trucks enter a multi-lane Indiana roundabout at the same time. Which truck must yield?",
+    "choices": [
+      "The truck in the left lane",
+      "The truck in the right lane",
+      "The truck that is going farther",
+      "The truck that entered from the busier road"
+    ],
+    "answer": 1,
+    "explanation": "If two large trucks are in a roundabout at the same time, the driver in the right lane must yield to the driver in the left lane.",
+    "difficulty": 3,
+    "ref": "Indiana Driver's Manual, p. 45",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.055",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "A funeral procession enters an intersection while your light is green. What should you do in Indiana?",
+    "choices": [
+      "Proceed once half the procession has passed",
+      "Go, because you have a green light",
+      "Let the procession pass; it has the right of way",
+      "Honk to warn the procession"
+    ],
+    "answer": 2,
+    "explanation": "Official processions such as funeral processions have the right of way regardless of a traffic signal that indicates otherwise.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 59",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.056",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "Your car's turn signal lights stop working. According to the Indiana Driver's Manual, which is true about hand signals?",
+    "choices": [
+      "They are allowed only at night",
+      "They are required in place of lights in town",
+      "They are never allowed in Indiana",
+      "You may use them, but not on the driving skills exam"
+    ],
+    "answer": 3,
+    "explanation": "If your lighted signals malfunction you may use hand signals, but hand signals are not allowed on a driving skills exam.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 44",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.057",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What does red-colored pavement in a travel lane indicate in Indiana?",
+    "choices": [
+      "A fire lane",
+      "A bus or transit lane",
+      "A no-stopping zone",
+      "A bike lane"
+    ],
+    "answer": 1,
+    "explanation": "Red pavement may mark bus or transit lanes for buses, taxis or other public transit. Green pavement may mark bike lanes.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 58",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.062",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "A vehicle displays an emblem with a fluorescent orange center and red reflective borders. What does this tell you about it?",
+    "choices": [
+      "It is carrying hazardous materials",
+      "It is a slow-moving vehicle that cannot exceed 25 mph",
+      "It is an oversize load over 8 feet 6 inches wide",
+      "It is a school vehicle"
+    ],
+    "answer": 1,
+    "explanation": "The slow-moving vehicle emblem marks a vehicle that cannot exceed 25 mph. Use care when approaching and passing it.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 35",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.063",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "When passing on a two-lane road in Indiana, you must return to the right side of the road no less than how far before any oncoming vehicle?",
+    "choices": [
+      "500 feet",
+      "50 feet",
+      "100 feet",
+      "200 feet"
+    ],
+    "answer": 2,
+    "explanation": "Before passing, make sure the lane is clear, because you must be back on the right side no less than 100 feet before any oncoming vehicle.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 43",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.064",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "Indiana prohibits passing within how many feet of an intersection, railroad crossing, bridge, viaduct or tunnel?",
+    "choices": [
+      "150 feet",
+      "300 feet",
+      "50 feet",
+      "100 feet"
+    ],
+    "answer": 3,
+    "explanation": "It is dangerous and illegal to pass within 100 feet of an intersection, railroad crossing, bridge, viaduct or tunnel.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 43",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.065",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "On an Indiana interstate with three lanes in your direction, which lanes may large trucks use?",
+    "choices": [
+      "Only the left lane",
+      "Only the right two lanes",
+      "Only the center lane",
+      "Any lane"
+    ],
+    "answer": 1,
+    "explanation": "Trucks are restricted to the right lane where there are two lanes in one direction, and to the right two lanes where there are three or more.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 51",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.066",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "You miss your exit on an Indiana interstate. Which action is illegal for a passenger car?",
+    "choices": [
+      "Continuing to the next exit",
+      "Making a U-turn through the median crossover",
+      "Using your turn signal to change lanes",
+      "Exiting and re-entering in the other direction"
+    ],
+    "answer": 1,
+    "explanation": "Only emergency and highway maintenance vehicles may make a U-turn across an interstate median or crossover. Drive to the next exit instead.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 51",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.067",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Indiana, how close to a fire hydrant may you park?",
+    "choices": [
+      "No closer than 30 feet",
+      "No closer than 10 feet",
+      "No closer than 15 feet",
+      "No closer than 20 feet"
+    ],
+    "answer": 2,
+    "explanation": "Parking within 15 feet of a fire hydrant or in a fire lane is prohibited.",
+    "difficulty": 1,
+    "ref": "Indiana Driver's Manual, p. 59",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.068",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Indiana law prohibits parking within how many feet of a crosswalk at an intersection?",
+    "choices": [
+      "20 feet",
+      "30 feet",
+      "10 feet",
+      "15 feet"
+    ],
+    "answer": 0,
+    "explanation": "You may not stop, stand or park on a crosswalk or within 20 feet of a crosswalk at an intersection.",
+    "difficulty": 2,
+    "ref": "Indiana Code, IC 9-21-16-5",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.069",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How far back from a stop sign or traffic signal at the side of the road must you stay when parking in Indiana?",
+    "choices": [
+      "20 feet",
+      "30 feet",
+      "50 feet",
+      "15 feet"
+    ],
+    "answer": 1,
+    "explanation": "Indiana law bars parking within 30 feet on the approach to a flashing beacon, stop sign or traffic signal at the side of the roadway.",
+    "difficulty": 2,
+    "ref": "Indiana Code, IC 9-21-16-5",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.070",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Indiana, you may not park within how many feet of the nearest rail of a railroad crossing?",
+    "choices": [
+      "15 feet",
+      "25 feet",
+      "50 feet",
+      "100 feet"
+    ],
+    "answer": 2,
+    "explanation": "Stopping, standing or parking within 50 feet of the nearest rail of a railroad crossing is prohibited.",
+    "difficulty": 2,
+    "ref": "Indiana Code, IC 9-21-16-5",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.071",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You are parking on the same side of the street as a fire station's driveway. How far from the driveway entrance must you stay in Indiana?",
+    "choices": [
+      "75 feet",
+      "10 feet",
+      "20 feet",
+      "50 feet"
+    ],
+    "answer": 2,
+    "explanation": "Do not park within 20 feet of a fire station driveway. Across the street from the entrance, the limit is 75 feet when signs are posted.",
+    "difficulty": 3,
+    "ref": "Indiana Code, IC 9-21-16-5",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.072",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "When parallel parking next to a curb in Indiana, your right-hand wheels must be within how many inches of the curb?",
+    "choices": [
+      "18 inches",
+      "24 inches",
+      "6 inches",
+      "12 inches"
+    ],
+    "answer": 3,
+    "explanation": "Where there is a curb, park with the right-hand wheels parallel to and within 12 inches of it, unless angle parking is allowed.",
+    "difficulty": 2,
+    "ref": "Indiana Code, IC 9-21-16-7",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.073",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You have a valid disability parking placard. May you park in the diagonally striped area next to an accessible parking space?",
+    "choices": [
+      "Yes, for up to 15 minutes",
+      "No, it is prohibited at all times, even with a placard",
+      "Only if all accessible spaces are full",
+      "Yes, a placard allows it"
+    ],
+    "answer": 1,
+    "explanation": "The striped area lets wheelchair users transfer and deploy ramps, so parking there is prohibited even with a valid placard.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 60",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.074",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Which of these is a prohibited parking spot in Indiana?",
+    "choices": [
+      "Next to a yellow-painted curb",
+      "25 feet from a fire hydrant",
+      "60 feet from a railroad crossing",
+      "40 feet before a stop sign"
+    ],
+    "answer": 0,
+    "explanation": "Parking next to a yellow curb is prohibited. The other spots are beyond Indiana's distance limits (15 ft hydrant, 50 ft railroad, 30 ft stop sign).",
+    "difficulty": 3,
+    "ref": "Indiana Driver's Manual, p. 59",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.075",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "What is the minimum space Indiana drivers should leave when passing a bicyclist?",
+    "choices": [
+      "6 feet",
+      "2 feet",
+      "3 feet",
+      "4 feet"
+    ],
+    "answer": 2,
+    "explanation": "Drivers may pass a bicyclist when there is a safe amount of room (minimum three feet) and no danger from oncoming traffic.",
+    "difficulty": 1,
+    "ref": "Indiana Driver's Manual, p. 57",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.076",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A bicyclist is riding in the travel lane even though a bike lane is available. Is this legal in Indiana?",
+    "choices": [
+      "Only on roads under 30 mph",
+      "Only if riding two abreast",
+      "No, cyclists must use a bike lane when there is one",
+      "Yes, a cyclist may use either the bike lane or the travel lane"
+    ],
+    "answer": 3,
+    "explanation": "A bicyclist is not required to ride in a designated bike lane and has the right to use either the bike lane or the travel lane.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 57",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.077",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "How much following distance should you allow behind a motorcycle, according to the Indiana Driver's Manual?",
+    "choices": [
+      "2 seconds",
+      "At least 3 or 4 seconds",
+      "At least 6 seconds",
+      "1 to 2 seconds"
+    ],
+    "answer": 1,
+    "explanation": "Allow at least three or four seconds behind a motorcycle so the rider has time to maneuver or stop in an emergency. That is more than the 2-3 seconds for other vehicles.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 57",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.078",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a four-lane Indiana highway, a police car is stopped on the shoulder with red and blue lights flashing. What must you do?",
+    "choices": [
+      "Keep your lane and speed",
+      "Change lanes away from it, or if you cannot, slow to 10 mph under the limit",
+      "Stop behind the police car",
+      "Slow to 20 mph below the limit and stay in your lane"
+    ],
+    "answer": 1,
+    "explanation": "Indiana's Move Over law requires changing lanes away from the stopped emergency vehicle. If you cannot move over, reduce speed to 10 mph under the posted limit and proceed with caution.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 56",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.079",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Does Indiana's Move Over law apply to a tow truck stopped on the shoulder with amber lights flashing?",
+    "choices": [
+      "Only at night",
+      "No, it only covers police, fire and ambulances",
+      "Yes, you must move over or slow to 10 mph under the limit",
+      "Only if a police officer is present"
+    ],
+    "answer": 2,
+    "explanation": "The law also covers stopped tow trucks, highway maintenance, utility, trash and survey/construction vehicles with flashing amber lights.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 56",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.080",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are on a highway divided by an unimproved grass median. A school bus on the other side has stopped with red lights flashing and its stop arm out. What must you do?",
+    "choices": [
+      "Stop only if children are visible",
+      "Slow to 10 mph and pass",
+      "Stop until the stop arm is pulled in",
+      "Proceed with caution; you do not have to stop"
+    ],
+    "answer": 3,
+    "explanation": "On a road divided by a barrier or unimproved median, only traffic going the same direction as the bus must stop. Still watch for children.",
+    "difficulty": 3,
+    "ref": "Indiana Driver's Manual, p. 57",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.081",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a four-lane road with only a painted center line, a school bus going the opposite way stops with red lights flashing and stop arm extended. What should you do?",
+    "choices": [
+      "Stop, because the road is not divided by a barrier or unimproved median",
+      "Slow to 20 mph and pass",
+      "Stop only if the bus is on your side",
+      "Continue, because you are going the opposite way"
+    ],
+    "answer": 0,
+    "explanation": "You must stop for a school bus with flashing red lights and stop arm extended. The opposite-direction exception applies only where a barrier or unimproved median divides the road.",
+    "difficulty": 3,
+    "ref": "Indiana Driver's Manual, p. 57",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.082",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A fire truck is responding to a fire alarm. How closely may you follow it in Indiana?",
+    "choices": [
+      "No closer than 100 feet",
+      "No closer than 200 feet",
+      "No closer than 500 feet",
+      "Any distance, if you keep up with traffic"
+    ],
+    "answer": 2,
+    "explanation": "Unless on official business, you may not follow fire apparatus answering an alarm closer than 500 feet, or drive into or park in the block where it has stopped.",
+    "difficulty": 2,
+    "ref": "Indiana Code, IC 9-21-12-7",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.083",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "According to the Indiana Driver's Manual, how far behind a tractor-trailer can its blind spot extend?",
+    "choices": [
+      "Up to 200 feet",
+      "Up to 20 feet",
+      "Up to 50 feet",
+      "Up to 100 feet"
+    ],
+    "answer": 0,
+    "explanation": "A tractor-trailer's blind spots reach up to 20 feet in front of the cab, along both sides, and up to 200 feet behind it.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 55",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.084",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You come up behind an Amish horse-drawn buggy on a rural Indiana road. Which statement is true?",
+    "choices": [
+      "Buggies may use only the shoulder",
+      "You may honk to ask the buggy to move over",
+      "You may pass it in a no-passing zone because it is slow",
+      "The buggy driver has the same rights and duties as a motor vehicle driver"
+    ],
+    "answer": 3,
+    "explanation": "A rider of a horse or horse-drawn vehicle has the same rights and responsibilities as a motor vehicle driver. Approach with caution and watch for hand signals.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 58",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.085",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When does Indiana law require you to use headlights?",
+    "choices": [
+      "Between sunset and sunrise, and whenever visibility is less than 500 feet",
+      "Only when it is raining",
+      "From 30 minutes after sunset only",
+      "Only from 9 p.m. to 6 a.m."
+    ],
+    "answer": 0,
+    "explanation": "Headlights are required between sunset and sunrise and any other time visibility is less than 500 feet.",
+    "difficulty": 1,
+    "ref": "Indiana Driver's Manual, p. 49",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.086",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Within what distance of an oncoming vehicle must you switch to low beams in Indiana?",
+    "choices": [
+      "200 feet",
+      "300 feet",
+      "500 feet",
+      "1,000 feet"
+    ],
+    "answer": 2,
+    "explanation": "Use low beams when approaching within 500 feet of an oncoming vehicle.",
+    "difficulty": 1,
+    "ref": "Indiana Driver's Manual, p. 49",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.087",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When following another vehicle at night in Indiana, you must use low beams within what distance?",
+    "choices": [
+      "500 feet",
+      "100 feet",
+      "200 feet",
+      "300 feet"
+    ],
+    "answer": 2,
+    "explanation": "Use low beams when following within 200 feet of the rear of another vehicle. The 500-foot rule is for oncoming vehicles.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 49",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.088",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Which vehicles must always stop at Indiana railroad crossings, even with no train in sight?",
+    "choices": [
+      "Any vehicle towing a trailer",
+      "Pickup trucks and SUVs",
+      "Motorcycles and motor driven cycles",
+      "School buses, vehicles carrying passengers for hire, and vehicles carrying explosives or flammable liquids"
+    ],
+    "answer": 3,
+    "explanation": "School buses, vehicles carrying passengers for hire, and vehicles carrying explosives or flammable liquids must always stop.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 53",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.089",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When required to stop at a railroad crossing in Indiana, how far from the nearest rail must the vehicle stop?",
+    "choices": [
+      "Between 10 and 40 feet",
+      "Between 15 and 50 feet",
+      "Between 20 and 100 feet",
+      "Between 5 and 25 feet"
+    ],
+    "answer": 1,
+    "explanation": "Vehicles must stop not closer than 15 feet or farther than 50 feet from the nearest rail.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 53",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.090",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "At a railroad crossing, the lights begin to flash and the gate starts to lower while your car is on the tracks. About how much time does the Indiana Driver's Manual say you have to escape?",
+    "choices": [
+      "About 5 seconds",
+      "About 20 seconds",
+      "About 1 minute",
+      "About 2 minutes"
+    ],
+    "answer": 1,
+    "explanation": "Once the lights flash and the gate begins to lower, you have about 20 seconds to get clear of the crossing.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 54",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.091",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "What lights does the Indiana Driver's Manual say to use while driving in fog?",
+    "choices": [
+      "No lights, to reduce glare",
+      "High beams only",
+      "Headlights (low beams) and flashing emergency signals",
+      "Parking lights only"
+    ],
+    "answer": 2,
+    "explanation": "In fog, do not use high beams. Use headlights and flashing emergency signals, drive slowly, and pull far off the road if visibility drops to near zero.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 49",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.092",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "After a crash in Indiana, what information must you give to the others involved?",
+    "choices": [
+      "Only your phone number",
+      "Nothing until police arrive",
+      "Only your insurance company's name",
+      "Your name, address and vehicle registration number, and show your driver's license"
+    ],
+    "answer": 3,
+    "explanation": "Remain at the scene and give your name, address and the vehicle's registration number to everyone involved, and show your driver's license.",
+    "difficulty": 1,
+    "ref": "Indiana Driver's Manual, p. 63",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.093",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You have a minor crash with no injuries in a travel lane of an Indiana highway. What should you do with your car?",
+    "choices": [
+      "Move it off the highway to a spot as close to the crash as possible",
+      "Drive home and report the crash later",
+      "Move it only if the other driver agrees",
+      "Leave it exactly where it is until police arrive"
+    ],
+    "answer": 0,
+    "explanation": "If the crash is on the traveled part of a highway, move the vehicle off the highway close to the scene, unless there is injury, death, entrapment or hazardous materials.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 63",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.094",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You back into an unattended parked car in Indiana and cannot find the owner. What should you do?",
+    "choices": [
+      "Leave, because no one saw it",
+      "Call a law enforcement agency to provide your information",
+      "Report it to the BMV within 30 days",
+      "Leave a note and drive away"
+    ],
+    "answer": 1,
+    "explanation": "Stop, stay at the scene, take reasonable steps to notify the owner, and if the owner cannot be found, call law enforcement.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 63",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.095",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "After a crash, the Indiana BMV asks you for proof of financial responsibility. What should you do?",
+    "choices": [
+      "Nothing unless you caused the crash",
+      "Mail a copy of your insurance card",
+      "Ask your insurance company to file a Certificate of Compliance (COC) electronically",
+      "Pay a reinstatement fee"
+    ],
+    "answer": 2,
+    "explanation": "Your insurer must electronically file a Certificate of Compliance with the BMV. If it is not received within 90 days of the BMV's request, your license will be suspended.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, pp. 27, 63",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.096",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "A police car signals you to pull over. What does the Indiana Driver's Manual suggest you do first to acknowledge the officer?",
+    "choices": [
+      "Stop immediately in your lane",
+      "Flash your high beams",
+      "Turn on your right turn signal",
+      "Wave out the window"
+    ],
+    "answer": 2,
+    "explanation": "Turn on your right turn signal to show you see the officer, then move to the right-side shoulder, never the median. If no safe spot is near, slow down and use hazard lights.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 65",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.097",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Your car breaks down within 500 feet of a curve or hilltop. How far from your car should a warning device be placed?",
+    "choices": [
+      "At least 100 feet",
+      "At least 500 feet",
+      "At least 1,000 feet",
+      "At least 50 feet"
+    ],
+    "answer": 1,
+    "explanation": "If your car is stopped within 500 feet of a curve, hilltop or other obstruction, a warning device must be at least 500 feet from your car.",
+    "difficulty": 3,
+    "ref": "Indiana Driver's Manual, p. 62",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.098",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "An ambulance with its siren on comes up behind you on an Indiana city street. Unless an officer directs otherwise, what must you do?",
+    "choices": [
+      "Speed up to stay ahead of it",
+      "Pull to the right edge of the road, clear of any intersection, and stop until it passes",
+      "Stop immediately where you are, even in an intersection",
+      "Move to the left lane and keep driving"
+    ],
+    "answer": 1,
+    "explanation": "For an approaching emergency vehicle using a siren or flashing red, red-and-white or red-and-blue lights, yield, drive to the right-hand edge or curb clear of any intersection, and stop until it has passed.",
+    "difficulty": 1,
+    "ref": "Indiana Code, IC 9-21-8-35",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.099",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Indiana law, a driver commits aggressive driving by doing at least how many listed acts (such as tailgating, unnecessary honking or unsafe slowing) in one episode of driving?",
+    "choices": [
+      "Five",
+      "One",
+      "Two",
+      "Three"
+    ],
+    "answer": 3,
+    "explanation": "Indiana defines aggressive driving as committing at least three listed acts during one episode of continuous driving, such as following too closely, failing to yield or repeatedly flashing headlights.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 51",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Who must wear a helmet when riding a motorcycle in Indiana?",
+    "choices": [
+      "Only passengers",
+      "Only riders under 21",
+      "All riders, of any age",
+      "Riders and passengers under 18, and anyone riding on a motorcycle learner's permit"
+    ],
+    "answer": 3,
+    "explanation": "Indiana law requires a helmet for riders and passengers under 18. Motorcycle learner's permit holders must also wear a helmet, whatever their age.",
+    "difficulty": 2,
+    "ref": "Indiana Code, IC 9-19-7-1; Indiana Driver's Manual, p. 19",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Besides a helmet, what must a 17-year-old wear when riding a motorcycle on Indiana roads?",
+    "choices": [
+      "Protective glasses, goggles or a transparent face shield",
+      "Leather gloves",
+      "Over-the-ankle boots",
+      "A reflective vest"
+    ],
+    "answer": 0,
+    "explanation": "Riders under 18 must wear a DOT-compliant helmet and protective glasses, goggles or a transparent face shield.",
+    "difficulty": 2,
+    "ref": "Indiana Code, IC 9-19-7-1",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 30-year-old rides on an Indiana motorcycle learner's permit. Must they wear a helmet?",
+    "choices": [
+      "No, helmets are required only under 18",
+      "Yes, permit holders must wear a helmet",
+      "Only on highways",
+      "Only when carrying a passenger"
+    ],
+    "answer": 1,
+    "explanation": "Anyone riding with a motorcycle learner's permit must wear a helmet, regardless of age.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 19",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "During what hours may an Indiana motorcycle learner's permit holder ride?",
+    "choices": [
+      "From sunrise to sunset only on weekends",
+      "Any time",
+      "From one-half hour before sunrise to one-half hour after sunset",
+      "Only from 6 a.m. to 9 p.m."
+    ],
+    "answer": 2,
+    "explanation": "Permit holders may ride only from one-half hour before sunrise to one-half hour after sunset, wearing a helmet and with no passengers.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 19",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "May an Indiana motorcycle learner's permit holder carry a passenger?",
+    "choices": [
+      "No, permit holders may not carry passengers",
+      "Yes, during daylight only",
+      "Yes, if the passenger is licensed",
+      "Yes, if the passenger wears a helmet"
+    ],
+    "answer": 0,
+    "explanation": "Motorcycle permit holders must ride without passengers.",
+    "difficulty": 1,
+    "ref": "Indiana Driver's Manual, p. 19",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What must you have before applying for an Indiana motorcycle learner's permit?",
+    "choices": [
+      "A completed riding skills test",
+      "Proof of motorcycle ownership",
+      "Nothing; anyone 15 or older may apply",
+      "A valid Indiana driver's license"
+    ],
+    "answer": 3,
+    "explanation": "You must hold a valid Indiana driver's license and pass a knowledge exam based on the Motorcycle Operator Manual.",
+    "difficulty": 1,
+    "ref": "Indiana Driver's Manual, p. 19",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How can an Indiana driver earn a motorcycle endorsement?",
+    "choices": [
+      "Hold a permit for 180 days",
+      "Complete a Ride Safe Indiana course, or pass both the motorcycle knowledge and riding skills exams",
+      "Pass only the motorcycle knowledge exam",
+      "Log 50 hours of riding"
+    ],
+    "answer": 1,
+    "explanation": "Riders of all ages must either complete an approved Ride Safe Indiana safety course or pass both the motorcycle knowledge and riding skills exams.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 19",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How many motorcycles may ride side by side in a single traffic lane in Indiana?",
+    "choices": [
+      "Any number in a group ride",
+      "Only one",
+      "No more than two, if both riders agree",
+      "Up to three"
+    ],
+    "answer": 2,
+    "explanation": "A motorcycle is entitled to the full use of a lane. Two motorcycles may ride abreast in one lane only with both riders' consent; no vehicle may squeeze another out of its lane.",
+    "difficulty": 2,
+    "ref": "Indiana Code, IC 9-21-10-6",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "You stop your motorcycle at a red light that will not change because it does not detect you. What does Indiana allow?",
+    "choices": [
+      "Ride onto the sidewalk to turn right",
+      "Wait until a car arrives behind you",
+      "Proceed after a complete stop of at least two minutes, using due caution",
+      "Proceed immediately if no cars are coming"
+    ],
+    "answer": 2,
+    "explanation": "A motorcycle or motor driven cycle rider may proceed through a steady red after stopping completely for at least two minutes, using due caution. The rule does not apply to autocycles.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 40",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.mc.010",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How many points does Indiana assess for improper motorcycle headgear?",
+    "choices": [
+      "4 points",
+      "6 points",
+      "No points",
+      "2 points"
+    ],
+    "answer": 0,
+    "explanation": "Improper motorcycle headgear and improper motorcycle passenger are each 4-point violations.",
+    "difficulty": 3,
+    "ref": "Indiana Driver's Manual, p. 26",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.100",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Under Indiana law, what is the maximum speed in an urban district when no other limit is posted?",
+    "choices": [
+      "30 mph",
+      "25 mph",
+      "35 mph",
+      "20 mph"
+    ],
+    "answer": 0,
+    "explanation": "Indiana's default limit in an urban district is 30 mph unless a different limit is posted. Indiana has no separate 25 mph business-district default.",
+    "difficulty": 2,
+    "ref": "Indiana Code, IC 9-21-5-2",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.101",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Which of these places is off-limits for parking in Indiana?",
+    "choices": [
+      "Inside an intersection",
+      "25 feet from a fire hydrant",
+      "35 feet before a stop sign",
+      "60 feet from the nearest rail of a railroad crossing"
+    ],
+    "answer": 0,
+    "explanation": "You may not park within an intersection or on a crosswalk. The other spots are beyond Indiana's limits (15 ft from a hydrant, 30 ft before a stop sign, 50 ft from a railroad rail).",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 59; Indiana Code, IC 9-21-16-5",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.102",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are turning right on a green light, and a pedestrian is stepping into the crosswalk on the street you are turning onto. What does the Indiana Driver's Manual say?",
+    "choices": [
+      "Wait, because you may not make a turn that forces a pedestrian to stop, slow down or hurry",
+      "Turn first, because your green light gives you the right of way",
+      "Honk so the pedestrian knows to wait",
+      "Turn as long as the pedestrian is not yet in your lane"
+    ],
+    "answer": 0,
+    "explanation": "Always yield the right of way to pedestrians. Do not make a turn that causes a pedestrian to stop, slow down or make some other special effort to avoid a collision.",
+    "difficulty": 1,
+    "ref": "Indiana Driver's Manual, p. 60",
+    "states": [
+      "IN"
+    ]
+  }
+]

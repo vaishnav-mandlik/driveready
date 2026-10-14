@@ -1,0 +1,794 @@
+{
+  "code": "TN",
+  "name": "Tennessee",
+  "agency": {
+    "name": "Tennessee Department of Safety and Homeland Security (Driver Services Division)",
+    "abbreviation": "TDOSHS",
+    "website": "https://www.tn.gov/safety.html"
+  },
+  "handbook": {
+    "title": "Tennessee Comprehensive Driver License Manual",
+    "edition": "Information current as of July 1, 2022; printing authorized March 2025 (Authorization No. MT3Q28). This is the Class D manual linked from tn.gov/safety as of Oct 2026. Page numbers below are PDF pages (printed page number + 14).",
+    "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+  },
+  "knowledgeTest": {
+    "questions": 30,
+    "passingScore": 24,
+    "passingPercent": 80,
+    "roadSigns": "No separately scored road-signs section. The manual says the multiple-choice test is roughly 25% traffic signs and signals, 25% safe driving principles, 25% rules of the road and 25% drugs and alcohol (by law at least 25% of questions must be on alcohol/drugs).",
+    "timeLimitMinutes": 60,
+    "format": "Computerized multiple-choice test at Driver Services Centers (written format only in very limited cases; oral tests by appointment). Applicants aged 15-17 may instead take it online at home, proctored by a parent or legal guardian through the Tennessee Proctor ID (PID) app.",
+    "languages": "Driver Services Centers with computerized testing: English plus Spanish, Korean and Japanese (per the manual). The online at-home test: English and Spanish.",
+    "retestWait": "Mandatory 1-day waiting period after failing any knowledge test; no test may be repeated the same day. Online test: wait 24 hours before retesting, maximum of two online attempts. A $2 application fee is charged each time a test is failed. Cheating = automatic failure and no retest for 30 days.",
+    "notes": "The 30-question / 60-minute / 80% figures are published by TDOSHS for the online knowledge test (ages 15-17); TDOSHS does not publish a separate question count for the in-center test, and the 80% (24 of 30) pass mark is assumed to be the same. Teens: learner permit at 15 (vision + knowledge test), hold 180 days, Intermediate Restricted at 16 with 50 supervised hours (10 at night) and a road test, Intermediate Unrestricted at 17 after 1 year, regular license at 18 or on graduating high school/GED. The graduated (GDL) steps apply to drivers under 18; first-time applicants 18 or older apply directly for a regular Class D license. TDOSHS may require an applicant who passed online to retake the knowledge test at a center. Vision standard: 20/40 in each eye and both eyes together.",
+    "sourceUrl": "https://www.tn.gov/safety/driver-services/classd/teengdl/knowledge-test-online.html"
+  },
+  "motorcycleTest": {
+    "questions": null,
+    "passingScore": null,
+    "passingPercent": null,
+    "notes": "TDOSHS does not publish the motorcycle question count or pass mark. Class M exam: vision screening, motorcycle rules-of-the-road knowledge test, pre-trip inspection and on-cycle skills test (Class D knowledge test too if the applicant has no Class D/PD). A Tennessee Certified Motorcycle Rider Education Program (MREP) certificate waives the knowledge and skills tests for holders of a valid TN license; an MSF course completed within 3 years waives only the skills test. Motorcycle learner permit (Class PDPM / P-M) at 15: max 650 cc, no passengers, no interstates, daylight only, within 20 miles of home. After passing the online Class D test, teens may take the Class M test online. Source: Tennessee Motorcycle Operator Manual (https://www.tn.gov/content/dam/tn/safety/documents/MotorcycleManual.pdf), pp. 4-5, 13.",
+    "sourceUrl": "https://www.tn.gov/content/dam/tn/safety/documents/MotorcycleManual.pdf"
+  },
+  "cdlTest": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% or higher",
+      "detail": "Driving with a blood or breath alcohol concentration of .08 percent or higher is DUI in Tennessee. You can also be convicted of DUI below .08 (even at .00) if alcohol or drugs impair your driving.",
+      "number": 0.08,
+      "unit": "percent BAC",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 95,
+        "quote": "While the alcohol concentration of the operator’s blood or breath is .08 percent or higher."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% (ages 16-20) = underage driving while impaired",
+      "detail": "A driver 16 to 20 found driving with a BAC of .02 percent (or under the influence of alcohol or another intoxicant) is convicted of underage driving while impaired: loss of license for one year, a $250 fine and sometimes public service work.",
+      "number": 0.02,
+      "unit": "percent BAC",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 97,
+        "quote": "A person who is at least 16, but is not yet 21 years old, and who is found: (1) driving with a BAC of .02 percent; (2) under the influence of alcohol; or (3) under the influence of any other intoxicant, will be convicted of underage driving while impaired. Penalties for this conviction are: losing your license for one year, a fine of $250 and sometimes, includes public service work."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusing the test after arrest: license suspension (by the court) for 12 months",
+      "detail": "Driving in Tennessee means you consent to a blood/breath test for alcohol or drugs when an officer has reasonable grounds to suspect DUI. Refusing after arrest will likely bring a 12-month suspension; the 2012 No Refusal law also lets officers seek a warrant for a blood sample.",
+      "number": 12,
+      "unit": "months",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 95,
+        "quote": "If you are placed under arrest and a law enforcement officer asks you to take the test and you refuse, it will likely result in the suspension by the court of your driving privileges for twelve (12) months."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "48 hours jail (7 days if BAC 0.20%+), $350-$1,500 fine, 1-year license revocation",
+      "detail": "A first DUI conviction carries at least 48 hours in jail (7 days at 0.20% BAC or more), a fine of $350-$1,500 and a 1-year revocation, plus litter pickup and possible ignition interlock. A second conviction: 45 days to 11 months 29 days, $600-$3,500, 2-year revocation.",
+      "number": 1,
+      "unit": "year revocation",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 96,
+        "quote": "48 hours (7 days if BAC is 0.20% or more) 45 days – 11 months, 29 days 120 days – 11 months, 29 days 150 days – max allowable for a Class E felony $350-$1500 $600-$3500 $1,100 - $10,000 $3,000-$15,000 1 year 2 years 3 -10 years 5 years [to indefinite]"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15",
+      "detail": "A Class PD learner permit requires being 15 and passing the knowledge test and vision screening. Applicants under 18 also need proof of school attendance and a signed Minor/Teenage Affidavit.",
+      "number": 15,
+      "unit": "years",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 28,
+        "quote": "You must be 15 years old and pass the standard written exams and vision screening."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "180 days",
+      "detail": "Drivers under 18 must hold the learner permit for 180 days (six months) before moving to the Intermediate Restricted License. Six or more points in the 180 days before applying keeps the teen on the permit until the record is clean for 180 consecutive days.",
+      "number": 180,
+      "unit": "days",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 28,
+        "quote": "You must hold a learner permit for 180 days in order to move to the Intermediate Restricted License step."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "50 hours, including 10 at night",
+      "detail": "Before the Intermediate Restricted License, a parent, legal guardian or licensed driving instructor must certify 50 hours of driving (10 at night) on Department form SF-1256.",
+      "number": 50,
+      "unit": "hours",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 28,
+        "quote": "You must have verification from a parent, legal guardian or licensed driving instructor stating you have completed fifty hours (ten hours at night) of driving experience."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Licensed driver 21 or older in the front seat",
+      "detail": "A learner permit holder may drive only with a licensed driver age 21 or older riding in the front seat. Permit holders also may not drive from 10 p.m. to 6 a.m., and everyone must wear a seat belt.",
+      "number": 21,
+      "unit": "years (supervisor age)",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 28,
+        "quote": "You may drive a car only when accompanied by a licensed driver 21 years or older who is riding in the front seat of the vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 (Intermediate Restricted License)",
+      "detail": "The Intermediate Restricted License requires age 16, a passed road test, 180 days on the permit, the 50-hour certification, and fewer than 6 points.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 28,
+        "quote": "You must be 16 years old and pass the driving skills test, also known as the road test."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "No driving 11 p.m. - 6 a.m. (Intermediate Restricted); permit holders 10 p.m. - 6 a.m.",
+      "detail": "Intermediate Restricted drivers may not drive from 11 p.m. to 6 a.m. unless with a parent/guardian or a designated licensed driver 21+, or driving to/from a school event or work with written parental permission, or hunting/fishing between 4 and 6 a.m. with a valid license.",
+      "number": 11,
+      "unit": "p.m. (start of restricted hours)",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 33,
+        "quote": "Those with an Intermediate Restricted License are prohibited from driving between the hours of 11 p.m. and 6 a.m."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "Only 1 other passenger (with exceptions)",
+      "detail": "Intermediate Restricted drivers may carry only one passenger unless a passenger is 21+ with a valid unrestricted license, or the passengers are siblings living in the same home and the driver carries a parent's letter allowing them for trips to and from school.",
+      "number": 1,
+      "unit": "passenger",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 33,
+        "quote": "Those with an intermediate license can only have 1 other passenger in the vehicle. UNLESS:"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "18, or earlier on graduating high school / GED",
+      "detail": "A regular Class D license is available at 18 or when the teen graduates from high school or gets a GED, whichever comes first. The Intermediate Unrestricted step is available at 17 after holding the Intermediate Restricted license for 1 year.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 28,
+        "quote": "You may obtain a Class D regular driver license when you are 18 years of age, or when you graduate from high school or receive a GED, whichever is sooner."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "Hands-free law (2019): drivers may not hold a phone with any part of their body",
+      "detail": "Under Tennessee's 2019 hands-free law (Public Chapter 412), no driver may hold a phone or mobile device with any part of the body, reach for one in a way that takes them out of the seated, belted position, watch video, or record/broadcast video while driving.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 44,
+        "quote": "Public Chapter No. 412, was implemented in 2019. It is now illegal for a driver to: (a) hold a cellphone or mobile device with any part of their body,"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "texting_ban",
+      "value": "All drivers: no writing, sending or reading texts",
+      "detail": "Texting is banned for drivers of all ages. The hands-free law forbids writing, sending or reading any text-based communication; the older texting law sets a fine of up to $50 plus up to $10 court costs.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 44,
+        "quote": "(b) write, send, or read any text-based communication,"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Learner permit and intermediate license holders: no cell phone use at all while driving",
+      "detail": "Permit and intermediate license holders may not use a cell phone while driving; the law defines a cell phone as a hand-held cellular phone, a cellular car phone or other mobile phone. A conviction is a Class C misdemeanor with a $50 fine, 6 points on a minor's record, and a 90-day delay in eligibility for the Intermediate Restricted license.",
+      "number": 6,
+      "unit": "points",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 32,
+        "quote": "Tennessee law prohibits any driver possessing a learner permit or intermediate driver license from using a cell phone while driving on any Tennessee roadway."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Required for the driver and every front-seat passenger whenever the vehicle is moving; some back-seat passengers too",
+      "detail": "Belts are required for all drivers and front-seat passengers, and officers can stop and ticket you for that alone. Back-seat passengers must buckle up if they are minors (the manual says under 17 in one place and that the rule ends at 18 in another), and passengers aged 4-17 must be belted when the driver has a learner permit or intermediate license.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 45,
+        "quote": "Safety belts are required for ALL drivers and all passengers in the FRONT seat, any time the vehicle is in motion."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Rear-facing under 1 year or under 20 lb; forward-facing 1-3 years over 20 lb; booster for ages 4-8 under 4'9\"",
+      "detail": "Children under 1 or under 20 pounds ride rear-facing; ages 1-3 over 20 pounds forward-facing; ages 4-8 shorter than 4 feet 9 inches in a belt-positioning booster (in the back seat if there is one). The driver is responsible for passengers under 16 ($50 fine).",
+      "number": 20,
+      "unit": "pounds",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 45,
+        "quote": "A child under one year old, or any child weighing less than 20 pounds, must be in a child passenger restraint system (car seat) that is facing the rear of the car."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Basic Speed Rule: speed must be reasonable for conditions (the manual calls it a safety principle, not a Tennessee law)",
+      "detail": "The Basic Speed Rule says your safe speed is limited by current conditions (traffic, weather, visibility, road surface), so the posted limit can still be too fast. Tennessee's manual notes the BSR itself is a general safety principle rather than a state law.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 60,
+        "quote": "The Basic Speed Rule (BSR) is not a Tennessee law, but it is a general safety principle. The BSR does not set an exact speed limit; instead, it teaches that the speed you may drive is limited by current conditions."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "As posted (manual gives no number); exceeding it is reckless driving with an automatic 6 points",
+      "detail": "School zone limits apply when children are going to or from school or during recess. Breaking a school zone limit counts as reckless driving and adds 6 points, which triggers an advisory letter.",
+      "number": 6,
+      "unit": "points",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 61,
+        "quote": "Exceeding the school zone speed limit is by law considered to be reckless driving. The penalty includes an automatic six points added to your driving record, which automatically results in an advisory letter being sent to you."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "As posted; some residential roads and city streets are as low as 25 or 35 mph",
+      "detail": "The manual gives no single statewide residential limit. It warns that some residential roads or city streets may be limited to 25 or 35 mph at all times, so obey the posted signs.",
+      "number": null,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 61,
+        "quote": "Some residential roads or city streets may have limits as low as 25 or 35 m.p.h. at all times."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "55 mph unless posted",
+      "detail": "Unless another limit is posted, primary and secondary state and federal highways are limited to 55 mph.",
+      "number": 55,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 61,
+        "quote": "Unless otherwise posted, the speed limit on primary and secondary state and federal highways is 55 m.p.h."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "70 mph (typically 55 mph in congested urban areas)",
+      "detail": "The maximum interstate speed set by Tennessee law is 70 mph, posted on most rural interstate sections. Urban interstate limits are typically 55 mph.",
+      "number": 70,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 61,
+        "quote": "The maximum speed set by Tennessee law for interstate highways is 70 m.p.h."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Interstate: at least 55 mph in the left-most lane; 45 mph minimum in the right lane(s)",
+      "detail": "It is unlawful to drive under 55 mph in the left-most interstate lane unless congestion prevents it, and the minimum in the right lane(s) is 45 mph. Driving 10+ mph under the limit makes you a slow-moving vehicle that must pull off when 5 or more vehicles are lined up behind.",
+      "number": 45,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 61,
+        "quote": "It is unlawful for any person to drive a vehicle less than 55 m.p.h. in the left most lane of any Interstate highway, unless traffic congestion and flow prevent safe driving at such speed. On the interstates, the minimum speed limit in the right lane(s) is 45 m.p.h."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop unless posted otherwise",
+      "detail": "Unless a sign prohibits it, you may turn right on red after a complete stop when no pedestrians or cross traffic are present.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 55,
+        "quote": "Unless otherwise posted, you may turn right on red after coming to a complete stop and when no pedestrians or cross traffic are present."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Only from a one-way street onto a one-way street (traffic moving left), after a complete stop",
+      "detail": "A left turn on red is allowed where a one-way street meets another one-way street carrying traffic in the direction of the turn, after a full stop and yielding, unless posted. It is not allowed from a one-way street onto a two-way street.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 72,
+        "quote": "A left turn at a red light or stop signal is permitted at all intersections where a one-way street intersects with another one-way street and the traffic is moving in the same direction into which the left turn would be made."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 50 feet before turning or changing lanes",
+      "detail": "Turn on your turn signal at least 50 feet before a turn or lane change. If you are turning just past an intersection, wait until you are in the intersection to signal.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 70,
+        "quote": "At least 50 feet before the turn, you must turn on your turn signal lights."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the right edge and stop until it passes; never follow an emergency vehicle responding to an emergency or drive within the block where it stopped",
+      "detail": "For an approaching emergency vehicle with siren or flashing lights, pull parallel and close to the right edge or curb and stop until it passes (clear an intersection first; at a red light stay put). It is illegal to follow an emergency vehicle answering a call or to drive within the block where one has stopped.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 68,
+        "quote": "It is against the law to follow a fire truck or other emergency vehicle responding to a fire alarm or other emergency. It is also illegal to take your vehicle within the block of where the emergency vehicle has stopped to take care of the emergency."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "move_over_law",
+      "value": "On roads with 2+ lanes each way: move to a non-adjacent lane; slow down only if a lane change is unsafe",
+      "detail": "On interstates and multi-lane highways, move out of the lane next to any stopped emergency, utility, sanitation, tow, TDOT or other vehicle showing flashing lights (including ordinary cars with hazard flashers), on either shoulder. Only if changing lanes is unsafe may you slow down and stay in your lane.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 86,
+        "quote": "When safety and traffic conditions allow, the motorist must yield the right-of-way by making a lane change into a lane that is NOT adjacent to the stationary emergency vehicle. This requirement to move over applies, regardless of whether the emergency vehicle is on the right or left-hand side of the road."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop both ways for a stopped school or church bus with red lights/stop arm; no stop needed across a median or barrier (a center turn lane is not a barrier)",
+      "detail": "Traffic in both directions must stop for a school or church bus with red lights flashing and stop arm out, and stay stopped until the bus moves, the driver waves you on, or the signals go off. On a divided highway with a median or barrier, oncoming traffic need not stop, but a center turn lane does not count as a barrier. Fine $250-$1,000 (Class A misdemeanor).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 65,
+        "quote": "When driving on a highway with separate roadways for traffic in opposite directions, divided by median space or a barrier not suitable for vehicular traffic, the driver need not stop, but should proceed with caution. A turn lane in the middle of a four-lane highway is NOT considered a barrier, but a fifth lane that is suitable for vehicular traffic."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "following_distance",
+      "value": "At least 2 seconds; at least 4 seconds in bad weather, at night, at interstate speeds or behind a motorcycle",
+      "detail": "Use the two-second rule on state and U.S. highways with moderate speed limits. Increase to a minimum of four seconds for inclement weather, higher-speed interstate driving, night driving and when following a motorcycle.",
+      "number": 2,
+      "unit": "seconds",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 63,
+        "quote": "A minimum of four seconds should allow for better reaction time and a safer space cushion under these conditions including following a motorcycle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "headlights_required",
+      "value": "30 minutes after sunset to 30 minutes before sunrise; when you cannot see 200 feet ahead; whenever wipers are in constant use",
+      "detail": "Headlights must be on from 30 minutes after sunset until 30 minutes before sunrise, whenever daylight is too poor to see people or vehicles 200 feet ahead, and whenever rain, mist or snow requires constant wiper use.",
+      "number": 30,
+      "unit": "minutes",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 59,
+        "quote": "Your car headlights must be turned on 30 minutes after sunset until 30 minutes before sunrise."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "500 feet",
+      "detail": "Dim your high beams when an oncoming vehicle is within 500 feet (about one city block).",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 59,
+        "quote": "you must dim or lower the beam when an oncoming vehicle is within 500 feet (approximately the distance of one city block) or when you are following another vehicle within 500 feet."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "500 feet",
+      "detail": "Tennessee uses the same 500-foot distance when you are following another vehicle; glare in the mirror can blind the driver ahead, including a motorcyclist.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 59,
+        "quote": "you must dim or lower the beam when an oncoming vehicle is within 500 feet (approximately the distance of one city block) or when you are following another vehicle within 500 feet."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet",
+      "detail": "Do not park within 15 feet of a fire hydrant.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 79,
+        "quote": "Within 15 feet of a fire hydrant"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "20 feet",
+      "detail": "Do not park within 20 feet of a crosswalk or in the marked crosswalk area.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 79,
+        "quote": "Within 20 feet of a crosswalk or in the crosswalk marked area"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Not within an intersection (no added distance given)",
+      "detail": "The manual's no-parking list says only 'within an intersection'; the separate 20-foot crosswalk rule applies at intersections with crosswalks.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 79,
+        "quote": "Within an intersection"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet",
+      "detail": "Do not park within 30 feet of a traffic signal, stop sign or any other traffic control device.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 79,
+        "quote": "Within 30 feet of a traffic signal, stop sign or any other traffic control device"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet",
+      "detail": "Do not park within 50 feet of a railroad crossing.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 79,
+        "quote": "Within 50 feet of a railroad crossing"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet (same side); 75 feet (opposite side)",
+      "detail": "Do not park within 20 feet of a fire station driveway on the same side of the street, or within 75 feet of it on the other side of the street.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 79,
+        "quote": "Within 20 feet of a fire station driveway on the same side of the street or on the other side of the street within 75 feet of the fire station driveway"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "No more than 18 inches from the curb",
+      "detail": "After parallel parking, your vehicle should be no farther than 18 inches from the curb.",
+      "number": 18,
+      "unit": "inches",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 80,
+        "quote": "Upon completion of your parallel parking maneuver, the vehicle should be no farther away from the curb than 18 inches."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "Between 15 and 50 feet from the tracks",
+      "detail": "When a train is coming, stop between 15 and 50 feet from the railroad tracks and never on the tracks. School and church buses, vehicles carrying passengers for hire, and vehicles hauling flammables or explosives must stop at every crossing.",
+      "number": 15,
+      "unit": "feet (minimum)",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 64,
+        "quote": "When you approach a railroad crossing and a train is coming, you must stop between 15 and 50 feet from the railroad tracks."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet",
+      "detail": "Pass a bicyclist going your way slowly, with at least 3 feet of clearance, and keep that clearance until you are safely past.",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 77,
+        "quote": "When passing and overtaking a bicyclist proceeding in the same direction, do so slowly and leave at least a distance between you and the bicycle of not less than 3 feet."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Yield in marked and unmarked crosswalks; stop for pedestrians in school-zone crosswalks when flashers operate; stop at least 10 feet from a blind pedestrian",
+      "detail": "Yield to pedestrians in any crosswalk on your half of the road (or close enough to be in danger). In a marked school zone with flashers operating, you must stop for a crossing pedestrian and stay stopped until they finish crossing your roadway. For a pedestrian with a white cane or guide dog, stop at least 10 feet away and do not honk.",
+      "number": 10,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 67,
+        "quote": "Stop at least 10 feet away until the person is off the roadway. Do not use your horn, as it could startle the blind pedestrian;"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Notify police immediately if death, injury or damage over $50; file a report with TDOSHS within 20 days if injury/death or damage over $400",
+      "detail": "Immediately notify local police (or the sheriff or Highway Patrol outside a city) of any crash with death, injury or property damage over $50. Crashes with injury, death or more than $400 damage to any one person's property must be reported to the Department of Safety on an Owner/Driver Report within 20 days.",
+      "number": 20,
+      "unit": "days",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 103,
+        "quote": "Regardless of who is to blame, the operator and/or owner of a vehicle involved in a reportable crash in this state must file an Owner/Driver Report of the crash to the Tennessee Department of Safety and Homeland Security within 20 days."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "25/50/25 liability",
+      "detail": "Minimum liability coverage is $25,000 per person injured or killed, $50,000 total per accident, and $25,000 for property damage. You must show proof of financial responsibility when charged with any violation or involved in a crash.",
+      "number": 25000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://www.tn.gov/revenue/title-and-registration/drive-insured-tennessee/why-you-should-have-insurance.html",
+        "page": null,
+        "quote": "$25,000 for each injury or death per accident. $50,000 for total injuries or deaths per accident. $25,000 for property damage per accident."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "point_system",
+      "value": "Adults: 12+ points in 12 months = proposed suspension (advisory letter at 6-11); under 18: 6+ points = proposed suspension",
+      "detail": "Adults with 12 or more points in 12 months get a notice of proposed suspension, and an advisory letter goes out at 6 to 11 points. Drivers under 18 face proposed suspension at 6 points (advisory letter at 1 to 5). A Defensive Driving Course can avoid or shorten a suspension once every 5 years.",
+      "number": 12,
+      "unit": "points",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 100,
+        "quote": "Adult drivers (18 years of age or older) who accumulate 12 or more points within a 12-month period receive a notice of proposed suspension."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Universal helmet law: all operators and passengers",
+      "detail": "Everyone operating or riding a motorcycle must wear a crash helmet meeting federal standard 49 CFR 571.218 (riders 21+ may use certain ASTM/CPSC/Snell-labeled helmets). Riders 18+ are exempt only in a parade at 30 mph or less.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/MotorcycleManual.pdf",
+        "page": 23,
+        "quote": "A person operating or riding a motorcycle is required to wear a crash helmet meeting federal standard 49 CFR 571.218."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Illegal",
+      "detail": "Riding between lanes of traffic or between rows of vehicles (lane splitting) is illegal in Tennessee (Tenn. Code Ann. 55-8-182). Motorcycles may ride no more than two abreast in one lane, and cars may not deprive a motorcycle of full use of its lane.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/MotorcycleManual.pdf",
+        "page": 25,
+        "quote": "No person shall operate a motorcycle between lanes of traffic or between adjacent lines or rows of vehicles. (Lane Splitting is not allowed in the State of Tennessee)"
+      },
+      "status": "verified"
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Hand-held phone ban in active school zones",
+      "summary": "Since January 1, 2018 drivers 18 and older may not use a hand-held phone while moving in a marked school zone when the warning flashers are operating (hands-free is allowed for adults; for drivers under 18 it is a delinquent act).",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 44,
+        "quote": "it is an offense for persons 18 years or older to use a hand-held mobile phone while a motor vehicle is in motion in any marked school zone in this state, when a warning flasher or flashers are in operation."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Dark traffic signal = all-way stop",
+      "summary": "If a traffic signal is not working, Tennessee law requires treating the intersection as an all-way stop.",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 55,
+        "quote": "Tennessee state law requires that if a signal is not working, the intersection is to be treated as if it were a ll-way stop intersection."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Slow-moving vehicles must pull over for 5 or more vehicles",
+      "summary": "Driving 10 mph or more below the maximum makes you a slow-moving vehicle; if five or more vehicles are lined up behind you, turn or pull off when it is safe.",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 60,
+        "quote": "You are considered to be driving a slow-moving vehicle if you are traveling at a rate of speed that is 10 miles per hour or more below the lawful maximum speed. If five or more vehicles are lined up behind you, turn or pull off the roadway as soon as you can do so safely."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Work zone speeding fine $250-$500",
+      "summary": "Speeding in an active work zone carries a mandatory minimum fine of $250, up to $500, and higher points than ordinary speeding.",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 61,
+        "quote": "TENNESSEE LAW MANDATES A MINIMUM FINE OF $250 DOLLARS AND UP TO A MAXIMUM FINE OF $500 DOLLARS FOR VIOLATIONS OF THE SPEED LIMIT POSTED IN ACTIVE WORK ZONES."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Children in pickup truck beds",
+      "summary": "No child under 6 may ride in a pickup bed, and children 6-12 may not ride in a pickup bed on state or interstate highways (exceptions: parades at 20 mph or less, agricultural activities).",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 47,
+        "quote": "It is illegal in Tennessee to allow any child under the age of 6 to ride in the bed of a pickup truck. It is also against the law to allow any child between the ages of 6 and 12 to ride in the bed of a pickup truck on any state or interstate highway."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Leaving a child under 7 unattended in a vehicle",
+      "summary": "It is an offense to knowingly leave a child under 7 in a vehicle in a public place without supervision by someone at least 13 if conditions risk the child's health, the engine is running, or the keys are inside; $200 fine for a first offense, $500 after.",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 47,
+        "quote": "It is an offense for a person responsible for a child younger than 7 years of age to knowingly leave that child in a motor vehicle located on public property or while on the premises of any shopping center, trailer park, or any apartment house complex, or any other premises that is generally frequented by the public at large without being supervised in the motor vehicle by a person who is at least 13 years of age, if:"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Under-21 alcohol purchase or possession costs your license",
+      "summary": "Drivers aged 18-20 convicted of buying, trying to buy, or possessing alcohol lose their driving privilege for one year (two years for a second offense), even if they were not driving.",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 97,
+        "quote": "If you are 18, 19 or 20 years old and are convicted of purchasing, attempting to purchase, or possessing any alcoholic beverage, you will lose your privilege to drive for one year."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "DUI litter pickup in an \"I am a DRUNK DRIVER\" vest",
+      "summary": "Every DUI conviction requires, as a condition of probation, three eight-hour shifts of litter pickup while wearing clothing that reads \"I am a DRUNK DRIVER.\"",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 95,
+        "quote": "A DUI conviction also requires as a condition of probation, litter pick-up for three eight-hour shifts. While removing litter, the offender has to wear a vest or other clothing displaying the message, “I am a DRUNK DRIVER.”"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "DUI with a child passenger (Drunk Driving Child Protection Act)",
+      "summary": "DUI with a passenger under 18 adds a mandatory minimum 30 days in jail and a $1,000 minimum fine on top of the other DUI penalties.",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 96,
+        "quote": "There is a mandatory minimum jail sentence of 30 days, and a mandatory minimum fine of $1,000."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Move It for Safety (interstate crashes)",
+      "summary": "After an interstate crash with no serious injuries or deaths, drivers may move drivable vehicles to the emergency lane and wait there for police; never leave the scene.",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 87,
+        "quote": "If the vehicle is still drivable and there are NO SERIOUS PERSONAL INJURIES or deaths, you may pull the vehicle(s) to the emergency lane and await the arrival of a trooper or police officer to the crash scene."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Center two-way left-turn lane: no passing, max 300 feet",
+      "summary": "Shared center turn lanes are only for left turns in either direction; they cannot be used for passing or for traveling more than 300 feet.",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 74,
+        "quote": "These lanes cannot be used for passing and cannot be used for travel farther than 300 feet."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "U-turn restrictions",
+      "summary": "No U-turns where a signal or officer controls traffic, where you cannot see 500 feet each way, near curves or hill crests, between intersections in a city, or anywhere on an interstate.",
+      "source": {
+        "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+        "page": 73,
+        "quote": "At any rural or urban location where you cannot see traffic coming from both directions for at least 500 feet in each direction."
+      },
+      "status": "verified"
+    }
+  ],
+  "officialPracticeTests": [
+    "https://dl.safety.tn.gov/_/",
+    "https://www.tn.gov/safety/driver-services/classd/new-drivers.html"
+  ],
+  "gaps": [
+    "bac_limit_commercial: The Class D manual says only that lower BAC levels are set for commercial drivers (p. 94) without giving the number; the CDL manual was not checked.",
+    "open_container: Not covered in the Class D manual or the motorcycle manual.",
+    "speed_limit_business_district: The manual gives no business-district default; it only says to obey posted limits in business, residential and school zones (p. 61).",
+    "speed_limit_school_zone: No numeric limit in the manual (a 25 MPH school sign appears only as an illustration on p. 52); the fact records the reckless-driving/6-point penalty instead.",
+    "knowledgeTest: 30 questions / 60 minutes / 80% are published for the online (ages 15-17) knowledge test; TDOSHS publishes no separate question count or time limit for the in-center test.",
+    "motorcycleTest: Question count and passing score are not published by TDOSHS."
+  ]
+}

@@ -1,0 +1,757 @@
+{
+  "code": "IN",
+  "name": "Indiana",
+  "agency": {
+    "name": "Indiana Bureau of Motor Vehicles",
+    "abbreviation": "BMV",
+    "website": "https://www.in.gov/bmv/"
+  },
+  "handbook": {
+    "title": "Indiana Driver's Manual",
+    "edition": "Published July 2026 (current electronic edition on IN.gov/BMV as of Oct 2026)",
+    "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf"
+  },
+  "exam": {
+    "questions": 40,
+    "passingScore": 32,
+    "passingPercent": 80,
+    "timeLimitMinutes": null,
+    "roadSigns": "Yes. The exam has two separately scored components, traffic signs and traffic rules/laws, and you must answer at least 80% correctly on EACH component to pass.",
+    "format": "Computer-based multiple-choice exam at a BMV branch; no appointment needed (arrive at least 30 minutes before closing). An appointment is needed only to use a foreign-language interpreter or an ASL translator.",
+    "languages": "English plus Arabic, Burmese, Chin, Croatian, French, German, Haitian Creole, Hindi, Japanese, Korean, Mandarin (Simplified Chinese), Polish, Punjabi, Russian, Serbian, Spanish, Swahili, Tagalog and Vietnamese; ASL translator by appointment; applicant-arranged interpreter allowed for other languages.",
+    "retestWait": "Next business day after a failed knowledge exam. (Driving skills exam: 7 days; after a third failed skills exam on a permit, 2 months.)",
+    "notes": "BMV does not publish the total number of questions. Passing results are valid 180 days. Permit at 15 with driver-education enrollment, otherwise 16+. Probationary license at 16 with driver ed or 16 years 270 days without, after 180 days on the permit and 50 supervised hours (10 at night). Licenses issued under 21 are probationary until 21. The knowledge exam is also required for renewal when a driver 21+ has 6 or more active points, or when a license has been expired more than 180 days. The official site does not publish the number of questions; this practice exam uses 40 questions at the official 80% passing standard.",
+    "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/knowledge-exam/"
+  },
+  "motorcycleExam": null,
+  "cdlExam": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC (age 21 and older)",
+      "detail": "Driving while intoxicated or with a BAC over the legal limit of .08 is a criminal offense in Indiana. A BAC of 0.15 or more is a more serious Class A misdemeanor (IC 9-30-5-1).",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 28,
+        "quote": "Operating a vehicle while intoxicated or with a blood alcohol concentration (BAC) in excess of the legal limit (.08) is a criminal offense"
+      }
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% BAC for drivers under 21",
+      "detail": "A driver under 21 with a BAC of at least 0.02 but under 0.08 commits a Class C infraction, and the court may recommend a license suspension of up to 1 year. At 0.08 or more, the adult OWI law applies. Not stated in the Driver's Manual.",
+      "number": 0.02,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://iga.in.gov/ic/2026/Title_9.pdf",
+        "page": 739,
+        "quote": "operates a vehicle with an alcohol concentration equivalent to at least two-hundredths (0.02) gram but less than eight-hundredths (0.08) gram of alcohol per"
+      }
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC while driving a commercial motor vehicle",
+      "detail": "Operating a commercial motor vehicle at 0.04 to under 0.08 is a violation (Class C infraction); 0.08 or more falls under the general OWI law. Not stated in the Driver's Manual.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://iga.in.gov/ic/2026/Title_9.pdf",
+        "page": 555,
+        "quote": "An individual may not operate a commercial motor vehicle with an alcohol concentration equivalent to at least four-hundredths (0.04) gram"
+      }
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusing a chemical test: 1-year suspension (2 years with a prior OWI conviction)",
+      "detail": "An officer with probable cause may ask a driver to take a chemical test. Refusing means a 1-year suspension; a driver with a previous OWI conviction who refuses faces 2 years. Failing the test brings a 180-day suspension.",
+      "number": 1,
+      "unit": "years",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 29,
+        "quote": "A motorist who refuses to submit to a chemical test will face a suspension of driving privileges for one year."
+      }
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "Failed chemical test: 180-day suspension; OWI at 0.08-0.15 is a Class C misdemeanor",
+      "detail": "A driver who fails a chemical test faces a 180-day probable-cause suspension. A court may add a suspension after an OWI conviction and may order an ignition interlock or specialized driving privileges. By statute, 0.08 to under 0.15 is a Class C misdemeanor and 0.15 or more is a Class A misdemeanor (IC 9-30-5-1).",
+      "number": 180,
+      "unit": "days",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 29,
+        "quote": "A motorist who fails a chemical test will face a suspension of driving privileges for 180 days."
+      }
+    },
+    {
+      "key": "open_container",
+      "value": "No open alcohol container in the passenger compartment (Class C infraction)",
+      "detail": "It is illegal to have an opened container, one with a broken seal, or one with some contents removed in the passenger compartment while the vehicle is operated or is on a highway right-of-way. Exceptions include a locked console and, in vehicles without a trunk, behind the last upright seat. No points are assessed. Not stated in the Driver's Manual.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://iga.in.gov/ic/2026/Title_9.pdf",
+        "page": 784,
+        "quote": "A person in a motor vehicle who, while the motor vehicle is in operation or while the motor vehicle is located on the right-of-way of a public highway, possesses a container:"
+      }
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15 if enrolled in BMV-licensed driver education; otherwise 16",
+      "detail": "At 15 you must show a Certificate of Driver Education Enrollment from a BMV-licensed behind-the-wheel training provider. At 16 or older you need documents, a vision screening and the knowledge exam.",
+      "number": 15,
+      "unit": "years",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 8,
+        "quote": "Be at least 15 years of age and show proof of your enrollment in a BMV licensed behind-the-wheel training provider"
+      }
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "180 days",
+      "detail": "You must hold a valid Indiana learner's permit for at least 180 days before getting a driver's license (no holding period for applicants 18+ with a disability who completed driver rehabilitation training).",
+      "number": 180,
+      "unit": "days",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 14,
+        "quote": "You must hold a valid (not expired, suspended, or revoked) Indiana learner's permit for at least 180 days"
+      }
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "50 hours, including at least 10 at night",
+      "detail": "Applicants log 50 hours of supervised practice (State Form 54706), with at least 10 hours at night. The log must be signed by a parent or guardian if the applicant is under 18.",
+      "number": 50,
+      "unit": "hours",
+      "source": {
+        "url": "https://iga.in.gov/ic/2026/Title_9.pdf",
+        "page": 545,
+        "quote": "Completes at least fifty (50) hours of supervised driving practice, of which at least ten (10) hours are nighttime driving"
+      }
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Under 18: a licensed driver 25+ related to you, a licensed spouse 21+, or a licensed driver training instructor (18+: any licensed driver 25+ or spouse 21+)",
+      "detail": "Under 18, the supervising licensed driver must be at least 25 and related to you by blood, marriage or legal status, or be your licensed spouse who is at least 21, or a licensed driver training instructor (or certified driver rehabilitation specialist). At 18 or older, any licensed driver 25+ (or licensed spouse 21+) may supervise. The supervisor sits in the front passenger seat.",
+      "number": 25,
+      "unit": "years",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 9,
+        "quote": "You may also practice driving with a licensed driver who has valid (not expired, suspended, or revoked) driving privileges and is 25 years of age or older. The licensed driver must be related to you by blood, marriage, or legal status."
+      }
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 with driver education; 16 years and 270 days without",
+      "detail": "A probationary license requires age 16 with completion of a BMV-licensed driver education program, or 16 years and 270 days without it, plus 180 days holding the permit.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 14,
+        "quote": "You must be at least 16 years and 270 days of age without completion of a BMV licensed driver education program"
+      }
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "First 180 days: no driving 10 p.m.-5 a.m.; after that, under 18 has curfew hours",
+      "detail": "During the first 180 days of a probationary license you may not drive 10 p.m. to 5 a.m. After 180 days and while under 18: not after 11 p.m. Sunday-Thursday, not before 5 a.m. Monday-Friday, and not 1-5 a.m. Saturday and Sunday, with exceptions for work, school activities, religious events or a licensed driver 25+ (spouse 21+).",
+      "number": 180,
+      "unit": "days",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 15,
+        "quote": "For the first 180 days after obtaining your probationary driver's license, you may not drive between 10 p.m. and 5 a.m."
+      }
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "No passengers for the first 180 days unless a licensed adult 25+ (or spouse 21+ or instructor) is in the front seat",
+      "detail": "Exceptions allow your child, stepchild, sibling (including step or half-siblings) or spouse to ride without another accompanying adult.",
+      "number": 180,
+      "unit": "days",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 15,
+        "quote": "You may not drive with any passengers for the first 180 days after obtaining your probationary driver's license unless one of the following individuals is seated in your vehicle's front passenger seat"
+      }
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "21 (license is probationary until 21)",
+      "detail": "A license issued before age 21 is probationary until 21 and is valid until 21 years and 30 days. Renewing after turning 21 gives an unrestricted license.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 15,
+        "quote": "If you are younger than 21 years of age when you obtain a driver's license, your driver's license is considered probationary until you turn 21 years of age."
+      }
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "All drivers: no holding or using a phone unless hands-free (911 emergencies excepted)",
+      "detail": "Indiana bans holding or using a telecommunications device while driving a moving vehicle unless hands-free or voice-operated technology is used, or to call 911 in a real emergency. A hand-held device violation is 4 points.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 50,
+        "quote": "In Indiana, while driving it is illegal to text, call, or otherwise use telecommunication devices such as cell phones unless they are hands free."
+      }
+    },
+    {
+      "key": "texting_ban",
+      "value": "Texting/emailing while driving is banned for all drivers (hands-free/voice allowed)",
+      "detail": "You may not type, transmit or read a text or email while driving a moving vehicle unless using hands-free or voice-operated technology, or calling 911.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 16,
+        "quote": "Indiana Law prohibits individuals from using a telecommunications device to type, transmit, or read a text or an email message while operating a moving motor vehicle unless the device is used in conjunction with hands-free or voice-operated technology"
+      }
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Under 21: no telecommunications device at all while driving, even hands-free (911 only)",
+      "detail": "Drivers under 21 may not drive while using any telecommunications device, except to make a 911 emergency call. The manual states the probationary-license rule on p. 15.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://iga.in.gov/ic/2026/Title_9.pdf",
+        "page": 579,
+        "quote": "An individual who is less than twenty-one (21) years of age may not operate a motor vehicle while using a telecommunications device, unless the individual is using the telecommunications device to make a 911 emergency call."
+      }
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Driver and all passengers, front and back, at all times",
+      "detail": "Every occupant must wear a seat belt whenever the vehicle is in operation, even in vehicles with air bags; bus operators too. Limited exemptions apply (e.g., a written medical reason from a physician, some delivery vehicles).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 60,
+        "quote": "Indiana law requires a driver and all passengers to use seat belts at all times when a vehicle is in operation."
+      }
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Children under 8 in a child car seat or booster seat",
+      "detail": "Passengers younger than 8 must be properly secured in a child restraint system. The manual also passes on the National Safety Council recommendation to seat children under 12 in the back seat if there is a passenger air bag.",
+      "number": 8,
+      "unit": "years",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 61,
+        "quote": "Passengers younger than eight years of age are required by law to be properly secured in a child restraint system such as a child car seat or booster seat."
+      }
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Never faster than is reasonable and prudent for conditions",
+      "detail": "Even under the posted limit, you must slow for weather, road and traffic hazards; driving too fast for conditions is a Class C infraction.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://iga.in.gov/ic/2026/Title_9.pdf",
+        "page": 415,
+        "quote": "A person may not drive a vehicle on a highway at a speed greater than is reasonable and prudent under the conditions"
+      }
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "The lower posted school-zone limit (commonly 7 a.m.-4:30 p.m. weekdays or when beacons flash)",
+      "detail": "Indiana has no single statewide school-zone number in the manual; you must slow to the posted school-zone limit. Local authorities may also set lower limits whenever children are present.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 46,
+        "quote": "If you are driving near a school, you must slow down to the lower, posted speed limit for the school zone."
+      }
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "30 mph in most urban residential areas (15 mph in alleys)",
+      "detail": "Unless posted otherwise: 30 mph in most urban residential areas and 15 mph in alleys.",
+      "number": 30,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 46,
+        "quote": "In most urban residential areas, vehicles may not exceed 30 miles per hour or the posted speed limit"
+      }
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "30 mph in an urban district (no separate business-district limit)",
+      "detail": "Indiana law sets a 30 mph default for an urban district rather than a separate business-district limit. Not stated as a business-district rule in the Driver's Manual.",
+      "number": 30,
+      "unit": "mph",
+      "source": {
+        "url": "https://iga.in.gov/ic/2026/Title_9.pdf",
+        "page": 415,
+        "quote": "Thirty (30) miles per hour in an urban district."
+      }
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "60 mph on rural state divided highways; 55 mph on non-divided state highways and county roads",
+      "detail": "Unless posted otherwise, rural state divided highways are 60 mph. Non-divided state highways and county roads default to 55 mph.",
+      "number": 60,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 45,
+        "quote": "On a rural state divided highway, vehicles may not exceed 60 miles per hour or the posted speed limit."
+      }
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "70 mph on rural interstates (65 mph for trucks over 26,000 lbs; 55 mph urban interstates unless posted)",
+      "detail": "Rural interstates are outside urban areas of at least 50,000 people. Trucks with a declared gross weight over 26,000 pounds are limited to 65 mph there. Urban interstates default to 55 mph or the posted limit.",
+      "number": 70,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 45,
+        "quote": "Passenger vehicles may not exceed 70 miles per hour or the posted speed limit"
+      }
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Do not drive so slowly that you impede traffic; pull off if 3 or more vehicles are blocked on a two-lane road",
+      "detail": "On a road with one lane each way, a slow driver blocking 3 or more vehicles that cannot pass must pull off to the right at the earliest reasonable opportunity and let them pass. INDOT or local authorities may also post minimum speeds.",
+      "number": 3,
+      "unit": "vehicles",
+      "source": {
+        "url": "https://iga.in.gov/ic/2026/Title_9.pdf",
+        "page": 419,
+        "quote": "A person may not drive a motor vehicle at a slow speed that impedes or blocks the normal and reasonable movement of traffic"
+      }
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a full stop unless a No Turn on Red sign is posted",
+      "detail": "Stop fully, make sure no vehicles or pedestrians are in or about to enter your path, check for a No Turn on Red sign and use the correct lane.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 39,
+        "quote": "To turn right through an intersection with a red light or arrow, when permissible, you must come to a full stop, check to make sure that there are no vehicles and pedestrians in the path of your turn or about to enter the path of your turn"
+      }
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Allowed only from a one-way street onto a one-way street, after a full stop",
+      "detail": "The same stop-and-check rules as a right turn on red apply, and no No Turn on Red sign may be posted.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 39,
+        "quote": "You may turn left through an intersection with a red light or arrow if you are turning from a one-way street onto a one-way street."
+      }
+    },
+    {
+      "key": "signal_distance",
+      "value": "Signal before every turn or lane change (the manual gives no fixed distance)",
+      "detail": "The Driver's Manual requires a proper signal before turning or changing lanes but gives no distance. Indiana's former 200-ft/300-ft signal-distance statute (IC 9-21-8-25) was repealed in 2022 (P.L.118-2022).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 44,
+        "quote": "You must give a proper turn signal before turning or changing lanes."
+      }
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Yield, pull to the right edge clear of intersections and stop until the vehicle passes",
+      "detail": "For an approaching emergency vehicle using a siren or flashing red, red-and-white or red-and-blue lights, yield, pull parallel to the right edge or curb clear of any intersection, and stop until it passes. Do not follow a fire truck answering an alarm closer than 500 feet (IC 9-21-12-7).",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://iga.in.gov/ic/2026/Title_9.pdf",
+        "page": 437,
+        "quote": "Immediately drive to a position parallel to and as close as possible to the right-hand edge or curb of the highway clear of any intersection."
+      }
+    },
+    {
+      "key": "move_over_law",
+      "value": "Change lanes away from a stopped emergency, amber-light or hazard-flashing vehicle; if you cannot, slow to 10 mph under the limit",
+      "detail": "Applies to stationary emergency vehicles (Class A infraction), amber-light vehicles such as tow trucks, highway maintenance, utility and trash trucks (Class B), and disabled vehicles with hazard flashers (Class B).",
+      "number": 10,
+      "unit": "mph below limit",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 56,
+        "quote": "If you cannot move over, the motorists shall reduce their speed to 10 mph under the posted limit and proceed with caution."
+      }
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop for flashing red lights and extended stop arm; on a highway divided by a barrier or unimproved median, only same-direction traffic stops",
+      "detail": "Amber lights mean the bus is preparing to stop. Disregarding a stop arm can bring a 90-day court suspension (1 year for a repeat offense) under IC 9-21-12-1, and more serious charges if someone is hurt.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 57,
+        "quote": "If you are driving on a roadway divided by a barrier or unimproved median, you are required to stop only if you are traveling in the same direction as the school bus."
+      }
+    },
+    {
+      "key": "following_distance",
+      "value": "At least 2 to 3 seconds (3 to 4 seconds behind a motorcycle)",
+      "detail": "Count the time from when the vehicle ahead passes a fixed object until you pass it. Allow at least 3-4 seconds behind a motorcycle.",
+      "number": 2,
+      "unit": "seconds",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 46,
+        "quote": "A good rule for drivers to follow is to stay at least two to three seconds behind the vehicle ahead."
+      }
+    },
+    {
+      "key": "headlights_required",
+      "value": "Sunset to sunrise, and whenever visibility is under 500 feet",
+      "detail": "Headlights are also recommended in rain, snow and dust; use headlights and flashing emergency signals in fog.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 49,
+        "quote": "Drivers must use headlights between sunset and sunrise as well as at any other time in which visibility is less than 500 feet."
+      }
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "Within 500 feet of an oncoming vehicle",
+      "detail": "Switch to low beams when an oncoming vehicle is within 500 feet.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 49,
+        "quote": "lower headlight beams must be used when approaching within 500 feet of an oncoming vehicle"
+      }
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "Within 200 feet of a vehicle you are following",
+      "detail": "Switch to low beams when following within 200 feet of the rear of another vehicle.",
+      "number": 200,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 49,
+        "quote": "or when following within 200 feet of the rear of another vehicle"
+      }
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet",
+      "detail": "Do not park within 15 feet of a fire hydrant or in a fire lane.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 59,
+        "quote": "Within 15 feet of a fire hydrant or in fire lanes"
+      }
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "20 feet of a crosswalk at an intersection (and never on a crosswalk)",
+      "detail": "Indiana law bars stopping, standing or parking on a crosswalk or within 20 feet of a crosswalk at an intersection.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://iga.in.gov/ic/2026/Title_9.pdf",
+        "page": 474,
+        "quote": "Within twenty (20) feet of a crosswalk at an intersection."
+      }
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Not within an intersection",
+      "detail": "Parking within an intersection or on a crosswalk is prohibited; the 20-foot crosswalk rule also applies at intersections.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 59,
+        "quote": "Within intersections or on pedestrian crosswalks"
+      }
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet before a stop sign, traffic signal or flashing beacon",
+      "detail": "No stopping, standing or parking within 30 feet on the approach to a flashing beacon, stop sign or traffic control signal at the side of the road.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://iga.in.gov/ic/2026/Title_9.pdf",
+        "page": 474,
+        "quote": "Within thirty (30) feet upon the approach to any flashing beacon, stop sign, or traffic control signal located at the side of a roadway."
+      }
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet of the nearest rail",
+      "detail": "No stopping, standing or parking within 50 feet of the nearest rail of a railroad crossing.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://iga.in.gov/ic/2026/Title_9.pdf",
+        "page": 474,
+        "quote": "Within fifty (50) feet of the nearest rail of a railroad crossing."
+      }
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet of a fire station driveway (75 feet across the street when signposted)",
+      "detail": "On the side of the street opposite a fire station entrance, the limit is 75 feet when properly signposted.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://iga.in.gov/ic/2026/Title_9.pdf",
+        "page": 474,
+        "quote": "Within twenty (20) feet of the driveway entrance to a fire station"
+      }
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "Right-hand wheels parallel to and within 12 inches of the curb",
+      "detail": "Where there is a curb, park with the right-hand wheels within 12 inches of it, unless angle parking is allowed. Not stated in the Driver's Manual.",
+      "number": 12,
+      "unit": "inches",
+      "source": {
+        "url": "https://iga.in.gov/ic/2026/Title_9.pdf",
+        "page": 475,
+        "quote": "must be stopped or parked with the right-hand wheels of the vehicle parallel with and within twelve (12) inches of the right-hand curb."
+      }
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "Between 15 and 50 feet from the nearest rail",
+      "detail": "Vehicles carrying passengers for hire, school buses, and vehicles carrying explosives or flammable liquids must always stop 15-50 feet from the nearest rail. Under IC 9-21-8-39, any driver must stop within that 15-50 foot zone when a signal, lowered gate, flagman or approaching train warns of a train.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 53,
+        "quote": "Some vehicles are required by law to always stop at railroad crossings not closer than 15 feet or farther than 50 feet from the nearest rail."
+      }
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet",
+      "detail": "Pass a bicyclist only with a safe amount of room (minimum 3 feet) and no danger from oncoming traffic. Bicyclists may ride in either the bike lane or the travel lane.",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 57,
+        "quote": "Drivers may pass a bicyclist when there is a safe amount of room beside the bicyclist (minimum three feet)"
+      }
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Always yield to pedestrians; never turn in a way that makes a pedestrian stop or hurry",
+      "detail": "Always yield to pedestrians, and always yield to people who are visually impaired (white cane or guide dog).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 60,
+        "quote": "Do not make a turn that causes a pedestrian to stop, slow down, or make some other special effort to avoid a collision"
+      }
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Stop, stay at the scene, exchange information; notify police if anyone is hurt or killed",
+      "detail": "Show your license and give your name, address and vehicle registration number to everyone involved. If someone is injured or killed, give reasonable assistance and notify police (local police, sheriff or state police) as soon as possible. If you hit an unattended vehicle or property, try to notify the owner or call police. The BMV may later require proof of insurance (Certificate of Compliance).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 63,
+        "quote": "The driver must remain at the scene of the accident, giving their name, address, and registration number of the motor vehicle to everyone involved, in addition to showing his or her driver's license."
+      }
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "25/50/25 liability",
+      "detail": "$25,000 bodily injury or death of one person, $50,000 for two or more people in one accident, and $25,000 property damage. Driving uninsured leads to suspension and reinstatement fees ($250 first, $500 second, $1,000 third or later, for no-insurance suspensions after Jan. 1, 2015).",
+      "number": 25000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 27,
+        "quote": "The state minimum insurance standard is $25,000 for bodily injury to, or the death of, one individual; $50,000 for bodily injury to, or the death of, two or more people in any one accident; and $25,000 for property damages in any one accident."
+      }
+    },
+    {
+      "key": "point_system",
+      "value": "Points per violation (e.g., 2 for 1-15 mph over, 6 for 26+ over); points stay active 2 years",
+      "detail": "Examples: hand-held device 4, disregarding a stop/yield sign 4, failure to yield to an emergency vehicle 6, following too closely 6, driving while suspended 8. A BMV-approved Driver Safety Program gives a 4-point credit (once every 3 years). Drivers 21+ with 6 or more active points must take the knowledge exam to renew.",
+      "number": 2,
+      "unit": "years",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 26,
+        "quote": "Points stay active on your driver record for two years from the conviction date."
+      }
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Helmet (and eye protection) required under 18; helmet required for all motorcycle learner's permit holders",
+      "detail": "Riders and passengers under 18 must wear a DOT-compliant helmet plus protective glasses, goggles or a face shield. Motorcycle learner's permit holders of any age must wear a helmet (Driver's Manual p. 19). The statute's helmet requirement covers riders and passengers under 18; it does not require one for endorsed riders 18 and older.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://iga.in.gov/ic/2026/Title_9.pdf",
+        "page": 310,
+        "quote": "An individual less than eighteen (18) years of age who is operating or riding on a motorcycle or motor driven cycle on the streets or highways shall do the following:"
+      }
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Not permitted: a motorcycle is entitled to a full lane; at most two motorcycles may ride abreast in one lane",
+      "detail": "No vehicle may be driven in a way that deprives another of the full use of a lane. Two motorcycles (not autocycles) may share a lane side by side only if both riders consent. The statute does not use the term 'lane splitting'.",
+      "number": 2,
+      "unit": "motorcycles abreast",
+      "source": {
+        "url": "https://iga.in.gov/ic/2026/Title_9.pdf",
+        "page": 450,
+        "quote": "A motorcycle is entitled to the full use of a traffic lane and a vehicle may not be driven or operated in a manner that deprives another vehicle of the full use of a traffic lane."
+      }
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Two-minute rule at stuck red lights (motorcycles, MDCs, bicycles)",
+      "summary": "A motorcycle or motor driven cycle rider (and a bicyclist at a bicycle signal) may go through a steady red light after stopping for at least two minutes and using due caution. The rule does not apply to autocycles.",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 40,
+        "quote": "An operator approaching an intersection controlled by a traffic signal may proceed through a steady red light if the operator comes to a complete stop for at least two minutes and exercises due caution"
+      }
+    },
+    {
+      "title": "Yield to large vehicles in multi-lane roundabouts",
+      "summary": "In a multi-lane roundabout, drivers must yield to large vehicles such as tractor-trailers and buses, slowing or stopping if needed. If two large trucks enter together, the truck in the right lane yields to the one in the left lane.",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 45,
+        "quote": "When approaching or driving through a multi-lane roundabout, drivers must yield the right of way to large vehicles driving through the roundabout at the same time."
+      }
+    },
+    {
+      "title": "Aggressive driving is three or more listed acts in one episode",
+      "summary": "Indiana defines aggressive driving as committing at least three acts in one episode of continuous driving, such as tailgating, unsafe stopping, unnecessary horn use, failing to yield, unsafe speed or repeatedly flashing headlights.",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 51,
+        "quote": "a person engages in aggressive driving if, during one episode of continuous driving of a vehicle, the person does or commits at least three of the following"
+      }
+    },
+    {
+      "title": "Slow drivers must let 3 or more blocked vehicles pass",
+      "summary": "On a road with one lane in each direction, a slow driver who is blocking three or more vehicles that cannot pass must pull off to the right at the earliest reasonable opportunity and let them by (Class C infraction).",
+      "source": {
+        "url": "https://iga.in.gov/ic/2026/Title_9.pdf",
+        "page": 419,
+        "quote": "at a slow speed so that three (3) or more other vehicles are blocked and cannot pass on the left around the vehicle"
+      }
+    },
+    {
+      "title": "School discipline can suspend a teen's license",
+      "summary": "The BMV must suspend a juvenile's driving privileges when the school reports an expulsion, exclusion, second suspension in one school year, habitual truancy or withdrawal from school.",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 15,
+        "quote": "Indiana law requires the BMV to suspend the driving privileges of a juvenile upon notification from the juvenile's school administrator or principal"
+      }
+    },
+    {
+      "title": "Funeral processions have the right of way",
+      "summary": "Official processions, such as funeral processions, have the right of way even if a traffic signal indicates otherwise. An officer's command overrides signals and signs.",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 59,
+        "quote": "Official processions, such as a funeral procession, have the right of way regardless of a traffic signal that indicates otherwise."
+      }
+    },
+    {
+      "title": "Truck lane restrictions on interstates",
+      "summary": "Trucks must use the right lane where an interstate has two lanes in one direction, and the right two lanes where it has three or more.",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 51,
+        "quote": "Trucks are restricted to the right lane on sections of interstate with two lanes in one direction and restricted to the right two lanes of interstate with three lanes or more in one direction."
+      }
+    },
+    {
+      "title": "Work-site speed limits are at least 10 mph lower",
+      "summary": "Work-site speed limits are always at least 10 mph below the normal maximum for the area; some apply only when lights flash and others at all times.",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 46,
+        "quote": "Work site speed limits are always at least 10 miles per hour below the maximum established speed limit for the area."
+      }
+    },
+    {
+      "title": "Stay 500 feet behind fire trucks answering an alarm",
+      "summary": "Unless on official business, drivers may not follow fire apparatus responding to a fire alarm closer than 500 feet, or drive into or park in the block where it has stopped.",
+      "source": {
+        "url": "https://iga.in.gov/ic/2026/Title_9.pdf",
+        "page": 461,
+        "quote": "Follow any fire apparatus traveling in response to a fire alarm at a distance closer than five hundred (500) feet."
+      }
+    },
+    {
+      "title": "Acknowledge a traffic stop with your right turn signal",
+      "summary": "When an officer signals you to stop, turn on your right turn signal to acknowledge them, then pull onto the right-side shoulder (never the median). If no safe spot is available, slow down and use hazard lights.",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 65,
+        "quote": "Acknowledge the officer's presence by turning on your right turn signal."
+      }
+    },
+    {
+      "title": "New residents have 60 days to get an Indiana license",
+      "summary": "New Indiana residents must get an Indiana driver's license within 60 days and may not hold another state's credential at the same time.",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 7,
+        "quote": "When you become an Indiana resident, you have 60 days to obtain a new Indiana driver's license."
+      }
+    },
+    {
+      "title": "Driver Safety Program four-point credit",
+      "summary": "Completing a BMV-approved Driver Safety Program gives a four-point credit, allowed once every three years. If the BMV orders a DSP, you must complete it within 90 days or your license is suspended.",
+      "source": {
+        "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+        "page": 26,
+        "quote": "Each driver is allowed one four-point credit during a three-year period."
+      }
+    }
+  ],
+  "officialPracticeTests": [
+    "https://www.in.gov/bmv/files/practice-knowledge-exam.pdf",
+    "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_9.pdf"
+  ],
+  "verifiedOn": "2026-10-14"
+}
