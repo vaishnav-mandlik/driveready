@@ -1,0 +1,2149 @@
+[
+  {
+    "id": "ut.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the legal blood alcohol concentration (BAC) limit for drivers 21 and older in Utah?",
+    "choices": [
+      "0.02%",
+      "0.05%",
+      "0.08%",
+      "0.10%"
+    ],
+    "answer": 1,
+    "explanation": "Utah's per se limit is 0.05 BAC, lower than the 0.08 used in other states. If you are over 0.05, you violate the law.",
+    "difficulty": 1,
+    "ref": "Utah Driver Handbook, p. 62",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 30-year-old driver in Utah is stopped and tests at 0.06 BAC. Which statement is correct?",
+    "choices": [
+      "The driver is legal unless driving a commercial vehicle",
+      "The driver can only be charged if a crash occurred",
+      "The driver is over Utah's 0.05 limit and is violating the law",
+      "The driver is legal because the limit is 0.08"
+    ],
+    "answer": 2,
+    "explanation": "Utah's legal limit for adult drivers is 0.05 BAC, so 0.06 is over the limit. The 0.08 limit used elsewhere does not apply in Utah.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 62",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the BAC limit in Utah for a driver who holds a commercial driver license (CDL)?",
+    "choices": [
+      "0.05%",
+      "0.02%",
+      "0.08%",
+      "0.04%"
+    ],
+    "answer": 3,
+    "explanation": "The Utah handbook says you violate the law if you are over 0.05 BAC, or 0.04 for CDL drivers.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 62",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Can a Utah driver be convicted of impaired driving with a BAC below the legal limit?",
+    "choices": [
+      "Yes, if the driver is impaired to the degree that it is unsafe to drive",
+      "No, a BAC under the limit is always legal",
+      "Only if the driver is under 18",
+      "Only if the driver refuses a breath test"
+    ],
+    "answer": 0,
+    "explanation": "Utah law states that driving is a violation if you are impaired to the degree that it is unsafe to operate a vehicle, even if you are under the legal limit.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 62",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Utah's Not-a-Drop Act, a driver under 21 who has any measurable amount of alcohol in their body loses driving privileges for how long on a first offense?",
+    "choices": [
+      "30 days",
+      "6 months",
+      "90 days",
+      "1 year"
+    ],
+    "answer": 1,
+    "explanation": "The Not-a-Drop Act denies all driving privileges for six months for a first offense when a driver under 21 has any measurable alcohol in their body.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 62",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A driver 21 or older refuses a chemical test after a DUI arrest in Utah. On a first refusal, the license is revoked for:",
+    "choices": [
+      "6 months",
+      "36 months",
+      "18 months",
+      "120 days"
+    ],
+    "answer": 2,
+    "explanation": "Under Utah's implied consent law, refusing a chemical test revokes the license for 18 months on a first offense and 36 months for a second or later offense.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 63",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 19-year-old refuses a chemical test for the first time after being arrested for DUI. How long is the license revoked?",
+    "choices": [
+      "18 months",
+      "6 months",
+      "36 months",
+      "Two years or until age 21, whichever is longer"
+    ],
+    "answer": 3,
+    "explanation": "For drivers under 21, a first refusal brings revocation for two years or until 21, whichever is longer. The 18-month period applies to drivers 21 and older, and 36 months is for a second or later refusal.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 63",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Utah's implied consent law, which chemical tests may an officer ask you to submit to?",
+    "choices": [
+      "Breath, blood, urine, or oral fluids",
+      "Breath only",
+      "Blood only",
+      "Only a roadside sobriety test"
+    ],
+    "answer": 0,
+    "explanation": "By driving a vehicle or motorboat in Utah, you are considered to have agreed to a chemical test of your breath, blood, urine, or oral fluids if a peace officer asks.",
+    "difficulty": 1,
+    "ref": "Utah Driver Handbook, p. 63",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.009",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "For a driver 21 or older, what license suspension follows a first DUI conviction in Utah?",
+    "choices": [
+      "2 years",
+      "120 days",
+      "90 days",
+      "1 year"
+    ],
+    "answer": 1,
+    "explanation": "On the first DUI conviction for a driver 21 and older, the license is suspended for 120 days; a second or later offense brings two years.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 62",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.010",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "After a first DUI conviction, how long is a driver who was 21 or older at arrest restricted to vehicles with an ignition interlock device (IID)?",
+    "choices": [
+      "3 years",
+      "10 years",
+      "18 months",
+      "6 months"
+    ],
+    "answer": 2,
+    "explanation": "A first DUI conviction automatically brings an 18-month ignition interlock restriction, or three years if the driver was under 21 when arrested.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 64",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.011",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A driver was 20 years old when arrested for a first DUI and is later convicted. How long is the ignition interlock restriction?",
+    "choices": [
+      "18 months",
+      "1 year",
+      "6 months",
+      "3 years"
+    ],
+    "answer": 3,
+    "explanation": "The ignition interlock restriction after a first DUI is 18 months, but it is three years if the person was under 21 at the time of arrest.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 64",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.012",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "After reinstating a license on alcohol-restricted status, a driver is convicted of driving with any measurable alcohol during the restricted period. What is the result?",
+    "choices": [
+      "The license is revoked for one year",
+      "A warning letter is issued",
+      "A 30-day suspension",
+      "Nothing, if the BAC was under 0.05"
+    ],
+    "answer": 0,
+    "explanation": "An alcohol-restricted driver may not drive with any alcohol in their body. A conviction for driving with any measurable alcohol during that period revokes the license for one year.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 63",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.013",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A passenger in a car on a Utah highway keeps an opened bottle of wine in the glove compartment. Is this legal?",
+    "choices": [
+      "Yes, if the car is parked on the shoulder",
+      "No, an opened alcohol container may not be kept in the passenger compartment, including the glove compartment",
+      "Yes, because only the driver is restricted",
+      "Yes, as long as nobody drinks from it"
+    ],
+    "answer": 1,
+    "explanation": "Utah law bans keeping an opened alcoholic beverage container in the passenger compartment, which includes the glove compartment, while on a highway. Only a separate trunk or areas not reachable from inside are allowed.",
+    "difficulty": 2,
+    "ref": "Utah Code 41-6a-526",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.014",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "When can a Utah officer stop a vehicle just because someone inside is not buckled up?",
+    "choices": [
+      "Never; belt violations are cited only after a stop for something else",
+      "Only on interstate highways",
+      "When an unrestrained occupant is under 16 years old",
+      "Only when the driver is unbuckled"
+    ],
+    "answer": 2,
+    "explanation": "You may be stopped and cited if anyone under 16 is unrestrained. Occupants 16 and older may be cited for a belt violation only if stopped for another reason.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 38",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.015",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "In Utah, how can a seat belt citation fine be waived?",
+    "choices": [
+      "By buckling up after the officer arrives",
+      "By paying a $10 processing fee",
+      "By attending traffic school for 8 hours",
+      "By completing an online 30-minute safety belt course"
+    ],
+    "answer": 3,
+    "explanation": "The handbook says a safety belt fine may be waived upon completing an online, 30-minute safety belt safety course.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 38",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.016",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Utah children aged eight and under must ride in an approved child safety seat unless they are at least how tall?",
+    "choices": [
+      "57 inches",
+      "48 inches",
+      "60 inches",
+      "52 inches"
+    ],
+    "answer": 0,
+    "explanation": "All children eight and under must be secured in an approved child safety seat unless they are 57 inches tall.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 38",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.017",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 7-year-old who is 50 inches tall is riding in your car in Utah. How must the child be secured?",
+    "choices": [
+      "No restraint is required for children over 6",
+      "In an approved child safety seat or booster",
+      "With an adult seat belt only",
+      "In the front seat with an air bag"
+    ],
+    "answer": 1,
+    "explanation": "Children eight and under must be in an approved child safety seat unless they are 57 inches tall. At 50 inches, this child still needs a car seat or booster.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 38",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.018",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "In Utah, it is an infraction to smoke in a vehicle while transporting children of what age?",
+    "choices": [
+      "12 years of age or younger",
+      "17 years of age or younger",
+      "15 years of age or younger",
+      "8 years of age or younger"
+    ],
+    "answer": 2,
+    "explanation": "It is an infraction to be stopped for smoking in a vehicle while transporting children 15 years of age or younger.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 39",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.019",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A driver aged 25 wants to place a phone call while driving in Utah. What does Utah law allow?",
+    "choices": [
+      "Dialing by hand if the call is short",
+      "Holding the phone to the ear on rural roads only",
+      "No phone calls of any kind",
+      "Talking on the phone if voice commands are used to connect the call"
+    ],
+    "answer": 3,
+    "explanation": "Utah allows drivers over 18 to talk on a handheld wireless device while driving as long as voice commands are used to connect the call. Manually dialing a number while moving is prohibited.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 69",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.020",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 17-year-old Utah driver may use a handheld wireless device while driving to:",
+    "choices": [
+      "Communicate with a parent or legal guardian",
+      "Call a friend using speakerphone",
+      "Change a song playlist",
+      "Send a short text at low speed"
+    ],
+    "answer": 0,
+    "explanation": "Drivers under 18 may use a handheld device while driving only for a medical emergency, to report a safety hazard or criminal activity, or to communicate with a parent or legal guardian.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 69",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.021",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "What is the maximum fine for a first texting-while-driving conviction in Utah (no injury involved)?",
+    "choices": [
+      "$500, as a class A misdemeanor",
+      "$100, as a class C misdemeanor",
+      "$50, as an infraction",
+      "$1,000, as a felony"
+    ],
+    "answer": 1,
+    "explanation": "A texting violation is a class C misdemeanor with a maximum fine of $100, or a class B misdemeanor if it causes bodily injury or is a repeat offense.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 69",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.022",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Utah law, a driver who commits a moving violation while searching for an item in the vehicle or grooming can be charged with:",
+    "choices": [
+      "Road rage",
+      "Impaired driving",
+      "Careless driving",
+      "Reckless driving"
+    ],
+    "answer": 2,
+    "explanation": "Careless driving includes committing a moving traffic violation while distracted by an activity unrelated to driving, such as searching for an item or grooming, or committing two or more moving violations in one continuous period of driving.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 11",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.023",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age to get an entry-level learner permit in Utah?",
+    "choices": [
+      "14",
+      "15 and a half",
+      "16",
+      "15"
+    ],
+    "answer": 3,
+    "explanation": "The entry-level learner permit lets you drive with a qualified supervisor once you reach a minimum age of 15.",
+    "difficulty": 1,
+    "ref": "Utah Driver Handbook, p. 17",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.024",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old in Utah wants a first Class D license. How long must they have held a learner permit?",
+    "choices": [
+      "6 months",
+      "90 days",
+      "1 year",
+      "No holding period"
+    ],
+    "answer": 0,
+    "explanation": "Applicants aged 16 and 17 must hold a learner permit for six months to be eligible for a first-time regular Class D license.",
+    "difficulty": 1,
+    "ref": "Utah Driver Handbook, p. 17",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.025",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "An 18-year-old who has never been licensed applies for a Utah license. What is the learner permit holding period?",
+    "choices": [
+      "1 year",
+      "No holding period, but an approved driver education course is required",
+      "6 months",
+      "90 days"
+    ],
+    "answer": 1,
+    "explanation": "At age 18 there is no permit holding period, but the applicant must complete an approved driver education course.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 17",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.026",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 22-year-old who has never driven chooses NOT to take driver education. How long must they hold a Utah learner permit before getting a license?",
+    "choices": [
+      "30 days",
+      "No holding period",
+      "90 days",
+      "6 months"
+    ],
+    "answer": 2,
+    "explanation": "Applicants 19 or older may skip driver education if they hold a learner permit for 90 days and complete 40 hours of driving, 10 after sunset.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 16",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.027",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many hours of supervised driving with a parent or guardian must a Utah teen (15-18) complete before licensing?",
+    "choices": [
+      "50 hours",
+      "30 hours",
+      "20 hours",
+      "40 hours"
+    ],
+    "answer": 3,
+    "explanation": "Along with driver education, a student must complete 40 hours of driving, including 10 hours after sunset, with a parent or legal guardian.",
+    "difficulty": 1,
+    "ref": "Utah Driver Handbook, p. 16",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.028",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Of the required supervised practice hours for a Utah teen, how many must be driven after sunset?",
+    "choices": [
+      "10 hours",
+      "5 hours",
+      "15 hours",
+      "20 hours"
+    ],
+    "answer": 0,
+    "explanation": "Teens must complete 40 hours of supervised driving, and 10 of those hours must be after sunset.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 16",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.029",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 15-year-old with an entry-level learner permit wants to practice with a family friend who is not a parent or instructor. What must be true of the friend?",
+    "choices": [
+      "Only parents may supervise a permit driver",
+      "The friend must be a licensed driver age 21 or older",
+      "The friend must be at least 18",
+      "The friend must hold a CDL"
+    ],
+    "answer": 1,
+    "explanation": "The person next to a permit driver may be a licensed parent, stepparent, foster parent, legal guardian, approved driving instructor, or responsible adult age 21 or older.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 17",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.030",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age to obtain an original regular Class D driver license in Utah?",
+    "choices": [
+      "17",
+      "18",
+      "16",
+      "15"
+    ],
+    "answer": 2,
+    "explanation": "To obtain an original regular Class D license, you must be at least 16. Applicants under 19 must also complete approved driver education.",
+    "difficulty": 1,
+    "ref": "Utah Driver Handbook, p. 20",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.031",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old Utah driver with a license (not a permit) may NOT drive during which hours, unless an exception applies?",
+    "choices": [
+      "11 p.m. to 5 a.m.",
+      "10 p.m. to 6 a.m.",
+      "1 a.m. to 6 a.m.",
+      "12 a.m. to 5 a.m."
+    ],
+    "answer": 3,
+    "explanation": "Licensed 16-year-olds have a nighttime restriction from 12 a.m. to 5 a.m.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 18",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.032",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which situation is an exception to the midnight-to-5 a.m. restriction for a licensed 16-year-old in Utah?",
+    "choices": [
+      "Driving to or from work",
+      "Driving friends home from a party",
+      "Driving with an 18-year-old licensed sibling",
+      "Driving only on freeways"
+    ],
+    "answer": 0,
+    "explanation": "Exceptions include being accompanied by a licensed driver 21 or older in the front seat, agricultural assignments, driving to and from work or a school-sponsored activity, and emergencies.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 18",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.033",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "For how long after a 16-year-old gets a Utah driver license are passengers limited to immediate family members (unless an exception applies)?",
+    "choices": [
+      "Until age 18",
+      "Six months from the issue date",
+      "Three months",
+      "One year"
+    ],
+    "answer": 1,
+    "explanation": "A 16-year-old with a driver license may carry immediate family members only until six months from the license issue date, unless accompanied by a licensed driver 21 or older in the front seat, on agricultural assignment, or in an emergency.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 18",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.034",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "In Utah, a \"provisional license\" is a license issued to anyone under what age?",
+    "choices": [
+      "17",
+      "19",
+      "21",
+      "18"
+    ],
+    "answer": 2,
+    "explanation": "Utah defines a provisional license as a license issued to any person under 21. Provisional drivers use a separate point system.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 13",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.035",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Utah driver under 21 must appear for a driver improvement hearing after collecting how many points within three years?",
+    "choices": [
+      "200 points",
+      "100 points",
+      "50 points",
+      "70 points"
+    ],
+    "answer": 3,
+    "explanation": "Drivers under 21 are called to a hearing at 70 points or more within three years; drivers over 21 at 200 points.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 82",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.036",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Utah driver over 21 is asked to appear for a hearing after acquiring how many points within a three-year period?",
+    "choices": [
+      "200 points",
+      "70 points",
+      "150 points",
+      "12 points"
+    ],
+    "answer": 0,
+    "explanation": "Over 21, you will be asked to appear for a hearing if you acquire 200 or more points within three years.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 82",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.037",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Under Utah's point system, which violation carries the most points?",
+    "choices": [
+      "Following too closely",
+      "Reckless driving",
+      "Running a red light",
+      "Texting while driving"
+    ],
+    "answer": 1,
+    "explanation": "Reckless driving is 80 points. Following too closely is 60, and running a red light and texting are each 50.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 82",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.038",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "If you drive one full year without a moving violation conviction in Utah, what happens to the points on your record?",
+    "choices": [
+      "50 points are removed",
+      "Nothing until three years pass",
+      "Half of the total points are removed",
+      "All points are removed"
+    ],
+    "answer": 2,
+    "explanation": "Half of your total points are removed after one full year without a moving violation conviction; two successive clean years remove all points.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 83",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.039",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Completing a division-recommended defensive driving course can remove how many points from a Utah record?",
+    "choices": [
+      "100 points, once a year",
+      "All points, any time",
+      "25 points, every year",
+      "50 points, once in any three-year period"
+    ],
+    "answer": 3,
+    "explanation": "Completing a recommended defensive driving course removes 50 points, allowed only once during any three-year period.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 83",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.040",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What score must you reach to pass the Utah written knowledge test?",
+    "choices": [
+      "80% or better",
+      "70% or better",
+      "75% or better",
+      "90% or better"
+    ],
+    "answer": 0,
+    "explanation": "The Utah written knowledge test is not timed, but you must pass with a score of 80% or better.",
+    "difficulty": 1,
+    "ref": "Utah Driver Handbook, p. 33",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.041",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "First-time Utah Class D applicants must also pass the online Traffic Safety and Trends Exam. What score is required?",
+    "choices": [
+      "90%",
+      "100%",
+      "80%",
+      "70%"
+    ],
+    "answer": 1,
+    "explanation": "All first-time applicants must pass the Traffic Safety and Trends Exam with a 100% score. It is offered only on the DLD website and can be taken as often as needed.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 33",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.042",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "After moving, how soon must a Utah Class D license holder notify the Driver License Division of the new address?",
+    "choices": [
+      "Within 60 days",
+      "At the next renewal",
+      "Within 10 days",
+      "Within 30 days"
+    ],
+    "answer": 2,
+    "explanation": "Class D holders must notify the division of a new address within 10 days of moving. CDL holders must apply for a duplicate within 30 days.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 29",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.043",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A new Utah resident holds a learner permit from another state. May they practice driving in Utah on that permit?",
+    "choices": [
+      "Yes, for up to six months",
+      "Yes, if a parent is in the car",
+      "Yes, until the permit expires",
+      "No, drivers with an out-of-state learner permit may not drive in Utah"
+    ],
+    "answer": 3,
+    "explanation": "The handbook states that drivers with an out-of-state learner permit may NOT drive in Utah. Visitors with a valid out-of-state license (not a permit) may drive for up to six months.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 28",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.044",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "In Utah, knowingly operating a motor vehicle without owner's security (insurance) is:",
+    "choices": [
+      "A class B misdemeanor",
+      "A minor infraction with a warning",
+      "Legal for 30 days after purchase",
+      "Only a civil matter"
+    ],
+    "answer": 0,
+    "explanation": "Anyone who knowingly operates a vehicle, or permits one to be operated, without owner's security is guilty of a class B misdemeanor and may lose their license, registration, and plates.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 78",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.045",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "For a Utah auto policy issued or renewed on or after January 1, 2025, what is the minimum bodily injury liability coverage for one person?",
+    "choices": [
+      "$50,000",
+      "$30,000",
+      "$25,000",
+      "$15,000"
+    ],
+    "answer": 1,
+    "explanation": "Utah requires at least $30,000 per person and $65,000 per accident for bodily injury, plus $25,000 for property damage, on policies issued or renewed on or after January 1, 2025. The older minimum was $25,000.",
+    "difficulty": 3,
+    "ref": "Utah Code 31A-22-304",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.046",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Besides liability insurance, which coverage is mandatory for Utah drivers?",
+    "choices": [
+      "Comprehensive",
+      "Rental car reimbursement",
+      "Personal injury protection (PIP, or \"no-fault\")",
+      "Collision"
+    ],
+    "answer": 2,
+    "explanation": "Personal injury protection (no-fault) coverage is mandatory in Utah. Collision and comprehensive are not required by law, though a lien holder may require them.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 79",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.047",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Under Utah law, what can a court do to a driver's license on the first conviction for a citation with a road rage enhancement?",
+    "choices": [
+      "Nothing; road rage is not a traffic offense",
+      "Revoke it for life",
+      "Add 10 points only",
+      "Suspend it for one year"
+    ],
+    "answer": 3,
+    "explanation": "Road rage is a criminal offense committed by a driver in response to a roadway incident with intent to endanger or intimidate. The court may suspend the license for one year on the first conviction.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 66",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.048",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "In Utah, you must notify law enforcement immediately after a crash that causes injury, death, or total property damage of at least:",
+    "choices": [
+      "$2,500",
+      "$1,000",
+      "$500",
+      "$1,500"
+    ],
+    "answer": 0,
+    "explanation": "If a crash results in injuries, death, or at least $2,500 in total property damage, you must notify law enforcement (911) immediately, even if no other driver was involved.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 75",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.049",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "In Utah, failing to stop at the scene of a crash in which someone was injured is:",
+    "choices": [
+      "Legal if you call 911 later",
+      "A third-degree felony",
+      "A class C misdemeanor",
+      "An infraction"
+    ],
+    "answer": 1,
+    "explanation": "The handbook notes it is a third-degree felony to fail to stop at the scene of an injury crash.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 75",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.050",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You have a minor, property-damage-only crash in a freeway travel lane and no one is hurt. What does Utah law allow?",
+    "choices": [
+      "Drive home and report the crash the next day",
+      "Exchange information while standing in the travel lane",
+      "Move the vehicles out of the travel lanes to a safe nearby location, then remain there",
+      "Leave the vehicles exactly where they stopped until police arrive"
+    ],
+    "answer": 2,
+    "explanation": "For property-damage-only crashes, you may move the vehicle out of the travel lanes, such as off the freeway main lines to an exit ramp shoulder or frontage road, and must remain at that location until all requirements are met.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 75",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.051",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Your car breaks down on the highway. How far behind it does the Utah handbook say to place flares or triangles?",
+    "choices": [
+      "50 to 100 feet",
+      "500 to 600 feet",
+      "25 feet",
+      "200 to 300 feet"
+    ],
+    "answer": 3,
+    "explanation": "Put emergency flares or triangles 200 to 300 feet behind your vehicle so other drivers have time to change lanes or slow down.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 77",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.052",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless posted otherwise, what is the speed limit in Utah when passing a school building or grounds during recess?",
+    "choices": [
+      "20 mph",
+      "15 mph",
+      "25 mph",
+      "30 mph"
+    ],
+    "answer": 0,
+    "explanation": "Utah permits 20 mph when passing a school during recess, while children are going to or leaving school, or when the flashing lights are operating.",
+    "difficulty": 1,
+    "ref": "Utah Driver Handbook, p. 54",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.053",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "With no speed limit sign posted, what is the speed limit in a Utah residential area?",
+    "choices": [
+      "35 mph",
+      "25 mph",
+      "20 mph",
+      "30 mph"
+    ],
+    "answer": 1,
+    "explanation": "When there is no sign and no special hazards, 25 mph is permitted in any business or residential area.",
+    "difficulty": 1,
+    "ref": "Utah Driver Handbook, p. 54",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.054",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are driving through a Utah business district with no posted speed limit. What is the limit?",
+    "choices": [
+      "30 mph",
+      "40 mph",
+      "25 mph",
+      "35 mph"
+    ],
+    "answer": 2,
+    "explanation": "Utah's default limit in any business or residential area is 25 mph when no sign is posted.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 54",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.055",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the highest speed limit that may be posted on Utah's rural interstate highways?",
+    "choices": [
+      "75 mph",
+      "70 mph",
+      "85 mph",
+      "80 mph"
+    ],
+    "answer": 3,
+    "explanation": "Utah rural interstates may be posted at 65, 70, 75, or 80 mph. Transition zones are marked with pavement markings and extra signs.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 54",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.056",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What minimum following distance does the Utah handbook recommend behind the vehicle ahead on a freeway?",
+    "choices": [
+      "At least two seconds",
+      "At least four seconds",
+      "One car length per 10 mph",
+      "At least one second"
+    ],
+    "answer": 0,
+    "explanation": "Utah teaches the two-second rule: always maintain at least two seconds following distance, and increase it under adverse conditions.",
+    "difficulty": 1,
+    "ref": "Utah Driver Handbook, p. 49",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.057",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "According to the Utah handbook, how should you adjust your following distance at night?",
+    "choices": [
+      "Increase it by half a second",
+      "Increase it by at least two seconds",
+      "Keep it the same as daytime",
+      "Reduce it so you can use the other car's lights"
+    ],
+    "answer": 1,
+    "explanation": "The handbook advises increasing your following distance at night by at least two seconds.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 71",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.058",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "How are speeding fines handled in a Utah highway construction zone?",
+    "choices": [
+      "Only a warning is given if no workers are present",
+      "The fine is reduced at night",
+      "The fine is at least twice the regular speeding fine",
+      "The fine is the same as anywhere else"
+    ],
+    "answer": 2,
+    "explanation": "Courts are required to fine a driver who speeds in a highway construction zone at least twice the regular fine.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 69",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.059",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You drive well below the speed of traffic in Utah, holding up a line of cars with no safety reason. What can happen?",
+    "choices": [
+      "Nothing, because driving slowly is always legal",
+      "Only trucks can be cited for slow driving",
+      "You can be cited only on rural roads",
+      "You can be cited for impeding the normal flow of traffic"
+    ],
+    "answer": 3,
+    "explanation": "Do not drive so slowly that you become a danger; Utah peace officers may cite you for impeding the normal flow of traffic.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 55",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.060",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "How long before turning does Utah require you to signal?",
+    "choices": [
+      "At least two seconds",
+      "At least 100 feet",
+      "At least five seconds",
+      "At least 200 feet"
+    ],
+    "answer": 0,
+    "explanation": "Utah measures signaling in time: signals are required for two seconds before turning and two seconds before any lane change.",
+    "difficulty": 1,
+    "ref": "Utah Driver Handbook, p. 44",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.061",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "Under Utah's 2026 law change (HB 128), what changed about roundabouts?",
+    "choices": [
+      "Pedestrians may no longer cross at roundabouts",
+      "Drivers are no longer required to signal their intention to turn in a roundabout",
+      "Drivers must now stop before entering every roundabout",
+      "Roundabouts now flow clockwise"
+    ],
+    "answer": 1,
+    "explanation": "HB 128, effective May 6, 2026, removed the requirement to signal intention to turn when navigating a roundabout. You must still slow down and yield to traffic and pedestrians.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 4",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.062",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "On I-15, an express (carpool) lane is separated from the general lanes by a double white line. When may you move in or out?",
+    "choices": [
+      "Anywhere the double line is faded",
+      "Only at exits",
+      "Only at access points marked with white dotted striping",
+      "Anywhere, if you signal first"
+    ],
+    "answer": 2,
+    "explanation": "It is illegal to cross a double white line. You may move in and out of the express lanes only at access points with white dotted striping.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 50",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.063",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "When using a shared center left-turn lane in Utah, how far before your turn may you enter it (unless a line of cars already extends farther)?",
+    "choices": [
+      "No more than 100 feet",
+      "No more than 1,000 feet",
+      "Any distance",
+      "No more than 500 feet"
+    ],
+    "answer": 3,
+    "explanation": "You may not enter a shared left-turn lane more than 500 feet before making the turn, unless the last car is more than 500 feet from the intersection.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 54",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.064",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "Who may use Utah's I-15 express lanes free of charge?",
+    "choices": [
+      "Vehicles with two or more people, motorcycles, buses, and clean-fuel vehicles with a C decal",
+      "Any vehicle during rush hour",
+      "Only buses and emergency vehicles",
+      "Only vehicles with three or more people"
+    ],
+    "answer": 0,
+    "explanation": "Express lanes are free for vehicles carrying two or more persons, motorcycles, buses, and vehicles with a registered clean fuel C decal. Solo drivers need an Express Pass.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 50",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.065",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "You are driving in the left lane of a multi-lane Utah highway and a faster car comes up behind you. What does Utah law require?",
+    "choices": [
+      "Brake to make the driver back off",
+      "Move safely to the right to let it pass",
+      "Stay in the left lane if you are at the speed limit",
+      "Speed up to match the other car"
+    ],
+    "answer": 1,
+    "explanation": "A vehicle in the left lane must move safely to the right when approached from behind. You can be cited for impeding traffic if you do not.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 49",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.066",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "A police car with flashing lights comes up behind you while you are in an I-15 express lane. What may you do?",
+    "choices": [
+      "Stop immediately in the express lane",
+      "Move left onto the median shoulder",
+      "Make a right-hand lane change out of the express lane when safe, even across the double white line",
+      "Stay in the express lane until the next access point"
+    ],
+    "answer": 2,
+    "explanation": "When followed by an emergency or police vehicle with flashing lights, it is permissible, when safe, to make a right-hand lane change out of the express lane.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 50",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.067",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "It is against Utah law to cross over or drive in the \"gore area.\" What is the gore area?",
+    "choices": [
+      "The paved shoulder of a rural road",
+      "The left lane of a freeway",
+      "A painted bicycle lane",
+      "The area between the solid white lines separating a through lane from an entrance or exit lane"
+    ],
+    "answer": 3,
+    "explanation": "The gore area lies between the solid white lines of a traffic lane and a lane used to enter or exit it, and also appears where two highways merge or split.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 41",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.068",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "When passing on a two-lane road in Utah, you must return to the right lane no less than how far from oncoming vehicles?",
+    "choices": [
+      "200 feet",
+      "100 feet",
+      "500 feet",
+      "50 feet"
+    ],
+    "answer": 0,
+    "explanation": "The Utah handbook says to return to the right-hand lane no less than 200 feet from oncoming vehicles.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 44",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.069",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "A snowplow with flashing yellow lights is clearing a Utah highway. Where may you NOT pass it?",
+    "choices": [
+      "Only in the right lane",
+      "On the side where its plow blade is deployed",
+      "On the side without a blade",
+      "Anywhere, as long as you honk first"
+    ],
+    "answer": 1,
+    "explanation": "You may not pass or overtake a snowplow displaying flashing yellow lights on the side where the plow blade is deployed.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 44",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.070",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "Three snowplows are working side by side in echelon formation on a Utah freeway. When may you pass them?",
+    "choices": [
+      "On the right shoulder",
+      "Whenever the lane next to them is clear",
+      "You may not pass them on either side",
+      "On the left side only"
+    ],
+    "answer": 2,
+    "explanation": "If three or more snowplows operate in echelon formation, you may not pass or overtake them on either side.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 44",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.071",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "Two lanes merge into one at a congested Utah construction zone. What does the zipper method require?",
+    "choices": [
+      "Move into the continuing lane as early as possible",
+      "Drivers in the ending lane must stop and wait for a gap",
+      "Use the shoulder to reach the front",
+      "Use both lanes until the merge point, then take turns merging"
+    ],
+    "answer": 3,
+    "explanation": "The zipper method means using both lanes until the merge point and then alternating into the single lane. A violation is an infraction in Utah.",
+    "difficulty": 1,
+    "ref": "Utah Driver Handbook, p. 41",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.072",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "On a Utah multi-lane road, which lane should you normally drive in?",
+    "choices": [
+      "The far-right lane, unless passing or the lane is blocked",
+      "The left lane, so others can merge",
+      "Any lane, as long as you stay at the speed limit",
+      "The center lane at all times"
+    ],
+    "answer": 0,
+    "explanation": "On multi-lane roads, always move to or remain in the far-right lane unless you are passing another vehicle or the lane is blocked.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 41",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.073",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "In Utah, when may you turn right on a steady red light?",
+    "choices": [
+      "Never",
+      "After coming to a complete stop, unless a sign prohibits it",
+      "Only when a green arrow is shown",
+      "Without stopping if no cars are coming"
+    ],
+    "answer": 1,
+    "explanation": "You may turn right on a red light after coming to a complete stop unless posted otherwise. A red right-turn arrow prohibits the turn.",
+    "difficulty": 1,
+    "ref": "Utah Driver Handbook, p. 56",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.074",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "When does Utah law allow a left turn on a steady red light?",
+    "choices": [
+      "Only from a two-way street onto a one-way street",
+      "Never",
+      "From a one-way street into a one-way street, after stopping and yielding",
+      "From any street, after stopping"
+    ],
+    "answer": 2,
+    "explanation": "Utah law allows a driver facing a steady red light to turn left from a one-way street into a one-way street after stopping and yielding to traffic and pedestrians.",
+    "difficulty": 3,
+    "ref": "Utah Code 41-6a-305",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.075",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Where does Utah prohibit U-turns?",
+    "choices": [
+      "On any two-lane road",
+      "Within 100 feet of any driveway",
+      "At any intersection with a traffic light",
+      "On a curve or near a hilltop where you cannot be seen from both directions for 500 feet"
+    ],
+    "answer": 3,
+    "explanation": "Never make a U-turn on a curve or near the top of a hill where you cannot see or be seen for 500 feet, where prohibited by a sign, on a railroad crossing, or on a freeway.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 48",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.076",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "At a single-point urban interchange (SPUI), may you make a U-turn from the off-ramp to get back on the freeway?",
+    "choices": [
+      "Yes, if you face a green arrow when you begin the maneuver",
+      "No, U-turns are never allowed at interchanges",
+      "Yes, but only on a red arrow",
+      "Yes, after stopping in the middle of the intersection"
+    ],
+    "answer": 0,
+    "explanation": "It is legal to make a U-turn from the off-ramp at a SPUI and re-enter the freeway as long as you face a green arrow when you begin. Complete the maneuver once started.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 51",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.077",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "A single-point urban interchange loses power and has no battery backup. How should you proceed?",
+    "choices": [
+      "Wait until power returns",
+      "With extreme caution and courtesy; it is not handled like a four-way stop",
+      "As a four-way stop",
+      "As if the light were green for your direction"
+    ],
+    "answer": 1,
+    "explanation": "If a SPUI loses power, it is not handled like a four-way stop. Proceed with extreme caution and courtesy; an officer will be sent for traffic control.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 51",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.078",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Utah, how close to a fire hydrant may you park?",
+    "choices": [
+      "No closer than 20 feet",
+      "No closer than 5 feet",
+      "No closer than 15 feet",
+      "No closer than 10 feet"
+    ],
+    "answer": 2,
+    "explanation": "Parking within 15 feet of a fire hydrant is prohibited.",
+    "difficulty": 1,
+    "ref": "Utah Driver Handbook, p. 42",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.079",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Utah, you may not park on a crosswalk or within how many feet of one?",
+    "choices": [
+      "15 feet",
+      "30 feet",
+      "10 feet",
+      "20 feet"
+    ],
+    "answer": 3,
+    "explanation": "Utah prohibits parking on a crosswalk or within 20 feet of a crosswalk.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 42",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.080",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How close to a stop sign, yield sign, flashing beacon, or traffic signal may you park in Utah?",
+    "choices": [
+      "No closer than 30 feet",
+      "No closer than 20 feet",
+      "No closer than 50 feet",
+      "No closer than 15 feet"
+    ],
+    "answer": 0,
+    "explanation": "Utah prohibits parking within 30 feet of any flashing beacon, stop sign, yield sign, or traffic control signal.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 42",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.081",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Utah, you may not park within how many feet of the nearest rail of a railroad crossing?",
+    "choices": [
+      "100 feet",
+      "50 feet",
+      "15 feet",
+      "30 feet"
+    ],
+    "answer": 1,
+    "explanation": "Do not park on a railroad track or within 50 feet of the nearest rail of a railroad crossing.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 42",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.082",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Signs are posted near a fire station. On the opposite side of the street, how close to the station entrance may you park?",
+    "choices": [
+      "No closer than 50 feet",
+      "Anywhere on the opposite side",
+      "No closer than 75 feet",
+      "No closer than 20 feet"
+    ],
+    "answer": 2,
+    "explanation": "You may not park within 20 feet of a fire station driveway on the same side, and when signs are posted, not within 75 feet of the entrance on the opposite side.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 42",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.083",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "When parking next to a curb in Utah, the back wheel must be no farther than how far from the curb?",
+    "choices": [
+      "6 inches",
+      "18 inches",
+      "24 inches",
+      "12 inches"
+    ],
+    "answer": 3,
+    "explanation": "If parking next to a curb, the back wheel of your car must be no further than 12 inches away from the curb.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 43",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.084",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When must headlights be on in Utah?",
+    "choices": [
+      "From sunset to sunrise, and when you cannot clearly see people and vehicles 1,000 feet ahead",
+      "From 30 minutes after sunset to 30 minutes before sunrise only",
+      "Only when it is raining",
+      "When you cannot see 500 feet ahead"
+    ],
+    "answer": 0,
+    "explanation": "Lights are required from sunset to sunrise and any time conditions keep you from clearly seeing persons and vehicles 1,000 feet ahead.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 70",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.085",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You are using high beams and a car approaches from the opposite direction. In Utah, you must dim them before you are within:",
+    "choices": [
+      "200 feet of the oncoming car",
+      "500 feet of the oncoming car",
+      "300 feet of the oncoming car",
+      "1,000 feet of the oncoming car"
+    ],
+    "answer": 1,
+    "explanation": "Dim your high beams before you get within 500 feet of an oncoming vehicle.",
+    "difficulty": 1,
+    "ref": "Utah Driver Handbook, p. 70",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.086",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You are following another vehicle at night with high beams on. In Utah, dim them when you are within:",
+    "choices": [
+      "200 feet of the vehicle ahead",
+      "100 feet of the vehicle ahead",
+      "300 feet of the vehicle ahead",
+      "500 feet of the vehicle ahead"
+    ],
+    "answer": 2,
+    "explanation": "When following a car, dim your lights when you are within 300 feet of the vehicle ahead.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 70",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.087",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "At night in Utah, you should dim your headlights within what distance when approaching or overtaking a bicyclist?",
+    "choices": [
+      "100 feet",
+      "300 feet",
+      "1,000 feet",
+      "500 feet"
+    ],
+    "answer": 3,
+    "explanation": "The Utah handbook says to dim your headlights within 500 feet when approaching or overtaking bicyclists at night.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 85",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.088",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "During what period may snow tires with metal studs be used in Utah?",
+    "choices": [
+      "October 15 through March 31",
+      "November 1 through April 15",
+      "December 1 through March 1",
+      "Any time of year"
+    ],
+    "answer": 0,
+    "explanation": "Studded snow tires may be used from October 15 through March 31 of each year.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 73",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.089",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "What minimum distance does Utah law require when passing a bicyclist?",
+    "choices": [
+      "6 feet",
+      "3 feet",
+      "2 feet",
+      "5 feet"
+    ],
+    "answer": 1,
+    "explanation": "Utah law requires a minimum of three feet of distance from any bicyclist or other vulnerable user of the highway you are passing.",
+    "difficulty": 1,
+    "ref": "Utah Driver Handbook, p. 85",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.090",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "In Utah, you may not pass a bicycle going your direction when you are within how many feet of an intersection or railroad crossing (unless a traffic control device allows it)?",
+    "choices": [
+      "200 feet",
+      "500 feet",
+      "100 feet",
+      "50 feet"
+    ],
+    "answer": 2,
+    "explanation": "You may not pass a bicycle or moped when approaching within 100 feet of, or crossing, an intersection or railroad grade crossing unless an official traffic control device allows it.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 85",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.091",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A pedestrian is crossing in front of you in Utah. How long must you remain stopped?",
+    "choices": [
+      "Until the pedestrian reaches the center line of a four-lane road",
+      "Only until the pedestrian is out of your lane",
+      "You only need to slow down",
+      "Until the pedestrian has crossed at least your half of the road"
+    ],
+    "answer": 3,
+    "explanation": "Vehicles must remain stopped until the pedestrian has crossed at least the driver's half of the road, whether or not there is a marked crosswalk.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 92",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.092",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are on a Utah divided highway with four lanes and a median. A school bus going the opposite direction stops with flashing red lights. What must you do?",
+    "choices": [
+      "You are not required to stop, but use caution",
+      "Stop until the lights stop flashing",
+      "Stop, then proceed at 10 mph",
+      "Stop only if children are visible"
+    ],
+    "answer": 0,
+    "explanation": "On a divided highway with four or more lanes and a median, only vehicles behind the school bus must stop; traffic in the opposite direction does not.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 46",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.093",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a four-lane Utah road with NO median, a school bus stops with flashing red lights in the opposite lanes. What must you do?",
+    "choices": [
+      "Stop only if you are in the lane next to the bus",
+      "Stop; traffic in both directions must stop",
+      "Continue at normal speed",
+      "Slow to 20 mph and pass"
+    ],
+    "answer": 1,
+    "explanation": "On a four-lane roadway without a median, traffic in both directions is required to stop for a school bus with flashing red lights.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 46",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.094",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a Utah highway with five or more lanes and a shared center turn lane, a school bus going the other way stops with red lights flashing. Who must stop?",
+    "choices": [
+      "Only vehicles in the center turn lane",
+      "No one, on any multi-lane highway",
+      "Only vehicles in the lanes behind the bus",
+      "All traffic in both directions"
+    ],
+    "answer": 2,
+    "explanation": "On a highway with five or more lanes and a shared center turn lane, only vehicles behind the school bus must stop; opposite-direction traffic is not legally required to stop.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 46",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.095",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Unless you are on official business, how close may you follow a fire vehicle responding to an alarm in Utah?",
+    "choices": [
+      "No closer than 200 feet",
+      "No closer than 300 feet",
+      "No closer than 1,000 feet",
+      "No closer than 500 feet"
+    ],
+    "answer": 3,
+    "explanation": "Do not follow within 500 feet of any fire vehicle responding to an alarm, and do not drive or park on the same block where it has stopped.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 87",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.096",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You approach a vehicle stopped beside a Utah highway with its hazard lights flashing. What does the move over law require?",
+    "choices": [
+      "Slow down, give it as much space as practical, and change to a non-adjacent lane if safe",
+      "Maintain your speed and stay in your lane",
+      "Stop behind the vehicle",
+      "Honk to warn the occupants"
+    ],
+    "answer": 0,
+    "explanation": "When approaching a stationary vehicle with flashing hazard lights that is not legally parked, reduce speed, provide as much space as practical, and move to a lane not adjacent to it if safe.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 87",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.097",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A Utah driver is convicted of violating the move over law. What must they do?",
+    "choices": [
+      "Complete 40 hours of supervised driving",
+      "Attend a four-hour live classroom defensive driving course within 90 days",
+      "Pay a fine only",
+      "Retake the written knowledge test"
+    ],
+    "answer": 1,
+    "explanation": "A move-over conviction requires a four-hour live classroom defensive driving course within 90 days. If you do not attend, your license is suspended for 90 days.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 87",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.098",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "At a red light on a Utah city street posted 40 mph with two lanes in your direction, a motorcycle rides at about 10 mph between the stopped cars to the front. Is this legal?",
+    "choices": [
+      "Yes, at any speed on any road",
+      "Only on freeways",
+      "Yes, lane filtering is legal past stopped vehicles at 15 mph or less on roads posted 45 mph or less",
+      "No, motorcycles may never pass between lanes in Utah"
+    ],
+    "answer": 2,
+    "explanation": "Lane splitting between moving cars is illegal in Utah, but lane filtering is legal when passing stopped vehicles at 15 mph or less on roads with two or more same-direction lanes and a speed limit of 45 mph or less.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 92",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.099",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "When you stop at a railroad crossing in Utah, how far from the nearest rail must you be?",
+    "choices": [
+      "Between 5 and 10 feet",
+      "Between 50 and 100 feet",
+      "At least 100 feet",
+      "Between 15 and 50 feet"
+    ],
+    "answer": 3,
+    "explanation": "When you stop at a railroad crossing, you must be between 15 and 50 feet from the nearest rail.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 96",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.100",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You stopped at a railroad crossing where the lights keep flashing and you suspect they are broken. When may you cross?",
+    "choices": [
+      "Only if you can see at least one mile down the tracks in both directions with no train approaching",
+      "Immediately, since broken lights do not count",
+      "After waiting two minutes",
+      "Only after a train passes"
+    ],
+    "answer": 0,
+    "explanation": "After a complete stop, if you suspect the lights are malfunctioning, you may cross only with a clear line of sight of at least one mile in both directions, no evidence of a train, and when you can cross safely.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 96",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.101",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "The posted limit on a Utah road is 45 mph, but heavy snow is falling and visibility is poor. Under Utah's basic speed law, how fast may you drive?",
+    "choices": [
+      "No faster than is reasonable and prudent for the conditions, even if that is below 45 mph",
+      "45 mph, because that is the posted limit",
+      "Up to 50 mph if other traffic is moving that fast",
+      "Any speed, as long as you use your hazard lights"
+    ],
+    "answer": 0,
+    "explanation": "Utah's basic speed law says you may never drive faster than is reasonable and prudent under existing conditions. In bad weather, the posted limit can be too fast.",
+    "difficulty": 1,
+    "ref": "Utah Driver Handbook, pp. 54-55",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.102",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Outside school zones and urban (business or residential) districts, what is Utah's lawful default speed when no other limit is posted?",
+    "choices": [
+      "55 mph",
+      "45 mph",
+      "65 mph",
+      "60 mph"
+    ],
+    "answer": 0,
+    "explanation": "Utah law sets 20 mph in reduced-speed school zones, 25 mph in urban districts, and 55 mph in other locations unless a different limit is posted. Higher limits such as 65-80 mph apply only where posted.",
+    "difficulty": 2,
+    "ref": "Utah Code 41-6a-601(2); Utah Driver Handbook, p. 54",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.car.103",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Under Utah's parking rules, which of these places is a no-parking location?",
+    "choices": [
+      "Inside an intersection",
+      "25 feet from a fire hydrant",
+      "40 feet from a stop sign",
+      "60 feet from the nearest rail of a railroad crossing"
+    ],
+    "answer": 0,
+    "explanation": "Parking in an intersection is prohibited. The other spots are legal under Utah's limits: 15 feet from a hydrant, 30 feet from a stop sign, and 50 feet from the nearest rail.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 42",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "In Utah, who must wear an approved DOT helmet on a motorcycle?",
+    "choices": [
+      "Only passengers",
+      "Operators and passengers under 21",
+      "All riders of any age",
+      "Only operators under 18"
+    ],
+    "answer": 1,
+    "explanation": "Any motorcycle operator or passenger who is under 21 years of age must wear an approved DOT helmet.",
+    "difficulty": 1,
+    "ref": "Utah Driver Handbook, p. 91",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 20-year-old passenger plans to ride on the back of a friend's motorcycle in Utah. Is a helmet required?",
+    "choices": [
+      "No, helmets are optional for everyone over 18",
+      "Only on highways over 55 mph",
+      "Yes, passengers under 21 must wear an approved DOT helmet",
+      "No, the helmet law covers only operators"
+    ],
+    "answer": 2,
+    "explanation": "Utah's helmet law covers both operators and passengers under 21.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 91",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What must your Utah driver license have before you can operate a motorcycle on Utah highways?",
+    "choices": [
+      "A Class C upgrade",
+      "A taxi (Z) endorsement",
+      "Nothing extra; a Class D is enough",
+      "A motorcycle (M) endorsement"
+    ],
+    "answer": 3,
+    "explanation": "To operate a motorcycle on Utah highways, your driver license must have a motorcycle endorsement (shown as code M on the license).",
+    "difficulty": 1,
+    "ref": "Utah Driver Handbook, pp. 91, 22",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Is lane splitting (riding between moving cars) legal in Utah?",
+    "choices": [
+      "No, it is illegal; only lane filtering past stopped vehicles is allowed under specific conditions",
+      "Yes, on any road",
+      "Yes, on freeways only",
+      "Yes, if traveling under 30 mph"
+    ],
+    "answer": 0,
+    "explanation": "Lane splitting between cars moving at higher speeds is illegal in Utah. Lane filtering past stopped vehicles is legal only under specific conditions.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 92",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "When lane filtering in Utah, what is the maximum speed a motorcycle may travel?",
+    "choices": [
+      "45 mph",
+      "15 mph",
+      "10 mph",
+      "25 mph"
+    ],
+    "answer": 1,
+    "explanation": "Lane filtering is legal only when the motorcycle is traveling at 15 mph or less and the vehicle being passed is stopped.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 92",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "On which roads is lane filtering allowed in Utah?",
+    "choices": [
+      "On-ramps during heavy traffic",
+      "Any two-lane road",
+      "Roads with two or more same-direction lanes posted 45 mph or less, or an off-ramp",
+      "Any freeway"
+    ],
+    "answer": 2,
+    "explanation": "Lane filtering is allowed on a roadway or off-ramp divided into two or more same-direction lanes with a speed limit of 45 mph or less. It is not permitted on an on-ramp.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 92",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A rider wants to filter between lanes on a Utah freeway on-ramp where traffic is stopped. Is this allowed?",
+    "choices": [
+      "Yes, if traffic is stopped",
+      "Yes, at 15 mph or less",
+      "Yes, on metered ramps only",
+      "No, lane filtering is not permitted on an on-ramp"
+    ],
+    "answer": 3,
+    "explanation": "Utah law specifically states that lane filtering is not permitted on an on-ramp, even though it may be allowed on an off-ramp.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 92",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A Utah traffic signal does not detect a 17-year-old motorcyclist stopped at a red light. What may the rider do?",
+    "choices": [
+      "After a complete stop and waiting at least 90 seconds, proceed with caution if no vehicles or pedestrians are present",
+      "Proceed immediately through the red light",
+      "Turn around and find another route only",
+      "Wait until another car arrives to trigger the signal"
+    ],
+    "answer": 0,
+    "explanation": "A motorcycle, moped, or bicycle operator 16 or older may proceed after stopping and waiting at least 90 seconds if the signal fails to detect them and no vehicles or pedestrians are approaching or in the intersection.",
+    "difficulty": 3,
+    "ref": "Utah Driver Handbook, p. 92",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Can a solo motorcyclist use Utah's I-15 express lanes without paying a toll?",
+    "choices": [
+      "Only on weekends",
+      "Yes, motorcycles may use the express lanes free of charge",
+      "No, every solo rider needs an Express Pass",
+      "Only with a passenger"
+    ],
+    "answer": 1,
+    "explanation": "Motorcycles, buses, and vehicles with a clean fuel C decal may use the I-15 express lanes free of charge.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 50",
+    "states": [
+      "UT"
+    ]
+  },
+  {
+    "id": "ut.mc.010",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Which insurance requirement applies to motorcycles licensed for street use in Utah?",
+    "choices": [
+      "Only collision coverage is required",
+      "Insurance is required only for riders under 21",
+      "They must have liability insurance coverage",
+      "Insurance is optional for motorcycles"
+    ],
+    "answer": 2,
+    "explanation": "All motorcycles licensed for street use in Utah must have liability insurance coverage.",
+    "difficulty": 2,
+    "ref": "Utah Driver Handbook, p. 91",
+    "states": [
+      "UT"
+    ]
+  }
+]

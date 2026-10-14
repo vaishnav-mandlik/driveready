@@ -215,6 +215,9 @@ export interface SignInfo {
   colors: string;
   /** What the sign means / what the driver must do. */
   meaning: string;
+  /** Translated shape/colors for display (the English `shape`/`colors` stay for shape-clue logic). */
+  shapeLabel?: string;
+  colorsLabel?: string;
   /** SVG markup rendered with react-native-svg's SvgXml. */
   xml: string;
   /** width / height of the artwork. */

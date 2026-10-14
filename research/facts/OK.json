@@ -1,0 +1,792 @@
+{
+  "code": "OK",
+  "name": "Oklahoma",
+  "agency": {
+    "name": "Service Oklahoma",
+    "abbreviation": "SOK",
+    "website": "https://oklahoma.gov/service.html"
+  },
+  "handbook": {
+    "title": "Oklahoma Driver Manual",
+    "edition": "2025 (updated 11/24/25)",
+    "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf"
+  },
+  "knowledgeTest": {
+    "questions": 20,
+    "passingScore": 15,
+    "passingPercent": 75,
+    "roadSigns": null,
+    "timeLimitMinutes": 60,
+    "format": "Class D written test: 20 questions on Oklahoma traffic laws, road signs and safe driving practices (questions come from the Oklahoma Driver Manual); 15 correct answers (75%) to pass. Can be taken online (webcam- and microphone-monitored, desktop or laptop only; phones and touch screens not supported; 60-minute limit; two online attempts, then in person) or in person at a Service Oklahoma location. Results are immediate. An oral test is given on request (manual p. 9; an appointment may be required).",
+    "languages": "English only (\"At this time, the written test is only available in English.\")",
+    "retestWait": "At least one day after a failed written test (manual p. 9: \"by law you must wait at least one day before retesting\"; website: \"Try again tomorrow\"). A $4 fee is added for each failed attempt, due when the permit/license is issued.",
+    "notes": "Same Class D written test for teens and adults; road signs are covered on the test. Under 18: must be at least 14 (13½ if living or working on a farm) to take the written test, and a parent/guardian must verify identity for the online test. Class D permit at 15 requires driver-ed enrollment; at 16 driver ed is optional. Teens need a permit for 180 days, 50 hours of behind-the-wheel training (10 at night), no traffic convictions and a Work Zone Safe certificate before the intermediate license. Adults 18+ who get a permit must hold it 30 days before the drive test. The 60-minute limit is stated for the online test.",
+    "sourceUrl": "https://oklahoma.gov/service/popular-services/written-test.html"
+  },
+  "motorcycleTest": {
+    "questions": null,
+    "passingScore": null,
+    "passingPercent": null,
+    "notes": "Service Oklahoma does not publish the motorcycle written-test question count or passing score. Written and drive tests are waived with a Motorcycle Safety Foundation (MSF) course completion card; riders 14-18 must complete an MSF course. Motorcycle learner permit (age 14+) must be held 30 days before the full endorsement. Riders study the MSF Motorcycle Operator Manual.",
+    "sourceUrl": "https://oklahoma.gov/service/all-pages/apply-for-endorsement.html"
+  },
+  "cdlTest": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC or more",
+      "detail": "A test result of 0.08 or more leads to license revocation even without a DUI conviction. An alcohol concentration above 0.05 is also evidence of impaired driving.",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 65,
+        "quote": "If the BAC level is 0.08 or more (or any measurable amount if you are under 21 years old), your driver license will be revoked—even if you are not convicted in court of driving under the influence (DUI)."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "Any measurable amount (zero tolerance)",
+      "detail": "Drivers under 21 may not drive or be in actual physical control of a vehicle with any measurable alcohol in their blood or breath. A first offense means a 6-month revocation.",
+      "number": 0,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 67,
+        "quote": "Has ANY measurable quantity of alcohol in the person’s blood or breath at the time a test is administered."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusing a BAC test = automatic revocation (180 days to 2 years depending on record)",
+      "detail": "Driving in Oklahoma means you have agreed to BAC testing. Refusing the test brings automatic revocation even if you have not been drinking; implied-consent revocations run 180 days to 2 years depending on your record (p. 65).",
+      "number": 180,
+      "unit": "days",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 65,
+        "quote": "Refusal to take the test upon request by a law enforcement officer will result in an automatic revocation of your driving privilege, even if you have not been drinking."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "Misdemeanor: 10 days to 1 year in jail and a fine up to $1,000; license revoked 180 days",
+      "detail": "A first DUI is a misdemeanor punished by 10 days to 1 year in jail and a fine of up to $1,000. Service Oklahoma also revokes the license for 180 days on a first revocation (p. 66).",
+      "number": 1000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 65,
+        "quote": "First offense ■ a misdemeanor ■ imprisonment in jail for not less than ten days nor more than 1 year and ■ a fine of not more than $1,000"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15 (with driver education); 16 without",
+      "detail": "At 15 you must be taking or have passed an approved driver education course (school, commercial or parent-taught). At 16 driver education is not required for the permit.",
+      "number": 15,
+      "unit": "years",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 10,
+        "quote": "Learning Permit, age 15 and up"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "180 days (6 months)",
+      "detail": "A teen must hold the learner permit at least 180 days before the intermediate license. Adults 18+ who choose to get a permit must hold it 30 days before the driving test.",
+      "number": 180,
+      "unit": "days",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 6,
+        "quote": "Must have held learner permit for at least 180-days."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "50 hours, including 10 at night",
+      "detail": "Before the drive test for an intermediate license, a teen needs at least 50 hours of behind-the-wheel training (10 at night) with a licensed driver who is at least 21 and has been licensed for at least 2 years.",
+      "number": 50,
+      "unit": "hours",
+      "source": {
+        "url": "https://oklahoma.gov/service/all-pages/learner-permit.html",
+        "page": null,
+        "quote": "Have had at least 50 hours (including 10 hours at night) of behind-the-wheel training from a licensed driver that is at least 21 years old and has been licensed for at least 2 years"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Licensed driver 21 or older seated beside the driver",
+      "detail": "A learner permit is valid only while a licensed driver age 21 or older sits beside the permit holder (restriction 9).",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 6,
+        "quote": "A Learner Permit is valid only while a licensed driver, 21 or older, sits beside the driver."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 with driver education; 16½ without",
+      "detail": "The Class D intermediate license is available at 16 with a driver education completion certificate, or at 16½ without one. You must also have held the permit 180 days and present a Work Zone Safe completion certificate.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 6,
+        "quote": "16 – Cars, vans, trucks under 26,001 lbs. (GVWR), recreational vehicles, fire trucks. Must show completion certificate from an approved driver education course. 16 1/2 – Driver education completion not required."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "No driving 10 p.m. to 5 a.m. unless for school, church or work, or with a licensed driver 21+",
+      "detail": "Intermediate (restriction T) drivers may drive from 5 a.m. to 10 p.m. Exceptions: school, church or work activities, or any time a licensed driver at least 21 is with them.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 14,
+        "quote": "Driving allowed from 5 a.m. to 10 p.m. Unless for activities related to school, church or work or any time accompanied by licensed driver at least 21 years old."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "One passenger, unless all live in the driver's home or a licensed driver 21+ is in the front seat",
+      "detail": "An intermediate driver may carry only one passenger, unless the passengers live in the driver's household or a licensed driver at least 21 rides in the front passenger seat.",
+      "number": 1,
+      "unit": "passenger",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 14,
+        "quote": "One passenger or only people who live in the driver’s home or any passenger if accompanied by licensed driver at least 21 years old in the front passenger seat."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "Intermediate restriction removable after 6 months with driver education (earliest about 16½); after 1 year without",
+      "detail": "The intermediate (\"T\") restriction can be removed after 6 months if you completed driver education, or after 1 year without it. With driver education the intermediate license starts at 16, so the earliest unrestricted license is about 16½. No \"T\" restriction applies at 18 or older (p. 14).",
+      "number": 16.5,
+      "unit": "years",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 6,
+        "quote": "Can have intermediate restriction removed after 6months if you completed driver education and 1 year if no driver education."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "Hand-held calls banned for commercial and public transit drivers",
+      "detail": "The manual lists a hand-held phone call ban only for commercial and public transit drivers; all drivers are banned from texting, and permit/intermediate holders face suspension for hand-held device use.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 61,
+        "quote": "Commercial drivers or public transit drivers are also prohibited from making hand-held phone calls while driving."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "texting_ban",
+      "value": "Texting while driving is illegal for all drivers (since 2015)",
+      "detail": "Oklahoma law requires drivers to give full attention to the road; texting while driving has been illegal since 2015.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 61,
+        "quote": "As of 2015, it is illegal to text while driving in Oklahoma."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Permit and intermediate holders may not use a hand-held device except for a life-threatening emergency",
+      "detail": "Learner permit or intermediate license holders can have their license suspended or canceled for using a hand-held electronic device while driving, except in a life-threatening emergency.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 61,
+        "quote": "Learner's Permit or Intermediate License holders can be suspended or have their license canceled for using a hand-held electronic device while operating a motor vehicle for non-life-threatening emergency purposes."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Driver and front-seat passengers must be belted",
+      "detail": "Every driver and front-seat passenger must wear a properly adjusted, fastened, factory-installed seat belt that meets federal standards.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 17,
+        "quote": "Every driver and front-seat passenger must wear a properly adjusted and fastened safety seat belt system."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Children under 8 must be in a child passenger restraint system; rear-facing until age 2",
+      "detail": "Children under 8 must be properly secured in a child passenger restraint system. The seat must be rear-facing until age 2 or until the child reaches the seat's height/weight limit.",
+      "number": 8,
+      "unit": "years",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 17,
+        "quote": "Every driver, when transporting a child under 8 years of age in a motor vehicle operated on the roadways, streets or highways of this state, must provide for the protection of said child by properly using a child passenger restraint system."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Never faster than is careful and prudent for conditions; must be able to stop within the assured clear distance ahead",
+      "detail": "The Basic Speed Rule sets no exact number: your speed must be safe for traffic, road and weather, and slow enough to stop within the clear distance ahead. Driving too slowly can also violate it.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 40,
+        "quote": "No motor vehicle shall be driven at a speed greater than is careful and prudent and not greater than or less than is reasonable and proper, having due regard to the traffic, surface and width of the highway and of any other conditions then existing."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "25 mph in marked school zones on highways outside cities (unless posted)",
+      "detail": "On any highway outside a municipality, a properly marked school zone is 25 mph unless otherwise posted. Inside cities, obey the posted school-zone limit when the yellow light flashes. Speeding fines double in school zones.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 41,
+        "quote": "School zones on any highway outside of a municipality in a properly marked zone 25 mph"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "Set by cities and towns; obey posted signs",
+      "detail": "The manual gives no statewide residential default; cities and towns set their own limits, so watch for posted signs in residential areas.",
+      "number": null,
+      "unit": "mph",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 41,
+        "quote": "Under state law, cities and towns can set their own speed limits."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "Set by cities and towns; obey posted signs",
+      "detail": "No statewide business-district default is given; cities and towns set their own speed limits by zone.",
+      "number": null,
+      "unit": "mph",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 41,
+        "quote": "Under state law, cities and towns can set their own speed limits."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "65 mph undivided state highways; 55 mph county roads",
+      "detail": "Unless posted otherwise: 65 mph on undivided state highways, 55 mph on county roads, 35 mph on highways in state parks or wildlife refuges.",
+      "number": 65,
+      "unit": "mph",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 41,
+        "quote": "Undivided State Highways 65 mph County roads 55 mph"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "75 mph controlled-access highways; 80 mph turnpikes",
+      "detail": "Unless otherwise posted, the limit is 75 mph on controlled-access highways and 80 mph on turnpikes.",
+      "number": 75,
+      "unit": "mph",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 41,
+        "quote": "Controlled access highways 75 mph Turnpikes 80 mph"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Expressway minimum usually 40 mph; driving too slowly is illegal",
+      "detail": "On expressways, drive between the minimum (usually 40 mph) and maximum (55-75 mph) limits. If you can't keep up with the minimum, don't use the expressway.",
+      "number": 40,
+      "unit": "mph",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 33,
+        "quote": "Drive between the minimum (usually 40 mph) and maximum (55-75 mph) speed limits. Driving too slowly is against the law because it’s dangerous."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop unless a sign forbids it",
+      "detail": "After a complete stop you may turn right on red unless signs prohibit it, yielding to pedestrians and vehicles, including bicycles.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 26,
+        "quote": "After coming to a complete stop, you may turn right on red and you may turn left from a one-way street into a one-way street unless there are signs forbidding the turn."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Allowed from a one-way street onto a one-way street after a complete stop, unless prohibited",
+      "detail": "A left turn on red is allowed only from a one-way street into another one-way street, after a complete stop and yielding, unless a sign forbids it.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 26,
+        "quote": "After coming to a complete stop, you may turn right on red and you may turn left from a one-way street into a one-way street unless there are signs forbidding the turn."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 100 feet (or 1/3 of a block)",
+      "detail": "It is illegal to turn without signaling. Signal at least 100 feet or 1/3 of a block before you turn, slow down or stop. When leaving an expressway, signal right at least 100 feet before the exit.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 36,
+        "quote": "You should signal for at least 100 feet or 1/3 of a block before you turn, slow down or stop."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the right edge, clear of intersections, and stop until it passes",
+      "detail": "Yield to police, fire and ambulance vehicles using a siren and/or flashing lights: pull to the right edge of the road, clear of intersections, and stop until they pass. In heavy traffic, clear a path. The manual gives no following distance for emergency vehicles.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 29,
+        "quote": "Pull over to the right edge of the roadway, clear of intersections and stop until the emergency vehicle has passed."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "move_over_law",
+      "value": "Move over a lane if safe, otherwise slow down, for any stopped vehicle with flashing lights",
+      "detail": "Oklahoma's Move Over Law (47 O.S. § 11-314) covers any stationary vehicle with flashing lights on the roadside: change to a lane not next to it if safe, otherwise slow down and use caution. On two-lane roads, slow down.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 30,
+        "quote": "When approaching any stationary vehicles with FLASHING LIGHTS pulled to the side of the road, drivers are REQUIRED to move over a lane, if safe to do so, or slow down and use caution."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop for flashing red lights/stop arm; oncoming traffic on a divided highway need not stop",
+      "detail": "Stop for a school or church bus showing flashing red lights or a stop sign, and stay stopped until the bus moves, the driver waves you on, or the lights go off. You need not stop if the bus is on a different roadway, in a loading zone of a controlled-access highway, or approaching on a divided highway. Failing to stop means a mandatory 1-year revocation.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 30,
+        "quote": "Approaching traffic not required to stop for School Bus on a divided highway"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "following_distance",
+      "value": "3 seconds; 4 seconds in bad weather",
+      "detail": "Stay at least 3 seconds behind the vehicle ahead (or one car length per 10 mph), and increase to 4 seconds in bad weather or poor road conditions.",
+      "number": 3,
+      "unit": "seconds",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 34,
+        "quote": "Stay 3 seconds behind the vehicle in front of you. Allow 4 seconds in bad weather."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "headlights_required",
+      "value": "From 30 minutes after sunset to 30 minutes before sunrise, and when signs require",
+      "detail": "Use headlights beginning 30 minutes after sunset until 30 minutes before sunrise, and whenever a road sign says headlights must be used. Use low beams in fog, rain, snow and where there are streetlights.",
+      "number": 30,
+      "unit": "minutes",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 59,
+        "quote": "Beginning 30 minutes after sunset and 30 minutes before sunrise."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "Within 1,000 feet of an oncoming vehicle",
+      "detail": "Switch from high to low beams within 1,000 feet of an oncoming vehicle.",
+      "number": 1000,
+      "unit": "feet",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 59,
+        "quote": "Dim your high beam headlights to low beams within 1000 feet of an oncoming vehicle or within 600 feet of the vehicle you are following."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "Within 600 feet of a vehicle you are following",
+      "detail": "Switch to low beams within 600 feet of the vehicle you are following.",
+      "number": 600,
+      "unit": "feet",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 59,
+        "quote": "Dim your high beam headlights to low beams within 1000 feet of an oncoming vehicle or within 600 feet of the vehicle you are following."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet",
+      "detail": "Do not park within 15 feet of a fire hydrant.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 49,
+        "quote": "Within 15 feet of a fire hydrant."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "On a crosswalk or within 20 feet of a crosswalk at an intersection",
+      "detail": "Never park on a crosswalk, or within 20 feet of a crosswalk at an intersection.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 49,
+        "quote": "Within 20 feet of a crosswalk at an intersection."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Not within an intersection",
+      "detail": "Parking within an intersection is illegal; the manual's distance rules for intersections are tied to crosswalks (20 feet) and stop signs/signals (30 feet).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 49,
+        "quote": "Within an intersection."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet",
+      "detail": "Do not park within 30 feet of a flashing beacon, stop sign or traffic signal at the side of the road.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 49,
+        "quote": "Within 30 feet upon approaching any flashing beacon, stop sign or traffic control signal located at the side of the roadway."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet",
+      "detail": "Do not park within 50 feet of the nearest rail of a railroad crossing.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 49,
+        "quote": "Within 50 feet of the nearest rail of a railroad crossing."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet on the same side; 75 feet across the street (when signposted)",
+      "detail": "Do not park within 20 feet of a fire station driveway entrance, or within 75 feet on the opposite side of the street when properly signposted.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 49,
+        "quote": "Within 20 feet of the driveway entrance to any fire station or within 75 feet on the side of a street opposite the entrance (when properly signposted)."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "Within 18 inches of the curb (6 inches on a hill)",
+      "detail": "When parallel parking, park within 18 inches of the curb unless signs or a yellow curb prohibit parking. On a hill, stop within six inches of the curb.",
+      "number": 18,
+      "unit": "inches",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 47,
+        "quote": "Unless there are signs that prohibit parking or a yellow-painted curb, you may park parallel to any curb and within 18 inches of the curb."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "Within 50 feet but not less than 15 feet from the nearest rail",
+      "detail": "When a signal warns of a train, a gate is down, a flagman signals, or a train is close, stop between 15 and 50 feet from the nearest rail.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 56,
+        "quote": "the driver of such vehicle shall stop within 50 feet but not less than 15 feet from the nearest rail of such railroad and shall not proceed until they can do so safely"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet",
+      "detail": "When passing a bicycle going the same direction, leave at least 3 feet until safely past (47 O.S. § 11-1208).",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 51,
+        "quote": "Allow at least 3 feet of room when passing a bicycle rider."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Yield to pedestrians in marked or unmarked crosswalks",
+      "detail": "Pedestrians in a crosswalk have the right-of-way whether or not the crosswalk is marked. Stop 15 feet from a blind person in the roadway, and yield to pedestrians on the sidewalk when entering or leaving a driveway or alley.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 50,
+        "quote": "Pedestrians in a crosswalk have the right-of-way over most vehicles, whether the crosswalk is marked or not."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Stop and call 911 or local law enforcement after a crash with death, injury or property damage",
+      "detail": "After a crash with death, injury or property damage: stop, call 911 or local law enforcement, turn on hazard lights, move a minor-crash vehicle that blocks traffic, exchange information and take photos. For a parked car or property whose owner you can't find, leave your name and address, the vehicle owner's name and address and your insurance information. Uninsured drivers/owners in a crash with any injury or $500+ damage have their license suspended (p. 16).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 63,
+        "quote": "Stop and call 911 or local law enforcement."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "25/50/25 liability",
+      "detail": "Minimum liability: $25,000 for injury or death of one person, $50,000 for injury or death of two or more persons, $25,000 property damage, per accident. No insurance: fine up to $250, 30 days in jail or both, plus license and registration suspension.",
+      "number": 25000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 72,
+        "quote": "$25,000 for injury or death of one person ■ $50,000 for injury or death of two or more persons ■ $25,000 for property damage"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "point_system",
+      "value": "10 or more points within 5 years = suspension",
+      "detail": "Speeding is 2 points (3 if more than 25 mph over), reckless driving and passing a stopped school bus are 4. Two points come off for each violation-free year and for an approved defensive driving course (once every 24 months).",
+      "number": 10,
+      "unit": "points",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 71,
+        "quote": "If you accumulate 10 or more points within 5 years, your license will be suspended."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Required for riders under 18",
+      "detail": "Oklahoma requires a helmet for anyone under 18 on a motorcycle. A motorcycle without a windshield may be ridden only if the operator wears approved goggles or face-shield material (p. 53).",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 7,
+        "quote": "A helmet is required for anyone under 18 years of age."
+      },
+      "status": "corrected"
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Passing a stopped school bus: 1-year revocation",
+      "summary": "Failing to stop for a school bus with red lights flashing brings a mandatory one-year license revocation (and 4 points).",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 30,
+        "quote": "It is mandatory revocation of driver license for one year for failing to stop for a school bus with red loading/unloading lights flashing."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Stop 15 feet from a blind pedestrian",
+      "summary": "Drivers must yield to any blind person (white, red-tipped or chrome cane, or guide dog) and stop 15 feet away, outside the crosswalk.",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 28,
+        "quote": "A vehicle must stop 15 feet from a blind person in the roadway or at an intersection."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Implied-consent revocation lasts 180 days to 2 years",
+      "summary": "A revocation under the Implied Consent Law (refused or failed test) runs 180 days to 2 years, depending on prior record.",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 65,
+        "quote": "If your license is revoked under the Oklahoma Implied Consent Law, the revocation period will be from 180 days to 2 years, depending on your previous driving record."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Impaired driving above 0.05 BAC",
+      "summary": "A BAC above 0.05 (but under 0.08) is evidence of impairment; conviction brings a $100-$500 fine, up to 6 months in jail or both.",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 65,
+        "quote": "An alcohol concentration more than 0.05 is relevant evidence that the driver’s ability to drive was impaired."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Zero tolerance: 6-month revocation for under-21 first offense",
+      "summary": "Under 21, a first DUI, APC, test refusal or measurable BAC means a 6-month revocation; a second means 12 months.",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 67,
+        "quote": "the revocation would be for a period of SIX MONTHS."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Any detectable cannabis is illegal while driving",
+      "summary": "Even though medical cannabis is legal, driving with any detectable level of cannabis in your system is illegal.",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 66,
+        "quote": "it is illegal for anyone to drive with any detectable level of cannabis in their system."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Work-zone speeding fines double",
+      "summary": "Speeding fines double in construction/maintenance zones when workers or equipment are present; ignoring work-zone signs is a misdemeanor ($100-$1,000 fine and/or up to 30 days in jail).",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 23,
+        "quote": "Speeding fines are doubled in a construction or maintenance zone when workers or equipment are present."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Don't impede traffic in the left lane",
+      "summary": "On a road divided into four or more lanes, you may not impede normal traffic flow by driving in the left lane, and you may not exceed the speed limit to pass.",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 35,
+        "quote": "On a roadway that is divided into four or more lanes, a vehicle cannot impede the normal flow of traffic by driving in the left lane."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Report a new address within 10 days",
+      "summary": "When you move, you must notify Service Oklahoma within 10 days; failure can lead to suspension without notice.",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 13,
+        "quote": "When you move, you must notify Service Oklahoma within 10 days"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Uninsured crash with injury or $500+ damage = suspension",
+      "summary": "Service Oklahoma suspends the license of an uninsured driver/owner in a crash involving any injury or property damage of $500 or more.",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 16,
+        "quote": "owner of a vehicle involved in a collision where there is any injury or property damage of $500 or more."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Points come off for clean years and a defensive driving course",
+      "summary": "Two points are removed for each 12 months without a pointable conviction (all points after 3 clean years), and 2 points for an approved course once every 24 months.",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 72,
+        "quote": "Two (2) points are deducted for each 12-month period in which there are no convictions of any pointable traffic violations."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Motorcycle-only license at 14",
+      "summary": "Riders 14-15 may get a motorcycle-only license limited to 300cc or less, riding 4:30 a.m. to 9:00 p.m., no passengers; under 18 must complete a state-approved basic rider course.",
+      "source": {
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+        "page": 7,
+        "quote": "You may ride only between the hours of 4:30 a.m. and 9:00 p.m. You cannot carry a passenger."
+      },
+      "status": "verified"
+    }
+  ],
+  "officialPracticeTests": [
+    "https://oklahoma.gov/service/all-pages/driver-study-hub.html"
+  ],
+  "gaps": [
+    "bac_limit_commercial: the Oklahoma Driver Manual does not state the commercial-driver BAC limit; the CDL manual/statutes were not checked.",
+    "open_container: not covered in the Oklahoma Driver Manual.",
+    "motorcycle_lane_splitting: not covered in the Oklahoma Driver Manual.",
+    "emergency_vehicles: the manual gives no following distance behind emergency vehicles (only pull right and stop).",
+    "speed_limit_residential / speed_limit_business_district: no statewide number in the manual; cities and towns set their own limits (recorded as 'obey posted signs')."
+  ]
+}

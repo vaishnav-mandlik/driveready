@@ -1,0 +1,769 @@
+{
+  "code": "UT",
+  "name": "Utah",
+  "agency": {
+    "name": "Utah Department of Public Safety, Driver License Division",
+    "abbreviation": "DLD",
+    "website": "https://dld.utah.gov"
+  },
+  "handbook": {
+    "title": "Utah Driver Handbook",
+    "edition": "2026 (includes New 2026 Laws effective May 6, 2026)",
+    "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf"
+  },
+  "exam": {
+    "questions": 50,
+    "passingScore": 40,
+    "passingPercent": 80,
+    "timeLimitMinutes": null,
+    "roadSigns": null,
+    "format": "Closed-book, 50-question written knowledge test for never-licensed applicants, taken at a Driver License Division office by appointment. Previously licensed applicants take an open-book 25-question test.",
+    "languages": "English; audio and text in Arabic, French, Korean, Mandarin Chinese, Portuguese and Spanish; text only in Dari, Somali, Swahili, Tagalog, Tongan, Ukrainian and Vietnamese. Applicants for a regular or limited-term license may use a division-approved interpreter if their language is not offered.",
+    "retestWait": "You can test twice in one day; a retest needs a new appointment. The fee covers up to three attempts within 12 months; after three failures another fee is required.",
+    "notes": "The handbook (p. 33) says the test is not timed (generally 30-45 minutes) and requires 80% or better; 80% of 50 = 40 correct (computed). Entry-level learner permit from age 15; knowledge-test scores for an entry-level permit are valid 18 months. All first-time Class D applicants must also pass the online Traffic Safety and Trends Exam with a 100% score before licensing. Previously licensed applicants take an open-book 25-question version (DLD written-test page, checked Oct 2026).",
+    "sourceUrl": "https://dld.utah.gov/written-knowledge-test/"
+  },
+  "motorcycleExam": {
+    "questions": 25,
+    "notes": "DLD motorcycle page: a 25-question closed-book written knowledge test is required for the motorcycle learner permit; the page does not state a passing score. Riders under 19 must hold the motorcycle permit at least two months unless they complete the MSF Basic Rider course. Study the Utah Motorcycle Operator Manual (2024).",
+    "sourceUrl": "https://dld.utah.gov/motorcycle/"
+  },
+  "cdlExam": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.05% BAC",
+      "detail": "Utah's per se limit for adult drivers is 0.05 BAC (0.04 for CDL drivers), lower than the 0.08 used elsewhere. You can also be convicted below the limit if you are impaired to the degree that it is unsafe to drive.",
+      "number": 0.05,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 62,
+        "quote": "If you are over 0.05 BAC (0.04 for CDL), you violate the law. Utah law also states that driving is a violation if you are impaired to the degree that it is unsafe to operate a vehicle, even if you are under the legal limit."
+      }
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "Any measurable amount of alcohol (Not-a-Drop Act)",
+      "detail": "Drivers under 21 with any measurable alcohol in their body lose all driving privileges for 6 months on a first offense; a second offense within 10 years means 2 years or until age 21, whichever is longer.",
+      "number": 0,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 62,
+        "quote": "Not-a-Drop Act provides that a person under 21 years of age driving with any measurable amount of alcohol in their body will have all driving privileges denied for six months for a first offense."
+      }
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC",
+      "detail": "Commercial (CDL) drivers violate the law at 0.04 BAC.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 62,
+        "quote": "If you are over 0.05 BAC (0.04 for CDL), you violate the law."
+      }
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusal: license revoked 18 months (1st), 36 months (2nd+); under 21: 2 years or until 21, whichever is longer",
+      "detail": "By driving in Utah you consent to a chemical test of breath, blood, urine or oral fluids. Refusing a test revokes the license for 18 months on a first offense (36 months for later offenses).",
+      "number": 18,
+      "unit": "months",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 63,
+        "quote": "If you refuse to do so, your driver license would be revoked for 18 months for the first offense and 36 months for the second or subsequent offenses. If under 21, the license will be revoked for two years or until 21 whichever is longer for the first offense"
+      }
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "120-day license suspension (21+); 18-month ignition interlock restriction",
+      "detail": "A first DUI conviction for a driver 21 or older brings a 120-day suspension (2 years for a second or later offense). Separately (p. 64), a first DUI conviction restricts the driver to vehicles with an ignition interlock device for 18 months (3 years if under 21 at arrest).",
+      "number": 120,
+      "unit": "days",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 62,
+        "quote": "On the first conviction of a DUI for a driver 21 and older, the driver license will be suspended for 120 days and two years for a second or subsequent offense."
+      }
+    },
+    {
+      "key": "open_container",
+      "value": "No drinking or open alcohol containers in the passenger compartment (class C misdemeanor)",
+      "detail": "No one, driver or passenger, may drink alcohol in a motor vehicle on a highway, and no opened alcohol container may be kept in the passenger compartment (which includes the glove/utility compartment). Exceptions include passengers in motor-home or camper living quarters, and (for open containers) passengers in a licensed taxicab or bus. A violation is a class C misdemeanor.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6a/41-6a-S526.html",
+        "page": null,
+        "quote": "A person may not keep, carry, possess, transport, or allow another to keep, carry, possess, or transport in the passenger compartment of a motor vehicle, on a golf cart, on a motor assisted scooter, or on an electric assisted bicycle, when the vehicle is on any highway or waters of the state, any container that contains an alcoholic beverage if the container has been opened, the container's seal broken, or the contents of the container partially consumed."
+      }
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15",
+      "detail": "The entry-level learner permit can be used from age 15, is valid for 18 months, and requires passing the written knowledge test and an eye test.",
+      "number": 15,
+      "unit": "years",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 17,
+        "quote": "The entry-level learner permit is valid for 18 months and entitles you to drive a regular motor vehicle if: • You have reached a minimum age of 15."
+      }
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "6 months (ages 16-17); none at 18 with driver ed; 90 days at 19+ unless driver ed is completed",
+      "detail": "Drivers aged 16 and 17 must hold a learner permit for 6 months before a first Class D license. At 18 there is no holding period but driver education is required; at 19+ the permit must be held 90 days unless an approved driver ed course is completed.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 17,
+        "quote": "Age 16 and 17—6 months • Age 18—no holding period, but applicant must complete an approved driver education course • Age 19+—90 days (unless applicant completes an approved driver education course)"
+      }
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "40 hours, including 10 after sunset",
+      "detail": "Applicants 15-18 must log 40 hours of driving with a parent or legal guardian, 10 of them after sunset, in addition to driver education.",
+      "number": 40,
+      "unit": "hours",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 16,
+        "quote": "A student must also complete 40 hours of driving (10 hours after sunset) with a parent or legal guardian."
+      }
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Licensed parent/stepparent/foster parent/guardian, approved driving instructor, or licensed responsible adult 21+ in the seat next to the driver",
+      "detail": "With an entry-level permit, the person beside you must be a licensed parent, stepparent, foster parent, legal guardian, approved driving instructor, or responsible adult age 21 or older. Other passengers may ride along.",
+      "number": 21,
+      "unit": "years (minimum age of a non-parent supervisor)",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 17,
+        "quote": "The person sitting next to you is a licensed parent, stepparent, foster parent, legal guardian, approved driving instructor, or responsible adult, age 21 or older (passengers may be in the vehicle.)"
+      }
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16",
+      "detail": "An original Class D license requires being at least 16. Applicants under 19 must complete approved driver education. Licenses issued to anyone under 21 are provisional (separate, stricter point system).",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 20,
+        "quote": "To obtain an original regular Class D license, you must be at least 16 years of age."
+      }
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "Age 16 with a license: no driving 12 a.m.-5 a.m.",
+      "detail": "A 16-year-old licensed driver may not drive between midnight and 5 a.m. unless accompanied by a licensed driver 21+ in the front seat, on agricultural assignment, driving to or from work or a school-sponsored activity, or in an emergency.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 18,
+        "quote": "If you have a driver license (not permit) 12 am - 5 am"
+      }
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "Age 16 with a license: immediate family members only for the first 6 months",
+      "detail": "For six months after the license is issued, a 16-year-old driver may carry only immediate family members, unless accompanied by a licensed driver 21+ in the front seat, on agricultural assignment, or in an emergency.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 18,
+        "quote": "only in vehicle until six months from issue date"
+      }
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "21 (licenses issued under 21 are provisional); GDL night/passenger limits apply only at age 16",
+      "detail": "Utah calls every license issued to a person under 21 a provisional license, which uses a separate point system (hearing at 70 points instead of 200). The youthful-driver night and passenger limits in the handbook table apply only at age 16.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 13,
+        "quote": "Provisional License—a Utah license issued to any person under 21 years of age."
+      }
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "No manual texting, dialing, internet, video or photos while moving; drivers over 18 may talk only if voice commands connect the call",
+      "detail": "While the vehicle is moving you may not use a handheld device to write, send or read messages, dial a number, access the internet, view/record video, take photos or enter data. Drivers over 18 may talk if voice commands are used to connect the call.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 69,
+        "quote": "Utah law allows drivers over 18 years of age to talk on an HWC device while driving as long as voice commands are used to connect to a call."
+      }
+    },
+    {
+      "key": "texting_ban",
+      "value": "Texting while driving prohibited; class C misdemeanor, max $100 fine (class B with injury or prior)",
+      "detail": "Texting while driving is a class C misdemeanor with a maximum $100 fine, or a class B misdemeanor if it causes bodily injury or is a repeat offense. It carries 50 points. Officers may stop a driver just for texting.",
+      "number": 100,
+      "unit": "dollars (max fine)",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 69,
+        "quote": "A person convicted of a texting violation is guilty of a Class C misdemeanor with a maximum fine of $100 or a Class B misdemeanor if they inflict bodily injury or have a previous violation for this offense."
+      }
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Drivers under 18: no handheld device use except emergencies, reporting hazards/crimes, or contacting a parent/guardian",
+      "detail": "Drivers under 18 may use a handheld wireless device while driving only for a medical emergency, to report a safety hazard or criminal activity, or to communicate with a parent or legal guardian.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 69,
+        "quote": "Drivers under the age of 18 may only use an HWC device while operating a motor vehicle during a medical emergency, reporting a safety hazard, reporting criminal activity, or communicating with a parent or legal guardian."
+      }
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "All occupants must buckle up; primary enforcement for under 16, secondary for 16+",
+      "detail": "Everyone in the vehicle must wear a belt or be in a child seat; the driver can be cited for each unrestrained passenger. Police may stop you if anyone under 16 is unrestrained; occupants 16+ can be cited if stopped for another reason. The fine may be waived after a 30-minute online safety belt course.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 38,
+        "quote": "You may be stopped and cited if anyone under 16 years of age is unrestrained, and occupants of the vehicle 16 years and older may be cited for a safety belt violation if stopped for another reason."
+      }
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Children 8 and under in an approved child safety seat unless 57 inches tall",
+      "detail": "Children 8 and under must ride in an approved child safety seat unless they are 57 inches tall. Rear-facing until at least 2 years and 30 pounds; forward-facing harness until at least 4 years and 40 pounds; then a booster until the belt fits and they are 57 inches. Children 12 and under should ride in the back seat.",
+      "number": 57,
+      "unit": "inches",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 38,
+        "quote": "All children aged eight and under must be properly secured in an approved child safety seat unless they are 57 inches tall."
+      }
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Never faster than reasonable and prudent for existing conditions",
+      "detail": "Utah's basic speed law: never drive faster than is reasonable and prudent under existing conditions, even below the posted limit.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 54,
+        "quote": "In Utah, the basic speed law states that you may never drive faster than is reasonable and prudent under the existing conditions."
+      }
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "20 mph",
+      "detail": "Unless posted otherwise, 20 mph when passing a school building or grounds during recess, while children are going to or leaving school during opening/closing hours, or when the flashing lights are operating.",
+      "number": 20,
+      "unit": "mph",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 54,
+        "quote": "20 miles per hour: • When passing a school building or grounds during school recess."
+      }
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "25 mph",
+      "detail": "When no sign says otherwise, the limit in any residential area is 25 mph.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 54,
+        "quote": "25 miles per hour: • In any business or residential area."
+      }
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "25 mph",
+      "detail": "When no sign says otherwise, the limit in any business area is 25 mph.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 54,
+        "quote": "25 miles per hour: • In any business or residential area."
+      }
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "55 mph (lawful default outside school zones and urban districts, unless posted otherwise)",
+      "detail": "Utah law sets 20 mph in reduced-speed school zones, 25 mph in urban districts, and 55 mph in other locations, unless a different limit is posted. The handbook lists 55 mph 'on major highways, as posted' (p. 54).",
+      "number": 55,
+      "unit": "mph",
+      "source": {
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6a/41-6a-S601.html",
+        "page": null,
+        "quote": "(c) 55 miles per hour in other locations."
+      }
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "80 mph (rural interstates may be posted 65/70/75/80)",
+      "detail": "Rural interstate highways in Utah may be posted at 65, 70, 75 or 80 mph; transition zones are marked with pavement markings and additional signs.",
+      "number": 80,
+      "unit": "mph",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 54,
+        "quote": "65/70/75/80 miles per hour: • On rural interstate highways."
+      }
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Do not drive so slowly that you impede the normal flow of traffic",
+      "detail": "Driving too slowly can be dangerous; officers may cite drivers who impede the normal flow of traffic. A left-lane driver must move right when approached from behind on a multi-lane highway.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 55,
+        "quote": "On the other hand, do not drive so slowly that you become a source of danger on the road. Peace officers are allowed to issue you a citation if you are impeding the normal flow of traffic."
+      }
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop unless posted otherwise",
+      "detail": "You may turn right on a steady red light after coming to a complete stop, unless a sign prohibits it. A red right-turn arrow prohibits the turn.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 56,
+        "quote": "You may turn right on a red light after coming to a complete stop unless posted otherwise."
+      }
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "From a one-way street onto a one-way street only, after stopping",
+      "detail": "Utah law allows a left turn on a steady red light only from a one-way street into a one-way street, after stopping and yielding to traffic and pedestrians. The handbook also notes that a driver stranded by a red left-turn arrow that will not change may turn left from a one-way street onto a one-way street when safe.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://le.utah.gov/xcode/Title41/Chapter6a/41-6a-S305.html",
+        "page": null,
+        "quote": "The operator of a vehicle facing a steady circular red signal may cautiously enter the intersection to turn right, or may turn left from a one-way street into a one-way street, after stopping as required by Subsection (4)(a) ."
+      }
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 2 seconds before turning or changing lanes",
+      "detail": "Utah measures signaling in time, not feet: signal for two seconds before turning and two seconds before any lane change, and whenever you pull to or from a curb.",
+      "number": 2,
+      "unit": "seconds",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 44,
+        "quote": "Signals are required: • For two seconds before turning."
+      }
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Yield, drive at once to the right side of the road and stop; do not follow a fire vehicle within 500 feet",
+      "detail": "When an emergency vehicle approaches with siren or lights, pull immediately to the right side of the road and stop until it passes. Unless on official business, do not follow within 500 feet of a fire vehicle answering an alarm, or drive or park on the same block where it has stopped.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 87,
+        "quote": "Unless you are on official business, do not follow within 500 feet of any fire vehicle responding to an alarm."
+      }
+    },
+    {
+      "key": "move_over_law",
+      "value": "Slow down, leave space, and change to a non-adjacent lane if safe; violators must take a 4-hour class within 90 days",
+      "detail": "When approaching a stationary vehicle with flashing hazard lights that is not legally parked, reduce speed, give it as much space as practical, and move to a lane not adjacent to it if safe. A conviction requires a four-hour live classroom defensive driving course within 90 days, or the license is suspended for 90 days.",
+      "number": 4,
+      "unit": "hours (required course)",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 87,
+        "quote": "If you are convicted for NOT following the move over law, you must attend a four hour live classroom defensive driving course within 90 days of conviction. If you fail to attend the defensive driving class, your license will be suspended for 90 days."
+      }
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop for flashing red lights; on a divided highway (4+ lanes with a median) or a 5+ lane road with a center turn lane, only traffic behind the bus must stop",
+      "detail": "Traffic in both directions must stop on two-lane roads and on four-lane roads without a median. On a divided highway with four or more lanes and a median, or a highway with five or more lanes and a shared center turn lane, only vehicles behind the bus must stop. Fines can reach $3,000.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 46,
+        "quote": "If traveling on a divided highway with four or more lanes with a median separating the traffic, it is only necessary for the vehicles in both lanes behind the school bus to stop, not the traffic traveling in the opposite direction."
+      }
+    },
+    {
+      "key": "following_distance",
+      "value": "At least 2 seconds",
+      "detail": "Keep at least a two-second following distance; increase it in adverse conditions, and add at least two more seconds at night.",
+      "number": 2,
+      "unit": "seconds",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 49,
+        "quote": "You should always maintain at least two seconds following distance behind the vehicle ahead of you."
+      }
+    },
+    {
+      "key": "headlights_required",
+      "value": "Sunset to sunrise, and whenever you cannot see persons/vehicles 1,000 feet ahead",
+      "detail": "Headlights are required from sunset to sunrise and any time insufficient light or bad weather keeps you from clearly seeing people and vehicles 1,000 feet ahead. The handbook adds: use your lights any time conditions keep you from seeing 1,000 feet ahead (p. 71).",
+      "number": 1000,
+      "unit": "feet",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 70,
+        "quote": "If your vehicle is being operated on a highway at any time from sunset to sunrise"
+      }
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "500 feet",
+      "detail": "Dim high beams before you get within 500 feet of an oncoming vehicle (and within 500 feet when approaching or overtaking a bicyclist at night).",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 70,
+        "quote": "If your vehicle’s high beam lights are on and a car is coming toward you, dim your lights before you get within 500 feet of the oncoming car."
+      }
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "300 feet",
+      "detail": "Dim your lights when you are within 300 feet of a vehicle you are following.",
+      "number": 300,
+      "unit": "feet",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 70,
+        "quote": "If you are following a car, dim your lights when you are within 300 feet of the vehicle ahead of you."
+      }
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet",
+      "detail": "No parking within 15 feet of a fire hydrant.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 42,
+        "quote": "Within 15 feet of a fire hydrant."
+      }
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "20 feet",
+      "detail": "No parking on a crosswalk or within 20 feet of a crosswalk.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 42,
+        "quote": "On a crosswalk, or within 20 feet of a crosswalk."
+      }
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Not in an intersection",
+      "detail": "Parking in an intersection is prohibited; the crosswalk (20 ft) and stop sign/signal (30 ft) rules also keep vehicles back from intersections.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 42,
+        "quote": "In an intersection."
+      }
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet",
+      "detail": "No parking within 30 feet of any flashing beacon, stop sign, yield sign, or traffic control signal.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 42,
+        "quote": "Within 30 feet of any flashing beacon, stop sign, yield sign, or traffic control signal."
+      }
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet",
+      "detail": "No parking on a railroad track or within 50 feet of the nearest rail of a railroad crossing.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 42,
+        "quote": "On any railroad track or within 50 feet of the nearest rail of a railroad crossing."
+      }
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet (75 feet on the opposite side when signs are posted)",
+      "detail": "No parking within 20 feet of a fire station driveway entrance; when signs are posted, no parking on the opposite side of the road within 75 feet of the entrance.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 42,
+        "quote": "Within 20 feet of the driveway entrance to any fire station, if signs are posted, you may not park on the opposite side of the road if you are within 75 feet of the fire station entrance."
+      }
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "No more than 12 inches from the curb",
+      "detail": "When parked next to a curb, the back wheel must be no farther than 12 inches from the curb.",
+      "number": 12,
+      "unit": "inches",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 43,
+        "quote": "If parking next to a curb, the back wheel of your car must be no further than 12 inches away from the curb."
+      }
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "Between 15 and 50 feet from the nearest rail",
+      "detail": "When required to stop at a railroad crossing, stop more than 15 feet but not more than 50 feet from the nearest rail.",
+      "number": 15,
+      "unit": "feet (minimum)",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 96,
+        "quote": "When you stop at a railroad crossing, you must be between 15 and 50 feet from the nearest rail."
+      }
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet",
+      "detail": "Give at least three feet when passing a bicyclist or other vulnerable highway user. Do not pass a bicycle within 100 feet of an intersection or railroad crossing or where the view is obstructed.",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 85,
+        "quote": "Utah law requires a minimum of three feet of distance from any bicyclist or vulnerable user of the highway you are passing."
+      }
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Stop and remain stopped until the pedestrian has crossed at least your half of the road; full stop for a white cane or guide dog",
+      "detail": "Drivers must yield to pedestrians in marked or unmarked crosswalks and remain stopped until the pedestrian has crossed at least the driver's half of the road. Come to a complete stop for a pedestrian with a guide dog or white cane.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 92,
+        "quote": "The driver must stop, particularly when the pedestrian is on the same half of the roadway or approaching closely."
+      }
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Notify law enforcement immediately for injury, death, or at least $2,500 total property damage",
+      "detail": "Stop at every crash. If it causes injury, death or at least $2,500 in total property damage, call law enforcement (911) immediately. Failing to stop at an injury crash is a third-degree felony.",
+      "number": 2500,
+      "unit": "dollars",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 75,
+        "quote": "If the crash results in injuries, death, or at least $2500 in total property damage, you must notify law enforcement (911) immediately."
+      }
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "30/65/25 liability + $3,000 PIP (policies issued or renewed on or after Jan 1, 2025)",
+      "detail": "Utah requires owner's security (insurance). Minimum liability for policies issued or renewed on or after January 1, 2025: $30,000 per person and $65,000 per accident for bodily injury, $25,000 property damage (or a $90,000 single limit). Personal injury protection (no-fault/PIP) is also mandatory, at least $3,000 per person for medical expenses (Utah Code 31A-22-307).",
+      "number": 30000,
+      "unit": "dollars (bodily injury per person)",
+      "source": {
+        "url": "https://le.utah.gov/xcode/Title31A/Chapter22/31A-22-S304.html",
+        "page": null,
+        "quote": "$30,000 because of liability for bodily injury to or death of one person, arising out of the use of a motor vehicle in any one accident; (ii) subject to the limit for one person in Subsection (2)(a)(i) , in the amount of $65,000 because of liability for bodily injury to or death of two or more persons arising out of the use of a motor vehicle in any one accident; and (iii) in the amount of $25,000 because of liability for injury to, or destruction of, property of others"
+      }
+    },
+    {
+      "key": "point_system",
+      "value": "Hearing at 200 points in 3 years (21+) or 70 points (under 21)",
+      "detail": "Points: reckless driving 80, speeding 35-75, failure to yield/tailgating/wrong side/wrong way 60, red light/stop sign/improper lookout/improper passing/texting 50, other moving violations 40. One violation-free year removes half the points; two years removes all; a division-recommended defensive driving course removes 50 points once every three years.",
+      "number": 200,
+      "unit": "points",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 82,
+        "quote": "OVER 21 YEARS OF AGE—if you acquire 200 or more points within a three year period, you will be asked to appear for a hearing. • UNDER 21 YEARS OF AGE—if you acquire 70 points or more within a three year period, you will be asked to appear for a hearing."
+      }
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Required for operators and passengers under 21",
+      "detail": "Any motorcycle operator or passenger under 21 must wear an approved DOT helmet; motorcycles licensed for street use must carry liability insurance. A motorcycle endorsement is required to ride on Utah highways.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 91,
+        "quote": "Any motorcycle operator or passenger who is under 21 years of age must wear an approved DOT helmet."
+      }
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Lane splitting illegal; lane filtering legal past stopped vehicles at 15 mph or less on roads posted 45 mph or less",
+      "detail": "Riding between moving cars (lane splitting) is illegal. Lane filtering is legal only on a road or off-ramp with two or more same-direction lanes, posted 45 mph or less (never on an on-ramp), at 15 mph or less, passing vehicles that are stopped, when safe.",
+      "number": 15,
+      "unit": "mph (max filtering speed)",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 92,
+        "quote": "Lane splitting is riding between cars moving at higher speeds and is illegal in Utah and considered dangerous."
+      }
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Zipper merge",
+      "summary": "At a congested merge point such as a construction zone, use both lanes until the merge point, then alternate into the single lane. A violation is an infraction.",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 41,
+        "quote": "The ZIPPER METHOD is the idea of alternating when merging at a congested merge point (i.e., construction zone.)"
+      }
+    },
+    {
+      "title": "Gore area is off-limits",
+      "summary": "It is illegal to cross over or drive in the gore area, the space between the solid white lines separating a through lane from an entrance or exit lane.",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 41,
+        "quote": "It is against the law to cross over or to drive in the “gore area.”"
+      }
+    },
+    {
+      "title": "Keep right / left-lane impeding",
+      "summary": "On a multi-lane highway, a vehicle in the left lane must move right when approached from behind; you can be cited for impeding traffic if you do not.",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 49,
+        "quote": "A vehicle traveling in the left lane must move safely to the right when approached from behind to prevent impeding traffic."
+      }
+    },
+    {
+      "title": "I-15 express (carpool) lanes",
+      "summary": "Express lanes are free for vehicles with two or more people, motorcycles, buses and C-decal clean-fuel vehicles; solo drivers need an Express Pass. Crossing the double white line is illegal; enter and exit only at dotted-line access points.",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 50,
+        "quote": "The express lanes may be used as a carpool lane for those vehicles with two or more persons for free."
+      }
+    },
+    {
+      "title": "Passing snowplows",
+      "summary": "Do not pass a snowplow with flashing yellow lights on the side where its blade is deployed; if three or more plows work in echelon formation, do not pass on either side.",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 44,
+        "quote": "If three or more snowplows operate in echelon formation, an individual operating a vehicle may not pass or overtake the snowplows on either side."
+      }
+    },
+    {
+      "title": "Shared center left-turn lane 500-foot limit",
+      "summary": "You may not enter a two-way center left-turn lane more than 500 feet before your turn (unless the last car in it is more than 500 feet from the intersection).",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 54,
+        "quote": "When making a left turn from a shared turn lane, you may not enter the lane more than 500 feet before making the turn unless the last car is more than 500 feet from the intersection."
+      }
+    },
+    {
+      "title": "Road rage law",
+      "summary": "Committing a criminal offense from a vehicle in response to a roadway incident with intent to endanger or intimidate someone in another vehicle is road rage; the court may suspend the license for one year on a first conviction.",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 66,
+        "quote": "The court may order that your license be suspended for one year on the first conviction."
+      }
+    },
+    {
+      "title": "No smoking with young children in the car",
+      "summary": "It is an infraction to be stopped for smoking in a vehicle while transporting children 15 years of age or younger.",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 39,
+        "quote": "It is an infraction to be stopped for smoking in a vehicle while transporting children 15 years of age or younger."
+      }
+    },
+    {
+      "title": "Studded snow tires season",
+      "summary": "Snow tires with metal studs may be used only from October 15 through March 31.",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 73,
+        "quote": "Snow tires with metal studs may be used from October 15 through March 31 of each year."
+      }
+    },
+    {
+      "title": "No signal required in roundabouts (2026)",
+      "summary": "HB 128 (effective May 6, 2026) removed the requirement to signal your intention to turn when navigating a roundabout.",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 4,
+        "quote": "Removes the requirement to signal intention to turn when navigating a roundabout."
+      }
+    },
+    {
+      "title": "Ignition interlock after DUI",
+      "summary": "A first DUI conviction restricts the driver to vehicles with an ignition interlock device for 18 months, or 3 years if under 21 when arrested; a second DUI or a refusal revocation brings a 2-year restriction.",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 64,
+        "quote": "When an individual has been convicted of a first DUI, they are automatically restricted to driving a vehicle that has an IID installed for 18 months from the date of conviction or the effective date of the license suspension or three years if they are under the age of 21 when they are arrested."
+      }
+    },
+    {
+      "title": "Report address changes within 10 days",
+      "summary": "Class D license holders must notify the Driver License Division of a new address within 10 days of moving (CDL holders apply for a duplicate within 30 days).",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 29,
+        "quote": "If you have a change of address, you are required by law to notify the division of the new address within 10 DAYS of moving."
+      }
+    },
+    {
+      "title": "Careless driving",
+      "summary": "Committing two or more moving violations in one continuous period of driving, or a moving violation while distracted by an activity unrelated to driving (such as searching for an item or grooming), is careless driving.",
+      "source": {
+        "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-2026.pdf",
+        "page": 11,
+        "quote": "a person operating a motor vehicle is guilty of careless driving if the person commits two or more moving traffic violations within a single continuous period of driving or commits a moving traffic violation while being distracted by one or more activities taking place within the vehicle that are not related to the operation of a motor vehicle, including searching for an item in the vehicle or attending to personal hygiene, or grooming."
+      }
+    }
+  ],
+  "officialPracticeTests": [
+    "https://dld.utah.gov/practice-test/"
+  ],
+  "verifiedOn": "2026-10-14"
+}

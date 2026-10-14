@@ -99,7 +99,7 @@ export function localizeSign(sign: SignInfo, lang: Lang): SignInfo {
   if (!t || t.h !== signHash(sign)) {
     return sign;
   }
-  return {...sign, name: t.name, meaning: t.meaning, shape: t.shape, colors: t.colors};
+  return {...sign, name: t.name, meaning: t.meaning, shapeLabel: t.shape, colorsLabel: t.colors};
 }
 
 function localizeExam<T extends Partial<ExamFormat> | null>(exam: T, tx: (s: string | null | undefined) => string | null | undefined): T {

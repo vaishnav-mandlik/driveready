@@ -1,0 +1,693 @@
+{
+  "code": "CT",
+  "name": "Connecticut",
+  "agency": {
+    "name": "Connecticut Department of Motor Vehicles",
+    "abbreviation": "DMV",
+    "website": "https://portal.ct.gov/dmv"
+  },
+  "handbook": {
+    "title": "Connecticut Driver's Manual",
+    "edition": "Revised March 2023",
+    "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf"
+  },
+  "exam": {
+    "questions": 25,
+    "passingScore": 20,
+    "passingPercent": 80,
+    "timeLimitMinutes": null,
+    "roadSigns": null,
+    "format": "In-person test by appointment only at select DMV offices; vision test is taken first in the same appointment. A hard-copy written test can be requested in additional languages. Based on the Connecticut driver's manuals.",
+    "languages": "Albanian, Arabic, Mandarin Chinese, English, French, Italian, Polish, Portuguese, Russian, Spanish and Vietnamese; hard-copy written tests on request in Amharic, Armenian, Bosnian, Chinese Simplified, Croatian, Dari, German, Greek, Haitian Creole, Hindi, Japanese, Khmer, Korean, Nepali, Pashto, Persian Farsi, Brazilian Portuguese, Punjabi, Romanian, Somali, Thai, Turkish, Ukrainian and Urdu.",
+    "retestWait": "If you fail the knowledge test you must wait seven days and pay the $40 fee again to reschedule.",
+    "notes": "Same 25-question test (20 correct = 80% to pass) for teens and adults; no separate road-signs section is described. $40 testing fee covers vision, knowledge and road test; $19 learner's permit. Since January 1, 2026 every permit applicant must first complete the free online Connecticut Work Zone Safety Course. Vision: 20/40 with or without lenses and 140 degrees of binocular peripheral field. Minimum age 16 for permit and license; 16-17-year-olds need parental consent (form 2-D), driver education (30 hours classroom incl. 8-hour safe driving course with 2-hour parent class, 40 hours behind the wheel) and must hold the permit 120 days (school-trained) or 180 days (home-trained). Adults 18+ need an adult learner's permit held at least 90 days and an 8-hour safe driving course if never licensed.",
+    "sourceUrl": "https://portal.ct.gov/dmv/licenses-permits-ids/take-knowledge-vision-test"
+  },
+  "motorcycleExam": {
+    "questions": 16,
+    "notes": "The motorcycle knowledge exam has 16 questions drawn from the Connecticut Motorcycle Operator Manual (R-217, rev. 10-25) and the Connecticut Driver's Manual (manual p. 5); the passing score is not published. Taken by appointment at full-service DMV offices with a vision test. Endorsement requires a Connecticut driver's license, parental consent (form 2-D) under 18, and an approved novice motorcycle training course. Permit riders: helmet required, no limited-access highways, no night riding, no passengers, not out of state; permit valid 60 days, renewable once per calendar year.",
+    "sourceUrl": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/cycmanpdf.pdf"
+  },
+  "cdlExam": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC (21 and older)",
+      "detail": "Connecticut defines an 'elevated blood alcohol content' as 0.08% or more for drivers of non-commercial vehicles. You can still be convicted below 0.08 if you are under the influence; the manual warns any amount of alcohol can affect your driving.",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.cga.ct.gov/current/pub/chap_248.htm#sec_14-227a",
+        "page": null,
+        "quote": "For the purposes of this section, “elevated blood alcohol content” means a ratio of alcohol in the blood of such person that is eight-hundredths of one per cent or more of alcohol, by weight"
+      }
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% BAC (under 21, zero tolerance)",
+      "detail": "Drivers under 21 are subject to Connecticut's zero-tolerance law: a test result of .02% or more (on public roads or private property) leads to at least a 45-day suspension and an ignition interlock device for at least one year.",
+      "number": 0.02,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 35,
+        "quote": "In addition, if you are under 21 years of age, you are subject to “zero tolerance.” The law provides penalties for driving with any measurable amount of alcohol in your blood, defined as two hundredths of one percent (.02%) or more on both public roads and private property."
+      }
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC (commercial motor vehicle)",
+      "detail": "For anyone operating a commercial motor vehicle, the elevated blood alcohol content threshold is 0.04%.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.cga.ct.gov/current/pub/chap_248.htm#sec_14-227a",
+        "page": null,
+        "quote": "except that if such person is operating a commercial motor vehicle, “elevated blood alcohol content” means a ratio of alcohol in the blood of such person that is four-hundredths of one per cent or more of alcohol, by weight"
+      }
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusing a test: at least 45-day suspension + ignition interlock for at least 1 year",
+      "detail": "If you are arrested for DUI and refuse a blood, breath or urine test, your license is suspended for at least 45 days regardless of age, and you must install an ignition interlock device (IID) for at least one year to get your license back.",
+      "number": 45,
+      "unit": "days",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 35,
+        "quote": "Regardless of age, if you refuse to take a test, your operator’s license will be suspended for at least 45 days. You will be required to install and maintain an ignition interlock device (IID) as a condition of reinstatement. The IID will be required for at least one year or possibly more, depending on the number of prior offenses on your driving record."
+      }
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "1st DUI conviction: $500-$1,000 fine, up to 6 months jail (48 hours mandatory or 100 hours community service), 45-day suspension, then 1 year with an ignition interlock",
+      "detail": "A first DUI conviction carries a fine of $500 to $1,000, up to six months in jail (48 consecutive hours mandatory, or a fully suspended sentence with probation and 100 hours of community service), a 45-day license suspension, and one year of driving only vehicles with an ignition interlock device. Separately, failing the chemical test brings an administrative suspension of at least 45 days.",
+      "number": 45,
+      "unit": "days",
+      "source": {
+        "url": "https://www.cga.ct.gov/2026/sup/chap_248.htm#sec_14-227a",
+        "page": null,
+        "quote": "For conviction of a first violation, (A) be fined not less than five hundred dollars or more than one thousand dollars, (B) be (i) imprisoned not more than six months, forty-eight consecutive hours of which may not be suspended or reduced in any manner, or (ii) imprisoned not more than six months, with the execution of such sentence of imprisonment suspended entirely and a period of probation imposed requiring as a condition of such probation that such person perform one hundred hours of community service, as defined in section 14-227e, and (C) (i) have such person's motor vehicle operator's license or nonresident operating privilege suspended for forty-five days"
+      }
+    },
+    {
+      "key": "permit_min_age",
+      "value": "16 years old",
+      "detail": "You must be at least 16 to get a Connecticut learner's permit, and you must pass a vision test and a 25-question knowledge test.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 7,
+        "quote": "You must be at least 16 years of age."
+      }
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "120 days (commercial/secondary school driver ed) or 180 days (home training); 90 days for adults 18+",
+      "detail": "Teens who finish driver education at a commercial driving school or high school must hold the permit 120 days before the road test; all other teens must wait 180 days. Adults 18 and older must hold a learner's permit at least 90 days.",
+      "number": 180,
+      "unit": "days",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 8,
+        "quote": "Applicants who successfully complete driver education through a commercial driving school or a secondary school must wait 120 days after the issuance of the learner’s permit before taking the road test. All other applicants must wait 180 days after the issuance of the learner’s permit before taking the driver’s exam."
+      }
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "40 hours behind the wheel (no separate night requirement); 100 recommended",
+      "detail": "All 16- and 17-year-old applicants need at least 40 hours of behind-the-wheel, on-the-road training, from any mix of driving school and home training. The manual recommends at least 100 hours before driving solo; no specific night-hour requirement is stated.",
+      "number": 40,
+      "unit": "hours",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 9,
+        "quote": "All applicants who are 16 or 17 years of age must have at least 40 hours of behind the-wheel, on-the-road training."
+      }
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Licensed driving instructor, or a trainer at least 20 years old licensed 4+ consecutive years with no suspension in the last 4 years, seated in the front passenger seat",
+      "detail": "The person supervising a permit holder must sit in the front passenger seat and be ready to take control. For 16- and 17-year-olds the only allowed passengers are a licensed driving instructor (and those with the instructor) or one trainer who is at least 20, has been licensed four or more consecutive years, and has had no suspension in the previous four years; parents or a legal guardian may also ride along.",
+      "number": 20,
+      "unit": "years old",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 8,
+        "quote": "One person who is providing instruction and is at least 20 years old, has held a driver’s license for four or more consecutive years and whose license has not been suspended during the four years prior to training."
+      }
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 years (after 120/180 days on a permit)",
+      "detail": "Connecticut's legal age for both a learner's permit and a driver's license is 16; teens also need the required permit holding period (120 or 180 days) and training.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/licenses-permits-ids/teen-drivers-license",
+        "page": null,
+        "quote": "The legal age is 16 years old for both a learner's permit and a driver's license."
+      }
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "No driving 11 p.m. to 5 a.m. for 16- and 17-year-old license holders",
+      "detail": "Licensed 16- and 17-year-olds may not drive from 11 p.m. to 5 a.m. unless traveling for employment, school, religious activities, medical necessity, or as an assigned Safe Ride Program driver.",
+      "number": 11,
+      "unit": "p.m.",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 10,
+        "quote": "11 p.m. to 5 a.m. – unless the teen is traveling for employment, school, religious activities, medical necessity, or if the individual is an assigned driver in the Safe Ride Program."
+      }
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "First 6 months: only a licensed driving instructor, parents/legal guardian, or one qualified adult (20+, licensed 4+ years); months 7-12: may add immediate family",
+      "detail": "During the first six months, a newly licensed 16- or 17-year-old may carry only a licensed driving instructor, their parents or legal guardian (one must be licensed), or one person 20 or older licensed for at least four years with no recent suspension. During months seven through twelve, immediate family members are also allowed.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 10,
+        "quote": "During the first six months the newly licensed driver may not have any passengers in the vehicle except for:"
+      }
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "18 (teen restrictions end at 18)",
+      "detail": "Connecticut's passenger, curfew and cell-phone restrictions apply to learner's permit holders and 16- and 17-year-old licensed drivers, so they no longer apply once the driver turns 18.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 10,
+        "quote": "In addition to the laws above, learner’s permit holders and 16- and 17-year-old licensed drivers may NOT:"
+      }
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "Hand-held phones and mobile electronic devices banned for all drivers; hands-free allowed for 18+",
+      "detail": "No driver may use a hand-held cell phone or mobile electronic device on a public highway, even while temporarily stopped in traffic or at a light. You may use one only when safely parked on the side or shoulder. Adults may use hands-free accessories.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 15,
+        "quote": "Hand-held cell phones or mobile electronic devices may not be used while operating a motor vehicle on any public highway. State law also prohibits using these devices when a vehicle is temporarily stopped because of traffic, road conditions or a traffic control sign or signal."
+      }
+    },
+    {
+      "key": "texting_ban",
+      "value": "Texting while driving banned for all drivers; fines $200 / $375 / $625",
+      "detail": "Typing, sending or reading a text message on a hand-held phone or mobile electronic device while driving is a violation of 14-296aa, whose fines are $200 for a first violation, $375 for a second and $625 for a third or later (14-296aa(h)).",
+      "number": 200,
+      "unit": "dollars",
+      "source": {
+        "url": "https://www.cga.ct.gov/current/pub/chap_248.htm#sec_14-296aa",
+        "page": null,
+        "quote": "An operator of a motor vehicle who types, sends or reads a text message with a hand-held mobile telephone or mobile electronic device while operating a motor vehicle shall be in violation of this section"
+      }
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Drivers under 18 may not use any cell phone or mobile electronic device, even hands-free",
+      "detail": "16- and 17-year-old drivers (and permit holders) may not use any type of cell phone or mobile electronic device while driving, including hands-free devices; a conviction brings a license suspension (30 days for a first offense).",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 15,
+        "quote": "However, drivers who are 16 or 17 years of age are not permitted to use any type of cell phone or mobile electronic device, including a hands-free device."
+      }
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Driver and all passengers must wear seat belts",
+      "detail": "In Connecticut it is illegal to drive or ride without wearing a safety belt; the driver and each unbelted passenger can be cited. Drivers must also make sure passengers 7 to 16 are belted.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 14,
+        "quote": "In Connecticut, it is illegal to drive or to be a passenger without wearing a safety belt."
+      }
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Under 2 or under 30 lb: rear-facing seat; 2-5 or under 40 lb: 5-point harness; 5-8 or 40-60 lb: harness or booster; 8+ and 60+ lb: booster or belt",
+      "detail": "State law requires children under 16 to be properly restrained. Children under 2 or under 30 pounds ride rear-facing with a 5-point harness; ages 2-5 or under 40 pounds use a rear- or forward-facing 5-point harness; ages 5-8 or 40-60 pounds use a 5-point harness or booster; 8 and older and 60+ pounds use a booster or seat belt. If age and weight fall in different categories, the more restrictive rule applies, and a rear-facing seat may not go in front of an active passenger airbag.",
+      "number": 2,
+      "unit": "years",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 14,
+        "quote": "Under age 2, or weighing less than 30 pounds, regardless of age Rear-facing-only car seat or rear facing convertible seat with a 5-point harness"
+      }
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Never drive faster than is reasonable for conditions",
+      "detail": "Speed limits are posted for ideal conditions. If the road is wet or icy, visibility is poor or traffic is heavy you must slow down, and you can be ticketed for going too fast for conditions even at the posted limit.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 38,
+        "quote": "Even if you are driving the posted speed limit, you can get a ticket for traveling too fast for road conditions."
+      }
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "55 mph maximum on highways other than designated multi-lane limited-access highways",
+      "detail": "Unless a higher limit has been set for a multiple-lane limited-access highway, the maximum speed on Connecticut highways is 55 mph. Lower limits are posted by state and local traffic authorities.",
+      "number": 55,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.cga.ct.gov/2026/sup/chap_248.htm#sec_14-219",
+        "page": null,
+        "quote": "at a rate of speed greater than fifty-five miles per hour upon any highway other than a highway specified in subdivision (1) of subsection (b) of section 14-218a"
+      }
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "65 mph (maximum the state may set on multi-lane limited-access highways)",
+      "detail": "The Office of the State Traffic Administration may set a speed limit of up to 65 mph on each multiple-lane, limited-access highway; many are posted lower.",
+      "number": 65,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.cga.ct.gov/current/pub/chap_248.htm#sec_14-218a",
+        "page": null,
+        "quote": "the Office of the State Traffic Administration shall establish a speed limit not to exceed sixty-five miles per hour on each multiple lane, limited access highway"
+      }
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "40 mph minimum on limited-access divided highways",
+      "detail": "You may not drive slower than 40 mph on a limited-access divided highway, or so slowly on any other road that you block normal traffic, unless slower speed is needed for safety, an emergency, or by law or an officer's direction.",
+      "number": 40,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.cga.ct.gov/current/pub/chap_248.htm#sec_14-220",
+        "page": null,
+        "quote": "No person shall operate a motor vehicle at a speed lower than forty miles per hour on any limited access divided highway"
+      }
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a full stop unless a sign prohibits it",
+      "detail": "You may turn right on a red light after coming to a full stop and checking that there is no oncoming traffic, yielding to pedestrians, unless a sign prohibits the turn.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 47,
+        "quote": "If you are turning right on red, you may turn after coming to a full stop and checking to make sure that there is no oncoming traffic and no sign prohibiting the turn on a red light."
+      }
+    },
+    {
+      "key": "signal_distance",
+      "value": "Signal continuously for at least the last 100 feet before turning (manual: at least 3 seconds)",
+      "detail": "Connecticut law requires a turn signal to be given continuously during at least the last 100 feet before turning. The manual advises signaling at least three seconds before you move.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.cga.ct.gov/2026/sup/chap_248.htm#sec_14-242",
+        "page": null,
+        "quote": "A signal of intention to turn right or left shall be given continuously during not less than the last one hundred feet traveled by the vehicle before turning."
+      }
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the right edge and stop until it passes; do not follow an ambulance using lights or siren closer than 100 feet",
+      "detail": "When an emergency vehicle using a siren, air horn or red or blue flashing lights approaches from any direction, pull over to the right edge of the road and stop until it has passed (if you are in an intersection, drive through it first). It is illegal to follow an ambulance using flashing lights or a siren more closely than 100 feet.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.cga.ct.gov/current/pub/chap_248.htm#sec_14-283",
+        "page": null,
+        "quote": "following an ambulance that is using flashing lights or a siren, shall not follow such ambulance more closely than one hundred feet."
+      }
+    },
+    {
+      "key": "move_over_law",
+      "value": "Slow down below the posted limit and move over one lane for any vehicle pulled over on the road",
+      "detail": "When any vehicle is pulled over on a highway or road, slow down below the posted speed limit and move over one lane whenever it is safe.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 18,
+        "quote": "When any vehicle is pulled over on any part of a highway or road, drivers must: • SLOW DOWN (below the posted speed limit) and... • Move their vehicle over one lane whenever it is safe to do so."
+      }
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop at least 10 feet away for a bus with flashing red lights in either direction; exception only when a median or physical barrier separates you from an oncoming bus",
+      "detail": "Stop at least 10 feet from the front or rear of a school bus showing flashing red lights, whether it is on your side, the opposite side, or at an intersection you are approaching (manual p. 39), and stay stopped until the red lights stop flashing. You do not have to stop for a bus on the opposite side of a safety island or physical barrier. Turning toward a bus that is loading or unloading at an intersection is prohibited.",
+      "number": 10,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.cga.ct.gov/current/pub/chap_248.htm#sec_14-279",
+        "page": null,
+        "quote": "shall immediately bring such vehicle to a stop not less than ten feet from the front when approaching and not less than ten feet from the rear when overtaking or following any registered school bus on any highway or private road or in any parking area or on any school property when such bus is displaying flashing red signal lights, except at the specific direction of a traffic officer. Vehicles so stopped for a school bus shall not proceed until such school bus no longer displays flashing red signal lights, except that a stopped authorized emergency vehicle may proceed as long as such authorized emergency vehicle is operated pursuant to section 14-283. At the intersection of two or more highways vehicular turns toward a school bus receiving or discharging passengers are prohibited. The operator of a vehicle upon a highway with two or more lanes for traffic separated by a safety island or physical barrier may proceed without stopping upon meeting or passing a school bus which is on the opposite side of such island or barrier."
+      }
+    },
+    {
+      "key": "following_distance",
+      "value": "3 seconds (4 seconds in poor conditions)",
+      "detail": "Use the three-second rule at any speed. Increase to four seconds on slippery roads, when following motorcycles or large vehicles, when being tailgated, pulling a trailer, in low visibility, behind emergency vehicles, near railroad crossings, or when stopped on a hill.",
+      "number": 3,
+      "unit": "seconds",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 23,
+        "quote": "Repeat until you are following no closer than “three seconds.”"
+      }
+    },
+    {
+      "key": "headlights_required",
+      "value": "From a half-hour after sunset to a half-hour before sunrise, when you cannot see 500 feet ahead, and during any precipitation (wipers on = headlights on)",
+      "detail": "Connecticut requires lights from one-half hour after sunset to one-half hour before sunrise, whenever people and vehicles are not clearly visible 500 feet ahead, and during any rain, snow or fog. The manual sums it up: if you turn on your wipers, turn on your headlights.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.cga.ct.gov/2026/sup/chap_246.htm#sec_14-96a",
+        "page": null,
+        "quote": "at any time from a half-hour after sunset to a half-hour before sunrise, (2) at any time when, due to insufficient light or unfavorable atmospheric conditions, persons and vehicles on the highway are not clearly discernible at a distance of five hundred feet ahead, and (3) at any time during periods of precipitation, including, but not limited to, periods of snow, rain or fog."
+      }
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "500 feet",
+      "detail": "Dim your high beams when an oncoming vehicle is within 500 feet. The manual describes this as about a one-block distance.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.cga.ct.gov/current/pub/chap_246.htm#sec_14-96u",
+        "page": null,
+        "quote": "Whenever a driver of a vehicle approaches an oncoming vehicle within five hundred feet, such driver shall use a distribution of light, or composite beam, so aimed that the glaring rays are not projected into the eyes of the oncoming driver."
+      }
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "300 feet",
+      "detail": "Do not use high beams when you are within 300 feet behind another vehicle. The manual also says to use low beams when following another vehicle or in heavy traffic.",
+      "number": 300,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.cga.ct.gov/current/pub/chap_246.htm#sec_14-96u",
+        "page": null,
+        "quote": "Whenever the driver of a vehicle approaches another vehicle from the rear, within three hundred feet, such driver shall use a distribution of light permissible under sections 14-96a to 14-96aa, inclusive, other than the uppermost distribution of light"
+      }
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "10 feet",
+      "detail": "Do not park within 10 feet of a fire hydrant.",
+      "number": 10,
+      "unit": "feet",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 39,
+        "quote": "Within 10 feet of a fire hydrant."
+      }
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "30 feet from a marked crosswalk approach (since Oct. 1, 2025); never on a crosswalk",
+      "detail": "Never park on a crosswalk or sidewalk. Since October 1, 2025, Connecticut law also bars parking within 30 feet of the approach to a marked crosswalk (20 feet where there is a curb extension), unless there is a marked parking space.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.cga.ct.gov/2026/sup/chap_248.htm#sec_14-251",
+        "page": null,
+        "quote": "No vehicle shall be permitted to remain parked within thirty feet of an intersection or an approach to a marked crosswalk"
+      }
+    },
+    {
+      "key": "parking_intersection",
+      "value": "30 feet (since Oct. 1, 2025; manual says never in an intersection)",
+      "detail": "Never park in an intersection. Since October 1, 2025 the law also bars parking within 30 feet of an intersection (20 feet with a curb extension) unless there is an available marked parking space. Before P.A. 25-65 the limit was 25 feet.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.cga.ct.gov/2026/sup/chap_248.htm#sec_14-251",
+        "page": null,
+        "quote": "No vehicle shall be permitted to remain parked within thirty feet of an intersection or an approach to a marked crosswalk"
+      }
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet from a stop or yield sign (since Oct. 1, 2025; the March 2023 manual says 25 feet)",
+      "detail": "Connecticut law now bars parking within 30 feet of a stop sign or yield sign. The March 2023 manual still lists 25 feet for a stop sign; the law changed on October 1, 2025 (P.A. 25-65).",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.cga.ct.gov/2026/sup/chap_248.htm#sec_14-251",
+        "page": null,
+        "quote": "No vehicle shall be permitted to remain parked within thirty feet of a stop sign or yield sign caused to be erected by the traffic authority in accordance with the provisions of section 14-301."
+      }
+    },
+    {
+      "key": "parking_railroad",
+      "value": "Never park on railroad tracks (no distance stated)",
+      "detail": "The manual's no-parking list includes railroad tracks; it gives no specific distance from a crossing.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 39,
+        "quote": "On railroad tracks."
+      }
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "Within 12 inches (one foot) of the curb",
+      "detail": "When parking at a curb, park as close to it as you can; your wheels may not be more than one foot from the curb.",
+      "number": 12,
+      "unit": "inches",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 39,
+        "quote": "More than one foot from the curb."
+      }
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet",
+      "detail": "When passing a bicyclist (or other vulnerable user), slow down and leave at least three feet between your vehicle and the bicycle. Fines are doubled for failing to yield to a bicyclist.",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 19,
+        "quote": "When approaching or passing a bicyclist slow down and pass only when you are able to give a minimum of three feet distance between your vehicle and the bicycle."
+      }
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Yield to pedestrians within any part of a crosswalk, or who signal intent to cross by raising a hand or moving into the crosswalk entrance",
+      "detail": "You must slow or stop for a pedestrian in a marked or unmarked crosswalk, including one who steps to the curb and raises a hand toward traffic, or who moves any body part or extension (cane, wheelchair, stroller, leashed dog, bicycle) into the crosswalk entrance. Pedestrians with a guide dog or white cane have the absolute right-of-way.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 18,
+        "quote": "Drivers must slow or stop your vehicle and grant the right-of-way for a pedestrian crossing at a crosswalk (marked or unmarked) when the pedestrian is within any portion of the crosswalk."
+      }
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Report to police any crash with injury, death or property damage",
+      "detail": "If you are involved in a crash you must stop. Notify police if anyone is injured or killed, and report the crash to police if there is an injury, a death or property damage. If you hit a parked vehicle and cannot find the owner, leave a note.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 43,
+        "quote": "You must report the accident to police if there is an injury, a death or property damage."
+      }
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "$25,000 / $50,000 / $25,000",
+      "detail": "Connecticut requires continuous liability insurance on every registered vehicle, with limits of at least $25,000 per person and $50,000 per accident for bodily injury and $25,000 for property damage.",
+      "number": 25000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://www.cga.ct.gov/current/pub/chap_246.htm#sec_14-112",
+        "page": null,
+        "quote": "of twenty-five thousand dollars, or by reason of personal injury to, or the death of, more than one person on account of any accident, of at least fifty thousand dollars, and for damage to property of at least twenty-five thousand dollars."
+      }
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Required for operators and passengers under 21 (since Oct. 1, 2025) and for all motorcycle permit holders",
+      "detail": "Riders and passengers under 21 must wear protective headgear meeting federal standards (fine at least $90). Anyone riding on a motorcycle learner's permit must wear a DOT/NHTSA-approved helmet regardless of age. Riders 21 and older with an endorsement are not required to wear one, though it is strongly recommended.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://www.cga.ct.gov/2026/sup/chap_248.htm#sec_14-289g",
+        "page": null,
+        "quote": "No person under twenty-one years of age may (1) operate a motorcycle or a motor-driven cycle, as defined in section 14-1, or (2) be a passenger on a motorcycle or motor-driven cycle, unless such operator or passenger is wearing protective headgear"
+      }
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Illegal (no riding between lanes; no more than two motorcycles abreast in one lane)",
+      "detail": "A motorcycle may use a full lane and two motorcycles may share a lane, but a motorcyclist may not pass a car in the same lane or ride between lanes of traffic, and no more than two motorcycles may ride abreast in one lane.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.cga.ct.gov/current/pub/chap_248.htm#sec_14-289b",
+        "page": null,
+        "quote": "The operator of a motorcycle shall not (1) overtake and pass, in the same single traffic lane occupied by such motorcycle, any motor vehicle other than a motorcycle, or (2) operate a motorcycle between lanes of traffic."
+      }
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Teen license suspensions",
+      "summary": "16- and 17-year-olds lose their license for violations: GDL (passenger/curfew) 30 days first, then 6 months or until 18; cell phone 30 days; speeding 20+ mph over the limit 60 days; reckless driving or street racing 6 months. A $175 restoration fee applies.",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 36,
+        "quote": "DMV will suspend the driver’s license or privilege to obtain a license of a 16- or 17-year-old for any conviction of violating a teen driving restriction, speeding, reckless driving, street racing or using a cell phone or text messaging device."
+      }
+    },
+    {
+      "title": "Ice cream truck stopping law",
+      "summary": "When an ice cream truck shows flashing lights and extends its stop arm, stop at least 10 feet from its front or back, then pass at no more than 5 mph while yielding to pedestrians. Not required if the truck is across a safety island or barrier.",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 20,
+        "quote": "The state law requires drivers when approaching or overtaking an ice cream truck displaying flashing lights and extending its stop signal arm and crossing arm, to stop their vehicles at least 10 feet from the front or back of the truck."
+      }
+    },
+    {
+      "title": "Vulnerable User's Law",
+      "summary": "Higher penalties for drivers who cause serious injury or death to vulnerable users (pedestrians, bicyclists, wheelchair users, riders of animals, highway workers, garbage trucks, tank vehicles, mail and delivery carriers); give them at least three feet when passing.",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 18,
+        "quote": "Drivers must allow for three feet of distance when passing."
+      }
+    },
+    {
+      "title": "Keep right on roads with fewer than three lanes",
+      "summary": "When your direction of travel has fewer than three lanes, Connecticut law requires you to drive in the right lane except when passing, turning left, or exiting on the left.",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 25,
+        "quote": "When your direction of travel is less than three lanes, Connecticut law requires you to drive in the right lane, except when passing."
+      }
+    },
+    {
+      "title": "Headlights with wipers",
+      "summary": "If your windshield wipers are on, your headlights must be on too.",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 40,
+        "quote": "Remember, if you turn on your wipers, turn on your headlights. It’s the law."
+      }
+    },
+    {
+      "title": "Studded tire season",
+      "summary": "Studded tires are allowed in Connecticut only from November 15 through April 30.",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 27,
+        "quote": "Studded tires are permitted in Connecticut from November 15th through April 30th."
+      }
+    },
+    {
+      "title": "Snow and ice removal",
+      "summary": "Drivers must clear accumulated snow and ice (including hood, trunk and roof) before driving; $75 fine, or $200-$1,000 if it flies off and causes injury or damage.",
+      "source": {
+        "url": "https://www.cga.ct.gov/current/pub/chap_248.htm#sec_14-252a",
+        "page": null,
+        "quote": "Any such operator who fails to remove accumulated ice or snow that poses such a threat shall be fined seventy-five dollars and shall be deemed to have committed an infraction."
+      }
+    },
+    {
+      "title": "Operator Retraining Program",
+      "summary": "Drivers 24 or younger with two or more moving violations, or 25 and older with three or more, must complete the DMV-certified operator retraining program; another moving violation within three years afterward brings at least a 30-day suspension.",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 37,
+        "quote": "Anyone age 24 or younger who commits two or more moving violations or suspension violations must complete the"
+      }
+    },
+    {
+      "title": "8-hour Safe Driving Practices course",
+      "summary": "Anyone, of any age, who has never held a Connecticut license and has no valid out-of-state license must complete an 8-hour Safe Driving Practices course at a Connecticut commercial driving school before getting a license.",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 6,
+        "quote": "Connecticut law requires anyone, regardless of age, who has not previously held a license in Connecticut or who does not hold a valid license issued by another state, to take an 8-hour Safe Driving Practices course at a Connecticut Commercial Driving School before he or she can obtain a license."
+      }
+    },
+    {
+      "title": "Work zone penalties",
+      "summary": "Speeding, disobeying traffic controls, improper lane use or endangering a highway worker in a work zone can bring fines up to $1,000, license points and retraining; hand-held phone fines are doubled in work zones.",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+        "page": 17,
+        "quote": "In Connecticut, anyone convicted of speeding, disobeying traffic control devices, using an improper lane or endangering a highway worker within a work zone could face fines of up to $1,000, can be assessed points against his or her driver’s license and may be required to complete the driver retraining program."
+      }
+    },
+    {
+      "title": "Work Zone Safety Course for permit applicants",
+      "summary": "Since January 1, 2026, everyone applying for a learner's permit must complete the free online Connecticut Work Zone Safety Course and bring the completion certificate to the knowledge test.",
+      "source": {
+        "url": "https://portal.ct.gov/dmv/licenses-permits-ids/take-knowledge-vision-test",
+        "page": null,
+        "quote": "Effective January 1, 2026, anyone applying for a learner’s permit will need to complete the free Connecticut Work Zone Safety Course."
+      }
+    },
+    {
+      "title": "No passing a car stopped at a crosswalk",
+      "summary": "You may not overtake and pass a vehicle that has stopped at a marked or unmarked crosswalk to let a pedestrian cross. Crosswalk violations can be fined up to $750.",
+      "source": {
+        "url": "https://www.cga.ct.gov/2026/sup/chap_249.htm#sec_14-300",
+        "page": null,
+        "quote": "No operator of a vehicle approaching from the rear shall overtake and pass any vehicle, the operator of which has stopped at any crosswalk marked as provided in subsection (a) of this section or any unmarked crosswalk to permit a pedestrian to cross the roadway."
+      }
+    },
+    {
+      "title": "School bus passing fine",
+      "summary": "Failing to stop for a school bus displaying flashing red lights is fined $450 for a first offense; later offenses bring $500 to $1,000, up to 30 days in jail, or both.",
+      "source": {
+        "url": "https://www.cga.ct.gov/current/pub/chap_248.htm#sec_14-279",
+        "page": null,
+        "quote": "shall be fined four hundred fifty dollars for the first offense and for each subsequent offense, not less than five hundred dollars nor more than one thousand dollars or imprisoned not more than thirty days or both."
+      }
+    },
+    {
+      "title": "Motorcycle headlight always on",
+      "summary": "Anyone riding a motorcycle manufactured after January 1, 1980 on a highway must keep its headlamp lit at all times.",
+      "source": {
+        "url": "https://www.cga.ct.gov/current/pub/chap_248.htm#sec_14-289b",
+        "page": null,
+        "quote": "Any person operating a motorcycle manufactured after January 1, 1980, on a highway, shall illuminate the head lamp of such motorcycle at all times it is being operated."
+      }
+    },
+    {
+      "title": "Motorcycle eye protection",
+      "summary": "Motorcycle and motor-driven cycle operators must wear approved goggles, glasses or a face shield unless the cycle has an approved windshield or wind screen; failing to do so is an infraction.",
+      "source": {
+        "url": "https://www.cga.ct.gov/current/pub/chap_248.htm#sec_14-289d",
+        "page": null,
+        "quote": "Failure to wear either goggles, glasses or a face shield of a type which conforms to the minimum specifications as called for by such regulations shall be an infraction. The provisions of this subsection shall not apply to operators of motorcycles and motor-driven cycles equipped with a wind screen or windshield which conforms to the minimum specifications called for by such regulations."
+      }
+    }
+  ],
+  "officialPracticeTests": [
+    "https://portal.ct.gov/dmv/-/media/dmv/practice-tests/practice-test-one.pdf",
+    "https://portal.ct.gov/dmv/-/media/dmv/practice-tests/practice-test-two.pdf",
+    "https://portal.ct.gov/dmv/-/media/dmv/practice-tests/practice-test-three.pdf"
+  ],
+  "verifiedOn": "2026-10-14"
+}

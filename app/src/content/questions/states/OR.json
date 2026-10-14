@@ -1,0 +1,2111 @@
+[
+  {
+    "id": "or.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Oregon, at what blood alcohol concentration (BAC) does the law presume a driver age 21 or older is impaired?",
+    "choices": [
+      "0.08% or more",
+      "0.05% or more",
+      "0.10% or more",
+      "0.02% or more"
+    ],
+    "answer": 0,
+    "explanation": "If your BAC is 0.08% or more, Oregon law presumes you are impaired. You can still be arrested for DUII below 0.08% if you are impaired.",
+    "difficulty": 1,
+    "ref": "Oregon Driver Manual, p. 90",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "An adult Oregon driver tests at 0.06% BAC but is weaving across lanes. Can the driver be arrested for DUII?",
+    "choices": [
+      "No. DUII requires a BAC of 0.08% or more",
+      "Only if the driver refuses a breath test",
+      "Only if the driver is under 21",
+      "Yes. You can be arrested below 0.08% if alcohol or drugs are affecting your driving"
+    ],
+    "answer": 3,
+    "explanation": "0.08% is the level at which impairment is presumed, not a safe limit. Oregon law allows a DUII arrest even when BAC is lower than 0.08%.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 90",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 19-year-old Oregon driver takes a breath test. What result means the driver fails it?",
+    "choices": [
+      "0.02% or more",
+      "0.05% or more",
+      "Any amount of alcohol",
+      "0.08% or more"
+    ],
+    "answer": 2,
+    "explanation": "Oregon has a zero tolerance law. A driver under 21 fails the test with a blood alcohol concentration of any amount.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 91",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Oregon's implied consent law, a person driving a commercial motor vehicle fails a breath or blood test at what BAC?",
+    "choices": [
+      "0.02% or more",
+      "0.04% or more",
+      "0.08% or more",
+      "0.06% or more"
+    ],
+    "answer": 1,
+    "explanation": "For implied consent purposes, a person driving a commercial motor vehicle fails at 0.04% or more. Other adult drivers fail at 0.08% or more.",
+    "difficulty": 2,
+    "ref": "ORS 813.130",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What does Oregon's Implied Consent law mean?",
+    "choices": [
+      "By driving, you have agreed to take a breath, blood or urine test when a police officer asks",
+      "Police must get your written consent before any test",
+      "You may refuse any test without consequences",
+      "It applies only to drivers involved in a crash"
+    ],
+    "answer": 0,
+    "explanation": "By driving a motor vehicle in Oregon you have agreed to take a breath, blood or urine test when asked by a police officer. Refusing can lead to a fine and suspension.",
+    "difficulty": 1,
+    "ref": "Oregon Driver Manual, p. 91",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Oregon's implied consent rules, how long is the license suspension for refusing a breath test?",
+    "choices": [
+      "30 days",
+      "90 days",
+      "No suspension, only a warning",
+      "One year or three years"
+    ],
+    "answer": 3,
+    "explanation": "Refusing a breath (or urine) test brings a suspension of one year or three years. A 90-day suspension is one possible result for failing a breath test, not refusing one.",
+    "difficulty": 2,
+    "ref": "Oregon DMV, Suspensions, Revocations and Cancellations (oregon.gov)",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Besides the license suspension, refusing a breath test in Oregon is a traffic violation with what presumptive fine?",
+    "choices": [
+      "$250",
+      "$1,000",
+      "$650",
+      "$2,500"
+    ],
+    "answer": 2,
+    "explanation": "Refusal to take a test for intoxicants is a specific fine traffic violation with a presumptive fine of $650, in addition to the suspension.",
+    "difficulty": 3,
+    "ref": "ORS 813.095",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the minimum fine for a first DUII conviction in Oregon (in a vehicle other than a bicycle)?",
+    "choices": [
+      "$250",
+      "$1,000",
+      "$500",
+      "$5,000"
+    ],
+    "answer": 1,
+    "explanation": "For a first DUII conviction in a vehicle other than a bicycle, the court must impose a fine of at least $1,000. The minimum rises to $2,000 if BAC was 0.15% or more.",
+    "difficulty": 2,
+    "ref": "ORS 813.010",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.009",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "After the suspension for a DUII conviction in Oregon, what must the driver install in any vehicle they drive?",
+    "choices": [
+      "An ignition interlock device",
+      "A GPS tracking unit",
+      "A speed limiter",
+      "A dashboard camera"
+    ],
+    "answer": 0,
+    "explanation": "Following a DUII suspension, a driver must install and use an ignition interlock device for one, two or five years depending on prior DUII offenses.",
+    "difficulty": 2,
+    "ref": "Oregon DMV, Suspensions, Revocations and Cancellations (oregon.gov)",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.010",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "How does an Oregon implied consent suspension relate to a suspension for a DUII conviction?",
+    "choices": [
+      "They are separate suspensions",
+      "The implied consent suspension replaces the DUII conviction suspension",
+      "They are the same suspension, counted only once",
+      "The implied consent suspension starts only if you are later convicted of DUII"
+    ],
+    "answer": 0,
+    "explanation": "DMV treats an implied consent suspension (for refusing or failing a test) as separate from a suspension for a DUII conviction. The implied consent suspension takes effect 30 days after the officer issues a temporary permit, without waiting for a conviction.",
+    "difficulty": 3,
+    "ref": "Oregon DMV, Suspensions, Revocations and Cancellations (oregon.gov)",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.011",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Which statement about Oregon's Open Container law is correct?",
+    "choices": [
+      "A bottle that has been recapped counts as closed",
+      "Passengers may drink as long as the driver does not",
+      "A container is open if its seal is broken, even if it has been reclosed",
+      "The law applies only while the vehicle is moving"
+    ],
+    "answer": 2,
+    "explanation": "A container is considered open if its seal is broken, even if reclosed. Open containers of alcohol are illegal in a vehicle on any road.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 91",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.012",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 17-year-old Oregon driver wants to take a call using the car's built-in hands-free system. Is that legal?",
+    "choices": [
+      "Yes, hands-free calls are legal for all drivers",
+      "No. Drivers under 18 may not use a cell phone or mobile device at all while driving",
+      "Yes, but only while stopped at a red light",
+      "Yes, for calls but not for texts"
+    ],
+    "answer": 1,
+    "explanation": "It is illegal for drivers under 18 to use a cell phone or other mobile electronic device while driving. Hands-free accessories are not allowed for them.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 88",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.013",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "How may a driver age 18 or older legally use a cell phone while driving in Oregon?",
+    "choices": [
+      "Only with a hands-free accessory that needs minimal use of a finger to turn on or off",
+      "Handheld, if the call is shorter than one minute",
+      "Handheld, but only for navigation",
+      "Not at all, even hands-free"
+    ],
+    "answer": 0,
+    "explanation": "Drivers 18 or older must use a hands-free accessory. The accessory must only require minimal use of a finger to activate or deactivate the device.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 88",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.014",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Oregon's mobile device law, can you hold your phone to read a message while stopped at a red light?",
+    "choices": [
+      "Yes. The law applies only while the vehicle is moving",
+      "Yes, if your foot is on the brake",
+      "Yes, if you are 18 or older",
+      "No. Being temporarily stopped in traffic or at a signal still counts as driving"
+    ],
+    "answer": 3,
+    "explanation": "Oregon law defines driving to include being temporarily stationary because of traffic or a traffic control device. Holding the device is illegal then too.",
+    "difficulty": 3,
+    "ref": "ORS 811.507",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.015",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Who must wear a safety belt in Oregon?",
+    "choices": [
+      "Only the driver and front-seat passenger",
+      "Only passengers under 16",
+      "All drivers and passengers in all seating positions",
+      "Only drivers with a provisional license"
+    ],
+    "answer": 2,
+    "explanation": "Safety belt use is mandatory in Oregon for all drivers and passengers in all available seating positions.",
+    "difficulty": 1,
+    "ref": "Oregon Driver Manual, p. 81",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.016",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Until when must an Oregon child ride in an approved child safety seat?",
+    "choices": [
+      "Until age 4 or 40 pounds",
+      "Until age 8 or 4 feet 9 inches tall, and the adult belt fits correctly",
+      "Until age 6, regardless of height",
+      "Until age 12"
+    ],
+    "answer": 1,
+    "explanation": "Children must use an approved child safety seat until they are 8 years old or at least 4 feet 9 inches tall, and the adult lap and shoulder belt fits them correctly.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 82",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.017",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "How loud is too loud for your car stereo under Oregon law?",
+    "choices": [
+      "Loud enough to be heard 50 feet from your vehicle",
+      "Loud enough to be heard 10 feet from your vehicle",
+      "Loud enough to be heard 100 feet from your vehicle",
+      "Oregon has no rule on stereo volume"
+    ],
+    "answer": 0,
+    "explanation": "It is illegal to play a radio or sound system so loud it can be heard 50 feet away. You need to hear horns, screeching tires and sirens.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 88",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.018",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Your 16-year-old friend asks to ride in the bed of your pickup for a short trip. Under Oregon law:",
+    "choices": [
+      "It is allowed if the tailgate is closed",
+      "It is allowed below 25 mph",
+      "It is allowed if the friend holds on",
+      "It is not allowed. No one under 18 may ride in a pickup bed"
+    ],
+    "answer": 3,
+    "explanation": "Oregon law prohibits anyone under 18 from riding on any external part of a vehicle, including a pickup bed. No one of any age should ride there.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 92",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.019",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age to apply for an instruction permit in Oregon?",
+    "choices": [
+      "14",
+      "15 1/2",
+      "15",
+      "16"
+    ],
+    "answer": 2,
+    "explanation": "You must be at least 15 years old to apply for an instruction permit.",
+    "difficulty": 1,
+    "ref": "Oregon Driver Manual, p. 97",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.020",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age to get a driver license in Oregon?",
+    "choices": [
+      "15",
+      "16",
+      "16 1/2",
+      "17"
+    ],
+    "answer": 1,
+    "explanation": "You must be at least 16 to apply for a license. Drivers under 18 get a Provisional Driver License.",
+    "difficulty": 1,
+    "ref": "Oregon Driver Manual, p. 97",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.021",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long must an Oregon applicant under 18 hold an instruction permit before getting a driver license?",
+    "choices": [
+      "At least 6 months",
+      "At least 3 months",
+      "At least 9 months",
+      "At least 12 months"
+    ],
+    "answer": 0,
+    "explanation": "Applicants under 18 must have had an instruction permit for at least 6 months. Time on an out-of-state permit counts.",
+    "difficulty": 1,
+    "ref": "Oregon Driver Manual, p. 98",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.022",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "An Oregon teen does NOT take a driver education course. How many hours of supervised driving must they complete before getting a license?",
+    "choices": [
+      "50 hours",
+      "40 hours",
+      "60 hours",
+      "100 hours"
+    ],
+    "answer": 3,
+    "explanation": "Without an ODOT-approved traffic safety education course, 100 hours of supervised driving are required. With the course, 50 hours are enough.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 98",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.023",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "An Oregon teen completes an ODOT-approved traffic safety education course. How many supervised driving hours are then required?",
+    "choices": [
+      "100 hours",
+      "30 hours",
+      "50 hours",
+      "None"
+    ],
+    "answer": 2,
+    "explanation": "Teens need 100 supervised hours, or 50 hours if they also complete an ODOT-approved traffic safety education course and DMV gets proof.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 98",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.024",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "For a teen's practice driving to count toward Oregon's hour requirement, the supervising driver must be:",
+    "choices": [
+      "At least 18 and licensed for at least 1 year",
+      "At least 21 and have held valid driving privileges for at least 3 years",
+      "At least 25 with no tickets",
+      "A parent or legal guardian"
+    ],
+    "answer": 1,
+    "explanation": "Driving experience counts only if supervised by someone at least 21 who has had valid driving privileges for at least 3 years.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 98",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.025",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During the first year, an Oregon provisional driver may not drive during which hours unless an exception applies?",
+    "choices": [
+      "Midnight to 5 a.m.",
+      "11 p.m. to 5 a.m.",
+      "10 p.m. to 6 a.m.",
+      "1 a.m. to 6 a.m."
+    ],
+    "answer": 0,
+    "explanation": "Provisional drivers may not drive between midnight and 5 a.m. during the first year, unless an exception such as driving to or from work applies.",
+    "difficulty": 2,
+    "ref": "Oregon DMV, Get a Driver License - Under 18 (oregon.gov)",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.026",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old has had a provisional license for 3 months. Which 1 a.m. trip is allowed?",
+    "choices": [
+      "Driving friends home from a party",
+      "Driving alone to a 24-hour store",
+      "Driving with a licensed 19-year-old sibling",
+      "Driving home from their job"
+    ],
+    "answer": 3,
+    "explanation": "Exceptions to the midnight-5 a.m. rule include driving between home and work, to or from a school event with no other transportation, for employment, or with a licensed driver at least 25.",
+    "difficulty": 3,
+    "ref": "Oregon DMV, Get a Driver License - Under 18 (oregon.gov)",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.027",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During the first 6 months with a provisional license in Oregon, which passengers are not allowed?",
+    "choices": [
+      "More than one passenger of any age",
+      "More than three passengers under 20",
+      "Any passenger under 20 who is not an immediate family member",
+      "Any passenger at all, including family members"
+    ],
+    "answer": 2,
+    "explanation": "For the first 6 months, a provisional driver may not carry a passenger under 20 who is not a member of their immediate family.",
+    "difficulty": 2,
+    "ref": "Oregon DMV, Get a Driver License - Under 18 (oregon.gov)",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.028",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During the second 6 months with an Oregon provisional license, what is the passenger limit?",
+    "choices": [
+      "No passengers under 20 who are not family",
+      "No more than three passengers under 20 who are not immediate family",
+      "No more than one passenger under 20",
+      "No limit on passengers"
+    ],
+    "answer": 1,
+    "explanation": "In the second 6 months, a provisional driver may not carry more than three passengers under 20 who are not immediate family members.",
+    "difficulty": 2,
+    "ref": "Oregon DMV, Get a Driver License - Under 18 (oregon.gov)",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.029",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "When do Oregon's provisional passenger and night driving restrictions end?",
+    "choices": [
+      "At age 18 or after holding the provisional license for 1 year, whichever comes first",
+      "Only at age 18",
+      "After 6 months",
+      "At age 21"
+    ],
+    "answer": 0,
+    "explanation": "The passenger and night restrictions apply until you are 18 or have had your provisional license for 1 year, whichever comes first.",
+    "difficulty": 2,
+    "ref": "Oregon DMV, Get a Driver License - Under 18 (oregon.gov)",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.030",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Oregon's provisional passenger limits do NOT apply when the teen is driving with:",
+    "choices": [
+      "Any licensed adult age 21 or older",
+      "A friend who has a full license",
+      "An older sibling who has a provisional license",
+      "A parent, stepparent or legal guardian who has valid driving privileges"
+    ],
+    "answer": 3,
+    "explanation": "Passenger restrictions do not apply with a certified driver education instructor or a parent, stepparent or legal guardian who has valid driving privileges.",
+    "difficulty": 3,
+    "ref": "Oregon DMV, Get a Driver License - Under 18 (oregon.gov)",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.031",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many questions must you answer correctly to pass Oregon's Class C knowledge test?",
+    "choices": [
+      "30 out of 40",
+      "20 out of 25",
+      "28 out of 35",
+      "32 out of 40"
+    ],
+    "answer": 2,
+    "explanation": "The Class C knowledge test has 35 multiple-choice questions. You must answer 28 correctly to pass.",
+    "difficulty": 1,
+    "ref": "Oregon Driver Manual, p. 10",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.032",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You fail Oregon's Class C knowledge test online. What is the limit on online attempts?",
+    "choices": [
+      "One attempt per day, unlimited in total",
+      "Two attempts in 24 hours, four online attempts in total",
+      "Three attempts in total",
+      "Unlimited online attempts"
+    ],
+    "answer": 1,
+    "explanation": "Online, you may test two times in a 24-hour period and four times in total. After four attempts you must test at a DMV office.",
+    "difficulty": 3,
+    "ref": "Oregon Driver Manual, p. 11",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.033",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "When may Oregon DMV waive the drive test for a new driver?",
+    "choices": [
+      "When DMV receives proof you completed an ODOT-approved driver education course within the past two years",
+      "When you have held your permit for one year",
+      "When you score 100% on the knowledge test",
+      "When you turn 18"
+    ],
+    "answer": 0,
+    "explanation": "DMV may waive the drive test with proof of an ODOT-approved driver education course completed within two years, or for a new resident with a valid (or recently expired) out-of-state license.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 11",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.034",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What are Oregon's minimum liability insurance amounts for bodily injury and property damage?",
+    "choices": [
+      "$15,000 per person, $30,000 per collision, $5,000 property damage",
+      "$25,000 per person, $50,000 per collision, $25,000 property damage",
+      "$50,000 per person, $100,000 per collision, $25,000 property damage",
+      "$25,000 per person, $50,000 per collision for injury, $20,000 property damage"
+    ],
+    "answer": 3,
+    "explanation": "Oregon requires $25,000 for one person, $50,000 for two or more people, and $20,000 for damage to the property of others, per collision.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 101",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.035",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How much Personal Injury Protection (PIP) must an Oregon auto policy include?",
+    "choices": [
+      "$10,000 per person",
+      "$25,000 per person",
+      "$15,000 per person",
+      "PIP is optional in Oregon"
+    ],
+    "answer": 2,
+    "explanation": "Oregon requires Personal Injury Protection of $15,000 per person for reasonable and necessary expenses within two years of an injury.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 101",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.036",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Instead of a point system, how does Oregon DMV act on drivers with repeated traffic convictions and preventable accidents?",
+    "choices": [
+      "Through a 12-point system",
+      "Through the Driver Improvement Program",
+      "By adding demerit points that expire after 1 year",
+      "Only the courts can act; DMV cannot"
+    ],
+    "answer": 1,
+    "explanation": "Oregon uses the Driver Improvement Program. Too many traffic convictions or preventable accidents can lead to restrictions or suspension.",
+    "difficulty": 2,
+    "ref": "Oregon DMV, Suspensions, Revocations and Cancellations (oregon.gov)",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.037",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A driver under 18 gets a third traffic conviction or preventable accident. What does Oregon DMV do under the Provisional Driver Improvement Program?",
+    "choices": [
+      "Suspends the license for six months",
+      "Sends a warning letter only",
+      "Restricts night driving for 30 days",
+      "Revokes the license for five years"
+    ],
+    "answer": 0,
+    "explanation": "For provisional drivers, a third conviction or preventable accident brings a six-month suspension, even if the driver turns 18 during it.",
+    "difficulty": 3,
+    "ref": "Oregon DMV, Suspensions, Revocations and Cancellations (oregon.gov)",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.038",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Within how many hours must you file an Oregon DMV collision report when one is required?",
+    "choices": [
+      "24 hours",
+      "48 hours",
+      "10 days",
+      "72 hours"
+    ],
+    "answer": 3,
+    "explanation": "A reportable collision must be reported to DMV on Form 735-32 within 72 hours.",
+    "difficulty": 1,
+    "ref": "Oregon Driver Manual, p. 102",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.039",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You must file an Oregon DMV collision report if damage to the vehicle you were driving is over:",
+    "choices": [
+      "$1,000",
+      "$1,500",
+      "$2,500",
+      "$5,000"
+    ],
+    "answer": 2,
+    "explanation": "A report is required if damage to your vehicle, or to other property, is over $2,500. Any injury or death also makes it reportable.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 102",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.040",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "A police officer wrote a report about your crash, which caused $4,000 damage to your car. Do you still need to report to DMV?",
+    "choices": [
+      "No. The police report counts as your DMV report",
+      "Yes. A police report does not replace your DMV report",
+      "Only if the other driver files one",
+      "Only if your insurance asks you to"
+    ],
+    "answer": 1,
+    "explanation": "Damage over $2,500 makes the collision reportable. A police report does not replace your requirement to file a report with DMV.",
+    "difficulty": 3,
+    "ref": "Oregon Driver Manual, p. 102",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.041",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "In a minor collision a passenger gets a sprained wrist, but vehicle damage is only $800. Must you file an Oregon DMV collision report?",
+    "choices": [
+      "Yes. Any injury makes the collision reportable",
+      "No. Damage is under $2,500",
+      "Only if the passenger goes to a hospital",
+      "Only if police come to the scene"
+    ],
+    "answer": 0,
+    "explanation": "A report is required within 72 hours whenever there is injury or death, no matter how small the damage.",
+    "difficulty": 3,
+    "ref": "Oregon Driver Manual, p. 102",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.042",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You own a car that a friend was driving in a reportable collision, and the friend does not report it. What does Oregon require?",
+    "choices": [
+      "No report is needed because you were not driving",
+      "Your insurance company files it automatically",
+      "The police notify DMV for you",
+      "You, as the owner, must file the collision report"
+    ],
+    "answer": 3,
+    "explanation": "The owner of a vehicle in a reportable collision must report it if the driver fails to.",
+    "difficulty": 3,
+    "ref": "Oregon Driver Manual, p. 102",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.043",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Your stalled car on the highway shoulder can't be seen from 200 feet. How far away should warning devices be placed?",
+    "choices": [
+      "At least 50 feet behind the car only",
+      "At least 100 feet in each direction",
+      "At least 200 feet in each direction",
+      "At least 500 feet in each direction"
+    ],
+    "answer": 2,
+    "explanation": "If your vehicle can't be seen from 200 feet each way, warn traffic with flags, flares, signs, signals or flaggers at least 200 feet from it in each direction.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 79",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.044",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You hit and injure a dog and cannot find its owner. What does Oregon require?",
+    "choices": [
+      "Nothing, if the dog runs away",
+      "Report the incident to local law enforcement",
+      "Take the dog to a shelter yourself before reporting",
+      "Post a notice at the location"
+    ],
+    "answer": 1,
+    "explanation": "Stop and make a reasonable effort to check injuries, then report to the owner. If you can't locate the owner, you must report to local law enforcement.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 83",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.045",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless another speed is posted, what is the speed limit in an Oregon business district?",
+    "choices": [
+      "20 mph",
+      "25 mph",
+      "30 mph",
+      "15 mph"
+    ],
+    "answer": 0,
+    "explanation": "Oregon's statutory limit in any business district is 20 mph unless a different speed is posted.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 27",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.046",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless another speed is posted, what is the speed limit in an Oregon residential district?",
+    "choices": [
+      "20 mph",
+      "30 mph",
+      "35 mph",
+      "25 mph"
+    ],
+    "answer": 3,
+    "explanation": "The speed limit is 25 mph in residential districts, public parks and on ocean shores where vehicles are allowed.",
+    "difficulty": 1,
+    "ref": "Oregon Driver Manual, p. 27",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.047",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What speed limit applies on an Oregon road that does not meet any other definition, unless otherwise posted?",
+    "choices": [
+      "50 mph",
+      "60 mph",
+      "55 mph",
+      "65 mph"
+    ],
+    "answer": 2,
+    "explanation": "55 mph applies on all roads and highways not meeting any other definition unless otherwise posted.",
+    "difficulty": 1,
+    "ref": "Oregon Driver Manual, p. 27",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.048",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Under Oregon law, what is the speed limit on an interstate highway unless a different speed is posted?",
+    "choices": [
+      "55 mph",
+      "65 mph",
+      "70 mph",
+      "75 mph"
+    ],
+    "answer": 1,
+    "explanation": "ORS 811.111 sets 65 mph on interstate highways unless a different speed is posted. Some sections, like I-84 east of The Dalles, allow 70 mph.",
+    "difficulty": 2,
+    "ref": "ORS 811.111",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.049",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What speed limit applies inside an Oregon school speed zone when the zone is in effect?",
+    "choices": [
+      "20 mph",
+      "15 mph",
+      "25 mph",
+      "30 mph"
+    ],
+    "answer": 0,
+    "explanation": "A school speed zone has a reduced speed of 20 mph, beginning at the SCHOOL SPEED LIMIT 20 sign.",
+    "difficulty": 1,
+    "ref": "Oregon Driver Manual, p. 57",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.050",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "A school zone sign says the 20 mph limit applies during school hours. When is it in effect?",
+    "choices": [
+      "Only when children are visible",
+      "7 a.m. to 3 p.m. every weekday",
+      "Only when the yellow light is flashing",
+      "7 a.m. to 5 p.m. on a day school is in session"
+    ],
+    "answer": 3,
+    "explanation": "A School Hours sign means 20 mph from 7 a.m. to 5 p.m. on school days. If you're unsure whether it is a school day, slow to 20 mph.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 57",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.051",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "A school speed sign reads 'When Children Are Present.' Which situation requires you to slow to 20 mph?",
+    "choices": [
+      "Children are playing in a fenced schoolyard",
+      "A school bus is parked in the school lot",
+      "A traffic patrol member is at the crosswalk helping children",
+      "It is a school day, but no children are near the road"
+    ],
+    "answer": 2,
+    "explanation": "Children are present when they are waiting at or walking in a crosswalk, or a traffic patrol member is there to help children cross.",
+    "difficulty": 3,
+    "ref": "Oregon Driver Manual, p. 57",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.052",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are driving 50 mph in a 55 mph zone in thick fog and can barely see ahead. Under Oregon's basic rule:",
+    "choices": [
+      "You are legal because you are under the limit",
+      "You may be violating the basic rule, because your speed is unsafe for conditions",
+      "You must slow down only if a sign says so",
+      "The basic rule applies only in cities"
+    ],
+    "answer": 1,
+    "explanation": "The basic rule requires a speed that is reasonable and cautious for existing conditions. Driving too fast for conditions breaks it even below the limit.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 29",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.053",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "According to the Oregon Driver Manual, what following distance should you keep at speeds over 30 mph?",
+    "choices": [
+      "4 seconds or more",
+      "2 seconds",
+      "3 seconds",
+      "1 second per 10 mph"
+    ],
+    "answer": 0,
+    "explanation": "A safe following distance is 2-4 seconds. For speeds greater than 30 mph it should be 4 seconds or more.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 34",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.054",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "If you drive slower than the normal speed of traffic in Oregon, what must you do?",
+    "choices": [
+      "Turn on your hazard lights",
+      "Drive in the left lane so others can pass on the right",
+      "Nothing, as long as you are under the limit",
+      "Use the right lane or drive as close as possible to the right edge, unless turning left"
+    ],
+    "answer": 3,
+    "explanation": "Slow drivers must use the right lane or keep close to the right curb or edge, unless preparing to turn left, and pull off to let traffic pass.",
+    "difficulty": 1,
+    "ref": "Oregon Driver Manual, p. 29",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.055",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "How should you use a two-way left turn lane in Oregon?",
+    "choices": [
+      "Use it to pass slow traffic",
+      "Drive in it for up to one block before turning",
+      "Enter it just before you turn; traveling in it is illegal",
+      "Use it as a merge lane after turning left"
+    ],
+    "answer": 2,
+    "explanation": "It is illegal to travel in a two-way left turn lane. Enter just before your turn, and where one is provided, do not turn left from any other lane.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 31",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.056",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "A painted median has double solid yellow lines on both sides. What may you do?",
+    "choices": [
+      "Drive in it to wait for a gap",
+      "Turn left across it after oncoming traffic clears, but not use it as a turn lane",
+      "Use it to pass slow vehicles",
+      "Park in it briefly"
+    ],
+    "answer": 1,
+    "explanation": "You may turn left across a painted median after waiting for traffic, but you may not use it as a turn lane. Traveling in it is illegal.",
+    "difficulty": 3,
+    "ref": "Oregon Driver Manual, p. 31",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.057",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "A lane is painted solid red and marked 'BUS ONLY'. What does this mean for a car driver?",
+    "choices": [
+      "It is a Transit Only lane; enter only where striped red lines show you may turn, park or enter a driveway",
+      "Cars may use it during rush hour",
+      "It is a fire lane where you may stop briefly",
+      "Cars may use it to pass buses"
+    ],
+    "answer": 0,
+    "explanation": "Solid red lanes are Transit Only lanes, not for cars. Striped red lines show where you may enter the lane to turn, park or enter a driveway.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 33",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.058",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You enter a highway section signed SAFETY CORRIDOR. What does Oregon advise?",
+    "choices": [
+      "Turn on your hazard lights",
+      "Drive in the left lane",
+      "Drive 10 mph under the posted limit",
+      "Turn on your headlights"
+    ],
+    "answer": 3,
+    "explanation": "Safety corridors are stretches of highway with more fatal and serious injury collisions than the statewide average. The manual says to turn on your lights for safety.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 21",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.059",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "How do freeway ramp meters work in Oregon?",
+    "choices": [
+      "Two vehicles go on each green; stop at a dark meter",
+      "They are advisory, so you may go on red if the freeway is clear",
+      "One vehicle per lane goes on each green; do not stop at a dark meter",
+      "They work only on weekends"
+    ],
+    "answer": 2,
+    "explanation": "Only one vehicle can proceed each time the green light comes on. Ramp meters are dark when not in use, and you should not stop at a dark meter.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 43",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.060",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "A car behind you wants to pass. Under Oregon law, may you flash your turn signal to tell the driver it is safe to pass?",
+    "choices": [
+      "Yes, with the left turn signal",
+      "No. The law prohibits flashing your signals to tell drivers when to pass",
+      "Yes, with the right turn signal",
+      "Only on rural two-lane roads"
+    ],
+    "answer": 1,
+    "explanation": "Do not use your hands or lights to signal other drivers when to pass. The law prohibits flashing any of your signals for this.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 41",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.061",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "When may you pass on the right in Oregon?",
+    "choices": [
+      "When the vehicle ahead is turning left and you can pass without leaving the pavement or using a bike lane",
+      "Whenever the shoulder is wide enough",
+      "When the vehicle ahead is under the limit",
+      "When you use the bike lane briefly"
+    ],
+    "answer": 0,
+    "explanation": "You may pass on the right when the vehicle is turning left and there's room without leaving the paved road or using a bike lane, or on multi-lane roads in the same direction.",
+    "difficulty": 3,
+    "ref": "Oregon Driver Manual, p. 41",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.062",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "When may you cross the center line in a no-passing zone?",
+    "choices": [
+      "When passing a slow truck on a straight road",
+      "When no traffic is coming within 500 feet",
+      "Never, for any reason",
+      "Only if the right side of the road is blocked or you are turning left"
+    ],
+    "answer": 3,
+    "explanation": "You may cross the center line in a no-passing zone only if the right side of the road is blocked or you are turning left.",
+    "difficulty": 3,
+    "ref": "Oregon Driver Manual, p. 40",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.063",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "In Oregon, how far before a turn or lane change must you signal when moving in traffic?",
+    "choices": [
+      "At least 50 feet",
+      "At least 200 feet",
+      "At least 100 feet",
+      "At least 300 feet"
+    ],
+    "answer": 2,
+    "explanation": "If your vehicle is moving in traffic, use your turn signal at least 100 feet before the turn or lane change.",
+    "difficulty": 1,
+    "ref": "Oregon Driver Manual, p. 46",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.064",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "At a steady red light in Oregon, when may you turn right?",
+    "choices": [
+      "Without stopping if no traffic is coming",
+      "After a complete stop, unless a sign or police officer says otherwise",
+      "Only when a green arrow appears",
+      "Only onto a one-way street"
+    ],
+    "answer": 1,
+    "explanation": "After a complete stop you may turn right on red into a two-way road unless a sign or officer prohibits it. Yield to pedestrians and traffic.",
+    "difficulty": 1,
+    "ref": "Oregon Driver Manual, p. 23",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.065",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are on a two-way road at a red light and want to turn left onto a one-way street whose traffic flows left. Is the turn allowed on red?",
+    "choices": [
+      "Yes, after stopping and yielding to traffic and pedestrians",
+      "No, you must wait for a green light",
+      "Only with a green arrow",
+      "Only if a sign specifically allows it"
+    ],
+    "answer": 0,
+    "explanation": "In Oregon you may turn left from a two-way road into a one-way road against a red light after stopping and yielding to traffic and pedestrians. A left on red into a two-way road is not allowed.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 48",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.066",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Which left turn on a red light is illegal in Oregon?",
+    "choices": [
+      "From a one-way road onto a one-way road",
+      "From a two-way road onto a one-way road",
+      "A left turn on red is never legal in Oregon",
+      "From a one-way road onto a two-way road"
+    ],
+    "answer": 3,
+    "explanation": "Left turns on red are allowed only into one-way roads. A left turn onto a two-way road against a red light is illegal.",
+    "difficulty": 3,
+    "ref": "Oregon Driver Manual, p. 48",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.067",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Inside city limits, a U-turn is prohibited where approaching traffic cannot see your vehicle within:",
+    "choices": [
+      "200 feet",
+      "1,000 feet",
+      "500 feet",
+      "300 feet"
+    ],
+    "answer": 2,
+    "explanation": "Within city limits, U-turns are prohibited where traffic from either direction cannot see your vehicle within 500 feet.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 49",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.068",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Outside city limits, a U-turn is prohibited where approaching traffic cannot see your vehicle within:",
+    "choices": [
+      "500 feet",
+      "1,000 feet",
+      "750 feet",
+      "1,500 feet"
+    ],
+    "answer": 1,
+    "explanation": "Outside city limits, U-turns are prohibited where traffic from either direction cannot see your vehicle within 1,000 feet.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 49",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.069",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are turning at an intersection with a traffic signal, and a pedestrian is crossing the street you are turning into. When may you begin your turn?",
+    "choices": [
+      "When the pedestrian is six feet or more from the lane you are turning into",
+      "As soon as the pedestrian leaves your lane",
+      "When the pedestrian reaches the center line",
+      "When the pedestrian is three feet from your car"
+    ],
+    "answer": 0,
+    "explanation": "At a signalized intersection, the pedestrian must be six feet or more from the lane you are turning into before you begin to turn.",
+    "difficulty": 3,
+    "ref": "Oregon Driver Manual, p. 55",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.070",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "At an intersection without a traffic signal, a pedestrian is crossing the road you are turning into. When may you turn?",
+    "choices": [
+      "When the pedestrian is six feet from your lane",
+      "As soon as the pedestrian is out of your lane",
+      "When the pedestrian has reached the curb",
+      "When the pedestrian is past the lane you are turning into plus the next lane"
+    ],
+    "answer": 3,
+    "explanation": "Without a traffic signal, the pedestrian must be past the lane you are turning into, plus the next lane, before you begin to turn.",
+    "difficulty": 3,
+    "ref": "Oregon Driver Manual, p. 55",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.071",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A pedestrian is in a crosswalk in the bike lane next to your lane. Must you stop?",
+    "choices": [
+      "No, only for pedestrians in your own lane",
+      "No, bike lanes are not part of the road",
+      "Yes. Stop and stay stopped for a pedestrian in a lane next to yours, including a bike lane",
+      "Only if the crosswalk is marked"
+    ],
+    "answer": 2,
+    "explanation": "Stop and remain stopped when a pedestrian in a crosswalk is in your lane, a lane next to yours (including a bike lane), or the lane you're turning into.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 54",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.072",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "How wide is an unmarked crosswalk at an intersection in Oregon?",
+    "choices": [
+      "It exists only where there is a sidewalk",
+      "At least six feet, even with no sidewalk or shoulder",
+      "Exactly three feet",
+      "As wide as the painted stop line"
+    ],
+    "answer": 1,
+    "explanation": "There is a crosswalk at every intersection, even if unmarked. An unmarked crosswalk is at least six feet wide and exists even without a sidewalk or shoulder.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 55",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.073",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "Under Oregon rules, when is a pedestrian considered to be crossing the road?",
+    "choices": [
+      "When any part or extension of the person, like a cane, wheelchair or bicycle, moves onto the road",
+      "Only when both feet are on the road",
+      "Only after reaching the center line",
+      "Only when walking in a marked crosswalk"
+    ],
+    "answer": 0,
+    "explanation": "A pedestrian is crossing when any part or extension (cane, wheelchair, bicycle, etc.) moves onto the road.",
+    "difficulty": 3,
+    "ref": "Oregon Driver Manual, p. 54",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.074",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "Inside a multi-lane roundabout, a large truck is straddling both lanes. What should you do?",
+    "choices": [
+      "Pass it on the inside",
+      "Drive beside it in the other lane",
+      "Honk so it moves into one lane",
+      "Stay behind it; it is illegal to pass or drive beside a truck in a roundabout"
+    ],
+    "answer": 3,
+    "explanation": "Trucks may need both lanes. It is illegal to pass or drive beside a truck within a roundabout.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 52",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.075",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A city bus at the curb shows a flashing 'YIELD' sign on its back and signals to re-enter traffic. What must you do?",
+    "choices": [
+      "Speed up to pass before it pulls out",
+      "Honk and continue",
+      "Yield and let the bus re-enter the lane",
+      "Stop only if passengers are getting off"
+    ],
+    "answer": 2,
+    "explanation": "Vehicles approaching from the rear must yield when a bus driver signals to re-enter traffic and the bus shows a flashing yield sign.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 64",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.076",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "After an emergency vehicle passes you, how far behind it must you stay in Oregon?",
+    "choices": [
+      "At least 200 feet",
+      "At least 500 feet",
+      "At least 300 feet",
+      "At least 1,000 feet"
+    ],
+    "answer": 1,
+    "explanation": "After the emergency vehicle passes, you must stay at least 500 feet behind it.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 66",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.077",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "On a four-lane road, you approach a tow truck stopped with lights flashing in the right lane. What does Oregon require?",
+    "choices": [
+      "Change lanes so you are not next to it, or slow to at least 5 mph under the speed limit",
+      "Stop until it leaves",
+      "Keep your lane and speed",
+      "Honk and pass quickly"
+    ],
+    "answer": 0,
+    "explanation": "With two or more lanes in your direction, change lanes away from any stopped vehicle with lights flashing, or slow down by at least 5 mph under the limit.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 65",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.078",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "On a five-lane road with a center turn lane, a school bus heading the other way stops with red lights flashing. What must you do?",
+    "choices": [
+      "Continue, because the bus is on the other side",
+      "Slow to 20 mph and pass",
+      "Stop only if children are crossing toward you",
+      "Stop, because a painted median or turn lane does not create separate roads"
+    ],
+    "answer": 3,
+    "explanation": "A painted median strip or turn lane does not create two separate roads, so all lanes of traffic must stop.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 63",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.079",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A school bus is stopped with red lights flashing on the other side of a highway divided by an unpaved median strip. Must you stop?",
+    "choices": [
+      "Yes, all traffic must stop",
+      "Yes, unless no children are visible",
+      "No, only traffic on the same side as the bus must stop",
+      "Only if the bus also has a stop arm out"
+    ],
+    "answer": 2,
+    "explanation": "On a divided highway with two roads separated by an unpaved median or barrier, you must stop only if you are on the same side of the road as the bus.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 63",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.080",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are driving faster than 35 mph behind a bicyclist in your lane. When may you pass?",
+    "choices": [
+      "Whenever you give exactly 3 feet",
+      "Only if you leave enough distance to avoid contact if the rider fell",
+      "Only after honking to warn the rider",
+      "Never in the same lane"
+    ],
+    "answer": 1,
+    "explanation": "At speeds over 35 mph, you may pass a bicyclist in your lane only with enough distance to prevent contact if the rider were to fall.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 58",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.081",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Is it legal in Oregon for a car to share a lane with a motorcycle?",
+    "choices": [
+      "No. When passing, you must give a motorcycle the full lane",
+      "Yes, if the motorcycle stays near the edge",
+      "Yes, in heavy traffic",
+      "Yes, below 25 mph"
+    ],
+    "answer": 0,
+    "explanation": "It is against the law to share a lane with a person riding a motorcycle or moped. When passing, you must allow them a full lane.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 60",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.082",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "At an intersection with a green bike box, what must drivers do when the light is red?",
+    "choices": [
+      "Stop inside the box",
+      "Turn right on red after yielding to bicyclists",
+      "Stop at the far edge of the box",
+      "Stop behind the bike box, and do not turn right on red"
+    ],
+    "answer": 3,
+    "explanation": "Stop for the signal behind the bike box, not in it. No right turns are allowed at these intersections when the signal is red.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 59",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.083",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A streetcar in the lane next to you is stopped, and you want to turn right across its path. What should you do?",
+    "choices": [
+      "Turn quickly before it starts moving",
+      "Honk to warn the operator and turn",
+      "Do not turn in front of it, even though it is stopped",
+      "Turn if the streetcar's doors are closed"
+    ],
+    "answer": 2,
+    "explanation": "Never turn in front of a streetcar or train traveling in your direction from an adjacent lane, even if it is stopped.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 74",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.084",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A person riding a horse raises a hand as you approach. What should you do?",
+    "choices": [
+      "Honk to let them know you are passing",
+      "Stop, unless stopping would cause a collision",
+      "Speed up to get past quickly",
+      "Flash your headlights"
+    ],
+    "answer": 1,
+    "explanation": "A raised hand means the animal is frightened. Stop unless that would cause a collision, and avoid using your horn or making loud noises.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 83",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.085",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "How many trailers may you tow behind a passenger vehicle in Oregon?",
+    "choices": [
+      "One",
+      "Two",
+      "Two, if the total length is under 65 feet",
+      "Any number with proper lights"
+    ],
+    "answer": 0,
+    "explanation": "Oregon allows a maximum of one boat, utility trailer or other vehicle behind a passenger or recreational vehicle. A second trailer is illegal.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 44",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.086",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When must headlights be on in Oregon?",
+    "choices": [
+      "From one hour after sunset to one hour before sunrise",
+      "Only when it is raining",
+      "Any time you cannot see 500 feet ahead",
+      "From sunset to sunrise and any time you cannot see people or vehicles 1,000 feet ahead"
+    ],
+    "answer": 3,
+    "explanation": "Headlights must be on from sunset to sunrise and whenever conditions make it hard to see people or vehicles 1,000 feet ahead.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 84",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.087",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When using high beams, you must dim them when an oncoming vehicle is within:",
+    "choices": [
+      "350 feet",
+      "1,000 feet",
+      "500 feet",
+      "200 feet"
+    ],
+    "answer": 2,
+    "explanation": "You must dim your lights when an oncoming vehicle is within 500 feet.",
+    "difficulty": 1,
+    "ref": "Oregon Driver Manual, p. 84",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.088",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When following another vehicle, you must dim your high beams within:",
+    "choices": [
+      "200 feet",
+      "350 feet",
+      "500 feet",
+      "100 feet"
+    ],
+    "answer": 1,
+    "explanation": "Dim your lights when following another vehicle within 350 feet. Glare in a rearview mirror can blind the driver.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 84",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.089",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When you are required to dim your headlights, what about your fog lights?",
+    "choices": [
+      "They must be off too",
+      "They may stay on",
+      "They must be switched on instead",
+      "They must flash"
+    ],
+    "answer": 0,
+    "explanation": "When you must dim your headlights, auxiliary lights such as fog lights must also be off because they make it hard for oncoming drivers to see.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 84",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.090",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Is it legal to drive at night in Oregon with only your parking lights on?",
+    "choices": [
+      "Yes, in well-lit city areas",
+      "Yes, below 25 mph",
+      "Yes, if your high beams are broken",
+      "No, it is illegal at night or in bad weather"
+    ],
+    "answer": 3,
+    "explanation": "It is illegal to drive at night or in bad weather with only parking lights on.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 84",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.091",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When are studded tires generally allowed in Oregon?",
+    "choices": [
+      "October 1 through April 30",
+      "December 1 through February 28",
+      "November 1 through March 31",
+      "Any time it snows"
+    ],
+    "answer": 2,
+    "explanation": "Studded tires are generally allowed only from November 1 through March 31. Drivers are encouraged to use chains or other traction tires instead.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 87",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.092",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "How are traffic fines handled in Oregon work zones?",
+    "choices": [
+      "They are the same as anywhere else",
+      "They are doubled",
+      "They are tripled when workers are present",
+      "Only speeding fines increase"
+    ],
+    "answer": 1,
+    "explanation": "Traffic fines are doubled in all work zones, and you are expected to yield to workers.",
+    "difficulty": 1,
+    "ref": "Oregon Driver Manual, p. 67",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.093",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You drive through a work zone on a Sunday with no workers in sight. The temporary posted speed is 45 mph. What applies?",
+    "choices": [
+      "The 45 mph limit, because work zone speeds apply at all times",
+      "The normal speed limit, since no workers are present",
+      "Any safe speed",
+      "45 mph only during daylight"
+    ],
+    "answer": 0,
+    "explanation": "The temporary speed posted in a work zone applies at all times, even if workers are not visible, until an End Work Zone Speed Limit sign or another speed sign.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 67",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.094",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How close to a fire hydrant may you park in Oregon?",
+    "choices": [
+      "No closer than 15 feet",
+      "No closer than 5 feet",
+      "No closer than 20 feet",
+      "No closer than 10 feet"
+    ],
+    "answer": 3,
+    "explanation": "You cannot stop or park within 10 feet of a fire hydrant.",
+    "difficulty": 1,
+    "ref": "Oregon Driver Manual, p. 78",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.095",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How close may you park to a marked or unmarked crosswalk at an intersection in Oregon?",
+    "choices": [
+      "No closer than 15 feet",
+      "No closer than 10 feet",
+      "No closer than 20 feet",
+      "No closer than 30 feet"
+    ],
+    "answer": 2,
+    "explanation": "You may not park within 20 feet of a marked or unmarked crosswalk at an intersection.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 79",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.096",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You want to park across the street from a fire station's driveway. How far away must you be?",
+    "choices": [
+      "At least 15 feet",
+      "At least 75 feet",
+      "At least 20 feet",
+      "At least 50 feet"
+    ],
+    "answer": 1,
+    "explanation": "Do not park within 15 feet of a fire station driveway on the same side of the street, or within 75 feet on the opposite side.",
+    "difficulty": 3,
+    "ref": "Oregon Driver Manual, p. 79",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.097",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "If your parked vehicle would hide a traffic signal or sign, how far from it must you park?",
+    "choices": [
+      "50 feet",
+      "20 feet",
+      "30 feet",
+      "100 feet"
+    ],
+    "answer": 0,
+    "explanation": "You may not park within 50 feet of a traffic signal or sign if your vehicle hides it from view.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 79",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.098",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How close may you park to the nearest rail of a railroad or light rail crossing?",
+    "choices": [
+      "No closer than 15 feet",
+      "No closer than 20 feet",
+      "No closer than 100 feet",
+      "No closer than 50 feet"
+    ],
+    "answer": 3,
+    "explanation": "You may not park within 50 feet of the nearest rail of a railroad or light rail crossing.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 79",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.099",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "When parallel parking in Oregon, your wheels may be no more than how far from the curb?",
+    "choices": [
+      "6 inches",
+      "18 inches",
+      "12 inches",
+      "24 inches"
+    ],
+    "answer": 2,
+    "explanation": "Park in the direction of traffic, parallel to and no more than 12 inches from the curb.",
+    "difficulty": 1,
+    "ref": "Oregon Driver Manual, p. 76",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.100",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "When required to stop at a railroad crossing with no stop line, how close may you stop to the nearest rail?",
+    "choices": [
+      "No closer than 10 feet",
+      "No closer than 15 feet",
+      "No closer than 20 feet",
+      "No closer than 50 feet"
+    ],
+    "answer": 1,
+    "explanation": "Stop at the stop line. If there is none, stop at least 15 feet from the nearest rail.",
+    "difficulty": 1,
+    "ref": "Oregon Driver Manual, p. 72",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Who must wear a motorcycle helmet in Oregon?",
+    "choices": [
+      "Every operator and passenger of a motorcycle, moped or unenclosed autocycle",
+      "Only riders under 21",
+      "Only riders without health insurance",
+      "Only operators, not passengers"
+    ],
+    "answer": 0,
+    "explanation": "Oregon requires a DOT-compliant motorcycle helmet whenever you ride a motorcycle, moped or unenclosed autocycle as an operator or passenger.",
+    "difficulty": 1,
+    "ref": "Oregon Motorcycle & Moped Manual, p. 17",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Is lane splitting (riding between lanes or rows of vehicles) legal in Oregon?",
+    "choices": [
+      "Yes, below 25 mph",
+      "Yes, in stopped traffic",
+      "Yes, on freeways only",
+      "No, it is illegal"
+    ],
+    "answer": 3,
+    "explanation": "Sharing a lane with a car while passing it is not legal in Oregon. Riding between rows of stopped or moving vehicles is also illegal.",
+    "difficulty": 2,
+    "ref": "Oregon Motorcycle & Moped Manual, p. 37; ORS 814.240",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How many motorcycles may ride side by side in one traffic lane in Oregon?",
+    "choices": [
+      "One",
+      "Three",
+      "Two",
+      "Any number"
+    ],
+    "answer": 2,
+    "explanation": "Oregon law allows motorcycles to ride two abreast in a single lane, though it is not recommended. Riding more than two abreast is a violation.",
+    "difficulty": 3,
+    "ref": "Oregon Motorcycle & Moped Manual, p. 37; ORS 814.250",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Which is a restriction on an Oregon motorcycle instruction permit?",
+    "choices": [
+      "Freeway riding only",
+      "Daylight riding only, with no passengers",
+      "Riding allowed after dark with a passenger 21 or older",
+      "No helmet is required while practicing"
+    ],
+    "answer": 1,
+    "explanation": "Permit riders must ride in daylight only, carry no passengers, wear a DOT helmet, and be supervised by an endorsed rider 21+ on a separate motorcycle.",
+    "difficulty": 2,
+    "ref": "Oregon Motorcycle & Moped Manual, p. 8",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Who must supervise an Oregon motorcycle permit holder?",
+    "choices": [
+      "An endorsed rider at least 21 on a separate motorcycle",
+      "Any licensed driver riding as a passenger",
+      "A parent in a car behind them",
+      "No supervision is needed"
+    ],
+    "answer": 0,
+    "explanation": "The permit rider must be accompanied by, and under the supervision and visual observation of, a rider at least 21 with a valid endorsement on a separate motorcycle.",
+    "difficulty": 2,
+    "ref": "Oregon Motorcycle & Moped Manual, p. 8",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What must a new rider without an out-of-state endorsement complete to get an Oregon motorcycle endorsement?",
+    "choices": [
+      "A DMV skills test only",
+      "A 30-hour supervised riding log",
+      "Nothing beyond the knowledge test",
+      "An approved TEAM OREGON rider education course"
+    ],
+    "answer": 3,
+    "explanation": "Oregon requires an approved motorcycle rider education course. TEAM OREGON is the only approved provider, and DMV does not give a motorcycle skills test.",
+    "difficulty": 2,
+    "ref": "Oregon Motorcycle & Moped Manual, p. 7",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How many correct answers do you need to pass Oregon's 25-question motorcycle knowledge test?",
+    "choices": [
+      "18",
+      "22",
+      "20",
+      "25"
+    ],
+    "answer": 2,
+    "explanation": "The motorcycle knowledge test has 25 multiple-choice questions, and you must answer 20 correctly to pass.",
+    "difficulty": 2,
+    "ref": "Oregon Motorcycle & Moped Manual, p. 10",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "When must a motorcycle's headlight be on in Oregon?",
+    "choices": [
+      "Only from sunset to sunrise",
+      "At all times",
+      "Only in rain or fog",
+      "Only on highways"
+    ],
+    "answer": 1,
+    "explanation": "Oregon law requires that you have your headlight on at all times. It is the best way to help others see your motorcycle.",
+    "difficulty": 1,
+    "ref": "Oregon Motorcycle & Moped Manual, p. 39",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Which rule applies to mopeds in Oregon?",
+    "choices": [
+      "Carrying a passenger on a moped is illegal",
+      "Mopeds need a motorcycle endorsement",
+      "Moped riders do not need a helmet",
+      "Mopeds may use bike lanes under engine power"
+    ],
+    "answer": 0,
+    "explanation": "It is against the law to carry passengers on a moped. A moped needs no endorsement, the rider needs a helmet, and under its own power it must use regular lanes.",
+    "difficulty": 2,
+    "ref": "Oregon Motorcycle & Moped Manual, p. 10",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.mc.010",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What is the penalty class for riding a motorcycle in Oregon without a motorcycle endorsement?",
+    "choices": [
+      "A Class D traffic violation",
+      "A warning only",
+      "A felony",
+      "A Class A traffic violation"
+    ],
+    "answer": 3,
+    "explanation": "Riding a motorcycle without a motorcycle endorsement is a Class A traffic violation.",
+    "difficulty": 3,
+    "ref": "Oregon Motorcycle & Moped Manual, p. 8",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.101",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Under Oregon's no-parking rules, where may you NOT stop or park your vehicle?",
+    "choices": [
+      "Within an intersection",
+      "25 feet from a fire hydrant",
+      "30 feet from a crosswalk at an intersection",
+      "60 feet from a railroad crossing"
+    ],
+    "answer": 0,
+    "explanation": "You may not stop or park within an intersection. The other spots are legal because they are beyond Oregon's limits of 10 feet from a hydrant, 20 feet from a crosswalk at an intersection, and 50 feet from a railroad crossing.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, pp. 78-79",
+    "states": [
+      "OR"
+    ]
+  }
+]

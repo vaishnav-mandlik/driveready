@@ -61,6 +61,9 @@ describe('Spanish content', () => {
     expect(ca.notableLaws[0].title).toBe('Ley de prueba');
     expect(ca.facts[1].source.quote).toBe('fixture quote');
     expect(getSign('R1-1')!.name).toBe('Alto');
+    // Display labels are translated; the English shape stays for the shape-clue logic.
+    expect(getSign('R1-1')!.shapeLabel).toBe('octágono');
+    expect(getSign('R1-1')!.shape).toBe('octagon');
     setLang('en');
     expect(getSign('R1-1')!.name).toBe('Stop');
     expect(getStateInfo('CA').facts[1].value).toBe('15 feet');

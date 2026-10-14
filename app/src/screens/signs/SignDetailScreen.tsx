@@ -47,7 +47,7 @@ export function SignDetailScreen({navigation, route}: RootScreenProps<'SignDetai
       </View>
       <View style={[styles.row, {gap: spacing.sm, marginTop: spacing.lg, flexWrap: 'wrap'}]}>
         {category ? <Chip label={category.title} icon={category.icon} tone="primary" /> : null}
-        {sign.shape ? <Chip label={sign.shape} /> : null}
+        {sign.shape ? <Chip label={sign.shapeLabel ?? sign.shape} /> : null}
         {/^(R|W|S|M|D|E|G|EM)\d/.test(sign.code) ? <Chip label={`MUTCD ${sign.code}`} /> : null}
       </View>
       <Text variant="title" style={{marginTop: spacing.md}} accessibilityRole="header">
@@ -64,7 +64,7 @@ export function SignDetailScreen({navigation, route}: RootScreenProps<'SignDetai
       </Card>
       {sign.colors ? (
         <Text variant="caption" color="textMuted" style={{marginTop: spacing.md}}>
-          Colors: {sign.colors}
+          Colors: {sign.colorsLabel ?? sign.colors}
         </Text>
       ) : null}
 

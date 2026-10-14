@@ -107,7 +107,12 @@ export function searchSigns(query: string): SignInfo[] {
     return library;
   }
   return library.filter(
-    s => fold(s.name).includes(q) || fold(s.meaning).includes(q) || s.code.toLowerCase().includes(q) || fold(s.shape).includes(q),
+    s =>
+      fold(s.name).includes(q) ||
+      fold(s.meaning).includes(q) ||
+      s.code.toLowerCase().includes(q) ||
+      fold(s.shape).includes(q) ||
+      fold(s.shapeLabel ?? '').includes(q),
   );
 }
 

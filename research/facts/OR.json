@@ -1,0 +1,835 @@
+{
+  "code": "OR",
+  "name": "Oregon",
+  "agency": {
+    "name": "Oregon Department of Transportation, Driver and Motor Vehicle Services",
+    "abbreviation": "DMV",
+    "website": "https://www.oregon.gov/odot/dmv/"
+  },
+  "handbook": {
+    "title": "Oregon Driver Manual",
+    "edition": "2026-2027 (Form 735-37, 1-26; current PDF on oregon.gov, checked Oct 2026)",
+    "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf"
+  },
+  "knowledgeTest": {
+    "questions": 35,
+    "passingScore": 28,
+    "passingPercent": 80,
+    "roadSigns": "No separately scored road-signs section; the single Class C test includes questions about road signs, traffic laws and other driving information.",
+    "timeLimitMinutes": null,
+    "format": "35 multiple-choice questions on a touch-screen computer at a DMV office (standby or appointment), or online at DMV2U.Oregon.gov using a desktop/laptop with keyboard, mouse and webcam. Fee $7 per attempt.",
+    "languages": "English, Spanish, Arabic, Chinese (Simplified Mandarin), Japanese, Korean, Russian, Vietnamese; with or without audio (DMV office). The teen permit page lists English and Spanish for the online test.",
+    "retestWait": "At a DMV office you may retest the same day, depending on testing availability. Online: up to two attempts in 24 hours and four online attempts total; after that you must test at a DMV office. Cheating bars retesting for 90 days.",
+    "notes": "Same Class C test for teens and adults. Permit at 15 (Provisional Instruction Permit under 18, parent/guardian signature required); license at 16. Under 18: hold permit 6 months, 100 supervised hours (or 50 + ODOT-approved driver ed). Online test for applicants under 18 must be supervised by a proctor over 21. Drive test retake: next business day. Drive test may be waived for ODOT-approved driver ed completion within 2 years.",
+    "sourceUrl": "https://www.oregon.gov/odot/dmv/pages/driverid/licensepermit.aspx"
+  },
+  "motorcycleTest": {
+    "questions": 25,
+    "passingScore": 20,
+    "passingPercent": 80,
+    "notes": "Motorcycle endorsement knowledge test: 25 multiple-choice questions (DMV website); the Oregon Motorcycle & Moped Manual says 20 correct to pass. Fee $7. DMV does not give a motorcycle skills test: an approved TEAM OREGON course is mandatory for new riders. Permit: age 16+, valid Oregon license, daylight only, no passengers, supervised by an endorsed rider 21+ on a separate motorcycle.",
+    "sourceUrl": "https://www.oregon.gov/odot/dmv/pages/driverid/motorcycle_endorse.aspx"
+  },
+  "cdlTest": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC (age 21 and older)",
+      "detail": "At 0.08% or more, Oregon law presumes you are impaired, but you can still be arrested for DUII with a lower BAC if alcohol or drugs affect your driving.",
+      "number": 0.08,
+      "unit": "percent",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 90,
+        "quote": "If your blood alcohol concentration is 0.08% or more, Oregon law presumes you are impaired, but you can still be arrested even if your BAC is lower than 0.08%."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "Any amount (zero tolerance) for drivers under 21",
+      "detail": "Oregon has a zero tolerance law: a driver under 21 fails the implied consent test with any measurable blood alcohol.",
+      "number": 0,
+      "unit": "percent",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 91,
+        "quote": "If you are under 21, you will fail the test if you have a blood alcohol concentration of any amount. Oregon has a zero tolerance law."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC when driving a commercial motor vehicle",
+      "detail": "A person driving a commercial motor vehicle fails an implied consent breath or blood test at 0.04% or more.",
+      "number": 0.04,
+      "unit": "percent",
+      "source": {
+        "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors813.html",
+        "page": null,
+        "quote": "0.04 percent or more by weight of alcohol in the blood of the person as shown by chemical analysis of the breath or blood if the person was driving a commercial motor vehicle"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusing a breath or urine test: license suspension of 1 year (or 3 years) plus a $650 presumptive fine",
+      "detail": "By driving you agree to a breath, blood or urine test when asked by police. Refusing a breath or urine test brings a suspension of one year or three years (depending on history) and refusal is also a traffic violation with a $650 presumptive fine (ORS 813.095).",
+      "number": 1,
+      "unit": "years",
+      "source": {
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/suspreasons.aspx",
+        "page": null,
+        "quote": "Refusing to take a breath test – One year or three years."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "Class A misdemeanor; minimum $1,000 fine (first conviction); 1-year license suspension; ignition interlock afterward",
+      "detail": "DUII is a Class A misdemeanor (ORS 813.010). A first conviction carries a minimum $1,000 fine ($2,000 if BAC was 0.15% or more). DMV suspends the license for one year for a first DUII conviction and requires an ignition interlock device after the suspension.",
+      "number": 1000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors813.html",
+        "page": null,
+        "quote": "(b) For a person’s first conviction if the current offense was committed while operating a vehicle other than a bicycle, a minimum of $1,000."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "open_container",
+      "value": "No open alcohol containers in a vehicle on any road; a resealed container still counts as open",
+      "detail": "Oregon's Open Container law makes it illegal to have an open container of alcohol in a vehicle on any road. A container is open if its seal is broken, even if reclosed. Keep open containers in the trunk.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 91,
+        "quote": "Oregon’s Open Container law says it is illegal to have an open bottle or other container with alcohol in it while you are in a vehicle on any road. A container is considered to be open if its seal is broken, even if it has been reclosed."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15 years old",
+      "detail": "You must be at least 15 to apply for a Class C instruction permit (called a Provisional Instruction Permit if under 18).",
+      "number": 15,
+      "unit": "years",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 97,
+        "quote": "Be at least 15 years of age to apply for an instruction permit."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "6 months (under 18)",
+      "detail": "Applicants under 18 must hold an instruction permit for at least 6 months before getting a license; an out-of-state permit counts toward this.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 98,
+        "quote": "You must have had an instruction permit for at least 6 months. Holding an out-of-state permit does count towards this requirement."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "100 hours, or 50 hours plus an ODOT-approved traffic safety education course",
+      "detail": "Teens need 100 hours of supervised driving, or 50 hours if they complete an ODOT-approved driver education course. Oregon does not set a separate night-hours requirement.",
+      "number": 100,
+      "unit": "hours",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 98,
+        "quote": "You must have 100 hours of supervised driving experience or 50 hours of supervised driving experience and have taken an ODOT-approved traffic safety education course."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Licensed driver at least 21, sitting beside the permit holder; licensed 3+ years for practice hours to count",
+      "detail": "A permit holder may drive only with a licensed driver who is at least 21 and sitting beside them (DMV permit page). For the practice to count toward the 50/100-hour requirement, the supervisor must have held valid driving privileges for at least 3 years.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 98,
+        "quote": "Your driving experience only counts if supervised by someone at least 21 years of age who has had valid driving privileges for at least 3 years."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 years old",
+      "detail": "You must be at least 16 to get a driver license (Provisional Driver License if under 18).",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 97,
+        "quote": "Be at least 16 years of age to apply for a license."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "No driving midnight to 5 a.m. during the first year (with exceptions)",
+      "detail": "During the first year (or until 18), a provisional driver may not drive between midnight and 5 a.m. unless driving between home and work, between home and a school event with no other transportation, for employment, or with a licensed driver at least 25.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.oregon.gov/odot/dmv/teen/pages/license.aspx",
+        "page": null,
+        "quote": "You cannot drive between midnight and 5:00 AM unless you are:"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "First 6 months: no passengers under 20 (non-family); second 6 months: no more than 3 passengers under 20 (non-family)",
+      "detail": "Family members and driving with a certified driver-ed instructor or a parent, stepparent or guardian are exceptions. Passenger and night restrictions end after 1 year or at age 18, whichever comes first.",
+      "number": 20,
+      "unit": "years",
+      "source": {
+        "url": "https://www.oregon.gov/odot/dmv/teen/pages/license.aspx",
+        "page": null,
+        "quote": "You cannot drive with a passenger under age 20 who is not a member of your immediate family*; and"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "Provisional passenger/night restrictions end at 18 or after 1 year with the license, whichever comes first; the phone ban lasts until 18",
+      "detail": "Oregon has no separate full license step: the provisional restrictions on passengers and night driving end at age 18 or after one year, whichever is first. Drivers under 18 may not use a mobile device at all.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://www.oregon.gov/odot/dmv/teen/pages/license.aspx",
+        "page": null,
+        "quote": "Note: The passenger and night driving restrictions only apply until you are 18 or you have had your provisional license for 1 year, whichever comes first."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "Drivers 18+ must use a hands-free accessory",
+      "detail": "Drivers 18 or older may use a phone or other mobile electronic device only with a hands-free accessory that needs only minimal use of a finger to turn on or off.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 88,
+        "quote": "Drivers 18 years of age or older must use a hands-free accessory to use a cell phone or other mobile electronic device. The hands-free accessory must only require minimal use of a finger to activate or deactivate the device."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "texting_ban",
+      "value": "Holding or using a mobile electronic device for any purpose (including texting) while driving is illegal",
+      "detail": "ORS 811.507 makes it an offense to hold a mobile electronic device or use it for any purpose while driving, which covers texting; 'driving' includes being temporarily stopped in traffic or at a light.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors811.html",
+        "page": null,
+        "quote": "(a) Holds a mobile electronic device in the person’s hand; or"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Drivers under 18 may not use a cell phone or mobile device at all, even hands-free",
+      "detail": "It is illegal for drivers under 18 to use a cell phone or other mobile electronic device while driving; hands-free accessories are not allowed for them.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 88,
+        "quote": "It is illegal for drivers under 18 years of age to use a cell phone or other mobile electronic device while operating a vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Mandatory for all drivers and passengers in all seating positions",
+      "detail": "Safety belts are required for everyone in every available seating position. Do not leave slack or put the shoulder strap under your arm or behind your back.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 81,
+        "quote": "Safety belt use is mandatory in Oregon for all drivers and passengers in all available seating positions."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Child seat until age 8 or 4'9\" tall (and adult belt fits); rear-facing until age 2",
+      "detail": "Children must ride in an approved child safety seat until they are 8 years old or at least 4 feet 9 inches tall and the adult belt fits correctly. Infants ride rear-facing until age 2.",
+      "number": 8,
+      "unit": "years",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 82,
+        "quote": "Child passengers must be restrained in approved child safety seats until they are 8 years of age or at least 4 feet 9 inches in height, and the adult lap and shoulder belt fits them correctly. Infants must ride rear-facing until they reach two years of age."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Drive at a speed that is reasonable and cautious for existing conditions",
+      "detail": "The basic rule applies on all roads at all times. Driving too fast for conditions violates it even when you are under the speed limit, and it never allows you to exceed the limit.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 28,
+        "quote": "The basic rule states you must drive at a speed that is reasonable and cautious for existing conditions. The basic rule applies on all roads at all times."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "20 mph",
+      "detail": "A school speed zone runs from the SCHOOL SPEED LIMIT 20 sign to the END SCHOOL ZONE sign (or another speed sign). It applies when the light flashes, 7 a.m.-5 p.m. on school days, or when children are present, depending on the sign.",
+      "number": 20,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 57,
+        "quote": "A school speed zone is an area where a reduced speed of 20 mph applies and is defined by school speed signs."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "25 mph (15 mph in alleys and narrow residential roadways)",
+      "detail": "Unless posted otherwise: 25 mph in residential districts, public parks and on ocean shores where vehicles are allowed; 15 mph in alleys and narrow residential areas.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 27,
+        "quote": "25 Miles Per Hour • In residential districts."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "20 mph",
+      "detail": "Unless a different speed is posted, the speed limit in any business district is 20 mph.",
+      "number": 20,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 27,
+        "quote": "20 Miles Per Hour • In any business district."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "55 mph",
+      "detail": "55 mph applies on all roads and highways not meeting any other definition unless otherwise posted.",
+      "number": 55,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 27,
+        "quote": "55 Miles Per Hour • On all roads and highways not meeting any other definition unless otherwise posted."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "65 mph by statute unless posted otherwise; 70 mph on I-84 east of The Dalles and on I-82",
+      "detail": "The manual says interstate limits vary. ORS 811.111 sets 65 mph on interstates unless a different speed is posted, and 70 mph (65 for heavy trucks and buses) on I-84 from The Dalles to the Idaho line and on I-82 from the Washington line to I-84.",
+      "number": 65,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors811.html",
+        "page": null,
+        "quote": "(E) Sixty-five miles per hour on an interstate highway."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "If slower than normal traffic, use the right lane or keep as close as possible to the right edge",
+      "detail": "Slow drivers must use the right lane (except to turn left) and should pull off at the first safe area to let traffic behind them pass.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 29,
+        "quote": "If you drive slower than the normal speed of traffic, you must use the right lane or drive as closely as possible to the right curb or edge of the road, unless you are preparing to make a left turn."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop unless a sign or officer prohibits it",
+      "detail": "After a complete stop you may turn right on a steady red (or red arrow) into a two-way or one-way road, unless a sign or police officer says otherwise. Right turns on red are not allowed at bike-box intersections.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 23,
+        "quote": "When entering a two-way road, you may turn right."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Allowed only into a one-way road (in its direction of travel) after a complete stop",
+      "detail": "After a complete stop and yielding to traffic and pedestrians, you may turn left on red into a one-way road, from either a one-way or a two-way road (manual pp. 15 and 40). A left turn on red into a two-way road is illegal.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 23,
+        "quote": "When entering a one-way road, you may turn right or left in the direction of the one-way road."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 100 feet before turning or changing lanes",
+      "detail": "When moving in traffic, signal at least 100 feet before the turn or lane change. Hand signals are only for daylight when you can see 1,000 feet.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 46,
+        "quote": "If your vehicle is moving in traffic, use your turn signal at least 100 feet before the turn or lane change."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the right and stop (not in an intersection); then stay at least 500 feet behind",
+      "detail": "Yield to emergency vehicles using a light or siren from any direction: drive as close as safely possible to the right side and stop, never in an intersection. After it passes, stay at least 500 feet behind it.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 66,
+        "quote": "After the emergency vehicle passes, you must stay at least 500 feet behind the vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "move_over_law",
+      "value": "Change lanes away from any stopped vehicle with flashing lights, or slow to at least 5 mph under the limit",
+      "detail": "On a road with two or more lanes in your direction, when approaching any motor vehicle stopped with lights flashing, change lanes so you do not drive next to it, or slow down by at least 5 mph under the posted limit.",
+      "number": 5,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 65,
+        "quote": "If you are on a road with two or more lanes of traffic going the same direction and you approach any motor vehicle that is stopped with lights flashing, you must change lanes so you do not drive next to the stopped vehicle. You may also slow down by at least 5 miles per hour under the posted speed limit."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop for flashing red lights from either direction; on a divided highway with an unpaved median or barrier, only same-side traffic stops",
+      "detail": "When a school bus shows flashing red lights, stop before reaching it and stay stopped until the red lights go off. If the road is divided by an unpaved median strip or barrier, only traffic on the bus's side must stop; a painted median or turn lane does not divide the road, so all lanes stop.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 63,
+        "quote": "If you are on a divided highway with two roads separated by an unpaved median strip or barrier, you must stop only if you are on the same side of the road as the bus."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "following_distance",
+      "value": "2-4 seconds; 4 seconds or more above 30 mph",
+      "detail": "A safe following distance is 2-4 seconds; at speeds over 30 mph it should be 4 seconds or more. Increase it on wet or slippery roads, behind bicycles and motorcycles, behind large vehicles, when towing or heavily loaded, and when it is hard to see.",
+      "number": 4,
+      "unit": "seconds",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 34,
+        "quote": "A safe following distance is defined as 2-4 seconds. For speeds greater than 30 mph, a safe following distance should be 4 seconds or more to allow you time to make a decision and take action."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "headlights_required",
+      "value": "Sunset to sunrise, and whenever you cannot see people or vehicles 1,000 feet ahead",
+      "detail": "Headlights must be on from sunset to sunrise and at any time conditions make it hard to see people or vehicles 1,000 feet ahead. Driving with only parking lights on at night or in bad weather is illegal.",
+      "number": 1000,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 84,
+        "quote": "Headlights must be turned on from sunset to sunrise. Lights also must be on at any time conditions make it difficult to see people or vehicles 1,000 feet ahead."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "Within 500 feet of an oncoming vehicle",
+      "detail": "Dim high beams when an oncoming vehicle is within 500 feet. When you must dim, fog lights and other auxiliary lights must also be off.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 84,
+        "quote": "If using your high beams, you must dim your lights when an oncoming vehicle is within 500 feet."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "Within 350 feet of a vehicle you are following",
+      "detail": "Dim your lights when following another vehicle within 350 feet; glare in the rearview mirror can blind the driver ahead.",
+      "number": 350,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 84,
+        "quote": "Dim your lights when following another vehicle within 350 feet."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "10 feet",
+      "detail": "Do not stop or park within 10 feet of a fire hydrant.",
+      "number": 10,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 78,
+        "quote": "Within 10 feet of a fire hydrant."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "20 feet of a marked or unmarked crosswalk at an intersection",
+      "detail": "Do not park within 20 feet of a marked or unmarked crosswalk at an intersection, and never on a crosswalk itself.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 79,
+        "quote": "Within 20 feet of a marked or unmarked crosswalk at an intersection."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Not within an intersection (and 20 feet from an intersection crosswalk)",
+      "detail": "You may not stop or park within an intersection; the 20-foot crosswalk rule also keeps you back from intersection corners.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 78,
+        "quote": "Within an intersection."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "50 feet, if your vehicle hides the signal or sign",
+      "detail": "Do not park within 50 feet of a traffic signal or sign if your vehicle would hide it from view.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 79,
+        "quote": "Within 50 feet of a traffic signal or sign if your vehicle hides the signal or sign from view."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet of the nearest rail of a railroad or light rail crossing",
+      "detail": "Do not park within 50 feet of the nearest rail at a railroad or light rail crossing, or within 7 1/2 feet of tracks when it interferes with the train.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 79,
+        "quote": "Within 50 feet of the nearest rail of a railroad or light rail crossing."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "15 feet on the same side; 75 feet on the opposite side",
+      "detail": "Do not park within 15 feet of a fire station driveway entrance on the same side of the street, or within 75 feet on the opposite side.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 79,
+        "quote": "Within 15 feet of the driveway entrance to a fire station on the same side of the street or within 75 feet on the opposite side of the street."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "No more than 12 inches from the curb",
+      "detail": "When parallel parking, park in the direction of traffic, parallel to and no more than 12 inches from the curb.",
+      "number": 12,
+      "unit": "inches",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 76,
+        "quote": "Park parallel to and no more than 12 inches from the curb."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "At the stop line, or at least 15 feet from the nearest rail",
+      "detail": "When required to stop at a railroad crossing, stop at the stop line; if there is none, stop at least 15 feet from the nearest rail.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 72,
+        "quote": "When required to stop, do so at the stop line. If there is no stop line, stop at least 15 feet from the nearest rail."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "Above 35 mph, pass a bicyclist in your lane only with enough room to avoid contact if they fell",
+      "detail": "At speeds over 35 mph you may pass a person on a bicycle in your lane only if you leave enough distance to prevent contact if the rider fell. If you can't pass safely, slow and stay behind.",
+      "number": 35,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 58,
+        "quote": "At speeds greater than 35 mph, you may only pass a person on a bicycle traveling in your lane if you leave enough distance to prevent contact with the person riding a bicycle if they were to fall."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Stop and stay stopped for pedestrians in your lane, the next lane, or the lane you are turning into",
+      "detail": "Stop for pedestrians at any marked or unmarked crosswalk. At a signal, a pedestrian must be at least 6 feet from the lane you are turning into before you turn; without a signal, they must be past your lane plus the next lane.",
+      "number": 6,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 55,
+        "quote": "If you are turning at an intersection that has a traffic signal, before you begin to turn, the pedestrian must be six feet or more from the lane you are turning into."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "crash_reporting",
+      "value": "File a DMV report (Form 735-32) within 72 hours if damage over $2,500, a tow with damage over $2,500, or any injury or death",
+      "detail": "Report within 72 hours if damage to the vehicle you were driving is over $2,500, damage to property other than a vehicle is over $2,500, any vehicle has over $2,500 damage and any vehicle is towed from the scene, or anyone is injured or killed. An owner must report if the driver fails to. A police report does not replace the DMV report.",
+      "number": 72,
+      "unit": "hours",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 102,
+        "quote": "File a collision report within 72 hours, Form 735-32, if:"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "25/50/20 liability; $15,000 PIP; 25/50 uninsured motorist",
+      "detail": "Bodily injury $25,000 per person and $50,000 for two or more people per collision; property damage $20,000; Personal Injury Protection $15,000 per person; uninsured motorist $25,000/$50,000.",
+      "number": 25000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 101,
+        "quote": "Bodily Injury and Property Damage: $25,000 per collision for one person; $50,000 per collision for bodily injury to or death of two or more persons; and $20,000 per collision for damage to the property of others."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "point_system",
+      "value": "No point system; Driver Improvement Program counts convictions and preventable accidents",
+      "detail": "Oregon uses a Driver Improvement Program instead of points. For adults, a restriction (no driving midnight-5 a.m. for 30 days) follows 3 convictions/preventable accidents in 24 months, and a 30-day suspension follows 5. Provisional drivers face restrictions after 2 and a 6-month suspension after 3.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.oregon.gov/odot/dmv/pages/driverid/suspreasons.aspx",
+        "page": null,
+        "quote": "If you have been convicted of multiple traffic offenses and/or preventable traffic accidents over a certain period of time, you may be subject to the Driver Improvement Program."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Universal: all riders and passengers on motorcycles, mopeds and unenclosed autocycles",
+      "detail": "Oregon requires a DOT-compliant motorcycle helmet for every operator and passenger of a motorcycle, moped or unenclosed autocycle.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/6367.pdf",
+        "page": 17,
+        "quote": "Oregon requires you to wear a motorcycle helmet whenever you ride a motorcycle, moped or unenclosed autocycle as either an operator or passenger."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Illegal (lane splitting and riding between rows of vehicles); two motorcycles may ride abreast in one lane",
+      "detail": "Passing a vehicle in the same lane (lane splitting) and riding between lanes or rows of vehicles are illegal in Oregon (ORS 814.240). Two motorcycles may ride abreast in one lane; more than two is a violation (ORS 814.250). Car drivers may not share a lane with a motorcycle or moped.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/6367.pdf",
+        "page": 37,
+        "quote": "Sharing a lane with a car while passing them is commonly known as “lane splitting” and is not legal in Oregon."
+      },
+      "status": "verified"
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Turning past pedestrians: 6-foot rule at signals",
+      "summary": "At a signalized intersection, a pedestrian must be 6 feet or more from the lane you are turning into before you turn. Without a signal, the pedestrian must be past your lane plus the next lane.",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 55,
+        "quote": "If you are turning at an intersection that doesn’t have a traffic signal, before you begin to turn, the pedestrian must be past the lane you are turning into, plus the next lane."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Unmarked crosswalks are at least 6 feet wide",
+      "summary": "There is a crosswalk at every intersection, marked or not. An unmarked crosswalk is at least six feet wide and exists even without a sidewalk.",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 55,
+        "quote": "An unmarked crosswalk is at least six feet wide and exists even if there is no sidewalk or shoulder."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "U-turn visibility: 500 feet in cities, 1,000 feet outside",
+      "summary": "U-turns are prohibited at signalized intersections (unless a sign permits), between intersections in a city, at railroad crossings, and anywhere you can't be seen from 500 feet (in city limits) or 1,000 feet (outside city limits).",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 49,
+        "quote": "Any location outside city limits where your vehicle cannot be seen by traffic coming from either direction within 1,000 feet."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Work zone fines are doubled; posted work-zone speed applies at all times",
+      "summary": "Traffic fines double in all work zones, and the temporary posted speed applies even when no workers are visible, until the End Work Zone Speed Limit sign.",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 67,
+        "quote": "Traffic fines are doubled in all work zones."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "No flashing lights or hand waves to tell others to pass",
+      "summary": "The law prohibits flashing any of your signals at drivers to tell them when to pass.",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 41,
+        "quote": "The law prohibits flashing any of your signals at drivers to let them know when to pass."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Bike boxes: stop behind the box, no right turn on red",
+      "summary": "At bike-box intersections, stop behind the green box; right turns on red are not allowed, and on green you must yield to bicyclists on the right.",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 59,
+        "quote": "No right turns are allowed at these intersections when the traffic signal is red."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "School zone times: 7 a.m. to 5 p.m. on school days",
+      "summary": "A 'School Hours' speed sign means 20 mph from 7 a.m. to 5 p.m. on a day school is in session; if unsure whether it is a school day, slow to 20 mph.",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 57,
+        "quote": "Between the hours of 7 a.m. and 5 p.m. on a day school is in session."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Sound system audible 50 feet away is illegal",
+      "summary": "It is illegal to play a radio or sound system so loud it can be heard 50 feet from your vehicle.",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 88,
+        "quote": "It is illegal to play a radio or other sound system so loud it can be heard 50 feet away from your vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Under 18 may not ride in a pickup bed or on the outside of a vehicle",
+      "summary": "Oregon prohibits anyone under 18 from riding on the hood, fender, running board or other external part of a vehicle, including a pickup bed.",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 92,
+        "quote": "Oregon law prohibits anyone under 18 years of age from riding on the hood, fender, running board, or other external part of a vehicle, including a pickup bed."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Only one trailer behind a passenger vehicle",
+      "summary": "You may tow a maximum of one boat, utility trailer or other vehicle behind a passenger or recreational vehicle; fines up to $1,000 for a first offense.",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 44,
+        "quote": "Oregon law allows you to tow a maximum of one boat, general utility trailer, or other vehicle behind a passenger or recreational vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Studded tires: November 1 through March 31",
+      "summary": "Studded tires are generally allowed only from November 1 through March 31.",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 87,
+        "quote": "Studded tires are generally allowed only from November 1 through March 31 in Oregon."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Two-way left-turn lane: no traveling in it",
+      "summary": "Enter a two-way left turn lane just before your turn; it is illegal to travel in it, and you may not turn left from another lane where one is provided.",
+      "source": {
+        "url": "https://www.oregon.gov/odot/forms/dmv/37.pdf",
+        "page": 31,
+        "quote": "It is illegal to travel in a two-way left turn lane, so enter the lane just before you want to make the turn."
+      },
+      "status": "verified"
+    }
+  ],
+  "officialPracticeTests": [
+    "https://www.oregon.gov/odot/dmv/pages/driverid/licensepermit.aspx"
+  ],
+  "gaps": [
+    "supervised_driving_hours: Oregon sets no separate night-driving hour requirement (manual p. 98 and DMV teen pages list only the 100/50 total).",
+    "speed_limit_interstate_max: the manual only says interstate limits vary; the fact uses ORS 811.111 (65 mph statutory; 70 mph on I-84 east of The Dalles and on I-82).",
+    "implied_consent: the manual (p. 91) only says a refusal may bring a fine and/or suspension; durations come from the DMV suspensions page and the $650 fine from ORS 813.095.",
+    "dui_first_offense: not in the manual; uses ORS 813.010(6)(b) (minimum $1,000) and the DMV suspensions page (suspension one year, three years or permanent by prior convictions; ignition interlock afterward).",
+    "bac_limit_commercial: not in the Class C manual; uses ORS 813.130.",
+    "provisional_night_restriction / provisional_passenger_restriction / full_license_min_age: not in the manual; from the DMV 'Get a Driver License - Under 18' page (checked Oct 2026).",
+    "point_system: Oregon has no point system; the Driver Improvement Program applies (DMV suspensions page).",
+    "knowledgeTest.timeLimitMinutes: DMV does not publish a time limit (manual pp. 10-11 and the DMV testing page checked Oct 2026).",
+    "cdlTest: not researched (outside the scope of the Class C manual)."
+  ]
+}
