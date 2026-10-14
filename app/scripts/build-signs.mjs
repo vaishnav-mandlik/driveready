@@ -68,7 +68,6 @@ function optimizeSvg(raw) {
         name: 'preset-default',
         params: {
           overrides: {
-            removeViewBox: false,
             inlineStyles: {onlyMatchedOnce: false},
             cleanupIds: {minify: true},
           },

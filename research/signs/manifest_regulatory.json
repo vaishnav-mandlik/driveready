@@ -1,0 +1,1170 @@
+[
+  {
+    "code": "R1-1",
+    "name": "Stop",
+    "category": "regulatory",
+    "shape": "octagon",
+    "colors": [
+      "red",
+      "white"
+    ],
+    "meaning": "Come to a complete stop at the stop line (or before the crosswalk or intersection if there is no line), yield to pedestrians and cross traffic, and go only when it is safe.",
+    "license": "Public domain",
+    "svgPath": "svg/R1-1.svg"
+  },
+  {
+    "code": "R1-2",
+    "name": "Yield",
+    "category": "regulatory",
+    "shape": "inverted triangle",
+    "colors": [
+      "red",
+      "white"
+    ],
+    "meaning": "Slow down and be ready to stop, letting vehicles, bicyclists and pedestrians already in or approaching the intersection or merge go first; continue only when the way is clear.",
+    "license": "Public domain",
+    "svgPath": "svg/R1-2.svg"
+  },
+  {
+    "code": "R1-2aP",
+    "name": "To Oncoming Traffic (plaque)",
+    "category": "regulatory",
+    "shape": "horizontal rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Plaque mounted below a YIELD sign telling you that you must yield the right-of-way to oncoming (opposing) traffic, such as at a one-lane bridge or a one-lane section of a two-way road.",
+    "license": "Public domain",
+    "svgPath": "svg/R1-2aP.svg"
+  },
+  {
+    "code": "R1-3P",
+    "name": "All Way (plaque)",
+    "category": "regulatory",
+    "shape": "horizontal rectangle",
+    "colors": [
+      "red",
+      "white"
+    ],
+    "meaning": "Plaque mounted below a STOP sign meaning traffic on every approach must stop; after stopping, the first vehicle to arrive goes first, and if two arrive at the same time the driver on the left yields to the driver on the right.",
+    "license": "Public domain",
+    "svgPath": "svg/R1-3P.svg"
+  },
+  {
+    "code": "R1-5L",
+    "name": "Yield Here to Pedestrians (arrow left)",
+    "category": "regulatory",
+    "shape": "square",
+    "colors": [
+      "white",
+      "black",
+      "red"
+    ],
+    "meaning": "Marks the yield line placed ahead of an unsignalized crosswalk; when pedestrians are crossing, yield to them at this line, well back from the crosswalk, so drivers in other lanes can also see them.",
+    "license": "Public domain",
+    "svgPath": "svg/R1-5L.svg"
+  },
+  {
+    "code": "R1-6",
+    "name": "In-Street Pedestrian Crossing (State Law: Yield)",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "fluorescent yellow-green",
+      "black",
+      "red"
+    ],
+    "meaning": "Placed in the roadway at an unsignalized crosswalk to remind drivers that state law requires them to yield to pedestrians within the crosswalk.",
+    "license": "Public domain",
+    "svgPath": "svg/R1-6.svg"
+  },
+  {
+    "code": "R1-6a",
+    "name": "In-Street Pedestrian Crossing (State Law: Stop)",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "fluorescent yellow-green",
+      "black",
+      "red"
+    ],
+    "meaning": "Placed in the roadway at an unsignalized crosswalk to remind drivers that state law requires them to stop for pedestrians within the crosswalk.",
+    "license": "Public domain",
+    "svgPath": "svg/R1-6a.svg"
+  },
+  {
+    "code": "R2-1",
+    "name": "Speed Limit",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Shows the maximum lawful speed in miles per hour for this road under good conditions; never exceed it, and drive slower when traffic, weather or road conditions require.",
+    "license": "Public domain",
+    "svgPath": "svg/R2-1.svg"
+  },
+  {
+    "code": "R2-2P",
+    "name": "Trucks (truck speed limit plaque)",
+    "category": "regulatory",
+    "shape": "square",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Plaque mounted below a speed limit sign giving the lower maximum speed that applies to trucks.",
+    "license": "Public domain",
+    "svgPath": "svg/R2-2P.svg"
+  },
+  {
+    "code": "R2-3P",
+    "name": "Night (night speed limit plaque)",
+    "category": "regulatory",
+    "shape": "square",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "meaning": "Plaque mounted below a speed limit sign giving the lower maximum speed that applies at night.",
+    "license": "Public domain",
+    "svgPath": "svg/R2-3P.svg"
+  },
+  {
+    "code": "R2-4a",
+    "name": "Speed Limit with Minimum Speed",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Shows both the maximum and the minimum lawful speeds; under normal conditions drive no faster than the upper number and no slower than the lower number.",
+    "license": "Public domain",
+    "svgPath": "svg/R2-4a.svg"
+  },
+  {
+    "code": "R2-6aP",
+    "name": "Fines Double (plaque)",
+    "category": "regulatory",
+    "shape": "horizontal rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Plaque mounted with a speed limit or work zone sign meaning that fines for traffic violations are doubled in this zone.",
+    "license": "Public domain",
+    "svgPath": "svg/R2-6aP.svg"
+  },
+  {
+    "code": "R3-1",
+    "name": "No Right Turn",
+    "category": "regulatory",
+    "shape": "square",
+    "colors": [
+      "white",
+      "black",
+      "red"
+    ],
+    "meaning": "You may not turn right at this intersection.",
+    "license": "Public domain",
+    "svgPath": "svg/R3-1.svg"
+  },
+  {
+    "code": "R3-2",
+    "name": "No Left Turn",
+    "category": "regulatory",
+    "shape": "square",
+    "colors": [
+      "white",
+      "black",
+      "red"
+    ],
+    "meaning": "You may not turn left at this intersection.",
+    "license": "Public domain",
+    "svgPath": "svg/R3-2.svg"
+  },
+  {
+    "code": "R3-3",
+    "name": "No Turns",
+    "category": "regulatory",
+    "shape": "square",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "No turns of any kind (left, right or U-turn) are allowed at this intersection; continue straight.",
+    "license": "Public domain",
+    "svgPath": "svg/R3-3.svg"
+  },
+  {
+    "code": "R3-4",
+    "name": "No U-Turn",
+    "category": "regulatory",
+    "shape": "square",
+    "colors": [
+      "white",
+      "black",
+      "red"
+    ],
+    "meaning": "You may not make a U-turn at this location.",
+    "license": "Public domain",
+    "svgPath": "svg/R3-4.svg"
+  },
+  {
+    "code": "R3-18",
+    "name": "No U-Turn or Left Turn",
+    "category": "regulatory",
+    "shape": "square",
+    "colors": [
+      "white",
+      "black",
+      "red"
+    ],
+    "meaning": "Both left turns and U-turns are prohibited at this location.",
+    "license": "Public domain",
+    "svgPath": "svg/R3-18.svg"
+  },
+  {
+    "code": "R3-27",
+    "name": "No Straight Through",
+    "category": "regulatory",
+    "shape": "square",
+    "colors": [
+      "white",
+      "black",
+      "red"
+    ],
+    "meaning": "You may not continue straight through the intersection; you must turn.",
+    "license": "Public domain",
+    "svgPath": "svg/R3-27.svg"
+  },
+  {
+    "code": "R3-5L",
+    "name": "Left Turn Only (lane)",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Vehicles in this lane must turn left; going straight or turning right from this lane is not allowed.",
+    "license": "Public domain",
+    "svgPath": "svg/R3-5L.svg"
+  },
+  {
+    "code": "R3-5R",
+    "name": "Right Turn Only (lane)",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Vehicles in this lane must turn right; going straight or turning left from this lane is not allowed.",
+    "license": "Public domain",
+    "svgPath": "svg/R3-5R.svg"
+  },
+  {
+    "code": "R3-5a",
+    "name": "Straight Only (lane)",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Vehicles in this lane must go straight through the intersection; turns from this lane are not allowed.",
+    "license": "Public domain",
+    "svgPath": "svg/R3-5a.svg"
+  },
+  {
+    "code": "R3-6L",
+    "name": "Left Turn or Straight (optional movement lane)",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Vehicles in this lane may either turn left or go straight.",
+    "license": "Public domain",
+    "svgPath": "svg/R3-6L.svg"
+  },
+  {
+    "code": "R3-7L",
+    "name": "Left Lane Must Turn Left",
+    "category": "regulatory",
+    "shape": "square",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Vehicles in the left lane must turn left at the next intersection, so move out of that lane early if you want to go straight.",
+    "license": "Public domain",
+    "svgPath": "svg/R3-7L.svg"
+  },
+  {
+    "code": "R3-7R",
+    "name": "Right Lane Must Turn Right",
+    "category": "regulatory",
+    "shape": "square",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Vehicles in the right lane must turn right at the next intersection, so move out of that lane early if you want to go straight.",
+    "license": "Public domain",
+    "svgPath": "svg/R3-7R.svg"
+  },
+  {
+    "code": "R3-9b",
+    "name": "Center Lane: Two-Way Left Turn Only",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "The center lane is reserved for left turns by traffic from both directions; use it only to begin or complete a left turn, never for passing or through travel.",
+    "license": "Public domain",
+    "svgPath": "svg/R3-9b.svg"
+  },
+  {
+    "code": "R3-11",
+    "name": "HOV Lane (preferential lane, HOV 2+ only)",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "The lane is reserved for high-occupancy vehicles carrying at least the posted number of people (for example 2 or more) during the times shown.",
+    "license": "Public domain",
+    "svgPath": "svg/R3-11.svg"
+  },
+  {
+    "code": "R3-17",
+    "name": "Bike Lane",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Marks a lane reserved for bicyclists; do not drive or park in it except to cross it where allowed (such as to turn), and yield to bicyclists when you do.",
+    "license": "Public domain",
+    "svgPath": "svg/R3-17.svg"
+  },
+  {
+    "code": "R4-1",
+    "name": "Do Not Pass",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Marks a zone where passing is prohibited; do not cross the center line to pass other vehicles until the no-passing zone ends.",
+    "license": "Public domain",
+    "svgPath": "svg/R4-1.svg"
+  },
+  {
+    "code": "R4-2",
+    "name": "Pass With Care",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Marks the end of a no-passing zone; you may pass other vehicles when the way ahead is clear and it is safe.",
+    "license": "Public domain",
+    "svgPath": "svg/R4-2.svg"
+  },
+  {
+    "code": "R4-3",
+    "name": "Slower Traffic Keep Right",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "If you are driving slower than the traffic around you, use the right lane and leave the left lane(s) for passing.",
+    "license": "Public domain",
+    "svgPath": "svg/R4-3.svg"
+  },
+  {
+    "code": "R4-5",
+    "name": "Trucks Use Right Lane",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Trucks must travel in the right lane on this multilane roadway.",
+    "license": "Public domain",
+    "svgPath": "svg/R4-5.svg"
+  },
+  {
+    "code": "R4-7",
+    "name": "Keep Right",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Keep to the right of the traffic island, median or obstruction ahead.",
+    "license": "Public domain",
+    "svgPath": "svg/R4-7.svg"
+  },
+  {
+    "code": "R4-8",
+    "name": "Keep Left",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Keep to the left of the traffic island or obstruction ahead.",
+    "license": "Public domain",
+    "svgPath": "svg/R4-8.svg"
+  },
+  {
+    "code": "R4-16",
+    "name": "Keep Right Except to Pass",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Drive in the right lane and use the left lane only to pass other vehicles.",
+    "license": "Public domain",
+    "svgPath": "svg/R4-16.svg"
+  },
+  {
+    "code": "R5-1",
+    "name": "Do Not Enter",
+    "category": "regulatory",
+    "shape": "square",
+    "colors": [
+      "red",
+      "white"
+    ],
+    "meaning": "You may not enter this road or ramp from this direction because traffic on it comes toward you, as at the wrong end of a one-way street or a freeway exit ramp.",
+    "license": "Public domain",
+    "svgPath": "svg/R5-1.svg"
+  },
+  {
+    "code": "R5-1a",
+    "name": "Wrong Way",
+    "category": "regulatory",
+    "shape": "horizontal rectangle",
+    "colors": [
+      "red",
+      "white"
+    ],
+    "meaning": "You are traveling against the flow of traffic on a one-way road or ramp; get out of the path of oncoming traffic and turn around as soon as it is safe.",
+    "license": "Public domain",
+    "svgPath": "svg/R5-1a.svg"
+  },
+  {
+    "code": "R5-2",
+    "name": "No Trucks",
+    "category": "regulatory",
+    "shape": "square",
+    "colors": [
+      "white",
+      "black",
+      "red"
+    ],
+    "meaning": "Trucks are not allowed on this road.",
+    "license": "Public domain",
+    "svgPath": "svg/R5-2.svg"
+  },
+  {
+    "code": "R5-3",
+    "name": "No Motor Vehicles",
+    "category": "regulatory",
+    "shape": "horizontal rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Motor vehicles are not allowed on this road or path.",
+    "license": "Public domain",
+    "svgPath": "svg/R5-3.svg"
+  },
+  {
+    "code": "R5-6",
+    "name": "No Bicycles",
+    "category": "regulatory",
+    "shape": "square",
+    "colors": [
+      "white",
+      "black",
+      "red"
+    ],
+    "meaning": "Bicycles are not allowed on this road or facility.",
+    "license": "Public domain",
+    "svgPath": "svg/R5-6.svg"
+  },
+  {
+    "code": "R5-10",
+    "name": "No Pedestrians, Bicycles or Motor-Driven Cycles",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black",
+      "red"
+    ],
+    "meaning": "Pedestrians, bicycles and motor-driven cycles are prohibited beyond this point, typically at a freeway entrance.",
+    "license": "Public domain",
+    "svgPath": "svg/R5-10.svg"
+  },
+  {
+    "code": "R6-1R",
+    "name": "One Way",
+    "category": "regulatory",
+    "shape": "horizontal rectangle",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "meaning": "Traffic on this street moves only in the direction of the arrow; do not drive the opposite way.",
+    "license": "Public domain",
+    "svgPath": "svg/R6-1R.svg"
+  },
+  {
+    "code": "R6-3",
+    "name": "Divided Highway Crossing",
+    "category": "regulatory",
+    "shape": "horizontal rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Posted on a side road where it meets a divided highway: you will cross two separate one-way roadways, so expect traffic from the left on the near roadway and from the right on the far roadway.",
+    "license": "Public domain",
+    "svgPath": "svg/R6-3.svg"
+  },
+  {
+    "code": "R6-4",
+    "name": "Roundabout Directional Arrow",
+    "category": "regulatory",
+    "shape": "horizontal rectangle",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "meaning": "Placed in a roundabout's central island facing entering traffic: travel to the right (counterclockwise) around the island in the direction of the arrows.",
+    "license": "Public domain",
+    "svgPath": "svg/R6-4.svg"
+  },
+  {
+    "code": "R7-1",
+    "name": "No Parking Any Time",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "red"
+    ],
+    "meaning": "Parking is prohibited at this location at all times.",
+    "license": "Public domain",
+    "svgPath": "svg/R7-1.svg"
+  },
+  {
+    "code": "R7-8",
+    "name": "Reserved Parking for Persons with Disabilities",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "green",
+      "blue"
+    ],
+    "meaning": "This parking space is reserved for vehicles displaying a valid disability parking placard or license plate; other vehicles may not park there.",
+    "license": "Public domain",
+    "svgPath": "svg/R7-8.svg"
+  },
+  {
+    "code": "R8-3",
+    "name": "No Parking (symbol)",
+    "category": "regulatory",
+    "shape": "square",
+    "colors": [
+      "white",
+      "black",
+      "red"
+    ],
+    "meaning": "Parking is not allowed here.",
+    "license": "Public domain",
+    "svgPath": "svg/R8-3.svg"
+  },
+  {
+    "code": "R9-1",
+    "name": "Walk on Left Facing Traffic",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Pedestrians walking along this road without a sidewalk must walk on the left side, facing oncoming traffic.",
+    "license": "Public domain",
+    "svgPath": "svg/R9-1.svg"
+  },
+  {
+    "code": "R9-2",
+    "name": "Cross Only at Crosswalks",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Pedestrians may cross the street only within marked crosswalks.",
+    "license": "Public domain",
+    "svgPath": "svg/R9-2.svg"
+  },
+  {
+    "code": "R9-3",
+    "name": "No Pedestrian Crossing",
+    "category": "regulatory",
+    "shape": "square",
+    "colors": [
+      "white",
+      "black",
+      "red"
+    ],
+    "meaning": "Pedestrians may not cross the street at this location.",
+    "license": "Public domain",
+    "svgPath": "svg/R9-3.svg"
+  },
+  {
+    "code": "R9-4",
+    "name": "No Hitchhiking",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black",
+      "red"
+    ],
+    "meaning": "Hitchhiking (standing in or beside the road to ask for a ride) is prohibited here.",
+    "license": "Public domain",
+    "svgPath": "svg/R9-4.svg"
+  },
+  {
+    "code": "R9-20",
+    "name": "Bicycles Allowed Use of Full Lane",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Bicyclists may ride in the middle of the travel lane, so expect bicycles there and change lanes to pass them.",
+    "license": "Public domain",
+    "svgPath": "svg/R9-20.svg"
+  },
+  {
+    "code": "R10-5",
+    "name": "Left on Green Arrow Only",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black",
+      "green"
+    ],
+    "meaning": "You may turn left only while the green arrow is shown, not on a circular green light.",
+    "license": "Public domain",
+    "svgPath": "svg/R10-5.svg"
+  },
+  {
+    "code": "R10-6",
+    "name": "Stop Here on Red",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black",
+      "red"
+    ],
+    "meaning": "When the traffic signal is red, stop at the point shown by the arrow (the stop line), not beyond it.",
+    "license": "Public domain",
+    "svgPath": "svg/R10-6.svg"
+  },
+  {
+    "code": "R10-7",
+    "name": "Do Not Block Intersection",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Do not enter the intersection unless there is room for your vehicle on the far side; never stop inside the intersection, even on a green light.",
+    "license": "Public domain",
+    "svgPath": "svg/R10-7.svg"
+  },
+  {
+    "code": "R10-11",
+    "name": "No Turn on Red (symbol)",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black",
+      "red"
+    ],
+    "meaning": "You may not turn while the signal is red; wait for a green light or green arrow.",
+    "license": "Public domain",
+    "svgPath": "svg/R10-11.svg"
+  },
+  {
+    "code": "R10-11a",
+    "name": "No Turn on Red",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "You may not turn while the signal is red; wait for a green light or green arrow.",
+    "license": "Public domain",
+    "svgPath": "svg/R10-11a.svg"
+  },
+  {
+    "code": "R10-12",
+    "name": "Left Turn Yield on Green",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black",
+      "green"
+    ],
+    "meaning": "When the signal shows a circular green light (not a green arrow), you may turn left but must first yield to oncoming traffic and pedestrians.",
+    "license": "Public domain",
+    "svgPath": "svg/R10-12.svg"
+  },
+  {
+    "code": "R10-15R",
+    "name": "Turning Vehicles Yield to Pedestrians",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Drivers turning at this intersection must yield to pedestrians crossing the street they are turning onto.",
+    "license": "Public domain",
+    "svgPath": "svg/R10-15R.svg"
+  },
+  {
+    "code": "R10-17a",
+    "name": "Right on Red Arrow After Stop",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black",
+      "red"
+    ],
+    "meaning": "You may turn right on a red arrow only after coming to a complete stop and yielding to pedestrians and other traffic.",
+    "license": "Public domain",
+    "svgPath": "svg/R10-17a.svg"
+  },
+  {
+    "code": "R10-30",
+    "name": "Right Turn on Red Must Yield to U-Turn",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Drivers turning right on red must yield to opposing vehicles that are making U-turns.",
+    "license": "Public domain",
+    "svgPath": "svg/R10-30.svg"
+  },
+  {
+    "code": "R11-2",
+    "name": "Road Closed",
+    "category": "regulatory",
+    "shape": "horizontal rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "The road is closed to all traffic; do not drive past this sign, and follow the posted detour.",
+    "license": "Public domain",
+    "svgPath": "svg/R11-2.svg"
+  },
+  {
+    "code": "R11-3a",
+    "name": "Road Closed Ahead, Local Traffic Only",
+    "category": "regulatory",
+    "shape": "horizontal rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "The road is closed some distance ahead; only local traffic going to destinations before the closure may continue past this sign.",
+    "license": "Public domain",
+    "svgPath": "svg/R11-3a.svg"
+  },
+  {
+    "code": "R11-4",
+    "name": "Road Closed to Thru Traffic",
+    "category": "regulatory",
+    "shape": "horizontal rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "The road is closed to through traffic; only local traffic going to homes or businesses before the closure may use it.",
+    "license": "Public domain",
+    "svgPath": "svg/R11-4.svg"
+  },
+  {
+    "code": "R12-1",
+    "name": "Weight Limit",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Vehicles weighing more than the posted number of tons are not allowed on this road or bridge.",
+    "license": "Public domain",
+    "svgPath": "svg/R12-1.svg"
+  },
+  {
+    "code": "R16-1",
+    "name": "Seat Belt (Buckle Up)",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Reminds drivers and passengers that seat belts must be worn.",
+    "license": "Public domain",
+    "svgPath": "svg/R16-1.svg"
+  },
+  {
+    "code": "R16-3",
+    "name": "Move Over or Reduce Speed",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "When approaching stopped emergency or service vehicles with flashing lights, move over a lane if you safely can, or otherwise slow down.",
+    "license": "Public domain",
+    "svgPath": "svg/R16-3.svg"
+  },
+  {
+    "code": "R16-15",
+    "name": "No Hand-Held Phone Use by Driver",
+    "category": "regulatory",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Drivers may not use a hand-held phone while driving here.",
+    "license": "Public domain",
+    "svgPath": "svg/R16-15.svg"
+  },
+  {
+    "code": "S1-1",
+    "name": "School (school zone advance warning)",
+    "category": "school",
+    "shape": "pentagon",
+    "colors": [
+      "fluorescent yellow-green",
+      "black"
+    ],
+    "meaning": "Warns that you are approaching a school or school grounds where children may be present; slow down and watch for children.",
+    "license": "Public domain",
+    "svgPath": "svg/S1-1.svg"
+  },
+  {
+    "code": "S1-1_W16-7PL",
+    "name": "School Crosswalk (S1-1 with diagonal arrow plaque W16-7P)",
+    "category": "school",
+    "shape": "pentagon over horizontal rectangle",
+    "colors": [
+      "fluorescent yellow-green",
+      "black"
+    ],
+    "meaning": "Marks the location of a school crosswalk (the arrow points to it); slow down, watch for children and yield to pedestrians in the crosswalk.",
+    "license": "Public domain",
+    "svgPath": "svg/S1-1_W16-7PL.svg"
+  },
+  {
+    "code": "S3-1",
+    "name": "School Bus Stop Ahead",
+    "category": "school",
+    "shape": "diamond",
+    "colors": [
+      "fluorescent yellow-green",
+      "black"
+    ],
+    "meaning": "Warns of a school bus stop ahead where a bus may be stopped to load or unload children; slow down, watch for children and be ready to stop.",
+    "license": "Public domain",
+    "svgPath": "svg/S3-1.svg"
+  },
+  {
+    "code": "S4-2P",
+    "name": "When Children Are Present (plaque)",
+    "category": "school",
+    "shape": "horizontal rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Plaque showing that the school speed limit applies whenever children are present.",
+    "license": "Public domain",
+    "svgPath": "svg/S4-2P.svg"
+  },
+  {
+    "code": "S4-3P",
+    "name": "School (plaque)",
+    "category": "school",
+    "shape": "horizontal rectangle",
+    "colors": [
+      "fluorescent yellow-green",
+      "black"
+    ],
+    "meaning": "Plaque that identifies the sign it is mounted with, usually a speed limit sign, as applying to a school zone.",
+    "license": "Public domain",
+    "svgPath": "svg/S4-3P.svg"
+  },
+  {
+    "code": "S4-5",
+    "name": "School Speed Limit Ahead",
+    "category": "school",
+    "shape": "diamond",
+    "colors": [
+      "fluorescent yellow-green",
+      "black"
+    ],
+    "meaning": "Warns that a reduced school speed limit zone begins ahead; be prepared to slow down to the school speed limit.",
+    "license": "Public domain",
+    "svgPath": "svg/S4-5.svg"
+  },
+  {
+    "code": "S5-1",
+    "name": "School Speed Limit (When Flashing)",
+    "category": "school",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black",
+      "fluorescent yellow-green"
+    ],
+    "meaning": "Within the school zone you must not exceed the posted school speed limit while the condition shown applies (for example, when the beacons are flashing).",
+    "license": "Public domain",
+    "svgPath": "svg/S5-1.svg"
+  },
+  {
+    "code": "S5-2",
+    "name": "End School Zone",
+    "category": "school",
+    "shape": "vertical rectangle",
+    "colors": [
+      "fluorescent yellow-green",
+      "black"
+    ],
+    "meaning": "Marks the end of the school zone.",
+    "license": "Public domain",
+    "svgPath": "svg/S5-2.svg"
+  },
+  {
+    "code": "S5-3",
+    "name": "End School Speed Limit",
+    "category": "school",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Marks the end of the reduced school speed limit; the regular posted speed limit applies again.",
+    "license": "Public domain",
+    "svgPath": "svg/S5-3.svg"
+  },
+  {
+    "code": "R15-1",
+    "name": "Railroad Crossing (Crossbuck)",
+    "category": "railroad",
+    "shape": "crossbuck",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Marks a highway-rail grade crossing and means yield to trains: slow down, look and listen both ways, and stop if a train is approaching.",
+    "license": "Public domain",
+    "svgPath": "svg/R15-1.svg"
+  },
+  {
+    "code": "R15-2P",
+    "name": "Number of Tracks (plaque)",
+    "category": "railroad",
+    "shape": "horizontal rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Plaque below the crossbuck showing how many tracks the crossing has; after one train passes, watch for another train on a different track.",
+    "license": "Public domain",
+    "svgPath": "svg/R15-2P.svg"
+  },
+  {
+    "code": "R15-3P",
+    "name": "Exempt (railroad crossing plaque)",
+    "category": "railroad",
+    "shape": "horizontal rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Tells drivers of buses, school buses and hazardous-materials vehicles that they are not required to stop at this crossing unless a train is approaching or occupying it or their view is blocked.",
+    "license": "Public domain",
+    "svgPath": "svg/R15-3P.svg"
+  },
+  {
+    "code": "R15-8",
+    "name": "Look (railroad crossing)",
+    "category": "railroad",
+    "shape": "horizontal rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Reminds drivers and pedestrians at a railroad crossing to look both ways for trains before crossing.",
+    "license": "Public domain",
+    "svgPath": "svg/R15-8.svg"
+  },
+  {
+    "code": "R8-8",
+    "name": "Do Not Stop on Tracks",
+    "category": "railroad",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black",
+      "red"
+    ],
+    "meaning": "Never stop on the railroad tracks; do not start across until there is room for your whole vehicle on the other side.",
+    "license": null,
+    "svgPath": null
+  },
+  {
+    "code": "R8-9",
+    "name": "Tracks Out of Service",
+    "category": "railroad",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Used in place of the crossbuck where the railroad tracks have been temporarily or permanently taken out of service, meaning trains no longer use this crossing.",
+    "license": null,
+    "svgPath": null
+  },
+  {
+    "code": "R8-10",
+    "name": "Stop Here When Flashing",
+    "category": "railroad",
+    "shape": "vertical rectangle",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "meaning": "Shows where you must stop when the railroad crossing's red warning lights are flashing.",
+    "license": null,
+    "svgPath": null
+  },
+  {
+    "code": "W10-1",
+    "name": "Highway-Rail Grade Crossing Advance Warning",
+    "category": "railroad",
+    "shape": "circle",
+    "colors": [
+      "yellow",
+      "black"
+    ],
+    "meaning": "Warns that a railroad crossing is ahead; slow down, look and listen for trains, and be prepared to stop.",
+    "license": null,
+    "svgPath": null
+  },
+  {
+    "code": "W10-5",
+    "name": "Low Ground Clearance Railroad Crossing",
+    "category": "railroad",
+    "shape": "diamond",
+    "colors": [
+      "yellow",
+      "black"
+    ],
+    "meaning": "Warns that the railroad crossing ahead is raised (humped) enough that vehicles with low ground clearance, such as long trailers, could get stuck on the tracks.",
+    "license": null,
+    "svgPath": null
+  },
+  {
+    "code": "W10-9P",
+    "name": "No Train Horn (plaque)",
+    "category": "railroad",
+    "shape": "horizontal rectangle",
+    "colors": [
+      "yellow",
+      "black"
+    ],
+    "meaning": "Plaque warning that trains do not routinely sound their horns at the crossing ahead, so you must look carefully for trains yourself.",
+    "license": null,
+    "svgPath": null
+  },
+  {
+    "code": "W10-13P",
+    "name": "No Gates or Lights (plaque)",
+    "category": "railroad",
+    "shape": "horizontal rectangle",
+    "colors": [
+      "yellow",
+      "black"
+    ],
+    "meaning": "Plaque warning that the railroad crossing ahead has no automatic gates or flashing lights, so you must look and listen for trains and stop if one is coming.",
+    "license": null,
+    "svgPath": null
+  },
+  {
+    "code": "SMV",
+    "name": "Slow-Moving Vehicle Emblem",
+    "category": "other",
+    "shape": "triangle",
+    "colors": [
+      "fluorescent orange",
+      "red"
+    ],
+    "meaning": "Displayed on the rear of farm equipment, horse-drawn vehicles and other vehicles that travel 25 mph or less; slow down early and pass only when it is safe.",
+    "license": null,
+    "svgPath": null
+  }
+]
