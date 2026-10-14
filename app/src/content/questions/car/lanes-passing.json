@@ -69,8 +69,8 @@
     "topic": "lanes-passing",
     "prompt": "What is a blind spot?",
     "choices": [
-      "The area your headlights do not light up at night",
-      "An area around your vehicle that you cannot see in your mirrors",
+      "The area in front of your car that your headlights do not light up",
+      "An area near your car that your mirrors do not show",
       "A place where sun glare blinds you",
       "The space between your car and the car ahead"
     ],
@@ -86,9 +86,9 @@
     "prompt": "Where are the blind spots on a typical car?",
     "choices": [
       "Only directly in front of the hood",
-      "Only on the passenger side",
+      "Only on the passenger side, since the driver can see the left",
       "Only directly behind the rear bumper",
-      "Beside and slightly behind the car, on both the left and right sides"
+      "Beside and just behind the car, on both sides"
     ],
     "answer": 3,
     "explanation": "Even well-adjusted mirrors leave blind spots behind both sides of the car. A vehicle there may not show up in any mirror.",
@@ -117,10 +117,10 @@
     "topic": "lanes-passing",
     "prompt": "Why is it dangerous to start passing as you approach the top of a hill?",
     "choices": [
-      "Your car loses too much power going uphill",
-      "The driver ahead is required to speed up",
+      "Your car loses too much power going uphill to finish a pass",
+      "The driver ahead usually speeds up on a hill",
       "You cannot see oncoming traffic on the other side",
-      "Your mirrors don't work on a slope"
+      "Hills always have lower speed limits"
     ],
     "answer": 2,
     "explanation": "A hill crest blocks your view of oncoming vehicles. Never pass when you cannot see far enough ahead to be sure it is safe.",
@@ -152,7 +152,7 @@
       "Yes, always signal before changing lanes",
       "No, only when cars are close behind you",
       "Only on highways",
-      "Only at night"
+      "No, signaling is only needed for turns at intersections"
     ],
     "answer": 0,
     "explanation": "Signal every lane change. The vehicle you don't see, such as one in your blind spot, is the most dangerous one.",
@@ -168,7 +168,7 @@
       "A two-way left-turn lane",
       "A bicycle lane",
       "A lane for emergency vehicles only",
-      "A reversible lane whose direction changes at certain times"
+      "A reversible lane"
     ],
     "answer": 3,
     "explanation": "Reversible lanes are usually marked with double dashed yellow lines. Check signs or overhead signals to see which way the lane is open.",
@@ -216,7 +216,7 @@
       "Large trucks and buses only",
       "Drivers who want to go faster than the speed limit",
       "Stopping in an emergency",
-      "Vehicles carrying at least the minimum number of people shown on the signs"
+      "Vehicles carrying at least the posted number of people"
     ],
     "answer": 3,
     "explanation": "HOV lanes are reserved for vehicles with a posted minimum number of occupants (and others the signs allow) during posted times.",
@@ -231,8 +231,8 @@
     "choices": [
       "No, it is reserved for turning, not passing",
       "Yes, if you signal first",
-      "Yes, if no one is turning",
-      "Yes, but only at night"
+      "Yes, but only to pass slow-moving farm vehicles",
+      "Yes, if the vehicle ahead is going under the speed limit"
     ],
     "answer": 0,
     "explanation": "A two-way center left-turn lane is used to prepare for and make left turns (and U-turns where allowed). It is not a travel lane or a passing lane.",
@@ -245,7 +245,7 @@
     "topic": "lanes-passing",
     "prompt": "Your lane is ending ahead. What should you do?",
     "choices": [
-      "Stop at the end of your lane and wait",
+      "Stop at the end of your lane and wait for a driver to let you in",
       "Speed up and force your way in",
       "Signal, adjust your speed, and merge into a safe gap",
       "Drive on the shoulder until a gap opens"
@@ -256,22 +256,6 @@
     "ref": "State driver handbooks (e.g., CO p. 22, CA p. 20, PA p. 50)"
   },
   {
-    "id": "car.lp.017",
-    "track": "car",
-    "topic": "lanes-passing",
-    "prompt": "Why should you avoid weaving in and out of lanes?",
-    "choices": [
-      "It wears out your turn signals",
-      "It is only a problem on freeways",
-      "Frequent lane changes greatly increase the chance of a crash",
-      "It slows you down too much"
-    ],
-    "answer": 2,
-    "explanation": "Stay in one lane as much as possible. Each lane change is a chance for a conflict with another vehicle.",
-    "difficulty": 1,
-    "ref": "State driver handbooks (e.g., CA p. 21, NE p. 63, NJ p. 98)"
-  },
-  {
     "id": "car.lp.018",
     "track": "car",
     "topic": "lanes-passing",
@@ -280,7 +264,7 @@
       "On the right side of the road",
       "Straddling the center line",
       "In the middle of the road",
-      "On the left side if it is smoother"
+      "Wherever it is smoother"
     ],
     "answer": 0,
     "explanation": "Drivers must keep to the right half of the road except when passing or when the right side is blocked.",
@@ -295,27 +279,11 @@
     "choices": [
       "Move over, then signal, then check your mirrors",
       "Check mirrors, change lanes, then signal",
-      "Signal and move over at the same moment",
-      "Signal, check mirrors, look over your shoulder, then move over gradually"
+      "Signal and move over at the same moment, then check mirrors",
+      "Signal, check mirrors and blind spot, then move"
     ],
     "answer": 3,
     "explanation": "Signal first so others know your plan, check mirrors and your blind spot, make sure there is room, then move smoothly into the lane.",
-    "difficulty": 2,
-    "ref": "State driver handbooks (e.g., CA p. 21, NE p. 63, NJ p. 98)"
-  },
-  {
-    "id": "car.lp.020",
-    "track": "car",
-    "topic": "lanes-passing",
-    "prompt": "You are on a multilane street and need to get from the right lane to the far-left lane for a turn ahead. How should you do it?",
-    "choices": [
-      "Cross all the lanes in one smooth move",
-      "Change one lane at a time, signaling and checking each time",
-      "Wait until the intersection and cut over",
-      "Straddle the lane lines until traffic clears"
-    ],
-    "answer": 1,
-    "explanation": "Move one lane at a time, signaling and checking mirrors and blind spots before each move. Plan ahead so you are not rushed.",
     "difficulty": 2,
     "ref": "State driver handbooks (e.g., CA p. 21, NE p. 63, NJ p. 98)"
   },
@@ -326,7 +294,7 @@
     "prompt": "On a two-lane road, the center line is solid on the far side and broken on your side. A slow car is ahead and the road is clear. What may you do?",
     "choices": [
       "You may not pass at all",
-      "Pass when it is safe, because the broken line is on your side",
+      "You may pass when it is safe",
       "Pass only if the oncoming lane has a broken line",
       "Pass only if the slow driver waves you on"
     ],
@@ -357,8 +325,8 @@
     "topic": "lanes-passing",
     "prompt": "You are passing on a two-lane road and see that a no-passing zone begins just ahead. What must you do?",
     "choices": [
-      "Finish the pass and be back in your lane before the no-passing zone begins",
-      "Keep passing, since you started in a legal zone",
+      "Be back in your lane before the zone begins",
+      "Keep passing; you started legally",
       "Turn on your hazard lights and continue",
       "Slow down and stay beside the other car"
     ],
@@ -375,11 +343,11 @@
     "choices": [
       "Pass on the left quickly before it turns",
       "Pass on the left if no oncoming cars are coming",
-      "Do not pass on the left; slow down and wait, or pass on the right only if there is room and it is safe",
-      "Sound your horn so the driver hurries"
+      "Do not pass it on the left",
+      "Sound your horn so the driver turns faster"
     ],
     "answer": 2,
-    "explanation": "Never pass on the left of a driver who is signaling a left turn. Passing on the right is allowed only when there is enough room and it is safe.",
+    "explanation": "Never pass on the left of a driver who is signaling a left turn. Slow down and wait, or pass on the right only when there is enough room on the road and it is safe.",
     "difficulty": 2,
     "ref": "State driver handbooks (e.g., CA p. 31, NY p. 39-40, NJ p. 67, AZ p. 27)"
   },
@@ -389,9 +357,9 @@
     "topic": "lanes-passing",
     "prompt": "When is passing on the right generally allowed?",
     "choices": [
-      "Whenever the left lane is busy",
+      "Whenever the left lane is busy with slower traffic",
       "Whenever the driver ahead is below the speed limit",
-      "When there are two or more lanes going your direction and it can be done safely",
+      "On a road with two or more lanes going your way, when safe",
       "Never, under any circumstances"
     ],
     "answer": 2,
@@ -422,7 +390,7 @@
     "prompt": "Your car has a blind-spot monitor and its warning light is off. You want to change lanes. What should you still do?",
     "choices": [
       "Nothing; the monitor has already checked",
-      "Rely on your mirrors only",
+      "Check your mirrors only, since the monitor covers the blind spot",
       "Just signal and move over",
       "Look over your shoulder to check the blind spot"
     ],
@@ -437,9 +405,9 @@
     "topic": "lanes-passing",
     "prompt": "On a multilane highway, you have been driving right next to another car's rear corner for a while. What should you do?",
     "choices": [
-      "Stay there and match the car's speed",
+      "Stay there and match its speed so you do not surprise the driver",
       "Speed up or drop back so the other driver can see you",
-      "Tap your horn every few seconds",
+      "Tap your horn so the driver knows you are there",
       "Move closer to the lane line so you are noticed"
     ],
     "answer": 1,
@@ -453,7 +421,7 @@
     "topic": "lanes-passing",
     "prompt": "You are in the left lane of a multilane highway and a faster driver comes up behind you. What should you do?",
     "choices": [
-      "Stay in the left lane to keep the driver at the speed limit",
+      "Stay in the left lane to slow the driver down",
       "Move to the right when it is safe and let the driver pass",
       "Tap your brakes to warn the driver",
       "Speed up to match the driver"
@@ -485,8 +453,8 @@
     "topic": "lanes-passing",
     "prompt": "You are in the left lane of a multilane road and many vehicles keep passing you on the right. What should you do?",
     "choices": [
-      "Move into the right lane and let them pass on the left",
-      "Stay in the left lane, since you are under the limit",
+      "Move to the right lane",
+      "Stay in the left lane, since you are at the speed limit",
       "Speed up to match the fastest car",
       "Turn on your hazard lights"
     ],
@@ -496,30 +464,14 @@
     "ref": "State driver handbooks (e.g., TX p. 45, AZ p. 27, NH p. 23)"
   },
   {
-    "id": "car.lp.032",
-    "track": "car",
-    "topic": "lanes-passing",
-    "prompt": "The car in the lane next to you has stopped at a crosswalk. Your lane is clear. What should you do?",
-    "choices": [
-      "Pass it carefully, since your lane is clear",
-      "Sound your horn and pass",
-      "Slow down and do not pass it; a pedestrian may be crossing",
-      "Change into its lane behind it and wait"
-    ],
-    "answer": 2,
-    "explanation": "Never pass a vehicle stopped at a crosswalk. It may be stopped for a pedestrian you cannot see.",
-    "difficulty": 3,
-    "ref": "State driver handbooks (e.g., CA p. 47, NY p. 39, AK p. 48, NE p. 77)"
-  },
-  {
     "id": "car.lp.033",
     "track": "car",
     "topic": "lanes-passing",
     "prompt": "Why should you watch for driveways and side roads before you pass?",
     "choices": [
-      "Passing is only allowed next to driveways",
-      "Driveways mean the speed limit goes up",
-      "A vehicle could pull out into the lane you are using to pass",
+      "Driveways and side roads mean the speed limit is about to rise",
+      "Driveways mark the end of the no-passing zone",
+      "A vehicle could pull out into your path",
       "Side roads always have no-passing signs"
     ],
     "answer": 2,
@@ -533,10 +485,10 @@
     "topic": "lanes-passing",
     "prompt": "Why is passing on a two-lane road at night especially risky?",
     "choices": [
-      "It is harder to judge how far away and how fast oncoming headlights are",
-      "Other drivers must use high beams at night",
+      "It is harder to judge oncoming cars' speed and distance",
+      "You must turn on your high beams to pass, which blinds the driver ahead",
       "Passing at night is illegal everywhere",
-      "Your mirrors are less accurate at night"
+      "Your mirrors do not work as well in the dark"
     ],
     "answer": 0,
     "explanation": "At night you can't see as far ahead, and an oncoming car may be closer than its headlights make it seem.",
@@ -550,7 +502,7 @@
     "prompt": "You are behind a slow truck on a two-lane road and a railroad crossing is just ahead. What should you do?",
     "choices": [
       "Pass quickly before the crossing",
-      "Pass only if the crossing gates are up",
+      "Pass only if the crossing gates are up and no lights are flashing",
       "Pass on the right shoulder",
       "Stay behind the truck until well past the crossing"
     ],
@@ -565,9 +517,9 @@
     "topic": "lanes-passing",
     "prompt": "Why should you avoid passing on or near a narrow bridge, tunnel, or underpass?",
     "choices": [
-      "Bridges are always one-way",
-      "There is little room and your view of oncoming traffic may be blocked",
-      "Tunnels have lower speed limits",
+      "Bridge decks are always too slippery to pass on",
+      "There is little room and your view may be blocked",
+      "Tunnels have lower speed limits, so passing there is speeding",
       "Your tires may lose grip on the bridge joints"
     ],
     "answer": 1,
@@ -581,8 +533,8 @@
     "topic": "lanes-passing",
     "prompt": "After passing a car, how do you know you are far enough ahead to return to your lane?",
     "choices": [
-      "As soon as your front bumper is past its front bumper",
-      "You can see both of its headlights in your inside rearview mirror",
+      "When your front bumper passes its front bumper",
+      "You see both its headlights in your rearview mirror",
       "When the other driver flashes the headlights",
       "When you have passed its back bumper"
     ],
@@ -598,9 +550,9 @@
     "prompt": "Why shouldn't you cut back into your lane too soon after passing?",
     "choices": [
       "You will lose your place in traffic",
-      "Your turn signal will not cancel",
+      "Your car may skid when you change lanes at highway speed",
       "It wastes fuel",
-      "The driver you passed may have to brake suddenly or could hit you"
+      "The driver you passed may have to brake hard"
     ],
     "answer": 3,
     "explanation": "Returning too soon cuts off the other driver. Leave enough room and signal before moving back.",
@@ -608,31 +560,15 @@
     "ref": "State driver handbooks (e.g., PA p. 51, MT p. 77, TX p. 45, AZ p. 27)"
   },
   {
-    "id": "car.lp.039",
-    "track": "car",
-    "topic": "lanes-passing",
-    "prompt": "You just finished changing lanes. What should you check?",
-    "choices": [
-      "That your turn signal has turned off",
-      "That your hazard lights are on",
-      "That your high beams are on",
-      "That your parking brake is released"
-    ],
-    "answer": 0,
-    "explanation": "A signal left on after a lane change tells other drivers you are about to turn or move again. Cancel it once you are done.",
-    "difficulty": 2,
-    "ref": "State driver handbooks (e.g., CA p. 21, NE p. 63, NJ p. 98)"
-  },
-  {
     "id": "car.lp.040",
     "track": "car",
     "topic": "lanes-passing",
     "prompt": "You are about to enter a lane marked with double dashed yellow lines. What should you check first?",
     "choices": [
-      "Nothing; these lanes always carry traffic going your way",
+      "Nothing; these lanes always go your way",
       "Whether any trucks are using it",
-      "The signs or overhead signals showing which direction the lane is open to at that time",
-      "Whether your headlights are on high beam"
+      "The signs or signals showing which way it is open",
+      "Whether the lane has a higher speed limit"
     ],
     "answer": 2,
     "explanation": "The direction of a reversible lane changes by time of day. Read the posted signs or lane signals before you drive in it.",
@@ -647,7 +583,7 @@
     "choices": [
       "At least two passengers plus the driver are required",
       "Only two-axle vehicles may use the lane",
-      "At least two people, counting the driver, must be in the vehicle",
+      "At least two people, including the driver",
       "The lane is HOV-only for two hours"
     ],
     "answer": 2,
@@ -661,9 +597,9 @@
     "topic": "lanes-passing",
     "prompt": "Where can you find out how many people are required and what hours an HOV lane's rules apply?",
     "choices": [
-      "On the signs posted along the road and at the lane entrances",
+      "On the signs posted along the road",
       "The rules are the same on every highway in the country",
-      "Only on your vehicle registration",
+      "In your vehicle owner's manual",
       "There are no set rules; any car may use it"
     ],
     "answer": 0,
@@ -680,10 +616,10 @@
       "All drivers move into the open lane as soon as they see the first sign",
       "Drivers in the ending lane must stop and wait for a gap",
       "Drivers swap lanes back and forth to keep speed up",
-      "Drivers in two lanes take turns moving into the remaining lane where the lanes come together"
+      "Drivers take turns from each lane at the merge point"
     ],
     "answer": 3,
-    "explanation": "In a zipper merge, both lanes are used up to the merge point, and then vehicles alternate into the open lane, one from each side.",
+    "explanation": "In a zipper merge, both lanes are used up to the merge point, and then vehicles alternate into the open lane, one from each side. Some states encourage it in heavy, slow traffic.",
     "difficulty": 2,
     "ref": "State driver handbooks (e.g., CO p. 22, CA p. 20, PA p. 50)"
   },
@@ -694,7 +630,7 @@
     "prompt": "You are in a through lane, and a driver in the lane next to you is trying to merge because their lane ends. What should you do?",
     "choices": [
       "Speed up so the driver can't get in front of you",
-      "Adjust your speed to help leave a gap for the driver to merge",
+      "Adjust your speed to leave a gap",
       "Close the gap to the car ahead",
       "Stop in your lane until the driver merges"
     ],
@@ -720,29 +656,13 @@
     "ref": "State driver handbooks (e.g., CA p. 21, NE p. 63, NJ p. 98)"
   },
   {
-    "id": "car.lp.046",
-    "track": "car",
-    "topic": "lanes-passing",
-    "prompt": "You realize at the last second that you are in the wrong lane for your turn. What should you do?",
-    "choices": [
-      "Cut across the other lanes to make the turn",
-      "Stop in your lane until you can merge over",
-      "Back up to the correct lane",
-      "Continue in your lane and find a safe place to turn around later"
-    ],
-    "answer": 3,
-    "explanation": "Last-minute lane changes cause crashes. If you miss a turn, keep going and safely and legally turn around.",
-    "difficulty": 2,
-    "ref": "State driver handbooks (e.g., CA p. 21, NE p. 63, NJ p. 98)"
-  },
-  {
     "id": "car.lp.047",
     "track": "car",
     "topic": "lanes-passing",
     "prompt": "On an undivided road with two lanes in each direction, how should you pass a slow vehicle in the right lane?",
     "choices": [
       "Use the left lane on your side of the center line",
-      "Cross the center line into the oncoming lanes",
+      "Cross the center line into the oncoming lanes if they are clear",
       "Use the right shoulder",
       "Use the center left-turn lane"
     ],
@@ -759,7 +679,7 @@
     "choices": [
       "Over the left lane line so faster cars see you",
       "Over the right edge line for extra space",
-      "Centered in the lane, without straddling the lane lines",
+      "Centered in your lane",
       "Half in each lane to keep options open"
     ],
     "answer": 2,
@@ -773,13 +693,13 @@
     "topic": "lanes-passing",
     "prompt": "On a two-lane road you are driving well below the speed of traffic and a line of vehicles has built up behind you. What should you do?",
     "choices": [
-      "Keep going at your speed; it's their job to pass",
+      "Keep going at your speed; it's their job to pass you",
       "Speed up well past the speed limit",
-      "Pull over where it is safe, such as a turnout, and let them pass",
+      "Pull over in a safe spot and let them pass",
       "Drive partly on the shoulder without stopping"
     ],
     "answer": 2,
-    "explanation": "A slow driver holding up traffic should use a turnout or another safe spot to let vehicles by. This reduces risky passing.",
+    "explanation": "A slow driver holding up a line of traffic should use a turnout or another safe spot to let vehicles by. This reduces risky passing.",
     "difficulty": 2,
     "ref": "State driver handbooks (e.g., TX p. 37, NJ p. 67, AZ p. 32-33)"
   },
@@ -790,7 +710,7 @@
     "prompt": "On a two-lane road the center line is broken on your side, but a curve ahead blocks your view. A slow car is in front of you. What should you do?",
     "choices": [
       "Wait to pass until you can see far enough ahead",
-      "Pass now, because the broken line allows it",
+      "Pass now; the broken line allows it",
       "Pass and sound your horn through the curve",
       "Pass on the right instead"
     ],
@@ -808,10 +728,10 @@
       "A car that seems still is probably parked",
       "You have plenty of time if you can't see it moving",
       "Oncoming cars must slow down for you",
-      "It may be much closer and faster than it looks, so if in doubt, don't pass"
+      "It may be closer and faster than it looks"
     ],
     "answer": 3,
-    "explanation": "Far-off oncoming vehicles often seem to be standing still. If you can clearly see it getting closer, it may already be too close to pass.",
+    "explanation": "Far-off oncoming vehicles often seem to be standing still. If you can clearly see it getting closer, it may already be too close to pass. If in doubt, don't pass.",
     "difficulty": 3,
     "ref": "State driver handbooks (e.g., MT p. 77, PA p. 51)"
   },
@@ -821,7 +741,7 @@
     "topic": "lanes-passing",
     "prompt": "You start to pass on a two-lane road, but the car you're passing speeds up and an oncoming car appears. What is the safest action?",
     "choices": [
-      "Speed up as much as needed to finish the pass",
+      "Speed up to finish the pass",
       "Slow down and pull back into your lane behind the car",
       "Stay beside the car and flash your lights",
       "Move onto the left shoulder"
@@ -838,8 +758,8 @@
     "prompt": "On a road with three lanes going your way, you are in the right lane and want to move to the center lane. What else should you look for besides traffic behind you?",
     "choices": [
       "Pedestrians on the far sidewalk",
-      "A driver in the far-left lane who may also be moving into the center lane",
-      "Cars parked on the right",
+      "A car in the far-left lane also moving to the center",
+      "Cars pulling out from parking spaces on the right",
       "Your speedometer reading"
     ],
     "answer": 1,
@@ -855,8 +775,8 @@
     "choices": [
       "Cars behind you that may also turn left",
       "Signs for upcoming exits",
-      "Nothing; the stopped car protects you",
-      "Oncoming cars turning left into your path and pedestrians or cyclists on the right"
+      "Nothing; the stopped car shields you from all cross traffic",
+      "Oncoming left-turners and people on the right side"
     ],
     "answer": 3,
     "explanation": "When passing on the right at an intersection, the stopped car blocks your view. Watch for oncoming left-turners and for people at the right side of the road.",
@@ -869,10 +789,10 @@
     "topic": "lanes-passing",
     "prompt": "On a two-lane road you want to pass two slow cars that are close together. When is that acceptable?",
     "choices": [
-      "Only if you can see a large enough gap ahead of the first car and enough clear road to finish safely",
+      "Only with a clear view and room to return ahead of both",
       "Any time, as long as you signal",
       "Only if the second car moves onto the shoulder",
-      "Only if you pass one car on each side"
+      "Any time the center line on your side is broken"
     ],
     "answer": 0,
     "explanation": "Passing several vehicles takes much more time and space. Only do it if there is room to return in front of the lead vehicle and plenty of clear road.",
@@ -887,7 +807,7 @@
     "choices": [
       "No, properly adjusted mirrors remove all blind spots",
       "Only when changing lanes to the right",
-      "Yes, because even well-adjusted mirrors leave blind spots",
+      "Yes, mirrors still leave blind spots",
       "Only when driving a large vehicle"
     ],
     "answer": 2,
@@ -902,9 +822,9 @@
     "prompt": "Why is speeding up while another vehicle is passing you on a two-lane road so dangerous?",
     "choices": [
       "It is only a problem if you are already speeding",
-      "It makes your car use more fuel",
-      "The passing driver can get stuck in the oncoming lane, risking a head-on crash",
-      "It causes the other car to get a flat tire"
+      "It can make your car drift into the passing car's lane",
+      "The passing driver may be trapped in the oncoming lane",
+      "It confuses drivers behind you about whether you are passing too"
     ],
     "answer": 2,
     "explanation": "If you speed up, the passing driver may not be able to get back in front of you before oncoming traffic arrives. Never increase speed when being passed.",
@@ -939,25 +859,9 @@
       "Don't pass; stay a safe distance behind"
     ],
     "answer": 3,
-    "explanation": "Pass only when you can do it safely without speeding. If the pass would take too much speed, it is not worth the risk.",
+    "explanation": "A pass that needs a big burst of speed takes more time and road than you think. If you would have to go far over the speed limit to get by, stay back at a safe distance.",
     "difficulty": 3,
     "ref": "State driver handbooks (e.g., CA p. 31, AZ p. 27, NY p. 39)"
-  },
-  {
-    "id": "car.lp.060",
-    "track": "car",
-    "topic": "lanes-passing",
-    "prompt": "Which situation makes passing on a two-lane road unsafe even when the center line is broken on your side?",
-    "choices": [
-      "The car ahead is going slightly under the speed limit",
-      "Your view ahead is blocked or oncoming traffic is too close to complete the pass",
-      "It is a clear, sunny day",
-      "The road is straight and level"
-    ],
-    "answer": 1,
-    "explanation": "Markings only tell you where passing may be allowed. You must also have a clear view and enough space to return before meeting oncoming traffic.",
-    "difficulty": 3,
-    "ref": "State driver handbooks (e.g., AZ p. 28, PA p. 51, TX p. 44, NJ p. 67)"
   },
   {
     "id": "car.lp.061",
@@ -966,7 +870,7 @@
     "prompt": "You will be on a multilane highway for many miles and don't plan to pass anyone. Which lane choice is best?",
     "choices": [
       "Use the far-left lane because it has fewer cars entering",
-      "Stay out of the far-left lane so it remains free for passing",
+      "Stay out of the far-left lane",
       "Use the shoulder when traffic is light",
       "Switch lanes often to keep a steady speed"
     ],
@@ -984,10 +888,10 @@
       "Block the driver, since they should have merged earlier",
       "Honk and close the gap",
       "Move onto the shoulder to let the driver by",
-      "Let the driver merge in turn, alternating one car from each lane"
+      "Let the driver merge in, taking turns"
     ],
     "answer": 3,
-    "explanation": "In heavy, slow traffic, using both lanes to the merge point and taking turns is the zipper concept. Let merging drivers in rather than blocking them.",
+    "explanation": "Some states encourage this \"zipper\" merge in heavy, slow traffic, while others advise merging early. Either way, drivers in the open lane should let merging drivers in rather than block them.",
     "difficulty": 3,
     "ref": "State driver handbooks (e.g., CO p. 22, CA p. 20, PA p. 50)"
   },
@@ -997,7 +901,7 @@
     "topic": "lanes-passing",
     "prompt": "You signal and check your mirror to change lanes, but during the head check you see a car in your blind spot. What should you do?",
     "choices": [
-      "Cancel or wait, staying in your lane until the car has passed or dropped back",
+      "Stay in your lane until it is clear",
       "Move over anyway, since you signaled first",
       "Speed up and cut in front of the car",
       "Brake hard so the car gets ahead"
@@ -1006,5 +910,21 @@
     "explanation": "A turn signal does not give you the right to move over. Wait until there is a safe gap, then check again before changing lanes.",
     "difficulty": 3,
     "ref": "State driver handbooks (e.g., CA p. 21, NE p. 63, NJ p. 98)"
+  },
+  {
+    "id": "car.lp.064",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "A lane on the highway has white diamond symbols painted on the pavement. What does this usually mean?",
+    "choices": [
+      "The lane is about to end",
+      "It is a restricted lane, such as an HOV (carpool) lane",
+      "It is a lane for bicycles only",
+      "The lane has a higher speed limit"
+    ],
+    "answer": 1,
+    "explanation": "A white diamond marks a restricted or preferential lane, such as an HOV lane. Posted signs show who may use it and when.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., CA p. 22, CO p. 13, NY p. 33)"
   }
 ]

@@ -5,10 +5,10 @@
     "topic": "signals-markings",
     "prompt": "What does a steady red traffic light mean?",
     "choices": [
-      "Come to a complete stop before the stop line, crosswalk, or intersection",
+      "Stop completely before the stop line, crosswalk, or intersection",
       "Slow down and continue if no cross traffic is coming",
       "Stop only if other vehicles are already in the intersection",
-      "Yield to cross traffic without needing to stop"
+      "Yield to cross traffic without needing to come to a stop"
     ],
     "answer": 0,
     "explanation": "A steady red light means stop. Stop before the marked stop line; if there is none, stop before the crosswalk, and if there is no crosswalk, before entering the intersection.",
@@ -71,7 +71,7 @@
     "choices": [
       "You have the right-of-way over everyone, including pedestrians",
       "You must stop first, then go when it is safe",
-      "You may go if the intersection is clear, yielding to vehicles and pedestrians still in it",
+      "Go if the way is clear, yielding to anyone still crossing",
       "You may only go straight; turns require a green arrow"
     ],
     "answer": 2,
@@ -88,7 +88,7 @@
       "Turn immediately because a green light protects your turn",
       "Wait until the light turns yellow, then turn no matter what",
       "Stop and wait for a green arrow before turning",
-      "Yield to oncoming traffic and pedestrians, then turn when there is a safe gap"
+      "Yield to oncoming traffic and pedestrians, then turn"
     ],
     "answer": 3,
     "explanation": "A steady green allows a left turn, but it is not protected. You must yield to oncoming vehicles and pedestrians before turning.",
@@ -104,7 +104,7 @@
       "Enter the intersection anyway because you have a green light",
       "Pull into the intersection so you are ready when traffic moves",
       "Go around the backed-up traffic using the shoulder",
-      "Wait behind the stop line until there is room to get completely across"
+      "Wait until there is room to get all the way across"
     ],
     "answer": 3,
     "explanation": "Do not enter an intersection unless you can get completely across before the light changes. A car stuck in the middle blocks cross traffic and pedestrians when the light turns red.",
@@ -119,7 +119,7 @@
     "choices": [
       "Go at once, since anyone still crossing must yield to you",
       "Sound your horn to warn cross traffic, then go",
-      "Check that the intersection is clear of vehicles or pedestrians still crossing",
+      "Make sure no one is still crossing the intersection",
       "Wait for the driver behind you to signal that it is clear"
     ],
     "answer": 2,
@@ -136,7 +136,7 @@
       "You must yield to oncoming traffic before turning",
       "The turn is about to end, so prepare to stop",
       "You may go in any direction from that lane",
-      "You may go in the direction of the arrow; traffic that would cross your path is stopped"
+      "You may make a protected move in the arrow's direction"
     ],
     "answer": 3,
     "explanation": "A green arrow gives a protected movement in the direction it points, because conflicting traffic faces a red light. You still yield to any vehicles or pedestrians already in the intersection.",
@@ -149,7 +149,7 @@
     "topic": "signals-markings",
     "prompt": "You are in the left-turn lane. The signal shows a steady red light together with a green arrow pointing left. What may you do?",
     "choices": [
-      "Turn left, yielding to any vehicles or pedestrians still in the intersection",
+      "Turn left, yielding to anyone still in the intersection",
       "Go straight or turn left, because one green light is showing",
       "Nothing; the red light overrides the arrow",
       "Turn left only after the red light changes to green"
@@ -187,9 +187,9 @@
       "Merge into a lane with a green light and go straight"
     ],
     "answer": 1,
-    "explanation": "A steady red arrow means stop for the movement shown by the arrow. Do not make that movement until a signal permits it.",
+    "explanation": "A steady red arrow means stop and do not make the movement shown by the arrow while it is red. A few states allow certain turns on a red arrow after a full stop, so learn your state's rule, but you must always stop first.",
     "difficulty": 1,
-    "ref": "State driver handbooks (e.g., CA p. 39, NY p. 31, FL p. 60)"
+    "ref": "State driver handbooks (e.g., CA p. 39, NY p. 31, FL p. 60, IL p. 81)"
   },
   {
     "id": "car.sm.013",
@@ -197,9 +197,9 @@
     "topic": "signals-markings",
     "prompt": "What does a flashing yellow arrow for left turns mean?",
     "choices": [
-      "You may turn left, but you must first yield to oncoming traffic and pedestrians",
+      "Yield to oncoming traffic and pedestrians, then turn left",
       "Your left turn is protected, so oncoming traffic is stopped",
-      "You must stop and wait for a green arrow",
+      "You must stop and wait for a green arrow before turning",
       "Left turns are not allowed until the arrow stops flashing"
     ],
     "answer": 0,
@@ -294,7 +294,7 @@
     "prompt": "You are on a busy main road and the signal ahead is dark during a power outage. What is correct?",
     "choices": [
       "Main-road drivers keep going; only side-street drivers stop",
-      "Every driver, including those on the main road, must stop before proceeding",
+      "Every driver must stop, including those on the main road",
       "Drivers on the main road should slow down and sound their horn",
       "Whoever is going faster has the right-of-way"
     ],
@@ -344,7 +344,7 @@
       "Pedestrians must hurry because the light is about to change",
       "Pedestrians may start crossing in the direction of the signal",
       "Pedestrians must wait for turning cars to finish",
-      "Only drivers may proceed through the crosswalk"
+      "Drivers turning across the crosswalk have the right-of-way"
     ],
     "answer": 1,
     "explanation": "The WALK or walking-person signal means pedestrians may begin crossing. Drivers turning across that crosswalk must yield to them.",
@@ -392,7 +392,7 @@
       "How many seconds until drivers get a green light",
       "How many pedestrians may cross at one time",
       "How many seconds are left to finish crossing",
-      "The speed limit for vehicles in the crosswalk"
+      "How many seconds until the WALK signal returns"
     ],
     "answer": 2,
     "explanation": "A countdown signal displays the seconds remaining in the crossing time. When it reaches zero, the steady DON'T WALK or raised hand appears.",
@@ -453,7 +453,7 @@
     "topic": "signals-markings",
     "prompt": "An overhead pedestrian beacon above a midblock crosswalk is completely dark. What does this usually mean?",
     "choices": [
-      "No pedestrian has activated it; continue normally but watch for pedestrians",
+      "No one has pushed the button; drive on with normal care",
       "The signal has failed, so treat it as an all-way stop",
       "You must stop and wait for it to turn on",
       "The crosswalk is closed and pedestrians may not use it"
@@ -520,7 +520,7 @@
       "Stay in the lane, since the red X is meant for oncoming traffic",
       "Stop where you are and wait for the X to turn green",
       "Turn on your hazard lights and continue to the next exit",
-      "Signal and move into a lane marked with a green arrow as soon as it is safe"
+      "Move safely into a lane with a green arrow"
     ],
     "answer": 3,
     "explanation": "A red X means you must not drive in that lane, often because oncoming traffic will be using it. Move safely to an open lane.",
@@ -533,10 +533,10 @@
     "topic": "signals-markings",
     "prompt": "The red lights are flashing at a railroad crossing. What must you do?",
     "choices": [
-      "Slow down and cross quickly",
-      "Cross if you do not see a train",
+      "Slow down and cross quickly before the train arrives",
+      "Cross if you look both ways and do not see a train",
       "Stop only if the gates are down",
-      "Stop before the crossing, because a train is approaching"
+      "Stop, because a train is coming"
     ],
     "answer": 3,
     "explanation": "Flashing red lights at a railroad crossing mean a train is coming. Stop and stay stopped until it is safe to cross.",
@@ -549,9 +549,9 @@
     "topic": "signals-markings",
     "prompt": "A train has passed, but the crossing gates are still down and the lights are still flashing. What should you do?",
     "choices": [
-      "Stay stopped until the gates rise and the lights stop flashing",
-      "Drive around the gates since the train is gone",
-      "Cross carefully if the tracks look clear",
+      "Wait until the gates rise and the lights stop",
+      "Drive around the gates, since the train is gone",
+      "Cross carefully if the tracks look clear both ways",
       "Back up and look for another way across the tracks"
     ],
     "answer": 0,
@@ -614,7 +614,7 @@
     "prompt": "What do white lane lines between lanes separate?",
     "choices": [
       "Lanes of traffic moving in the same direction",
-      "Traffic moving in opposite directions",
+      "Traffic moving in opposite directions on a highway",
       "No-passing zones on two-lane roads",
       "Lanes that are closed to traffic"
     ],
@@ -629,10 +629,10 @@
     "topic": "signals-markings",
     "prompt": "What does a broken (dashed) lane line mean?",
     "choices": [
-      "You may cross it to pass or change lanes when it is safe",
-      "You may never cross it",
+      "You may cross it when it is safe",
+      "You may never cross it, even to pass",
       "You may cross it only to make a U-turn",
-      "It marks the edge of the road"
+      "It marks the edge of the road and the shoulder"
     ],
     "answer": 0,
     "explanation": "Broken lines may be crossed to pass or change lanes, but only when it is safe and does not interfere with other traffic.",
@@ -709,10 +709,10 @@
     "topic": "signals-markings",
     "prompt": "What does a solid white line along the right side of the road mark?",
     "choices": [
-      "A lane you may use for passing",
-      "The center of a two-way road",
-      "A bicycle-only lane",
-      "The edge of the travel lane, where the shoulder begins"
+      "A lane you may use for passing on the right",
+      "The center line of a two-way road",
+      "The start of a bicycle-only lane",
+      "The edge of the road, where the shoulder begins"
     ],
     "answer": 3,
     "explanation": "A solid white edge line shows where the travel lane ends and the shoulder begins. Do not drive across it except where allowed.",
@@ -759,13 +759,13 @@
     "choices": [
       "Lane changes across it are encouraged when traffic is heavy",
       "It separates traffic moving in opposite directions",
-      "Stay in your lane; changing lanes across it is discouraged",
+      "Stay in your lane; avoid changing lanes across it",
       "It shows that the lane on the other side is closed"
     ],
     "answer": 2,
-    "explanation": "A single solid white line between same-direction lanes tells you to stay in your lane. Use a broken white line to change lanes whenever possible.",
+    "explanation": "A single solid white line between same-direction lanes means stay in your lane. Some states allow crossing it in limited cases, such as to avoid a hazard, but it is not a normal place to change lanes; wait for a broken line.",
     "difficulty": 3,
-    "ref": "State driver handbooks (e.g., TX p. 40, CO p. 12, NY p. 32)"
+    "ref": "State driver handbooks (e.g., FL p. 51, CO p. 12, AK p. 61, AL p. 54)"
   },
   {
     "id": "car.sm.049",
@@ -773,10 +773,10 @@
     "topic": "signals-markings",
     "prompt": "Wide, closely spaced broken (dotted) white lines appear along your lane on a freeway. What should you be ready for?",
     "choices": [
-      "A carpool lane is starting",
-      "Your lane may end or become an exit-only lane",
-      "A lane that oncoming traffic shares",
-      "A lane where you may park"
+      "A carpool lane is starting on your left",
+      "Your lane may end or become exit-only",
+      "A lane that is shared with oncoming traffic",
+      "A lane where you may stop or park"
     ],
     "answer": 1,
     "explanation": "Wider, more closely spaced broken lines are often used to mark lanes that end or exit. Look for signs telling you to exit or merge.",
@@ -887,7 +887,7 @@
     "choices": [
       "Cross the solid line and squeeze into the straight lane",
       "Stop in the lane until someone lets you over",
-      "Turn right as the lane requires, then find another way to your destination",
+      "Turn right, then find another route",
       "Go straight from the right-turn lane if no one is beside you"
     ],
     "answer": 2,
@@ -901,14 +901,14 @@
     "topic": "signals-markings",
     "prompt": "A center lane is bordered on each side by a solid yellow line on the outside and a broken yellow line on the inside. What is it for?",
     "choices": [
-      "Passing slower vehicles",
+      "Passing slower vehicles in either direction",
       "Left turns by traffic from both directions",
-      "Emergency vehicles only",
+      "Emergency and service vehicles only",
       "Through traffic during rush hour"
     ],
     "answer": 1,
     "explanation": "This is a two-way left-turn lane. Drivers from either direction may use it to slow down and make a left turn.",
-    "difficulty": 1,
+    "difficulty": 2,
     "ref": "State driver handbooks (e.g., AZ p. 48, CA p. 22, PA p. 26)"
   },
   {
@@ -933,10 +933,10 @@
     "topic": "signals-markings",
     "prompt": "What does a white diamond painted in a lane usually mean?",
     "choices": [
-      "The lane is closed for construction",
-      "The lane is for slow-moving vehicles",
-      "A railroad crossing is ahead",
-      "The lane is reserved for carpools, buses, or other special vehicles"
+      "The lane is closed for construction ahead",
+      "The lane is for slow-moving vehicles only",
+      "A railroad crossing is ahead in this lane",
+      "It is a reserved lane, such as a carpool lane"
     ],
     "answer": 3,
     "explanation": "A diamond symbol marks a reserved lane, such as a high-occupancy vehicle (HOV) or bus lane. Signs tell you who may use it and when.",
@@ -950,8 +950,8 @@
     "prompt": "When may you drive in a lane marked with white diamonds?",
     "choices": [
       "Any time you need to pass a slower vehicle",
-      "Only when you are driving alone",
-      "When your vehicle meets the requirements posted on the signs for that time",
+      "Only at night, when traffic is light",
+      "When you meet the rules posted on its signs",
       "Never; diamond lanes are for emergency vehicles only"
     ],
     "answer": 2,
@@ -965,10 +965,10 @@
     "topic": "signals-markings",
     "prompt": "A lane is separated from traffic by a solid white line and has a bicycle symbol painted in it. What is it?",
     "choices": [
-      "An extra lane for slow cars",
+      "An extra lane for slow-moving cars",
       "A shoulder you may use to pass on the right",
-      "A lane reserved for bicyclists that drivers may not use as a travel lane",
-      "A parking lane"
+      "A bike lane, not a travel lane for cars",
+      "A lane for parking when no bikes are present"
     ],
     "answer": 2,
     "explanation": "Bike lanes are marked with a solid white line and often a bicycle symbol or sign. Drivers may not use them as regular travel lanes.",
@@ -997,10 +997,10 @@
     "topic": "signals-markings",
     "prompt": "Part of a lane or intersection is painted bright green. What does this usually mean?",
     "choices": [
-      "It is a lane for electric cars",
-      "It is an area marked for bicyclists, so watch for them",
-      "It is a place where parking is free",
-      "It marks a school zone"
+      "It is a lane for electric cars only",
+      "It marks a bicycle area; watch for bicyclists",
+      "It is a lane reserved for buses and taxis",
+      "It marks the start of a school zone"
     ],
     "answer": 1,
     "explanation": "Green pavement is used to highlight bike lanes and areas where bicyclists and drivers cross paths, making bicyclists easier to notice.",
@@ -1014,9 +1014,9 @@
     "prompt": "A bicycle symbol with two arrowheads (a \"sharrow\") is painted in a regular travel lane. What does it mean?",
     "choices": [
       "Bicycles are not allowed in this lane",
-      "Bicyclists and drivers share the lane, so expect bicyclists in it",
+      "Bicyclists and drivers share the lane",
       "This is a bike-only lane that cars must avoid",
-      "The lane is a bicycle parking area"
+      "Bicyclists must ride on the shoulder next to it"
     ],
     "answer": 1,
     "explanation": "Shared lane markings tell drivers that bicyclists may use the travel lane and show bicyclists where to ride.",
@@ -1045,9 +1045,9 @@
     "topic": "signals-markings",
     "prompt": "In general, what does a painted curb tell drivers?",
     "choices": [
-      "The curb is new and still drying",
-      "The lane next to it is for passing",
-      "There are parking or stopping rules for that spot",
+      "Parking there is allowed at any time",
+      "The lane next to it is for passing only",
+      "Special parking or stopping rules apply",
       "Pedestrians may not use the sidewalk there"
     ],
     "answer": 2,

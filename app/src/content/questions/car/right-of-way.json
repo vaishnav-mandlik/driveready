@@ -5,29 +5,13 @@
     "topic": "right-of-way",
     "prompt": "What does it mean that right-of-way is \"given, not taken\"?",
     "choices": [
-      "The driver who has the right-of-way may keep going even if a crash could result",
-      "Right-of-way belongs to whichever vehicle is moving faster",
-      "The law says who must yield, but no one may force their way through if a crash could result",
-      "Right-of-way rules only apply when a police officer is present"
+      "The driver with the right-of-way may go even if it causes a crash",
+      "Right-of-way belongs to the driver who is moving faster",
+      "The law only says who must yield; no driver may force their way through",
+      "Right-of-way rules only apply when an officer is directing traffic"
     ],
     "answer": 2,
     "explanation": "Right-of-way laws only say who must yield. Even when another driver should yield to you, you must never insist on going first if doing so could cause a crash.",
-    "difficulty": 1,
-    "ref": "State driver handbooks (e.g., PA p. 52, TX p. 26, NV p. 34)"
-  },
-  {
-    "id": "car.row.002",
-    "track": "car",
-    "topic": "right-of-way",
-    "prompt": "Do traffic laws give any driver an absolute right to go first?",
-    "choices": [
-      "No. They only say who must yield, and every driver must still try to avoid a crash",
-      "Yes. The driver on the main road always has an absolute right to go first",
-      "Yes. A green light gives an absolute right to go no matter what",
-      "Yes. Once you have stopped at a STOP sign, you always have the right to go next"
-    ],
-    "answer": 0,
-    "explanation": "Handbooks stress that the law does not give anyone the right-of-way; it only states who must yield. Every driver is still responsible for avoiding a collision.",
     "difficulty": 1,
     "ref": "State driver handbooks (e.g., PA p. 52, TX p. 26, NV p. 34)"
   },
@@ -38,7 +22,7 @@
     "prompt": "You are going straight through an intersection where you have the right-of-way. A driver on a side street pulls out in front of you without yielding. What should you do?",
     "choices": [
       "Keep your speed and honk, because you have the right-of-way",
-      "Slow down or stop to avoid a crash, even though the other driver was wrong",
+      "Slow down or stop to avoid a crash",
       "Speed up to get through before the other car blocks you",
       "Hold your lane and speed so the other driver learns the rule"
     ],
@@ -69,8 +53,8 @@
     "topic": "right-of-way",
     "prompt": "At a four-way stop, another driver arrived first but waves you through. What is the best response?",
     "choices": [
-      "Go immediately, because the wave means the intersection is clear",
-      "You may go if it is safe, but check for other vehicles and pedestrians yourself first",
+      "Go right away, because the wave means it is all clear",
+      "Check for other traffic and pedestrians yourself, then go if safe",
       "Never accept the wave, because giving up your turn is illegal",
       "Honk to confirm, then go without checking again"
     ],
@@ -85,9 +69,9 @@
     "topic": "right-of-way",
     "prompt": "Why is failing to yield the right-of-way so dangerous?",
     "choices": [
-      "It is only a paperwork violation and rarely causes crashes",
+      "It is only a ticketing issue and rarely leads to crashes",
       "It only matters on highways, not at intersections",
-      "It puts two road users in the same space at the same time, which is a common cause of crashes",
+      "It puts two road users in the same space at once",
       "It only matters when pedestrians are present"
     ],
     "answer": 2,
@@ -102,7 +86,7 @@
     "prompt": "Two vehicles reach an intersection with no signs or signals at about the same time, on different roads. Who must yield?",
     "choices": [
       "The driver on the right yields to the driver on the left",
-      "The larger vehicle goes first",
+      "The driver on the busier road goes first",
       "The driver on the left yields to the driver on the right",
       "The vehicle that is going faster goes first"
     ],
@@ -150,28 +134,12 @@
     "prompt": "You and a car on your left reach an uncontrolled intersection at about the same time. What should you expect?",
     "choices": [
       "You must yield to the car on your left",
-      "That driver should yield to you, but be ready to stop in case they do not",
+      "The other driver should yield, but be ready to stop",
       "You may go at full speed because you have the right-of-way",
-      "Whichever driver honks first gets to go first"
+      "Whoever is going straight goes first, no matter the side"
     ],
     "answer": 1,
     "explanation": "The driver on the left yields to the driver on the right, so the other car should let you go. Still, never assume it will; be prepared to stop.",
-    "difficulty": 2,
-    "ref": "State driver handbooks (e.g., CA p. 45, NY p. 34, CO p. 14)"
-  },
-  {
-    "id": "car.row.011",
-    "track": "car",
-    "topic": "right-of-way",
-    "prompt": "You reach an uncontrolled intersection at the same time as a car on your right. What should you do?",
-    "choices": [
-      "Go first, since you are on the left",
-      "Go first if you are driving straight and the other car is not",
-      "Go at the same time, since you both arrived together",
-      "Let the car on your right go first"
-    ],
-    "answer": 3,
-    "explanation": "When two vehicles arrive at about the same time at an intersection without signs or signals, the driver on the left (you) yields to the driver on the right.",
     "difficulty": 2,
     "ref": "State driver handbooks (e.g., CA p. 45, NY p. 34, CO p. 14)"
   },
@@ -181,8 +149,8 @@
     "topic": "right-of-way",
     "prompt": "At an uncontrolled intersection, a car is approaching from your right but is still far away. Which statement is correct?",
     "choices": [
-      "The yield-to-the-right rule is for vehicles arriving at about the same time, so a distant car does not automatically get to go first",
-      "You must always wait for every vehicle on your right to pass, however far away it is",
+      "It does not get to go first just because it is on your right",
+      "You must always wait for every vehicle on your right to pass, however far away",
       "Vehicles on your right never matter at an uncontrolled intersection",
       "Right-of-way goes to whichever vehicle is traveling faster"
     ],
@@ -198,8 +166,8 @@
     "prompt": "At a four-way stop, which vehicle should go first?",
     "choices": [
       "The vehicle that came to a stop first",
-      "The vehicle on the busier road",
-      "The vehicle that is going straight",
+      "The vehicle on the busier or wider road",
+      "The vehicle that is going straight through",
       "The largest vehicle"
     ],
     "answer": 0,
@@ -216,7 +184,7 @@
       "The car on the left",
       "The car on the right",
       "The car that is turning",
-      "The car that stopped more smoothly"
+      "The car that is going straight"
     ],
     "answer": 1,
     "explanation": "When vehicles at right angles arrive at an all-way stop at the same time, the driver on the left yields to the driver on the right.",
@@ -230,7 +198,7 @@
     "prompt": "You pull up to a four-way stop just after a car on your left has already stopped. What should you do?",
     "choices": [
       "Go first, because you are on the other car's right",
-      "Stop completely, then let the car on your left go first because it arrived first",
+      "Stop, then let the car on your left go first",
       "Roll through slowly, since the other car is already stopped",
       "Go at the same time as the other car"
     ],
@@ -248,7 +216,7 @@
       "Only one car may move, so the faster driver goes first",
       "You must wait until the other driver waves you through",
       "You must yield, because the other car is on your left",
-      "You may each go ahead with caution, since your paths do not cross"
+      "You may both go, watching for turns"
     ],
     "answer": 3,
     "explanation": "Vehicles facing each other that are both going straight do not cross paths, so both may proceed carefully, watching for any turns.",
@@ -278,7 +246,7 @@
     "prompt": "You reach a four-way stop before anyone else. What must you still do before going?",
     "choices": [
       "Nothing; arriving first means you may roll through",
-      "Come to a complete stop and check for pedestrians and other traffic",
+      "Stop fully and check for pedestrians and traffic",
       "Wait until every other approaching car has also stopped",
       "Honk to claim your turn"
     ],
@@ -295,8 +263,8 @@
     "choices": [
       "Keep going, because you have the right-of-way",
       "Speed up to get across ahead of it",
-      "Stop and let it go; avoid the crash even though it was your turn",
-      "Keep going and honk so the other driver stops"
+      "Stop and let it go, even though it was your turn",
+      "Keep going and honk"
     ],
     "answer": 2,
     "explanation": "The other driver broke the rule, but right-of-way is given, not taken. You must do everything you can to avoid a collision.",
@@ -327,7 +295,7 @@
     "choices": [
       "As soon as you have come to a full stop",
       "When a driver on the cross street flashes their headlights",
-      "After yielding to cross traffic and pedestrians, when there is a safe gap",
+      "After yielding to cross traffic and pedestrians",
       "As soon as the car ahead of you has gone"
     ],
     "answer": 2,
@@ -343,7 +311,7 @@
     "choices": [
       "You, because you are on that car's right",
       "The car on the cross street, because you face a STOP sign",
-      "You, because you stopped first",
+      "You, because you stopped before that car reached the intersection",
       "Whoever is going straight"
     ],
     "answer": 1,
@@ -357,31 +325,15 @@
     "topic": "right-of-way",
     "prompt": "You are driving onto a cross street where your road has a YIELD sign. Who has the right-of-way?",
     "choices": [
-      "Traffic and pedestrians on the cross street; you slow down and stop if needed",
-      "You do, as long as you do not stop",
-      "You do, if you are turning right",
-      "Whoever is driving the larger vehicle"
+      "Traffic and pedestrians on the cross street",
+      "You do, as long as you do not have to stop",
+      "You do, if you are turning right onto the cross street",
+      "Whichever driver reaches the intersection first"
     ],
     "answer": 0,
     "explanation": "A YIELD sign means you must slow down and give the right-of-way to vehicles and pedestrians on the road you are entering, stopping if necessary.",
     "difficulty": 2,
     "ref": "State driver handbooks (e.g., NJ p. 69, NY p. 34, AL p. 65)"
-  },
-  {
-    "id": "car.row.024",
-    "track": "car",
-    "topic": "right-of-way",
-    "prompt": "You are on a road that ends at a T-intersection with a STOP sign. A car on the through road is coming from your left. What should you do?",
-    "choices": [
-      "Stay stopped and let it pass before you pull out",
-      "Go first, because you are on that car's right",
-      "Go first, because the other car should slow down for you",
-      "Pull out partway so the other car knows you are there"
-    ],
-    "answer": 0,
-    "explanation": "A driver at a STOP sign must yield to traffic on the through road, no matter which side it comes from.",
-    "difficulty": 2,
-    "ref": "State driver handbooks (e.g., CA p. 45, AZ p. 35, TX p. 26)"
   },
   {
     "id": "car.row.025",
@@ -391,7 +343,7 @@
     "choices": [
       "You, because turning vehicles go first",
       "You, because the through-road driver can slow down more easily",
-      "Whichever car is smaller",
+      "Whichever driver signals first",
       "The car on the through road"
     ],
     "answer": 3,
@@ -407,28 +359,12 @@
     "choices": [
       "You, because you signaled",
       "You, because turning vehicles have priority",
-      "Whoever is driving the larger vehicle",
+      "Whoever reached the intersection first",
       "The oncoming car going straight"
     ],
     "answer": 3,
     "explanation": "A driver turning left must yield to oncoming vehicles going straight that are close enough to be a hazard.",
     "difficulty": 1,
-    "ref": "State driver handbooks (e.g., NY p. 34, NH p. 20, TX p. 26)"
-  },
-  {
-    "id": "car.row.027",
-    "track": "car",
-    "topic": "right-of-way",
-    "prompt": "You are waiting to turn left on a solid green light with no arrow. Oncoming cars are close. What should you do?",
-    "choices": [
-      "Wait until oncoming traffic clears or is far enough away to turn safely",
-      "Turn now; the green light gives you the right-of-way",
-      "Turn quickly before the oncoming cars reach you",
-      "Signal and expect oncoming drivers to stop for you"
-    ],
-    "answer": 0,
-    "explanation": "A green light lets you turn, but you must still yield to oncoming traffic that is close enough to be a hazard.",
-    "difficulty": 2,
     "ref": "State driver handbooks (e.g., NY p. 34, NH p. 20, TX p. 26)"
   },
   {
@@ -455,7 +391,7 @@
     "choices": [
       "The other driver, because right turns always yield to left turns",
       "Whoever starts the turn first",
-      "You should, because a left turn yields to oncoming traffic going straight or turning right",
+      "You should, because you are turning left",
       "The other driver, because you are already in the intersection"
     ],
     "answer": 2,
@@ -469,9 +405,9 @@
     "topic": "right-of-way",
     "prompt": "You are turning left on a green arrow. What must you still yield to?",
     "choices": [
-      "Vehicles and pedestrians that are still in the intersection",
+      "Vehicles and pedestrians still in the intersection",
       "Nothing; a green arrow means every other driver must stop",
-      "Only vehicles that are larger than yours",
+      "Only vehicles coming toward you from the other direction",
       "Only traffic coming from behind you"
     ],
     "answer": 0,
@@ -480,31 +416,15 @@
     "ref": "State driver handbooks (e.g., NY p. 34, CO p. 14, FL p. 60)"
   },
   {
-    "id": "car.row.031",
-    "track": "car",
-    "topic": "right-of-way",
-    "prompt": "You are turning left on a green light. A pedestrian is crossing the street you are turning onto. What should you do?",
-    "choices": [
-      "Wait for the pedestrian to finish crossing your path before you turn",
-      "Turn in front of the pedestrian, since you have a green light",
-      "Honk so the pedestrian hurries",
-      "Speed up to get through the crosswalk before they reach your lane"
-    ],
-    "answer": 0,
-    "explanation": "Turning drivers must yield to pedestrians in the crosswalk they are turning across, even on a green light.",
-    "difficulty": 2,
-    "ref": "State driver handbooks (e.g., CA p. 47, NY p. 34, AZ p. 36)"
-  },
-  {
     "id": "car.row.032",
     "track": "car",
     "topic": "right-of-way",
     "prompt": "You are waiting to turn left on a green light. The oncoming traffic is a single motorcycle that seems far away. What should you keep in mind?",
     "choices": [
-      "Small vehicles are easy to misjudge, so take time to judge its speed and yield if it is close enough to be a hazard",
-      "Motorcycles must yield to turning cars",
-      "You can always turn in front of a motorcycle because it can stop quickly",
-      "The left-turn rule only applies to cars and trucks"
+      "Its speed and distance are easy to misjudge, so yield if unsure",
+      "Motorcycles must yield to waiting left-turners",
+      "You can turn in front of it, since motorcycles can stop quickly",
+      "The left-turn rule applies only to cars and trucks"
     ],
     "answer": 0,
     "explanation": "Left-turning drivers must yield to all oncoming traffic, including motorcycles and bicycles, whose speed and distance are harder to judge.",
@@ -519,7 +439,7 @@
     "choices": [
       "Go right away, since your light is green",
       "Honk and go, since it should have waited",
-      "Go around the car to keep traffic moving",
+      "Go around the car on the right to keep traffic moving",
       "Let it clear the intersection before you go"
     ],
     "answer": 3,
@@ -549,10 +469,10 @@
     "topic": "right-of-way",
     "prompt": "Which statement about a green light is correct?",
     "choices": [
-      "It gives you the right-of-way over everyone else",
-      "It allows you to go, but you must still yield to vehicles and pedestrians already in the intersection",
+      "It gives you the right-of-way over all other vehicles and pedestrians",
+      "You may go, after yielding to anyone already in the intersection",
       "It means pedestrians must wait until you have passed",
-      "It means you never need to look before entering"
+      "It means you do not need to look before entering"
     ],
     "answer": 1,
     "explanation": "Signals assign who may go, but drivers on green must still yield to anyone lawfully in the intersection and must avoid crashes.",
@@ -567,7 +487,7 @@
     "choices": [
       "You do, once your turn signal is on",
       "Traffic on the street and pedestrians on the sidewalk",
-      "You do, if the street has only one lane each way",
+      "You do, if the street has one lane each way",
       "Only the traffic coming from your left"
     ],
     "answer": 1,
@@ -581,7 +501,7 @@
     "topic": "right-of-way",
     "prompt": "You are leaving a parking lot and want to turn left onto a two-way street. Whom must you yield to?",
     "choices": [
-      "Only vehicles coming from your left",
+      "Only vehicles coming from your left, since they reach you first",
       "Only vehicles coming from your right",
       "No one, if you have signaled your turn",
       "Vehicles coming from both directions, and any pedestrians"
@@ -613,10 +533,10 @@
     "topic": "right-of-way",
     "prompt": "You are driving on a main road. A car is waiting to pull out of a driveway on your right. Who has the right-of-way?",
     "choices": [
-      "You do, but watch in case the driver pulls out anyway",
+      "You do, but watch in case it pulls out",
       "The car in the driveway, because it is on your right",
       "The car in the driveway, because it was there first",
-      "Whichever driver honks first"
+      "Whichever driver signals first"
     ],
     "answer": 0,
     "explanation": "Vehicles entering from a driveway must yield to traffic on the road. The yield-to-the-right rule does not apply here, but stay alert, because the driver may not see you.",
@@ -630,7 +550,7 @@
     "prompt": "You are parked at the curb and want to pull back into traffic. Who has the right-of-way?",
     "choices": [
       "You do, once you turn on your signal",
-      "You do, because drivers behind you must let you in",
+      "You do, because others must let you in",
       "Whoever is going slower",
       "Traffic already on the road; wait for a safe gap"
     ],
@@ -677,8 +597,8 @@
     "topic": "right-of-way",
     "prompt": "What is an unmarked crosswalk?",
     "choices": [
-      "Any place in the middle of a block where someone decides to cross",
-      "The crossing area at an intersection, between the corners, even when no lines are painted",
+      "Any spot mid-block where someone decides to cross",
+      "The crossing area at an intersection where no lines are painted",
       "A crosswalk whose paint has worn off, which drivers may ignore",
       "A crossing that only bicycles may use"
     ],
@@ -696,7 +616,7 @@
       "Keep going, because there is no marked crosswalk",
       "Honk to warn the pedestrian to get out of the street",
       "Yield only if the pedestrian has a WALK signal",
-      "Yield to the pedestrian, since the corner has an unmarked crosswalk"
+      "Stop and yield to the pedestrian"
     ],
     "answer": 3,
     "explanation": "An intersection has crosswalks even without painted lines. Drivers must yield to pedestrians crossing at marked or unmarked crosswalks.",
@@ -709,9 +629,9 @@
     "topic": "right-of-way",
     "prompt": "A car in the lane next to you has stopped at a crosswalk. What should you do?",
     "choices": [
-      "Pass it carefully, since your lane is clear",
+      "Pass it carefully at a low speed, since your lane is clear",
       "Change lanes to go around it",
-      "Slow down and stop; do not pass it, because a pedestrian may be crossing",
+      "Slow down and be ready to stop; do not pass it",
       "Honk to find out why it stopped"
     ],
     "answer": 2,
@@ -726,7 +646,7 @@
     "prompt": "A pedestrian is crossing in the middle of the block, not in a crosswalk. What is your duty as a driver?",
     "choices": [
       "Keep going; pedestrians outside crosswalks have no protection",
-      "Slow down or stop to avoid hitting them, even though they should have yielded",
+      "Slow down or stop to avoid hitting them",
       "Honk and keep your speed so they move out of the way",
       "Speed up to pass before they reach your lane"
     ],
@@ -741,7 +661,7 @@
     "topic": "right-of-way",
     "prompt": "You are turning right at a green light. A pedestrian is crossing the street you are turning onto. What should you do?",
     "choices": [
-      "Wait for the pedestrian to cross before you complete the turn",
+      "Wait for the pedestrian to finish crossing",
       "Turn, since you have a green light",
       "Turn behind the pedestrian while they are still in your lane",
       "Honk so the pedestrian knows you are turning"
@@ -758,9 +678,9 @@
     "prompt": "You stop for a pedestrian waiting at a crosswalk on a road with two lanes in your direction. Should you wave the pedestrian across?",
     "choices": [
       "Yes. Waving is required to show you are yielding",
-      "No. A driver in the other lane may not have stopped, and your wave could lead them into danger",
-      "Yes. Once you stop, all other lanes must also be clear",
-      "No. Pedestrians must wait until all traffic has passed"
+      "No. A driver in the other lane may not stop for them",
+      "Yes. Once you stop, all other lanes must also stop",
+      "No. Pedestrians must wait for all traffic to pass"
     ],
     "answer": 1,
     "explanation": "Do not wave pedestrians into traffic. Another driver may not see them or may not stop. Simply stop and let the pedestrian decide when it is safe.",
@@ -781,22 +701,6 @@
     "answer": 1,
     "explanation": "Stop before the crosswalk (at the stop or limit line if one is marked) so the pedestrian has the full crosswalk to use.",
     "difficulty": 2,
-    "ref": "State driver handbooks (e.g., CA p. 47, NY p. 34, AZ p. 36)"
-  },
-  {
-    "id": "car.row.050",
-    "track": "car",
-    "topic": "right-of-way",
-    "prompt": "Who should you watch for and yield to when you drive through an intersection or turn at a corner?",
-    "choices": [
-      "Only other drivers",
-      "Only pedestrians who make eye contact",
-      "Only pedestrians at marked school crossings",
-      "Pedestrians crossing in the crosswalks"
-    ],
-    "answer": 3,
-    "explanation": "Drivers must yield to pedestrians legally using marked or unmarked crosswalks, so always check the crosswalks before entering or turning.",
-    "difficulty": 1,
     "ref": "State driver handbooks (e.g., CA p. 47, NY p. 34, AZ p. 36)"
   },
   {
@@ -822,12 +726,12 @@
     "prompt": "A pedestrian with a white cane starts across even though the signal is against them. What should you do?",
     "choices": [
       "Yield and let the pedestrian cross anyway",
-      "Proceed, because the signal is in your favor",
+      "Proceed, since the signal favors you",
       "Honk to warn them to step back",
       "Drive around them if there is room"
     ],
     "answer": 0,
-    "explanation": "A blind pedestrian with a white cane or guide dog must be given the right-of-way even when signals or other right-of-way rules are not in their favor.",
+    "explanation": "Never drive toward a pedestrian who is in the street, even if the signal favors you. A blind pedestrian may not know the signal has changed, so stop and let them finish crossing safely.",
     "difficulty": 2,
     "ref": "State driver handbooks (e.g., CA p. 48, NY p. 67, MT p. 49)"
   },
@@ -837,9 +741,9 @@
     "topic": "right-of-way",
     "prompt": "Why should you avoid honking at a pedestrian who is blind?",
     "choices": [
-      "Honking is the only safe way to warn them",
+      "Honking is the safest warning",
       "Blind pedestrians cannot hear horns",
-      "Honking is only a problem near schools",
+      "A horn tells them it is safe to cross",
       "The noise can confuse or frighten them"
     ],
     "answer": 3,
@@ -855,8 +759,8 @@
     "choices": [
       "It is not risky, because blind pedestrians only cross with a guide",
       "It only matters if the pedestrian has a guide dog",
-      "Your engine noise will make them wait longer",
-      "They may have to walk around your car, outside the crosswalk and into traffic"
+      "It is only risky at night",
+      "They may have to walk around your car into traffic"
     ],
     "answer": 3,
     "explanation": "Blocking the crosswalk can force a blind pedestrian to leave it and walk into moving traffic. Stop behind the crosswalk.",
@@ -869,10 +773,10 @@
     "topic": "right-of-way",
     "prompt": "You are driving a quiet hybrid or electric car near a pedestrian with a white cane. Why should you be extra careful?",
     "choices": [
-      "Quiet cars are exempt from yielding to pedestrians",
-      "Blind pedestrians rely on sound to know a vehicle is near, and a quiet car may not be heard",
+      "Quiet cars must use the horn to warn blind pedestrians",
+      "The pedestrian may not hear your car coming",
       "The pedestrian will rely on seeing your headlights",
-      "Quiet cars cannot stop as quickly"
+      "Quiet cars cannot stop as quickly as gas cars"
     ],
     "answer": 1,
     "explanation": "People who are blind listen for traffic. A hybrid or electric vehicle can be very quiet, so take extra care when turning or backing near them.",
@@ -888,7 +792,7 @@
       "Speed up to stay ahead of it",
       "Stop right where you are in your lane",
       "Pull over to the right edge of the road and stop",
-      "Pull to the left so it can pass on your right"
+      "Pull to the left edge so it can pass you on the right"
     ],
     "answer": 2,
     "explanation": "Yield to emergency vehicles using a siren and flashing lights: drive to the right edge of the road and stop until they pass.",
@@ -901,10 +805,10 @@
     "topic": "right-of-way",
     "prompt": "Which vehicles must you yield to when they are using a siren and flashing emergency lights?",
     "choices": [
-      "Only ambulances",
-      "Only police cars",
-      "Police cars, fire engines, ambulances and other emergency vehicles",
-      "Only fire engines"
+      "Only ambulances carrying a patient",
+      "Only police cars that are chasing someone",
+      "Any authorized emergency vehicle",
+      "Only fire engines and ambulances"
     ],
     "answer": 2,
     "explanation": "All authorized emergency vehicles responding with emergency signals get the right-of-way, whether police, fire or ambulance.",
@@ -917,10 +821,10 @@
     "topic": "right-of-way",
     "prompt": "You are in the middle of an intersection when a fire truck with its siren on approaches. What should you do?",
     "choices": [
-      "Stop right away in the intersection",
+      "Stop right away where you are in the intersection",
       "Back up out of the intersection",
       "Turn left in front of the fire truck to clear the way",
-      "Continue through the intersection, then pull to the right and stop"
+      "Drive through it, then pull right and stop"
     ],
     "answer": 3,
     "explanation": "Do not stop in an intersection for an emergency vehicle. Drive through it, then pull over to the right and stop.",
@@ -933,10 +837,10 @@
     "topic": "right-of-way",
     "prompt": "You have pulled over and stopped for an emergency vehicle. When may you move again?",
     "choices": [
-      "After it has passed and you have checked that it is safe, watching for other emergency vehicles",
+      "After it passes and you check for more emergency vehicles",
       "As soon as it is beside you",
-      "As soon as the siren is off for a moment",
-      "Immediately, if you are going in the opposite direction"
+      "As soon as the siren is turned off for a moment",
+      "Right away, if you are headed the other way"
     ],
     "answer": 0,
     "explanation": "Stay stopped until the emergency vehicle has passed. More than one may be responding, so check before you signal and re-enter traffic.",
@@ -949,9 +853,9 @@
     "topic": "right-of-way",
     "prompt": "Traffic is heavy and you cannot pull all the way to the right edge when a police car with siren and lights approaches. What should you do?",
     "choices": [
-      "Stay in your lane and keep going",
+      "Stay in your lane and keep going at the same speed",
       "Speed up to find a better place to pull over",
-      "Move as far to the right as you safely can and stop, leaving it a clear path",
+      "Move as far right as you safely can and stop",
       "Move to the left lane"
     ],
     "answer": 2,
@@ -965,13 +869,13 @@
     "topic": "right-of-way",
     "prompt": "A police car is driving behind you with no siren and no flashing lights on. Must you pull over and stop?",
     "choices": [
-      "No. The special yield rule applies when an emergency vehicle is using its emergency signals",
-      "Yes. You must always pull over for any police car",
+      "No, unless it signals you with its lights or siren",
+      "Yes. You must always pull over when a police car is behind you",
       "Yes, but only on a highway",
       "No. Police cars never get the right-of-way"
     ],
     "answer": 0,
-    "explanation": "Emergency vehicles get the right-of-way when they are responding with emergency signals such as a siren or flashing lights. Otherwise, normal traffic rules apply.",
+    "explanation": "The special duty to pull over and stop applies when an emergency vehicle is using its emergency signals, such as a siren or flashing lights. Otherwise, normal traffic rules apply.",
     "difficulty": 3,
     "ref": "State driver handbooks (e.g., CA p. 51, NY p. 35, MT p. 50)"
   },
@@ -982,12 +886,12 @@
     "prompt": "You are already inside a roundabout when an ambulance with its siren on approaches. What should you do?",
     "choices": [
       "Stop right where you are inside the roundabout",
-      "Back up to the entrance you used",
-      "Continue to your exit, leave the roundabout, then pull over",
+      "Back up to the entrance you used and wait for it to pass",
+      "Keep moving, exit the roundabout, then pull over",
       "Stop at the next entry point to let it in"
     ],
     "answer": 2,
-    "explanation": "Do not stop inside a roundabout. Drive to your exit, leave the roundabout, then pull to the right and stop to let the emergency vehicle pass.",
+    "explanation": "Never stop inside a roundabout for an emergency vehicle. Keep moving, leave the roundabout, then pull to the right and stop to let it pass.",
     "difficulty": 3,
     "ref": "State driver handbooks (e.g., CA p. 46, AL p. 59, NH p. 33)"
   },
@@ -1016,7 +920,7 @@
       "You, because you are on the left",
       "The car on your right",
       "Whichever driver is on the larger street",
-      "Whichever driver honks first"
+      "Whichever driver is going straight"
     ],
     "answer": 1,
     "explanation": "A dark signal is treated as an all-way stop. When two vehicles stop at the same time, the driver on the left yields to the driver on the right.",
@@ -1048,7 +952,7 @@
       "Traffic waiting to enter at the other entries",
       "No one, if you are going straight",
       "Traffic already in the roundabout",
-      "Only vehicles larger than yours"
+      "Pedestrians only, not other vehicles"
     ],
     "answer": 2,
     "explanation": "Drivers entering a roundabout or traffic circle must yield to vehicles already circulating in it, then enter when there is a safe gap.",
@@ -1077,7 +981,7 @@
     "topic": "right-of-way",
     "prompt": "As you approach a roundabout, a pedestrian is in the crosswalk at the entry. What should you do?",
     "choices": [
-      "Enter quickly before the pedestrian reaches your lane",
+      "Enter before the pedestrian reaches your lane",
       "Honk, since pedestrians must yield at roundabouts",
       "Stop and let the pedestrian cross before you enter",
       "Go around the pedestrian on the central island"
@@ -1096,7 +1000,7 @@
       "Only traffic in the outer lane",
       "Only traffic in the inner lane",
       "Traffic in all lanes of the roundabout",
-      "Only traffic that is about to exit"
+      "Only traffic in the lane you plan to enter"
     ],
     "answer": 2,
     "explanation": "Vehicles in any circulating lane may cross your path, so yield to traffic in all lanes before entering a multi-lane roundabout.",
@@ -1109,8 +1013,8 @@
     "topic": "right-of-way",
     "prompt": "You are driving in a roundabout and a car is waiting to enter. What should you do?",
     "choices": [
-      "Stop to let the waiting car enter",
-      "Keep moving; you have the right-of-way and should not stop unless needed to avoid a crash",
+      "Stop and wave the waiting car in, since it was waiting first",
+      "Keep moving unless you must stop to avoid a crash",
       "Speed up so the waiting car can enter behind you",
       "Change lanes so the car can enter beside you"
     ],
@@ -1118,22 +1022,6 @@
     "explanation": "Vehicles already in the roundabout have the right-of-way. Stopping inside can cause a crash; stop only to avoid a collision or a pedestrian.",
     "difficulty": 2,
     "ref": "State driver handbooks (e.g., CA p. 46, AL p. 59, NH p. 33)"
-  },
-  {
-    "id": "car.row.071",
-    "track": "car",
-    "topic": "right-of-way",
-    "prompt": "You are entering a freeway from an on-ramp. Who has the right-of-way?",
-    "choices": [
-      "Traffic already on the freeway",
-      "You do, because you are entering",
-      "You do, once you turn on your signal",
-      "Whichever vehicle is going faster"
-    ],
-    "answer": 0,
-    "explanation": "Drivers entering a freeway or highway must yield to traffic already on it and merge only when there is a safe gap.",
-    "difficulty": 1,
-    "ref": "State driver handbooks (e.g., CO p. 14, NJ p. 70, AZ p. 31)"
   },
   {
     "id": "car.row.072",
@@ -1160,26 +1048,10 @@
       "Traffic in the continuing lane must stop to let you in",
       "You, the driver whose lane is ending",
       "Whichever driver is going faster",
-      "Whichever car is larger"
+      "Whichever driver signals first"
     ],
     "answer": 1,
     "explanation": "When merging, you must yield to traffic in the lane you are entering. Adjust your speed, signal, and merge into a safe gap.",
-    "difficulty": 2,
-    "ref": "State driver handbooks (e.g., CO p. 14, NJ p. 70, AZ p. 31)"
-  },
-  {
-    "id": "car.row.074",
-    "track": "car",
-    "topic": "right-of-way",
-    "prompt": "You are driving in the right lane of a highway. A car on the on-ramp is trying to merge. What is a helpful thing to do if it is safe?",
-    "choices": [
-      "Move over a lane or adjust your speed to give the merging car room",
-      "Speed up so it has to merge behind everyone",
-      "Stop in your lane to let it in",
-      "Stay beside it so it cannot merge too early"
-    ],
-    "answer": 0,
-    "explanation": "The merging driver must yield, but as a courtesy you can change lanes or adjust speed to make room, after checking that it is safe to do so.",
     "difficulty": 2,
     "ref": "State driver handbooks (e.g., CO p. 14, NJ p. 70, AZ p. 31)"
   },
@@ -1191,12 +1063,28 @@
     "choices": [
       "Keep going, because highway drivers must make room for you",
       "Merge anyway; the other driver will brake",
-      "Adjust your speed and merge behind or ahead of that car when there is a safe gap",
+      "Adjust your speed and find a safe gap",
       "Stop in the travel lane and wait"
     ],
     "answer": 2,
     "explanation": "Making room for merging traffic is a courtesy, not a duty that takes away your obligation to yield. The merging driver must find a safe gap.",
     "difficulty": 3,
     "ref": "State driver handbooks (e.g., CO p. 14, NJ p. 70, AZ p. 31)"
+  },
+  {
+    "id": "car.row.076",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You and another driver reach an intersection, and you are not sure which of you should go first. What is the safest choice?",
+    "choices": [
+      "Go first, since hesitating confuses other drivers",
+      "Yield and let the other driver go first",
+      "Go first if you are driving straight through",
+      "Flash your headlights, then go"
+    ],
+    "answer": 1,
+    "explanation": "Right-of-way is something you give, not something you take. If you are in doubt, yield; never insist on going first and risk a crash.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NE p. 57, NJ p. 70)"
   }
 ]

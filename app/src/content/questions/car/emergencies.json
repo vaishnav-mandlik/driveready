@@ -21,10 +21,10 @@
     "topic": "emergencies",
     "prompt": "Your brakes have failed and pumping the pedal does not help. What should you do next?",
     "choices": [
-      "Yank the parking brake on as hard as you can",
-      "Shift into Reverse to stop the wheels",
-      "Apply the parking brake gradually, ready to release it if the rear wheels lock",
-      "Turn the key to the Lock position"
+      "Pull the parking brake on hard all at once so the car stops fast",
+      "Shift into Reverse to make the wheels stop turning",
+      "Apply the parking brake slowly, ready to let go if the wheels lock",
+      "Turn the key to Lock so the engine stops pushing the car"
     ],
     "answer": 2,
     "explanation": "Use the parking (emergency) brake slowly and hold the release so you can ease off if the rear wheels lock and the car starts to skid. Pulling it hard all at once can lock the wheels.",
@@ -37,10 +37,10 @@
     "topic": "emergencies",
     "prompt": "A front tire suddenly blows out at highway speed. What should you do first?",
     "choices": [
-      "Brake hard to stop quickly",
+      "Brake hard to stop as quickly as possible",
       "Hold the steering wheel firmly with both hands",
-      "Steer sharply onto the shoulder",
-      "Shift into neutral"
+      "Steer sharply onto the shoulder right away",
+      "Shift into neutral and let the car roll"
     ],
     "answer": 1,
     "explanation": "Grip the wheel firmly and keep the car going straight. Hard braking or sharp steering right after a blowout can make you skid or lose control.",
@@ -54,9 +54,9 @@
     "prompt": "How should you slow down after a tire blowout?",
     "choices": [
       "Take your foot off the gas and slam on the brakes",
-      "Shift into neutral and coast",
-      "Pull the parking brake",
-      "Gradually ease off the gas pedal and let the car slow down"
+      "Shift into neutral and coast until the car stops",
+      "Pull the parking brake to slow down quickly",
+      "Ease off the gas slowly and let the car slow down"
     ],
     "answer": 3,
     "explanation": "Release the gas gradually while steering straight. Once the car is stable and slower, brake gently and pull completely off the road.",
@@ -69,10 +69,10 @@
     "topic": "emergencies",
     "prompt": "You have regained control after a blowout, but you are still in a travel lane with no shoulder. A safe pull-off area is a short distance ahead. What should you do?",
     "choices": [
-      "Stop right away in your lane and change the tire",
-      "Stop in your lane, turn on your flashers, and wait for help",
-      "Drive slowly on the flat tire to the safe area, then stop completely off the road",
-      "Speed up so you get there before the tire comes apart"
+      "Stop right away in your lane and change the tire there",
+      "Stop in your lane, turn on your flashers, and wait for a tow truck",
+      "Drive slowly on the flat to the safe area, then stop off the road",
+      "Stop where you are, even partly in the lane, to protect the rim"
     ],
     "answer": 2,
     "explanation": "Driving slowly on a flat to reach a safe spot is better than stopping in traffic, even if it damages the rim. Make sure the car is off the road before you change the tire.",
@@ -86,9 +86,9 @@
     "prompt": "While driving, you hear a steady thumping from one of your wheels. What is the best thing to do?",
     "choices": [
       "Pull safely off the road and check your tires",
-      "Turn up the radio and keep driving",
-      "Speed up to see if the noise stops",
-      "Brake hard to test the tire"
+      "Keep driving and have the tires checked at your next service",
+      "Speed up slightly to see if the noise goes away",
+      "Brake hard a few times to test the tire"
     ],
     "answer": 0,
     "explanation": "A thumping sound can warn of a tire about to blow out or a loose wheel. Leave the road where it is safe and check the vehicle.",
@@ -149,10 +149,10 @@
     "topic": "emergencies",
     "prompt": "You correct a skid, and now the rear of the car starts sliding the other way. What should you do?",
     "choices": [
-      "Brake hard because the first correction failed",
-      "Hold the wheel still and wait",
-      "Steer smoothly in that new direction, correcting as many times as needed",
-      "Turn the wheel sharply and accelerate"
+      "Brake hard, because the first correction has failed",
+      "Hold the wheel perfectly still and wait for the car to straighten",
+      "Steer smoothly that way, correcting as many times as needed",
+      "Turn the wheel sharply and press the gas to pull out of it"
     ],
     "answer": 2,
     "explanation": "A second, smaller skid in the opposite direction is common. Handle it the same way: steer toward where the rear is sliding, and keep correcting until the car is straight.",
@@ -160,30 +160,14 @@
     "ref": "State driver handbooks (e.g., PA p. 65, NY p. 64, AZ p. 70)"
   },
   {
-    "id": "car.em.011",
-    "track": "car",
-    "topic": "emergencies",
-    "prompt": "Your car is front-wheel drive. How does that change the way you recover from a skid?",
-    "choices": [
-      "Steer away from the direction of the skid",
-      "It does not change it: use the same method as in any car",
-      "Press the gas firmly to pull the car straight",
-      "Brake hard because front-wheel drive cars do not lock up"
-    ],
-    "answer": 1,
-    "explanation": "Handbooks teach the same skid recovery for front-, rear- and four-wheel drive cars: ease off the gas and steer where you want to go.",
-    "difficulty": 3,
-    "ref": "State driver handbooks (e.g., NJ p. 106, NY p. 64)"
-  },
-  {
     "id": "car.em.012",
     "track": "car",
     "topic": "emergencies",
     "prompt": "In a car without ABS, you brake too hard. The wheels lock and the car keeps sliding forward no matter how you turn the wheel. What should you do?",
     "choices": [
-      "Push the brake pedal even harder",
-      "Turn the steering wheel farther",
-      "Shift into Park",
+      "Press the brake even harder until the car stops sliding",
+      "Turn the steering wheel farther in the direction you want to go",
+      "Shift into Park to lock the transmission",
       "Ease off the brake so the wheels roll again, then steer"
     ],
     "answer": 3,
@@ -197,10 +181,10 @@
     "topic": "emergencies",
     "prompt": "Your car has anti-lock brakes (ABS). How should you brake in an emergency stop?",
     "choices": [
-      "Pump the pedal rapidly",
-      "Press lightly and release several times",
+      "Pump the pedal quickly to keep the wheels from locking",
+      "Press lightly, then release, over and over",
       "Press the pedal firmly and keep steady pressure on it",
-      "Use only the parking brake"
+      "Pull the parking brake along with the foot brake"
     ],
     "answer": 2,
     "explanation": "With ABS, press hard and hold the pedal down. The system pumps the brakes for you, so pumping the pedal yourself makes it less effective.",
@@ -229,10 +213,10 @@
     "topic": "emergencies",
     "prompt": "You must stop quickly in a car without ABS. What is the best technique?",
     "choices": [
-      "Press as hard as you can and hold it no matter what",
-      "Brake gently and steer onto the shoulder",
-      "Shift to neutral and use the parking brake",
-      "Brake firmly without locking the wheels; if they lock, ease up and reapply"
+      "Press as hard as you can and hold the pedal down no matter what",
+      "Brake gently and steer onto the shoulder so you can stop there",
+      "Shift into neutral and pull the parking brake hard",
+      "Brake firmly without locking; if the wheels lock, ease up and reapply"
     ],
     "answer": 3,
     "explanation": "Without ABS, locked wheels skid and cannot steer. Apply strong pressure just short of locking; if the wheels lock, release briefly and brake again.",
@@ -279,7 +263,7 @@
     "choices": [
       "Something is broken, so shift back into Drive right away",
       "The engine will stall, so turn the key to Lock",
-      "It is normal; the engine is no longer driving the wheels, so brake and pull off",
+      "This is normal; brake and steer off the road",
       "The brakes have failed, so use the parking brake"
     ],
     "answer": 2,
@@ -309,9 +293,9 @@
     "topic": "emergencies",
     "prompt": "Why is it dangerous to steer sharply back onto the road right after your wheels drop off the pavement edge?",
     "choices": [
-      "It will flatten your tires",
-      "It wears out the steering",
-      "It is illegal to drive on the shoulder",
+      "The car will stall when the wheels hit the pavement",
+      "It puts too much strain on the power steering",
+      "It is illegal to drive on the shoulder for any reason",
       "The car can whip across the road into oncoming traffic"
     ],
     "answer": 3,
@@ -325,13 +309,13 @@
     "topic": "emergencies",
     "prompt": "Your right wheels are on the shoulder below the pavement edge. You have eased off the gas and are straddling the edge. What should you do next?",
     "choices": [
-      "Turn back sharply while still at highway speed",
-      "Brake hard with two wheels on the soft shoulder",
-      "Slow down, check traffic behind you, signal, and steer gently back onto the road",
-      "Stop on the shoulder and wait for a tow truck"
+      "Turn back sharply right away, before you lose more speed",
+      "Brake hard to stop while two wheels are on the shoulder",
+      "Slow down, check traffic, and steer gently back onto the road",
+      "Speed up so the tires can climb over the pavement edge"
     ],
     "answer": 2,
-    "explanation": "Once your speed is low and the lane is clear, ease the wheels back onto the pavement with a small steering movement. Hard braking with two wheels on a soft shoulder can cause a skid.",
+    "explanation": "Once your speed is low and the lane is clear, ease the wheels back onto the pavement with a small steering movement. Turning sharply at speed can send you across the road, and hard braking with two wheels on a soft shoulder can cause a skid.",
     "difficulty": 3,
     "ref": "State driver handbooks (e.g., PA p. 68, TX p. 55, NY p. 65)"
   },
@@ -341,10 +325,10 @@
     "topic": "emergencies",
     "prompt": "Your engine dies while you are driving. What should you expect and do?",
     "choices": [
-      "Steering and braking will be harder, so grip firmly, press the brake harder, and pull off the road",
-      "The brakes will no longer work at all, so use only the parking brake",
-      "The steering locks immediately, so let go of the wheel",
-      "Keep driving in neutral until the engine restarts itself"
+      "Expect harder steering and braking; grip firmly, brake harder, and pull off",
+      "The brakes will stop working completely, so use only the parking brake",
+      "The steering locks at once, so brake hard and stop in your lane",
+      "Nothing changes, because steering and brakes do not depend on the engine"
     ],
     "answer": 0,
     "explanation": "Without the engine, power steering and power brakes lose their assist, but they still work. Use extra effort to steer and brake, and get off the road.",
@@ -357,15 +341,15 @@
     "topic": "emergencies",
     "prompt": "Your steering wheel suddenly stops responding when you turn it. What should you do?",
     "choices": [
-      "Brake hard to stop as fast as you can",
-      "Shift to a lower gear right away",
-      "Speed up to keep the car balanced",
-      "Ease off the gas, turn on your flashers, and brake very gently as the car slows"
+      "Brake hard right away to stop as fast as you can",
+      "Shift to a lower gear right away to slow the car quickly",
+      "Keep your speed steady and keep turning the wheel until it responds",
+      "Ease off the gas, turn on flashers, and brake gently as you slow"
     ],
     "answer": 3,
-    "explanation": "A sudden change in speed can throw the car out of control. Slow down gradually; once the car is slower, brake carefully to a stop.",
+    "explanation": "A sudden change in speed can throw the car out of control. Ease off the gas, warn others with your flashers, and once the car has slowed, brake very gently to a stop.",
     "difficulty": 3,
-    "ref": "State driver handbooks (e.g., NY p. 65, AL p. 76)"
+    "ref": "State driver handbooks (e.g., NY p. 65, IL p. 92, NV p. 58, AL p. 76)"
   },
   {
     "id": "car.em.024",
@@ -373,10 +357,10 @@
     "topic": "emergencies",
     "prompt": "Your headlights suddenly go out at night. What should you try first?",
     "choices": [
-      "Stop immediately in your lane",
+      "Stop right away in your lane",
       "Work the headlight and dimmer (high/low beam) switches",
-      "Keep driving and follow the car ahead",
-      "Turn off the engine and restart it"
+      "Switch on the interior dome light so you can see",
+      "Turn the engine off and back on to reset the lights"
     ],
     "answer": 1,
     "explanation": "Flipping the headlight or dimmer switch may bring the lights back. If not, turn on parking lights, flashers or turn signals and pull off the road.",
@@ -389,10 +373,10 @@
     "topic": "emergencies",
     "prompt": "Your headlights fail at night, and the switches do not bring them back. What should you do?",
     "choices": [
-      "Turn on your flashers, parking lights or turn signals and pull off the road as soon as it is safe",
-      "Keep driving slowly in the center of the road",
+      "Use flashers, parking lights or turn signals and pull off the road",
+      "Drive slowly along the center line so others can see you",
       "Follow the taillights of another car to your destination",
-      "Stop where you are and turn off all lights"
+      "Stop right where you are in the lane and wait for daylight"
     ],
     "answer": 0,
     "explanation": "Other lights may still work and give you enough light to be seen and leave the road safely. Then call for help.",
@@ -406,9 +390,9 @@
     "prompt": "Your hood suddenly flies up and blocks your view. How can you see the road?",
     "choices": [
       "Stick your head out the window while speeding up",
-      "Brake hard and stop in the lane",
+      "Brake hard and stop right where you are in the lane",
       "Look through the gap under the hood or out your side window",
-      "Turn on the windshield wipers"
+      "Turn on the wipers and defroster to clear your view"
     ],
     "answer": 2,
     "explanation": "There is often a gap below the raised hood, and the side window gives another view. Use them to steer while you slow down.",
@@ -437,9 +421,9 @@
     "topic": "emergencies",
     "prompt": "After stopping your car because of a fire, what is the top priority?",
     "choices": [
-      "Gather your belongings from the trunk",
-      "Stay inside with the windows closed",
-      "Try to drive to a gas station for help",
+      "Open the hood to see how big the fire is",
+      "Stay inside with the windows closed until help arrives",
+      "Drive to the nearest gas station to use their extinguisher",
       "Get everyone out and well away from the car, then call 911"
     ],
     "answer": 3,
@@ -453,15 +437,15 @@
     "topic": "emergencies",
     "prompt": "Why should you never use water on a burning gasoline fire?",
     "choices": [
-      "Water makes the car battery explode",
-      "Water freezes on hot metal",
+      "Water can make the car battery explode",
+      "Water turns to steam and cracks the engine block",
       "The burning gasoline floats on water and spreads the flames",
-      "Water damages the paint"
+      "Water ruins the engine so badly that it cannot be repaired"
     ],
     "answer": 2,
-    "explanation": "Gasoline floats on water, so water spreads the fire. If you use anything, use a fire extinguisher, and get away if the fire is not quickly controlled.",
+    "explanation": "Burning gasoline floats on water, so water spreads the fire. Handbooks suggest a fire extinguisher, sand or dirt instead, and say to get well away if the fire is not quickly controlled.",
     "difficulty": 2,
-    "ref": "State driver handbooks (e.g., AZ p. 68, AL p. 77)"
+    "ref": "State driver handbooks (e.g., AZ p. 68, AL p. 77, NV p. 58)"
   },
   {
     "id": "car.em.030",
@@ -485,9 +469,9 @@
     "topic": "emergencies",
     "prompt": "Your car stalls on railroad tracks and a train is coming. What should you do?",
     "choices": [
-      "Keep trying to start the engine",
-      "Stay inside with your seat belt on",
-      "Get out and try to push the car off",
+      "Keep trying to restart the engine until the train is close",
+      "Stay inside with your seat belt on and brace for impact",
+      "Get out and try to push the car off the tracks",
       "Get everyone out right away and move away from the tracks"
     ],
     "answer": 3,
@@ -501,14 +485,14 @@
     "topic": "emergencies",
     "prompt": "After leaving a car stalled on the tracks with a train approaching, which way should you go?",
     "choices": [
-      "Along the tracks in the same direction the train is going",
-      "Away from the tracks at an angle toward the direction the train is coming from",
-      "Straight back to the car to grab your things",
-      "Across the tracks in front of the train"
+      "Along the tracks in the same direction the train is traveling",
+      "Away from the tracks, at an angle toward the oncoming train",
+      "Away from the tracks, at an angle in the direction the train is traveling",
+      "Across the tracks to the far side, in front of the train"
     ],
     "answer": 1,
-    "explanation": "When the train hits the car, debris is thrown forward in the train's direction of travel. Moving away at an angle toward the train keeps you out of that path.",
-    "difficulty": 2,
+    "explanation": "When the train hits the car, debris is thrown forward in the train's direction of travel. Moving away from the tracks at an angle toward the oncoming train keeps you out of that path.",
+    "difficulty": 3,
     "ref": "State driver handbooks (e.g., NJ p. 108, CA p. 76, FL p. 87, NY p. 66)"
   },
   {
@@ -517,15 +501,15 @@
     "topic": "emergencies",
     "prompt": "Your car is stuck on the tracks, everyone is out, and no train is in sight. Whom should you call?",
     "choices": [
-      "The emergency phone number on the blue sign at the crossing, and 911",
-      "A tow company only",
-      "Your insurance company first",
-      "No one, if you can push the car off later"
+      "The railroad's number on the blue sign at the crossing",
+      "A tow company, to pull the car off the tracks",
+      "Your insurance company, to report the damage",
+      "No one, since no train is in sight right now"
     ],
     "answer": 0,
-    "explanation": "Every public crossing has a blue Emergency Notification System sign with a railroad phone number. The railroad can warn or stop trains headed for the crossing.",
+    "explanation": "Crossings have a blue Emergency Notification System sign with the railroad's phone number and a crossing ID. The railroad can warn or stop trains headed for the crossing. If you cannot find the sign, call 911.",
     "difficulty": 2,
-    "ref": "State driver handbooks (e.g., CO p. 24, AK p. 64, CA p. 76)"
+    "ref": "State driver handbooks (e.g., FL p. 88, CO p. 24, AK p. 64, CA p. 76)"
   },
   {
     "id": "car.em.034",
@@ -534,9 +518,9 @@
     "prompt": "You are stalled on a crossing, and the warning lights start flashing, but you cannot see a train yet. What should you do?",
     "choices": [
       "Keep trying to restart the engine until you see the train",
-      "Wait in the car until you hear the horn",
+      "Wait in the car until you can hear the train's horn",
       "Get out immediately, because a train may arrive within seconds",
-      "Push the car off the tracks yourself"
+      "Push the car off the tracks yourself before the train comes"
     ],
     "answer": 2,
     "explanation": "Flashing lights mean a train is on its way and may arrive in seconds. Leave the car right away and move well clear of the tracks.",
@@ -565,9 +549,9 @@
     "topic": "emergencies",
     "prompt": "Your car with power windows has just plunged into water. When should you try to open the windows?",
     "choices": [
-      "After the car fills with water",
-      "Once you have called for help",
-      "Only after the car touches the bottom",
+      "Only after you call 911 and tell them where you are",
+      "Once water starts coming in around the doors",
+      "Never; keep them shut to slow the water down",
       "Immediately, before the electrical system shorts out"
     ],
     "answer": 3,
@@ -581,10 +565,10 @@
     "topic": "emergencies",
     "prompt": "Your car has sunk before you could get out. Where is an air pocket most likely to form?",
     "choices": [
-      "Under the dashboard",
-      "Near the floor in front",
+      "Under the dashboard in front",
+      "Near the floor by the front seats",
       "Near the roof at the back of the car",
-      "Inside the trunk"
+      "Near the floor in the back seat"
     ],
     "answer": 2,
     "explanation": "Most cars have the engine in front and sink nose first, pushing air toward the rear near the roof. Take a breath there, then escape through a window.",
@@ -646,9 +630,9 @@
     "prompt": "A car is coming toward you in your lane on a two-lane road. What should you do?",
     "choices": [
       "Slow down, move to the right, and sound your horn",
-      "Swerve into the left lane",
-      "Speed up and flash your high beams",
-      "Stop in your lane and wait"
+      "Swerve into the left lane to go around it",
+      "Speed up and flash your high beams to warn them",
+      "Stop in your lane and hold your horn down"
     ],
     "answer": 0,
     "explanation": "Slow, steer right, and warn the other driver with your horn (and lights at night). Escape to the right, even onto the shoulder.",
@@ -662,9 +646,9 @@
     "prompt": "An oncoming car drifts into your lane. Why is swerving into the left lane a bad idea?",
     "choices": [
       "It is always illegal to cross the center line",
-      "Your car cannot turn left at speed",
-      "The other driver may recover and move back into that same lane",
-      "The left lane is always slower"
+      "Turning left at speed will roll most cars over",
+      "The other driver may swerve back into that lane too",
+      "Other drivers will think you are passing illegally"
     ],
     "answer": 2,
     "explanation": "If the other driver corrects at the last moment, you would meet head-on in the left lane. Move right instead.",
@@ -677,15 +661,15 @@
     "topic": "emergencies",
     "prompt": "A crash cannot be avoided. Which is the safest thing to hit?",
     "choices": [
-      "A tree",
+      "A large tree beside the road",
       "Bushes or shrubs that will give way",
-      "A concrete wall",
-      "A utility pole"
+      "A solid concrete wall or building",
+      "A wooden utility pole or light post"
     ],
     "answer": 1,
     "explanation": "If you must hit something, choose an object that will give way and absorb energy, not something hard.",
     "difficulty": 2,
-    "ref": "State driver handbooks (e.g., NJ p. 111)"
+    "ref": "State driver handbooks (e.g., NJ p. 111, FL p. 83)"
   },
   {
     "id": "car.em.044",
@@ -693,15 +677,15 @@
     "topic": "emergencies",
     "prompt": "You cannot avoid hitting one of these. Which choice is likely to be least severe?",
     "choices": [
-      "A parked car",
-      "A vehicle coming straight at you",
-      "A stone wall",
+      "A car parked along the side of the road",
+      "A vehicle coming straight toward you in your lane",
+      "A stone wall at the edge of the road",
       "A vehicle ahead moving in the same direction as you"
     ],
     "answer": 3,
     "explanation": "Hitting something moving the same way reduces the force of impact. A stopped object is worse, and a head-on crash with oncoming traffic is the worst.",
     "difficulty": 3,
-    "ref": "State driver handbooks (e.g., NJ p. 111)"
+    "ref": "State driver handbooks (e.g., NJ p. 111, FL p. 83)"
   },
   {
     "id": "car.em.045",
@@ -710,14 +694,14 @@
     "prompt": "If a crash is unavoidable, what kind of impact should you try for?",
     "choices": [
       "A direct, square hit so the air bags work",
-      "A hit on the driver's side",
+      "A hit on your door, so the front of the car is spared",
       "A glancing blow instead of a head-on hit",
-      "A full-speed hit to get it over quickly"
+      "Locking the brakes and sliding straight into it"
     ],
     "answer": 2,
     "explanation": "Steering even slightly away so you strike at an angle spreads out the crash energy and reduces injury. Avoid head-on impacts.",
     "difficulty": 2,
-    "ref": "State driver handbooks (e.g., NJ p. 111, MT p. 89)"
+    "ref": "State driver handbooks (e.g., NJ p. 111, NM p. 36, MT p. 89)"
   },
   {
     "id": "car.em.046",
@@ -725,10 +709,10 @@
     "topic": "emergencies",
     "prompt": "When can speeding up be the best way to avoid a crash?",
     "choices": [
-      "When a vehicle is about to hit you from the side or behind and there is room ahead",
-      "Whenever a light turns yellow",
-      "When a pedestrian steps out in front of you",
-      "When the car ahead stops suddenly"
+      "When a car is about to hit you from the side and the road ahead is clear",
+      "Whenever a traffic light turns yellow just as you approach it",
+      "When a pedestrian suddenly steps into the road ahead of you",
+      "When the car ahead of you stops suddenly in your lane"
     ],
     "answer": 0,
     "explanation": "If danger is coming from the side or rear and the space ahead is clear, accelerating can get you out of the way. Slow back down once you are clear.",
@@ -741,13 +725,13 @@
     "topic": "emergencies",
     "prompt": "You are stopped and see in your mirror that a car is about to hit you from behind. How should you protect yourself?",
     "choices": [
-      "Lean forward toward the steering wheel",
+      "Lean forward toward the steering wheel to brace yourself",
       "Unbuckle your seat belt so you can get out fast",
-      "Turn around in your seat to watch the car",
-      "Press your head against the head restraint and brace against the seat back"
+      "Turn around in your seat so you can watch the car coming",
+      "Press your head against the head restraint and brace yourself"
     ],
     "answer": 3,
-    "explanation": "In a rear crash your body is thrown backward. Keeping your head against the head restraint helps prevent neck injury.",
+    "explanation": "In a rear crash your body is thrown backward. Keeping your head against the head restraint helps prevent neck injury; also be ready to brake so you are not pushed into another vehicle.",
     "difficulty": 2,
     "ref": "State driver handbooks (e.g., NJ p. 111, MT p. 89)"
   },
@@ -757,10 +741,10 @@
     "topic": "emergencies",
     "prompt": "Your car is about to be hit from the side. What should you do?",
     "choices": [
-      "Let go of the wheel and cover your face",
-      "Keep a firm grip on the wheel and be ready to steer and brake after impact",
-      "Unbuckle and lean toward the other side",
-      "Turn the engine off"
+      "Let go of the wheel and cover your face with your arms",
+      "Keep a firm grip on the wheel and be ready to steer after the hit",
+      "Unbuckle and lean away from the side about to be hit",
+      "Turn the engine off so the car cannot catch fire"
     ],
     "answer": 1,
     "explanation": "Holding the wheel helps keep you in position, and you must be ready to control the car if it spins after the hit.",
@@ -773,10 +757,10 @@
     "topic": "emergencies",
     "prompt": "Your car breaks down on the highway. What should you do?",
     "choices": [
-      "Pull as far off the road as possible and turn on your hazard flashers",
-      "Stop in your lane and wait for help",
-      "Leave your lights off to save the battery",
-      "Stop on the next curve where the road is wider"
+      "Pull as far off the road as you can and turn on your flashers",
+      "Stop in your lane, stay in the car, and wait for help",
+      "Leave all lights off to save the battery for restarting",
+      "Coast to the next curve, where the road is usually wider"
     ],
     "answer": 0,
     "explanation": "Get completely off the road if you can and turn on your flashers so other drivers can see you.",
@@ -789,8 +773,8 @@
     "topic": "emergencies",
     "prompt": "Where should you place warning triangles or flares when your car is broken down on the shoulder?",
     "choices": [
-      "In front of your vehicle only",
-      "On top of your vehicle",
+      "In front of your vehicle, facing the way you were going",
+      "On the roof of your vehicle so they can be seen from far away",
       "Behind your vehicle, facing approaching traffic",
       "In the next lane over, beside your car"
     ],
@@ -807,7 +791,7 @@
     "choices": [
       "A wide, straight shoulder",
       "Just over the top of a hill or just around a curve",
-      "A parking lot",
+      "A parking lot just off the road",
       "A highway exit ramp shoulder with good visibility"
     ],
     "answer": 1,
@@ -824,7 +808,7 @@
       "Exit on the driver's side so you can reach the trunk quickly",
       "Stand directly behind the car to wave traffic over",
       "Walk along the edge of the travel lane to find help",
-      "Exit on the side away from traffic and stay out of the travel lanes"
+      "Exit on the side away from traffic and stay clear of the lanes"
     ],
     "answer": 3,
     "explanation": "Get out on the side away from traffic. Standing behind the car can block your taillights and put you in the path of a crash.",
@@ -837,10 +821,10 @@
     "topic": "emergencies",
     "prompt": "You are involved in a minor crash with only slight damage. Must you stop?",
     "choices": [
-      "No, only if someone is hurt",
-      "No, only if the police arrive",
+      "No, you only need to stop if someone is hurt",
+      "No, as long as both drivers agree it was minor",
       "Yes, you must stop no matter how small the damage",
-      "No, only if the damage is serious"
+      "No, you only need to stop if the damage is serious"
     ],
     "answer": 2,
     "explanation": "Drivers involved in any crash must stop. Leaving the scene is a hit-and-run and can carry severe penalties.",
@@ -885,10 +869,10 @@
     "topic": "emergencies",
     "prompt": "After a crash, should you move an injured person?",
     "choices": [
-      "Yes, always move them into your car",
+      "Yes, move them into your car to keep them warm",
       "No, unless they are in immediate danger, such as from fire",
-      "Yes, sit them up so they can breathe",
-      "Yes, carry them to the side of the road"
+      "Yes, sit them up so they can breathe more easily",
+      "Yes, carry them to the side of the road right away"
     ],
     "answer": 1,
     "explanation": "Moving an injured person can make injuries worse. Move them only if they are in immediate danger, keeping the back and neck as straight as possible.",
@@ -901,10 +885,10 @@
     "topic": "emergencies",
     "prompt": "Which information should drivers exchange after a crash?",
     "choices": [
-      "Name, address, driver license number, vehicle plate, and insurance details",
-      "Only first names and phone numbers",
-      "Only the insurance company's name",
-      "Nothing until a lawyer is present"
+      "Names, addresses, license numbers, plates, and insurance details",
+      "Only first names and phone numbers, to keep it private",
+      "Only the name of each driver's insurance company",
+      "Nothing at all until a police officer arrives"
     ],
     "answer": 0,
     "explanation": "Exchange full identifying details: name, address, license number, plate and vehicle information, and insurance company and policy number. Also note witnesses.",
@@ -917,15 +901,15 @@
     "topic": "emergencies",
     "prompt": "You back into an unattended parked car and cannot find the owner. What should you do?",
     "choices": [
-      "Drive away if the damage looks small",
-      "Wait 10 minutes and then leave",
-      "Leave a note with your name and contact information and report it to police",
-      "Take a photo and leave without a note"
+      "Drive away, since the damage is small and no one saw it",
+      "Wait 10 minutes for the owner, then leave if no one comes",
+      "Leave a note with your contact information and notify police",
+      "Take a photo of the damage and leave without a note"
     ],
     "answer": 2,
-    "explanation": "Try to find the owner. If you cannot, securely attach a note with your name and how to reach you, and notify police.",
+    "explanation": "Try to find the owner. If you cannot, securely attach a note with your name and how to reach you. Many states also require you to report the crash to police, and handbooks recommend it.",
     "difficulty": 2,
-    "ref": "State driver handbooks (e.g., CA p. 83, FL p. 85, MT p. 90)"
+    "ref": "State driver handbooks (e.g., CA p. 83, FL p. 85, PA p. 85, CO p. 29)"
   },
   {
     "id": "car.em.059",
@@ -934,14 +918,14 @@
     "prompt": "After a minor crash with no injuries, both cars can still be driven but are blocking traffic. What is usually best?",
     "choices": [
       "Leave the cars exactly where they are until police arrive",
-      "Move the cars out of the travel lanes to a safe spot, then exchange information",
+      "Move the cars out of traffic, then exchange information",
       "Stand in the lane to direct traffic around the cars",
-      "Drive home and call the other driver later"
+      "Drive home and call the other driver after you get there"
     ],
     "answer": 1,
     "explanation": "When no one is hurt and the cars are drivable, moving them out of traffic reduces the risk of a second crash. Do not leave the scene.",
     "difficulty": 2,
-    "ref": "State driver handbooks (e.g., CA p. 83, AZ p. 71, FL p. 85)"
+    "ref": "State driver handbooks (e.g., CA p. 83, CO p. 29, NV p. 76, AR p. 92)"
   },
   {
     "id": "car.em.060",
@@ -949,15 +933,15 @@
     "topic": "emergencies",
     "prompt": "After a crash, a power line has fallen across your car. What should you do?",
     "choices": [
-      "Get out and run to the nearest house",
-      "Try to push the wire off with your hand",
-      "Get out and wait right beside the car",
+      "Get out and run to the nearest house to call for help",
+      "Try to push the wire off the car with your hand",
+      "Get out and wait right beside the car for help",
       "Stay inside and warn others to stay away until help arrives"
     ],
     "answer": 3,
     "explanation": "If wires touch the car, occupants should stay inside until help arrives, and others should not go near the wires.",
     "difficulty": 3,
-    "ref": "State driver handbooks (e.g., NY p. 77, MT p. 89)"
+    "ref": "State driver handbooks (e.g., NY p. 77, IL p. 91, MT p. 89)"
   },
   {
     "id": "car.em.061",
@@ -965,7 +949,7 @@
     "topic": "emergencies",
     "prompt": "A crash victim is bleeding heavily. What is the best first aid while you wait for help?",
     "choices": [
-      "Give the person water to drink",
+      "Give the person some water to drink to stay alert",
       "Have the person stand up and walk to your car",
       "Press firmly on the wound with a cloth or your hand",
       "Leave it alone until paramedics arrive"
@@ -997,10 +981,10 @@
     "topic": "emergencies",
     "prompt": "Which set of symptoms may signal carbon monoxide poisoning while driving?",
     "choices": [
-      "Sneezing and itchy eyes",
-      "Hunger and thirst",
-      "Sore muscles and a stiff neck",
-      "Headache, dizziness, nausea, and unusual tiredness or yawning"
+      "Sneezing, itchy eyes, and a runny nose",
+      "Hunger, thirst, and a dry mouth",
+      "Sore muscles, a stiff neck, and back pain",
+      "Headache, dizziness, nausea, and tiredness"
     ],
     "answer": 3,
     "explanation": "Headache, dizziness, nausea, drowsiness and yawning are common signs. If you notice them, get fresh air right away and have your exhaust system checked.",
@@ -1008,51 +992,35 @@
     "ref": "State driver handbooks (e.g., CA p. 77, PA p. 99, AL p. 75)"
   },
   {
-    "id": "car.em.064",
-    "track": "car",
-    "topic": "emergencies",
-    "prompt": "Which practice helps prevent carbon monoxide poisoning?",
-    "choices": [
-      "Warm up the car in a closed garage on cold days",
-      "Never run the engine inside a garage, even with the door open",
-      "Keep all windows tightly closed while idling",
-      "Drive with the trunk or tailgate open"
-    ],
-    "answer": 1,
-    "explanation": "Idling in a garage or other enclosed space lets exhaust build up. An open trunk or tailgate can also pull exhaust into the car.",
-    "difficulty": 2,
-    "ref": "State driver handbooks (e.g., NJ p. 50, CA p. 77, TX p. 74)"
-  },
-  {
-    "id": "car.em.065",
-    "track": "car",
-    "topic": "emergencies",
-    "prompt": "You are stranded in a snowstorm and run the engine for heat. What should you do to avoid carbon monoxide poisoning?",
-    "choices": [
-      "Keep the tailpipe clear of snow and open a window slightly",
-      "Close every window tightly to keep the heat in",
-      "Run the engine nonstop all night",
-      "Pack snow around the back of the car for insulation"
-    ],
-    "answer": 0,
-    "explanation": "A tailpipe blocked by snow can force exhaust into the car. Run the engine only sometimes, with a window cracked open for fresh air.",
-    "difficulty": 2,
-    "ref": "State driver handbooks (e.g., NE p. 71, NJ p. 50)"
-  },
-  {
     "id": "car.em.066",
     "track": "car",
     "topic": "emergencies",
     "prompt": "A passenger becomes dizzy and confused, and you suspect carbon monoxide. What should you do?",
     "choices": [
-      "Turn up the heater and keep driving",
-      "Let them sleep it off in the car",
+      "Close the windows, turn up the heat, and keep driving",
+      "Let them lie down and sleep it off in the car",
       "Get them into fresh air right away and call 911",
-      "Give them coffee to wake them up"
+      "Give them coffee or soda to help them wake up"
     ],
     "answer": 2,
     "explanation": "Fresh air is the cure for carbon monoxide exposure. Move the person to fresh air and call 911 for medical help.",
     "difficulty": 3,
     "ref": "State driver handbooks (e.g., TX p. 74, AL p. 75, AK p. 81)"
+  },
+  {
+    "id": "car.em.067",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Your brake warning light comes on, and the pedal goes down farther than usual before the car slows. What should you do?",
+    "choices": [
+      "Keep driving and have it checked at your next oil change",
+      "Slow down, pull off safely, and have the brakes checked",
+      "Pump the brakes hard until the warning light goes off",
+      "Speed up to get home before the brakes get any worse"
+    ],
+    "answer": 1,
+    "explanation": "A brake warning light can mean part of the brake system has failed. Many cars can still brake with two wheels, so slow down, get off the road safely, and have the brakes repaired before driving on.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., PA p. 66)"
   }
 ]

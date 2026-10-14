@@ -1,0 +1,182 @@
+[
+  {
+    "code": "SIG-RED",
+    "name": "Steady red light",
+    "category": "signal",
+    "shape": "Traffic signal",
+    "colors": "",
+    "meaning": "Come to a complete stop. You may turn right (and in some states left onto a one-way street) after stopping only if no sign prohibits it and it is safe.",
+    "license": "app-drawn",
+    "svgPath": "svg/SIG-RED.svg"
+  },
+  {
+    "code": "SIG-YELLOW",
+    "name": "Steady yellow light",
+    "category": "signal",
+    "shape": "Traffic signal",
+    "colors": "",
+    "meaning": "The light is about to turn red. Stop if you can do so safely; if you are too close to stop safely, proceed with caution.",
+    "license": "app-drawn",
+    "svgPath": "svg/SIG-YELLOW.svg"
+  },
+  {
+    "code": "SIG-GREEN",
+    "name": "Steady green light",
+    "category": "signal",
+    "shape": "Traffic signal",
+    "colors": "",
+    "meaning": "Go if the intersection is clear, yielding to pedestrians and to vehicles still in the intersection. When turning left, yield to oncoming traffic.",
+    "license": "app-drawn",
+    "svgPath": "svg/SIG-GREEN.svg"
+  },
+  {
+    "code": "SIG-FLASH-RED",
+    "name": "Flashing red light",
+    "category": "signal",
+    "shape": "Traffic signal",
+    "colors": "",
+    "meaning": "Treat it like a stop sign: come to a complete stop, yield, and go only when it is safe.",
+    "license": "app-drawn",
+    "svgPath": "svg/SIG-FLASH-RED.svg"
+  },
+  {
+    "code": "SIG-FLASH-YELLOW",
+    "name": "Flashing yellow light",
+    "category": "signal",
+    "shape": "Traffic signal",
+    "colors": "",
+    "meaning": "Slow down and proceed with caution; watch for cross traffic and pedestrians.",
+    "license": "app-drawn",
+    "svgPath": "svg/SIG-FLASH-YELLOW.svg"
+  },
+  {
+    "code": "SIG-GREEN-ARROW-LEFT",
+    "name": "Green left-turn arrow",
+    "category": "signal",
+    "shape": "Traffic signal",
+    "colors": "",
+    "meaning": "Protected left turn: you may turn left in the direction of the arrow; oncoming traffic is stopped. Still yield to pedestrians and vehicles in the intersection.",
+    "license": "app-drawn",
+    "svgPath": "svg/SIG-GREEN-ARROW-LEFT.svg"
+  },
+  {
+    "code": "SIG-YELLOW-ARROW-LEFT",
+    "name": "Steady yellow left arrow",
+    "category": "signal",
+    "shape": "Traffic signal",
+    "colors": "",
+    "meaning": "The protected left-turn period is ending. Stop if you can do so safely, or complete the turn with caution if you are already in the intersection.",
+    "license": "app-drawn",
+    "svgPath": "svg/SIG-YELLOW-ARROW-LEFT.svg"
+  },
+  {
+    "code": "SIG-RED-ARROW-LEFT",
+    "name": "Red left arrow",
+    "category": "signal",
+    "shape": "Traffic signal",
+    "colors": "",
+    "meaning": "Do not turn left. Stop and wait until a green arrow or a permissive signal allows the turn.",
+    "license": "app-drawn",
+    "svgPath": "svg/SIG-RED-ARROW-LEFT.svg"
+  },
+  {
+    "code": "SIG-FLASH-YELLOW-ARROW-LEFT",
+    "name": "Flashing yellow left arrow",
+    "category": "signal",
+    "shape": "Traffic signal",
+    "colors": "",
+    "meaning": "Left turns are allowed but not protected: yield to oncoming traffic and pedestrians, then turn when there is a safe gap.",
+    "license": "app-drawn",
+    "svgPath": "svg/SIG-FLASH-YELLOW-ARROW-LEFT.svg"
+  },
+  {
+    "code": "SIG-GREEN-ARROW-RIGHT",
+    "name": "Green right-turn arrow",
+    "category": "signal",
+    "shape": "Traffic signal",
+    "colors": "",
+    "meaning": "You may turn right in the direction of the arrow; yield to pedestrians and vehicles already in the intersection.",
+    "license": "app-drawn",
+    "svgPath": "svg/SIG-GREEN-ARROW-RIGHT.svg"
+  },
+  {
+    "code": "SIG-PED-WALK",
+    "name": "Pedestrian signal: walk",
+    "category": "signal",
+    "shape": "Traffic signal",
+    "colors": "",
+    "meaning": "Pedestrians may start crossing. Drivers turning across the crosswalk must yield to them.",
+    "license": "app-drawn",
+    "svgPath": "svg/SIG-PED-WALK.svg"
+  },
+  {
+    "code": "SIG-PED-DONT-WALK",
+    "name": "Pedestrian signal: don't walk",
+    "category": "signal",
+    "shape": "Traffic signal",
+    "colors": "",
+    "meaning": "Pedestrians must not start crossing. Drivers should still watch for pedestrians finishing their crossing.",
+    "license": "app-drawn",
+    "svgPath": "svg/SIG-PED-DONT-WALK.svg"
+  },
+  {
+    "code": "SIG-PED-COUNTDOWN",
+    "name": "Pedestrian countdown signal",
+    "category": "signal",
+    "shape": "Traffic signal",
+    "colors": "",
+    "meaning": "The number shows the seconds left to finish crossing. Pedestrians should not start crossing; drivers should expect pedestrians still in the crosswalk.",
+    "license": "app-drawn",
+    "svgPath": "svg/SIG-PED-COUNTDOWN.svg"
+  },
+  {
+    "code": "SIG-LANE-RED-X",
+    "name": "Lane-use signal: red X",
+    "category": "signal",
+    "shape": "Traffic signal",
+    "colors": "",
+    "meaning": "Do not drive in this lane \u2014 it is closed to traffic in your direction.",
+    "license": "app-drawn",
+    "svgPath": "svg/SIG-LANE-RED-X.svg"
+  },
+  {
+    "code": "SIG-LANE-YELLOW-X",
+    "name": "Lane-use signal: yellow X",
+    "category": "signal",
+    "shape": "Traffic signal",
+    "colors": "",
+    "meaning": "This lane is about to close to your direction. Move safely out of it as soon as you can.",
+    "license": "app-drawn",
+    "svgPath": "svg/SIG-LANE-YELLOW-X.svg"
+  },
+  {
+    "code": "SIG-LANE-GREEN-ARROW",
+    "name": "Lane-use signal: green arrow",
+    "category": "signal",
+    "shape": "Traffic signal",
+    "colors": "",
+    "meaning": "You may drive in this lane.",
+    "license": "app-drawn",
+    "svgPath": "svg/SIG-LANE-GREEN-ARROW.svg"
+  },
+  {
+    "code": "SIG-RR-FLASHING",
+    "name": "Railroad crossing flashing lights",
+    "category": "railroad",
+    "shape": "Traffic signal",
+    "colors": "",
+    "meaning": "A train is approaching. Stop before the crossing and do not cross until the lights stop flashing and the way is clear.",
+    "license": "app-drawn",
+    "svgPath": "svg/SIG-RR-FLASHING.svg"
+  },
+  {
+    "code": "SIG-OUT",
+    "name": "Traffic signal not working",
+    "category": "signal",
+    "shape": "Traffic signal",
+    "colors": "",
+    "meaning": "When signals are dark (power out), treat the intersection as an all-way stop: stop, then proceed when it is your turn and safe.",
+    "license": "app-drawn",
+    "svgPath": "svg/SIG-OUT.svg"
+  }
+]

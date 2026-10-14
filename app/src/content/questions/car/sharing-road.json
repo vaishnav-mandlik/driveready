@@ -1,133 +1,5 @@
 [
   {
-    "id": "car.sr.001",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "A car in the lane next to you has stopped at a crosswalk, but you cannot see why. What should you do?",
-    "choices": [
-      "Pass it slowly with your horn ready",
-      "Slow down and stop too; do not pass the stopped car",
-      "Change lanes away from it and keep going",
-      "Pass it if the crosswalk light is not flashing"
-    ],
-    "answer": 1,
-    "explanation": "A vehicle stopped at a crosswalk may be waiting for a pedestrian you cannot see. Never pass a vehicle that is stopped for pedestrians.",
-    "difficulty": 1,
-    "ref": "State driver handbooks (e.g., CA p. 47, NY p. 68, NJ p. 146)"
-  },
-  {
-    "id": "car.sr.002",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "A pedestrian using a white cane or a guide dog is waiting to cross in front of you. What should you do?",
-    "choices": [
-      "Tap your horn so the person knows where you are",
-      "Go first if the person has not yet stepped off the curb",
-      "Yield only if the person is in a marked crosswalk",
-      "Yield the right-of-way and let the person cross"
-    ],
-    "answer": 3,
-    "explanation": "A white cane or guide dog usually means the person is blind or has low vision. Always yield to them, and do not use your horn, which can confuse or startle them.",
-    "difficulty": 1,
-    "ref": "State driver handbooks (e.g., CA p. 48, PA p. 59, NY p. 68)"
-  },
-  {
-    "id": "car.sr.003",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "Your light is red and you roll to a stop. Why should you NOT stop with your car in the middle of the crosswalk?",
-    "choices": [
-      "It is only a problem if the crosswalk is painted yellow",
-      "Your car could be scratched by shopping carts",
-      "Pedestrians, including blind pedestrians, may be forced to walk around your car into traffic",
-      "Cross traffic will not be able to see your brake lights"
-    ],
-    "answer": 2,
-    "explanation": "Stopping in a crosswalk blocks the path pedestrians expect to use and can force them, especially blind pedestrians, out into moving traffic. Stop before the crosswalk.",
-    "difficulty": 2,
-    "ref": "State driver handbooks (e.g., CA p. 48, NJ p. 146, NY p. 68)"
-  },
-  {
-    "id": "car.sr.004",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "A pedestrian starts to cross at an intersection that has no painted crosswalk lines. What should you do?",
-    "choices": [
-      "Keep going, because pedestrians must use a marked crosswalk",
-      "Yield to the pedestrian, because intersections can have unmarked crosswalks",
-      "Honk to warn the pedestrian to wait",
-      "Yield only if there is a traffic signal at the corner"
-    ],
-    "answer": 1,
-    "explanation": "Pedestrians have the right-of-way in marked and unmarked crosswalks. A crosswalk can exist at an intersection even when no lines are painted.",
-    "difficulty": 1,
-    "ref": "State driver handbooks (e.g., CA p. 47, NJ p. 146, NY p. 68)"
-  },
-  {
-    "id": "car.sr.005",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "A pedestrian stepped off the curb on a WALK signal. Halfway across, the signal changes and your light turns green. What should you do?",
-    "choices": [
-      "Go, because the pedestrian no longer has the right-of-way",
-      "Drive slowly around the pedestrian",
-      "Wait until the pedestrian has finished crossing",
-      "Honk to hurry the pedestrian along"
-    ],
-    "answer": 2,
-    "explanation": "A pedestrian who has already started crossing must be allowed to finish, even if the signal changes while they are in the street.",
-    "difficulty": 3,
-    "ref": "State driver handbooks (e.g., TX p. 29, NJ p. 146)"
-  },
-  {
-    "id": "car.sr.006",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "You have a green light and are turning right. A pedestrian is crossing the street you are turning into. What should you do?",
-    "choices": [
-      "Turn quickly before the pedestrian reaches your lane",
-      "Stop and let the pedestrian finish crossing before you turn",
-      "Turn, because a green light gives you the right-of-way",
-      "Sound your horn and turn slowly"
-    ],
-    "answer": 1,
-    "explanation": "When turning, you must yield to pedestrians in the crosswalk you are crossing. Many pedestrian crashes happen during turns when drivers watch only for other cars.",
-    "difficulty": 2,
-    "ref": "State driver handbooks (e.g., NY p. 68, NJ p. 147, PA p. 59)"
-  },
-  {
-    "id": "car.sr.007",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "An older pedestrian is still crossing slowly when your light turns green. What should you do?",
-    "choices": [
-      "Drive forward slowly to show you are waiting",
-      "Go if the person is no longer in your lane",
-      "Tap your horn to let the person know the light changed",
-      "Wait patiently until the person reaches the other side"
-    ],
-    "answer": 3,
-    "explanation": "Older people, people with disabilities and adults with small children may need extra time to cross. Give them the time they need.",
-    "difficulty": 1,
-    "ref": "State driver handbooks (e.g., CA p. 47, PA p. 59)"
-  },
-  {
-    "id": "car.sr.008",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "You are stopped in the right lane of a four-lane road for a pedestrian waiting at the curb. Why should you NOT wave the person across?",
-    "choices": [
-      "Drivers in the other lanes may not see the pedestrian and may not stop",
-      "Waving is only allowed at marked crosswalks",
-      "The pedestrian must wait for a WALK signal at every crossing",
-      "It makes the drivers behind you think you are turning"
-    ],
-    "answer": 0,
-    "explanation": "Your car can hide the pedestrian from drivers in the other lanes. It is never safe to wave a pedestrian into the path of traffic.",
-    "difficulty": 3,
-    "ref": "State driver handbooks (e.g., PA p. 59, NJ p. 147)"
-  },
-  {
     "id": "car.sr.009",
     "track": "car",
     "topic": "sharing-road",
@@ -160,22 +32,6 @@
     "ref": "State driver handbooks (e.g., PA p. 59, NJ p. 147, NY p. 68)"
   },
   {
-    "id": "car.sr.011",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "A pedestrian is crossing in the middle of the block, not at a crosswalk, in front of you. What should you do?",
-    "choices": [
-      "Keep going, because the pedestrian is breaking the law",
-      "Honk and keep your speed so the pedestrian moves",
-      "Slow down or stop to avoid hitting the pedestrian",
-      "Steer around the pedestrian without slowing"
-    ],
-    "answer": 2,
-    "explanation": "Even when a pedestrian is crossing where they should not, drivers must use caution, slow down or stop to let them finish crossing safely.",
-    "difficulty": 3,
-    "ref": "State driver handbooks (e.g., CA p. 47, NJ p. 147)"
-  },
-  {
     "id": "car.sr.012",
     "track": "car",
     "topic": "sharing-road",
@@ -190,38 +46,6 @@
     "explanation": "Bicyclists share the road and must follow the same traffic laws. Drivers must yield to them just as they would to another vehicle.",
     "difficulty": 1,
     "ref": "State driver handbooks (e.g., CA p. 52, NY p. 69, AZ p. 50)"
-  },
-  {
-    "id": "car.sr.013",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "You have parked on a busy street. What should you do before opening your door on the traffic side?",
-    "choices": [
-      "Open the door a little so others know you are getting out",
-      "Turn on your hazard lights and open the door",
-      "Nothing, because traffic must go around open doors",
-      "Check your mirror and look over your shoulder for bicyclists and other traffic"
-    ],
-    "answer": 3,
-    "explanation": "Opening a door into the path of a bicyclist can cause a serious crash. Look for bicyclists approaching from behind before you open the door.",
-    "difficulty": 1,
-    "ref": "State driver handbooks (e.g., NY p. 69, FL p. 89, NJ p. 153)"
-  },
-  {
-    "id": "car.sr.014",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "You are about to turn right, and a bicyclist is riding in the bike lane next to you. What should you do?",
-    "choices": [
-      "Speed up and turn in front of the bicyclist",
-      "Turn, because cars have the right-of-way over bicycles",
-      "Honk so the bicyclist stops for you",
-      "Yield to the bicyclist and make your turn behind them"
-    ],
-    "answer": 3,
-    "explanation": "When your turn crosses a bike lane, you must yield to bicyclists in it. Let them pass and then turn behind them.",
-    "difficulty": 2,
-    "ref": "State driver handbooks (e.g., FL p. 89, NJ p. 153, CA p. 54)"
   },
   {
     "id": "car.sr.015",
@@ -248,7 +72,7 @@
       "The bicyclist is breaking the law by leaving the edge",
       "The bicyclist is signaling you to pass on the right",
       "The bicyclist is about to stop",
-      "This is allowed, so be ready for bicyclists to move left to avoid hazards"
+      "This is legal, so give the bicyclist room"
     ],
     "answer": 3,
     "explanation": "Bicyclists may legally move away from the right edge to avoid hazards such as potholes, debris or parked cars, and to prepare for a left turn. Give them room.",
@@ -262,9 +86,9 @@
     "prompt": "Why should you slow down when you pass a bicyclist?",
     "choices": [
       "Bicyclists are required to stop when they are passed",
-      "Your tires could throw water on the bicyclist",
-      "The rush of air from a fast-moving vehicle can push a bicyclist off balance",
-      "Passing slowly lets the bicyclist read your license plate"
+      "Slowing down lets you pass closer to the bicyclist",
+      "The rush of air can push the bicyclist off balance",
+      "Bicycles have the right-of-way, so you must match their speed"
     ],
     "answer": 2,
     "explanation": "Air pressure from a vehicle passing quickly can make a bicyclist wobble or fall. Reduce speed and give plenty of room when passing.",
@@ -278,14 +102,14 @@
     "prompt": "You are coming up behind a bicyclist. Should you honk to let them know you are passing?",
     "choices": [
       "Yes, you must always honk before passing a bicyclist",
-      "No, a loud horn can startle the bicyclist and cause a crash",
+      "No; a sudden horn can startle the bicyclist",
       "Yes, but only on roads without a bike lane",
       "No, because bicyclists must look behind them every few seconds"
     ],
     "answer": 1,
-    "explanation": "Avoid honking close to bicyclists unless it is needed to prevent a crash. A sudden horn can startle a rider into swerving or falling.",
+    "explanation": "Avoid sounding your horn close to bicyclists unless it is needed to prevent a crash. A sudden loud horn can startle a rider into swerving or falling.",
     "difficulty": 2,
-    "ref": "State driver handbooks (e.g., AZ p. 50, PA p. 60, FL p. 89)"
+    "ref": "State driver handbooks (e.g., PA p. 60, CO p. 26, FL p. 89, OH p. 9)"
   },
   {
     "id": "car.sr.019",
@@ -309,7 +133,7 @@
     "topic": "sharing-road",
     "prompt": "You are waiting to turn left at an intersection. A bicyclist is coming straight toward you from the other direction. What should you do?",
     "choices": [
-      "Yield to the bicyclist, as you would to an oncoming car",
+      "Yield to the bicyclist as you would to a car",
       "Turn first, because bicycles must yield to cars",
       "Turn quickly, because bicycles are slow",
       "Flash your lights to tell the bicyclist to stop"
@@ -360,7 +184,7 @@
       "A car turning left in front of an oncoming motorcycle",
       "A motorcycle rear-ending a car",
       "A car backing into a parked motorcycle",
-      "A motorcycle hitting a car head-on on a curve"
+      "A motorcycle hitting a car head-on while passing on a curve"
     ],
     "answer": 0,
     "explanation": "Many car-motorcycle crashes happen at intersections when a driver turns left across the path of a motorcycle they did not see or misjudged.",
@@ -389,9 +213,9 @@
     "topic": "sharing-road",
     "prompt": "A motorcycle approaching an intersection has its right turn signal flashing. You want to pull out in front of it. What should you do?",
     "choices": [
-      "Pull out, because the rider has signaled a turn",
+      "Pull out, because the rider has signaled a right turn",
       "Pull out if the rider has slowed down a little",
-      "Wait until you are sure the motorcycle is actually turning",
+      "Wait until you are sure the motorcycle is turning",
       "Flash your lights and then pull out"
     ],
     "answer": 2,
@@ -406,7 +230,7 @@
     "prompt": "Why might a motorcyclist suddenly change speed or position within the lane?",
     "choices": [
       "To invite you to share the lane",
-      "To show that they are about to turn",
+      "Because motorcycles must ride in the left part of the lane",
       "Because riders must change position every few seconds by law",
       "To avoid hazards such as gravel, potholes, grates or debris"
     ],
@@ -421,10 +245,10 @@
     "topic": "sharing-road",
     "prompt": "Why do drivers often fail to see motorcycles?",
     "choices": [
-      "Motorcycles are not allowed to use headlights",
+      "Motorcycles are not allowed to use headlights during the day",
       "Motorcycles usually ride on the shoulder",
       "Motorcycles are only on the road in summer",
-      "Drivers tend to look for cars, and motorcycles are small and easy to miss"
+      "Drivers look for cars, and motorcycles are small"
     ],
     "answer": 3,
     "explanation": "Many drivers look only for cars and trucks. A motorcycle's small size lets it blend in or hide in blind spots, so look for them on purpose.",
@@ -438,7 +262,7 @@
     "prompt": "Before changing lanes on a busy highway, why should you make a special check for motorcycles?",
     "choices": [
       "Motorcycles must always stay in the left lane",
-      "Motorcycles are small and can easily be hidden in your blind spot",
+      "They are small and can hide in your blind spot",
       "Motorcycles are louder than cars, so you will hear them",
       "Motorcycles cannot change lanes"
     ],
@@ -454,7 +278,7 @@
     "prompt": "It is raining and dark, and you are following a motorcycle. What should you do?",
     "choices": [
       "Follow closer so your headlights help the rider see",
-      "Leave even more space than you normally would behind a motorcycle",
+      "Leave even more space than usual",
       "Keep the same space you use in dry daylight",
       "Pass the motorcycle as soon as possible"
     ],
@@ -469,7 +293,7 @@
     "topic": "sharing-road",
     "prompt": "A motorcycle is passing you on the left. What should you do?",
     "choices": [
-      "Keep your speed and lane position so the rider can complete the pass",
+      "Keep your speed and lane position",
       "Move toward the left side of your lane",
       "Speed up so the rider passes faster",
       "Brake hard to let the rider in"
@@ -480,22 +304,6 @@
     "ref": "State driver handbooks (e.g., NJ p. 149)"
   },
   {
-    "id": "car.sr.031",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "A motorcycle is riding on the left side of the lane ahead of you, leaving open space on the right. May you drive into that space beside it?",
-    "choices": [
-      "No, the motorcycle is entitled to the whole lane",
-      "Yes, if the space is at least as wide as your car",
-      "Yes, if you stay under the speed limit",
-      "Yes, if you signal first"
-    ],
-    "answer": 0,
-    "explanation": "Even when there seems to be room, do not share a lane with a motorcycle. The rider is entitled to the full lane and may need it to maneuver.",
-    "difficulty": 3,
-    "ref": "State driver handbooks (e.g., TX p. 58, AZ p. 51, CA p. 50)"
-  },
-  {
     "id": "car.sr.032",
     "track": "car",
     "topic": "sharing-road",
@@ -504,7 +312,7 @@
       "It is probably a car with a broken headlight, so it is safe to turn",
       "A single light means the vehicle is far away",
       "It is a bicycle, so you have plenty of time",
-      "It may be a motorcycle that is closer and faster than it looks, so wait unless you are sure"
+      "It may be a motorcycle that is closer than it looks, so wait"
     ],
     "answer": 3,
     "explanation": "A single headlight gives fewer clues for judging distance and speed. It could be a motorcycle, so do not turn unless you are sure you have enough time.",
@@ -517,7 +325,7 @@
     "topic": "sharing-road",
     "prompt": "What are the No-Zones around a large truck or bus?",
     "choices": [
-      "Blind spots where the driver cannot see other vehicles",
+      "Blind spots where the driver can't see you",
       "Areas where trucks are not allowed to drive",
       "Lanes where cars may not pass trucks",
       "Places where trucks may not park"
@@ -544,38 +352,6 @@
     "ref": "State driver handbooks (e.g., CA p. 48, TX p. 57, PA p. 61)"
   },
   {
-    "id": "car.sr.035",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "A large truck ahead is signaling a right turn but swings to the left, leaving a gap between it and the curb. What should you do?",
-    "choices": [
-      "Stay behind the truck and do not try to pass on the right",
-      "Drive into the gap and pass on the right",
-      "Pass on the left because the truck is in the left lane",
-      "Honk so the driver knows you are there"
-    ],
-    "answer": 0,
-    "explanation": "Large trucks often swing left to make a right turn. A car that squeezes between the truck and the curb can be crushed. Stay back until the turn is complete.",
-    "difficulty": 2,
-    "ref": "State driver handbooks (e.g., TX p. 57, AZ p. 52, FL p. 92)"
-  },
-  {
-    "id": "car.sr.036",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "You have passed a large truck. When is it safe to move back into the truck's lane?",
-    "choices": [
-      "When you can see the whole front of the truck in your rear-view mirror",
-      "As soon as your rear bumper is past the truck's front bumper",
-      "When the truck driver honks",
-      "As soon as you have signaled"
-    ],
-    "answer": 0,
-    "explanation": "Do not cut back in until you can see the entire front of the truck in your rear-view mirror. Then keep your speed; do not slow down in front of it.",
-    "difficulty": 2,
-    "ref": "State driver handbooks (e.g., TX p. 57, NY p. 74, NJ p. 151)"
-  },
-  {
     "id": "car.sr.037",
     "track": "car",
     "topic": "sharing-road",
@@ -597,7 +373,7 @@
     "topic": "sharing-road",
     "prompt": "On which side should you pass a large truck?",
     "choices": [
-      "The right side, because trucks drive on the left",
+      "The right side, where the truck's mirrors are larger",
       "Either side, whichever is faster",
       "The right side, but only on a highway",
       "The left side, where the driver can see you better"
@@ -606,22 +382,6 @@
     "explanation": "Pass trucks on the left. The No-Zone on a truck's right side is especially large and dangerous, so the driver may not see a car passing there.",
     "difficulty": 2,
     "ref": "State driver handbooks (e.g., CA p. 49, FL p. 92, NJ p. 151, GA p. 9)"
-  },
-  {
-    "id": "car.sr.039",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "What is the safest way to pass a large truck on a highway?",
-    "choices": [
-      "Pass steadily and without delay, so you do not stay beside the truck",
-      "Slow down beside the truck so the driver can see you",
-      "Stay beside the truck until the driver waves you on",
-      "Pass on the right, where the lane is usually clear"
-    ],
-    "answer": 0,
-    "explanation": "The sides of a truck are No-Zones. Complete your pass without lingering alongside, then move back only when it is safe.",
-    "difficulty": 2,
-    "ref": "State driver handbooks (e.g., PA p. 60, NJ p. 152, CA p. 49)"
   },
   {
     "id": "car.sr.040",
@@ -688,38 +448,6 @@
     "ref": "State driver handbooks (e.g., TX p. 57, PA p. 61)"
   },
   {
-    "id": "car.sr.044",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "A large truck is passing you on a highway. How can you help?",
-    "choices": [
-      "Speed up so the truck finishes passing quickly",
-      "Move toward the truck so it has a shorter distance to pass",
-      "Brake hard so the truck can pull in sooner",
-      "Keep to the far side of your lane and do not speed up"
-    ],
-    "answer": 3,
-    "explanation": "When a truck passes you, stay on the far side of your lane and hold or slightly reduce your speed. Never speed up while being passed.",
-    "difficulty": 2,
-    "ref": "State driver handbooks (e.g., TX p. 57, PA p. 61, FL p. 92)"
-  },
-  {
-    "id": "car.sr.045",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "You want to pass a large truck just as the road begins a long downhill grade. What should you expect?",
-    "choices": [
-      "The truck will slow down, making it easier to pass",
-      "The truck must move to the shoulder to let you by",
-      "The truck may pick up speed, so the pass could take much longer",
-      "The truck's speed will not change"
-    ],
-    "answer": 2,
-    "explanation": "A heavy truck often slows going uphill but gains speed going downhill. Passing on a downgrade can leave you beside the truck much longer than you planned.",
-    "difficulty": 3,
-    "ref": "State driver handbooks (e.g., TX p. 57, NY p. 75, FL p. 92)"
-  },
-  {
     "id": "car.sr.046",
     "track": "car",
     "topic": "sharing-road",
@@ -727,7 +455,7 @@
     "choices": [
       "Drive quickly behind the truck before it reaches you",
       "Honk so the driver stops backing",
-      "Wait until the truck finishes backing; never pass close behind it",
+      "Wait until it finishes backing",
       "Pass behind the truck if you have room"
     ],
     "answer": 2,
@@ -742,9 +470,9 @@
     "prompt": "Why can a large truck reach an intersection sooner than you expect?",
     "choices": [
       "Trucks are allowed to drive faster than cars",
-      "Its large size makes it look like it is moving slower than it really is",
+      "Its size makes it look slower than it really is",
       "Trucks have the right-of-way at intersections",
-      "Trucks speed up when approaching intersections"
+      "Trucks always speed up when approaching intersections"
     ],
     "answer": 1,
     "explanation": "Because of its size, a truck often appears to move slower than it is. Do not underestimate its speed when turning or crossing in front of it.",
@@ -776,7 +504,7 @@
       "Turn quickly before it arrives",
       "Wait for the train to pass; never turn in front of it",
       "Turn if the train sounds its horn",
-      "Stop on the tracks until the driver waves you on"
+      "Turn if the train is still a block away, since it will slow down for you"
     ],
     "answer": 1,
     "explanation": "Light rail vehicles cannot stop quickly or steer around you. Check for them before turning across the tracks and never turn in front of one.",
@@ -790,9 +518,9 @@
     "prompt": "A school bus ahead turns on its flashing yellow lights. What does this mean?",
     "choices": [
       "The bus is stopped and you must stop now",
-      "The bus has finished loading and you may pass",
+      "The bus has finished loading children, so you may pass it carefully",
       "You must pass the bus quickly before it stops",
-      "The bus is getting ready to stop, so slow down and prepare to stop"
+      "The bus is about to stop, so slow down and get ready to stop"
     ],
     "answer": 3,
     "explanation": "Flashing yellow (amber) lights warn that the bus is about to stop to load or unload children. Slow down and be ready to stop.",
@@ -805,15 +533,15 @@
     "topic": "sharing-road",
     "prompt": "You are behind a school bus that stops with red lights flashing and its stop arm out. What must you do?",
     "choices": [
-      "Stop and stay stopped until the red lights stop flashing",
+      "Stop, and do not pass while the red lights are flashing",
       "Pass slowly on the left",
-      "Stop, then go when you think the children are safe",
+      "Stop, then go around it slowly when you are sure the children are safe",
       "Pass if no children are in sight"
     ],
     "answer": 0,
-    "explanation": "When a school bus shows flashing red lights and its stop arm, traffic behind it must stop and remain stopped until the lights are turned off.",
+    "explanation": "Flashing red lights and an extended stop arm mean children are getting on or off. Stop and stay stopped until the red lights go off and the bus moves on or the driver signals you; your state handbook gives the exact rule.",
     "difficulty": 1,
-    "ref": "State driver handbooks (e.g., TX p. 29, PA p. 62, CA p. 57)"
+    "ref": "State driver handbooks (e.g., TX p. 29, AZ p. 39, PA p. 62, GA p. 9)"
   },
   {
     "id": "car.sr.052",
@@ -823,7 +551,7 @@
     "choices": [
       "Keep going, because the bus is not in your lane",
       "Slow down and pass carefully",
-      "Stop, even though the bus is on the other side of the road",
+      "Stop, even though the bus is across the road",
       "Stop only if children are crossing in front of you"
     ],
     "answer": 2,
@@ -837,13 +565,13 @@
     "topic": "sharing-road",
     "prompt": "A school bus is stopped with its red lights flashing, but you do not see any children. What should you do?",
     "choices": [
-      "Pass slowly, since no children are present",
+      "Pass slowly, since no children are getting on or off",
       "Honk and then pass",
       "Stop briefly, then go around the bus",
-      "Stop anyway and wait until the red lights stop flashing"
+      "Stop and stay stopped while the red lights flash"
     ],
     "answer": 3,
-    "explanation": "You must stop for flashing red lights whether or not you see children. Children can be hidden by the bus or may be about to cross.",
+    "explanation": "You must stop for a school bus with flashing red lights whether or not you see children. Children can be hidden by the bus or may be about to cross.",
     "difficulty": 2,
     "ref": "State driver handbooks (e.g., TX p. 29, PA p. 62, NY p. 68)"
   },
@@ -853,10 +581,10 @@
     "topic": "sharing-road",
     "prompt": "After waiting for a stopped school bus, its red lights turn off and it starts to move. What should you do?",
     "choices": [
-      "Look for children near the road and drive slowly until you are past them",
+      "Watch for children and drive slowly past them",
       "Speed up to get ahead of the bus",
       "Pass the bus right away on the right",
-      "Honk to let children know you are going"
+      "Honk so any children near the bus know you are going"
     ],
     "answer": 0,
     "explanation": "Children may still be near the bus or along the road after it leaves. Watch for them and drive slowly until you have passed them.",
@@ -869,7 +597,7 @@
     "topic": "sharing-road",
     "prompt": "When are children around a school bus in the most danger?",
     "choices": [
-      "While they are seated on a moving bus",
+      "While they are riding in their seats on the moving bus",
       "When the bus is parked at the school",
       "When the bus is on the highway",
       "When they cross the street after getting off the bus"
@@ -886,8 +614,8 @@
     "prompt": "What should you do at a railroad crossing marked only with a crossbuck (white X-shaped) sign?",
     "choices": [
       "Stop every time, even if no train is coming",
-      "Keep your speed, because there are no lights or gates",
-      "Treat it like a yield sign: slow down, look, listen, and stop if a train is coming",
+      "Keep your speed, because there are no lights or gates to obey",
+      "Slow down, look and listen, and stop if a train is coming",
       "Speed up to cross the tracks quickly"
     ],
     "answer": 2,
@@ -918,7 +646,7 @@
     "prompt": "Traffic is backed up on the other side of a railroad crossing, and there is not enough room for your car past the tracks. What should you do?",
     "choices": [
       "Drive onto the tracks and wait there",
-      "Wait before the tracks until there is room to cross completely",
+      "Wait before the tracks until there is room",
       "Follow the car ahead closely so you are not left behind",
       "Cross and stop partly on the tracks"
     ],
@@ -933,10 +661,10 @@
     "topic": "sharing-road",
     "prompt": "You are stopped at a crossing with two sets of tracks. A train has just passed. What should you do before crossing?",
     "choices": [
-      "Go as soon as the last car of the train passes",
+      "Go as soon as the last car of the train passes the crossing",
       "Go as soon as the gates start to rise",
       "Follow the car in front of you",
-      "Wait until you can clearly see that no other train is coming on any track"
+      "Wait until you can see that no train is coming on any track"
     ],
     "answer": 3,
     "explanation": "One train can hide another coming on a different track. Wait until you have a clear view in both directions on all tracks.",
@@ -960,45 +688,13 @@
     "ref": "State driver handbooks (e.g., CA p. 57, FL p. 64, TX p. 28)"
   },
   {
-    "id": "car.sr.061",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "Your car stalls on the railroad tracks and a train is coming. What should you do?",
-    "choices": [
-      "Stay in the car and keep trying to start it",
-      "Get everyone out at once and move away from the tracks at an angle toward the approaching train",
-      "Run away along the tracks in the same direction the train is going",
-      "Get out and stand next to the car to wave down the train"
-    ],
-    "answer": 1,
-    "explanation": "Leave the vehicle immediately. Moving away at an angle toward the train helps you avoid being hit by your car or flying debris after the crash.",
-    "difficulty": 3,
-    "ref": "State driver handbooks (e.g., CA p. 76, NJ p. 155, FL p. 88)"
-  },
-  {
-    "id": "car.sr.062",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "Your car stalls on railroad tracks and no train is in sight. After getting everyone out, who should you call first?",
-    "choices": [
-      "Your insurance company",
-      "A tow truck company",
-      "The local department of motor vehicles",
-      "The phone number on the blue emergency sign posted at the crossing"
-    ],
-    "answer": 3,
-    "explanation": "The blue Emergency Notification System sign gives the railroad's emergency number and a crossing ID. Calling it can get trains stopped; then call 911.",
-    "difficulty": 2,
-    "ref": "State driver handbooks (e.g., CA p. 76, TX p. 28, FL p. 88)"
-  },
-  {
     "id": "car.sr.063",
     "track": "car",
     "topic": "sharing-road",
     "prompt": "Why do drivers often misjudge how close a train is?",
     "choices": [
-      "A train's large size makes it look farther away and slower than it really is",
-      "Trains always travel slower than cars",
+      "Its large size makes it look farther away and slower",
+      "Trains always travel slower than the cars on nearby roads",
       "Trains are lit only at night",
       "Trains slow down when they near a crossing"
     ],
@@ -1014,8 +710,8 @@
     "prompt": "Why should you stop well back from the tracks when a train is coming?",
     "choices": [
       "The ground near the tracks is too soft",
-      "Trains are wider than the rails, so they can hit a car stopped too close",
-      "So the engineer can read your license plate",
+      "Trains stick out past the rails and can hit a car too close",
+      "So the crossing lights can detect your car",
       "Because trains can switch to a different track at the crossing"
     ],
     "answer": 1,
@@ -1047,7 +743,7 @@
     "choices": [
       "Follow it closely, since the driver must have checked for trains",
       "Speed up to cross before the gates come down",
-      "Check for trains yourself and make sure there is room past the tracks before you go",
+      "Check for trains yourself and make sure there is room to cross",
       "Pass it before the crossing so you are not delayed"
     ],
     "answer": 2,
@@ -1056,45 +752,13 @@
     "ref": "State driver handbooks (e.g., PA p. 59)"
   },
   {
-    "id": "car.sr.067",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "On a two-way street, an ambulance with its siren on and lights flashing comes up behind you. What should you do?",
-    "choices": [
-      "Speed up to stay ahead of it",
-      "Pull to the right edge of the road and stop until it passes",
-      "Stop right where you are in your lane",
-      "Pull to the left so it can pass on the right"
-    ],
-    "answer": 1,
-    "explanation": "Yield to emergency vehicles using a siren and flashing lights by pulling to the right edge of the road and stopping until they have passed.",
-    "difficulty": 1,
-    "ref": "State driver handbooks (e.g., CA p. 51, TX p. 28, PA p. 63)"
-  },
-  {
-    "id": "car.sr.068",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "You are in the middle of an intersection when you hear a siren coming toward you. What should you do?",
-    "choices": [
-      "Stop right away in the intersection",
-      "Continue through the intersection, then pull to the right and stop",
-      "Back up out of the intersection",
-      "Turn left to get out of the way"
-    ],
-    "answer": 1,
-    "explanation": "Do not stop inside an intersection. Clear it first, then pull over to the right as soon as it is safe and stop.",
-    "difficulty": 2,
-    "ref": "State driver handbooks (e.g., CA p. 51, FL p. 92, PA p. 63)"
-  },
-  {
     "id": "car.sr.069",
     "track": "car",
     "topic": "sharing-road",
     "prompt": "A fire truck with its siren on has just passed you. What should you do before pulling back into traffic?",
     "choices": [
       "Check that no other emergency vehicles are coming",
-      "Pull out right away and follow the fire truck",
+      "Pull out right away and follow the fire truck through traffic",
       "Honk to let others know you are pulling out",
       "Wait until you can no longer hear the siren"
     ],
@@ -1112,28 +776,12 @@
       "Yes, if you keep your hazard lights on",
       "Yes, because it is clearing the road for you",
       "Yes, as long as you stay in the same lane",
-      "No, you must stay well back from an emergency vehicle that is answering a call"
+      "No, you must stay well back from it"
     ],
     "answer": 3,
     "explanation": "Following closely behind an emergency vehicle that is using its siren or lights is dangerous and not allowed. How far back you must stay depends on your state.",
     "difficulty": 2,
     "ref": "State driver handbooks (e.g., CA p. 51, TX p. 28, PA p. 63)"
-  },
-  {
-    "id": "car.sr.071",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "An ambulance with its siren on is behind you, but parked cars line the right side and there is no room to pull over. What should you do?",
-    "choices": [
-      "Stop right where you are, even if you block the lane",
-      "Slow down and leave a clear path for the ambulance, pulling over when you can",
-      "Speed up to find a better place, even above the speed limit",
-      "Move into the oncoming lane"
-    ],
-    "answer": 1,
-    "explanation": "If you cannot pull to the right, slow down and keep a clear path for the emergency vehicle, then pull over as soon as it is safe.",
-    "difficulty": 3,
-    "ref": "State driver handbooks (e.g., TX p. 28, CA p. 51)"
   },
   {
     "id": "car.sr.072",
@@ -1158,8 +806,8 @@
     "prompt": "A wide farm tractor ahead of you on a two-lane road moves toward the left. What might the driver be doing?",
     "choices": [
       "Pulling over to let you pass on the right",
-      "Getting ready to stop on the left shoulder",
-      "Swinging wide to make a right turn, so do not try to pass yet",
+      "Getting ready to stop on the left shoulder to let you by",
+      "Swinging wide to turn right, so don't pass yet",
       "Signaling you to pass on the right"
     ],
     "answer": 2,
@@ -1191,7 +839,7 @@
     "choices": [
       "So you can speed up and pass before oncoming traffic arrives",
       "Because slow-moving vehicles must pull over when they see you",
-      "You close in on it very quickly, and seeing it early gives you time to slow down safely",
+      "You close in on it fast and need time to slow down safely",
       "It is not important, since slow vehicles stay on the shoulder"
     ],
     "answer": 2,
@@ -1221,9 +869,9 @@
     "topic": "sharing-road",
     "prompt": "You stop behind a horse-drawn vehicle at a stop sign. Why should you leave plenty of room?",
     "choices": [
-      "So the horse can turn around",
+      "So the driver has room to turn the horse around in the road",
       "Horse-drawn vehicles can roll backward after stopping",
-      "It is required only if the horse is unhitched",
+      "So your headlights do not shine on the horse",
       "So you can pass it on the right"
     ],
     "answer": 1,
@@ -1237,7 +885,7 @@
     "topic": "sharing-road",
     "prompt": "You have just passed a horse-drawn vehicle. When should you move back into the right lane?",
     "choices": [
-      "Only after leaving plenty of space between your car and the horse",
+      "Only after you are well ahead of the horse",
       "As soon as your car is beside the horse",
       "Right away, then tap your brakes to warn the driver",
       "As soon as the horse's driver waves"
@@ -1256,44 +904,12 @@
       "Slow down or stop, and go on only when it is safe",
       "Honk to scare them away from the road",
       "Speed up to get past before they move",
-      "Flash your high beams and keep your speed"
+      "Flash your high beams and keep your speed so they stay put"
     ],
     "answer": 0,
     "explanation": "When animals or livestock are near the road, slow down or stop and proceed carefully. Follow directions from anyone in charge of the animals.",
     "difficulty": 1,
     "ref": "State driver handbooks (e.g., CA p. 52, NJ p. 157)"
-  },
-  {
-    "id": "car.sr.080",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "A deer runs across the road in front of you and disappears into the trees. What should you expect?",
-    "choices": [
-      "The danger is over once it has crossed",
-      "More deer may follow, so slow down and watch carefully",
-      "The deer will come back across right away",
-      "Deer always travel alone"
-    ],
-    "answer": 1,
-    "explanation": "Deer and similar animals often travel in groups. If you see one, look for more.",
-    "difficulty": 2,
-    "ref": "State driver handbooks (e.g., MT p. 71, NE p. 34, AK p. 72)"
-  },
-  {
-    "id": "car.sr.081",
-    "track": "car",
-    "topic": "sharing-road",
-    "prompt": "A deer suddenly steps onto the road too close to stop in time. Oncoming traffic is in the other lane. What is the safest action?",
-    "choices": [
-      "Swerve sharply into the oncoming lane",
-      "Brake firmly and stay in your lane",
-      "Swerve off the road onto the shoulder at full speed",
-      "Speed up to get past the deer"
-    ],
-    "answer": 1,
-    "explanation": "Swerving can send you into oncoming traffic or off the road, which is often worse than hitting the animal. Brake firmly, steer to keep control, and stop safely.",
-    "difficulty": 3,
-    "ref": "State driver handbooks (e.g., NE p. 34, MT p. 71, NJ p. 157)"
   },
   {
     "id": "car.sr.082",
@@ -1303,7 +919,7 @@
     "choices": [
       "Stop and wait until the flagger signals you to go",
       "Slow down and drive past carefully",
-      "Stop briefly, then go if the road looks clear",
+      "Stop briefly, then go if the road ahead looks clear",
       "Follow the car in front of you"
     ],
     "answer": 0,
@@ -1325,7 +941,7 @@
     "answer": 2,
     "explanation": "Directions from flaggers and police officers take priority over normal signs and signals in a work zone.",
     "difficulty": 2,
-    "ref": "State driver handbooks (e.g., AR p. 34, CA p. 55, CA p. 51)"
+    "ref": "State driver handbooks (e.g., AR p. 34, CA p. 55)"
   },
   {
     "id": "car.sr.084",
@@ -1342,5 +958,213 @@
     "explanation": "The SLOW side of a flagger's paddle means you may move ahead carefully at a reduced speed, watching for workers.",
     "difficulty": 1,
     "ref": "State driver handbooks (e.g., AZ p. 44, AR p. 34)"
+  },
+  {
+    "id": "car.sr.085",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a highway with two lanes in your direction, a police car with flashing lights is stopped on the right shoulder. You are in the right lane. What should you do?",
+    "choices": [
+      "Keep your speed and lane, since the police car is off the road",
+      "Move to the left lane if safe; if not, slow down",
+      "Stop in your lane until the officer waves you past",
+      "Speed up so you spend less time next to the stopped car"
+    ],
+    "answer": 1,
+    "explanation": "Every state has a Move Over law. When you approach a stopped emergency vehicle with flashing lights, move over a lane away from it if you safely can, or slow down if you can't. How much you must slow down and which vehicles are covered vary by state.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., MI p. 42, CA p. 55, TX p. 52, OH p. 9)"
+  },
+  {
+    "id": "car.sr.086",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Firefighters have laid a hose across the street you are driving on. What should you do?",
+    "choices": [
+      "Drive over it slowly so you don't damage it",
+      "Drive over it if no fire truck is in sight",
+      "Drive over it quickly with your hazard lights on",
+      "Don't cross it unless an official directs you"
+    ],
+    "answer": 3,
+    "explanation": "Driving over a fire hose can damage it and put firefighters at risk. Do not cross a fire hose unless a fire or police official at the scene directs you to.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., IL p. 28, AL p. 67, NC p. 50, AK p. 77)"
+  },
+  {
+    "id": "car.sr.087",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Your traffic light is green, but a school crossing guard in the crosswalk ahead holds up a STOP sign. What should you do?",
+    "choices": [
+      "Stop and obey the crossing guard",
+      "Go, because the green light gives you the right-of-way",
+      "Slow down and drive around the crossing guard",
+      "Honk to let the crossing guard know your light is green"
+    ],
+    "answer": 0,
+    "explanation": "You must obey directions from school crossing guards, just as you would a police officer directing traffic. Stop and wait until the guard signals that you may go.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AR p. 35, NM p. 6, FL p. 65, NE p. 48)"
+  },
+  {
+    "id": "car.sr.088",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A bicyclist ahead holds their left arm out with the forearm pointing straight up. What does this signal mean?",
+    "choices": [
+      "The bicyclist is about to stop",
+      "The bicyclist is going to turn left",
+      "The bicyclist is going to turn right",
+      "The bicyclist wants you to pass on the left"
+    ],
+    "answer": 2,
+    "explanation": "A left arm bent up at the elbow means a right turn. A bicyclist may also signal a right turn by holding the right arm straight out. A left arm bent down means stopping or slowing.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AK p. 50, CO p. 26, AR p. 80)"
+  },
+  {
+    "id": "car.sr.089",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "At night you are using your high beams when a bicyclist comes toward you. What should you do?",
+    "choices": [
+      "Keep your high beams on so the bicyclist can see the road",
+      "Switch to low beams so you don't blind the bicyclist",
+      "Flash your high beams to warn the bicyclist",
+      "Turn off your headlights until the bicyclist passes"
+    ],
+    "answer": 1,
+    "explanation": "Dim your high beams for an oncoming bicyclist, just as you would for an oncoming car. Bright lights can blind the rider.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., GA p. 9, IL p. 46, FL p. 89)"
+  },
+  {
+    "id": "car.sr.090",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are following a motorcycle in city traffic. It slows down, but its brake light never comes on. Why can this happen?",
+    "choices": [
+      "Its brake light must be broken, so the rider is about to be pulled over",
+      "Motorcycles are not required to have brake lights",
+      "The rider is signaling that you may pass",
+      "Riders often slow by downshifting, which doesn't light the brake light"
+    ],
+    "answer": 3,
+    "explanation": "Motorcyclists often slow down by downshifting or engine braking, which does not turn on the brake light. Keep extra space behind a motorcycle so a slowdown doesn't surprise you.",
+    "difficulty": 3,
+    "ref": "State driver handbooks (e.g., MI p. 70)"
+  },
+  {
+    "id": "car.sr.091",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You want to pass a motorcycle on a road with two lanes in your direction. How should you do it?",
+    "choices": [
+      "Pass in the same lane if the motorcycle is near the edge",
+      "Use the other lane, as you would to pass a car",
+      "Pass as close as you can so you spend less time beside it",
+      "Honk first so the rider moves to the right side of the lane"
+    ],
+    "answer": 1,
+    "explanation": "A motorcycle is entitled to a full lane. Pass using the next lane, never in the motorcycle's lane, and don't cut back in too soon. The wind blast from a close pass can make a rider lose control.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., GA p. 9, CA p. 50, FL p. 95)"
+  },
+  {
+    "id": "car.sr.092",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You see children riding bicycles near the street ahead. What should you expect?",
+    "choices": [
+      "They will follow traffic rules as carefully as adults",
+      "They will stop and wait for you to pass",
+      "They may swerve or ride into the street without looking",
+      "They will stay on the sidewalk, since children may not ride in the street"
+    ],
+    "answer": 2,
+    "explanation": "Children on bicycles are often unpredictable and may turn or enter the road without looking or signaling. Slow down and be ready to stop.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., AR p. 80, NE p. 77, MT p. 54)"
+  },
+  {
+    "id": "car.sr.093",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Where there is no sidewalk, which way should pedestrians walk along the road?",
+    "choices": [
+      "Facing oncoming traffic",
+      "In the same direction as traffic",
+      "In the center of the lane, so drivers see them",
+      "On whichever side has the wider shoulder"
+    ],
+    "answer": 0,
+    "explanation": "Where there is no sidewalk, pedestrians should walk on the left side of the road, facing oncoming traffic. Bicyclists are the opposite: they ride with traffic. Expect both on roads without sidewalks.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NV p. 66, IL p. 43, NC p. 93, AK p. 49)"
+  },
+  {
+    "id": "car.sr.094",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You hear a siren nearby but cannot tell where the emergency vehicle is. What should you do?",
+    "choices": [
+      "Keep driving at your normal speed until you can see it coming",
+      "Speed up to get out of the area before it arrives",
+      "Pull to the right and stop until you know where it is",
+      "Stop right where you are, even in an intersection"
+    ],
+    "answer": 2,
+    "explanation": "If you hear a siren close by but can't see the vehicle, pull safely to the right edge of the road and stop until you are sure it is not coming toward you. Do not stop inside an intersection.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NY p. 35)"
+  },
+  {
+    "id": "car.sr.095",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A bicyclist is in the left-turn lane ahead of you, waiting to turn left. You want to turn left too. What should you do?",
+    "choices": [
+      "Pull up beside the bicyclist and turn together",
+      "Honk so the bicyclist moves to the side",
+      "Go around the bicyclist on the right side and turn first",
+      "Stay behind the bicyclist until they finish the turn"
+    ],
+    "answer": 3,
+    "explanation": "Bicyclists may move into a left-turn lane or the left part of a lane to turn left, like any other vehicle. Stay behind them until they have safely completed the turn.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., IL p. 46, TX p. 59, AR p. 80)"
+  },
+  {
+    "id": "car.sr.096",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Where should you watch especially carefully for pedestrians?",
+    "choices": [
+      "Only at intersections that have traffic signals",
+      "Near schools, parks, bus stops and playgrounds",
+      "Only where crosswalks are painted",
+      "Mainly on open rural highways"
+    ],
+    "answer": 1,
+    "explanation": "Look for pedestrians wherever people are likely to walk, such as near schools, parks, playgrounds and bus stops. Pedestrians can be anywhere, not just in marked crosswalks.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g., NY p. 67, GA p. 9)"
+  },
+  {
+    "id": "car.sr.097",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Why should you watch the right edge of the road closely for bicyclists at night?",
+    "choices": [
+      "Bicyclists are not allowed on the road after dark",
+      "Bicycle lights are brighter than headlights and cause glare",
+      "They are hard to see, and some ride without lights",
+      "Bicyclists must ride on the shoulder at night"
+    ],
+    "answer": 2,
+    "explanation": "Bicyclists are small and hard to see after dark. Bikes should have lights and reflectors at night, but not every rider uses them, so scan the road edges carefully.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., GA p. 9, AR p. 80)"
   }
 ]

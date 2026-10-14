@@ -59,7 +59,7 @@
       "A 1.5-ounce shot of 80-proof liquor"
     ],
     "answer": 3,
-    "explanation": "A 12-ounce beer, a 5-ounce glass of wine and a 1.5-ounce shot of 80-proof liquor each hold about the same amount of alcohol. A 12-ounce glass of wine or 4 ounces of liquor is more than one standard drink.",
+    "explanation": "A 12-ounce regular beer, a standard glass of wine and a 1.5-ounce shot of 80-proof liquor each hold about the same amount of alcohol. A 12-ounce glass of wine or 4 ounces of liquor is several standard drinks.",
     "difficulty": 1,
     "ref": "State driver handbooks (e.g., NY p. 55, NJ p. 117, PA p. 38, CA p. 79)"
   },
@@ -67,17 +67,17 @@
     "id": "car.ad.005",
     "track": "car",
     "topic": "alcohol-drugs",
-    "prompt": "Your friend says beer is a \"safer\" choice than liquor if you plan to drive later. Which statement is true?",
+    "prompt": "Your friend says beer is a \"safer\" choice than liquor if you plan to drive later. What is true?",
     "choices": [
-      "Beer is safer because it is weaker than wine or liquor",
-      "Wine does not affect driving as much as beer or liquor",
-      "A standard beer, glass of wine or shot of liquor all contain about the same amount of alcohol",
+      "Beer is safer, so you can drink more of it before driving",
+      "Wine affects driving less than beer or liquor does",
+      "No drink is safer; what matters is how much alcohol you have",
       "Only liquor can raise your BAC enough to affect driving"
     ],
     "answer": 2,
-    "explanation": "It is the amount of alcohol you drink that matters, not the type of drink. A typical serving of beer, wine or liquor has about the same alcohol, so none is safer to drink before driving.",
+    "explanation": "The type of drink makes no difference. A regular beer, a glass of wine and a shot of liquor have about the same alcohol, so what counts is how much you drink. None is safe before driving.",
     "difficulty": 2,
-    "ref": "State driver handbooks (e.g., NY p. 55, NJ p. 117, AK p. 22)"
+    "ref": "State driver handbooks (e.g., AK p. 22, AL p. 35, NY p. 55)"
   },
   {
     "id": "car.ad.006",
@@ -117,7 +117,7 @@
     "topic": "alcohol-drugs",
     "prompt": "How does eating food before or while drinking affect your BAC?",
     "choices": [
-      "It slows the absorption of alcohol but cannot prevent impairment if you drink too much",
+      "It slows absorption but cannot prevent impairment",
       "It makes you sober by soaking up the alcohol",
       "It lets you safely drink twice as much before driving",
       "It has no effect on how alcohol is absorbed"
@@ -135,8 +135,8 @@
     "choices": [
       "Yes. Each cup of coffee cancels out about one drink",
       "Yes, as long as he also drinks a glass of cold water",
-      "Only if he waits ten minutes after the coffee",
-      "No. Coffee may make him more awake, but it does not lower his BAC"
+      "Only if he waits ten minutes after drinking the coffee",
+      "No. Coffee may make him more alert, but his BAC stays the same"
     ],
     "answer": 3,
     "explanation": "Caffeine can make a drinker feel more alert, but it cannot change BAC or make a drunk driver sober. Only time removes alcohol from the body.",
@@ -165,9 +165,9 @@
     "topic": "alcohol-drugs",
     "prompt": "You had four drinks at a party that just ended. You ate a big meal and had a coffee, and you feel fine. What should you do?",
     "choices": [
-      "Do not drive. Ride with a sober driver, call a ride or stay the night",
-      "Drive home slowly on quiet back roads",
-      "Wait 15 minutes and then drive",
+      "Do not drive; get a sober ride or stay the night",
+      "Drive home slowly using quiet back roads",
+      "Wait 15 minutes for the coffee to work, then drive",
       "Drink some water and drive with the windows open"
     ],
     "answer": 0,
@@ -213,9 +213,9 @@
     "topic": "alcohol-drugs",
     "prompt": "Is it legal to drive while impaired by a medicine your doctor prescribed for you?",
     "choices": [
-      "No. It is illegal to drive while impaired by any drug, including prescription medicine",
-      "Yes. A valid prescription is a legal excuse",
-      "Yes, as long as you have the pill bottle with you",
+      "No. Impaired driving is illegal even with a valid prescription",
+      "Yes. A valid prescription is a legal defense",
+      "Yes, as long as you carry the labeled pill bottle with you",
       "Yes. Impaired-driving laws only cover alcohol and illegal drugs"
     ],
     "answer": 0,
@@ -229,10 +229,10 @@
     "topic": "alcohol-drugs",
     "prompt": "The label on your medicine says \"May cause drowsiness. Do not operate heavy machinery.\" What does this mean for you?",
     "choices": [
-      "You should not drive after taking it, because a car counts as heavy machinery",
-      "The warning only applies to construction equipment",
-      "You may drive if the trip is short",
-      "You may drive if you drink coffee with it"
+      "Do not drive after taking it; a car counts as heavy machinery",
+      "Nothing; the warning is only for people who run construction equipment",
+      "You may still drive, as long as the trip is short",
+      "You may drive if you take it with coffee to stay alert"
     ],
     "answer": 0,
     "explanation": "A warning about heavy machinery includes your car. If a medicine may make you drowsy, do not drive after taking it, and ask a doctor or pharmacist if you are unsure.",
@@ -261,10 +261,10 @@
     "topic": "alcohol-drugs",
     "prompt": "What happens when alcohol is combined with other drugs or medicines?",
     "choices": [
-      "The two cancel each other out",
-      "The medicine reduces the effect of the alcohol",
-      "Nothing changes if the medicine is prescribed",
-      "The effects can multiply and be much stronger than either one alone"
+      "The two cancel each other out, so you feel normal",
+      "The medicine lowers your BAC and weakens the alcohol",
+      "Nothing changes as long as the medicine was prescribed to you",
+      "The effects can multiply and be much stronger than either alone"
     ],
     "answer": 3,
     "explanation": "Mixing alcohol with other drugs often multiplies their effects and can cause serious health problems. Never drink alcohol while taking other drugs without checking with a doctor.",
@@ -277,9 +277,9 @@
     "topic": "alcohol-drugs",
     "prompt": "You took an allergy pill this morning. At dinner you have one beer and plan to drive home. What is true?",
     "choices": [
-      "The single beer could affect you like several drinks because of the medicine",
-      "One beer is too little to matter",
-      "The allergy pill will cancel out the beer",
+      "The beer could affect you like several drinks",
+      "One beer is too little to matter, so it is fine to drive",
+      "The allergy pill will cancel out the effect of the beer",
       "The effect will be the same as one beer without medicine"
     ],
     "answer": 0,
@@ -293,10 +293,10 @@
     "topic": "alcohol-drugs",
     "prompt": "Can marijuana impair your ability to drive?",
     "choices": [
-      "No. It makes drivers more careful",
-      "Yes. It can slow reaction time, affect judgment of time and distance, and reduce coordination",
-      "Only when it is mixed with alcohol",
-      "Not if it is legal where you live"
+      "No. It makes drivers slower and more careful, so it is safer",
+      "Yes. It can slow your reactions and affect judgment and coordination",
+      "Only when it is used together with alcohol",
+      "Not if it is legal to use in the state where you live"
     ],
     "answer": 1,
     "explanation": "Marijuana impairs reaction time, judgment, coordination and attention, so it is unsafe to drive after using it. Being legal to use does not make it safe or legal to drive impaired.",
@@ -309,10 +309,10 @@
     "topic": "alcohol-drugs",
     "prompt": "Adults may legally use marijuana where you live. You used some an hour ago. May you drive?",
     "choices": [
-      "No. Driving while impaired by marijuana is illegal even where its use is legal",
+      "No. Driving while high is illegal even where marijuana is legal",
       "Yes. A legal product cannot lead to an impaired-driving charge",
-      "Yes, if you have a medical marijuana card",
-      "Yes, if you smoked it rather than ate it"
+      "Yes, as long as you have a medical marijuana card with you",
+      "Yes, because smoked marijuana wears off within an hour"
     ],
     "answer": 0,
     "explanation": "Impaired-driving laws cover any drug that affects your driving, including marijuana that is legal to buy or medically recommended. Do not use marijuana before driving.",
@@ -325,10 +325,10 @@
     "topic": "alcohol-drugs",
     "prompt": "Which driving skills does marijuana commonly affect?",
     "choices": [
-      "Only your sense of smell",
+      "Only your sense of smell and taste",
       "Keeping the car in its lane and judging distances",
       "Only your long-term memory, not driving skills",
-      "It sharpens your reaction time"
+      "It sharpens your reaction time and focus"
     ],
     "answer": 1,
     "explanation": "Marijuana can reduce tracking (the ability to stay in your lane) and distance judgment, and it slows reactions. These are skills you need every second you drive.",
@@ -343,8 +343,8 @@
     "choices": [
       "The person in the group who drank the least",
       "Whoever feels the most sober at the end of the night",
-      "The person who owns the car",
-      "A person who does not drink any alcohol so they can drive others home safely"
+      "The person who owns the car, as long as they had only one drink",
+      "A person who drinks no alcohol so they can drive others home"
     ],
     "answer": 3,
     "explanation": "A designated driver stays completely sober and is responsible for getting others home safely. \"Drank the least\" or \"feels fine\" is not the same as sober.",
@@ -373,9 +373,9 @@
     "topic": "alcohol-drugs",
     "prompt": "You have been drinking at a friend's house. Which is a safe way to get home?",
     "choices": [
-      "Drive slowly with your hazard lights on",
-      "Drive with the windows down to stay alert",
-      "Use a taxi, rideshare or public transit, or ride with a sober driver",
+      "Drive home slowly with your hazard lights on",
+      "Drive with the windows down so the cold air keeps you alert",
+      "Take a taxi, rideshare or transit, or ride with a sober driver",
       "Let the friend who had fewer drinks than you drive"
     ],
     "answer": 2,
@@ -405,10 +405,10 @@
     "topic": "alcohol-drugs",
     "prompt": "You are hosting a party where alcohol is served. Which step helps keep guests from driving impaired?",
     "choices": [
-      "Serve coffee at the end so guests sober up",
-      "Offer alcohol-free drinks and food, and stop serving alcohol well before the party ends",
-      "Keep refilling guests' glasses so they drink slowly",
-      "Serve salty snacks so guests drink more water"
+      "Serve strong coffee at the end so guests sober up before leaving",
+      "Offer alcohol-free drinks and food, and stop serving alcohol early",
+      "Keep guests' glasses topped off so no one has to ask for refills",
+      "Let guests decide for themselves whether they are fine to drive"
     ],
     "answer": 1,
     "explanation": "Good hosts offer non-alcoholic drinks and food, never push refills, and stop serving alcohol well before the party ends. If a guest has had too much, do not let them drive. Coffee does not sober anyone up.",
@@ -422,30 +422,14 @@
     "prompt": "What does the \"implied consent\" law mean?",
     "choices": [
       "You must sign a consent form before an officer can test you",
-      "Officers must get your permission before every test",
+      "Officers need your spoken permission before any alcohol test",
       "You agree to let officers search your car at any time",
-      "By driving, you have agreed to take a chemical test for alcohol or drugs if an officer lawfully asks"
+      "By driving, you have agreed to a chemical test if lawfully asked"
     ],
     "answer": 3,
     "explanation": "Under implied consent (some states call it express consent), driving in the state means you have already agreed to a breath, blood or urine test when an officer lawfully requests one for suspected impaired driving.",
     "difficulty": 1,
-    "ref": "State driver handbooks (e.g., NY p. 56, NJ p. 129, CA p. 80, AK p. 18)"
-  },
-  {
-    "id": "car.ad.028",
-    "track": "car",
-    "topic": "alcohol-drugs",
-    "prompt": "When do you give your consent to chemical testing under the implied consent law?",
-    "choices": [
-      "Only when you sign a form after being stopped",
-      "Automatically, by choosing to drive in the state",
-      "Only after a crash that injures someone",
-      "Only if you have a past impaired-driving conviction"
-    ],
-    "answer": 1,
-    "explanation": "Implied consent means your agreement to testing is given in advance, simply by driving on the state's roads. You do not have to sign anything at the time of the stop.",
-    "difficulty": 2,
-    "ref": "State driver handbooks (e.g., NJ p. 129, NY p. 56, CA p. 80, AK p. 18)"
+    "ref": "State driver handbooks (e.g., NY p. 56, CA p. 80, CO p. 8, AK p. 18)"
   },
   {
     "id": "car.ad.029",
@@ -454,8 +438,8 @@
     "prompt": "You are lawfully arrested for impaired driving and refuse the chemical test. What is true?",
     "choices": [
       "Nothing happens, because the officer now has no evidence",
-      "You can no longer be charged with impaired driving",
-      "The refusal itself can lead to losing your license, separate from the impaired-driving charge",
+      "You can no longer be charged, since there is no test result",
+      "Refusing can cost you your license, apart from any DUI charge",
       "The officer must release you and let you drive home"
     ],
     "answer": 2,
@@ -485,31 +469,15 @@
     "topic": "alcohol-drugs",
     "prompt": "A breath test shows your BAC is below the legal limit, but you were weaving between lanes. Can you still be arrested for impaired driving?",
     "choices": [
-      "Yes. If alcohol or drugs impair your driving, you can be arrested even below the limit",
-      "No. Being under the limit means you are legally sober",
-      "Only if you also refuse a chemical test",
-      "Only if you caused a crash"
+      "Yes. You can be arrested for impaired driving below the limit",
+      "No. Being under the limit means you are legally sober to drive",
+      "Only if you also refuse to take a chemical test",
+      "Only if your weaving caused a crash or an injury"
     ],
     "answer": 0,
     "explanation": "Being under the legal limit does not mean it is safe or legal to drive impaired. An officer's observations of your driving and behavior can be enough evidence for an impaired-driving charge.",
     "difficulty": 3,
-    "ref": "State driver handbooks (e.g., CA p. 79, NY p. 55, TX p. 64)"
-  },
-  {
-    "id": "car.ad.032",
-    "track": "car",
-    "topic": "alcohol-drugs",
-    "prompt": "Can anyone drink alcohol and drive safely?",
-    "choices": [
-      "Yes, if they have many years of driving experience",
-      "Yes, if they can \"hold their liquor\"",
-      "No. Even one drink can affect your driving",
-      "Yes, as long as they have no more than two drinks"
-    ],
-    "answer": 2,
-    "explanation": "No one can drink and drive safely. Even one drink raises your chance of a crash, and experience or tolerance does not protect you from alcohol's effects.",
-    "difficulty": 1,
-    "ref": "State driver handbooks (e.g., FL p. 43, PA p. 37, NY p. 55)"
+    "ref": "State driver handbooks (e.g., CA p. 79, PA p. 85, TX p. 64)"
   },
   {
     "id": "car.ad.033",
@@ -517,10 +485,10 @@
     "topic": "alcohol-drugs",
     "prompt": "Why is a driver who has been drinking often unaware of being impaired?",
     "choices": [
-      "Alcohol sharpens your senses at first",
-      "Impairment only starts once you feel drunk",
-      "Alcohol does not affect people who feel fine",
-      "Alcohol creates false confidence and makes it hard to judge your own condition"
+      "Alcohol sharpens your senses for the first hour or so",
+      "Impairment only starts once you begin to feel drunk",
+      "Alcohol does not affect people who say they feel fine",
+      "Alcohol makes you feel confident while it weakens your judgment"
     ],
     "answer": 3,
     "explanation": "Alcohol weakens the skills you need to drive while making you feel more confident. Because judgment is affected first, drinkers are poor judges of whether they are fit to drive.",
@@ -533,8 +501,8 @@
     "topic": "alcohol-drugs",
     "prompt": "Why is drinking and driving especially dangerous at night?",
     "choices": [
-      "Alcohol is absorbed faster after dark",
-      "Your vision is already limited at night, and alcohol slows recovery from headlight glare",
+      "Your body absorbs alcohol faster after the sun goes down",
+      "Night vision is already limited, and alcohol slows glare recovery",
       "Night driving makes alcohol wear off more slowly",
       "Roads are emptier, so drinkers tend to fall asleep sooner"
     ],
@@ -581,8 +549,8 @@
     "topic": "alcohol-drugs",
     "prompt": "The car ahead of you is weaving across the lane line and braking for no reason. What should you do?",
     "choices": [
-      "Keep well back from it, then report it to police with its description and direction when it is safe",
-      "Pass it quickly and honk to warn the driver",
+      "Stay well back, then report it to police when it is safe",
+      "Pass it quickly and honk to warn the driver as you go by",
       "Follow closely so you can read the license plate",
       "Pull alongside and signal the driver to pull over"
     ],
@@ -629,10 +597,10 @@
     "topic": "alcohol-drugs",
     "prompt": "After surgery, your doctor prescribes an opioid pain medicine. What should you know about driving?",
     "choices": [
-      "Prescribed medicine is always safe to drive on",
-      "Relieving pain will improve your focus while driving",
+      "Prescribed medicine is always safe for driving if taken as directed",
+      "Relieving your pain will make you a more focused driver",
       "It only matters if you take more than the prescribed dose",
-      "It can make you drowsy and slow your reactions, so you may not be safe to drive"
+      "It can make you drowsy and slow your reactions, even at the normal dose"
     ],
     "answer": 3,
     "explanation": "Opioids and many other prescription drugs can cause drowsiness and slow reaction time even at the correct dose. Read the label and ask your doctor or pharmacist before driving.",
@@ -677,15 +645,15 @@
     "topic": "alcohol-drugs",
     "prompt": "When do the effects of alcohol on your driving begin?",
     "choices": [
-      "With the first drink, long before you are legally intoxicated",
-      "Only once you reach the legal limit",
-      "Only after your third drink",
-      "Only when you start to feel drunk"
+      "With the first drink, well before the legal limit",
+      "Only once your BAC reaches the legal limit",
+      "Only after about three drinks for most adults",
+      "Only once you start to look or feel drunk"
     ],
     "answer": 0,
-    "explanation": "Alcohol begins to weaken your driving skills with the first drink, even if you do not look or feel intoxicated. The legal limit is not a safe level.",
+    "explanation": "Alcohol begins to weaken your driving skills with the first drink, even if you do not look or feel drunk. Even one drink raises your crash risk, and experience or tolerance does not protect you. The legal limit is not a safe level.",
     "difficulty": 2,
-    "ref": "State driver handbooks (e.g., NY p. 54, PA p. 37, FL p. 43)"
+    "ref": "State driver handbooks (e.g., NY p. 54, NY p. 56, PA p. 37, AL p. 35)"
   },
   {
     "id": "car.ad.044",
@@ -757,14 +725,62 @@
     "topic": "alcohol-drugs",
     "prompt": "After a few drinks, your friend plans to exercise to \"sweat out\" the alcohol before driving. Will that work?",
     "choices": [
-      "No. Only a small amount of alcohol leaves through sweat; the liver removes the rest slowly over time",
-      "Yes. Exercise burns off alcohol quickly",
+      "No. Sweat removes very little alcohol; only time sobers you up",
+      "Yes. Hard exercise burns off alcohol much faster than resting",
       "Yes, if he exercises for at least 15 minutes",
-      "Yes, if he also takes a cold shower"
+      "Yes, if he follows it with a cold shower and coffee"
     ],
     "answer": 0,
     "explanation": "Exercise, coffee and cold showers cannot reduce BAC. Most alcohol is broken down by the liver at a steady rate, so only time will sober you up.",
     "difficulty": 2,
     "ref": "State driver handbooks (e.g., NY p. 56, TX p. 62, NJ p. 116)"
+  },
+  {
+    "id": "car.ad.049",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Which is true about \"uppers,\" pep pills and diet pills (stimulants) and driving?",
+    "choices": [
+      "They safely replace sleep, so you can drive through the night",
+      "They may help briefly, but later can cause dizziness and poor focus",
+      "They speed up your reactions, which makes driving safer",
+      "They are only risky when taken together with alcohol"
+    ],
+    "answer": 1,
+    "explanation": "Stimulants can make a driver feel more alert for a short time. Later they can make you nervous and dizzy, hurt your concentration and affect your vision. They are not a substitute for rest.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AR p. 87, MT p. 83, NM p. 32, NH p. 15)"
+  },
+  {
+    "id": "car.ad.050",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "At a party you are handed a large specialty mixed drink. How much alcohol might it contain?",
+    "choices": [
+      "Less than one standard drink, because of the mixers",
+      "Exactly one standard drink, like any other glass",
+      "About the same as a can of light beer",
+      "As much as several standard drinks"
+    ],
+    "answer": 3,
+    "explanation": "Specialty and mixed drinks often contain more than one shot of liquor, so one glass can equal several standard drinks. Mixers do not reduce the alcohol you take in.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., AR p. 86, MT p. 81, NM p. 32)"
+  },
+  {
+    "id": "car.ad.051",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "How do impaired-driving laws treat drivers under 21 compared with adult drivers?",
+    "choices": [
+      "They follow the same alcohol limit as adult drivers",
+      "They are held to a much lower alcohol limit than adults",
+      "They can only be charged if they cause a crash",
+      "Their limit applies only when they carry passengers"
+    ],
+    "answer": 1,
+    "explanation": "Every state has a \"zero tolerance\" law that makes it illegal for drivers under 21 to drive with even a small amount of alcohol, far below the adult limit. Check your state's exact limit in the State Cheat Sheet.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g., NY p. 57, AZ p. 59, GA p. 5, MT p. 82)"
   }
 ]

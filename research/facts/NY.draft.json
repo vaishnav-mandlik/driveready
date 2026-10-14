@@ -1,0 +1,783 @@
+{
+  "code": "NY",
+  "name": "New York",
+  "agency": {
+    "name": "New York State Department of Motor Vehicles",
+    "abbreviation": "DMV",
+    "website": "https://dmv.ny.gov"
+  },
+  "handbook": {
+    "title": "New York State Driver's Manual",
+    "edition": "MV-21 (PDF marked (c) 2018; current posted version, includes the later ADAS chapter)",
+    "url": "https://dmv.ny.gov/brochure/mv21.pdf"
+  },
+  "knowledgeTest": {
+    "questions": 20,
+    "passingScore": 14,
+    "passingPercent": 70,
+    "roadSigns": "4 of the 20 questions are about road signs; you must answer at least 2 of those 4 correctly (in addition to 14 of 20 overall).",
+    "timeLimitMinutes": null,
+    "format": "Multiple-choice written (knowledge) test at a DMV office on touch-screen test stations or on paper; an online permit test is also offered, and students at participating high schools can take it through the Online Knowledge Test Application (OKTA).",
+    "languages": "Multiple languages. The DMV permit-test page lists 20: English, Albanian, Arabic, Bengali, Bosnian, Chinese, French, Greek, Haitian Creole, Hebrew, Italian, Japanese, Korean, Nepali, Polish, Russian, Spanish, Turkish, Urdu and Yiddish. The high-school OKTA test is in English and Spanish only.",
+    "retestWait": "No waiting period is stated for an in-office retest (the DMV page says if you do not pass you can try again). The DMV online permit test page says a failed online test can be retaken after at least 6 hours.",
+    "notes": "Handbook p. 10: 'you must correctly answer at least 14 of the 20 questions asked, but you must correctly answer two of the four questions about road signs.' Same written test for Class D, DJ, M, MJ and E. The DMV online permit test page states its pass mark as at least 80% of all questions and 50% of the road-sign questions. OKTA is available to students at least 15 years 11 months old; a learner permit itself is issued at 16. The minimum age is the same for all applicants; under-18 applicants get a junior (DJ) permit with regional time/supervision restrictions.",
+    "sourceUrl": "https://dmv.ny.gov/driver-license/prepare-for-and-take-your-permit-test"
+  },
+  "motorcycleTest": {
+    "questions": 20,
+    "passingScore": 14,
+    "passingPercent": 70,
+    "notes": "Per the DMV motorcycle page, the Class M/MJ permit test also requires at least 14 of 20 correct, including at least 2 of the 4 road-sign questions; study the Motorcycle Operator's Manual (MV-21MC). Offered in the same 20 languages as the Class D test.",
+    "sourceUrl": "https://dmv.ny.gov/driver-license/get-a-motorcycle-learner-permit-and-license"
+  },
+  "cdlTest": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC (DWI); over 0.05% is evidence of impairment (DWAI); 0.18% is Aggravated DWI",
+      "detail": "In New York a BAC of .08 or higher is evidence of intoxication (DWI). A BAC over .05 is legal evidence of impairment (DWAI), and .18 or more is evidence of Aggravated DWI.",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 55,
+        "quote": "A BAC of more than .05 percent is legal evidence that you are impaired, a BAC of .08 percent or higher is evidence of intoxication"
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% (Zero Tolerance: .02 to .07 BAC)",
+      "detail": "Under the Zero Tolerance Law, a driver under 21 with a measurable BAC of .02 to .07 has the license suspended for six months, plus a $100 suspension termination fee and a $125 civil penalty. A second violation means revocation for at least one year or until age 21, whichever is longer.",
+      "number": 0.02,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 57,
+        "quote": "Under the state's \"zero tolerance\" law, it is a violation for a person under 21 to drive with any BAC that can be measured (.02 to .07). After a finding of violation is determined at a DMV hearing, the driver license will be suspended for six months."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusal: license suspended at arraignment; revoked at least 1 year (first refusal) plus $500 civil penalty",
+      "detail": "By driving in New York you are considered to have consented to a chemical test. A first refusal by a driver 21 or older brings at least a one-year revocation and a $500 civil penalty, even if you are found not guilty of the alcohol charge.",
+      "number": 1,
+      "unit": "year revocation",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 21,
+        "quote": "Chemical test refusal, drivers over age 21: minimum one-year revocation"
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "DWI 1st offense: $500-$1,000 fine, up to 1 year in jail, minimum 6-month revocation",
+      "detail": "A first DWI (.08 BAC or higher) is a misdemeanor: fine of $500 to $1,000, up to 1 year in jail, and at least a 6-month license revocation. A first Aggravated DWI (.18+) carries a $1,000-$2,500 fine and at least a 1-year revocation; a first DWAI (alcohol) carries a $300-$500 fine and a 90-day suspension.",
+      "number": 6,
+      "unit": "months revocation",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 20,
+        "quote": "Driving while intoxicated (DWI), with .08 of one percent blood alcohol content (.08 BAC): minimum six-month revocation"
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "open_container",
+      "value": "Illegal for driver or passenger to drink or possess an open alcohol container (or consume cannabis); up to $150 fine first offense",
+      "detail": "It is a traffic infraction for a driver or passenger on a public road to drink alcohol, have an open container of alcohol, or consume cannabis. A first conviction can bring a fine up to $150 and possible 15 days in jail. Passengers in vehicles like stretch limousines are exempt.",
+      "number": 150,
+      "unit": "dollars (max fine, 1st offense)",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 57,
+        "quote": "It is a traffic infraction for a driver or passenger in a motor vehicle on a public highway, street or road to drink a beverage containing alcohol or to possess an open container"
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "permit_min_age",
+      "value": "16 years old",
+      "detail": "You must be at least 16 to get a New York learner permit (junior permit if under 18). Students as young as 15 years 11 months can take the written test online through OKTA at participating high schools, but must be 16 to apply for the permit.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 11,
+        "quote": "Students who are at least age 16 can bring their receipt and completed forms to any state or county motor vehicle office to apply for a learner permit."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "6 months (junior permit)",
+      "detail": "A junior permit must be held for at least six months, not counting any time it was suspended or revoked, before a road test can be scheduled.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 19,
+        "quote": "A junior permit must be held for a minimum of six months, excluding any time the permit is suspended or revoked, before a road test can be scheduled."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "50 hours, including at least 15 after sunset",
+      "detail": "For a junior driver's road test, a parent or guardian must certify on form MV-262 that the teen completed at least 50 hours of supervised practice, including at least 15 hours after sunset. DMV recommends at least 10 of those hours in moderate to heavy traffic.",
+      "number": 50,
+      "unit": "hours",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 13,
+        "quote": "Before you take the test, it is important that you have had at least 50 hours of practice, with at least 15 hours after sunset."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Licensed driver age 21+, licensed for the vehicle, seated in the front seat",
+      "detail": "A permit holder must be supervised by a licensed driver at least 21 years old with a license valid for the vehicle, seated in the front seat. In New York City and on Long Island the supervisor must be a parent, guardian or driving instructor (Long Island also allows a person designated in writing by the parent during 5 AM-9 PM).",
+      "number": 21,
+      "unit": "years (supervisor minimum age)",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 11,
+        "quote": "When you practice, you must be supervised by a licensed driver who is at least 21 years old, has a license valid for the type of vehicle you are driving, and is seated in the front seat with you when you are driving."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 (Junior Operator license, Class DJ), after holding a junior permit 6 months",
+      "detail": "The Class DJ junior license has a minimum age of 16, but because the junior permit (available at 16) must be held six months, most teens get it at 16 1/2 or later. Junior drivers face regional time, passenger and supervision limits until 18.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 6,
+        "quote": "Junior Operator, Class DJ - Minimum age is 16."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "Junior license 9 PM-5 AM: upstate, drive alone only directly between home and work or a school course; otherwise with parent/guardian. No driving at all in New York City.",
+      "detail": "Upstate, a junior license holder may drive unaccompanied from 5 AM to 9 PM. From 9 PM to 5 AM they may drive alone only directly between home and employment or a school course; all other driving must be accompanied by a licensed parent, guardian or person in loco parentis. Junior licensees may not drive in New York City at any time; Long Island has its own tighter limits.",
+      "number": 21,
+      "unit": "hour (9 PM start)",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 16,
+        "quote": "or a school course. All other driving must be"
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "No more than 1 passenger under 21 unless immediate family",
+      "detail": "A junior license holder cannot drive with more than one passenger under age 21 unless they are members of the driver's immediate family. Every passenger must wear a seat belt, one per person.",
+      "number": 1,
+      "unit": "passenger under 21",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 15,
+        "quote": "under the age of 21 unless they are members of your immediate family."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "18, or 17 with a driver education Certificate of Completion",
+      "detail": "The Class D (senior) license minimum age is 18, or 17 if you completed an approved high school or college driver education course (Student Certificate of Completion, MV-285). Junior restrictions otherwise apply until 18.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 6,
+        "quote": "Operator, Class D - Minimum age is 18, or age 17 with a driver education Certificate"
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "Hand-held phone talking banned for all drivers; first offense fine up to $200 and 5 points",
+      "detail": "It is a traffic infraction to speak into or listen to a hand-held phone while driving. The phone may be held only to activate, begin or end a call; hands-free use is allowed any time. Emergency calls are exempt.",
+      "number": 5,
+      "unit": "points",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 52,
+        "quote": "In New York State, it is a traffic infraction to speak into or listen to a hand-held mobile telephone while driving. For a first offense, you could be required to pay a fine up to $200 and receive five license points."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "texting_ban",
+      "value": "Texting/portable electronic device use banned; fines up to $200 / $250 / $450",
+      "detail": "Using a portable electronic device to send or receive texts or e-mails while driving is illegal. Fines: up to $200 for a first offense, up to $250 for a second within 18 months, up to $450 for a third within 18 months. Texting carries 5 points.",
+      "number": 200,
+      "unit": "dollars (max fine, 1st offense)",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 52,
+        "quote": "In New York State, it is illegal to use portable electronic devices, such as cell phones and smart phones, to send or receive text messages or e-mails while driving. The penalty for a first offense is a fine of up to $200."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Junior/probationary drivers: 120-day suspension for a first phone or texting conviction",
+      "detail": "Junior permit/license holders and probationary drivers convicted of hand-held phone use or texting get a 120-day suspension for a first conviction, and a revocation of at least one year for another conviction within six months after the license is restored.",
+      "number": 120,
+      "unit": "days suspension",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 52,
+        "quote": "drivers with probationary and junior licenses who use a hand-held phone or text while driving will receive a 120-day suspension for a first conviction"
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Primary enforcement; driver and all passengers 16+ (front and back); driver responsible for passengers under 16",
+      "detail": "New York is a primary enforcement state. The driver and every passenger 16 or older must be belted (fine up to $50 each). The driver must make sure passengers under 16 are belted or in a proper child restraint, or face a $25-$100 fine and 3 points per violation.",
+      "number": 16,
+      "unit": "years (passenger age responsible for own belt)",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 48,
+        "quote": "New York is a \"primary enforcement\" state, which means a police officer can pull you over just because you or one of your passengers isn't wearing their seatbelt."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Under 4: federally approved child safety seat (rear-facing until 2); ages 4-7: booster seat with lap and shoulder belt",
+      "detail": "Children under 4 must ride in a federally approved child safety seat, rear-facing until age 2 or until they reach the seat's rear-facing limit. Children 4 through 7 need an appropriate child restraint (booster seat) used with a lap and shoulder belt. Ages 8-15 must use a seat belt.",
+      "number": 4,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 48,
+        "quote": "A child between the age of four (4) and seven (7) must be restrained in an appropriate federally approved child restraint system (commonly referred to as a booster seat) used with lap and shoulder belt."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Drive at a speed reasonable for conditions; you can be ticketed below the posted limit",
+      "detail": "The posted limit is a maximum. On a slippery or foggy expressway posted at 55 or 65 mph, even 50 mph can earn a ticket for a speed 'not reasonable' for conditions.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 47,
+        "quote": "Even if you were to drive at 50 mph (80 km/h) on that hazardous highway, a police officer could ticket you for a speed \"not reasonable\" for the conditions."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "55 mph when no limit is posted",
+      "detail": "If no speed limit is posted, the maximum in New York State is 55 mph. Some cities have lower unposted limits (New York City is 25 mph unless posted otherwise).",
+      "number": 55,
+      "unit": "mph",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 47,
+        "quote": "You must obey the speed limit. If no limit is posted, drive no more than 55 mph (88 km/h)."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "65 mph (posted on some rural expressways); normally 55 mph",
+      "detail": "Expressway speed limits are normally 55 mph but can be posted at 65 mph in some rural areas.",
+      "number": 65,
+      "unit": "mph",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 62,
+        "quote": "The speed limit is normally 55 mph (88 km/h), but can be posted at 65 mph (100 km/h) in some rural areas."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Some highways have posted minimum speeds; driving too slowly can be dangerous",
+      "detail": "Some highways post minimum speed limits to keep traffic flowing. Driving below the minimum interferes with traffic and creates danger; even without a posted minimum, driving too slowly can be as dangerous as speeding.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 47,
+        "quote": "To keep a smooth traffic flow, some highways also have minimum speed limits."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a full stop and yielding, unless prohibited; NOT allowed in New York City unless a sign permits it",
+      "detail": "Outside New York City you may turn right on a steady red after a full stop, yielding to traffic and pedestrians, unless a NO TURN ON RED sign, signal or marking forbids it. In NYC, turning on red is illegal unless a sign permits it. School bus drivers carrying students may never turn right on red.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 31,
+        "quote": "You are not allowed to turn on a red light in New York City unless a sign that permits it is posted."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Only from a one-way road onto another one-way road, after a full stop and yielding",
+      "detail": "A left turn on a steady red is allowed only when turning from a one-way road into another one-way road, after a full stop and yielding to traffic and pedestrians (not in NYC unless a sign permits).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 31,
+        "quote": "You can make a left turn at a steady red light when you turn from a one-way road into another one-way road after you come to a full stop and yield the right-of-way to oncoming traffic and pedestrians."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 100 feet before turning or changing lanes",
+      "detail": "New York law requires a turn signal or hand signal at least 100 feet ahead of a turn or lane change, and at least 100 feet before an expressway exit ramp.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 36,
+        "quote": "The law requires you to signal a turn or lane change with your turn lights or hand signals at least 100 feet (30 m) ahead."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull over to the right edge and stop, from any direction (even opposite lane of a two-way road); clear the intersection first",
+      "detail": "When an emergency vehicle with flashing red, red-and-blue or red-and-white lights approaches from any direction, safely pull to the right edge and stop until it passes. If in an intersection, drive out of it first. Stop even if it is in the opposite lane of a two-way road, and pull over if you hear a siren nearby but cannot locate it.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 35,
+        "quote": "Wait until the emergency vehicle passes before you drive on. If you are in an intersection, drive out of it before you pull over. You must pull over and stop for an emergency vehicle even if it is headed toward you in the opposite lane of a two-way roadway."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "move_over_law",
+      "value": "Slow down for stopped emergency/hazard vehicles with lights on; on multi-lane parkways, interstates and controlled-access roads, also move out of the adjacent lane",
+      "detail": "Drivers must reduce speed on all roads when passing an emergency or hazard vehicle (amber, blue/amber, or blue/green lights) stopped on the shoulder or roadway, and on multi-lane controlled-access highways must also move out of the adjacent lane if safe. The law also covers any vehicle stopped on the shoulder of a parkway or controlled-access highway. Violations are moving violations.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 35,
+        "quote": "drivers are further required to move from the lane adjacent to the emergency or hazard vehicle unless traffic or other hazards prevent doing so safely."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop from either direction, at least 20 feet away, on all roads, even on the opposite side of a divided highway",
+      "detail": "When a stopped school bus flashes red lights, traffic from both directions must stop, at least 20 feet from the bus, including in school lots and even across a divided highway. Wait until the bus moves or the driver or an officer signals you on. Fines start at $250; three violations in three years revoke your license for at least six months.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 40,
+        "quote": "This law applies on all roadways in New York State. You must stop for a school bus even if it is on the opposite side of a divided highway."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "following_distance",
+      "value": "At least 2 seconds; 3-4 seconds in bad weather or behind large trucks",
+      "detail": "Use the two-second rule: count 'one thousand one, one thousand two' after the vehicle ahead passes a fixed object. Increase to at least three or four seconds in bad weather and when following large trucks.",
+      "number": 2,
+      "unit": "seconds",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 47,
+        "quote": "In bad weather and when following large trucks, increase the count to at least three or four seconds for additional space."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "headlights_required",
+      "value": "From 1/2 hour after sunset to 1/2 hour before sunrise, when visibility is under 1,000 feet, and whenever wipers are needed",
+      "detail": "Headlights are required from one-half hour after sunset to one-half hour before sunrise, when you cannot see 1,000 feet ahead, and whenever you use windshield wipers for rain, snow, sleet or fog. Daytime running lights and parking lights do not count.",
+      "number": 1000,
+      "unit": "feet (visibility)",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 63,
+        "quote": "The law requires you to use your headlights from one-half hour after the sun sets to one-half hour before the sun rises, when visibility is less than 1,000 feet (300 m) and when you use your windshield wipers to clear rain, snow or sleet."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "Within 500 feet of an oncoming vehicle",
+      "detail": "Switch to low beams when you are within 500 feet of an oncoming vehicle.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 63,
+        "quote": "Your headlights must be on low beam when you are within 500 feet (150 m) of an oncoming vehicle or within 200 feet (60 m) of a vehicle ahead of you, even if the vehicle ahead is in a different lane."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "Within 200 feet of a vehicle ahead (even in a different lane)",
+      "detail": "Use low beams when you are within 200 feet of a vehicle you are following, even if it is in a different lane.",
+      "number": 200,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 63,
+        "quote": "Your headlights must be on low beam when you are within 500 feet (150 m) of an oncoming vehicle or within 200 feet (60 m) of a vehicle ahead of you, even if the vehicle ahead is in a different lane."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet (no parking, stopping or standing)",
+      "detail": "You cannot park, stop or stand within 15 feet of a fire hydrant unless a licensed driver stays in the vehicle to move it in an emergency.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 43,
+        "quote": "Within 15 feet (5 m) of a fire hydrant, unless a licensed driver remains in the vehicle to move it in an emergency."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "Not in a crosswalk; no parking or standing within 20 feet of a crosswalk at an intersection",
+      "detail": "You may not park, stop or stand on a sidewalk or in a crosswalk, and parking or standing is not allowed within 20 feet of a crosswalk at an intersection.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 43,
+        "quote": "Within 20 feet (6 m) of a crosswalk at an intersection."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "parking_intersection",
+      "value": "No parking, stopping or standing in an intersection unless signs or meters permit",
+      "detail": "You cannot park, stop or stand in an intersection unless signs or parking meters permit it. The handbook gives no separate distance from an intersection; the 20-foot crosswalk rule and 30-foot sign/signal rule apply.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 43,
+        "quote": "In an intersection, unless permitted by signs or parking meters."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet from a traffic light, STOP sign or YIELD sign",
+      "detail": "Parking or standing is not allowed within 30 feet of a traffic light, STOP sign or YIELD sign.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 43,
+        "quote": "Within 30 feet (10 m) of a traffic light, STOP sign or YIELD sign."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet from a railroad crossing (and never on the tracks)",
+      "detail": "You cannot park within 50 feet of a railroad crossing, and you may never park, stop or stand on railroad tracks.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 43,
+        "quote": "You cannot park your vehicle within 50 feet (15 m) of a railroad crossing."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet from a fire station driveway on the same side; 75 feet on the opposite side",
+      "detail": "Parking or standing is not allowed within 20 feet of a fire station driveway, or within 75 feet of it on the opposite side of the road.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 43,
+        "quote": "Within 20 feet (6 m) of a fire station driveway or within 75 feet (23 m) on the opposite side of the road."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "Wheels no more than 1 foot from the curb when parallel parked",
+      "detail": "In your final parallel-parked position, your wheels must be no more than one foot (30 cm) from the curb.",
+      "number": 1,
+      "unit": "foot",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 42,
+        "quote": "In your final parking position, your wheels must be no more than one foot (30 cm) from the curb."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "At least 15 feet from the tracks",
+      "detail": "When railroad flashing red lights, lowered gates or a bell signal a train, stop at least 15 feet from the tracks and do not cross until lights and bell stop and gates are fully up.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 61,
+        "quote": "Flashing red lights, lowered crossing gates and/or a bell at a railroad crossing indicate that you must stop, at least 15 feet (5 m) from the tracks."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "Pass on the left at a safe distance until clear of the bicycle (no fixed number of feet in the handbook)",
+      "detail": "New York law requires a driver overtaking a bicyclist to pass on the left at a safe distance until safely past. Reduce speed when passing, since air pressure can push a cyclist off balance, and pass as you would another vehicle when it is safe to move into an adjacent lane.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 39,
+        "quote": "When overtaking a bicyclist from behind, the law requires you to pass on the left at a safe distance until the bicycle has been cleared."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Yield to pedestrians in marked or unmarked crosswalks; always yield to blind pedestrians with a guide dog or white/metal cane",
+      "detail": "Drivers must yield to pedestrians legally using marked or unmarked crosswalks and must never pass a vehicle stopped at a crosswalk for a pedestrian. Blind pedestrians with a guide dog or white or metal cane always have the right-of-way at crosswalks, even if signals are not in their favor.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 67,
+        "quote": "You must always give them the right-of-way when they are trying to cross at a marked or unmarked crosswalk even if the traffic signals or other right-of-way rules are not in their favor."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Report to DMV (form MV-104) within 10 days if anyone is hurt or killed or property damage to any one person is $1,000+",
+      "detail": "Notify police immediately if anyone is injured or killed. File form MV-104 with DMV within 10 days for any crash with injury or death or $1,000 or more in damage to one person's property. Reporting to your insurer does not satisfy this; failure to report is a misdemeanor.",
+      "number": 1000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 77,
+        "quote": "You must also report any traffic incident or crash that involves $1,000 or more in damage to the property of any one person."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "25/50/10 injury and property damage; 50/100 for death",
+      "detail": "Minimum liability coverage: $25,000 injury to one person, $50,000 injury to two or more, $50,000 death of one person, $100,000 death of two or more, and $10,000 property damage. Coverage must stay in force as long as the vehicle is registered.",
+      "number": 25000,
+      "unit": "dollars (injury, one person)",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 27,
+        "quote": "$25,000 against injury to one person and $50,000 against injury to two or more persons and $10,000 against property damage."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "point_system",
+      "value": "11 or more points within 24 months = suspension",
+      "detail": "Points count from the date of the violation. Accumulating 11 or more points in 24 months triggers suspension. Six points in 18 months also brings a Driver Responsibility Assessment ($100/year for 3 years). A DMV-approved crash prevention course (PIRP) can reduce up to 4 points.",
+      "number": 11,
+      "unit": "points in 24 months",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 22,
+        "quote": "If you get 11 or more points within 24 months, you will be notified by mail that your driver license will be suspended."
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Universal: all motorcyclists must wear approved helmets and eye protection (goggles or face shield)",
+      "detail": "New York requires motorcyclists to wear approved helmets and approved eye protection (goggles or a face shield), even if the motorcycle has a windshield.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 71,
+        "quote": "wear approved helmets and goggles or a face shield"
+      },
+      "status": "unverified"
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Not allowed: a motorcyclist may not pass or share a lane with a non-motorcycle; two motorcycles may ride side by side in one lane",
+      "detail": "Two motorcyclists may ride side by side in a single lane, but a motorcyclist cannot pass or share a lane with any motor vehicle that is not a motorcycle (no lane splitting). Give a motorcycle the full lane width when passing.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 71,
+        "quote": "In addition to using the full lane, two motorcyclists are allowed to ride side-by-side in a single lane, but a motorcyclist cannot pass or share a lane with another motor vehicle that is not a motorcycle."
+      },
+      "status": "unverified"
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "No turns on red in New York City",
+      "summary": "Statewide you may turn right on red (or left from one-way onto one-way) after a full stop, but in New York City turning on red is illegal unless a sign specifically permits it.",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 31,
+        "quote": "You are not allowed to turn on a red light in New York City unless a sign that permits it is posted."
+      },
+      "status": "unverified"
+    },
+    {
+      "title": "New York City default speed limit is 25 mph",
+      "summary": "The statewide maximum when no limit is posted is 55 mph, but in New York City the limit is 25 mph unless another limit is posted.",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 47,
+        "quote": "For example, the speed limit is 25 mph (48 km/h) in New York City unless another limit is posted."
+      },
+      "status": "unverified"
+    },
+    {
+      "title": "Junior drivers have region-based limits (NYC, Long Island, Upstate)",
+      "summary": "Junior (under-18) permit and license restrictions differ by region. Junior license holders may not drive in New York City at all; upstate they may drive unaccompanied from 5 AM to 9 PM. Junior permit holders may not drive in NYC or on Long Island between 9 PM and 5 AM.",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 15,
+        "quote": "These restrictions are based on where you are driving and are best explained by the chart on the next page"
+      },
+      "status": "unverified"
+    },
+    {
+      "title": "Junior and new-driver suspensions (60 days / 120 days)",
+      "summary": "A junior permit or license is suspended for 60 days for one serious violation (3+ points) or two other violations, and for 120 days for a texting or cell phone violation. Drivers licensed at 18+ are on probation for 6 months; DWAI, speeding, reckless driving, following too closely, a speed contest, or any two violations bring a 60-day suspension.",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 19,
+        "quote": "your permit, license or privileges will be suspended for 60 days if you are convicted of a serious traffic violation (three points or more) or two other violations."
+      },
+      "status": "unverified"
+    },
+    {
+      "title": "Probation for newly licensed adult drivers",
+      "summary": "If you are 18 or older when you pass your road test, you are on probation for six months. Certain convictions during probation suspend the license for 60 days and restart probation.",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 19,
+        "quote": "If you are convicted of DWAI (alcohol), speeding, reckless driving, following too closely, participating in a speed contest, or any two traffic violations while on probation, your license will be suspended for 60 days."
+      },
+      "status": "unverified"
+    },
+    {
+      "title": "Leandra's Law",
+      "summary": "Driving drunk or impaired with a child under 16 in the vehicle can be charged as a class E felony punishable by up to four years in prison. Anyone convicted of DWI or Aggravated DWI must install an ignition interlock for at least 12 months.",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 59,
+        "quote": "Drivers who commit these alcohol-related offenses with a child under 16 years old in the vehicle may be charged with a class E felony, punishable by up to four years in prison."
+      },
+      "status": "unverified"
+    },
+    {
+      "title": "Aggravated DWI at .18 BAC",
+      "summary": "A BAC of .18 or more is Aggravated DWI: a first offense carries a $1,000-$2,500 fine, up to 1 year in jail and at least a one-year revocation.",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 20,
+        "quote": "with .18 of one percent blood alcohol content (.18 BAC): minimum one-year revocation."
+      },
+      "status": "unverified"
+    },
+    {
+      "title": "DWAI: impairment above .05 BAC",
+      "summary": "New York's Driving While Ability Impaired (DWAI) offense covers BACs over .05 up to .07. A first DWAI is a traffic infraction with a $300-$500 fine, up to 15 days in jail and a 90-day suspension.",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 20,
+        "quote": "Driving while ability impaired by alcohol (DWAI): 90-day suspension."
+      },
+      "status": "unverified"
+    },
+    {
+      "title": "Driver Responsibility Assessment",
+      "summary": "On top of fines, drivers convicted of alcohol/drug offenses or chemical-test refusal pay $250 a year for three years. Drivers with six points in 18 months pay $100 a year for three years, plus $25 per extra point per year.",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 23,
+        "quote": "If you are convicted of one or more traffic violations resulting in six points in any 18-month period, you will be required to pay $100 each year for the next three years."
+      },
+      "status": "unverified"
+    },
+    {
+      "title": "Point and Insurance Reduction Program (PIRP)",
+      "summary": "A DMV-approved crash prevention course can reduce up to 4 points from your record and cut liability and collision premiums by at least 10% for three years. It can be taken for point reduction every 18 months and cannot prevent a mandatory suspension.",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 15,
+        "quote": "If you are eligible for point reduction, as many as four (4) points can be reduced from your driving record."
+      },
+      "status": "unverified"
+    },
+    {
+      "title": "Uninsured vehicle: 1-year revocation; turn in plates before insurance ends",
+      "summary": "Driving or letting someone drive your uninsured vehicle, or a crash without insurance, revokes your license for at least one year ($750 civil penalty to relicense). Before insurance lapses you must turn in the plates; a vehicle uninsured for 90 days also leads to license suspension.",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 21,
+        "quote": "Your driver license will be revoked for at least one year if you operate or allow another person to operate your uninsured vehicle, or if the DMV receives evidence that you were involved in a traffic crash without being insured."
+      },
+      "status": "unverified"
+    },
+    {
+      "title": "U-turn restrictions",
+      "summary": "No U-turn where drivers cannot see you from 500 feet away in either direction (near hilltops and curves), in New York City business districts, on limited-access expressways, or in a school zone.",
+      "source": {
+        "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+        "page": 37,
+        "quote": "You cannot make a U-turn near the top of a hill, a curve or any other location where other drivers cannot see your vehicle from 500 feet (150 m) away in either direction. U-turns are also illegal in business districts of New York City and where NO U-TURN signs are provided."
+      },
+      "status": "unverified"
+    }
+  ],
+  "officialPracticeTests": [
+    "https://dmv.ny.gov/new-york-state-drivers-manual-practice-tests"
+  ],
+  "gaps": [
+    "bac_limit_commercial: the Driver's Manual only says commercial BAC standards are 'even tougher' and refers to the Commercial Driver's Manual (CDL-10); no number is stated in MV-21.",
+    "speed_limit_school_zone: MV-21 states no statewide school-zone speed limit (only that U-turns are prohibited in school zones and to follow limits in school zones).",
+    "speed_limit_residential: MV-21 states no residential-district limit; only the 55 mph unposted statewide maximum and NYC's 25 mph default (recorded as a notable law).",
+    "speed_limit_business_district: MV-21 states no business-district speed limit.",
+    "emergency_vehicles (following distance): MV-21 gives no distance for following an emergency vehicle; only the pull-over-and-stop rule is recorded.",
+    "bicycle_passing: MV-21 requires passing 'at a safe distance' but gives no number of feet; recorded with number null.",
+    "knowledgeTest/motorcycleTest: dmv.ny.gov pages are behind a Cloudflare challenge and could not be fetched directly (403); languages, retest wait and the online-test 80%/50% rule come from the official DMV pages' text as returned by web search and need verifier confirmation. The 14-of-20 / 2-of-4 road-sign rule is confirmed in the handbook (p. 10).",
+    "handbook edition: the MV-21 PDF carries no revision date (only '(c) Copyright 2018'); the current PDF could not be re-downloaded (Cloudflare 403). The extracted copy includes post-2023 content (REAL ID May 2023 note, ADAS chapter), so it was kept as current.",
+    "point_system: the point table on p. 22 is garbled in extraction; only the 11-points-in-24-months rule and point values also stated in running text (5 points for hand-held phone use, p. 52) were used as facts."
+  ]
+}

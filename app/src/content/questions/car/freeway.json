@@ -8,7 +8,7 @@
       "To let you pass slower vehicles on the ramp",
       "To give you a place to stop and wait for traffic to clear",
       "To let freeway drivers leave the freeway early",
-      "To let you build up speed to match freeway traffic before you merge"
+      "To let you reach freeway speed before merging"
     ],
     "answer": 3,
     "explanation": "An acceleration lane runs beside the main lanes so you can reach the speed of freeway traffic before merging. It also lets freeway drivers see you before you enter.",
@@ -22,7 +22,7 @@
     "prompt": "When you merge onto a freeway from an entrance ramp, who has the right-of-way?",
     "choices": [
       "Vehicles already traveling on the freeway",
-      "The vehicle entering from the ramp",
+      "The vehicle entering from the ramp, if it signals",
       "Whichever vehicle is larger",
       "Whichever vehicle is moving faster"
     ],
@@ -38,7 +38,7 @@
     "prompt": "At about what speed should you try to join freeway traffic from the acceleration lane?",
     "choices": [
       "Well below the speed of traffic, to be cautious",
-      "At or near the speed of the traffic already on the freeway",
+      "At or near the speed of freeway traffic",
       "Much faster than traffic, so you can get ahead of it",
       "The speed you were driving on the ramp curve"
     ],
@@ -55,7 +55,7 @@
     "choices": [
       "Stop at the end of the lane, then look for traffic",
       "Merge first, then signal once you are in the lane",
-      "Signal, check mirrors and over your shoulder for a gap, match traffic speed, then merge into the gap",
+      "Signal, find a gap, match speed, then merge",
       "Signal and move over right away, since freeway drivers must make room"
     ],
     "answer": 2,
@@ -70,9 +70,9 @@
     "prompt": "Why should you avoid stopping in an acceleration lane unless it is absolutely necessary?",
     "choices": [
       "Stopping there makes the ramp meter reset",
-      "Freeway drivers would then have to stop to let you in",
+      "Freeway drivers would then be required to stop and let you in",
       "A stopped car in that lane is treated as a breakdown",
-      "Starting from a stop makes a slow, dangerous entry into fast traffic and can cause rear-end crashes"
+      "You would have to enter fast traffic from a standstill"
     ],
     "answer": 3,
     "explanation": "A stop in the acceleration lane means you must enter fast-moving traffic from a standstill, and drivers behind you may not expect you to stop. Keep moving and adjust your speed to find a gap.",
@@ -85,7 +85,7 @@
     "topic": "freeway",
     "prompt": "You reach a short freeway entrance with a YIELD sign and no acceleration lane. Traffic is heavy. What is the safest way to enter?",
     "choices": [
-      "Stop if needed, wait for a large gap, then enter and speed up quickly",
+      "Stop if needed and wait for a large gap",
       "Keep rolling and squeeze in, because freeway traffic must let you in",
       "Drive along the shoulder to build up speed first",
       "Merge slowly at ramp speed and let freeway drivers brake for you"
@@ -119,7 +119,7 @@
     "choices": [
       "Speed up to close the gap, since you have the right-of-way",
       "Brake to a stop in your lane so the car can enter",
-      "If it is safe, move one lane to the left or adjust your speed to make room",
+      "If safe, move left or adjust speed to make room",
       "Hold your speed and position and sound your horn"
     ],
     "answer": 2,
@@ -133,7 +133,7 @@
     "topic": "freeway",
     "prompt": "What is the purpose of a ramp meter at a freeway entrance?",
     "choices": [
-      "To control how often vehicles enter the freeway so traffic flows more smoothly",
+      "To space out vehicles entering the freeway",
       "To measure the speed of entering vehicles for speeding tickets",
       "To show how far it is to the next exit",
       "To warn drivers about wrong-way vehicles"
@@ -168,7 +168,7 @@
       "Freeway traffic must now yield to you",
       "You must merge immediately, wherever you are on the ramp",
       "You and the car behind you may both enter on this green",
-      "You may proceed, but you must still find a safe gap and yield to freeway traffic"
+      "You may go, but must still yield to freeway traffic"
     ],
     "answer": 3,
     "explanation": "A green ramp meter only releases you onto the ramp. It does not protect your entry, so you must still look for a safe gap and yield to traffic on the freeway.",
@@ -197,7 +197,7 @@
     "topic": "freeway",
     "prompt": "When leaving a freeway, where should you begin to slow down?",
     "choices": [
-      "After you have moved into the exit (deceleration) lane",
+      "Once you are in the exit lane",
       "In the freeway travel lane, before the exit lane starts",
       "As soon as you see the first sign for your exit",
       "Only when you reach the end of the exit ramp"
@@ -216,7 +216,7 @@
       "Stop on the shoulder and back up to the exit",
       "Make a U-turn through the median",
       "Cut across the painted area to reach the ramp",
-      "Continue to the next exit and find your way back from there"
+      "Go on to the next exit"
     ],
     "answer": 3,
     "explanation": "Never stop, back up, or cross the median on a freeway. Take the next exit and come back.",
@@ -231,7 +231,7 @@
     "choices": [
       "At the last moment, so you don't hold up traffic",
       "Only once the exit ramp begins",
-      "Well before the exit, watching the signs for the correct lane",
+      "Well before the exit",
       "After you pass the last sign for the exit"
     ],
     "answer": 2,
@@ -246,7 +246,7 @@
     "prompt": "Your exit is one mile ahead, but you are three lanes away from the exit lane. What should you do?",
     "choices": [
       "Cross all three lanes in one smooth movement",
-      "Change lanes one at a time, signaling and checking your blind spot for each move",
+      "Change lanes one at a time, checking each time",
       "Slow down in your lane until gaps open in all three lanes",
       "Wait until you are near the exit, then cut across quickly"
     ],
@@ -261,7 +261,7 @@
     "topic": "freeway",
     "prompt": "You have just left a freeway after driving a long time. What should you do now?",
     "choices": [
-      "Check the posted speed limit and your speedometer, and watch for two-way traffic",
+      "Check your speed and watch for two-way traffic",
       "Keep your freeway speed until you see a speed limit sign",
       "Use the same following distance you used on the freeway",
       "Speed up, since local roads have lower crash risks"
@@ -280,7 +280,7 @@
       "Stop on the ramp and back up onto the freeway",
       "Turn around on the ramp and drive back up it",
       "Stop on the ramp to look up directions",
-      "Continue down the ramp, then find a safe, legal way back to the freeway"
+      "Continue off the ramp and find your way back"
     ],
     "answer": 3,
     "explanation": "Do not stop or back up on a ramp; stopped cars there are a major cause of rear-end crashes. Leave the freeway, figure out your route, and get back on if needed.",
@@ -295,7 +295,7 @@
     "choices": [
       "Stay in the right lane, since left exits are only for trucks",
       "Wait in the right lane and cross over at the last moment",
-      "Watch the signs early and move into the left lane well before the exit",
+      "Move into the left lane well before the exit",
       "Slow down in the right lane until the exit appears"
     ],
     "answer": 2,
@@ -310,7 +310,7 @@
     "prompt": "What is a cloverleaf interchange?",
     "choices": [
       "A traffic circle built at the same level as the freeway",
-      "An interchange that uses loop ramps so vehicles can enter and leave the freeway without crossing traffic",
+      "An interchange that uses loop-shaped ramps",
       "An intersection on the freeway controlled by traffic lights",
       "A rest area with its own entrance and exit ramps"
     ],
@@ -325,7 +325,7 @@
     "topic": "freeway",
     "prompt": "In a weave lane, where entering and exiting traffic share the same short lane, who should yield?",
     "choices": [
-      "The driver leaving the freeway yields to the driver entering",
+      "The driver leaving the freeway yields to the one entering",
       "The driver entering the freeway yields to the driver leaving it",
       "The driver on the left yields to the driver on the right",
       "The slower vehicle always has the right-of-way"
@@ -342,7 +342,7 @@
     "prompt": "How should you drive through the tight loop ramp of a cloverleaf interchange?",
     "choices": [
       "Keep freeway speed so merging is easier at the end",
-      "Speed up in the middle of the curve to hold your lane",
+      "Speed up in the curve to hold your lane",
       "Stop at the start of the loop to check for traffic",
       "Slow down to the posted ramp speed before the curve"
     ],
@@ -350,22 +350,6 @@
     "explanation": "Loop ramps are sharp curves. Watch for the entrance and exit signs and drive slowly through the loop, obeying the posted speed.",
     "difficulty": 2,
     "ref": "State driver handbooks (e.g., NJ p. 74, PA p. 56)"
-  },
-  {
-    "id": "car.fw.023",
-    "track": "car",
-    "topic": "freeway",
-    "prompt": "On a freeway with several lanes in your direction, which lane should you use if you are driving slower than most traffic?",
-    "choices": [
-      "The left lane",
-      "The center lane",
-      "The right lane",
-      "The shoulder"
-    ],
-    "answer": 2,
-    "explanation": "Slower traffic should keep to the right. The left lanes are for passing and faster traffic.",
-    "difficulty": 1,
-    "ref": "State driver handbooks (e.g., TX p. 53, NE p. 68, NV p. 36)"
   },
   {
     "id": "car.fw.024",
@@ -389,8 +373,8 @@
     "topic": "freeway",
     "prompt": "Rear-end collisions are a leading danger on freeways. What is the best way to avoid one?",
     "choices": [
-      "Follow closely so other drivers can't cut in",
-      "Keep a safe following distance and look well ahead for slowing traffic",
+      "Follow closely so other drivers cannot cut in front of you",
+      "Keep a safe following distance and look far ahead",
       "Watch only the car directly in front of you",
       "Use the left lane at all times"
     ],
@@ -400,30 +384,14 @@
     "ref": "State driver handbooks (e.g., FL p. 73, PA p. 56)"
   },
   {
-    "id": "car.fw.026",
-    "track": "car",
-    "topic": "freeway",
-    "prompt": "You are in the left lane of a freeway and a faster vehicle comes up behind you. What should you do?",
-    "choices": [
-      "When it is safe, signal and move right to let it pass",
-      "Stay in the lane, since you are going the speed limit",
-      "Speed up so the other driver backs off",
-      "Tap your brakes to warn the driver to slow down"
-    ],
-    "answer": 0,
-    "explanation": "Vehicles in lanes other than the right lane should be ready to move over so faster traffic can pass. Tapping the brakes or speeding up can provoke a crash.",
-    "difficulty": 2,
-    "ref": "State driver handbooks (e.g., TX p. 53, NE p. 68, CO p. 17)"
-  },
-  {
     "id": "car.fw.027",
     "track": "car",
     "topic": "freeway",
     "prompt": "When is it acceptable to stop on a freeway or its shoulder?",
     "choices": [
       "To let a passenger get out",
-      "To check a map or your phone",
-      "Only in an emergency or when directed by a police officer",
+      "To check a map or your phone, if you use the shoulder",
+      "Only in an emergency or when police direct you",
       "When you have missed your exit"
     ],
     "answer": 2,
@@ -440,7 +408,7 @@
       "A dizzy feeling caused by looking at bright headlights",
       "Feeling nervous when merging into fast traffic",
       "Losing track of your speed after leaving the freeway",
-      "A drowsy, trance-like state caused by long, monotonous highway driving"
+      "A drowsy, trance-like state from long, dull driving"
     ],
     "answer": 3,
     "explanation": "Steady engine and tire noise and an unchanging view can lull a driver into a trance-like state where they stop actively scanning the road.",
@@ -453,8 +421,8 @@
     "topic": "freeway",
     "prompt": "Which habit best helps you avoid highway hypnosis on a long drive?",
     "choices": [
-      "Stare at the lane line just ahead of your car",
-      "Keep your eyes moving: scan near and far, side to side, and check your mirrors",
+      "Stare at the lane line ahead",
+      "Keep your eyes moving and check your mirrors",
       "Set cruise control and relax your attention",
       "Drive faster so the trip ends sooner"
     ],
@@ -472,7 +440,7 @@
       "You can't remember driving the last few miles",
       "You feel alert right after a rest stop",
       "You notice more road signs than usual",
-      "You easily keep a steady position in your lane"
+      "You keep a steady lane position"
     ],
     "answer": 0,
     "explanation": "Signs of fatigue include memory gaps, yawning, heavy eyelids, drifting between lanes, missing signs, and hitting rumble strips.",
@@ -485,10 +453,10 @@
     "topic": "freeway",
     "prompt": "On a long freeway trip you keep yawning and your tires just hit the rumble strip. What should you do?",
     "choices": [
-      "Turn up the radio and keep driving to your destination",
+      "Open the windows and turn up the radio until you feel alert",
       "Drink an energy drink and keep going",
       "Speed up so you arrive before you get more tired",
-      "Leave the freeway at the next safe place and rest or take a nap"
+      "Get off at the next safe place and rest"
     ],
     "answer": 3,
     "explanation": "When you are drowsy, the only real fix is to stop and rest. Radio, open windows, and stimulants do not reliably keep a sleepy driver safe.",
@@ -501,9 +469,9 @@
     "topic": "freeway",
     "prompt": "Which statement about coffee, energy drinks, or \"stay-awake\" pills on a long drive is correct?",
     "choices": [
-      "They fully restore alertness for the rest of the trip",
+      "They fully restore alertness",
       "They are a safe way to drive through the night",
-      "They are not a reliable substitute for sleep and can leave you dangerously tired when they wear off",
+      "They do not replace sleep and can wear off suddenly",
       "They work better than stopping to rest"
     ],
     "answer": 2,
@@ -517,10 +485,10 @@
     "topic": "freeway",
     "prompt": "Your car starts to break down while you are driving on a freeway. What should you do first?",
     "choices": [
-      "Stop right away in your lane and turn off the engine",
+      "Stop in your lane and turn off the engine",
       "Stop in the next lane to the left",
       "Keep driving at freeway speed to the next exit",
-      "Signal and steer as far onto the shoulder as you safely can, out of the travel lanes"
+      "Signal and steer onto the shoulder, out of traffic"
     ],
     "answer": 3,
     "explanation": "Get your vehicle completely off the travel lanes if you can. A stopped car in a freeway lane is very likely to be hit.",
@@ -533,7 +501,7 @@
     "topic": "freeway",
     "prompt": "After pulling onto the shoulder with a disabled vehicle, which lights should you turn on so other drivers can see you?",
     "choices": [
-      "Your high-beam headlights",
+      "Your high-beam headlights, so drivers see you from far away",
       "Your hazard (emergency) flashers",
       "Your left turn signal only",
       "Your interior dome light only"
@@ -551,7 +519,7 @@
     "choices": [
       "Get out on the driver's side and stand behind the car to warn traffic",
       "Stand in front of the car so passing drivers can see you",
-      "Get out on the side away from traffic and stay well clear of the travel lanes",
+      "Get out on the side away from traffic",
       "Walk along the edge of the travel lane to find help"
     ],
     "answer": 2,
@@ -565,7 +533,7 @@
     "topic": "freeway",
     "prompt": "You see a disabled vehicle on the freeway shoulder ahead with people standing near it. What should you do?",
     "choices": [
-      "Slow down and give it extra space, changing lanes away from it if it is safe",
+      "Slow down and give it extra space",
       "Keep your speed, since the vehicle is not in your lane",
       "Stop behind it to see if you can help",
       "Sound your horn as you pass to warn the people"
@@ -584,7 +552,7 @@
       "Brake hard and stop in the lane to change the tire",
       "Stop in the lane and turn on your hazard flashers",
       "Keep driving at freeway speed until you reach the next exit",
-      "Hold the wheel firmly, slow gradually, signal, and keep moving until you are completely off the travel lanes"
+      "Slow gradually and steer off the travel lanes"
     ],
     "answer": 3,
     "explanation": "Never stop in a travel lane if you can avoid it. A car with a flat can be driven slowly off the road; slow down gradually and work your way onto the shoulder.",
@@ -599,7 +567,7 @@
     "choices": [
       "The ramp is closed for construction only at night",
       "Only trucks may use the ramp",
-      "The ramp is an exit ramp and you would be driving against traffic",
+      "You would be driving against traffic",
       "You may enter but must yield to vehicles leaving the freeway"
     ],
     "answer": 2,
@@ -627,15 +595,15 @@
     "id": "car.fw.040",
     "track": "car",
     "topic": "freeway",
-    "prompt": "You turn onto a ramp and immediately see WRONG WAY signs. You normally must never back up on a ramp. What should you do?",
+    "prompt": "You turn onto a ramp and immediately see DO NOT ENTER and WRONG WAY signs facing you. What should you do?",
     "choices": [
-      "When it is safe, back up or turn around to get off the ramp",
+      "Back out or turn around when it is safe",
       "Continue onto the freeway and look for a median crossing",
       "Drive forward slowly with your hazard flashers on",
       "Stop where you are and wait for police to arrive"
     ],
     "answer": 0,
-    "explanation": "This is the exception to the no-backing rule: if you have entered a ramp the wrong way, carefully back up or turn around when it is safe rather than continue against traffic.",
+    "explanation": "This is the exception to the rule against backing up on a ramp: if you have entered a road the wrong way, back out or turn around as soon as it is safe rather than drive against traffic.",
     "difficulty": 3,
     "ref": "State driver handbooks (e.g., FL p. 73, CA p. 44)"
   },
@@ -661,8 +629,8 @@
     "topic": "freeway",
     "prompt": "On a divided freeway you see headlights coming straight toward you in your lanes. What should you do?",
     "choices": [
-      "Flash your lights and hold your lane so the driver moves",
-      "Slow down, check that the lane beside you is clear, steer away from the vehicle, and call 911 once you are safe",
+      "Flash your lights and hold your lane",
+      "Slow down, steer away from it, then call 911 when safe",
       "Brake hard and stop in your lane",
       "Speed up to get past the vehicle quickly"
     ],
@@ -677,7 +645,7 @@
     "topic": "freeway",
     "prompt": "On a freeway, in which lane are wrong-way drivers most often found?",
     "choices": [
-      "The far right lane",
+      "The far right lane, near the exit ramps they came from",
       "The shoulder",
       "The far left lane (or the HOV lane)",
       "The exit lane"
@@ -693,7 +661,7 @@
     "topic": "freeway",
     "prompt": "What is the safest way to pass a large truck on a multi-lane highway?",
     "choices": [
-      "Pass on the left, and do it steadily and without lingering beside the truck",
+      "Pass on the left without lingering beside it",
       "Pass on the right, where the driver can see you best",
       "Stay beside the truck's cab until the driver waves you on",
       "Pass on the shoulder if the lanes are full"
@@ -709,10 +677,10 @@
     "topic": "freeway",
     "prompt": "After passing a large truck, when is it safe to move back into its lane?",
     "choices": [
-      "As soon as your back bumper clears the truck's front bumper",
+      "When your back bumper clears its front bumper",
       "As soon as you are past the truck's cab",
       "When the truck driver sounds the horn",
-      "When you can see the entire front of the truck in your rearview mirror"
+      "When you see the whole truck front in your rearview mirror"
     ],
     "answer": 3,
     "explanation": "Cutting in too soon leaves the truck no room to stop. Wait until the whole front of the truck shows in your rearview mirror, then don't slow down.",
@@ -728,7 +696,7 @@
       "The truck driver probably cannot see you",
       "The truck driver can see you clearly",
       "The truck is about to slow down",
-      "You are a safe distance from the truck"
+      "You are at a safe distance from the truck's blind spots"
     ],
     "answer": 0,
     "explanation": "If you can't see the driver in the truck's mirror, you are in a blind spot (no-zone). Speed up or drop back so you can be seen.",
@@ -742,7 +710,7 @@
     "prompt": "You want to pass a large truck on a long downhill grade. What should you expect?",
     "choices": [
       "The truck will slow sharply, making the pass easier",
-      "The truck may pick up speed, so passing can take longer and need more room",
+      "It may speed up, so the pass can take longer",
       "The truck must move to the shoulder to let you pass",
       "Passing a truck downhill takes less time than on level ground"
     ],
@@ -759,7 +727,7 @@
     "choices": [
       "Speed up so the truck can't pass",
       "Move toward the truck to shorten its pass",
-      "Keep to the far side of your lane and do not speed up",
+      "Keep to the far side of your lane",
       "Brake hard so the truck gets by faster"
     ],
     "answer": 2,
@@ -773,10 +741,10 @@
     "topic": "freeway",
     "prompt": "A large truck passes close to your car at highway speed and its wind blast hits your vehicle. What should you do?",
     "choices": [
-      "Keep a firm grip on the wheel and stay toward the far side of your lane",
+      "Grip the wheel firmly and keep your lane position",
       "Steer toward the truck to fight the wind",
       "Brake hard until the truck is gone",
-      "Let go of the wheel briefly so the car can settle"
+      "Steer away onto the shoulder"
     ],
     "answer": 0,
     "explanation": "Air turbulence from a large vehicle can push your car sideways. Hold the wheel firmly and keep space between you and the truck.",
@@ -792,7 +760,7 @@
       "Keep your normal speed if you don't see workers right away",
       "Change lanes often to get through the zone faster",
       "Follow the car ahead closely so you don't hold up traffic",
-      "Slow down, obey the work zone signs and flaggers, and watch for workers and equipment"
+      "Slow down and watch for workers and equipment"
     ],
     "answer": 3,
     "explanation": "Work zones have changing lanes, workers, and equipment. Slow down, stay focused, and follow all signs and flagger directions.",
@@ -806,9 +774,9 @@
     "prompt": "What is the most common type of crash in highway work zones?",
     "choices": [
       "Head-on collisions",
-      "Rear-end collisions caused by inattentive drivers",
+      "Rear-end collisions",
       "Rollovers on the shoulder",
-      "Crashes with trains"
+      "Collisions with parked construction equipment"
     ],
     "answer": 1,
     "explanation": "Most work zone crashes are rear-end collisions. Watch the vehicle in front of you, leave extra space, and be ready to stop suddenly.",
@@ -821,9 +789,9 @@
     "topic": "freeway",
     "prompt": "You see signs for a toll plaza ahead on the highway. What should you do?",
     "choices": [
-      "Keep your speed until you reach the booth",
+      "Keep your highway speed until you can see the booth lanes",
       "Speed up to get into the shortest line first",
-      "Begin slowing early and watch for traffic backed up at the booths",
+      "Slow down early and watch for backed-up traffic",
       "Stop on the shoulder to find your payment"
     ],
     "answer": 2,
@@ -838,7 +806,7 @@
     "prompt": "You realize you have entered the wrong lane at a toll plaza. What should you do?",
     "choices": [
       "Back up carefully and choose another lane",
-      "Continue through the lane; never back up or reverse direction",
+      "Continue through that lane",
       "Stop and get out to ask an attendant for help",
       "Swerve into the next lane at the last moment"
     ],
@@ -853,9 +821,9 @@
     "topic": "freeway",
     "prompt": "What should you do as you leave a toll booth?",
     "choices": [
-      "Check both sides for merging traffic and speed up smoothly",
+      "Watch both sides for merging cars and speed up smoothly",
       "Accelerate hard to get ahead of the other cars",
-      "Stay in your lane, since other vehicles must yield to you",
+      "Stay in your lane; others must yield to you",
       "Stop past the booth to put away your payment"
     ],
     "answer": 0,
@@ -869,9 +837,9 @@
     "topic": "freeway",
     "prompt": "What are electronic toll lanes designed to do?",
     "choices": [
-      "Let any vehicle skip paying the toll",
+      "Let any vehicle skip the toll",
       "Give emergency vehicles a place to park",
-      "Let vehicles with a toll transponder or account pay without stopping at a booth",
+      "Let drivers with a toll account pay without stopping",
       "Check whether drivers are wearing seat belts"
     ],
     "answer": 2,
@@ -888,7 +856,7 @@
       "Anywhere, as long as you signal first",
       "Anywhere, if no vehicles are close behind you",
       "Only by crossing the lines quickly at freeway speed",
-      "Only at the marked openings where the lines become broken"
+      "Only at marked openings in the lines"
     ],
     "answer": 3,
     "explanation": "Never change lanes across double solid white lines. Use the designated entry and exit points for HOV and express lanes.",
