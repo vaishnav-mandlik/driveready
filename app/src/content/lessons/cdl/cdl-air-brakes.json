@@ -1,0 +1,160 @@
+{
+  "id": "lesson.cdl.cdl-air-brakes",
+  "track": "cdl",
+  "topic": "cdl-air-brakes",
+  "title": "Air Brakes",
+  "summary": "How air brake systems work, the pressures and warnings to know, how to inspect them, and how to brake safely.",
+  "minutes": 10,
+  "sections": [
+    {
+      "heading": "How the system works",
+      "blocks": [
+        {"type": "p", "text": "Air brakes are really three systems in one: the service brake (the pedal), the parking brake (the parking control), and the emergency brake, which uses parts of the other two when the system fails."},
+        {"type": "table", "rows": [
+          ["Air compressor", "Pumps air into the storage tanks. Driven by the engine through gears or a V-belt. If it has its own oil supply, check that oil before driving."],
+          ["Governor", "Stops the compressor at cut-out (about 125 psi) and restarts it at cut-in (about 100 psi)."],
+          ["Storage tanks", "Hold enough air to use the brakes several times even if the compressor stops."],
+          ["Safety relief valve", "In the first tank the compressor fills; usually opens at 150 psi. If it vents, something is wrong. Have a mechanic fix it."],
+          ["Brake pedal", "Also called the foot valve or treadle valve. Pushing harder applies more air pressure."]
+        ]},
+        {"type": "bullets", "items": [
+          "Compressed air carries water and oil that collect in the tanks. Water can freeze and cause brake failure.",
+          "With manual drains, drain the tanks yourself at the end of each day of driving.",
+          "An alcohol evaporator puts alcohol into the air to reduce ice in cold weather. Check and fill it every day in cold weather. It does not remove water and oil, so you still drain the tanks daily.",
+          "Don't fan the brakes (press and release over and over) without need. Each release lets air out, and pressure can drop faster than the compressor refills it."
+        ]}
+      ]
+    },
+    {
+      "heading": "Foundation brakes",
+      "blocks": [
+        {"type": "table", "rows": [
+          ["S-cam drum brake", "The most common type. The S-cam twists and forces the shoes against the drum. On release, the cam turns back and a spring pulls the shoes away."],
+          ["Wedge brake", "The brake chamber push rod drives a wedge between the ends of two shoes, pushing them against the drum."],
+          ["Air disc brake", "A power screw replaces the S-cam. The slack adjuster turns the screw, which clamps the rotor between caliper pads like a big C-clamp."]
+        ]},
+        {"type": "warning", "text": "Friction between the linings and the drum slows you but also creates heat. Too much heat can make the brakes stop working."}
+      ]
+    },
+    {
+      "heading": "Gauges and warnings",
+      "blocks": [
+        {"type": "table", "rows": [
+          ["Supply pressure gauge", "Shows the pressure in the air tanks. Dual systems have one gauge per half, or one gauge with two needles."],
+          ["Application pressure gauge", "Shows the pressure being applied to the brakes. Not on all vehicles."],
+          ["Low air pressure warning", "Must come on before tank pressure falls below 55 psi (half of cut-out on older vehicles). Usually a red light, sometimes with a buzzer. On large buses it often signals at 80 to 85 psi."],
+          ["Wig wag", "A mechanical arm that drops into view below 55 psi. A manual-reset type won't stay up until pressure is above 55 psi."],
+          ["Stop light switch", "An electric switch worked by air pressure turns on the brake lights."]
+        ]},
+        {"type": "p", "text": "If you need more and more application pressure to hold the same speed on a downgrade, the brakes are fading. Slow down and use a lower gear. Rising application pressure can also mean brakes out of adjustment, air leaks or mechanical problems."},
+        {"type": "tip", "text": "Some pre-1975 vehicles have a front brake limiting valve with a \"slippery\" setting that halves front braking. Keep it on \"normal\". Front wheel braking is good in all conditions, even on ice. Automatic limiting valves reduce front air except when you brake very hard (55 psi or more)."}
+      ]
+    },
+    {
+      "heading": "Spring, parking and emergency brakes",
+      "blocks": [
+        {"type": "p", "text": "Parking and emergency brakes must be held on by mechanical force, because air can leak away. Spring brakes do this: while you drive, air pressure holds the powerful springs back. Remove the air and the springs apply the brakes."},
+        {"type": "bullets", "items": [
+          "On tractors and straight trucks, spring brakes come fully on when pressure drops to 20 to 45 psi.",
+          "Spring brakes don't work on all axles. A heavy load takes a long distance to stop on them, and a light load or slippery road can skid out of control.",
+          "When the low air warning comes on, stop safely right away while you still control the brakes. Don't wait for the springs to come on.",
+          "Spring brake power depends on brake adjustment. Badly adjusted brakes weaken both the service and the parking/emergency brakes."
+        ]},
+        {"type": "table", "rows": [
+          ["Yellow, diamond-shaped knob", "Parking brake on newer vehicles. Pull out to set, push in to release."],
+          ["Round blue knob or lever", "Parking brake on some older vehicles"],
+          ["Red, eight-sided knob", "Trailer air supply, not the parking brake"],
+          ["Modulating control valve", "Spring-loaded dash handle that applies the spring brakes gradually if the service brakes fail. To park, move it all the way and lock it."],
+          ["Dual parking control valves", "A separate tank lets you release the spring brakes to move after losing main air, but only a few times. Plan carefully."]
+        ]},
+        {"type": "warning", "text": "Never push the brake pedal down while the spring brakes are on. The springs and air pressure together can damage the brakes."}
+      ]
+    },
+    {
+      "heading": "Dual air systems and ABS",
+      "blocks": [
+        {"type": "p", "text": "A dual air system is two separate air brake systems, each with its own tanks, hoses and lines, sharing one set of controls. One usually runs the rear axle brakes. The other runs the front axle brakes (and maybe one rear axle). Both supply air to a trailer."},
+        {"type": "bullets", "items": [
+          "Before driving, let the compressor build at least 100 psi in both the primary and secondary systems.",
+          "If one system gets very low, either the front or rear brakes won't work fully and stops take longer. Stop safely and get it fixed."
+        ]},
+        {"type": "table", "rows": [
+          ["Required on", "Air-braked truck tractors built on or after March 1, 1997; other air-braked vehicles (trucks, buses, trailers, dollies) from March 1, 1998"],
+          ["How to tell", "Check the certification label for the build date. On older trailers, look underneath for an ECU and wheel speed sensor wires."],
+          ["Malfunction lamp", "Yellow. On trailers it is on the left side, front or rear corner."],
+          ["Bulb check", "On newer vehicles the lamp comes on briefly and goes out. If it stays on, or comes on while driving, you may have lost ABS at one or more wheels. Some older systems stay lit until over 5 mph."],
+          ["What ABS does", "Only acts when wheels are about to lock. It neither adds nor takes away normal braking power, and may not shorten your stop, but it helps you keep control."]
+        ]}
+      ]
+    },
+    {
+      "heading": "Inspecting air brakes",
+      "blocks": [
+        {"type": "bullets", "items": [
+          "If the compressor is belt-driven, check the belt's condition and tightness in the engine compartment.",
+          "Slack adjusters: park on level ground, chock the wheels and release the parking brakes. Wearing gloves, pull hard on each one. More than about 1 inch of movement where the push rod attaches means it probably needs adjustment.",
+          "Brakes out of adjustment are the most common problem found in roadside inspections.",
+          "Vehicles built since 1994 have automatic slack adjusters, but you still check them. If one is out of adjustment, get it repaired as soon as possible. Adjusting it by hand only hides the problem; do that only as a temporary emergency step.",
+          "Drums or discs: no cracks longer than half the width of the friction area.",
+          "Linings: not loose, not soaked with oil or grease, not dangerously thin.",
+          "Hoses to the brake chambers: no cuts or wear from rubbing."
+        ]},
+        {"type": "table", "rows": [
+          ["Build-up rate (dual)", "85 to 100 psi within 45 seconds at operating rpm"],
+          ["Build-up rate (older single, pre-1975)", "50 to 90 psi within 3 minutes at 600 to 900 rpm"],
+          ["Governor cut-out", "Run at fast idle; the gauge should stop rising at the maker's cut-out pressure"],
+          ["Leak, brakes released, engine off", "Under 2 psi in 1 minute (single); under 3 psi (combination)"],
+          ["Leak, foot brake held 1 minute", "No more than 3 psi (single); 4 psi (combination). Start timing after the gauge settles from the first drop."],
+          ["Low air warning", "Engine off, key on, fan the brakes. It must come on before 55 psi (in the lowest tank on dual systems)."],
+          ["Spring brakes", "Keep fanning. The parking valve should pop out at the maker's setting, 20 to 45 psi. On a tractor-trailer the trailer air supply valve pops out at the same time or before."],
+          ["Parking brake", "Set it and gently pull against it in a low gear"],
+          ["Service brakes", "Move forward at about 5 mph and brake firmly. Note pulling, odd feel or slow stopping."]
+        ]},
+        {"type": "warning", "text": "If leakage is over the limit, find and fix the leak before driving. A broken low air warning could let you lose air without knowing: sudden emergency braking on a single-circuit system, longer stops on a dual system."}
+      ]
+    },
+    {
+      "heading": "Braking safely",
+      "blocks": [
+        {"type": "bullets", "items": [
+          "Normal stop with a manual transmission: don't push in the clutch until rpm is near idle.",
+          "Locked steering wheels mean no steering control. Other wheels locking can cause a skid, jackknife or spin.",
+          "With ABS, brake as you always have, using only the force you need. The one exception: with working ABS on all axles, you can brake fully in an emergency stop.",
+          "Tractor-only ABS: you keep steering control, but let up on the brakes (if safe) if the trailer starts to swing out.",
+          "If ABS fails, you still have normal brakes. Drive normally and get it serviced soon."
+        ]},
+        {"type": "table", "rows": [
+          ["Controlled braking", "Brake as hard as you can without locking the wheels, with small steering moves. For a bigger steering move or if wheels lock, release, then reapply as soon as you can."],
+          ["Stab braking", "Brake fully, release when wheels lock, reapply fully when they roll again. Wait up to 1 second, or the vehicle won't straighten out."]
+        ]},
+        {"type": "p", "text": "Brake lag is the time air takes to flow through the lines after you press the pedal, a half second or more. Total stopping distance = perception + reaction + brake lag + braking distance. At 55 mph on dry pavement, lag adds about 32 feet, for a total of over 450 feet."},
+        {"type": "bullets", "items": [
+          "Brake fade comes from too much heat from overusing the brakes instead of engine braking. Heat changes the linings so they grip less, and expands the drums so the shoes press with less force.",
+          "Brakes out of adjustment quit early, so the others overheat and fade. Brakes go out of adjustment quickly, especially when hot, so check them often.",
+          "On a long, steep downgrade, the brakes only supplement engine braking. Get in the right low gear first."
+        ]},
+        {"type": "steps", "items": [
+          "In the proper low gear, let speed reach your safe speed (say 40 mph).",
+          "Brake hard enough to feel a definite slowdown.",
+          "Release at about 5 mph below safe speed (35 mph). This takes about 3 seconds.",
+          "Repeat each time you reach your safe speed."
+        ]},
+        {"type": "bullets", "items": [
+          "Never leave the vehicle, even for a few minutes, without setting the parking brakes or chocking the wheels.",
+          "Very hot brakes (after a long grade): don't set the parking brake. Chock the wheels on level ground and let the brakes cool.",
+          "Wet brakes below freezing can freeze if set. Chock instead, and dry wet brakes by using them lightly in a low gear."
+        ]}
+      ]
+    }
+  ],
+  "keyPoints": [
+    "Governor cut-in is about 100 psi, cut-out about 125 psi; the safety valve opens near 150 psi.",
+    "The low air warning must come on before 55 psi; when it does, stop safely right away.",
+    "Spring brakes come on at 20 to 45 psi, and they don't work on every axle.",
+    "Drain manual air tanks at the end of every driving day.",
+    "Slack adjuster movement over about 1 inch means adjustment is needed; out-of-adjustment brakes are the top roadside defect.",
+    "Leak limits: released 2/3 psi per minute, applied 3/4 psi per minute (single/combination).",
+    "Brake lag adds about 32 feet at 55 mph; total stopping distance is over 450 feet.",
+    "On downgrades, use a low gear and brake from safe speed down about 5 mph, about 3 seconds at a time."
+  ]
+}

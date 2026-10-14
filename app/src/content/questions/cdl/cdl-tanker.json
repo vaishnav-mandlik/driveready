@@ -147,17 +147,17 @@
     "id": "cdl.tk.010",
     "track": "cdl",
     "topic": "cdl-tanker",
-    "prompt": "A flatbed is hauling an empty 1,500-gallon storage tank that is not designed for transporting cargo. Under federal rules, is this a tank vehicle?",
+    "prompt": "Which endorsements may be added to a commercial learner's permit (CLP)?",
     "choices": [
-      "Yes, because it is temporarily attached",
-      "Yes, any tank of 1,000 gallons or more counts",
-      "Only if it last held a hazardous liquid",
-      "No, an empty storage tank not designed for transport is excluded"
+      "Only Passenger (P), School bus (S) and Tank vehicle (N)",
+      "Only Tank vehicle (N) and Hazardous materials (H)",
+      "Any endorsement, including H and X",
+      "None; endorsements can only go on a full CDL"
     ],
-    "answer": 3,
-    "explanation": "Federal rules state that a CMV carrying an empty storage container tank not designed for transportation, temporarily attached to a flatbed, is not a tank vehicle.",
-    "difficulty": 3,
-    "ref": "49 CFR 383.5 (tank vehicle definition)"
+    "answer": 0,
+    "explanation": "The only endorsements that may be added to a CLP are Passenger (P), School bus (S) and Tank vehicle (N). A CLP with an N endorsement also carries the X restriction: empty tank vehicles only.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 1 (CDL Endorsements & Restrictions)"
   },
   {
     "id": "cdl.tk.011",
@@ -498,15 +498,15 @@
     "id": "cdl.tk.032",
     "track": "cdl",
     "topic": "cdl-tanker",
-    "prompt": "You deliver from the rear compartment of a bulkhead tank first, leaving the front compartments full. What should concern you?",
+    "prompt": "You are unloading a bulkhead-divided tank one compartment at a time at several stops. What must you keep watching?",
     "choices": [
-      "Too much weight may be left on the front of the vehicle",
-      "The tank will need a new outage setting",
-      "Nothing, the order does not matter",
-      "Surge will become stronger in the empty rear compartment"
+      "Weight distribution, so you don't leave too much weight on the front or rear",
+      "Nothing, because the bulkheads keep the load balanced",
+      "Only the total gallons left in the whole tank",
+      "The outage, which must be reset after each stop"
     ],
     "answer": 0,
-    "explanation": "With bulkhead tanks, watch weight distribution as compartments are loaded and unloaded, and don't put too much weight on the front or rear of the vehicle.",
+    "explanation": "When loading and unloading the smaller tanks of a bulkhead tank, pay attention to weight distribution. Don't put too much weight on the front or rear of the vehicle.",
     "difficulty": 3,
     "ref": "CDL Manual, Section 8.2.3"
   },

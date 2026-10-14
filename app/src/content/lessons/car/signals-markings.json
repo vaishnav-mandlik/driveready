@@ -1,0 +1,157 @@
+{
+  "id": "lesson.car.signals-markings",
+  "track": "car",
+  "topic": "signals-markings",
+  "title": "Signals & Pavement Markings",
+  "summary": "What every traffic light, arrow, pedestrian signal, lane-use signal and painted line or symbol is telling you to do.",
+  "minutes": 9,
+  "sections": [
+    {
+      "heading": "Steady red, yellow and green",
+      "blocks": [
+        {"type": "p", "text": "On a vertical signal, red is at the top, yellow in the middle and green at the bottom. On a sideways signal, red is on the left."},
+        {"type": "signs", "codes": ["SIG-RED", "SIG-YELLOW", "SIG-GREEN"]},
+        {"type": "table", "rows": [
+          ["Steady red", "Stop completely before the stop line, crosswalk or intersection. Stay stopped until the light changes."],
+          ["Steady yellow", "The light is about to turn red. Stop if you can do it safely. If you are too close to stop safely, or already in the intersection, continue through carefully."],
+          ["Steady green", "Go if the way is clear, but first yield to vehicles and pedestrians still in the intersection."]
+        ]},
+        {"type": "bullets", "items": [
+          "When your light turns green and you are first in line, look to make sure no one is still crossing before you pull forward.",
+          "Do not enter on green unless there is room for your whole car on the far side. Never stop inside the intersection.",
+          "Turning left on a plain green light (no arrow) is not protected: yield to oncoming traffic and pedestrians, then turn.",
+          "When turning on green, yield to pedestrians crossing the street you are turning onto.",
+          "Most places allow a right turn on red after a full stop unless a sign forbids it. Left turns on red and other details vary by state; check your State Cheat Sheet."
+        ]},
+        {"type": "warning", "text": "A police officer directing traffic overrides the signal. If the light is green but the officer signals you to stop, stop."}
+      ]
+    },
+    {
+      "heading": "Arrows",
+      "blocks": [
+        {"type": "signs", "codes": ["SIG-GREEN-ARROW-LEFT", "SIG-YELLOW-ARROW-LEFT", "SIG-RED-ARROW-LEFT", "SIG-FLASH-YELLOW-ARROW-LEFT"]},
+        {"type": "table", "rows": [
+          ["Green arrow", "Protected move in the arrow's direction; oncoming traffic is stopped. Still yield to anyone left in the intersection. A green arrow can appear together with a red light."],
+          ["Yellow arrow", "The protected turn is ending. Stop if you can do so safely."],
+          ["Red arrow", "Stop before the stop line or crosswalk, and do not make the arrow's move until a green arrow or other signal allows it. Some states allow a turn on a red arrow after a full stop, the same way as on a red light, and others forbid it. Check your State Cheat Sheet."],
+          ["Flashing yellow arrow", "You may turn, but it is not protected. Yield to oncoming traffic and pedestrians first."]
+        ]},
+        {"type": "warning", "text": "A flashing yellow arrow is riskier than a green arrow because oncoming traffic may have a green light at the same time."}
+      ]
+    },
+    {
+      "heading": "Flashing and dark signals",
+      "blocks": [
+        {"type": "signs", "codes": ["SIG-FLASH-RED", "SIG-FLASH-YELLOW", "SIG-OUT"]},
+        {"type": "bullets", "items": [
+          "Flashing red: treat it like a STOP sign. Stop completely, yield, and go when it is safe.",
+          "Flashing yellow: slow down and go ahead with caution.",
+          "If you face a flashing red and the cross street has flashing yellow, cross traffic does not have to stop for you. Wait for a real gap.",
+          "Traffic signal completely dark (power failure): treat it as an all-way stop. Every driver must stop, including drivers on the main road. (A dark midblock pedestrian beacon is different; see below.)"
+        ]}
+      ]
+    },
+    {
+      "heading": "Pedestrian signals and beacons",
+      "blocks": [
+        {"type": "signs", "codes": ["SIG-PED-WALK", "SIG-PED-DONT-WALK", "SIG-PED-COUNTDOWN"]},
+        {"type": "bullets", "items": [
+          "WALK or a walking person: pedestrians may start across.",
+          "Flashing DON'T WALK or flashing raised hand: do not start crossing. Someone already in the street should keep going and finish.",
+          "Steady DON'T WALK or steady raised hand: do not start crossing.",
+          "Countdown numbers: the seconds left to finish crossing.",
+          "Drivers must still let anyone in the crosswalk finish crossing, even after the driver's light turns green."
+        ]},
+        {"type": "p", "text": "Some midblock crosswalks have an overhead pedestrian beacon (pedestrian hybrid beacon). It stays dark until someone pushes the crossing button, then runs through this sequence:"},
+        {"type": "table", "rows": [
+          ["Dark", "No one has pushed the button. Drive on with normal care. This is not a broken signal, so you do not need to stop."],
+          ["Flashing yellow", "A pedestrian has pushed the button. Slow down and be ready to stop."],
+          ["Steady yellow", "The beacon is about to turn red. Stop if you can do so safely."],
+          ["Steady red (two lights)", "Stop and stay stopped while people cross."],
+          ["Flashing red (alternating)", "Stop. Go only when the crosswalk is clear of pedestrians."]
+        ]}
+      ]
+    },
+    {
+      "heading": "Lane-use signals and railroad crossings",
+      "blocks": [
+        {"type": "p", "text": "Signals over individual lanes are used on reversible lanes, toll plazas and some highways."},
+        {"type": "signs", "codes": ["SIG-LANE-GREEN-ARROW", "SIG-LANE-YELLOW-X", "SIG-LANE-RED-X"]},
+        {"type": "table", "rows": [
+          ["Green arrow pointing down", "You may drive in this lane."],
+          ["Steady yellow X", "The lane is about to close. Use caution and move out of it safely."],
+          ["Red X", "Do not drive in this lane. If you are in it, move safely to a lane with a green arrow."]
+        ]},
+        {"type": "tip", "text": "If no lane-use signal is lit over a reversible lane, do not enter it."},
+        {"type": "signs", "codes": ["SIG-RR-FLASHING", "MARK-RR-XING"]},
+        {"type": "bullets", "items": [
+          "Flashing red lights at a railroad crossing mean a train is coming. Stop.",
+          "Stay stopped until the gates are fully up and the lights stop flashing, even after a train passes.",
+          "If lights keep flashing after a train passes, another train may be coming on a different track.",
+          "A large X with RR painted on the road means a railroad crossing is ahead."
+        ]}
+      ]
+    },
+    {
+      "heading": "Yellow and white lines",
+      "blocks": [
+        {"type": "p", "text": "Yellow lines separate traffic going in opposite directions. White lines separate lanes going the same direction and mark the right edge of the road. Broken lines may be crossed when safe; solid lines tell you to stay put."},
+        {"type": "signs", "codes": ["MARK-BROKEN-YELLOW", "MARK-DOUBLE-YELLOW", "MARK-SOLID-BROKEN-YELLOW"]},
+        {"type": "table", "rows": [
+          ["Broken yellow center line", "You may pass when it is safe."],
+          ["Double solid yellow", "No passing in either direction."],
+          ["Solid plus broken yellow", "If the broken line is on your side, you may pass when safe. If the solid line is on your side, you may not pass."]
+        ]},
+        {"type": "signs", "codes": ["MARK-BROKEN-WHITE", "MARK-SOLID-WHITE", "MARK-EDGE-LINES"]},
+        {"type": "table", "rows": [
+          ["Broken white", "Separates lanes going your way; change lanes when safe."],
+          ["Single solid white", "Stay in your lane; avoid changing lanes across it."],
+          ["Double solid white", "Do not cross it to change lanes."],
+          ["Solid white at the right side", "The road's edge, where the shoulder begins. If it angles inward, the road narrows ahead."],
+          ["Wide, short dotted white lines", "Your lane may end or become exit-only ahead."]
+        ]},
+        {"type": "warning", "text": "On a divided highway the yellow edge line should be on your left and the white edge line on your right. If you see yellow on your right and white on your left, you are going the wrong way."}
+      ]
+    },
+    {
+      "heading": "Stop lines, crosswalks and lane arrows",
+      "blocks": [
+        {"type": "signs", "codes": ["MARK-STOP-LINE", "MARK-YIELD-LINE", "MARK-ARROWS"]},
+        {"type": "bullets", "items": [
+          "Stop line: the wide white line across your lane. Stop behind it.",
+          "No stop line: stop before the crosswalk. White lines or stripes across the road at an intersection mark a crosswalk.",
+          "Yield line: a row of white triangles pointing toward you. Yield there and stop if needed.",
+          "A turn arrow with the word ONLY: you must turn that way from this lane.",
+          "Straight arrow plus turn arrow: you may go straight or turn.",
+          "If you end up in a turn-only lane by mistake and a solid white line keeps you there, make the turn and find another route."
+        ]}
+      ]
+    },
+    {
+      "heading": "Special lanes and painted areas",
+      "blocks": [
+        {"type": "signs", "codes": ["MARK-TWLTL", "MARK-REVERSIBLE", "MARK-HOV-DIAMOND", "MARK-BIKE-LANE", "MARK-CROSSHATCH"]},
+        {"type": "bullets", "items": [
+          "Two-way left-turn lane: solid yellow on the outside and broken yellow on the inside of each edge. It is only for left turns by drivers from both directions, never for passing.",
+          "Reversible lane: marked by double broken yellow lines. Its direction changes by time of day; obey the signs or lane-use signals.",
+          "White diamond: a reserved lane, such as a carpool (HOV) or bus lane. Use it only when you meet the rules on its signs.",
+          "Bike lane: a solid white line and a bicycle symbol. It is not a travel lane for cars. Before turning across it, check for bicyclists and yield to them.",
+          "Bright green paint marks a bicycle area; watch for bicyclists.",
+          "Sharrow (bike symbol with two arrowheads in a travel lane): bicyclists and drivers share the lane.",
+          "Gore area: the striped area between a ramp and the main lanes. Do not drive across it, stop in it or park in it.",
+          "Painted curbs mean special parking or stopping rules apply. Curb colors and their meanings vary by state; check your State Cheat Sheet."
+        ]}
+      ]
+    }
+  ],
+  "keyPoints": [
+    "Red means stop, yellow means stop if you safely can, green means go after yielding to anyone still crossing.",
+    "Green arrow is a protected turn; flashing yellow arrow means turn only after yielding to oncoming traffic.",
+    "Flashing red is a STOP sign; a dark signal is an all-way stop for everyone.",
+    "A police officer's directions override the traffic signal.",
+    "Yellow lines separate opposite directions; white lines separate lanes going the same way.",
+    "You may pass only when a broken line is on your side; double solid yellow means no passing.",
+    "Stop behind the stop line, or before the crosswalk if there is no line.",
+    "Center left-turn lanes are only for turning, and diamond lanes are only for vehicles that meet the posted rules."
+  ]
+}

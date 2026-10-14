@@ -1,0 +1,198 @@
+{
+  "id": "lesson.cdl.cdl-hazmat",
+  "track": "cdl",
+  "topic": "cdl-hazmat",
+  "title": "Hazardous Materials",
+  "summary": "Hazard classes, shipping papers, placards, loading, safe driving and parking, and what to do in a hazmat emergency.",
+  "minutes": 16,
+  "sections": [
+    {
+      "heading": "The rules and who does what",
+      "blocks": [
+        {"type": "p", "text": "The Hazardous Materials Regulations (HMR) are in Title 49 of the Code of Federal Regulations, Parts 171-180. Hazmat employees, including drivers, must be trained and tested at least once every three years. Your employer or its representative provides the training."},
+        {"type": "table", "rows": [
+          ["Containment rules", "Tell shippers how to package hazmat and drivers how to load, transport and unload it, so the material stays contained."],
+          ["Communication", "Labels, markings, shipping papers, emergency response information and placards communicate the risk to carriers, drivers and emergency responders."]
+        ]},
+        {"type": "table", "rows": [
+          ["Shipper", "Decides the ID number, proper shipping name, hazard class, packing group, packaging, labels, markings and placards. Prepares the shipping papers."],
+          ["Carrier", "Takes the shipment to its destination. Before transport, checks that the shipper described, marked and labeled it correctly, and refuses improper shipments."],
+          ["Driver", "Makes sure the shipment is identified, marked, labeled and placarded, and transports it safely and legally."]
+        ]},
+        {"type": "warning", "text": "Refuse leaking packages and shipments. It is illegal to move a vehicle with hazardous materials leaking from it."}
+      ]
+    },
+    {
+      "heading": "The nine hazard classes",
+      "blocks": [
+        {"type": "p", "text": "Hazardous materials are sorted into nine hazard classes. Several classes are split into divisions. Learn the examples; the test uses them."},
+        {"type": "table", "rows": [
+          ["Class 1 Explosives", "1.1 mass explosion (dynamite), 1.2 projection hazard (flares), 1.3 fire hazard (display fireworks), 1.4 minor explosion (ammunition), 1.5 very insensitive (blasting agents), 1.6 extremely insensitive (explosive devices)"],
+          ["Class 2 Gases", "2.1 flammable gas (propane), 2.2 non-flammable gas (helium), 2.3 poisonous/toxic gas (fluorine, compressed)"],
+          ["Class 3", "Flammable liquids (gasoline)"],
+          ["Class 4 Solids", "4.1 flammable solid (ammonium picrate, wetted), 4.2 spontaneously combustible (white phosphorus), 4.3 dangerous when wet (sodium)"],
+          ["Class 5", "5.1 oxidizers (ammonium nitrate), 5.2 organic peroxides (methyl ethyl ketone peroxide)"],
+          ["Class 6", "6.1 poison/toxic material (potassium cyanide), 6.2 infectious substances (anthrax virus)"],
+          ["Class 7", "Radioactive (uranium)"],
+          ["Class 8", "Corrosives (battery fluid)"],
+          ["Class 9", "Miscellaneous hazardous materials (PCBs)"],
+          ["No class number", "ORM-D, other regulated material-domestic (food flavorings, medicines); combustible liquids (fuel oil)"]
+        ]},
+        {"type": "tip", "text": "Gasoline is a Class 3 flammable liquid, but fuel oil is a combustible liquid, which is outside the nine numbered classes."}
+      ]
+    },
+    {
+      "heading": "Shipping papers",
+      "blocks": [
+        {"type": "p", "text": "Shipping orders, bills of lading and manifests are all shipping papers. They describe the hazmat on board. After a crash, responders depend on finding them fast."},
+        {"type": "bullets", "items": [
+          "Tab hazmat shipping papers or keep them on top of other shipping papers.",
+          "Keep the emergency response information in the same place as the shipping paper.",
+          "If a paper lists both hazmat and non-hazmat items, hazmat entries must be listed first, highlighted in a contrasting color, or marked with an X in a column headed HM. RQ may be used in place of the X for a reportable quantity.",
+          "Basic description order: ID number, proper shipping name, hazard class or division, packing group (if any). Example: UN1263, Paint, 3, PG II.",
+          "RQ means a hazardous substance shipped in a reportable quantity. It may appear before or after the basic description.",
+          "For hazardous waste, the word WASTE goes before the shipping name (UN1090, Waste Acetone, 3, PG II). Waste travels with a Uniform Hazardous Waste Manifest, which each carrier signs by hand and which counts as a shipping paper.",
+          "The shipper must sign a certification on the original paper. The only exceptions: a private carrier hauling its own product, or a package provided by the carrier, such as a cargo tank.",
+          "Shippers keep a copy (or electronic image) for 2 years after the first carrier accepts it, or 3 years for hazardous waste."
+        ]},
+        {"type": "p", "text": "Emergency response information must include at least: the basic description and technical name, immediate health hazards, fire or explosion risks, immediate precautions, methods for handling fires, first steps for spills or leaks, and first aid."},
+        {"type": "table", "rows": [
+          ["While driving", "In a pouch on the driver's door, or in clear view within immediate reach while your seat belt is fastened."],
+          ["Out of the vehicle", "On the driver's seat or in the driver's door pouch."],
+          ["At a crash or incident", "Take them with you and give them to emergency responders."]
+        ]},
+        {"type": "tip", "text": "Watch for clues of undeclared hazmat: a shipper such as a paint dealer, chemical supplier, pest control or agricultural supplier, or explosives and fireworks dealer; tanks, cylinders and drums with placards; and packages with labels or ID numbers."}
+      ]
+    },
+    {
+      "heading": "The Hazardous Materials Table and other lists",
+      "blocks": [
+        {"type": "p", "text": "Before hauling a material, check three lists: the Hazardous Materials Table (49 CFR 172.101), Appendix A (Hazardous Substances and Reportable Quantities) and Appendix B (List of Marine Pollutants)."},
+        {"type": "table", "rows": [
+          ["Column 1", "Symbols. G means a generic name, which must be followed by a technical name (the specific chemical that makes it hazardous). (A) means the HMR apply only to air transport, unless it is a hazardous substance or hazardous waste. (W) means water transport only."],
+          ["Column 2", "Proper shipping names"],
+          ["Column 3", "Hazard class or division, or the word Forbidden. Never transport a Forbidden material."],
+          ["Column 4", "Identification number"],
+          ["Column 5", "Packing group"],
+          ["Column 6", "Required hazard labels"],
+          ["Column 7", "Special provisions. Numbers 1 through 6 mean a poison inhalation hazard (PIH), with extra paper, marking and placard rules."],
+          ["Column 8", "Packaging requirements"],
+          ["Columns 9 and 10", "Do not apply to highway transportation"]
+        ]},
+        {"type": "bullets", "items": [
+          "UN numbers are used internationally. NA numbers go with shipping names used only within the U.S. and to and from Canada.",
+          "Bulk packages of a marine pollutant must show the MARINE POLLUTANT marking. It is a marking, not a placard, and it must also be displayed on the outside of the vehicle. The shipping paper must say Marine Pollutant."
+        ]}
+      ]
+    },
+    {
+      "heading": "Placards",
+      "blocks": [
+        {"type": "bullets", "items": [
+          "Placards are at least 250 mm (9.84 inches) square, turned on point in a diamond.",
+          "A placarded vehicle needs at least four identical placards: front, rear and both sides, readable from all four directions. The front one may be on the tractor or the trailer.",
+          "Attach placards before you drive. You may move an improperly placarded vehicle only in an emergency to protect life or property.",
+          "Placards go on a contrasting background. Slogans such as Drive Safely are prohibited.",
+          "You may display placards even when not required, as long as they identify the hazard on board.",
+          "To choose placards you must know the hazard class, the amount shipped, and the total weight of all hazmat classes in the vehicle."
+        ]},
+        {"type": "table", "rows": [
+          ["Table 1: placard ANY amount", "Explosives 1.1, 1.2, 1.3; Division 2.3 poison gas; Division 4.3 dangerous when wet; Division 5.2 Type B temperature-controlled organic peroxide; Division 6.1 inhalation hazard zone A or B; Class 7 with a Radioactive Yellow III label"],
+          ["Table 2: placard at 1,001 lbs or more", "All other classes, such as 1.4-1.6, 2.1, 2.2, 3, combustible liquid, 4.1, 4.2, 5.1, 6.1, 8 and 9. Add up all Table 2 amounts on board, including packaging."]
+        ]},
+        {"type": "bullets", "items": [
+          "Exception: bulk packaging must be placarded no matter the amount. Bulk packaging is a single container holding more than 119 gallons.",
+          "A bulk package, and the vehicle carrying it, stays placarded even when it holds only residue.",
+          "DANGEROUS placards may replace separate Table 2 placards when you have 1,001 lbs or more of two or more Table 2 classes. It is optional.",
+          "If you loaded 2,205 lbs or more of one Table 2 class at one place, that class must get its own specific placard.",
+          "INHALATION HAZARD on the paper or package: show POISON GAS or POISON INHALATION HAZARD placards in any amount, plus the class placards.",
+          "A secondary hazard of dangerous when wet: show DANGEROUS WHEN WET placards in any amount, plus the other placards.",
+          "The Class 9 placard is not required for domestic transportation. Division 6.2 and ORM-D have no placard."
+        ]},
+        {"type": "p", "text": "Cargo tanks and other bulk packaging must show the ID number of the contents in black 100 mm (3.9 inch) numbers on orange panels, on placards, or on a white diamond if no placards are required."},
+        {"type": "tip", "text": "Worked example: 600 lbs of Class 3 plus 500 lbs of Class 8 is 1,100 lbs of Table 2 material, so you need FLAMMABLE and CORROSIVE placards, or DANGEROUS instead. With only 800 lbs of Class 8 in non-bulk packages, no placard is needed."}
+      ]
+    },
+    {
+      "heading": "Loading, unloading and cargo tanks",
+      "blocks": [
+        {"type": "bullets", "items": [
+          "Set the parking brake first and make sure the vehicle will not move.",
+          "Do not use hooks or any tool that could damage packages.",
+          "Never smoke around Class 1 explosives, Division 2.1 flammable gas, Class 3, Class 4 or Class 5 materials.",
+          "Secure every package against movement. Re-securing a shifted package is fine, but never open a package or move hazmat from one package to another in transit. A cargo tank may be emptied, but no other package.",
+          "Unless you know all the cargo heater rules, do not load Class 1, Division 2.1 or Class 3 into a space with a heater.",
+          "Class 1, 4 and 5 may not be overhang or tailgate loads. Carry them in a closed cargo space unless every package is fire and water resistant or covered by a fire and water resistant tarp.",
+          "Without racks, load compressed gas cylinders on a flat floor, held upright or in boxes that keep them from tipping. A cylinder may lie down only if its relief valve is in the vapor space."
+        ]},
+        {"type": "table", "rows": [
+          ["Explosives", "Turn the engine off, then check the cargo space: disable heaters and look for sharp points. Use a non-metallic or non-ferrous (no iron) floor liner for 1.1, 1.2, 1.3. Refuse damaged packages or any with dampness or an oily stain. Transfer 1.1-1.3 between vehicles on a public road only in an emergency, with red reflectors, flags or electric lanterns set out. Never haul 1.1 or 1.2 in a combination that includes a marked or placarded cargo tank."],
+          ["Corrosives", "Never load nitric acid above any other product. Never load corrosive liquids next to or above Division 1.4, 4.1, 4.3, Class 5 or Division 2.3 Zone B gases."],
+          ["Poisons", "Never in the cab or sleeper. Never with food for people or animals (including bagged feed) unless overpacked in an approved way. Mouthwash, toothpaste and skin creams are not foodstuffs."],
+          ["Cyanides", "Never load with acids, corrosives or other acidic materials."],
+          ["Radioactive", "The total transport index of all packages in one vehicle may not exceed 50."]
+        ]},
+        {"type": "p", "text": "Cargo tanks: a cargo tank is bulk packaging that stays attached to the vehicle during loading and unloading. A portable tank is loaded or unloaded off the vehicle and then put on it for transport."},
+        {"type": "bullets", "items": [
+          "A qualified person must watch loading and unloading: alert, within 25 feet, with a clear view of the tank, knowing the hazards and emergency steps, and authorized and able to move the tank.",
+          "Close all manholes and valves before moving a tank holding any hazmat, no matter how small the amount or how short the distance.",
+          "When filling a flammable liquid tank through an open filling hole, ground the tank before opening the hole and keep it grounded until after the hole is closed.",
+          "If the engine runs the pump for compressed gas, turn it off after the transfer and before unhooking the hose."
+        ]}
+      ]
+    },
+    {
+      "heading": "Driving and parking",
+      "blocks": [
+        {"type": "table", "rows": [
+          ["With 1.1, 1.2 or 1.3 explosives", "Never park within 5 feet of the traveled road, or within 300 feet of a bridge, tunnel, building, gathering place or open fire, except briefly for needs like fueling. Someone must always watch the vehicle; another person may watch it only on the shipper's, carrier's or consignee's property. A safe haven is an approved place to park such vehicles unattended."],
+          ["Placarded, no explosives", "Park within 5 feet of the traveled road only if your work requires it, and only briefly. Someone must watch it when parked on a public road or shoulder, and do not park within 300 feet of an open fire."],
+          ["Attending a vehicle", "The attendant must be awake and not in the sleeper berth, or within 100 feet with the vehicle in clear view, know the hazards and what to do, and be able to move it."]
+        ]},
+        {"type": "bullets", "items": [
+          "Avoid heavily populated areas, crowds, tunnels, narrow streets and alleys whenever placarded, unless there is no other way.",
+          "The carrier prepares a written route plan for 1.1-1.3 explosives; the driver may plan it if picking up the load away from the employer's terminal.",
+          "The carrier must give a driver of 1.1-1.3 explosives a copy of FMCSR Part 397 and written instructions for delays and accidents; the driver signs a receipt.",
+          "No smoking within 25 feet of a placarded cargo tank used for Class 3 or Division 2.1, or of any vehicle carrying Class 1, 3, 4.1, 4.2 or 5.",
+          "Fueling: engine off, and someone always at the nozzle controlling the flow.",
+          "The power unit of a placarded vehicle needs a fire extinguisher rated 10 B:C or more.",
+          "Check each tire at the start of each trip and each time you park.",
+          "Chlorine in cargo tanks: carry an approved gas mask and a leak kit for the dome cover plate fittings."
+        ]},
+        {"type": "warning", "text": "Never use flares, fuses or other burning signals around a tank used for Class 3 or Division 2.1, loaded or empty. Use reflective triangles or red electric lights."},
+        {"type": "signs", "codes": ["R15-1", "SIG-RR-FLASHING", "MARK-RR-XING"]},
+        {"type": "p", "text": "Stop 15 to 50 feet before the nearest rail if your vehicle is placarded, carries any chlorine, or has cargo tanks used for hazmat, loaded or empty. Cross only when no train is coming and you can clear the tracks without stopping, and do not shift gears on the tracks."}
+      ]
+    },
+    {
+      "heading": "Emergencies and reporting",
+      "blocks": [
+        {"type": "p", "text": "The Emergency Response Guidebook (ERG), published by the U.S. Department of Transportation, guides firefighters, police and industry workers. It is indexed by proper shipping name and ID number, so those must be correct on your papers."},
+        {"type": "steps", "items": [
+          "Keep people far away and upwind, warn others, and call for help.",
+          "Identify any leaking material from the shipping papers, labels or package location. Never touch it or try to identify it by smell.",
+          "If hazmat is leaking, do not keep driving to find a phone. Park, secure the area, stay there, and call or send someone with written details.",
+          "Feel trailer doors before opening. If they are hot, keep them closed; air can make a cargo fire flare up.",
+          "Do not fight a hazmat fire without training and protective gear. You may use your extinguisher to keep a minor truck fire from reaching the cargo."
+        ]},
+        {"type": "table", "rows": [
+          ["Explosives in a collision", "Remove all explosives before separating the vehicles and place them at least 200 feet from the vehicles and occupied buildings."],
+          ["Compressed gas in any accident", "Notify the shipper."],
+          ["Smoldering flammable solid", "Do not open the package. Remove it if you safely can, and warn others."],
+          ["Radioactive spill", "Tell your dispatcher. Do not use the vehicle until it is cleaned and checked with a survey meter."]
+        ]},
+        {"type": "p", "text": "You or your employer must phone the National Response Center when, as a direct result of hazmat, a person is killed, an injured person needs hospital care, property damage exceeds $50,000, the public is evacuated for more than an hour, a major road or facility is closed for one hour or more, and in certain other cases. CHEMTREC runs a 24-hour line that gives emergency crews technical data on hazardous materials. The carrier must file a detailed written report within 30 days."}
+      ]
+    }
+  ],
+  "keyPoints": [
+    "Nine hazard classes; know each class and division with its example (Class 3 gasoline, 2.1 propane, 4.3 sodium, 8 battery fluid).",
+    "Shipping paper order: ID number, proper shipping name, class, packing group. Keep papers in the door pouch or within reach while driving, on the seat when you leave.",
+    "Table 1 materials are placarded in any amount; Table 2 materials at 1,001 lbs or more. Bulk packages (over 119 gallons) are always placarded, even with residue.",
+    "Use four identical placards, front, rear and both sides, before you drive.",
+    "With 1.1-1.3 explosives: never park within 5 feet of the road or 300 feet of bridges, tunnels or buildings, and always have someone watching.",
+    "No smoking within 25 feet; no flares near Class 3 or 2.1 tanks; extinguisher rated 10 B:C or more.",
+    "Placarded, chlorine and hazmat tank vehicles stop 15-50 feet before railroad tracks.",
+    "In an emergency, keep people upwind, never identify leaks by smell, and never drive on with a leak."
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "id": "lesson.car.road-signs",
+  "track": "car",
+  "topic": "road-signs",
+  "title": "Road Signs",
+  "summary": "How to read any sign from its shape and color, and what the most-tested regulatory, warning, school, railroad, work-zone and guide signs mean.",
+  "minutes": 9,
+  "sections": [
+    {
+      "heading": "Shape and color tell you the message",
+      "blocks": [
+        {"type": "p", "text": "Signs come in three main groups. Regulatory signs tell you what the law requires. Warning signs tell you about a hazard ahead. Guide signs tell you where you are and how to reach a place. You can often know a sign's message from its shape and color before you can read it."},
+        {"type": "table", "rows": [
+          ["Red octagon (8 sides)", "STOP. No other sign uses this shape."],
+          ["Red and white downward triangle", "YIELD."],
+          ["White rectangle, black letters", "Regulatory: rules such as speed limits and lane use."],
+          ["Yellow diamond", "Warning: a hazard or change in the road ahead."],
+          ["Yellow pennant (sideways triangle)", "No-passing zone begins."],
+          ["Pentagon (5 sides), yellow or yellow-green", "School zone or school crossing."],
+          ["Fluorescent yellow-green", "Warnings about schools, pedestrians, bicyclists and playgrounds."],
+          ["Round yellow sign", "Railroad crossing ahead."],
+          ["White X (crossbuck)", "Railroad crossing; yield to trains."],
+          ["Orange (usually diamond)", "Work zone: construction or maintenance."],
+          ["Fluorescent pink", "Incident ahead, such as a crash or other unplanned event."],
+          ["Green", "Directions, distances, exits and route guidance."],
+          ["Blue", "Motorist services such as gas, food, lodging and hospitals."],
+          ["Brown", "Parks, recreation and scenic or historic places."]
+        ]},
+        {"type": "tip", "text": "A red circle with a slash through a symbol always means that action is not allowed, such as NO LEFT TURN or NO U-TURN."}
+      ]
+    },
+    {
+      "heading": "Stop, yield and wrong-way signs",
+      "blocks": [
+        {"type": "signs", "codes": ["R1-1", "R1-2", "R5-1", "R5-1a"]},
+        {"type": "bullets", "items": [
+          "STOP: come to a complete stop at the stop line. If there is no line, stop before the crosswalk; if there is no crosswalk, stop before the intersection. Yield to pedestrians and cross traffic, then go when it is safe.",
+          "ALL-WAY plaque under a STOP sign: every approach must stop. The first vehicle to stop goes first. If two arrive together, the driver on the left yields to the driver on the right.",
+          "YIELD: slow down and be ready to stop. Let vehicles, bicyclists and pedestrians on the other road go first. You do not have to stop if the way is clear.",
+          "DO NOT ENTER: you may not enter from this direction, such as the wrong end of a one-way street or a freeway exit ramp.",
+          "WRONG WAY: you are driving against traffic. Pull out of the traffic path and turn around as soon as it is safe."
+        ]},
+        {"type": "signs", "codes": ["R1-3P", "R1-2aP"]},
+        {"type": "p", "text": "Plaques add to the sign above them. ALL WAY under a STOP sign means every approach stops. TO ONCOMING TRAFFIC under a YIELD sign means you must yield to traffic coming toward you, as at a one-lane bridge."},
+        {"type": "warning", "text": "A STOP sign means a full stop every time, even when no one is coming. A rolling stop is a violation."}
+      ]
+    },
+    {
+      "heading": "Other regulatory signs",
+      "blocks": [
+        {"type": "p", "text": "These white, black and red signs are law, not advice. Ignoring them can earn you a ticket."},
+        {"type": "signs", "codes": ["R3-1", "R3-2", "R3-4", "R3-18", "R3-3", "R3-27"]},
+        {"type": "bullets", "items": [
+          "Turn prohibitions: NO RIGHT TURN, NO LEFT TURN, NO U-TURN, NO U-TURN OR LEFT TURN and NO TURNS mean exactly that, even when no traffic is coming. A straight arrow with a slash means you may not go straight; you must turn.",
+          "NO TURN ON RED: wait for a green light or green arrow before turning.",
+          "ONE WAY: traffic moves only in the direction of the arrow.",
+          "KEEP RIGHT: pass to the right of the island or obstacle ahead.",
+          "DO NOT BLOCK INTERSECTION: do not enter unless there is room for your whole car on the far side."
+        ]},
+        {"type": "signs", "codes": ["R10-11", "R6-1R", "R4-7", "R10-7"]},
+        {"type": "p", "text": "Lane-use signs tell you which way each lane must go. Get into the right lane early."},
+        {"type": "signs", "codes": ["R3-5L", "R3-5R", "R3-6L", "R3-7R", "R3-9b", "R3-11"]},
+        {"type": "bullets", "items": [
+          "LEFT TURN ONLY or RIGHT TURN ONLY: vehicles in that lane must turn that way.",
+          "RIGHT LANE MUST TURN RIGHT: move out of that lane early if you want to go straight.",
+          "Center lane two-way left turn only: the center lane is for left turns by traffic from both directions, never for passing.",
+          "HOV or carpool lane: only for vehicles carrying at least the posted number of people during the posted hours."
+        ]}
+      ]
+    },
+    {
+      "heading": "Speed and passing signs",
+      "blocks": [
+        {"type": "signs", "codes": ["R2-1", "R2-2P", "R2-3P", "R2-4a"]},
+        {"type": "signs", "codes": ["R4-1", "R4-2", "R4-3", "R4-16"]},
+        {"type": "bullets", "items": [
+          "SPEED LIMIT: the most you may drive in good conditions. Drive slower when weather, traffic or the road calls for it.",
+          "A sign with a maximum and a minimum speed: in normal conditions, stay between the two numbers.",
+          "Plaques under a speed limit sign can set a lower limit for trucks or at night.",
+          "DO NOT PASS marks a no-passing zone; PASS WITH CARE marks where it ends.",
+          "SLOWER TRAFFIC KEEP RIGHT and KEEP RIGHT EXCEPT TO PASS: use the right lane unless you are passing."
+        ]},
+        {"type": "p", "text": "Speed limits themselves, and the default limits on roads with no signs, are set by each state. Check your State Cheat Sheet."}
+      ]
+    },
+    {
+      "heading": "Warning signs",
+      "blocks": [
+        {"type": "p", "text": "Yellow diamond warning signs tell you to slow down and get ready for what is ahead."},
+        {"type": "signs", "codes": ["W1-1R", "W1-2R", "W1-3R", "W1-4R", "W1-5R", "W1-2aR"]},
+        {"type": "bullets", "items": [
+          "Turn signs show a sharp bend; curve signs show a gentler one. Slow down before you reach it.",
+          "Reverse turn or reverse curve: the road bends one way, then back the other way.",
+          "Winding road: three or more curves in a row.",
+          "A number inside or under a warning sign is the advisory speed: the speed advised for that curve or ramp in good conditions. Go slower in rain, snow or at night.",
+          "Large arrows and chevrons on the outside of a sharp curve point the way the road turns.",
+          "A two-headed arrow across the end of a road means you cannot go straight; turn left or right."
+        ]},
+        {"type": "signs", "codes": ["W1-6R", "W1-8R", "W1-7"]},
+        {"type": "signs", "codes": ["W2-1", "W2-2R", "W2-4", "W2-5"]},
+        {"type": "bullets", "items": [
+          "Crossroad and side road: other vehicles may enter or cross ahead.",
+          "T intersection: your road ends; be ready to turn left or right.",
+          "Y intersection: the road splits; bear left or right.",
+          "The yellow pennant no-passing sign is placed on the left side of the road where the no-passing zone begins."
+        ]}
+      ]
+    },
+    {
+      "heading": "School and railroad signs",
+      "blocks": [
+        {"type": "signs", "codes": ["S1-1", "S1-1_W16-7PL", "S3-1", "S5-1"]},
+        {"type": "bullets", "items": [
+          "The five-sided school sign warns that a school or school crossing is near. Slow down and watch for children.",
+          "With a small arrow plaque pointing down at an angle, it marks the school crosswalk itself. Yield to anyone crossing.",
+          "SCHOOL BUS STOP AHEAD: a bus may be stopped to load or unload children.",
+          "A school speed limit applies when the sign's condition is met, such as when lights are flashing or children are present. The limit and hours vary by state; see your State Cheat Sheet."
+        ]},
+        {"type": "signs", "codes": ["R15-1", "R15-2P", "MARK-RR-XING", "SIG-RR-FLASHING"]},
+        {"type": "bullets", "items": [
+          "A round yellow sign with an X and RR warns of a railroad crossing ahead. The same X and RR are often painted on the road.",
+          "The white crossbuck marks the crossing itself. Treat it like a yield sign for trains: slow down, look and listen both ways, and stop if a train is coming.",
+          "A plaque under the crossbuck shows the number of tracks. After one train passes, watch for a second one on another track.",
+          "Flashing red lights or lowered gates mean stop. Do not go until the gates are fully up and the lights stop."
+        ]}
+      ]
+    },
+    {
+      "heading": "Work zones and slow vehicles",
+      "blocks": [
+        {"type": "p", "text": "Orange signs mark construction and maintenance work: lane closings, lane shifts, flaggers, uneven pavement and detours. Slow down, keep extra space, and watch for workers and equipment, even if no lower speed is posted."},
+        {"type": "bullets", "items": [
+          "Obey a flagger's signals just as you would a sign.",
+          "Many states raise fines in work zones. A FINES DOUBLE plaque tells you the zone has higher fines; check your State Cheat Sheet for your state's rule.",
+          "ROAD CLOSED means do not drive past the sign. Follow the detour.",
+          "Fluorescent pink signs warn of a crash or other unplanned incident ahead. Slow down and watch for stopped traffic and emergency crews."
+        ]},
+        {"type": "signs", "codes": ["R2-6aP", "R11-2"]},
+        {"type": "sign", "code": "SMV-EMBLEM", "caption": "Slow-moving vehicle emblem"},
+        {"type": "p", "text": "An orange triangle with a red border on the back of a vehicle means it moves slowly, usually 25 mph or less. Farm equipment and horse-drawn buggies use it. Slow down early and pass only when it is safe and legal."}
+      ]
+    },
+    {
+      "heading": "Guide and service signs",
+      "blocks": [
+        {"type": "bullets", "items": [
+          "Green signs give directions, distances and exit information. A yellow EXIT ONLY panel means the lane under it leaves the highway.",
+          "Blue signs point to services such as gas, food, lodging, rest areas and hospitals.",
+          "Brown signs point to parks, recreation areas and scenic or historic sites.",
+          "Route markers show the highway number. Interstate signs are red, white and blue shields; U.S. routes use a white shield; state routes use shapes each state chooses.",
+          "On interstates, odd numbers generally run north-south and even numbers run east-west.",
+          "Mile markers show your location along a highway and help you report a crash or breakdown. In many states, exit numbers match the nearest mile marker."
+        ]},
+        {"type": "tip", "text": "When you call for help on a highway, give the route, your direction and the nearest mile marker or exit number."}
+      ]
+    }
+  ],
+  "keyPoints": [
+    "Octagon means STOP; a downward triangle means YIELD. No other signs use these shapes.",
+    "Red and white or black and white signs are rules you must obey; a red circle with a slash means not allowed.",
+    "Yellow diamonds warn of hazards; the number on a warning sign is an advisory speed for good conditions.",
+    "A pennant marks the start of a no-passing zone; a pentagon marks a school zone or crossing.",
+    "A round yellow sign means a railroad crossing ahead; the crossbuck means yield to trains.",
+    "Orange means work zone: slow down and obey flaggers.",
+    "Green guides, blue shows services, brown shows recreation.",
+    "Speed limits, school-zone limits and work-zone fines vary by state; check your State Cheat Sheet."
+  ]
+}

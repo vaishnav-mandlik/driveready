@@ -11,6 +11,7 @@ and the `args` global. The prompts inside are the real instructions given to the
 | `universal-review.js` | Batch review of universal car questions (correctness + universality across all handbooks + quality), one agent per 3–4 topics. | `{"batches": [["right-of-way","freeway"], ...]}` |
 | `bank-builder.js` | Universal banks from a manual (motorcycle MSF, CDL AAMVA): one author per job of several topics → independent reviewer. | `{"jobs": [{name, track, topics:[{topic,title,prefix,target,scope}]}]}` |
 | `lessons.js` | Study lessons per topic (several per agent), grounded in sources and aligned with the question bank → independent fact-check. | `{"jobs": [{name, track, topics:[{topic,title}]}]}` |
+| `sign-questions.js` | Image-based questions (`sign` field) for every sign/signal/marking code in `_codes.json` → independent review. Re-run after new signs are added (top-up). | none |
 | `app-screens.js` | Parallel screen implementation + adversarial code review (superseded: screens are now written directly). | none |
 | `custom-illustrations.js` | Draw signal / pavement-marking / hand-signal SVGs into `app/assets/signs-custom/` and visually review them. | none |
 | `state-research-v1.js`, `state-e2e-v1.js` | Earlier, heavier versions (4 agents/state). Kept for their prompts (fact keys, verification procedure). | `{"states": [...], "side": bool}` |
