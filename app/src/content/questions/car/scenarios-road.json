@@ -1,0 +1,730 @@
+[
+  {
+    "id": "car.scnr.001",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are car A on this two-lane road. The school bus on the other side has its red lights flashing and its stop arm out. What must you do?",
+    "choices": [
+      "Slow down and pass carefully, because the bus is in the other lane",
+      "Stop, and stay stopped while the red lights are flashing and the stop arm is out",
+      "Stop, then go once the children reach the side of the road",
+      "Keep going; only drivers behind the bus must stop"
+    ],
+    "answer": 1,
+    "explanation": "On a two-lane road, traffic in both directions must stop for a school bus with flashing red lights and its stop arm out, and stay stopped while they are on. Being in the opposite lane does not let you pass.",
+    "sign": "SCN-SCHOOL-BUS-2LANE",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (school buses)"
+  },
+  {
+    "id": "car.scnr.002",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "In the picture, children are near the stopped school bus. When the bus's red lights turn off and it starts to move, what should car A do?",
+    "choices": [
+      "Watch for children who may still be crossing, then go ahead carefully",
+      "Go right away, since the lights are off",
+      "Speed up to get past before the bus pulls out",
+      "Honk so the children know you are coming"
+    ],
+    "answer": 0,
+    "explanation": "Even after the red lights go off, children may still be near the road or run back across. Look for them and proceed slowly.",
+    "sign": "SCN-SCHOOL-BUS-2LANE",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (school buses)"
+  },
+  {
+    "id": "car.scnr.003",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are car A, behind a school bus that has stopped with its red lights flashing and its stop arm out. What should you do?",
+    "choices": [
+      "Pass slowly on the left if no traffic is coming",
+      "Pass on the right shoulder",
+      "Pass if you do not see any children",
+      "Stop and wait behind the bus; do not pass it"
+    ],
+    "answer": 3,
+    "explanation": "Drivers behind a school bus with flashing red lights and its stop arm out must stop and may not pass. Children may be crossing in front of the bus where you cannot see them.",
+    "sign": "SCN-SCHOOL-BUS-BEHIND",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (school buses)"
+  },
+  {
+    "id": "car.scnr.004",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Car A has stopped behind the school bus. The children finish crossing, but the red lights are still flashing and the stop arm is still out. What should A do?",
+    "choices": [
+      "Pass slowly on the left, since the children are across",
+      "Stay stopped",
+      "Pass after waiting about 10 seconds",
+      "Honk so the bus driver pulls in the stop arm"
+    ],
+    "answer": 1,
+    "explanation": "You must stay stopped while the red lights flash and the stop arm is out, even after the children you can see have crossed. Others may still be coming to or from the bus.",
+    "sign": "SCN-SCHOOL-BUS-BEHIND",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (school buses)"
+  },
+  {
+    "id": "car.scnr.005",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are car A. An ambulance with its siren on and lights flashing is coming up behind you. What should you do?",
+    "choices": [
+      "Speed up to stay ahead of it",
+      "Pull over to the right edge of the road and stop until it passes",
+      "Stop right where you are in your lane",
+      "Move to the left so it can pass on your right"
+    ],
+    "answer": 1,
+    "explanation": "Yield to emergency vehicles using a siren and flashing lights: pull to the right edge of the road, stop, and wait for it to pass.",
+    "sign": "SCN-EMERGENCY-BEHIND",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (emergency vehicles)"
+  },
+  {
+    "id": "car.scnr.006",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "After the ambulance in the picture passes car A, what should A do next?",
+    "choices": [
+      "Check traffic and signal before pulling back onto the road",
+      "Follow close behind the ambulance to move through traffic faster",
+      "Pull out right away without checking, since the road is now clear",
+      "Turn on the hazard lights and follow the ambulance"
+    ],
+    "answer": 0,
+    "explanation": "Once the emergency vehicle has passed, re-enter traffic only after checking that it is safe and signaling. Never follow an emergency vehicle closely.",
+    "sign": "SCN-EMERGENCY-BEHIND",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (emergency vehicles)"
+  },
+  {
+    "id": "car.scnr.007",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are car A. A police car with flashing lights is stopped on the shoulder ahead. What should you do?",
+    "choices": [
+      "Keep your speed and stay in your lane, since it is on the shoulder",
+      "Stop in your lane until the officer waves you on",
+      "Speed up to get past it quickly",
+      "Move into the lane farther from the police car if it is safe; if not, slow down"
+    ],
+    "answer": 3,
+    "explanation": "Move-over laws require drivers to change to a lane away from a stopped emergency vehicle with flashing lights when it is safe, or to slow down if they cannot.",
+    "sign": "SCN-MOVE-OVER-POLICE",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (move-over laws)"
+  },
+  {
+    "id": "car.scnr.008",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Car A cannot move to the left lane because traffic there is too heavy. What should A do as it passes the stopped police car?",
+    "choices": [
+      "Drive with two wheels in the left lane anyway",
+      "Stop in the right lane until the left lane is clear",
+      "Slow down and pass with extra caution",
+      "Honk to warn the officer"
+    ],
+    "answer": 2,
+    "explanation": "If you cannot safely change lanes, slow down and be ready for an officer or driver who may step toward traffic.",
+    "sign": "SCN-MOVE-OVER-POLICE",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (move-over laws)"
+  },
+  {
+    "id": "car.scnr.009",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "The shaded areas around the truck are its No-Zones (blind spots). Which car is most likely hidden from the truck driver?",
+    "choices": [
+      "Car B, in the left lane well behind the truck",
+      "Car A, beside the truck on its right side",
+      "No car is hidden, because truck mirrors show everything around the truck"
+    ],
+    "answer": 1,
+    "explanation": "Large trucks have big blind spots in front, behind and along both sides; the right side is the largest. Car A is inside it.",
+    "sign": "SCN-TRUCK-NO-ZONES",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (sharing the road with trucks)"
+  },
+  {
+    "id": "car.scnr.010",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are car A. What should you do?",
+    "choices": [
+      "Get out of the No-Zone by passing when it is safe or by dropping back",
+      "Stay beside the truck so the driver can keep track of you",
+      "Move closer to the truck to give other cars more room",
+      "Honk and keep driving next to the truck"
+    ],
+    "answer": 0,
+    "explanation": "Do not linger in a truck's blind spot. If you cannot see the driver in the truck's mirror, the driver cannot see you.",
+    "sign": "SCN-TRUCK-NO-ZONES",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (sharing the road with trucks)"
+  },
+  {
+    "id": "car.scnr.011",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Car B wants to follow the truck. Why should B not move up close behind it?",
+    "choices": [
+      "Trucks must stop if a car follows closely",
+      "Following closely behind a truck saves fuel and is encouraged",
+      "It is only a problem at night",
+      "The truck driver cannot see a car right behind the truck, and B could not see the road ahead"
+    ],
+    "answer": 3,
+    "explanation": "The area directly behind a truck is a No-Zone. Following too closely also blocks your view of traffic ahead and leaves no room to stop.",
+    "sign": "SCN-TRUCK-NO-ZONES",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (sharing the road with trucks)"
+  },
+  {
+    "id": "car.scnr.012",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are car A behind bicyclist C, and car B is coming toward you. What should you do?",
+    "choices": [
+      "Squeeze past C now while staying in your lane",
+      "Honk so C moves off the road",
+      "Slow down and stay behind C until B has passed and there is a safe gap to pass",
+      "Speed up to pass C before B arrives"
+    ],
+    "answer": 2,
+    "explanation": "Bicyclists have the right to use the road. Wait behind the cyclist until oncoming traffic clears, then pass with plenty of room.",
+    "sign": "SCN-PASS-BICYCLE",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (sharing the road with bicyclists)"
+  },
+  {
+    "id": "car.scnr.013",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "When car A does pass bicyclist C, how should it pass?",
+    "choices": [
+      "Stay in your lane and pass with just a little space",
+      "Leave plenty of room, moving over as you would to pass a car",
+      "Pass as fast as possible to spend less time beside C",
+      "Honk while passing so C stays steady"
+    ],
+    "answer": 1,
+    "explanation": "Give a cyclist plenty of side room when passing, as you would a slow vehicle. A close pass or a sudden horn can startle the rider.",
+    "sign": "SCN-PASS-BICYCLE",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (sharing the road with bicyclists)"
+  },
+  {
+    "id": "car.scnr.014",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "Car A wants to turn right. Bicyclist B is riding straight ahead in the bike lane on A's right. Who goes first?",
+    "choices": [
+      "Bicyclist B; car A waits and turns after B passes",
+      "Car A, because it signaled first",
+      "Car A, because cars have priority over bicycles",
+      "Whoever is going faster"
+    ],
+    "answer": 0,
+    "explanation": "A driver turning across a bike lane must yield to bicyclists going straight in it. Turning in front of the cyclist could cause a crash.",
+    "sign": "SCN-RIGHT-TURN-BIKE-LANE",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (bicycles and turns)"
+  },
+  {
+    "id": "car.scnr.015",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "Before car A turns right across the bike lane, what should the driver do?",
+    "choices": [
+      "Only look left for cross traffic",
+      "Speed up to turn before any cyclist arrives",
+      "Honk to warn cyclists to stop",
+      "Check the right mirror and look over the right shoulder for bicyclists"
+    ],
+    "answer": 3,
+    "explanation": "Cyclists can come up on your right side, in your blind spot. Check your mirror and over your shoulder before turning across a bike lane.",
+    "sign": "SCN-RIGHT-TURN-BIKE-LANE",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (bicycles and turns)"
+  },
+  {
+    "id": "car.scnr.016",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You are about to get out of parked car A. What should you do before opening your door on the street side?",
+    "choices": [
+      "Open it quickly so you block the bike lane for less time",
+      "Open it partway and let cyclists go around it",
+      "Check your mirror and look back for bicyclists and traffic",
+      "Honk before opening the door"
+    ],
+    "answer": 2,
+    "explanation": "Look for bicyclists and other traffic before opening a door into the street. A door opened in front of a rider can cause a serious crash.",
+    "sign": "SCN-DOOR-BIKE-LANE",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (parking and bicyclists)"
+  },
+  {
+    "id": "car.scnr.017",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Why is opening car A's door dangerous in the picture?",
+    "choices": [
+      "The door may scratch the car parked behind",
+      "Bicyclist B could hit the door or swerve into traffic",
+      "Car A is parked too far from the curb",
+      "Doors may never be opened on a city street"
+    ],
+    "answer": 1,
+    "explanation": "The open door blocks the bike lane right in front of bicyclist B, who may hit it or swerve into moving traffic to avoid it.",
+    "sign": "SCN-DOOR-BIKE-LANE",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (parking and bicyclists)"
+  },
+  {
+    "id": "car.scnr.018",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Car A is at a railroad crossing. The red lights are flashing and the gates are down. What should A do?",
+    "choices": [
+      "Stay stopped until the gates are fully up and the lights stop flashing",
+      "Drive around the gates if the train looks far away",
+      "Cross carefully after looking both ways",
+      "Stop, then cross when the gate on your side starts to lift"
+    ],
+    "answer": 0,
+    "explanation": "Never drive around lowered gates. Wait until the gates are all the way up and the lights have stopped flashing.",
+    "sign": "SCN-RAILROAD-GATES-DOWN",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (railroad crossings)"
+  },
+  {
+    "id": "car.scnr.019",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "After the train in the picture passes, the red lights keep flashing and the gates stay down. What should car A do?",
+    "choices": [
+      "Go around the gates, since the train is gone",
+      "Cross once the last car of the train clears the road",
+      "Honk to signal the gates to lift",
+      "Keep waiting, because another train may be coming"
+    ],
+    "answer": 3,
+    "explanation": "Gates and lights stay on when another train is approaching, possibly on another track. Wait until the gates rise and the lights stop.",
+    "sign": "SCN-RAILROAD-GATES-DOWN",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (railroad crossings)"
+  },
+  {
+    "id": "car.scnr.020",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "Car A is in the acceleration lane. What should it do?",
+    "choices": [
+      "Stop at the end of the lane and wait for an opening",
+      "Drive slowly so freeway drivers notice you",
+      "Speed up to match freeway traffic and merge into a safe gap",
+      "Merge right away, before reaching the speed of traffic"
+    ],
+    "answer": 2,
+    "explanation": "Use the acceleration lane to reach the speed of freeway traffic, signal, and merge into a gap. Stopping or merging slowly is dangerous.",
+    "sign": "SCN-FREEWAY-MERGE",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (entering freeways)"
+  },
+  {
+    "id": "car.scnr.021",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "In the picture, who must yield: car A on the ramp, or cars B and C already on the freeway?",
+    "choices": [
+      "Car C must stop to let A in",
+      "Car A must yield to traffic already on the freeway",
+      "Car B must slow down for A",
+      "The car on the right always has the right-of-way"
+    ],
+    "answer": 1,
+    "explanation": "Drivers entering a freeway must yield to vehicles already on it and merge only when there is a safe gap.",
+    "sign": "SCN-FREEWAY-MERGE",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (entering freeways)"
+  },
+  {
+    "id": "car.scnr.022",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "You are car C. What can you do to help car A merge safely?",
+    "choices": [
+      "Adjust your speed or move left a lane if it is safe",
+      "Speed up to close the gap ahead of you",
+      "Honk to tell A to wait",
+      "Stop in your lane to let A in"
+    ],
+    "answer": 0,
+    "explanation": "Freeway drivers can help merging traffic by changing speed or moving over a lane when it is safe. Never stop on the freeway to let someone in.",
+    "sign": "SCN-FREEWAY-MERGE",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (entering freeways)"
+  },
+  {
+    "id": "car.scnr.023",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "Car A wants to move into the left lane. Car B is beside it and slightly behind. What should A do?",
+    "choices": [
+      "Check the side mirror only, then move over",
+      "Signal and move over; B will make room",
+      "Speed up and cut in front of B",
+      "Look over the left shoulder and stay in the lane until B is clear"
+    ],
+    "answer": 3,
+    "explanation": "Mirrors leave blind spots beside and behind your car. Turn your head to check before changing lanes, and wait until the lane is clear.",
+    "sign": "SCN-BLIND-SPOT-LANE-CHANGE",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (changing lanes)"
+  },
+  {
+    "id": "car.scnr.024",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "Why might car A's driver miss car B when checking only the mirrors?",
+    "choices": [
+      "B is too far back to be a concern",
+      "B is in A's blind spot, an area the mirrors do not show",
+      "Mirrors show only vehicles directly behind you"
+    ],
+    "answer": 1,
+    "explanation": "The shaded area beside and behind car A is a blind spot. A car there may not appear in the mirrors, so a quick look over the shoulder is needed.",
+    "sign": "SCN-BLIND-SPOT-LANE-CHANGE",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (changing lanes)"
+  },
+  {
+    "id": "car.scnr.025",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "Car A is behind slower car B. The center line has a solid yellow line on A's side. May A pass B here?",
+    "choices": [
+      "Yes, if no oncoming traffic is in sight",
+      "No, a solid yellow line on your side means you may not pass",
+      "Yes, if B is driving below the speed limit",
+      "Yes, if A honks first"
+    ],
+    "answer": 1,
+    "explanation": "When the solid yellow line is on your side of the center line, passing is not allowed, usually because you cannot see far enough ahead.",
+    "sign": "SCN-NO-PASSING-SOLID-YELLOW",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (pavement markings)"
+  },
+  {
+    "id": "car.scnr.026",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "In the picture, drivers going the other way have a broken yellow line on their side. What does it mean for them?",
+    "choices": [
+      "They may pass when it is safe",
+      "They may never pass here",
+      "They may pass only at night",
+      "They may pass only trucks and buses"
+    ],
+    "answer": 0,
+    "explanation": "Each driver follows the line on their own side: a broken yellow line on your side means passing is allowed when the way is clear and safe.",
+    "sign": "SCN-NO-PASSING-SOLID-YELLOW",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (pavement markings)"
+  },
+  {
+    "id": "car.scnr.027",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "Car A wants to pass slower car B. The center line is broken yellow on A's side. What does that mean?",
+    "choices": [
+      "A may not pass at all",
+      "A may pass even with oncoming traffic, because it has the right-of-way",
+      "A may pass only on the right",
+      "A may pass when the oncoming lane is clear far enough ahead to pass safely"
+    ],
+    "answer": 3,
+    "explanation": "A broken yellow line on your side allows passing, but only when the oncoming lane is clear long enough to pass and return safely.",
+    "sign": "SCN-PASSING-BROKEN-YELLOW",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (pavement markings)"
+  },
+  {
+    "id": "car.scnr.028",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "After passing car B, when is it safe for car A to return to the right lane?",
+    "choices": [
+      "As soon as A's front bumper is past B",
+      "As soon as A is even with B's front bumper",
+      "When A can see B's headlights in its inside rearview mirror",
+      "When B flashes its headlights"
+    ],
+    "answer": 2,
+    "explanation": "Return to your lane only when you can see the passed vehicle in your inside rearview mirror. Cutting back in sooner can cause a crash.",
+    "sign": "SCN-PASSING-BROKEN-YELLOW",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (passing)"
+  },
+  {
+    "id": "car.scnr.029",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Car B has just passed the tree. How can car A check whether it is following B at a safe distance?",
+    "choices": [
+      "Watch the speedometer and stay a little slower than B",
+      "Count the seconds until A reaches the same tree",
+      "Look at B's brake lights and estimate the gap",
+      "Check that A can read B's license plate"
+    ],
+    "answer": 1,
+    "explanation": "Pick a fixed object such as a tree or pole. When the car ahead passes it, count seconds until you reach it; that count is your following distance.",
+    "sign": "SCN-FOLLOWING-DISTANCE",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (following distance)"
+  },
+  {
+    "id": "car.scnr.030",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Car A reaches the tree before finishing its count of the recommended number of seconds. What does that mean?",
+    "choices": [
+      "A is following too closely and should slow down to drop back",
+      "A is at a safe distance",
+      "A should pass B as soon as possible",
+      "A should flash its headlights at B"
+    ],
+    "answer": 0,
+    "explanation": "Reaching the fixed object before you finish counting means you are too close. Ease off the gas to add space.",
+    "sign": "SCN-FOLLOWING-DISTANCE",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (following distance)"
+  },
+  {
+    "id": "car.scnr.031",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "If the road in the picture were wet or icy, how should car A change its following distance?",
+    "choices": [
+      "Keep it the same as on a dry road",
+      "Shorten it so B's tire tracks guide A",
+      "Increase it only at night",
+      "Increase it, allowing more seconds than normal"
+    ],
+    "answer": 3,
+    "explanation": "Stopping takes longer on wet or icy roads, so increase your following distance in bad conditions.",
+    "sign": "SCN-FOLLOWING-DISTANCE",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (following distance)"
+  },
+  {
+    "id": "car.scnr.032",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You park facing uphill beside a curb, like car A. How should you turn your front wheels?",
+    "choices": [
+      "Toward the curb (to the right)",
+      "Straight ahead",
+      "Away from the curb (to the left)",
+      "Either way, as long as the parking brake is set"
+    ],
+    "answer": 2,
+    "explanation": "Facing uphill with a curb, turn the front wheels away from the curb and set the parking brake.",
+    "sign": "SCN-PARK-UPHILL-CURB",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (parking on hills)"
+  },
+  {
+    "id": "car.scnr.033",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Car A is parked facing uphill next to a curb, as shown. Why are its front wheels turned away from the curb?",
+    "choices": [
+      "So the car can pull out faster",
+      "If the car rolls backward, the front tire will catch against the curb",
+      "To keep the tires from touching the curb",
+      "To leave more room for passing cars"
+    ],
+    "answer": 1,
+    "explanation": "With the wheels turned away from the curb, a car that rolls back will have its front tire stop against the curb instead of rolling into the street.",
+    "sign": "SCN-PARK-UPHILL-CURB",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (parking on hills)"
+  },
+  {
+    "id": "car.scnr.034",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Car A is parked facing downhill next to a curb. Are its front wheels turned the right way?",
+    "choices": [
+      "No; they should be turned away from the curb",
+      "Yes; facing downhill, the wheels should turn toward the curb",
+      "No; they should point straight ahead"
+    ],
+    "answer": 1,
+    "explanation": "When parked facing downhill, turn the front wheels toward the curb (or toward the edge of the road) and set the parking brake.",
+    "sign": "SCN-PARK-DOWNHILL-CURB",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (parking on hills)"
+  },
+  {
+    "id": "car.scnr.035",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Why does car A in the picture have its front wheels turned toward the curb?",
+    "choices": [
+      "It makes it easier to pull back out into traffic",
+      "It keeps the tires off the curb",
+      "It is required only on one-way streets",
+      "If the car starts to roll forward, the wheels will run into the curb and stop it"
+    ],
+    "answer": 3,
+    "explanation": "Facing downhill, wheels turned toward the curb make a rolling car stop against the curb instead of rolling into traffic.",
+    "sign": "SCN-PARK-DOWNHILL-CURB",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (parking on hills)"
+  },
+  {
+    "id": "car.scnr.036",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Car A is parked facing uphill on a road with no curb. Which way should its front wheels be turned?",
+    "choices": [
+      "Toward the middle of the road (to the left)",
+      "Straight ahead",
+      "Toward the edge of the road (to the right)",
+      "Away from the edge, the same as with a curb"
+    ],
+    "answer": 2,
+    "explanation": "With no curb, turn the wheels toward the edge of the road whether you face uphill or downhill.",
+    "sign": "SCN-PARK-UPHILL-NO-CURB",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (parking on hills)"
+  },
+  {
+    "id": "car.scnr.037",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Why are car A's front wheels turned toward the edge of the road in the picture?",
+    "choices": [
+      "It helps the car get back onto the road faster",
+      "If the car rolls, it will roll off the road instead of into traffic",
+      "It makes the car easier for other drivers to see",
+      "It keeps the tires out of the gravel"
+    ],
+    "answer": 1,
+    "explanation": "With no curb to stop it, turning the wheels toward the road edge sends a rolling car away from traffic.",
+    "sign": "SCN-PARK-UPHILL-NO-CURB",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (parking on hills)"
+  },
+  {
+    "id": "car.scnr.038",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "In this work zone, a flagger is holding a STOP paddle toward car A. What should A do?",
+    "choices": [
+      "Stop and wait until the flagger signals you to go",
+      "Slow down and drive around the work area",
+      "Stop briefly, then go on if no workers are in the road",
+      "Ignore the flagger and follow the posted signs"
+    ],
+    "answer": 0,
+    "explanation": "A flagger's STOP paddle means the same as a stop sign: stop and stay stopped until the flagger tells you to proceed.",
+    "sign": "SCN-FLAGGER-STOP",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (work zones)"
+  },
+  {
+    "id": "car.scnr.039",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "The flagger in the picture turns the paddle around to show SLOW. What should car A do?",
+    "choices": [
+      "Return to normal speed right away",
+      "Stay stopped until the work zone ends",
+      "Pass the vehicles ahead to clear the work zone quickly",
+      "Move ahead slowly and watch for workers and the flagger's directions"
+    ],
+    "answer": 3,
+    "explanation": "The SLOW side means you may proceed, but carefully, watching for workers, equipment and further directions.",
+    "sign": "SCN-FLAGGER-STOP",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (work zones)"
+  },
+  {
+    "id": "car.scnr.040",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "What does the orange triangle with red edges on the back of vehicle B mean?",
+    "choices": [
+      "It is carrying hazardous materials",
+      "It is about to turn",
+      "It is a slow-moving vehicle",
+      "It has the right-of-way over other traffic"
+    ],
+    "answer": 2,
+    "explanation": "The orange-and-red triangle marks a slow-moving vehicle, such as farm equipment, that travels much slower than normal traffic.",
+    "sign": "SCN-SLOW-MOVING-VEHICLE",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (slow-moving vehicles)"
+  },
+  {
+    "id": "car.scnr.041",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are car A behind tractor B on this two-lane road. What should you do?",
+    "choices": [
+      "Pass right away, since slow vehicles must pull over",
+      "Slow down, keep a safe distance, and pass only where it is legal and safe",
+      "Follow closely so you can pass quickly",
+      "Honk until the tractor moves onto the shoulder"
+    ],
+    "answer": 1,
+    "explanation": "You close in on slow-moving vehicles very fast. Slow down early, give them room, and pass only when passing is allowed and safe.",
+    "sign": "SCN-SLOW-MOVING-VEHICLE",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (slow-moving vehicles)"
+  },
+  {
+    "id": "car.scnr.042",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You are car A driving at dusk. A deer is standing at the edge of the road ahead. What should you do?",
+    "choices": [
+      "Slow down, be ready to stop, and watch for more deer nearby",
+      "Keep your speed, since deer usually run away from cars",
+      "Speed up to get past before it moves",
+      "Switch off your headlights so you do not scare it"
+    ],
+    "answer": 0,
+    "explanation": "Deer are most active at dawn and dusk and often travel in groups. Slow down and expect more animals to follow.",
+    "sign": "SCN-DEER-DUSK",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (animals on the road)"
+  },
+  {
+    "id": "car.scnr.043",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "A deer suddenly jumps in front of car A and there is no time to stop. What is usually the safest action?",
+    "choices": [
+      "Swerve sharply into the oncoming lane",
+      "Swerve onto the shoulder to miss it",
+      "Speed up to get past it",
+      "Brake firmly and stay in your lane"
+    ],
+    "answer": 3,
+    "explanation": "Swerving can send you into oncoming traffic or off the road, which is often worse than hitting the animal. Brake firmly and keep control.",
+    "sign": "SCN-DEER-DUSK",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (animals on the road)"
+  }
+]

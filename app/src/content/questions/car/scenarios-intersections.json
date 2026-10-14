@@ -1,0 +1,699 @@
+[
+  {
+    "id": "car.scni.001",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "In the picture, car A has already stopped at its stop sign, while car B is still approaching its own. Which car goes first?",
+    "sign": "SCN-INT-4WAY-FIRST",
+    "choices": [
+      "Car A, because it stopped first",
+      "Car B, because it is on car A's right",
+      "Car B, because it has not stopped yet and can keep moving",
+      "Whichever car is going faster"
+    ],
+    "answer": 0,
+    "explanation": "At an all-way stop, the first vehicle to stop is the first to go. The yield-to-the-right rule only breaks a tie when cars stop at the same time.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (all-way stops; e.g., CA, IL, TX)"
+  },
+  {
+    "id": "car.scni.002",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are car B in the picture. When you reach your stop line, car A is already stopped. What should you do?",
+    "sign": "SCN-INT-4WAY-FIRST",
+    "choices": [
+      "Stop, then go right away because you are on car A's right",
+      "Stop completely, let car A go first, then go when it is safe",
+      "Slow down and roll through if car A has not moved yet",
+      "Honk to let car A know you are going first"
+    ],
+    "answer": 1,
+    "explanation": "Every driver must stop fully at an all-way stop, and the car that stopped first goes first. Being on the right only matters when two cars stop at the same moment.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (all-way stops; e.g., CA, IL, TX)"
+  },
+  {
+    "id": "car.scni.003",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "In the picture, cars A and B stopped at the all-way stop at the same moment. Which car should go first?",
+    "sign": "SCN-4WAY-SAME-TIME",
+    "choices": [
+      "Car A, because it is going north",
+      "The car whose driver waves the other one on",
+      "Car B, because it is on car A's right",
+      "Car A, because car B is on its right"
+    ],
+    "answer": 2,
+    "explanation": "When two vehicles stop at an all-way stop at the same time, the driver on the left yields to the driver on the right. Car B is on car A's right, so B goes first.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (all-way stops; e.g., CA, IL, TX)"
+  },
+  {
+    "id": "car.scni.004",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are car B in the picture. You and car A stopped at the same moment. What should you do?",
+    "sign": "SCN-4WAY-SAME-TIME",
+    "choices": [
+      "Wait for car A, because it is on your left",
+      "Go first, while watching that car A really waits for you",
+      "Wait until car A waves you through",
+      "Wait until car A has gone, since it is on the busier road"
+    ],
+    "answer": 1,
+    "explanation": "Car A is on your left, so it should yield to you. Right-of-way is given, not taken, so go first but make sure car A is actually waiting before you enter.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (all-way stops; e.g., CA, IL, TX)"
+  },
+  {
+    "id": "car.scni.005",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "In the picture, both cars stopped at the all-way stop at the same time. Car A wants to turn left and car B is going straight. Who goes first?",
+    "sign": "SCN-INT-4WAY-LEFT-STRAIGHT",
+    "choices": [
+      "Car A, because its turn signal was on first",
+      "Car B, because a driver turning left yields to oncoming traffic going straight",
+      "Car A, because turning cars clear the intersection faster",
+      "Car B, because it is on car A's right"
+    ],
+    "answer": 1,
+    "explanation": "A driver turning left must yield to oncoming vehicles going straight. Car B is facing car A, not on its right, so the left-turn rule decides who goes first.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (all-way stops, left turns; e.g., CA, TX, PA)"
+  },
+  {
+    "id": "car.scni.006",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are car A. Car B, facing you, stopped at the same time and is going straight. What should you do?",
+    "sign": "SCN-INT-4WAY-LEFT-STRAIGHT",
+    "choices": [
+      "Turn left now, before car B gets moving",
+      "Pull into the middle of the intersection and wait there",
+      "Stay behind your stop line until car B has gone through, then turn",
+      "Turn right instead, then turn around later"
+    ],
+    "answer": 2,
+    "explanation": "You must yield to the oncoming car going straight. Wait at your stop line, not inside the intersection, and make your left turn once car B has cleared it.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (all-way stops, left turns; e.g., CA, TX, PA)"
+  },
+  {
+    "id": "car.scni.007",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "In the picture, the intersection has no signs or signals. Cars A and B arrive at the same time. Which car must yield?",
+    "sign": "SCN-INT-UNCONTROLLED",
+    "choices": [
+      "Car A, because car B is on its right",
+      "Car B, because car A is on its left",
+      "Car B, because it is heading north",
+      "The faster car, since it will clear the intersection sooner"
+    ],
+    "answer": 0,
+    "explanation": "At an intersection with no signs or signals, when two vehicles arrive at about the same time, the driver on the left yields to the driver on the right. Car B is on car A's right.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (right-of-way at intersections; e.g., CA, TX, IL, NY)"
+  },
+  {
+    "id": "car.scni.008",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are car B, approaching this intersection with no signs or signals. Car A should yield to you. How should you approach?",
+    "sign": "SCN-INT-UNCONTROLLED",
+    "choices": [
+      "Keep your speed, since you have the right-of-way",
+      "Speed up so you clear the intersection before car A",
+      "Slow down and be ready to stop in case car A does not yield",
+      "Flash your headlights and keep going at the same speed"
+    ],
+    "answer": 2,
+    "explanation": "Slow down at any uncontrolled intersection and be ready to stop. Having the right-of-way does not protect you if the other driver fails to yield.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (right-of-way at intersections; e.g., CA, TX, IL, NY)"
+  },
+  {
+    "id": "car.scni.009",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "In the picture, car A's road ends at a through road, and there are no signs or signals. Car A wants to turn left, and car B is coming on the through road from A's right. Who has the right-of-way?",
+    "sign": "SCN-INT-T-JUNCTION",
+    "choices": [
+      "Car A, because it is already waiting at the corner",
+      "Car B, because it is on the through road and on car A's right",
+      "Car A, because car B can slow down",
+      "Whichever driver signals first"
+    ],
+    "answer": 1,
+    "explanation": "At a T-intersection without signs or signals, the driver on the road that ends yields to traffic on the through road. Car B is also on car A's right, so every right-of-way rule says car A waits.",
+    "difficulty": 3,
+    "ref": "Common to state driver handbooks (T-intersections; e.g., CA, TX, IL, WI)"
+  },
+  {
+    "id": "car.scni.010",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are car A and want to turn left onto the through road. Car B is approaching from your right. What should you do?",
+    "sign": "SCN-INT-T-JUNCTION",
+    "choices": [
+      "Wait for car B to pass, then turn when there is a safe gap in both directions",
+      "Turn now, because car B must stop for a turning car",
+      "Pull out and stop across car B's lane so it sees you",
+      "Turn now, because a car turning left always goes first"
+    ],
+    "answer": 0,
+    "explanation": "The driver on the road that ends must yield to traffic on the through road. Car B is close and coming toward the lane you will cross into, so wait for it to pass and for a safe gap.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (T-intersections; e.g., CA, TX, IL, WI)"
+  },
+  {
+    "id": "car.scni.011",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "In the picture, car A has a solid green light with no arrow and wants to turn left. Car B is coming straight through. What must car A do?",
+    "sign": "SCN-LEFT-TURN-ONCOMING",
+    "choices": [
+      "Turn first, because car A's light is green",
+      "Speed up and turn before car B reaches the intersection",
+      "Wait for a green arrow before turning at all",
+      "Yield to car B and turn only when there is a safe gap"
+    ],
+    "answer": 3,
+    "explanation": "A solid green light lets you turn left, but you must yield to oncoming traffic and pedestrians. You do not need a green arrow; you only need a safe gap.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (left turns on green; e.g., CA, TX, NY)"
+  },
+  {
+    "id": "car.scni.012",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "The close-up shows car A's signal: a flashing yellow left arrow. What may car A do?",
+    "sign": "SCN-INT-FLASHING-YELLOW-ARROW",
+    "choices": [
+      "Turn left freely, because oncoming traffic has a red light",
+      "Turn left after yielding to oncoming traffic and pedestrians",
+      "Stop and wait, because the arrow is about to turn red",
+      "Come to a full stop, then turn ahead of oncoming cars"
+    ],
+    "answer": 1,
+    "explanation": "A flashing yellow arrow allows the turn, but it is not protected: oncoming traffic may have a green light. Yield to oncoming vehicles and pedestrians, then turn when it is safe.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (flashing yellow arrow; e.g., CA, TX, PA, VA)"
+  },
+  {
+    "id": "car.scni.013",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "In the picture, car A has a flashing yellow left arrow while car B is coming straight toward it. Who has the right-of-way?",
+    "sign": "SCN-INT-FLASHING-YELLOW-ARROW",
+    "choices": [
+      "Car A, because it has an arrow",
+      "Car B, the oncoming car going straight",
+      "Car A, because any left arrow gives a protected turn",
+      "Whichever car enters the intersection first"
+    ],
+    "answer": 1,
+    "explanation": "Only a green arrow gives a protected turn. With a flashing yellow arrow, the turning driver must yield to oncoming traffic like car B.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (flashing yellow arrow; e.g., CA, TX, PA, VA)"
+  },
+  {
+    "id": "car.scni.014",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Car A's light is red and car A wants to turn right. Where a right turn on red is allowed, what must car A do?",
+    "sign": "SCN-INT-RED-RIGHT-PED",
+    "choices": [
+      "Slow down and turn if no cars are coming from the left",
+      "Stop completely, then wait for the pedestrian and cross traffic before turning",
+      "Stop, then turn right away because the pedestrian will wait",
+      "Turn without stopping, since right turns do not cross traffic"
+    ],
+    "answer": 1,
+    "explanation": "Even where turning right on red is allowed, you must first stop completely, then yield to pedestrians in the crosswalk and to cross traffic. Rolling through the turn is a common and dangerous mistake.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (right turn on red; e.g., CA, TX, IL)"
+  },
+  {
+    "id": "car.scni.015",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "In the picture, car A is stopped at a red light at a corner with a crosswalk and a stop line. Where should car A's front bumper be?",
+    "sign": "SCN-INT-RED-RIGHT-PED",
+    "choices": [
+      "Behind the stop line, before the crosswalk",
+      "Inside the crosswalk, so the driver can see cross traffic",
+      "Past the crosswalk, at the edge of the cross street",
+      "Anywhere, as long as the car is fully stopped"
+    ],
+    "answer": 0,
+    "explanation": "When there is a stop line, stop behind it. Stopping in or past the crosswalk blocks pedestrians like the one in the picture.",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (stopping at intersections; e.g., CA, TX, NY)"
+  },
+  {
+    "id": "car.scni.016",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "In the picture, car A has a green light and is turning right. A pedestrian is crossing the street A is turning into. What should car A do?",
+    "sign": "SCN-INT-RIGHT-TURN-PED",
+    "choices": [
+      "Go ahead, because car A has a green light",
+      "Honk so the pedestrian hurries across",
+      "Wait for the pedestrian to finish crossing before completing the turn",
+      "Swing wide and drive around the pedestrian"
+    ],
+    "answer": 2,
+    "explanation": "Turning drivers must yield to pedestrians crossing the street they are turning into, even on a green light. Wait until the person is safely out of your path.",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (turning and pedestrians; e.g., CA, TX, NY)"
+  },
+  {
+    "id": "car.scni.017",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "Who has the right-of-way in this picture?",
+    "sign": "SCN-INT-RIGHT-TURN-PED",
+    "choices": [
+      "Car A, because it has a green light",
+      "The pedestrian, who is legally crossing the street car A is turning into",
+      "Car A, because it reached the corner first",
+      "Whoever moves first"
+    ],
+    "answer": 1,
+    "explanation": "A pedestrian crossing legally has the right-of-way over a vehicle that is turning across the crosswalk. Car A's green light lets it turn only after yielding.",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (turning and pedestrians; e.g., CA, TX, NY)"
+  },
+  {
+    "id": "car.scni.018",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Car A has a green light, but traffic is stopped right at the far side of the intersection. What should car A do?",
+    "sign": "SCN-INT-GRIDLOCK",
+    "choices": [
+      "Wait behind the stop line until there is room on the other side",
+      "Pull into the intersection, because the light is green",
+      "Go around the stopped cars using the oncoming lane",
+      "Pull partway in so the car behind cannot cut ahead"
+    ],
+    "answer": 0,
+    "explanation": "Do not enter an intersection unless there is room to get all the way through, even on a green light. Wait behind the line until space opens up.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (blocking intersections; e.g., IL, CA, TX)"
+  },
+  {
+    "id": "car.scni.019",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Why would it be wrong for car A to pull into the shaded area in the picture?",
+    "sign": "SCN-INT-GRIDLOCK",
+    "choices": [
+      "Car A would be stuck there and block car B and other cross traffic",
+      "It is only wrong if a police officer is watching",
+      "Car A would get a red light while still waiting there",
+      "Car B would then have to back up to let car A through"
+    ],
+    "answer": 0,
+    "explanation": "A car stopped inside the intersection blocks cross traffic like car B when the light changes. This is called gridlock, and drivers must not enter unless they can clear the intersection.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (blocking intersections; e.g., IL, CA, TX)"
+  },
+  {
+    "id": "car.scni.020",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "As the close-up shows, the traffic lights here are completely dark because of a power outage. What is the safe, legal way for car A to handle this intersection?",
+    "sign": "SCN-INT-SIGNAL-DARK",
+    "choices": [
+      "Stop, then go only when it is safe and it is car A's turn",
+      "Drive through at normal speed, because there is no red light",
+      "Treat it as a green light for drivers on the busier road",
+      "Honk, then go before the cross traffic does"
+    ],
+    "answer": 0,
+    "explanation": "A dark signal gives no one the right-of-way. Most states require you to treat it like an all-way stop, so stop, then go when it is safe and your turn. Never drive through as if you had a green light.",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (signals not working; e.g., CA, IL, NY, WI)"
+  },
+  {
+    "id": "car.scni.021",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "In the picture, the signal is dark and cars A and B stopped at the same moment. Which car should go first?",
+    "sign": "SCN-INT-SIGNAL-DARK",
+    "choices": [
+      "Car A, because it is going straight",
+      "Car B, because it is on car A's right",
+      "Car A, because car B is on its left",
+      "The car on the road that usually has the longer green light"
+    ],
+    "answer": 1,
+    "explanation": "A dark signal is treated like an all-way stop. When two cars stop at the same time, the driver on the left yields to the driver on the right, so car B goes first.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (signals not working; e.g., CA, IL, NY, WI)"
+  },
+  {
+    "id": "car.scni.022",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "In the picture, car A is at the yield line of a roundabout, and car B is already going around inside it. Who must yield?",
+    "sign": "SCN-INT-ROUNDABOUT-YIELD",
+    "choices": [
+      "Car B must yield, because entering cars have the right-of-way",
+      "Car A must yield to car B, which is already in the roundabout",
+      "Whichever car reaches the yield line first goes first",
+      "Car B must stop to let car A merge in"
+    ],
+    "answer": 1,
+    "explanation": "Drivers entering a roundabout yield to traffic already circulating in it. The yield sign at car A's entry shows that A must give way.",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (roundabouts; e.g., CA, IL, MO, PA)"
+  },
+  {
+    "id": "car.scni.023",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are car A. Car B, already in the roundabout, is about to pass in front of your entry. What should you do?",
+    "sign": "SCN-INT-ROUNDABOUT-YIELD",
+    "choices": [
+      "Speed up to merge in ahead of car B",
+      "Enter now and drive beside car B",
+      "Slow down or stop at the yield line, let car B pass, then enter at a safe gap",
+      "Enter, then stop inside the circle until car B exits"
+    ],
+    "answer": 2,
+    "explanation": "At a roundabout entry, slow down and be ready to stop at the yield line. Let circulating traffic pass, then enter when there is a safe gap. Never stop inside the roundabout to wait.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (roundabouts; e.g., CA, IL, MO, PA)"
+  },
+  {
+    "id": "car.scni.024",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "The picture shows car A's path through a roundabout. In which direction does the traffic travel?",
+    "sign": "SCN-INT-ROUNDABOUT-PATH",
+    "choices": [
+      "Clockwise, keeping the center island on the driver's right",
+      "Counterclockwise, keeping the center island on the driver's left",
+      "Either way, whichever route to the exit is shorter",
+      "Clockwise for left turns and counterclockwise for right turns"
+    ],
+    "answer": 1,
+    "explanation": "In the United States, traffic in a roundabout always travels counterclockwise, to the right of the center island.",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (roundabouts; e.g., CA, PA, NC, WA)"
+  },
+  {
+    "id": "car.scni.025",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "In the picture, car A entered from the bottom and leaves to the left, which is a left turn. How did car A make this left turn?",
+    "sign": "SCN-INT-ROUNDABOUT-PATH",
+    "choices": [
+      "By turning left in front of the center island",
+      "By entering to the right and going about three-quarters of the way around",
+      "By driving on the left side of the circle, against traffic",
+      "By crossing the center island's curb to save time"
+    ],
+    "answer": 1,
+    "explanation": "In a roundabout every movement starts with a right turn into the circle. To turn left, you go counterclockwise about three-quarters of the way around and take that exit.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (roundabouts; e.g., CA, PA, NC, WA)"
+  },
+  {
+    "id": "car.scni.026",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Car A is nearing its exit in the picture. If car A misses this exit, what should it do?",
+    "sign": "SCN-INT-ROUNDABOUT-PATH",
+    "choices": [
+      "Stop in the roundabout and back up to the exit",
+      "Keep going around the roundabout and take the exit next time",
+      "Stop and wait inside the circle until the exit is clear",
+      "Turn sharply across the lane to reach the exit"
+    ],
+    "answer": 1,
+    "explanation": "If you miss your exit, simply continue around the roundabout and exit when you come back to it. Never stop or back up inside a roundabout.",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (roundabouts; e.g., AL, MO, PA)"
+  },
+  {
+    "id": "car.scni.027",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "In the picture, car A is in a center lane with yellow lines on both sides and two-way arrows. What is this lane for?",
+    "sign": "SCN-INT-CENTER-TURN-LANE",
+    "choices": [
+      "Passing slower vehicles",
+      "A travel lane for faster traffic",
+      "Slowing down and waiting to turn left, for drivers from either direction",
+      "Left turns by drivers going in one direction only"
+    ],
+    "answer": 2,
+    "explanation": "A two-way left-turn lane is shared by drivers from both directions to slow down and make left turns. It is not a travel or passing lane.",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (two-way left-turn lanes; e.g., CA, IL, OH, NC)"
+  },
+  {
+    "id": "car.scni.028",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "Car A is waiting in the center lane to turn left into the driveway. Car B is coming toward it. What should car A do?",
+    "sign": "SCN-INT-CENTER-TURN-LANE",
+    "choices": [
+      "Turn now, because car B must stop for drivers in the center lane",
+      "Wait in the center lane until car B passes, then turn when it is safe",
+      "Turn now, because car A is already in a turn lane",
+      "Back up into its original lane and try again"
+    ],
+    "answer": 1,
+    "explanation": "A driver turning left across traffic must yield to oncoming vehicles, even when waiting in a center turn lane. Car A waits for car B to pass.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (two-way left-turn lanes; e.g., CA, IL, OH, NC)"
+  },
+  {
+    "id": "car.scni.029",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "A driver on this road is stuck behind a slow truck. May the driver use the center lane in the picture to pass it?",
+    "sign": "SCN-INT-CENTER-TURN-LANE",
+    "choices": [
+      "Yes, if no one is turning in the center lane",
+      "Yes, if the driver signals left first",
+      "Yes, but only for one block",
+      "No, the center lane may not be used for passing"
+    ],
+    "answer": 3,
+    "explanation": "A two-way left-turn lane is only for turning left. Using it to pass is illegal and dangerous, because drivers from both directions turn in it.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (two-way left-turn lanes; e.g., AK, IN, LA, NC, VA)"
+  },
+  {
+    "id": "car.scni.030",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Car A is turning left onto a road with two westbound lanes, marked 1 and 2. Which lane is the safest one to finish the turn in?",
+    "sign": "SCN-INT-DUAL-LEFT",
+    "choices": [
+      "Lane 1, the lane closest to the center line",
+      "The lane just south of the double yellow line, on the other side of the center line",
+      "Lane 2, by cutting across lane 1 during the turn",
+      "Stop in the middle of the intersection and decide there"
+    ],
+    "answer": 0,
+    "explanation": "Start a left turn from the lane closest to the center and finish it in the lane closest to the center line on the new road (lane 1). If you need another lane, change lanes after the turn when it is safe.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (left turns; e.g., CA, TX, NY, PA)"
+  },
+  {
+    "id": "car.scni.031",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Car A is in the left lane and car B is in the right lane. Which car is in the proper lane to turn left at this intersection?",
+    "sign": "SCN-INT-DUAL-LEFT",
+    "choices": [
+      "Car B, because the right lane has more room to swing wide",
+      "Car A, in the lane closest to the center line",
+      "Either car, because any lane may be used to turn left",
+      "Car B, after it moves into the oncoming lanes to make room"
+    ],
+    "answer": 1,
+    "explanation": "A left turn starts from the lane closest to the center line, where car A is, unless signs or markings allow other lanes. Car B's lane is for going straight or turning right.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (left turns; e.g., CA, TX, NY, PA)"
+  },
+  {
+    "id": "car.scni.032",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "In the picture, the truck is signaling a right turn but has moved into the left lane. What should car A do?",
+    "sign": "SCN-INT-TRUCK-RIGHT",
+    "choices": [
+      "Drive into the open space on the truck's right and turn first",
+      "Stay back and let the truck finish its turn",
+      "Pass the truck on the right before it starts turning",
+      "Pull up beside the truck and honk to warn the driver"
+    ],
+    "answer": 1,
+    "explanation": "Large trucks swing wide to make right turns and often start from the left lane. Never squeeze in between a turning truck and the curb; stay back until it finishes.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (sharing the road with trucks; e.g., CA, TX, PA, NJ)"
+  },
+  {
+    "id": "car.scni.033",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Why is the shaded space next to the truck dangerous for car A?",
+    "sign": "SCN-INT-TRUCK-RIGHT",
+    "choices": [
+      "The truck will swing right across that space, and its driver may not see car A there",
+      "Trucks often roll backward when they stop at corners",
+      "Air from the truck can push car A into the curb",
+      "It is a lane reserved for buses"
+    ],
+    "answer": 0,
+    "explanation": "As a truck turns right, its trailer sweeps across the space on its right side, which is also a blind spot. A car there can be crushed against the curb.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (sharing the road with trucks; e.g., CA, TX, PA, NJ)"
+  },
+  {
+    "id": "car.scni.034",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "Car A is in the middle of an intersection when a fire truck with flashing lights and siren comes up behind it. What should car A do?",
+    "sign": "SCN-INT-EMERGENCY",
+    "choices": [
+      "Stop right where it is",
+      "Back up out of the intersection",
+      "Keep going through the intersection, then pull to the right and stop",
+      "Speed up and stay ahead of the fire truck"
+    ],
+    "answer": 2,
+    "explanation": "If you are in an intersection when an emergency vehicle approaches, do not stop there. Drive through, then pull to the right edge of the road and stop.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (emergency vehicles; e.g., CA, CO, MN, MO, TN)"
+  },
+  {
+    "id": "car.scni.035",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "Why is stopping inside the intersection the wrong choice for car A?",
+    "sign": "SCN-INT-EMERGENCY",
+    "choices": [
+      "Car A could block the intersection that the fire truck needs to get through",
+      "Stopping in an intersection is only allowed at a red light",
+      "The fire truck is required to go around car A on the right",
+      "Car A would lose its place in traffic"
+    ],
+    "answer": 0,
+    "explanation": "A car stopped in the intersection can block the emergency vehicle's path. Clear the intersection first, then pull over to the right and stop.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (emergency vehicles; e.g., CA, CO, MN, MO, TN)"
+  },
+  {
+    "id": "car.scni.036",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are car A, leaving a driveway. Where should you stop first?",
+    "sign": "SCN-INT-DRIVEWAY-EXIT",
+    "choices": [
+      "At the edge of the street, past the sidewalk",
+      "Before the sidewalk, where you can see people walking",
+      "You do not need to stop if the street looks clear",
+      "In the nearest lane, once you can see traffic"
+    ],
+    "answer": 1,
+    "explanation": "When leaving a driveway or alley, stop before you cross the sidewalk so you can yield to pedestrians, then yield again to traffic on the street.",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (driveways and alleys; e.g., TX, IL, OH, AZ)"
+  },
+  {
+    "id": "car.scni.037",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "In the picture, car A wants to turn right out of the driveway. Whom must car A yield to?",
+    "sign": "SCN-INT-DRIVEWAY-EXIT",
+    "choices": [
+      "Only car B, since people walking must watch for cars",
+      "Only the pedestrian, since car B can slow down",
+      "No one, because car A signaled first",
+      "The pedestrian on the sidewalk and car B on the street"
+    ],
+    "answer": 3,
+    "explanation": "A driver entering a road from a driveway must yield to pedestrians on the sidewalk and to all vehicles on the road.",
+    "difficulty": 2,
+    "ref": "Common to state driver handbooks (driveways and alleys; e.g., TX, IL, OH, AZ)"
+  },
+  {
+    "id": "car.scni.038",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "In the picture, a pedestrian carrying a white cane is crossing in front of car A. What should car A do?",
+    "sign": "SCN-INT-WHITE-CANE",
+    "choices": [
+      "Honk once so the person knows where the car is",
+      "Drive slowly around the person",
+      "Go once the person has passed car A's lane",
+      "Stay stopped until the person has finished crossing"
+    ],
+    "answer": 3,
+    "explanation": "Pedestrians who use a white cane or guide dog have the right-of-way. Stop and wait until they are completely across, and do not honk, which can confuse or frighten them.",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (blind pedestrians; e.g., CA, MT, NE, OH)"
+  },
+  {
+    "id": "car.scni.039",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "What does the white cane in the picture tell car A's driver?",
+    "sign": "SCN-INT-WHITE-CANE",
+    "choices": [
+      "The person is a crossing guard directing traffic",
+      "The person is blind or has low vision and may not see the car",
+      "The person is asking drivers to go ahead",
+      "The person is injured and needs help"
+    ],
+    "answer": 1,
+    "explanation": "A white cane, often with a red tip, shows that a person is blind or visually impaired. Expect that they cannot see you, and give them the right-of-way.",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (blind pedestrians; e.g., CA, MT, NE, OH)"
+  },
+  {
+    "id": "car.scni.040",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "In the picture, car A's road has a yield sign where it joins the through road. Car B is coming in the lane car A wants to enter. Who must yield?",
+    "sign": "SCN-INT-YIELD-MERGE",
+    "choices": [
+      "Car A, because it faces the yield sign",
+      "Car B, because car A is coming from its right",
+      "Car B, because cars joining a road have the right-of-way",
+      "Whichever car is ahead"
+    ],
+    "answer": 0,
+    "explanation": "A yield sign means you must let traffic on the other road go first. Car A yields to car B, even though A is on B's right.",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (yield signs; e.g., CA, TX, NE)"
+  },
+  {
+    "id": "car.scni.041",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "What does the yield sign require car A to do here?",
+    "sign": "SCN-INT-YIELD-MERGE",
+    "choices": [
+      "Always come to a full stop, even when no one is coming",
+      "Keep the same speed and let car B adjust",
+      "Slow down, and stop if needed, to let car B pass before entering",
+      "Speed up to get in ahead of car B"
+    ],
+    "answer": 2,
+    "explanation": "At a yield sign, slow down and be ready to stop. Let traffic on the other road pass, and enter only when there is a safe gap. You do not have to stop if the way is clear.",
+    "difficulty": 1,
+    "ref": "Common to state driver handbooks (yield signs; e.g., CA, TX, NE)"
+  }
+]
