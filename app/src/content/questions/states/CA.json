@@ -196,7 +196,7 @@
     "prompt": "An 18-year-old driver's preliminary alcohol screening (PAS) test shows 0.05%. What may the officer do next?",
     "choices": [
       "Nothing, because 0.05% is under the adult limit",
-      "Only issue a parking ticket",
+      "Nothing, unless the driver is also speeding",
       "Require a breath or blood test",
       "Let the driver go if a passenger can drive"
     ],
@@ -689,13 +689,13 @@
     "topic": "safe-habits",
     "prompt": "Your 15-year-old passenger refuses to buckle up. Who can be ticketed?",
     "choices": [
-      "You, the driver, as well as the passenger",
+      "You, the driver",
       "Only the passenger",
       "No one, because the passenger is a minor",
       "Only the vehicle owner"
     ],
     "answer": 0,
-    "explanation": "Everyone must wear a seat belt. If a passenger is under 16 and not buckled, the driver can also be ticketed.",
+    "explanation": "Everyone in the car must wear a seat belt. If a passenger under 16 is not buckled, you, the driver, can be ticketed.",
     "states": [
       "CA"
     ],
@@ -1018,7 +1018,7 @@
       "At least 6 seconds"
     ],
     "answer": 1,
-    "explanation": "Use the three-second rule. When the vehicle ahead passes a fixed point, you should not reach that point before you count to three.",
+    "explanation": "The California Driver's Handbook says to use the three-second rule for a safe following distance. Leave even more space when a tailgater is behind you or when following a motorcycle on metal surfaces or gravel.",
     "states": [
       "CA"
     ],
@@ -1411,8 +1411,8 @@
     "topic": "freeway",
     "prompt": "During a traffic stop, what must a California officer do before asking questions about a traffic violation?",
     "choices": [
-      "Ask for your phone password",
-      "Ask about your immigration status",
+      "Ask you to step out of the vehicle",
+      "Give you a written warning",
       "State the reason for the stop",
       "Search the vehicle"
     ],
@@ -1900,6 +1900,25 @@
     "ref": "California Driver’s Handbook, p. 10"
   },
   {
+    "id": "ca.car.101",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A pedestrian starts crossing at a street corner that has no painted crosswalk lines. Who has the right-of-way?",
+    "choices": [
+      "The pedestrian, because unmarked crosswalks are still crosswalks",
+      "You, because the crosswalk is not marked",
+      "Whoever reaches the corner first",
+      "You, unless the pedestrian has a WALK signal"
+    ],
+    "answer": 0,
+    "explanation": "In California, pedestrians have the right-of-way in both marked and unmarked crosswalks. Not every crosswalk is painted, so slow down or stop and let the pedestrian finish crossing.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 47"
+  },
+  {
     "id": "ca.mc.001",
     "track": "motorcycle",
     "topic": "mc-laws",
@@ -1930,7 +1949,7 @@
       "It is any hard-shell helmet"
     ],
     "answer": 1,
-    "explanation": "The helmet must be certified by the manufacturer as meeting U.S. DOT FMVSS 218. Novelty helmets that only look like DOT helmets do not qualify.",
+    "explanation": "The helmet must be certified by the manufacturer as meeting U.S. DOT standard FMVSS 218. Helmets that are not DOT compliant, often called novelty helmets, do not qualify.",
     "states": [
       "CA"
     ],

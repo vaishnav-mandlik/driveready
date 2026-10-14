@@ -1,5 +1,5 @@
 import React, {useMemo} from 'react';
-import {Alert, AlertButton, StyleSheet, View} from 'react-native';
+import {Alert, AlertButton, Share, StyleSheet, View} from 'react-native';
 import {Button, Card, EmptyState, Icon, IconTile, Screen, SectionHeader, Text} from '../../components';
 import {groupFacts} from '../../data/factMeta';
 import type {SourceRef, StateFact} from '../../data/types';
@@ -110,6 +110,22 @@ export function CheatSheetScreen({navigation}: RootScreenProps<'CheatSheet'>) {
       ) : null}
 
       <View style={{gap: spacing.md, marginTop: spacing.xl}}>
+        <Button
+          title="Share cheat sheet"
+          icon="share"
+          onPress={() =>
+            Share.share({
+              title: `${stateInfo.name} driver cheat sheet`,
+              message: [
+                `${stateInfo.name} driver cheat sheet — from DriveReady (free DMV practice tests)`,
+                ...groups.flatMap(g => ['', g.group.title.toUpperCase(), ...g.facts.map(f => `\u2022 ${f.label}: ${f.value}`)]),
+                '',
+                `Source: ${stateInfo.handbook.title}${stateInfo.handbook.edition ? ` (${stateInfo.handbook.edition})` : ''}. Always confirm with your state's official handbook.`,
+              ].join('\n'),
+            })
+          }
+          fullWidth
+        />
         <Button
           title="Read the cheat sheet aloud"
           variant="outline"

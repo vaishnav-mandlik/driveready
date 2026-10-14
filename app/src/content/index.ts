@@ -3,6 +3,19 @@ import type {Lesson, Question, StateCode, StateInfo, TrackId} from '../data/type
 
 export const universalQuestionLoaders: Record<TrackId, Array<() => Question[]>> = {
   car: [
+    () => require('./questions/car/alcohol-drugs.json'),
+    () => require('./questions/car/emergencies.json'),
+    () => require('./questions/car/freeway.json'),
+    () => require('./questions/car/hazards-conditions.json'),
+    () => require('./questions/car/intersections-turns.json'),
+    () => require('./questions/car/lanes-passing.json'),
+    () => require('./questions/car/laws-licensing.json'),
+    () => require('./questions/car/parking.json'),
+    () => require('./questions/car/right-of-way.json'),
+    () => require('./questions/car/safe-habits.json'),
+    () => require('./questions/car/sharing-road.json'),
+    () => require('./questions/car/signals-markings.json'),
+    () => require('./questions/car/speed-space.json'),
   ],
   motorcycle: [
   ],
@@ -11,10 +24,15 @@ export const universalQuestionLoaders: Record<TrackId, Array<() => Question[]>> 
 };
 
 export const stateQuestionLoaders: Partial<Record<StateCode, () => Question[]>> = {
+  CA: () => require('./questions/states/CA.json'),
+  TX: () => require('./questions/states/TX.json'),
 };
 
 export const stateInfoLoaders: Partial<Record<StateCode, () => StateInfo>> = {
+  CA: () => require('./states/CA.json'),
+  TX: () => require('./states/TX.json'),
 };
 
 export const lessonLoaders: Array<() => Lesson> = [
+  () => require('./lessons/car/road-test.json'),
 ];

@@ -809,7 +809,7 @@
       "Within 90 days of purchase"
     ],
     "answer": 0,
-    "explanation": "An owner must register a newly purchased vehicle within 30 days of purchase in the county where they live.",
+    "explanation": "An owner must register a newly purchased vehicle within 30 days of purchase.",
     "states": [
       "TX"
     ],
@@ -836,25 +836,6 @@
     "ref": "Texas Driver Handbook, p. 23"
   },
   {
-    "id": "tx.car.045",
-    "track": "car",
-    "topic": "laws-licensing",
-    "prompt": "How often must a vehicle registered in Texas pass a safety inspection?",
-    "choices": [
-      "Every year",
-      "Every two years",
-      "Only when it is sold",
-      "Only when it is first registered"
-    ],
-    "answer": 0,
-    "explanation": "All motor vehicles registered in Texas, including motorcycles and mopeds, must be inspected each year at an official inspection station.",
-    "states": [
-      "TX"
-    ],
-    "difficulty": 1,
-    "ref": "Texas Driver Handbook, p. 21"
-  },
-  {
     "id": "tx.car.046",
     "track": "car",
     "topic": "laws-licensing",
@@ -872,25 +853,6 @@
     ],
     "difficulty": 2,
     "ref": "Texas Driver Handbook, p. 16"
-  },
-  {
-    "id": "tx.car.047",
-    "track": "car",
-    "topic": "laws-licensing",
-    "prompt": "What is the minimum tire tread depth required on vehicles in Texas?",
-    "choices": [
-      "2/32 of an inch",
-      "4/32 of an inch",
-      "1/16 of an inch",
-      "6/32 of an inch"
-    ],
-    "answer": 0,
-    "explanation": "All vehicles must have tires in safe condition with a minimum tread depth of 2/32 of an inch.",
-    "states": [
-      "TX"
-    ],
-    "difficulty": 2,
-    "ref": "Texas Driver Handbook, p. 21"
   },
   {
     "id": "tx.car.048",
@@ -1080,7 +1042,7 @@
       "TX"
     ],
     "difficulty": 3,
-    "ref": "Texas Driver Handbook, p. 29"
+    "ref": "Texas Driver Handbook, p. 29; Texas Transportation Code, Sec. 545.066(f)"
   },
   {
     "id": "tx.car.058",
@@ -1770,20 +1732,20 @@
     "id": "tx.car.094",
     "track": "car",
     "topic": "emergencies",
-    "prompt": "You are in a crash that no officer investigates, and a written crash report is required. By when must it be filed with TxDOT?",
+    "prompt": "After a crash, no one is hurt, but one car is too damaged to be driven safely. What does Texas law require of the drivers?",
     "choices": [
-      "No later than the 10th day after the crash",
-      "Within 24 hours",
-      "Within 30 days",
-      "Within 60 days"
+      "Immediately notify the local police or sheriff by the quickest means available",
+      "Notify police only if the damage is over $5,000",
+      "Call your insurance company; notifying police is optional",
+      "Mail a crash report to DPS within 30 days instead of calling police"
     ],
     "answer": 0,
-    "explanation": "When a written report is required for a crash no officer investigated, it must be on a TxDOT form and filed with TxDOT no later than the 10th day after the crash.",
+    "explanation": "Texas law requires drivers in a crash that causes injury or death, or leaves a vehicle unable to be normally and safely driven, to immediately notify the local police (or the sheriff or DPS outside city limits) by the quickest means of communication.",
     "states": [
       "TX"
     ],
     "difficulty": 2,
-    "ref": "Texas Driver Handbook, p. 65"
+    "ref": "Texas Transportation Code, Sec. 550.026; Texas Driver Handbook, p. 65"
   },
   {
     "id": "tx.car.095",
@@ -1992,7 +1954,7 @@
       "TX"
     ],
     "difficulty": 2,
-    "ref": "Texas Driver Handbook, p. 11"
+    "ref": "Texas Driver Handbook, p. 11; Texas DPS, Motorcycle License (dps.texas.gov)"
   },
   {
     "id": "tx.mc.008",
@@ -2036,19 +1998,37 @@
     "id": "tx.mc.010",
     "track": "motorcycle",
     "topic": "mc-laws",
-    "prompt": "Which Texas license allows you to drive an autocycle (a three-wheeled vehicle with a steering wheel and non-straddle seats), but not a motorcycle?",
+    "prompt": "In Texas, which license is enough to drive an autocycle (a three-wheeled vehicle with a steering wheel and seats you do not straddle)?",
     "choices": [
-      "Class C",
-      "Class M",
-      "Class A only",
-      "A learner license only"
+      "A Class C license",
+      "Only a Class M license",
+      "A Class C license plus a Class M license"
     ],
     "answer": 0,
-    "explanation": "An autocycle may be driven with a Class C license. A Class C license does not permit driving a motorcycle; that requires Class M.",
+    "explanation": "A Class C license covers autocycles, so no Class M is needed. A Class C license does not permit driving a motorcycle; that requires Class M.",
     "states": [
       "TX"
     ],
     "difficulty": 2,
     "ref": "Texas Driver Handbook, p. 10"
+  },
+  {
+    "id": "tx.car.099",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Assuming no signs say otherwise, where does Texas law prohibit you from stopping, standing, or parking?",
+    "choices": [
+      "Within an intersection",
+      "25 feet from a fire hydrant",
+      "40 feet before a stop sign at the side of the road",
+      "60 feet from the nearest rail of a railroad crossing"
+    ],
+    "answer": 0,
+    "explanation": "You may not stop, stand, or park within an intersection. The other spots are legal: the limits are 15 feet from a hydrant, 30 feet on the approach to a stop sign, and 50 feet from the nearest rail.",
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 48",
+    "states": [
+      "TX"
+    ]
   }
 ]
