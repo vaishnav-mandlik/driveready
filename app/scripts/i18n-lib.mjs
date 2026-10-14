@@ -74,7 +74,8 @@ export function stateStrings(info) {
 export function loadSigns() {
   const ts = readFileSync(join(CONTENT, 'signs', 'index.ts'), 'utf8');
   return [...ts.matchAll(/^\s*(\{"code":.*\}),?\s*$/gm)].map(m => {
-    const {code, name, meaning, shape, colors, category} = JSON.parse(m[1]);
+    // Photo entries end with `, image: require('...')}`, which is not JSON.
+    const {code, name, meaning, shape, colors, category} = JSON.parse(m[1].replace(/, image: require\('[^']*'\)\}$/, '}'));
     return {code, name, meaning, shape, colors, category};
   });
 }

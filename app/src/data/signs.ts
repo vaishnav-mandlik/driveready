@@ -24,6 +24,7 @@ const CATEGORY_TEXT = defineStrings<Record<Exclude<SignCategory, 'scenario'>, {t
     signal: {title: 'Traffic Signals', description: 'Signal lights, arrows and flashing signals.'},
     marking: {title: 'Pavement Markings', description: 'Lane lines, edge lines, crosswalks and other markings on the road.'},
     hand_signal: {title: 'Hand Signals', description: 'Arm signals drivers and cyclists use when lights are not available.'},
+    hazmat: {title: 'Hazmat Placards', description: 'Diamond-shaped placards that identify the hazard class of hazardous materials on a vehicle (CDL hazmat endorsement).'},
     other: {title: 'Other', description: 'Other signs and emblems you may be asked about.'},
   },
   {
@@ -38,6 +39,7 @@ const CATEGORY_TEXT = defineStrings<Record<Exclude<SignCategory, 'scenario'>, {t
     signal: {title: 'Semáforos', description: 'Luces de semáforo, flechas y señales intermitentes.'},
     marking: {title: 'Marcas en el pavimento', description: 'Líneas de carril, líneas de borde, cruces peatonales y otras marcas en el camino.'},
     hand_signal: {title: 'Señales con la mano', description: 'Señales con el brazo que usan conductores y ciclistas cuando no hay luces disponibles.'},
+    hazmat: {title: 'Letreros de materiales peligrosos', description: 'Letreros en forma de rombo que identifican la clase de peligro de los materiales peligrosos en un vehículo (endoso de materiales peligrosos de la CDL).'},
     other: {title: 'Otras', description: 'Otras señales y emblemas por los que te pueden preguntar.'},
   },
 );
@@ -54,6 +56,7 @@ const CATEGORY_ORDER: {id: Exclude<SignCategory, 'scenario'>; icon: IconName}[] 
   {id: 'signal', icon: 'circle-dot'},
   {id: 'marking', icon: 'route'},
   {id: 'hand_signal', icon: 'hand'},
+  {id: 'hazmat', icon: 'warning'},
   {id: 'other', icon: 'shapes'},
 ];
 
@@ -114,6 +117,11 @@ export function searchSigns(query: string): SignInfo[] {
       fold(s.shape).includes(q) ||
       fold(s.shapeLabel ?? '').includes(q),
   );
+}
+
+/** Openly licensed images that need attribution (photos, CC-licensed art), for the credits list. */
+export function creditedImages(): SignInfo[] {
+  return SIGNS.filter(s => !!s.credit);
 }
 
 /** For tests and language switches. */

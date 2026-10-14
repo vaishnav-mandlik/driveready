@@ -202,6 +202,8 @@ export type SignCategory =
   | 'signal'
   | 'marking'
   | 'hand_signal'
+  /** Hazardous-materials placards (CDL hazmat endorsement). */
+  | 'hazmat'
   | 'other'
   /** Illustrated driving situations used in questions (not shown in the sign library). */
   | 'scenario';
@@ -218,10 +220,14 @@ export interface SignInfo {
   /** Translated shape/colors for display (the English `shape`/`colors` stay for shape-clue logic). */
   shapeLabel?: string;
   colorsLabel?: string;
-  /** SVG markup rendered with react-native-svg's SvgXml. */
+  /** SVG markup rendered with react-native-svg's SvgXml ('' for photos). */
   xml: string;
   /** width / height of the artwork. */
   aspect: number;
+  /** Bundled raster image (photos), from require(); used instead of `xml`. */
+  image?: number;
+  /** Attribution for openly licensed images (shown in Official sources → Image credits). */
+  credit?: {author: string; license: string; url: string};
 }
 
 export type LessonBlock =

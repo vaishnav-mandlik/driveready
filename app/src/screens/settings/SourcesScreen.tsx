@@ -2,6 +2,7 @@ import React from 'react';
 import {StyleSheet} from 'react-native';
 import {Card, Divider, Icon, ListRow, Screen, SectionHeader, Text} from '../../components';
 import {disclaimer} from '../../config';
+import {creditedImages} from '../../data/signs';
 import {parseDayKey} from '../../engine/dates';
 import {useLearner} from '../../hooks/useLearner';
 import {defineStrings, formatDate, useStrings} from '../../i18n';
@@ -32,6 +33,9 @@ const STR = defineStrings(
     comingSoon: 'Official links for this state are coming soon',
     verified: (date: string) => `State rules in this app were checked against these sources on ${date}. Each fact in the cheat sheet shows the handbook page and wording it comes from.`,
     national: 'National sources',
+    imageCredits: 'Image credits',
+    imageCreditsNote: 'Road-sign art is public domain (U.S. MUTCD). Driving-situation pictures are drawn for this app. These photos are used under the licenses shown:',
+    credit: (author: string, license: string) => `${author} · ${license}`,
     outdated: 'Found something outdated? Use "Report a problem" on any question — we fix content quickly.',
   },
   {
@@ -51,6 +55,9 @@ const STR = defineStrings(
     comingSoon: 'Pronto agregaremos los enlaces oficiales de este estado',
     verified: (date: string) => `Las reglas estatales de esta app se verificaron con estas fuentes el ${dayLabel(date)}. Cada dato de la hoja de repaso muestra la página del manual y el texto de donde proviene.`,
     national: 'Fuentes nacionales',
+    imageCredits: 'Créditos de imágenes',
+    imageCreditsNote: 'Las imágenes de señales son de dominio público (MUTCD de EE. UU.). Las ilustraciones de situaciones de manejo se dibujaron para esta app. Estas fotos se usan con las licencias indicadas:',
+    credit: (author: string, license: string) => `${author} · ${license}`,
     outdated: '¿Encontraste algo desactualizado? Usa "Reportar un problema" en cualquier pregunta; corregimos el contenido rápidamente.',
   },
 );
@@ -60,6 +67,7 @@ export function SourcesScreen(_props: RootScreenProps<'Sources'>) {
   const {stateInfo} = useLearner();
   const t = useStrings(STR);
   const external = <Icon name="external" size={18} color="textFaint" />;
+  const credited = creditedImages();
   return (
     <Screen>
       <Card variant="tinted" tint={colors.warningSoft}>
@@ -111,6 +119,22 @@ export function SourcesScreen(_props: RootScreenProps<'Sources'>) {
           </React.Fragment>
         ))}
       </Card>
+      {credited.length ? (
+        <>
+          <SectionHeader title={t.imageCredits} />
+          <Text variant="caption" color="textMuted" style={{marginBottom: spacing.sm}}>
+            {t.imageCreditsNote}
+          </Text>
+          <Card padded={false} style={{paddingHorizontal: spacing.lg}}>
+            {credited.map((img, i) => (
+              <React.Fragment key={img.code}>
+                {i ? <Divider /> : null}
+                <ListRow title={img.name} subtitle={t.credit(img.credit!.author, img.credit!.license)} icon="image" iconColor={hueAt(colors, 2)} right={external} chevron={false} onPress={() => openOfficial(img.credit!.url, img.name)} />
+              </React.Fragment>
+            ))}
+          </Card>
+        </>
+      ) : null}
       <Text variant="caption" color="textFaint" style={[styles.note, {marginTop: spacing.lg}]}>
         {t.outdated}
       </Text>

@@ -1,5 +1,5 @@
 import React, {memo} from 'react';
-import {StyleProp, StyleSheet, View, ViewStyle} from 'react-native';
+import {Image, StyleProp, StyleSheet, View, ViewStyle} from 'react-native';
 import {SvgXml} from 'react-native-svg';
 import {getSign} from '../data/signs';
 import {useTheme} from '../theme/ThemeProvider';
@@ -35,7 +35,11 @@ export const SignImage = memo(function SignImage({code, size = 140, style, acces
       accessibilityRole={label !== '' ? 'image' : undefined}
       accessibilityLabel={label || undefined}
       importantForAccessibility={label === '' ? 'no-hide-descendants' : 'auto'}>
-      <SvgXml xml={sign.xml} width={w} height={h} />
+      {sign.image ? (
+        <Image source={sign.image} style={{width: w, height: h, borderRadius: radius.md}} resizeMode="cover" />
+      ) : (
+        <SvgXml xml={sign.xml} width={w} height={h} />
+      )}
     </View>
   );
 });
