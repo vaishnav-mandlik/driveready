@@ -40,8 +40,12 @@ export function HomeScreen({navigation}: TabScreenProps<'Home'>) {
   const until = examDate ? daysUntil(examDate, now) : null;
   const hasSupervisedHours = stateInfo.facts.some(f => f.key === 'supervised_driving_hours');
   const pct = Math.round(readiness.passProbability * 100);
+  // A pass estimate from a handful of answers is noise; wait for 10.
+  const hasEstimate = readiness.seen >= 10;
   const empty = bank.questions.length === 0;
-  const weakest = readiness.weakest ? getTopic(readiness.weakest.topic) : undefined;
+  const isNew = readiness.seen === 0;
+  const firstTopic = trackMeta.topics.find(t => (bank.byTopic.get(t.id)?.length ?? 0) > 0);
+  const weakest = isNew ? firstTopic : readiness.weakest ? getTopic(readiness.weakest.topic) : undefined;
 
   return (
     <Screen edges={['top']}>
@@ -79,9 +83,15 @@ export function HomeScreen({navigation}: TabScreenProps<'Home'>) {
 
       <Card variant="tinted" tint={colors.primary} style={{padding: spacing.xl}}>
         <View style={[styles.row, {gap: spacing.lg}]}>
-          <ProgressRing value={readiness.passProbability} size={112} stroke={10} color="#FFFFFF" trackColor="rgba(255,255,255,0.25)" accessibilityLabel={`Estimated pass chance ${pct} percent`}>
+          <ProgressRing
+            value={hasEstimate ? readiness.passProbability : 0}
+            size={112}
+            stroke={10}
+            color="#FFFFFF"
+            trackColor="rgba(255,255,255,0.25)"
+            accessibilityLabel={hasEstimate ? `Estimated pass chance ${pct} percent` : 'Pass chance appears after 10 answers'}>
             <Text variant="title" color="#FFFFFF">
-              {pct}%
+              {hasEstimate ? `${pct}%` : '\u2013'}
             </Text>
             <Text variant="caption" color="#E2ECFF">
               pass chance
@@ -89,10 +99,12 @@ export function HomeScreen({navigation}: TabScreenProps<'Home'>) {
           </ProgressRing>
           <View style={styles.flex}>
             <Text variant="heading" color="#FFFFFF">
-              {readiness.label}
+              {hasEstimate ? readiness.label : isNew ? 'Let\u2019s get started' : 'Keep going'}
             </Text>
             <Text variant="caption" color="#E2ECFF" style={{marginTop: 4}}>
-              {readiness.seen} of {readiness.total} questions practiced · {readiness.mastered} mastered
+              {hasEstimate
+                ? `${readiness.seen} of ${readiness.total} questions practiced · ${readiness.mastered} mastered`
+                : `Answer ${10 - readiness.seen} more question${10 - readiness.seen === 1 ? '' : 's'} to see your pass chance · ${readiness.total} questions in your bank`}
             </Text>
           </View>
         </View>
@@ -152,7 +164,7 @@ export function HomeScreen({navigation}: TabScreenProps<'Home'>) {
             </View>
             <View style={styles.flex}>
               <Text variant="captionStrong" color="textMuted">
-                {marathon ? 'Continue' : 'Focus area'}
+                {marathon ? 'Continue' : isNew ? 'Start here' : 'Focus area'}
               </Text>
               <Text variant="bodyStrong" numberOfLines={1}>
                 {marathon

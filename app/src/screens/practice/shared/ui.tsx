@@ -53,8 +53,8 @@ export function PressableCard({
       accessibilityHint={accessibilityHint}
       accessibilityState={{disabled: !!disabled}}
       testID={testID}
-      style={({pressed}) => [styles.pressableCard, pressed && !disabled && styles.pressed, disabled && styles.disabled, style]}>
-      <Card variant={variant} tint={tint} style={[styles.fill, cardStyle]}>
+      style={({pressed}) => [styles.pressableCard, pressed && !disabled && styles.pressed, style]}>
+      <Card variant={disabled ? 'outlined' : variant} tint={tint} style={[styles.fill, cardStyle, disabled && styles.disabled]}>
         {children}
       </Card>
     </Pressable>

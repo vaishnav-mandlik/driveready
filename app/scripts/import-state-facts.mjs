@@ -16,7 +16,8 @@ import {fileURLToPath} from 'node:url';
 const APP = join(dirname(fileURLToPath(import.meta.url)), '..');
 const FACTS = join(APP, '..', 'research', 'facts');
 const OUT = join(APP, 'src', 'content', 'states');
-const today = new Date().toISOString().slice(0, 10);
+const now = new Date();
+const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
 
 const wanted = process.argv.slice(2).map(s => s.toUpperCase());
 const files = existsSync(FACTS)
