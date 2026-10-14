@@ -1,0 +1,2149 @@
+[
+  {
+    "id": "nv.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Nevada's Illegal Per Se Law, what alcohol concentration leads to revocation of a driver's privilege (driver 21 or older, non-commercial)?",
+    "choices": [
+      "0.05%",
+      "0.08%",
+      "0.10%",
+      "0.04%"
+    ],
+    "answer": 1,
+    "explanation": "A chemical test showing .08% or more results in revocation under Nevada's Illegal Per Se Law. Lower limits apply to drivers under 21 (.02%) and commercial license holders (.04%).",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 79",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 19-year-old Nevada driver is tested at 0.03% alcohol concentration. What happens?",
+    "choices": [
+      "Nothing, because the result is below 0.08%",
+      "The driver loses the driving privilege, because the under-21 limit is 0.02%",
+      "The driver gets a written warning only",
+      "The driver must retake the knowledge test"
+    ],
+    "answer": 1,
+    "explanation": "Drivers under 21 lose their driving privilege at .02% or more. The 0.08% limit applies to adult non-commercial drivers.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 79",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What alcohol concentration triggers illegal per se action against a driver who holds a Nevada commercial driver license?",
+    "choices": [
+      "0.02%",
+      "0.04%",
+      "0.06%",
+      "0.08%"
+    ],
+    "answer": 1,
+    "explanation": "For commercial driver license holders, per se action applies at .04% or more, half the 0.08% adult limit.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 80",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Nevada's Implied Consent Law, what happens on a first offense if you refuse the officer-directed blood, breath or urine test?",
+    "choices": [
+      "A 90-day suspension",
+      "A 185-day revocation",
+      "A one-year revocation",
+      "A $1,000 fine but no license action"
+    ],
+    "answer": 2,
+    "explanation": "Refusing the tests revokes your license, permit or privilege to drive for one year on a first offense.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 79",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Your driving privilege was revoked four years ago for refusing a chemical test. If you refuse again, how long will you be ineligible for a license?",
+    "choices": [
+      "One year",
+      "185 days",
+      "Three years",
+      "Five years"
+    ],
+    "answer": 2,
+    "explanation": "If your privilege was revoked for refusal within the prior seven years, a new refusal makes you ineligible for three years.",
+    "difficulty": 3,
+    "ref": "Nevada Driver’s Handbook, p. 79",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the fine range for a first DUI conviction in Nevada?",
+    "choices": [
+      "$100 to $500",
+      "$400 to $1,000",
+      "$750 to $1,000",
+      "$2,000 to $5,000"
+    ],
+    "answer": 1,
+    "explanation": "A first DUI carries a fine of $400 to $1,000. $750 to $1,000 is the range for a second offense within 7 years.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 80",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "For a first DUI conviction in Nevada, the driver license is revoked for a minimum of:",
+    "choices": [
+      "30 days",
+      "90 days",
+      "185 days",
+      "One year"
+    ],
+    "answer": 2,
+    "explanation": "A first DUI conviction brings revocation for a minimum of 185 days. One year is the revocation for a second offense within 7 years.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 80",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A driver is convicted of a second DUI within 7 years in Nevada. How long is the license revoked?",
+    "choices": [
+      "185 days",
+      "One year",
+      "Three years",
+      "Permanently"
+    ],
+    "answer": 1,
+    "explanation": "A second DUI within 7 years brings a one-year revocation; a third or later offense within 7 years brings three years.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 80",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.009",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Recreational marijuana is legal for adults in Nevada. Which statement about driving after using it is correct?",
+    "choices": [
+      "Driving while impaired by marijuana is DUI; legal use is not a defense",
+      "It is legal to drive after using marijuana if you are 21 or older",
+      "Only alcohol can lead to a DUI charge in Nevada",
+      "A marijuana DUI applies only to commercial drivers"
+    ],
+    "answer": 0,
+    "explanation": "Nevada's DUI law covers drugs as well as alcohol, and being legally entitled to use a drug is not a defense (NRS 484C.110). The 2 ng/mL marijuana blood limit cited in the handbook now applies only to felony-level DUI cases.",
+    "difficulty": 2,
+    "ref": "NRS 484C.110; Nevada Driver’s Handbook, p. 79",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.010",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Where does Nevada's open container law allow an opened alcoholic beverage while the vehicle is being driven?",
+    "choices": [
+      "In the back seat of a private car",
+      "In a cup holder if only the passenger drinks",
+      "In the living quarters of a motor home",
+      "Anywhere if the driver is 21 or older"
+    ],
+    "answer": 2,
+    "explanation": "Opened alcohol is illegal in the driver or passenger areas. The law does not apply to living quarters of motor homes or house trailers, or passenger areas of commercial buses, limousines or taxis.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 81",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.011",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A Nevada driver tests at 0.06% and shows signs of impairment. Which statement is true?",
+    "choices": [
+      "The driver cannot be charged because the result is under 0.08%",
+      "The driver can still be arrested and convicted of DUI",
+      "The driver can only get a warning",
+      "Only commercial drivers can be charged below 0.08%"
+    ],
+    "answer": 1,
+    "explanation": "The handbook says .08% is used as a guide, but you can be arrested and convicted with a lower level.",
+    "difficulty": 3,
+    "ref": "Nevada Driver’s Handbook, p. 79",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.012",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What number can you dial from a cell phone anywhere in Nevada to report a suspected drunk driver?",
+    "choices": [
+      "*NHP (*647)",
+      "311",
+      "*DMV (*368)",
+      "411"
+    ],
+    "answer": 0,
+    "explanation": "You can report a suspected drunk driver or any highway emergency anywhere in Nevada by dialing *NHP (*647).",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 81",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.013",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "How may a Nevada driver talk on a cell phone while driving?",
+    "choices": [
+      "Only with a hands-free accessory",
+      "Holding the phone at a red light",
+      "Holding the phone if the call is under one minute",
+      "Holding the phone if the driver is 18 or older"
+    ],
+    "answer": 0,
+    "explanation": "Voice calls on a handheld phone are prohibited unless the device is used with a hands-free accessory. The rule applies to all drivers.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 43",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.014",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "When may a Nevada driver use a handheld phone to communicate while driving?",
+    "choices": [
+      "To report an emergency when stopping would be inadvisable, impractical or dangerous",
+      "To read a text message at highway speeds if traffic is light",
+      "To search for directions on the internet",
+      "To send a short text if the driver keeps one hand on the wheel"
+    ],
+    "answer": 0,
+    "explanation": "Texting, messaging and internet use are banned while driving. A device may be used to report an emergency if stopping would be inadvisable, impractical or dangerous.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 43",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.015",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Nevada law, who must wear a safety belt in a vehicle equipped with them?",
+    "choices": [
+      "Only the driver and front-seat passenger",
+      "The driver and any passenger age six and older",
+      "Only passengers under 18",
+      "Only drivers on highways"
+    ],
+    "answer": 1,
+    "explanation": "The driver and any passengers age six and older must wear safety belts if the vehicle is equipped with them. Younger children use child restraints.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 25",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.016",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 5-year-old who is 50 inches tall is riding in your car in Nevada. How must the child ride?",
+    "choices": [
+      "In an approved child restraint system",
+      "With an adult seat belt only",
+      "On an adult's lap with the belt around both",
+      "Unrestrained in the back seat"
+    ],
+    "answer": 0,
+    "explanation": "Children under age six and those under 57 inches tall must be in an approved child restraint system (NRS 484B.157).",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 25",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.017",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Nevada law, how must a child under age two ride?",
+    "choices": [
+      "In a forward-facing seat in the front",
+      "In a rear-facing child restraint in the back seat",
+      "In a booster seat in any seat",
+      "With a lap belt in the back seat"
+    ],
+    "answer": 1,
+    "explanation": "Children under the age of two must be secured in a rear-facing child restraint system in the back seat.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 25",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.018",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Nevada law says a child aged 7 or younger should not be left unattended in a vehicle under risky conditions unless supervised by someone at least how old?",
+    "choices": [
+      "10 years old",
+      "12 years old",
+      "16 years old",
+      "18 years old"
+    ],
+    "answer": 1,
+    "explanation": "Never leave a child 7 or younger unattended in risky conditions unless the child is supervised by, and within sight of, a person at least 12 years old (NRS 202.485).",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 25",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.019",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age to get a Nevada instruction permit?",
+    "choices": [
+      "15 years",
+      "15 years and 6 months",
+      "16 years",
+      "14 years and 6 months"
+    ],
+    "answer": 1,
+    "explanation": "You must be at least 15½ years old, pass vision and knowledge tests, and have a parent or guardian authorize issuance.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 15",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.020",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long is a Nevada instruction permit valid?",
+    "choices": [
+      "Six months",
+      "One year",
+      "Two years",
+      "Until the holder turns 18"
+    ],
+    "answer": 1,
+    "explanation": "A Nevada instruction permit is valid for one year, and you must carry it whenever you drive.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 15",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.021",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "If you are under 18, how long must you hold a Nevada instruction permit before applying for a driver license?",
+    "choices": [
+      "30 days",
+      "3 months",
+      "6 months",
+      "12 months"
+    ],
+    "answer": 2,
+    "explanation": "Applicants under 18 must hold an instruction permit for at least 6 months before applying for a driver license.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 15",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.022",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many hours of supervised driving must a Nevada teen near a DMV-approved driver's education school complete, and how many at night?",
+    "choices": [
+      "40 hours, 10 at night",
+      "50 hours, 10 at night",
+      "60 hours, 15 at night",
+      "100 hours, 10 at night"
+    ],
+    "answer": 1,
+    "explanation": "Teens within 30 miles of a DMV-approved driver's education school must complete 50 hours of supervised driving, 10 of them at night.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 14",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.023",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Nevada teen lives more than 30 miles from a DMV-approved driver's education school and cannot take a class online. What is required instead?",
+    "choices": [
+      "50 hours of driving, 10 in the dark",
+      "100 hours of driving, 10 in the dark",
+      "A second knowledge test",
+      "No driver education is required"
+    ],
+    "answer": 1,
+    "explanation": "Without access to a school or online course, the teen must complete 100 hours of behind-the-wheel experience, 10 of them in the dark.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 14",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.024",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which person may supervise a Nevada Class C instruction permit holder?",
+    "choices": [
+      "A licensed 19-year-old sibling with 3 years of experience",
+      "A licensed 21-year-old with one year of driving experience seated beside the driver",
+      "A licensed 25-year-old riding in the back seat",
+      "Any adult passenger, licensed or not"
+    ],
+    "answer": 1,
+    "explanation": "The supervisor must be at least 21, have at least one year of licensed driving experience, and be seated beside the permit holder.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 15",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.025",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What passenger rule applies to a Nevada driver who got a license at 16 or 17?",
+    "choices": [
+      "No passengers under 18, except immediate family, for the first 6 months",
+      "No passengers at all for the first year",
+      "Only one passenger under 21 until age 18",
+      "No passenger rules apply"
+    ],
+    "answer": 0,
+    "explanation": "For the first 6 months, 16- and 17-year-old new drivers may not carry passengers under 18 except immediate family members (NRS 483.2523).",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 15",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.026",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During which hours may a Nevada driver under 18 NOT drive, unless going to or from a scheduled event?",
+    "choices": [
+      "Midnight to 5 a.m.",
+      "10 p.m. to 5 a.m.",
+      "11 p.m. to 6 a.m.",
+      "9 p.m. to 6 a.m."
+    ],
+    "answer": 1,
+    "explanation": "A minor may not drive between 10 p.m. and 5 a.m. unless driving to or from a scheduled event.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 15",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.027",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Nevada driver got a license at 16 and is now 17. Does the 10 p.m. to 5 a.m. curfew still apply?",
+    "choices": [
+      "No, it ends after the first 6 months",
+      "Yes, it lasts until the driver turns 18",
+      "No, it ends after one year of licensed driving",
+      "Only on school nights"
+    ],
+    "answer": 1,
+    "explanation": "The curfew remains in effect until the driver turns 18, regardless of when the license was issued. The 6-month limit applies to the passenger rule.",
+    "difficulty": 3,
+    "ref": "Nevada Driver’s Handbook, p. 15",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.028",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Before receiving a driver license, a Nevada minor must be free of at-fault crashes, moving violations and alcohol or drug convictions for how long?",
+    "choices": [
+      "30 days",
+      "3 months",
+      "6 months",
+      "1 year"
+    ],
+    "answer": 2,
+    "explanation": "Minors must remain free of at-fault crashes, moving violation convictions and alcohol or drug convictions for six months before receiving a license.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 14",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.029",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age for a regular Nevada driver license?",
+    "choices": [
+      "15½",
+      "16",
+      "17",
+      "18"
+    ],
+    "answer": 1,
+    "explanation": "You must be at least 16 years old to get a Nevada driver license, and teen drivers have passenger and curfew limits.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 6",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.030",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "After moving to Nevada, how soon must a new resident apply for a Nevada driver license?",
+    "choices": [
+      "Within 10 days",
+      "Within 30 days",
+      "Within 60 days",
+      "Within 90 days"
+    ],
+    "answer": 1,
+    "explanation": "Drivers moving into Nevada from another state must apply for a license within 30 days after becoming a resident.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 6",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.031",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How soon must you notify the Nevada DMV after changing your address or name?",
+    "choices": [
+      "Within 10 days",
+      "Within 30 days",
+      "Within 60 days",
+      "At your next renewal"
+    ],
+    "answer": 1,
+    "explanation": "Nevada law requires you to notify the DMV of any address or name change within 30 days.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 19",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.032",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What are Nevada's minimum liability insurance limits?",
+    "choices": [
+      "$15,000 / $30,000 / $5,000",
+      "$25,000 / $50,000 / $20,000",
+      "$30,000 / $60,000 / $25,000",
+      "$50,000 / $100,000 / $25,000"
+    ],
+    "answer": 1,
+    "explanation": "Nevada requires $25,000 for injury or death of one person, $50,000 for two or more persons, and $20,000 for property damage in any one crash.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 75",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.033",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum property damage liability coverage required in Nevada?",
+    "choices": [
+      "$10,000",
+      "$15,000",
+      "$20,000",
+      "$25,000"
+    ],
+    "answer": 2,
+    "explanation": "The minimum coverage for injury to or destruction of others' property is $20,000 per crash.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 75",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.034",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How must a Nevada driver carry proof of insurance?",
+    "choices": [
+      "An Evidence of Insurance Card in the vehicle or displayed electronically on a mobile device",
+      "Only a copy kept at home",
+      "Proof is only needed when renewing registration",
+      "A receipt from the DMV for the registration fee"
+    ],
+    "answer": 0,
+    "explanation": "An Evidence of Insurance Card from the insurer must be carried in the vehicle or be available electronically on a mobile device.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 75",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.035",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many demerit points in a 12-month period will result in a Nevada license suspension?",
+    "choices": [
+      "8",
+      "10",
+      "12",
+      "15"
+    ],
+    "answer": 2,
+    "explanation": "If you receive 12 or more demerit points in any 12-month period, your license will be suspended.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 77",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.036",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Nevada driver has 7 demerit points. What can a DMV-approved traffic safety course do?",
+    "choices": [
+      "Remove all 7 points",
+      "Remove 3 points",
+      "Remove 5 points",
+      "Nothing; points cannot be removed"
+    ],
+    "answer": 1,
+    "explanation": "With 3 to 11 points, a DMV-approved traffic safety course removes up to three points, and you may use traffic school only once in 12 months.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 77",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.037",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many demerit points does a reckless driving conviction add to a Nevada driving record?",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "answer": 2,
+    "explanation": "Reckless driving is 8 points. Careless driving is 6 points.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 78",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.038",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many questions are on the Nevada car knowledge test, and how many must you answer correctly?",
+    "choices": [
+      "20 questions, 16 correct",
+      "25 questions, 20 correct",
+      "30 questions, 24 correct",
+      "40 questions, 32 correct"
+    ],
+    "answer": 1,
+    "explanation": "The Nevada written test has 25 multiple-choice questions, and you need 80% (20 correct) to pass.",
+    "difficulty": 1,
+    "ref": "Nevada DMV, Written Test for adult drivers (dmv.nv.gov/wtestadult.htm)",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.039",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What does Nevada's Basic Rule for speed require?",
+    "choices": [
+      "Always drive exactly at the posted limit",
+      "Drive at a reasonable or proper speed for conditions, even if below the limit",
+      "Drive no slower than 10 mph under the limit",
+      "Keep up with the fastest traffic"
+    ],
+    "answer": 1,
+    "explanation": "Nevada's Basic Rule requires a \"reasonable or proper\" speed considering traffic, weather, visibility, road surface and road type; the safe speed may be well below the posted limit.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 35",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.040",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What are the speed limits in Nevada school zones?",
+    "choices": [
+      "Either 15 or 25 mph",
+      "Always 20 mph",
+      "Either 20 or 30 mph",
+      "Always 25 mph"
+    ],
+    "answer": 0,
+    "explanation": "In school zones, the speed limit is either 15 or 25 mph.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 33",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.041",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, when is a Nevada school zone speed limit in effect?",
+    "choices": [
+      "From 7 a.m. to 4 p.m. every weekday",
+      "On school days from a half hour before school begins to a half hour after school ends",
+      "Only when a crossing guard is present",
+      "Any time children are visible, including weekends"
+    ],
+    "answer": 1,
+    "explanation": "School zone limits apply on school days from a half hour before school begins to a half hour after school ends, unless otherwise posted.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 33",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.042",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What speed limit does the Nevada handbook list for business and residential areas?",
+    "choices": [
+      "15 mph",
+      "25 mph",
+      "30 mph",
+      "35 mph"
+    ],
+    "answer": 1,
+    "explanation": "The handbook's examples list 25 mph for business and residential areas and school zones.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 35",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.043",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What speed limit does the Nevada handbook list as an example for urban freeways and rural highways?",
+    "choices": [
+      "55 mph",
+      "60 mph",
+      "65 mph",
+      "75 mph"
+    ],
+    "answer": 2,
+    "explanation": "The examples list 65 mph for urban freeways and rural highways, 45 mph for reduced-speed areas going into towns, and 70+ mph for rural interstates.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 35",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.044",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the highest speed limit the Nevada Department of Transportation may set on highways it maintains?",
+    "choices": [
+      "70 mph",
+      "75 mph",
+      "80 mph",
+      "85 mph"
+    ],
+    "answer": 2,
+    "explanation": "NDOT may establish a speed limit not to exceed 80 mph on such highways; the handbook lists 70+ mph for rural interstate freeways.",
+    "difficulty": 3,
+    "ref": "NRS 484B.613",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.045",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "When driving 40 mph or less in Nevada, what is the minimum following distance?",
+    "choices": [
+      "One second",
+      "Two seconds",
+      "Five seconds",
+      "One car length"
+    ],
+    "answer": 1,
+    "explanation": "At 40 mph or less, stay at least two seconds behind the vehicle ahead. It is a minimum; most instructors recommend up to four seconds.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 42",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.046",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What happens to speeding fines in a Nevada highway work zone?",
+    "choices": [
+      "They double",
+      "They stay the same",
+      "They triple",
+      "They are replaced by a warning"
+    ],
+    "answer": 0,
+    "explanation": "Fines for speeding double in work zones.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 60",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.047",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "In a Nevada work zone, what does an orange speed limit sign indicate?",
+    "choices": [
+      "An advisory slower, safer speed",
+      "A regulatory limit that replaces all other limits",
+      "The minimum speed",
+      "The limit for trucks only"
+    ],
+    "answer": 0,
+    "explanation": "Black-and-white speed limit signs are regulatory; orange speed limit signs are advisory and show slower, safer speeds.",
+    "difficulty": 3,
+    "ref": "Nevada Driver’s Handbook, p. 60",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.048",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are driving below the posted limit in the far-left lane of a freeway with two or more lanes in your direction, and a faster car comes up behind you. Outside a city or town, what does Nevada law require?",
+    "choices": [
+      "Stay in the left lane because you are not speeding",
+      "Move out of the far-left lane",
+      "Speed up to 10 mph over the limit",
+      "Brake to signal the driver to back off"
+    ],
+    "answer": 1,
+    "explanation": "On a controlled-access highway with two or more lanes in the same direction, you may not keep driving in the far-left lane below the posted limit while a faster vehicle is overtaking you from behind (NRS 484B.208).",
+    "difficulty": 2,
+    "ref": "NRS 484B.208; Nevada Driver’s Handbook, p. 47",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.049",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Nevada's rule against slow driving in the far-left lane does NOT apply when you are:",
+    "choices": [
+      "Preparing for a left turn at an intersection",
+      "Driving on a rural freeway",
+      "Driving at night",
+      "Driving a passenger car"
+    ],
+    "answer": 0,
+    "explanation": "Exceptions include overtaking, preparing for a left turn at an intersection, a lawful HOV lane, highway work, hazards or bad weather, police or traffic-control direction, emergency vehicles on duty, and driving within a city or town (NRS 484B.208).",
+    "difficulty": 3,
+    "ref": "NRS 484B.208; Nevada Driver’s Handbook, p. 47",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.050",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Where parallel parking is permitted, how close to a fire hydrant may you park in Nevada?",
+    "choices": [
+      "No closer than 10 feet",
+      "No closer than 15 feet",
+      "No closer than 20 feet",
+      "No closer than 30 feet"
+    ],
+    "answer": 1,
+    "explanation": "You may not park within 15 feet of a hydrant where parallel parking is permitted (NRS 484B.450). A 20-foot distance applies only where angle parking is permitted and a local ordinance requires it.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 50; NRS 484B.450",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.051",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Nevada's usual no-parking distance from a fire hydrant is 15 feet. When can the required distance be 20 feet?",
+    "choices": [
+      "Where angle parking is permitted and a local ordinance requires the greater distance",
+      "Whenever you park at night",
+      "On any state highway",
+      "Whenever the curb next to the hydrant is painted white"
+    ],
+    "answer": 0,
+    "explanation": "NRS 484B.450 sets 15 feet where parallel parking is permitted, or 20 feet where angle parking is permitted and a local ordinance requires the greater distance.",
+    "difficulty": 3,
+    "ref": "NRS 484B.450; Nevada Driver’s Handbook, p. 50",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.052",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Nevada, you may not park within how many feet of a crosswalk?",
+    "choices": [
+      "10 feet",
+      "15 feet",
+      "20 feet",
+      "30 feet"
+    ],
+    "answer": 2,
+    "explanation": "Parking is prohibited on a crosswalk or within 20 feet of a crosswalk.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 50",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.053",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How close to a traffic control signal at the side of a highway may you park in Nevada?",
+    "choices": [
+      "No closer than 15 feet",
+      "No closer than 20 feet",
+      "No closer than 30 feet",
+      "No closer than 50 feet"
+    ],
+    "answer": 2,
+    "explanation": "You may not park within 30 feet of a traffic control signal at the side of a highway.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 50",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.054",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You may not park within how many feet of the nearest rail of a railroad in Nevada?",
+    "choices": [
+      "15 feet",
+      "30 feet",
+      "50 feet",
+      "100 feet"
+    ],
+    "answer": 2,
+    "explanation": "Never park within 50 feet of the nearest rail. Don't confuse this with stopping at least 15 feet from the tracks when a train is coming.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 50",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.055",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You want to park across the street from a fire station entrance. How far from that entrance must you stay?",
+    "choices": [
+      "20 feet",
+      "50 feet",
+      "75 feet",
+      "100 feet"
+    ],
+    "answer": 2,
+    "explanation": "On the side of the highway opposite a fire station entrance, you may not park within 75 feet. On the same side, the limit is 20 feet from the driveway.",
+    "difficulty": 3,
+    "ref": "Nevada Driver’s Handbook, p. 50",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.056",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "When parallel parked at a curb in Nevada, your front and rear wheels must be within how far of the curb?",
+    "choices": [
+      "6 inches",
+      "12 inches",
+      "18 inches",
+      "24 inches"
+    ],
+    "answer": 2,
+    "explanation": "The legal parking position is with the front and rear wheels within 18 inches of the curb.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 48",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.057",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "What is the minimum fine in Nevada for parking in a space reserved for persons with disabilities without a valid placard or plate?",
+    "choices": [
+      "$100",
+      "$250",
+      "$500",
+      "$1,000"
+    ],
+    "answer": 1,
+    "explanation": "It is illegal for anyone else to park in spaces marked with the international symbol of access; the minimum fine is $250.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 50",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.058",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "In Nevada, what is the farthest you may travel in a center two-way left-turn lane before making your left turn?",
+    "choices": [
+      "50 feet",
+      "100 feet",
+      "200 feet",
+      "300 feet"
+    ],
+    "answer": 2,
+    "explanation": "You may not travel more than 200 feet in a center turn lane before turning left (NRS 484B.223).",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 32",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.059",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "After turning left from a driveway into a center turn lane, how far may you travel in that lane before merging into traffic in Nevada?",
+    "choices": [
+      "No more than 50 feet",
+      "No more than 100 feet",
+      "No more than 200 feet",
+      "As far as needed to reach the speed of traffic"
+    ],
+    "answer": 0,
+    "explanation": "After a left turn onto the highway, you may not travel more than 50 feet in the center lane before merging (NRS 484B.223).",
+    "difficulty": 3,
+    "ref": "Nevada Driver’s Handbook, p. 32",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.060",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "A pedestrian signal shows a flashing upraised hand with a countdown timer. What does Nevada allow the pedestrian to do?",
+    "choices": [
+      "Start crossing, but finish before the countdown reaches zero",
+      "Never start crossing",
+      "Cross only if a car stops",
+      "Wait for the timer to reach zero, then cross"
+    ],
+    "answer": 0,
+    "explanation": "With a flashing Don't Walk accompanied by a countdown timer, pedestrians may proceed but must complete the crossing before the countdown reaches zero.",
+    "difficulty": 3,
+    "ref": "Nevada Driver’s Handbook, p. 31",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.061",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "On a Nevada freeway, how may you enter or leave an HOV (carpool) lane?",
+    "choices": [
+      "Only where the line is broken white, never across a double solid white line",
+      "Anywhere, as long as you signal",
+      "Only across the double solid white line",
+      "Only at freeway exits"
+    ],
+    "answer": 0,
+    "explanation": "A double solid white line means you cannot cross to enter or exit the carpool lane; you can enter or exit where there is a broken white line.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 39",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.062",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "Which vehicle may NOT use a Nevada HOV lane, even with two or more people inside?",
+    "choices": [
+      "A motorcycle",
+      "A car with two adults",
+      "A pickup towing a trailer",
+      "An ambulance responding to an emergency"
+    ],
+    "answer": 2,
+    "explanation": "Vehicles with more than 2 axles, including vehicle-trailer combinations, are not eligible. Motorcycles and responding emergency vehicles are eligible.",
+    "difficulty": 3,
+    "ref": "Nevada Driver’s Handbook, p. 39",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.063",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "How many people must be in a vehicle to use a Nevada HOV lane?",
+    "choices": [
+      "1 or more",
+      "2 or more",
+      "3 or more",
+      "4 or more"
+    ],
+    "answer": 1,
+    "explanation": "Nevada HOV lanes require 2 or more persons per vehicle; hours vary by segment, so check the signs.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 39",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.064",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "You are carrying two people and reach a metered Nevada on-ramp with an HOV bypass lane marked with a diamond. What may you do?",
+    "choices": [
+      "Use the HOV bypass lane without stopping",
+      "Stop at the meter like everyone else",
+      "Drive on the shoulder past the meter",
+      "Use the bypass lane only at night"
+    ],
+    "answer": 0,
+    "explanation": "HOV bypass lanes at metered ramps are not metered; a carpool of two or more people may use them without stopping.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 37",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.065",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "A Nevada freeway ramp meter is switched on and shows red. What must you do?",
+    "choices": [
+      "Pull up to the stop line, stop, and wait for green",
+      "Slow down and merge if the freeway looks clear",
+      "Ignore it if traffic is light",
+      "Treat it like a yield sign"
+    ],
+    "answer": 0,
+    "explanation": "When ramp meters are on, pull up to the stop line and stop at a red light, then proceed and merge when it turns green. The signal changes faster than an intersection light.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 36",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.066",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "Since 2024, some Nevada highway shoulders are signed for use by certain emergency vehicles. What does the law say about ordinary drivers and such a shoulder?",
+    "choices": [
+      "They may not stop on a shoulder marked for emergency use",
+      "They may drive on it in heavy traffic",
+      "They may stop on it to make a phone call",
+      "They may use it to pass slower vehicles"
+    ],
+    "answer": 0,
+    "explanation": "Certain emergency vehicles may use signed paved shoulders. Drivers of non-emergency vehicles may not stop on a shoulder marked for emergency use (NRS 484B.210).",
+    "difficulty": 3,
+    "ref": "Nevada Driver’s Handbook, p. 61",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.067",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "When may you turn right on a red light in Nevada?",
+    "choices": [
+      "After a complete stop, unless a sign prohibits it",
+      "Without stopping if no cars are coming",
+      "Only when a green arrow is shown",
+      "Never in Nevada"
+    ],
+    "answer": 0,
+    "explanation": "Where not prohibited by signs, you may turn right on red after a complete stop, signaling and waiting until vehicle and pedestrian traffic is clear.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 30",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.068",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "When may you turn left on a red light in Nevada?",
+    "choices": [
+      "From a one-way street onto a one-way street with traffic moving left, after a complete stop",
+      "From any street, after a complete stop",
+      "From a two-way street onto a one-way street",
+      "Never"
+    ],
+    "answer": 0,
+    "explanation": "A left turn on red is allowed only from a one-way street onto another one-way street whose traffic moves to the left, after stopping and yielding.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 30",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.069",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "On Nevada city streets, how far ahead should you signal a turn?",
+    "choices": [
+      "At least 50 feet",
+      "At least 100 feet",
+      "At least 200 feet",
+      "At least 300 feet"
+    ],
+    "answer": 1,
+    "explanation": "Signal at least 100 feet ahead (about 10 car lengths) on city streets, or 300 feet (30 car lengths) on open highways.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 45",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.070",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You plan to change lanes on a Nevada freeway. How far ahead should you signal?",
+    "choices": [
+      "100 feet",
+      "200 feet",
+      "300 feet",
+      "500 feet"
+    ],
+    "answer": 2,
+    "explanation": "Signal 300 feet (30 car lengths) ahead on highways or freeways and 100 feet on city streets before changing lanes.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 46",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.071",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Where is a U-turn illegal in Nevada?",
+    "choices": [
+      "In a business district, except at an intersection or provided opening",
+      "Across a double yellow line when safe",
+      "At an intersection on a green light with no sign",
+      "Through an opening in a divided highway's center divider"
+    ],
+    "answer": 0,
+    "explanation": "U-turns are illegal in business districts (areas with churches, apartments and public buildings count), except at intersections or openings. The other options are legal U-turns.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 46",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.072",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You may NOT make a U-turn in Nevada where you cannot see clearly for how far in each direction?",
+    "choices": [
+      "100 feet",
+      "200 feet",
+      "300 feet",
+      "1,000 feet"
+    ],
+    "answer": 1,
+    "explanation": "Never make a U-turn where you cannot see clearly 200 feet in each direction because of a curve, hill, rain, fog or other reason.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 46",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.073",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "On a school day, children are present in an active Nevada school zone. May you make a U-turn there?",
+    "choices": [
+      "Yes, if no traffic is coming",
+      "No, U-turns are prohibited while the school zone is in effect and children are present",
+      "Yes, if you signal 100 feet ahead",
+      "Only at a marked crosswalk"
+    ],
+    "answer": 1,
+    "explanation": "Nevada law prohibits U-turns in school zones except when no children are present, school is not in session, or the zone is not in effect.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 33",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.074",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are stopped for a blind pedestrian using a white cane at a crosswalk. How should you position your car?",
+    "choices": [
+      "Stop no more than five feet from the crosswalk",
+      "Stop at least 20 feet back so the pedestrian has room",
+      "Stop in the middle of the crosswalk so they can touch the car",
+      "Keep rolling slowly so they can hear you"
+    ],
+    "answer": 0,
+    "explanation": "Do not stop more than five feet from the crosswalk; a blind or visually impaired pedestrian uses the sound of your engine as a guide.",
+    "difficulty": 3,
+    "ref": "Nevada Driver’s Handbook, p. 67",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.075",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A pedestrian with a guide dog is waiting at a Nevada crosswalk. Which action is correct?",
+    "choices": [
+      "Honk to let them know it is safe",
+      "Call out directions to help them cross",
+      "Stop, wait quietly, and give them time to decide whether to cross",
+      "Drive around them since they are not yet in the street"
+    ],
+    "answer": 2,
+    "explanation": "Yield and stop if necessary. Do not honk or give verbal directions; waiting 3-4 seconds is a good rule of thumb.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 67",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.076",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A pedestrian is in a crosswalk on the opposite half of the road but is approaching your half closely enough to be in danger. What must you do in Nevada?",
+    "choices": [
+      "Yield, slow down or stop for the pedestrian",
+      "Continue because the pedestrian is not in your half",
+      "Honk and continue",
+      "Only yield if there is a traffic signal"
+    ],
+    "answer": 0,
+    "explanation": "You must yield, slow or stop for a pedestrian in a crosswalk on your half of the road, or approaching so closely from the other half as to be in danger.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 66",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.077",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "At a \"T\" intersection with no painted lines, is there a crosswalk under Nevada's rules?",
+    "choices": [
+      "Yes, a crosswalk exists where two streets intersect, even if unmarked",
+      "No, crosswalks exist only where painted",
+      "Only if there is a traffic signal",
+      "Only near schools"
+    ],
+    "answer": 0,
+    "explanation": "A crosswalk exists anywhere two streets intersect, even at a \"T\" intersection, and even if it is not painted or marked.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 66",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.078",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "The car in the lane next to you slows and stops before an intersection. What does Nevada law say about passing it?",
+    "choices": [
+      "You may not pass until you slow down enough to see why it stopped",
+      "You may pass if your light is green",
+      "You may pass on the right only",
+      "You must honk before passing"
+    ],
+    "answer": 0,
+    "explanation": "It is illegal to overtake a vehicle that is slowing or stopped until you slow down enough to determine why it slowed or stopped. A pedestrian may be crossing.",
+    "difficulty": 3,
+    "ref": "Nevada Driver’s Handbook, p. 66",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.079",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A school crossing guard is in a Nevada school-zone crosswalk. When may you proceed?",
+    "choices": [
+      "When the guard is completely out of the crosswalk",
+      "As soon as the children reach the curb",
+      "When the guard reaches the far half of the road",
+      "When the guard lowers the sign"
+    ],
+    "answer": 0,
+    "explanation": "You must wait until the guard is completely out of the crosswalk. Disobeying a school crossing guard is a misdemeanor in Nevada.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 33",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.080",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "An ambulance with siren and flashing lights approaches from behind you near an intersection. What should you do in Nevada?",
+    "choices": [
+      "Stop immediately in the intersection",
+      "Drive to the right side of the road, clear of the intersection, and stop until it passes",
+      "Speed up to get out of the way",
+      "Pull to the left and keep driving"
+    ],
+    "answer": 1,
+    "explanation": "Immediately drive to the right side of the road, clear of any intersection, and stop until the emergency vehicle has passed. Never stop in an intersection.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 34",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.081",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You approach a tow truck stopped on the shoulder with its amber lights flashing. What does Nevada law (NRS 484B.607) require?",
+    "choices": [
+      "Slow to a reasonable and proper speed, be ready to stop, and if possible use a lane not next to it",
+      "Keep your speed and stay in your lane",
+      "Stop completely behind the tow truck",
+      "Honk to warn the tow operator"
+    ],
+    "answer": 0,
+    "explanation": "At a traffic incident such as a stopped tow car using flashing amber lights, slow to a reasonable and proper speed, proceed with caution, be prepared to stop, and if possible drive in a lane not adjacent to it.",
+    "difficulty": 2,
+    "ref": "NRS 484B.607; Nevada Driver’s Handbook, p. 61",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.082",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Which of these is covered by Nevada's rule to slow down and move over (NRS 484B.607)?",
+    "choices": [
+      "A garbage truck stopped on the roadway with flashing amber lights",
+      "A car parked legally in a marked parking space",
+      "A car waiting at a red light",
+      "A delivery van parked in a private driveway"
+    ],
+    "answer": 0,
+    "explanation": "The rule covers traffic incidents: stopped emergency vehicles with flashing lights, tow cars, NDOT or utility vehicles, any vehicle using flashing amber warning lights (such as a garbage truck), crash scenes, stalled vehicles, debris and people repairing a vehicle.",
+    "difficulty": 2,
+    "ref": "NRS 484B.607; Nevada Driver’s Handbook, p. 61",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.083",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Your crash was not investigated by police, but it caused $900 in damage. What must you do in Nevada?",
+    "choices": [
+      "Send a Report of Crash (SR-1) to the DMV within 10 days",
+      "Nothing, since no one was injured",
+      "Call the DMV within 30 days",
+      "Report it only to your insurance company"
+    ],
+    "answer": 0,
+    "explanation": "If a crash not investigated by law enforcement causes $750 or more in damage or any injury, the driver or registered owner must send an SR-1 to the DMV within 10 days.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 75",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.084",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "What dollar amount of damage requires a Nevada driver to file an SR-1 crash report when police did not investigate?",
+    "choices": [
+      "$500 or more",
+      "$750 or more",
+      "$1,000 or more",
+      "$2,500 or more"
+    ],
+    "answer": 1,
+    "explanation": "The threshold is $750 or more in damage, or anyone injured. The form is due within 10 days.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 75",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.085",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Your car stalls on railroad tracks in Nevada. After getting everyone out, what should you look for?",
+    "choices": [
+      "The Blue Emergency Notification System sign to notify the railroad",
+      "A yellow crossbuck to read the train schedule",
+      "The nearest fire hydrant",
+      "A green mile marker"
+    ],
+    "answer": 0,
+    "explanation": "Leave the vehicle immediately, find the Blue Emergency Notification System sign at the crossing, and notify the railroad and local law enforcement.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 33",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.086",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "If a train is coming, how far from the tracks must you stop in Nevada?",
+    "choices": [
+      "At least 5 feet",
+      "At least 10 feet",
+      "At least 15 feet",
+      "At least 50 feet"
+    ],
+    "answer": 2,
+    "explanation": "If a train is coming, you must stop at least 15 feet from the tracks.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 33",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.087",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When are headlights legally required in Nevada?",
+    "choices": [
+      "From sunset to sunrise only",
+      "From a half hour after sunset until a half hour before sunrise, and whenever you cannot see clearly at 1,000 feet",
+      "Only when it is raining",
+      "From an hour after sunset to an hour before sunrise"
+    ],
+    "answer": 1,
+    "explanation": "Headlights are required from a half hour after sunset until a half hour before sunrise, when light is insufficient, and whenever persons or vehicles cannot be seen clearly at 1,000 feet.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 56",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.088",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "How far ahead of an oncoming vehicle must you switch from high beams to low beams in Nevada?",
+    "choices": [
+      "At least 200 feet",
+      "At least 300 feet",
+      "At least 500 feet",
+      "At least 1,000 feet"
+    ],
+    "answer": 2,
+    "explanation": "Change to low beams at least 500 feet before oncoming vehicles and 300 feet before a vehicle you are following.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 56",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.089",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You are using high beams and catch up to a car ahead going the same way. In Nevada, within what distance must you dim?",
+    "choices": [
+      "100 feet",
+      "200 feet",
+      "300 feet",
+      "500 feet"
+    ],
+    "answer": 2,
+    "explanation": "Dim to low beams 300 feet before a vehicle you are following; the distance for oncoming vehicles is 500 feet.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 56",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.090",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When may studded snow tires be used in Nevada?",
+    "choices": [
+      "November 1 through March 31",
+      "October 1 through April 30",
+      "Any time of year",
+      "Only when chain controls are posted"
+    ],
+    "answer": 1,
+    "explanation": "Studded snow tires may only be used from October 1 through April 30. Retractable studs may be engaged only during those dates.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 57",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.091",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are passing a bicyclist on a Nevada road with only one lane in your direction. How much space must you give?",
+    "choices": [
+      "At least 2 feet",
+      "At least 3 feet",
+      "At least 5 feet",
+      "At least 6 feet"
+    ],
+    "answer": 1,
+    "explanation": "If there is no adjacent lane, pass to the left of the bicycle at a safe distance of at least three feet, and do not move back until safely clear.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 48",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.092",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a Nevada road with two lanes in your direction, how must you pass a bicyclist when it is reasonably safe?",
+    "choices": [
+      "Move into the lane to the left",
+      "Stay in your lane and give 3 feet",
+      "Honk and pass closely",
+      "Pass on the right"
+    ],
+    "answer": 0,
+    "explanation": "When more than one lane in the same direction exists, a motorist must move into the lane to the left if reasonably safe. The 3-foot rule applies when there is no adjacent lane.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 48",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.093",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "What charge may a Nevada driver face for causing even a minor collision with a bicyclist or pedestrian?",
+    "choices": [
+      "Reckless driving",
+      "Only a parking ticket",
+      "Failure to signal",
+      "No charge if the person is not hurt"
+    ],
+    "answer": 0,
+    "explanation": "Motorists who cause even a minor collision with a bicycle or pedestrian, or intentionally interfere with a bicycle, may be charged with reckless driving; penalties include license suspension.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 65",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.094",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A school bus stopped on the other side of a divided highway has flashing red lights. In Nevada, what must you do?",
+    "choices": [
+      "Stop until the lights go off",
+      "You are not required to stop, but proceed carefully",
+      "Stop only if children are crossing",
+      "Slow to 15 mph"
+    ],
+    "answer": 1,
+    "explanation": "On divided highways, you are only required to stop when traveling in the same direction as the school bus.",
+    "difficulty": 3,
+    "ref": "Nevada Driver’s Handbook, p. 64",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.095",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A school bus on a two-lane road ahead of you shows flashing red lights. When may you pass it in Nevada?",
+    "choices": [
+      "After the bus driver turns off the flashing red lights",
+      "After children are on the sidewalk",
+      "After stopping for 10 seconds",
+      "When the bus starts moving, even if the lights are on"
+    ],
+    "answer": 0,
+    "explanation": "NRS 484B.353 requires you to stop at any location for a bus with flashing red signals and not pass until the driver turns them off.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 64",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.096",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "May a 16-year-old ride in the bed of a pickup truck on a paved Nevada highway?",
+    "choices": [
+      "Yes, if the tailgate is closed",
+      "No, unless it is an authorized parade or farming/ranching use",
+      "Yes, if an adult rides with them",
+      "Yes, at speeds under 25 mph"
+    ],
+    "answer": 1,
+    "explanation": "Anyone under 18 may not ride in the bed of a pickup or flatbed truck on a paved highway, except in an authorized parade or while farming or ranching.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 66",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.097",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Under Nevada law, when must a moped operator ride in the extreme right-hand lane?",
+    "choices": [
+      "Always, unless there is a single lane, they are preparing a left turn, it is unsafe, or police direct otherwise",
+      "Only at night",
+      "Only on freeways",
+      "Never; mopeds may use any lane"
+    ],
+    "answer": 0,
+    "explanation": "Moped operators must stay in the extreme right-hand lane unless there is a single lane, they are preparing to turn left, the right lane is unsafe, or a police officer directs otherwise.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 64",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.098",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Which statement about mopeds in Nevada is correct?",
+    "choices": [
+      "They must be registered with the DMV but do not have to be insured",
+      "They do not need registration or insurance",
+      "They must be insured but not registered",
+      "Their riders do not need helmets"
+    ],
+    "answer": 0,
+    "explanation": "Moped owners must register mopeds with the DMV (a one-time fee) but are not required to insure them. Operators and passengers must wear helmets.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 64",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.099",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "In Nevada, may two motorcycles ride side by side in a single traffic lane?",
+    "choices": [
+      "Yes, with the consent of both riders, no more than two abreast",
+      "No, never",
+      "Yes, up to three abreast",
+      "Only on freeways"
+    ],
+    "answer": 0,
+    "explanation": "Per NRS 486.351(3), motorcycles and mopeds may, with the consent of the drivers, be operated no more than two abreast in a single lane.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 63",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.100",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "When may a Nevada motorist drive in a designated bicycle lane?",
+    "choices": [
+      "When entering or leaving an alley or driveway",
+      "When traffic in the regular lane is slow",
+      "To pass a car turning left",
+      "Any time no cyclists are present"
+    ],
+    "answer": 0,
+    "explanation": "Motorists may not stop, park or drive in a bike lane unless entering or leaving an alley or driveway, on official duty, directed by police, or in an emergency.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 65",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.101",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "How many demerit points does Nevada assign for impeding traffic by driving too slowly?",
+    "choices": [
+      "1",
+      "2",
+      "4",
+      "6"
+    ],
+    "answer": 1,
+    "explanation": "Impeding traffic or driving too slowly is a 2-point violation. On roads with two or more lanes in your direction, slower traffic must move right and let others pass.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, pp. 35, 78",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.car.102",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Under Nevada law, which of these is an illegal place to park?",
+    "choices": [
+      "Within an intersection",
+      "25 feet from a crosswalk",
+      "60 feet from the nearest rail of a railroad",
+      "40 feet from a traffic signal at the side of the road"
+    ],
+    "answer": 0,
+    "explanation": "Parking within an intersection is prohibited. The other spots are legal because the limits are 20 feet from a crosswalk, 50 feet from the nearest rail and 30 feet from a traffic signal.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 50; NRS 484B.450",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Does Nevada require motorcycle riders to wear a helmet?",
+    "choices": [
+      "Yes, all riders must wear a helmet",
+      "Only riders under 18",
+      "Only riders with an instruction permit",
+      "No, helmets are optional"
+    ],
+    "answer": 0,
+    "explanation": "Nevada requires motorcycle drivers and passengers to wear a securely fastened helmet (NRS 486.231). Moped operators and passengers must also wear helmets.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 18; NRS 486.231",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Is lane splitting (riding between lanes of moving or stopped vehicles) legal in Nevada?",
+    "choices": [
+      "No, only a police officer on duty may do it",
+      "Yes, at speeds under 30 mph",
+      "Yes, when traffic is stopped",
+      "Yes, on freeways only"
+    ],
+    "answer": 0,
+    "explanation": "NRS 486.351 says no one except a police officer performing official duty may ride a motorcycle or moped between vehicles in adjacent traffic lanes.",
+    "difficulty": 2,
+    "ref": "NRS 486.351(1)",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Which restriction applies to a Nevada motorcycle instruction permit holder?",
+    "choices": [
+      "Daylight riding only, no passengers, and no freeways",
+      "No riding after midnight",
+      "One passenger allowed if over 21",
+      "Freeway riding allowed with a supervisor"
+    ],
+    "answer": 0,
+    "explanation": "With a motorcycle instruction permit you may ride only in daylight, may not carry passengers, and may not ride on freeways or other high-speed roadways.",
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 18",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Who may supervise a Nevada motorcycle instruction permit holder?",
+    "choices": [
+      "A licensed motorcyclist at least 21 with one year of experience, riding a motorcycle",
+      "Any licensed driver following in a car",
+      "A licensed motorcyclist age 18 or older riding as a passenger",
+      "A parent who holds any class of license"
+    ],
+    "answer": 0,
+    "explanation": "The supervisor must have a valid motorcycle license, be at least 21, have at least one year of experience, and be riding a motorcycle; they may not supervise from a car or truck.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 18",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How long is a Nevada motorcycle instruction permit valid for an applicant age 18 or older?",
+    "choices": [
+      "Six months",
+      "One year",
+      "Two years",
+      "Until the next birthday"
+    ],
+    "answer": 0,
+    "explanation": "Applicants 18 or older get a permit valid for six months that may be renewed only once every five years. Applicants under 18 get a one-year permit.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 18",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What happens if you fail the DMV motorcycle skills test two or more times in Nevada?",
+    "choices": [
+      "You are permanently denied future motorcycle instruction permits",
+      "You must wait 30 days to retest",
+      "You must pay a $100 retest fee",
+      "You must retake the car knowledge test"
+    ],
+    "answer": 0,
+    "explanation": "Failing the DMV motorcycle skills test two or more times results in a permanent denial of future motorcycle instruction permits (NRS 483.280).",
+    "difficulty": 3,
+    "ref": "Nevada Driver’s Handbook, p. 18",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What is the minimum age for a Nevada motorcycle driver license?",
+    "choices": [
+      "15½",
+      "16",
+      "18",
+      "21"
+    ],
+    "answer": 1,
+    "explanation": "To get a Nevada motorcycle license you must be at least 16 and pass vision, general knowledge, motorcycle knowledge and skills (MOST) tests. Permits start at 15½.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 18",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What can substitute for the Nevada DMV motorcycle tests?",
+    "choices": [
+      "Passing an approved motorcycle safety course",
+      "Holding a car license for one year",
+      "Riding 50 supervised hours",
+      "Owning a registered motorcycle"
+    ],
+    "answer": 0,
+    "explanation": "Passing an approved motorcycle safety course may be substituted for the motorcycle tests.",
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 18",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A teen far from any driver's education school is getting a motorcycle license through 100 hours of riding experience. When must those hours be completed?",
+    "choices": [
+      "During daylight hours only",
+      "10 of them at night",
+      "Any time of day",
+      "Half in daylight and half at night"
+    ],
+    "answer": 0,
+    "explanation": "For a motorcycle license, all 100 hours of driving experience must be completed during daylight hours only.",
+    "difficulty": 3,
+    "ref": "Nevada Driver’s Handbook, p. 14",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.mc.010",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Your motorcycle has no windscreen. What eye protection does Nevada law require?",
+    "choices": [
+      "Protective glasses, goggles or a face shield",
+      "None; eye protection is only recommended",
+      "Eye protection only when it is raining",
+      "Eye protection only on freeways"
+    ],
+    "answer": 0,
+    "explanation": "NRS 486.231 requires motorcycle drivers and passengers to wear protective glasses, goggles or a face shield unless the motorcycle has a windscreen meeting state standards. The handbook's wording ('should') is softer than the law.",
+    "difficulty": 2,
+    "ref": "NRS 486.231; Nevada DMV, Motorcycles (dmv.nv.gov/motorcycle.htm)",
+    "states": [
+      "NV"
+    ]
+  },
+  {
+    "id": "nv.mc.011",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How is the Nevada written motorcycle knowledge test set up?",
+    "choices": [
+      "25 questions, 80% needed to pass",
+      "20 questions, 70% needed to pass",
+      "30 questions, 80% needed to pass",
+      "50 questions, 75% needed to pass"
+    ],
+    "answer": 0,
+    "explanation": "The written motorcycle knowledge test has 25 questions with an 80% passing score, and you must pass it before scheduling the skills test.",
+    "difficulty": 1,
+    "ref": "Nevada DMV, Motorcycles (dmv.nv.gov/motorcycle.htm)",
+    "states": [
+      "NV"
+    ]
+  }
+]

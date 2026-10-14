@@ -1,0 +1,906 @@
+{
+  "code": "NV",
+  "name": "Nevada",
+  "agency": {
+    "name": "Nevada Department of Motor Vehicles",
+    "abbreviation": "DMV",
+    "website": "https://dmv.nv.gov"
+  },
+  "handbook": {
+    "title": "Nevada Driver’s Handbook",
+    "edition": "DMV 700, March 2024",
+    "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf"
+  },
+  "knowledgeTest": {
+    "questions": 25,
+    "passingScore": 20,
+    "passingPercent": 80,
+    "roadSigns": null,
+    "timeLimitMinutes": null,
+    "format": "25 multiple-choice questions. In person: administered on touch-screen computers at a DMV office by appointment, no time limit. Online option through KnowTo Drive Nevada (computer with front-facing camera, 60-minute limit, touch-screen devices not supported).",
+    "languages": "In person: English, Spanish and audio format. Online: English and Spanish. Applicants with limited English or Spanish may use an approved interpreter (not a family member). The handbook adds that an oral examination may be requested.",
+    "retestWait": "If you fail, you can retake the test the next day; after a disqualification, after 24 hours. $25 initial testing fee; $10 for each retest. Passing results are valid for 1 year.",
+    "notes": "Same 25-question, 80% test for teens and adults. Teens: instruction permit at 15½ (parent/guardian co-signs; DMV-301 school attendance form required). Adults 18+ who have never been licensed in the U.S. must pass vision, knowledge and skills tests. Online testing is available 24/7 with no appointment; in-person written testing closes 30 minutes to 1 hour before the office closes.",
+    "sourceUrl": "https://dmv.nv.gov/wtestadult.htm"
+  },
+  "motorcycleTest": {
+    "questions": 25,
+    "passingScore": 20,
+    "passingPercent": 80,
+    "notes": "Written motorcycle knowledge test is 25 questions with an 80% passing score (20 correct computed) and must be passed before scheduling the skills test (MOST). Permit applicants also pass the general driver license knowledge test. Passing an approved motorcycle safety course may substitute for the motorcycle tests. Study the Nevada Motorcycle Operator Manual.",
+    "sourceUrl": "https://dmv.nv.gov/motorcycle.htm"
+  },
+  "cdlTest": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC",
+      "detail": "Nevada's illegal per se limit is .08% alcohol concentration; a chemical test at or above it revokes your driving privilege. You can still be arrested and convicted at a lower level.",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 79,
+        "quote": "Under Nevada’s Illegal Per Se Law, if chemical tests show an alcohol concentration of .08% or more or any detectable amount of a controlled substance, your driving privilege will be revoked."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% BAC",
+      "detail": "Drivers under 21 with an alcohol concentration of .02% but less than .08% lose their driving privilege; the per se action table lists a 185-day revocation.",
+      "number": 0.02,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 79,
+        "quote": "If you are under the age of 21 and a chemical test shows an alcohol concentration of .02%, but less than .08%, your driving privilege will be suspended."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC",
+      "detail": "Commercial driver license holders face per se action at .04% or more (driver license revoked for 185 days).",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 80,
+        "quote": ".08% alcohol concentration or detectable amount of controlled substance in your blood (or .04% or more but less than .08% if you hold a commercial driver license):"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusal: 1-year revocation (first offense)",
+      "detail": "Under the Implied Consent Law, refusing an officer-directed blood, breath or urine test revokes your privilege to drive for one year on a first offense, or three years if revoked for refusal in the prior seven years. An officer may also direct that blood be drawn.",
+      "number": 1,
+      "unit": "year",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 79,
+        "quote": "If you fail to submit to these tests, your license, permit or privilege to drive will be revoked pursuant to NRS 484C.220 and you will not be eligible for a license, permit or privilege to drive for a period of one year for first offense or three years if your driving privilege has been revoked in the prior seven years for failure to submit to the officer-directed tests."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "Revocation of at least 185 days; $400-$1,000 fine",
+      "detail": "First DUI: license revoked a minimum of 185 days, jail of two days to six months or 48 to 96 hours of community service, a $400 to $1,000 fine, and DUI school tuition.",
+      "number": 185,
+      "unit": "days",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 80,
+        "quote": "Driver license revoked for a minimum of 185 days which may include the time served in the administrative revocation at the judge’s discretion."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "open_container",
+      "value": "No opened alcohol in driver or passenger areas",
+      "detail": "It is illegal to have opened alcoholic beverages in the driver or passenger areas while the vehicle is being driven. Exceptions: living quarters of motor homes/house trailers and passenger areas of commercial buses, limousines and taxis.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 81,
+        "quote": "Nevada’s open container law makes it illegal to have alcoholic beverages which have been opened in the driver or passenger areas when a vehicle is being driven."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15½ years",
+      "detail": "You must be at least 15½ to get an instruction permit, and pass vision and knowledge tests. A Nevada instruction permit is valid for one year.",
+      "number": 15.5,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 15,
+        "quote": "Be at least 15½ years old;"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "6 months (under 18)",
+      "detail": "Applicants under 18 must hold an instruction permit for at least 6 months before applying for a driver license.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 15,
+        "quote": "If you are under the age of 18, you must hold an instruction permit for at least 6 months prior to applying for a driver license."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "50 hours, including 10 at night",
+      "detail": "Teens must log 50 hours of supervised driving (10 at night) on the Beginning Driver Experience Log (DLD-130). Teens more than 30 miles from a DMV-approved driver's ed school with no internet access instead complete 100 hours, 10 of them in the dark.",
+      "number": 50,
+      "unit": "hours",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 14,
+        "quote": "Nevada teens within a 30 miles of a DMV-approved driver’s education school are required to complete 50 hours of supervised experience behind the wheel, 10 of which must be completed at night."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Licensed driver 21+ with 1 year of experience, seated beside you",
+      "detail": "A Class C permit holder must be accompanied by a licensed driver who is at least 21, has at least one year of licensed driving experience, and sits beside the permit holder.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 15,
+        "quote": "When you are driving, you must be accompanied by a licensed driver who: • Is 21 years of age or older; • Has at least one year of licensed driving experience; and • Is seated beside you."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 years",
+      "detail": "A Nevada driver license can be issued at 16. Drivers licensed at 16 or 17 may not carry passengers under 18 (except immediate family) for the first 6 months, and minors may not drive 10 p.m.-5 a.m. except to or from a scheduled event.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 6,
+        "quote": "You must also be at least 16 years old and provide proof of your full legal name, age, Social Security Number if one has been issued to you, and Nevada residency."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "No driving 10 p.m. to 5 a.m. under 18 (except to/from a scheduled event)",
+      "detail": "Minors may not drive between 10 p.m. and 5 a.m. unless driving to or from a scheduled event. The curfew lasts until the driver turns 18.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 15,
+        "quote": "Additionally, a minor shall not operate a motor vehicle between the hours of 10 p.m. and 5 a.m. unless he/she is driving to or from a scheduled event."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "No passengers under 18 (except immediate family) for first 6 months",
+      "detail": "Drivers licensed at 16 or 17 may not carry passengers under 18, other than immediate family members, for the first 6 months.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 15,
+        "quote": "Applicants who are 16 or 17 years old when they receive their driver’s license will not be allowed to carry passengers under the age of 18 (except for immediate family members) for the first 6 months they drive per NRS 483.2523."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "18 years (curfew ends)",
+      "detail": "Teen restrictions end at 18: the 10 p.m.-5 a.m. curfew applies until the driver turns 18 no matter when the license was issued.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 15,
+        "quote": "This curfew remains in effect until the driver turns 18, regardless of when the driver license was issued."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "Handheld voice calls banned for all drivers (hands-free allowed)",
+      "detail": "Talking on a handheld phone while driving is prohibited unless a hands-free accessory is used. A device may be used to report an emergency when stopping would be inadvisable, impractical or dangerous.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 43,
+        "quote": "The use of a cellular phone or other handheld wireless communications device to engage in voice communications is prohibited unless the device is used with a hands-free accessory."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "texting_ban",
+      "value": "Texting, messaging and internet use banned for all drivers",
+      "detail": "Manually sending or reading messages, searching the internet or any non-voice communication on a handheld device is prohibited while driving.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 43,
+        "quote": "The use of a cellular phone or other handheld wireless communications device to manually send, read, search the Internet, or engage in non-voice communications with another person, including texting, electronic messaging and instant messaging is prohibited."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Driver and all passengers age 6 and older",
+      "detail": "The driver and every passenger age six and older must wear a safety belt if the vehicle is equipped with them.",
+      "number": 6,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 25,
+        "quote": "The driver and any passengers age six and older must wear safety belts if the vehicle is equipped with them."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Under 6 and under 57 inches: child restraint; under 2: rear-facing in back seat",
+      "detail": "A child under 6 who is also under 57 inches tall must ride in an approved child restraint system (NRS 484B.157). Children under 2 must ride rear-facing in the back seat. Violations can bring fines, community service and/or license suspension.",
+      "number": 57,
+      "unit": "inches",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 25,
+        "quote": "Children under age six and those who measure less than 57 inches tall must be in an approved child restraint system pursuant per NRS 484B.157."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Drive at a reasonable or proper speed for conditions",
+      "detail": "Nevada's Basic Rule requires a 'reasonable or proper' speed considering traffic, weather, visibility, road surface and road type. The safe speed may be well below the posted limit.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 35,
+        "quote": "Nevada has a Basic Rule for driving at a “reasonable or proper” speed."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "15 or 25 mph",
+      "detail": "School zone limits are 15 or 25 mph, in effect on school days from a half hour before school begins to a half hour after school ends unless otherwise posted.",
+      "number": 15,
+      "unit": "mph",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 33,
+        "quote": "In school zones, the speed limit is either 15 or 25 mph."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "25 mph",
+      "detail": "The handbook's speed examples list 25 mph for business and residential areas and school zones.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 35,
+        "quote": "25 mph ............. Business and residential areas and school"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "25 mph",
+      "detail": "The handbook's speed examples list 25 mph for business and residential areas.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 35,
+        "quote": "25 mph ............. Business and residential areas and school"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "65 mph",
+      "detail": "The handbook's speed examples list 65 mph for urban freeways and rural highways; 45 mph is typical for reduced-speed areas going into towns.",
+      "number": 65,
+      "unit": "mph",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 35,
+        "quote": "65 mph ............. Urban freeways, rural highways"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "80 mph",
+      "detail": "NDOT may set speed limits up to 80 mph on highways it maintains; the handbook lists 70+ mph for rural interstate freeways.",
+      "number": 80,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484B.html",
+        "page": null,
+        "quote": "the Department of Transportation may establish a speed limit on such highways not to exceed 80 miles per hour"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Do not drive so slowly that you block traffic; slower traffic keeps right",
+      "detail": "Driving too slowly can be unsafe. On roads with two or more lanes in the same direction, slower traffic must move right and let others pass. Impeding traffic/driving too slowly is a 2-point violation.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 35,
+        "quote": "When there are two or more lanes of traffic moving in the same direction, slower traffic must move to the right and allow other drivers to pass."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop unless a sign prohibits",
+      "detail": "Unless a sign prohibits it, you may turn right on red after a complete stop, signaling and waiting until vehicle and pedestrian traffic is clear.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 30,
+        "quote": "Where not prohibited by signs, a right turn may be made on a red light after coming to a complete stop."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Only from a one-way street onto a one-way street with traffic moving left",
+      "detail": "A left turn on red is allowed only from a one-way street onto another one-way street whose traffic moves to the left, after signaling, stopping completely and yielding.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 30,
+        "quote": "Drivers may make a left turn at a red light only when you are turning from a one-way street onto another one-way street that has traffic moving to the left."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "signal_distance",
+      "value": "100 feet in the city; 300 feet on open highways",
+      "detail": "Signal at least 100 feet (about 10 car lengths) before turning on city streets, or 300 feet (30 car lengths) on open highways. The same distances apply to lane changes.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 45,
+        "quote": "Signal your turn at least 100 feet ahead (about 10 car lengths) on city streets or 300 feet (30 car lengths) on open highways."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the right, clear of intersections, and stop",
+      "detail": "Yield to emergency vehicles using a siren or flashing lights: drive immediately to the right side of the road, clear of any intersection, and stop until the vehicle passes. (NRS 484B.710 separately bars following fire apparatus answering an alarm closer than 500 feet.)",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 34,
+        "quote": "You must immediately drive to the right side of the road, clear of any intersection, and stop until the emergency vehicle has passed."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "move_over_law",
+      "value": "Slow to a reasonable and proper speed, be ready to stop, and if possible use a non-adjacent lane",
+      "detail": "When approaching a traffic incident - such as a stopped emergency vehicle with flashing lights, a tow car, NDOT, utility or other vehicle using flashing amber or non-flashing blue lights, a crash scene, a stalled vehicle, debris, or a person repairing a vehicle - slow to a reasonable and proper speed, proceed with caution, be prepared to stop, and if possible drive in a lane not adjacent to the incident unless that is unsafe or impossible (NRS 484B.607).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484B.html",
+        "page": null,
+        "quote": "Decrease the speed of the vehicle to a speed that is reasonable and proper, pursuant to the criteria set forth in subsection 1 of NRS 484B.600"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop for flashing red lights; divided highway: only same direction stops",
+      "detail": "You must stop at any location for a school bus displaying flashing red signals and not pass until the lights are turned off. On divided highways only traffic traveling in the same direction as the bus must stop.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 64,
+        "quote": "There is one exception to this rule: on divided highways, you are only required to stop when you are traveling in the same direction as the school bus."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "following_distance",
+      "value": "At least 2 seconds (40 mph or less); up to 4 recommended",
+      "detail": "At 40 mph or less stay at least two seconds behind the vehicle ahead; this is a minimum, and most instructors recommend up to four seconds. Increase it at higher speeds or in bad conditions.",
+      "number": 2,
+      "unit": "seconds",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 42,
+        "quote": "If you are driving 40 mph or less, stay at least two seconds behind the vehicle in front of you."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "headlights_required",
+      "value": "Half hour after sunset to half hour before sunrise; when visibility under 1,000 feet",
+      "detail": "Headlights are required from a half hour after sunset until a half hour before sunrise, when there is insufficient light, whenever persons or vehicles cannot be clearly seen at 1,000 feet, and when directed by a traffic control device.",
+      "number": 1000,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 56,
+        "quote": "Whenever persons or vehicles cannot be clearly seen at a distance of 1,000 feet."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "500 feet",
+      "detail": "Switch to low beams when at least 500 feet from an oncoming vehicle.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 56,
+        "quote": "Change to low beams when you are at least 500 feet before any oncoming vehicles and 300 feet before any vehicle you are following."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "300 feet",
+      "detail": "Switch to low beams when within 300 feet of a vehicle you are following.",
+      "number": 300,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 56,
+        "quote": "Change to low beams when you are at least 500 feet before any oncoming vehicles and 300 feet before any vehicle you are following."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet (20 feet where angle parking is permitted and a local ordinance requires it)",
+      "detail": "No stopping, standing or parking within 15 feet of a fire hydrant where parallel parking is permitted. Where angle parking is permitted, the distance is 20 feet if a local ordinance requires the greater distance (NRS 484B.450).",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484B.html",
+        "page": null,
+        "quote": "Within 15 feet of a fire hydrant in a place where parallel parking is permitted, or within 20 feet of a fire hydrant if angle parking is permitted and a local ordinance requires the greater distance"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "20 feet",
+      "detail": "No parking on a crosswalk or within 20 feet of a crosswalk.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 50,
+        "quote": "On a crosswalk or within 20 feet of a crosswalk"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Not within an intersection",
+      "detail": "Parking within an intersection is prohibited; the crosswalk rule (20 feet) also applies at intersections.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 50,
+        "quote": "Within an intersection"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet of a traffic control signal",
+      "detail": "No parking within 30 feet of a traffic control signal at the side of a highway. The handbook gives no separate stop-sign distance.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 50,
+        "quote": "Within 30 feet of a traffic control signal at the side of a highway"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet",
+      "detail": "No parking within 50 feet of the nearest rail of a railroad.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 50,
+        "quote": "Within 50 feet of the nearest rail of a railroad"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet (75 feet across the street)",
+      "detail": "No parking within 20 feet of a fire station driveway entrance, or within 75 feet of the entrance on the opposite side of the highway.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 50,
+        "quote": "Within 20 feet of a driveway entrance to any fire station and, on the side of a highway opposite the entrance to any fire station, within 75 feet of that entrance"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "Within 18 inches",
+      "detail": "When parallel parking, the front and rear wheels must be within 18 inches of the curb.",
+      "number": 18,
+      "unit": "inches",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 48,
+        "quote": "The legal parking position is with the front and rear wheels within 18 inches of the curb."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "At least 15 feet from the tracks",
+      "detail": "If a train is coming, stop at least 15 feet from the tracks. Buses and trucks carrying flammable or dangerous materials must always stop.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 33,
+        "quote": "If a train is coming, drivers must stop at least 15 feet from the tracks."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "Change lanes if possible; otherwise at least 3 feet",
+      "detail": "When passing a cyclist, move into the lane to the left if one exists and it is reasonably safe; otherwise pass at least three feet to the left and do not move back until safely clear.",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 48,
+        "quote": "If an adjacent lane does not exist, pass to the left of the bicycle at a safe distance, which must be at least three feet."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Yield to pedestrians in your half of the road or approaching closely",
+      "detail": "Drivers must yield, slow or stop for a pedestrian in a crosswalk on their half of the road (or the half they are turning onto) or approaching closely from the other half. A crosswalk exists at every intersection, even if unmarked or at a T intersection.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 66,
+        "quote": "The driver of a vehicle shall yield the right-of-way, slow down or stop for a pedestrian crossing the highway within a crosswalk when the pedestrian is upon the half of the highway upon which the vehicle is traveling or onto which the vehicle is turning, or when the pedestrian is approaching so closely from the opposite half of the highway as to be in danger."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "crash_reporting",
+      "value": "SR-1 within 10 days if $750+ damage or injury (crash not investigated by police)",
+      "detail": "If a crash is not investigated by law enforcement and causes $750 or more in damage or any injury, the driver or registered owner must send a Report of Crash (SR-1) to the DMV within 10 days.",
+      "number": 750,
+      "unit": "dollars",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 75,
+        "quote": "If you are in a crash that is not investigated by law enforcement and the crash causes $750 or more in damages or anyone is injured, you must complete and send a Report of Crash Form (SR-1) within 10 days to:"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "25/50/20",
+      "detail": "Minimum liability: $25,000 bodily injury/death of one person, $50,000 for two or more persons, $20,000 property damage. Proof of insurance must be in the vehicle or shown electronically.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 75,
+        "quote": "The minimum coverage is $25,000 for bodily injury or death of one person in any one crash; $50,000 for bodily injury or death of two or more persons in any one crash; and $20,000 for injury to or destruction of property of others in any one crash."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "point_system",
+      "value": "12 points in 12 months = suspension",
+      "detail": "Demerit points are counted over 12 months; 12 or more points in any 12-month period suspends your license. With 3-11 points, a DMV-approved traffic safety course removes 3 points (once per 12 months).",
+      "number": 12,
+      "unit": "points",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 77,
+        "quote": "If you receive 12 or more points in any 12-month period, your license will be suspended."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Helmet required for all riders",
+      "detail": "Motorcycle riders must wear a helmet; NRS 486.231 applies the helmet requirement to both driver and passenger and also requires protective glasses, goggles or a face shield unless the motorcycle has a qualifying windscreen. Moped operators and passengers must also wear helmets.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 18,
+        "quote": "When driving your motorcycle, you are required to wear a helmet."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Prohibited",
+      "detail": "Lane splitting is illegal: no one except a police officer on duty may ride a motorcycle or moped between vehicles in adjacent lanes. Two motorcycles may ride abreast in one lane with both riders' consent.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.leg.state.nv.us/nrs/nrs-486.html",
+        "page": null,
+        "quote": "A person, except a police officer in the performance of his or her duty, shall not drive a motorcycle or moped between moving or stationary vehicles occupying adjacent traffic lanes."
+      },
+      "status": "verified"
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Center turn lane distance limits",
+      "summary": "You may not travel more than 200 feet in a center two-way left-turn lane before turning left, or more than 50 feet in it after turning onto the highway before merging. It may not be used for passing.",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 32,
+        "quote": "Drivers may not travel more than 200 feet in a center turn lane before making a left-hand turn and they may not travel more than 50 feet in a center lane after making a left-hand turn onto the highway before merging with traffic per NRS 484B.223 (3)."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Slow driving in the far-left lane",
+      "summary": "On a controlled-access highway (freeway) with two or more marked lanes in the same direction, you may not keep driving in the far-left lane below the posted limit when a faster vehicle is overtaking you from behind. Exceptions include overtaking, preparing for a left turn at an intersection, a lawful HOV lane, highway work, traffic, weather or hazards, police or traffic-control direction, emergency vehicles on duty, and driving within a city or town (NRS 484B.208).",
+      "source": {
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484B.html",
+        "page": null,
+        "quote": "on a controlled-access highway which has two or more clearly marked lanes for traveling in the same direction, a driver may not continue to operate a motor vehicle in the extreme left lane if the driver knows, or reasonably should know, that he or she is traveling at a rate of speed which is less than the posted speed limit for that portion of the controlled-access highway and is being overtaken in that lane from the rear by a motor vehicle traveling at a higher rate of speed."
+      },
+      "status": "corrected"
+    },
+    {
+      "title": "Marijuana and driving",
+      "summary": "Driving while under the influence of marijuana or any controlled substance is DUI, and being legally entitled to use the drug is no defense. The handbook cites blood limits of 2 ng/mL of marijuana (5 ng/mL of marijuana metabolite), but under current NRS 484C.110(4) those per se limits apply only to felony-level DUI cases (a third offense within 7 years, a prior felony DUI, or DUI causing death or substantial bodily harm).",
+      "source": {
+        "url": "https://www.leg.state.nv.us/nrs/nrs-484C.html",
+        "page": null,
+        "quote": "For any violation that is punishable pursuant to paragraph (c) of subsection 1 of NRS 484C.400 or NRS 484C.410, 484C.430 or 484C.440, it is unlawful for any person to drive or be in actual physical control of a vehicle on a highway or on premises to which the public has access with an amount of any of the following prohibited substances in his or her blood that is equal to or greater than:"
+      },
+      "status": "corrected"
+    },
+    {
+      "title": "School zone hours and U-turns",
+      "summary": "School zone limits apply on school days from a half hour before school begins to a half hour after it ends unless otherwise posted; U-turns in school zones are prohibited while the zone is in effect and children are present. Violating a school crossing guard's direction is a misdemeanor.",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 33,
+        "quote": "These speed limits are in effect on school days from a half hour before school begins to a half hour after school ends, unless otherwise posted."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "No minors in pickup beds",
+      "summary": "Anyone under 18 may not ride in the bed of a pickup or flatbed truck on a paved highway, except in an authorized parade or while farming or ranching.",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 66,
+        "quote": "Anyone under the age of 18 may not ride on the bed of a flatbed truck or within the bed of a pickup truck in Nevada if the truck is being driven on a paved highway."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Studded snow tire season",
+      "summary": "Studded snow tires may only be used from October 1 through April 30; retractable studs may be engaged only during those dates.",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 57,
+        "quote": "Studded snow tires may only be used from October 1 through April 30."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Unattended children and pets",
+      "summary": "Never leave a child 7 or younger unattended in a vehicle when conditions pose a significant risk unless supervised by someone at least 12; leaving a dog or cat in a vehicle in extreme heat or cold is illegal.",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 25,
+        "quote": "Never leave a child aged 7 or younger unattended in a vehicle if the conditions present a significant risk to the health and safety of that child unless the child is being supervised by and is within sight of a person at least 12 years old."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Hitting a pedestrian or cyclist can be reckless driving",
+      "summary": "A motorist who causes even a minor collision with a bicycle or pedestrian, or intentionally interferes with a bicycle, may be charged with reckless driving (8 demerit points), with license suspension among the penalties.",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 65,
+        "quote": "Motorists who cause even a minor collision with a bicycle or pedestrian or who intentionally interfere with the movement of a bicycle may be charged with reckless driving."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Blind or visually impaired pedestrians",
+      "summary": "A pedestrian using a white cane or guide animal has the right-of-way at all times; drivers must yield and stop if necessary. Do not stop more than five feet from the crosswalk, honk, or give verbal directions.",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 67,
+        "quote": "Do not stop your car more than five feet from the crosswalk."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Work zone fines double",
+      "summary": "Speeding fines double in work zones. Black-and-white speed signs are regulatory; orange speed signs are advisory.",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 60,
+        "quote": "Fines for speeding double in work zones!"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Teen license: clean record for six months",
+      "summary": "Minors must be free of at-fault crashes, moving violation convictions and alcohol/drug convictions for six months before receiving a driver license.",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 14,
+        "quote": "Minors must also remain free of any at-fault crashes, moving violation convictions and any type of alcohol or drug conviction for six months prior to receiving a driver’s license."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "HOV lanes",
+      "summary": "Nevada HOV lanes require 2+ persons per vehicle (motorcycles eligible; vehicles with more than 2 axles are not). Enter or exit only where the line is broken white; a double solid white line may not be crossed.",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 39,
+        "quote": "A double solid white line means that you cannot cross the lines to enter or exit the car pool lane."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "New residents: 30 days to get a Nevada license",
+      "summary": "Drivers moving to Nevada from another state must apply for a Nevada driver license within 30 days after becoming a resident.",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 6,
+        "quote": "Drivers moving into Nevada from another state must apply for a license within 30 days after becoming a resident."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Report address or name changes within 30 days",
+      "summary": "You must notify the DMV of any address or name change within 30 days (online, in person or by mail).",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 19,
+        "quote": "Under Nevada law, you are required to notify the DMV of any address or name change within 30 days."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "U-turn restrictions",
+      "summary": "U-turns are generally allowed when safe, but never where you cannot see 200 feet in each direction, in business districts (except at intersections or openings), on one-way streets, at railroad crossings, in front of a fire station, or near a grade with less than 500 feet of visibility.",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 46,
+        "quote": "Where you cannot see clearly 200 feet in each direction because of a curve, hill, rain, fog, or other reason."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Disabled parking fine",
+      "summary": "Only a vehicle carrying or driven by the holder of a valid disabled placard or plate may use spaces marked with the international symbol of access; the minimum fine for violating this is $250.",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 50,
+        "quote": "It is illegal for anyone else to park in spaces marked by this symbol. The minimum fine for doing so is $250."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Moped rules",
+      "summary": "Mopeds (max 2 brake horsepower, 30 mph) must stay in the extreme right-hand lane except on single-lane roads, when preparing a left turn, when unsafe, or when directed by police. They must be registered (one-time fee) but need not be insured; operators and passengers must wear helmets.",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 64,
+        "quote": "Moped owners must register their mopeds with the DMV but are not required to insure their vehicles."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Motorcycles two abreast",
+      "summary": "Motorcycles and mopeds may ride no more than two abreast in a single lane, and only with the consent of both riders (NRS 486.351(3)).",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 63,
+        "quote": "Motorcycles and mopeds may, with the consent of the drivers, be operated no more than two abreast in a single traffic lane."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Emergency-use highway shoulders",
+      "summary": "Since January 1, 2024, certain emergency vehicles (police, fire, ambulances, incident-management vehicles, tow cars, coroner vehicles, transit buses) may use paved shoulders where signs authorize it; other drivers may not stop on a shoulder marked for emergency use (NRS 484B.210).",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 61,
+        "quote": "Drivers of non-emergency vehicles may not stop on a shoulder marked to allow emergency use."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Report drunk drivers with *NHP",
+      "summary": "Report a suspected drunk driver or any highway emergency from a cell phone anywhere in Nevada by dialing *NHP (*647).",
+      "source": {
+        "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+        "page": 81,
+        "quote": "You can report a suspected drunk driver or any highway emergency on a cellular phone anywhere in Nevada by dialing *NHP (*647)."
+      },
+      "status": "verified"
+    }
+  ],
+  "officialPracticeTests": [
+    "https://dmv.nv.gov/dlquiz.htm"
+  ],
+  "gaps": [
+    "novice_phone_ban: the handbook and NRS 484B.165 contain no extra phone restriction for teen/novice drivers; the all-driver handheld and texting ban applies.",
+    "speed_limit_interstate_max: handbook lists only '70+ mph' for rural interstate freeways; the 80 mph maximum comes from NRS 484B.613.",
+    "motorcycle_lane_splitting: not in the driver handbook; sourced from NRS 486.351(1).",
+    "parking_intersection: handbook/NRS 484B.450 prohibit parking within an intersection but give no separate distance (20-foot crosswalk rule applies).",
+    "parking_stop_sign_signal: only a 30-foot rule for traffic control signals is stated; no stop-sign distance.",
+    "emergency_vehicles: handbook gives no following distance; NRS 484B.710 prohibits following fire apparatus answering an alarm closer than 500 feet.",
+    "knowledgeTest.timeLimitMinutes: in-person test has no time limit; online (KnowTo Drive) test has a 60-minute limit.",
+    "motorcycle eye protection: handbook p.18 says riders without a windshield 'should' wear a face shield or goggles; NRS 486.231(2)-(3) and dmv.nv.gov/motorcycle.htm make eye protection mandatory unless the motorcycle has a qualifying windscreen.",
+    "marijuana per se: handbook p.79 states a general 2 ng/mL marijuana (5 ng/mL metabolite) limit for all drivers, but NRS 484C.110(4) (amended 2021) applies those limits only to felony-level DUI (NRS 484C.400(1)(c), 484C.410, 484C.430, 484C.440); ordinary DUI for marijuana is 'under the influence' (NRS 484C.110(2)). Law entry corrected to the statute.",
+    "move_over_law: handbook p.61 says to slow to a speed 'less than the posted speed limit'; the current codified NRS 484B.607(1)(a) only requires a 'reasonable and proper' speed under NRS 484B.600(1). Fact corrected to the statute.",
+    "Far-left lane rule: handbook p.47 describes 'a highway that has two lanes traveling in the same direction'; current NRS 484B.208 applies to controlled-access highways with two or more marked lanes and adds HOV-lane and highway-work exceptions. Law entry corrected to the statute.",
+    "parking_fire_hydrant: handbook p.50 states 20 feet where angle parking is permitted; NRS 484B.450(1)(d) applies the 20-foot distance only if a local ordinance requires the greater distance. Fact corrected to the statute.",
+    "NRS 484B.450(1)(n) also bars parking within 5 feet of a public or private driveway (not in the handbook); not added as a fact."
+  ]
+}
