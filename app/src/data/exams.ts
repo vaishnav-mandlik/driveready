@@ -32,6 +32,8 @@ export function getExamConfigs(track: TrackId, state: StateCode): ExamConfig[] {
         questions: e.questions,
         passingScore: e.passingScore,
         timeLimitMinutes: e.timeLimitMinutes,
+        signs: e.signs ?? null,
+        rulesPassingScore: e.rulesPassingScore ?? null,
         notes: e.notes,
         sourceUrl: e.sourceUrl,
       },

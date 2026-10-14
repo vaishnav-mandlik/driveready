@@ -77,6 +77,16 @@ export function ExamIntroScreen({navigation, route}: RootScreenProps<'ExamIntro'
           <Big value={`${Math.round((exam.passingScore / Math.max(1, exam.questions)) * 100)}%`} label="passing score" />
           {exam.timeLimitMinutes ? <Big value={`${exam.timeLimitMinutes}m`} label="time limit" /> : null}
         </View>
+        {exam.signs ? (
+          <View style={[styles.row, {gap: spacing.sm, marginTop: spacing.lg}]}>
+            <Icon name="signpost" size={18} color={colors.warning} />
+            <Text variant="bodyStrong" style={styles.flex}>
+              {exam.signs.questions} road-sign questions
+              {exam.signs.passingScore !== null ? ` — you must get ${exam.signs.passingScore} right` : ''}
+              {exam.rulesPassingScore != null ? `, and ${exam.rulesPassingScore} of ${exam.questions - exam.signs.questions} on the rules part` : ''}.
+            </Text>
+          </View>
+        ) : null}
         {exam.notes ? (
           <Text variant="caption" color="textMuted" style={{marginTop: spacing.lg}}>
             {exam.notes}

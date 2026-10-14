@@ -179,6 +179,70 @@ describe('scoring', () => {
   });
 });
 
+describe('sectioned exams (NY/IL/GA/NC style)', () => {
+  const sectioned = () => ({
+    ...getExamConfig('car', 'CA'),
+    questions: 10,
+    passingScore: 7,
+    signs: {questions: 2, passingScore: 2},
+    rulesPassingScore: null,
+  });
+
+  test('signs part comes first and is sized from the config', () => {
+    const exam = sectioned();
+    const bank = getBank('car', 'CA');
+    const s = buildSession({mode: 'exam'}, ctx({exam}));
+    expect(s.signsCount).toBe(2);
+    expect(s.questionIds.slice(0, 2).every(id => !!bank.byId.get(id)!.sign)).toBe(true);
+    expect(s.questionIds.slice(2).every(id => !bank.byId.get(id)!.sign)).toBe(true);
+  });
+
+  test('passing overall but failing the signs part is a fail', () => {
+    const exam = sectioned();
+    const bank = getBank('car', 'CA');
+    const s = buildSession({mode: 'exam'}, ctx({exam}));
+    const right = (i: number) => bank.byId.get(s.questionIds[i])!.answer;
+    const wrong = (i: number) => (right(i) + 1) % bank.byId.get(s.questionIds[i])!.choices.length;
+    s.answers = s.questionIds.map((_, i) => (i === 0 ? wrong(i) : right(i)));
+    const r = scoreSession(s, bank, NOW);
+    expect(r.correct).toBe(9);
+    expect(r.sections).toEqual({signs: {correct: 1, total: 2, need: 2}, rules: {correct: 8, total: 8, need: null}});
+    expect(r.passed).toBe(false);
+    expect(examDecided(s, bank)).toBe('fail');
+    s.answers[0] = right(0);
+    expect(scoreSession(s, bank, NOW).passed).toBe(true);
+  });
+
+  test('a separately scored rules part must also be passed', () => {
+    const exam = {...sectioned(), rulesPassingScore: 7};
+    const bank = getBank('car', 'CA');
+    const s = buildSession({mode: 'exam'}, ctx({exam}));
+    const right = (i: number) => bank.byId.get(s.questionIds[i])!.answer;
+    const wrong = (i: number) => (right(i) + 1) % bank.byId.get(s.questionIds[i])!.choices.length;
+    s.answers = s.questionIds.map((_, i) => (i >= 2 && i < 4 ? wrong(i) : right(i)));
+    const r = scoreSession(s, bank, NOW);
+    expect(r.sections!.rules).toEqual({correct: 6, total: 8, need: 7});
+    expect(r.passed).toBe(false);
+  });
+
+  test('readiness accounts for the signs part', () => {
+    const bank = getBank('car', 'CA');
+    const stats: Record<string, QStat> = {};
+    for (const q of bank.questions) {
+      let st = applyAnswer(undefined, true, NOW);
+      st = applyAnswer(st, true, NOW);
+      st = applyAnswer(st, true, NOW);
+      stats[q.id] = st;
+    }
+    for (const q of bank.signQuestions) {
+      stats[q.id] = applyAnswer(stats[q.id], false, NOW); // weak on signs
+    }
+    const plain = computeReadiness(bank, stats, {...sectioned(), signs: null});
+    const withSigns = computeReadiness(bank, stats, sectioned());
+    expect(withSigns.passProbability).toBeLessThan(plain.passProbability);
+  });
+});
+
 describe('readiness', () => {
   test('binomial tail is correct at edges and a known value', () => {
     expect(binomialAtLeast(10, 0, 0.5)).toBe(1);

@@ -21,7 +21,12 @@
     "languages": "Multiple languages. The DMV permit-test page lists 20: English, Albanian, Arabic, Bengali, Bosnian, Chinese, French, Greek, Haitian Creole, Hebrew, Italian, Japanese, Korean, Nepali, Polish, Russian, Spanish, Turkish, Urdu and Yiddish. The high-school OKTA test is in English and Spanish only.",
     "retestWait": "No waiting period is stated for an in-office retest (the DMV page says if you do not pass you can try again). The DMV online permit test page says a failed online test can be retaken after at least 6 hours.",
     "notes": "Handbook p. 10: 'you must correctly answer at least 14 of the 20 questions asked, but you must correctly answer two of the four questions about road signs.' Same written test for Class D, DJ, M, MJ and E. The DMV online permit test page states its pass mark as at least 80% of all questions and 50% of the road-sign questions. OKTA is available to students at least 15 years 11 months old; a learner permit itself is issued at 16. The minimum age is the same for all applicants; under-18 applicants get a junior (DJ) permit with regional time/supervision restrictions.",
-    "sourceUrl": "https://dmv.ny.gov/driver-license/prepare-for-and-take-your-permit-test"
+    "sourceUrl": "https://dmv.ny.gov/driver-license/prepare-for-and-take-your-permit-test",
+    "signs": {
+      "questions": 4,
+      "passingScore": 2
+    },
+    "rulesPassingScore": null
   },
   "motorcycleExam": {
     "questions": 20,
@@ -710,5 +715,5 @@
   "officialPracticeTests": [
     "https://dmv.ny.gov/new-york-state-drivers-manual-practice-tests"
   ],
-  "verifiedOn": "2026-10-13"
+  "verifiedOn": "2026-10-14"
 }

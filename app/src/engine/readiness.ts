@@ -135,7 +135,25 @@ export function computeReadiness(bank: Bank, stats: Record<string, QStat>, exam:
   const p = total ? kSum / total : 0;
   const n = Math.min(exam.questions, Math.max(1, total));
   const need = Math.ceil((exam.passingScore * n) / Math.max(1, exam.questions));
-  const passProbability = total ? binomialAtLeast(n, need, p) : 0;
+  let passProbability = total ? binomialAtLeast(n, need, p) : 0;
+
+  // Sectioned exams (NY, IL, GA, NC): the road-signs part must also be passed on its own.
+  if (total && exam.signs && !exam.topic) {
+    const topicPrior = new Map(topicRows.map(t => [t.topic, 0.35 + 0.5 * (t.accuracy ?? 0.5)]));
+    const avgK = (qs: Question[]) =>
+      qs.length ? qs.reduce((sum, q) => sum + knowledge(stats[q.id], topicPrior.get(q.topic) ?? 0.6), 0) / qs.length : p;
+    const signsQs = pool.filter(q => !!q.sign);
+    const rulesQs = pool.filter(q => !q.sign);
+    const signsN = Math.min(exam.signs.questions, Math.max(1, signsQs.length));
+    const pSigns = exam.signs.passingScore === null ? 1 : binomialAtLeast(signsN, Math.min(exam.signs.passingScore, signsN), avgK(signsQs));
+    if (exam.rulesPassingScore != null) {
+      const rulesN = Math.max(1, exam.questions - exam.signs.questions);
+      const pRules = binomialAtLeast(rulesN, Math.min(exam.rulesPassingScore, rulesN), avgK(rulesQs));
+      passProbability = pSigns * pRules;
+    } else {
+      passProbability *= pSigns;
+    }
+  }
   const coverage = total ? seen / total : 0;
   const practiced = topicRows.filter(t => t.seen > 0);
   const weakest = (practiced.length ? practiced : topicRows).reduce<TopicReadiness | null>(

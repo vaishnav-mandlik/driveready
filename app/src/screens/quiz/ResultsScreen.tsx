@@ -136,6 +136,38 @@ export function ResultsScreen({navigation, route}: RootScreenProps<'Results'>) {
         <StatTile label="Wrong" value={String(result.wrong)} icon="circle-x" tone="danger" />
         <StatTile label="Time" value={formatDuration(result.durationSec)} icon="clock" tone="primary" />
       </View>
+      {result.sections ? (
+        <Card style={{marginTop: spacing.md, gap: spacing.sm}}>
+          <Text variant="label" color="textMuted">
+            Test parts
+          </Text>
+          {(
+            [
+              ['Road signs', result.sections.signs],
+              ['Rules of the road', result.sections.rules],
+            ] as const
+          ).map(([label, sec]) => {
+            const ok = sec.need === null || sec.correct >= sec.need;
+            return (
+              <View key={label} style={[styles.row, {gap: spacing.sm}]}>
+                <Icon name={ok ? 'circle-check' : 'circle-x'} size={18} color={ok ? colors.success : colors.danger} />
+                <Text variant="body" style={styles.flex}>
+                  {label}
+                </Text>
+                <Text variant="bodyStrong">
+                  {sec.correct}/{sec.total}
+                  {sec.need !== null ? ` (need ${sec.need})` : ''}
+                </Text>
+              </View>
+            );
+          })}
+          {result.passed === false && result.passingScore !== null && result.correct >= result.passingScore ? (
+            <Text variant="caption" color="danger">
+              Your overall score was high enough, but each part must be passed on its own.
+            </Text>
+          ) : null}
+        </Card>
+      ) : null}
       {result.skipped > 0 && isExam ? (
         <Text variant="caption" color="textMuted" style={{marginTop: spacing.sm}}>
           {result.skipped} unanswered question{result.skipped === 1 ? '' : 's'} counted as wrong.

@@ -152,10 +152,20 @@ export interface NotableLaw {
   source: SourceRef;
 }
 
+/** A separately scored road-signs part of a knowledge test (e.g. NY: 2 of 4; GA: 15 of 20). */
+export interface SignsSection {
+  questions: number;
+  /** Minimum correct in this part; null = counted only toward the overall score. */
+  passingScore: number | null;
+}
+
 export interface ExamFormat {
   questions: number;
   passingScore: number;
   passingPercent: number;
+  signs?: SignsSection | null;
+  /** Minimum correct on the non-sign (rules) part when it is scored separately (GA, NC). */
+  rulesPassingScore?: number | null;
   timeLimitMinutes: number | null;
   roadSigns: string | null;
   format: string | null;
@@ -245,6 +255,9 @@ export interface ExamConfig {
   questions: number;
   passingScore: number;
   timeLimitMinutes: number | null;
+  /** Separately scored road-signs part, if the state has one. */
+  signs?: SignsSection | null;
+  rulesPassingScore?: number | null;
   /** Shown on the exam intro screen (format, signs section, source...). */
   notes: string;
   sourceUrl?: string;

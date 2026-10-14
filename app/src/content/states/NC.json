@@ -12,16 +12,21 @@
     "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf"
   },
   "exam": {
-    "questions": 40,
-    "passingScore": 32,
-    "passingPercent": 80,
+    "questions": 52,
+    "passingScore": 41,
+    "passingPercent": 78.8,
     "timeLimitMinutes": null,
     "roadSigns": "Separate traffic-sign recognition test: Class C applicants must correctly identify 9 of 12 road signs (Class A/B: all signs) by color and shape and explain each (19A NCAC 03B .0201; NCDMV Driver License Tests page).",
     "format": "Automated computer knowledge test on traffic laws and safe-driving practice, taken at a driver license office (walk-ins or appointments at skiptheline.ncdot.gov), plus separate traffic-signs and vision tests; an on-road driving test is required for a first license but not for a learner permit.",
     "languages": "NCDMV says the written knowledge test is offered in different languages (specific languages not listed); oral/audio tests are available on request for applicants who have difficulty reading.",
     "retestWait": "Applicants who fail the knowledge test or driving test for a regular Class C license may retake it in seven calendar days.",
     "notes": "The number of knowledge-test questions is not published on the NCDMV pages checked; 80% correct is required to pass under 19A NCAC 03B .0201 (NC Administrative Code, published by the NC Office of Administrative Hearings, reports.oah.state.nc.us). Teens 15-17 must complete driver education (30 hours classroom + 6 hours behind the wheel) and apply for a Level 1 Limited Learner Permit with a parent or guardian present for the written, sign and vision tests; Level 2 requires age 16, 9 months on Level 1, and a 60-hour log (10 at night). Adults 18+ may apply directly for a license or first get a learner permit. Effective Oct. 1, 2026, the Driving Eligibility Certificate requirement was eliminated (SL 2026-46). License renewals and transfers from other states (valid or expired under 2 years) require only the signs and vision tests. The official site does not publish the number of questions; this practice exam uses 40 questions at the official 80% passing standard.",
-    "sourceUrl": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/driver-license-tests.aspx"
+    "sourceUrl": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/driver-license-tests.aspx",
+    "signs": {
+      "questions": 12,
+      "passingScore": 9
+    },
+    "rulesPassingScore": 32
   },
   "motorcycleExam": null,
   "cdlExam": null,

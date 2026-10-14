@@ -20,6 +20,8 @@ const now = new Date();
 const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
 
 const wanted = process.argv.slice(2).map(s => s.toUpperCase());
+const SECTIONS_FILE = join(FACTS, 'exam-sections.json');
+const SECTIONS = existsSync(SECTIONS_FILE) ? JSON.parse(readFileSync(SECTIONS_FILE, 'utf8')) : {};
 const files = existsSync(FACTS)
   ? readdirSync(FACTS).filter(f => /^[A-Z]{2}\.json$/.test(f) && (!wanted.length || wanted.includes(f.slice(0, 2))))
   : [];
@@ -77,6 +79,21 @@ function special(t) {
   return out.questions || out.passingPercent ? JSON.parse(JSON.stringify(out)) : null;
 }
 
+function withSections(code, e) {
+  const sec = SECTIONS[code];
+  if (!sec) {
+    return e;
+  }
+  return {
+    ...e,
+    questions: sec.questions,
+    passingScore: sec.passingScore,
+    passingPercent: Math.round((sec.passingScore / sec.questions) * 1000) / 10,
+    signs: sec.signs,
+    rulesPassingScore: sec.rulesPassingScore ?? null,
+  };
+}
+
 let written = 0;
 for (const f of files) {
   const code = f.slice(0, 2);
@@ -99,7 +116,7 @@ for (const f of files) {
     name: r.name,
     agency: r.agency,
     handbook: {title: r.handbook?.title ?? 'Driver Handbook', edition: r.handbook?.edition ?? '', url: r.handbook?.url ?? ''},
-    exam: exam(r.knowledgeTest, 'Some test details could not be confirmed; check your state agency before test day.'),
+    exam: withSections(code, exam(r.knowledgeTest, 'Some test details could not be confirmed; check your state agency before test day.')),
     motorcycleExam: special(r.motorcycleTest),
     cdlExam: special(r.cdlTest),
     facts,

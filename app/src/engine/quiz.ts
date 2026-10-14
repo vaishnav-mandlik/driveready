@@ -60,6 +60,8 @@ export interface QuizSession {
   marathonBase: {correct: number; wrong: number; startedAt: number} | null;
   /** Survival mode: wrong answers allowed before the run ends (null = unlimited). */
   lives: number | null;
+  /** Sectioned exams (NY, IL, GA, NC): the first `signsCount` questions are the road-signs part. */
+  signsCount: number | null;
 }
 
 export interface BuildContext {
@@ -145,10 +147,28 @@ function pickAdaptive(pool: Question[], count: number, stats: Record<string, QSt
 }
 
 /** Real-test-like mix: ~20% sign questions, up to ~30% state-specific, the rest general. */
-function pickExam(bank: Bank, exam: ExamConfig, rng: Rng): Question[] {
+function pickExam(bank: Bank, exam: ExamConfig, rng: Rng): {questions: Question[]; signsCount: number | null} {
   const n = exam.questions;
   if (exam.topic) {
-    return sample(bank.byTopic.get(exam.topic) ?? [], n, rng);
+    return {questions: sample(bank.byTopic.get(exam.topic) ?? [], n, rng), signsCount: null};
+  }
+  if (exam.signs && exam.track === 'car') {
+    // Separately scored road-signs part first (like the real test), then the rules part.
+    const signsPart = sample(bank.signQuestions, exam.signs.questions, rng);
+    const used = new Set(signsPart.map(q => q.id));
+    const rulesN = n - signsPart.length;
+    const stateRules = sample(
+      bank.stateSpecific.filter(q => !q.sign),
+      Math.round(rulesN * 0.35),
+      rng,
+    );
+    stateRules.forEach(q => used.add(q.id));
+    const general = sample(
+      bank.questions.filter(q => !q.sign && !used.has(q.id)),
+      rulesN - stateRules.length,
+      rng,
+    );
+    return {questions: [...signsPart, ...shuffle([...stateRules, ...general], rng)], signsCount: signsPart.length};
   }
   const signs = exam.track === 'car' ? bank.signQuestions : [];
   const stateQs = bank.stateSpecific.filter(q => !q.sign);
@@ -167,7 +187,7 @@ function pickExam(bank: Bank, exam: ExamConfig, rng: Rng): Question[] {
     ...take(stateQs, Math.round(n * 0.3)),
   ];
   picked.push(...take(bank.questions, n - picked.length));
-  return shuffle(picked, rng);
+  return {questions: shuffle(picked, rng), signsCount: null};
 }
 
 export function buildSession(spec: QuizSpec, ctx: BuildContext): QuizSession {
@@ -179,12 +199,15 @@ export function buildSession(spec: QuizSpec, ctx: BuildContext): QuizSession {
   let mKey: string | null = null;
   let startIndex = 0;
   let marathonBase: QuizSession['marathonBase'] = null;
+  let signsCount: number | null = null;
 
   switch (spec.mode) {
     case 'exam': {
       exam = ctx.exam ?? null;
       if (exam) {
-        questions = pickExam(bank, exam, rng);
+        const picked = pickExam(bank, exam, rng);
+        questions = picked.questions;
+        signsCount = picked.signsCount;
       }
       break;
     }
@@ -292,6 +315,7 @@ export function buildSession(spec: QuizSpec, ctx: BuildContext): QuizSession {
     startIndex,
     marathonBase,
     lives: spec.mode === 'survival' ? SURVIVAL_LIVES : null,
+    signsCount,
   };
 }
 
@@ -329,7 +353,50 @@ export interface SessionResult {
   byTopic: Partial<Record<TopicId, [number, number]>>;
   wrongIds: string[];
   durationSec: number;
+  /** Sectioned exams only. `need` null = no separate minimum for that part. */
+  sections: {signs: SectionScore; rules: SectionScore} | null;
 }
+
+export interface SectionScore {
+  correct: number;
+  total: number;
+  need: number | null;
+}
+
+/** Correct answers inside [from, to) of the session. */
+function correctIn(session: QuizSession, bank: Bank, from: number, to: number): {correct: number; wrong: number} {
+  let correct = 0;
+  let wrong = 0;
+  for (let i = from; i < to; i++) {
+    const a = session.answers[i];
+    if (a === null) {
+      continue;
+    }
+    if (a === bank.byId.get(session.questionIds[i])?.answer) {
+      correct++;
+    } else {
+      wrong++;
+    }
+  }
+  return {correct, wrong};
+}
+
+function sectionScores(session: QuizSession, bank: Bank): {signs: SectionScore; rules: SectionScore} | null {
+  if (session.signsCount === null || !session.exam) {
+    return null;
+  }
+  const total = session.questionIds.length;
+  const k = session.signsCount;
+  const needSigns = session.exam.signs?.passingScore ?? null;
+  const needRules = session.exam.rulesPassingScore ?? null;
+  return {
+    signs: {correct: correctIn(session, bank, 0, k).correct, total: k, need: needSigns === null ? null : Math.min(needSigns, k)},
+    rules: {correct: correctIn(session, bank, k, total).correct, total: total - k, need: needRules === null ? null : Math.min(needRules, total - k)},
+  };
+}
+
+const sectionsPassed = (s: {signs: SectionScore; rules: SectionScore} | null) =>
+  !s || ((s.signs.need === null || s.signs.correct >= s.signs.need) && (s.rules.need === null || s.rules.correct >= s.rules.need));
 
 export function scoreSession(session: QuizSession, bank: Bank, now: number = Date.now()): SessionResult {
   let correct = 0;
@@ -357,6 +424,7 @@ export function scoreSession(session: QuizSession, bank: Bank, now: number = Dat
   });
   const total = session.questionIds.length;
   const passingScore = session.passingScore;
+  const sections = sectionScores(session, bank);
   return {
     total,
     answered,
@@ -364,11 +432,12 @@ export function scoreSession(session: QuizSession, bank: Bank, now: number = Dat
     wrong: answered - correct,
     skipped: total - answered,
     percent: total ? Math.round((correct / total) * 100) : 0,
-    passed: passingScore === null ? null : correct >= passingScore,
+    passed: passingScore === null ? null : correct >= passingScore && sectionsPassed(sections),
     passingScore,
     byTopic,
     wrongIds,
     durationSec: Math.round(((session.finishedAt ?? now) - session.startedAt) / 1000),
+    sections,
   };
 }
 
@@ -390,11 +459,24 @@ export function examDecided(session: QuizSession, bank: Bank): 'pass' | 'fail' |
       wrong++;
     }
   });
-  if (correct >= session.passingScore) {
-    return 'pass';
+  const total = session.questionIds.length;
+  const sections = sectionScores(session, bank);
+  if (sections && session.signsCount !== null) {
+    const k = session.signsCount;
+    const signsWrong = correctIn(session, bank, 0, k).wrong;
+    const rulesWrong = correctIn(session, bank, k, total).wrong;
+    if (
+      (sections.signs.need !== null && signsWrong > sections.signs.total - sections.signs.need) ||
+      (sections.rules.need !== null && rulesWrong > sections.rules.total - sections.rules.need)
+    ) {
+      return 'fail';
+    }
   }
-  if (wrong > session.questionIds.length - session.passingScore) {
+  if (wrong > total - session.passingScore) {
     return 'fail';
+  }
+  if (correct >= session.passingScore && sectionsPassed(sections)) {
+    return 'pass';
   }
   return null;
 }
