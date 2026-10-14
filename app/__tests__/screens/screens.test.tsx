@@ -33,6 +33,7 @@ import {FlashcardsScreen} from '../../src/screens/signs/FlashcardsScreen';
 import {LearnScreen} from '../../src/screens/learn/LearnScreen';
 import {LessonScreen} from '../../src/screens/learn/LessonScreen';
 import {CheatSheetScreen} from '../../src/screens/learn/CheatSheetScreen';
+import {FactCardsScreen} from '../../src/screens/learn/FactCardsScreen';
 import {ExamInfoScreen} from '../../src/screens/learn/ExamInfoScreen';
 import {ProgressScreen} from '../../src/screens/progress/ProgressScreen';
 import {ExamHistoryScreen} from '../../src/screens/progress/ExamHistoryScreen';
@@ -71,6 +72,7 @@ const CASES: [string, AnyScreen, object | undefined, RegExp][] = [
   ['Learn', LearnScreen, undefined, /cheat sheet/i],
   ['Lesson', LessonScreen, {lessonId: 't.lesson.signs'}, /Key points/],
   ['CheatSheet', CheatSheetScreen, undefined, /Verified against the official handbook/],
+  ['FactCards', FactCardsScreen, undefined, /Tap to flip/],
   ['ExamInfo', ExamInfoScreen, undefined, /Test format/],
   ['Progress', ProgressScreen, undefined, /Topic mastery/],
   ['ExamHistory', ExamHistoryScreen, undefined, /No exams yet/],

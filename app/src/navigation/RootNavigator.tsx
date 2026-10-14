@@ -29,6 +29,7 @@ import {FlashcardsScreen} from '../screens/signs/FlashcardsScreen';
 import {LearnScreen} from '../screens/learn/LearnScreen';
 import {LessonScreen} from '../screens/learn/LessonScreen';
 import {CheatSheetScreen} from '../screens/learn/CheatSheetScreen';
+import {FactCardsScreen} from '../screens/learn/FactCardsScreen';
 import {ExamInfoScreen} from '../screens/learn/ExamInfoScreen';
 import {ProgressScreen} from '../screens/progress/ProgressScreen';
 import {ExamHistoryScreen} from '../screens/progress/ExamHistoryScreen';
@@ -113,6 +114,7 @@ export function RootNavigator() {
             <Stack.Screen name="Flashcards" component={FlashcardsScreen} options={{title: 'Sign Flashcards'}} />
             <Stack.Screen name="Lesson" component={LessonScreen} options={{title: ''}} />
             <Stack.Screen name="CheatSheet" component={CheatSheetScreen} options={{title: 'State Cheat Sheet'}} />
+            <Stack.Screen name="FactCards" component={FactCardsScreen} options={{title: 'Numbers to Know'}} />
             <Stack.Screen name="ExamInfo" component={ExamInfoScreen} options={{title: 'About Your Test'}} />
             <Stack.Screen name="ExamHistory" component={ExamHistoryScreen} options={{title: 'Exam History'}} />
             <Stack.Screen name="Achievements" component={AchievementsScreen} options={{title: 'Achievements'}} />

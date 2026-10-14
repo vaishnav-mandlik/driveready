@@ -110,8 +110,10 @@ export function CheatSheetScreen({navigation}: RootScreenProps<'CheatSheet'>) {
       ) : null}
 
       <View style={{gap: spacing.md, marginTop: spacing.xl}}>
+        <Button title="Memorize with flashcards" icon="layers" onPress={() => navigation.navigate('FactCards')} fullWidth />
         <Button
           title="Share cheat sheet"
+          variant="outline"
           icon="share"
           onPress={() =>
             Share.share({

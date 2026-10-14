@@ -30,6 +30,7 @@ export type RootStackParamList = {
   Flashcards: {category?: SignCategory | 'all'};
   Lesson: {lessonId: string};
   CheatSheet: undefined;
+  FactCards: undefined;
   ExamInfo: undefined;
   Search: undefined;
   QuestionList: {kind: 'bookmarks' | 'mistakes'};

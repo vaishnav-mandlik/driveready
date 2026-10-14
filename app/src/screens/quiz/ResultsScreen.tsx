@@ -90,6 +90,8 @@ export function ResultsScreen({navigation, route}: RootScreenProps<'Results'>) {
     .filter(([, v]) => v && v[1] > 0)
     .sort((a, b) => a[1][0] / a[1][1] - b[1][0] / b[1][1]);
 
+  const weakestTopic = topics.find(([, [c, n]]) => n >= 2 && c / n < 0.8)?.[0];
+
   const share = () =>
     Share.share({
       message: isExam
@@ -235,6 +237,15 @@ export function ResultsScreen({navigation, route}: RootScreenProps<'Results'>) {
 
       <View style={{gap: spacing.md, marginTop: spacing.xl}}>
         <Button title="Review answers" variant="secondary" icon="list-checks" onPress={() => navigation.navigate('Review', {sessionId: session.id})} fullWidth testID="results-review" />
+        {weakestTopic ? (
+          <Button
+            title={`Practice your weakest topic: ${getTopic(weakestTopic)?.title ?? topicTitle(weakestTopic)}`}
+            variant="outline"
+            icon="target"
+            onPress={() => navigation.replace('Topic', {topic: weakestTopic})}
+            fullWidth
+          />
+        ) : null}
         {result.wrongIds.length ? (
           <Button
             title={`Retry ${result.wrongIds.length} missed question${result.wrongIds.length === 1 ? '' : 's'}`}

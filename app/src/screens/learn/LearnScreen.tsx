@@ -54,6 +54,21 @@ export function LearnScreen({navigation}: TabScreenProps<'Learn'>) {
         ) : null}
       </Card>
 
+      {stateInfo.facts.length ? (
+        <Card style={{marginTop: spacing.md}} onPress={() => navigation.navigate('FactCards')} accessibilityLabel="Numbers to know flashcards">
+          <View style={[styles.row, {gap: spacing.md}]}>
+            <IconTile name="layers" color={hueAt(colors, 3)} size={44} />
+            <View style={styles.flex}>
+              <Text variant="bodyStrong">Numbers to know</Text>
+              <Text variant="caption" color="textMuted">
+                Flashcards of {stateInfo.name}'s distances, ages, limits and penalties
+              </Text>
+            </View>
+            <Icon name="chevron-right" color="textFaint" />
+          </View>
+        </Card>
+      ) : null}
+
       <Card style={{marginTop: spacing.md}} onPress={() => navigation.navigate('ExamInfo')} accessibilityLabel="About your test">
         <View style={[styles.row, {gap: spacing.md}]}>
           <IconTile name="info" color={hueAt(colors, 5)} size={44} />
