@@ -38,14 +38,17 @@ _Updated 2026-10-14._
 
 ### Done
 - **App**: all 31 screens, 78 Jest tests passing, signed release APK verified on an Android 16 emulator.
-- **Top 10 states complete & verified** (facts w/ page + verbatim quote, official test format, ~110 state
-  questions each): CA, TX, FL, NY, PA, IL, OH, GA, NC, MI. Formats: CA 80%, TX 70% (counts unpublished → 40-Q
+- **States complete & verified** (facts w/ page + verbatim quote, official test format, ~110 state questions
+  each): top 10 = CA, TX, FL, NY, PA, IL, OH, GA, NC, MI; plus WA, MA, TN, IN, MO (15 total).
+  NY/IL/GA/NC exams are sectioned (separately scored road-signs part) — see research/facts/exam-sections.json. Formats: CA 80%, TX 70% (counts unpublished → 40-Q
   practice exam), FL 50/40, NY 20/14 (+2 of 4 signs), PA 18/15, IL 35/28, OH 40/30, GA 2×20 (15 each),
   NC 40/32, MI teen Segment 1 exam 80 Q @70%.
 - **Universal car bank** 748 Q (reviewed against all handbooks); **motorcycle** 292 Q (MSF manual, reviewed);
   **CDL General Knowledge** 252 Q (AAMVA manual, reviewed).
 - **Signs**: 132 in-app (MUTCD + app-drawn signals/markings/hand signals); remaining MUTCD SVGs downloading.
-- **Extra features**: State Laws mode, survival, speed round, driving log, share cheat sheet, road-test guide.
+- **Extra features**: State Laws mode, "Numbers to know" fact flashcards, test-ready checklist, weakest-topic
+  practice after results, sectioned exams, survival, speed round, driving log, share cheat sheet, road-test guide.
+- **Lessons**: 30 (14 car topics + road test, 7 motorcycle, 8 CDL), all fact-checked. **Sign questions**: 166.
 
 ### In progress
 - CDL modules: air brakes, combination, hazmat, tanker, doubles/triples, passenger, school bus (`bank-builder.js`).
@@ -56,8 +59,9 @@ _Updated 2026-10-14._
 2. Motorcycle + CDL lessons (`lessons.js`).
 3. Play release prep: AAB (`./gradlew bundleRelease`), screenshots (emulator), host privacy policy, Play Console
    (owner's account), 12-tester closed test.
-4. Remaining 41 states in batches of 4 (`state-content-v2.js`; handbooks for AL AK AZ AR CO MT NE NV NH NJ NM
-   are already in research/handbooks).
+4. Remaining 36 jurisdictions in batches of 4 (`state-content-v2.js`), population order. In progress: NJ VA AZ,
+   MD WI CO MN. Then: SC AL LA KY · OR OK CT UT · IA NV AR KS · MS NM NE ID · WV HI NH ME · MT RI DE SD · ND AK DC VT · WY.
+   Use `EXCLUDE_STATES=XX,YY node scripts/build-content-index.mjs` to keep unverified states out of the app index.
 5. iOS (needs Xcode + iOS native module).
 
 ## 4. How content is produced (pipeline)
