@@ -20,7 +20,7 @@
         {"type": "bullets", "items": [
           "Compressed air carries water and oil that collect in the tanks. Water can freeze and cause brake failure.",
           "With manual drains, drain the tanks yourself at the end of each day of driving.",
-          "An alcohol evaporator puts alcohol into the air to reduce ice in cold weather. Check and fill it every day in cold weather. It does not remove water and oil, so you still drain the tanks daily.",
+          "An alcohol evaporator puts alcohol into the air to reduce ice in cold weather. Check and fill it every day in cold weather. It does not remove water and oil, so you still drain the tanks daily (unless they have automatic drains).",
           "Don't fan the brakes (press and release over and over) without need. Each release lets air out, and pressure can drop faster than the compressor refills it."
         ]}
       ]
@@ -43,11 +43,11 @@
           ["Supply pressure gauge", "Shows the pressure in the air tanks. Dual systems have one gauge per half, or one gauge with two needles."],
           ["Application pressure gauge", "Shows the pressure being applied to the brakes. Not on all vehicles."],
           ["Low air pressure warning", "Must come on before tank pressure falls below 55 psi (half of cut-out on older vehicles). Usually a red light, sometimes with a buzzer. On large buses it often signals at 80 to 85 psi."],
-          ["Wig wag", "A mechanical arm that drops into view below 55 psi. A manual-reset type won't stay up until pressure is above 55 psi."],
+          ["Wig wag", "A mechanical arm that drops into view below 55 psi. An automatic type rises out of view above 55 psi. A manual-reset type must be put out of view by hand, and it won't stay there until pressure is above 55 psi."],
           ["Stop light switch", "An electric switch worked by air pressure turns on the brake lights."]
         ]},
         {"type": "p", "text": "If you need more and more application pressure to hold the same speed on a downgrade, the brakes are fading. Slow down and use a lower gear. Rising application pressure can also mean brakes out of adjustment, air leaks or mechanical problems."},
-        {"type": "tip", "text": "Some pre-1975 vehicles have a front brake limiting valve with a \"slippery\" setting that halves front braking. Keep it on \"normal\". Front wheel braking is good in all conditions, even on ice. Automatic limiting valves reduce front air except when you brake very hard (55 psi or more)."}
+        {"type": "tip", "text": "Some pre-1975 vehicles have a front brake limiting valve with a \"slippery\" setting that halves front braking. Keep it on \"normal\". Front wheel braking is good in all conditions, even on ice. Automatic front limiting valves reduce front air except when you brake very hard (55 psi or more application pressure). The driver can't control them."}
       ]
     },
     {
@@ -76,6 +76,7 @@
         {"type": "p", "text": "A dual air system is two separate air brake systems, each with its own tanks, hoses and lines, sharing one set of controls. One usually runs the rear axle brakes. The other runs the front axle brakes (and maybe one rear axle). Both supply air to a trailer."},
         {"type": "bullets", "items": [
           "Before driving, let the compressor build at least 100 psi in both the primary and secondary systems.",
+          "The low air warning should go off once both systems rise above the maker's setting (which must be over 55 psi). It must come on before either system drops below 55 psi.",
           "If one system gets very low, either the front or rear brakes won't work fully and stops take longer. Stop safely and get it fixed."
         ]},
         {"type": "table", "rows": [
@@ -100,13 +101,13 @@
           "Hoses to the brake chambers: no cuts or wear from rubbing."
         ]},
         {"type": "table", "rows": [
-          ["Build-up rate (dual)", "85 to 100 psi within 45 seconds at operating rpm"],
+          ["Build-up rate (dual)", "85 to 100 psi within 45 seconds at operating rpm (larger-than-minimum tanks may take longer; check the maker's specs)"],
           ["Build-up rate (older single, pre-1975)", "50 to 90 psi within 3 minutes at 600 to 900 rpm"],
-          ["Governor cut-out", "Run at fast idle; the gauge should stop rising at the maker's cut-out pressure"],
-          ["Leak, brakes released, engine off", "Under 2 psi in 1 minute (single); under 3 psi (combination)"],
+          ["Governor cut-out and cut-in", "Run at fast idle: pumping should stop at about the maker's cut-out (about 125 psi) and the gauge stops rising. Then, at idle, step on and off the brake: pumping should restart at about the cut-in (about 100 psi)."],
+          ["Leak, brakes released, engine off", "Fully charged system, parking brake released: less than 2 psi lost in 1 minute (single); less than 3 psi (combination)"],
           ["Leak, foot brake held 1 minute", "No more than 3 psi (single); 4 psi (combination). Start timing after the gauge settles from the first drop."],
           ["Low air warning", "Engine off, key on, fan the brakes. It must come on before 55 psi (in the lowest tank on dual systems)."],
-          ["Spring brakes", "Keep fanning. The parking valve should pop out at the maker's setting, 20 to 45 psi. On a tractor-trailer the trailer air supply valve pops out at the same time or before."],
+          ["Spring brakes", "Keep fanning. The parking valve should pop out at the maker's setting, 20 to 45 psi. On a tractor-trailer, the tractor protection (trailer air supply) valve should pop out at the same time as the tractor's parking brake valve, or before it."],
           ["Parking brake", "Set it and gently pull against it in a low gear"],
           ["Service brakes", "Move forward at about 5 mph and brake firmly. Note pulling, odd feel or slow stopping."]
         ]},
@@ -125,7 +126,7 @@
         ]},
         {"type": "table", "rows": [
           ["Controlled braking", "Brake as hard as you can without locking the wheels, with small steering moves. For a bigger steering move or if wheels lock, release, then reapply as soon as you can."],
-          ["Stab braking", "Brake fully, release when wheels lock, reapply fully when they roll again. Wait up to 1 second, or the vehicle won't straighten out."]
+          ["Stab braking", "Brake fully, release when wheels lock, reapply fully when they roll again. It can take up to 1 second for the wheels to start rolling again; if you reapply before they roll, the vehicle won't straighten out."]
         ]},
         {"type": "p", "text": "Brake lag is the time air takes to flow through the lines after you press the pedal, a half second or more. Total stopping distance = perception + reaction + brake lag + braking distance. At 55 mph on dry pavement, lag adds about 32 feet, for a total of over 450 feet."},
         {"type": "bullets", "items": [
@@ -153,7 +154,7 @@
     "Spring brakes come on at 20 to 45 psi, and they don't work on every axle.",
     "Drain manual air tanks at the end of every driving day.",
     "Slack adjuster movement over about 1 inch means adjustment is needed; out-of-adjustment brakes are the top roadside defect.",
-    "Leak limits: released 2/3 psi per minute, applied 3/4 psi per minute (single/combination).",
+    "Leak limits per minute: brakes released, less than 2 psi (single) or 3 psi (combination); foot brake held, no more than 3 psi (single) or 4 psi (combination).",
     "Brake lag adds about 32 feet at 55 mph; total stopping distance is over 450 feet.",
     "On downgrades, use a low gear and brake from safe speed down about 5 mph, about 3 seconds at a time."
   ]

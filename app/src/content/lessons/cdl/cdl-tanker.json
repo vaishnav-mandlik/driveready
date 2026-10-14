@@ -20,8 +20,7 @@
         {"type": "bullets", "items": [
           "One 900-gallon tank: not a tank vehicle (total is under 1,000 gallons).",
           "Two 600-gallon tanks: tank vehicle (each over 119, total 1,200).",
-          "Ten 110-gallon tanks: not a tank vehicle (no single tank is over 119 gallons).",
-          "Under federal rules, an empty storage tank that is not designed to carry cargo, temporarily attached to a flatbed, does not make the truck a tank vehicle."
+          "Ten 110-gallon tanks: not a tank vehicle (no single tank is over 119 gallons)."
         ]}
       ]
     },
@@ -34,7 +33,7 @@
           ["X", "Combined tank and hazmat endorsement, for tank drivers hauling hazmat in amounts that require placards"],
           ["T", "Double and triple trailers"]
         ]},
-        {"type": "p", "text": "A commercial learner's permit (CLP) holder with an N endorsement carries an X restriction: they may drive only an empty tank vehicle, and never one that held hazmat unless it has been purged of all residue."}
+        {"type": "p", "text": "N is one of only three endorsements a commercial learner's permit (CLP) may carry, along with P and S. A CLP holder with an N endorsement carries an X restriction: they may drive only an empty tank vehicle, and never one that held hazmat unless it has been purged of all residue."}
       ]
     },
     {
@@ -74,13 +73,14 @@
           ["Baffles", "Bulkheads with holes that let liquid flow through. They slow forward-and-back surge, but side-to-side surge still happens and can cause a rollover."],
           ["Smooth bore (un-baffled)", "Nothing inside to slow the liquid, so forward-and-back surge is very strong. Usually used for food such as milk, because sanitation rules forbid hard-to-clean baffles. Be extremely careful, especially when starting and stopping."]
         ]},
-        {"type": "tip", "text": "If you empty the rear compartments first and leave the front ones full, too much weight may end up on the front of the vehicle."}
+        {"type": "tip", "text": "With a compartmented tank, check the weight distribution each time you load or unload a compartment, not just the total amount on board."}
       ]
     },
     {
       "heading": "Outage and how much to load",
       "blocks": [
         {"type": "p", "text": "Never load a cargo tank completely full. Liquids expand as they warm, and the room you leave for that expansion is called outage. Different liquids expand by different amounts, so know the outage needed for what you haul."},
+        {"type": "p", "text": "How much you can load depends on three things:"},
         {"type": "bullets", "items": [
           "How much the liquid will expand in transit.",
           "The weight of the liquid.",
@@ -96,8 +96,8 @@
           "Keep steady pressure on the brakes when stopping, and do not release too soon.",
           "Brake far ahead of a stop and increase your following distance.",
           "For a quick stop, use controlled braking (as hard as you can without locking the wheels, with very small steering moves) or stab braking. Do not jam on the brakes.",
-          "With stab braking, wait for the wheels to start rolling again (up to one second) before reapplying, or the vehicle will not straighten out.",
-          "Slow down before a curve, then accelerate slightly through it.",
+          "Stab braking: brake fully, release when the wheels lock, and brake fully again as soon as they roll. Wait for the wheels to start rolling (up to one second) before reapplying, or the vehicle will not straighten out.",
+          "Slow down before a curve, then accelerate slightly through it. The posted curve speed may be too fast for a tanker.",
           "Wet roads double your normal stopping distance, and an empty tanker may take longer to stop than a full one."
         ]},
         {"type": "warning", "text": "Steering quickly while braking can roll a tanker over. Over-steering, over-accelerating or over-braking can cause a skid; on a tank trailer, skidding drive or trailer wheels can jackknife the rig. When any vehicle skids, act to restore traction to the wheels."}
@@ -109,7 +109,7 @@
     "X endorsement = tank plus hazmat for placarded loads; a CLP's X restriction means empty, purged tanks only.",
     "Leaks are the most important inspection item; never drive with open valves or manhole covers.",
     "High center of gravity makes tankers roll easily; take curves and ramps well below the posted speed.",
-    "Surge pushes the truck in the direction the wave moves; baffles stop front-to-back surge but not side-to-side.",
+    "Surge pushes the truck in the direction the wave moves; baffles help control front-to-back surge, but side-to-side surge can still roll the tanker.",
     "Smooth bore tanks (often milk) have the strongest surge; be extra careful starting and stopping.",
     "Leave outage for expansion, and watch weight limits with dense liquids.",
     "Drive smoothly, brake early with steady pressure, and use controlled or stab braking in emergencies."

@@ -1,0 +1,835 @@
+[
+  {
+    "id": "car.smv.001",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What must you do when you face this signal?",
+    "choices": [
+      "Slow down and go if no cross traffic is coming",
+      "Stop only if pedestrians are in the crosswalk",
+      "Come to a complete stop before the stop line or crosswalk",
+      "Yield to cross traffic without stopping"
+    ],
+    "answer": 2,
+    "explanation": "A steady red light means stop. Stop at the stop line, or before the crosswalk or intersection if there is no line, and wait for green unless a turn on red is allowed after stopping.",
+    "sign": "SIG-RED",
+    "difficulty": 1,
+    "ref": "MUTCD Ch. 4D; state driver handbooks (e.g. CA p.39-40, TX p.30-31, FL p.59-60, PA p.11-13)"
+  },
+  {
+    "id": "car.smv.002",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What does this signal tell you?",
+    "choices": [
+      "Speed up to get through before the light turns red",
+      "The light is about to turn red; stop if you can do so safely",
+      "The signal is broken; treat it as a stop sign",
+      "Cross traffic is about to get a green light, so go now"
+    ],
+    "answer": 1,
+    "explanation": "A steady yellow light warns that red is coming next. Stop if you can do so safely. Speeding up to beat the red is dangerous.",
+    "sign": "SIG-YELLOW",
+    "difficulty": 1,
+    "ref": "MUTCD Ch. 4D; state driver handbooks (e.g. CA p.39-40, TX p.30-31, FL p.59-60, PA p.11-13)"
+  },
+  {
+    "id": "car.smv.003",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "The light changes to this just as you reach the intersection, and you are too close to stop safely. What should you do?",
+    "choices": [
+      "Continue carefully through the intersection",
+      "Brake hard and stop in the crosswalk",
+      "Speed up to clear the intersection quickly",
+      "Back up behind the stop line"
+    ],
+    "answer": 0,
+    "explanation": "If you are so close that you cannot stop safely, proceed through the intersection with caution. Sudden hard braking can cause a rear-end crash.",
+    "sign": "SIG-YELLOW",
+    "difficulty": 2,
+    "ref": "MUTCD Ch. 4D; state driver handbooks (e.g. CA p.39-40, TX p.30-31, FL p.59-60, PA p.11-13)"
+  },
+  {
+    "id": "car.smv.004",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What does this signal mean?",
+    "choices": [
+      "You have the right-of-way and do not need to look",
+      "You may go only if you are turning",
+      "Slow down and prepare to stop",
+      "You may go if the intersection is clear, yielding to pedestrians and vehicles still in it"
+    ],
+    "answer": 3,
+    "explanation": "A steady green light means you may go, but only after yielding to pedestrians and vehicles that are still in the intersection.",
+    "sign": "SIG-GREEN",
+    "difficulty": 1,
+    "ref": "MUTCD Ch. 4D; state driver handbooks (e.g. CA p.39-40, TX p.30-31, FL p.59-60, PA p.11-13)"
+  },
+  {
+    "id": "car.smv.005",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You want to turn left, and this is the only signal you have. An oncoming car is approaching. What should you do?",
+    "choices": [
+      "Turn first, because a green light gives you the right-of-way",
+      "Wait for the light to turn yellow before turning",
+      "Yield to the oncoming car, then turn when there is a safe gap",
+      "Turn left only if the oncoming car flashes its lights"
+    ],
+    "answer": 2,
+    "explanation": "A circular green allows a left turn, but it is not protected. You must yield to oncoming traffic and pedestrians before turning.",
+    "sign": "SIG-GREEN",
+    "difficulty": 2,
+    "ref": "MUTCD Ch. 4D; state driver handbooks (e.g. CA p.39-40, TX p.30-31, FL p.59-60, PA p.11-13)"
+  },
+  {
+    "id": "car.smv.006",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What does this signal mean?",
+    "choices": [
+      "You may turn left only after yielding to oncoming traffic",
+      "You may turn left; oncoming traffic is stopped",
+      "Left turns are not allowed",
+      "Only traffic going straight may go"
+    ],
+    "answer": 1,
+    "explanation": "A green arrow gives a protected turn in the direction shown, because conflicting traffic has a red light. Still yield to any pedestrians or vehicles already in the intersection.",
+    "sign": "SIG-GREEN-ARROW-LEFT",
+    "difficulty": 1,
+    "ref": "MUTCD Ch. 4D; state driver handbooks (e.g. CA p.39-40, TX p.30-31, FL p.59-60, PA p.11-13)"
+  },
+  {
+    "id": "car.smv.007",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What does this signal mean?",
+    "choices": [
+      "You may turn right in the direction of the arrow",
+      "You must stop, then turn right",
+      "Right turns are not allowed",
+      "Only traffic going straight may go"
+    ],
+    "answer": 0,
+    "explanation": "A green arrow means you may move in the direction it points. Yield to pedestrians and vehicles still in the intersection.",
+    "sign": "SIG-GREEN-ARROW-RIGHT",
+    "difficulty": 1,
+    "ref": "MUTCD Ch. 4D; state driver handbooks (e.g. CA p.39-40, TX p.30-31, FL p.59-60, PA p.11-13)"
+  },
+  {
+    "id": "car.smv.008",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What does this signal mean for drivers in the left-turn lane?",
+    "choices": [
+      "Turn left after a complete stop if the way is clear",
+      "Left turns must yield to oncoming traffic",
+      "The left-turn lane is closed permanently",
+      "Do not turn left; stop and wait for a signal that allows the turn"
+    ],
+    "answer": 3,
+    "explanation": "A red arrow means you may not make the movement shown. Stop and wait until a green arrow or other signal allows the turn.",
+    "sign": "SIG-RED-ARROW-LEFT",
+    "difficulty": 1,
+    "ref": "MUTCD Ch. 4D; state driver handbooks (e.g. CA p.39-40, TX p.30-31, FL p.59-60, PA p.11-13)"
+  },
+  {
+    "id": "car.smv.009",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What does this signal mean for drivers turning left?",
+    "choices": [
+      "You may turn left after yielding to oncoming traffic, with no time limit",
+      "Left turns are now protected",
+      "The protected turn is ending; stop if you can do so safely",
+      "Oncoming traffic must stop for you"
+    ],
+    "answer": 2,
+    "explanation": "A steady yellow arrow warns that the protected turn is about to end. Stop if you safely can; if you are already turning, finish the turn with caution.",
+    "sign": "SIG-YELLOW-ARROW-LEFT",
+    "difficulty": 2,
+    "ref": "MUTCD Ch. 4D; state driver handbooks (e.g. CA p.39-40, TX p.30-31, FL p.59-60, PA p.11-13)"
+  },
+  {
+    "id": "car.smv.010",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You reach an intersection where the traffic lights are completely dark because of a power outage. What should you do?",
+    "choices": [
+      "Go through without stopping if you are on the larger road",
+      "Treat it as an all-way stop",
+      "Slow down and yield only to traffic on your right",
+      "Treat it as an uncontrolled intersection and keep your speed"
+    ],
+    "answer": 1,
+    "explanation": "When signals are not working, stop as you would at an all-way stop, then go in turn when it is safe. A police officer directing traffic overrides this.",
+    "sign": "SIG-OUT",
+    "difficulty": 2,
+    "ref": "MUTCD Ch. 4D; state driver handbooks (e.g. CA p.39-40, TX p.30-31, FL p.59-60, PA p.11-13)"
+  },
+  {
+    "id": "car.smv.011",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What does this flashing signal mean?",
+    "choices": [
+      "Stop completely, then go when it is safe, as at a stop sign",
+      "Slow down and proceed with caution without stopping",
+      "Stop and wait until the light turns green",
+      "The signal is about to turn green"
+    ],
+    "answer": 0,
+    "explanation": "A flashing red light means the same as a stop sign: stop, yield to traffic and pedestrians, then proceed when it is safe. Do not wait for green.",
+    "sign": "SIG-FLASH-RED",
+    "difficulty": 1,
+    "ref": "MUTCD Ch. 4D and 4L; state driver handbooks (e.g. CA p.39-40, TX p.30-31, FL p.60, PA p.12-13)"
+  },
+  {
+    "id": "car.smv.012",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "Your signal is flashing like this, while the cross street has a flashing yellow light. What should you do?",
+    "choices": [
+      "Slow down; cross traffic must stop for you",
+      "Wait until your light turns steady green",
+      "Go first, because you reached the intersection first",
+      "Stop, then yield to cross traffic before going"
+    ],
+    "answer": 3,
+    "explanation": "Your flashing red means stop. The cross street's flashing yellow lets those drivers continue with caution, so you must wait for a safe gap in their traffic.",
+    "sign": "SIG-FLASH-RED",
+    "difficulty": 3,
+    "ref": "MUTCD Ch. 4D and 4L; state driver handbooks (e.g. CA p.39-40, TX p.30-31, FL p.60, PA p.12-13)"
+  },
+  {
+    "id": "car.smv.013",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What does this flashing signal mean?",
+    "choices": [
+      "Stop completely, then proceed",
+      "The light is about to turn red",
+      "Slow down and proceed with caution",
+      "You have a protected right-of-way"
+    ],
+    "answer": 2,
+    "explanation": "A flashing yellow light means slow down and go carefully, watching for cross traffic and pedestrians. You do not need to stop unless it is necessary.",
+    "sign": "SIG-FLASH-YELLOW",
+    "difficulty": 1,
+    "ref": "MUTCD Ch. 4D and 4L; state driver handbooks (e.g. CA p.39-40, TX p.30-31, FL p.60, PA p.12-13)"
+  },
+  {
+    "id": "car.smv.014",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "Do you have to stop at an intersection where your signal is flashing like this?",
+    "choices": [
+      "Yes, always come to a full stop first",
+      "No, but slow down and stop only if traffic or pedestrians require it",
+      "Yes, and wait for the light to turn green",
+      "No, and cross traffic must yield to you"
+    ],
+    "answer": 1,
+    "explanation": "A flashing yellow does not require a stop. It warns you to slow down and be careful. Compare: a flashing red requires a full stop.",
+    "sign": "SIG-FLASH-YELLOW",
+    "difficulty": 2,
+    "ref": "MUTCD Ch. 4D and 4L; state driver handbooks (e.g. CA p.39-40, TX p.30-31, FL p.60, PA p.12-13)"
+  },
+  {
+    "id": "car.smv.015",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What does this signal mean for drivers turning left?",
+    "choices": [
+      "You may turn left, but you must first yield to oncoming traffic and pedestrians",
+      "Your left turn is protected; oncoming traffic is stopped",
+      "Left turns are not allowed",
+      "The signal is about to turn green"
+    ],
+    "answer": 0,
+    "explanation": "A flashing yellow arrow allows a left turn but not a protected one. Yield to oncoming vehicles and pedestrians, then turn when there is a safe gap.",
+    "sign": "SIG-FLASH-YELLOW-ARROW-LEFT",
+    "difficulty": 2,
+    "ref": "MUTCD Ch. 4D and 4L; state driver handbooks (e.g. CA p.39-40, TX p.30-31, FL p.60, PA p.12-13)"
+  },
+  {
+    "id": "car.smv.016",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "Your left-turn signal looks like this, and a car is coming toward you in the opposite lane. What should you do?",
+    "choices": [
+      "Turn now, because the arrow gives you the right-of-way",
+      "Stop and wait for the arrow to turn steady green",
+      "Make a U-turn instead of a left turn",
+      "Wait for the oncoming car to pass, then turn if it is safe"
+    ],
+    "answer": 3,
+    "explanation": "Oncoming traffic may have a green light while this arrow flashes. You must yield to it; the turn is permitted only when there is a safe gap.",
+    "sign": "SIG-FLASH-YELLOW-ARROW-LEFT",
+    "difficulty": 3,
+    "ref": "MUTCD Ch. 4D and 4L; state driver handbooks (e.g. CA p.39-40, TX p.30-31, FL p.60, PA p.12-13)"
+  },
+  {
+    "id": "car.smv.017",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "This signal is shown over your lane. What does it mean?",
+    "choices": [
+      "You must change lanes",
+      "Turn in the direction of the arrow",
+      "You may drive in this lane",
+      "The lane is about to close"
+    ],
+    "answer": 2,
+    "explanation": "A downward green arrow over a lane means the lane is open to traffic in your direction.",
+    "sign": "SIG-LANE-GREEN-ARROW",
+    "difficulty": 1,
+    "ref": "MUTCD Ch. 4M (lane-use control signals); state driver handbooks (e.g. TX p.38, NY p.31, PA p.12)"
+  },
+  {
+    "id": "car.smv.018",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "This signal is shown over a lane. What does it mean?",
+    "choices": [
+      "Stop, then proceed in this lane",
+      "Do not drive in this lane",
+      "The lane is for turning only",
+      "Slow down in this lane"
+    ],
+    "answer": 1,
+    "explanation": "A red X over a lane means the lane is closed to traffic in your direction. Never drive in it.",
+    "sign": "SIG-LANE-RED-X",
+    "difficulty": 1,
+    "ref": "MUTCD Ch. 4M (lane-use control signals); state driver handbooks (e.g. TX p.38, NY p.31, PA p.12)"
+  },
+  {
+    "id": "car.smv.019",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "This signal appears over the lane you are driving in. What should you do?",
+    "choices": [
+      "Safely move out of the lane, because it is about to close",
+      "Stay in the lane; it is open",
+      "Stop in the lane and wait",
+      "Use the lane only for passing"
+    ],
+    "answer": 0,
+    "explanation": "A steady yellow X warns that the lane is about to close to your direction (soon to show a red X). Move to an open lane as soon as it is safe.",
+    "sign": "SIG-LANE-YELLOW-X",
+    "difficulty": 2,
+    "ref": "MUTCD Ch. 4M (lane-use control signals); state driver handbooks (e.g. TX p.38, NY p.31, PA p.12)"
+  },
+  {
+    "id": "car.smv.020",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "Which signal comes next over a lane that shows this signal?",
+    "choices": [
+      "A green arrow, meaning the lane is open",
+      "A flashing red light, meaning stop",
+      "A steady yellow arrow, meaning turn",
+      "A red X, meaning do not use the lane"
+    ],
+    "answer": 3,
+    "explanation": "A steady yellow X means the lane is changing to closed. It is followed by a red X, so you should already be out of the lane.",
+    "sign": "SIG-LANE-YELLOW-X",
+    "difficulty": 3,
+    "ref": "MUTCD Ch. 4M (lane-use control signals); state driver handbooks (e.g. TX p.38, NY p.31, PA p.12)"
+  },
+  {
+    "id": "car.smv.021",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You are about to turn right, and this signal is lit for the crosswalk you will cross. What should you do?",
+    "choices": [
+      "Turn first; pedestrians must wait for you",
+      "Sound your horn to warn pedestrians",
+      "Yield to pedestrians crossing in the crosswalk",
+      "Stop and wait for a green arrow"
+    ],
+    "answer": 2,
+    "explanation": "This signal tells pedestrians they may start crossing. Turning drivers must yield to pedestrians in the crosswalk.",
+    "sign": "SIG-PED-WALK",
+    "difficulty": 1,
+    "ref": "MUTCD Ch. 4I (pedestrian signals); state driver handbooks (e.g. CA p.41, FL p.63, PA p.13)"
+  },
+  {
+    "id": "car.smv.022",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "A pedestrian signal shows this steady symbol. What does it mean for drivers?",
+    "choices": [
+      "Pedestrians in the crosswalk lose the right-of-way",
+      "Pedestrians should not start crossing, but watch for anyone still finishing their crossing",
+      "Drivers must stop until the signal changes",
+      "The traffic light for drivers is red"
+    ],
+    "answer": 1,
+    "explanation": "The steady hand means pedestrians must not start crossing. Drivers must still yield to anyone who is already in the crosswalk.",
+    "sign": "SIG-PED-DONT-WALK",
+    "difficulty": 2,
+    "ref": "MUTCD Ch. 4I (pedestrian signals); state driver handbooks (e.g. CA p.41, FL p.63, PA p.13)"
+  },
+  {
+    "id": "car.smv.023",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "A pedestrian signal shows this. What should drivers expect?",
+    "choices": [
+      "Pedestrians may still be in the crosswalk finishing their crossing",
+      "The crosswalk is empty, so turning drivers may go without looking",
+      "Pedestrians must run back to the curb",
+      "The drivers' light will turn green in 12 seconds"
+    ],
+    "answer": 0,
+    "explanation": "The number shows how many seconds remain for pedestrians to finish crossing. People should not start crossing, but drivers must watch for those still in the street.",
+    "sign": "SIG-PED-COUNTDOWN",
+    "difficulty": 2,
+    "ref": "MUTCD Ch. 4I (pedestrian signals); state driver handbooks (e.g. CA p.41, FL p.63, PA p.13)"
+  },
+  {
+    "id": "car.smv.024",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "The red lights at this railroad crossing are flashing. What must you do?",
+    "choices": [
+      "Slow down and cross if you do not see a train",
+      "Stop, then cross if the gates are not down",
+      "Speed up to cross before the train arrives",
+      "Stop before the crossing and wait until the lights stop flashing"
+    ],
+    "answer": 3,
+    "explanation": "Flashing red lights at a railroad crossing mean a train is coming. Stop and stay stopped until the lights stop flashing and the way is clear.",
+    "sign": "SIG-RR-FLASHING",
+    "difficulty": 1,
+    "ref": "MUTCD Part 8; state driver handbooks (e.g. CA p.44, TX p.38, FL p.64, NY p.61)"
+  },
+  {
+    "id": "car.smv.025",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "A train has just passed this crossing, but the red lights are still flashing. What should you do?",
+    "choices": [
+      "Cross right away, since the train is gone",
+      "Cross if the driver ahead of you crosses",
+      "Keep waiting; another train may be coming",
+      "Drive around the gate arm carefully"
+    ],
+    "answer": 2,
+    "explanation": "Lights that keep flashing after a train passes often mean a second train is approaching, possibly on another track. Wait until the lights stop and you can see that the tracks are clear.",
+    "sign": "SIG-RR-FLASHING",
+    "difficulty": 2,
+    "ref": "MUTCD Part 8; state driver handbooks (e.g. CA p.44, TX p.38, FL p.64, NY p.61)"
+  },
+  {
+    "id": "car.smv.026",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What does this center line marking mean?",
+    "choices": [
+      "Drivers on either side may pass when it is safe",
+      "Passing is not allowed from either direction",
+      "Only drivers on the right side may pass",
+      "The road is one-way"
+    ],
+    "answer": 1,
+    "explanation": "Two solid yellow lines separate opposing traffic and mean no passing in either direction.",
+    "sign": "MARK-DOUBLE-YELLOW",
+    "difficulty": 1,
+    "ref": "MUTCD Part 3; state driver handbooks (e.g. CA p.19-20, TX p.39-40, FL p.51-53, PA p.26)"
+  },
+  {
+    "id": "car.smv.027",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What does the yellow color of these center lines tell you?",
+    "choices": [
+      "Traffic on the other side of the lines moves in the opposite direction",
+      "Traffic on the other side moves in the same direction",
+      "The lane on the other side is a bike lane",
+      "The road is under construction"
+    ],
+    "answer": 0,
+    "explanation": "Yellow lines separate traffic moving in opposite directions. White lines separate lanes moving in the same direction.",
+    "sign": "MARK-DOUBLE-YELLOW",
+    "difficulty": 1,
+    "ref": "MUTCD Part 3; state driver handbooks (e.g. CA p.19-20, TX p.39-40, FL p.51-53, PA p.26)"
+  },
+  {
+    "id": "car.smv.028",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "Which drivers may pass on this road, when it is safe?",
+    "choices": [
+      "Drivers in the lane next to the solid line",
+      "Drivers in both directions",
+      "No one; passing is never allowed here",
+      "Drivers in the lane next to the broken line"
+    ],
+    "answer": 3,
+    "explanation": "With a solid line beside a broken line, the drivers next to the broken line may pass when it is safe. Drivers on the side of the solid line may not cross to pass.",
+    "sign": "MARK-SOLID-BROKEN-YELLOW",
+    "difficulty": 2,
+    "ref": "MUTCD Part 3; state driver handbooks (e.g. CA p.19-20, TX p.39-40, FL p.51-53, PA p.26)"
+  },
+  {
+    "id": "car.smv.029",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You are passing in the lane next to the broken line, and ahead the broken line changes to solid on your side. What should you do?",
+    "choices": [
+      "Keep passing; the line only applies to new passes",
+      "Slow down and stay in the opposite lane",
+      "Finish passing and return to your lane before the solid line begins",
+      "Cross the solid line, then return when convenient"
+    ],
+    "answer": 2,
+    "explanation": "A solid yellow line on your side marks a no-passing zone. Complete your pass and be back in your lane before the zone starts.",
+    "sign": "MARK-SOLID-BROKEN-YELLOW",
+    "difficulty": 3,
+    "ref": "MUTCD Part 3; state driver handbooks (e.g. CA p.19-20, TX p.39-40, FL p.51-53, PA p.26)"
+  },
+  {
+    "id": "car.smv.030",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What does this broken center line mean?",
+    "choices": [
+      "This is a one-way road with two lanes",
+      "This is a two-way road, and you may pass when the way ahead is clear",
+      "Passing is not allowed in either direction",
+      "The center lane is for left turns only"
+    ],
+    "answer": 1,
+    "explanation": "A broken yellow center line separates opposing traffic and allows passing from either side when it is safe.",
+    "sign": "MARK-BROKEN-YELLOW",
+    "difficulty": 1,
+    "ref": "MUTCD Part 3; state driver handbooks (e.g. CA p.19-20, TX p.39-40, FL p.51-53, PA p.26)"
+  },
+  {
+    "id": "car.smv.031",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You want to pass on a road with this center line. What must you do before passing?",
+    "choices": [
+      "Make sure the oncoming lane is clear far enough ahead to pass safely",
+      "Nothing; the broken line means it is always safe to pass",
+      "Wait for a solid white line",
+      "Sound your horn and pass immediately"
+    ],
+    "answer": 0,
+    "explanation": "The broken line allows passing, but you are responsible for making sure there is enough clear road ahead. Passing means driving in the oncoming lane.",
+    "sign": "MARK-BROKEN-YELLOW",
+    "difficulty": 2,
+    "ref": "MUTCD Part 3; state driver handbooks (e.g. CA p.19-20, TX p.39-40, FL p.51-53, PA p.26)"
+  },
+  {
+    "id": "car.smv.032",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What do these broken white lines mean?",
+    "choices": [
+      "They separate traffic going in opposite directions",
+      "Lane changes are not allowed",
+      "They mark the edge of the road",
+      "They separate lanes going the same direction, and you may change lanes when it is safe"
+    ],
+    "answer": 3,
+    "explanation": "Broken white lines separate lanes of traffic moving in the same direction. You may cross them to change lanes after signaling and checking that it is safe.",
+    "sign": "MARK-BROKEN-WHITE",
+    "difficulty": 1,
+    "ref": "MUTCD Part 3; state driver handbooks (e.g. CA p.19-20, TX p.39-40, FL p.51-53, PA p.26)"
+  },
+  {
+    "id": "car.smv.033",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You want to change lanes across a broken white line. What should you do first?",
+    "choices": [
+      "Nothing; broken lines mean the lane next to you is empty",
+      "Slow down sharply before moving over",
+      "Signal, check your mirrors and blind spot, then move when it is safe",
+      "Wait until the line becomes solid"
+    ],
+    "answer": 2,
+    "explanation": "Broken white lines allow lane changes, but you must signal and check mirrors and blind spots first.",
+    "sign": "MARK-BROKEN-WHITE",
+    "difficulty": 2,
+    "ref": "MUTCD Part 3; state driver handbooks (e.g. CA p.19-20, TX p.39-40, FL p.51-53, PA p.26)"
+  },
+  {
+    "id": "car.smv.034",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What does this solid white line between lanes mean?",
+    "choices": [
+      "Traffic in the next lane goes the opposite way",
+      "Lanes go the same direction, but lane changes across it are discouraged or not allowed",
+      "You may change lanes freely",
+      "The line marks a bike lane"
+    ],
+    "answer": 1,
+    "explanation": "A solid white line separates same-direction lanes where changing lanes is discouraged or prohibited, such as near intersections. Stay in your lane.",
+    "sign": "MARK-SOLID-WHITE",
+    "difficulty": 2,
+    "ref": "MUTCD Part 3; state driver handbooks (e.g. CA p.19-20, TX p.39-40, FL p.51-53, PA p.26)"
+  },
+  {
+    "id": "car.smv.035",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "On this divided road, what do the solid lines at the far left and far right edges mark?",
+    "choices": [
+      "Yellow marks the left edge of the roadway; white marks the right edge",
+      "Yellow marks a bike lane; white marks a parking lane",
+      "Each marks a lane that is closed to traffic",
+      "Yellow marks a passing lane; white marks the shoulder lane"
+    ],
+    "answer": 0,
+    "explanation": "On divided and one-way roads, a solid yellow line marks the left edge and a solid white line marks the right edge of the roadway.",
+    "sign": "MARK-EDGE-LINES",
+    "difficulty": 2,
+    "ref": "MUTCD Part 3; state driver handbooks (e.g. CA p.19-20, TX p.39-40, FL p.51-53, PA p.26)"
+  },
+  {
+    "id": "car.smv.036",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What is the center lane on this road for?",
+    "choices": [
+      "Passing slower vehicles",
+      "Through traffic during rush hour",
+      "Parking and loading",
+      "Left turns by drivers from both directions"
+    ],
+    "answer": 3,
+    "explanation": "A center lane bordered by solid and broken yellow lines with left-turn arrows pointing both ways is a two-way left-turn lane. Use it only to turn left, never to pass or travel.",
+    "sign": "MARK-TWLTL",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 3B; state driver handbooks (e.g. CA p.22, PA p.26)"
+  },
+  {
+    "id": "car.smv.037",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You enter the center lane shown here to turn left into a driveway. What should you watch for?",
+    "choices": [
+      "Nothing; the lane belongs to your direction only",
+      "Drivers using the lane to pass",
+      "Oncoming drivers who may be turning left from the same lane",
+      "Buses that stop in the lane"
+    ],
+    "answer": 2,
+    "explanation": "Drivers from both directions share this lane for left turns, so an oncoming driver may be in it too. Enter it only shortly before your turn.",
+    "sign": "MARK-TWLTL",
+    "difficulty": 3,
+    "ref": "MUTCD Sec. 3B; state driver handbooks (e.g. CA p.22, PA p.26)"
+  },
+  {
+    "id": "car.smv.038",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "A lane marked on both sides by double broken yellow lines is what kind of lane?",
+    "choices": [
+      "A two-way left-turn lane",
+      "A reversible lane whose direction changes at certain times",
+      "A no-passing zone",
+      "A bus-only lane"
+    ],
+    "answer": 1,
+    "explanation": "Double broken yellow lines mark a reversible lane. Check signs or lane-use signals to see which direction may use it at that time.",
+    "sign": "MARK-REVERSIBLE",
+    "difficulty": 2,
+    "ref": "MUTCD Part 3; state driver handbooks (e.g. CA p.19-20, TX p.39-40, FL p.51-53, PA p.26)"
+  },
+  {
+    "id": "car.smv.039",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What may you do in the striped area between this freeway lane and the ramp?",
+    "choices": [
+      "Nothing; do not drive or stop on it",
+      "Use it to cut over to the ramp at the last moment",
+      "Stop there if you missed your exit",
+      "Use it as a passing lane"
+    ],
+    "answer": 0,
+    "explanation": "The striped area (gore) separates a ramp from the main lanes. Do not drive on it or stop on it. If you miss your exit, go on to the next one.",
+    "sign": "MARK-CROSSHATCH",
+    "difficulty": 2,
+    "ref": "MUTCD Part 3; state driver handbooks (e.g. CA p.19-20, TX p.39-40, FL p.51-53, PA p.26)"
+  },
+  {
+    "id": "car.smv.040",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What does a white diamond painted in a lane mean?",
+    "choices": [
+      "The lane is a bike lane",
+      "The lane ends ahead",
+      "A railroad crossing is ahead",
+      "The lane is reserved for certain vehicles, such as carpools or buses, as posted"
+    ],
+    "answer": 3,
+    "explanation": "A diamond marks a preferential lane, such as an HOV (carpool) or bus lane. Signs tell you who may use it and when.",
+    "sign": "MARK-HOV-DIAMOND",
+    "difficulty": 2,
+    "ref": "MUTCD Part 3; state driver handbooks (e.g. CA p.19-20, TX p.39-40, FL p.51-53, PA p.26)"
+  },
+  {
+    "id": "car.smv.041",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You are in the center lane shown here. Which movement is allowed?",
+    "choices": [
+      "Turning left",
+      "Turning right",
+      "Going straight",
+      "Turning left or right"
+    ],
+    "answer": 2,
+    "explanation": "Lane-use arrows show the allowed movement from each lane. Here the left lane turns left, the center lane goes straight and the right lane turns right.",
+    "sign": "MARK-ARROWS",
+    "difficulty": 1,
+    "ref": "MUTCD Part 3; state driver handbooks (e.g. CA p.19-20, TX p.39-40, FL p.51-53, PA p.26)"
+  },
+  {
+    "id": "car.smv.042",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What does the lane at the right edge of this road, marked with a bicycle symbol, mean for drivers?",
+    "choices": [
+      "Cars may use it as a travel lane when traffic is heavy",
+      "It is reserved for bicyclists; drive in it only where allowed, after yielding to cyclists",
+      "It is a parking lane",
+      "It is a right-turn-only lane"
+    ],
+    "answer": 1,
+    "explanation": "A bike lane is separated by a solid white line and marked with a bicycle symbol. Drivers may cross it only to turn or park where allowed, after yielding to bicyclists.",
+    "sign": "MARK-BIKE-LANE",
+    "difficulty": 2,
+    "ref": "MUTCD Part 3; state driver handbooks (e.g. CA p.19-20, TX p.39-40, FL p.51-53, PA p.26)"
+  },
+  {
+    "id": "car.smv.043",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "When you must stop at this intersection, where should you stop?",
+    "choices": [
+      "Before the solid white line across your lane",
+      "On the crosswalk",
+      "Past the crosswalk, at the edge of the cross street",
+      "Anywhere before the center of the intersection"
+    ],
+    "answer": 0,
+    "explanation": "The wide solid white line across your lane is the stop line. Stop behind it; if there is no stop line, stop before the crosswalk.",
+    "sign": "MARK-STOP-LINE",
+    "difficulty": 1,
+    "ref": "MUTCD Part 3; state driver handbooks (e.g. CA p.19-20, TX p.39-40, FL p.51-53, PA p.26)"
+  },
+  {
+    "id": "car.smv.044",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What do these white triangles painted across the lane mean?",
+    "choices": [
+      "They mark a speed hump",
+      "They show where a lane ends",
+      "They mark a school zone",
+      "They show where to yield or stop when required"
+    ],
+    "answer": 3,
+    "explanation": "A row of triangles pointing toward you is a yield line (\"shark teeth\"). It shows where you should yield or stop when required.",
+    "sign": "MARK-YIELD-LINE",
+    "difficulty": 2,
+    "ref": "MUTCD Part 3; state driver handbooks (e.g. CA p.19-20, TX p.39-40, FL p.51-53, PA p.26)"
+  },
+  {
+    "id": "car.smv.045",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What does this pavement marking warn you about?",
+    "choices": [
+      "An intersection with a crossroad is ahead",
+      "A no-passing zone begins ahead",
+      "A railroad crossing is ahead",
+      "A rest area is ahead"
+    ],
+    "answer": 2,
+    "explanation": "An X with the letters RR is painted on the approach to a railroad crossing. Slow down, look and listen, and be ready to stop.",
+    "sign": "MARK-RR-XING",
+    "difficulty": 1,
+    "ref": "MUTCD Part 8; state driver handbooks (e.g. CA p.44, TX p.38, FL p.64, NY p.61)"
+  },
+  {
+    "id": "car.smv.046",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "The driver ahead of you is giving this hand signal. What does it mean?",
+    "choices": [
+      "The driver is going to turn right",
+      "The driver is going to turn left",
+      "The driver is going to slow down or stop",
+      "The driver is waving you around to pass"
+    ],
+    "answer": 1,
+    "explanation": "An arm held straight out the window signals a left turn.",
+    "sign": "HAND-LEFT",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. CA p.16, TX p.44, PA p.48, FL p.28)"
+  },
+  {
+    "id": "car.smv.047",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "The driver ahead of you is giving this hand signal. What does it mean?",
+    "choices": [
+      "The driver is going to turn right",
+      "The driver is going to turn left",
+      "The driver is going to slow down or stop",
+      "The driver is pulling onto the left shoulder"
+    ],
+    "answer": 0,
+    "explanation": "A left arm bent upward at the elbow signals a right turn.",
+    "sign": "HAND-RIGHT",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. CA p.16, TX p.44, PA p.48, FL p.28)"
+  },
+  {
+    "id": "car.smv.048",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "The driver ahead of you is giving this hand signal. What does it mean?",
+    "choices": [
+      "The driver is going to turn left",
+      "The driver is going to turn right",
+      "The driver wants you to pass",
+      "The driver is going to slow down or stop"
+    ],
+    "answer": 3,
+    "explanation": "A left arm bent downward at the elbow signals slowing down or stopping.",
+    "sign": "HAND-STOP",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. CA p.16, TX p.44, PA p.48, FL p.28)"
+  },
+  {
+    "id": "car.smv.049",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You see this emblem on the back of a vehicle ahead. What does it tell you?",
+    "choices": [
+      "The vehicle is carrying hazardous materials",
+      "The vehicle is broken down",
+      "The vehicle travels much slower than normal traffic, so slow down early",
+      "The vehicle is an emergency vehicle"
+    ],
+    "answer": 2,
+    "explanation": "The orange triangle with a red border marks a slow-moving vehicle, such as farm equipment or a horse-drawn buggy. Slow down early and pass only when it is safe and legal.",
+    "sign": "SMV-EMBLEM",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. PA p.40, TX p.43, CA p.52)"
+  }
+]

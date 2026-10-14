@@ -13,7 +13,8 @@
         {"type": "bullets", "items": [
           "Pass a knowledge test on Sections 2 (driving safely) and 4 (transporting passengers) of the CDL manual.",
           "If your bus has air brakes, also pass the air brakes test (Section 5).",
-          "Pass the skills tests for the class of vehicle you drive."
+          "Pass the skills tests for the class of vehicle you drive.",
+          "The endorsement applies to buses in any class (A, B or C). A CLP with a P endorsement carries a P restriction: no passengers other than examiners, inspectors, other trainees and the accompanying CDL holder."
         ]}
       ]
     },
@@ -22,7 +23,7 @@
       "blocks": [
         {"type": "p", "text": "Review the previous driver's inspection report. Sign it only if the defects reported earlier have been certified as repaired or as not needing repair. Your signature certifies that."},
         {"type": "bullets", "items": [
-          "Check brakes, parking brake, steering, lights and reflectors, horn, wipers, mirrors, coupling devices, wheels, rims and tires.",
+          "Make sure these work before driving: service brakes (including air hose couplings if you pull a trailer), parking brake, steering, lights and reflectors, horn, wipers, mirrors, coupling devices, wheels, rims, tires and emergency equipment.",
           "Front wheels must not have recapped or regrooved tires.",
           "Carry a fire extinguisher and emergency reflectors: 3 reflective triangles, or at least 6 fuses, or 3 liquid-burning flares.",
           "Carry spare electrical fuses unless the bus has circuit breakers.",
@@ -78,8 +79,8 @@
           "At destinations and intermediate stops, announce the location, the reason for stopping, the next departure time and the bus number.",
           "Remind riders to take their carry-ons. If the aisle is lower than the seats, warn them about the step-down before you come to a complete stop.",
           "Charter drivers should not let riders board until departure time, to help prevent theft or vandalism.",
-          "Wait for riders to sit down or brace themselves before starting, and start and stop smoothly.",
-          "Do not put a drunk or disruptive rider off where it is unsafe for them. The next scheduled stop or a well-lit area with other people may be safer."
+          "Riders can stumble getting on or off and when the bus starts or stops. Caution them to watch their step, wait for them to sit down or brace themselves before starting, and start and stop smoothly.",
+          "Do not put a drunk or disruptive rider off where it is unsafe for them. The next scheduled stop or a well-lit area with other people may be safer. Follow your carrier's guidelines for disruptive riders."
         ]}
       ]
     },
@@ -89,7 +90,7 @@
         {"type": "bullets", "items": [
           "Bus crashes often happen at intersections. Be careful even when a signal or stop sign controls other traffic.",
           "Pulling out of a stop, buses sometimes scrape mirrors or hit passing vehicles. Remember your clearance, watch for poles and tree limbs, and wait for a gap big enough to accelerate and merge. Never assume others will brake for you.",
-          "The posted speed on a banked curve is safe for cars in good weather but may be too fast for a bus. With good traction a speeding bus may roll over; with poor traction it may slide off. If the bus leans toward the outside, you are going too fast."
+          "Crashes on curves usually come from too much speed, often when rain or snow has made the road slippery. The posted speed on a banked curve is safe for cars in good weather but may be too fast for many buses. With good traction a speeding bus may roll over; with poor traction it may slide off. If the bus leans toward the outside, you are going too fast."
         ]},
         {"type": "signs", "codes": ["R15-1", "SIG-RR-FLASHING", "MARK-RR-XING"]},
         {"type": "steps", "items": [
@@ -98,6 +99,7 @@
           "After a train passes, make sure no other train is coming on another track.",
           "With a manual transmission, never change gears while crossing the tracks."
         ]},
+        {"type": "sign", "code": "R15-3P", "caption": "An EXEMPT plaque under the crossbuck: a bus need not stop, but must still slow down and check carefully."},
         {"type": "table", "rows": [
           ["No stop needed, but slow down and check", "Streetcar crossings; where a police officer or flagman directs traffic; a green traffic signal; crossings marked exempt or abandoned."],
           ["Drawbridge with no signal or attendant", "Stop at least 50 feet before the draw and make sure it is completely closed."],

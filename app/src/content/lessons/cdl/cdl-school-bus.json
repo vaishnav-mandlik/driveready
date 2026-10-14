@@ -4,26 +4,26 @@
   "topic": "cdl-school-bus",
   "title": "School Bus",
   "summary": "Danger zones and mirrors, safe loading and unloading, evacuations, railroad crossings, student behavior, ABS and other special situations for school bus drivers.",
-  "minutes": 12,
+  "minutes": 14,
   "sections": [
     {
       "heading": "Danger zones and mirrors",
       "blocks": [
-        {"type": "p", "text": "The danger zone is the area on all sides of the bus where children are most likely to be hit, by another vehicle or by their own bus. It can reach 30 feet in front of the bumper (the first 10 feet are the most dangerous), 10 feet out from each side, and behind the bus. The area to the left of the bus is always dangerous because of passing cars."},
+        {"type": "p", "text": "The danger zone is the area on all sides of the bus where children are most likely to be hit, by another vehicle or by their own bus. It can reach 30 feet in front of the bumper (the first 10 feet are the most dangerous), 10 feet out from each side, and 10 feet behind the rear bumper. The area to the left of the bus is always dangerous because of passing cars."},
         {"type": "table", "rows": [
-          ["Flat mirrors (outside, left and right)", "Watch traffic, clearances and students at the sides and rear. Adjust to see 200 feet (about 4 bus lengths) behind, along the sides, and the rear tires touching the ground. The blind spot right behind the bumper is usually 50-150 feet and can reach 400 feet."],
+          ["Flat mirrors (outside, left and right)", "Watch traffic, clearances and students at the sides and rear. Adjust to see 200 feet (about 4 bus lengths) behind, along the sides, and the rear tires touching the ground. Blind spots: just below and in front of each mirror, and behind the rear bumper, usually 50-150 feet and up to 400 feet depending on the bus."],
           ["Convex mirrors (below the flat mirrors)", "Wide-angle view of the sides. Adjust to see the whole side of the bus up to the mirror mounts, the front of the rear tires touching the ground, and at least one lane on each side."],
           ["Crossover mirrors (front corners)", "Show the front danger zone you cannot see directly, plus the sides near the front wheels and service door. Adjust to see from the front bumper at ground level to where direct vision starts (the views should overlap), both front tires on the ground, and the area from the front of the bus to the service door."],
           ["Inside overhead mirror", "Watch students. Adjust so the top of the rear window is in the top of the mirror and you can see every student, including the heads of those right behind you."]
         ]},
-        {"type": "warning", "text": "Convex and crossover mirrors do not show true size and distance. The inside mirror has a blind spot that starts at the rear bumper and can reach 400 feet or more, so watch traffic there with your outside side mirrors."}
+        {"type": "warning", "text": "Convex and crossover mirrors do not show true size and distance. The inside mirror has a blind spot directly behind the driver's seat and a large one that starts at the rear bumper and can reach 400 feet or more, so watch traffic there with your outside side mirrors."}
       ]
     },
     {
       "heading": "Approaching the stop and loading",
       "blocks": [
         {"type": "p", "text": "More students are killed getting on or off a school bus each year than riding inside one. The school district sets official routes and stops; never move a stop without written approval from the right school district official. Follow your state and local laws for stops."},
-        {"type": "signs", "codes": ["S3-1", "S1-1"]},
+        {"type": "sign", "code": "S3-1", "caption": "School Bus Stop Ahead: warns other drivers that a bus may be stopped to load or unload children."},
         {"type": "steps", "items": [
           "Approach slowly and check all mirrors continuously.",
           "If equipped, turn on the alternating flashing amber lights at least 200 feet, or about 5-10 seconds, before the stop (or as state law requires).",
@@ -34,9 +34,11 @@
           "Check that all traffic has stopped before fully opening the door and signaling students to come."
         ]},
         {"type": "bullets", "items": [
-          "Count students and make sure all board. Have them board slowly, in single file, using the handrail. Use the dome light when loading in the dark.",
-          "Wait until everyone is seated and facing forward before moving.",
-          "If you cannot account for a student outside, secure the bus, take the key, and check around and under the bus."
+          "Students should wait in a designated spot facing the bus, and board only when you signal them.",
+          "Count students and make sure all board; if one is missing, ask the other students where they are. Have them board slowly, in single file, using the handrail. Use the dome light when loading in the dark.",
+          "Wait until everyone is seated and facing forward. Check all mirrors and make sure no one is running to catch the bus.",
+          "If you cannot account for a student outside, secure the bus, take the key, and check around and under the bus.",
+          "Loading at school: turn off the ignition, remove the key if you leave the driver's compartment, and position yourself to supervise."
         ]},
         {"type": "p", "text": "To leave the stop: close the door, engage the transmission, release the parking brake, turn off the red lights, turn on the left signal, check all mirrors again, and let traffic clear."}
       ]
@@ -85,25 +87,38 @@
           ["Railroad tracks", "As far from the tracks as possible, toward any oncoming train."],
           ["Tornado, no building nearby", "A nearby ditch or culvert, lying face down with hands over heads, far enough that the bus cannot topple on them. Avoid flash flood areas."]
         ]},
+        {"type": "tip", "text": "Plan ahead: when possible, assign two older, responsible students to each emergency exit and another to lead students to the safe place. Explain the evacuation procedures and how to work the exits to all students, since helpers may not be aboard."},
+        {"type": "steps", "items": [
+          "Decide whether evacuation is in the best interest of safety, and choose the best exits: front, rear or side doors, roof or windows.",
+          "Secure the bus: Park (or Neutral if there is no Park), parking brakes set, engine off, key removed, hazard lights on.",
+          "If time allows, tell dispatch the location, conditions and help needed. Leave the radio microphone or phone dangling out the driver's window if it works.",
+          "With no working radio, send a passing motorist or area resident for help; as a last resort, send two older, responsible students.",
+          "Order the evacuation. A student assistant leads the others to the nearest safe place.",
+          "Walk through the bus to make sure no one remains, and retrieve emergency equipment.",
+          "Join the students, account for everyone, protect the scene with warning devices, and prepare information for responders."
+        ]},
         {"type": "warning", "text": "Do not move a student who may have a neck or spinal injury unless his or her life is in immediate danger."}
       ]
     },
     {
       "heading": "Railroad-highway crossings",
       "blocks": [
-        {"type": "p", "text": "A passive crossing has no traffic control device, so the decision to go is entirely yours. Active crossings have flashing red lights, bells or gates. The round, black-on-yellow advance warning sign tells you a crossing is ahead."},
-        {"type": "signs", "codes": ["R15-1", "R15-2P", "MARK-RR-XING", "MARK-STOP-LINE", "SIG-RR-FLASHING"]},
+        {"type": "p", "text": "A passive crossing has no traffic control device. You must still stop, but the decision to go rests entirely with you, so be especially careful. Active crossings have flashing red lights with or without bells, or flashing lights with bells and gates. The round, black-on-yellow advance warning sign and the RR pavement marking tell you a crossing is ahead: slow down, look and listen, and be ready to stop."},
+        {"type": "signs", "codes": ["R15-1", "R15-2P", "R15-8", "MARK-RR-XING", "MARK-STOP-LINE", "SIG-RR-FLASHING"]},
         {"type": "steps", "items": [
-          "Approaching: slow down, test your brakes, turn on hazard lights about 200 feet before the crossing, and check traffic behind you.",
+          "Approaching: slow down (shift to a lower gear in a manual bus) and test your brakes. Turn on hazard lights about 200 feet before the crossing, check traffic behind you, stay to the right if possible, and pick an escape route in case of brake failure.",
           "Stop no closer than 15 feet and no farther than 50 feet from the nearest rail. If there is a white stop line, keep the front of the bus behind it; if not, stop before the crossbuck.",
           "Put the bus in Park (or Neutral with brakes held), turn off radios and noisy equipment, and silence the passengers.",
           "Open the service door and driver's window, and look and listen for a train.",
+          "Check the crossing signals again before proceeding.",
           "At a multiple-track crossing, stop only before the first set. When sure no train is coming on any track, cross them all without stopping.",
           "Cross in a low gear and do not change gears on the tracks."
         ]},
         {"type": "bullets", "items": [
           "If the gate comes down after you have started across, keep going, even if it breaks the gate.",
           "If the gate stays down after a train passes, do not drive around it. Call your dispatcher.",
+          "If a police officer is at the crossing, obey directions. If not, and you think the signal is malfunctioning, call your dispatcher for instructions.",
+          "Never cross unless you can see far enough down the track to know for certain no train is coming. Even when active signals show the tracks are clear, look and listen.",
           "If the bus stalls or is trapped on the tracks, get everyone off at once and move them far away at an angle that is away from the tracks and toward the train.",
           "Containment space: you need the length of the bus plus 15 feet beyond the tracks. If it won't fit, don't commit."
         ]}
@@ -141,7 +156,7 @@
     }
   ],
   "keyPoints": [
-    "The danger zone reaches up to 30 feet in front, 10 feet to each side, and behind the bus; the left side is always dangerous.",
+    "The danger zone reaches up to 30 feet in front, 10 feet to each side, and 10 feet behind the bus; the left side is always dangerous.",
     "Flat mirrors show 200 feet behind; convex mirrors show the front of the rear tires; crossover mirrors show the front danger zone.",
     "Ambers at least 200 feet before the stop, stop 10 feet from students, then reds when traffic is a safe distance away.",
     "Crossing students walk 10 feet in front of the right bumper corner, stop where you can see their feet, and wait for your signal.",

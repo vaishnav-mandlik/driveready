@@ -39,7 +39,7 @@
         {"type": "bullets", "items": [
           "Low-slung units (lowboys, car carriers, moving vans, possum-belly livestock trailers) can get stuck on raised crossings.",
           "So can a single-axle tractor pulling a long trailer whose landing gear is set for a tandem-axle tractor.",
-          "If you get stuck on the tracks, get out and away from them first, then call for help."
+          "If you get stuck on the tracks, get out and away from them first. Then call 911 or the emergency number posted at the crossing, and give the location (especially the DOT number, if posted)."
         ]}
       ]
     },
@@ -66,10 +66,10 @@
         {"type": "table", "rows": [
           ["Trailer hand valve", "Also called the trolley valve or Johnson bar. Use it only to test trailer brakes, never while driving (skid risk) and never to park (air can leak away)."],
           ["Tractor protection valve", "Keeps air in the tractor if the trailer breaks away or leaks badly. Closes automatically at 20 to 45 psi, venting the trailer emergency line so the trailer emergency brakes come on."],
-          ["Trailer air supply control", "Red, eight-sided knob. Push in to supply air to the trailer; pull out to shut air off and set the trailer emergency brakes."],
+          ["Trailer air supply control", "Red, eight-sided knob that controls the tractor protection valve. Push in to supply air to the trailer; pull out to shut air off and set the trailer emergency brakes. It pops out on its own at 20 to 45 psi. Older rigs may have a lever instead: \"normal\" to pull a trailer, \"emergency\" to shut off air."],
           ["Service line", "Also called the control or signal line. Carries air from the foot brake or trailer hand brake to relay valves, which apply trailer brakes quickly. Often coded blue."],
           ["Emergency line", "Also called the supply line. Fills the trailer tanks and controls the emergency brakes. Losing its pressure sets the trailer emergency brakes. Often coded red."],
-          ["Glad hands", "Couplers for the two air lines. Clean the couplers and seals, press the seals together at 90 degrees, then turn to lock."],
+          ["Glad hands", "Couplers for the two air lines. Clean the couplers and seals, press the seals together at 90 degrees, then turn to lock. Couple the right pair: blue (or tagged \"service\") to service, red (or \"emergency\") to emergency."],
           ["Dummy couplers", "Hold unused hoses so water and dirt stay out of the lines"],
           ["Shut-off valves", "Also called cut-out cocks. Open on every trailer that tows another; closed only at the back of the last trailer."]
         ]},
@@ -78,7 +78,7 @@
           "A major service line leak may go unnoticed until you brake. Then tank pressure drops fast, and if it gets low enough the trailer emergency brakes come on.",
           "Crossed air lines on a trailer with spring brakes: the springs won't release. On an older trailer without spring brakes, you could drive off with no trailer brakes at all. Always test the trailer brakes first.",
           "Drain trailer tanks every day. Even with automatic drains, open them to make sure moisture is out.",
-          "Converter dollies and trailers built before 1975 don't need spring brakes. Their emergency brakes hold only while tank air lasts, so always chock them when parked.",
+          "Converter dollies, and trailers built before 1975, aren't required to have spring brakes. Their emergency brakes hold only while tank air lasts, so always chock them when parked.",
           "Trailers and converter dollies built on or after March 1, 1998 must have ABS.",
           "Trailer-only ABS: if the tractor starts to jackknife or you lose steering, let up on the brakes (if safe) until you regain control.",
           "ABS never lets you drive faster, follow closer or drive less carefully. Brake as you always have."
@@ -89,20 +89,20 @@
       "heading": "Coupling a tractor-semitrailer",
       "blocks": [
         {"type": "steps", "items": [
-          "Inspect the fifth wheel: secure, undamaged, and greased (no grease means friction and steering problems). It should tilt down toward the rear, with jaws open and the safety unlocking handle in the automatic lock position.",
+          "Inspect the fifth wheel: secure, undamaged, and greased (no grease means friction and steering problems). It should tilt down toward the rear, with jaws open and the safety unlocking handle in the automatic lock position. A sliding fifth wheel must be locked, and the kingpin must not be bent or broken.",
           "Check the area, chock the trailer wheels or make sure its spring brakes are on, and check that any cargo is secured.",
           "Line the tractor up directly in front of the trailer. Backing under at an angle can push the trailer sideways and break the landing gear.",
           "Back slowly until the fifth wheel just touches the trailer, then set the parking brake and shift to neutral.",
-          "Check trailer height: low enough that the tractor lifts it slightly. Too high and it may not couple; too low and you can hit the trailer nose.",
+          "Check trailer height: low enough that the tractor lifts it slightly. Too high and it may not couple; too low and you can hit the trailer nose. Check that the kingpin and fifth wheel are aligned.",
           "Connect the emergency and service air lines and support them so they won't be crushed.",
-          "Push in the air supply knob and wait for normal pressure. Shut off the engine so you can hear the trailer brakes apply and release.",
+          "Push in the air supply knob and wait for normal pressure. Check for crossed air lines: shut off the engine, apply and release the trailer brakes and listen, and watch the gauge for major air loss. Then restart the engine and bring pressure back to normal.",
           "Pull out the air supply knob to lock the trailer brakes.",
           "Back under the trailer slowly in the lowest reverse gear until the kingpin locks.",
           "Tug test: raise the landing gear slightly off the ground and pull gently forward with the trailer brakes still locked.",
           "Set the parking brake, shift to neutral, shut off the engine and take the key so no one moves the truck while you are under it.",
           "Inspect the coupling: no space between upper and lower fifth wheel, jaws closed around the shank of the kingpin (not the head), locking lever locked, safety latch in place.",
           "Plug in the electrical cord, and check that lines are undamaged and clear of moving parts.",
-          "Raise the landing gear, starting in low range and switching to high once it's free of weight. Raise it all the way and secure the crank handle.",
+          "Raise the landing gear, starting in low range and switching to high once it's free of weight. Raise it all the way and secure the crank handle. Then check clearance between the tractor frame and landing gear, and between the tractor tires and the trailer nose.",
           "Remove and store the wheel chocks."
         ]},
         {"type": "warning", "text": "A gap between the fifth wheel plates means the kingpin may be sitting on top of closed jaws, and the trailer could come loose. If the coupling isn't right, don't drive it. Get it fixed."},
@@ -113,7 +113,7 @@
       "heading": "Uncoupling",
       "blocks": [
         {"type": "steps", "items": [
-          "Park on ground that can hold the trailer, with the tractor lined up straight.",
+          "Park on ground that can hold the trailer, with the tractor lined up straight. Pulling out at an angle can damage the landing gear.",
           "Pull out the air supply knob to lock the trailer brakes. Back up gently to ease pressure on the locking jaws, and set the parking brake while pushing against the kingpin.",
           "Chock the trailer wheels if it has no spring brakes, or if you aren't sure.",
           "Lower the landing gear to firm contact. If loaded, give the crank a few extra turns in low gear to take some weight off the tractor (don't lift the trailer off the fifth wheel).",
@@ -128,7 +128,9 @@
       "heading": "Inspecting and testing",
       "blocks": [
         {"type": "bullets", "items": [
-          "Lower fifth wheel: securely mounted, greased, no visible gap, jaws around the kingpin shank, release arm seated, safety latch engaged.",
+          "Lower fifth wheel: securely mounted, greased, no visible gap, jaws around the kingpin shank (not the head), release arm seated, safety latch engaged.",
+          "Upper fifth wheel: glide plate securely mounted to the trailer frame, kingpin not damaged.",
+          "Sliding fifth wheel: undamaged, greased, all locking pins in place and locked, and not so far forward that the tractor frame hits the landing gear or the cab hits the trailer in turns.",
           "Air lines: properly connected to the glad hands, no leaks, no damage, and enough slack for turns.",
           "Landing gear: fully raised, not bent or damaged, crank handle secured. Never drive with it part way up; it can catch on railroad tracks."
         ]},
