@@ -38,11 +38,13 @@ function exam(t, fallbackNote) {
     passingScore = null;
   }
   const notes = [str(t?.notes)].filter(Boolean);
-  if (!questions || !passingScore) {
-    notes.push(fallbackNote);
-  }
   const q = questions ?? 40;
   const p = passingScore ?? Math.ceil(q * ((percent ?? 80) / 100));
+  if (!questions && percent) {
+    notes.push(`The official site does not publish the number of questions; this practice exam uses ${q} questions at the official ${percent}% passing standard.`);
+  } else if (!questions || !passingScore) {
+    notes.push(fallbackNote);
+  }
   return {
     questions: q,
     passingScore: p,

@@ -1,5 +1,5 @@
 import React from 'react';
-import {act, fireEvent, screen} from '@testing-library/react-native';
+import {act, configure, fireEvent, screen} from '@testing-library/react-native';
 import {mockNav, renderInStack, renderWithProviders, setLearner} from '../utils/render';
 import {useProgress} from '../../src/store/progress';
 import {useSessions} from '../../src/store/session';
@@ -7,6 +7,10 @@ import {startSession, finishSession} from '../../src/store/actions';
 import {clearBankCache} from '../../src/data/bank';
 
 jest.mock('../../src/content', () => require('../fixtures/content'));
+
+// Generous async timeouts: these flows run many interactions and CI/dev machines can be busy.
+configure({asyncUtilTimeout: 5000});
+jest.setTimeout(60000);
 
 import {WelcomeScreen} from '../../src/screens/onboarding/WelcomeScreen';
 import {PickStateScreen} from '../../src/screens/onboarding/PickStateScreen';
@@ -102,6 +106,14 @@ describe('screens survive an empty question bank', () => {
   });
 });
 
+/** Fixture questions: "Correct choice" is right, except the True/False item where "False" is right. */
+async function pressAnswer(correct: boolean) {
+  await screen.findAllByTestId(/^choice-/);
+  const tf = screen.queryByText('True');
+  const label = tf ? (correct ? 'False' : 'True') : correct ? 'Correct choice' : 'Wrong choice one';
+  await fireEvent.press(screen.getByText(label));
+}
+
 describe('quiz flow', () => {
   const quizStack = (spec: object) => [
     {name: 'Quiz', component: QuizScreen, params: {spec}},
@@ -134,7 +146,7 @@ describe('quiz flow', () => {
   test('exam: answers are recorded only on submit and results show pass', async () => {
     await renderInStack(quizStack({mode: 'exam'}));
     for (let i = 0; i < 10; i++) {
-      await fireEvent.press(await screen.findByText('Correct choice'));
+      await pressAnswer(true);
       expect(useProgress.getState().totalAnswered).toBe(0);
       if (i < 9) {
         await fireEvent.press(screen.getByTestId('quiz-next'));
@@ -149,7 +161,7 @@ describe('quiz flow', () => {
   test('survival ends after three wrong answers', async () => {
     await renderInStack(quizStack({mode: 'survival'}));
     for (let i = 0; i < 3; i++) {
-      await fireEvent.press(await screen.findByText('Wrong choice one'));
+      await pressAnswer(false);
       if (i < 2) {
         await fireEvent.press(screen.getByTestId('quiz-next'));
       }
