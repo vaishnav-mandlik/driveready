@@ -1,0 +1,2111 @@
+[
+  {
+    "id": "md.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Maryland, a driver 21 or older is considered to be driving under the influence at what blood alcohol concentration (BAC)?",
+    "choices": [
+      ".12 or higher",
+      ".08 or higher",
+      ".10 or higher",
+      ".05 or higher"
+    ],
+    "answer": 1,
+    "explanation": "Maryland considers drivers to be under the influence when their BAC is .08 or higher. Your judgment can be impaired at much lower levels.",
+    "difficulty": 1,
+    "ref": "Maryland Driver's Manual, p. 33",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 19-year-old Maryland driver has had one beer and is stopped by police. Which statement is correct?",
+    "choices": [
+      "The driver's license can be suspended or revoked because drivers under 21 may not drink any alcohol",
+      "The driver only receives a warning for a first stop",
+      "It is legal because the driver's BAC is surely below .08",
+      "It is legal as long as the BAC is under .02"
+    ],
+    "answer": 0,
+    "explanation": "Drivers under 21 may not drink any alcohol. If police stop you after drinking, your license will be suspended or revoked, and you can be charged with violating the alcohol restriction on your license.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 33",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the alcohol concentration limit for a person driving a commercial motor vehicle in Maryland?",
+    "choices": [
+      "0.08",
+      "0.02",
+      "0.06",
+      "0.04"
+    ],
+    "answer": 3,
+    "explanation": "Driving a commercial motor vehicle with an alcohol concentration of 0.04 or more leads to a 1-year disqualification from commercial driving. The 0.08 limit applies to regular drivers.",
+    "difficulty": 2,
+    "ref": "Md. Code, Transportation § 16-812",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A Maryland driver refuses a requested alcohol test for the first time. How long will the MVA suspend the license?",
+    "choices": [
+      "90 days",
+      "180 days",
+      "270 days",
+      "2 years"
+    ],
+    "answer": 2,
+    "explanation": "A first test refusal brings a 270-day license suspension. A second or later refusal brings a 2-year suspension. A first test result of .08 or more brings 180 days.",
+    "difficulty": 3,
+    "ref": "Md. Code, Transportation § 16-205.1",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Maryland's implied consent law, when have you agreed to take a drug or alcohol test if an officer asks?",
+    "choices": [
+      "Only after you are convicted of DUI",
+      "Whenever you drive or attempt to drive on a road or on private property used by the public",
+      "Only if you were involved in a crash",
+      "Only if you hold a commercial license"
+    ],
+    "answer": 1,
+    "explanation": "By driving or attempting to drive on a road or private property used by the public, you consent to an alcohol or drug test when a law enforcement officer asks.",
+    "difficulty": 1,
+    "ref": "Maryland Driver's Manual, p. 47",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the maximum penalty for a first conviction of driving under the influence of alcohol in Maryland (with no minor in the vehicle)?",
+    "choices": [
+      "Up to 1 year in jail, a fine up to $1,200, or both",
+      "Up to 2 years in jail and a $2,000 fine",
+      "A $250 fine only",
+      "Up to 60 days in jail and a $500 fine"
+    ],
+    "answer": 0,
+    "explanation": "A first DUI conviction carries up to 1 year in jail, a fine up to $1,200, or both. Higher limits apply if a minor is being transported.",
+    "difficulty": 3,
+    "ref": "Md. Code, Transportation § 21-902",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "You are convicted of drunk driving while a child was riding in your vehicle. What can the judge do?",
+    "choices": [
+      "Reduce your penalty if the child was buckled",
+      "Only order a parenting class",
+      "Nothing extra; the penalty is the same",
+      "Double your fine and jail time"
+    ],
+    "answer": 3,
+    "explanation": "If you are convicted of a drunk or drugged driving offense with a child in your vehicle, the judge can double your fine and jail time.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 34",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Maryland, where is it illegal to have an open container of alcohol while driving?",
+    "choices": [
+      "Anywhere in the vehicle, including a locked trunk",
+      "Only in the driver's hand",
+      "In the passenger area, including the seats and anywhere the driver or passengers can easily reach",
+      "Only in the front seat"
+    ],
+    "answer": 2,
+    "explanation": "It is against the law to drive with an open container of alcohol in the passenger area. That area includes the driver and passenger seats and any place people can easily reach from their seats.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 33",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.009",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A six-pack with two cans missing is on the back seat while you drive. Under Maryland's open container rule, how can it be treated?",
+    "choices": [
+      "As a closed container because the remaining cans are sealed",
+      "As an open container",
+      "As legal if no one is drinking",
+      "As legal if the driver is 21 or older"
+    ],
+    "answer": 1,
+    "explanation": "The Driver's Manual says a six-pack with open, empty or missing bottles or cans can be considered an open container.",
+    "difficulty": 3,
+    "ref": "Maryland Driver's Manual, p. 33",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.010",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "According to the MVA's Rookie Driver guide, how is a BAC of .07 classified for a driver age 21 or older?",
+    "choices": [
+      "Driving while impaired (DWI)",
+      "No offense, because the limit is .08",
+      "Driving under the influence (DUI)",
+      "A parking-type civil infraction"
+    ],
+    "answer": 0,
+    "explanation": "The MVA states that for drivers 21 and over, a .07 BAC is DWI (driving while impaired) and .08 or higher is DUI. Drivers under 21 have zero tolerance.",
+    "difficulty": 3,
+    "ref": "MVA Rookie Driver Manual (RD-006), p. 30",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.011",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 30-year-old fully licensed Maryland driver needs to make a phone call while driving. Which is legal?",
+    "choices": [
+      "Holding the phone only at red lights",
+      "Texting only on the highway",
+      "Holding the phone to the ear for short calls",
+      "Using the phone hands-free, without holding it"
+    ],
+    "answer": 3,
+    "explanation": "It is illegal to use a hand-held cell phone, including texting, while driving. An adult may make calls only if the phone is not held (hands-free), and should keep calls short.",
+    "difficulty": 1,
+    "ref": "Maryland Driver's Manual, p. 35",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.012",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 17-year-old driver wants to talk to a parent while driving using a hands-free headset. Is this allowed in Maryland?",
+    "choices": [
+      "Yes, hands-free calls are allowed for everyone",
+      "Yes, but only for calls to family",
+      "No; drivers under 18 may not use a cell phone while driving, even hands-free, except to call 911",
+      "Yes, if the call is shorter than 1 minute"
+    ],
+    "answer": 2,
+    "explanation": "Drivers under 18 may not use a cell phone while driving, even hands-free. The only exception is a 911 emergency call.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 35",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.013",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Maryland's wireless device restriction, which call may a 17-year-old provisional license holder make while driving?",
+    "choices": [
+      "A hands-free call to a parent",
+      "A 911 emergency call",
+      "A call to their employer",
+      "Any call at a red light"
+    ],
+    "answer": 1,
+    "explanation": "Provisional license and learner's permit holders may not use any wireless device, including a hands-free phone, while driving. The only exception is a 911 emergency call.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 47",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.014",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Maryland's texting law bans writing, sending or reading text messages while driving. Which use of a handheld device does it NOT prohibit?",
+    "choices": [
+      "Using a global positioning system (GPS)",
+      "Sending a quick reply to work",
+      "Reading an email",
+      "Reading a text from a friend"
+    ],
+    "answer": 0,
+    "explanation": "The texting ban does not apply to using a GPS or to contacting 911. Writing, sending or reading texts or electronic messages in the travel portion of the roadway is prohibited.",
+    "difficulty": 2,
+    "ref": "Md. Code, Transportation § 21-1124.1",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.015",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Who must wear a seat belt or be in a child safety seat under Maryland law?",
+    "choices": [
+      "Only passengers under 16",
+      "Only the driver",
+      "Only front-seat occupants",
+      "The driver and all passengers"
+    ],
+    "answer": 3,
+    "explanation": "By law, the driver and all passengers must wear a safety belt or be buckled in a child safety seat, front seat or back seat.",
+    "difficulty": 1,
+    "ref": "Maryland Driver's Manual, p. 52",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.016",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 7-year-old child is 4 feet 6 inches tall. How must the child ride in a Maryland vehicle?",
+    "choices": [
+      "No restraint is needed in the back seat",
+      "With a regular seat belt only",
+      "In a child safety seat (such as a booster seat)",
+      "In the front seat with an air bag"
+    ],
+    "answer": 2,
+    "explanation": "All children under age 8 must ride in a child safety seat unless they are 4 feet 9 inches or taller. This child is under 8 and shorter than 4'9\".",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 52",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.017",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Until what age must a Maryland child ride in a rear-facing child safety seat (until reaching the seat maker's height or weight limit)?",
+    "choices": [
+      "Younger than 1",
+      "Younger than 2",
+      "Younger than 4",
+      "Younger than 8"
+    ],
+    "answer": 1,
+    "explanation": "Children younger than 2 must ride in a rear-facing child safety seat until they reach the height or weight limit set by the manufacturer.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 52",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.018",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which of these is illegal while driving in Maryland?",
+    "choices": [
+      "Wearing earphones in both ears",
+      "Listening to the car radio at a normal volume",
+      "Wearing one earbud for a hands-free call as an adult",
+      "Wearing a hearing aid"
+    ],
+    "answer": 0,
+    "explanation": "You may not drive with earplugs, headsets or earphones in both ears. Hearing aids are allowed.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 53",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.019",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 17-year-old Maryland provisional license holder is driving with a friend in the back seat who unbuckles. Why is this a problem?",
+    "choices": [
+      "Only the driver must wear a belt",
+      "It only matters on highways",
+      "It is not a problem for back-seat passengers",
+      "The seat belt restriction requires the provisional driver and all passengers to be buckled"
+    ],
+    "answer": 3,
+    "explanation": "If you have a Provisional License, you must always use a safety belt, and all passengers must use safety belts or child safety seats.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 47",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.020",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age to get a Maryland learner's instructional permit if you are younger than 25?",
+    "choices": [
+      "15 years",
+      "15 years and 6 months",
+      "15 years and 9 months",
+      "16 years"
+    ],
+    "answer": 2,
+    "explanation": "Applicants younger than 25 must be at least 15 years and 9 months old to get a learner's instructional permit.",
+    "difficulty": 1,
+    "ref": "Maryland Driver's Manual, p. 9",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.021",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old has a Maryland learner's permit. How long must it be held without a violation before the teen can get a provisional license?",
+    "choices": [
+      "6 months",
+      "9 months",
+      "45 days",
+      "3 months"
+    ],
+    "answer": 1,
+    "explanation": "If you are under 18, you must hold the permit for at least 9 months without a violation before you are eligible for a provisional license.",
+    "difficulty": 1,
+    "ref": "Maryland Driver's Manual, p. 10",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.022",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 20-year-old gets a Maryland learner's permit. What is the minimum violation-free holding period before a provisional license?",
+    "choices": [
+      "3 months",
+      "9 months",
+      "18 months",
+      "45 days"
+    ],
+    "answer": 0,
+    "explanation": "Applicants age 18 with a high school diploma or GED, or age 19 to 24, must hold the permit at least 3 months without a violation.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 10",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.023",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 30-year-old first-time driver gets a Maryland learner's permit. How long must the permit be held before the driver is eligible for a provisional license?",
+    "choices": [
+      "3 months",
+      "9 months",
+      "14 days",
+      "45 days"
+    ],
+    "answer": 3,
+    "explanation": "Applicants 25 and older must have the permit for at least 45 days before being eligible for a provisional license.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 10",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.024",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many hours of supervised practice driving must a Maryland learner under 25 complete, and how many of them at night?",
+    "choices": [
+      "40 hours, including 10 at night",
+      "50 hours, including 10 at night",
+      "60 hours, including 10 at night",
+      "60 hours, including 15 at night"
+    ],
+    "answer": 2,
+    "explanation": "Learners under 25 must practice at least 60 hours with a supervising driver, with at least 10 hours at night, and record them in the Practice and Skills Log.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 10",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.025",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many supervised practice hours must a Maryland learner age 25 or older complete?",
+    "choices": [
+      "No practice hours are required",
+      "At least 14 hours, including 3 at night",
+      "At least 60 hours, including 10 at night",
+      "At least 30 hours, including 5 at night"
+    ],
+    "answer": 1,
+    "explanation": "Applicants 25 and older must complete at least 14 practice hours with a supervising driver, including at least 3 hours at night.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 10",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.026",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "For the Maryland practice log, which period counts as \"night\" driving?",
+    "choices": [
+      "From 30 minutes before sunset to 30 minutes after sunrise",
+      "From 9 p.m. to 6 a.m.",
+      "From 1 hour after sunset to 1 hour before sunrise",
+      "From sunset to sunrise"
+    ],
+    "answer": 0,
+    "explanation": "Night practice hours are those driven from 30 minutes before sunset until 30 minutes after sunrise.",
+    "difficulty": 3,
+    "ref": "Maryland Driver's Manual, p. 10",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.027",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Maryland learner's permit holder is convicted of a moving violation. What happens to the permit holding period?",
+    "choices": [
+      "The permit is extended by 30 days",
+      "The learner must wait until age 18",
+      "Nothing changes",
+      "The permit must be held at least 9 months after the most recent conviction"
+    ],
+    "answer": 3,
+    "explanation": "At any age, a moving-violation conviction or Probation Before Judgment means you must hold the permit at least 9 months following the most recent violation.",
+    "difficulty": 3,
+    "ref": "Maryland Driver's Manual, p. 10",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.028",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Who may serve as the supervising driver for a Maryland learner's permit holder?",
+    "choices": [
+      "Any adult family member, licensed or not",
+      "Any licensed driver 18 or older",
+      "A licensed driver at least 21 years old who has been licensed for at least 3 years",
+      "A licensed driver at least 25 years old with 5 years of experience"
+    ],
+    "answer": 2,
+    "explanation": "A supervising driver must be at least 21, licensed for at least three years to drive the same class of vehicle, and seated beside the learner (unless the vehicle is a motorcycle).",
+    "difficulty": 1,
+    "ref": "Maryland Driver's Manual, p. 51",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.029",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age to get a Maryland provisional driver's license?",
+    "choices": [
+      "16 years",
+      "16 years and 6 months",
+      "17 years",
+      "15 years and 9 months"
+    ],
+    "answer": 1,
+    "explanation": "The MVA lists the minimum ages as 15 years 9 months for a learner's permit, 16 years 6 months for a provisional license, and 18 for a full driver's license.",
+    "difficulty": 2,
+    "ref": "MVA Rookie Driver Manual (RD-006), p. 30",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.030",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long must a Maryland driver hold a provisional license before becoming eligible for a full driver's license?",
+    "choices": [
+      "18 months",
+      "24 months",
+      "6 months",
+      "12 months"
+    ],
+    "answer": 0,
+    "explanation": "You must hold a provisional license for at least 18 months, with no moving-violation convictions or PBJs in the past 18 months, and be at least 18.",
+    "difficulty": 1,
+    "ref": "Maryland Driver's Manual, p. 11",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.031",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age for a full (unrestricted) Maryland driver's license?",
+    "choices": [
+      "19",
+      "21",
+      "17",
+      "18"
+    ],
+    "answer": 3,
+    "explanation": "To be eligible for a Driver's License you must be at least 18, have held a provisional license for at least 18 months, and have no moving violations in the past 18 months.",
+    "difficulty": 1,
+    "ref": "Maryland Driver's Manual, p. 11",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.032",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 17-year-old got a provisional license 2 months ago. With no supervising driver present, which passengers under 18 may ride along?",
+    "choices": [
+      "Anyone, as long as they wear seat belts",
+      "Any friends under 18",
+      "Only immediate family members, such as a younger brother or sister",
+      "Up to two friends under 18"
+    ],
+    "answer": 2,
+    "explanation": "For the first 151 days, a provisional driver under 18 may not drive unsupervised with passengers under 18 unless they are immediate family members.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 47",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.033",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "For how long does Maryland's passenger restriction apply to a provisional driver under 18?",
+    "choices": [
+      "The first 90 days",
+      "The first 151 days",
+      "The first 6 months",
+      "The first year"
+    ],
+    "answer": 1,
+    "explanation": "The passenger restriction (no passengers under 18 other than immediate family, unless supervised) lasts for the first 151 days.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 47",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.034",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 17-year-old provisional driver in Maryland wants to drive alone at 1:00 a.m. Which trip is allowed?",
+    "choices": [
+      "Driving home from their job",
+      "Going out to get food with friends",
+      "Driving to a late movie",
+      "Driving home from a friend's party"
+    ],
+    "answer": 0,
+    "explanation": "Between 12 midnight and 5 a.m., a provisional driver under 18 may drive unsupervised only to, from or during a job, an organized volunteer program, an official school activity, or an athletic event or training session.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 47",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.035",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 17-year-old provisional driver is convicted of a first moving violation. What penalty applies?",
+    "choices": [
+      "License revocation",
+      "A 180-day suspension",
+      "A 30-day suspension",
+      "Completion of a driver improvement program"
+    ],
+    "answer": 3,
+    "explanation": "For a minor with a provisional license, the first offense requires a driver improvement program. A second offense brings a 30-day suspension plus a 90-day work/school-only restriction.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 49",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.036",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What happens when a provisional driver under 18 is convicted of a second moving violation?",
+    "choices": [
+      "A 7-day suspension",
+      "A warning letter",
+      "A 30-day suspension followed by a 90-day employment and education only restriction",
+      "Immediate license revocation"
+    ],
+    "answer": 2,
+    "explanation": "A second offense results in a 30-day suspension followed by a 90-day restriction that limits driving to employment and educational purposes.",
+    "difficulty": 3,
+    "ref": "Maryland Driver's Manual, p. 49",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.037",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "After a moving-violation conviction or PBJ while holding a Maryland provisional license, what else is required?",
+    "choices": [
+      "Nothing else",
+      "Starting a new 18-month conviction-free period",
+      "Retaking the knowledge test",
+      "Paying a $500 surcharge"
+    ],
+    "answer": 1,
+    "explanation": "After each conviction or probation before judgment for a moving violation while holding a provisional license, you must begin a new 18-month conviction-free period.",
+    "difficulty": 3,
+    "ref": "Maryland Driver's Manual, p. 49",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.038",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many points within a 2-year period lead the Maryland MVA to suspend a driver's license?",
+    "choices": [
+      "8 points",
+      "10 points",
+      "12 points",
+      "5 points"
+    ],
+    "answer": 0,
+    "explanation": "The MVA suspends a license at 8 points and revokes it at 12 points accumulated within any 2-year period.",
+    "difficulty": 2,
+    "ref": "Md. Code, Transportation § 16-404",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.039",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "At how many points within 2 years does the Maryland MVA require a driver to attend a driver improvement program?",
+    "choices": [
+      "8 points",
+      "12 points",
+      "3 points",
+      "5 points"
+    ],
+    "answer": 3,
+    "explanation": "The MVA sends a warning letter at 3 points and requires a driver improvement program at 5 points. Suspension comes at 8 points.",
+    "difficulty": 3,
+    "ref": "Md. Code, Transportation § 16-404",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.040",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What are Maryland's minimum liability insurance amounts?",
+    "choices": [
+      "$50,000 per person / $100,000 per accident / $25,000 property damage",
+      "$15,000 per person / $30,000 per accident / $5,000 property damage",
+      "$30,000 per person / $60,000 per accident / $15,000 property damage",
+      "$25,000 per person / $50,000 per accident / $10,000 property damage"
+    ],
+    "answer": 2,
+    "explanation": "Maryland requires coverage of at least $30,000 for one person and $60,000 for two or more people for bodily injury, plus $15,000 for property damage.",
+    "difficulty": 2,
+    "ref": "Md. Code, Transportation § 17-103",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.041",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "According to the Maryland Driver's Manual, what is the maximum fine for not keeping insurance on a vehicle?",
+    "choices": [
+      "Up to $1,000 per vehicle each year",
+      "Up to $2,500 per vehicle each year",
+      "Up to $5,000 per vehicle each year",
+      "Up to $500 per vehicle each year"
+    ],
+    "answer": 1,
+    "explanation": "If you do not keep insurance on all your vehicles, you will be fined up to $2,500 per vehicle each year.",
+    "difficulty": 3,
+    "ref": "Maryland Driver's Manual, p. 53",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.042",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many questions are on the Maryland Class C knowledge test, and how many must you answer correctly to pass?",
+    "choices": [
+      "25 questions; 22 correct (88%)",
+      "20 questions; 16 correct (80%)",
+      "30 questions; 24 correct (80%)",
+      "25 questions; 20 correct (80%)"
+    ],
+    "answer": 0,
+    "explanation": "The Class C knowledge test has 25 questions and you must score 88% or higher, which means at least 22 correct answers.",
+    "difficulty": 2,
+    "ref": "MVA Knowledge Tests page (mva.maryland.gov)",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.043",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You have failed the Maryland knowledge test twice. How long must you wait before retesting?",
+    "choices": [
+      "30 days",
+      "6 months",
+      "The next business day",
+      "At least 7 calendar days"
+    ],
+    "answer": 3,
+    "explanation": "After a first failure you may retest the next business day if an appointment is available. After failing two or more times, you must wait at least seven calendar days.",
+    "difficulty": 2,
+    "ref": "MVA Knowledge Tests page (mva.maryland.gov)",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.044",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which maneuver is no longer required on the Maryland driving skills test?",
+    "choices": [
+      "Three-point turn",
+      "Back-in parking",
+      "Parallel parking",
+      "Pull-in parking"
+    ],
+    "answer": 2,
+    "explanation": "Parallel parking is no longer required on the driving test. Applicants must perform pull-in parking, back-in parking and a three-point turn, and the reverse two-point turn covers similar skills.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 53",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.045",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What minimum following distance does the Maryland MVA recommend under ideal driving conditions?",
+    "choices": [
+      "2 seconds",
+      "3 to 4 seconds",
+      "6 seconds",
+      "1 to 2 seconds"
+    ],
+    "answer": 1,
+    "explanation": "The MVA recommends a minimum following distance of 3 to 4 seconds under ideal conditions, measured with a fixed reference point.",
+    "difficulty": 1,
+    "ref": "Maryland Driver's Manual, p. 15",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.046",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are following a city bus that stops often. How much following distance does the Maryland manual recommend?",
+    "choices": [
+      "4 to 5 seconds, or more if needed",
+      "10 seconds",
+      "2 seconds",
+      "3 seconds"
+    ],
+    "answer": 0,
+    "explanation": "Behind vehicles that stop often, such as buses and delivery vans, increase your following distance to four or five seconds, and more if needed.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 15",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.047",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Traffic on a clear, dry road is moving 5 mph faster than the posted speed limit. What does Maryland law say?",
+    "choices": [
+      "You may exceed the limit by up to 5 mph",
+      "Speed limits only apply in bad weather",
+      "You should match the speed of traffic",
+      "It is illegal to drive faster than the posted limit"
+    ],
+    "answer": 3,
+    "explanation": "You may drive slower than the posted limit when conditions call for it, but it is illegal to drive any faster than the posted speed limit.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 14",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.048",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless a different limit is posted, what is the maximum speed limit on Maryland highways in a business district?",
+    "choices": [
+      "40 mph",
+      "25 mph",
+      "30 mph",
+      "35 mph"
+    ],
+    "answer": 2,
+    "explanation": "Maryland's statutory maximum is 30 mph on all highways in a business district unless another limit is posted.",
+    "difficulty": 2,
+    "ref": "Md. Code, Transportation § 21-801.1",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.049",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the maximum speed on a divided highway in a Maryland residential district?",
+    "choices": [
+      "30 mph",
+      "35 mph",
+      "45 mph",
+      "25 mph"
+    ],
+    "answer": 1,
+    "explanation": "The default maximum is 30 mph on undivided highways and 35 mph on divided highways in a residential district.",
+    "difficulty": 3,
+    "ref": "Md. Code, Transportation § 21-801.1",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.050",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the maximum speed on an undivided highway outside business and residential districts in Maryland?",
+    "choices": [
+      "50 mph",
+      "55 mph",
+      "60 mph",
+      "45 mph"
+    ],
+    "answer": 0,
+    "explanation": "The default maximum is 50 mph on undivided highways and 55 mph on divided highways in other locations.",
+    "difficulty": 3,
+    "ref": "Md. Code, Transportation § 21-801.1",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.051",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the highest speed limit that may be posted on any highway in Maryland?",
+    "choices": [
+      "75 mph",
+      "80 mph",
+      "65 mph",
+      "70 mph"
+    ],
+    "answer": 3,
+    "explanation": "No Maryland highway may have a speed limit above 70 mph, and limits above 55 mph are allowed only on interstates and expressways.",
+    "difficulty": 2,
+    "ref": "Md. Code, Transportation § 21-801.1",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.052",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "In Maryland, you must turn on your headlights whenever you cannot clearly see at least how far ahead?",
+    "choices": [
+      "300 feet",
+      "500 feet",
+      "1,000 feet",
+      "1,500 feet"
+    ],
+    "answer": 2,
+    "explanation": "You must turn on your headlights any time there is not enough light to clearly see at least 1,000 feet in front of your vehicle.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 27",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.053",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "It is a rainy afternoon and you switch on your windshield wipers. What does Maryland law require?",
+    "choices": [
+      "Nothing else",
+      "Turn on your headlights",
+      "Turn on your hazard flashers",
+      "Use your high beams"
+    ],
+    "answer": 1,
+    "explanation": "Maryland law requires you to turn on your headlights when using your windshield wipers in inclement weather.",
+    "difficulty": 1,
+    "ref": "Maryland Driver's Manual, p. 27",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.054",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You are using high beams on a dark road. How far from an oncoming vehicle must you switch to low beams?",
+    "choices": [
+      "At least 500 feet",
+      "At least 1,000 feet",
+      "At least 200 feet",
+      "At least 300 feet"
+    ],
+    "answer": 0,
+    "explanation": "Change to low beams at least 500 feet before reaching vehicles coming toward you.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 27",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.055",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When following another vehicle with your high beams on, when must you dim to low beams?",
+    "choices": [
+      "When it is 500 feet or less ahead",
+      "When it is 100 feet or less ahead",
+      "Only if the driver flashes their lights",
+      "When it is 300 feet or less ahead"
+    ],
+    "answer": 3,
+    "explanation": "Change to low beams when following a vehicle that is 300 feet or less in front of you. The 500-foot distance is for oncoming vehicles.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 27",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.056",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "In a Maryland work zone, what do flashing blue lights mean?",
+    "choices": [
+      "A snowplow is ahead",
+      "A police checkpoint is ahead",
+      "The work zone speed cameras are active",
+      "The work zone has ended"
+    ],
+    "answer": 2,
+    "explanation": "Flashing blue lights in a work zone mean the speed cameras are active. Speeding fines may be much higher in work zones.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 31",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.057",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You are stuck behind a farm tractor on a two-lane road, waiting for a safe chance to pass. What does the Maryland manual suggest?",
+    "choices": [
+      "Honk to get the driver to pull over",
+      "Use your emergency flashers to warn drivers coming up behind you",
+      "Pass on the shoulder",
+      "Follow closely so others know you are passing"
+    ],
+    "answer": 1,
+    "explanation": "If you must follow a slow-moving vehicle while waiting for a safe time to pass, use your emergency flashers to warn others coming up behind you.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 32",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.058",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You are stopped at a steady red light in Maryland and there is no sign prohibiting turns. Which turn may you make after coming to a complete stop?",
+    "choices": [
+      "A right turn, yielding to pedestrians and other traffic",
+      "A left turn onto a two-way street",
+      "A U-turn",
+      "No turns are allowed on red"
+    ],
+    "answer": 0,
+    "explanation": "Unless a sign prohibits it, after a complete stop you may turn right on red, or turn left from a one-way street onto another one-way street. You must yield to pedestrians and all other traffic.",
+    "difficulty": 1,
+    "ref": "Maryland Driver's Manual, p. 17",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.059",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "When may you turn left on a steady red signal in Maryland?",
+    "choices": [
+      "From any street, if no traffic is coming",
+      "Only from a two-way street onto a one-way street",
+      "Never",
+      "From a one-way street onto another one-way street, after stopping, unless a sign prohibits it"
+    ],
+    "answer": 3,
+    "explanation": "A left turn on red is allowed only from a one-way street onto another one-way street, after a complete stop and when no sign prohibits it.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 17",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.060",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "In Maryland, how far before turning must you signal continuously?",
+    "choices": [
+      "At least 300 feet",
+      "At least 50 feet",
+      "At least 100 feet",
+      "At least 200 feet"
+    ],
+    "answer": 2,
+    "explanation": "A turn signal must be given continuously during at least the last 100 feet traveled before turning.",
+    "difficulty": 2,
+    "ref": "Md. Code, Transportation § 21-604",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.061",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You come to an intersection where the traffic signal is dark because of a power outage. What must you do?",
+    "choices": [
+      "Proceed carefully without stopping if no one is coming",
+      "Stop at the stop line (or before the crosswalk or intersection), yield, and go when it is safe",
+      "Treat it as a yield sign",
+      "Drivers on the wider road may go without stopping"
+    ],
+    "answer": 1,
+    "explanation": "When a signal is not working, stop at the marked stop line, or before the crosswalk or intersection if there is none. Yield to vehicles and pedestrians and stay stopped until it is safe to continue.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 17",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.062",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A funeral procession with headlights and hazard lights on is crossing an intersection, and your light turns green. What must you do?",
+    "choices": [
+      "Yield until all vehicles in the procession have passed, unless you can proceed without crossing its path",
+      "Honk so the procession stops for you",
+      "Cut into a gap in the procession",
+      "Go, because you have a green light"
+    ],
+    "answer": 0,
+    "explanation": "Even with a green signal, other drivers must yield to a funeral procession until all its vehicles have passed, unless they can safely proceed without crossing its path.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 32",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.063",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are driving in a funeral procession with your headlights and flashing hazard lights on. What may you do at a red signal?",
+    "choices": [
+      "You may go through only if a police escort is present",
+      "You must leave the procession",
+      "You must stop and wait like any other driver",
+      "You may go through the red signal with the procession"
+    ],
+    "answer": 3,
+    "explanation": "If you are part of a funeral procession and have your lights on, you may go through a red traffic signal.",
+    "difficulty": 3,
+    "ref": "Maryland Driver's Manual, p. 32",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.064",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are in a multi-lane traffic circle and plan to take the third exit. When should you move to the outside lane?",
+    "choices": [
+      "You should never change lanes in a circle",
+      "As soon as you enter the circle",
+      "After you pass the exit just before the one you plan to take, with your right signal on",
+      "Only after you pass your exit"
+    ],
+    "answer": 2,
+    "explanation": "When preparing to exit, turn on your right turn signal and move to the outside lane after you pass the exit before the one you plan to take.",
+    "difficulty": 3,
+    "ref": "Maryland Driver's Manual, p. 31",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.065",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Where U-turns are allowed in Maryland, which lane should you turn into?",
+    "choices": [
+      "The left lane closest to the center line",
+      "The outside or right-hand lane going in the opposite direction",
+      "Any lane that is open",
+      "The shoulder, then merge"
+    ],
+    "answer": 1,
+    "explanation": "Signal left, stop and yield to oncoming traffic, then turn into the outside or right-hand lane traveling in the opposite direction.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 15",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.066",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "In Maryland, you may not pass another vehicle when you are within how many feet of an intersection or railroad grade crossing?",
+    "choices": [
+      "100 feet",
+      "200 feet",
+      "500 feet",
+      "50 feet"
+    ],
+    "answer": 0,
+    "explanation": "You may not pass when crossing or within 100 feet of an intersection or railroad grade crossing, or within 100 feet of a bridge, elevated road or tunnel when your view is blocked.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 16",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.067",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "You are driving slower than other traffic on a Maryland interstate. Which lane should you use?",
+    "choices": [
+      "The shoulder",
+      "The left lane",
+      "The center lane",
+      "The right lane whenever possible"
+    ],
+    "answer": 3,
+    "explanation": "If you are driving slower than the speed of traffic on the highway, you must drive in the right lane whenever possible.",
+    "difficulty": 1,
+    "ref": "Maryland Driver's Manual, p. 32",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.068",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Maryland, how close to a fire hydrant may you park?",
+    "choices": [
+      "No closer than 30 feet",
+      "No closer than 10 feet",
+      "No closer than 15 feet",
+      "No closer than 20 feet"
+    ],
+    "answer": 2,
+    "explanation": "A person may not stand or park a vehicle within 15 feet of a fire hydrant.",
+    "difficulty": 1,
+    "ref": "Md. Code, Transportation § 21-1003",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.069",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Outside Baltimore City, how far must you park from a crosswalk at an intersection in Maryland?",
+    "choices": [
+      "At least 15 feet",
+      "At least 20 feet",
+      "At least 30 feet",
+      "At least 10 feet"
+    ],
+    "answer": 1,
+    "explanation": "You may not stand or park within 20 feet of a crosswalk at an intersection. This rule does not apply in Baltimore City.",
+    "difficulty": 2,
+    "ref": "Md. Code, Transportation § 21-1003",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.070",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You want to park on the approach to a stop sign at the side of the road. How far from it must you be?",
+    "choices": [
+      "At least 30 feet",
+      "At least 50 feet",
+      "At least 15 feet",
+      "At least 20 feet"
+    ],
+    "answer": 0,
+    "explanation": "You may not stand or park within 30 feet on the approach to a flashing signal, stop sign, yield sign or traffic control signal at the side of a roadway.",
+    "difficulty": 2,
+    "ref": "Md. Code, Transportation § 21-1003",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.071",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How far from the nearest rail of a railroad crossing must you park in Maryland?",
+    "choices": [
+      "At least 100 feet",
+      "At least 15 feet",
+      "At least 25 feet",
+      "At least 50 feet"
+    ],
+    "answer": 3,
+    "explanation": "A person may not park within 50 feet of the nearest rail in a railroad grade crossing.",
+    "difficulty": 2,
+    "ref": "Md. Code, Transportation § 21-1003",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.072",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "On the same side of the street, how far from a fire station driveway entrance must you park in Maryland?",
+    "choices": [
+      "At least 75 feet",
+      "At least 15 feet",
+      "At least 20 feet",
+      "At least 50 feet"
+    ],
+    "answer": 2,
+    "explanation": "You may not park within 20 feet of a fire station driveway entrance, or within 75 feet of the entrance on the opposite side of the road when it is signposted.",
+    "difficulty": 3,
+    "ref": "Md. Code, Transportation § 21-1003",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.073",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "When parallel parking on a two-way street in Maryland, how close to the curb must your right wheels be?",
+    "choices": [
+      "Within 6 inches",
+      "Within 12 inches",
+      "Within 18 inches",
+      "Within 24 inches"
+    ],
+    "answer": 1,
+    "explanation": "On a two-way roadway, park parallel to the right-hand curb or edge with your right wheels within 12 inches of it.",
+    "difficulty": 2,
+    "ref": "Md. Code, Transportation § 21-1004",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.074",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Where is it illegal to stop, stand or park in Maryland, even for a moment?",
+    "choices": [
+      "In an intersection",
+      "25 feet from a fire hydrant",
+      "40 feet from a stop sign",
+      "In a marked parking space"
+    ],
+    "answer": 0,
+    "explanation": "Maryland law prohibits stopping, standing or parking in an intersection, on a crosswalk, or on a sidewalk.",
+    "difficulty": 1,
+    "ref": "Md. Code, Transportation § 21-1003",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.075",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "A driver with a valid disability placard parks on the striped access aisle next to a disability parking space. Is this allowed?",
+    "choices": [
+      "Yes, for up to 30 minutes",
+      "Only if the regular space is taken",
+      "Yes, the placard allows it",
+      "No, parking on any part of the access aisle is a violation even with a placard"
+    ],
+    "answer": 3,
+    "explanation": "You may be cited for parking on any part of the access aisle next to a disability space, even with a disability plate or placard. People use that aisle to get in and out of their vehicles.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 50",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.076",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Which of these is a violation even if you have a disability license plate or placard?",
+    "choices": [
+      "Parking in a regular space",
+      "Parking in a disability space with the qualifying person in the car",
+      "Parking in front of or blocking any part of a curb cut",
+      "Using an unexpired placard while the qualifying person is driving"
+    ],
+    "answer": 2,
+    "explanation": "Parking in front of or blocking any part of a curb cut is a violation even if you have a disability license plate or placard.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 49",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.077",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A school bus is stopped ahead of you with its red lights flashing. How far from the bus must you stop?",
+    "choices": [
+      "At least 15 feet",
+      "At least 20 feet",
+      "At least 50 feet",
+      "At least 10 feet"
+    ],
+    "answer": 1,
+    "explanation": "Stop at least 20 feet from the back of the bus if you are behind it, or at least 20 feet from the front if you are approaching it.",
+    "difficulty": 1,
+    "ref": "Maryland Driver's Manual, p. 38",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.078",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are on a multi-lane road divided by a concrete barrier. A school bus with flashing red lights is stopped on the other side of the barrier. What must you do?",
+    "choices": [
+      "You do not need to stop",
+      "Stop only if children are crossing",
+      "Slow to 15 mph",
+      "Stop at least 20 feet away"
+    ],
+    "answer": 0,
+    "explanation": "If you are on a multiple-lane road divided by a physical barrier, you do not stop when the bus is on the other side of the barrier.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 39",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.079",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a four-lane road with only painted lines in the middle, a school bus stops in the opposite lanes with red lights flashing. What must you do?",
+    "choices": [
+      "Slow down and pass carefully",
+      "Stop only if you are in the lane next to the center line",
+      "Keep going, because the bus is across the center line",
+      "Stop at least 20 feet from the bus"
+    ],
+    "answer": 3,
+    "explanation": "Only a physical barrier excuses you from stopping. Painted lines are not a barrier, so you must stop at least 20 feet from the bus.",
+    "difficulty": 3,
+    "ref": "Maryland Driver's Manual, p. 38-39",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.080",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You have stopped for a school bus with flashing red lights. When may you start moving again?",
+    "choices": [
+      "When the children reach the sidewalk",
+      "After waiting 30 seconds",
+      "When the bus starts moving or turns off its flashing red lights",
+      "When the bus driver waves you on"
+    ],
+    "answer": 2,
+    "explanation": "You may not start moving again until the school bus starts moving or turns off its flashing red lights.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 39",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.081",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "How much space does Maryland require when you pass a bicyclist?",
+    "choices": [
+      "At least 2 feet",
+      "At least 3 feet",
+      "At least 5 feet",
+      "At least 6 feet"
+    ],
+    "answer": 1,
+    "explanation": "Leave at least 3 feet between your vehicle and the bicycle when passing, whether it is in a bike lane, on the shoulder, or in your lane.",
+    "difficulty": 1,
+    "ref": "Maryland Driver's Manual, p. 40",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.082",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A bicyclist is riding in the middle of a narrow lane, well below the speed of traffic. Is this legal in Maryland?",
+    "choices": [
+      "Yes, a bicyclist may use the full lane when it is too narrow to share safely",
+      "No, bicycles are not allowed on roads with a speed limit over 25 mph",
+      "Yes, but only during daylight",
+      "No, bicycles must always ride on the shoulder"
+    ],
+    "answer": 0,
+    "explanation": "In Maryland, a bicyclist may use the full lane even while going well below the speed of traffic if the lane is too narrow for a motor vehicle to pass the bicycle safely within it.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 40",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.083",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A bicyclist is crossing the street in a crosswalk. What right-of-way does the bicyclist have in Maryland?",
+    "choices": [
+      "Right-of-way only at night",
+      "Right-of-way only if walking the bike",
+      "None; bicyclists must always yield to cars",
+      "The same right-of-way as a pedestrian in a crosswalk"
+    ],
+    "answer": 3,
+    "explanation": "Bicycles have the same right-of-way as pedestrians in a crosswalk. Failing to yield to a bicycle that results in a crash can bring fines, jail and points.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 40",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.084",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You need to turn right across a bike lane where a bicyclist is riding. What must you do?",
+    "choices": [
+      "Speed up to get ahead of the bicyclist",
+      "Turn first, since cars have priority",
+      "Yield the right-of-way to the bicyclist",
+      "Honk to warn the bicyclist"
+    ],
+    "answer": 2,
+    "explanation": "When you enter or cross a bike lane or shoulder, you must yield to bicyclists riding in it. Bicyclists have the right-of-way when a motor vehicle is turning.",
+    "difficulty": 1,
+    "ref": "Maryland Driver's Manual, p. 40",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.085",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Under Maryland law, who must wear a helmet when riding a bicycle?",
+    "choices": [
+      "Everyone",
+      "Anyone under age 16, including passengers",
+      "Anyone under age 12",
+      "Only riders on roads over 35 mph"
+    ],
+    "answer": 1,
+    "explanation": "Helmets are required for anyone under age 16 riding on a bike, including passengers who are not steering. Helmets are strongly recommended for all ages.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 54",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.086",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On which roads may mopeds and motor scooters be ridden in Maryland?",
+    "choices": [
+      "Roads with a posted maximum speed limit of 50 mph or less",
+      "Only roads posted 35 mph or less",
+      "Only bike lanes",
+      "Any road, including interstates"
+    ],
+    "answer": 0,
+    "explanation": "Mopeds and scooters may be ridden on any road with a posted maximum speed limit of 50 mph or less, on the road or shoulder, alone or side by side.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 41",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.087",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "An ambulance with its siren and lights on is going the same direction as you. When may you pass it?",
+    "choices": [
+      "Whenever the left lane is clear",
+      "Never, under any circumstances",
+      "When it slows below the speed limit",
+      "Only if it stops or a police officer tells you to pass"
+    ],
+    "answer": 3,
+    "explanation": "If you are going the same direction as an emergency vehicle using its signals, you may not pass it unless it stops or a police officer tells you to.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 37",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.088",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a multi-lane highway, you approach a tow truck stopped on the shoulder with its lights flashing. What does Maryland's Move Over Law require?",
+    "choices": [
+      "Move over only for police vehicles",
+      "Honk and continue at the same speed",
+      "Move to a lane not next to the tow truck, or slow to a safe speed if you cannot move over",
+      "Stop completely in your lane"
+    ],
+    "answer": 2,
+    "explanation": "You must move to a lane that is not right next to the stopped vehicle. If it is not safe or possible to move over, slow down to a safe speed and be ready to stop.",
+    "difficulty": 1,
+    "ref": "Maryland Driver's Manual, p. 37, 45",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.089",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A disabled car is on the shoulder of a Maryland highway with its hazard lights flashing. Does the Move Over Law apply?",
+    "choices": [
+      "No, it applies only to police, fire and ambulances",
+      "Yes, it applies to any vehicle stopped, standing or parked on the road with its lights flashing",
+      "Only if a police officer is present",
+      "Only on interstates"
+    ],
+    "answer": 1,
+    "explanation": "In Maryland, you must move over when approaching any vehicle that is stopped, standing or parked on a road with its lights flashing, or slow down if you cannot.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 45",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.090",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "What is the basic penalty for violating Maryland's Move Over Law when no crash results?",
+    "choices": [
+      "A $110 fine and one point",
+      "A $500 fine and five points",
+      "License suspension",
+      "A warning only"
+    ],
+    "answer": 0,
+    "explanation": "A violation is a misdemeanor: $110 and one point; $150 and three points if it causes a crash; $750 and three points if there is a death or serious injury.",
+    "difficulty": 3,
+    "ref": "Maryland Driver's Manual, p. 45",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.091",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "At an intersection with no traffic signal, a pedestrian is waiting in an unmarked crosswalk. What must you do?",
+    "choices": [
+      "Honk so the pedestrian waits",
+      "Yield only if the pedestrian is already halfway across",
+      "Proceed, since the crosswalk is not marked",
+      "Stop for the pedestrian"
+    ],
+    "answer": 3,
+    "explanation": "When there is no traffic signal, you must stop for pedestrians in a marked or unmarked crosswalk. Most intersections have a crosswalk even if it is not marked.",
+    "difficulty": 1,
+    "ref": "Maryland Driver's Manual, p. 37",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.092",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "What following distance does the Maryland manual recommend behind a motorcycle?",
+    "choices": [
+      "At least 1 second",
+      "At least 2 seconds",
+      "At least 3 to 4 seconds",
+      "At least 8 seconds"
+    ],
+    "answer": 2,
+    "explanation": "Leave at least a 3 to 4-second following distance behind a motorcycle. Riders often slow down without their brake lights coming on.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 39",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.093",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You are in a crash in which someone is injured. What does Maryland require you to do?",
+    "choices": [
+      "Move the vehicles and leave if you feel fine",
+      "Remain at the scene, call 911, and do not move the vehicles",
+      "Exchange information and report it to the MVA within 30 days",
+      "Drive the injured person to the hospital immediately"
+    ],
+    "answer": 1,
+    "explanation": "If anyone is injured, you must remain at the scene, call 911 right away, report the number of people and injuries and the location, and not move the vehicles.",
+    "difficulty": 1,
+    "ref": "Maryland Driver's Manual, p. 43",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.094",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You are in a minor crash with no injuries and both cars can still be driven. What should you do first?",
+    "choices": [
+      "Move the vehicles off the road as close as possible to the crash location",
+      "Drive home and call your insurer",
+      "Stand in the road to direct traffic",
+      "Leave the cars where they are until police arrive"
+    ],
+    "answer": 0,
+    "explanation": "If there are no injuries and your vehicle can move, move it off the road near the crash site to keep people safe and prevent backups, then exchange information.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 43",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.095",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "After a crash with no injuries, the other driver admits they do not have a license. What should you do?",
+    "choices": [
+      "Let them go if they pay cash",
+      "Report it to the MVA next month",
+      "Exchange information only",
+      "Call the police"
+    ],
+    "answer": 3,
+    "explanation": "You must always call the police when someone is injured, a vehicle cannot be moved, a driver appears impaired, a driver has no license, a driver tries to leave without giving information, or public property is damaged.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 43-44",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.096",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "What penalty can a driver face for leaving the scene of a Maryland crash that resulted in someone's death?",
+    "choices": [
+      "Only a license suspension",
+      "A $500 fine",
+      "A felony with up to 10 years in prison and a fine up to $10,000",
+      "Up to 1 year in jail"
+    ],
+    "answer": 2,
+    "explanation": "Leaving the scene of a crash where someone dies is a felony punishable by up to 10 years in prison and a fine up to $10,000. For a serious injury, it is up to 5 years and $5,000, plus revocation.",
+    "difficulty": 3,
+    "ref": "Maryland Driver's Manual, p. 43",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.097",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You hit and injure a dog with your car. What does Maryland require?",
+    "choices": [
+      "Nothing, if the owner is not present",
+      "Call the police immediately",
+      "Leave a note on the nearest door",
+      "Report it to the MVA within 15 days"
+    ],
+    "answer": 1,
+    "explanation": "If you hit and injure a domestic animal, such as a dog, cat, horse or cow, you must immediately call the police.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 44",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.098",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Where does the Maryland manual say you should never stop or park during a roadside emergency?",
+    "choices": [
+      "In the triangular painted zones where a ramp exits the road",
+      "In a parking lot",
+      "On an off-ramp shoulder",
+      "On a wide shoulder"
+    ],
+    "answer": 0,
+    "explanation": "Never stop or park in the triangular painted zones where a ramp exits the road. Try to reach a shoulder, off-ramp or parking lot instead.",
+    "difficulty": 2,
+    "ref": "Maryland Driver's Manual, p. 44",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.099",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Under Maryland law, when must a driver file a written crash report with the MVA within 15 days?",
+    "choices": [
+      "Only if the damage is over $5,000",
+      "Never; only police file reports",
+      "After any crash, even a parking-lot scrape",
+      "After a crash causing injury or death, unless a police officer investigated and filed a report"
+    ],
+    "answer": 3,
+    "explanation": "A driver in a crash that injures or kills someone must report it in writing to the MVA within 15 days. No report is needed if a police officer investigated and filed a report.",
+    "difficulty": 3,
+    "ref": "Md. Code, Transportation § 20-107",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Who must wear a helmet on a motorcycle in Maryland?",
+    "choices": [
+      "Only riders without a motorcycle endorsement",
+      "Only riders under 21",
+      "Every operator and passenger",
+      "Only the operator"
+    ],
+    "answer": 2,
+    "explanation": "Maryland has a universal helmet law: no one may operate or ride on a motorcycle without approved protective headgear.",
+    "difficulty": 1,
+    "ref": "Md. Code, Transportation § 21-1306",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "When may a Maryland motorcyclist ride without an approved eye-protective device?",
+    "choices": [
+      "Never",
+      "When the motorcycle is equipped with a windscreen",
+      "During daylight only",
+      "At speeds under 35 mph"
+    ],
+    "answer": 1,
+    "explanation": "An operator must wear an approved eye-protective device unless the motorcycle is equipped with a windscreen.",
+    "difficulty": 2,
+    "ref": "Md. Code, Transportation § 21-1306",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Is lane splitting (riding between lanes or between rows of vehicles) legal in Maryland?",
+    "choices": [
+      "No, it is prohibited",
+      "Only on interstates",
+      "Yes, in slow traffic",
+      "Yes, below 30 mph"
+    ],
+    "answer": 0,
+    "explanation": "A person may not operate a motorcycle between lanes of traffic or between adjacent lines or rows of vehicles.",
+    "difficulty": 1,
+    "ref": "Md. Code, Transportation § 21-1303",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A motorcyclist wants to pass a car within the same lane the car is using. Is this allowed in Maryland?",
+    "choices": [
+      "Yes, if the car is turning left",
+      "Only on multi-lane roads",
+      "Yes, if there is enough room",
+      "No, a motorcyclist may not overtake and pass in the same lane occupied by the vehicle being passed"
+    ],
+    "answer": 3,
+    "explanation": "The operator of a motorcycle may not overtake and pass in the same lane occupied by the vehicle being overtaken.",
+    "difficulty": 2,
+    "ref": "Md. Code, Transportation § 21-1303",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What is the maximum number of motorcycles that may ride side by side in a single lane in Maryland?",
+    "choices": [
+      "There is no limit",
+      "One",
+      "Two",
+      "Three"
+    ],
+    "answer": 2,
+    "explanation": "Motorcycles may not be operated more than two abreast in a single lane.",
+    "difficulty": 2,
+    "ref": "Md. Code, Transportation § 21-1303",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Under Maryland law, how much of a traffic lane is a motorcycle entitled to use?",
+    "choices": [
+      "Only the right half",
+      "The full lane",
+      "Only the left third",
+      "Whatever space cars leave"
+    ],
+    "answer": 1,
+    "explanation": "Every motorcycle is entitled to the full use of a lane, and a motor vehicle may not be driven in a way that deprives a motorcycle of it.",
+    "difficulty": 1,
+    "ref": "Md. Code, Transportation § 21-1303",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How many questions are on the Maryland Class M (motorcycle) permit knowledge test, and what score is needed to pass?",
+    "choices": [
+      "25 questions; 88%",
+      "30 questions; 80%",
+      "25 questions; 75%",
+      "20 questions; 80%"
+    ],
+    "answer": 0,
+    "explanation": "The MVA lists the Class C, Class M and moped permit tests at 25 questions, with 20 minutes to finish and a passing score of 88% or higher.",
+    "difficulty": 2,
+    "ref": "MVA Knowledge Tests page (mva.maryland.gov)",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A Maryland motorcycle learner's permit holder is practicing with a supervising driver. Must the supervisor sit beside the learner?",
+    "choices": [
+      "Yes, as a passenger on the motorcycle",
+      "Only at night",
+      "Yes, always",
+      "No; the beside-the-learner rule does not apply when the vehicle is a motorcycle"
+    ],
+    "answer": 3,
+    "explanation": "A supervising driver must be at least 21, licensed at least 3 years for the same class of vehicle, and seated beside the learner unless the vehicle is a motorcycle.",
+    "difficulty": 3,
+    "ref": "Maryland Driver's Manual, p. 51",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.100",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Maryland law lets a county lower the speed limit in a posted school zone during school hours. To what speed may it be lowered?",
+    "choices": [
+      "15 mph",
+      "10 mph",
+      "20 mph",
+      "25 mph"
+    ],
+    "answer": 0,
+    "explanation": "In school zones designated and posted by local authorities, a county or a municipality may decrease the maximum speed limit to 15 mph during school hours. Always obey the posted school-zone limit.",
+    "difficulty": 3,
+    "ref": "Md. Code, Transportation § 21-803",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.101",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "A railroad crossing signal is flashing as you approach. Where must you stop under Maryland law?",
+    "choices": [
+      "Within 50 feet but not less than 15 feet from the nearest rail",
+      "Within 100 feet but not less than 10 feet from the nearest rail",
+      "Within 30 feet but not less than 5 feet from the nearest rail",
+      "Within 75 feet but not less than 25 feet from the nearest rail"
+    ],
+    "answer": 0,
+    "explanation": "When a signal warns of a train, a gate is lowered, a flagger signals, or a train is near, you must stop within 50 feet but not less than 15 feet from the nearest rail and not go until it is safe.",
+    "difficulty": 2,
+    "ref": "Md. Code, Transportation § 21-701",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.102",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Under Maryland law, which statement about driving slowly is correct?",
+    "choices": [
+      "You may not willfully drive so slowly that you impede the normal and reasonable movement of traffic, unless slower speed is needed for safety",
+      "There is no law against driving slowly as long as you stay under the limit",
+      "You must always drive at exactly the posted speed limit",
+      "You may drive at any slow speed if your hazard flashers are on"
+    ],
+    "answer": 0,
+    "explanation": "Unless a reduced speed is needed for safety or to follow the law, you may not willfully drive so slowly that you impede the normal and reasonable movement of traffic.",
+    "difficulty": 2,
+    "ref": "Md. Code, Transportation § 21-804",
+    "states": [
+      "MD"
+    ]
+  },
+  {
+    "id": "md.car.103",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You see and hear a fire engine approaching with its siren and flashing lights. What must you do in Maryland?",
+    "choices": [
+      "Move as close as possible to the edge of the road, stay out of intersections, and stop until it passes",
+      "Stop right where you are, even if you are in the middle of an intersection",
+      "Speed up to stay ahead of it",
+      "Keep driving at the same speed in your lane"
+    ],
+    "answer": 0,
+    "explanation": "When an emergency vehicle using its signals approaches, move as close as possible to the edge of the road, stay out of intersections, and remain stopped until it has passed.",
+    "difficulty": 1,
+    "ref": "Maryland Driver's Manual, p. 37",
+    "states": [
+      "MD"
+    ]
+  }
+]

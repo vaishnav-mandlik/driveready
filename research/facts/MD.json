@@ -1,0 +1,845 @@
+{
+  "code": "MD",
+  "name": "Maryland",
+  "agency": {
+    "name": "Maryland Department of Transportation Motor Vehicle Administration",
+    "abbreviation": "MVA",
+    "website": "https://mva.maryland.gov/"
+  },
+  "handbook": {
+    "title": "Maryland Driver's Manual",
+    "edition": "October 2025 Edition (DL-002 (10-25)); current English edition listed on mva.maryland.gov (Dec 1, 2025 listing) as of Oct 2026",
+    "url": "https://mva.maryland.gov/Documents/DL-002.pdf"
+  },
+  "knowledgeTest": {
+    "questions": 25,
+    "passingScore": 22,
+    "passingPercent": 88,
+    "roadSigns": null,
+    "timeLimitMinutes": 20,
+    "format": "Multiple-choice test, usually administered on a computer at an MVA office; covers Maryland traffic laws, road signs and safe driving rules (no separate road-sign section)",
+    "languages": "English, Spanish, American Sign Language, Amharic, Arabic, Chinese (Traditional), Farsi, French, Hindi, Korean, Nepali, Portuguese, Russian, Tagalog, Urdu, Vietnamese and Yoruba. Spoken-language interpreters are permitted for noncommercial tests (the applicant pays the interpreter); the manual says if the test is offered in your language you must take it at least 5 times before using an interpreter.",
+    "retestWait": "After a first failure you may retest the next business day if an appointment is available; after failing two or more times you must wait at least seven calendar days.",
+    "notes": "Same 25-question Class C test for all ages; you must score 88% or higher (22 of 25). No MVA fee for the knowledge test. Passing scores are valid for 6 months. Learner's permit minimum age is 15 years 9 months for applicants under 25; under-18 applicants need a co-signer and under-16 applicants need a school attendance certification (DL-300). Required supervised practice is 60 hours (10 at night) under age 25 and 14 hours (3 at night) at 25 or older.",
+    "sourceUrl": "https://mva.maryland.gov/licenses-ids/prepare-drivers-license-test/knowledge-tests"
+  },
+  "motorcycleTest": {
+    "questions": 25,
+    "passingScore": 22,
+    "passingPercent": 88,
+    "notes": "The MVA knowledge test FAQ lists the Class M permit test at 25 questions with the same 20-minute limit and 88% passing score as Class C.",
+    "sourceUrl": "https://mva.maryland.gov/licenses-ids/prepare-drivers-license-test/knowledge-tests"
+  },
+  "cdlTest": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08 BAC (age 21 and older)",
+      "detail": "Maryland treats a driver with a BAC of .08 or higher as driving under the influence. Your judgment can be impaired well below .08, and you can still be charged.",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 33,
+        "quote": "Maryland considers drivers to be driving under the influence of alcohol when their blood alcohol concentration is .08 or higher."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "Zero tolerance: no alcohol at all for drivers under 21",
+      "detail": "Every license held by someone under 21 carries an alcohol restriction that bans driving with any alcohol in the blood (Transportation Article 16-113(b)). If police stop you after drinking, your license will be suspended or revoked.",
+      "number": 0,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 33,
+        "quote": "If you are not yet 21 years old, it is against the law for you to drink any alcohol. If law enforcement stops you and you have been drinking, your license will be suspended or revoked."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04 BAC while driving a commercial motor vehicle",
+      "detail": "A commercial driver is disqualified from driving a commercial motor vehicle for 1 year for driving one with a BAC of 0.04 or more. Not covered in the Driver's Manual.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=16-812&enactments=false",
+        "page": null,
+        "quote": "The individual drives or attempts to drive a commercial motor vehicle while the alcohol concentration of the person’s blood or breath is 0.04 or greater;"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusing a requested alcohol/drug test: 270-day license suspension (1st refusal); 2 years for a second",
+      "detail": "Driving in Maryland means you have agreed to take an alcohol or drug test if an officer asks. The handbook (p. 48) says the MVA will suspend your license if you refuse; the statute sets 270 days for a first refusal.",
+      "number": 270,
+      "unit": "days",
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=16-205.1&enactments=false",
+        "page": null,
+        "quote": "5. For a test refusal: A. For a first offense, suspend the driver’s license for 270 days; or B. For a second or subsequent offense, suspend the driver’s license for 2 years;"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "First DUI conviction: up to 1 year in jail, a fine up to $1,200, or both",
+      "detail": "Penalties are higher when transporting a minor (up to 2 years and $2,000 for a first offense). The handbook also warns that a judge can double the fine and jail time if a child is in the vehicle, and that a drinking-and-driving offense can require an ignition interlock.",
+      "number": 1200,
+      "unit": "USD",
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-902&enactments=false",
+        "page": null,
+        "quote": "(iii) A person convicted of a violation of this paragraph is subject to: 1. For a first offense, imprisonment not exceeding 1 year or a fine not exceeding $1,200 or both; and"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "open_container",
+      "value": "No open alcohol container in the passenger area",
+      "detail": "The passenger area includes the seats and anywhere the driver or passengers can easily reach. A six-pack with open, empty or missing cans can count as an open container.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 33,
+        "quote": "It is against the law to drive with an open container of alcohol in the passenger area of the vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15 years 9 months",
+      "detail": "Applicants younger than 25 must be at least 15 years and 9 months old for a learner's instructional permit. Under 18 needs a parent or guardian co-signer; under 16 needs a school attendance certification (DL-300).",
+      "number": 15.75,
+      "unit": "years",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 9,
+        "quote": "Must be at least 15 years and 9 months old."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "9 months (under 18); 3 months (18 with diploma/GED, or 19-24); 45 days (25 and older)",
+      "detail": "The holding period must be violation-free. A moving-violation conviction or PBJ at any age means holding the permit at least 9 months from the most recent violation.",
+      "number": 9,
+      "unit": "months",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 10,
+        "quote": "If you are under age 18, you must hold the Permit for at least 9 months without a violation before being eligible for a Provisional License."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "60 hours, including 10 at night (under 25); 14 hours, including 3 at night (25 and older)",
+      "detail": "Night hours count from 30 minutes before sunset to 30 minutes after sunrise. Hours are recorded in the Practice and Skills Log.",
+      "number": 60,
+      "unit": "hours",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 10,
+        "quote": "Practice driving at least 60 hours with a supervising driver. These are called practice hours. At least 10 practice hours must occur during the period beginning 30 minutes before sunset and ending 30 minutes after sunrise."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "At least 21, licensed at least 3 years for the same class of vehicle, seated beside the learner",
+      "detail": "A learner's permit holder must always have a qualified supervising driver. The supervisor sits beside the driver unless the vehicle is a motorcycle.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 51,
+        "quote": "You must have a supervising driver with you. A supervising driver is: • At least 21 years old. • Currently licensed for at least three years in Maryland or another state to drive the same class of vehicles that you are driving. • Seated beside you, unless the vehicle is a motorcycle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 years 6 months",
+      "detail": "The MVA's Rookie Driver quick reference lists minimum ages of 15 years 9 months (learner's permit), 16 years 6 months (provisional license) and 18 (driver's license).",
+      "number": 16.5,
+      "unit": "years",
+      "source": {
+        "url": "https://mva.maryland.gov/media/152",
+        "page": 30,
+        "quote": "Minimum Age 15 years , 9 months 16 years, 6 months 18 Years"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "Under 18: no unsupervised driving from 12 midnight to 5 a.m. except for work, volunteer programs, school activities or athletic events",
+      "detail": "The exceptions cover driving to, from or during a job, to or from an organized volunteer program, an official school activity, or an athletic event or training session you take part in.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 47,
+        "quote": "If you have a Provisional License, you are allowed to drive unsupervised between 12:00 midnight and 5:00 a.m., ONLY if you are:"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "Under 18: no passengers under 18 for the first 151 days unless immediate family or a qualified supervising driver is present",
+      "detail": "Immediate family includes a spouse, children, stepchildren, siblings, stepsiblings, or any relative who lives at your address.",
+      "number": 151,
+      "unit": "days",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 47,
+        "quote": "If you have a Provisional License and are under the age of 18, you may not drive unsupervised with passengers under the age of 18 for the first 151 days unless they are immediate family members."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "18, after holding a provisional license 18 months with no moving violations",
+      "detail": "The MVA switches the provisional license to a full Driver's License automatically and mails a card that you carry with the provisional license.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 11,
+        "quote": "• Be at least 18 years of age. • Have had a Provisional License for at least 18 months."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "No hand-held phone use while driving (hands-free calls allowed for adults)",
+      "detail": "You may not use a phone while holding it. Even hands-free, the manual advises using a phone as little as possible and letting voicemail answer.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 35,
+        "quote": "It is illegal to use a hand-held cell phone, including texting, while driving."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "texting_ban",
+      "value": "No writing, sending or reading texts while driving in the travel portion of the roadway",
+      "detail": "Applies to all drivers. GPS use and contacting 911 are excepted. Drivers under 18 can also lose their license for up to 90 days.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-1124.1&enactments=false",
+        "page": null,
+        "quote": "an individual may not use a text messaging device to write, send, or read a text message or an electronic message while operating a motor vehicle in the travel portion of the roadway."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Under 18: no cell phone use at all while driving, even hands-free, except to call 911",
+      "detail": "The handbook also lists a Wireless Device Restriction for learner's permit and provisional license holders: no wireless device, including hands-free, except a 911 call (p. 47).",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 35,
+        "quote": "If you are under 18 years old, you may not use a cell phone while driving, even hands-free. The only exception is that you may use it to make a 911 emergency call."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Driver and all passengers must be belted or in a child safety seat",
+      "detail": "Provisional license holders also have a seat belt restriction: the driver and every passenger must be buckled.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 52,
+        "quote": "By law, the driver and all passengers of a motor vehicle must wear a safety belt or be buckled in a child safety seat."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Child safety seat under age 8 unless 4'9\" or taller; rear-facing seat under age 2",
+      "detail": "Children younger than 2 ride rear-facing until they reach the seat maker's height or weight limit. Children under 13 should ride in the back seat.",
+      "number": 8,
+      "unit": "years",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 52,
+        "quote": "All children under age 8 must ride in a child safety seat, unless the child is 4’9” or taller."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Drive at a reasonable speed for conditions; never faster than the posted limit",
+      "detail": "The posted limit is the maximum under ideal conditions. Slow down for curves, hills, slippery roads, heavy traffic, toll plazas, schools and rail crossings.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 14,
+        "quote": "Maryland Vehicle Law requires you to drive at a reasonable speed and be aware of existing and potential hazards. You may drive slower than the posted speed limit, based on road conditions, but it is illegal to drive any faster than the posted speed limit."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "As posted; counties and municipalities may lower school-zone limits to 15 mph during school hours",
+      "detail": "Maryland has no single statewide default school-zone speed; obey the posted school-zone limit.",
+      "number": 15,
+      "unit": "mph",
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-803&enactments=false",
+        "page": null,
+        "quote": "The county may decrease the maximum speed limit to 15 miles per hour during school hours, provided the county pays the cost of placing and maintaining the necessary signs;"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "30 mph on undivided highways, 35 mph on divided highways in a residential district (unless posted otherwise)",
+      "detail": "These are statutory maximums that apply when no other limit is posted.",
+      "number": 30,
+      "unit": "mph",
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-801.1&enactments=false",
+        "page": null,
+        "quote": "(2) 30 miles per hour on: (i) All highways in a business district; and (ii) Undivided highways in a residential district; (3) 35 miles per hour on divided highways in a residential district;"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "30 mph in a business district (unless posted otherwise)",
+      "detail": "Statutory maximum for all highways in a business district.",
+      "number": 30,
+      "unit": "mph",
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-801.1&enactments=false",
+        "page": null,
+        "quote": "(2) 30 miles per hour on: (i) All highways in a business district;"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "50 mph on undivided highways, 55 mph on divided highways outside business/residential districts (unless posted)",
+      "detail": "Limits above 55 mph are allowed only on interstates and expressways.",
+      "number": 55,
+      "unit": "mph",
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-801.1&enactments=false",
+        "page": null,
+        "quote": "(4) 50 miles per hour on undivided highways in other locations; and (5) 55 miles per hour on divided highways in other locations."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "70 mph maximum posted limit on any Maryland highway",
+      "detail": "Only interstates and expressways may be posted above 55 mph, and no highway may be posted above 70 mph.",
+      "number": 70,
+      "unit": "mph",
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-801.1&enactments=false",
+        "page": null,
+        "quote": "(2) Subject to the provisions of paragraph (1) of this subsection, a maximum speed limit of more than 70 miles per hour may not be established on any highway in the State."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Do not drive so slowly that you impede normal traffic",
+      "detail": "On interstates and limited-access highways, drivers slower than the flow of traffic must use the right lane whenever possible (handbook p. 32).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-804&enactments=false",
+        "page": null,
+        "quote": "Unless reduced speed is necessary for the safe operation of the vehicle or otherwise is in compliance with law, a person may not willfully drive a motor vehicle at such a slow speed as to impede the normal and reasonable movement of traffic."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop unless a sign prohibits it; yield to pedestrians and all other traffic",
+      "detail": "Stop at the stop line (or before the crosswalk or intersection), then turn right when clear.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 17,
+        "quote": "Unless a sign prohibits turning on red, after coming to a complete stop, you may: • Turn right, or • Turn left from a one-way street to another one-way street."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Allowed only from a one-way street onto another one-way street, after a complete stop, unless a sign prohibits it",
+      "detail": "You must yield the right-of-way to pedestrians and all other traffic when turning on red.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 17,
+        "quote": "Unless a sign prohibits turning on red, after coming to a complete stop, you may: • Turn right, or • Turn left from a one-way street to another one-way street."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "signal_distance",
+      "value": "Signal continuously for at least the last 100 feet before turning",
+      "detail": "The manual says to turn your signal on before you reach the turn; the statute sets the 100-foot minimum.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-604&enactments=false",
+        "page": null,
+        "quote": "When required, a signal of intention to turn right or left shall be given continuously during at least the last 100 feet traveled by the vehicle before turning;"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull as close as possible to the edge of the road, stay out of intersections, and stop until it passes",
+      "detail": "If you are going the same direction as an emergency vehicle using its signals, you may not pass it unless it stops or a police officer tells you to. Neither the manual nor the Transportation Article sections reviewed set a following distance.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 37,
+        "quote": "Immediately after you see or hear an emergency vehicle approaching that is using its signals, you must: • Move as close as possible to the edge of the road. • Stay out of intersections, and • Remain stopped until the emergency vehicle has passed."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "move_over_law",
+      "value": "Move over a lane for any stopped, standing or parked vehicle with flashing lights; if you can't, slow to a safe speed",
+      "detail": "Violations: $110 fine and 1 point; $150 and 3 points if it causes a crash; $750 and 3 points if someone dies or is seriously injured.",
+      "number": 110,
+      "unit": "USD",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 45,
+        "quote": "In Maryland, you must move over when approaching any vehicles while they are stopped, standing, or parked on a road with its lights flashing. If it is not safe or possible to move over, you must slow down to a safe speed."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop at least 20 feet from a stopped school bus with flashing red lights (front or back); no stop needed across a physical barrier",
+      "detail": "Stay stopped until the bus moves or turns off its red lights. On a multi-lane road divided by a physical barrier, you do not stop if the bus is on the other side (p. 39).",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 38,
+        "quote": "Stop at least 20 feet from the back of the school bus, if you are behind it. • Stop at least 20 feet from the front of the school bus, if you are in front of it."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "following_distance",
+      "value": "At least 3 to 4 seconds in ideal conditions; 4 to 5+ seconds behind vehicles that stop often",
+      "detail": "Count seconds from when the vehicle ahead passes a fixed reference point. Increase the gap at night and on wet, snowy or icy roads.",
+      "number": 3,
+      "unit": "seconds",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 15,
+        "quote": "The MVA recommends a minimum following distance of 3 to 4 seconds under ideal driving conditions."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "headlights_required",
+      "value": "When you cannot clearly see 1,000 feet ahead, and whenever wipers are in use in bad weather",
+      "detail": "Use headlights at night and in fog or storms. Maryland law requires headlights whenever windshield wipers are on in inclement weather.",
+      "number": 1000,
+      "unit": "feet",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 27,
+        "quote": "you must turn on your headlights anytime there is not enough light to clearly see at least 1,000 feet in front of your vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "Dim to low beams at least 500 feet before an oncoming vehicle",
+      "detail": "Use high beams on roads without streetlights, but switch to low beams for oncoming traffic.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 27,
+        "quote": "Change to low beams at least 500 feet before reaching vehicles coming toward you."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "Dim to low beams when following within 300 feet",
+      "detail": "Switch to low beams when the vehicle you are following is 300 feet or less ahead.",
+      "number": 300,
+      "unit": "feet",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 27,
+        "quote": "Change to low beams when following a vehicle that is 300 feet or less in front of you."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet",
+      "detail": "Do not stand or park within 15 feet of a fire hydrant. Not stated in the Driver's Manual.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-1003&enactments=false",
+        "page": null,
+        "quote": "A person may not stand or park a vehicle within 15 feet of a fire hydrant."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "Not on a crosswalk; not within 20 feet of a crosswalk at an intersection (rule does not apply in Baltimore City)",
+      "detail": "Stopping, standing or parking on a crosswalk is prohibited everywhere. Not stated in the Driver's Manual.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-1003&enactments=false",
+        "page": null,
+        "quote": "(n) (1) This subsection does not apply in Baltimore City. (2) A person may not stand or park a vehicle within 20 feet of a crosswalk at an intersection."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Never in an intersection (and not within 20 feet of a crosswalk at an intersection)",
+      "detail": "Stopping, standing or parking inside an intersection is prohibited. Not stated in the Driver's Manual.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-1003&enactments=false",
+        "page": null,
+        "quote": "A person may not stop, stand, or park a vehicle in an intersection."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet on the approach to a flashing signal, stop sign, yield sign or traffic signal",
+      "detail": "Applies to signs and signals located at the side of the roadway. Not stated in the Driver's Manual.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-1003&enactments=false",
+        "page": null,
+        "quote": "A person may not stand or park a vehicle within 30 feet on the approach to any flashing signal, stop sign, yield sign, or traffic control signal located at the side of a roadway."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet from the nearest rail",
+      "detail": "Not stated in the Driver's Manual.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-1003&enactments=false",
+        "page": null,
+        "quote": "A person may not park a vehicle within 50 feet of the nearest rail in a railroad grade crossing."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet from a fire station driveway; 75 feet on the opposite side when signposted",
+      "detail": "Not stated in the Driver's Manual.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-1003&enactments=false",
+        "page": null,
+        "quote": "A person may not stand or park a vehicle within 20 feet of the driveway entrance to any fire station or on the side of a highway opposite the entrance to any fire station within 75 feet of the entrance, if properly signposted."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "Right-hand wheels within 12 inches of the curb or edge (two-way roadway)",
+      "detail": "On a one-way road you may park with either the right wheels within 12 inches of the right curb or the left wheels within 12 inches of the left curb. The manual says to park as close to the curb as possible.",
+      "number": 12,
+      "unit": "inches",
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-1004&enactments=false",
+        "page": null,
+        "quote": "a vehicle that is stopped or parked on a two-way roadway shall be stopped or parked parallel to the right hand curb or edge of the roadway, with its right hand wheels within 12 inches of that curb or edge of the roadway."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "Stop within 50 feet but not less than 15 feet from the nearest rail",
+      "detail": "Required when signals flash, a gate is down, a flagger signals, or a train is approaching. Not stated in the Driver's Manual.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-701&enactments=false",
+        "page": null,
+        "quote": "Shall stop within 50 feet but not less than 15 feet from the nearest rail in the crossing; and"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "Leave at least 3 feet when passing a bicycle",
+      "detail": "Applies when the bicycle is in a bike lane, on the shoulder or in your lane. Check that you can see the bicycle in your rear-view mirror before moving back.",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 40,
+        "quote": "Then leave at least 3 feet between your vehicle and the bicycle when passing. Leave this much room when passing a bicycle in a bike lane, on the shoulder, or in the same lane as your car."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Stop for pedestrians in marked or unmarked crosswalks when there is no signal",
+      "detail": "Pedestrians have the right-of-way at street crossings but must obey signals. You may not pass a vehicle stopped at a crosswalk, and you must yield when turning on green or on red.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 37,
+        "quote": "When there is no traffic signal, you must stop for pedestrians in a marked or unmarked crosswalk."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Call police when anyone is injured, a vehicle can't be moved, a driver seems impaired or unlicensed, a driver leaves without sharing information, or public property is damaged",
+      "detail": "If someone is injured, stay at the scene, call 911 and do not move the vehicles. If no one is hurt and the cars can move, move them off the road near the crash and exchange information.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 43,
+        "quote": "Remember, you must always call the police when: • Someone has been injured. • A vehicle cannot be moved. • A driver appears to be under the influence of alcohol or drugs."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "$30,000 per person / $60,000 per accident bodily injury; $15,000 property damage",
+      "detail": "Vehicles registered in Maryland must be insured by a company licensed in Maryland, and you must carry the insurance card (paper or electronic). The manual refers to the MVA website for amounts.",
+      "number": 30000,
+      "unit": "USD",
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=17-103&enactments=false",
+        "page": null,
+        "quote": "(1) The payment of claims for bodily injury or death arising from an accident of up to $30,000 for any one person and up to $60,000 for any two or more persons, in addition to interest and costs; (2) The payment of claims for property of others damaged or destroyed in an accident of up to $15,000, in addition to interest and costs;"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "point_system",
+      "value": "Within 2 years: 3 points warning letter; 5 points driver improvement program; 8 points suspension; 12 points revocation",
+      "detail": "Points are counted over any 2-year period. The Rookie Driver guide summarizes 5-7 points as a driver improvement class, 8 as suspension and 12 as revocation.",
+      "number": 8,
+      "unit": "points",
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=16-404&enactments=false",
+        "page": null,
+        "quote": "(1) Send a warning letter to each individual who accumulates 3 points; (2) Require attendance at a driver improvement program conducted under § 16–212 of this title by each individual who accumulates 5 points, except that a Class A, B, or C licensee who submits evidence acceptable to the Administration that he is a professional driver may not be called in until he accumulates 8 points; and (3) Except as provided in § 16–405 of this subtitle: (i) Suspend the license of each individual who accumulates 8 points; and (ii) Revoke the license of each individual who accumulates 12 points."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Universal helmet law: every operator and rider must wear approved protective headgear",
+      "detail": "Operators also need approved eye protection unless the motorcycle has a windscreen (21-1306(c)). Does not apply to a person riding in an enclosed cab.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-1306&enactments=false",
+        "page": null,
+        "quote": "An individual may not operate or ride on a motorcycle unless the individual is wearing protective headgear that meets the standards established by the Administrator."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Prohibited: no riding between lanes or between rows of vehicles",
+      "detail": "A motorcyclist also may not pass in the same lane as the vehicle being passed, and no more than two motorcycles may ride abreast in one lane.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=21-1303&enactments=false",
+        "page": null,
+        "quote": "A person may not operate a motorcycle between lanes of traffic or between adjacent lines or rows of vehicles."
+      },
+      "status": "verified"
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Move Over Law penalties",
+      "summary": "You must move over for any stopped, standing or parked vehicle with flashing lights, or slow to a safe speed if you can't. A violation is a misdemeanor: $110 and 1 point; $150 and 3 points if it causes a crash; $750 and 3 points if someone dies or is seriously injured.",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 45,
+        "quote": "A $110 fine and one point on your license. The MVA uses points to track violations and issue penalties. • A $150 fine and three points if the violation causes a crash. • A $750 fine and three points if there is a death or serious injury."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Headlights on with wipers",
+      "summary": "Maryland law requires headlights whenever you use your windshield wipers in bad weather.",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 27,
+        "quote": "Maryland law requires that you turn on your headlights when using your windshield wipers in inclement weather."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "No earphones in both ears",
+      "summary": "You may not drive wearing earplugs, a headset or earphones in both ears. Hearing aids are allowed.",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 53,
+        "quote": "You may not drive with earplugs, headsets, or earphones in both ears. Hearing aid devices are allowed."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Funeral processions have the right-of-way",
+      "summary": "Vehicles in a funeral procession use headlights and hazard flashers and may go through a red signal. Other drivers must yield even on green until the procession passes.",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 32,
+        "quote": "You may go through a red traffic signal if you are part of a funeral possession and have your lights on."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Provisional license violation penalties (under 18)",
+      "summary": "For a provisional driver under 18 convicted of (or given PBJ for) a moving violation: 1st offense requires a driver improvement program; 2nd brings a 30-day suspension and 90-day work/school-only restriction; 3rd a 180-day suspension; 4th revocation. Each violation restarts the 18-month conviction-free period.",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 49,
+        "quote": "A SECOND offense will result in a 30-day suspension of your driver’s license followed by a 90-day restriction that limits your driving to employment and educational purposes only."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Impaired driving with a child in the vehicle",
+      "summary": "If you are convicted of drunk or drugged driving with a child in the vehicle, the judge can double your fine and jail time.",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 34,
+        "quote": "If you are convicted of a drunk or drugged driving offense with a child in your vehicle, the judge can double your fine and jail time."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Driving while impaired at .07 BAC",
+      "summary": "The MVA's Rookie Driver guide states that for drivers 21 and over, a .07 BAC is driving while impaired (DWI) and .08 or higher is DUI. Drivers under 21 are held to zero tolerance.",
+      "source": {
+        "url": "https://mva.maryland.gov/media/152",
+        "page": 30,
+        "quote": "Under 21: Zero tolerance. 21 and over: .07 BAC is DWI, and .08 BAC and higher is DUI."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Bicyclists may use the full lane",
+      "summary": "Bicycles are vehicles under Maryland law. A bicyclist may use the full lane, even well below traffic speed, when the lane is too narrow to share safely. Bicycles in a crosswalk have the same right-of-way as pedestrians.",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 40,
+        "quote": "In Maryland, a bicyclist may use the full lane even while traveling significantly below the speed of traffic (if the lane is too narrow for a motor vehicle to safely pass the bicycle while it is in the lane)."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Mopeds and scooters limited to roads posted 50 mph or less",
+      "summary": "Mopeds and motor scooters may ride on roads with a posted limit of 50 mph or less, on the road or shoulder, alone or side-by-side, and should keep as far right as safely possible.",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 41,
+        "quote": "Mopeds and scooters may be ridden on any road with a posted maximum speed limit of 50 miles per hour or less."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Work zone lights: blue means speed cameras",
+      "summary": "Flashing lights in a work zone mean workers are present. Flashing blue lights mean work zone speed cameras are active, and speeding fines may be much higher in work zones.",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 31,
+        "quote": "Flashing blue lights mean the speed cameras are active."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Uninsured vehicle fines",
+      "summary": "Driving without insurance is illegal, and failing to keep insurance on a registered vehicle can bring fines of up to $2,500 per vehicle each year. Drivers must carry an insurance card (paper or electronic) and show it to police on request.",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 53,
+        "quote": "If you do not keep insurance on all vehicles, you will be fined up to $2,500 per vehicle each year."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Hitting a domestic animal",
+      "summary": "If you hit and injure a domestic animal such as a dog, cat, horse or cow, you must call the police immediately.",
+      "source": {
+        "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+        "page": 44,
+        "quote": "If you hit and injure a domestic animal with your vehicle, you must immediately call the police."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Written crash report within 15 days",
+      "summary": "The driver of each vehicle in a crash that injures or kills anyone must report it in writing to the MVA within 15 days. No written report is required if a police officer investigated and filed a report with the Department of State Police.",
+      "source": {
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=20-107&enactments=false",
+        "page": null,
+        "quote": "The driver of each vehicle involved in an accident that results in bodily injury to or death of any person shall, within 15 days after the accident, report the matter in writing to the Administration."
+      },
+      "status": "verified"
+    }
+  ],
+  "officialPracticeTests": [
+    "https://mva.maryland.gov/your-mva-guide/teens-new-drivers/learners-permit/learners-permit-practice-tests",
+    "https://mvarookie.mva.maryland.gov/?id=MVA-English-tutorial-not-timed",
+    "https://mvarookie.mva.maryland.gov/?id=MVA-English-tutorial-timed"
+  ],
+  "gaps": [
+    "emergency_vehicles: no following distance behind emergency vehicles/fire apparatus is stated in the manual, and none was found in the Transportation Article sections reviewed (21-405); fact covers yielding only.",
+    "speed_limit_school_zone: no statewide default school-zone limit; 21-803(b) only lets counties/municipalities lower school-zone limits to 15 mph during school hours.",
+    "parking_*, signal_distance, railroad_stop_distance, speed limits, insurance_minimums, point_system, texting_ban, implied_consent, dui_first_offense, bac_limit_commercial, motorcycle laws: the Driver's Manual (DL-002, Oct 2025) does not give these numbers; sourced from the Maryland Code, Transportation Article (mgaleg.maryland.gov).",
+    "provisional_license_min_age: the Driver's Manual does not state 16 years 6 months; sourced from the MVA Rookie Driver Manual RD-006 (Oct 2026 edition), p. 30.",
+    "bac_limit_under21: Maryland uses an alcohol restriction (any alcohol) rather than a numeric 0.02 limit; number set to 0.",
+    "knowledgeTest.retestWait: the main knowledge-test page text says 'you may retake it the next day' while its FAQ says 'the next business day'; the FAQ wording is used.",
+    "cdlTest: not researched (CDL manual DL-151 exists; out of scope)."
+  ]
+}

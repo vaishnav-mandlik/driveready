@@ -1,0 +1,780 @@
+{
+  "code": "MN",
+  "name": "Minnesota",
+  "agency": {
+    "name": "Minnesota Department of Public Safety, Driver and Vehicle Services Division",
+    "abbreviation": "DVS",
+    "website": "https://dps.mn.gov/divisions/dvs"
+  },
+  "handbook": {
+    "title": "Minnesota Driver's Manual",
+    "edition": "June 2026 (current edition linked from the DPS Class D forms, documents and manuals page as of Oct 2026)",
+    "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf"
+  },
+  "exam": {
+    "questions": 40,
+    "passingScore": 32,
+    "passingPercent": 80,
+    "timeLimitMinutes": null,
+    "roadSigns": "Road signs are covered inside the single Class D written test, which assesses knowledge of Minnesota traffic laws and road signs. DVS does not describe a separately scored road-sign section.",
+    "format": "Multiple-choice and true-or-false questions. Taken by appointment at a DVS exam station on paper or on a computer; it can also be taken online with an approved third-party proctor. Group oral tests are offered at some exam stations.",
+    "languages": "At exam stations with the computer test: English, several other languages, and American Sign Language (ASL). Headphones are available to hear the questions read aloud. Group oral tests are available if you bring your own interpreter, who must hold a Minnesota driver's license.",
+    "retestWait": "You may take only one written test per day. The first two attempts are free; after two failed tests in a row, a $10 fee is charged for the third and each later test.",
+    "notes": "Instruction permit at 15. Applicants under 18 need a driver education certificate of enrollment (Blue Card or Pink Card) to take the written test; classroom instruction is not required at 18 or older. Teens must hold the permit for six months before the road test (three months if 19 or older), then can get a provisional license at 16 with a supervised driving log (50 hours including 15 at night, or 40 hours if a parent takes the parent class). DVS publishes only the 80% passing standard, not the number of questions. For the third-party online test, the DVS proctor agreement (Web-Based MOU 2.2025, section 4.14) says there is a 40-minute time limit; no limit is published for exam-station tests. Group oral exams are offered at the Anoka, Eagan, Buffalo and downtown Saint Paul/Town Square exam stations (DVS Group Class D knowledge testing page). The official site does not publish the number of questions; this practice exam uses 40 questions at the official 80% passing standard.",
+    "sourceUrl": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf"
+  },
+  "motorcycleExam": null,
+  "cdlExam": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08%",
+      "detail": "A driver with an alcohol concentration of 0.08% or more can be arrested for DWI, whether the vehicle is moving or parked. If alcohol caused driving errors, a DWI arrest is possible at a level as low as 0.04%.",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 96,
+        "quote": "A person with an alcohol concentration of 0.08 percent or higher (0.04 percent if driving a commercial vehicle) who is in control of a moving or parked vehicle can be arrested for driving while impaired (DWI)."
+      }
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "Any detectable amount (zero tolerance)",
+      "detail": "Drivers under 21 may not drive with any detectable alcohol. A first conviction means a 30-day suspension; a second means 180 days.",
+      "number": 0,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 98,
+        "quote": "It is illegal for a person under age 21 to operate a motor vehicle with any detectable amount of alcohol in their system. If convicted of this offense, you will have your driving privileges suspended for 30 days. A second conviction will result in a suspension of driving privileges for 180 days."
+      }
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04%",
+      "detail": "Driving a commercial vehicle at 0.04% or more costs a CDL for at least one year on a first offense. Any detectable amount below 0.04% puts the driver out of service for 24 hours.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 98,
+        "quote": "Drive a commercial vehicle when your alcohol concentration is 0.04 or more. If your alcohol concentration is less than 0.04 but detectable, you will be put out of service for 24 hours."
+      }
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusing a blood, breath or urine test is a crime; license revoked for 1 to 6 years depending on prior offenses",
+      "detail": "If an officer has probable cause to believe you are impaired, you must take a blood, breath or urine test. Refusing is a crime, and the revocation runs from one to six years depending on the number of offenses on your record.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 96,
+        "quote": "Refusing to take this test is a crime and will result in a revocation of driving privileges for one to six years, depending on the number of offenses on record."
+      }
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "Minimum 90-day license revocation (30 days if you plead guilty)",
+      "detail": "A first DWI also carries up to 90 days in jail, a $1,000 fine or both, plus a $680 reinstatement fee. No work permit is issued until 15 days of the revocation have passed.",
+      "number": 90,
+      "unit": "days",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 97,
+        "quote": "Minimum of 90-day revocation (30 days if you plead guilty to DWI)."
+      }
+    },
+    {
+      "key": "open_container",
+      "value": "No drinking or open containers of alcohol anywhere in the vehicle on a public road, for drivers or passengers",
+      "detail": "The driver may not drink or have an open alcoholic beverage in the vehicle, and may not allow passengers to do so either.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 99,
+        "quote": "You must not drink or have an open container of any alcoholic beverage inside a motor vehicle when it is on a public street or highway. It is also unlawful to allow a passenger to drink, or to have an open container of, any alcoholic beverage inside a motor vehicle."
+      }
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15",
+      "detail": "You must be at least 15 and (if under 18) have completed 30 hours of classroom driver education and be enrolled in behind-the-wheel instruction, or have finished the first 15 classroom hours of a concurrent course.",
+      "number": 15,
+      "unit": "years",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 16,
+        "quote": "Be at least 15 years old."
+      }
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "6 months (3 months if age 19 or older)",
+      "detail": "Drivers 18 and younger must hold the instruction permit at least six months before the road test; drivers 19 or older need three months. The permit is valid for two years.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 17,
+        "quote": "After the required six months of practice driving (or three months if you are 19 years old or older), you may take the road test."
+      }
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "50 hours including 15 at night (40 hours including 15 at night if a parent completes the parent class)",
+      "detail": "Teens submit a supervised driving log to get a provisional license. If a parent takes the approved parent class, the requirement drops to 40 hours, still including 15 nighttime hours.",
+      "number": 50,
+      "unit": "hours",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 17,
+        "quote": "If not taking the parent class, your teen must submit a log showing at least 50 hours of supervised driving, including 15 nighttime hours."
+      }
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Licensed driver age 21 or older (age 18 or older if the permit holder is 18+), in the front passenger seat",
+      "detail": "A permit holder under 18 must be supervised by a licensed driver aged 21 or older sitting in the front passenger seat. A permit holder 18 or older may be supervised by a driver aged 18 or older.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 16,
+        "quote": "You must be supervised by a driver aged 21 or older. Everyone in the vehicle must wear a seat belt or use a child passenger restraint system. You may not use or talk on a cell phone while driving, with or without a hands-free device."
+      }
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16",
+      "detail": "A provisional license requires age 16, completed driver education, six months with a permit and no moving or alcohol/drug violations, a supervised driving log and a passed road test.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 17,
+        "quote": "Be at least 16 years old."
+      }
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "No driving from midnight to 5 a.m. during the first six months",
+      "detail": "Exceptions: with a licensed driver at least 25 years old, driving between home and work, between home and a school event without school transportation, or for employment.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 17,
+        "quote": "During the first six months, you must not drive from midnight to 5 a.m. unless you are:"
+      }
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "First 6 months: 1 passenger under 20; second 6 months: no more than 3 passengers under 20 (unless a parent or guardian is along)",
+      "detail": "The limits do not apply when accompanied by a parent or guardian, and immediate family members under 20 are allowed in both periods.",
+      "number": 1,
+      "unit": "passengers",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 18,
+        "quote": "During the first six months, you may have only one passenger under 20 unless accompanied by a parent or guardian."
+      }
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "18, or after holding a provisional license for 12 consecutive months with no alcohol, controlled-substance or crash-related convictions",
+      "detail": "To move up to the under-21 Class D license you must be 18, or have held a provisional license for 12 straight months with no alcohol, drug or crash-related violations and no more than one other moving violation. Applicants under 18 must also certify 10 more hours of supervised driving.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 19,
+        "quote": "To get your under 21 Class D driver’s license, you must be at least 18 years old or have held a provisional license for 12 consecutive months with no convictions for alcohol violations, controlled-substance violations or crash-related moving violations."
+      }
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "Hands-free law: drivers may not hold a phone with one or both hands while the vehicle is moving or part of traffic",
+      "detail": "Calls are allowed only in voice-activated or hands-free mode without holding the phone. Emergency calls are an exception. A second or later violation carries a $275 fine.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.475",
+        "page": null,
+        "quote": "when a motor vehicle is in motion or a part of traffic, the person operating the vehicle upon a street or highway is prohibited from: (1) holding a wireless communications device with one or both hands; or"
+      }
+    },
+    {
+      "key": "texting_ban",
+      "value": "No texting, emailing or internet use while driving, including while stopped in traffic",
+      "detail": "Reading, composing or sending messages is banned unless done in voice-activated or hands-free mode or to get emergency help. A second or later violation adds a $275 fine.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 82,
+        "quote": "These include using a cell phone or wireless computer device for text messaging, emailing or accessing the internet while driving, including while stopped in traffic."
+      }
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Drivers under 18 with a permit or provisional license may not use a cell phone at all, even hands-free, except to call 911",
+      "detail": "Unlike adults, teen permit and provisional drivers cannot use a phone even in hands-free mode; the only exception is calling 911 in an emergency.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 82,
+        "quote": "Drivers under age 18 with an instruction permit or provisional license are prohibited from using a cell phone, whether handheld or hands-free, except to call 911 in an emergency."
+      }
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "All occupants, front and back seats; primary enforcement",
+      "detail": "The driver and every passenger, including back-seat riders, must wear a properly adjusted seat belt. Officers can stop a vehicle for a seat belt violation alone.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 40,
+        "quote": "You as the driver and all of your passengers, including those in the back seat, must wear a properly adjusted and fastened seat belt. Law enforcement can stop motorists solely for seat belt violations."
+      }
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Rear-facing seat until at least age 2; booster seat from 4 to 9 (if outgrown the car seat); seat belt from age 9 or when the booster is outgrown; under 13 ride in back when available",
+      "detail": "Children under 2 ride rear-facing until they outgrow the seat. Children 4 to 9 who have outgrown their car seat use a booster with a seat belt. Children under 13 must ride in the back seat if one is available.",
+      "number": 9,
+      "unit": "years",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 41,
+        "quote": "A child from 4 to 9 years old must use a booster seat and be secured with a safety belt if they are too tall or too heavy for the car seat."
+      }
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Drive at a speed reasonable for current conditions, never above the posted limit",
+      "detail": "The posted limit is the maximum under ideal conditions; weather, traffic and road conditions may require a slower speed.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 29,
+        "quote": "Minnesota’s basic speed law says you must drive at a speed that is reasonable for the current conditions, including weather, traffic and road conditions."
+      }
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "Posted school speed limit when children are present (cannot be set below 15 mph)",
+      "detail": "The manual says to slow down in school zones when children are present. By statute, a posted school speed limit applies when children are present and may not be lower than 15 mph.",
+      "number": 15,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.14",
+        "page": null,
+        "quote": "Such school speed limits shall be in effect when children are present, going to or leaving school during opening or closing hours or during school recess periods. The school speed limit shall not be lower than 15 miles per hour and shall not be more than 30 miles per hour below the established speed limit on an affected street or highway."
+      }
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "25 mph on residential roadways where the road authority adopts and posts it (otherwise the 30 mph urban limit)",
+      "detail": "Minnesota's default in towns and cities is 30 mph (urban district). A road authority may adopt a 25 mph limit for a residential roadway, but only once signs are posted.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.14",
+        "page": null,
+        "quote": "(7) 25 miles per hour in residential roadways if adopted by the road authority having jurisdiction over the residential roadway; and"
+      }
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "30 mph (urban or town roads)",
+      "detail": "Minnesota does not set a separate business-district limit; urban or town roads default to 30 mph unless posted otherwise. Alleys are 10 mph.",
+      "number": 30,
+      "unit": "mph",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 29,
+        "quote": "30 mph — on urban or town roads"
+      }
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "55 mph",
+      "detail": "Unless signs show otherwise, 55 mph applies everywhere not covered by a more specific limit (such as alleys at 10 mph and urban roads at 30 mph).",
+      "number": 55,
+      "unit": "mph",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 29,
+        "quote": "55 mph — in all other locations that are not specified in this list"
+      }
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "70 mph (rural interstates); 65 mph on interstates in urbanized areas over 50,000 people",
+      "detail": "State law sets 70 mph on interstates outside large urbanized areas and 65 mph on interstates inside them.",
+      "number": 70,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.14",
+        "page": null,
+        "quote": "(4) 70 miles per hour on interstate highways outside the limits of any urbanized area with a population of greater than 50,000 as defined by order of the commissioner of transportation;"
+      }
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Do not drive slower than a posted minimum speed under normal conditions",
+      "detail": "Some roads, such as controlled-access interstates, post minimum speeds. Driving slower is allowed only when bad weather or poor road conditions make it necessary.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 29,
+        "quote": "Some roads have minimum speed limits. It is illegal to drive slower than the posted minimum speed under normal conditions."
+      }
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop when clear, unless a No Turn on Red sign is posted",
+      "detail": "Stop completely, yield to pedestrians and traffic, and turn only when the intersection is clear.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 69,
+        "quote": "Right turn on red: After stopping, you may make a right turn when the intersection is clear, if traffic is permitted to travel in that direction. If a “No Turn on Red” sign is posted, you must wait for the light to turn green."
+      }
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Allowed from a one-way road onto a one-way cross street after a complete stop",
+      "detail": "Stop completely, make sure the intersection is clear, yield to pedestrians and vehicles, and make sure traffic on the new street moves only in the direction you are turning.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 69,
+        "quote": "Left turn on red: If certain conditions are met, you may make a left turn from a one-way road onto a one way cross street while the traffic light is red."
+      }
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 100 feet before turning",
+      "detail": "Signal at least 100 feet before a turn and keep signaling until the turn or lane change is complete.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 30,
+        "quote": "Activate your signal at least 100 feet before turning. Keep signaling until you have completed the turn or lane change."
+      }
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the right and stop (nearest side on a one-way road) until all emergency vehicles pass; do not follow within 500 feet of a firefighting vehicle",
+      "detail": "If you are in an intersection, drive through it before stopping. You need not stop if a physical barrier such as a median separates you. Only vehicles on official emergency business may follow within 500 feet of a firefighting vehicle on an emergency run.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 47,
+        "quote": "When an emergency vehicle (such as an ambulance, fire truck or police car) with flashing red lights and sounding a siren or bell approaches your vehicle on a two-way road, you must pull to the right and stop. On a one-way road, pull to the nearest side and stop. If you are in an intersection, proceed through it before stopping. Remain stopped until all emergency vehicles have passed."
+      }
+    },
+    {
+      "key": "move_over_law",
+      "value": "Move to the lane farthest from a stopped emergency vehicle with flashing lights; if you cannot, slow down and pass with caution",
+      "detail": "Applies to police, fire, ambulances and tow trucks, and also to stalled or disabled vehicles and to stopped service, maintenance, utility, construction, postal and garbage/recycling vehicles with warning lights on.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 47,
+        "quote": "When an emergency vehicle with flashing lights is stopped on or next to a road with two lanes in the same direction, the “Move Over Law” requires you to move to the lane farthest away from the vehicle if it is safe to do so."
+      }
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop at least 20 feet from a school bus with flashing red lights, from either direction; only exception is the opposite side of a divided highway",
+      "detail": "You must stop even if the stop arm does not swing out and stay stopped until the red lights stop flashing. A violation is a misdemeanor with a fine of at least $500 and loss of driving privileges.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 4,
+        "quote": "When you see a school bus that is stopped with its red lights flashing, you must stop your vehicle at least 20 feet from the bus. Reminder: You must stop for flashing red school bus lights even if the stop arm doesn’t swing out. The only exception is on a divided highway when you are traveling in the opposite direction."
+      }
+    },
+    {
+      "key": "following_distance",
+      "value": "3 seconds (4 to 5 seconds in poor conditions or in a longer vehicle)",
+      "detail": "Use the three-second rule in ideal conditions with a standard-length vehicle; increase to a four- or five-second count when road conditions are poor or the vehicle is longer than standard.",
+      "number": 3,
+      "unit": "seconds",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 76,
+        "quote": "When road conditions are poor, or if you are driving a vehicle longer than the standard length, increase your following distance to a four- or five-second count."
+      }
+    },
+    {
+      "key": "headlights_required",
+      "value": "Sunset to sunrise, in rain, snow, hail, sleet or fog, and whenever you cannot see the road at least 500 feet ahead",
+      "detail": "Headlights are required from sunset to sunrise, in any rain, snow, hail, sleet or fog, and any time visibility is under 500 feet.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 76,
+        "quote": "Your headlights must be turned on at sunset and used until sunrise. Use them during weather conditions that include rain, snow, hail, sleet or fog, and any time you cannot clearly see the road ahead for at least 500 feet."
+      }
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "Within 1,000 feet of an oncoming vehicle",
+      "detail": "Switch to low beams when an oncoming vehicle is within 1,000 feet.",
+      "number": 1000,
+      "unit": "feet",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 76,
+        "quote": "When you are within 1,000 feet of an oncoming vehicle or following another vehicle at a distance of 200 feet or less, your headlights must remain on low beam."
+      }
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "Within 200 feet when following another vehicle",
+      "detail": "Use low beams when following another vehicle at 200 feet or less.",
+      "number": 200,
+      "unit": "feet",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 76,
+        "quote": "When you are within 1,000 feet of an oncoming vehicle or following another vehicle at a distance of 200 feet or less, your headlights must remain on low beam."
+      }
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "10 feet",
+      "detail": "No parking within 10 feet of a fire hydrant.",
+      "number": 10,
+      "unit": "feet",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 38,
+        "quote": "Within 10 feet of a fire hydrant"
+      }
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "Not on a crosswalk, and not within 20 feet of a crosswalk at an intersection",
+      "detail": "Parking is banned on a crosswalk or sidewalk and within 20 feet of a crosswalk at an intersection.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 38,
+        "quote": "Within 20 feet of a crosswalk at an intersection"
+      }
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Not within an intersection",
+      "detail": "Parking is banned within intersections; the 20-foot crosswalk rule also keeps cars back from intersections.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 38,
+        "quote": "Within intersections"
+      }
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet",
+      "detail": "No parking within 30 feet of a flashing light, stop sign or traffic control signal on the side of the road.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 38,
+        "quote": "Within 30 feet of any flashing light, stop sign or traffic control signal on the side of a public road"
+      }
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet from the nearest rail",
+      "detail": "No parking within 50 feet of the nearest rail of a railroad crossing.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 38,
+        "quote": "Within 50 feet of the nearest rail of a railroad crossing"
+      }
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet from a fire station driveway (75 feet on the opposite side of the street when signposted)",
+      "detail": "State law bans parking within 20 feet of a fire station driveway entrance, and within 75 feet on the opposite side of the street when signs are posted. The manual does not list this rule.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.34",
+        "page": null,
+        "quote": "(9) within 20 feet of the driveway entrance to any fire station and on the side of a street opposite the entrance to any fire station within 75 feet of said entrance when properly signposted;"
+      }
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "No more than 12 inches from the curb",
+      "detail": "When parallel parking, keep the wheels nearest the curb within 12 inches of it, turn the front wheels toward the curb or shoulder, and set the parking brake.",
+      "number": 12,
+      "unit": "inches",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 38,
+        "quote": "When you parallel park, your vehicle’s wheels closest to the side of the road should be no more than 12 inches from the curb."
+      }
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "At least 10 feet from the nearest rail or gate",
+      "detail": "When railroad lights, bells or gates are active, stop at least 10 feet from the nearest rail or gate. Cross only when you can clear the tracks without stopping within 10 feet past the rails.",
+      "number": 10,
+      "unit": "feet",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 56,
+        "quote": "Stop your vehicle at least 10 feet from the nearest rail or gate."
+      }
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet of clearance; you may cross the center line to pass, even in a no-passing zone, when safe",
+      "detail": "Leave at least 3 feet between your car and the bicyclist. Minnesota lets you cross the center of the road to pass a bicyclist, even in a no-passing zone, when it is safe.",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 51,
+        "quote": "You must keep at least 3 feet between the side of your car and the bicyclist."
+      }
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Stop for pedestrians in marked or unmarked crosswalks until they pass your lane; never pass a vehicle stopped for a pedestrian",
+      "detail": "Violating pedestrian right-of-way laws is a misdemeanor, and a second violation within a year is a gross misdemeanor.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 50,
+        "quote": "It is illegal to pass a vehicle that has stopped for a pedestrian. If another vehicle has stopped, look for pedestrians in the crosswalk and be prepared to stop. Violating pedestrian right-of-way laws is a misdemeanor. A second violation within a year is a gross misdemeanor."
+      }
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Call law enforcement or 911 right away if anyone is injured or killed; a property-damage-only crash does not need to be reported to law enforcement",
+      "detail": "Stop, protect the scene, give aid, and exchange name, address, date of birth and registration number. If asked, give your insurance details; if you do not have them with you, provide them within 72 hours.",
+      "number": 72,
+      "unit": "hours",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 42,
+        "quote": "Property damage only: If the crash only results in property damage, you do not need to notify law enforcement."
+      }
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "No-fault plus liability of at least $30,000 per person / $60,000 per accident for injury and $10,000 for property damage",
+      "detail": "Owners must carry no-fault and liability insurance and keep proof in the vehicle. Driving uninsured can bring a fine up to $1,000, up to 90 days in jail and revocation for up to one year.",
+      "number": 30000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://www.revisor.mn.gov/statutes/cite/65B.49",
+        "page": null,
+        "quote": "of not less than $30,000 because of bodily injury to one person in any one accident and, subject to said limit for one person, of not less than $60,000 because of injury to two or more persons in any one accident, and, if the accident has resulted in injury to or destruction of property, of not less than $10,000 because of such injury to or destruction of property of others in any one accident."
+      }
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Helmet required for riders and passengers under 18 and for anyone riding on a motorcycle instruction permit; eye protection required for all operators",
+      "detail": "Riders 18 and older with a full endorsement may ride without a helmet, but every operator must wear eye protection. Permit holders must wear a helmet and may not carry passengers or ride at night.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.974",
+        "page": null,
+        "quote": "(a) No person under the age of 18 shall operate or ride a motorcycle on the streets and highways of this state without wearing protective headgear that complies with standards established by the commissioner of public safety; and no person shall operate a motorcycle without wearing an eye-protective device."
+      }
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Legal: lane splitting in moving traffic at no more than 25 mph and no more than 15 mph faster than traffic; lane filtering through stopped traffic",
+      "detail": "Drivers must not block or interfere with a motorcycle that is lane splitting or filtering. Splitting (moving traffic) is limited to 25 mph and 15 mph over the speed of traffic in the lanes being passed; filtering (stopped traffic) is limited to 15 mph over the speed of traffic.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 53,
+        "quote": "Lane splitting is allowed when two or more lanes of traffic are traveling in the same direction and traffic is moving. It allows a motorcycle to pass another vehicle in the same direction of travel and in the same traffic lane only under these conditions:"
+      }
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Zipper (late) merge in work zones",
+      "summary": "When a lane is closed ahead and traffic is backing up, stay in your lane until the merge point and then take turns merging. The manual says this reduces the length of backups by up to 40%.",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 57,
+        "quote": "When you see the “lane closed ahead” sign and traffic is backing up, stay in your current lane until the point of merge."
+      }
+    },
+    {
+      "title": "Vanessa's Law",
+      "summary": "An unlicensed teen convicted of a crash-related moving violation or an alcohol/drug violation cannot get a permit or license until age 18. A provisional license holder whose license is revoked for these violations cannot regain it until 18 or the end of the withdrawal, whichever is longer.",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 18,
+        "quote": "while you are driving without a license as a teenager, you cannot get a license, instruction permit or provisional license until you are 18."
+      }
+    },
+    {
+      "title": "10 mph over the limit while passing on two-lane highways",
+      "summary": "On a two-lane highway posted 55 mph or higher, the speed limit rises by 10 mph while you are lawfully passing a vehicle going the same way.",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 29,
+        "quote": "On two-lane highways with a speed limit of 55 mph or higher, you can increase your speed by 10 mph when lawfully passing another vehicle."
+      }
+    },
+    {
+      "title": "Revocation for driving over 100 mph",
+      "summary": "Driving faster than 100 mph means your driving privileges are revoked for at least six months. Driving 20 mph or more over the limit adds extra fines.",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 30,
+        "quote": "If you drive over 100 mph, your driving privileges will be revoked for at least six months."
+      }
+    },
+    {
+      "title": "$300 work zone speeding fine",
+      "summary": "Speeding in a work zone adds a $300 fine on top of the regular speeding ticket.",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 57,
+        "quote": "Fines for speeding in work zones are $300 in addition to the regular speeding ticket."
+      }
+    },
+    {
+      "title": "School bus stop-arm violations",
+      "summary": "Passing a stopped school bus with red lights flashing is a misdemeanor with a fine of at least $500 and loss of driving privileges. An officer with probable cause can arrest you up to four hours after the violation, and the vehicle's owner or lessee is guilty of a petty misdemeanor unless they can show someone else was driving.",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 45,
+        "quote": "If convicted, you must pay a fine of at least $500 and lose your driving privileges."
+      }
+    },
+    {
+      "title": "Freeway ramp meters",
+      "summary": "Ramp meters on metro-area freeway entrance ramps let one car go per green light. Running a red ramp meter is illegal.",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 77,
+        "quote": "It is illegal to go through the red light. Only one car may proceed each time the light is green."
+      }
+    },
+    {
+      "title": "No headphones in both ears",
+      "summary": "It is illegal to drive while wearing headphones or earphones in both ears to listen to a radio or other sound device.",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 82,
+        "quote": "It is also illegal to wear headphones or earphones in both ears simultaneously to listen to a radio or other sound-producing device."
+      }
+    },
+    {
+      "title": "No more than three people in the front seat",
+      "summary": "A vehicle may not be driven with more than three people in the front seat or loaded so that it blocks the driver's view or control.",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 82,
+        "quote": "It is illegal to drive a vehicle packed with a load or occupied by more than three people in the front seat."
+      }
+    },
+    {
+      "title": "Crossing the center line to pass a bicyclist",
+      "summary": "Drivers may cross the center of the roadway to pass a bicyclist, even in a no-passing zone, when it is safe, while keeping at least 3 feet of clearance.",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 51,
+        "quote": "You are allowed to cross the center of the roadway to pass a bicyclist, even in a no passing zone, when it is safe to do so."
+      }
+    },
+    {
+      "title": "500-foot following distance when towing a camper or trailer",
+      "summary": "A driver pulling a camper or trailer must stay at least 500 feet behind other vehicles.",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 82,
+        "quote": "If you pull a camper or trailer with your vehicle, you must maintain at least 500 feet of following distance from other vehicles."
+      }
+    },
+    {
+      "title": "Stopping on an interstate (running out of fuel is not an emergency)",
+      "summary": "Stopping or parking on an interstate is illegal except in an emergency, and running out of fuel does not count. In a real emergency, place flares or reflectors 100 to 500 feet behind the vehicle.",
+      "source": {
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+        "page": 80,
+        "quote": "It is illegal to stop or park a vehicle on an interstate freeway, except in an emergency. Running out of fuel is not considered an emergency, and you could receive a citation."
+      }
+    },
+    {
+      "title": "Motorcycle headlight on at all times",
+      "summary": "A motorcycle may not be ridden on a street or highway unless its headlight is on the entire time, day or night.",
+      "source": {
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.974",
+        "page": null,
+        "quote": "No person may operate a motorcycle on a street or highway unless the headlight or headlights are lighted at all times the motorcycle is so operated."
+      }
+    },
+    {
+      "title": "Two motorcycles abreast in one lane only with consent",
+      "summary": "Two motorcycles may share a single lane side by side only if both riders agree and the motorcycles fit safely within the lane; never more than two abreast.",
+      "source": {
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.974",
+        "page": null,
+        "quote": "Motorcycles may, with the consent of both drivers, be operated not more than two abreast in a single traffic lane if the vehicles fit safely within the designated space of the lane."
+      }
+    },
+    {
+      "title": "Where motorcycle lane splitting and filtering are not allowed",
+      "summary": "The lane splitting and filtering rules do not apply in a roundabout, a school zone, a work zone with only one open travel lane, or a freeway or expressway on-ramp where traffic is queued.",
+      "source": {
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.974",
+        "page": null,
+        "quote": "For the purposes of paragraph (g), traffic lane does not include: (1) the approach, drive-through, or exit of a roundabout; (2) a school zone established under section 169.14, subdivision 5a ; (3) a work zone where only a single travel lane is available for use; or (4) an on-ramp to a freeway or expressway with or without an active control device where moving or stationary vehicles are queued in one or more traffic lanes."
+      }
+    },
+    {
+      "title": "Motorcycle instruction permit restrictions",
+      "summary": "A rider on a motorcycle instruction permit may not carry passengers, may not ride at night, and must wear an approved helmet.",
+      "source": {
+        "url": "https://www.revisor.mn.gov/statutes/cite/169.974",
+        "page": null,
+        "quote": "A person who is operating by virtue of a motorcycle instruction permit must not: (1) carry any passengers on the streets and highways of this state on the motorcycle while the person is operating the motorcycle; (2) drive the motorcycle at night; or"
+      }
+    }
+  ],
+  "officialPracticeTests": [
+    "https://assets.dps.mn.gov/files/dvs/dvs-class-d-practice-test.pdf"
+  ],
+  "verifiedOn": "2026-10-14"
+}
