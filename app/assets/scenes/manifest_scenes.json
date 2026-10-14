@@ -242,6 +242,72 @@
     "module": "scenes_intersections.py"
   },
   {
+    "code": "SCN-MC-LANE-PATHS",
+    "name": "Three paths of travel in a lane",
+    "category": "scenario",
+    "shape": "Illustration",
+    "colors": "",
+    "meaning": "A traffic lane is divided into three paths of travel: 1 (left third), 2 (center) and 3 (right third). Motorcycle A is riding in path 1.",
+    "license": "app-drawn",
+    "svgPath": "svg/SCN-MC-LANE-PATHS.svg",
+    "module": "scenes_motorcycle.py"
+  },
+  {
+    "code": "SCN-MC-STAGGERED",
+    "name": "Staggered group formation",
+    "category": "scenario",
+    "shape": "Illustration",
+    "colors": "",
+    "meaning": "Four motorcycles ride in a staggered formation in one lane: the leader (1) in the left side, rider 2 in the right side at least 1 second back, rider 3 in the left side at least 2 seconds behind the leader, and rider 4 in the right side.",
+    "license": "app-drawn",
+    "svgPath": "svg/SCN-MC-STAGGERED.svg",
+    "module": "scenes_motorcycle.py"
+  },
+  {
+    "code": "SCN-MC-CAR-LEFT-TURN",
+    "name": "Car turning left in front of a motorcycle",
+    "category": "scenario",
+    "shape": "Illustration",
+    "colors": "",
+    "meaning": "Motorcycle A is going straight through an intersection while oncoming car B signals and turns left across A's path.",
+    "license": "app-drawn",
+    "svgPath": "svg/SCN-MC-CAR-LEFT-TURN.svg",
+    "module": "scenes_motorcycle.py"
+  },
+  {
+    "code": "SCN-MC-BEING-PASSED",
+    "name": "Motorcycle being passed by a car",
+    "category": "scenario",
+    "shape": "Illustration",
+    "colors": "",
+    "meaning": "Car B is passing motorcycle A on a two-lane road using the oncoming lane; A rides in the center portion of its lane.",
+    "license": "app-drawn",
+    "svgPath": "svg/SCN-MC-BEING-PASSED.svg",
+    "module": "scenes_motorcycle.py"
+  },
+  {
+    "code": "SCN-MC-BLIND-SPOT",
+    "name": "Motorcycle in a car's blind spot",
+    "category": "scenario",
+    "shape": "Illustration",
+    "colors": "",
+    "meaning": "Motorcycle A is riding in the next lane beside the rear of car B, inside B's blind spot (shaded).",
+    "license": "app-drawn",
+    "svgPath": "svg/SCN-MC-BLIND-SPOT.svg",
+    "module": "scenes_motorcycle.py"
+  },
+  {
+    "code": "SCN-MC-PARKED-CARS",
+    "name": "Passing parked cars on a motorcycle",
+    "category": "scenario",
+    "shape": "Illustration",
+    "colors": "",
+    "meaning": "Cars are parked along the right side of the road; motorcycle A rides in the left portion (path 1) of its lane as it passes them.",
+    "license": "app-drawn",
+    "svgPath": "svg/SCN-MC-PARKED-CARS.svg",
+    "module": "scenes_motorcycle.py"
+  },
+  {
     "code": "SCN-SCHOOL-BUS-BEHIND",
     "name": "Behind a stopped school bus",
     "category": "scenario",

@@ -1,0 +1,223 @@
+[
+  {
+    "id": "mc.scn.001",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "The picture numbers the three paths of travel in a lane. Which path is rider A using?",
+    "choices": [
+      "Path 2, the center of the lane",
+      "Path 1, the left third of the lane",
+      "Path 3, the right third of the lane",
+      "The shoulder, outside the travel lane"
+    ],
+    "answer": 1,
+    "explanation": "Each traffic lane gives a motorcycle three paths of travel: path 1 is the left third, path 2 the center and path 3 the right third. Rider A is in path 1, the left tire track of cars, which many riders use as their default.",
+    "sign": "SCN-MC-LANE-PATHS",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 15 (Lane Positions)"
+  },
+  {
+    "id": "mc.scn.002",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "Using the path numbers in the picture: a car is beside you in the lane to your left and another is in the lane to your right. Which path is usually your best choice?",
+    "choices": [
+      "Path 1, closer to the car on your left",
+      "Path 3, closer to the car on your right",
+      "Path 2, the center of the lane",
+      "Any path, as long as you ride faster than both cars"
+    ],
+    "answer": 2,
+    "explanation": "When vehicles are on both sides of you, the center of the lane, path 2, is usually your best option. It keeps the most space between you and both vehicles.",
+    "sign": "SCN-MC-LANE-PATHS",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 15 (Lane Positions)"
+  },
+  {
+    "id": "mc.scn.003",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "In the group shown in the picture, where does the leader (rider 1) ride?",
+    "choices": [
+      "In the left side of the lane",
+      "In the center of the lane",
+      "In the right side of the lane",
+      "Beside rider 2, in the same row"
+    ],
+    "answer": 0,
+    "explanation": "In a staggered formation the group leader rides in the left side of the lane. The second rider stays at least one second back in the right side, and the third rider is in the left side at least two seconds behind the leader.",
+    "sign": "SCN-MC-STAGGERED",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 38 (Staggered Formation)"
+  },
+  {
+    "id": "mc.scn.004",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "The group in the picture comes to a series of curves. What should it do?",
+    "choices": [
+      "Keep the staggered formation and close up the gaps",
+      "Move into single file through the curves",
+      "Ride two side by side so the group stays together",
+      "Spread across both lanes for more room"
+    ],
+    "answer": 1,
+    "explanation": "A staggered formation works on straight roads. It is best to move into single file when riding in curves, turning, and entering or leaving freeways or highways.",
+    "sign": "SCN-MC-STAGGERED",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 38 (Staggered Formation)"
+  },
+  {
+    "id": "mc.scn.005",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "Why does the formation in the picture place riders on alternating sides of the lane?",
+    "choices": [
+      "It lets every rider use the center path in turn",
+      "It allows riders to talk while moving",
+      "It makes it easier for cars to pass between the riders in the group",
+      "It keeps the group close while each rider keeps a space cushion"
+    ],
+    "answer": 3,
+    "explanation": "The staggered formation keeps the ranks close and still lets each rider keep a safe distance from riders ahead, behind and to the sides. Never ride directly alongside another rider in the same lane.",
+    "sign": "SCN-MC-STAGGERED",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 38 (Staggered Formation)"
+  },
+  {
+    "id": "mc.scn.006",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "You are rider A. Oncoming car B is signaling a left turn across your path. What should you do?",
+    "choices": [
+      "Keep your speed, since you have the right-of-way",
+      "Speed up so you clear the intersection before car B can start its turn",
+      "Slow down, cover the clutch and both brakes, and be ready to stop",
+      "Move to the right edge and pass B on its right"
+    ],
+    "answer": 2,
+    "explanation": "Cars turning left in front of you are one of the biggest dangers at intersections. Slow down, cover the clutch and both brakes to cut your reaction time, and be ready to stop. Having the right-of-way does not protect you if the driver does not see you.",
+    "sign": "SCN-MC-CAR-LEFT-TURN",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 20 (Intersections)"
+  },
+  {
+    "id": "mc.scn.007",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "Why is the situation in the picture so dangerous for rider A?",
+    "choices": [
+      "Drivers turning left often fail to see an oncoming motorcycle",
+      "Motorcycles must yield to all turning vehicles",
+      "Car B has the right-of-way because it signaled before reaching the intersection",
+      "Motorcycles cannot stop as quickly as cars can"
+    ],
+    "answer": 0,
+    "explanation": "Over half of motorcycle/car crashes are caused by drivers violating a rider's right-of-way, and cars turning left in front of a rider are among the biggest dangers. Drivers often say they never saw the motorcycle.",
+    "sign": "SCN-MC-CAR-LEFT-TURN",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, pp. 20, 22 (Intersections; Increasing Conspicuity)"
+  },
+  {
+    "id": "mc.scn.008",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "Car B is passing rider A. Why is A's position in the center of the lane a good choice?",
+    "choices": [
+      "It shows B that A is about to turn left",
+      "It keeps A clear of B's mirrors, wind blast and thrown objects",
+      "It makes room for B to share A's lane while passing",
+      "It lets A speed up and race car B to the next curve ahead"
+    ],
+    "answer": 1,
+    "explanation": "When being passed, stay in the center portion of your lane. Riding close to the passing vehicle risks a sideswipe, being hit by extended mirrors or objects thrown from windows, and wind blasts that can affect your control.",
+    "sign": "SCN-MC-BEING-PASSED",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, pp. 16-17 (Being Passed)"
+  },
+  {
+    "id": "mc.scn.009",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "As car B passes in the picture, what should rider A avoid?",
+    "choices": [
+      "Staying in the center portion of the lane",
+      "Keeping a steady speed",
+      "Moving toward the passing car",
+      "Checking the mirrors"
+    ],
+    "answer": 2,
+    "explanation": "Riding close to the passing vehicle could put you in a hazardous situation. A slight mistake by you or the passing driver could cause a sideswipe, so keep a center-portion position and a steady speed.",
+    "sign": "SCN-MC-BEING-PASSED",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, pp. 16-17 (Being Passed)"
+  },
+  {
+    "id": "mc.scn.010",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "What is the problem with rider A's position in the picture?",
+    "choices": [
+      "A is in car B's blind spot, so B may move over without seeing A",
+      "A is too far from the center line",
+      "A is following too far behind car B for the speed of traffic",
+      "A is riding in the wrong lane for passing the car ahead of it"
+    ],
+    "answer": 0,
+    "explanation": "One absolute rule of lane position is to avoid riding in another vehicle's blind spot. A driver changing lanes may never see a motorcycle beside the rear of the car.",
+    "sign": "SCN-MC-BLIND-SPOT",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, pp. 15, 18 (Lane Positions; Vehicles Alongside)"
+  },
+  {
+    "id": "mc.scn.011",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "What should rider A do in the situation shown?",
+    "choices": [
+      "Stay right beside car B so its driver can keep track of where you are",
+      "Honk and keep riding next to car B",
+      "Move to the far edge of the lane and hold that speed",
+      "Speed up or drop back so you are not alongside car B"
+    ],
+    "answer": 3,
+    "explanation": "Do not ride alongside cars or trucks in other lanes. You may be in a blind spot, and the vehicle blocks your escape route if you need it. Adjust your speed to get out of the blind spot.",
+    "sign": "SCN-MC-BLIND-SPOT",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 18 (Vehicles Alongside)"
+  },
+  {
+    "id": "mc.scn.012",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "Rider A is passing a row of parked cars with no oncoming traffic. Why is A riding toward the left of the lane?",
+    "choices": [
+      "To get ready for a left turn at the next corner",
+      "To make room for cars that want to pass on the right",
+      "To stay clear of opening doors and people stepping out between cars",
+      "Because riding close to parked cars is against the law in every state"
+    ],
+    "answer": 2,
+    "explanation": "When passing parked cars, stay toward the left of your lane. You avoid problems from doors opening, drivers getting out, or people stepping out from between cars. With oncoming traffic, the center of the lane is usually best.",
+    "sign": "SCN-MC-PARKED-CARS",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 22 (Passing Parked Cars)"
+  },
+  {
+    "id": "mc.scn.013",
+    "track": "motorcycle",
+    "topic": "mc-intersections",
+    "prompt": "As rider A passes, one of the parked cars starts to pull away from the curb. What should A do?",
+    "choices": [
+      "Speed up to get past before it moves out",
+      "Slow down or change lanes to make room for it",
+      "Hold your path; the driver must wait for you",
+      "Move to the right side of your lane to be seen"
+    ],
+    "answer": 1,
+    "explanation": "A driver pulling away from the curb may not check for traffic, or may look and still not see you, and cut into your path. Slow down or change lanes to make room for someone who might cut in.",
+    "sign": "SCN-MC-PARKED-CARS",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 22 (Passing Parked Cars)"
+  }
+]

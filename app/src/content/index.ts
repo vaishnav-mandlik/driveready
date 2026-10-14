@@ -32,6 +32,7 @@ export const universalQuestionLoaders: Record<TrackId, Array<() => Question[]>> 
     () => require('./questions/motorcycle/mc-intersections.json'),
     () => require('./questions/motorcycle/mc-lane-position.json'),
     () => require('./questions/motorcycle/mc-passengers-groups.json'),
+    () => require('./questions/motorcycle/mc-scenarios.json'),
   ],
   cdl: [
     () => require('./questions/cdl/cdl-air-brakes.json'),

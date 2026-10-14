@@ -11,6 +11,7 @@
       "blocks": [
         {"type": "p", "text": "Keep a cushion of space between you and other vehicles. It gives you a clear view of traffic, and if someone makes a mistake, you have more time to respond and more space to maneuver, including an escape path."},
         {"type": "p", "text": "Each traffic lane gives a motorcycle three paths of travel: path 1 is the left third, path 2 is the center, and path 3 is the right third. Choose a position that helps you:"},
+        {"type": "sign", "code": "SCN-MC-LANE-PATHS", "caption": "Three paths of travel: 1 is the left third, 2 the center, 3 the right third. Rider A is in path 1."},
         {"type": "bullets", "items": [
           "See and be seen.",
           "Stay out of other drivers' blind spots.",
@@ -83,7 +84,8 @@
           "Extended mirrors. Some drivers forget their mirrors stick out past their fenders.",
           "Objects thrown from windows. A passenger may not see you even if the driver does.",
           "Wind blasts from larger vehicles, which can affect your control. Being in the farther part of your lane gives you more room for error."
-        ]}
+        ]},
+        {"type": "sign", "code": "SCN-MC-BEING-PASSED", "caption": "Being passed: rider A stays in the center portion of the lane, away from car B."}
       ]
     },
     {
@@ -98,7 +100,8 @@
           "When you are moving into an exit lane or leaving a highway."
         ]},
         {"type": "p", "text": "Drivers on an entrance ramp may not see you. Give them plenty of room: change lanes if one is open, or adjust your speed to open up space for the merging vehicle."},
-        {"type": "warning", "text": "Avoid riding next to cars or trucks in other lanes. You may be in their blind spot, and they could move into your lane. They also block your escape if trouble appears ahead. Speed up or drop back to a spot that is clear on both sides."}
+        {"type": "warning", "text": "Avoid riding next to cars or trucks in other lanes. You may be in their blind spot, and they could move into your lane. They also block your escape if trouble appears ahead. Speed up or drop back to a spot that is clear on both sides."},
+        {"type": "sign", "code": "SCN-MC-BLIND-SPOT", "caption": "Don't ride here: rider A is in car B's blind spot. Speed up or drop back."}
       ]
     },
     {
