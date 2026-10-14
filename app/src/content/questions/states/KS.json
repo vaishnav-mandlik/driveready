@@ -1,0 +1,2168 @@
+[
+  {
+    "id": "ks.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Kansas, a driver age 21 or older driving a passenger car is in violation of the law with a blood alcohol concentration (BAC) of at least:",
+    "choices": [
+      "0.08%",
+      "0.10%",
+      "0.05%",
+      "0.04%"
+    ],
+    "answer": 0,
+    "explanation": "Kansas law is violated at a BAC of .08 or higher. You can still be convicted of impaired driving below .08.",
+    "difficulty": 1,
+    "ref": "Kansas Driving Handbook, p. 23",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 19-year-old Kansas driver tests at 0.03% BAC. Which statement is correct?",
+    "choices": [
+      "The driver is legal, because the limit for all drivers is .08",
+      "The driver is legal, because the under-21 limit is .04",
+      "The driver can only be given a warning for a first stop",
+      "The driver is breaking the law, because drivers under 21 may not drive with a BAC of .02 or more"
+    ],
+    "answer": 3,
+    "explanation": "Kansas makes it unlawful for a driver under 21 to drive with a BAC of .02 or more, and the handbook notes they can be arrested at .02. A first occurrence brings a 30-day license suspension.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 23; K.S.A. 8-1567a",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What alcohol concentration is the limit for driving a commercial motor vehicle in Kansas?",
+    "choices": [
+      "0.02 or more",
+      "0.08 or more",
+      "0.04 or more",
+      "0.06 or more"
+    ],
+    "answer": 2,
+    "explanation": "Kansas makes it a crime to drive a commercial motor vehicle with an alcohol concentration of 0.04 or more, half the .08 limit for other adult drivers.",
+    "difficulty": 2,
+    "ref": "Kansas Statutes Annotated, K.S.A. 8-2,144",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Kansas law, what happens the first time you refuse a chemical test for alcohol or drugs?",
+    "choices": [
+      "A 30-day license suspension",
+      "A mandatory 1-year license suspension",
+      "A warning, with no suspension for a first refusal",
+      "A 90-day license suspension"
+    ],
+    "answer": 1,
+    "explanation": "Refusing a chemical (breath, blood or urine) test brings a mandatory 1-year suspension. Under current law (K.S.A. 8-1014), the suspension is followed by 2 years of driving only a vehicle with an ignition interlock device.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 14; K.S.A. 8-1014",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A Kansas driver's 1-year suspension for a first chemical test refusal has ended. What happens next?",
+    "choices": [
+      "For 2 years, the driver may drive only a vehicle with an ignition interlock device",
+      "Full driving privileges return with no conditions",
+      "The driver must wait another year before applying for a license",
+      "The driver must retake driver's education"
+    ],
+    "answer": 0,
+    "explanation": "Under K.S.A. 8-1014, a first test refusal brings a 1-year suspension followed by 2 years of driving only a vehicle with an ignition interlock device. Each later refusal brings a longer interlock period.",
+    "difficulty": 3,
+    "ref": "Kansas Statutes Annotated, K.S.A. 8-1014",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Why are you required to take a breath, blood or urine test when a Kansas officer lawfully requests one?",
+    "choices": [
+      "The test is only required if you were in a crash",
+      "The test is required only for drivers under 21",
+      "You are not required; the test is always voluntary",
+      "By getting a driver's license, you have already consented to the test (implied consent)"
+    ],
+    "answer": 3,
+    "explanation": "Under Kansas implied consent law (K.S.A. 8-1001), getting a driver's license means you have consented to a lawfully requested test if suspected of impaired driving. Refusing can cost you your license for a year.",
+    "difficulty": 1,
+    "ref": "Kansas Driving Handbook, p. 24",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under current Kansas law, what follows the 1-year suspension for a FIFTH chemical test refusal or test failure?",
+    "choices": [
+      "10 years of driving only a vehicle with an ignition interlock device",
+      "2 years of driving only a vehicle with an ignition interlock device",
+      "Full driving privileges return with no conditions",
+      "A driver's education course, then full privileges"
+    ],
+    "answer": 0,
+    "explanation": "Under K.S.A. 8-1014, a fifth or later refusal or test failure brings a 1-year suspension followed by 10 years of interlock-only driving. The 2022 handbook still calls this a permanent revocation, but the law was changed.",
+    "difficulty": 3,
+    "ref": "Kansas Statutes Annotated, K.S.A. 8-1014",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What fine range does the Kansas Driving Handbook list for a first alcohol-related driving conviction (plus court costs)?",
+    "choices": [
+      "$250 to $500",
+      "$750 to $1,000",
+      "$1,500 to $2,500",
+      "$100 to $250"
+    ],
+    "answer": 1,
+    "explanation": "A first conviction can bring a fine of $750 to $1,000 plus court costs, a minimum of 48 hours in jail or 100 hours of community service, a suspended license and an ignition interlock requirement.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 24",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.009",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "For a first DUI conviction in Kansas, the handbook says you could be sentenced to a minimum of:",
+    "choices": [
+      "48 hours in jail or 100 hours of community service",
+      "24 hours in jail or 50 hours of community service",
+      "10 days in jail with no community service option",
+      "30 days in jail or 200 hours of community service"
+    ],
+    "answer": 0,
+    "explanation": "A first alcohol conviction in Kansas can bring a minimum of 48 hours in jail or 100 hours of community service, in addition to fines and a license suspension.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 24",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.010",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "After a first DUI conviction in Kansas, what device will you be required to drive with?",
+    "choices": [
+      "A GPS ankle monitor",
+      "A dashboard camera",
+      "A speed governor",
+      "An ignition interlock device"
+    ],
+    "answer": 3,
+    "explanation": "Besides the fine and license suspension, a first-time DUI offender in Kansas is required to drive with an ignition interlock device, which keeps the vehicle from starting if alcohol is detected.",
+    "difficulty": 1,
+    "ref": "Kansas Driving Handbook, p. 24",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.011",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "According to the Kansas Driving Handbook, if your test shows a BAC of .08 or more, your driving privileges may be suspended for:",
+    "choices": [
+      "7 days",
+      "6 months",
+      "30 days",
+      "2 years"
+    ],
+    "answer": 2,
+    "explanation": "With a BAC of .08 or more, your Kansas driving privileges may be suspended for 30 days on a first occurrence, and you may also face criminal penalties. A BAC of .15 or more, or a repeat occurrence, brings a 1-year suspension.",
+    "difficulty": 3,
+    "ref": "Kansas Driving Handbook, p. 23; K.S.A. 8-1014",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.012",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A passenger wants to bring a bottle of liquor that has already been opened on a car trip in Kansas. Where may it legally be carried?",
+    "choices": [
+      "In the glove compartment, if it is closed",
+      "In the locked rear trunk, where no one in the vehicle can reach it",
+      "Under the passenger's seat",
+      "Anywhere in the car, as long as the driver does not drink"
+    ],
+    "answer": 1,
+    "explanation": "Kansas law allows alcohol in a vehicle only in its original unopened container, or (if opened) in a locked trunk or locked outside compartment that no one in the vehicle can reach while it is moving. In a vehicle with no trunk, it may go behind the last upright seat.",
+    "difficulty": 2,
+    "ref": "Kansas Statutes Annotated, K.S.A. 8-1599",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.013",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the penalty for a SECOND conviction for transporting an open container of alcohol in Kansas?",
+    "choices": [
+      "Your driver's license is suspended for 1 year",
+      "A $50 fine only",
+      "A 30-day license suspension",
+      "Nothing more than for a first conviction"
+    ],
+    "answer": 0,
+    "explanation": "A first open-container violation is a misdemeanor (fine up to $200, up to 6 months in jail, or both). A second conviction within 5 years brings a 1-year license suspension, though the judge may order driving restrictions instead.",
+    "difficulty": 3,
+    "ref": "Kansas Statutes Annotated, K.S.A. 8-1599",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.014",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age to get a Class C instruction permit in Kansas?",
+    "choices": [
+      "15",
+      "16",
+      "13",
+      "14"
+    ],
+    "answer": 3,
+    "explanation": "A Kansas Class C or M instruction permit can be issued at 14. Applicants under 16 need a written application and affidavit signed by a parent or guardian.",
+    "difficulty": 1,
+    "ref": "Kansas Driving Handbook, p. 12",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.015",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 14-year-old applies for a Kansas instruction permit. What is required besides passing the vision and written tests?",
+    "choices": [
+      "Proof of 50 hours of supervised driving",
+      "A completed driving test",
+      "A written application and affidavit signed by a parent or guardian",
+      "Proof of enrollment in an online driver education course"
+    ],
+    "answer": 2,
+    "explanation": "Applicants under 16 need a parent or guardian to apply in writing and sign an affidavit at the Driver Licensing office. They must also pass the vision and written exams (or bring a DE-99 form from driver's education).",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 12",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.016",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Who may supervise a Kansas instruction permit holder?",
+    "choices": [
+      "Any licensed driver 18 or older, seated anywhere in the car",
+      "A licensed adult at least 21 years old with at least one year of driving experience, seated in the front seat",
+      "A parent of any age, even if not licensed",
+      "Any licensed driver 16 or older seated in the front seat"
+    ],
+    "answer": 1,
+    "explanation": "A Kansas permit holder may drive only with a licensed adult in the front seat who is at least 21 and has at least one year of driving experience.",
+    "difficulty": 1,
+    "ref": "Kansas Driving Handbook, p. 12",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.017",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A permit holder is driving with her 45-year-old licensed father beside her. Her friend asks to ride in the front seat too (the car has a bench seat). Is this allowed?",
+    "choices": [
+      "No. Only the supervising adult may be in the front seat",
+      "Yes, if the friend is also licensed",
+      "Yes, if the friend wears a seat belt",
+      "Yes, if it is daytime"
+    ],
+    "answer": 0,
+    "explanation": "Kansas instruction permit rules allow no one but the supervising adult in the front seat.",
+    "difficulty": 3,
+    "ref": "Kansas Driving Handbook, p. 12",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.018",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long is a Kansas Class C instruction permit valid?",
+    "choices": [
+      "6 months",
+      "2 years",
+      "Until your 16th birthday",
+      "1 year"
+    ],
+    "answer": 3,
+    "explanation": "A Kansas Class C instruction permit expires one year from issue. It can be renewed by retaking and passing the written exam.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 14",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.019",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the youngest age at which a Kansas teen can get a restricted driver's license?",
+    "choices": [
+      "14",
+      "16",
+      "15",
+      "15 and a half"
+    ],
+    "answer": 2,
+    "explanation": "A Kansas restricted license is available at 15, after holding a state-issued permit for 1 year, completing approved driver's education and 25 hours of supervised driving.",
+    "difficulty": 1,
+    "ref": "Kansas Driving Handbook, p. 12",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.020",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many hours of supervised driving must a 15-year-old complete to get a Kansas restricted license?",
+    "choices": [
+      "50 hours",
+      "25 hours",
+      "10 hours",
+      "40 hours"
+    ],
+    "answer": 1,
+    "explanation": "A 15-year-old needs 25 hours of supervised driving for a restricted license. To move to the age-16 privileges, the parent must later certify 25 more hours (10 at night), for 50 in total.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 12",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.021",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How much supervised driving must a 16-year-old applicant for a Kansas restricted license have completed?",
+    "choices": [
+      "50 hours, including 10 at night",
+      "25 hours, including 5 at night",
+      "40 hours, including 10 at night",
+      "60 hours, including 15 at night"
+    ],
+    "answer": 0,
+    "explanation": "16-year-old applicants must have completed 50 hours of supervised driving, 10 of them at night, attested by a parent or guardian affidavit.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 12",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.022",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "To get a Kansas restricted license, how long must you have held a state-issued learner's permit?",
+    "choices": [
+      "6 months, including driver's education time",
+      "90 days",
+      "No holding period is required",
+      "1 year or more, not counting driver's education permit-slip time"
+    ],
+    "answer": 3,
+    "explanation": "You must have held a state-issued learner's permit for at least 1 year. Time driving on a driver's education permit slip does not count.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 12",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.023",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 15-year-old completed a driver's education course entirely on the internet. Can that course be used to get a Kansas restricted license?",
+    "choices": [
+      "Yes, any driver's education course is accepted",
+      "Yes, if the course was at least 8 hours long",
+      "No. Internet driver's education courses are not accepted in Kansas",
+      "Yes, but only with an extra 10 hours of practice"
+    ],
+    "answer": 2,
+    "explanation": "Internet driver's education courses do not meet Kansas licensing requirements. Approved programs are offered by accredited school districts or approved private schools (8 hours of classroom and 6 hours of behind-the-wheel instruction).",
+    "difficulty": 3,
+    "ref": "Kansas Driving Handbook, p. 9",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.024",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Is a driver's education course required for a Kansas restricted license if you first apply at age 16?",
+    "choices": [
+      "Yes, it is required at any age under 18",
+      "No. Driver's education is required only for 15-year-old applicants",
+      "Yes, but an online course is acceptable at 16",
+      "Only if you failed the written test"
+    ],
+    "answer": 1,
+    "explanation": "Kansas requires an approved driver's education course for 15-year-old restricted license applicants; it is not required if you apply at 16.",
+    "difficulty": 3,
+    "ref": "Kansas Driving Handbook, p. 12",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.025",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 15-year-old with a Kansas restricted license wants to drive alone to an after-school football practice. Is this allowed?",
+    "choices": [
+      "No. At 15 you may drive directly to and from school for attendance only, not to school activities",
+      "Yes, any school-related trip is allowed",
+      "Yes, if it is before 9 p.m.",
+      "Yes, if a classmate rides along"
+    ],
+    "answer": 0,
+    "explanation": "At 15, a restricted license allows driving directly to and from school on school days for attendance (not school activities), to and from work, directly to and from religious activities, or with a licensed adult.",
+    "difficulty": 3,
+    "ref": "Kansas Driving Handbook, p. 13",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.026",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What passenger rule applies to a 15-year-old with a Kansas restricted license?",
+    "choices": [
+      "No more than one non-sibling minor passenger",
+      "No more than two passengers of any age",
+      "No passenger rule applies at 15",
+      "No non-sibling minor passengers"
+    ],
+    "answer": 3,
+    "explanation": "A 15-year-old restricted driver may not carry any non-sibling minor passengers. At 16 the rule loosens to one non-sibling minor passenger.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 13",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.027",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During what hours may a 16-year-old with Kansas restricted-license privileges drive anywhere, for any purpose, without an adult?",
+    "choices": [
+      "6 a.m. to 10 p.m.",
+      "5 a.m. to midnight",
+      "5 a.m. to 9 p.m.",
+      "6 a.m. to 9 p.m."
+    ],
+    "answer": 2,
+    "explanation": "A 16-year-old may drive anywhere from 5 a.m. to 9 p.m. Outside those hours, driving is allowed only to or from school activities, work, religious activities, or with a licensed adult in the front seat.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 13",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.028",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old with a Kansas restricted license (held 2 months) is driving home alone from a friend's party at 10:30 p.m. Is this legal?",
+    "choices": [
+      "Yes, 16-year-olds have no time restrictions",
+      "No. After 9 p.m. this trip would need a licensed adult in the front seat",
+      "Yes, as long as no passengers are in the car",
+      "Yes, the curfew starts at midnight"
+    ],
+    "answer": 1,
+    "explanation": "16-year-olds may drive anywhere from 5 a.m. to 9 p.m. A late-night social trip is not one of the exceptions (school activities, work, religious activities, or with a licensed adult).",
+    "difficulty": 3,
+    "ref": "Kansas Driving Handbook, p. 13",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.029",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many non-sibling minor passengers may a 16-year-old Kansas restricted-license holder carry?",
+    "choices": [
+      "One",
+      "None",
+      "Two",
+      "Three"
+    ],
+    "answer": 0,
+    "explanation": "At 16, Kansas allows only one non-sibling minor passenger in the vehicle. At 15, none are allowed.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 13",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.030",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "When are all age-related driving restrictions removed for a 16-year-old Kansas driver?",
+    "choices": [
+      "After 3 months with no tickets",
+      "Only at age 18",
+      "After completing 100 hours of supervised driving",
+      "After the restricted license has been held for 6 months (or at age 17)"
+    ],
+    "answer": 3,
+    "explanation": "After age 16, once a restricted license (or farm permit) has been held for 6 months, all age-related restrictions are removed. Otherwise, they end at 17.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 13; KDOR Graduated Driver License page (ksrevenue.gov)",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.031",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You are applying for your first Kansas driver's license. What is the youngest age at which it can be issued with no age-related driving restrictions?",
+    "choices": [
+      "16",
+      "18",
+      "17",
+      "15"
+    ],
+    "answer": 2,
+    "explanation": "Kansas issues an unrestricted Class C license at 17; applicants under 18 need a parent's affidavit for 50 supervised hours (10 at night). Younger drivers start with a restricted license whose limits end only after 6 months at age 16.",
+    "difficulty": 1,
+    "ref": "Kansas Driving Handbook, pp. 9 and 13",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.032",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 15-year-old passed the Kansas knowledge test and holds an instruction permit. Before taking the driving test, the teen must hold the permit:",
+    "choices": [
+      "30 days",
+      "One full year, or until reaching age 17, whichever comes first",
+      "6 months",
+      "Until age 16"
+    ],
+    "answer": 1,
+    "explanation": "If you are under 17, you must hold your instruction permit one full year or until you reach age 17, whichever comes first, before you are eligible for the Driver's License Test.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 94",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.033",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Who may qualify for a Kansas farm permit?",
+    "choices": [
+      "A teen 14 to under 17 who lives on, or is paid to work on, a farm",
+      "Any 13-year-old who lives in a rural county",
+      "Only teens who own a farm vehicle",
+      "Any teen 14 or older, with no farm connection required"
+    ],
+    "answer": 0,
+    "explanation": "A Kansas farm permit is available from age 14 to under 17 to teens who live on a farm or are employed for pay on a farm. K.S.A. 8-296 defines a farm as land of more than 20 acres used in agricultural operations.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 11; K.S.A. 8-296",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.034",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 14-year-old with a Kansas farm permit wants to drive to a friend's house to play video games. Is this allowed?",
+    "choices": [
+      "Yes, a farm permit has no trip limits",
+      "Yes, if it is before 9 p.m.",
+      "Yes, if the friend lives on a farm",
+      "No. At 14-15, a farm permit allows driving for farm work and directly to and from school"
+    ],
+    "answer": 3,
+    "explanation": "At 14-15, a farm permit allows driving to and from (or in connection with) farm work and directly to and from school for attendance. Other trips need a licensed adult.",
+    "difficulty": 3,
+    "ref": "Kansas Driving Handbook, p. 12",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.035",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You just moved to Kansas and hold a valid license from another state. Within how many days must you get a Kansas driver's license?",
+    "choices": [
+      "30 days",
+      "60 days",
+      "90 days",
+      "1 year"
+    ],
+    "answer": 2,
+    "explanation": "Kansas requires new residents to get a Kansas driver's license within 90 days of moving to the state.",
+    "difficulty": 1,
+    "ref": "Kansas Driving Handbook, p. 11",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.036",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum vision needed to pass the Kansas driver's license vision screening?",
+    "choices": [
+      "20/20 in both eyes",
+      "20/40 in at least one eye, with or without corrective lenses",
+      "20/40 in both eyes without glasses",
+      "20/70 in one eye"
+    ],
+    "answer": 1,
+    "explanation": "Kansas requires at least 20/40 vision in one eye. If you need glasses or contacts to meet this, a corrective-lenses restriction is placed on your license.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 13",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.037",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many questions must you answer correctly to pass the 25-question Kansas knowledge test?",
+    "choices": [
+      "20",
+      "18",
+      "21",
+      "15"
+    ],
+    "answer": 0,
+    "explanation": "The Kansas knowledge test has 25 multiple-choice questions and you must score 80% to pass, which is 20 correct answers.",
+    "difficulty": 1,
+    "ref": "Kansas Driving Handbook, p. 94",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.038",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You failed the Kansas written test this morning. When is the earliest you may retake it?",
+    "choices": [
+      "The same afternoon",
+      "After 7 days",
+      "After 30 days",
+      "The next working day, after paying a re-exam fee"
+    ],
+    "answer": 3,
+    "explanation": "If you fail the written or driving test, you may retest the next working day after paying a re-exam fee. You have four chances to pass each test.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 14",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.039",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What happens after your fourth failure of the Kansas written test?",
+    "choices": [
+      "You may retest the next working day as usual",
+      "You must wait 30 days",
+      "You must wait at least 6 months from the most recent failed exam before retesting",
+      "You must retake driver's education before testing again"
+    ],
+    "answer": 2,
+    "explanation": "Kansas gives four chances to pass the written test and four to pass the driving test. After the fourth failure of either, you must wait at least six months from the last failed exam.",
+    "difficulty": 3,
+    "ref": "Kansas Driving Handbook, p. 14",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.040",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which of these can lead to a suspension of your Kansas driving privileges?",
+    "choices": [
+      "Two parking tickets in one year",
+      "Three moving-violation convictions within 12 months",
+      "One speeding ticket in 24 months",
+      "Two seat belt tickets in one year"
+    ],
+    "answer": 1,
+    "explanation": "Under K.S.A. 8-255, the Division of Vehicles may suspend your privileges for three moving-violation convictions within a twelve-month period. Seat belt tickets are not even reported to the Division of Vehicles.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 14; K.S.A. 8-255, 8-2504",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.041",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What happens to a Kansas driver who fails to keep continuous liability insurance on their vehicle?",
+    "choices": [
+      "A mandatory indefinite suspension of driving privileges",
+      "A written warning only",
+      "A 7-day suspension",
+      "Nothing, if the driver has no crashes"
+    ],
+    "answer": 0,
+    "explanation": "Failing to maintain continuous liability insurance on your vehicle is a mandatory indefinite suspension in Kansas.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 14",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.042",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What are the minimum liability insurance limits for a Kansas vehicle policy?",
+    "choices": [
+      "$15,000 per person, $30,000 per accident, $10,000 property damage",
+      "$30,000 per person, $60,000 per accident, $25,000 property damage",
+      "$50,000 per person, $100,000 per accident, $50,000 property damage",
+      "$25,000 per person, $50,000 per accident for injury, $25,000 property damage"
+    ],
+    "answer": 3,
+    "explanation": "Kansas requires at least 25/50/25 liability coverage: $25,000 for injury or death of one person, $50,000 for two or more people, and $25,000 for property damage in one accident.",
+    "difficulty": 2,
+    "ref": "Kansas Statutes Annotated, K.S.A. 40-3107",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.043",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Besides liability coverage, which coverage must a Kansas auto insurance policy include?",
+    "choices": [
+      "Collision coverage",
+      "Comprehensive coverage",
+      "Personal injury protection (PIP)",
+      "Rental car reimbursement"
+    ],
+    "answer": 2,
+    "explanation": "Kansas auto policies must include personal injury protection (PIP) benefits in addition to 25/50/25 liability coverage.",
+    "difficulty": 3,
+    "ref": "Kansas Statutes Annotated, K.S.A. 40-3107",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.044",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You moved to a new address in Kansas. Within how many days must you notify the Division of Vehicles?",
+    "choices": [
+      "30 days",
+      "10 days",
+      "60 days",
+      "90 days"
+    ],
+    "answer": 1,
+    "explanation": "Kansas drivers must notify the Division of Vehicles in writing within 10 days after changing their address or name.",
+    "difficulty": 2,
+    "ref": "Kansas Statutes Annotated, K.S.A. 8-248",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.045",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What happens if you fail to appear for a court date on a traffic citation in Kansas?",
+    "choices": [
+      "Your driving privileges face a mandatory indefinite suspension",
+      "Nothing, if you pay later",
+      "You receive one point on your record",
+      "A 7-day suspension"
+    ],
+    "answer": 0,
+    "explanation": "Failing to appear for a court date is a mandatory indefinite suspension in Kansas, as is failing to respond to a traffic citation from Kansas or another state.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 14",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.046",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Your Kansas driver's license expired 14 months ago. What must you do to renew it?",
+    "choices": [
+      "Pay only the normal renewal fee",
+      "Take only the vision test",
+      "Wait 6 months and then renew",
+      "Take full testing: vision, written and driving exams"
+    ],
+    "answer": 3,
+    "explanation": "If a Kansas license has been expired for more than 1 year, full testing (vision, written and driving exams) is required.",
+    "difficulty": 3,
+    "ref": "Kansas Driving Handbook, p. 14",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.047",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which activity does Kansas law prohibit for ALL drivers while driving?",
+    "choices": [
+      "Talking on a handheld cell phone",
+      "Using a GPS device",
+      "Using an electronic device to write, send or read a text or email",
+      "Listening to a weather report"
+    ],
+    "answer": 2,
+    "explanation": "Kansas prohibits using any electronic device to write, send or read a written communication while driving. Talking or dialing is not specifically illegal for adult drivers, and GPS and weather reports are not included.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 19",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.048",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "For an adult with a full Kansas license, which phone use while driving is NOT specifically illegal under Kansas law?",
+    "choices": [
+      "Reading a text message",
+      "Talking or dialing a phone number",
+      "Sending an email",
+      "Typing a text message"
+    ],
+    "answer": 1,
+    "explanation": "Kansas law bans writing, sending or reading written communications while driving. Talking or dialing is not specifically illegal for licensed adults, but it is still a dangerous distraction.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 19",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.049",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 15-year-old Kansas instruction permit holder is driving with a supervising adult. When may the teen use a cell phone while driving?",
+    "choices": [
+      "Only to report illegal activity or summon emergency help",
+      "Any time the supervising adult approves",
+      "Only for hands-free calls",
+      "Only to use GPS"
+    ],
+    "answer": 0,
+    "explanation": "Kansas permit holders under 17, farm permit holders and restricted license holders may not use wireless communication devices while driving except to report illegal activity or summon emergency help.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 12",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.050",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 16-year-old with a Kansas restricted license wants to make a quick hands-free call to a parent while driving. Is this allowed?",
+    "choices": [
+      "Yes, hands-free calls are always allowed",
+      "Yes, if the call is to a parent",
+      "Yes, if it is before 9 p.m.",
+      "No. Restricted drivers may not use wireless devices except to report illegal activity or get emergency help"
+    ],
+    "answer": 3,
+    "explanation": "Kansas restricted license holders may not use any wireless communication device while driving, except to report illegal activity or summon emergency help.",
+    "difficulty": 3,
+    "ref": "Kansas Driving Handbook, p. 13",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.051",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Kansas law, which occupants of a passenger vehicle must use safety restraints?",
+    "choices": [
+      "Only the driver",
+      "Only front-seat occupants",
+      "All occupants",
+      "Only occupants under 18"
+    ],
+    "answer": 2,
+    "explanation": "Kansas law requires all occupants of passenger vehicles to use safety restraints (seat belts or child restraints).",
+    "difficulty": 1,
+    "ref": "Kansas Driving Handbook, p. 16",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.052",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "In which situation can a Kansas officer stop your vehicle for a seat belt violation alone?",
+    "choices": [
+      "An adult in the back seat is not buckled",
+      "An adult in the front seat is not buckled",
+      "Only if you were also speeding",
+      "Only if you were in a crash"
+    ],
+    "answer": 1,
+    "explanation": "Seat belt use is a primary violation in Kansas for an unrestrained adult in a front seat or an unrestrained child anywhere in the vehicle. The vehicle can be stopped solely for that violation.",
+    "difficulty": 3,
+    "ref": "Kansas Driving Handbook, p. 16",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.053",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "In Kansas, who is responsible for making sure children in a passenger car are properly restrained?",
+    "choices": [
+      "The driver",
+      "The child's parent, even if not in the vehicle",
+      "The oldest passenger",
+      "The child, if age 8 or older"
+    ],
+    "answer": 0,
+    "explanation": "The driver of a passenger car is responsible for ensuring all children in the vehicle are protected with the appropriate restraints.",
+    "difficulty": 1,
+    "ref": "Kansas Driving Handbook, p. 16",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.054",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "How must a 3-year-old be restrained in a passenger car in Kansas?",
+    "choices": [
+      "In a booster seat",
+      "With a lap and shoulder belt",
+      "On an adult's lap in the back seat",
+      "In a federally approved child safety seat"
+    ],
+    "answer": 3,
+    "explanation": "Kansas requires all children under age 4 to be restrained in a federally approved child safety seat.",
+    "difficulty": 1,
+    "ref": "Kansas Driving Handbook, p. 16",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.055",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 6-year-old weighs 85 pounds. Under Kansas law, how may this child ride in a passenger car?",
+    "choices": [
+      "Only in a rear-facing child seat",
+      "Only in a booster seat until age 8, regardless of size",
+      "Using a seat belt, because the child weighs more than 80 pounds",
+      "With no restraint in the back seat"
+    ],
+    "answer": 2,
+    "explanation": "Children 4 to 8 must use a child safety seat or booster seat unless they are taller than 4'9\" or weigh more than 80 pounds; then they must use a seat belt.",
+    "difficulty": 3,
+    "ref": "Kansas Driving Handbook, p. 16",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.056",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 5-year-old is 3'10\" tall and weighs 45 pounds. What restraint does Kansas law require?",
+    "choices": [
+      "A seat belt only",
+      "A federally approved child safety seat or booster seat",
+      "No restraint if seated in the back",
+      "An adult's lap belt shared with a parent"
+    ],
+    "answer": 1,
+    "explanation": "Children 4 to 8 must ride in a federally approved child safety seat or booster unless taller than 4'9\" or heavier than 80 pounds, which this child is not.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 16",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.057",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Kansas law, which children may use a regular seat belt instead of a child seat or booster?",
+    "choices": [
+      "Children 8 and older, or children 4-8 who are taller than 4'9\" or weigh more than 80 pounds",
+      "Any child age 4 or older",
+      "Any child who weighs more than 40 pounds",
+      "Only children 12 and older"
+    ],
+    "answer": 0,
+    "explanation": "Kansas requires a child safety seat under 4, a child seat or booster from 4 to 8 (unless taller than 4'9\" or over 80 pounds), and a seat belt for children 8 and older.",
+    "difficulty": 3,
+    "ref": "Kansas Driving Handbook, p. 16",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.058",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the maximum speed limit in a Kansas urban district (town or city)?",
+    "choices": [
+      "25 mph",
+      "35 mph",
+      "20 mph",
+      "30 mph"
+    ],
+    "answer": 3,
+    "explanation": "Kansas sets a maximum of 30 mph in any urban district unless another limit is posted.",
+    "difficulty": 1,
+    "ref": "Kansas Driving Handbook, p. 16",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.059",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the maximum speed on a Kansas state or federal highway outside of towns?",
+    "choices": [
+      "55 mph",
+      "70 mph",
+      "65 mph",
+      "75 mph"
+    ],
+    "answer": 2,
+    "explanation": "Kansas sets 65 mph as the maximum on state or federal highways, 55 mph on county or township roads, and 75 mph on separated multilane highways where designated and posted.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 16",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.060",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the maximum speed on a Kansas county or township road?",
+    "choices": [
+      "45 mph",
+      "55 mph",
+      "65 mph",
+      "50 mph"
+    ],
+    "answer": 1,
+    "explanation": "Outside of towns, Kansas county and township roads have a 55 mph maximum unless otherwise posted.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 16",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.061",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the highest speed limit Kansas law allows, and where does it apply?",
+    "choices": [
+      "75 mph, on separated multilane highways designated and posted by the Secretary of Transportation",
+      "70 mph, on any interstate",
+      "80 mph, on rural interstates",
+      "65 mph, on all highways"
+    ],
+    "answer": 0,
+    "explanation": "Kansas allows up to 75 mph on separated, multilane highways designated and posted by the Secretary of Transportation. Elsewhere outside towns the limits are 65 mph (state/federal highways) and 55 mph (county/township roads).",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 16",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.062",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "According to the Kansas Driving Handbook, unless otherwise posted, what is the maximum speed in a properly marked school zone?",
+    "choices": [
+      "15 mph",
+      "25 mph",
+      "30 mph",
+      "20 mph"
+    ],
+    "answer": 3,
+    "explanation": "The Kansas Driving Handbook lists 20 mph for a properly marked school zone unless otherwise posted. Obey the slower school-zone limit when lights are flashing or children are present.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 16",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.063",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What following distance does the Kansas Driving Handbook recommend under prime (ideal) conditions?",
+    "choices": [
+      "At least 1 second",
+      "At least 4 seconds",
+      "At least 2 seconds",
+      "One car length per 20 mph"
+    ],
+    "answer": 2,
+    "explanation": "The Kansas handbook recommends the two-second rule under prime conditions and a four-second rule under adverse conditions.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 17",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.064",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are driving on a Kansas highway in heavy rain. What following distance does the handbook say to use?",
+    "choices": [
+      "At least 2 seconds",
+      "At least 4 seconds",
+      "At least 3 seconds",
+      "At least 1 second"
+    ],
+    "answer": 1,
+    "explanation": "Under adverse conditions, Kansas recommends a four-second following distance instead of the two-second rule used in prime conditions.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 17",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.065",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What following distance does the Kansas Driving Handbook recommend behind a motorcycle?",
+    "choices": [
+      "3 to 4 seconds, or more in wet conditions",
+      "1 to 2 seconds",
+      "2 seconds, the same as for cars",
+      "At least 10 seconds"
+    ],
+    "answer": 0,
+    "explanation": "When following a motorcycle, scooter or moped, Kansas advises a 3 to 4 second following distance, or more in wet conditions, because motorcycles can stop quickly.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 84",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.066",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What happens to fines for speeding in a Kansas work zone?",
+    "choices": [
+      "They are tripled",
+      "They stay the same",
+      "They are replaced by a warning",
+      "They are doubled"
+    ],
+    "answer": 3,
+    "explanation": "The Kansas Driving Handbook notes that fines for speeding in a work zone are doubled. Slow down and do not tailgate in work zones.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 39",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.067",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "During what period may vehicles in Kansas use studded snow tires?",
+    "choices": [
+      "October 1 to May 1",
+      "December 1 to March 1",
+      "November 1 to April 1",
+      "Any time of year"
+    ],
+    "answer": 2,
+    "explanation": "Kansas allows studded snow tires from November 1st to April 1st each year.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 59",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.068",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "When passing on a two-lane Kansas road, you must return to your lane before coming within how many feet of an oncoming vehicle?",
+    "choices": [
+      "100 feet",
+      "200 feet",
+      "500 feet",
+      "50 feet"
+    ],
+    "answer": 1,
+    "explanation": "Kansas requires you to be back in your driving lane before coming within 200 feet of any vehicle approaching from the opposite direction.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 17",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.069",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "In Kansas, you may NOT pass another vehicle within how many feet of an intersection or railroad grade crossing?",
+    "choices": [
+      "100 feet",
+      "50 feet",
+      "200 feet",
+      "300 feet"
+    ],
+    "answer": 0,
+    "explanation": "Kansas prohibits passing within 100 feet of an intersection or railroad grade crossing, and within 100 feet of a bridge, viaduct or tunnel when your view is obstructed.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 17",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.070",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "An emergency vehicle is stopped on the shoulder of a two-lane road with its emergency lights on. Within what distance of it may you NOT pass another vehicle?",
+    "choices": [
+      "50 feet",
+      "200 feet",
+      "500 feet",
+      "100 feet"
+    ],
+    "answer": 3,
+    "explanation": "Kansas prohibits passing within 100 feet of an emergency vehicle that is stopped on the side of the roadway with its emergency lights on.",
+    "difficulty": 3,
+    "ref": "Kansas Driving Handbook, p. 17",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.071",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "In Kansas, you should not make a U-turn anywhere other drivers cannot see you for at least:",
+    "choices": [
+      "200 feet",
+      "100 feet",
+      "500 feet",
+      "1,000 feet"
+    ],
+    "answer": 2,
+    "explanation": "Do not make a U-turn on a curve, near the top of a hill, or anywhere other drivers cannot see you for at least 500 feet.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 17",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.072",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "Under Kansas law, how far before a turn or lane change must you begin signaling?",
+    "choices": [
+      "At least 50 feet",
+      "At least 100 feet",
+      "At least 150 feet",
+      "At least 300 feet"
+    ],
+    "answer": 1,
+    "explanation": "Kansas law requires your signal to be given for at least the last 100 feet before you turn or change lanes. The handbook advises signaling 200 feet (or 3 to 5 seconds) ahead at speeds above 40 mph.",
+    "difficulty": 1,
+    "ref": "Kansas Driving Handbook, pp. 17 and 69",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.073",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are stopped at a steady red light in Kansas and want to turn right. There is no sign prohibiting the turn. What may you do?",
+    "choices": [
+      "Turn right after stopping and checking for traffic and pedestrians",
+      "Turn right without stopping if the way is clear",
+      "Wait for the green light; right on red is illegal in Kansas",
+      "Turn right only if a green arrow appears"
+    ],
+    "answer": 0,
+    "explanation": "In Kansas, unless a sign prohibits it, you may turn right on a red light after stopping and checking for traffic and pedestrians.",
+    "difficulty": 1,
+    "ref": "Kansas Driving Handbook, p. 34",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.074",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Under Kansas law, when may you turn LEFT on a steady red light (after stopping, with no sign prohibiting it)?",
+    "choices": [
+      "From a two-way street onto another two-way street",
+      "At any intersection, the same as a right turn on red",
+      "Never; left turns on red are always illegal",
+      "From a one-way street onto a one-way street that carries traffic to the left"
+    ],
+    "answer": 3,
+    "explanation": "K.S.A. 8-1508 allows a left turn on red only from a one-way roadway onto another one-way roadway moving to the left, after stopping and yielding, unless a sign prohibits it.",
+    "difficulty": 3,
+    "ref": "Kansas Statutes Annotated, K.S.A. 8-1508",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.075",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "An ambulance with flashing lights and a siren approaches in Kansas. After pulling to the right and stopping and letting it pass, how far behind it must you stay?",
+    "choices": [
+      "At least 100 feet",
+      "At least 200 feet",
+      "At least 500 feet",
+      "At least 1,000 feet"
+    ],
+    "answer": 2,
+    "explanation": "Move to the right edge of the road and stop parallel to the curb, keeping intersections clear. After it passes, return to the road carefully and stay at least 500 feet away from the emergency vehicle.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 85",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.076",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "On a Kansas highway with two lanes in each direction, you approach a stopped police car with flashing lights on the shoulder. What must you do?",
+    "choices": [
+      "Stop behind the police car until the officer waves you on",
+      "Move to a lane not next to the police car, or slow down and use caution if you cannot change lanes",
+      "Keep your lane and speed, since the car is on the shoulder",
+      "Speed up to pass the area quickly"
+    ],
+    "answer": 1,
+    "explanation": "Kansas' move-over rule requires you to move to a lane not adjacent to a stationary emergency vehicle with flashing lights on a road with two or more lanes in each direction. If you cannot change lanes, slow down and proceed with caution.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 18",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.077",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "Traffic makes it impossible to change lanes as you approach a stopped emergency vehicle with flashing lights on a four-lane Kansas highway. What does the law require?",
+    "choices": [
+      "Reduce speed and proceed with due caution",
+      "Stop completely in your lane",
+      "Drive on the left shoulder to get farther away",
+      "Nothing, if you cannot change lanes"
+    ],
+    "answer": 0,
+    "explanation": "If it is not possible to move to a non-adjacent lane, Kansas requires you to reduce speed and proceed with due caution past the stopped emergency vehicle.",
+    "difficulty": 3,
+    "ref": "Kansas Driving Handbook, p. 18",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.078",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "In Kansas, the move-over rule for stopped emergency vehicles also applies to which of these?",
+    "choices": [
+      "Parked delivery trucks",
+      "Disabled cars without flashing lights",
+      "Farm equipment traveling on the shoulder",
+      "Construction vehicles and workers actually working on the roadway"
+    ],
+    "answer": 3,
+    "explanation": "Kansas requires you to yield to construction vehicles and workers actually engaged in roadwork, and to move into a lane not next to them, just as with emergency vehicles (K.S.A. 8-1531).",
+    "difficulty": 3,
+    "ref": "Kansas Driving Handbook, p. 18",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.079",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A fire truck is leaving its station with its emergency lights flashing. What must you do?",
+    "choices": [
+      "Pass it quickly before it enters the road",
+      "Honk to warn it that you are coming",
+      "Stop until the fire truck is safely out of your path",
+      "Keep driving; the rule applies only to moving emergency vehicles on the road"
+    ],
+    "answer": 2,
+    "explanation": "If an emergency vehicle is leaving or returning to its garage with emergency lights flashing, you must stop until it is safely out of your path.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 85",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.080",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "Which buses must you stop for in Kansas when they are stopped to pick up or let off children?",
+    "choices": [
+      "School buses only",
+      "School buses, church buses and day care buses",
+      "Any city transit bus",
+      "Only school buses on two-lane roads"
+    ],
+    "answer": 1,
+    "explanation": "You must stop when meeting or overtaking a school bus, church bus or day care bus that is stopped to pick up or let off children, and stay stopped until the stop signal is retracted and the red lights are off.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 18",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.081",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A school bus is stopped with red lights flashing on the opposite side of a Kansas divided highway that has a median. What must you do?",
+    "choices": [
+      "You are not required to stop, but watch for children",
+      "Stop until the red lights turn off",
+      "Stop only if you are in the left lane",
+      "Slow to 20 mph and pass"
+    ],
+    "answer": 0,
+    "explanation": "Traffic approaching a school bus in the opposing roadway of a divided highway (separated by a median or physical barrier) is not required to stop in Kansas.",
+    "difficulty": 3,
+    "ref": "Kansas Driving Handbook, p. 18",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.082",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A school bus stops with red lights flashing across from you on a road with a center turning lane. Must you stop?",
+    "choices": [
+      "No, a center turn lane counts as a divided highway",
+      "Only if the bus is on your side of the road",
+      "Only if children are crossing",
+      "Yes. Traffic in both directions must stop"
+    ],
+    "answer": 3,
+    "explanation": "Kansas requires you to stop for a stopped school bus when there is a center turning lane between the roadways, whether the bus is on your side or the opposite side. Only a median or other physical barrier excuses opposing traffic.",
+    "difficulty": 3,
+    "ref": "Kansas Driving Handbook, p. 51",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.083",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Kansas, how close to a fire hydrant may you park?",
+    "choices": [
+      "No closer than 10 feet",
+      "No closer than 20 feet",
+      "No closer than 15 feet",
+      "No closer than 5 feet"
+    ],
+    "answer": 2,
+    "explanation": "Kansas prohibits parking within 15 feet of a fire hydrant.",
+    "difficulty": 1,
+    "ref": "Kansas Driving Handbook, p. 19",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.084",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How far from the curb may your wheels be when you parallel park in Kansas?",
+    "choices": [
+      "No more than 18 inches",
+      "No more than 12 inches",
+      "No more than 6 inches",
+      "No more than 24 inches"
+    ],
+    "answer": 1,
+    "explanation": "Kansas prohibits parking more than 12 inches (1 foot) from the curb.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 19",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.085",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Kansas, you may not park within how many feet when approaching a stop sign, traffic signal or flashing beacon?",
+    "choices": [
+      "30 feet",
+      "20 feet",
+      "15 feet",
+      "50 feet"
+    ],
+    "answer": 0,
+    "explanation": "Kansas prohibits parking within 30 feet approaching any traffic control signal, stop sign or flashing beacon at the side of the roadway.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 19",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.086",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Kansas, you may not park within how many feet of the nearest rail of a railroad crossing?",
+    "choices": [
+      "15 feet",
+      "30 feet",
+      "100 feet",
+      "50 feet"
+    ],
+    "answer": 3,
+    "explanation": "Kansas prohibits parking within 50 feet of the nearest rail at a railroad crossing.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 19",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.087",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Kansas, how close may you park to the driveway entrance of a fire station on the same side of the street?",
+    "choices": [
+      "No closer than 15 feet",
+      "No closer than 50 feet",
+      "No closer than 20 feet",
+      "No closer than 75 feet"
+    ],
+    "answer": 2,
+    "explanation": "Kansas prohibits parking within 20 feet of a fire station driveway entrance, and within 75 feet of the entrance on the opposite side of the street.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 19",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.088",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You want to park on the side of the street OPPOSITE a fire station entrance. How far from the entrance must you be?",
+    "choices": [
+      "At least 20 feet",
+      "At least 75 feet",
+      "At least 50 feet",
+      "At least 100 feet"
+    ],
+    "answer": 1,
+    "explanation": "On the side of the street opposite a fire station entrance, Kansas prohibits parking within 75 feet of the entrance (K.S.A. 8-1571: when properly signposted). On the same side, the limit is 20 feet from the driveway.",
+    "difficulty": 3,
+    "ref": "Kansas Driving Handbook, p. 19; K.S.A. 8-1571",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.089",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Under Kansas law, how close may you park to a crosswalk at an intersection?",
+    "choices": [
+      "No closer than 20 feet",
+      "No closer than 10 feet",
+      "No closer than 15 feet",
+      "No closer than 30 feet"
+    ],
+    "answer": 0,
+    "explanation": "Kansas law (K.S.A. 8-1571) prohibits parking on a crosswalk or within 20 feet of a crosswalk at an intersection.",
+    "difficulty": 2,
+    "ref": "Kansas Statutes Annotated, K.S.A. 8-1571",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.090",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "It is raining and your windshield wipers are running continuously in the middle of the afternoon. What does Kansas law require?",
+    "choices": [
+      "Turn on your hazard lights",
+      "Use only your parking lights",
+      "Nothing, because it is daytime",
+      "Turn on your headlights"
+    ],
+    "answer": 3,
+    "explanation": "Kansas requires headlights from sunset to sunrise, when people and vehicles are not clearly visible at 1,000 feet, and whenever windshield wipers are in continuous use because of rain, sleet or snow.",
+    "difficulty": 2,
+    "ref": "Kansas Statutes Annotated, K.S.A. 8-1703",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.091",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Besides from sunset to sunrise, Kansas requires headlights when persons and vehicles on the highway are not clearly visible at a distance of:",
+    "choices": [
+      "500 feet",
+      "300 feet",
+      "1,000 feet",
+      "200 feet"
+    ],
+    "answer": 2,
+    "explanation": "Kansas law requires lighted headlamps when, because of poor light, smoke or fog, persons and vehicles are not clearly discernible 1,000 feet ahead.",
+    "difficulty": 2,
+    "ref": "Kansas Statutes Annotated, K.S.A. 8-1703",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.092",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Under Kansas law, you must dim your high beams when an oncoming vehicle is within:",
+    "choices": [
+      "300 feet",
+      "500 feet",
+      "200 feet",
+      "1,000 feet"
+    ],
+    "answer": 1,
+    "explanation": "Kansas law requires you to switch from high beams when an oncoming vehicle is within 500 feet, so the glare does not blind the other driver. The handbook describes this as about one block.",
+    "difficulty": 2,
+    "ref": "Kansas Statutes Annotated, K.S.A. 8-1725",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.093",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Under Kansas law, when following another vehicle at night, you must use low beams when you are within:",
+    "choices": [
+      "300 feet",
+      "200 feet",
+      "500 feet",
+      "100 feet"
+    ],
+    "answer": 0,
+    "explanation": "Kansas requires low beams when you approach another vehicle from the rear within 300 feet, except while passing it.",
+    "difficulty": 2,
+    "ref": "Kansas Statutes Annotated, K.S.A. 8-1725",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.094",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "A railroad crossing signal is flashing in Kansas. Where must you stop?",
+    "choices": [
+      "Between 5 and 15 feet from the nearest rail",
+      "Between 50 and 100 feet from the nearest rail",
+      "Right on the tracks, until the train is in sight",
+      "Between 15 and 50 feet from the nearest rail"
+    ],
+    "answer": 3,
+    "explanation": "When a crossing signal warns of a train, a gate is lowered, a flagman signals, or a train is close enough to be a hazard, Kansas requires you to stop within 50 feet but not less than 15 feet from the nearest rail.",
+    "difficulty": 2,
+    "ref": "Kansas Statutes Annotated, K.S.A. 8-1551",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.095",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Under Kansas law, how much space must you leave when passing a bicycle going the same direction?",
+    "choices": [
+      "At least 2 feet",
+      "At least 5 feet",
+      "At least 3 feet",
+      "At least 1 foot"
+    ],
+    "answer": 2,
+    "explanation": "Kansas law (K.S.A. 8-1516) requires drivers to pass a bicycle on the left at a distance of not less than three feet, and not return to the right until safely clear of it.",
+    "difficulty": 2,
+    "ref": "Kansas Statutes Annotated, K.S.A. 8-1516",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.096",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are behind a slow bicyclist in a marked no-passing zone in Kansas. The opposing lane is clear for a long distance. What does Kansas law allow?",
+    "choices": [
+      "You may never pass a bicycle in a no-passing zone",
+      "You may pass the bicycle, but only when it is safe, leaving at least 3 feet",
+      "You may pass only if the bicyclist waves you around",
+      "You must honk and wait for the bicyclist to pull off the road"
+    ],
+    "answer": 1,
+    "explanation": "Kansas law lets a driver pass a bicycle in a no-passing zone, but only when it is safe to do so, and at a distance of at least three feet.",
+    "difficulty": 3,
+    "ref": "Kansas Statutes Annotated, K.S.A. 8-1516",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.097",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You are in a crash in Kansas and no police officer is at the scene. When must you immediately report it to police?",
+    "choices": [
+      "When anyone is injured or killed, or property damage appears to be $1,000 or more",
+      "Only when someone is killed",
+      "Only when damage is over $2,500",
+      "Only if the other driver has no insurance"
+    ],
+    "answer": 0,
+    "explanation": "If no officer is present, Kansas requires the driver (or an occupant 18 or older) to immediately report the crash to police by the quickest means if anyone is injured or killed or apparent property damage is $1,000 or more.",
+    "difficulty": 2,
+    "ref": "Kansas Statutes Annotated, K.S.A. 8-1604",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.098",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "A Kansas driver is injured in a crash and cannot report it. Who else is allowed to report the crash to police?",
+    "choices": [
+      "Only the vehicle's owner",
+      "Only a licensed tow truck driver",
+      "No one; the driver must report it later in person",
+      "Any occupant of that vehicle who is 18 or older"
+    ],
+    "answer": 3,
+    "explanation": "Kansas law lets the driver, or any occupant of the vehicle 18 years of age or older, make the immediate report to police.",
+    "difficulty": 3,
+    "ref": "Kansas Statutes Annotated, K.S.A. 8-1604",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.099",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "What can happen to your Kansas driving privileges if you fail to report a traffic crash as required?",
+    "choices": [
+      "Nothing; reporting is optional",
+      "You only receive a warning letter",
+      "They may be suspended",
+      "Your vehicle registration is doubled in cost"
+    ],
+    "answer": 2,
+    "explanation": "Failing to report a traffic accident (K.S.A. 8-1609) is one of the violations for which Kansas may suspend your driving privileges.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 14",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.100",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Under Kansas law, what can happen if you fail to stop and give aid after a crash in which someone is injured or killed?",
+    "choices": [
+      "You receive only a fine",
+      "Your driver's license can be revoked",
+      "A warning is issued for a first offense",
+      "Your insurance pays a penalty instead"
+    ],
+    "answer": 1,
+    "explanation": "Kansas may revoke your license if you are convicted of failing to stop and render aid after a crash resulting in death or personal injury (K.S.A. 8-254).",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 15",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.101",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "The posted limit on a Kansas highway is 65 mph, but heavy fog has cut your visibility. What does Kansas' basic speed law require?",
+    "choices": [
+      "Drive no faster than is reasonable and prudent for the fog, even if that is well below 65 mph",
+      "Drive at 65 mph, since that is the legal limit",
+      "Drive no slower than 55 mph so you do not impede traffic",
+      "Turn on your hazard lights and keep your speed"
+    ],
+    "answer": 0,
+    "explanation": "Kansas' basic speed law says you must never drive faster than is reasonable and prudent under the conditions. A posted limit is the maximum for normal conditions, not a safe speed in fog.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 16",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.102",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "No minimum speed is posted on a Kansas road. Is it legal to drive so slowly that you block the normal flow of traffic?",
+    "choices": [
+      "No, unless the slow speed is needed to drive safely",
+      "Yes, because no minimum speed is posted",
+      "Yes, as long as you stay in the right lane",
+      "Yes, as long as your hazard lights are on"
+    ],
+    "answer": 0,
+    "explanation": "Even when no minimum speed is posted, Kansas law makes it unlawful to drive so slowly that you impede or block the normal movement of traffic. The exception is when a slower speed is needed for safe driving.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 16",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.103",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Which of these is a place where Kansas law prohibits parking?",
+    "choices": [
+      "Within an intersection",
+      "25 feet from a fire hydrant",
+      "60 feet from the nearest rail of a railroad crossing",
+      "10 inches from the curb"
+    ],
+    "answer": 0,
+    "explanation": "Kansas prohibits parking within an intersection. The other spots meet Kansas distance rules: at least 15 feet from a hydrant, at least 50 feet from the nearest rail, and no more than 12 inches from the curb.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 19",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.104",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are turning at a Kansas intersection where a sidewalk meets the street, but no crosswalk lines are painted. A pedestrian is crossing there. What must you do?",
+    "choices": [
+      "Yield, because a crosswalk exists there even without markings",
+      "Keep going, because without painted lines there is no crosswalk",
+      "Honk so the pedestrian hurries across",
+      "Yield only if there is a traffic signal"
+    ],
+    "answer": 0,
+    "explanation": "The Kansas handbook says crosswalks exist at all intersections where a sidewalk meets the street, even when they are not marked. You must yield to a pedestrian in a crosswalk.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 80",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Under Kansas law, who must wear a helmet when operating or riding on a motorcycle?",
+    "choices": [
+      "Anyone under 18",
+      "Everyone, regardless of age",
+      "Only the operator",
+      "Only riders under 21"
+    ],
+    "answer": 0,
+    "explanation": "K.S.A. 8-1598 requires operators and riders under 18 to wear a helmet meeting federal (NHTSA) guidelines. A helmet is strongly recommended for everyone.",
+    "difficulty": 1,
+    "ref": "Kansas Motorcycle Handbook, p. 8",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 25-year-old rides a motorcycle in Kansas. Which statement about helmets is correct?",
+    "choices": [
+      "A DOT helmet is required for all riders",
+      "A helmet is required only on interstate highways",
+      "A helmet is required only at night",
+      "Kansas law does not require a helmet at this age, though wearing one greatly reduces head injuries"
+    ],
+    "answer": 3,
+    "explanation": "Kansas requires helmets only for riders under 18. Adults may legally ride without one, but helmeted riders are three times more likely to survive head injuries.",
+    "difficulty": 2,
+    "ref": "Kansas Motorcycle Handbook, pp. 7-8",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Under Kansas law, when may a motorcycle operator ride without eye protection (glasses, goggles or a face shield)?",
+    "choices": [
+      "Whenever the operator is 18 or older",
+      "During daylight hours only",
+      "When the motorcycle has a windscreen at least 10 inches high measured from the center of the handlebars",
+      "When riding under 30 mph"
+    ],
+    "answer": 2,
+    "explanation": "All Kansas motorcycle operators must wear shatter-proof, impact-resistant eye protection unless the motorcycle has a windscreen at least 10 inches high, measured from the center of the handlebars.",
+    "difficulty": 2,
+    "ref": "Kansas Motorcycle Handbook, p. 9",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What protective gear must a 16-year-old passenger wear on a motorcycle in Kansas?",
+    "choices": [
+      "Only a helmet",
+      "A helmet and shatter-proof eye protection",
+      "Only eye protection",
+      "No gear is required for passengers"
+    ],
+    "answer": 1,
+    "explanation": "Kansas requires anyone under 18 riding on a motorcycle to wear a helmet, and passengers under 18 must also wear shatter-proof, impact-resistant eye protection.",
+    "difficulty": 2,
+    "ref": "Kansas Motorcycle Handbook, p. 8",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Is lane splitting (riding between lanes or rows of vehicles) legal in Kansas?",
+    "choices": [
+      "No, it is prohibited",
+      "Yes, in slow traffic under 30 mph",
+      "Yes, on interstates only",
+      "Yes, if the rider signals first"
+    ],
+    "answer": 0,
+    "explanation": "K.S.A. 8-1595 states that no person shall operate a motorcycle between lanes of traffic or between adjacent lines or rows of vehicles.",
+    "difficulty": 1,
+    "ref": "Kansas Statutes Annotated, K.S.A. 8-1595",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How many motorcycles may ride side by side in a single lane in Kansas?",
+    "choices": [
+      "Three",
+      "Only one",
+      "Any number, if the lane is wide enough",
+      "No more than two"
+    ],
+    "answer": 3,
+    "explanation": "Kansas law does not allow motorcycles to be operated more than two abreast in a single lane.",
+    "difficulty": 2,
+    "ref": "Kansas Statutes Annotated, K.S.A. 8-1595",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A motorcyclist wants to pass a slow car by staying in the same lane next to it. Is this legal in Kansas?",
+    "choices": [
+      "Yes, if there is enough room",
+      "Yes, on multilane roads only",
+      "No. A motorcyclist may not pass in the same lane occupied by the vehicle being overtaken",
+      "Yes, if the car is going under the speed limit"
+    ],
+    "answer": 2,
+    "explanation": "Kansas law prohibits a motorcycle operator from overtaking and passing in the same lane occupied by the vehicle being overtaken.",
+    "difficulty": 2,
+    "ref": "Kansas Statutes Annotated, K.S.A. 8-1595",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A Kansas Class M applicant passes the skills test on a three-wheeled motorcycle (not an autocycle). What happens?",
+    "choices": [
+      "The applicant may ride any motorcycle",
+      "The license is restricted to three-wheeled motorcycles",
+      "The applicant must retest within 6 months",
+      "The applicant receives only a permit"
+    ],
+    "answer": 1,
+    "explanation": "Since 2017, passing the Class M driving exam on a three-wheeled motorcycle that is not an autocycle restricts the license to three-wheeled motorcycles. Passing on a two-wheeler allows both two- and three-wheeled motorcycles.",
+    "difficulty": 3,
+    "ref": "Kansas Motorcycle Handbook, p. 43",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Does driving an autocycle (a three-wheeler with a steering wheel and seats you do not straddle) require a motorcycle license in Kansas?",
+    "choices": [
+      "No",
+      "Yes, a full Class M license",
+      "Yes, a Class M permit",
+      "Only on highways"
+    ],
+    "answer": 0,
+    "explanation": "Kansas defines an autocycle as a three-wheel motorcycle with a steering wheel and seating that does not require straddling. It does not require a motorcycle license.",
+    "difficulty": 2,
+    "ref": "Kansas Motorcycle Handbook, p. 43",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.mc.010",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What is the minimum age for a Class M (motorcycle) instruction permit in Kansas?",
+    "choices": [
+      "15",
+      "16",
+      "18",
+      "14"
+    ],
+    "answer": 3,
+    "explanation": "Kansas issues Class C or M instruction permits at age 14 or older.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 9",
+    "states": [
+      "KS"
+    ]
+  }
+]

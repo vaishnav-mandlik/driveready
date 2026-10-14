@@ -1,0 +1,744 @@
+{
+  "code": "IA",
+  "name": "Iowa",
+  "agency": {
+    "name": "Iowa Department of Transportation, Motor Vehicle Division",
+    "abbreviation": "Iowa DOT",
+    "website": "https://iowadot.gov"
+  },
+  "handbook": {
+    "title": "Iowa Driver's License Manual",
+    "edition": "2026 (MM1170, 07/23/2026)",
+    "url": "https://iowadot.gov/media/7308/download?inline"
+  },
+  "exam": {
+    "questions": 40,
+    "passingScore": 32,
+    "passingPercent": 80,
+    "timeLimitMinutes": null,
+    "roadSigns": "Highway signs are part of the knowledge test, which checks your ability to read and understand Iowa traffic laws and the highway signs that regulate, warn and direct traffic (761 IAC 604.9(1)). No separate sign test is described.",
+    "format": "Knowledge test on Iowa traffic laws and highway signs (761 IAC 604.9(1)), taken at a DMV or an Iowa county treasurer location (schedule an appointment). Teens can instead take the web-based test at home with a parent proctor (approved application; a computer, not a phone or tablet) or at a participating school or agency (Skip the Trip). An applicant who is unable to read or understand the written test may request an oral test (761 IAC 604.9(2)).",
+    "languages": "Not stated on the Iowa DOT website. The driver's manual is posted in English, with archived editions in 25 other languages (including Spanish); an applicant unable to read or understand the written test may request an oral test (761 IAC 604.9(2)).",
+    "retestWait": "Not stated on the Iowa DOT website. Under 761 IAC 604.9(4), an applicant who fails may repeat the test at the examiner's discretion; a test score is valid for 180 days (604.9(3)).",
+    "notes": "Iowa DOT does not publish the number of questions on the real knowledge test. Its official practice test gives 25 questions drawn from a pool that includes questions from the real test and requires 80% to pass; passingPercent reflects that page. Under 18: instruction permit at 14 (knowledge and vision tests, parent consent); optional special minor's restricted license at 14 1/2; intermediate license at 16; full license at 17. To get a license you must complete a vision screening, pass the knowledge test, and pass a driving test (not required if you satisfy the driver's education course requirement; driver's ed is required under 18). The official site does not publish the number of questions; this practice exam uses 40 questions at the official 80% passing standard.",
+    "sourceUrl": "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/take-practice-test"
+  },
+  "motorcycleExam": null,
+  "cdlExam": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08 BAC (or any amount of a controlled substance)",
+      "detail": "In Iowa the offense is called Operating While Intoxicated (OWI). It means a BAC of .08 or higher, or driving with any amount of a controlled substance in your system.",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 37,
+        "quote": "The official name for the offense of drunk driving is “Operating While Intoxicated” and is defined as having a blood alcohol concentration (BAC) of .08 or higher or operating with any amount of controlled substance in your system."
+      }
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02 BAC for drivers under 21",
+      "detail": "An underage driver is considered to be operating while intoxicated at .02 or more. Revocation is at least 60 days, or at least 180 days if the BAC is .08 or more; offenders under 18 can't get a temporary restricted license.",
+      "number": 0.02,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 37,
+        "quote": "An underage driver is considered to be operating while intoxicated with a BAC of .02 or more. An underage driver will have their driving privileges revoked for a minimum of 60 days and for a minimum of 180 days if the BAC is .08 or more."
+      }
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04 BAC while operating a commercial motor vehicle",
+      "detail": "Operating a commercial motor vehicle at 0.04 or more disqualifies the driver from commercial driving for one year (first offense). The handbook does not state this limit.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.legis.iowa.gov/docs/code/321.208.pdf",
+        "page": null,
+        "quote": "Operating a commercial motor vehicle with an alcohol concentration, as defined in section 321J.1, of 0.04 or more."
+      }
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusal: automatic 1-year license revocation and a minimum $1,250 fine (first refusal)",
+      "detail": "By holding an Iowa license (or driving in Iowa) you consent to testing. Refusing is punished more harshly than failing: an automatic one-year revocation and at least a $1,250 fine; the court may also order a substance-use class or an ignition interlock.",
+      "number": 1,
+      "unit": "year",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 37,
+        "quote": "The consequences for refusing a breathalyzer test are more severe than failing a test, with an automatic one year revocation of your license and a minimum $1,250 fine."
+      }
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "First OWI: at least 48 hours in jail, $1,250 fine, license revoked 180 days to 1 year",
+      "detail": "A first OWI is a serious misdemeanor: at least 48 hours in county jail, a $1,250 fine, and license revocation of 180 days up to one year. The handbook adds that revocation of at least 180 days applies even without a criminal conviction.",
+      "number": 180,
+      "unit": "days",
+      "source": {
+        "url": "https://www.legis.iowa.gov/docs/code/321J.2.pdf",
+        "page": null,
+        "quote": "Revocation of the person’s driver’s license for a minimum period of one hundred eighty days up to a maximum revocation period of one year"
+      }
+    },
+    {
+      "key": "open_container",
+      "value": "No open alcohol containers in the passenger area; up to $200 fine for each driver and passenger",
+      "detail": "Iowa bans transporting any open, unsealed alcohol container in a motor vehicle. Open containers may be carried in the trunk. A violation is a simple misdemeanor with a fine of up to $200 for each driver and passenger.",
+      "number": 200,
+      "unit": "dollars",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 37,
+        "quote": "It is illegal to transport any open, unsealed container of alcohol by any person or passenger in a motor vehicle. Open containers of alcoholic beverages may be transported in the trunk of a vehicle. The violation of this law is punishable as a simple misdemeanor with up to a $200 fine for each driver and passenger in the vehicle."
+      }
+    },
+    {
+      "key": "permit_min_age",
+      "value": "14 years old",
+      "detail": "Iowa's instruction permit (first GDL step) is available at age 14 after passing the knowledge and vision tests, with written consent from a parent or guardian.",
+      "number": 14,
+      "unit": "years",
+      "source": {
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/instruction-permit-under-age-18",
+        "page": null,
+        "quote": "Be at least 14 years old."
+      }
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "12 months",
+      "detail": "To get an intermediate license you must have held a valid instruction permit (or a permit plus a special minor's restricted license) for a total of 12 months, with a clean record for the last 6 months.",
+      "number": 12,
+      "unit": "months",
+      "source": {
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/intermediate-license",
+        "page": null,
+        "quote": "Have a valid instruction permit (or instruction permit and special minor’s restricted license) for a total of 12 months."
+      }
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "20 hours (2 at night) before an intermediate license; 10 more hours (2 at night) before a full license",
+      "detail": "A parent/guardian affidavit must show 20 hours of supervised driving, 2 after sunset and before sunrise, to get the intermediate license. Another 10 hours (2 at night) are required while holding the intermediate license before the full license.",
+      "number": 20,
+      "unit": "hours",
+      "source": {
+        "url": "https://www.legis.iowa.gov/docs/code/321.180B.pdf",
+        "page": null,
+        "quote": "has accumulated a total of twenty hours of street or highway driving of which two hours were conducted after sunset and before sunrise"
+      }
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Licensed parent, guardian, or custodian; immediate family member 21+; driver ed instructor; or a person 25+ with written parent permission",
+      "detail": "A permit driver must be supervised by a licensed adult seated beside the driver: a parent, guardian, or custodian; an immediate family member at least 21; a driver education instructor; or someone at least 25 with written permission from the parent. Passengers may not exceed the number of seat belts.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/instruction-permit-under-age-18",
+        "page": null,
+        "quote": "An immediate family member at least 21 years of age."
+      }
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 years old (intermediate license)",
+      "detail": "The intermediate license is the second GDL step. Requirements: age 16, approved driver education, 12 months with a permit, 6 months violation- and crash-free, and parent consent.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/intermediate-license",
+        "page": null,
+        "quote": "Be at least 16 years old."
+      }
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "No unsupervised driving from 12:30 a.m. to 5 a.m.",
+      "detail": "Intermediate license holders may drive alone from 5 a.m. to 12:30 a.m. Between 12:30 a.m. and 5 a.m. they need adult supervision, unless a parent completes the waiver form (431170) for school or work driving, which must be carried in the vehicle.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/intermediate-license",
+        "page": null,
+        "quote": "Drive without adult supervision between 12:30 a.m. and 5 a.m."
+      }
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "First 6 months: no more than one unrelated minor passenger when driving unsupervised (unless waived by a parent)",
+      "detail": "Unless the parent waives it when the license is issued, for the first six months an intermediate licensee driving without adult supervision may carry only one passenger under 18 who is not a sibling, stepsibling, or minor living in the same household. Passengers may never exceed the number of seat belts.",
+      "number": 1,
+      "unit": "passenger",
+      "source": {
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/intermediate-license",
+        "page": null,
+        "quote": "If the back of your license says you have a passenger restriction, for the first six months you have your intermediate license, you cannot carry more than one minor passenger that is not a relative when driving without adult supervision."
+      }
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "17 years old",
+      "detail": "A full license is available at 17 after holding the intermediate license for 12 consecutive months without crashes, convictions, or restriction violations, plus 10 hours of supervised driving (2 at night).",
+      "number": 17,
+      "unit": "years",
+      "source": {
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/full-license",
+        "page": null,
+        "quote": "Available at age 17."
+      }
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "Hands-free only: drivers may not hold or use an electronic device while driving",
+      "detail": "Iowa's hands-free law (Iowa Code 321.276) bans using an electronic device while driving unless it is used in voice-activated or hands-free mode or the vehicle is stopped off the traveled roadway. You can't hold the phone, type a GPS address, stream video, or make a video call even by voice command. Distracted driving is a primary offense.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 36,
+        "quote": "New legislation prohibits drivers from using electronic communication devices while driving— unless the device is used hands-free."
+      }
+    },
+    {
+      "key": "texting_ban",
+      "value": "No writing, sending, or viewing electronic messages while driving",
+      "detail": "Before writing, sending, or reading a text, email, or social media post, the vehicle must be stopped completely off the traveled portion of the road. Exceptions include public safety officials on duty, health care professionals in emergencies, and people receiving safety alerts.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 36,
+        "quote": "Before writing, sending, or reading a text message, email, or social media post, the vehicle must be brought to a complete stop off the traveled portion of the roadway."
+      }
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Primary law: all front-seat occupants, and everyone under 18 in any seat; up to $50 fine ($100 per passenger under 18)",
+      "detail": "Not wearing a seat belt is a primary offense. Adults 18+ must buckle up in the front seats; anyone under 18 must be restrained in every seat. Fines are up to $50 per passenger and $100 per passenger under 18.",
+      "number": 50,
+      "unit": "dollars",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 34,
+        "quote": "Not wearing a seat belt is considered a primary offense, meaning that you can be stopped for the sole purpose of non-compliance with the seat belt law. The violation of this law is punishable with up to a $50 fine per passenger and $100 per passenger under 18."
+      }
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Rear-facing seat under age 1 and under 20 lbs; child restraint under 6; restraint or seat belt from 6 to 18",
+      "detail": "A child under one year old and under 20 pounds must ride rear-facing. Children under 6 must be in a child safety or booster seat (not just a belt). Ages 6 to 17 must use a child restraint or seat belt in every seating position.",
+      "number": 6,
+      "unit": "years",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 35,
+        "quote": "A child under six years old must be secured in a child restraint system (a safety seat or booster seat, not a seat belt)."
+      }
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Careful and prudent speed; must be able to stop within the assured clear distance ahead",
+      "detail": "Iowa requires a careful and prudent speed that is reasonable for traffic, surface, and conditions, and never faster than lets you stop within the assured clear distance ahead. Posted limits are for ideal conditions.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.legis.iowa.gov/docs/code/321.285.pdf",
+        "page": null,
+        "quote": "no person shall drive any vehicle upon a highway at a speed greater than will permit the person to bring it to a stop within the assured clear distance ahead"
+      }
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "25 mph in a residential or school district (when not posted)",
+      "detail": "If no limit is posted, the speed limit is 25 mph in residential districts and school districts.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 42,
+        "quote": "25 mph in a residential district or school district"
+      }
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "25 mph",
+      "detail": "If no limit is posted, the speed limit in a residential district is 25 mph.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 42,
+        "quote": "25 mph in a residential district or school district"
+      }
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "20 mph",
+      "detail": "If no limit is posted, the speed limit in any business district is 20 mph. Suburban districts are 45 mph.",
+      "number": 20,
+      "unit": "mph",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 42,
+        "quote": "20 mph in any business district"
+      }
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "60 mph default when no limit is posted (primary roads and paved secondary roads)",
+      "detail": "Iowa's default speed limit rose from 55 to 60 mph on July 1, 2026 (2026 Senate File 378). When no limit is posted, 60 mph applies on primary roads and paved secondary roads. On unpaved (gravel) secondary roads the limit is 50 mph from sunset to sunrise, and Iowa Code 321.285(4), which the 2026 law did not change, keeps it at 55 mph during the day. Any vehicle pulling another vehicle is limited to 45 mph when no limit is posted.",
+      "number": 60,
+      "unit": "mph",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 42,
+        "quote": "60 mph on all primary roads"
+      }
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "70 mph on rural interstate highways",
+      "detail": "The maximum speed limit on rural interstate highways in Iowa is 70 mph.",
+      "number": 70,
+      "unit": "mph",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 42,
+        "quote": "70 mph on rural interstate highways"
+      }
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "40 mph minimum on the interstate system",
+      "detail": "The interstate system has a 40 mph minimum speed; vehicles that cannot go at least that fast under normal conditions are not allowed on the interstate. Driving too slowly can also cause crashes.",
+      "number": 40,
+      "unit": "mph",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 42,
+        "quote": "On the interstate system there is a minimum speed of 40 mph. Vehicles that cannot go at least that fast under normal conditions are not allowed on the interstate."
+      }
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop unless a NO TURN ON RED sign is posted",
+      "detail": "You may turn right on red unless a sign prohibits it, but you must first come to a complete stop and yield to all other traffic and pedestrians.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 43,
+        "quote": "At a traffic signal, you may make a right turn at a red light unless there is a “NO TURN ON RED” sign. Prior to safely turning, you must come to a complete stop and yield to all other traffic."
+      }
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Allowed only from the left lane of a one-way street onto another one-way street (after stopping)",
+      "detail": "A left turn on red is allowed only from the left lane of a one-way street onto another one-way street, after a complete stop and yielding.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 43,
+        "quote": "You may also make a left turn at a red light if you are turning from the left lane of a one-way street onto another one-way street."
+      }
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 100 feet before turning (speed limit 45 mph or less); at least 300 feet (speed limit over 45 mph)",
+      "detail": "Iowa ties the signaling distance to the speed limit: 100 feet where the limit is 45 mph or less, 300 feet where it is faster than 45 mph. Don't signal so early that drivers think you'll turn into an earlier driveway or street.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 43,
+        "quote": "Iowa law requires you to signal at least 100 feet before a turn if the speed limit is 45 mph or less and if the speed limit is faster than 45 mph, you must signal at least 300 feet before you turn."
+      }
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the right edge and stop; stay at least 500 feet behind an emergency vehicle using lights and siren",
+      "detail": "Yield to emergency vehicles using a siren/air horn and/or red or blue flashing lights by pulling to the right. If you're in an intersection or roundabout, clear it first. On a median-divided road you need not stop for one on the other side. Follow no closer than 500 feet.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 19,
+        "quote": "Stay at least 500 feet behind any emergency vehicle using lights and sirens."
+      }
+    },
+    {
+      "key": "move_over_law",
+      "value": "Change lanes for stopped emergency, tow, maintenance, construction, garbage/recycling vehicles with flashing lights and any vehicle with hazards on; otherwise slow down and be prepared to stop",
+      "detail": "Iowa's Move Over or Slow Down Law covers stopped emergency, tow, recovery, maintenance, construction, solid waste and recycling vehicles with flashing lights, and any stopped vehicle (including passenger cars) displaying hazard lights. If changing lanes is impossible or unsafe, slow to a reasonable speed and be ready to stop. Violations can bring a license suspension of up to one year.",
+      "number": 1,
+      "unit": "year",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 22,
+        "quote": "If a lane change is not possible, prohibited by law, or unsafe, you must slow down and be prepared to stop. While no speed is specified, it must be reasonable and proper for the existing conditions."
+      }
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop no closer than 15 feet behind a stopped bus; oncoming traffic stops on roads with 3 or fewer lanes; on 4+ lanes, oncoming traffic need not stop",
+      "detail": "From behind: don't pass when red or amber lights flash; stop at least 15 feet behind until the arm retracts and the bus moves. Meeting the bus: on two- or three-lane roads slow to 20 mph or less on amber lights and stop for the stop arm; on roads with four or more lanes, oncoming traffic does not need to stop. Violations can bring up to a 180-day suspension.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 20,
+        "quote": "When meeting the bus in one of the opposite two lanes (or more), you do not need to stop, even if the bus has stopped with lights flashing and stop arm out."
+      }
+    },
+    {
+      "key": "following_distance",
+      "value": "3- to 4-second rule (at least 3 seconds for new drivers; 6+ seconds when slippery)",
+      "detail": "Iowa teaches a 3- to 4-second following distance. Beginning drivers should keep at least 3 seconds; at 40 mph 4-5 seconds is recommended; on slippery roads or when your view is blocked, 6 or more seconds. Allow 3-4 seconds behind motorcycles too.",
+      "number": 3,
+      "unit": "seconds",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 41,
+        "quote": "An inexperienced or beginning driver should maintain at least a three-second following distance under normal driving conditions."
+      }
+    },
+    {
+      "key": "headlights_required",
+      "value": "Sunset to sunrise, and whenever visibility is 500 feet or less",
+      "detail": "Both headlights are required from sunset to sunrise and any time visibility is 500 feet or less (fog, heavy rain, snow). Rule of thumb: wipers on, headlights on.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 49,
+        "quote": "Iowa law requires the use of both headlights from sunset to sunrise or whenever visibility is 500 feet or less, (fog, heavy rain, snow, etc.)."
+      }
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "Within 1,000 feet of an oncoming vehicle",
+      "detail": "Dim your high beams when an oncoming vehicle is within 1,000 feet. The handbook does not state this distance; it comes from Iowa Code 321.415.",
+      "number": 1000,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.legis.iowa.gov/docs/code/321.415.pdf",
+        "page": null,
+        "quote": "Whenever a driver of a vehicle approaches an oncoming vehicle within one thousand feet, the driver shall use a distribution of light, or composite beam, so aimed that the glaring rays are not projected into the eyes of the oncoming driver."
+      }
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "Within 400 feet when following another vehicle",
+      "detail": "Use low beams when following another vehicle within 400 feet, except while passing it. The distance comes from Iowa Code 321.415.",
+      "number": 400,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.legis.iowa.gov/docs/code/321.415.pdf",
+        "page": null,
+        "quote": "Whenever the driver of a vehicle follows another vehicle within four hundred feet to the rear, except when engaged in the act of overtaking and passing"
+      }
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "5 feet",
+      "detail": "Do not park closer than five feet from a fire hydrant or in a designated hydrant red zone.",
+      "number": 5,
+      "unit": "feet",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 21,
+        "quote": "Closer than five feet from a fire hydrant; or in a designated hydrant red zone."
+      }
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "Not on a crosswalk (no extra distance set)",
+      "detail": "Iowa prohibits parking on a crosswalk. Neither the handbook nor Iowa Code 321.358 sets an additional distance from a crosswalk.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 21,
+        "quote": "On a crosswalk."
+      }
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Not within an intersection (no extra distance set)",
+      "detail": "Iowa prohibits parking in an intersection. The handbook and Iowa Code 321.358 set no additional distance from an intersection (other than 10 feet before a stop sign, flashing beacon, or traffic signal).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 21,
+        "quote": "In an intersection."
+      }
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "10 feet (stop sign, flashing beacon, or traffic signal)",
+      "detail": "The handbook says not to park closer than 10 feet from a stop sign. Iowa Code 321.358 applies the same 10 feet on the approach to a flashing beacon or traffic-control signal at the side of the road.",
+      "number": 10,
+      "unit": "feet",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 21,
+        "quote": "Closer than 10 feet from a stop sign."
+      }
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet",
+      "detail": "Do not park closer than 50 feet from a railroad crossing.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 21,
+        "quote": "Closer than 50 feet from a railroad crossing."
+      }
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet from a fire station entrance (75 feet on the opposite side when signposted)",
+      "detail": "Do not park closer than 20 feet from a fire station driveway entrance. Under Iowa Code 321.358, when signposted, parking is also banned within 75 feet of the entrance on the opposite side of the street.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 21,
+        "quote": "Closer than 20 feet from a fire station entrance."
+      }
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "Within 18 inches of the curb",
+      "detail": "If you must park on a roadway with a curb, park within 18 inches of the curb or closer, as far from traffic as possible.",
+      "number": 18,
+      "unit": "inches",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 21,
+        "quote": "If there is a curb, park within 18 inches of the curb or closer."
+      }
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "15 to 50 feet from the tracks (school buses, charter buses, for-hire passenger carriers, hazmat vehicles); at least 15 feet whenever stopped",
+      "detail": "School buses, charter buses, drivers carrying passengers for hire (such as Uber or Lyft), and placarded hazmat vehicles must stop 15 to 50 feet from the tracks unless an officer or signal directs traffic through or an EXEMPT sign is posted. Any driver who stops should leave at least 15 feet between the vehicle and the nearest rail.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 12,
+        "quote": "must stop within 15 to 50 feet of railroad tracks before crossing."
+      }
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "Change lanes completely, giving the bicyclist the entire lane",
+      "detail": "When passing a bicyclist you must completely change lanes, giving the rider the whole lane as you would any vehicle. Don't move back to the right until you can see the bicyclist in your rearview mirror.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 58,
+        "quote": "When passing bicyclists, you must completely change lanes, giving the bicyclist the entire lane like you would with any other vehicle."
+      }
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Yield to pedestrians and pedestrian conveyances (wheelchairs, strollers, skateboards, scooters) in marked or unmarked crosswalks",
+      "detail": "Under a 2024 law, drivers must yield to pedestrians on foot and to people using human-powered devices (pedestrian conveyances). Yield or stop for pedestrians in marked or unmarked crosswalks, and yield when crossing a sidewalk from a driveway, alley, or parking lot.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 10,
+        "quote": "The new law states that vehicles must yield the right of way to pedestrians on foot and those using any human powered device, also known as a pedestrian conveyance."
+      }
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Report to police any crash with injury, death, or property damage over $1,500, within 72 hours",
+      "detail": "Crashes involving injury or death or more than $1,500 in property damage must be reported to police. If you don't report within 72 hours, you lose your driving privileges. If no one is hurt and the vehicle can be moved, Steer It-Clear It: move it out of traffic lanes.",
+      "number": 1500,
+      "unit": "dollars",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 63,
+        "quote": "It is state law to report a crash to the police involving injury or death to another person, or property damage of more than $1,500. Failure to do so within 72 hours of the incident will result in the loss of your driving privileges and further penalties."
+      }
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "20/40/15 ($20,000 per person, $40,000 per accident bodily injury; $15,000 property damage)",
+      "detail": "Iowa's financial responsibility minimums are $20,000 for injury or death of one person, $40,000 for two or more people, and $15,000 for property damage. Drivers must carry a proof-of-insurance card (paper or electronic). The handbook does not state the amounts.",
+      "number": 20000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://www.legis.iowa.gov/docs/code/321A.1.pdf",
+        "page": null,
+        "quote": "in the amount of twenty thousand dollars because of bodily injury to or death of one person in any one accident, and, subject to the limit for one person, the amount of forty thousand dollars because of bodily injury to or death of two or more persons in any one accident, and the amount of fifteen thousand dollars because of injury to or destruction of property of others in any one accident"
+      }
+    },
+    {
+      "key": "point_system",
+      "value": "Habitual violator: 3 or more countable moving violations committed within 12 months (suspension or driver improvement program)",
+      "detail": "Iowa DOT may suspend a habitual violator: someone convicted of three or more countable moving violations (including out-of-state ones) committed within 12 months; eligible drivers are enrolled in a driver improvement program instead. Parking, equipment and registration violations don't count, and neither do the first two speeding tickets in 12 months for 10 mph or less over the limit in a 34-56 mph zone (34-61 mph for violations on or after July 1, 2026, under 2026 Senate File 378). Speeding 25+ mph over is a separate serious violation.",
+      "number": 3,
+      "unit": "violations",
+      "source": {
+        "url": "https://iowadot.gov/drivers-licenses-ids/suspensions-revocations/habitual-serious-violations",
+        "page": null,
+        "quote": "If you are convicted of, or pled guilty to, three or more countable moving violations (including out-of-state violations) that were committed within a 12-month period."
+      }
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "No helmet required (recommended)",
+      "detail": "Iowa law does not require helmets for motorcycle or autocycle riders, but Iowa DOT recommends them.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/motorcycle-moped-or-autocycle",
+        "page": null,
+        "quote": "Iowa law does not require helmets for autocycles or motorcycles."
+      }
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Prohibited",
+      "detail": "Motorcycles and mopeds may not be ridden between lanes of traffic or between rows of vehicles, and may ride no more than two abreast in a single lane. Car drivers may not deprive a motorcycle of the full use of a lane.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.legis.iowa.gov/docs/code/321.275.pdf",
+        "page": null,
+        "quote": "A motorcycle or motorized bicycle shall not be operated between lanes of traffic or between adjacent lines or rows of vehicles."
+      }
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Steer It-Clear It",
+      "summary": "After a crash with no injuries, Iowa law requires you to move your vehicle out of the traffic lanes if it still runs and can be moved safely. Every minute an interstate lane stays blocked raises the risk of a secondary crash by about 2.8%.",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 22,
+        "quote": "If you are involved in a crash with no injuries, Iowa law requires that you move your vehicle out of the driving lanes of traffic if the vehicle is operable and can be safely moved."
+      }
+    },
+    {
+      "title": "Meeting a school bus with amber lights: 20 mph maximum",
+      "summary": "On a two- or three-lane road, when you meet a school bus showing flashing amber lights, slow to no more than 20 mph and be prepared to stop. Stop when its stop arm is out.",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 20,
+        "quote": "When you see amber warning lights flashing, you must slow your vehicle to no more than 20 mph and be prepared to stop."
+      }
+    },
+    {
+      "title": "Pedestrian conveyances",
+      "summary": "Since 2024, Iowa drivers must yield to people using human-powered devices like wheelchairs, strollers, skateboards, scooters, and electric personal assistive mobility devices, just as they yield to people on foot.",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 10,
+        "quote": "Pedestrian conveyances are defined as any human-powered device by which a pedestrian may move other than by walking or by which a pedestrian may move another person."
+      }
+    },
+    {
+      "title": "Slow-moving vehicle emblem means 35 mph or less",
+      "summary": "A reflective orange triangle on the back of a vehicle (farm equipment, road maintenance equipment, horse-drawn wagons) means it travels 35 mph or less.",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 11,
+        "quote": "A reflective orange triangle on the rear of a vehicle means it is traveling 35 mph or less."
+      }
+    },
+    {
+      "title": "Window tint: 70% light, no medical exemption",
+      "summary": "The windshield and the windows immediately to the driver's left and right must let at least 70% of light through. Iowa has no medical exemption for tinted windows.",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 24,
+        "quote": "Iowa law requires tinted windshields and windows to the immediate right or left of the driver to allow at least 70 percent of the light through. Iowa does not have a medical exemption for tinted windows."
+      }
+    },
+    {
+      "title": "No passing within 100 feet of intersections, railroad crossings, and narrow bridges",
+      "summary": "Passing is illegal within 100 feet of an intersection or railroad crossing, or of a narrow bridge, viaduct, or tunnel marked with a sign. You also may not pass approaching a hilltop or on a curve where your view is blocked.",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 46,
+        "quote": "Do not pass within 100 feet of a railroad crossing."
+      }
+    },
+    {
+      "title": "No children under 18 in the back of a moving pickup",
+      "summary": "A child under 18 may not ride in the rear (bed) of a moving pickup truck.",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 35,
+        "quote": "A child under the age of 18 cannot ride in the rear of a moving pickup truck."
+      }
+    },
+    {
+      "title": "Breaking a window to rescue a person or animal",
+      "summary": "In Iowa you may legally break a vehicle's window to give medical help to a person or animal trapped inside. Never leave children, dependent adults, or pets alone in a closed vehicle.",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 59,
+        "quote": "In Iowa it is legal for you to break a vehicle’s window in order to provide medical attention to a person or animal trapped inside."
+      }
+    },
+    {
+      "title": "Special minor's restricted license (school/work license) at 14 1/2",
+      "summary": "An optional license lets a teen at least 14 1/2 who has held a permit for six months with a clean record and finished driver education drive alone to school, school activities, work, or farm work within limits (generally a 25-mile driving distance) during the hour before and after those activities.",
+      "source": {
+        "url": "https://iowadot.gov/drivers-licenses-ids/get-or-renew-drivers-licenses-ids-permits/under-18-permit-license-or-id/special-minors-restricted-license",
+        "page": null,
+        "quote": "Be at least 14 1/2 years old."
+      }
+    },
+    {
+      "title": "Snowplows travel 25-35 mph; never pass on the shoulder side",
+      "summary": "Snowplows typically travel 25-35 mph, and many drivers hit them from behind. Never pass on the shoulder side of a plow, and give extra room because the blade may stick out past the truck.",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 61,
+        "quote": "Snowplows typically operate at 25-35 mph."
+      }
+    },
+    {
+      "title": "Serious violation: speeding 25+ mph over",
+      "summary": "A conviction for speeding 25 mph or more over the limit, a first offense of illegally passing a school bus, or a moving violation that contributed to a fatal crash is a serious violation that can lead to suspension (or the driver improvement program).",
+      "source": {
+        "url": "https://iowadot.gov/drivers-licenses-ids/suspensions-revocations/habitual-serious-violations",
+        "page": null,
+        "quote": "If you are convicted of, or pled guilty to, speeding 25 miles or more over the legal speed limit, a first offense of unlawfully passing a school bus, or a moving violation that contributed to a fatal motor vehicle crash (including out-of-state violations)."
+      }
+    },
+    {
+      "title": "Deer collisions peak in October, November, and May",
+      "summary": "Wildlife, usually deer, is a leading cause of Iowa crashes. October, November, and May are the peak months. If you can't stop, don't swerve; deer travel in groups, so expect more than one.",
+      "source": {
+        "url": "https://iowadot.gov/media/7308/download?inline",
+        "page": 57,
+        "quote": "October, November and May are the peak months for deer collisions; however, they can occur at any time of the year."
+      }
+    }
+  ],
+  "officialPracticeTests": [
+    "https://iowadot.gov/drivers-licenses-ids/driver-education/manuals-practice-tests/take-practice-test"
+  ],
+  "verifiedOn": "2026-10-14"
+}

@@ -1,0 +1,2095 @@
+[
+  {
+    "id": "ia.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Iowa, a driver age 21 or older is operating while intoxicated (OWI) at what blood alcohol concentration?",
+    "choices": [
+      "0.10 or higher",
+      "0.08 or higher",
+      "0.05 or higher",
+      "0.12 or higher"
+    ],
+    "answer": 1,
+    "explanation": "Iowa defines OWI as driving with a BAC of .08 or higher, or with any amount of a controlled substance in your system.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 1,
+    "ref": "Iowa Driver's License Manual, p. 37"
+  },
+  {
+    "id": "ia.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the official name of the drunk-driving offense in Iowa?",
+    "choices": [
+      "Driving Under the Influence (DUI)",
+      "Driving While Impaired (DWI)",
+      "Operating While Intoxicated (OWI)",
+      "Driving While Ability Impaired (DWAI)"
+    ],
+    "answer": 2,
+    "explanation": "Iowa calls the offense \"Operating While Intoxicated\" (OWI). Other states use names like DUI or DWI, but Iowa's term is OWI.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 1,
+    "ref": "Iowa Driver's License Manual, p. 37"
+  },
+  {
+    "id": "ia.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A driver's BAC is 0.00, but a test finds a small amount of a controlled substance in the driver's system. Under Iowa law, this driver:",
+    "choices": [
+      "Can be charged with OWI, because any amount of a controlled substance counts",
+      "Cannot be charged, because the BAC is below .08",
+      "Can be charged only if the amount equals a BAC of .08",
+      "Can be charged only if the driver is under 21"
+    ],
+    "answer": 0,
+    "explanation": "Iowa's OWI definition covers a BAC of .08 or higher OR operating with any amount of a controlled substance in your system.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 37"
+  },
+  {
+    "id": "ia.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A driver under age 21 in Iowa is considered to be operating while intoxicated at what BAC?",
+    "choices": [
+      ".02 or more",
+      ".04 or more",
+      ".05 or more",
+      ".08 or more"
+    ],
+    "answer": 0,
+    "explanation": "Iowa's rule for underage drivers is stricter: a driver under 21 is considered to be operating while intoxicated with a BAC of .02 or more.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 1,
+    "ref": "Iowa Driver's License Manual, p. 37"
+  },
+  {
+    "id": "ia.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 19-year-old Iowa driver is caught driving with a BAC of .04. What is the minimum revocation of driving privileges?",
+    "choices": [
+      "30 days",
+      "60 days",
+      "90 days",
+      "180 days"
+    ],
+    "answer": 1,
+    "explanation": "An underage driver at .02 or more loses driving privileges for at least 60 days. The minimum rises to 180 days if the BAC is .08 or more.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 37"
+  },
+  {
+    "id": "ia.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "An Iowa driver under 21 is caught with a BAC of .09. What is the minimum revocation?",
+    "choices": [
+      "60 days",
+      "90 days",
+      "180 days",
+      "One year"
+    ],
+    "answer": 2,
+    "explanation": "Underage drivers face at least a 60-day revocation at .02 or more, and at least 180 days when the BAC is .08 or more.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 37"
+  },
+  {
+    "id": "ia.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 17-year-old's license is revoked in Iowa for an OWI. Can the teen get a temporary restricted license to drive to school or work during the revocation?",
+    "choices": [
+      "Yes, after 30 days",
+      "Yes, if a parent signs a consent form",
+      "No, offenders under 18 are not eligible",
+      "Yes, but only for driving to work"
+    ],
+    "answer": 2,
+    "explanation": "Offenders under age 18 are not eligible for a temporary restricted license while their license is revoked for OWI.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 3,
+    "ref": "Iowa Driver's License Manual, p. 37"
+  },
+  {
+    "id": "ia.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What happens to an Iowa driver who refuses a breath test for the first time?",
+    "choices": [
+      "A warning letter and no license action",
+      "An automatic one-year license revocation and a minimum $1,250 fine",
+      "A 30-day suspension and a $250 fine",
+      "A 90-day suspension, but no fine"
+    ],
+    "answer": 1,
+    "explanation": "Refusing a breath test brings an automatic one-year revocation and at least a $1,250 fine. Refusal still does not guarantee you won't be convicted of OWI.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 37"
+  },
+  {
+    "id": "ia.car.009",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "An adult driver is found to have been operating while intoxicated, but the criminal OWI case ends without a conviction. What happens to the driver's Iowa license?",
+    "choices": [
+      "Nothing, because there was no conviction",
+      "It is still revoked for at least 180 days",
+      "It is suspended for 30 days",
+      "It is revoked only if the driver refused a test"
+    ],
+    "answer": 1,
+    "explanation": "Even if you are not convicted of OWI in criminal court, your driving privileges are still revoked for a minimum of 180 days if you operated while intoxicated.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 3,
+    "ref": "Iowa Driver's License Manual, p. 37"
+  },
+  {
+    "id": "ia.car.010",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Where may an open container of alcohol legally be carried in a vehicle in Iowa?",
+    "choices": [
+      "In the glove compartment",
+      "Under the front seat",
+      "In the trunk",
+      "Anywhere, if only a passenger is drinking"
+    ],
+    "answer": 2,
+    "explanation": "Iowa bans transporting any open, unsealed alcohol container in a motor vehicle, but open containers may be transported in the trunk.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 1,
+    "ref": "Iowa Driver's License Manual, p. 37"
+  },
+  {
+    "id": "ia.car.011",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A driver and two passengers are stopped with open beer cans in the passenger area. Under Iowa's open container law, who can be fined?",
+    "choices": [
+      "Only the driver, up to $500",
+      "Only the passengers holding cans",
+      "Each driver and passenger, up to $200 each",
+      "Only the vehicle owner, up to $1,000"
+    ],
+    "answer": 2,
+    "explanation": "Violating the open container law is a simple misdemeanor punishable by up to a $200 fine for each driver and passenger in the vehicle.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 37"
+  },
+  {
+    "id": "ia.car.012",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Iowa law, what is the minimum jail time for a first-offense OWI conviction?",
+    "choices": [
+      "None; jail is never required for a first offense",
+      "24 hours",
+      "48 hours",
+      "7 days"
+    ],
+    "answer": 2,
+    "explanation": "A first OWI is a serious misdemeanor with a minimum of 48 hours in county jail, plus a $1,250 fine.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Code §321J.2"
+  },
+  {
+    "id": "ia.car.013",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "For a first-offense OWI conviction, Iowa law sets the license revocation at:",
+    "choices": [
+      "30 to 90 days",
+      "180 days up to one year",
+      "Two to six years",
+      "A permanent bar"
+    ],
+    "answer": 1,
+    "explanation": "A first OWI conviction brings revocation for a minimum of 180 days up to a maximum of one year.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Code §321J.2"
+  },
+  {
+    "id": "ia.car.014",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Driving a commercial motor vehicle in Iowa with an alcohol concentration of 0.04 or more results in:",
+    "choices": [
+      "A warning only",
+      "Disqualification from commercial driving for one year (first offense)",
+      "A 30-day disqualification",
+      "No penalty unless the BAC is 0.08"
+    ],
+    "answer": 1,
+    "explanation": "Operating a commercial motor vehicle at 0.04 or more disqualifies the driver from commercial driving for one year for a first offense.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 3,
+    "ref": "Iowa Code §321.208"
+  },
+  {
+    "id": "ia.car.015",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Iowa's hands-free law, which phone use is allowed for an adult driver while driving?",
+    "choices": [
+      "Holding the phone to your ear for a short call",
+      "Making a call using voice activation without holding the phone",
+      "Typing a new address into a GPS app",
+      "Scrolling social media at low speed"
+    ],
+    "answer": 1,
+    "explanation": "Iowa's hands-free law bans using an electronic device while driving unless it is used hands-free or by voice activation. You may not hold the phone or type on it.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 1,
+    "ref": "Iowa Driver's License Manual, p. 36"
+  },
+  {
+    "id": "ia.car.016",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "An adult Iowa driver wants to video call a friend using only voice commands while driving. Is this allowed?",
+    "choices": [
+      "Yes, because voice commands are hands-free",
+      "Yes, but only on the interstate",
+      "No, video calls and streaming video are not allowed even with voice commands",
+      "Yes, if the phone is in a dashboard mount"
+    ],
+    "answer": 2,
+    "explanation": "Iowa's hands-free rules say you can't stream videos or make video calls while driving, even with voice commands.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 3,
+    "ref": "Iowa Driver's License Manual, p. 36"
+  },
+  {
+    "id": "ia.car.017",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "You are stopped at a red light in traffic and a text arrives. Under Iowa law, may you read it?",
+    "choices": [
+      "Yes, because the vehicle is not moving",
+      "Yes, if the light will stay red for a while",
+      "No, the vehicle must be stopped completely off the traveled portion of the roadway",
+      "Yes, if you hold the phone below the window"
+    ],
+    "answer": 2,
+    "explanation": "Before writing, sending, or reading a text, email, or social media post, the vehicle must be brought to a complete stop off the traveled portion of the roadway. A red light does not count.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 3,
+    "ref": "Iowa Driver's License Manual, p. 36"
+  },
+  {
+    "id": "ia.car.019",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "What is the maximum seat belt fine in Iowa for each unbelted passenger under age 18?",
+    "choices": [
+      "$25",
+      "$50",
+      "$100",
+      "$250"
+    ],
+    "answer": 2,
+    "explanation": "Iowa's seat belt fines are up to $50 per passenger and up to $100 per passenger under 18.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 34"
+  },
+  {
+    "id": "ia.car.020",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 17-year-old and a 30-year-old ride in the back seat of an Iowa car. Who is required by Iowa law to wear a seat belt?",
+    "choices": [
+      "Only the 30-year-old",
+      "Only the 17-year-old",
+      "Only the 30-year-old, and only on highways",
+      "Only whoever sits behind the driver"
+    ],
+    "answer": 1,
+    "explanation": "Adults 18 and older must buckle up in the front seats. Anyone under 18 must be restrained in every seating position, front and back.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 3,
+    "ref": "Iowa Driver's License Manual, p. 34"
+  },
+  {
+    "id": "ia.car.021",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "In Iowa, a child who is under one year old and weighs less than 20 pounds must ride in:",
+    "choices": [
+      "A forward-facing booster seat",
+      "A rear-facing child restraint system",
+      "An adult seat belt in the back seat",
+      "Any child seat facing either direction"
+    ],
+    "answer": 1,
+    "explanation": "Iowa requires a child under one year old and under 20 pounds to be secured in a rear-facing child restraint system.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 35"
+  },
+  {
+    "id": "ia.car.022",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Iowa law, a 5-year-old riding in a car must be secured in:",
+    "choices": [
+      "An adult seat belt",
+      "A child safety seat or booster seat, not just a seat belt",
+      "A seat belt, but only in the front seat",
+      "Nothing, if riding in the back seat"
+    ],
+    "answer": 1,
+    "explanation": "A child under six years old must be secured in a child restraint system, such as a safety seat or booster seat. A seat belt alone is not enough.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 35"
+  },
+  {
+    "id": "ia.car.023",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "In Iowa, a child from age 6 up to age 18 must ride:",
+    "choices": [
+      "In a booster seat until age 10",
+      "In a child restraint or seat belt in every seating position",
+      "With a seat belt only when sitting in front",
+      "Unrestrained in the back if an adult is present"
+    ],
+    "answer": 1,
+    "explanation": "From age six up to 18, a child must be secured by a child restraint system or a seat belt in all seating positions, front and back.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 35"
+  },
+  {
+    "id": "ia.car.024",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Iowa law, who may NOT ride in the rear bed of a moving pickup truck?",
+    "choices": [
+      "Anyone under age 18",
+      "Only children under age 6",
+      "Only children under age 12",
+      "No one; it is allowed for all ages"
+    ],
+    "answer": 0,
+    "explanation": "Iowa law says a child under the age of 18 cannot ride in the rear of a moving pickup truck.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 35"
+  },
+  {
+    "id": "ia.car.025",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "On a hot day you see a dog trapped in a closed, parked car and showing signs of heat stroke. What does Iowa law allow?",
+    "choices": [
+      "Nothing; only police may enter the car",
+      "You may break the window to provide help",
+      "You may only call the vehicle owner",
+      "You may break the window only to help a person, not an animal"
+    ],
+    "answer": 1,
+    "explanation": "In Iowa it is legal to break a vehicle's window to provide medical attention to a person or animal trapped inside. Call 911 too.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 59"
+  },
+  {
+    "id": "ia.car.026",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Iowa law requires the windshield and the windows right next to the driver to let through at least how much light?",
+    "choices": [
+      "35 percent",
+      "50 percent",
+      "70 percent",
+      "90 percent"
+    ],
+    "answer": 2,
+    "explanation": "Tinted windshields and the windows immediately to the driver's left and right must allow at least 70 percent of the light through.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 24"
+  },
+  {
+    "id": "ia.car.027",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "If no speed limit is posted, what is the speed limit in an Iowa business district?",
+    "choices": [
+      "15 mph",
+      "20 mph",
+      "25 mph",
+      "30 mph"
+    ],
+    "answer": 1,
+    "explanation": "When no limit is posted, Iowa's speed limit is 20 mph in any business district.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 1,
+    "ref": "Iowa Driver's License Manual, p. 42"
+  },
+  {
+    "id": "ia.car.028",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "If no speed limit is posted, what is the speed limit in an Iowa residential or school district?",
+    "choices": [
+      "20 mph",
+      "25 mph",
+      "30 mph",
+      "35 mph"
+    ],
+    "answer": 1,
+    "explanation": "Iowa's general limit is 25 mph in a residential district or school district when no other limit is posted.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 1,
+    "ref": "Iowa Driver's License Manual, p. 42"
+  },
+  {
+    "id": "ia.car.029",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "If no speed limit is posted, what is the speed limit in an Iowa suburban district?",
+    "choices": [
+      "35 mph",
+      "40 mph",
+      "45 mph",
+      "55 mph"
+    ],
+    "answer": 2,
+    "explanation": "Iowa's general speed limit for any suburban district is 45 mph when no limit is posted.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 42"
+  },
+  {
+    "id": "ia.car.030",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is Iowa's general speed limit on unsurfaced secondary (gravel) roads from sunset until sunrise?",
+    "choices": [
+      "35 mph",
+      "45 mph",
+      "50 mph",
+      "60 mph"
+    ],
+    "answer": 2,
+    "explanation": "On unsurfaced (gravel) secondary roads, Iowa's general speed limit is 50 mph from sunset until sunrise, unless a different limit is posted.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 3,
+    "ref": "Iowa Driver's License Manual, p. 42"
+  },
+  {
+    "id": "ia.car.031",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "If no speed limit is posted, what is the general speed limit on an Iowa two-lane primary (state or U.S.) highway?",
+    "choices": [
+      "55 mph",
+      "60 mph",
+      "65 mph",
+      "70 mph"
+    ],
+    "answer": 1,
+    "explanation": "Since July 1, 2026, Iowa's general speed limit is 60 mph (it used to be 55 mph). It applies on primary roads, such as two-lane state and U.S. highways, when no other limit is posted.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 42; Iowa Code §321.285(3) as amended by 2026 Senate File 378"
+  },
+  {
+    "id": "ia.car.032",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the speed limit on Iowa's rural interstate highways?",
+    "choices": [
+      "60 mph",
+      "65 mph",
+      "70 mph",
+      "75 mph"
+    ],
+    "answer": 2,
+    "explanation": "Iowa's rural interstate highways have a 70 mph limit. A lower limit may be set where conditions require it.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 1,
+    "ref": "Iowa Driver's License Manual, p. 42"
+  },
+  {
+    "id": "ia.car.033",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "According to the Iowa manual, a beginning driver should keep at least what following distance in normal conditions?",
+    "choices": [
+      "One second",
+      "Two seconds",
+      "Three seconds",
+      "Five seconds"
+    ],
+    "answer": 2,
+    "explanation": "Iowa teaches the 3- to 4-second rule. An inexperienced or beginning driver should keep at least three seconds; two seconds may be enough only for experienced drivers.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 41"
+  },
+  {
+    "id": "ia.car.034",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "The road is slippery and a large truck ahead blocks your view. What following distance does the Iowa manual recommend?",
+    "choices": [
+      "Two seconds",
+      "Three seconds",
+      "Four seconds",
+      "Six or more seconds"
+    ],
+    "answer": 3,
+    "explanation": "When roads are slippery or the vehicle ahead blocks your view, Iowa recommends a following distance of six or more seconds.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 41"
+  },
+  {
+    "id": "ia.car.035",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Under Iowa law, your speed must always let you stop within:",
+    "choices": [
+      "The assured clear distance ahead",
+      "100 feet",
+      "The length of three car lengths",
+      "The distance to the next intersection"
+    ],
+    "answer": 0,
+    "explanation": "Iowa law says no one may drive faster than will let them stop within the assured clear distance ahead. Posted limits are the maximum for ideal conditions.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Code §321.285"
+  },
+  {
+    "id": "ia.car.036",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "What is the minimum speed on Iowa's interstate system?",
+    "choices": [
+      "30 mph",
+      "35 mph",
+      "40 mph",
+      "45 mph"
+    ],
+    "answer": 2,
+    "explanation": "The interstate system has a 40 mph minimum speed. Vehicles that cannot go at least that fast under normal conditions are not allowed on the interstate.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 42"
+  },
+  {
+    "id": "ia.car.037",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "A vehicle cannot reach 40 mph under normal conditions. According to the Iowa manual, it:",
+    "choices": [
+      "May use the interstate with its hazard lights on",
+      "May use the interstate's right shoulder",
+      "Is not allowed on the interstate",
+      "May use the interstate only at night"
+    ],
+    "answer": 2,
+    "explanation": "Because Iowa interstates have a 40 mph minimum speed, vehicles that cannot go at least that fast under normal conditions are not allowed on them.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 42"
+  },
+  {
+    "id": "ia.car.038",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "On an Iowa street with a 35 mph speed limit, how far before a turn must you signal?",
+    "choices": [
+      "At least 50 feet",
+      "At least 100 feet",
+      "At least 200 feet",
+      "At least 300 feet"
+    ],
+    "answer": 1,
+    "explanation": "Iowa law requires signaling at least 100 feet before a turn where the speed limit is 45 mph or less.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 43"
+  },
+  {
+    "id": "ia.car.039",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You plan to turn off an Iowa highway posted at 55 mph. How far before the turn must you signal?",
+    "choices": [
+      "At least 100 feet",
+      "At least 200 feet",
+      "At least 300 feet",
+      "At least 500 feet"
+    ],
+    "answer": 2,
+    "explanation": "Where the speed limit is faster than 45 mph, Iowa law requires a signal at least 300 feet before you turn.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 43"
+  },
+  {
+    "id": "ia.car.040",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "When may you turn right on a red light in Iowa?",
+    "choices": [
+      "Only when a green arrow appears",
+      "After a complete stop and yielding, unless a NO TURN ON RED sign is posted",
+      "Without stopping, if no one is coming",
+      "Never; right turns on red are illegal in Iowa"
+    ],
+    "answer": 1,
+    "explanation": "Iowa allows a right turn on red unless a NO TURN ON RED sign is posted. You must first come to a complete stop and yield to all other traffic and pedestrians.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 1,
+    "ref": "Iowa Driver's License Manual, p. 43"
+  },
+  {
+    "id": "ia.car.041",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "In Iowa, a left turn on a red light is allowed only when:",
+    "choices": [
+      "Turning from a two-way street onto a one-way street",
+      "Turning from the left lane of a one-way street onto another one-way street",
+      "No traffic is coming from either direction",
+      "A police officer is not present"
+    ],
+    "answer": 1,
+    "explanation": "Iowa allows a left turn on red only from the left lane of a one-way street onto another one-way street, after a complete stop and yielding.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 43"
+  },
+  {
+    "id": "ia.car.042",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are on a two-way street, stopped at a red light, and want to turn left onto a one-way street. In Iowa, you:",
+    "choices": [
+      "May turn after a complete stop",
+      "Must wait for a green light or green arrow",
+      "May turn if you signal for 100 feet",
+      "May turn if no pedestrians are present"
+    ],
+    "answer": 1,
+    "explanation": "Left turns on red in Iowa are allowed only from a one-way street onto another one-way street, so a driver on a two-way street must wait.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 3,
+    "ref": "Iowa Driver's License Manual, p. 43"
+  },
+  {
+    "id": "ia.car.043",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Two cars reach an uncontrolled gravel-road intersection with no signs at about the same time. According to the Iowa manual, who should yield?",
+    "choices": [
+      "The vehicle on the right",
+      "The vehicle on the left",
+      "The vehicle going faster",
+      "The vehicle that is turning right"
+    ],
+    "answer": 1,
+    "explanation": "At an uncontrolled intersection, the vehicle on the left should yield to the vehicle on the right. Never assume the intersection is clear or that the other driver will stop.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 1,
+    "ref": "Iowa Driver's License Manual, p. 55"
+  },
+  {
+    "id": "ia.car.044",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are on a side road and want to cross a rural four-lane divided highway. What does the Iowa manual recommend?",
+    "choices": [
+      "Wait for a gap in both directions and cross in one move",
+      "Stop at the stop sign, look left, go into the median, stop again, look right, then finish crossing",
+      "Turn right and drive on the shoulder until a gap appears",
+      "Cross quickly without stopping in the median"
+    ],
+    "answer": 1,
+    "explanation": "Iowa advises not crossing both directions at once. Stop, look left, proceed into the median, stop again, look right, and cross or turn when it is safe.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 51"
+  },
+  {
+    "id": "ia.car.045",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "At an Iowa reduced-conflict intersection, how does a driver on the side road go left onto the four-lane highway?",
+    "choices": [
+      "Wait for a gap in both directions, then turn left directly",
+      "Turn right onto the highway, merge left, and make a U-turn at a designated median opening",
+      "Drive straight across the median and turn left",
+      "Use the shoulder to reach the left lane"
+    ],
+    "answer": 1,
+    "explanation": "Reduced-conflict intersections have side-road drivers turn right, merge into the left lane, and U-turn at a designated median opening, so they deal with only one direction of traffic at a time.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 52"
+  },
+  {
+    "id": "ia.car.046",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "In Iowa, a person crossing in a crosswalk on a skateboard or pushing a stroller is called a pedestrian conveyance. How must drivers treat them?",
+    "choices": [
+      "Like bicycles, which must yield to cars",
+      "Like pedestrians on foot; drivers must yield to them",
+      "They have no right-of-way in crosswalks",
+      "Drivers yield only if they are under age 12"
+    ],
+    "answer": 1,
+    "explanation": "A 2024 Iowa law requires vehicles to yield the right-of-way to pedestrians on foot and to people using any human-powered device, called a pedestrian conveyance.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 10"
+  },
+  {
+    "id": "ia.car.047",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "In Iowa, you see or hear an emergency vehicle with its siren on approaching from behind. What should you do?",
+    "choices": [
+      "Speed up to stay ahead of it",
+      "Pull over to the right edge of the road and stop",
+      "Stop right where you are in your lane",
+      "Pull to the left shoulder"
+    ],
+    "answer": 1,
+    "explanation": "Yield to emergency vehicles using a siren or red or blue flashing lights by pulling over to the right edge of the road, or as near to the right as possible.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 1,
+    "ref": "Iowa Driver's License Manual, p. 19"
+  },
+  {
+    "id": "ia.car.048",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are in the middle of an intersection when an ambulance approaches with lights and siren. What should you do?",
+    "choices": [
+      "Stop immediately inside the intersection",
+      "Drive through the intersection, then pull over to the right",
+      "Back up out of the intersection",
+      "Turn left to get out of the way"
+    ],
+    "answer": 1,
+    "explanation": "If you are in an intersection (including a roundabout), drive through it before you pull over.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 19"
+  },
+  {
+    "id": "ia.car.049",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are on a highway divided by a median. A fire truck with lights and siren is approaching on the other side of the median. In Iowa, you:",
+    "choices": [
+      "Must pull over and stop",
+      "Do not have to stop",
+      "Must stop only if you are in the left lane",
+      "Must slow to 20 mph"
+    ],
+    "answer": 1,
+    "explanation": "On a street or highway separated by a median, you do not have to stop for an emergency vehicle on the other side.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 3,
+    "ref": "Iowa Driver's License Manual, p. 19"
+  },
+  {
+    "id": "ia.car.050",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "How far behind an emergency vehicle using lights and sirens must you stay in Iowa?",
+    "choices": [
+      "At least 100 feet",
+      "At least 200 feet",
+      "At least 300 feet",
+      "At least 500 feet"
+    ],
+    "answer": 3,
+    "explanation": "Iowa's manual says to stay at least 500 feet behind any emergency vehicle using lights and sirens.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 19"
+  },
+  {
+    "id": "ia.car.051",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "Which Iowa driver must stop 15 to 50 feet from the railroad tracks before crossing, even with no train in sight?",
+    "choices": [
+      "A rideshare driver carrying a paying passenger",
+      "A driver pulling a small utility trailer",
+      "Any driver of a pickup truck",
+      "A driver with a learner's permit"
+    ],
+    "answer": 0,
+    "explanation": "School buses, charter buses, drivers carrying passengers for hire (such as Uber or Lyft), and placarded hazardous materials vehicles must stop within 15 to 50 feet of the tracks.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 3,
+    "ref": "Iowa Driver's License Manual, p. 12"
+  },
+  {
+    "id": "ia.car.052",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "When you must stop for a train at a railroad crossing, how much space should you leave between your vehicle and the nearest rail?",
+    "choices": [
+      "At least 5 feet",
+      "At least 10 feet",
+      "At least 15 feet",
+      "At least 100 feet"
+    ],
+    "answer": 2,
+    "explanation": "When stopped, leave at least 15 feet between the front and rear of your vehicle and the nearest rail. Trains are wider than the tracks.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 12"
+  },
+  {
+    "id": "ia.car.053",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "Under Iowa rules, you may not pass another vehicle within how many feet of an intersection or railroad crossing?",
+    "choices": [
+      "50 feet",
+      "100 feet",
+      "200 feet",
+      "300 feet"
+    ],
+    "answer": 1,
+    "explanation": "Passing is illegal within 100 feet of an intersection or a railroad crossing, and within 100 feet of a signed narrow bridge, viaduct, or tunnel.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 46"
+  },
+  {
+    "id": "ia.car.054",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "A sign warns of a narrow bridge ahead. Under Iowa rules, within what distance of the bridge is passing illegal?",
+    "choices": [
+      "50 feet",
+      "100 feet",
+      "500 feet",
+      "1,000 feet"
+    ],
+    "answer": 1,
+    "explanation": "Do not pass within 100 feet of a narrow bridge, viaduct, or tunnel that has a sign posted to let you know it is there.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 46"
+  },
+  {
+    "id": "ia.car.055",
+    "track": "car",
+    "topic": "sharing-road",
+    "sign": "SCN-SCHOOL-BUS-BEHIND",
+    "prompt": "You are in car A on an Iowa two-lane road, behind a school bus that has stopped with its stop arm out. How close to the rear of the bus may you stop?",
+    "choices": [
+      "No closer than 5 feet",
+      "No closer than 10 feet",
+      "No closer than 15 feet",
+      "No closer than 50 feet"
+    ],
+    "answer": 2,
+    "explanation": "Stop no closer than 15 feet from the rear of the bus and remain stopped until the stop arm is retracted and the bus starts moving.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 20"
+  },
+  {
+    "id": "ia.car.056",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You meet an approaching school bus on an Iowa two-lane road and its amber lights begin flashing. What must you do?",
+    "choices": [
+      "Speed up to pass before it stops",
+      "Slow to no more than 20 mph and be prepared to stop",
+      "Slow to 35 mph",
+      "Stop immediately and stay stopped until the amber lights turn off"
+    ],
+    "answer": 1,
+    "explanation": "When meeting a bus with flashing amber warning lights, slow to no more than 20 mph and be prepared to stop. Stop when the bus stops and extends its stop arm.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 20"
+  },
+  {
+    "id": "ia.car.057",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are on an Iowa road with four lanes. A school bus in the opposite lanes stops with red lights flashing and its stop arm out. What must you do?",
+    "choices": [
+      "Stop until the stop arm is retracted",
+      "You do not need to stop",
+      "Slow to 20 mph and pass on the shoulder",
+      "Stop only if children are visible"
+    ],
+    "answer": 1,
+    "explanation": "When meeting the bus on a road with four or more lanes, oncoming traffic in the opposite lanes does not need to stop. This is the only time you may pass a stopped bus with its stop arm out.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 3,
+    "ref": "Iowa Driver's License Manual, p. 20"
+  },
+  {
+    "id": "ia.car.058",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On an Iowa two-lane highway with a center turn lane (three lanes total), a school bus stops ahead in the oncoming lane with its stop arm out. What must you do?",
+    "choices": [
+      "Keep going; you are in the opposite lane",
+      "Stop, because roads with three lanes or fewer require all vehicles to stop",
+      "Slow to 20 mph and keep going",
+      "Move into the center turn lane and pass"
+    ],
+    "answer": 1,
+    "explanation": "On roads with three lanes or fewer (including a two-lane road with a center turn lane), all vehicles must stop for a school bus with its stop arm out.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 3,
+    "ref": "Iowa Driver's License Manual, p. 20"
+  },
+  {
+    "id": "ia.car.059",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are behind a stopped school bus with its stop arm out on an Iowa four-lane highway. What must you do?",
+    "choices": [
+      "Pass it carefully in the left lane",
+      "Stop no closer than 15 feet behind it until the arm is retracted and the bus moves",
+      "Slow to 20 mph and pass",
+      "Stop only if you are in the same lane as the bus"
+    ],
+    "answer": 1,
+    "explanation": "When approaching from the rear, the rules are the same on any road: do not pass, and stop no closer than 15 feet behind until the stop arm is retracted and the bus moves.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 20"
+  },
+  {
+    "id": "ia.car.060",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Illegally passing a stopped school bus in Iowa can lead to a license suspension of up to:",
+    "choices": [
+      "30 days",
+      "90 days",
+      "180 days",
+      "Two years"
+    ],
+    "answer": 2,
+    "explanation": "Violating Iowa's school bus law may result in your license being suspended for up to 180 days.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 20"
+  },
+  {
+    "id": "ia.car.061",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Iowa's Move Over or Slow Down law requires you to change lanes when approaching which stopped vehicle?",
+    "choices": [
+      "A garbage truck with its flashing lights on",
+      "A parked car at the curb with no lights on",
+      "A car stopped at a red light",
+      "A school bus moving with its amber lights off"
+    ],
+    "answer": 0,
+    "explanation": "The law covers stopped emergency, tow, recovery, maintenance, construction, solid waste, and recycling collection vehicles with flashing lights activated.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 22"
+  },
+  {
+    "id": "ia.car.062",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A passenger car is stopped on the shoulder with its hazard lights flashing. Does Iowa's Move Over or Slow Down law apply?",
+    "choices": [
+      "No, it covers only emergency vehicles",
+      "No, it covers only work vehicles",
+      "Yes, it covers any stopped vehicle continually displaying hazard lights",
+      "Only if a police officer is present"
+    ],
+    "answer": 2,
+    "explanation": "Iowa's law also covers any stopped motor vehicle, including a passenger vehicle, that is continually displaying hazard lights.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 3,
+    "ref": "Iowa Driver's License Manual, p. 22"
+  },
+  {
+    "id": "ia.car.063",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You approach a stopped tow truck with flashing lights, but you cannot safely change lanes. What does Iowa law require?",
+    "choices": [
+      "Keep your speed and pass quickly",
+      "Slow to exactly 20 mph",
+      "Slow down to a reasonable speed and be prepared to stop",
+      "Stop completely until the tow truck leaves"
+    ],
+    "answer": 2,
+    "explanation": "If a lane change is not possible or unsafe, you must slow down and be prepared to stop. No speed is specified; it must be reasonable for the conditions.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 22"
+  },
+  {
+    "id": "ia.car.064",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "According to the Iowa driver's manual, how must you pass a bicyclist riding on the road?",
+    "choices": [
+      "Give at least 2 feet of space",
+      "Give at least 3 feet of space",
+      "Completely change lanes, giving the bicyclist the entire lane",
+      "Honk and pass within the same lane"
+    ],
+    "answer": 2,
+    "explanation": "The Iowa manual says that when passing bicyclists you must completely change lanes, giving them the entire lane as you would any other vehicle. Don't move back to the right until you can see the bicyclist in your rearview mirror.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 58"
+  },
+  {
+    "id": "ia.car.065",
+    "track": "car",
+    "topic": "sharing-road",
+    "sign": "SCN-SLOW-MOVING-VEHICLE",
+    "prompt": "On an Iowa two-lane road you come up behind tractor B, which shows an orange slow-moving-vehicle triangle. What should you expect?",
+    "choices": [
+      "It travels 35 mph or less, so slow down early and pass only when it is safe",
+      "It travels about 45 mph, so you can follow normally",
+      "It is about to pull over, so pass on the right",
+      "It is carrying hazardous materials, so stay back 500 feet"
+    ],
+    "answer": 0,
+    "explanation": "In Iowa the slow-moving vehicle emblem means the vehicle travels 35 mph or less. Farm equipment may make wide turns and can be wider than the road, so pass with extreme caution.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 11"
+  },
+  {
+    "id": "ia.car.066",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Snowplows on Iowa roads typically travel at what speed?",
+    "choices": [
+      "10-20 mph",
+      "25-35 mph",
+      "40-50 mph",
+      "55-65 mph"
+    ],
+    "answer": 1,
+    "explanation": "Snowplows typically operate at 25-35 mph. Many drivers fail to realize this and hit them from behind.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 61"
+  },
+  {
+    "id": "ia.car.067",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You want to pass a snowplow. Which statement matches the Iowa manual's advice?",
+    "choices": [
+      "Pass on the shoulder side so you avoid oncoming traffic",
+      "Never pass on the shoulder side, and leave plenty of room because the blade may stick out",
+      "Follow closely so the plow driver can see you",
+      "Pass quickly through the snow cloud"
+    ],
+    "answer": 1,
+    "explanation": "Never pass a plow on the shoulder side, where it pushes snow. Allow plenty of room when passing because the blade may stick out farther than the truck.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 61"
+  },
+  {
+    "id": "ia.car.068",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How close to a fire hydrant may you park in Iowa?",
+    "choices": [
+      "No closer than 5 feet",
+      "No closer than 10 feet",
+      "No closer than 15 feet",
+      "No closer than 20 feet"
+    ],
+    "answer": 0,
+    "explanation": "In Iowa, do not park closer than five feet from a fire hydrant or in a designated hydrant red zone.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 21"
+  },
+  {
+    "id": "ia.car.069",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Iowa, you may not park closer than how many feet to a stop sign?",
+    "choices": [
+      "5 feet",
+      "10 feet",
+      "20 feet",
+      "30 feet"
+    ],
+    "answer": 1,
+    "explanation": "Iowa prohibits parking closer than 10 feet from a stop sign.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 21"
+  },
+  {
+    "id": "ia.car.070",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How close to a fire station entrance may you park in Iowa?",
+    "choices": [
+      "No closer than 10 feet",
+      "No closer than 15 feet",
+      "No closer than 20 feet",
+      "No closer than 50 feet"
+    ],
+    "answer": 2,
+    "explanation": "Do not park closer than 20 feet from a fire station entrance.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 21"
+  },
+  {
+    "id": "ia.car.071",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Iowa, you may not park closer than how many feet to a railroad crossing?",
+    "choices": [
+      "15 feet",
+      "20 feet",
+      "30 feet",
+      "50 feet"
+    ],
+    "answer": 3,
+    "explanation": "Iowa prohibits parking closer than 50 feet from a railroad crossing.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 21"
+  },
+  {
+    "id": "ia.car.072",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "When parking next to a curb in Iowa, your vehicle must be within how many inches of the curb?",
+    "choices": [
+      "6 inches",
+      "12 inches",
+      "18 inches",
+      "24 inches"
+    ],
+    "answer": 2,
+    "explanation": "If there is a curb, park within 18 inches of the curb or closer, as far from traffic as possible.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 21"
+  },
+  {
+    "id": "ia.car.073",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Assuming there are no signs or painted curbs, which of these parking spots is legal in Iowa?",
+    "choices": [
+      "8 feet from a fire hydrant",
+      "6 feet from a stop sign",
+      "30 feet from a railroad crossing",
+      "15 feet from a fire station entrance"
+    ],
+    "answer": 0,
+    "explanation": "Iowa's limits are 5 feet from a hydrant, 10 feet from a stop sign, 50 feet from a railroad crossing, and 20 feet from a fire station entrance. Only 8 feet from a hydrant meets the rule.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 3,
+    "ref": "Iowa Driver's License Manual, p. 21"
+  },
+  {
+    "id": "ia.car.074",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Assuming there are no signs or painted curbs, where is parking NOT allowed in Iowa?",
+    "choices": [
+      "On a crosswalk or in an intersection",
+      "15 feet from a fire hydrant",
+      "25 feet from a stop sign",
+      "60 feet from a railroad crossing"
+    ],
+    "answer": 0,
+    "explanation": "Iowa prohibits parking on a crosswalk, in an intersection, on a sidewalk, and on bridges outside city limits. The other spots meet Iowa's distance limits (5 feet from a hydrant, 10 feet from a stop sign, 50 feet from a railroad crossing).",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 21"
+  },
+  {
+    "id": "ia.car.075",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Iowa law requires both headlights from sunset to sunrise and whenever visibility is:",
+    "choices": [
+      "1,000 feet or less",
+      "500 feet or less",
+      "300 feet or less",
+      "100 feet or less"
+    ],
+    "answer": 1,
+    "explanation": "Iowa law requires both headlights from sunset to sunrise or whenever visibility is 500 feet or less, such as in fog, heavy rain, or snow.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 49"
+  },
+  {
+    "id": "ia.car.076",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Under Iowa law, you must dim your high beams when an oncoming vehicle is within:",
+    "choices": [
+      "300 feet",
+      "500 feet",
+      "1,000 feet",
+      "1,500 feet"
+    ],
+    "answer": 2,
+    "explanation": "Iowa law requires a low beam when you approach an oncoming vehicle within 1,000 feet, so the glare does not blind the other driver.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Code §321.415"
+  },
+  {
+    "id": "ia.car.077",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Under Iowa law, you must use low beams when following another vehicle within:",
+    "choices": [
+      "200 feet",
+      "300 feet",
+      "400 feet",
+      "500 feet"
+    ],
+    "answer": 2,
+    "explanation": "Iowa law requires low beams when you follow another vehicle within 400 feet, except while passing it.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Code §321.415"
+  },
+  {
+    "id": "ia.car.078",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "According to the Iowa manual, which months are the peak months for deer collisions?",
+    "choices": [
+      "January, February, and March",
+      "June, July, and August",
+      "October, November, and May",
+      "December, April, and September"
+    ],
+    "answer": 2,
+    "explanation": "October, November, and May are the peak months for deer collisions in Iowa, though they can happen any time of year.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 57"
+  },
+  {
+    "id": "ia.car.079",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You are driving on a gravel road in very dusty conditions. What does the Iowa manual recommend?",
+    "choices": [
+      "Use high beams",
+      "Use low-beam headlights to be more visible",
+      "Turn on hazard lights and stop in the road",
+      "Drive in the center of the road"
+    ],
+    "answer": 1,
+    "explanation": "Use low-beam headlights to make your vehicle more visible to others during extremely dusty conditions.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 55"
+  },
+  {
+    "id": "ia.car.080",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You are driving when a tornado approaches and you cannot reach a sturdy building. What does the Iowa manual advise?",
+    "choices": [
+      "Shelter under a highway overpass",
+      "Pull over, keep your seat belt on, duck below the windows, and cover your head",
+      "Try to outrun it at high speed",
+      "Get out and stand beside the car"
+    ],
+    "answer": 1,
+    "explanation": "If you can't reach shelter, pull over, duck below the windows, keep your seat belt fastened, and cover your head. Stay away from bridges and overpasses.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 60"
+  },
+  {
+    "id": "ia.car.081",
+    "track": "car",
+    "topic": "road-signs",
+    "sign": "SMV",
+    "prompt": "This emblem on the back of a vehicle in Iowa means the vehicle:",
+    "choices": [
+      "Travels 35 mph or less",
+      "Is carrying hazardous materials",
+      "Is about to turn left",
+      "Is a school vehicle"
+    ],
+    "answer": 0,
+    "explanation": "The reflective orange triangle is the slow-moving vehicle emblem. In Iowa it means the vehicle is traveling 35 mph or less, such as farm equipment or horse-drawn wagons.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 1,
+    "ref": "Iowa Driver's License Manual, p. 11"
+  },
+  {
+    "id": "ia.car.082",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "In Iowa, a crash must be reported to police when it causes injury or death, or property damage of more than:",
+    "choices": [
+      "$500",
+      "$1,000",
+      "$1,500",
+      "$2,500"
+    ],
+    "answer": 2,
+    "explanation": "Iowa law requires reporting a crash to police if it involves injury or death to another person, or property damage of more than $1,500.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 63"
+  },
+  {
+    "id": "ia.car.083",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "If you do not report a reportable crash in Iowa within how many hours, you will lose your driving privileges?",
+    "choices": [
+      "24 hours",
+      "48 hours",
+      "72 hours",
+      "10 days"
+    ],
+    "answer": 2,
+    "explanation": "Failure to report a reportable crash within 72 hours will result in the loss of your driving privileges and further penalties.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 63"
+  },
+  {
+    "id": "ia.car.084",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You have a minor crash with no injuries and your car still runs. What does Iowa's Steer It-Clear It law require?",
+    "choices": [
+      "Leave the cars in place until police arrive",
+      "Move your vehicle out of the traffic lanes if it can be moved safely",
+      "Push the other car to the shoulder yourself",
+      "Leave the scene and report it online"
+    ],
+    "answer": 1,
+    "explanation": "If no one is injured and the vehicle is operable and can be moved safely, Iowa law requires you to move it out of the driving lanes of traffic.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Driver's License Manual, p. 22"
+  },
+  {
+    "id": "ia.car.085",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age to get an instruction permit in Iowa?",
+    "choices": [
+      "14",
+      "15",
+      "15 1/2",
+      "16"
+    ],
+    "answer": 0,
+    "explanation": "Iowa's first GDL step, the instruction permit, is available at age 14 after passing the knowledge and vision tests, with parent or guardian consent.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 1,
+    "ref": "Iowa DOT website: Instruction Permit for Under Age 18"
+  },
+  {
+    "id": "ia.car.086",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which person may supervise an Iowa teen driving with an instruction permit?",
+    "choices": [
+      "A licensed 19-year-old brother",
+      "A licensed 23-year-old friend with written permission from a parent",
+      "A licensed 26-year-old neighbor with written permission from a parent",
+      "Any passenger who is 18 or older"
+    ],
+    "answer": 2,
+    "explanation": "Supervisors include a parent, guardian, or custodian; an immediate family member at least 21; a driver education instructor; or a person at least 25 with written permission from the parent. The supervisor must be licensed.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 3,
+    "ref": "Iowa DOT website: Instruction Permit for Under Age 18"
+  },
+  {
+    "id": "ia.car.087",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age for an Iowa intermediate license?",
+    "choices": [
+      "15",
+      "16",
+      "16 1/2",
+      "17"
+    ],
+    "answer": 1,
+    "explanation": "The intermediate license, the second GDL step, requires being at least 16, completing approved driver education, and holding a permit for 12 months.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 1,
+    "ref": "Iowa DOT website: Intermediate License"
+  },
+  {
+    "id": "ia.car.088",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long must an Iowa teen hold an instruction permit (alone or with a special minor's license) before getting an intermediate license?",
+    "choices": [
+      "6 months",
+      "9 months",
+      "12 months",
+      "18 months"
+    ],
+    "answer": 2,
+    "explanation": "You must have held a valid instruction permit (or a permit plus a special minor's restricted license) for a total of 12 months.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa DOT website: Intermediate License"
+  },
+  {
+    "id": "ia.car.089",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Before getting an Iowa intermediate license, a parent must certify how many hours of supervised driving?",
+    "choices": [
+      "20 hours, with 2 at night",
+      "30 hours, with 5 at night",
+      "40 hours, with 10 at night",
+      "50 hours, with 10 at night"
+    ],
+    "answer": 0,
+    "explanation": "A parent, guardian, or custodian must sign an affidavit that the teen has driven a total of 20 hours, including 2 hours after sunset and before sunrise.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Code §321.180B"
+  },
+  {
+    "id": "ia.car.090",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "An Iowa intermediate license holder may NOT drive without adult supervision during which hours (unless a waiver applies)?",
+    "choices": [
+      "10 p.m. to 5 a.m.",
+      "11 p.m. to 6 a.m.",
+      "12:30 a.m. to 5 a.m.",
+      "Midnight to 6 a.m."
+    ],
+    "answer": 2,
+    "explanation": "Intermediate licensees may drive alone from 5 a.m. to 12:30 a.m. Between 12:30 a.m. and 5 a.m. they need adult supervision.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa DOT website: Intermediate License"
+  },
+  {
+    "id": "ia.car.091",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old with an Iowa intermediate license works a shift that ends at 1:00 a.m. How can the teen legally drive home alone?",
+    "choices": [
+      "It is never allowed",
+      "A parent completes the hour-restriction waiver form for work, and the teen carries it in the vehicle",
+      "The employer calls the police",
+      "The teen drives only on back roads"
+    ],
+    "answer": 1,
+    "explanation": "A parent, guardian, or custodian can complete the Waiver of Intermediate Driver's License Hour Restriction form for school or work. The form must be carried in the vehicle.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 3,
+    "ref": "Iowa DOT website: Intermediate License"
+  },
+  {
+    "id": "ia.car.092",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During the first six months, an Iowa intermediate licensee with a passenger restriction is driving without adult supervision. How many unrelated minor passengers may ride along?",
+    "choices": [
+      "None",
+      "One",
+      "Two",
+      "Three"
+    ],
+    "answer": 1,
+    "explanation": "For the first six months, a teen with a passenger restriction may carry no more than one minor passenger who is not a relative (brother, sister, step-sibling, or minor living in the household).",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa DOT website: Intermediate License"
+  },
+  {
+    "id": "ia.car.093",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "At what age can an Iowa driver get a full license?",
+    "choices": [
+      "16",
+      "16 1/2",
+      "17",
+      "18"
+    ],
+    "answer": 2,
+    "explanation": "A full license, the third GDL step, is available at age 17 after holding the intermediate license for 12 consecutive months.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 1,
+    "ref": "Iowa DOT website: Full License"
+  },
+  {
+    "id": "ia.car.094",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Before moving from an intermediate to a full license in Iowa, how many more supervised driving hours are required?",
+    "choices": [
+      "None",
+      "10 hours, with 2 at night",
+      "20 hours, with 2 at night",
+      "30 hours, with 5 at night"
+    ],
+    "answer": 1,
+    "explanation": "While holding the intermediate license, the teen must complete 10 hours of supervised driving, with at least 2 hours between sunset and sunrise.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa DOT website: Full License"
+  },
+  {
+    "id": "ia.car.095",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age for Iowa's special minor's restricted license, which lets teens drive alone to school and work?",
+    "choices": [
+      "14",
+      "14 1/2",
+      "15",
+      "15 1/2"
+    ],
+    "answer": 1,
+    "explanation": "The special minor's restricted license is optional and requires being at least 14 1/2, completing driver education, and holding a permit with a clean record for six months.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa DOT website: Special Minor's Restricted License"
+  },
+  {
+    "id": "ia.car.096",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Under Iowa rules, what makes a driver a \"habitual violator\" whose license may be suspended?",
+    "choices": [
+      "Two parking tickets in one year",
+      "Three or more countable moving violations committed within 12 months",
+      "Any single speeding ticket",
+      "Five equipment violations within 5 years"
+    ],
+    "answer": 1,
+    "explanation": "Being convicted of three or more countable moving violations committed within a 12-month period makes you a habitual violator. Parking and equipment violations do not count.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa DOT website: Suspension for Habitual Violators & Serious Violation"
+  },
+  {
+    "id": "ia.car.097",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which speeding ticket does NOT count toward Iowa's habitual violator total?",
+    "choices": [
+      "One of your first two tickets in 12 months for going 10 mph or less over a 55 mph limit",
+      "A ticket for going 20 mph over a 70 mph limit",
+      "A ticket for going 15 mph over a 25 mph limit",
+      "Any ticket in a school zone"
+    ],
+    "answer": 0,
+    "explanation": "The first two speeding tickets in any 12 months for 10 mph or less over the limit are not counted when the speed limit is between 34 and 61 mph (34-56 mph before July 1, 2026). Tickets in lower-speed zones or for more than 10 mph over still count.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 3,
+    "ref": "Iowa DOT website: Suspension for Habitual Violators & Serious Violation; Iowa Code §321.210(2)(d) as amended by 2026 Senate File 378"
+  },
+  {
+    "id": "ia.car.098",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "In Iowa, a single conviction for speeding how far over the limit is a \"serious violation\" that can lead to suspension?",
+    "choices": [
+      "10 mph or more",
+      "15 mph or more",
+      "20 mph or more",
+      "25 mph or more"
+    ],
+    "answer": 3,
+    "explanation": "Speeding 25 mph or more over the limit, a first offense of unlawfully passing a school bus, or a moving violation that contributed to a fatal crash is a serious violation.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa DOT website: Suspension for Habitual Violators & Serious Violation"
+  },
+  {
+    "id": "ia.car.099",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What are Iowa's minimum liability insurance amounts?",
+    "choices": [
+      "$20,000 per person / $40,000 per accident for injury, $15,000 property damage",
+      "$25,000 / $50,000 for injury, $25,000 property damage",
+      "$15,000 / $30,000 for injury, $10,000 property damage",
+      "$30,000 / $60,000 for injury, $25,000 property damage"
+    ],
+    "answer": 0,
+    "explanation": "Iowa's financial responsibility minimums are $20,000 for injury or death of one person, $40,000 for two or more people, and $15,000 for property damage (20/40/15).",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Code §321A.1"
+  },
+  {
+    "id": "ia.car.100",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "When does an Iowa farmer NOT need a driver's license to drive farm equipment on a public road?",
+    "choices": [
+      "Never; a license is always required",
+      "When driving between the home farm and nearby farmland within two miles",
+      "When driving within the county",
+      "Only during harvest season"
+    ],
+    "answer": 1,
+    "explanation": "No license is needed to drive farm equipment between the home farm and nearby farmland or farm operations within two miles.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 3,
+    "ref": "Iowa Driver's License Manual, p. 4"
+  },
+  {
+    "id": "ia.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Does Iowa law require motorcycle riders to wear a helmet?",
+    "choices": [
+      "Yes, all riders",
+      "Yes, riders under 21",
+      "No, but helmets are recommended",
+      "Yes, riders under 18 only"
+    ],
+    "answer": 2,
+    "explanation": "Iowa law does not require helmets for motorcycle or autocycle riders, but the Iowa DOT recommends them. Other states you ride in may require one.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 1,
+    "ref": "Iowa DOT website: Get a Motorcycle, Moped, or Autocycle License"
+  },
+  {
+    "id": "ia.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Is lane splitting (riding between lanes or rows of vehicles) legal in Iowa?",
+    "choices": [
+      "Yes, at any speed",
+      "Yes, but only in stopped traffic",
+      "No, it is prohibited",
+      "Yes, on interstates only"
+    ],
+    "answer": 2,
+    "explanation": "Iowa law says a motorcycle shall not be operated between lanes of traffic or between adjacent lines or rows of vehicles.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 1,
+    "ref": "Iowa Code §321.275"
+  },
+  {
+    "id": "ia.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Under Iowa law, how many motorcycles may ride side by side in a single lane?",
+    "choices": [
+      "One",
+      "No more than two",
+      "No more than three",
+      "Any number"
+    ],
+    "answer": 1,
+    "explanation": "Iowa law says motorcycles may not be operated more than two abreast in a single lane.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Code §321.275"
+  },
+  {
+    "id": "ia.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Under Iowa law, a motorcyclist may pass another vehicle in the same lane only when:",
+    "choices": [
+      "The vehicle being passed is also a motorcycle or motorized bicycle",
+      "Traffic is stopped",
+      "The vehicle is a slow-moving farm vehicle",
+      "Never"
+    ],
+    "answer": 0,
+    "explanation": "An Iowa motorcyclist may not overtake and pass in the same lane occupied by the vehicle being passed unless that vehicle is a motorcycle or motorized bicycle.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 3,
+    "ref": "Iowa Code §321.275"
+  },
+  {
+    "id": "ia.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Iowa law requires a 1977 or newer motorcycle to be ridden on the highway with:",
+    "choices": [
+      "At least one lighted headlamp",
+      "Hazard lights flashing",
+      "Headlights on only at night",
+      "A safety flag"
+    ],
+    "answer": 0,
+    "explanation": "A 1977 or later model year motorcycle may not be operated on the highways without displaying at least one lighted headlamp.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Code §321.275"
+  },
+  {
+    "id": "ia.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Under Iowa law, what must a motorcycle have to carry a passenger (other than in a sidecar)?",
+    "choices": [
+      "A seat designed for two or a firmly attached rear seat, plus passenger footrests",
+      "Only a handhold strap",
+      "A backrest and a helmet for the passenger",
+      "Nothing; any motorcycle may carry a passenger"
+    ],
+    "answer": 0,
+    "explanation": "A passenger may ride only on a seat designed for two or a seat firmly attached behind the operator, and the motorcycle must have footrests for the passenger.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Code §321.275"
+  },
+  {
+    "id": "ia.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "With an Iowa motorcycle instruction permit, who must accompany you?",
+    "choices": [
+      "Nobody",
+      "A person licensed for motorcycles, on or in a different vehicle, within sight and hearing",
+      "Any licensed adult riding as your passenger",
+      "A parent in the same vehicle"
+    ],
+    "answer": 1,
+    "explanation": "The accompanying person must hold a license valid for motorcycles, stay within sight and hearing distance, and be on or in a different motor vehicle.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa DOT website: Get a Motorcycle, Moped, or Autocycle License"
+  },
+  {
+    "id": "ia.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How many motorcycle learners may one licensed rider supervise at a time in Iowa?",
+    "choices": [
+      "One",
+      "Two",
+      "Three",
+      "No limit"
+    ],
+    "answer": 0,
+    "explanation": "Only one learner may be supervised by any one licensed driver.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa DOT website: Get a Motorcycle, Moped, or Autocycle License"
+  },
+  {
+    "id": "ia.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "An Iowa motorcycle instruction permit is issued for:",
+    "choices": [
+      "One year, renewable",
+      "Two years, renewable once",
+      "One four-year term with no renewal",
+      "Six months"
+    ],
+    "answer": 2,
+    "explanation": "A motorcycle instruction permit is issued for one four-year term with no renewal permitted.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 3,
+    "ref": "Iowa DOT website: Get a Motorcycle, Moped, or Autocycle License"
+  },
+  {
+    "id": "ia.mc.010",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How can an Iowa applicant have the motorcycle skills (driving) test waived?",
+    "choices": [
+      "By riding for one year on a permit",
+      "By completing an Iowa-approved motorcycle education course",
+      "By passing the knowledge test twice",
+      "By holding a car license for five years"
+    ],
+    "answer": 1,
+    "explanation": "The motorcycle skills test may be waived if you successfully complete an Iowa-approved motorcycle education course.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa DOT website: Get a Motorcycle, Moped, or Autocycle License"
+  },
+  {
+    "id": "ia.mc.011",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Under Iowa law, what must a rider under age 18 complete before getting a license valid for motorcycles (class M)?",
+    "choices": [
+      "An approved motorcycle education course",
+      "Six months of supervised riding with a parent",
+      "A 50-hour supervised riding log",
+      "Nothing extra; the same rules apply as for adults"
+    ],
+    "answer": 0,
+    "explanation": "Iowa requires anyone under 18 applying for an intermediate or full license valid for motorcycles to successfully complete an approved motorcycle education course before the class M license is issued.",
+    "states": [
+      "IA"
+    ],
+    "difficulty": 2,
+    "ref": "Iowa Code §321.180B(5)"
+  }
+]

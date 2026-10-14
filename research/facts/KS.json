@@ -1,0 +1,821 @@
+{
+  "code": "KS",
+  "name": "Kansas",
+  "agency": {
+    "name": "Kansas Department of Revenue, Division of Vehicles",
+    "abbreviation": "KDOR",
+    "website": "https://www.ksrevenue.gov/dovdrlic.html"
+  },
+  "handbook": {
+    "title": "Kansas Driving Handbook",
+    "edition": "Revised February 2022 (current edition linked from ksrevenue.gov as of Oct 2026)",
+    "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf"
+  },
+  "knowledgeTest": {
+    "questions": 25,
+    "passingScore": 20,
+    "passingPercent": 80,
+    "roadSigns": "No separate road-signs section; the 25 questions include identifying signs by shape, color or symbol.",
+    "timeLimitMinutes": null,
+    "format": "25 multiple-choice questions on traffic signs, pavement markings and Kansas laws and driving practices, based on the Kansas Driving Handbook. Not timed (generally takes 15 to 20 minutes). Can be taken at a Full-Service Driver License Center, through an approved driver's education course, or online through KnowTo Drive Online (ks.knowtodrive.com, desktop/laptop with front-facing camera, immediate results).",
+    "languages": "English and Spanish (with audio playback) on the KnowTo Drive Online test; a Spanish handbook (dlhb-sp.pdf) is also published.",
+    "retestWait": "You may retest the next working day after a failure (handbook p. 14: $1.50 re-exam fee in the office). Four chances to pass the written test; after the fourth failure you must wait at least 6 months from the most recent failed exam.",
+    "notes": "Handbook p. 94: \"You must score an 80% to pass the knowledge test\" (20 of 25). Handbook p. 13: the test has 25 questions on Kansas traffic laws and road signs (identify signs by shape, color or symbol). Instruction permit from age 14 (parent/guardian application under 16). Under 17: must hold the permit one full year (or until age 17) before the driving test. Restricted license at 15 requires driver's ed and 25 supervised hours; 50 hours (10 at night) needed for 16-year-old privileges and for applicants under 18. Unrestricted license at 17. KnowTo Drive Online launched April 1, 2021 (KDOR press release: $10 first test, $8.50 retest).",
+    "sourceUrl": "https://www.ksrevenue.gov/pdf/dlhb.pdf"
+  },
+  "motorcycleTest": {
+    "questions": null,
+    "passingScore": null,
+    "passingPercent": null,
+    "notes": "Class M: knowledge test and on-cycle skill test based on the Kansas Motorcycle Handbook (Rev. 2020). Class M instruction permit available from age 14. Question count and passing score for the motorcycle knowledge test were not found on an official page. A Class M applicant who passes the skills test on a three-wheeled motorcycle (not an autocycle) is restricted to three-wheeled motorcycles; autocycles do not require a motorcycle license.",
+    "sourceUrl": "https://www.ksrevenue.gov/pdf/mchdbk.pdf"
+  },
+  "cdlTest": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC or more",
+      "detail": "Driving with a BAC of .08 or higher violates Kansas law. You can still be convicted of impaired driving below .08.",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 23,
+        "quote": "If you are found to have .08 blood alcohol concentration (BAC) or higher, you are in violation of the law."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% BAC for drivers under 21",
+      "detail": "Drivers under 21 can be arrested for alcohol impairment at .02. It is illegal for anyone under 21 to buy, possess or drink alcohol.",
+      "number": 0.02,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 23,
+        "quote": "In Kansas, if you are under (21), you can also be arrested for alcohol impairment at [.02%]."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC in a commercial motor vehicle",
+      "detail": "Driving a commercial motor vehicle with an alcohol concentration of 0.04 or more is commercial DUI under K.S.A. 8-2,144.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://ksrevisor.gov/statutes/chapters/ch08/008_002_0144.html",
+        "page": null,
+        "quote": "the alcohol concentration in the person's blood or breath, as measured within three hours of the time of driving a commercial motor vehicle, is 0.04 or more"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusing a chemical test: 1-year suspension, then ignition-interlock-only driving",
+      "detail": "By getting a license you consent to a lawfully requested breath, blood or urine test (K.S.A. 8-1001). Under K.S.A. 8-1014(a), every refusal brings a 1-year suspension, followed by an ignition-interlock restriction of 2 years (1st refusal), 3 years (2nd), 4 years (3rd), 5 years (4th) or 10 years (5th or later). The 2022 handbook (p. 14) still lists the older 1/2/3/10-year suspensions.",
+      "number": 1,
+      "unit": "year",
+      "source": {
+        "url": "https://ksrevisor.gov/statutes/chapters/ch08/008_010_0014.html",
+        "page": null,
+        "quote": "On the person's first occurrence, suspend the person's driving privileges for one year and at the end of the suspension, restrict the person's driving privileges for two years to driving only a motor vehicle equipped with an ignition interlock device"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "$750-$1,000 fine, at least 48 hours jail or 100 hours community service, license suspension, ignition interlock",
+      "detail": "A first DUI conviction brings a $750-$1,000 fine plus court costs, a minimum of 48 hours in jail or 100 hours of community service, a suspended license and an ignition interlock requirement. A first test result of .08 or more can bring a 30-day suspension.",
+      "number": 750,
+      "unit": "dollars (minimum fine)",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 24,
+        "quote": "If you are found guilty of an alcohol violation and it is your first conviction, you may be fined from $750 - $1000 plus court costs. You could be sentenced to a minimum of 48 hours in jail or 100 hours of community service and your license will be suspended. You will also be required to drive with an ignition interlock device."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "open_container",
+      "value": "Alcohol must be unopened or in a locked trunk/area not reachable by occupants",
+      "detail": "Opened alcohol may be carried only in a locked trunk or locked outside compartment that no one in the vehicle can reach (or, with no trunk, behind the last upright seat). A violation is a misdemeanor (fine up to $200, up to 6 months in jail, or both). A second conviction within 5 years brings a 1-year license suspension, or court-ordered driving restrictions instead. The handbook lists it as grounds for suspension (p. 14).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://ksrevisor.gov/statutes/chapters/ch08/008_015_0099.html",
+        "page": null,
+        "quote": "No person shall transport in any vehicle upon a highway or street any alcoholic beverage unless such beverage is: (1) In the original unopened package or container, the seal of which has not been broken and from which the original cap, cork or other means of closure has not been removed"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "permit_min_age",
+      "value": "14",
+      "detail": "A Class C or M instruction permit can be issued at 14. Under 16, a parent/guardian must apply in writing and sign an affidavit. The permit is valid 1 year.",
+      "number": 14,
+      "unit": "years",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 9,
+        "quote": "Class C or M Instruction Permit: 14 years of age or older"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "1 year (for a restricted license); under 17 must hold one full year or until 17",
+      "detail": "A state-issued learner's permit must be held for 1 year before a restricted license; driver's ed permit-slip time does not count. Applicants under 17 must hold the permit one full year or until age 17, whichever comes first, before the driving test.",
+      "number": 1,
+      "unit": "year",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 12,
+        "quote": "Must have held state issued Learner’s Permit for 1 year or more. This does not include driver's education permit slip time held."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "50 hours, including 10 at night (25 hours for a 15-year-old's restricted license)",
+      "detail": "A parent/guardian signs an affidavit for the hours. A 15-year-old needs 25 hours to get a restricted license, then must submit another 25 hours (10 at night) to move to the 16-year-old privileges.",
+      "number": 50,
+      "unit": "hours",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 12,
+        "quote": "16-year-old applicants must have completed 50 hours of supervised driving with 10 at night"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Licensed adult age 21+ with at least 1 year of driving experience, in the front seat",
+      "detail": "A permit holder may drive only with a licensed adult in the front seat; no one but the supervising adult may sit in the front seat.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 12,
+        "quote": "Licensed adult must be at least 21 years old and have at least one-year driving experience"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "15 (restricted license)",
+      "detail": "A restricted license at 15 requires a permit held 1 year, an approved driver's education course and 25 supervised hours. Driver's ed is not required if applying at 16.",
+      "number": 15,
+      "unit": "years",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 12,
+        "quote": "15-year-old applicants must have completed an approved Driver’s Education course (not required if applying at age 16)"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "Age 16: may drive anywhere 5 a.m.-9 p.m.; later only for work, school activities, religious activities or with a licensed adult 21+",
+      "detail": "Age 15 is stricter: only to/from work, directly to/from school on school days, to/from religious activities, or with a licensed adult. Restrictions end after the license has been held 6 months at age 16 (or at 17).",
+      "number": 21,
+      "unit": "hour (9 p.m.)",
+      "source": {
+        "url": "https://www.ksrevenue.gov/dovgdl.html",
+        "page": null,
+        "quote": "Driving restrictions: Anywhere from 5am to 9pm; anytime going to or from work; anytime going to or from authorized school activities; directly to or from any religious worship service held by a religious organization; anytime/anywhere with licensed adult - minimum age 21"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "Age 15: no non-sibling minor passengers; age 16: no more than one non-sibling passenger under 18",
+      "detail": "The same limits apply to farm permit holders (14-15: no non-sibling minors; 16: one).",
+      "number": 1,
+      "unit": "non-sibling minor passenger (age 16)",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 13,
+        "quote": "Only one, non-sibling, minor passenger allowed in the vehicle"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "17 (unrestricted license)",
+      "detail": "An unrestricted Class C license is available at 17; applicants under 18 need the parent-signed 50-hour affidavit. Age-related restrictions are also removed once a 16-year-old has held a restricted license for 6 months.",
+      "number": 17,
+      "unit": "years",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 9,
+        "quote": "Non-Commercial Class C: 17 years of age or older"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "No handheld ban for adult drivers (talking/dialing not specifically illegal)",
+      "detail": "Adults may talk or dial, but texting is banned. Permit, farm permit and restricted license holders may not use wireless devices at all except to report illegal activity or summon help.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 19,
+        "quote": "Talking, or dialing a phone number, on a cell phone is not specifically illegal in Kansas."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "texting_ban",
+      "value": "All drivers: no writing, sending or reading written communications (texts, email) while driving",
+      "detail": "GPS and weather reports are not included. Exceptions include a vehicle stopped off the traveled roadway and reporting illegal activity or preventing imminent injury.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 19,
+        "quote": "Kansas law prohibits the use of any electronic device to “write, send, or read” a written communication while driving."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Instruction permit holders under 17, farm permit holders and restricted license holders: no wireless devices except to report illegal activity or summon emergency help",
+      "detail": "The ban covers calls as well as texting. Instruction permit holders 17 and older are not covered by this rule (KDOR GDL page), but the all-driver texting ban still applies.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 12,
+        "quote": "No wireless communication devices while driving except to report illegal activity or summon emergency assistance"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "All occupants must be restrained; primary enforcement for front-seat adults and all children",
+      "detail": "An officer may stop a vehicle solely for an unbelted adult in a front seat or an unrestrained child anywhere. Statute: occupants 14+ must wear belts; an unbelted adult in the back seat is not by itself a reason for a stop.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 16,
+        "quote": "If a law enforcement officer sees an unrestrained adult in a front seat, or an unrestrained child anywhere in the vehicle, then that vehicle can be stopped solely for that violation."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Under 4: child safety seat; 4-7: safety seat or booster unless over 80 lb or taller than 4'9\"; 8-13: seat belt",
+      "detail": "The driver is responsible. Children 4 to 8 must use a child seat or booster unless they weigh more than 80 pounds or are taller than 4 feet 9 inches.",
+      "number": 4,
+      "unit": "years",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 16,
+        "quote": "All children under the age of 4 must be restrained in a federally approved child safety seat."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Never faster than is reasonable and prudent for existing conditions",
+      "detail": "Consider road, weather, vehicle and your own condition; a lawful speed at one time may be unsafe at another.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 16,
+        "quote": "Kansas’ basic speed law requires that you never drive a vehicle at a speed greater than is reasonable and prudent under the conditions then existing."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "20 mph (when properly marked), unless otherwise posted",
+      "detail": "Obey the slower school-zone limit when lights are flashing or children are present.",
+      "number": 20,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 16,
+        "quote": "20 mph -School Zone (when properly marked)"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "30 mph in any urban district, unless posted",
+      "detail": "Kansas sets 30 mph as the default maximum in urban districts (towns and cities).",
+      "number": 30,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 16,
+        "quote": "Thirty (30) miles per hour in any urban district"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "65 mph on state/federal highways; 55 mph on county or township roads",
+      "detail": "Unless otherwise posted. Separated multilane highways may be posted at 75 mph.",
+      "number": 65,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 16,
+        "quote": "Sixty-five (65) miles per hour on any State or Federal Highway"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "75 mph on separated multilane highways designated and posted by the Secretary of Transportation",
+      "detail": "75 mph applies only where designated and posted.",
+      "number": 75,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 16,
+        "quote": "Seventy-five (75) miles per hour on any separated, multilane highway as designated and posted by the Secretary of Transportation"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Do not drive so slowly that you impede normal traffic; posted minimums must be obeyed",
+      "detail": "Driving below a posted minimum is unlawful under normal conditions; slower speeds are allowed when needed for safety.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 16,
+        "quote": "Even when a minimum speed is not posted, it is unlawful to drive a vehicle so slowly as to impede or block the normal movement of traffic."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop unless a sign prohibits it",
+      "detail": "Stop, then yield to traffic and pedestrians before turning.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 34,
+        "quote": "When turning right at an intersection, if there is no sign prohibiting a right turn on a red light, you may turn after stopping and checking for traffic and pedestrians."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Allowed after stopping from a one-way street onto a one-way street (unless a sign prohibits)",
+      "detail": "K.S.A. 8-1508 allows left on red only from a one-way roadway onto a one-way roadway going left. The handbook (p. 34) also mentions two-way onto one-way, but the statute does not.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://ksrevisor.gov/statutes/chapters/ch08/008_015_0008.html",
+        "page": null,
+        "quote": "vehicular traffic upon a roadway restricted to one-way traffic facing a steady red signal at the intersection of such roadway with another roadway restricted to one-way traffic which is proceeding to the left of such vehicular traffic, may cautiously enter the intersection to make a left turn after stopping"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 100 feet before turning",
+      "detail": "Signal at least 100 feet before a turn or move. The handbook advises 200 feet at speeds above 40 mph.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 17,
+        "quote": "All signals must be given at least 100 feet before making the actual move or turn."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the right edge and stop; stay at least 500 feet away from the emergency vehicle",
+      "detail": "Yield and stop parallel to the curb, clear of intersections, until it passes. Never follow emergency vehicles.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 85,
+        "quote": "You must stay at least 500 feet away from the emergency vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "move_over_law",
+      "value": "Move to a non-adjacent lane for stationary emergency vehicles with flashing lights (2+ lanes each way); otherwise slow down",
+      "detail": "The same applies to construction vehicles and workers actually working on the road (K.S.A. 8-1531).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 18,
+        "quote": "When approaching a stationary emergency vehicle from the rear that is using flashing warning lights on a street or highway with two or more lanes in each direction, proceed with due caution and move to a lane that is not next to the stopped emergency vehicle. If it is not possible to change lanes, then the driver must reduce speed and proceed with due caution."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop from either direction for a stopped school, church or day care bus; opposing traffic on a divided highway need not stop",
+      "detail": "Stay stopped until the stop arm is retracted and red lights are off. You must stop on two-lane roads, roads with a center turn lane and multi-lane highways without a median or physical barrier.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 18,
+        "quote": "You must stop when meeting or overtaking a school bus, church bus or day care bus that is stopped to pick up or let off children. You must remain stopped until the STOP signal is retracted, and the red lights are turned off. Traffic approaching a school bus in the opposing roadway of a divided highway is not required to stop."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "following_distance",
+      "value": "2 seconds in prime conditions; 4 seconds in adverse conditions",
+      "detail": "Increase following distance behind vehicles that stop often and in bad weather. Allow 3-4 seconds behind motorcycles (p. 84).",
+      "number": 2,
+      "unit": "seconds",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 17,
+        "quote": "Use the two-second rule for measuring a safe following distance under prime conditions. Under adverse conditions use a four-second following rule."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "headlights_required",
+      "value": "Sunset to sunrise; when visibility is under 1,000 feet; when wipers are in continuous use",
+      "detail": "The wiper rule is in K.S.A. 8-1703(a)(3); the handbook (p. 67) also notes Kansas requires headlights whenever wipers are used.",
+      "number": 1000,
+      "unit": "feet",
+      "source": {
+        "url": "https://ksrevisor.gov/statutes/chapters/ch08/008_017_0003.html",
+        "page": null,
+        "quote": "(1) From sunset to sunrise; (2) when due to insufficient light or unfavorable atmospheric conditions, including smoke or fog, persons and vehicles on the highway are not clearly discernible at a distance of 1,000 feet ahead; or (3) when windshield wipers are in continuous use as a result of rain, sleet or snow."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "Within 500 feet of an oncoming vehicle",
+      "detail": "The handbook (p. 91) describes this as about a one-block distance.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://ksrevisor.gov/statutes/chapters/ch08/008_017_0025.html",
+        "page": null,
+        "quote": "When the driver of a vehicle approaches an oncoming vehicle within 500 feet, such driver shall use a distribution of light, or composite beam, so aimed that the glaring rays are not projected into the eyes of the oncoming driver."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "Within 300 feet of a vehicle ahead (except while passing)",
+      "detail": "Use low beams when following another vehicle.",
+      "number": 300,
+      "unit": "feet",
+      "source": {
+        "url": "https://ksrevisor.gov/statutes/chapters/ch08/008_017_0025.html",
+        "page": null,
+        "quote": "When the driver of a vehicle approaches another vehicle from the rear, within 300 feet, except when engaged in the act of overtaking and passing"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet",
+      "detail": "No parking within 15 feet of a fire hydrant.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 19,
+        "quote": "Within 15 feet of a fire hydrant."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "Not on a crosswalk; not within 20 feet of a crosswalk at an intersection",
+      "detail": "The handbook lists parking within a crosswalk as prohibited; K.S.A. 8-1571 adds the 20-foot buffer.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://ksrevisor.gov/statutes/chapters/ch08/008_015_0071.html",
+        "page": null,
+        "quote": "Within twenty (20) feet of a crosswalk at an intersection"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Not within an intersection",
+      "detail": "Also no parking within 20 feet of a crosswalk at an intersection or within 30 feet approaching a stop sign or signal.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 19,
+        "quote": "Within an intersection."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet",
+      "detail": "No parking within 30 feet approaching a traffic signal, stop sign or flashing beacon at the side of the road (p. 54 also lists yield signs).",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 19,
+        "quote": "Within the 30 feet approaching any traffic control signal, stop sign, or flashing beacon at the side of the roadway."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet from the nearest rail",
+      "detail": "No parking within 50 feet of the nearest rail of a railroad crossing.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 19,
+        "quote": "Within 50 feet of the nearest rail at railroad crossings."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet of the driveway on the same side; 75 feet on the opposite side",
+      "detail": "No parking within 20 feet of a fire station driveway entrance, or within 75 feet of it on the opposite side of the street (K.S.A. 8-1571: when properly signposted).",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 19,
+        "quote": "Within 20 feet of driveway entrance to a fire station and on side of street opposite the entrance within 75 feet of entrance."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "Within 12 inches of the curb",
+      "detail": "Parking more than 12 inches (1 foot) from the curb is prohibited.",
+      "number": 12,
+      "unit": "inches",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 19,
+        "quote": "More than 12” from a curb."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "Between 15 and 50 feet from the nearest rail",
+      "detail": "Required when signals flash, a gate is lowered, a flagman signals, or a train is approaching close enough to be a hazard. Never drive around a lowered gate.",
+      "number": 15,
+      "unit": "feet (minimum)",
+      "source": {
+        "url": "https://ksrevisor.gov/statutes/chapters/ch08/008_015_0051.html",
+        "page": null,
+        "quote": "the driver of such vehicle shall stop within 50 feet but not less than 15 feet from the nearest rail of such railroad, and shall not proceed until such driver can do so safely"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet when passing a bicycle",
+      "detail": "A driver may pass a bicycle in a no-passing zone only when it is safe. The handbook (p. 81) says to slow down and give as much space as possible.",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://ksrevisor.gov/statutes/chapters/ch08/008_015_0016.html",
+        "page": null,
+        "quote": "The driver of a vehicle overtaking a bicycle proceeding in the same direction shall pass to the left thereof at a distance of not less than three feet"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Yield to pedestrians in marked or unmarked crosswalks; stop for blind pedestrians with a white cane or guide dog",
+      "detail": "Crosswalks exist at every intersection where a sidewalk meets the street, even if unmarked. Do not pass a vehicle stopped for pedestrians.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 80,
+        "quote": "You must yield when a pedestrian is in a crosswalk. Crosswalks exist at all intersections where a sidewalk meets the street. Not all crosswalks have markings."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Report immediately to police if anyone is injured or killed or property damage is $1,000 or more",
+      "detail": "If no officer is present, the driver (or an occupant 18+) must report by the quickest means. Drivers must stop, exchange name, address, registration and insurance information and give reasonable aid. Failing to report can lead to suspension.",
+      "number": 1000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://ksrevisor.gov/statutes/chapters/ch08/008_016_0004.html",
+        "page": null,
+        "quote": "shall immediately report such accident, by the quickest available means of communication, to the nearest office of a duly authorized police authority if: (1) There is apparently property damage of $1,000 or more; (2) any person involved in the accident is injured or killed"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "25/50/25 liability plus personal injury protection (PIP)",
+      "detail": "$25,000 per person and $50,000 per accident for bodily injury, $25,000 property damage; policies must include PIP. Failing to keep continuous liability insurance means an indefinite suspension.",
+      "number": 25000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://ksrevisor.gov/statutes/chapters/ch40/040_031_0007.html",
+        "page": null,
+        "quote": "not less than $25,000 because of bodily injury to, or death of, one person in any one accident and, subject to the limit for one person, to a limit of not less than $50,000 because of bodily injury to, or death of, two or more persons in any one accident, and to a limit of not less than $25,000 because of harm to or destruction of property of others in any one accident"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "point_system",
+      "value": "3 moving violations within 12 months can bring a suspension",
+      "detail": "The Division of Vehicles can suspend driving privileges after three moving-violation convictions on separate occasions within twelve months (K.S.A. 8-255).",
+      "number": 3,
+      "unit": "moving violations in 12 months",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 14,
+        "quote": "Conviction of three (3) moving violations within a twelve-month period. (K.S.A. 8-255)"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Helmet required under 18 (operators and passengers); eye protection required for all operators unless windscreen is at least 10 inches",
+      "detail": "Riders 18 and older are not required to wear a helmet. Passengers under 18 also need eye protection.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/mchdbk.pdf",
+        "page": 8,
+        "quote": "No person under the age of 18 years shall operate or ride upon a motorcycle or a motorized bicycle, unless wearing a helmet which complies with minimum guidelines established by the national highway traffic safety administration"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Illegal (no riding between lanes or rows of vehicles)",
+      "detail": "Motorcycles may ride no more than two abreast in one lane, and may not pass in the same lane as the vehicle being overtaken.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://ksrevisor.gov/statutes/chapters/ch08/008_015_0095.html",
+        "page": null,
+        "quote": "No person shall operate a motorcycle between lanes of traffic or between adjacent lines or rows of vehicles."
+      },
+      "status": "verified"
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Farm permit at 14",
+      "summary": "Teens 14 to under 17 who live on a farm or are paid to work on one can get a farm permit; at 14-15 they may drive for farm work and directly to/from school, with no non-sibling minor passengers. K.S.A. 8-296 defines a farm as more than 20 acres used in agricultural operations (the handbook says at least 20).",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 11,
+        "quote": "Must reside on a farm OR be employed for compensation on a farm"
+      },
+      "status": "corrected"
+    },
+    {
+      "title": "Restricted license at 15 needs driver's ed and 25 hours",
+      "summary": "A 15-year-old can get a restricted license after holding a state permit 1 year, completing approved driver's education and 25 supervised hours. Internet driver's ed courses are not accepted.",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 12,
+        "quote": "15-year-old applicants must have completed 25 hours of supervised driving."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Restrictions lifted after 6 months at 16",
+      "summary": "After age 16, once a restricted license (or farm permit) has been held 6 months, all age-related driving restrictions are removed.",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 13,
+        "quote": "After age 16 and Restricted License has been held for 6 months then all age-related driving restrictions are removed."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "No passing near a stopped emergency vehicle",
+      "summary": "Do not pass within 100 feet of an emergency vehicle stopped on the side of the road with its emergency lights on (also within 100 feet of an intersection, railroad crossing, or an obstructed bridge/viaduct/tunnel).",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 17,
+        "quote": "Within 100 feet of an emergency vehicle that is stopped on the side of the roadway and"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Return to your lane 200 feet before oncoming traffic",
+      "summary": "When passing on a two-lane road you must be back in your lane before coming within 200 feet of an oncoming vehicle.",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 17,
+        "quote": "You must return to your driving lane before coming within 200 feet of any vehicle approaching from the opposite direction."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "U-turn visibility: 500 feet",
+      "summary": "No U-turn on a curve, near the top of a hill, or anywhere other drivers cannot see you for at least 500 feet. U-turns and left turns are banned on the interstate system and across medians (K.S.A. 8-1524).",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 17,
+        "quote": "Do not make a “U” turn on a curve, near the top of a hill or anywhere you cannot be seen by other drivers for at least 500 feet."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Studded snow tires: November 1 to April 1",
+      "summary": "Vehicles in Kansas may use studded snow tires only from November 1 through April 1.",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 59,
+        "quote": "Vehicles in Kansas may be equipped with studded snow tires from November 1st to April 1st each year."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "New residents: Kansas license within 90 days",
+      "summary": "Anyone who moves to Kansas must get a Kansas driver's license within 90 days.",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 11,
+        "quote": "You are required to have a Kansas Driver’s License within 90 days of moving to Kansas."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Four tries, then a 6-month wait",
+      "summary": "You may retake a failed written or driving test the next working day, with four chances for each; after the fourth failure you must wait at least six months.",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 14,
+        "quote": "After the fourth failure of either test, you must wait a minimum of six (6) months from the most recent failed exam before retesting."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Vision: 20/40 in one eye",
+      "summary": "Applicants need at least 20/40 vision in at least one eye (with or without correction); corrective lenses needed to pass go on the license as a restriction.",
+      "source": {
+        "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+        "page": 13,
+        "quote": "Vision must be at least 20/40 in one eye when screened at the Driver License Station."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Fifth test failure or refusal: 10 years of ignition interlock",
+      "summary": "A fifth or later chemical test refusal, or a fifth test failure or alcohol/drug conviction, brings a 1-year suspension followed by 10 years of driving only a vehicle with an ignition interlock device (relief may be requested from a court after 5 years). The 2022 handbook (p. 15) still calls this a permanent revocation, which current K.S.A. 8-1014 no longer provides.",
+      "source": {
+        "url": "https://ksrevisor.gov/statutes/chapters/ch08/008_010_0014.html",
+        "page": null,
+        "quote": "on the person's fifth or subsequent occurrence, suspend the person's driving privileges for one year and at the end of the suspension, restrict the person's driving privileges for 10 years to driving only a motor vehicle equipped with an ignition interlock device"
+      },
+      "status": "corrected"
+    },
+    {
+      "title": "Report address or name change within 10 days",
+      "summary": "Licensed drivers must notify the Division of Vehicles within 10 days after moving or changing their name.",
+      "source": {
+        "url": "https://ksrevisor.gov/statutes/chapters/ch08/008_002_0048.html",
+        "page": null,
+        "quote": "such person, within 10 days thereafter, shall notify the division in writing of such person's old and new mailing and residence addresses or of such former and new names"
+      },
+      "status": "verified"
+    }
+  ],
+  "officialPracticeTests": [],
+  "gaps": [
+    "speed_limit_business_district: the handbook (p. 16) lists \"20 mph ... Business District (when properly marked)\" under \"Unless otherwise posted\", but K.S.A. 8-1558 sets 30 mph for urban districts and gives no 20 mph business-district default; too ambiguous to teach.",
+    "knowledgeTest.passingScore: the handbook gives 80% (p. 94); 20 of 25 is computed from that. No ksrevenue.gov web page states the score.",
+    "motorcycleTest: no official question count or passing score found.",
+    "officialPracticeTests: KDOR publishes no online practice test; the handbook has 'Test Your Knowledge' sample questions at the end of each section and sample questions on pp. 94-95.",
+    "Handbook p. 27 says children under 14 'must be secured in the rear seat'; K.S.A. 8-1344 has no rear-seat requirement, so this was not used.",
+    "Handbook p. 34 says left on red may be allowed from a two-way onto a one-way street; K.S.A. 8-1508(c)(3) allows one-way onto one-way only. Questions use the statute.",
+    "implied_consent: handbook p. 14 lists 1/2/3/10-year suspensions for refusals 1-4; current K.S.A. 8-1014(a) gives a 1-year suspension for every refusal plus 2/3/4/5/10 years of ignition interlock. The statute is used.",
+    "Handbook p. 15 says a fifth test failure/refusal means permanent revocation; current K.S.A. 8-1014 replaced this with a 1-year suspension plus 10 years of ignition interlock. The statute is used.",
+    "Farm permit: handbook p. 11 says a farm is at least 20 acres; K.S.A. 8-296(f) says larger than 20 acres. Questions avoid the boundary.",
+    "novice_phone_ban: handbook p. 12 lists the wireless ban for all instruction permits; the KDOR GDL page and K.S.A. 8-239 show no wireless restriction for permit holders 17 and older."
+  ]
+}
