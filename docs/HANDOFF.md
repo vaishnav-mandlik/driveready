@@ -72,7 +72,20 @@ _Updated 2026-10-13 evening._
 4. State questions → `app/src/content/questions/states/XX.json`; verifier re-checks every answer key.
 5. `node app/scripts/build-content-index.mjs` then `node app/scripts/validate-content.mjs` (0 errors).
 
-## 5. Environment notes (owner's Mac)
+## 5. On-device testing (Android 16 emulator, release build)
+- Verified on a real Android 16 runtime: launch, onboarding, Home, practice quiz with feedback, leave-confirm
+  dialog, Signs library (MUTCD SVGs via SvgXml), Learn, verified CA cheat sheet.
+- Bugs found & fixed from device testing: onboarding stayed on Goal after "Start studying" (navigationKey on
+  navigator groups + App-level test); disabled tiles drew a grey box (elevation + opacity); discouraging
+  "1% pass chance" before any answers; disclaimer footer missing the non-affiliation sentence.
+- Emulator: AVD `driveready36` (system-images;android-36;default;arm64-v8a), qcow2 data disk. Start with
+  `emulator -avd driveready36 -no-window -no-audio -no-snapshot -gpu swiftshader_indirect -memory 2048`;
+  drive it with `adb` + `uiautomator dump` (tap by text/content-desc). Stop with `adb emu kill`.
+
+## 6. Environment notes (owner's Mac)
+- **8 GB RAM + ~2–7 GB free disk**: running the emulator + Gradle + several agents pushed swap to 12+ GB
+  (swap files live on the same disk). Run one heavy thing at a time; `./gradlew --stop` after builds;
+  `adb emu kill` when done.
 - macOS, Node 22.21, JDK 17, Android SDK (build-tools 35–37, platforms 36/37, NDK 27.1), Gradle 9.4.1 cached.
 - No full Xcode installed (Command Line Tools only) → iOS work deferred.
 - Disk is tight (~7 GB free): debug builds use `-PreactNativeArchitectures=arm64-v8a`.
