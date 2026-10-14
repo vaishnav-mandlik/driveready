@@ -611,15 +611,15 @@
     "id": "car.hz.042",
     "track": "car",
     "topic": "hazards-conditions",
-    "prompt": "On an icy road, when should you slow down for a curve?",
+    "prompt": "On an icy road, why is it dangerous to brake hard in the middle of a curve?",
     "choices": [
-      "In the middle of the curve",
-      "Before you enter the curve",
-      "As you come out of the curve",
-      "Only if the car starts to slide"
+      "Your brake lights are hard to see in a curve",
+      "The tires can lose grip and start a skid",
+      "Brakes do not work while the wheels are turned",
+      "It is only a problem in cars with four-wheel drive"
     ],
     "answer": 1,
-    "explanation": "Braking in a curve on a slippery surface can cause a skid. Slow down on the straight road before the curve, then drive through it smoothly.",
+    "explanation": "Braking hard while turning on a slippery surface can break traction and cause a skid. Slow down on the straight road before the curve, then drive through it smoothly.",
     "difficulty": 2,
     "ref": "State driver handbooks (e.g., CA p. 66, PA p. 44)"
   },
@@ -755,14 +755,14 @@
     "id": "car.hz.052",
     "track": "car",
     "topic": "hazards-conditions",
-    "prompt": "A driver says, \"My SUV sits high, so it can handle a flooded road.\" Why is that wrong?",
+    "prompt": "A driver says, \"My SUV sits high, so it can safely cross a flooded road.\" Which statement is true?",
     "choices": [
-      "SUVs are safe in floods only if they have four-wheel drive engaged",
       "Two feet of moving water can carry away most SUVs and pickups",
-      "SUVs are at risk only if the engine is turned off",
-      "Tall vehicles are at risk only in salt water"
+      "An SUV can cross moving water safely if four-wheel drive is on",
+      "A tall vehicle is safe as long as the water is below its doors",
+      "Only small, light cars can be swept away by floodwater"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Moving water pushes on the whole vehicle and can lift it off the road. Two feet of moving water is enough to sweep away most SUVs and pickups.",
     "difficulty": 3,
     "ref": "State driver handbooks (e.g., PA p. 66, TX p. 56, AK p. 84)"

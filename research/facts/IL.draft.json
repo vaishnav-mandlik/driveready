@@ -1,0 +1,581 @@
+{
+  "code": "IL",
+  "name": "Illinois",
+  "agency": {
+    "name": "Illinois Secretary of State, Driver Services Department",
+    "abbreviation": "SOS",
+    "website": "https://www.ilsos.gov/departments/drivers.html"
+  },
+  "handbook": {
+    "title": "Illinois Rules of the Road 2026",
+    "edition": "2026 (printed July 2026, DSD A 112.47)",
+    "url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf"
+  },
+  "knowledgeTest": {
+    "questions": 35,
+    "passingScore": 28,
+    "passingPercent": 80,
+    "roadSigns": "15 of the 35 questions address traffic sign identification (Rules of the Road Review Workbook); the rest are multiple-choice or true/false.",
+    "timeLimitMinutes": null,
+    "format": "Written knowledge exam at a Secretary of State Driver Services facility: identify traffic signs by shape, color or symbol, identify signals and pavement markings, and answer multiple-choice and true/false questions on traffic laws, safety rules, crash prevention and vehicle equipment.",
+    "languages": "English; by rule the test may also be given in other languages the Secretary of State deems necessary based on demand (92 Ill. Adm. Code 1030.80(d)). No official list of languages is published. Oral exams can be requested in person Monday-Thursday for applicants with a language barrier or reading/learning disability; an interpreter may be used for the non-CDL test. A Spanish edition of the handbook (DSD A 113) is published.",
+    "retestWait": "No waiting period between attempts is stated: you get three attempts to pass each exam within one year from the date you paid the application fee. An applicant caught cheating fails and may not retake the written test for 30 days.",
+    "notes": "92 Ill. Adm. Code 1030.80(b): a Class D applicant takes a written test of a minimum of 35 questions, 80% of which must be answered correctly (28 of 35). Teens 15-17 must pass the vision and written exams to get an instruction permit (test results valid until the permit expires). Drivers renewing must take the written exam every eight years unless they have no traffic convictions. All new drivers take a driving exam; under the Road Safety and Fairness Act (effective July 1, 2026) drivers 87 and older take a driving exam at each (annual) renewal. High school students who finish driver ed with an A or B combined grade may be exempt from the SOS-administered driving exam (Cooperative Driver Testing Program). First-time applicants age 18-20 must complete a six-hour Adult Driver Education Course.",
+    "sourceUrl": "https://www.ilga.gov/commission/jcar/admincode/092/092010300000800R.html"
+  },
+  "motorcycleTest": {
+    "questions": 35,
+    "passingScore": 28,
+    "passingPercent": 80,
+    "notes": "92 Ill. Adm. Code 1030.80(c): a Class L or M applicant takes the basic written test plus a classification test of a minimum of 35 questions, 80% correct required. Applicants 16+ who complete an IDOT Motorcycle Rider Education Course need not pass the written or driving exam at a DMV (course card valid one year); applicants 16-17 must complete an IDOT-approved course. Class L = motor-driven cycle under 150cc; Class M = any motorcycle or motor-driven cycle.",
+    "sourceUrl": "https://www.ilga.gov/commission/jcar/admincode/092/092010300000800R.html"
+  },
+  "cdlTest": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC",
+      "detail": "It is illegal to drive with a BAC of .08% or more. You can still be convicted of DUI below .08% if your driving ability is impaired.",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 51, "quote": "It is illegal to drive if your BAC is .08% or more. However, you can be convicted of Driving Under the Influence (DUI) if your BAC is less than .08% but your driving ability is impaired."},
+      "status": "unverified"
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "Any trace of alcohol (zero tolerance)",
+      "detail": "A driver under 21 found with any trace of alcohol while driving loses driving privileges for at least three months. A DUI conviction under 21 means at least a two-year revocation.",
+      "number": 0,
+      "unit": "% BAC",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 55, "quote": "If you are under age 21 and found to have any trace of alcohol in your system while operating a motor vehicle, you will have your driving privileges suspended for a minimum of three months."},
+      "status": "unverified"
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC in a commercial vehicle",
+      "detail": "A CDL holder may not drive a commercial vehicle at .04% BAC or more; a school bus driver may not drive a school bus with a BAC above .00%.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {"url": "https://www.ilsos.gov/publications/pdf_publications/dsd_cdl10.pdf", "page": 12, "quote": "A CDL holder may not operate a commercial vehicle with a BAC of .04% or more."},
+      "status": "unverified"
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusal: 1-year suspension (first offense)",
+      "detail": "By driving in Illinois you consent to chemical testing. Refusing a test means a one-year statutory summary suspension (three years for a second offender); failing a test (.08%+) means six months.",
+      "number": 1,
+      "unit": "year",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 52, "quote": "If you refuse to submit to chemical testing, your driving privileges will be suspended for one year."},
+      "status": "unverified"
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "Minimum 1-year revocation on first DUI conviction",
+      "detail": "A first DUI conviction brings at least a one-year revocation (on top of any statutory summary suspension). Reinstatement requires an alcohol/drug evaluation, treatment/education, a hearing and a fee, and SR-22 insurance for three years.",
+      "number": 1,
+      "unit": "year",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 53, "quote": "A first conviction results in a minimum one-year revocation."},
+      "status": "unverified"
+    },
+    {
+      "key": "open_container",
+      "value": "No opened alcohol containers in the passenger area",
+      "detail": "No one may drink alcohol in a vehicle, and an opened container may not be in the passenger area. Passengers in chartered buses, motor homes and limousines are exempt.",
+      "number": null,
+      "unit": null,
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 54, "quote": "It is illegal for anyone to drink alcoholic beverages in a vehicle. The driver and passengers may be issued a traffic citation."},
+      "status": "unverified"
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15 (enrolled in driver education)",
+      "detail": "At 15-17 you can get an instruction permit with proof of enrollment in an approved driver education course (or starting within 30 days). At 17 years 3 months or older you may get a permit without driver ed.",
+      "number": 15,
+      "unit": "years",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 19, "quote": "If you are age 15-17, you may receive an instruction permit with acceptable proof from the authorized driver education provider."},
+      "status": "unverified"
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "9 consecutive months",
+      "detail": "Permit holders age 15-17 must hold the permit at least nine consecutive months before getting a license. The permit is valid for 24 months.",
+      "number": 9,
+      "unit": "months",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 19, "quote": "The instruction permit is valid for 24 months and must be held for at least nine consecutive months before obtaining a driver’s license if you are age 15-17."},
+      "status": "unverified"
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "50 hours, including 10 at night",
+      "detail": "Drivers under 18 need at least 50 hours of supervised behind-the-wheel practice, 10 of them at night, in addition to driver education, recorded on a signed driving log.",
+      "number": 50,
+      "unit": "hours",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 19, "quote": "Illinois law requires drivers under age 18 to have at least 50 hours of behind-the-wheel supervised driving, including 10 hours of nighttime supervised driving, in addition to the driver education training"},
+      "status": "unverified"
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Parent, guardian or responsible adult 21+ with a valid license and 1 year of experience, in the front passenger seat",
+      "detail": "A permit holder may drive with a driver ed instructor, or with a parent, legal guardian or responsible adult age 21+ who has a valid license and at least one year of driving experience, seated in the front passenger seat.",
+      "number": 21,
+      "unit": "years",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 19, "quote": "It also allows you to drive with a parent, legal guardian, or responsible adult who is age 21 or older, has a valid license, and has at least one year of driving experience. This individual must sit in the front passenger seat adjacent to you."},
+      "status": "unverified"
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16",
+      "detail": "You must be at least 16 to get an Illinois driver's license. At 16-17 you need approved driver education, 50 practice hours and a nine-month permit period, plus parental consent.",
+      "number": 16,
+      "unit": "years",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 7, "quote": "You must be at least age 16 to obtain an Illinois driver’s license."},
+      "status": "unverified"
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "Sun.-Thurs. 10 p.m.-6 a.m.; Fri.-Sat. 11 p.m.-6 a.m. (under 18)",
+      "detail": "Permit holders and Initial Licensing Phase drivers (16-17) may not drive Sunday-Thursday 10 p.m.-6 a.m. or Friday-Saturday 11 p.m.-6 a.m.; local curfews may differ.",
+      "number": null,
+      "unit": null,
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 21, "quote": "Nighttime driving restrictions — Sun.-Thurs., 10 p.m.-6 a.m.; Fri.-Sat., 11 p.m.-6 a.m. (local curfews may differ)."},
+      "status": "unverified"
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "1 passenger under 20 (family excepted) for the first 12 months or until 18",
+      "detail": "For the first 12 months of licensing or until 18 (whichever is first), a new driver may carry only one passenger under 20 unless the passengers are siblings, stepsiblings, children or stepchildren. After that: one in front, and no more in back than there are safety belts.",
+      "number": 1,
+      "unit": "passenger",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 21, "quote": "For the first 12 months of licensing, or until the driver turns 18, whichever occurs first, the number of passengers is limited to one person under age 20, unless the passenger(s) is a sibling, stepsibling, child, or stepchild of the driver."},
+      "status": "unverified"
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "18 (Full Licensing Phase, ages 18-20)",
+      "detail": "At 18 drivers enter the Full Licensing Phase with no age-related restrictions, except the under-19 ban on all phone use (including hands-free). A traffic conviction in the last six months before 18 can extend restrictions.",
+      "number": 18,
+      "unit": "years",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 22, "quote": "No age-related restrictions apply except in cases where a driver fails to move from the Initial Licensing Phase to the Full Licensing Phase."},
+      "status": "unverified"
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "Handheld phone use banned for all drivers",
+      "detail": "All drivers are banned from using handheld cellphones while driving; hands-free/Bluetooth is allowed only for drivers 19 and older. Holding the phone on speaker is not hands-free. Exceptions: reporting an emergency, parked on the shoulder, or stopped in obstructed traffic in neutral or park.",
+      "number": null,
+      "unit": null,
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 25, "quote": "Illinois law prohibits the use of handheld cellphones, texting, or using other electronic communications while operating a motor vehicle. Hands-free devices or Bluetooth technology is allowed for persons age 19 and older."},
+      "status": "unverified"
+    },
+    {
+      "key": "texting_ban",
+      "value": "Texting banned for all drivers",
+      "detail": "Texting while driving is illegal for everyone. Watching or streaming live video, video conferencing and using social media on a phone while driving are also violations.",
+      "number": null,
+      "unit": null,
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 25, "quote": "Illinois law prohibits the use of handheld cellphones, texting, or using other electronic communications while operating a motor vehicle."},
+      "status": "unverified"
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Under 19: no phone use at all, even hands-free (emergencies excepted)",
+      "detail": "Drivers under 19 may not use any wireless phone while driving, including hands-free, except to contact law enforcement, a health care provider or emergency services in an emergency.",
+      "number": 19,
+      "unit": "years",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 21, "quote": "Any wireless/cellphone use while driving, including a hands-free device, is prohibited for a driver under age 19, except in the case of an emergency to contact a law enforcement agency, health care provider, or emergency services agency."},
+      "status": "unverified"
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "All occupants age 8+, front and back seats",
+      "detail": "All drivers and passengers age 8 and older, front and back, must wear safety belts even with air bags. The driver is responsible for making sure all passengers comply.",
+      "number": 8,
+      "unit": "years",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 26, "quote": "Illinois law requires all drivers and passengers (front and back seats) age 8 and older to wear safety belts, even if the vehicle is equipped with air bags."},
+      "status": "unverified"
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Under 8 in a child restraint; rear-facing until age 2 (unless over 40 lb or 40 in)",
+      "detail": "Children under 8 must be in an appropriate child safety restraint system (booster seats only with a lap/shoulder belt). Children must ride rear-facing until 2 unless they weigh more than 40 pounds or are taller than 40 inches.",
+      "number": 8,
+      "unit": "years",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 26, "quote": "The Child Passenger Protection Act requires all children under age 8 to be properly secured in an appropriate child safety restraint system."},
+      "status": "unverified"
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Drive the maximum only under safe conditions; slow for hazards",
+      "detail": "You may drive at the maximum allowable speed only under safe conditions. You must slow down approaching and crossing intersections, on curves, near hill tops and on narrow or winding roads.",
+      "number": null,
+      "unit": null,
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 27, "quote": "You may drive at the maximum allowable speed only under safe conditions."},
+      "status": "unverified"
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "20 mph",
+      "detail": "20 mph in school zones on school days between 6:30 a.m. and 4 p.m. when children are present and signs are posted. Phone use (except hands-free) is also banned there.",
+      "number": 20,
+      "unit": "mph",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 27, "quote": "School zones — 20 mph (on school days between 6:30 a.m. and 4 p.m. when children are present and signs are posted)."},
+      "status": "unverified"
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "30 mph (city/town areas); 15 mph in alleys",
+      "detail": "Unless posted otherwise, the limit in city/town areas is 30 mph and in alleys 15 mph.",
+      "number": 30,
+      "unit": "mph",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 27, "quote": "City/town areas — 30 mph."},
+      "status": "unverified"
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "30 mph (city/town areas)",
+      "detail": "Illinois uses one statewide default for urban (city/town) areas, including business districts: 30 mph unless otherwise posted.",
+      "number": 30,
+      "unit": "mph",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 27, "quote": "City/town areas — 30 mph."},
+      "status": "unverified"
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "55 mph (65 mph on four-lane highways)",
+      "detail": "Unless posted otherwise: 55 mph on other highways and rural areas; 65 mph on highways with four lanes.",
+      "number": 55,
+      "unit": "mph",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 27, "quote": "Highways with four lanes — 65 mph. • Other highways and rural areas — 55 mph."},
+      "status": "unverified"
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "70 mph",
+      "detail": "Interstates and tollways: 70 mph unless otherwise posted.",
+      "number": 70,
+      "unit": "mph",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 27, "quote": "Interstates and tollways — 70 mph."},
+      "status": "unverified"
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Do not drive so slowly that you interfere with normal traffic",
+      "detail": "A minimum speed may be posted on some roads; where none is posted, you must not drive so slowly that you interfere with the normal movement of traffic. Driving below a posted minimum is illegal unless necessary for safety.",
+      "number": null,
+      "unit": null,
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 27, "quote": "When minimum limits are not posted, you should not drive so slowly as to create interference with the normal movement of traffic."},
+      "status": "unverified"
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop unless a sign prohibits it",
+      "detail": "You may turn right on a red light (and on a steady red arrow) after a complete stop, yielding to traffic and pedestrians, unless a sign prohibits it.",
+      "number": null,
+      "unit": null,
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 80, "quote": "You may turn right at a red light unless there is a sign prohibiting it."},
+      "status": "unverified"
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Allowed only from a one-way street onto a one-way street with traffic moving left",
+      "detail": "After a complete stop and yielding, you may turn left on red only from a one-way street onto another one-way street whose traffic moves to the left.",
+      "number": null,
+      "unit": null,
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 80, "quote": "You also may turn left at a red light when turning from a one-way street onto another one-way street that has traffic moving to the left."},
+      "status": "unverified"
+    },
+    {
+      "key": "signal_distance",
+      "value": "100 feet in business/residential areas; 200 feet elsewhere",
+      "detail": "Give a continuous turn signal at least 100 feet before turning in a business or residential area and at least 200 feet before turning in other areas.",
+      "number": 100,
+      "unit": "feet",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 33, "quote": "In a business or residential area, you must give a continuous turn signal for at least 100 feet before turning. In other areas, the signal must be given at least 200 feet before turning."},
+      "status": "unverified"
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the right and let it pass; stop if needed",
+      "detail": "When an emergency vehicle approaches using lights and/or siren, immediately pull to the right side of the road and let it pass, stopping if necessary. If stopped at an intersection, remain stopped until it passes through. Do not drive over fire hoses. The handbook gives no following distance.",
+      "number": null,
+      "unit": null,
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 28, "quote": "When being approached by an emergency vehicle using audible and visual signals (lights and/or sirens), Illinois law requires motorists to immediately pull to the right side of the road and allow the emergency vehicle to pass."},
+      "status": "unverified"
+    },
+    {
+      "key": "move_over_law",
+      "value": "Change lanes away from (or slow down for) stationary vehicles with flashing lights",
+      "detail": "Approaching a stationary emergency/maintenance vehicle showing flashing lights, or an emergency scene, you must yield, move to a lane away from it if possible, and otherwise reduce speed and proceed with caution. The same applies to a disabled vehicle with hazard lights on a four-lane highway.",
+      "number": null,
+      "unit": null,
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 28, "quote": "Illinois law requires motorists to yield, change to a lane away from the emergency workers when possible, and proceed with caution."},
+      "status": "unverified"
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop for a stopped school bus from either direction, except opposing traffic on a four-lane road",
+      "detail": "You must stop before meeting or overtaking a school bus that is loading or unloading, on any road, private road or school parking lot. You need not stop only when you are on a four-lane roadway and the bus is stopped in the opposite direction. Remain stopped until the stop arm is withdrawn and lights are off, or the bus driver signals you to pass.",
+      "number": null,
+      "unit": null,
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 35, "quote": "A vehicle is not required to stop for a school bus when both vehicles are on a four-lane roadway and the bus is stopped in the opposite direction from which a driver is traveling."},
+      "status": "unverified"
+    },
+    {
+      "key": "following_distance",
+      "value": "3 seconds (more in bad conditions; 3-4 seconds behind a motorcycle)",
+      "detail": "Use the three-second rule on good roads in good weather and increase the gap in poor conditions. Allow at least three to four seconds behind a motorcycle.",
+      "number": 3,
+      "unit": "seconds",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 86, "quote": "Use the three-second rule to determine a safe following distance."},
+      "status": "unverified"
+    },
+    {
+      "key": "headlights_required",
+      "value": "Sunset to sunrise, whenever wipers are needed, and when you can't see 1,000 feet",
+      "detail": "Headlights must be on from sunset to sunrise and whenever rain, snow, fog or other conditions require windshield wipers; they should also be used when objects 1,000 feet away cannot be seen.",
+      "number": 1000,
+      "unit": "feet",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 95, "quote": "Vehicles must have two headlights, which must be on from sunset to sunrise and be used when rain, snow, fog, or other conditions require windshield wipers. They should also be used when objects 1,000 feet away cannot be seen."},
+      "status": "unverified"
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "500 feet",
+      "detail": "Dim bright lights within 500 feet of an oncoming vehicle.",
+      "number": 500,
+      "unit": "feet",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 95, "quote": "Bright lights must be dimmed 500 feet before meeting an oncoming vehicle or 300 feet before passing a vehicle."},
+      "status": "unverified"
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "300 feet",
+      "detail": "Dim bright lights when within 300 feet of a vehicle ahead going the same direction (the handbook says 300 feet before passing a vehicle; 625 ILCS 5/12-210(b) says less than 300 feet to the front).",
+      "number": 300,
+      "unit": "feet",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 95, "quote": "Bright lights must be dimmed 500 feet before meeting an oncoming vehicle or 300 feet before passing a vehicle."},
+      "status": "unverified"
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet",
+      "detail": "No standing or parking within 15 feet of a fire hydrant.",
+      "number": 15,
+      "unit": "feet",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 38, "quote": "Within 15 feet of a fire hydrant."},
+      "status": "unverified"
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "20 feet from a crosswalk at an intersection",
+      "detail": "No standing or parking within 20 feet of a crosswalk at an intersection, and never on a crosswalk.",
+      "number": 20,
+      "unit": "feet",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 39, "quote": "Within 20 feet of a fire station driveway or crosswalk at an intersection."},
+      "status": "unverified"
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Never within an intersection (and 20 feet from a crosswalk at an intersection)",
+      "detail": "Stopping, standing or parking is prohibited within an intersection, on a crosswalk or sidewalk; standing or parking is also prohibited within 20 feet of a crosswalk at an intersection.",
+      "number": null,
+      "unit": null,
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 38, "quote": "On a sidewalk, crosswalk, or within an intersection."},
+      "status": "unverified"
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet",
+      "detail": "No standing or parking within 30 feet of a STOP sign, YIELD sign or traffic control signal.",
+      "number": 30,
+      "unit": "feet",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 39, "quote": "Within 30 feet of a STOP sign, YIELD sign, or traffic control signal."},
+      "status": "unverified"
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet from the nearest rail",
+      "detail": "No parking within 50 feet of the nearest rail of a railroad crossing.",
+      "number": 50,
+      "unit": "feet",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 39, "quote": "Within 50 feet of the nearest rail of a railroad crossing."},
+      "status": "unverified"
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet from a fire station driveway",
+      "detail": "No standing or parking within 20 feet of a fire station driveway.",
+      "number": 20,
+      "unit": "feet",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 39, "quote": "Within 20 feet of a fire station driveway or crosswalk at an intersection."},
+      "status": "unverified"
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "Within 12 inches of the curb",
+      "detail": "On a two-way street, park with the right-hand wheels parallel to and within 12 inches of the curb; on a one-way street, within 12 inches of the right or left curb, facing the direction of traffic.",
+      "number": 12,
+      "unit": "inches",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 38, "quote": "When parking on streets with two-way traffic, park so the right-hand wheels are parallel to and within 12 inches of the curb."},
+      "status": "unverified"
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "15-50 feet from the crossing",
+      "detail": "Stop within 15 to 50 feet of a railroad crossing when there is a stop sign, flashing signal, lowered gate, flagger signal or approaching train.",
+      "number": 15,
+      "unit": "feet",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 36, "quote": "When approaching a railroad crossing, you must stop within 15-50 feet if there is a posted stop sign, if the electric signal is flashing, or if the crossing gate is lowered."},
+      "status": "unverified"
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet",
+      "detail": "Pass bicyclists slowly, leaving at least 3 feet from the edge of your side mirror, including bicyclists on the shoulder or in a bike lane; if you can't leave 3 feet, wait.",
+      "number": 3,
+      "unit": "feet",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 46, "quote": "When passing a bicyclist, motorists must do so slowly and leave at least 3 feet of passing space from the edge of the vehicle’s side mirror."},
+      "status": "unverified"
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Stop for pedestrians in marked crosswalks; give walkers 3 feet when passing",
+      "detail": "Drivers must stop and yield when a pedestrian is in a marked crosswalk, and yield in unmarked crosswalks on the driver's side without signals. Keep at least 3 feet when passing a pedestrian walking on the road or shoulder.",
+      "number": 3,
+      "unit": "feet",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 31, "quote": "When passing a pedestrian who is walking on the road or shoulder of the roadway, keep a minimum of 3 feet between your vehicle and the pedestrian."},
+      "status": "unverified"
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Report crashes with death, injury, or over $1,500 damage ($500 if uninsured)",
+      "detail": "Regardless of fault, the driver must report a crash involving death, injury or property damage over $1,500 (over $500 if any vehicle is uninsured), and any crash involving a school bus. The handbook says a driver has 30 minutes to report a crash; failing to report can bring a fine up to $2,500 and up to one year in jail.",
+      "number": 1500,
+      "unit": "USD",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 57, "quote": "Regardless of fault, a crash report must be filed by the driver of a vehicle if the crash involves death, bodily injury, or property damage of more than $1,500."},
+      "status": "unverified"
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "25/50/20",
+      "detail": "Minimum liability: $25,000 for injury or death of one person, $50,000 for more than one person, and $20,000 for property damage. Proof must be carried (paper or electronic).",
+      "number": null,
+      "unit": "USD",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 101, "quote": "$25,000 for injury or death of one person in a crash. • $50,000 for injury or death of more than one person in a crash. • $20,000 for damage to property of another person."},
+      "status": "unverified"
+    },
+    {
+      "key": "point_system",
+      "value": "Suspension for 3 moving violations in 12 months (2 in 24 months if under 21)",
+      "detail": "The Secretary of State assigns points to convictions (92 Ill. Adm. Code 1040) and may suspend for three traffic violation convictions in 12 months, or two within 24 months for drivers under 21 (minimum 30-day suspension for under-21 drivers).",
+      "number": 3,
+      "unit": "violations",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 63, "quote": "Three traffic violation convictions during a 12-month period. (If you are under age 21 at the time of arrest, two traffic violations within any 24-month period.)"},
+      "status": "unverified"
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "No helmet law",
+      "detail": "Illinois does not require motorcycle helmets, but the manual strongly recommends a properly fitted helmet plus face or eye protection.",
+      "number": null,
+      "unit": null,
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_x140.pdf", "page": 6, "quote": "A helmet is not required under Illinois law; however, a rider who wears a properly fitted helmet greatly reduces the chance of a fatal head injury in an accident"},
+      "status": "unverified"
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Not allowed",
+      "detail": "Riders may not pass between two vehicles going the same direction unless an unobstructed lane is available, and may pass on the right only with at least 8 feet of unobstructed pavement. Car drivers should not share a lane with a motorcycle.",
+      "number": null,
+      "unit": null,
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_x140.pdf", "page": 5, "quote": "Motorcycle riders are prohibited from passing between two other vehicles going in the same direction"},
+      "status": "unverified"
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Construction zone speed limits apply 24/7, and work zones are no-passing zones",
+      "summary": "Posted construction zone speed limits must be obeyed 24 hours a day, seven days a week, whether or not workers are present, and all Illinois construction zones are no-passing zones. Drivers must also stop handheld phone use there.",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 28, "quote": "Motorists must obey the posted construction zone speed limit 24 hours a day, seven days a week, regardless of the presence of workers."},
+      "status": "unverified"
+    },
+    {
+      "title": "No phone use or photography within 500 feet of an emergency scene",
+      "summary": "Illinois prohibits taking photos and using wireless phones within 500 feet of an emergency scene, with limited exceptions.",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 28, "quote": "Illinois law prohibits photography and the use of wireless/cellphones within 500 feet of an emergency scene, except in certain circumstances."},
+      "status": "unverified"
+    },
+    {
+      "title": "Left lane on interstates is for passing",
+      "summary": "On an interstate or full access-controlled freeway you may not drive in the left lane except to pass, unless no one is behind you, traffic or weather makes it necessary, there is an obstruction, or you are yielding to emergency or construction vehicles.",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 32, "quote": "When driving on an interstate highway or full access controlled freeway, you may not drive in the left lane(s) except when passing another vehicle."},
+      "status": "unverified"
+    },
+    {
+      "title": "Passing a stopped school bus: suspension and $300 fine",
+      "summary": "A conviction for passing a stopped school bus with flashing lights and stop arm extended suspends your license and carries a mandatory $300 fine plus community service. An owner who won't name the driver faces a three-month registration suspension.",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 36, "quote": "If convicted of this violation, you will be subject to a mandatory fine of $300 and community service in an amount set by the court."},
+      "status": "unverified"
+    },
+    {
+      "title": "Dark traffic signals mean an all-way stop",
+      "summary": "When traffic signals are not working, treat the intersection as an all-way stop: come to a complete stop and yield before entering, unless law enforcement directs otherwise.",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 80, "quote": "When traffic control signals are not working, you must always treat the intersection as an all-way stop by coming to a complete stop, unless directed otherwise by law enforcement."},
+      "status": "unverified"
+    },
+    {
+      "title": "Zipper merge in congested lane reductions",
+      "summary": "When a lane ends and traffic is congested, use both lanes up to the lane-reduction point and merge there, taking turns. When traffic is light, merge early.",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 74, "quote": "During times of congestion, it is advised that you use both lanes to advance to the lane reduction point and merge at that location, alternating turns. This is also known as the “zipper merge,” as two sides merge into one like a zipper."},
+      "status": "unverified"
+    },
+    {
+      "title": "Dutch Reach for opening car doors",
+      "summary": "You may not open a door on the traffic side unless it is safe; open the driver's door with your right hand so you turn and check for bicyclists and vehicles (the Dutch Reach).",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 33, "quote": "This is more commonly known as the Dutch Reach."},
+      "status": "unverified"
+    },
+    {
+      "title": "Do not flash turn signals as a 'do pass' signal",
+      "summary": "It is against the law to flash your turn signals to tell another driver it is safe to pass. When passing on a two-lane road, return to your lane before getting within 200 feet of an oncoming vehicle.",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 31, "quote": "It is against the law to flash turn signals as a courtesy or “do pass” signal to other drivers."},
+      "status": "unverified"
+    },
+    {
+      "title": "Headlights required whenever wipers are in use",
+      "summary": "Illinois law requires headlights whenever you are using your windshield wipers.",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 88, "quote": "Illinois law requires you to use your headlights when operating your windshield wipers."},
+      "status": "unverified"
+    },
+    {
+      "title": "Cannabis: THC per se limits and sealed, odor-proof containers",
+      "summary": "It is illegal to drive with a THC concentration of 5 ng/mL or more of whole blood (10 ng/mL of other bodily substance). Cannabis may be carried only in a sealed, odor-proof, child-resistant container, and no one may use it in a vehicle.",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 51, "quote": "Cannabis may only be transported in a vehicle in a sealed, odor-proof, and child-resistant container. No driver or passenger may use cannabis in a motor vehicle."},
+      "status": "unverified"
+    },
+    {
+      "title": "Under 21: two moving violations in 24 months means suspension",
+      "summary": "A driver under 21 convicted of two or more moving violations within 24 months faces at least a 30-day suspension and is limited to one court supervision for serious traffic offenses.",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 23, "quote": "A driver under age 21 convicted of two or more moving violations within a 24-month period will face a minimum 30-day suspension of their driver’s license."},
+      "status": "unverified"
+    },
+    {
+      "title": "Loud sound systems: audible at 75 feet is illegal",
+      "summary": "You may not operate a vehicle sound system at a volume that can be heard 75 feet or more from the vehicle while driving on a highway.",
+      "source": {"url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf", "page": 39, "quote": "Operate or permit to be operated any sound system (radio, tape player or disc player) at a volume that can be heard 75 feet or more from a vehicle being driven on a highway."},
+      "status": "unverified"
+    }
+  ],
+  "officialPracticeTests": [
+    "https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_ds9.pdf"
+  ],
+  "gaps": [
+    "emergency_vehicles: the handbook gives no minimum distance for following an emergency vehicle or fire apparatus, so no following distance is recorded.",
+    "dui_first_offense: the handbook gives the license penalty (minimum one-year revocation, plus a six-month statutory summary suspension for failing a test) but no first-offense fine amounts.",
+    "speed_limit_residential / speed_limit_business_district: Illinois sets one default for urban (city/town) districts (30 mph, 625 ILCS 5/11-601(c)), with no separate residential or business limit.",
+    "point_system: the handbook does not describe points; the point values are in 92 Ill. Adm. Code 1040.20. Only the handbook's suspension thresholds are recorded.",
+    "knowledgeTest.timeLimitMinutes: no official source states a time limit.",
+    "knowledgeTest.roadSigns: the 35-question/15-sign breakdown comes from the Rules of the Road Review Workbook (DSD A 342.1, April 2023), the newest official source that gives it; the 2026 handbook only says sign identification is part of the exam.",
+    "crash_reporting: the handbook says a driver has 30 minutes to report a crash. That figure appears to come from the duty to report to police (625 ILCS 5/11-401(b)), not a written-report deadline, so it is recorded only in the detail text."
+  ]
+}
