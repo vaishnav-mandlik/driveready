@@ -1,14 +1,18 @@
-import React, {useEffect, useMemo} from 'react';
+import React, {useEffect, useMemo, useRef} from 'react';
 import {ActivityIndicator, StatusBar, StyleSheet, useColorScheme, View} from 'react-native';
-import {DarkTheme, DefaultTheme, NavigationContainer, Theme as NavTheme} from '@react-navigation/native';
+import {DarkTheme, DefaultTheme, NavigationContainer, NavigationState, Theme as NavTheme} from '@react-navigation/native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import {useHydrated} from './src/hooks/useLearner';
 import {RootNavigator} from './src/navigation/RootNavigator';
 import {checkAchievements} from './src/store/actions';
+import {useSettings} from './src/store/settings';
 import {ThemeProvider, useTheme} from './src/theme/ThemeProvider';
 
 function Navigation() {
   const theme = useTheme();
+  // Changing the language remounts every screen (so all text is re-read) on the same route stack.
+  const language = useSettings(s => s.language);
+  const navState = useRef<NavigationState | undefined>(undefined);
   const navTheme = useMemo<NavTheme>(() => {
     const base = theme.dark ? DarkTheme : DefaultTheme;
     return {
@@ -31,7 +35,13 @@ function Navigation() {
   }, []);
 
   return (
-    <NavigationContainer theme={navTheme}>
+    <NavigationContainer
+      key={language}
+      theme={navTheme}
+      initialState={navState.current}
+      onStateChange={state => {
+        navState.current = state;
+      }}>
       <StatusBar barStyle={theme.dark ? 'light-content' : 'dark-content'} />
       <RootNavigator />
     </NavigationContainer>

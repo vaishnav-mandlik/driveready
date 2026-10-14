@@ -10,6 +10,7 @@
 import {existsSync, readdirSync, readFileSync, statSync} from 'node:fs';
 import {basename, dirname, join, relative, resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {I18N, LANGS, lessonHash, loadSigns, questionHash, sameNumbers, signHash, sourcePath, stateStrings, textHash} from './i18n-lib.mjs';
 
 const APP = join(dirname(fileURLToPath(import.meta.url)), '..');
 const CONTENT = join(APP, 'src', 'content');
@@ -274,6 +275,95 @@ for (const f of listJson(join(CONTENT, 'lessons'))) {
   }
 }
 
+// ---- translations (src/content/i18n/<lang>/, see scripts/i18n.mjs) ---------------
+// Errors: broken structure or changed numbers. Stale entries (English edited after translating)
+// are only warnings: the app shows the English for them until they are re-translated.
+const translated = {};
+for (const lang of LANGS) {
+  const base = join(I18N, lang);
+  let done = 0;
+  let stale = 0;
+  for (const f of listJson(base)) {
+    if (only.size && !only.has(f)) {
+      continue;
+    }
+    const t = readJson(f);
+    if (!t) {
+      continue;
+    }
+    const rel = relative(base, f).split('\\').join('/');
+    if (rel.startsWith('signs/')) {
+      const signs = new Map(loadSigns().map(x => [x.code, x]));
+      for (const [code, e] of Object.entries(t)) {
+        const src = signs.get(code);
+        if (!src) {
+          err(f, `${code}: unknown sign code`);
+        } else if (!e.name || !e.meaning || !e.shape) {
+          err(f, `${code}: needs name, meaning, shape`);
+        } else if (!sameNumbers(src.meaning, e.meaning)) {
+          err(f, `${code}: numbers differ from the English meaning`);
+        } else if (e.h !== signHash(src)) {
+          stale++;
+          warn(f, `${code}: stale (English changed)`);
+        } else {
+          done++;
+        }
+      }
+      continue;
+    }
+    const src = sourcePath(lang, f);
+    if (!existsSync(src)) {
+      err(f, `no English source at ${relative(APP, src)}`);
+      continue;
+    }
+    const en = readJson(src);
+    if (rel.startsWith('questions/')) {
+      const byId = new Map(en.map(q => [q.id, q]));
+      for (const [id, e] of Object.entries(t)) {
+        const q = byId.get(id);
+        if (!q) {
+          warn(f, `${id}: question no longer exists (re-import to drop it)`);
+        } else if (typeof e.p !== 'string' || !e.p.trim() || typeof e.e !== 'string' || !e.e.trim() || !Array.isArray(e.c) || e.c.length !== q.choices.length || e.c.some(c => typeof c !== 'string' || !c.trim())) {
+          err(f, `${id}: needs p, e and ${q.choices.length} non-empty choices`);
+        } else if (!sameNumbers(q.prompt, e.p) || !sameNumbers(q.explanation, e.e) || q.choices.some((c, i) => !sameNumbers(c, e.c[i]))) {
+          err(f, `${id}: numbers differ from the English`);
+        } else if (e.h !== questionHash(q)) {
+          stale++;
+          warn(f, `${id}: stale (English changed)`);
+        } else {
+          done++;
+        }
+      }
+    } else if (rel.startsWith('lessons/')) {
+      if (t.id !== en.id) {
+        err(f, `id ${t.id} does not match ${en.id}`);
+      } else if (t.h !== lessonHash(en)) {
+        stale++;
+        warn(f, 'stale lesson (English changed)');
+      } else {
+        done++;
+      }
+    } else if (rel.startsWith('states/')) {
+      const strings = new Map(stateStrings(en).map(x => [textHash(x), x]));
+      for (const [h, es] of Object.entries(t)) {
+        const x = strings.get(h);
+        if (!x) {
+          warn(f, `${h}: string no longer in the English (re-import to drop it)`);
+        } else if (typeof es !== 'string' || !es.trim()) {
+          err(f, `${h}: empty translation`);
+        } else if (!sameNumbers(x, es)) {
+          err(f, `${h}: numbers differ from the English`);
+        } else {
+          done++;
+        }
+      }
+    } else {
+      err(f, 'unexpected translation file location');
+    }
+  }
+  translated[lang] = {done, stale};
+}
+
 // ---- report --------------------------------------------------------------------
 if (!quiet) {
   for (const w of warnings) {
@@ -292,5 +382,8 @@ console.log(
 );
 if (!quiet) {
   console.log(byTrack);
+  for (const [lang, t] of Object.entries(translated)) {
+    console.log(`translations ${lang}: ${t.done} current, ${t.stale} stale (run node scripts/i18n.mjs status ${lang})`);
+  }
 }
 process.exit(errors.length ? 1 : 0);

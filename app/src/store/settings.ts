@@ -1,6 +1,7 @@
 import {create} from 'zustand';
 import {persist} from 'zustand/middleware';
 import type {StateCode, TrackId} from '../data/types';
+import {deviceLanguage, type Lang} from '../i18n/lang';
 import {persistStorage} from './storage';
 
 export type ThemeMode = 'system' | 'light' | 'dark';
@@ -35,6 +36,8 @@ export interface SettingsState {
   reminder: ReminderSettings;
   /** Read-aloud speech rate (0.5–1.5). */
   speechRate: number;
+  /** App and content language (content falls back to English where untranslated). */
+  language: Lang;
 
   update: (patch: Partial<Omit<SettingsState, 'update' | 'completeOnboarding' | 'resetSettings'>>) => void;
   completeOnboarding: () => void;
@@ -57,6 +60,7 @@ const defaults = {
   examDate: null,
   reminder: {enabled: false, hour: 19, minute: 0},
   speechRate: 1,
+  language: deviceLanguage(),
 };
 
 export const useSettings = create<SettingsState>()(

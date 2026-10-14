@@ -29,6 +29,9 @@ public class DriveReadyModule extends NativeDriveReadySpec implements TextToSpee
   private Boolean ttsReady = null;
   private String pendingText;
   private double pendingRate = 1.0;
+  private String pendingLanguage = "en-US";
+  /** Language tag the engine is currently set to (null = not set yet). */
+  private String currentLanguage;
   private final List<Promise> availabilityWaiters = new ArrayList<>();
 
   public DriveReadyModule(ReactApplicationContext context) {
@@ -46,6 +49,7 @@ public class DriveReadyModule extends NativeDriveReadySpec implements TextToSpee
   private synchronized void ensureTts() {
     if (tts == null) {
       ttsReady = null;
+      currentLanguage = null;
       tts = new TextToSpeech(getReactApplicationContext(), this);
     }
   }
@@ -54,12 +58,9 @@ public class DriveReadyModule extends NativeDriveReadySpec implements TextToSpee
   public synchronized void onInit(int status) {
     ttsReady = status == TextToSpeech.SUCCESS && tts != null;
     if (ttsReady) {
-      int lang = tts.setLanguage(Locale.US);
-      if (lang == TextToSpeech.LANG_MISSING_DATA || lang == TextToSpeech.LANG_NOT_SUPPORTED) {
-        tts.setLanguage(Locale.getDefault());
-      }
+      applyLanguage(pendingLanguage);
       if (pendingText != null) {
-        doSpeak(pendingText, pendingRate);
+        doSpeak(pendingText, pendingRate, pendingLanguage);
         pendingText = null;
       }
     }
@@ -69,19 +70,38 @@ public class DriveReadyModule extends NativeDriveReadySpec implements TextToSpee
     availabilityWaiters.clear();
   }
 
-  private void doSpeak(String text, double rate) {
+  /** Switches the voice language; falls back to the device language if the voice is not installed. */
+  private void applyLanguage(String tag) {
+    if (tag.equals(currentLanguage)) {
+      return;
+    }
+    int result = tts.setLanguage(Locale.forLanguageTag(tag));
+    if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
+      // e.g. es-US missing: try generic Spanish before the device default.
+      String base = tag.split("-")[0];
+      result = tts.setLanguage(new Locale(base));
+      if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
+        tts.setLanguage(Locale.getDefault());
+      }
+    }
+    currentLanguage = tag;
+  }
+
+  private void doSpeak(String text, double rate, String language) {
+    applyLanguage(language);
     tts.setSpeechRate((float) Math.max(0.3, Math.min(2.0, rate)));
     tts.speak(text, TextToSpeech.QUEUE_FLUSH, null, "driveready-utterance");
   }
 
   @Override
-  public synchronized void speak(String text, double rate) {
+  public synchronized void speak(String text, double rate, String language) {
     ensureTts();
     if (Boolean.TRUE.equals(ttsReady)) {
-      doSpeak(text, rate);
+      doSpeak(text, rate, language);
     } else if (ttsReady == null) {
       pendingText = text;
       pendingRate = rate;
+      pendingLanguage = language;
     }
   }
 

@@ -1,7 +1,7 @@
 import React, {useMemo, useState} from 'react';
 import {FlatList, Pressable, StyleSheet, TextInput, View} from 'react-native';
 import {Card, Chip, EmptyState, Icon, IconTile, LargeHeader, Screen, SignImage, Text} from '../../components';
-import {SIGN_CATEGORIES, allSigns, searchSigns} from '../../data/signs';
+import {signCategories, allSigns, searchSigns} from '../../data/signs';
 import type {SignCategory, SignInfo} from '../../data/types';
 import {useLearner} from '../../hooks/useLearner';
 import {haptic} from '../../native';
@@ -42,7 +42,7 @@ export function SignsScreen({navigation}: TabScreenProps<'Signs'>) {
 
   const present = useMemo(() => {
     const set = new Set(allSigns().map(s => s.category));
-    return SIGN_CATEGORIES.filter(c => set.has(c.id));
+    return signCategories().filter(c => set.has(c.id));
   }, []);
   const data = useMemo(() => {
     const list = searchSigns(query);

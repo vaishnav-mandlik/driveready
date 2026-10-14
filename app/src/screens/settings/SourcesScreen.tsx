@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet} from 'react-native';
 import {Card, Divider, Icon, ListRow, Screen, SectionHeader, Text} from '../../components';
-import {DISCLAIMER} from '../../config';
+import {disclaimer} from '../../config';
 import {useLearner} from '../../hooks/useLearner';
 import type {RootScreenProps} from '../../navigation/types';
 import {hueAt, useTheme} from '../../theme/ThemeProvider';
@@ -23,7 +23,7 @@ export function SourcesScreen(_props: RootScreenProps<'Sources'>) {
       <Card variant="tinted" tint={colors.warningSoft}>
         <Text variant="bodyStrong">Not a government app</Text>
         <Text variant="body" style={{marginTop: spacing.xs}}>
-          {DISCLAIMER}
+          {disclaimer()}
         </Text>
       </Card>
 

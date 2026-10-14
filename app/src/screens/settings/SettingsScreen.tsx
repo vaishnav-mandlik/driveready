@@ -5,6 +5,7 @@ import {APP_VERSION, PLAY_STORE_URL, SUPPORT_EMAIL} from '../../config';
 import {stateName} from '../../data/states';
 import {getTrack} from '../../data/tracks';
 import {parseDayKey} from '../../engine/dates';
+import {LANGUAGES, type Lang} from '../../i18n';
 import {reminders} from '../../native';
 import type {RootScreenProps} from '../../navigation/types';
 import {useDriveLog} from '../../store/driveLog';
@@ -38,6 +39,15 @@ export function SettingsScreen({navigation}: RootScreenProps<'Settings'>) {
       ]);
     }
     s.update({reminder: {enabled: ok, hour, minute: 0}});
+  };
+
+  const changeLanguage = (language: Lang) => {
+    s.update({language});
+    if (s.reminder.enabled) {
+      // Re-schedule so the reminder text follows the new language.
+      const copy = reminderCopy(s.state);
+      reminders.schedule(s.reminder.hour, s.reminder.minute, copy.title, copy.body).catch(() => false);
+    }
   };
 
   const confirmReset = () =>
@@ -130,6 +140,8 @@ export function SettingsScreen({navigation}: RootScreenProps<'Settings'>) {
           value={s.textScale}
           onChange={v => s.update({textScale: v})}
         />
+        <Text variant="bodyStrong">Language · Idioma</Text>
+        <SegmentedControl<Lang> options={LANGUAGES.map(l => ({label: l.label, value: l.id}))} value={s.language} onChange={changeLanguage} />
       </Card>
       <Card padded={false} style={{paddingHorizontal: spacing.lg, marginTop: spacing.md}}>
         <ToggleRow title="Haptic feedback" subtitle="Gentle vibration on answers" icon="hand" value={s.haptics} onValueChange={v => s.update({haptics: v})} />

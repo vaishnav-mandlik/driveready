@@ -1,7 +1,7 @@
 import React, {useMemo, useState} from 'react';
 import {FlatList, Pressable, StyleSheet, TextInput, View} from 'react-native';
 import {Chip, Icon, Screen, Text} from '../../components';
-import {hasResearchedData, STATE_LIST, StateListItem} from '../../data/states';
+import {hasResearchedData, STATE_LIST, stateList, StateListItem} from '../../data/states';
 import type {StateCode} from '../../data/types';
 import {haptic} from '../../native';
 import type {RootScreenProps} from '../../navigation/types';
@@ -16,8 +16,11 @@ export function PickStateScreen({navigation, route}: RootScreenProps<'PickState'
   const [query, setQuery] = useState('');
 
   const data = useMemo(() => {
+    const list = stateList();
     const q = query.trim().toLowerCase();
-    return q ? STATE_LIST.filter(s => s.name.toLowerCase().includes(q) || s.code.toLowerCase() === q) : STATE_LIST;
+    // Match the displayed name, the English name (e.g. "New York" for "Nueva York") or the code.
+    const english = new Map(STATE_LIST.map(st => [st.code, st.name.toLowerCase()]));
+    return q ? list.filter(st => st.name.toLowerCase().includes(q) || english.get(st.code)!.includes(q) || st.code.toLowerCase() === q) : list;
   }, [query]);
 
   const choose = (code: StateCode) => {

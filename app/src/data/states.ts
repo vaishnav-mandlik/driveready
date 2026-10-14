@@ -1,4 +1,6 @@
 import {stateInfoLoaders} from '../content';
+import {currentLang, defineStrings, tr} from '../i18n';
+import {localizeStateInfo} from '../i18n/content';
 import type {ExamFormat, StateCode, StateInfo} from './types';
 
 export interface StateListItem {
@@ -61,10 +63,53 @@ export const STATE_LIST: StateListItem[] = [
   {code: 'WY', name: 'Wyoming'},
 ];
 
+/** Spanish names that differ from the English ones. */
+const NAMES_ES: Partial<Record<StateCode, string>> = {
+  DC: 'Distrito de Columbia',
+  HI: 'Hawái',
+  LA: 'Luisiana',
+  MS: 'Misisipi',
+  NC: 'Carolina del Norte',
+  ND: 'Dakota del Norte',
+  NJ: 'Nueva Jersey',
+  NM: 'Nuevo México',
+  NY: 'Nueva York',
+  PA: 'Pensilvania',
+  SC: 'Carolina del Sur',
+  SD: 'Dakota del Sur',
+  WV: 'Virginia Occidental',
+};
+
+const S = defineStrings(
+  {
+    yourState: 'Your state',
+    fallbackNotes: 'Typical format. Check your state agency for the exact number of questions and passing score.',
+    agency: 'Department of Motor Vehicles',
+    handbook: 'Driver Handbook',
+  },
+  {
+    yourState: 'Tu estado',
+    fallbackNotes: 'Formato típico. Consulta con la agencia de tu estado el número exacto de preguntas y la calificación para aprobar.',
+    agency: 'Departamento de Vehículos Motorizados',
+    handbook: 'Manual del conductor',
+  },
+);
+
 const nameByCode = new Map(STATE_LIST.map(s => [s.code, s.name]));
 
 export function stateName(code: StateCode | null | undefined): string {
-  return (code && nameByCode.get(code)) || 'Your state';
+  if (!code || !nameByCode.has(code)) {
+    return tr(S).yourState;
+  }
+  return (currentLang() === 'es' && NAMES_ES[code]) || nameByCode.get(code)!;
+}
+
+/** All states + DC in the current language, alphabetical by displayed name. */
+export function stateList(): StateListItem[] {
+  if (currentLang() === 'en') {
+    return STATE_LIST;
+  }
+  return STATE_LIST.map(s => ({code: s.code, name: stateName(s.code)})).sort((a, b) => a.name.localeCompare(b.name, 'es'));
 }
 
 export function isStateCode(v: unknown): v is StateCode {
@@ -72,35 +117,39 @@ export function isStateCode(v: unknown): v is StateCode {
 }
 
 /** Used only if a state's researched data is missing; flagged in the UI as approximate. */
-const FALLBACK_EXAM: ExamFormat = {
-  questions: 40,
-  passingScore: 32,
-  passingPercent: 80,
-  timeLimitMinutes: null,
-  roadSigns: null,
-  format: null,
-  languages: null,
-  retestWait: null,
-  notes: 'Typical format. Check your state agency for the exact number of questions and passing score.',
-  sourceUrl: '',
-};
+function fallbackExam(): ExamFormat {
+  return {
+    questions: 40,
+    passingScore: 32,
+    passingPercent: 80,
+    timeLimitMinutes: null,
+    roadSigns: null,
+    format: null,
+    languages: null,
+    retestWait: null,
+    notes: tr(S).fallbackNotes,
+    sourceUrl: '',
+  };
+}
 
-const cache = new Map<StateCode, StateInfo>();
+const cache = new Map<string, StateInfo>();
 
 export function getStateInfo(code: StateCode): StateInfo {
-  const hit = cache.get(code);
+  const lang = currentLang();
+  const key = `${lang}:${code}`;
+  const hit = cache.get(key);
   if (hit) {
     return hit;
   }
   const load = stateInfoLoaders[code];
   const info: StateInfo = load
-    ? load()
+    ? {...localizeStateInfo(load(), lang), name: stateName(code)}
     : {
         code,
         name: stateName(code),
-        agency: {name: 'Department of Motor Vehicles', abbreviation: 'DMV', website: ''},
-        handbook: {title: 'Driver Handbook', edition: '', url: ''},
-        exam: FALLBACK_EXAM,
+        agency: {name: tr(S).agency, abbreviation: 'DMV', website: ''},
+        handbook: {title: tr(S).handbook, edition: '', url: ''},
+        exam: fallbackExam(),
         motorcycleExam: null,
         cdlExam: null,
         facts: [],
@@ -108,7 +157,7 @@ export function getStateInfo(code: StateCode): StateInfo {
         officialPracticeTests: [],
         verifiedOn: '',
       };
-  cache.set(code, info);
+  cache.set(key, info);
   return info;
 }
 

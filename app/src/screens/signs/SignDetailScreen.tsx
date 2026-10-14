@@ -1,7 +1,7 @@
 import React, {useLayoutEffect, useMemo} from 'react';
 import {StyleSheet, View} from 'react-native';
 import {Button, Card, Chip, Divider, EmptyState, Icon, ListRow, Screen, SectionHeader, SignImage, Text} from '../../components';
-import {SIGN_CATEGORIES, allSigns, getSign} from '../../data/signs';
+import {signCategories, allSigns, getSign} from '../../data/signs';
 import {useLearner} from '../../hooks/useLearner';
 import {speech} from '../../native';
 import type {RootScreenProps} from '../../navigation/types';
@@ -18,7 +18,7 @@ export function SignDetailScreen({navigation, route}: RootScreenProps<'SignDetai
   const list = allSigns();
   const idx = list.findIndex(s => s.code === code);
   const related = useMemo(() => bank.questions.filter(q => q.sign === code), [bank, code]);
-  const category = SIGN_CATEGORIES.find(c => c.id === sign?.category);
+  const category = signCategories().find(c => c.id === sign?.category);
 
   useLayoutEffect(() => {
     navigation.setOptions({title: sign?.name ?? ''});

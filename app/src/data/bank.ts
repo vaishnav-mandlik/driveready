@@ -1,4 +1,6 @@
 import {stateQuestionLoaders, universalQuestionLoaders} from '../content';
+import {currentLang} from '../i18n';
+import {clearTranslationCache, localizeStateQuestions, localizeUniversal} from '../i18n/content';
 import type {Question, StateCode, TopicId, TrackId} from './types';
 
 /** All questions that apply to one learner: universal ones for the track + their state's. */
@@ -14,31 +16,40 @@ export interface Bank {
   signQuestions: Question[];
 }
 
-const universalCache = new Map<TrackId, Question[]>();
-const stateCache = new Map<StateCode, Question[]>();
+// Caches are keyed by language: questions are shown in the learner's language where translated.
+const universalCache = new Map<string, Question[]>();
+const stateCache = new Map<string, Question[]>();
 const bankCache = new Map<string, Bank>();
 
 function universal(track: TrackId): Question[] {
-  let qs = universalCache.get(track);
+  const lang = currentLang();
+  const key = `${lang}:${track}`;
+  let qs = universalCache.get(key);
   if (!qs) {
-    qs = universalQuestionLoaders[track].flatMap(load => load());
-    universalCache.set(track, qs);
+    qs = localizeUniversal(
+      universalQuestionLoaders[track].flatMap(load => load()),
+      lang,
+      track,
+    );
+    universalCache.set(key, qs);
   }
   return qs;
 }
 
 function stateOnly(state: StateCode): Question[] {
-  let qs = stateCache.get(state);
+  const lang = currentLang();
+  const key = `${lang}:${state}`;
+  let qs = stateCache.get(key);
   if (!qs) {
     const load = stateQuestionLoaders[state];
-    qs = load ? load() : [];
-    stateCache.set(state, qs);
+    qs = load ? localizeStateQuestions(load(), lang, state) : [];
+    stateCache.set(key, qs);
   }
   return qs;
 }
 
 export function getBank(track: TrackId, state: StateCode): Bank {
-  const key = `${track}:${state}`;
+  const key = `${currentLang()}:${track}:${state}`;
   const hit = bankCache.get(key);
   if (hit) {
     return hit;
@@ -84,7 +95,12 @@ export function resolveIds(bank: Bank, ids: Iterable<string>): Question[] {
   return out;
 }
 
-const normalize = (s: string) => s.toLowerCase().replace(/[^a-z0-9 ]+/g, ' ');
+const ACCENTS: Record<string, string> = {á: 'a', é: 'e', í: 'i', ó: 'o', ú: 'u', ü: 'u', ñ: 'n'};
+const normalize = (s: string) =>
+  s
+    .toLowerCase()
+    .replace(/[áéíóúüñ]/g, c => ACCENTS[c])
+    .replace(/[^a-z0-9 ]+/g, ' ');
 
 /** Simple multi-word search over prompt, choices and explanation. */
 export function searchBank(bank: Bank, query: string, limit = 60): Question[] {
@@ -120,4 +136,5 @@ export function clearBankCache() {
   universalCache.clear();
   stateCache.clear();
   bankCache.clear();
+  clearTranslationCache();
 }

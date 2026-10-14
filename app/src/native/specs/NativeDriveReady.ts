@@ -3,7 +3,8 @@ import {TurboModuleRegistry} from 'react-native';
 
 /** App-level Turbo Native Module (Android: DriveReadyModule.java). */
 export interface Spec extends TurboModule {
-  speak(text: string, rate: number): void;
+  /** `language` is a BCP-47 tag such as "en-US" or "es-US". */
+  speak(text: string, rate: number, language: string): void;
   stopSpeaking(): void;
   isSpeechAvailable(): Promise<boolean>;
   haptic(kind: string): void;

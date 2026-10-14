@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import {Card, Icon, IconName, Screen, SectionHeader, Text} from '../../components';
-import {APP_VERSION, DISCLAIMER} from '../../config';
+import {APP_VERSION, disclaimer} from '../../config';
 import type {RootScreenProps} from '../../navigation/types';
 import {useTheme} from '../../theme/ThemeProvider';
 import {BrandMark} from '../onboarding/WelcomeScreen';
@@ -49,7 +49,7 @@ export function AboutScreen(_props: RootScreenProps<'About'>) {
       </Card>
       <SectionHeader title="Disclaimer" />
       <Card>
-        <Text variant="body">{DISCLAIMER}</Text>
+        <Text variant="body">{disclaimer()}</Text>
       </Card>
       <SectionHeader title="Credits" />
       <Card>

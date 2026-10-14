@@ -1,0 +1,597 @@
+[
+  {
+    "id": "car.rsg.001",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "You pass this sign as you enter a highway work zone. What does it tell you?",
+    "choices": [
+      "Road work will begin 5 miles from here",
+      "Work continues for about the next 5 miles",
+      "The work zone speed limit is 5 mph lower",
+      "A detour will start within the next 5 miles"
+    ],
+    "answer": 1,
+    "explanation": "This sign is posted near the start of a long work zone to show how far the work extends. Expect work zone conditions, and obey work zone signs, for that whole distance.",
+    "sign": "G20-1",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 6F; state driver handbooks (e.g. PA p.22, NY p.49, WI p.30)"
+  },
+  {
+    "id": "car.rsg.002",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "Until you reach this sign, what should you keep doing?",
+    "choices": [
+      "Keep your hazard flashers on for the whole zone",
+      "Stay in the left lane until the work is done",
+      "Follow closely so traffic keeps moving smoothly",
+      "Obey work zone signs, even if no workers are visible"
+    ],
+    "answer": 3,
+    "explanation": "This sign marks the end of the work zone. Until you pass it, keep obeying the work zone signs and watch for workers, equipment and sudden stops, even when no one seems to be working.",
+    "sign": "G20-2",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 6F; state driver handbooks (e.g. CT p.18, KY p.77, UT p.69)"
+  },
+  {
+    "id": "car.rsg.003",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What should you be ready to do after passing this sign?",
+    "choices": [
+      "Leave your route and follow the orange detour signs",
+      "Turn around, because the road ends with no way through",
+      "Stop and wait for a flagger to let you through",
+      "Stay on your route, but drive more slowly"
+    ],
+    "answer": 0,
+    "explanation": "This sign warns that a detour starts at the distance shown, where traffic is sent onto another road. Follow the orange DETOUR signs until they lead you back to your route.",
+    "sign": "W20-2",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 6F; state driver handbooks (e.g. AZ p.40, IN p.35, PA p.22)"
+  },
+  {
+    "id": "car.rsg.004",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What should you do when you see this sign?",
+    "choices": [
+      "Drive around the barricades if no workers are present",
+      "Stop now and wait until the road reopens",
+      "Slow down and plan to use a detour or another route",
+      "Speed up so you can get through before it closes"
+    ],
+    "answer": 2,
+    "explanation": "This sign warns that the road is closed a short distance ahead. Slow down and plan to use the marked detour or another route. Never drive around road-closed barricades.",
+    "sign": "W20-3",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 6F; state driver handbooks (e.g. PA p.22, NY p.49, WI p.30)"
+  },
+  {
+    "id": "car.rsg.005",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign warn you about?",
+    "choices": [
+      "The road becomes a one-way street ahead",
+      "Your lane ends, so merge with traffic going your way",
+      "Traffic in both directions will share one lane",
+      "The road narrows, but two lanes stay open"
+    ],
+    "answer": 2,
+    "explanation": "This work zone sign means that one lane will be used by traffic in both directions, taking turns. Usually a flagger or a temporary signal controls who goes.",
+    "sign": "W20-4",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 6F; state driver handbooks (e.g. NH p.29, SC p.67)"
+  },
+  {
+    "id": "car.rsg.006",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "Why should you be ready to stop after passing this sign?",
+    "choices": [
+      "Oncoming traffic may need the lane, so you may have to wait",
+      "Workers may be paving your lane, so you will have to turn around",
+      "A train crossing is just ahead of the work zone",
+      "Only buses and trucks may use the road ahead"
+    ],
+    "answer": 0,
+    "explanation": "Where a two-way road is reduced to one lane, traffic from each direction takes turns. A flagger, pilot car or temporary signal will stop you while oncoming traffic uses the lane.",
+    "sign": "W20-4",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 6F; state driver handbooks (e.g. NH p.29, SC p.67)"
+  },
+  {
+    "id": "car.rsg.007",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "You are driving in the right lane and see this sign. What should you do?",
+    "choices": [
+      "Stay in your lane, because the closure is only for trucks",
+      "Use the right shoulder to get past the closed area",
+      "Stop now and wait for a flagger to wave you on",
+      "Move left into an open lane when it is safe"
+    ],
+    "answer": 3,
+    "explanation": "This sign warns that the right lane is closed ahead for work. Watch for a safe gap and move into an open lane before the closure. The shoulder is not a travel lane.",
+    "sign": "W20-5R",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 6F; state driver handbooks (e.g. PA p.22, MA p.96)"
+  },
+  {
+    "id": "car.rsg.008",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "How is this orange sign different from a yellow sign warning that the right lane ends?",
+    "choices": [
+      "The orange sign applies only at night",
+      "The orange sign marks a temporary closure for road work",
+      "The orange sign applies only to large trucks",
+      "The orange sign is only advice, so you do not have to merge"
+    ],
+    "answer": 1,
+    "explanation": "Orange signs are used for temporary work zones; this one means the lane is closed for work and will reopen later. A yellow lane-ends sign warns of a permanent change in the road. In both cases you must merge into an open lane.",
+    "sign": "W20-5R",
+    "difficulty": 3,
+    "ref": "MUTCD Sec. 6F and 2C; state driver handbooks (e.g. PA p.22, NE p.42)"
+  },
+  {
+    "id": "car.rsg.009",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign warn you about?",
+    "choices": [
+      "A crossing guard is helping children cross ahead",
+      "A worker is directing traffic ahead",
+      "Crews are working on the shoulder ahead",
+      "A police checkpoint is set up ahead"
+    ],
+    "answer": 1,
+    "explanation": "This orange work zone sign warns of a flagger ahead: a worker who uses a STOP/SLOW paddle or flag to control traffic. School and pedestrian crossing signs are yellow or fluorescent yellow-green, not orange.",
+    "sign": "W20-7",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 6F; state driver handbooks (e.g. NY p.49, WI p.30, IL p.76)"
+  },
+  {
+    "id": "car.rsg.010",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "You see this sign on a two-lane road. What should you do?",
+    "choices": [
+      "Speed up to pass the flagger before traffic is stopped",
+      "Move into the oncoming lane to go around the flagger",
+      "Pass the flagger slowly if no oncoming traffic is in sight",
+      "Slow down, be ready to stop, and follow the flagger's directions"
+    ],
+    "answer": 3,
+    "explanation": "A flagger is ahead controlling traffic through the work zone. Slow down, be prepared to stop, and obey the flagger's signals, which have the same authority as a regulatory sign.",
+    "sign": "W20-7",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 6F; state driver handbooks (e.g. NY p.49, WI p.30, IL p.76)"
+  },
+  {
+    "id": "car.rsg.011",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign warn you about?",
+    "choices": [
+      "Workers are on or near the road ahead",
+      "A flagger is directing traffic ahead",
+      "Loose gravel or debris is on the road ahead",
+      "Snowplows are clearing the road ahead"
+    ],
+    "answer": 0,
+    "explanation": "This orange sign shows a worker with a shovel: people are working on or near the road. Slow down, stay alert and give them room. A flagger sign shows a person holding a flag or paddle instead.",
+    "sign": "W21-1",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 6F; state driver handbooks (e.g. PA p.22, IL p.75, WI p.30)"
+  },
+  {
+    "id": "car.rsg.012",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign tell you?",
+    "choices": [
+      "Your lane is closed, so move onto the shoulder",
+      "The road ahead has no shoulder to pull onto",
+      "Work crews are on the shoulder ahead",
+      "The shoulder is soft, so keep your wheels off it"
+    ],
+    "answer": 2,
+    "explanation": "This orange work zone sign warns of work on the shoulder ahead. Slow down, stay in your travel lane and watch for workers and equipment. Warnings about missing or soft shoulders are yellow, not orange.",
+    "sign": "W21-5",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 6F; state driver handbooks (e.g. MO p.54, PA p.22)"
+  },
+  {
+    "id": "car.rsg.013",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign tell you?",
+    "choices": [
+      "The road to the left is closed except to Pulaski traffic",
+      "You must turn left because the road ahead is closed",
+      "The way to Pulaski is to the left",
+      "The road to the left is one-way toward Pulaski"
+    ],
+    "answer": 2,
+    "explanation": "Green destination signs point the way to cities, towns and other places. The arrow shows which way to go to reach the place named.",
+    "sign": "D1-1",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2D (guide signs); state driver handbooks (e.g. CT p.53, WI p.31)"
+  },
+  {
+    "id": "car.rsg.014",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does the number on this sign tell you?",
+    "choices": [
+      "Denver is 20 miles ahead on this road",
+      "Denver is about 20 minutes away at the speed limit",
+      "Take Exit 20 to reach Denver",
+      "Route 20 leads to Denver"
+    ],
+    "answer": 0,
+    "explanation": "Green distance signs list places ahead on the road you are on and how many miles away each one is.",
+    "sign": "D2-1",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2D (guide signs); state driver handbooks (e.g. CT p.53, WI p.31)"
+  },
+  {
+    "id": "car.rsg.015",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this green sign tell you?",
+    "choices": [
+      "The name of the town you are entering",
+      "The direction to the business district",
+      "The highway route you are driving on",
+      "The name of the street at the intersection"
+    ],
+    "answer": 3,
+    "explanation": "Street name signs are posted at intersections to tell you the names of the streets that meet there. Many are green with white letters, though some cities use other colors.",
+    "sign": "D3-1",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2D (guide signs); state driver handbooks (e.g. CT p.53, WI p.31)"
+  },
+  {
+    "id": "car.rsg.016",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this small green sign beside a highway tell you?",
+    "choices": [
+      "The next exit is 44 miles ahead on this highway",
+      "Your location along the highway, by mile",
+      "The highway's route number is 44",
+      "The speed limit for trucks is 44 mph"
+    ],
+    "answer": 1,
+    "explanation": "This is a mile marker. Its number shows how many miles you are from where the route begins or enters the state, usually counting from the south or west.",
+    "sign": "D10-2",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2H; state driver handbooks (e.g. GA p.7, TX p.38, OK p.25, PA p.24)"
+  },
+  {
+    "id": "car.rsg.017",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "Your car breaks down on a highway and you call for help. How can signs like this one help?",
+    "choices": [
+      "It shows the phone number for roadside help",
+      "Its number tells responders where you are",
+      "It marks a place where stopping is allowed",
+      "It shows how far away the next gas station is"
+    ],
+    "answer": 1,
+    "explanation": "Mile markers give your exact location along the route. Reporting the route, direction and nearest mile marker helps police and tow trucks find you quickly.",
+    "sign": "D10-2",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2H; state driver handbooks (e.g. TX p.38, OK p.25, MO p.56)"
+  },
+  {
+    "id": "car.rsg.018",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What should drivers expect on a road with this sign?",
+    "choices": [
+      "Motor vehicles are not allowed on this road",
+      "Bicycles are not allowed on this road",
+      "The right lane is only for bicycles",
+      "Bicyclists may be riding on the road, so share it with them"
+    ],
+    "answer": 3,
+    "explanation": "This green sign marks a designated bike route. Cars may still use the road, but expect bicyclists and give them room. It does not by itself reserve a lane for bicycles.",
+    "sign": "D11-1",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 9B; state driver handbooks (e.g. GA p.7, TN p.55, CT p.53)"
+  },
+  {
+    "id": "car.rsg.019",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "This plaque is mounted on top of a green freeway sign. What does its number tell you?",
+    "choices": [
+      "The number of the upcoming exit",
+      "The miles left until the next exit",
+      "The route number of the crossing road",
+      "The speed limit on the exit ramp"
+    ],
+    "answer": 0,
+    "explanation": "This plaque gives the exit (interchange) number. In most states exit numbers are based on the nearest mile marker, which helps you judge how far away your exit is.",
+    "sign": "E1-5P",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2E; state driver handbooks (e.g. PA p.23, FL p.54, MO p.56)"
+  },
+  {
+    "id": "car.rsg.020",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "Where is this sign usually placed?",
+    "choices": [
+      "About one mile before the exit begins",
+      "At the far end of the exit ramp, near the street",
+      "Where the exit ramp leaves the freeway",
+      "At the start of an entrance ramp onto the freeway"
+    ],
+    "answer": 2,
+    "explanation": "This exit gore sign stands in the area where the exit ramp separates from the main lanes. It marks the exact exit point, and its arrow shows the ramp's direction. Move into your exit lane well before you reach it.",
+    "sign": "E5-1",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2E; state driver handbooks (e.g. CT p.53, PA p.23)"
+  },
+  {
+    "id": "car.rsg.021",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "When is the route marked by this sign meant to be used?",
+    "choices": [
+      "Only by police, fire and ambulance crews answering calls",
+      "Only as a detour around road work",
+      "When people must leave an area in an emergency",
+      "Only by trucks carrying hazardous materials"
+    ],
+    "answer": 2,
+    "explanation": "This blue sign marks an evacuation route: the road the public should follow to leave an area during an emergency such as a hurricane. It is not reserved for emergency vehicles.",
+    "sign": "EM1-1",
+    "difficulty": 2,
+    "ref": "MUTCD Ch. 2N; state driver handbooks (e.g. SC p.71, LA p.34)"
+  },
+  {
+    "id": "car.rsg.022",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "The number on this route marker is even. Which way does the highway usually run?",
+    "choices": [
+      "East and west",
+      "North and south",
+      "In a loop around a city",
+      "On a short spur into a city"
+    ],
+    "answer": 0,
+    "explanation": "Interstates with even one- or two-digit numbers generally run east-west, and odd-numbered ones generally run north-south. Three-digit numbers are used for loops and spurs.",
+    "sign": "M1-1",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2D (route markers); state driver handbooks (e.g. MO p.56, PA p.24, LA p.25)"
+  },
+  {
+    "id": "car.rsg.023",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What type of road does this route marker identify?",
+    "choices": [
+      "An Interstate highway",
+      "A state highway",
+      "A county road",
+      "A U.S. highway"
+    ],
+    "answer": 3,
+    "explanation": "The black-and-white shield marks a U.S. numbered route. Interstate markers are red, white and blue shields, and state route markers vary by state.",
+    "sign": "M1-4",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2D (route markers); state driver handbooks (e.g. NC p.87, MD p.23, MI p.56)"
+  },
+  {
+    "id": "car.rsg.024",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "Many states use this round marker. What kind of route does it identify?",
+    "choices": [
+      "A U.S. highway",
+      "A state highway",
+      "An Interstate highway",
+      "A county road"
+    ],
+    "answer": 1,
+    "explanation": "This circle is the basic marker for a state highway. Each state may use its own design, such as the state's outline, but U.S. routes use a shield and Interstates a red, white and blue shield.",
+    "sign": "M1-5",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2D (route markers); state driver handbooks (e.g. NC p.87, MD p.23, MI p.56)"
+  },
+  {
+    "id": "car.rsg.025",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does the number on this marker tell you?",
+    "choices": [
+      "The speed limit on the county road",
+      "The road's county route number",
+      "The distance to the county line",
+      "The number of the next exit"
+    ],
+    "answer": 1,
+    "explanation": "The blue and yellow pentagon marks a county road, and the number is its route number, just as on Interstate, U.S. and state route markers.",
+    "sign": "M1-6",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2D (route markers); state driver handbooks (e.g. NC p.87, MD p.23, MI p.56)"
+  },
+  {
+    "id": "car.rsg.026",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "You are getting drowsy on a long highway trip and see this sign. What is the best choice?",
+    "choices": [
+      "Open a window and keep driving to your exit",
+      "Pull onto the shoulder for a nap",
+      "Drink coffee and keep driving",
+      "Stop at the rest area and take a break"
+    ],
+    "answer": 3,
+    "explanation": "This sign tells you a rest area is ahead. When you feel drowsy, the safe choice is to stop at a rest area or exit and rest. Fresh air and coffee do not cure fatigue, and the shoulder is for emergencies only.",
+    "sign": "D5-1",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2I; state driver handbooks (e.g. IN p.38, KY p.30, NH p.13)"
+  },
+  {
+    "id": "car.rsg.027",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this blue sign tell you?",
+    "choices": [
+      "A public telephone is available nearby",
+      "Phone calls are allowed in this area",
+      "Hand-held phones are banned ahead",
+      "Call this area's road condition hotline"
+    ],
+    "answer": 0,
+    "explanation": "Blue signs show motorist services. This symbol means a public telephone is nearby. It does not change any phone-use rule for drivers.",
+    "sign": "D9-1",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2I (general service signs); state driver handbooks (e.g. MN p.68, LA p.35, MD p.23, IN p.38)"
+  },
+  {
+    "id": "car.rsg.028",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "You see this blue sign near a highway exit. What does it tell you?",
+    "choices": [
+      "A helicopter landing pad is ahead",
+      "A highway rest area is ahead",
+      "A hospital is nearby",
+      "Hotels are at this exit"
+    ],
+    "answer": 2,
+    "explanation": "The white H on a blue sign means a hospital is nearby; follow these signs to reach it. Blue signs show services for travelers.",
+    "sign": "D9-2",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2I (general service signs); state driver handbooks (e.g. MN p.68, LA p.35, MD p.23, IN p.38)"
+  },
+  {
+    "id": "car.rsg.029",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "This blue sign is posted along a highway. What does it tell you?",
+    "choices": [
+      "Only drivers with disabilities may use the next exit",
+      "Watch for wheelchair users crossing the highway",
+      "Facilities ahead are accessible to people with disabilities",
+      "Only cars with disability plates may park ahead"
+    ],
+    "answer": 2,
+    "explanation": "On a blue service sign, this symbol shows that facilities such as a rest area are accessible to people with disabilities. It does not limit who may use the exit or the facility.",
+    "sign": "D9-6",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2I (general service signs); state driver handbooks (e.g. MN p.68, LA p.35, MD p.23, IN p.38)"
+  },
+  {
+    "id": "car.rsg.030",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What service does this sign tell you is available?",
+    "choices": [
+      "Gas (fuel)",
+      "Electric vehicle charging",
+      "Vehicle repair",
+      "A truck weigh station"
+    ],
+    "answer": 0,
+    "explanation": "The fuel pump symbol on a blue sign means gas is available at the next exit or nearby. Electric vehicle charging has its own symbol.",
+    "sign": "D9-7",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2I (general service signs); state driver handbooks (e.g. MN p.68, LA p.35, MD p.23, IN p.38)"
+  },
+  {
+    "id": "car.rsg.031",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What service does this sign tell you is available?",
+    "choices": [
+      "A picnic area",
+      "Lodging",
+      "A campground",
+      "Food"
+    ],
+    "answer": 3,
+    "explanation": "The fork and knife on a blue sign mean food is available nearby. A picnic area is shown with a table symbol on a brown recreation sign.",
+    "sign": "D9-8",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2I (general service signs); state driver handbooks (e.g. MN p.68, LA p.35, MD p.23, IN p.38)"
+  },
+  {
+    "id": "car.rsg.032",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What service does this sign tell you is available?",
+    "choices": [
+      "A hospital",
+      "Lodging",
+      "A rest area",
+      "A campground"
+    ],
+    "answer": 1,
+    "explanation": "The bed symbol on a blue sign means lodging, such as a hotel or motel, is available at the next exit or nearby.",
+    "sign": "D9-9",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2I (general service signs); state driver handbooks (e.g. MN p.68, LA p.35, MD p.23, IN p.38)"
+  },
+  {
+    "id": "car.rsg.033",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this brown sign show?",
+    "choices": [
+      "Restaurants at the next exit",
+      "A picnic area",
+      "A campground",
+      "A playground"
+    ],
+    "answer": 1,
+    "explanation": "Brown signs point to recreational and cultural places. The table symbol means a picnic area. Restaurants are shown on blue service signs with a fork and knife.",
+    "sign": "RS-044",
+    "difficulty": 1,
+    "ref": "MUTCD Ch. 2M (recreational and cultural interest signs); state driver handbooks (e.g. MD p.20, FL p.54, AL p.53)"
+  },
+  {
+    "id": "car.rsg.034",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this brown sign show?",
+    "choices": [
+      "A boat ramp",
+      "A swimming area",
+      "A seafood restaurant",
+      "A fishing area"
+    ],
+    "answer": 3,
+    "explanation": "Brown signs point to recreational and cultural places. The fish and hook symbol means a place for fishing is nearby.",
+    "sign": "RS-063",
+    "difficulty": 1,
+    "ref": "MUTCD Ch. 2M (recreational and cultural interest signs); state driver handbooks (e.g. MD p.20, FL p.54, AL p.53)"
+  },
+  {
+    "id": "car.rsg.035",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this brown sign show?",
+    "choices": [
+      "A hiking trail",
+      "A pedestrian crossing ahead",
+      "A bus stop ahead",
+      "A ski area"
+    ],
+    "answer": 0,
+    "explanation": "Brown signs point to recreational places, and this symbol marks a hiking trail. A pedestrian crossing warning is yellow or fluorescent yellow-green, not brown.",
+    "sign": "RS-068",
+    "difficulty": 1,
+    "ref": "MUTCD Ch. 2M (recreational and cultural interest signs); state driver handbooks (e.g. MD p.20, FL p.54, AL p.53)"
+  }
+]

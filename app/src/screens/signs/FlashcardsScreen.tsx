@@ -1,7 +1,7 @@
 import React, {useMemo, useRef, useState} from 'react';
 import {Animated, Pressable, StyleSheet, View} from 'react-native';
 import {Button, Chip, EmptyState, Icon, ProgressBar, Screen, SignImage, Text} from '../../components';
-import {SIGN_CATEGORIES, allSigns} from '../../data/signs';
+import {signCategories, allSigns} from '../../data/signs';
 import type {SignInfo} from '../../data/types';
 import {createRng, randomSeed, shuffle} from '../../engine/random';
 import {haptic, speech} from '../../native';
@@ -60,7 +60,7 @@ export function FlashcardsScreen({navigation, route}: RootScreenProps<'Flashcard
     setIndex(i => i + 1);
   };
 
-  const categoryTitle = category === 'all' ? 'All signs' : SIGN_CATEGORIES.find(c => c.id === category)?.title ?? 'Signs';
+  const categoryTitle = category === 'all' ? 'All signs' : signCategories().find(c => c.id === category)?.title ?? 'Signs';
 
   if (!deck.length) {
     return (

@@ -1,5 +1,6 @@
 import {PermissionsAndroid, Platform} from 'react-native';
 import Native from './specs/NativeDriveReady';
+import {LOCALE} from '../i18n/lang';
 import {getSettings} from '../store/settings';
 
 export type HapticKind = 'tap' | 'selection' | 'success' | 'error' | 'heavy';
@@ -18,7 +19,8 @@ export function haptic(kind: HapticKind = 'tap') {
 
 export const speech = {
   speak(text: string) {
-    Native?.speak(text, getSettings().speechRate);
+    const {speechRate, language} = getSettings();
+    Native?.speak(text, speechRate, LOCALE[language]);
   },
   stop() {
     Native?.stopSpeaking();

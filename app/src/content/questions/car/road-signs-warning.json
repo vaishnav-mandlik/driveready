@@ -1,0 +1,1175 @@
+[
+  {
+    "id": "car.rsw.001",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign warn you about?",
+    "choices": [
+      "A stop sign is ahead",
+      "A traffic signal is ahead",
+      "A yield sign is ahead",
+      "The road ends ahead"
+    ],
+    "answer": 0,
+    "explanation": "The red octagon with an arrow above it warns that a stop sign is ahead and may be hard to see. Slow down and be ready to stop. A traffic signal ahead is shown with red, yellow and green lights instead.",
+    "sign": "W3-1",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.002",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "You pass this sign but cannot yet see the intersection because of a curve. What should you do?",
+    "choices": [
+      "Keep your speed until you can see the stop sign",
+      "Slow down and get ready to stop at the intersection",
+      "Stop right at this sign, then continue normally",
+      "Speed up so you clear the curve before cross traffic"
+    ],
+    "answer": 1,
+    "explanation": "This sign is posted when the stop sign ahead is hidden by a curve, hill or other obstruction. Begin slowing now so you can stop smoothly; you do not stop at the warning sign itself.",
+    "sign": "W3-1",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. NY p.29-31, CA p.43-44, NC p.86-89)"
+  },
+  {
+    "id": "car.rsw.003",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign tell you?",
+    "choices": [
+      "You must come to a full stop at this sign",
+      "Traffic merging ahead will yield to you",
+      "A stop sign is ahead, hidden by a curve",
+      "A yield sign is coming up ahead"
+    ],
+    "answer": 3,
+    "explanation": "The red-and-white triangle with an arrow above it warns of a yield sign ahead. Slow down and be prepared to yield or stop. It does not require a stop at the warning sign itself.",
+    "sign": "W3-2",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. NY p.29-31, CA p.43-44, NC p.86-89)"
+  },
+  {
+    "id": "car.rsw.004",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign warn of?",
+    "choices": [
+      "A railroad crossing with flashing lights",
+      "A traffic signal ahead",
+      "A school zone with flashing lights",
+      "A signal that is out of order"
+    ],
+    "answer": 1,
+    "explanation": "This yellow diamond with a red, yellow and green signal warns that a traffic light is ahead. Slow down and be prepared to stop if the light is red or turns yellow.",
+    "sign": "W3-3",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.005",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "Why is this sign usually posted?",
+    "choices": [
+      "The light ahead is broken and will be flashing red",
+      "The light ahead is only for pedestrians",
+      "The light ahead may be hidden by a curve or hill",
+      "The intersection ahead has no stop line"
+    ],
+    "answer": 2,
+    "explanation": "This warning is used where drivers might not see the traffic light ahead in time, such as beyond a curve or hilltop. Slow down so you can stop if the light is red or changes.",
+    "sign": "W3-3",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. NY p.29-31, CA p.43-44, NC p.86-89)"
+  },
+  {
+    "id": "car.rsw.006",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What should you do when you see this sign?",
+    "choices": [
+      "Stop at the sign and wait for a green light",
+      "Slow down and expect stopped traffic ahead",
+      "Change lanes right away to avoid a backup",
+      "Stop only if a flagger is holding a sign"
+    ],
+    "answer": 1,
+    "explanation": "This sign warns that traffic ahead may be stopped or backed up, often near a signal or a congested area. Slow down and be ready to stop; you do not stop at the sign itself.",
+    "sign": "W3-4",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. NY p.29-31, CA p.43-44, NC p.86-89)"
+  },
+  {
+    "id": "car.rsw.007",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign mean?",
+    "choices": [
+      "The speed limit here is 45 mph",
+      "The minimum speed ahead is 45 mph",
+      "The speed limit drops to 45 mph ahead",
+      "The recommended speed for curves ahead is 45 mph"
+    ],
+    "answer": 2,
+    "explanation": "The arrow above the speed limit sign shows that a lower limit is coming up ahead. Start slowing so you are at or below 45 mph when you reach the new speed limit sign.",
+    "sign": "W3-5",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. NY p.29-31, CA p.43-44, NC p.86-89)"
+  },
+  {
+    "id": "car.rsw.008",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign warn of?",
+    "choices": [
+      "Traffic will enter your lane from the right",
+      "Your lane ends and you must merge left",
+      "A new lane is added on the right for entering cars",
+      "A side road crosses your road ahead"
+    ],
+    "answer": 0,
+    "explanation": "This merge sign warns that traffic from another road or ramp will enter your lane from the right. Watch for merging vehicles and adjust your speed. An added-lane sign shows the two lanes staying side by side.",
+    "sign": "W4-1R",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.009",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "You are on the main road and see this sign. A car is coming down the ramp on your right. What is the best thing to do?",
+    "choices": [
+      "Speed up so it has to merge behind you",
+      "Stop in your lane until the car has fully entered the road",
+      "Adjust your speed or move over, if safe, to let it in",
+      "Keep your speed and sound your horn"
+    ],
+    "answer": 2,
+    "explanation": "Merging drivers must yield, but drivers on the main road should help by adjusting speed or changing lanes when it is safe. Stopping on the main road or blocking the merging car can cause a crash.",
+    "sign": "W4-1R",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. NY p.29-31, CA p.43-44, NC p.86-89)"
+  },
+  {
+    "id": "car.rsw.010",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "How is the situation shown on this sign different from a merge?",
+    "choices": [
+      "Entering traffic gets its own lane, so no merge is needed",
+      "Entering traffic must stop before joining the road",
+      "Your own lane ends and you must move over",
+      "Two lanes squeeze together into one narrow lane"
+    ],
+    "answer": 0,
+    "explanation": "The added-lane sign shows a road joining from the right with a new lane that continues beside yours, so entering traffic does not have to merge. Still watch for vehicles changing lanes after they enter.",
+    "sign": "W4-3R",
+    "difficulty": 3,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.011",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "You are stopped at a stop sign that has this plaque below it. What should you keep in mind?",
+    "choices": [
+      "Every driver at this intersection must stop too",
+      "Cross traffic must yield once you have stopped",
+      "Cars on the cross street will not stop for you",
+      "You may roll through if the road looks clear"
+    ],
+    "answer": 2,
+    "explanation": "This plaque warns that traffic on the cross street does not have a stop sign. After stopping, wait for a gap large enough to enter or cross safely. Do not assume it is an all-way stop.",
+    "sign": "W4-4P",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2B and 2C (CROSS TRAFFIC DOES NOT STOP plaque); state driver handbooks (e.g. IN)"
+  },
+  {
+    "id": "car.rsw.012",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What should you do when you see this sign?",
+    "choices": [
+      "Merge into the left lane right away",
+      "Slow down and watch for oncoming vehicles",
+      "Move onto the shoulder to make room",
+      "Speed up to get through before others arrive"
+    ],
+    "answer": 1,
+    "explanation": "This sign warns that the pavement ahead gets narrower, so there may be less room between you and oncoming vehicles. Slow down and stay in your lane. A lane-ends sign is used when one lane disappears.",
+    "sign": "W5-1",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.013",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What should you expect after passing this sign?",
+    "choices": [
+      "A bridge with one lane shared by both directions",
+      "A bridge narrower than the road leading to it",
+      "A bridge that may freeze before the road does",
+      "A bridge too low for tall trucks to pass under"
+    ],
+    "answer": 1,
+    "explanation": "This sign warns of a bridge that is narrower than the road approaching it, often with little or no shoulder. Slow down, stay in your lane and watch for wide oncoming vehicles.",
+    "sign": "W5-2",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.014",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign mean?",
+    "choices": [
+      "The bridge has one lane in each direction of travel",
+      "The bridge is narrow but still has two lanes",
+      "Traffic each way must take turns on one lane",
+      "The bridge is closed to trucks and buses"
+    ],
+    "answer": 2,
+    "explanation": "A one-lane bridge has room for only one vehicle at a time across its width, so traffic from both directions must take turns. Slow down and check for oncoming vehicles before you enter.",
+    "sign": "W5-3",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.015",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "You reach this sign, and an oncoming car is already on the bridge. What should you do?",
+    "choices": [
+      "Wait for it to cross before you drive onto the bridge",
+      "Drive onto the bridge and keep far to the right",
+      "Flash your headlights so the other car backs up",
+      "Go first if your vehicle is larger than the other"
+    ],
+    "answer": 0,
+    "explanation": "On a one-lane bridge, yield to vehicles already on the bridge or about to enter it. Wait at the approach until the bridge is clear, then cross.",
+    "sign": "W5-3",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. FL p.58, PA p.19)"
+  },
+  {
+    "id": "car.rsw.016",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign mean?",
+    "choices": [
+      "A divided highway ends ahead",
+      "A divided highway begins ahead",
+      "The road splits into two routes ahead",
+      "Two-way traffic begins ahead"
+    ],
+    "answer": 1,
+    "explanation": "The arrows going around the island at the top show that a median will begin to separate the two directions of traffic. Keep to the right of the median.",
+    "sign": "W6-1",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.017",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "After passing this sign, where should you drive?",
+    "choices": [
+      "To the right of the median",
+      "To the left of the median",
+      "On either side of the median",
+      "In the center turn lane"
+    ],
+    "answer": 0,
+    "explanation": "This sign warns that the road becomes a divided highway. Traffic keeps to the right of the median or divider; driving to its left would put you against traffic.",
+    "sign": "W6-1",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. NY p.29-31, CA p.43-44, NC p.86-89)"
+  },
+  {
+    "id": "car.rsw.018",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign mean?",
+    "choices": [
+      "A divided highway begins ahead",
+      "Keep left of the island ahead",
+      "The median ends and both directions share the road",
+      "Two travel lanes merge into a single lane just ahead"
+    ],
+    "answer": 2,
+    "explanation": "The arrows coming together after the island show that the divided highway ends. Opposing traffic will no longer be separated by a median, so keep right and watch for oncoming vehicles.",
+    "sign": "W6-2",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.019",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "You are on a divided highway and pass this sign. What should you do?",
+    "choices": [
+      "Keep right and watch for oncoming traffic",
+      "Move left to pass before the divider ends",
+      "Expect traffic to merge in from the left",
+      "Use any lane, since all lanes still go your way"
+    ],
+    "answer": 0,
+    "explanation": "When a divided highway ends, the road becomes two-way with no median. Stay to the right of the center line and expect oncoming vehicles close by.",
+    "sign": "W6-2",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. NY p.29-31, CA p.43-44, NC p.86-89)"
+  },
+  {
+    "id": "car.rsw.020",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign mean?",
+    "choices": [
+      "All lanes ahead go in your direction",
+      "A one-way street begins ahead",
+      "Traffic moves in both directions on the road ahead",
+      "The lanes reverse direction during rush hours each day"
+    ],
+    "answer": 2,
+    "explanation": "One arrow up and one arrow down show two-way traffic. It is often posted where a one-way road or divided highway changes to a two-way road. Keep right and expect oncoming vehicles.",
+    "sign": "W6-3",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.021",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "You are on a one-way street and see this sign. What should you do?",
+    "choices": [
+      "Keep right, because oncoming traffic will share the road",
+      "Use any lane, since the street stays one-way",
+      "Turn around, because you are going the wrong way",
+      "Move left to make room for merging traffic"
+    ],
+    "answer": 0,
+    "explanation": "This sign warns that the one-way street ahead becomes a two-way road. Move to the right side of the road and watch for oncoming vehicles. You are not driving the wrong way.",
+    "sign": "W6-3",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.19, FL p.57, TX p.33)"
+  },
+  {
+    "id": "car.rsw.022",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign warn of?",
+    "choices": [
+      "Trucks entering or crossing the road",
+      "A truck escape ramp ahead",
+      "A steep downhill grade ahead",
+      "Trucks may tip over on the curve ahead"
+    ],
+    "answer": 2,
+    "explanation": "The truck on a sloped wedge warns of a steep downgrade. A truck crossing sign shows a truck on level ground, and a rollover sign shows a tipping truck with a curved arrow.",
+    "sign": "W7-1",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.023",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What should you do before going down the slope this sign warns of?",
+    "choices": [
+      "Shift into neutral to save fuel",
+      "Slow down and use a lower gear",
+      "Ride the brakes the whole way down",
+      "Speed up to build momentum"
+    ],
+    "answer": 1,
+    "explanation": "On a steep downgrade, slow down before you start and use a lower gear so the engine helps control your speed. Riding the brakes can overheat them, and coasting in neutral reduces control.",
+    "sign": "W7-1",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. TX p.35, PA p.17-20)"
+  },
+  {
+    "id": "car.rsw.024",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What should you do when you see this sign?",
+    "choices": [
+      "Slow down for a sharp rise in the road",
+      "Watch for a low spot where water may collect",
+      "Watch for a drop-off at the pavement edge",
+      "Slow down for a narrow bridge"
+    ],
+    "answer": 0,
+    "explanation": "This sign warns of a bump, a sudden high place in the road surface. Slow down so you keep control and avoid a hard jolt. A dip sign warns of a low spot instead.",
+    "sign": "W8-1",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.025",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign warn of?",
+    "choices": [
+      "A raised bump across the road",
+      "A low spot in the road ahead",
+      "The shoulder is lower than the pavement",
+      "The pavement turns to gravel"
+    ],
+    "answer": 1,
+    "explanation": "A dip is a sudden low place in the road. Slow down to keep control. Dips can also hide vehicles and hold water after rain.",
+    "sign": "W8-2",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.026",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign tell you?",
+    "choices": [
+      "The road ends and you must turn",
+      "The paved road changes to gravel or dirt",
+      "The shoulder ahead is not paved",
+      "Road work is ahead; expect workers on the pavement"
+    ],
+    "answer": 1,
+    "explanation": "This sign warns that the hard-surfaced pavement ends and the road becomes gravel or dirt. Slow down, because traction and handling change on loose surfaces.",
+    "sign": "W8-3",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.027",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign mean?",
+    "choices": [
+      "The shoulder is lower than the pavement edge",
+      "The edge of the road may not support a vehicle",
+      "The shoulder is reserved for bicyclists",
+      "The shoulder is open to traffic at rush hour"
+    ],
+    "answer": 1,
+    "explanation": "A soft shoulder is dirt or other loose material that may not hold your vehicle's weight. Stay on the pavement unless it is an emergency. A low-shoulder sign warns of a drop at the pavement edge instead.",
+    "sign": "W8-4",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.028",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign warn of?",
+    "choices": [
+      "A winding road with several curves in a row",
+      "The road can be slippery when wet",
+      "Loose gravel on the road ahead",
+      "Drivers ahead may be swerving"
+    ],
+    "answer": 1,
+    "explanation": "The car with wavy skid marks means the road surface can become slippery when wet. A winding road sign shows a single curving arrow instead.",
+    "sign": "W8-5",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.029",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "It starts to rain as you pass this sign. What should you do?",
+    "choices": [
+      "Slow down and leave more space ahead",
+      "Keep your speed to get through quickly",
+      "Turn on your high beams to see better",
+      "Brake hard whenever the car starts to slide"
+    ],
+    "answer": 0,
+    "explanation": "On a road that is slippery when wet, slow down, increase your following distance and avoid sudden braking, speeding up or sharp turns. Hard braking makes a skid more likely.",
+    "sign": "W8-5",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.19, TX p.33, FL p.58)"
+  },
+  {
+    "id": "car.rsw.030",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What should you do when you see this sign?",
+    "choices": [
+      "Brake hard as soon as you reach the gravel",
+      "Drive on the shoulder until the gravel area ends",
+      "Slow down and avoid hard braking or sharp turns",
+      "Turn on your hazard lights and stop"
+    ],
+    "answer": 2,
+    "explanation": "Loose gravel reduces traction. Go slow enough to keep full control and avoid sudden braking or sharp steering, which can cause a skid.",
+    "sign": "W8-7",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. TX p.34, PA p.17-20)"
+  },
+  {
+    "id": "car.rsw.031",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "Your right wheels drift off the pavement where this sign is posted. What should you do?",
+    "choices": [
+      "Turn the wheel sharply to get back on fast",
+      "Brake hard right away",
+      "Ease off the gas, then steer back gently",
+      "Speed up to climb back over the edge"
+    ],
+    "answer": 2,
+    "explanation": "This sign warns that the shoulder is lower than the pavement. If your wheels drop off, slow down gradually and ease back onto the road when it is safe. Jerking the wheel can make you lose control.",
+    "sign": "W8-9",
+    "difficulty": 3,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.20, TX p.35)"
+  },
+  {
+    "id": "car.rsw.032",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "On a cold day, what does this sign warn you about?",
+    "choices": [
+      "The bridge is closed during winter",
+      "Ice may fall from the bridge structure",
+      "The road beyond the bridge is not plowed",
+      "The bridge may be icy even if the road is not"
+    ],
+    "answer": 3,
+    "explanation": "Bridges lose heat from above and below, so they can freeze before the road does. Slow down and avoid sudden braking or steering on the bridge.",
+    "sign": "W8-13",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. TX p.34, NY p.64)"
+  },
+  {
+    "id": "car.rsw.033",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "Where would you usually see this sign?",
+    "choices": [
+      "Near a quarry where loaded rock trucks enter the road",
+      "Where the road runs beside steep slopes or cliffs",
+      "Where the pavement changes to gravel",
+      "Before a low bridge or tunnel"
+    ],
+    "answer": 1,
+    "explanation": "This sign warns that rocks may fall onto the road from a slope above. Watch the road ahead and be ready to stop or steer around rocks safely.",
+    "sign": "W8-14",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.034",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign mean?",
+    "choices": [
+      "Traffic will merge in from the right",
+      "A lane is added on the right",
+      "The right lane ends; move left to merge",
+      "The road narrows for both directions"
+    ],
+    "answer": 2,
+    "explanation": "The right lane ends ahead, so drivers in it must merge left when it is safe. A merge sign warns of traffic entering from another road instead.",
+    "sign": "W9-1",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.035",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "You are in the left lane. A driver in the right lane signals to move over near this sign. What should you do?",
+    "choices": [
+      "Adjust your speed to let the driver merge",
+      "Speed up so the driver goes behind you",
+      "Move onto the left shoulder",
+      "Stop in your lane to wave them in"
+    ],
+    "answer": 0,
+    "explanation": "Drivers in the ending lane must merge, and drivers in the through lane should help by adjusting speed. Blocking the merge or stopping in a travel lane can cause a crash.",
+    "sign": "W9-1",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. NY p.29-31, CA p.43-44, NC p.86-89)"
+  },
+  {
+    "id": "car.rsw.036",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What should you do when you see this sign?",
+    "choices": [
+      "Expect pedestrians to wait at the curb for you to pass",
+      "Watch for people crossing and be ready to yield",
+      "Stop at the sign every time",
+      "Use your horn to warn people walking"
+    ],
+    "answer": 1,
+    "explanation": "This sign warns that pedestrians may cross or walk in the road ahead. Slow down, look for people and be prepared to yield to them.",
+    "sign": "W11-2",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.037",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign warn you about?",
+    "choices": [
+      "Slow-moving farm machinery on the road",
+      "A farm market with cars turning in",
+      "Livestock that may cross the road",
+      "A truck stop just ahead"
+    ],
+    "answer": 0,
+    "explanation": "The tractor symbol warns that slow farm equipment may enter, cross or travel on the road. Slow down and pass only when it is safe and legal.",
+    "sign": "W11-5",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.038",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "You see this sign, then a horse and rider on the side of the road. What should you do?",
+    "choices": [
+      "Honk so the rider knows you are there",
+      "Pass quickly to spend less time near them",
+      "Slow down, pass wide and avoid loud noises",
+      "Flash your high beams to warn the rider"
+    ],
+    "answer": 2,
+    "explanation": "Horses can be startled by noise and fast vehicles. Slow down, give the rider plenty of room and do not honk or rev your engine.",
+    "sign": "W11-7",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. CA p.43-44, NC p.86-89)"
+  },
+  {
+    "id": "car.rsw.039",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign warn of?",
+    "choices": [
+      "Fire trucks or other emergency vehicles may enter",
+      "No parking near the fire hydrants ahead",
+      "A fire danger area where outdoor campfires are banned",
+      "A truck route used by heavy vehicles"
+    ],
+    "answer": 0,
+    "explanation": "This sign is posted near places such as fire stations where emergency vehicles may pull onto the road without warning. Watch for them and yield.",
+    "sign": "W11-8",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.040",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign warn of?",
+    "choices": [
+      "Trucks are not allowed on this road",
+      "A steep downhill grade ahead",
+      "Trucks may enter or cross the road",
+      "Trucks must use the right lane"
+    ],
+    "answer": 2,
+    "explanation": "A truck on level ground warns that trucks may be entering or crossing the road. A downgrade sign shows the truck on a slope, and truck bans are white regulatory signs.",
+    "sign": "W11-10",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. TX p.35, PA p.17-20)"
+  },
+  {
+    "id": "car.rsw.041",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign warn you about?",
+    "choices": [
+      "A bike lane ends ahead",
+      "A path used by bicyclists and walkers crosses",
+      "Bicycles and pedestrians are not allowed on this road",
+      "A school crosswalk is ahead"
+    ],
+    "answer": 1,
+    "explanation": "The bicycle and pedestrian symbols together warn of a shared-use trail crossing the road. Slow down and be ready to yield to people on the trail.",
+    "sign": "W11-15",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.042",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign tell you?",
+    "choices": [
+      "The road splits into two different routes",
+      "Keep to the right of the obstacle ahead",
+      "You may pass on either side of the obstacle ahead",
+      "Traffic merges in from both sides"
+    ],
+    "answer": 2,
+    "explanation": "The two arrows pointing down and outward mean traffic may go around an island or obstruction on either side. A keep-right sign would show only one arrow.",
+    "sign": "W12-1",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17-20, TX p.33-35, FL p.57-58)"
+  },
+  {
+    "id": "car.rsw.043",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign tell you?",
+    "choices": [
+      "The lane ahead is 12 feet 6 inches wide",
+      "Overhead clearance ahead is 12 feet 6 inches",
+      "Keep 12 feet 6 inches behind the car ahead",
+      "The road narrows to 12 feet 6 inches"
+    ],
+    "answer": 1,
+    "explanation": "The arrows above and below the number show the height under a bridge, overpass or tunnel ahead. Vehicles taller than the posted height must not go under it.",
+    "sign": "W12-2",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.20, TX p.33, FL p.58)"
+  },
+  {
+    "id": "car.rsw.044",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "You are driving a rental moving truck that is 13 feet tall and see this sign. What should you do?",
+    "choices": [
+      "Go under slowly in the center of the lane",
+      "Do not go under it; find another route",
+      "Continue, since the sign builds in extra room",
+      "Go under it only if no other cars are around"
+    ],
+    "answer": 1,
+    "explanation": "Your truck is taller than the 12 feet 6 inches posted, so it will not fit. Find another route; never assume extra room or try to squeeze under.",
+    "sign": "W12-2",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.20, TX p.33, FL p.58)"
+  },
+  {
+    "id": "car.rsw.045",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "This plaque is posted below a warning sign. Is the number on it a legal speed limit?",
+    "choices": [
+      "No, it is the recommended speed for that hazard",
+      "Yes, it is the enforced speed limit at that exact spot",
+      "No, it is the minimum speed allowed there",
+      "Yes, but only for trucks and buses"
+    ],
+    "answer": 0,
+    "explanation": "A yellow speed plaque is an advisory speed: the highest speed recommended for the curve or condition ahead. In bad weather you may need to go even slower. Legal speed limits are on white signs.",
+    "sign": "W13-1P",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C (warning sign plaques); state driver handbooks (e.g. PA p.18, NC p.86-89)"
+  },
+  {
+    "id": "car.rsw.046",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "Where would you usually see this sign?",
+    "choices": [
+      "On a freeway, for all through lanes",
+      "At an entrance ramp, before you merge",
+      "At an exit ramp, for the ramp ahead",
+      "At a toll plaza, for the lane you are in"
+    ],
+    "answer": 2,
+    "explanation": "This sign is posted where an exit ramp leaves the freeway. It shows the recommended speed for the ramp, so slow down after you leave the through lanes.",
+    "sign": "W13-2",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. FL p.57-58, NC p.86-89)"
+  },
+  {
+    "id": "car.rsw.047",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign mean?",
+    "choices": [
+      "The street ahead has no way through",
+      "The road ends at a T intersection",
+      "The road ahead is closed for repairs",
+      "Through traffic must follow a detour"
+    ],
+    "answer": 0,
+    "explanation": "A dead-end street does not connect to another road. You will have to turn around to leave.",
+    "sign": "W14-1",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. NC p.86-89, NY p.29-31)"
+  },
+  {
+    "id": "car.rsw.048",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "You turn onto a road with this sign. What should you expect?",
+    "choices": [
+      "The road leads to a highway ahead",
+      "Parking is not allowed along the road",
+      "You will have to leave the way you came in",
+      "Only local residents may enter"
+    ],
+    "answer": 2,
+    "explanation": "This sign warns that the road or group of streets ahead has no other exit. It does not ban entry or parking; it tells you there is no through route.",
+    "sign": "W14-2",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. AL, NC p.86-89)"
+  },
+  {
+    "id": "car.rsw.049",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "On which side of the road is this sign usually posted?",
+    "choices": [
+      "The left side, facing you",
+      "The right side, facing you",
+      "Above the center of the road",
+      "Either side, depending on the curve"
+    ],
+    "answer": 0,
+    "explanation": "This pennant is the only sign shaped like a sideways triangle. It is placed on the left side of the road, where you look before passing, to mark the start of a no-passing zone.",
+    "sign": "W14-3",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17, NC p.86, TX p.32)"
+  },
+  {
+    "id": "car.rsw.050",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "You are following a slow tractor and see this sign. What should you do?",
+    "choices": [
+      "Pass it, since slow farm vehicles may always be passed",
+      "Stay behind it until passing is allowed and safe",
+      "Pass on the right using the shoulder",
+      "Honk until the driver pulls over"
+    ],
+    "answer": 1,
+    "explanation": "This pennant marks the start of a no-passing zone. Stay behind the slow vehicle until the zone ends and you can see that passing is safe. Passing on the shoulder is not allowed.",
+    "sign": "W14-3",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. PA p.17, NC p.86, TX p.32)"
+  },
+  {
+    "id": "car.rsw.051",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What should you do when you see this sign?",
+    "choices": [
+      "Watch for a school bus that may stop",
+      "Slow down and watch for children",
+      "Expect a school speed limit ahead",
+      "Watch for people in wheelchairs crossing"
+    ],
+    "answer": 1,
+    "explanation": "This sign warns of a playground next to the road. Slow down and watch for children who may run into the street. It is not a school zone or school bus sign.",
+    "sign": "W15-1",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. NC p.86-89, CA p.43-44)"
+  },
+  {
+    "id": "car.rsw.052",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "This plaque is mounted below a bicycle warning sign. What does it tell you?",
+    "choices": [
+      "A bike lane begins on this road",
+      "Bicyclists may be riding in the travel lane",
+      "Bicycles are banned from the sidewalk",
+      "Bicyclists must ride facing traffic"
+    ],
+    "answer": 1,
+    "explanation": "This plaque warns that bicyclists may be riding in the roadway itself, not just on the shoulder. Watch for them and pass only when you can do so safely.",
+    "sign": "W16-1P",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C (warning sign plaques); state driver handbooks (e.g. PA p.18, NC p.86-89)"
+  },
+  {
+    "id": "car.rsw.053",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "You see this plaque under a bicycle sign on a narrow road. What does it mean?",
+    "choices": [
+      "Bicyclists must ride only on the shoulder",
+      "Bicyclists must yield to all cars",
+      "Expect bicyclists on the road and give them room",
+      "Cars must stay out of the bike lane ahead"
+    ],
+    "answer": 2,
+    "explanation": "This older plaque reminds drivers that others, such as bicyclists, may use the same road. Watch for them and leave room when passing. Newer signs may use an IN ROAD plaque instead.",
+    "sign": "W16-1P_2009",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C (warning sign plaques); state driver handbooks (e.g. PA p.18, NC p.86-89)"
+  },
+  {
+    "id": "car.rsw.054",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "Where would you see this plaque?",
+    "choices": [
+      "Below a crossing sign, right at the crossing",
+      "Below a crossing sign, well before the crossing",
+      "Below a curve sign, at the start of the curve",
+      "Beside an exit ramp, showing the exit lane"
+    ],
+    "answer": 0,
+    "explanation": "The downward arrow points to the exact spot of a crossing, such as a crosswalk or trail crossing. A crossing farther down the road uses an AHEAD plaque instead.",
+    "sign": "W16-7PL",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2C (warning sign plaques); state driver handbooks (e.g. PA p.18, NC p.86-89)"
+  },
+  {
+    "id": "car.rsw.055",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "This plaque is mounted below a crossing warning sign. What does it tell you?",
+    "choices": [
+      "The crossing is right at the sign",
+      "The crossing is farther down the road",
+      "The crossing is closed to people",
+      "You must stop at the sign"
+    ],
+    "answer": 1,
+    "explanation": "This plaque means the crossing or condition is ahead, not at the sign. Begin watching for it and be ready to yield when you get there.",
+    "sign": "W16-9P",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C (warning sign plaques); state driver handbooks (e.g. PA p.18, NC p.86-89)"
+  },
+  {
+    "id": "car.rsw.056",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What should you do when you see this sign?",
+    "choices": [
+      "Speed up so the hump is less bumpy",
+      "Stop at the hump, then go",
+      "Slow down before you reach the hump",
+      "Steer onto the shoulder to go around it"
+    ],
+    "answer": 2,
+    "explanation": "A speed hump is a raised section of pavement built to slow traffic. Slow down before you reach it to keep control and avoid damaging your vehicle.",
+    "sign": "W17-1",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. NJ, NC p.86-89)"
+  },
+  {
+    "id": "car.rsw.057",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "You are waiting to turn left on a green light (no arrow) at an intersection with this sign. Your light turns yellow. What should you do?",
+    "choices": [
+      "Turn now, since oncoming cars must stop for yellow",
+      "Turn now, since oncoming traffic also has red",
+      "Turn now, before your light turns red",
+      "Wait; oncoming cars may still have a green light"
+    ],
+    "answer": 3,
+    "explanation": "This sign warns that oncoming traffic keeps a green light after yours turns yellow. Do not assume oncoming vehicles are stopping; turn only when there is a safe gap.",
+    "sign": "W25-1",
+    "difficulty": 3,
+    "ref": "MUTCD Sec. 2C (W25 signs)"
+  },
+  {
+    "id": "car.rsw.058",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "Where is this sign usually posted?",
+    "choices": [
+      "At a freeway entrance ramp that has a ramp meter",
+      "At a railroad crossing with gates",
+      "At a signal, facing drivers turning left",
+      "At the entry to a roundabout"
+    ],
+    "answer": 2,
+    "explanation": "This sign is posted at signals where oncoming traffic may sometimes keep a green light after your signal turns yellow. Left-turning drivers must not assume oncoming traffic is stopping.",
+    "sign": "W25-2",
+    "difficulty": 3,
+    "ref": "MUTCD Sec. 2C (W25 signs)"
+  },
+  {
+    "id": "car.rsw.059",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign mean?",
+    "choices": [
+      "Never stop with your vehicle on the tracks",
+      "Trains do not stop at this crossing",
+      "Stop on the tracks only if traffic ahead is stopped",
+      "No trains use these tracks anymore"
+    ],
+    "answer": 0,
+    "explanation": "Never stop on railroad tracks for any reason. Do not start across until there is room for your whole vehicle on the other side.",
+    "sign": "R8-8",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 8B; state driver handbooks (e.g. NC p.88, NY p.60)"
+  },
+  {
+    "id": "car.rsw.060",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "Traffic is backed up just past the railroad tracks where this sign is posted. What should you do?",
+    "choices": [
+      "Drive onto the tracks and wait there",
+      "Wait before the tracks until there is room ahead",
+      "Go around the stopped cars on the shoulder",
+      "Cross only if the warning lights are off"
+    ],
+    "answer": 1,
+    "explanation": "Stay behind the tracks until there is room on the other side for your whole vehicle. A train could come while you are stopped on the tracks, and trains cannot stop quickly.",
+    "sign": "R8-8",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 8B; state driver handbooks (e.g. NC p.88, NY p.60)"
+  },
+  {
+    "id": "car.rsw.061",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign at a railroad crossing mean?",
+    "choices": [
+      "Trains use these tracks only at night",
+      "The crossing lights are broken; stop and look",
+      "Trains no longer run on these tracks",
+      "Do not stop with your car on the tracks"
+    ],
+    "answer": 2,
+    "explanation": "This sign is used in place of a crossbuck where the tracks have been taken out of service, so trains no longer use the crossing.",
+    "sign": "R8-9",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 8B; state driver handbooks (e.g. TX p.38, FL p.64, NY p.61)"
+  },
+  {
+    "id": "car.rsw.062",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign at a railroad crossing tell you?",
+    "choices": [
+      "Stop here only if a train is already in sight",
+      "Where to stop when the crossing lights flash",
+      "Flashing lights mean slow down, not stop",
+      "Stop here whenever any light is on"
+    ],
+    "answer": 1,
+    "explanation": "When the red lights at the crossing flash, stop at the spot this sign points to, usually at a stop line. Stay stopped until the lights stop flashing and it is safe.",
+    "sign": "R8-10",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 8B (R8-10)"
+  },
+  {
+    "id": "car.rsw.063",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "This plaque is mounted below a railroad crossing sign. What does it mean?",
+    "choices": [
+      "Buses and hazmat trucks need not stop unless a train is coming",
+      "No driver needs to watch for trains at this crossing",
+      "The crossing does not need gates or lights by law",
+      "Trains no longer use this crossing"
+    ],
+    "answer": 0,
+    "explanation": "Vehicles that normally must stop at every crossing, such as buses and hazardous-materials trucks, do not have to stop at an exempt crossing unless a train is coming or their view is blocked. All drivers must still look for trains.",
+    "sign": "R15-3P",
+    "difficulty": 3,
+    "ref": "MUTCD Sec. 8B; state driver handbooks (e.g. MN)"
+  },
+  {
+    "id": "car.rsw.064",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "Which statement about this sign is true?",
+    "choices": [
+      "It marks the exact spot where you must stop",
+      "It means a train is coming right now",
+      "It is posted before a crossing to warn you",
+      "It is used only at crossings with gates"
+    ],
+    "answer": 2,
+    "explanation": "This round yellow sign is placed ahead of a railroad crossing so you have time to slow down and stop if needed. The crossbuck marks the crossing itself.",
+    "sign": "W10-1",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 8B; state driver handbooks (e.g. TX p.38, FL p.64, NY p.61)"
+  },
+  {
+    "id": "car.rsw.065",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "After passing this sign, what should you do?",
+    "choices": [
+      "Speed up to cross before a train comes",
+      "Stop at the sign and wait for a signal",
+      "Keep your speed unless the gates are already coming down",
+      "Slow down, look and listen, and be ready to stop"
+    ],
+    "answer": 3,
+    "explanation": "This advance warning sign means a railroad crossing is ahead. Slow down, look and listen for trains and be prepared to stop. Never try to beat a train.",
+    "sign": "W10-1",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 8B; state driver handbooks (e.g. TX p.38, FL p.64, NY p.61)"
+  },
+  {
+    "id": "car.rsw.066",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign warn of?",
+    "choices": [
+      "Tracks that cross the road on a bridge",
+      "Low vehicles may get stuck on the raised tracks",
+      "Power lines that spark over the crossing",
+      "Trains sound their horns very loudly at this crossing"
+    ],
+    "answer": 1,
+    "explanation": "This sign warns that the crossing is humped enough that vehicles with low ground clearance, such as low trailers, can scrape or get stuck on the tracks.",
+    "sign": "W10-5",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 8B; state driver handbooks (e.g. VA p.11)"
+  },
+  {
+    "id": "car.rsw.067",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "This plaque is mounted below a railroad warning sign. What does it mean for you?",
+    "choices": [
+      "Drivers may not honk their horns near the crossing at all",
+      "Trains no longer use these tracks",
+      "Trains usually won't sound a horn, so look carefully",
+      "The crossing has no lights or gates"
+    ],
+    "answer": 2,
+    "explanation": "This plaque marks a quiet zone where trains do not routinely sound their horns. Do not count on hearing a train; look carefully both ways.",
+    "sign": "W10-9P",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 8B; state driver handbooks (e.g. CO p.24, NE p.49)"
+  },
+  {
+    "id": "car.rsw.068",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What should you do at a railroad crossing marked with this plaque?",
+    "choices": [
+      "Look and listen for trains, and stop if one is near",
+      "Wait for the lights to flash before stopping",
+      "Cross without slowing, since no signals are on",
+      "Stop only when a flagger tells you to"
+    ],
+    "answer": 0,
+    "explanation": "This plaque warns that the crossing has no automatic gates or flashing lights. You must check for trains yourself and stop if one is coming.",
+    "sign": "W10-13P",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 8B; state driver handbooks (e.g. TX p.38, FL p.64, NY p.61)"
+  },
+  {
+    "id": "car.rsw.069",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "This plaque is mounted with a work zone speed limit sign. What does it mean?",
+    "choices": [
+      "The posted speed limit is cut in half in this zone",
+      "Penalties for traffic violations are doubled here",
+      "Fines are doubled only for trucks and buses",
+      "Drivers must pay a toll in this zone"
+    ],
+    "answer": 1,
+    "explanation": "This plaque warns that fines for traffic violations are doubled in the zone. Check your state's rules for exactly when it applies.",
+    "sign": "R2-6aP",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2B and 6F; state driver handbooks (e.g. AZ p.44, TX p.41)"
+  }
+]

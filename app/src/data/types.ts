@@ -264,3 +264,40 @@ export interface ExamConfig {
   notes: string;
   sourceUrl?: string;
 }
+
+/* ---- Translations (src/content/i18n/<lang>/..., mirroring the English source paths) ---- */
+
+/** One translated question; `h` is the fingerprint of the English it was translated from. */
+export interface QuestionTranslation {
+  p: string;
+  c: string[];
+  e: string;
+  h: string;
+}
+
+export interface LessonTranslation {
+  id: string;
+  h: string;
+  title: string;
+  summary: string;
+  sections: LessonSection[];
+  keyPoints: string[];
+}
+
+export interface SignTranslation {
+  h: string;
+  name: string;
+  meaning: string;
+  shape: string;
+  colors: string;
+}
+
+/** Lazy loaders for one language's translations (generated into src/content/index.ts). */
+export interface TranslationLoaders {
+  universal: Record<TrackId, Array<() => Record<string, QuestionTranslation>>>;
+  states: Partial<Record<StateCode, () => Record<string, QuestionTranslation>>>;
+  /** Translation memory for state info text (facts, laws, exam notes), keyed by textHash(English). */
+  stateInfo: Partial<Record<StateCode, () => Record<string, string>>>;
+  lessons: Array<() => LessonTranslation>;
+  signs: Array<() => Record<string, SignTranslation>>;
+}

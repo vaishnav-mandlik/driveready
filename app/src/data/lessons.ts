@@ -1,14 +1,19 @@
 import {lessonLoaders} from '../content';
+import {currentLang} from '../i18n';
+import {localizeLesson} from '../i18n/content';
 import {getTrack} from './tracks';
 import type {Lesson, TopicId, TrackId} from './types';
 
-let cache: Lesson[] | null = null;
+const cache = new Map<string, Lesson[]>();
 
 function all(): Lesson[] {
-  if (!cache) {
-    cache = lessonLoaders.map(load => load());
+  const lang = currentLang();
+  let lessons = cache.get(lang);
+  if (!lessons) {
+    lessons = lessonLoaders.map(load => localizeLesson(load(), lang));
+    cache.set(lang, lessons);
   }
-  return cache;
+  return lessons;
 }
 
 /** Lessons for a track in topic order; the road-test guide comes last. */

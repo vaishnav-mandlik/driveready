@@ -3,7 +3,10 @@
  * Usage in a test file:  jest.mock('../src/content', () => require('./fixtures/content'));
  * (adjust the relative paths to the test file's location).
  */
-import type {Lesson, Question, StateCode, StateInfo, TrackId} from '../../src/data/types';
+import type {Lesson, Question, QuestionTranslation, StateCode, StateInfo, TrackId, TranslationLoaders} from '../../src/data/types';
+import {SIGNS} from '../../src/content/signs';
+import {lessonHash, questionHash, signHash, textHash} from '../../src/i18n/hash';
+import type {Lang} from '../../src/i18n/lang';
 
 const q = (id: string, topic: Question['topic'], extra: Partial<Question> = {}): Question => ({
   id,
@@ -139,3 +142,44 @@ export const stateInfoLoaders: Partial<Record<StateCode, () => StateInfo>> = {
 };
 
 export const lessonLoaders: Array<() => Lesson> = fixtureLessons.map(l => () => l);
+
+/* Spanish fixtures: t.car.row.1 and t.ca.1 are current; t.car.row.2 is stale (English changed since). */
+const es = (q: Question, stale = false): [string, QuestionTranslation] => [
+  q.id,
+  {
+    p: `Pregunta de prueba ${q.id}: ¿qué debe hacer?`,
+    c: q.choices.map((_, i) => (i === q.answer ? 'Opción correcta' : `Opción incorrecta ${i}`)),
+    e: `Porque la prueba lo dice para ${q.id}.`,
+    h: stale ? 'stale' : questionHash(q),
+  },
+];
+const stop = SIGNS.find(sg => sg.code === 'R1-1')!;
+const lesson = fixtureLessons[0];
+
+export const translationLoaders: Partial<Record<Lang, TranslationLoaders>> = {
+  es: {
+    universal: {
+      car: [() => Object.fromEntries([es(fixtureCar[2]), es(fixtureCar[3], true)])],
+      motorcycle: [],
+      cdl: [],
+    },
+    states: {CA: () => Object.fromEntries([es(fixtureCA[0])])},
+    stateInfo: {
+      CA: () => ({
+        [textHash(fixtureStateCA.facts[1].value)]: '15 pies',
+        [textHash(fixtureStateCA.notableLaws[0].title)]: 'Ley de prueba',
+      }),
+    },
+    lessons: [
+      () => ({
+        id: lesson.id,
+        h: lessonHash(lesson),
+        title: 'Prueba: Señales de tránsito',
+        summary: 'Formas y colores.',
+        sections: [{heading: 'Formas', blocks: [{type: 'p', text: 'Un octágono siempre significa alto.'}]}],
+        keyPoints: ['Octágono = alto'],
+      }),
+    ],
+    signs: [() => ({'R1-1': {h: signHash(stop), name: 'Alto', meaning: 'Deténgase por completo.', shape: 'octágono', colors: 'rojo, blanco'}})],
+  },
+};
