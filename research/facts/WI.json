@@ -1,0 +1,816 @@
+{
+  "code": "WI",
+  "name": "Wisconsin",
+  "agency": {
+    "name": "Wisconsin Department of Transportation, Division of Motor Vehicles",
+    "abbreviation": "DMV",
+    "website": "https://wisconsindmv.gov"
+  },
+  "handbook": {
+    "title": "Wisconsin Motorists' Handbook",
+    "edition": "2026 (BDS126)",
+    "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+  },
+  "knowledgeTest": {
+    "questions": 50,
+    "passingScore": 40,
+    "passingPercent": 80,
+    "roadSigns": "Separate Highway Signs Test: 15 questions, must answer 12 correctly (80%). Required along with the knowledge test and vision screening for an instruction permit; no appointment needed.",
+    "timeLimitMinutes": null,
+    "format": "Touch screen computer at most DMV customer service centers; paper tests also available; audio assist on request. Walk-in only, no appointments. Free at DMV customer service centers (handbook p. 5). Applicants 15-17 may instead take the Class D knowledge test online through WisDOT's provider (KnowToDrive) for $10 per attempt, monitored by a parent/guardian, on a computer (not a tablet or smartphone), in English or Spanish; two online attempts, then the next attempt must be at a DMV service center.",
+    "languages": "Class D knowledge and signs tests (computer and written): English, American Sign Language, Burmese, Chinese, Croatian, Hmong, Polish, Russian, Serbian, Somali, Spanish.",
+    "retestWait": "May retake no sooner than the next day. The same test may be taken only five times within one year; after five failures you need special permission from DMV staff.",
+    "notes": "Question counts and passing scores are from Section 1 of the 2026 Motorists' Handbook (p. 5): the knowledge test has 50 questions (40 correct/80% to pass) and the separate highway signs test has 15 questions (12 correct/80%); the WisDOT knowledge-test page does not list them. WisDOT says each Class D knowledge test takes about 45 minutes (not a stated time limit); the online test for ages 15-17 is the same test offered at DMV service centers. Under 18: must be at least 15, enrolled in driver education (including behind-the-wheel), have an adult sponsor sign form MV3001, and be enrolled in school/not habitually truant. Vision: 20/40 in one eye and a 70-degree field of vision from the center of each eye.",
+    "sourceUrl": "https://wisconsindot.gov/Pages/dmv/teen-driver/teen-hw-aply/knowledge.aspx"
+  },
+  "motorcycleTest": {
+    "questions": null,
+    "passingScore": null,
+    "passingPercent": null,
+    "notes": "WisDOT does not publish the number of questions or passing score for the Class M knowledge test online. It takes about 45 minutes and is offered in English and Spanish. Study the Wisconsin Motorcyclists' Handbook (September 2026) and the Motorists' Handbook. Motorcycle instruction permit: age 16+ (under 18 needs sponsorship, driver education, and proof of enrollment in a basic rider course); valid 6 months; permit holders must wear a helmet and eye protection, may carry only a passenger with a Class M license and 2+ years of licensed experience, and at night must be accompanied by a Class M holder 25+ with 2+ years of experience.",
+    "sourceUrl": "https://wisconsindot.gov/Pages/dmv/teen-driver/teen-hw-aply/knowledge.aspx"
+  },
+  "cdlTest": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08 alcohol concentration (for drivers with 2 or fewer prior OWI-related offenses)",
+      "detail": "Wisconsin's prohibited alcohol concentration (PAC) is 0.08 or more for a person with 0-2 prior OWI convictions, suspensions or revocations. With 3 or more priors (or an ignition interlock order) the limit drops to more than 0.02. The Motorists' Handbook does not state the 0.08 figure.",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/340.01(46m)",
+        "page": null,
+        "quote": "If the person has 2 or fewer prior convictions, suspensions, or revocations, as counted under s. 343.307 (1), an alcohol concentration of 0.08 or more."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.00 (absolute sobriety) for drivers under 21",
+      "detail": "Drivers under 21 may not have any alcohol in their system while driving. Instruction permit holders must also maintain absolute sobriety no matter what their age.",
+      "number": 0.0,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 53,
+        "quote": "The legal alcohol concentration allowed for drivers under the age of 21 is 0.00%. This means that you cannot have any alcohol in your system while driving a vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04 while driving a commercial motor vehicle",
+      "detail": "It is illegal to drive a commercial motor vehicle with an alcohol concentration of 0.04 or more. Not covered in the Motorists' Handbook.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/346.63(5)",
+        "page": null,
+        "quote": "No person may drive or operate a commercial motor vehicle while the person has an alcohol concentration of 0.04 or more but less than 0.08."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusing a requested test = arrest and loss of driving privileges for at least 1 year",
+      "detail": "If an officer asks you to take a test for prohibited alcohol concentration (breath or blood), you must take it. Refusal means arrest under the Implied Consent Law and losing your driving privilege for at least one year (first refusal: 1-year revocation).",
+      "number": 1,
+      "unit": "year",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 53,
+        "quote": "If you refuse, the officer must arrest you for violation of the Implied Consent Law. You will lose your driving privileges for at least one year and face other consequences."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "First OWI: license revoked 6 to 9 months (plus a $150-$300 forfeiture)",
+      "detail": "For a first OWI conviction the court revokes the operating privilege for 6 to 9 months; the person may apply for an occupational license at any time. The first offense is a civil forfeiture of $150 to $300 (s. 346.65(2)(am)1.), and an ignition interlock order is required if the alcohol concentration was 0.15 or more (s. 343.301(1g)).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/343.30(1q)(b)2.",
+        "page": null,
+        "quote": "for the first conviction, the court shall revoke the person’s operating privilege for not less than 6 months nor more than 9 months. The person is eligible for an occupational license under s. 343.10 at any time."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "open_container",
+      "value": "No opened alcohol containers in the passenger area; trunk is OK; glove box counts as passenger area",
+      "detail": "Drivers and passengers may not drink alcohol in a vehicle on a highway, and the owner/driver may not keep an opened alcohol container in the vehicle unless it is in the trunk (or an area not normally occupied if there is no trunk). The glove compartment counts as part of the passenger area.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/346.935(3)",
+        "page": null,
+        "quote": "The owner of a privately owned motor vehicle, or the driver of the vehicle if the owner is not present in the vehicle, shall not keep, or allow to be kept in the motor vehicle when it is upon a highway any bottle or receptacle containing alcohol beverages or nitrous oxide if the bottle or receptacle has been opened, the seal has been broken or the contents of the bottle or receptacle have been partially removed or released. This subsection does not apply if the bottle or receptacle is kept in the trunk of the vehicle or, if the vehicle has no trunk, in some other area of the vehicle not normally occupied by the driver or passengers. A utility compartment or glove compartment is considered to be within the area normally occupied by the driver and passengers."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15 years old",
+      "detail": "Applicants under 18 must be at least 15, pass the knowledge test, highway signs test and vision screening, and be enrolled in driver education (including behind-the-wheel). An adult sponsor must sign the application.",
+      "number": 15,
+      "unit": "years",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 9,
+        "quote": "In addition to passing the knowledge test, highway signs test, vision screening and being at least 15 years old, you must be enrolled in a driver education program, including the behind-the-wheel portion."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "6 months (under 18)",
+      "detail": "Applicants under 18 must hold the instruction permit at least six months (with no traffic convictions in the 6 months before applying) and be 16 before getting a probationary license. Applicants 18 or older must hold the permit at least seven days (WisDOT permit page). A Class D instruction permit is valid for 18 months.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 10,
+        "quote": "You need to have your instruction permit for at least six months and turn 16 years old."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "50 hours total, 10 of them in darkness",
+      "detail": "Drivers under 18 must log at least 40 daylight hours and 10 hours in darkness (50 total) with a qualified adult; the sponsor verifies the hours.",
+      "number": 50,
+      "unit": "hours",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 10,
+        "quote": "With a valid instruction permit you must practice driving for at least 40 hours during daylight and 10 hours during darkness (50 total hours)."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Licensed driver with 2+ years experience and a valid regular license, in the front passenger seat (instructor or parent/guardian/spouse 19+, or anyone 21+)",
+      "detail": "The supervisor must have at least two years of licensed driving experience and a valid regular (not probationary or occupational) license and sit beside the permit driver. They must be a qualified instructor 19+, a parent/guardian/spouse 19+, or a person 21+ (with written parent authorization if the permit holder is under 18). At night the supervisor must be a qualified instructor or a licensed person 25 or older.",
+      "number": 2,
+      "unit": "years of driving experience",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 9,
+        "quote": "The class D instruction permit holder must drive with someone else in the car. This person must have at least two years of licensed driving experience. This licensed driver must have a valid regular license. This license cannot be a probationary or occupational license."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 years old (probationary license)",
+      "detail": "The first license after passing the road test is a probationary license; you must be at least 16. Under 18 you also need 6 months with a permit, driver education completion, and 50 supervised hours.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 10,
+        "quote": "The first license you will receive after passing your skills/driving test at the DMV is a probationary license. You must be at least 16 years old."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "Midnight to 5 a.m.: alone only between home, school and/or work (first 9 months, under 18)",
+      "detail": "During the first nine months of a probationary license (if under 18), from midnight to 5 a.m. the teen may drive alone only between home, school and work; otherwise a parent/guardian or qualified licensed adult must be in the front passenger seat.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://wisconsindot.gov/Pages/dmv/teen-driver/yr-frst-lcns/gdlfaqs.aspx",
+        "page": null,
+        "quote": "From midnight to 5 a.m., you can drive alone only IF driving between home, school and/or work."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "Immediate family, one qualified licensed adult, and not more than one other person (first 9 months, under 18)",
+      "detail": "For the first nine months (or until age 18), a probationary driver under 18 may carry any number of immediate family members, one qualified licensed adult (instructor/spouse 19+ or person 21+ with 2+ years experience), and only one other passenger.",
+      "number": 1,
+      "unit": "other passenger",
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/343.085(2m)",
+        "page": null,
+        "quote": "during the 9-month period after issuance of a probationary license under this section, no licensee under 18 years of age may operate a “Class D” vehicle upon a highway in this state: 1. If, in addition to the licensee, the vehicle is occupied by any person other than the following: a. Any number of members of the licensee’s immediate family. b. A person who meets the requirements under s. 343.07 (1g) (a). c. Not more than one other person not described in subd. 1. a. and b."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "18 (GDL hour and passenger restrictions end at 18, or after 9 violation-free months)",
+      "detail": "GDL restrictions last nine months or until age 18, whichever comes first. The probationary license itself expires 2 years from the next birthday (s. 343.20(1)(a)), after which the driver renews to a regular license.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 11,
+        "quote": "Once you turn 18 the graduated driver license hours and passenger restrictions no longer apply."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "No general handheld ban for regular license holders; phone use banned in work zones except to report an emergency (hands-free allowed)",
+      "detail": "Wisconsin bans using a cell phone while driving through a highway work zone (and emergency/roadside response areas) unless reporting an emergency or using a voice-operated/hands-free device (s. 346.89(4m)). Otherwise, regular license holders are advised (not required) to avoid phone use and use hands-free.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 30,
+        "quote": "You can only use your cellphone in a construction zone if you are reporting an emergency."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "texting_ban",
+      "value": "Texting/emailing while driving is banned for all drivers",
+      "detail": "No one may drive while composing or sending a text or email message (s. 346.89(3)(a)). Using a voice-operated or hands-free device without your hands (except to turn a feature on or off) is exempt.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/346.89(3)",
+        "page": null,
+        "quote": "No person may drive, as defined in s. 343.305 (1) (b), any motor vehicle while composing or sending an electronic text message or an electronic mail message."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Instruction permit and probationary license holders may not use a cell phone except to report an emergency",
+      "detail": "This all-phone ban applies to permit and probationary license holders regardless of age; it includes hands-free use.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 53,
+        "quote": "Instruction permit and probationary license holders can only use a cell phone to report an emergency."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Driver and all passengers must wear seat belts, at any age",
+      "detail": "Wisconsin requires the driver and passengers to be belted at any age; you still need a seat belt in a vehicle with air bags.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 58,
+        "quote": "Wisconsin law requires that you and your passengers wear seat belts (safety belts) at any age."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Child safety seat until age 4; booster seat until age 8",
+      "detail": "Generally a child rides in a child safety seat until age 4 and a booster until age 8. Statute s. 347.48(4): rear-facing (in a back seat if available) until at least age 1 and 20 lbs; forward-facing until age 4 and 40 lbs; booster until age 8, more than 80 lbs or taller than 57 inches.",
+      "number": 8,
+      "unit": "years",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 59,
+        "quote": "Generally, children must be in a child safety seat until they reach age four and in a booster seat until age eight."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Never faster than reasonable and prudent for conditions",
+      "detail": "Even below the posted limit, you must drive at a speed that is reasonable and prudent for actual and potential hazards, and slow down when conditions require.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/346.57(2)",
+        "page": null,
+        "quote": "No person shall drive a vehicle at a speed greater than is reasonable and prudent under the conditions and having regard for the actual and potential hazards then existing."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "15 mph when children are present",
+      "detail": "The normal school zone limit is 15 mph when children are present (or a crossing guard is in the crosswalk).",
+      "number": 15,
+      "unit": "mph",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 14,
+        "quote": "The normal speed limit in a school zone when children are present is 15 miles per hour."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "25 mph unless posted",
+      "detail": "Unless signs show otherwise, residential areas are 25 mph. Outlying parts of cities and villages with no posted limit are 35 mph.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 14,
+        "quote": "Unless otherwise posted, the speed limit in residential areas is 25 miles per hour."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "25 mph within city/village limits (35 mph in outlying districts) unless posted",
+      "detail": "Statute sets 25 mph on any highway within a city or village (other than outlying districts, which are 35 mph), unless different limits are posted.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/346.57(4)(e)",
+        "page": null,
+        "quote": "Twenty-five miles per hour on any highway within the corporate limits of a city or village, other than on highways in outlying districts in such city or village."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "55 mph unless otherwise posted",
+      "detail": "Where no other fixed or posted limit applies, the limit is 55 mph.",
+      "number": 55,
+      "unit": "mph",
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/346.57(4)(h)",
+        "page": null,
+        "quote": "In the absence of any other fixed limits or the posting of limits as required or authorized by law, 55 miles per hour."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "70 mph on freeways/interstates (65 mph on expressways) unless signs show otherwise",
+      "detail": "By statute the fixed limit is 70 mph on freeways (including interstates) and 65 mph on expressways, unless different limits are indicated by official traffic signs.",
+      "number": 70,
+      "unit": "mph",
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/346.57(4)(gm)",
+        "page": null,
+        "quote": "Seventy miles per hour on any freeway, including freeways that are a part of the national system of interstate and defense highways, and on any portion of an expressway that gives preference to through traffic by utilizing interchanges only."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Do not drive so slowly that you impede normal traffic",
+      "detail": "Driving too slowly is illegal unless needed for safety or to obey the law; slow drivers should use the far-right lane and let others pass.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/346.59(1)",
+        "page": null,
+        "quote": "No person shall drive a motor vehicle at a speed so slow as to impede the normal and reasonable movement of traffic except when reduced speed is necessary for safe operation or is necessary to comply with the law."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a full stop unless a sign prohibits it",
+      "detail": "Stop first, yield to all traffic and pedestrians, then turn and stay in your lane.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 36,
+        "quote": "You can turn right on red if it is safe to do so and there is no sign prohibiting it."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Allowed only from a one-way street onto a one-way street, after stopping",
+      "detail": "A left on red is legal only when turning from a one-way street onto another one-way street (traffic moving left), after a full stop and yielding.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 36,
+        "quote": "You may turn left on red if you are turning from a one-way on to a one-way street."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "signal_distance",
+      "value": "About 3 seconds / 100 feet before the turn",
+      "detail": "Signal about three seconds (about 100 feet) before turning at an intersection. Statute s. 346.34(1)(b) requires the signal continuously for at least the last 100 feet before turning (50 feet for bicycles).",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 25,
+        "quote": "If you are turning at an intersection, you should start signaling about three seconds (about 100 feet) before the turn."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the side and stop until it passes; do not stop in an intersection; do not follow closer than 500 feet",
+      "detail": "When you see emergency lights and hear sirens, pull over and stop until the vehicle passes, but do not stop in the middle of an intersection. By statute (s. 346.90) you may not follow an emergency vehicle responding to a call closer than 500 feet.",
+      "number": 500,
+      "unit": "feet (following distance)",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 55,
+        "quote": "When you see emergency lights and hear sirens it is time to move. Pull over to the side of the road and stop until the emergency vehicle has passed. Do not stop in the middle of the intersection."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "move_over_law",
+      "value": "Move out of the lane next to a stopped emergency vehicle; if you can't, slow down",
+      "detail": "Move into a lane not nearest the stopped vehicle and stay there until past it; if there is only one lane or you can't change lanes safely, slow down. The law also covers tow trucks, highway maintenance and utility vehicles with flashing lights, and disabled vehicles (s. 346.072).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 55,
+        "quote": "If you are approaching an emergency vehicle with its lights flashing, make sure to move into the lane not nearest the stopped vehicle. Keep in the farthest lane until you have gone past the emergency vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop at least 20 feet away, both directions; not required on the opposite side of a divided highway",
+      "detail": "Stop at least 20 feet from a school bus with flashing red lights whether it is on your side or the opposite side, and wait until the red lights stop flashing. On a divided highway (barrier between directions), traffic on the other side need not stop.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 55,
+        "quote": "When a school bus is stopped with its red lights flashing you need to stop at least 20 feet from it. You must stop whether the school bus is on your side of the road or the opposite side of the road. Watch for children. You can proceed once the red lights on the school bus have stopped flashing. If you are on a divided highway/roadway and not on the side of the school bus, you do not need to stop."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "following_distance",
+      "value": "4 seconds (add a second for each adverse condition)",
+      "detail": "Wisconsin teaches a four-second following distance: count from 'one thousand one' to 'one thousand four' after the vehicle ahead passes a fixed object. Add a second for every adverse condition such as heavier traffic, rain, snow or ice.",
+      "number": 4,
+      "unit": "seconds",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 14,
+        "quote": "Use the \"Four Second Following Distance Rule.\" To do this pick out a stationary object as far ahead as you can clearly see."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "headlights_required",
+      "value": "From a half hour after sunset to a half hour before sunrise, and when you can't see 500 feet",
+      "detail": "Headlights (low beams) are required when you cannot see a person or vehicle 500 feet (about one block) away and from a half hour past sunset to a half hour before sunrise. They are recommended when using wipers or in rain, snow or fog.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 25,
+        "quote": "You must use your low beams/headlights when: 1. You cannot see a vehicle or person that is 500 feet (about one block) away 2. It is a half hour past sunset to half hour before sunrise"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "Within 500 feet of an oncoming vehicle",
+      "detail": "Dim your high beams when an oncoming vehicle is within 500 feet. If an oncoming driver keeps brights on, look toward the right side of the road.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/347.12(1)(a)",
+        "page": null,
+        "quote": "Whenever the operator of a vehicle equipped with multiple-beam headlamps approaches an oncoming vehicle within 500 feet, the operator shall dim, depress or tilt the vehicle’s headlights so that the glaring rays are not directed into the eyes of the operator of the other vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "Within 500 feet when following another vehicle",
+      "detail": "Wisconsin uses the same 500-foot distance when you are approaching or following a vehicle from behind.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/347.12(1)(b)",
+        "page": null,
+        "quote": "Whenever the operator of a vehicle equipped with multiple-beam headlamps approaches or follows another vehicle within 500 feet to the rear, the operator shall dim, depress, or tilt the vehicle’s headlights so that the glaring rays are not reflected into the eyes of the operator of the other vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "10 feet (unless a sign shows a greater distance)",
+      "detail": "No parking within 10 feet of a fire hydrant. The handbook also says not to park in front of fire hydrants or where curbs are painted yellow.",
+      "number": 10,
+      "unit": "feet",
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/346.53(3)",
+        "page": null,
+        "quote": "Within 10 feet of a fire hydrant, unless a greater distance is indicated by an official traffic sign."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "15 feet from a crosswalk (never on a crosswalk)",
+      "detail": "No parking closer than 15 feet to the near limits of a crosswalk; stopping on a crosswalk is prohibited (s. 346.52(1)(b)).",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/346.53(5)",
+        "page": null,
+        "quote": "Closer than 15 feet to the near limits of a crosswalk."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Not within an intersection (no separate distance; the 15-foot crosswalk rule usually applies)",
+      "detail": "Stopping or standing within an intersection is prohibited at any time. Wisconsin statute sets no separate parking distance from an intersection, but you may not park closer than 15 feet to a crosswalk (marked or unmarked).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/346.52(1)",
+        "page": null,
+        "quote": "No person may stop or leave standing any vehicle, whether attended or unattended and whether temporarily or otherwise, in any of the following places: (a) Within an intersection."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_railroad",
+      "value": "25 feet from the nearest rail",
+      "detail": "No stopping or standing within 25 feet of the nearest rail at a railroad crossing.",
+      "number": 25,
+      "unit": "feet",
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/346.52(1)(i)",
+        "page": null,
+        "quote": "Within 25 feet of the nearest rail at a railroad crossing."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "15 feet from a fire station driveway (or directly across from it)",
+      "detail": "No stopping within 15 feet of a fire station driveway entrance or directly across the highway from it. Separately, you may not park within 300 feet of where fire apparatus has stopped for an alarm (s. 346.90).",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/346.52(1)(g)",
+        "page": null,
+        "quote": "Within 15 feet of the driveway entrance to a fire station or directly across the highway from a fire station entrance."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "Within 12 inches of the curb",
+      "detail": "When parallel parking, wheels must be within 12 inches of the curb and at least 2 feet from the vehicles in front and behind. The handbook describes ending about a foot from the curb.",
+      "number": 12,
+      "unit": "inches",
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/346.54(1)(d)",
+        "page": null,
+        "quote": "In parallel parking, a vehicle shall be parked facing in the direction of traffic with the right wheels within 12 inches of the curb or edge of the street when parked on the right side"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet",
+      "detail": "Give bicyclists at least three feet when passing and wait for oncoming traffic to clear before passing. Bicyclists may use the whole lane.",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 56,
+        "quote": "Give bicyclists at least three feet of room when you pass."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Yield to pedestrians; for a guide dog or white cane, stop at least 10 feet away until the person is off the roadway",
+      "detail": "Yield to pedestrians, bicyclists and drivers still in an intersection. For a pedestrian with a guide dog or white cane, stop at least ten feet away until they are off the roadway, even if they are not in the intersection. Driving on a sidewalk is illegal except to cross it.",
+      "number": 10,
+      "unit": "feet",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 13,
+        "quote": "Pedestrians using a guide dog or carrying a white cane (even if they are no in the intersection). Stop at least ten feet away until the person is off the roadway"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Report to police: injury/death, $1,000+ property damage, $200+ government property damage",
+      "detail": "Report a crash to police if anyone is injured or killed, property damage is $1,000 or more, government property (signs, guard rails) damage is $200 or more, a vehicle can't be moved, or a driver appears impaired. Leaving the scene when someone is injured or killed is a crime.",
+      "number": 1000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 51,
+        "quote": "You need to report a crash to police if: • There is an injury or someone is killed • Property damage of $1,000 or more • Government property damage of $200 or more (ex: signs, guard rails)"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "25/50/10 liability ($25,000 one person / $50,000 more than one / $10,000 property)",
+      "detail": "Liability insurance is required to drive in Wisconsin and proof must be shown to police on request. Driving uninsured may be fined up to $500; failing to show proof up to $10.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://wisconsindot.gov/Pages/dmv/license-drvs/rcd-crsh-rpt/auto-insurance.aspx",
+        "page": null,
+        "quote": "Minimum liability coverage amounts are: $10,000 for property damage $25,000 for the injury or death of one person $50,000 for the injury or death of more than one person"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "point_system",
+      "value": "12 or more demerit points in 12 months = suspension",
+      "detail": "Everyone starts at 0 points. 12+ points in any 12-month period suspends the driving privilege. Points are doubled on the 2nd and later convictions for probationary license, permit or no-license holders. An approved traffic safety course can reduce points by 3 (once every 3 years).",
+      "number": 12,
+      "unit": "points",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 57,
+        "quote": "You will not be able to drive if you get 12 or more demerit points within any 12-month period. Your driving privilege will be suspended or revoked."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Helmet required under 18 and for all instruction permit holders (operators and passengers under 18)",
+      "detail": "Riders 18+ with a Class M license are not required to wear a helmet (it is highly recommended). Eye protection is required for all operators unless the motorcycle has a windshield at least 15 inches above the handlebars.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds110-mc-manual.pdf",
+        "page": 12,
+        "quote": "Operators and passengers under 18 or with a cycle instruction permit must wear approved helmets (U.S. DOT standard at minimum) with the chin straps properly fastened."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Not allowed; two motorcycles may ride side by side in one lane by agreement",
+      "detail": "Motorcycles are entitled to a full lane; you may not ride in any part of a lane occupied by another vehicle (no lane splitting), except two motorcyclists who agree to ride side by side.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds110-mc-manual.pdf",
+        "page": 12,
+        "quote": "Motorcyclists are entitled to use a full traffic lane. You may not ride in any part of a lane occupied by another vehicle except when two cyclists agree to ride side by side in one lane."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "At a railroad crossing stop sign: stop at the stop line, or 15 to 50 feet from the nearest rail if there is no line",
+      "detail": "When an official stop sign is posted at a railroad crossing, stop immediately before a clearly marked stop line; if there is none, stop not less than 15 nor more than 50 feet from the nearest rail. Buses carrying passengers, school buses and certain hazardous-material vehicles must always stop 15 to 50 feet from the nearest rail (s. 346.45).",
+      "number": 15,
+      "unit": "feet (minimum)",
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/346.46(3)",
+        "page": null,
+        "quote": "Every operator of a vehicle approaching an official stop sign at a railroad crossing shall, before proceeding on or over such crossing, stop the vehicle immediately before crossing a clearly marked stop line. If there is no clearly marked stop line, the operator shall stop the vehicle not less than 15 nor more than 50 feet from the nearest rail."
+      },
+      "status": "verified"
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "First-offense OWI is a civil forfeiture",
+      "summary": "A first OWI (with no prior counted offenses) is not a crime in Wisconsin: the penalty is a $150-$300 forfeiture plus surcharges, along with a 6-9 month revocation. Second and later offenses carry fines and jail.",
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/346.65(2)(am)",
+        "page": null,
+        "quote": "Shall forfeit not less than $150 nor more than $300, except as provided in subds. 2. to 7. and par. (f)."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "0.02 limit after three prior OWI offenses",
+      "summary": "The prohibited alcohol concentration drops from 0.08 to more than 0.02 for drivers with 3 or more prior OWI convictions/suspensions/revocations or an ignition interlock order.",
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/340.01(46m)",
+        "page": null,
+        "quote": "If the person is subject to an order under s. 343.301 or if the person has 3 or more prior convictions, suspensions or revocations, as counted under s. 343.307 (1), an alcohol concentration of more than 0.02."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Absolute sobriety for instruction permit holders of any age",
+      "summary": "A driver with an instruction permit may not have any alcohol in their system, even if they are 21 or older.",
+      "source": {
+        "url": "https://wisconsindot.gov/Pages/dmv/teen-driver/yr-frst-lcns/permit.aspx",
+        "page": null,
+        "quote": "You must maintain absolute sobriety. You cannot have any alcohol in your system at any time, no matter what your age."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Stay 500 feet behind responding emergency vehicles",
+      "summary": "You may not follow an emergency vehicle responding to a call closer than 500 feet, or drive into or park within the block (or within 300 feet of the driveway) where fire apparatus has stopped for an alarm.",
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/346.90",
+        "page": null,
+        "quote": "The operator of any vehicle other than one on official business shall not follow an authorized emergency vehicle responding to a call or alarm closer than 500 feet or drive into or park his or her vehicle within the block where, or within 300 feet of the driveway entrance or similar point of access to a driveway or road on which, fire apparatus has stopped in response to an alarm."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Move Over law covers disabled vehicles",
+      "summary": "The Move Over/slow down rule applies to emergency and roadside service vehicles (police, tow trucks, highway maintenance, utility vehicles with flashing lights) and to disabled vehicles parked within 12 feet of the roadway.",
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/346.072",
+        "page": null,
+        "quote": "If an emergency or roadside service vehicle or a disabled vehicle is parked or standing on or within 12 feet of a roadway, the operator of a motor vehicle approaching the emergency or roadside service vehicle or disabled vehicle shall proceed with due regard for all other traffic and shall do either of the following:"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Give snowplows 200 feet",
+      "summary": "Stay at least 200 feet behind a snowplow with flashing red, amber or green lights (statute s. 346.915: 200 feet where the posted limit is over 35 mph, 75 feet where it is 35 mph or less).",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 49,
+        "quote": "Give snowplows at least 200 feet of room when their lights are flashing red, amber or green"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "You may keep a deer you hit",
+      "summary": "A driver who hits a deer may keep it (or the next motorist can); call police so they can issue a tag for the deer, or to tell them where it is if you don't want it.",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 47,
+        "quote": "If you hit a deer, you can keep it. If you do not want it, the next motorist can keep it."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Points doubled for permit, probationary and unlicensed drivers",
+      "summary": "Drivers with a probationary license, an instruction permit or no license get double demerit points on the second and later convictions (except Chapter 347 equipment violations).",
+      "source": {
+        "url": "https://wisconsindot.gov/Pages/dmv/license-drvs/susp-or-rvkd/point-system.aspx",
+        "page": null,
+        "quote": "If you hold a probationary driver license, instruction permit, or have no license, you are assessed double demerit points on the second and subsequent convictions."
+      },
+      "status": "corrected"
+    },
+    {
+      "title": "GDL restrictions extended six months after a violation",
+      "summary": "Probationary GDL restrictions are extended six months if the teen is convicted of a moving violation, violates a restriction, or has the license suspended or revoked.",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 11,
+        "quote": "The graduated driver license restrictions will be extended six months if:"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Habitual traffic offender: 5-year revocation",
+      "summary": "Four or more major violations or 12 or more minor violations within five years makes you a habitual traffic offender; the license is revoked for five years, with occupational license eligibility after two years.",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 57,
+        "quote": "A habitual offender is someone who is convicted of four or more major traffic violations or 12 or more minor violations within five years."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Passing slow vehicles across a solid yellow line",
+      "summary": "You may cross a no-passing (solid yellow) line to pass a vehicle going less than half the speed limit if it is safe, but not if the vehicle is farm equipment; you may also cross it to turn into a driveway.",
+      "source": {
+        "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+        "page": 39,
+        "quote": "You can pass a vehicle going less than half the speed limit if it is safe, except if it is farm equipment."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Motorcycles and bicycles may go through a red light after 45 seconds",
+      "summary": "A motorcycle, moped, motor bicycle or bicycle stopped at a vehicle-actuated red signal for at least 45 seconds, with no other vehicles present to trigger it, may proceed cautiously and must yield to all other traffic and pedestrians.",
+      "source": {
+        "url": "https://docs.legis.wisconsin.gov/document/statutes/346.37(1)(c)",
+        "page": null,
+        "quote": "a motorcycle, moped, motor bicycle, or bicycle facing a red signal at an intersection may, after stopping as required under subd. 1. for not less than 45 seconds, proceed cautiously through the intersection before the signal turns green if no other vehicles are present at the intersection to actuate the signal and the operator of the motorcycle, moped, motor bicycle, or bicycle reasonably believes the signal is vehicle actuated."
+      },
+      "status": "verified"
+    }
+  ],
+  "officialPracticeTests": [
+    "https://widmv-practice-tests.wi.gov/class-d-driver-license"
+  ],
+  "gaps": [
+    "parking_stop_sign_signal: Neither the 2026 Motorists' Handbook nor Wis. Stat. 346.52-346.55 sets a no-parking distance from a stop sign or traffic signal.",
+    "motorcycleTest: WisDOT does not publish the Class M knowledge test's question count or passing score.",
+    "knowledgeTest.timeLimitMinutes: WisDOT says the test takes about 45 minutes but states no time limit."
+  ]
+}

@@ -200,10 +200,6 @@ def hand_signal(kind):
     return svg(240, 230, car + arm)
 
 
-def smv():
-    return svg(200, 180, '<polygon points="100,8 192,170 8,170" fill="#B3261E"/><polygon points="100,40 164,152 36,152" fill="#FF6A13"/>')
-
-
 SIGNALS = [
     ("SIG-RED", "Steady red light", signal([(RED, "ball"), (YELLOW, "ball"), (GREEN, "ball")], 0), "Come to a complete stop. You may turn right (and in some states left onto a one-way street) after stopping only if no sign prohibits it and it is safe."),
     ("SIG-YELLOW", "Steady yellow light", signal([(RED, "ball"), (YELLOW, "ball"), (GREEN, "ball")], 1), "The light is about to turn red. Stop if you can do so safely; if you are too close to stop safely, proceed with caution."),
@@ -270,12 +266,6 @@ def main():
             f.write(hand_signal(kind))
         mark_manifest.append({"code": code, "name": name, "category": "hand_signal", "shape": "Arm position", "colors": "",
                               "meaning": meaning, "license": "app-drawn", "svgPath": f"svg/{code}.svg"})
-    with open(os.path.join(OUT, "SMV-EMBLEM.svg"), "w") as f:
-        f.write(smv())
-    mark_manifest.append({"code": "SMV-EMBLEM", "name": "Slow-moving vehicle emblem", "category": "other", "shape": "Triangle",
-                          "colors": "Fluorescent orange with red border",
-                          "meaning": "Marks a vehicle that travels at 25 mph or less, such as farm equipment or horse-drawn vehicles; slow down and pass only when safe.",
-                          "license": "app-drawn", "svgPath": "svg/SMV-EMBLEM.svg"})
     with open(os.path.join(HERE, "manifest_signals.json"), "w") as f:
         json.dump(sig_manifest, f, indent=2)
     with open(os.path.join(HERE, "manifest_markings.json"), "w") as f:

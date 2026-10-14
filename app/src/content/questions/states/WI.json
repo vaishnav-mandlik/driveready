@@ -1,0 +1,2089 @@
+[
+  {
+    "id": "wi.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "For a Wisconsin driver with no prior OWI offenses, what alcohol concentration is the prohibited (per se) limit?",
+    "choices": [
+      "0.08",
+      "0.05",
+      "0.10",
+      "0.04"
+    ],
+    "answer": 0,
+    "explanation": "Wisconsin's prohibited alcohol concentration is 0.08 or more for drivers with two or fewer prior OWI-related offenses.",
+    "difficulty": 1,
+    "ref": "Wis. Stat. § 340.01(46m)(a)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A Wisconsin driver has three prior OWI convictions. At what alcohol concentration is this driver over the legal limit?",
+    "choices": [
+      "0.08 or more",
+      "More than 0.02",
+      "0.04 or more",
+      "0.10 or more"
+    ],
+    "answer": 1,
+    "explanation": "With 3 or more prior OWI convictions, suspensions or revocations (or an ignition interlock order), the prohibited alcohol concentration is more than 0.02, not 0.08.",
+    "difficulty": 3,
+    "ref": "Wis. Stat. § 340.01(46m)(c)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the legal alcohol concentration allowed for Wisconsin drivers under age 21?",
+    "choices": [
+      "0.08%",
+      "0.04%",
+      "0.02%",
+      "0.00%"
+    ],
+    "answer": 3,
+    "explanation": "Wisconsin requires absolute sobriety for drivers under 21: the allowed alcohol concentration is 0.00%, so any alcohol in the system is a violation. 0.02% is the rule in many other states, not Wisconsin.",
+    "difficulty": 1,
+    "ref": "Wisconsin Motorists' Handbook, p. 53",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 20-year-old Wisconsin driver is stopped after having one beer and tests at 0.01. Which statement is true?",
+    "choices": [
+      "It is legal because it is under 0.08",
+      "It is only a violation if the driver is also speeding",
+      "It is a violation, because drivers under 21 may not have any alcohol in their system",
+      "It is legal because it is under 0.02"
+    ],
+    "answer": 2,
+    "explanation": "Wisconsin's limit for drivers under 21 is 0.00%, meaning no alcohol at all while driving.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 53",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 24-year-old learning to drive with a Wisconsin instruction permit has a glass of wine before a practice drive. Why is this illegal even though the driver is over 21?",
+    "choices": [
+      "Permit holders must maintain absolute sobriety no matter their age",
+      "Permit holders have a 0.04 limit",
+      "It is legal as long as the supervising driver is sober",
+      "Permit holders have a 0.05 limit"
+    ],
+    "answer": 0,
+    "explanation": "WisDOT requires instruction permit holders to maintain absolute sobriety: no alcohol in the system at any time, no matter what their age.",
+    "difficulty": 3,
+    "ref": "WisDOT, Instruction permit (temps) page (wisconsindot.gov)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the alcohol concentration limit for a person driving a commercial motor vehicle in Wisconsin?",
+    "choices": [
+      "0.02",
+      "0.04",
+      "0.06",
+      "0.08"
+    ],
+    "answer": 1,
+    "explanation": "Wisconsin law prohibits driving a commercial motor vehicle with an alcohol concentration of 0.04 or more, half the 0.08 limit for ordinary vehicles.",
+    "difficulty": 2,
+    "ref": "Wis. Stat. § 346.63(5)(a)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Wisconsin's Implied Consent Law, what happens if you refuse a police officer's request to take a test for alcohol concentration?",
+    "choices": [
+      "Your license is suspended for 30 days",
+      "Nothing, as long as you pass a field sobriety test",
+      "You get a warning and can drive home",
+      "You are arrested and lose your driving privileges for at least one year"
+    ],
+    "answer": 3,
+    "explanation": "If you refuse, the officer must arrest you for violating the Implied Consent Law, and you lose your driving privileges for at least one year.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 53",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "For a first OWI conviction in Wisconsin, how long does the court revoke the driver's operating privilege?",
+    "choices": [
+      "6 to 9 months",
+      "1 to 2 years",
+      "3 years",
+      "30 to 60 days"
+    ],
+    "answer": 0,
+    "explanation": "A first OWI conviction brings a revocation of not less than 6 months nor more than 9 months; the driver may apply for an occupational license at any time.",
+    "difficulty": 2,
+    "ref": "Wis. Stat. § 343.30(1q)(b)2.",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.009",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the base penalty for a first-offense OWI in Wisconsin (with no prior offenses counted)?",
+    "choices": [
+      "A $1,000 to $2,000 criminal fine",
+      "A $150 to $300 forfeiture",
+      "A $50 to $100 fine",
+      "A mandatory 30 days in jail"
+    ],
+    "answer": 1,
+    "explanation": "A first OWI in Wisconsin is a civil forfeiture of $150 to $300 (plus surcharges and costs), not a crime with jail time; later offenses carry fines and jail.",
+    "difficulty": 3,
+    "ref": "Wis. Stat. § 346.65(2)(am)1.",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.010",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A driver puts a partly finished bottle of wine in the glove compartment for the ride home. Is this legal in Wisconsin?",
+    "choices": [
+      "Yes, as long as the driver is sober",
+      "Yes, because the glove compartment is closed",
+      "Yes, if the cork is pushed back in",
+      "No, because the glove compartment counts as part of the passenger area"
+    ],
+    "answer": 3,
+    "explanation": "Wisconsin law treats a utility or glove compartment as within the area normally occupied by the driver and passengers, so an opened container there is illegal. Put it in the trunk.",
+    "difficulty": 3,
+    "ref": "Wis. Stat. § 346.935(3)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.011",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age to get a Class D instruction permit in Wisconsin?",
+    "choices": [
+      "16",
+      "15",
+      "14",
+      "15 and a half"
+    ],
+    "answer": 1,
+    "explanation": "You must be at least 15 years old, pass the knowledge test, signs test and vision screening, and be enrolled in driver education.",
+    "difficulty": 1,
+    "ref": "Wisconsin Motorists' Handbook, p. 9",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.012",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long must a Wisconsin driver under 18 hold an instruction permit before getting a probationary license?",
+    "choices": [
+      "3 months",
+      "6 months",
+      "12 months",
+      "9 months"
+    ],
+    "answer": 1,
+    "explanation": "Teens must hold the instruction permit at least six months and be at least 16 years old.",
+    "difficulty": 1,
+    "ref": "Wisconsin Motorists' Handbook, p. 10",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.013",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "An adult age 18 or older gets a Wisconsin instruction permit. How long must they hold it before getting a probationary license?",
+    "choices": [
+      "At least 7 days",
+      "At least 6 months",
+      "At least 30 days",
+      "At least 9 months"
+    ],
+    "answer": 0,
+    "explanation": "WisDOT says permit holders 18 or older must hold the permit at least seven days; the six-month rule applies to those under 18.",
+    "difficulty": 3,
+    "ref": "WisDOT, Instruction permit (temps) page (wisconsindot.gov)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.014",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many hours of supervised driving must a Wisconsin teen complete before getting a probationary license?",
+    "choices": [
+      "30 hours, 5 at night",
+      "50 hours, 10 at night",
+      "60 hours, 15 at night",
+      "40 hours total, 5 at night"
+    ],
+    "answer": 1,
+    "explanation": "Teens must log at least 50 hours of practice: 40 during daylight and 10 during darkness. The sponsor verifies the hours.",
+    "difficulty": 1,
+    "ref": "Wisconsin Motorists' Handbook, p. 10",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.015",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Who may supervise a Wisconsin Class D instruction permit holder?",
+    "choices": [
+      "Only a certified driving instructor",
+      "Any licensed driver age 18 or older",
+      "A licensed driver with at least two years of driving experience and a valid regular (not probationary) license",
+      "Any adult, licensed or not"
+    ],
+    "answer": 2,
+    "explanation": "The accompanying driver needs at least two years of licensed driving experience and a valid regular license (not probationary or occupational), and must sit in the front passenger seat.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 9",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.016",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Wisconsin instruction permit holder wants to practice driving after dark. Who must be in the seat beside them?",
+    "choices": [
+      "Any parent, even without a license",
+      "Any licensed driver age 19 or older",
+      "A qualified instructor or a licensed person at least 25 with two years of driving experience",
+      "Any passenger age 21 or older"
+    ],
+    "answer": 2,
+    "explanation": "During hours of darkness the permit holder must be accompanied by a qualified instructor or a licensed person 25 or older with at least two years of licensed driving experience.",
+    "difficulty": 3,
+    "ref": "Wisconsin Motorists' Handbook, p. 9",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.017",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long is a Wisconsin Class D instruction permit valid?",
+    "choices": [
+      "6 months",
+      "18 months",
+      "2 years",
+      "12 months"
+    ],
+    "answer": 1,
+    "explanation": "A Class D instruction permit is valid for 18 months and can be renewed. (Motorcycle permits are valid for 6 months.)",
+    "difficulty": 2,
+    "ref": "WisDOT, Instruction permit (temps) page (wisconsindot.gov)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.018",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age for a probationary driver license in Wisconsin?",
+    "choices": [
+      "16",
+      "18",
+      "15",
+      "17"
+    ],
+    "answer": 0,
+    "explanation": "The first license after the road test is a probationary license, and you must be at least 16 years old.",
+    "difficulty": 1,
+    "ref": "Wisconsin Motorists' Handbook, p. 10",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.019",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long do Wisconsin's graduated driver license (GDL) passenger and hour restrictions last for a new driver under 18?",
+    "choices": [
+      "3 months",
+      "9 months",
+      "6 months",
+      "12 months"
+    ],
+    "answer": 1,
+    "explanation": "The GDL restrictions apply for the first nine months of the probationary license, unless the driver turns 18 sooner.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 10",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.020",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old with a Wisconsin probationary license is convicted of speeding during the GDL period. What happens to the restrictions?",
+    "choices": [
+      "The license is canceled permanently",
+      "They are extended six months",
+      "Nothing changes",
+      "They are extended one month"
+    ],
+    "answer": 1,
+    "explanation": "GDL restrictions are extended six months if the teen is convicted of a moving violation, violates a restriction, or has the license suspended or revoked.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 11",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.021",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During the GDL period, a 16-year-old Wisconsin driver wants to drive alone at 1 a.m. When is this allowed?",
+    "choices": [
+      "Any time on weekends",
+      "Only with a sibling in the car",
+      "Never",
+      "Only when driving between home, school and/or work"
+    ],
+    "answer": 3,
+    "explanation": "From midnight to 5 a.m., a GDL driver may drive alone only between home, school and/or work; otherwise a parent/guardian or qualified licensed adult must be in the front seat.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 11; Wis. Stat. § 343.085(2m)(a)2.",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.022",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During the first nine months of a Wisconsin probationary license (driver under 18), who may ride along?",
+    "choices": [
+      "Only a parent",
+      "Any number of friends",
+      "Any number of immediate family members, one qualified licensed adult, and one other person",
+      "No passengers at all"
+    ],
+    "answer": 2,
+    "explanation": "A GDL driver may carry any number of immediate family members, one qualified licensed adult (instructor or spouse 19+, or a person 21+ with two years experience), and only one other person.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 10",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.023",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "When do Wisconsin's GDL hour and passenger restrictions stop applying, even if nine months have not passed?",
+    "choices": [
+      "After 50 more hours of driving",
+      "Once the driver finishes high school",
+      "At age 17",
+      "When the driver turns 18"
+    ],
+    "answer": 3,
+    "explanation": "Once you turn 18, the graduated driver license hours and passenger restrictions no longer apply.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 11",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.024",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What does an adult sponsor accept by signing a Wisconsin teen's driver license application?",
+    "choices": [
+      "Nothing; it is only a formality",
+      "A promise to ride along on every trip",
+      "Responsibility to pay the teen's insurance premium only",
+      "Legal and financial responsibility for incidents caused by the minor's driving"
+    ],
+    "answer": 3,
+    "explanation": "The sponsor accepts liability, meaning they are legally and financially responsible for incidents caused by the minor driving, and can remove the sponsorship at any time.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 7",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.025",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many demerit points within a 12-month period will get a Wisconsin driver's privilege suspended?",
+    "choices": [
+      "12 or more",
+      "15 or more",
+      "8 or more",
+      "6 or more"
+    ],
+    "answer": 0,
+    "explanation": "Accumulating 12 or more demerit points within any 12-month period leads to suspension or revocation.",
+    "difficulty": 1,
+    "ref": "Wisconsin Motorists' Handbook, p. 57",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.026",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Wisconsin probationary license holder gets a second traffic conviction. How are the demerit points for that conviction handled?",
+    "choices": [
+      "They are not counted",
+      "They count only after age 18",
+      "They are cut in half",
+      "They are doubled"
+    ],
+    "answer": 3,
+    "explanation": "If you hold a probationary license, an instruction permit, or no license, demerit points are doubled on the second and later convictions (vehicle equipment violations excepted).",
+    "difficulty": 2,
+    "ref": "WisDOT, Point system page (wisconsindot.gov)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.027",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Who is a habitual traffic offender in Wisconsin?",
+    "choices": [
+      "Someone convicted of 4 or more major or 12 or more minor violations within five years",
+      "Anyone who refuses a breath test",
+      "Someone with 12 points in 12 months",
+      "Anyone with 2 speeding tickets in a year"
+    ],
+    "answer": 0,
+    "explanation": "A habitual offender has four or more major traffic violations or 12 or more minor violations within five years.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 57",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.028",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long is a Wisconsin habitual traffic offender's driving privilege revoked?",
+    "choices": [
+      "2 years",
+      "1 year",
+      "5 years",
+      "10 years"
+    ],
+    "answer": 2,
+    "explanation": "Habitual traffic offenders lose their driving privilege for five years, though they may qualify for an occupational license after a two-year wait.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 57",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.029",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is Wisconsin's minimum liability insurance coverage for injury or death of one person?",
+    "choices": [
+      "$10,000",
+      "$15,000",
+      "$50,000",
+      "$25,000"
+    ],
+    "answer": 3,
+    "explanation": "Wisconsin minimums are $25,000 for injury or death of one person, $50,000 for more than one person, and $10,000 for property damage.",
+    "difficulty": 2,
+    "ref": "WisDOT, Minimum insurance requirements page (wisconsindot.gov)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.030",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What minimum liability coverage does Wisconsin require for property damage?",
+    "choices": [
+      "$20,000",
+      "$10,000",
+      "$5,000",
+      "$25,000"
+    ],
+    "answer": 1,
+    "explanation": "Wisconsin requires at least $10,000 of property damage liability coverage (along with $25,000/$50,000 for bodily injury).",
+    "difficulty": 2,
+    "ref": "WisDOT, Minimum insurance requirements page (wisconsindot.gov)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.031",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many questions are on Wisconsin's Class D knowledge test, and how many must you answer correctly?",
+    "choices": [
+      "40 questions, 32 correct",
+      "50 questions, 35 correct",
+      "25 questions, 20 correct",
+      "50 questions, 40 correct"
+    ],
+    "answer": 3,
+    "explanation": "The knowledge test has 50 questions and you must answer 40 (80%) correctly. The highway signs test is a separate test.",
+    "difficulty": 1,
+    "ref": "Wisconsin Motorists' Handbook, p. 5",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.032",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many questions are on Wisconsin's separate highway signs test, and how many must be correct to pass?",
+    "choices": [
+      "15 questions, 12 correct",
+      "10 questions, 8 correct",
+      "20 questions, 16 correct",
+      "25 questions, 20 correct"
+    ],
+    "answer": 0,
+    "explanation": "The highway signs test has 15 questions and you must answer 12 (80%) correctly.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 5",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.033",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What visual acuity does Wisconsin require for a regular car license applicant?",
+    "choices": [
+      "At least 20/40 in one eye (corrected or uncorrected)",
+      "20/20 in both eyes",
+      "20/100 in either eye",
+      "20/60 in both eyes"
+    ],
+    "answer": 0,
+    "explanation": "Wisconsin requires visual acuity of at least 20/40 in one eye, corrected or uncorrected, and a 70-degree field of vision from the center of each eye.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 5",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.034",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You move to Wisconsin with a valid regular driver license from another state. Within how many days should you apply for a Wisconsin license?",
+    "choices": [
+      "30 days",
+      "10 days",
+      "60 days",
+      "90 days"
+    ],
+    "answer": 2,
+    "explanation": "New residents with a regular out-of-state license should apply within 60 days after moving. CDL holders should apply within 30 days.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 12",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.035",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Who must wear a seat belt in a moving vehicle in Wisconsin?",
+    "choices": [
+      "Only the driver",
+      "The driver and all passengers, at any age",
+      "Only front-seat occupants",
+      "Only passengers under 18"
+    ],
+    "answer": 1,
+    "explanation": "Wisconsin law requires you and your passengers to wear seat belts at any age, even in vehicles with air bags.",
+    "difficulty": 1,
+    "ref": "Wisconsin Motorists' Handbook, p. 58",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.036",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "According to the Wisconsin Motorists' Handbook, until about what ages do children generally ride in a child safety seat and then a booster seat?",
+    "choices": [
+      "Safety seat until 4, booster until 8",
+      "Safety seat until 1, booster until 4",
+      "Safety seat until 5, booster until 10",
+      "Safety seat until 2, booster until 6"
+    ],
+    "answer": 0,
+    "explanation": "Generally, children must be in a child safety seat until they reach age four and in a booster seat until age eight.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 59",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.037",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Wisconsin law, a child must ride in a rear-facing child seat until reaching at least what?",
+    "choices": [
+      "Age 2 and 30 pounds",
+      "6 months and 15 pounds",
+      "Age 4 and 40 pounds",
+      "Age 1 and 20 pounds"
+    ],
+    "answer": 3,
+    "explanation": "A child who is less than one year old or weighs less than 20 pounds must be in a rear-facing seat, in a back seat if the vehicle has one.",
+    "difficulty": 3,
+    "ref": "Wis. Stat. § 347.48(4)(as)1.",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.038",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which Wisconsin drivers may not send or compose a text message while driving?",
+    "choices": [
+      "Only commercial drivers",
+      "Only permit holders",
+      "All drivers",
+      "Only drivers under 18"
+    ],
+    "answer": 2,
+    "explanation": "Wisconsin bans all drivers from composing or sending text or email messages while driving; voice-operated or hands-free use is exempt.",
+    "difficulty": 1,
+    "ref": "Wis. Stat. § 346.89(3)(a)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.039",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 17-year-old with a Wisconsin probationary license wants to take a hands-free call while driving. Is this allowed?",
+    "choices": [
+      "Yes, if a parent is calling",
+      "Yes, if the call is under one minute",
+      "Yes, hands-free calls are always allowed",
+      "No, permit and probationary license holders may use a phone only to report an emergency"
+    ],
+    "answer": 3,
+    "explanation": "Instruction permit and probationary license holders can only use a cell phone to report an emergency; the ban includes hands-free use.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 53",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.040",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "When may a Wisconsin driver use a hand-held cell phone while driving through a highway construction zone?",
+    "choices": [
+      "Only when no workers are visible",
+      "Any time traffic is moving slowly",
+      "Only to report an emergency",
+      "Only to use a GPS app"
+    ],
+    "answer": 2,
+    "explanation": "You can only use your cellphone in a construction zone if you are reporting an emergency; hands-free, voice-operated use is the only other exception.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 30",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.041",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "What does the Wisconsin Motorists' Handbook say about headphones while driving?",
+    "choices": [
+      "Do not drive with headsets or headphones that cover or go in both ears",
+      "Only noise-canceling headphones are banned",
+      "Headphones are fine at low volume",
+      "Headphones are required on the freeway"
+    ],
+    "answer": 0,
+    "explanation": "Do not drive with headsets or headphones that cover or go in both ears, and keep the radio low enough to hear emergency vehicles.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 53",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.042",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What following distance does the Wisconsin Motorists' Handbook teach in good conditions?",
+    "choices": [
+      "4 seconds",
+      "2 seconds",
+      "3 seconds",
+      "6 seconds"
+    ],
+    "answer": 0,
+    "explanation": "Wisconsin teaches the Four Second Following Distance Rule: count to 'one thousand four' after the vehicle ahead passes a fixed object.",
+    "difficulty": 1,
+    "ref": "Wisconsin Motorists' Handbook, p. 14",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.043",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are using the four-second rule in Wisconsin and it starts to snow. What should you do?",
+    "choices": [
+      "Use your high beams",
+      "Keep four seconds",
+      "Add a second for each adverse condition",
+      "Drop to two seconds so others don't cut in"
+    ],
+    "answer": 2,
+    "explanation": "Add a second for every adverse condition such as heavier traffic, rain, snow or ice.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 14",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.044",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "In Wisconsin, what is the normal speed limit in a school zone when children are present?",
+    "sign": "S1-1",
+    "choices": [
+      "15 mph",
+      "25 mph",
+      "10 mph",
+      "20 mph"
+    ],
+    "answer": 0,
+    "explanation": "The normal speed limit in a school zone when children are present is 15 mph.",
+    "difficulty": 1,
+    "ref": "Wisconsin Motorists' Handbook, p. 14",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.045",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the speed limit in Wisconsin residential areas?",
+    "choices": [
+      "35 mph",
+      "30 mph",
+      "20 mph",
+      "25 mph"
+    ],
+    "answer": 3,
+    "explanation": "Unless otherwise posted, the speed limit in residential areas is 25 mph.",
+    "difficulty": 1,
+    "ref": "Wisconsin Motorists' Handbook, p. 14",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.046",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You leave downtown and enter an outlying district of a Wisconsin city where no speed limit is posted. What is the maximum speed there?",
+    "choices": [
+      "45 mph",
+      "55 mph",
+      "25 mph",
+      "35 mph"
+    ],
+    "answer": 3,
+    "explanation": "In outlying parts of Wisconsin cities and villages with no posted limit, the maximum is 35 mph. Elsewhere inside city or village limits the default is 25 mph.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 14",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.047",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "On a Wisconsin highway where no other speed limit is set or posted, what is the speed limit?",
+    "choices": [
+      "55 mph",
+      "50 mph",
+      "65 mph",
+      "45 mph"
+    ],
+    "answer": 0,
+    "explanation": "In the absence of any other fixed or posted limit, Wisconsin's speed limit is 55 mph.",
+    "difficulty": 2,
+    "ref": "Wis. Stat. § 346.57(4)(h)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.048",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless signs show a different limit, what is the maximum speed Wisconsin law sets for freeways, including interstates?",
+    "choices": [
+      "60 mph",
+      "70 mph",
+      "75 mph",
+      "65 mph"
+    ],
+    "answer": 1,
+    "explanation": "Wisconsin's fixed limit is 70 mph on freeways, including interstates, and 65 mph on expressways, unless official signs show a different limit.",
+    "difficulty": 2,
+    "ref": "Wis. Stat. § 346.57(4)(gm)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.049",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the speed limit in an alley in Wisconsin, unless a sign shows a different limit?",
+    "choices": [
+      "25 mph",
+      "5 mph",
+      "15 mph",
+      "10 mph"
+    ],
+    "answer": 2,
+    "explanation": "Wisconsin law sets a 15 mph limit in any alley unless official signs show a different limit.",
+    "difficulty": 3,
+    "ref": "Wis. Stat. § 346.57(4)(d)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.050",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "The posted limit is 55 mph, but there is dense fog. Under Wisconsin law, what speed must you drive?",
+    "choices": [
+      "55 mph, since it is posted",
+      "Exactly 10 mph below the limit",
+      "At least 45 mph to avoid being rear-ended",
+      "No faster than is reasonable and prudent for the conditions"
+    ],
+    "answer": 3,
+    "explanation": "No one may drive faster than is reasonable and prudent under the conditions and hazards present, even if that is below the posted limit.",
+    "difficulty": 2,
+    "ref": "Wis. Stat. § 346.57(2)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.051",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Can you be ticketed in Wisconsin for driving too slowly?",
+    "choices": [
+      "Only on freeways",
+      "Yes, if you drive so slowly that you impede the normal and reasonable movement of traffic without a safety reason",
+      "No, only speeding is illegal",
+      "Only if you are under 18"
+    ],
+    "answer": 1,
+    "explanation": "Wisconsin law prohibits driving so slowly that you impede normal traffic unless reduced speed is needed for safety or to obey the law.",
+    "difficulty": 2,
+    "ref": "Wis. Stat. § 346.59(1)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.052",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Under Wisconsin's sight distance rule, what must you do if you cannot see 10 to 15 seconds ahead of your vehicle?",
+    "choices": [
+      "Slow down so you have better control",
+      "Switch on your high beams and keep your speed",
+      "Move closer to the vehicle ahead to follow its taillights",
+      "Speed up to get through the area quickly"
+    ],
+    "answer": 0,
+    "explanation": "Drivers need to see 10 to 15 seconds ahead. If you cannot, you must slow down so you keep control of the vehicle.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 16",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.053",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "In Wisconsin, when may you turn right on a steady red light?",
+    "sign": "SIG-RED",
+    "choices": [
+      "Never",
+      "After stopping, if it is safe and no sign prohibits it",
+      "Only between midnight and 5 a.m.",
+      "Without stopping, if no one is coming"
+    ],
+    "answer": 1,
+    "explanation": "You can turn right on red if it is safe and no sign prohibits it. Stop first, yield to all traffic, then turn and stay in your lane.",
+    "difficulty": 1,
+    "ref": "Wisconsin Motorists' Handbook, p. 36",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.054",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "When is a left turn on a red light allowed in Wisconsin?",
+    "sign": "SIG-RED",
+    "choices": [
+      "Whenever no traffic is coming",
+      "From any street onto a one-way street",
+      "From a one-way street onto another one-way street, after stopping",
+      "Never"
+    ],
+    "answer": 2,
+    "explanation": "You may turn left on red only when turning from a one-way street onto a one-way street, after stopping and yielding.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 36",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.055",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You are stopped at a red light on a two-way street and want to turn left onto a one-way street. May you turn on red in Wisconsin?",
+    "choices": [
+      "Yes, if you honk first",
+      "No, left on red is only from a one-way street onto a one-way street",
+      "Yes, after stopping",
+      "Yes, but only at night"
+    ],
+    "answer": 1,
+    "explanation": "Wisconsin allows left on red only from a one-way street onto another one-way street; turning from a two-way street is not allowed.",
+    "difficulty": 3,
+    "ref": "Wisconsin Motorists' Handbook, p. 36",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.056",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "How far before a turn at an intersection should you begin signaling in Wisconsin?",
+    "choices": [
+      "About 200 feet",
+      "About 500 feet",
+      "About 50 feet",
+      "About 100 feet (about three seconds)"
+    ],
+    "answer": 3,
+    "explanation": "Start signaling about three seconds (about 100 feet) before the turn. If turning just after an intersection, start signaling once you cross it.",
+    "difficulty": 1,
+    "ref": "Wisconsin Motorists' Handbook, p. 25",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.057",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "When may you cross a solid white line between lanes going the same direction in Wisconsin?",
+    "sign": "MARK-SOLID-WHITE",
+    "choices": [
+      "Never, under any circumstances",
+      "Only at night",
+      "Only if there is a hazard or you are turning within the next block",
+      "Any time it is safe"
+    ],
+    "answer": 2,
+    "explanation": "A solid white line between lanes means you cannot cross, unless there is a hazard or you are turning within the next block.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 38",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.058",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "On a Wisconsin road divided by double solid yellow lines, when may you cross them to pass another vehicle?",
+    "sign": "MARK-DOUBLE-YELLOW",
+    "choices": [
+      "To pass a vehicle going less than half the speed limit when safe, unless it is farm equipment",
+      "To pass any vehicle going under the speed limit",
+      "Never for any reason",
+      "To pass farm equipment only"
+    ],
+    "answer": 0,
+    "explanation": "The exceptions are turning into a driveway and passing a vehicle going less than half the speed limit when safe. Farm equipment is specifically excluded.",
+    "difficulty": 3,
+    "ref": "Wisconsin Motorists' Handbook, p. 39",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.059",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "Which vehicles may NOT use a Wisconsin flex lane, even when it is open?",
+    "sign": "SIG-LANE-GREEN-ARROW",
+    "choices": [
+      "Motorcycles",
+      "Large trucks",
+      "Pickup trucks",
+      "Cars with one occupant"
+    ],
+    "answer": 1,
+    "explanation": "No large trucks can drive in the flex lane. Other vehicles may use it when the green arrow is shown.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 42",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.060",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "When may you drive in a Wisconsin reserved lane (such as Buses Only) if you are not driving that type of vehicle?",
+    "sign": "MARK-HOV-DIAMOND",
+    "choices": [
+      "Only on weekends",
+      "Never",
+      "Whenever traffic is heavy",
+      "To turn across it within the next half block"
+    ],
+    "answer": 3,
+    "explanation": "It is illegal to travel in a reserved lane unless you need to turn across it within the next half of a block. If a bicyclist is in the lane, move behind them before turning.",
+    "difficulty": 3,
+    "ref": "Wisconsin Motorists' Handbook, p. 41",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.061",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "At a metered freeway on-ramp in Wisconsin, where should you stop and when may you go?",
+    "choices": [
+      "Go when the car ahead goes",
+      "Stop anywhere on the ramp and go when there is a gap",
+      "Pull completely up to the white stop line and go when your signal turns green",
+      "Stop at the end of the ramp and yield"
+    ],
+    "answer": 2,
+    "explanation": "Pull up to the white stop line so your tires trigger the pavement sensors; each lane has its own signal, and you may go when yours turns green. Disobeying the signal can bring a ticket.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 45",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.062",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "In Wisconsin, a state highway route marker is a white sign with black numbers shaped like what?",
+    "choices": [
+      "A milk jug with a spout at the bottom",
+      "A police badge",
+      "A rounded rectangle",
+      "A red-and-blue shield"
+    ],
+    "answer": 0,
+    "explanation": "Wisconsin's state road sign looks like a milk jug with a spout at the bottom. U.S. routes look like a badge, interstates use a red-and-blue shield, and county roads use a rounded rectangle.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 33",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.063",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "A vehicle ahead of you displays this emblem. According to the Wisconsin Motorists' Handbook, what speed could it be traveling?",
+    "sign": "SMV",
+    "choices": [
+      "25 mph or less",
+      "15 mph or less",
+      "45 mph or less",
+      "35 mph or less"
+    ],
+    "answer": 0,
+    "explanation": "The orange triangle with a reflective border is the slow moving vehicle emblem. It means the vehicle could travel at 25 mph or less, so slow down early.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 29",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.064",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What happens to traffic fines in a Wisconsin highway work zone marked with orange signs?",
+    "sign": "W20-1",
+    "choices": [
+      "They double",
+      "They stay the same",
+      "They are reduced",
+      "They triple"
+    ],
+    "answer": 0,
+    "explanation": "Traffic fines double in construction and maintenance work areas. Slow down and follow flaggers.",
+    "difficulty": 1,
+    "ref": "Wisconsin Motorists' Handbook, p. 30",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.065",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A pedestrian using a guide dog is crossing near your vehicle in Wisconsin. What must you do?",
+    "choices": [
+      "Drive around them slowly",
+      "Stop at least 10 feet away until the person is off the roadway",
+      "Honk so they know you are there",
+      "Stop only if they are in a marked crosswalk"
+    ],
+    "answer": 1,
+    "explanation": "Yield to pedestrians with a guide dog or white cane even if they are not in the intersection, stopping at least ten feet away until they are off the roadway.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 13",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.066",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are already in a Wisconsin roundabout when an emergency vehicle with its siren on enters. What should you do?",
+    "sign": "W2-6",
+    "choices": [
+      "Exit at the next right, then pull over",
+      "Stop immediately where you are",
+      "Speed up and keep circling",
+      "Back up to the entrance"
+    ],
+    "answer": 0,
+    "explanation": "If you are already in the roundabout, safely exit at the next right and then pull over. Avoid stopping in the roundabout.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 43",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.067",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "When may you make a U-turn on a rural two-lane highway in Wisconsin?",
+    "choices": [
+      "When it can be done safely without interfering with traffic and no sign prohibits it",
+      "Only with a police escort",
+      "Never",
+      "Only at night"
+    ],
+    "answer": 0,
+    "explanation": "You can make a U-turn on any rural two-lane highway if it is done safely and does not interfere with traffic, unless a sign prohibits it.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 19",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.068",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "When may you use a paved shoulder to pass another vehicle on the right in Wisconsin?",
+    "choices": [
+      "Any time on a freeway",
+      "Whenever traffic is slow",
+      "Never",
+      "Only when the vehicle ahead is stopped or making a left turn"
+    ],
+    "answer": 3,
+    "explanation": "You can use a paved shoulder to go around someone only if they are stopped or making a left turn.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 21",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.069",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How close to a fire hydrant may you park in Wisconsin (unless a sign shows a greater distance)?",
+    "choices": [
+      "No closer than 20 feet",
+      "No closer than 15 feet",
+      "No closer than 5 feet",
+      "No closer than 10 feet"
+    ],
+    "answer": 3,
+    "explanation": "Wisconsin law prohibits parking within 10 feet of a fire hydrant unless a sign requires more distance.",
+    "difficulty": 2,
+    "ref": "Wis. Stat. § 346.53(3)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.070",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Wisconsin, how close to a crosswalk may you park?",
+    "choices": [
+      "No closer than 30 feet",
+      "No closer than 20 feet",
+      "No closer than 15 feet",
+      "No closer than 10 feet"
+    ],
+    "answer": 2,
+    "explanation": "You may not park closer than 15 feet to the near limits of a crosswalk, and you may never stop on a crosswalk.",
+    "difficulty": 2,
+    "ref": "Wis. Stat. § 346.53(5)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.071",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Wisconsin, you may not stop or park within how many feet of the nearest rail of a railroad crossing?",
+    "sign": "R15-1",
+    "choices": [
+      "100 feet",
+      "50 feet",
+      "25 feet",
+      "15 feet"
+    ],
+    "answer": 2,
+    "explanation": "Stopping or standing within 25 feet of the nearest rail at a railroad crossing is prohibited.",
+    "difficulty": 2,
+    "ref": "Wis. Stat. § 346.52(1)(i)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.072",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Wisconsin, how far must you stay from a fire station's driveway entrance when stopping or parking?",
+    "choices": [
+      "10 feet",
+      "30 feet",
+      "20 feet",
+      "15 feet"
+    ],
+    "answer": 3,
+    "explanation": "You may not stop within 15 feet of a fire station driveway entrance or directly across the highway from it.",
+    "difficulty": 2,
+    "ref": "Wis. Stat. § 346.52(1)(g)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.073",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "When parallel parking on the right side of a Wisconsin street, how close to the curb must your right wheels be?",
+    "choices": [
+      "Within 24 inches",
+      "Within 12 inches",
+      "Within 18 inches",
+      "Within 6 inches"
+    ],
+    "answer": 1,
+    "explanation": "Wisconsin law requires parallel-parked vehicles to have their wheels within 12 inches of the curb, facing the direction of traffic.",
+    "difficulty": 2,
+    "ref": "Wis. Stat. § 346.54(1)(d)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.074",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Wisconsin, how close may you park to the entrance of a private driveway or alley?",
+    "choices": [
+      "No closer than 4 feet",
+      "No closer than 10 feet",
+      "Right up to the edge",
+      "No closer than 15 feet"
+    ],
+    "answer": 0,
+    "explanation": "Parking within 4 feet of the entrance to an alley, private road or driveway is prohibited.",
+    "difficulty": 3,
+    "ref": "Wis. Stat. § 346.53(4)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.075",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "When parallel parking in Wisconsin, how much space must you leave between your vehicle and the vehicles in front and behind?",
+    "choices": [
+      "At least 2 feet",
+      "At least 6 inches",
+      "At least 5 feet",
+      "At least 1 foot"
+    ],
+    "answer": 0,
+    "explanation": "A parallel-parked vehicle must be at least 2 feet from the vehicle in front and the vehicle behind, unless signs or markings show otherwise.",
+    "difficulty": 2,
+    "ref": "Wis. Stat. § 346.54(1)(d)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.076",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Under Wisconsin law, which of these is a place where you may never stop or leave your vehicle standing, even briefly?",
+    "choices": [
+      "Within an intersection",
+      "40 feet from a railroad crossing",
+      "In a marked parking space on a one-way street",
+      "30 feet from a crosswalk"
+    ],
+    "answer": 0,
+    "explanation": "Stopping or standing within an intersection or on a crosswalk is prohibited at all times. Wisconsin's parking limits are 15 feet from a crosswalk and 25 feet from the nearest rail.",
+    "difficulty": 2,
+    "ref": "Wis. Stat. § 346.52(1)(a)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.077",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "How far from a stopped school bus with flashing red lights must you stop in Wisconsin?",
+    "sign": "SCN-SCHOOL-BUS-2LANE",
+    "choices": [
+      "At least 10 feet",
+      "At least 50 feet",
+      "At least 30 feet",
+      "At least 20 feet"
+    ],
+    "answer": 3,
+    "explanation": "Stop at least 20 feet from a school bus with flashing red lights, whether it is on your side or the opposite side of the road.",
+    "difficulty": 1,
+    "ref": "Wisconsin Motorists' Handbook, p. 55",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.078",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are driving on a divided highway with a barrier between directions. A school bus is stopped with red lights flashing on the other side. What must you do in Wisconsin?",
+    "choices": [
+      "Stop until the bus moves",
+      "Stop at least 20 feet away",
+      "You do not need to stop",
+      "Slow to 15 mph"
+    ],
+    "answer": 2,
+    "explanation": "On a divided highway, traffic on the opposite side from the bus does not need to stop.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 55",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.079",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are stopped behind a Wisconsin school bus with flashing red lights. When may you go?",
+    "choices": [
+      "When the children are off the bus",
+      "After 30 seconds",
+      "When the stop arm is half closed",
+      "When the red lights stop flashing"
+    ],
+    "answer": 3,
+    "explanation": "You can proceed once the red lights on the school bus have stopped flashing. Watch for children.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 55",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.080",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "How much room must you give a bicyclist when passing in Wisconsin?",
+    "sign": "W11-1",
+    "choices": [
+      "At least 6 feet",
+      "At least 3 feet",
+      "At least 4 feet",
+      "At least 2 feet"
+    ],
+    "answer": 1,
+    "explanation": "Give bicyclists at least three feet of room when you pass, and wait for oncoming traffic to clear first.",
+    "difficulty": 1,
+    "ref": "Wisconsin Motorists' Handbook, p. 56",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.081",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "According to the Wisconsin Motorists' Handbook, which statement about bicyclists in your traffic lane is true?",
+    "choices": [
+      "Bicyclists can use the whole lane, so do not share the lane with them",
+      "You may squeeze past a bicyclist in the same lane if you leave one foot",
+      "Bicyclists must always ride on the shoulder",
+      "Bicyclists must pull off the road to let cars pass"
+    ],
+    "answer": 0,
+    "explanation": "Bicyclists can use the whole traffic lane, and drivers should not share a lane with them because they can move into your path without warning. Wait for oncoming traffic to clear, then pass with at least three feet of room.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 56",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.082",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "When an emergency vehicle is responding to a call in Wisconsin, how close may you follow it?",
+    "choices": [
+      "No closer than 1,000 feet",
+      "No closer than 300 feet",
+      "No closer than 500 feet",
+      "No closer than 200 feet"
+    ],
+    "answer": 2,
+    "explanation": "Drivers not on official business may not follow a responding emergency vehicle closer than 500 feet.",
+    "difficulty": 2,
+    "ref": "Wis. Stat. § 346.90",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.083",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A fire truck has stopped at a fire in Wisconsin. How close to the driveway or road where it stopped may you park?",
+    "choices": [
+      "No closer than 50 feet",
+      "No closer than 300 feet (and not within the same block)",
+      "Within 100 feet",
+      "Anywhere outside the fire hose area"
+    ],
+    "answer": 1,
+    "explanation": "You may not drive into or park within the block, or within 300 feet of the driveway or road, where fire apparatus has stopped for an alarm.",
+    "difficulty": 3,
+    "ref": "Wis. Stat. § 346.90",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.084",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You hear a siren and see flashing lights coming from behind in Wisconsin. What should you do?",
+    "choices": [
+      "Stop in your lane immediately",
+      "Speed up to stay ahead",
+      "Pull over to the side of the road and stop until it passes, but not in the middle of an intersection",
+      "Keep driving at the same speed"
+    ],
+    "answer": 2,
+    "explanation": "Pull over to the side and stop until the emergency vehicle has passed. Do not stop in the middle of an intersection.",
+    "difficulty": 1,
+    "ref": "Wisconsin Motorists' Handbook, p. 55",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.085",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a four-lane highway, you approach a police car stopped on the shoulder with its lights flashing. What does Wisconsin's Move Over law require?",
+    "choices": [
+      "Keep your lane and speed",
+      "Use the shoulder to go around",
+      "Move into a lane not next to the stopped vehicle if safe; otherwise slow down",
+      "Stop behind the police car"
+    ],
+    "answer": 2,
+    "explanation": "Move into a lane not nearest the stopped vehicle and stay there until past it. If you can't change lanes safely, slow down.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 55",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.086",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A car is stopped on the shoulder within a few feet of the road with its hazard lights on. Does Wisconsin's Move Over law apply?",
+    "choices": [
+      "Only if a tow truck is present",
+      "No, it applies only to police cars",
+      "Yes, disabled vehicles with hazard lights are covered",
+      "Only at night"
+    ],
+    "answer": 2,
+    "explanation": "Wisconsin's Move Over law covers disabled vehicles parked on or within 12 feet of the roadway, as well as emergency and roadside service vehicles.",
+    "difficulty": 3,
+    "ref": "Wis. Stat. § 346.072",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.087",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A snowplow with flashing lights is clearing a 55 mph highway in Wisconsin. How far behind it should you stay?",
+    "choices": [
+      "At least 500 feet",
+      "At least 50 feet",
+      "At least 200 feet",
+      "At least 100 feet"
+    ],
+    "answer": 2,
+    "explanation": "Give snowplows at least 200 feet of room when their lights are flashing red, amber or green.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 49",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.088",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a Wisconsin street with a posted speed limit of 30 mph, how close may you follow a snowplow that is plowing with its lights flashing?",
+    "choices": [
+      "No closer than 25 feet",
+      "No closer than 75 feet",
+      "No closer than 500 feet",
+      "No closer than 200 feet"
+    ],
+    "answer": 1,
+    "explanation": "Wisconsin law sets 200 feet on highways posted over 35 mph and 75 feet where the posted limit is 35 mph or less.",
+    "difficulty": 3,
+    "ref": "Wis. Stat. § 346.915(2)(a)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.089",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "About how far behind and in front of a large truck are its No-Zones, according to the Wisconsin Motorists' Handbook?",
+    "choices": [
+      "200 feet behind and 20 feet in front",
+      "100 feet behind and 50 feet in front",
+      "50 feet behind and 5 feet in front",
+      "500 feet behind and 100 feet in front"
+    ],
+    "answer": 0,
+    "explanation": "No-Zones are about 200 feet behind and 20 feet in front of large trucks. Speed up or drop back so the driver can see you.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 56",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.090",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You come upon livestock on a rural Wisconsin road. What should you do?",
+    "sign": "W11-4",
+    "choices": [
+      "Yield the right-of-way, slow down and keep a safe distance without honking",
+      "Honk to move them along",
+      "Flash your high beams",
+      "Drive around them quickly"
+    ],
+    "answer": 0,
+    "explanation": "Yield the right-of-way to livestock on or along the highway. Do not honk, because it might scare the animals.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 49",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.092",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When must you use your headlights in Wisconsin?",
+    "choices": [
+      "From a half hour after sunset to a half hour before sunrise, and when you can't see 500 feet ahead",
+      "Only after full dark",
+      "Only when it is raining",
+      "From sunset to sunrise only"
+    ],
+    "answer": 0,
+    "explanation": "You must use your headlights when you cannot see a vehicle or person 500 feet (about one block) away and from a half hour past sunset to a half hour before sunrise.",
+    "difficulty": 1,
+    "ref": "Wisconsin Motorists' Handbook, p. 25",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.093",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "In Wisconsin, when must you dim your high beams for an oncoming vehicle?",
+    "choices": [
+      "Within 1,000 feet",
+      "Within 500 feet",
+      "Within 200 feet",
+      "Within 300 feet"
+    ],
+    "answer": 1,
+    "explanation": "Wisconsin law requires dimming your high beams when an oncoming vehicle is within 500 feet.",
+    "difficulty": 2,
+    "ref": "Wis. Stat. § 347.12(1)(a)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.094",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You are following another vehicle at night in Wisconsin. Within what distance must you switch to low beams?",
+    "choices": [
+      "100 feet",
+      "300 feet",
+      "500 feet",
+      "200 feet"
+    ],
+    "answer": 2,
+    "explanation": "Wisconsin uses 500 feet both for oncoming vehicles and when following or approaching another vehicle from the rear. Many states use 200 or 300 feet here.",
+    "difficulty": 3,
+    "ref": "Wis. Stat. § 347.12(1)(b)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.095",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You hit a deer on a Wisconsin road. Which statement matches the Motorists' Handbook?",
+    "sign": "W11-3",
+    "choices": [
+      "You may keep the deer, and you should call police so they can issue a tag",
+      "You must pay a fine to the DNR",
+      "You must drag it into the ditch and leave",
+      "It is illegal to keep the deer"
+    ],
+    "answer": 0,
+    "explanation": "If you hit a deer you can keep it; if you don't want it, the next motorist can. Call police so they can issue a tag or know where the deer is.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 47",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.096",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "In Wisconsin, a crash with no injuries must be reported to police if property damage reaches what amount?",
+    "choices": [
+      "$1,500 or more",
+      "$500 or more",
+      "$1,000 or more",
+      "$2,500 or more"
+    ],
+    "answer": 2,
+    "explanation": "Report a crash to police if there is an injury or death, or property damage of $1,000 or more.",
+    "difficulty": 1,
+    "ref": "Wisconsin Motorists' Handbook, p. 51",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.097",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You knock down a road sign and guard rail in a Wisconsin crash. At what amount of government property damage must you report it to police?",
+    "choices": [
+      "$200 or more",
+      "$1,000 or more",
+      "Any amount",
+      "$100 or more"
+    ],
+    "answer": 0,
+    "explanation": "Damage to government property (such as signs or guard rails) of $200 or more must be reported to police.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, p. 51",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Which Wisconsin motorcycle riders must wear an approved helmet?",
+    "choices": [
+      "Only riders on freeways",
+      "Operators and passengers under 18, and anyone riding with a motorcycle instruction permit",
+      "All riders",
+      "Only passengers"
+    ],
+    "answer": 1,
+    "explanation": "Helmets are required for operators and passengers under 18 and for anyone operating with a motorcycle instruction permit. Wisconsin has no helmet law for licensed riders 18 and older.",
+    "difficulty": 1,
+    "ref": "Wisconsin Motorcyclists' Handbook, p. 12",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 30-year-old is practicing with a Wisconsin motorcycle instruction permit. Must they wear a helmet?",
+    "choices": [
+      "No, helmets are only for riders under 18",
+      "Only at night",
+      "Yes, permit holders must wear an approved helmet with the chin strap fastened",
+      "Only on highways over 45 mph"
+    ],
+    "answer": 2,
+    "explanation": "Anyone riding with a cycle instruction permit, at any age, must wear an approved helmet with the chin strap fastened, plus eye protection.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorcyclists' Handbook, p. 12",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A licensed 25-year-old Wisconsin rider wants to carry a 16-year-old passenger. What is required?",
+    "choices": [
+      "The passenger must wear protective headgear",
+      "Passengers under 18 are not allowed",
+      "The passenger must hold a permit",
+      "Nothing special"
+    ],
+    "answer": 0,
+    "explanation": "No one may operate a motorcycle while carrying a passenger under 18 unless the passenger wears protective headgear.",
+    "difficulty": 2,
+    "ref": "Wis. Stat. § 347.485(1)(am)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "When is eye protection NOT required for a Wisconsin motorcycle operator?",
+    "choices": [
+      "When the rider is over 18",
+      "When the motorcycle has a windshield rising at least 15 inches above the handlebars",
+      "When riding during the day",
+      "When riding under 35 mph"
+    ],
+    "answer": 1,
+    "explanation": "All operators must wear eye protection unless the motorcycle has a windshield that rises at least 15 inches above the handlebars.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorcyclists' Handbook, p. 12",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What rule applies to motorcycle eye protection worn during hours of darkness in Wisconsin?",
+    "choices": [
+      "It is not required at night",
+      "It must be yellow",
+      "It must be tinted to reduce glare",
+      "It may not be tinted or darkened"
+    ],
+    "answer": 3,
+    "explanation": "Eye protection worn during hours of darkness may not be tinted or darkened; only prescription photosensitive corrective lenses are an exception.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorcyclists' Handbook, p. 7",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Is lane splitting (riding between lanes or in part of a lane occupied by another vehicle) legal in Wisconsin?",
+    "choices": [
+      "Yes, in slow traffic",
+      "Yes, below 30 mph",
+      "Yes, on freeways only",
+      "No; the only exception is two motorcyclists who agree to ride side by side in one lane"
+    ],
+    "answer": 3,
+    "explanation": "Motorcyclists are entitled to a full lane and may not ride in any part of a lane occupied by another vehicle, except two cyclists who agree to ride side by side.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorcyclists' Handbook, p. 12",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Your motorcycle is stopped at a red light that is not changing because no vehicle sensor detects you, and no other vehicles are present. Under Wisconsin law, what may you do?",
+    "sign": "SIG-RED",
+    "choices": [
+      "Turn around and find another route only",
+      "After stopping at least 45 seconds, proceed cautiously, yielding to all other traffic and pedestrians",
+      "Proceed immediately",
+      "Wait as long as it takes for the light to change"
+    ],
+    "answer": 1,
+    "explanation": "A motorcycle, moped or bicycle may proceed through a vehicle-actuated red signal after stopping at least 45 seconds if no other vehicles are present, yielding to all traffic. This does not apply to timed signals.",
+    "difficulty": 3,
+    "ref": "Wisconsin Motorcyclists' Handbook, p. 13",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "When must a motorcycle's headlight be on in Wisconsin?",
+    "choices": [
+      "Only in rain or fog",
+      "Only on freeways",
+      "Only at night",
+      "At all times when riding on a highway"
+    ],
+    "answer": 3,
+    "explanation": "When riding on a highway, the headlight and taillight must be on at all times.",
+    "difficulty": 1,
+    "ref": "Wisconsin Motorcyclists' Handbook, p. 12",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How long is a Wisconsin motorcycle (Class M) instruction permit valid?",
+    "choices": [
+      "6 months",
+      "30 days",
+      "12 months",
+      "18 months"
+    ],
+    "answer": 0,
+    "explanation": "A Cycle Instruction Permit (CYCI) is valid for 6 months; after three permits you must complete or enroll in a basic rider course before getting a fourth.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorcyclists' Handbook, p. 8",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.mc.010",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A Wisconsin motorcycle permit holder wants to ride after dark. What is required?",
+    "choices": [
+      "Nothing; permit holders may ride any time",
+      "They must be accompanied by a Class M license holder at least 25 years old with at least two years of licensed experience",
+      "Night riding is allowed only on freeways",
+      "They must carry a licensed passenger under 21"
+    ],
+    "answer": 1,
+    "explanation": "During hours of darkness a permit holder must be accompanied by a licensed person at least 25, with two years of licensed experience and a Class M license; that person may ride nearby rather than as a passenger.",
+    "difficulty": 3,
+    "ref": "Wisconsin Motorcyclists' Handbook, p. 9",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.098",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless signs show otherwise, what is the speed limit on a street inside a Wisconsin city or village (not in an outlying district)?",
+    "choices": [
+      "25 mph",
+      "30 mph",
+      "35 mph",
+      "20 mph"
+    ],
+    "answer": 0,
+    "explanation": "Wisconsin law sets 25 mph on any highway within the limits of a city or village, other than outlying districts (35 mph), unless signs show a different limit.",
+    "difficulty": 2,
+    "ref": "Wis. Stat. § 346.57(4)(e)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.099",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "A Wisconsin railroad crossing has a stop sign but no marked stop line. Where must you stop?",
+    "choices": [
+      "At least 5 feet from the nearest rail",
+      "Between 15 and 50 feet from the nearest rail",
+      "At least 100 feet from the nearest rail",
+      "Right at the edge of the first rail"
+    ],
+    "answer": 1,
+    "explanation": "At a railroad crossing stop sign, stop at the marked stop line. If there is no stop line, stop not less than 15 nor more than 50 feet from the nearest rail.",
+    "difficulty": 3,
+    "ref": "Wis. Stat. § 346.46(3)",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.100",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How can a Wisconsin driver reduce their demerit point total?",
+    "choices": [
+      "Attend an approved traffic safety course to remove 3 points, once in a three-year period",
+      "Pay a fee to remove all points",
+      "Take an online course to remove 5 points each year",
+      "Points cannot be reduced in any way"
+    ],
+    "answer": 0,
+    "explanation": "Attending an approved traffic safety course reduces your point total by three points. Only one reduction is allowed in a three-year period, and the courses are in person, not online.",
+    "difficulty": 2,
+    "ref": "WisDOT, Point system page (wisconsindot.gov)",
+    "states": [
+      "WI"
+    ]
+  }
+]
