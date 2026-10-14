@@ -1,0 +1,881 @@
+[
+  {
+    "id": "cdl.tk.001",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "A tank endorsement is needed for tanks with an individual rated capacity of more than how many gallons (when the total is 1,000 gallons or more)?",
+    "choices": [
+      "119 gallons",
+      "500 gallons",
+      "99 gallons",
+      "250 gallons"
+    ],
+    "answer": 0,
+    "explanation": "A tank vehicle carries liquid or gas in tanks with an individual rated capacity of more than 119 gallons and an aggregate rated capacity of 1,000 gallons or more.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 8 (introduction); 49 CFR 383.5"
+  },
+  {
+    "id": "cdl.tk.002",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "What total (aggregate) tank capacity makes a vehicle a tank vehicle, if each tank holds more than 119 gallons?",
+    "choices": [
+      "500 gallons or more",
+      "1,000 gallons or more",
+      "2,000 gallons or more",
+      "Over 3,500 gallons"
+    ],
+    "answer": 1,
+    "explanation": "The aggregate rated capacity must be 1,000 gallons or more, with each tank over 119 gallons.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 8 (introduction); 49 CFR 383.5"
+  },
+  {
+    "id": "cdl.tk.003",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "Does the liquid in a tank have to be hazardous for a tank endorsement to be required?",
+    "choices": [
+      "Only if the vehicle is placarded",
+      "Yes, only liquids listed as hazardous materials count",
+      "No, any liquid or gas in qualifying tanks counts",
+      "Yes, only flammable liquids count"
+    ],
+    "answer": 2,
+    "explanation": "The liquid or gas does not have to be a hazardous material. Water, milk and other non-hazardous liquids hauled in qualifying tanks still require the endorsement.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 8 (introduction)"
+  },
+  {
+    "id": "cdl.tk.004",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "Which letter code is used for the tank vehicle endorsement?",
+    "choices": [
+      "T",
+      "H",
+      "X",
+      "N"
+    ],
+    "answer": 3,
+    "explanation": "The tank vehicle endorsement is N. T is doubles/triples, H is hazardous materials, and X is the combined tank and hazmat endorsement.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 1 (CDL Endorsements & Restrictions)"
+  },
+  {
+    "id": "cdl.tk.005",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "A driver hauls gasoline in a tank vehicle in amounts that require placards. Which endorsement shows both required qualifications?",
+    "choices": [
+      "H",
+      "X",
+      "T",
+      "N"
+    ],
+    "answer": 1,
+    "explanation": "Drivers of tank vehicles hauling hazardous materials in amounts requiring placards need both tank and hazmat qualifications, shown by the X endorsement.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 1 (CDL Endorsements & Restrictions); 49 CFR 383.93"
+  },
+  {
+    "id": "cdl.tk.006",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "A Class B straight truck has a single 900-gallon tank of drinking water. Does the driver need a tank endorsement?",
+    "choices": [
+      "No, the total capacity is under 1,000 gallons",
+      "Yes, all water trucks need it",
+      "Yes, because any single tank over 119 gallons needs it",
+      "Only if the tank is temporarily attached"
+    ],
+    "answer": 0,
+    "explanation": "The rule requires each tank to be over 119 gallons AND a total of 1,000 gallons or more. A single 900-gallon tank does not reach 1,000 gallons.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 8 (introduction); 49 CFR 383.5"
+  },
+  {
+    "id": "cdl.tk.007",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "A Class B truck carries two permanently mounted 600-gallon tanks of water. Does the driver need a tank endorsement?",
+    "choices": [
+      "No, because the tanks are permanently mounted",
+      "No, because water is not a hazardous material",
+      "Yes, each tank is over 119 gallons and the total is 1,200",
+      "No, because neither tank alone holds 1,000 gallons or more"
+    ],
+    "answer": 2,
+    "explanation": "Each tank is over 119 gallons and the total is 1,000 gallons or more, so this is a tank vehicle. The liquid does not need to be hazardous.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 8 (introduction); 49 CFR 383.5"
+  },
+  {
+    "id": "cdl.tk.008",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "A Class A rig carries ten 110-gallon tanks of liquid, 1,100 gallons in all. Under the federal definition, is it a tank vehicle?",
+    "choices": [
+      "Yes, because the combined capacity is more than 1,000 gallons",
+      "Only if the liquid is hazardous",
+      "Yes, because there are more than five tanks",
+      "No, because no single tank holds more than 119 gallons"
+    ],
+    "answer": 3,
+    "explanation": "Both parts must be met: each tank over 119 gallons and a total of 1,000 gallons or more. Tanks of 110 gallons each do not meet the individual capacity part.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 8 (introduction); 49 CFR 383.5"
+  },
+  {
+    "id": "cdl.tk.009",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "Does a tank temporarily attached to a vehicle count toward the tank endorsement rule?",
+    "choices": [
+      "Yes, tanks permanently or temporarily attached both count",
+      "Only if it is bolted to the frame",
+      "Only if it is attached for more than 30 days",
+      "No, only tanks that are permanently attached to the chassis count"
+    ],
+    "answer": 0,
+    "explanation": "The rule covers tanks that are either permanently or temporarily attached to the vehicle or chassis.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8 (introduction); 49 CFR 383.5"
+  },
+  {
+    "id": "cdl.tk.010",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "A flatbed is hauling an empty 1,500-gallon storage tank that is not designed for transporting cargo. Under federal rules, is this a tank vehicle?",
+    "choices": [
+      "Yes, because it is temporarily attached",
+      "Yes, any tank of 1,000 gallons or more counts",
+      "Only if it last held a hazardous liquid",
+      "No, an empty storage tank not designed for transport is excluded"
+    ],
+    "answer": 3,
+    "explanation": "Federal rules state that a CMV carrying an empty storage container tank not designed for transportation, temporarily attached to a flatbed, is not a tank vehicle.",
+    "difficulty": 3,
+    "ref": "49 CFR 383.5 (tank vehicle definition)"
+  },
+  {
+    "id": "cdl.tk.011",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "When does a Class C vehicle require a tank endorsement?",
+    "choices": [
+      "Never; the tank rules cover only Class A or Class B vehicles",
+      "When it has more than one axle",
+      "When it carries hazardous materials in liquid or gas form in qualifying tanks",
+      "Whenever it carries any liquid"
+    ],
+    "answer": 2,
+    "explanation": "A tank endorsement applies to Class A and B vehicles hauling qualifying tanks of any liquid or gas, and to Class C vehicles only when they transport hazardous materials in liquid or gas form in such tanks.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 8 (introduction)"
+  },
+  {
+    "id": "cdl.tk.012",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "A commercial learner's permit holder has an N endorsement. What may they drive under the X restriction?",
+    "choices": [
+      "Any tank vehicle on private roads",
+      "Only an empty tank vehicle, purged if it held hazmat",
+      "Only a loaded tank under 1,000 gallons",
+      "Any tank vehicle, as long as a CDL holder rides along"
+    ],
+    "answer": 1,
+    "explanation": "A CLP with an N endorsement carries an X restriction: the holder may only operate an empty tank vehicle, and not one that previously held hazmat unless it has been purged of any residue.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 1 (CDL Endorsements & Restrictions)"
+  },
+  {
+    "id": "cdl.tk.013",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "Why do bulk liquids cause driving control problems?",
+    "choices": [
+      "Liquids weigh less than dry freight of the same volume",
+      "Liquids make the steering feel lighter at low speeds",
+      "The cargo is heavy, shifts easily, and rides high",
+      "Tank trailers have no brakes on the rear axle"
+    ],
+    "answer": 2,
+    "explanation": "Liquids in bulk are heavy, prone to shifting, and have a high center of gravity, which is why tank drivers must pass a special knowledge test.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 1 (CDL Endorsements & Restrictions)"
+  },
+  {
+    "id": "cdl.tk.014",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "When should you inspect a tank vehicle?",
+    "choices": [
+      "Only when a leak is reported",
+      "Only after unloading, once the tank is empty and safe to enter",
+      "Only once a week",
+      "Before loading, unloading, or driving it"
+    ],
+    "answer": 3,
+    "explanation": "Before loading, unloading or driving a tanker, inspect the vehicle to make sure it is safe to carry the liquid or gas and safe to drive.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 8 (introduction)"
+  },
+  {
+    "id": "cdl.tk.015",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "Where should you look to learn how to inspect your particular tank vehicle?",
+    "choices": [
+      "The vehicle's operator manual",
+      "The shipping paper",
+      "The state driver handbook",
+      "The tank's capacity plate only"
+    ],
+    "answer": 0,
+    "explanation": "Tank vehicles come in many types and sizes. Check the vehicle's operator manual to make sure you know how to inspect your tank vehicle.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.1"
+  },
+  {
+    "id": "cdl.tk.016",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "On all tank vehicles, what is the most important item to check?",
+    "choices": [
+      "Tire tread depth",
+      "Leaks",
+      "Mirror adjustment",
+      "Fuel level"
+    ],
+    "answer": 1,
+    "explanation": "On all tank vehicles, the most important item to check for is leaks. Check under and around the vehicle for any sign of leaking.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 8.1.1"
+  },
+  {
+    "id": "cdl.tk.017",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "What can happen if you haul liquid in a tank you know is leaking?",
+    "choices": [
+      "You get a warning the first time",
+      "You can be cited, stopped from driving, and held liable for cleanup",
+      "Nothing, as long as the leak is small and the liquid is not hazardous",
+      "You only need to report it at the end of the trip"
+    ],
+    "answer": 1,
+    "explanation": "Carrying liquids or gases in a leaking tank is a crime. You will be cited and prevented from driving further, and you may be liable for cleaning up any spill.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.1.1"
+  },
+  {
+    "id": "cdl.tk.018",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "During inspection, what should you check about the intake, discharge and cut-off valves?",
+    "choices": [
+      "That they are all fully open before the vehicle is moved to the loading rack",
+      "That they are greased weekly",
+      "That they are painted the right color",
+      "That each is in the correct position before loading, unloading or moving"
+    ],
+    "answer": 3,
+    "explanation": "Check the intake, discharge and cut-off valves and make sure they are in the correct position before loading, unloading or moving the vehicle.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.1.1"
+  },
+  {
+    "id": "cdl.tk.019",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "Where are leaks in pipes, connections and hoses most likely to be found?",
+    "choices": [
+      "Around the joints",
+      "On the top of the tank",
+      "In the middle of straight pipe runs"
+    ],
+    "answer": 0,
+    "explanation": "Check pipes, connections and hoses for leaks, especially around joints.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.1.1"
+  },
+  {
+    "id": "cdl.tk.020",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "What should you check on the manhole covers and vents of a tank?",
+    "choices": [
+      "Vents are plugged to stop spills",
+      "Covers are painted to match the tank",
+      "Covers have gaskets and close right, and vents are clear",
+      "Covers are left slightly loose so the tank can breathe"
+    ],
+    "answer": 2,
+    "explanation": "Make sure manhole covers have gaskets and close correctly, and keep the vents clear so they work correctly.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.1.1"
+  },
+  {
+    "id": "cdl.tk.021",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "Which of these is special purpose equipment you should make sure works on a tank vehicle?",
+    "choices": [
+      "Cab marker lights",
+      "Mud flaps",
+      "Sleeper berth curtains and bunk restraints",
+      "Grounding and bonding cables"
+    ],
+    "answer": 3,
+    "explanation": "If your tank has them, make sure vapor recovery kits, grounding and bonding cables, emergency shut-off systems and built-in fire extinguishers work.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.1.2"
+  },
+  {
+    "id": "cdl.tk.022",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "Is it ever acceptable to drive a tank vehicle with a manhole cover open?",
+    "choices": [
+      "Yes, when the tank is empty",
+      "No, never drive with open valves or manhole covers",
+      "Yes, to vent fumes in hot weather",
+      "Yes, for short moves inside a terminal or loading yard"
+    ],
+    "answer": 1,
+    "explanation": "Never drive a tank vehicle with open valves or manhole covers.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 8.1.2"
+  },
+  {
+    "id": "cdl.tk.023",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "What should you do about the emergency equipment for your tank vehicle?",
+    "choices": [
+      "Leave it at the terminal to keep the vehicle under weight limits",
+      "Rely on the shipper to carry it",
+      "Find out what is required and make sure it is there and works",
+      "Check it only once a year"
+    ],
+    "answer": 2,
+    "explanation": "Check the emergency equipment required for your vehicle: find out what you must carry and make sure you have it and it works.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 8.1.3"
+  },
+  {
+    "id": "cdl.tk.024",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "What two factors make hauling liquids in tanks require special skills?",
+    "choices": [
+      "A high center of gravity and liquid movement",
+      "Heavy steering and weak brakes",
+      "Short wheelbase and small mirrors",
+      "Low ground clearance and a wider turning path than other trucks"
+    ],
+    "answer": 0,
+    "explanation": "Hauling liquids requires special skills because of the high center of gravity and the movement of the liquid (surge).",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 8.2"
+  },
+  {
+    "id": "cdl.tk.025",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "What does a high center of gravity mean for a tank vehicle?",
+    "choices": [
+      "The brakes must work harder going uphill",
+      "Much of the load's weight is high off the road, so it tips easily",
+      "The tank sits low and can scrape on steep ramps and driveways",
+      "The truck is hard to steer at slow speeds"
+    ],
+    "answer": 1,
+    "explanation": "A high center of gravity means much of the weight is carried high up off the road. This makes the vehicle top-heavy and easy to roll over.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 8.2.1"
+  },
+  {
+    "id": "cdl.tk.026",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "How fast should a liquid tanker take highway curves and on- and off-ramps?",
+    "choices": [
+      "Well below the posted speed",
+      "Slightly above the posted speed",
+      "At the posted speed",
+      "At the same speed as other traffic"
+    ],
+    "answer": 0,
+    "explanation": "Tests have shown tankers can turn over at the speed limits posted for curves. Take curves and ramps well below the posted speeds.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 8.2.1"
+  },
+  {
+    "id": "cdl.tk.027",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "What is liquid surge?",
+    "choices": [
+      "A sudden rise in pressure inside the tank",
+      "Liquid expanding as it warms up during the trip",
+      "Movement of liquid in a partly filled tank",
+      "Liquid leaking out of a vent"
+    ],
+    "answer": 2,
+    "explanation": "Liquid surge results from movement of the liquid in partially filled tanks, and it can have bad effects on handling. Liquid expanding as it warms is the reason for outage.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 8.2.2"
+  },
+  {
+    "id": "cdl.tk.028",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "When a partially loaded tanker comes to a stop, what does the surge tend to do?",
+    "choices": [
+      "Lock the trailer brakes",
+      "Lift the front wheels off the road",
+      "Pull the truck back toward where the stop began",
+      "Push the truck in the direction the wave is moving"
+    ],
+    "answer": 3,
+    "explanation": "When stopping, the liquid surges back and forth. When the wave hits the end of the tank, it tends to push the truck in the direction the wave is moving.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.2.2"
+  },
+  {
+    "id": "cdl.tk.029",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "You stop a partially loaded tanker at an intersection on an icy road. What hazard should you expect?",
+    "choices": [
+      "The brakes will release on their own after a few seconds",
+      "The surge can push the stopped truck into the intersection",
+      "The tank will lose pressure",
+      "The liquid will freeze and stop moving"
+    ],
+    "answer": 1,
+    "explanation": "On a slippery surface such as ice, the surge wave can shove a stopped truck out into an intersection.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 8.2.2"
+  },
+  {
+    "id": "cdl.tk.030",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "What do bulkheads do in a liquid tank?",
+    "choices": [
+      "Hold the tank onto the frame",
+      "Keep the liquid cool",
+      "Let liquid flow through holes between sections",
+      "Divide the tank into several smaller tanks"
+    ],
+    "answer": 3,
+    "explanation": "Bulkheads divide a liquid tank into several smaller tanks. Baffles are bulkheads with holes that let liquid flow through.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.2.3"
+  },
+  {
+    "id": "cdl.tk.031",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "When loading or unloading the compartments of a tank divided by bulkheads, what must the driver watch?",
+    "choices": [
+      "Only the total number of gallons loaded into the whole tank",
+      "The color of each liquid",
+      "Weight distribution, so the front or rear is not overloaded",
+      "The order in which the hoses are coiled"
+    ],
+    "answer": 2,
+    "explanation": "When loading and unloading the smaller tanks, pay attention to weight distribution. Don't put too much weight on the front or rear of the vehicle.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.2.3"
+  },
+  {
+    "id": "cdl.tk.032",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "You deliver from the rear compartment of a bulkhead tank first, leaving the front compartments full. What should concern you?",
+    "choices": [
+      "Too much weight may be left on the front of the vehicle",
+      "The tank will need a new outage setting",
+      "Nothing, the order does not matter",
+      "Surge will become stronger in the empty rear compartment"
+    ],
+    "answer": 0,
+    "explanation": "With bulkhead tanks, watch weight distribution as compartments are loaded and unloaded, and don't put too much weight on the front or rear of the vehicle.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 8.2.3"
+  },
+  {
+    "id": "cdl.tk.033",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "How are baffles different from solid bulkheads?",
+    "choices": [
+      "Baffles are only found in smooth bore tanks",
+      "Baffles have holes that let liquid flow through",
+      "Baffles stop all side-to-side surge",
+      "Baffles completely seal off each section"
+    ],
+    "answer": 1,
+    "explanation": "Baffled tanks have bulkheads with holes that let the liquid flow through, which helps control forward and backward surge.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.2.4"
+  },
+  {
+    "id": "cdl.tk.034",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "Baffles help control forward-and-back surge. What kind of surge can still occur in a baffled tank?",
+    "choices": [
+      "Only surge when the tank is full",
+      "No surge at all once the baffles are installed",
+      "Side-to-side surge, which can cause a rollover",
+      "Only up-and-down surge"
+    ],
+    "answer": 2,
+    "explanation": "Baffles help control forward and backward surge, but side-to-side surge can still occur, and it can cause a rollover.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 8.2.4"
+  },
+  {
+    "id": "cdl.tk.035",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "What is a smooth bore tank?",
+    "choices": [
+      "A tank divided by solid bulkheads",
+      "A tank lined to resist corrosion",
+      "A tank with baffles that have smooth, rounded edges",
+      "A tank with nothing inside to slow the liquid"
+    ],
+    "answer": 3,
+    "explanation": "Un-baffled liquid tanks, sometimes called smooth bore tanks, have nothing inside to slow the flow of the liquid, so forward-and-back surge is very strong.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 8.2.5"
+  },
+  {
+    "id": "cdl.tk.036",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "Which type of cargo is usually hauled in smooth bore tanks?",
+    "choices": [
+      "Food products such as milk",
+      "Only placarded hazardous materials",
+      "Only liquids too thick to surge",
+      "Only compressed gases under pressure"
+    ],
+    "answer": 0,
+    "explanation": "Un-baffled (smooth bore) tanks are usually those that transport food products, such as milk, because sanitation rules forbid baffles that are hard to clean.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 8.2.5"
+  },
+  {
+    "id": "cdl.tk.037",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "Why are baffles not used in tanks that haul milk?",
+    "choices": [
+      "Milk tanks are always filled completely to the top",
+      "Milk is too thick to surge",
+      "Baffles would change the milk's taste",
+      "Sanitation rules forbid them because cleaning is hard"
+    ],
+    "answer": 3,
+    "explanation": "Sanitation regulations forbid baffles in food tanks because of the difficulty of cleaning the inside of the tank.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.2.5"
+  },
+  {
+    "id": "cdl.tk.038",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "When is a smooth bore tank most difficult to handle?",
+    "choices": [
+      "When starting and stopping",
+      "When cruising at a steady speed",
+      "When parked on level ground",
+      "When the tank is completely empty"
+    ],
+    "answer": 0,
+    "explanation": "Forward-and-back surge is very strong in smooth bore tanks. Be extremely cautious (slow and careful), especially when starting and stopping.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.2.5"
+  },
+  {
+    "id": "cdl.tk.039",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "What is outage?",
+    "choices": [
+      "Liquid lost through a leaking valve or loose fitting",
+      "The amount of liquid left after unloading",
+      "Room left in a tank for the liquid to expand",
+      "The time a tank is out of service"
+    ],
+    "answer": 2,
+    "explanation": "Never load a cargo tank totally full. Liquids expand as they warm, and the room left for expansion is called outage.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 8.2.6"
+  },
+  {
+    "id": "cdl.tk.040",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "Do all liquids need the same amount of outage?",
+    "choices": [
+      "Yes, always one foot below the top",
+      "No, different liquids expand by different amounts",
+      "Only heated liquids need outage",
+      "Yes, it is always 10 percent of the tank's capacity"
+    ],
+    "answer": 1,
+    "explanation": "Different liquids expand by different amounts, so they require different amounts of outage. You must know the outage requirement for what you haul.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.2.6"
+  },
+  {
+    "id": "cdl.tk.041",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "Why might you only partly fill a tank with a dense liquid, such as some acids?",
+    "choices": [
+      "A full tank could go over legal weight limits",
+      "Dense liquids cannot surge",
+      "Partial loads are easier to unload",
+      "Dense liquids do not expand when they warm up"
+    ],
+    "answer": 0,
+    "explanation": "A full tank of dense liquid may exceed legal weight limits, so tanks hauling heavy liquids are often only partly filled.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.2.7"
+  },
+  {
+    "id": "cdl.tk.042",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "Which of these helps determine how much liquid you can load into a tank?",
+    "choices": [
+      "The time of day of delivery",
+      "The number of delivery stops planned on the route",
+      "How much the liquid will expand in transit",
+      "The fuel level of the tractor"
+    ],
+    "answer": 2,
+    "explanation": "The amount to load depends on how much the liquid will expand in transit, the weight of the liquid, and legal weight limits.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.2.7"
+  },
+  {
+    "id": "cdl.tk.043",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "Because of the high center of gravity and surge, how should a tank vehicle be driven?",
+    "choices": [
+      "Change lanes quickly to limit time beside other vehicles",
+      "Start, slow down, stop, turn, and change lanes very smoothly",
+      "Accelerate quickly to get ahead of the surge",
+      "Brake hard and early to settle the liquid"
+    ],
+    "answer": 1,
+    "explanation": "You must start, slow down and stop very smoothly, and make smooth turns and lane changes.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 8.3.1"
+  },
+  {
+    "id": "cdl.tk.044",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "How should you use the brakes to control surge when stopping a tanker?",
+    "choices": [
+      "Pump the brakes rapidly all the way to the stop",
+      "Use only the trailer hand valve",
+      "Release the brakes just before the truck stops",
+      "Keep steady pressure and don't release too soon"
+    ],
+    "answer": 3,
+    "explanation": "Keep a steady pressure on the brakes and do not release too soon when coming to a stop.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.3.2"
+  },
+  {
+    "id": "cdl.tk.045",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "To help control surge, what should you do about stopping and following distance?",
+    "choices": [
+      "Coast to every stop without using the brakes at all",
+      "Follow closely so you can brake gently",
+      "Brake late and keep your normal following distance",
+      "Brake early and increase your following distance"
+    ],
+    "answer": 3,
+    "explanation": "Brake far in advance of a stop and increase your following distance.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.3.2"
+  },
+  {
+    "id": "cdl.tk.046",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "You must make a quick stop in a tanker to avoid a crash. Which braking method should you use?",
+    "choices": [
+      "Controlled or stab braking",
+      "Pump the brakes gently",
+      "Hold the pedal down as hard as possible",
+      "Use only the parking brake"
+    ],
+    "answer": 0,
+    "explanation": "If you must make a quick stop, use controlled or stab braking. Jamming on the brakes locks the wheels and causes a skid.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.3.2; 2.17.2"
+  },
+  {
+    "id": "cdl.tk.047",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "What is controlled braking?",
+    "choices": [
+      "Pumping the pedal lightly",
+      "Braking fully, then releasing each time the wheels lock up",
+      "Braking as hard as you can without locking the wheels",
+      "Braking only with the trailer brakes"
+    ],
+    "answer": 2,
+    "explanation": "With controlled braking you apply the brakes as hard as you can without locking the wheels, keeping steering movements very small.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.17.2"
+  },
+  {
+    "id": "cdl.tk.048",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "When stab braking, why must you wait for the wheels to start rolling before braking again?",
+    "choices": [
+      "The air tanks need time to refill",
+      "If you reapply too soon, the vehicle won't straighten out",
+      "The brake drums need time to cool",
+      "The surge must stop first"
+    ],
+    "answer": 1,
+    "explanation": "It can take up to one second for the wheels to start rolling after you release. If you reapply before they roll, the vehicle won't straighten out.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 2.17.2"
+  },
+  {
+    "id": "cdl.tk.049",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "You are braking hard in a loaded tanker and swerve sharply. What is the main danger?",
+    "choices": [
+      "The trailer will lift off the fifth wheel",
+      "The liquid will begin to foam",
+      "The tank vents will open",
+      "The vehicle may roll over"
+    ],
+    "answer": 3,
+    "explanation": "If you steer quickly while braking, a tank vehicle may roll over.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.3.2"
+  },
+  {
+    "id": "cdl.tk.050",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "What is the correct way to take a curve in a tank vehicle?",
+    "choices": [
+      "Slow down before the curve, then speed up slightly in it",
+      "Coast through the curve in neutral",
+      "Brake steadily all the way through the curve until the exit",
+      "Enter at the posted speed and brake if needed"
+    ],
+    "answer": 0,
+    "explanation": "Slow down before curves, then accelerate slightly through the curve. The posted speed for a curve may be too fast for a tank vehicle.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.3.3"
+  },
+  {
+    "id": "cdl.tk.051",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "How do wet roads affect stopping distance?",
+    "choices": [
+      "They have no effect on a heavy tanker",
+      "They can double the normal stopping distance",
+      "They add about 10 percent",
+      "They cut it in half because of the weight"
+    ],
+    "answer": 1,
+    "explanation": "Wet roads double the normal stopping distance.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.3.4"
+  },
+  {
+    "id": "cdl.tk.052",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "Compared with a loaded tank vehicle, an empty one:",
+    "choices": [
+      "Stops in exactly the same distance",
+      "Cannot skid",
+      "May take longer to stop",
+      "Always stops in a shorter distance"
+    ],
+    "answer": 2,
+    "explanation": "Empty tank vehicles may take longer to stop than full ones. Don't assume an empty tanker stops shorter.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 8.3.4"
+  },
+  {
+    "id": "cdl.tk.053",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "What driver actions can cause a tank vehicle to skid?",
+    "choices": [
+      "Driving at a steady speed below the limit",
+      "Using the engine brake on dry, level roads",
+      "Keeping a long following distance",
+      "Over-steering, over-accelerating, or over-braking"
+    ],
+    "answer": 3,
+    "explanation": "Don't over-steer, over-accelerate or over-brake. If you do, your vehicle may skid.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 8.3.5"
+  },
+  {
+    "id": "cdl.tk.054",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "On a tank trailer, the drive wheels or trailer wheels begin to skid. What may happen?",
+    "choices": [
+      "The trailer brakes will release",
+      "The tank will automatically vent",
+      "The vehicle may jackknife",
+      "The liquid will stop surging"
+    ],
+    "answer": 2,
+    "explanation": "On tank trailers, if the drive wheels or trailer wheels begin to skid, the vehicle may jackknife.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.3.5"
+  },
+  {
+    "id": "cdl.tk.055",
+    "track": "cdl",
+    "topic": "cdl-tanker",
+    "prompt": "When any vehicle starts to skid, what must you do?",
+    "choices": [
+      "Shift into a higher gear",
+      "Take action to restore traction to the wheels",
+      "Brake harder to stop the skid",
+      "Turn the wheel sharply the other way"
+    ],
+    "answer": 1,
+    "explanation": "When any vehicle starts to skid, you must take action to restore traction to the wheels.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 8.3.5"
+  }
+]

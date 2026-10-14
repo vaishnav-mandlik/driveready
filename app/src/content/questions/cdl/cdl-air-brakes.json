@@ -235,7 +235,7 @@
       "The alcohol evaporator is empty"
     ],
     "answer": 2,
-    "explanation": "If the safety valve releases air, something is wrong (such as a governor fault). Have a mechanic fix it.",
+    "explanation": "If the safety valve releases air, something is wrong. Have the fault fixed by a mechanic; the valve should not vent during normal operation.",
     "difficulty": 2,
     "ref": "CDL Manual, Section 5.1.6"
   },
@@ -599,7 +599,7 @@
     "choices": [
       "Because air brakes cannot work below freezing",
       "Because ABS needs mechanical brakes to work",
-      "Because the compressor shuts off with the engine",
+      "Because spring force stops the vehicle faster than air",
       "Because air pressure can eventually leak away"
     ],
     "answer": 3,
@@ -803,7 +803,7 @@
     "id": "cdl.ab.051",
     "track": "cdl",
     "topic": "cdl-air-brakes",
-    "prompt": "How can you tell from paperwork on the vehicle whether it is required to have ABS?",
+    "prompt": "What should you check to find out whether your vehicle is equipped with ABS?",
     "choices": [
       "Check the registration card for the vehicle's GVWR",
       "Look at the certification label for the build date",
@@ -851,15 +851,15 @@
     "id": "cdl.ab.054",
     "track": "cdl",
     "topic": "cdl-air-brakes",
-    "prompt": "Your truck's ABS lamp comes on at start-up and then stays on after the bulb check. What does this mean?",
+    "prompt": "On your newer truck, the ABS lamp comes on at start-up and stays on after the bulb check. What does this mean?",
     "choices": [
-      "The ABS is warming up and will work after 5 mph",
+      "The ABS is working normally and needs no attention",
       "You may have lost ABS control at one or more wheels",
       "The air pressure is below 55 psi",
       "The parking brake is still set"
     ],
     "answer": 1,
-    "explanation": "On newer vehicles the lamp comes on briefly for a bulb check and then goes out. If it stays on, or comes on while driving, you may have lost ABS control at one or more wheels.",
+    "explanation": "On newer vehicles the lamp comes on briefly for a bulb check and then goes out quickly. If it stays on after the bulb check, or comes on while driving, you may have lost ABS control at one or more wheels. (Only some older systems keep the lamp on until you pass 5 mph.)",
     "difficulty": 3,
     "ref": "CDL Manual, Section 5.1.16"
   },
@@ -1758,5 +1758,53 @@
     "explanation": "Never leave your vehicle unattended without applying the parking brakes or chocking the wheels; it might roll away.",
     "difficulty": 1,
     "ref": "CDL Manual, Section 5.4.8"
+  },
+  {
+    "id": "cdl.ab.111",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Why does the manual tell you to check brake adjustment often?",
+    "choices": [
+      "Brakes can go out of adjustment quickly, especially when hot",
+      "Automatic slack adjusters loosen each time you set the parking brake",
+      "Draining the air tanks changes the adjustment of every brake",
+      "Cold brakes shrink overnight and lose their adjustment"
+    ],
+    "answer": 0,
+    "explanation": "Brakes can get out of adjustment quickly, especially when they are hot. Brakes out of adjustment stop doing their share, so the others overheat and fade.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.4.5"
+  },
+  {
+    "id": "cdl.ab.112",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "A brake with an automatic slack adjuster is out of adjustment. Manually adjusting it should be used only as:",
+    "choices": [
+      "A permanent fix for the underlying problem",
+      "A routine step at every pre-trip inspection",
+      "A temporary measure in an emergency",
+      "A way to make the adjuster last longer"
+    ],
+    "answer": 2,
+    "explanation": "Manually adjusting an automatic adjuster usually masks a mechanical problem and can give a false sense of security. Use it only as a temporary emergency measure and get the vehicle repaired as soon as possible; routine adjustment can wear out the adjuster early.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.3.2"
+  },
+  {
+    "id": "cdl.ab.113",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Why does a heavily loaded vehicle take a long distance to stop when its spring brakes come on from low air pressure?",
+    "choices": [
+      "The ABS releases the spring brakes on heavy loads",
+      "The spring brakes do not work on all axles",
+      "The tractor protection valve keeps them half applied",
+      "The governor cuts air to the springs under heavy loads"
+    ],
+    "answer": 1,
+    "explanation": "When pressure drops to 20-45 psi the spring brakes come on, but they do not work on all axles, so a heavily loaded vehicle takes a long distance to stop. It is safer to stop while there is still air for the foot brake.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.4.7"
   }
 ]

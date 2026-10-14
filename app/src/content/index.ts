@@ -28,10 +28,13 @@ export const universalQuestionLoaders: Record<TrackId, Array<() => Question[]>> 
   ],
   cdl: [
     () => require('./questions/cdl/cdl-air-brakes.json'),
+    () => require('./questions/cdl/cdl-combination.json'),
     () => require('./questions/cdl/cdl-doubles-triples.json'),
     () => require('./questions/cdl/cdl-general.json'),
+    () => require('./questions/cdl/cdl-hazmat.json'),
     () => require('./questions/cdl/cdl-passenger.json'),
     () => require('./questions/cdl/cdl-school-bus.json'),
+    () => require('./questions/cdl/cdl-tanker.json'),
   ],
 };
 
@@ -62,5 +65,19 @@ export const stateInfoLoaders: Partial<Record<StateCode, () => StateInfo>> = {
 };
 
 export const lessonLoaders: Array<() => Lesson> = [
+  () => require('./lessons/car/alcohol-drugs.json'),
+  () => require('./lessons/car/emergencies.json'),
+  () => require('./lessons/car/freeway.json'),
+  () => require('./lessons/car/hazards-conditions.json'),
+  () => require('./lessons/car/intersections-turns.json'),
+  () => require('./lessons/car/lanes-passing.json'),
+  () => require('./lessons/car/laws-licensing.json'),
+  () => require('./lessons/car/parking.json'),
+  () => require('./lessons/car/right-of-way.json'),
+  () => require('./lessons/car/road-signs.json'),
   () => require('./lessons/car/road-test.json'),
+  () => require('./lessons/car/safe-habits.json'),
+  () => require('./lessons/car/sharing-road.json'),
+  () => require('./lessons/car/signals-markings.json'),
+  () => require('./lessons/car/speed-space.json'),
 ];

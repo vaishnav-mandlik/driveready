@@ -1,0 +1,1426 @@
+[
+  {
+    "id": "cdl.cv.001",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "What causes more than half of truck driver deaths in crashes?",
+    "choices": [
+      "Rear-end collisions",
+      "Railroad crossing crashes",
+      "Truck rollovers",
+      "Brake failures on downgrades"
+    ],
+    "answer": 2,
+    "explanation": "More than half of truck driver deaths in crashes are the result of truck rollovers.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.1.1"
+  },
+  {
+    "id": "cdl.cv.002",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Compared with empty rigs, how much more likely are fully loaded rigs to roll over in a crash?",
+    "choices": [
+      "Ten times more likely",
+      "Twice as likely",
+      "Five times more likely",
+      "Equally likely"
+    ],
+    "answer": 0,
+    "explanation": "Fully loaded rigs are ten times more likely to roll over in a crash than empty rigs, because the center of gravity is higher.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.1.1"
+  },
+  {
+    "id": "cdl.cv.003",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "What two things help most to prevent a rollover?",
+    "choices": [
+      "Keep the trailer empty and use the trailer hand valve in curves",
+      "Load the heaviest cargo on top and brake in turns",
+      "Keep tires at low pressure and steer quickly",
+      "Keep cargo low and drive slowly around turns"
+    ],
+    "answer": 3,
+    "explanation": "Keep the cargo as close to the ground as possible, and drive slowly around turns.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.1.1"
+  },
+  {
+    "id": "cdl.cv.004",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "The load in your trailer is shifted to one side so the trailer leans. What is the effect?",
+    "choices": [
+      "The trailer will off-track less in turns",
+      "A rollover is more likely",
+      "The trailer brakes will lock on that side",
+      "There is no effect if the load is under the weight limit"
+    ],
+    "answer": 1,
+    "explanation": "If the load is to one side so it makes the trailer lean, a rollover is more likely. Keep cargo centered and spread out.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.1.1"
+  },
+  {
+    "id": "cdl.cv.005",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Where should you drive especially slowly to prevent rollovers?",
+    "choices": [
+      "On straight, level interstate highways",
+      "Around corners and on ramps",
+      "Only when the trailer is empty",
+      "Only in rain, snow, or fog"
+    ],
+    "answer": 1,
+    "explanation": "Rollovers happen when you turn too fast. Drive slowly around corners, on ramps, and off ramps, and avoid quick lane changes.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.1.1"
+  },
+  {
+    "id": "cdl.cv.006",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "What is the \"crack-the-whip\" effect?",
+    "choices": [
+      "The jolt felt when the fifth wheel locks onto the kingpin",
+      "The trailer swinging out when its wheels lock up",
+      "The rear wheels cutting inside the path of the front wheels",
+      "A trailer tipping over from a quick steering move"
+    ],
+    "answer": 3,
+    "explanation": "In a quick lane change, the crack-the-whip effect (caused by rearward amplification) can turn the trailer over, sometimes without the tractor overturning.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.1.2"
+  },
+  {
+    "id": "cdl.cv.007",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "What causes the crack-the-whip effect?",
+    "choices": [
+      "Rearward amplification",
+      "Off-tracking of the rear wheels",
+      "Air brake lag",
+      "Trailer jackknifing"
+    ],
+    "answer": 0,
+    "explanation": "Rearward amplification causes the crack-the-whip effect, where a sudden steering move is magnified at the rear of the rig.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.1.2"
+  },
+  {
+    "id": "cdl.cv.008",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Triples have a rearward amplification of 3.5. What does this mean?",
+    "choices": [
+      "Triples need 3.5 times the following distance of a single trailer",
+      "The last trailer off-tracks 3.5 feet farther than the first one",
+      "The last trailer rolls 3.5 times as easily as a five-axle tractor",
+      "Triples take 3.5 seconds longer to stop than a tractor-semitrailer"
+    ],
+    "answer": 2,
+    "explanation": "You can roll the last trailer of triples 3.5 times as easily as a five-axle tractor.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 6.1.2"
+  },
+  {
+    "id": "cdl.cv.009",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "You make a sudden lane change while pulling doubles. Which trailer is most likely to turn over?",
+    "choices": [
+      "The front trailer",
+      "Each trailer is equally likely",
+      "The tractor rather than either trailer",
+      "The rear trailer"
+    ],
+    "answer": 3,
+    "explanation": "Because of rearward amplification, the rearmost trailer is most likely to turn over in a quick lane change.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.1.2"
+  },
+  {
+    "id": "cdl.cv.010",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Your combination vehicle is 60 feet long and you are traveling at 50 mph. What is the minimum following distance the manual recommends?",
+    "choices": [
+      "6 seconds",
+      "4 seconds",
+      "7 seconds",
+      "3 seconds"
+    ],
+    "answer": 2,
+    "explanation": "Allow at least 1 second for each 10 feet of vehicle length (6 seconds for 60 feet), plus another second when going over 40 mph, for 7 seconds.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 6.1.2"
+  },
+  {
+    "id": "cdl.cv.011",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "When pulling trailers, how should you steer?",
+    "choices": [
+      "Quickly, to keep the trailer from drifting",
+      "Gently and smoothly",
+      "With short, firm jerks of the wheel",
+      "Only with one hand on the wheel"
+    ],
+    "answer": 1,
+    "explanation": "Steer gently and smoothly. A sudden movement of the steering wheel can tip a trailer over.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.1.2"
+  },
+  {
+    "id": "cdl.cv.012",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "When does a large combination vehicle take longer to stop?",
+    "choices": [
+      "When it is empty",
+      "When it is fully loaded",
+      "When it has ABS on all axles",
+      "It always takes the same distance"
+    ],
+    "answer": 0,
+    "explanation": "Large combination vehicles take longer to stop when empty than when fully loaded, because stiff springs and strong brakes give poor traction and the wheels lock easily.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.1.3"
+  },
+  {
+    "id": "cdl.cv.013",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Why does a lightly loaded combination vehicle lock its wheels so easily?",
+    "choices": [
+      "Stiff springs and strong brakes give poor traction",
+      "Its brakes receive less air pressure than when loaded",
+      "Its ABS shuts off whenever the trailer is light",
+      "Its tires heat up faster than they do with a load"
+    ],
+    "answer": 0,
+    "explanation": "When lightly loaded, the very stiff suspension springs and strong brakes give poor traction, making it very easy to lock up the wheels. The trailer can swing out and the tractor can jackknife.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 6.1.3"
+  },
+  {
+    "id": "cdl.cv.014",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "How does a bobtail tractor's stopping distance compare with that of a tractor-semitrailer loaded to maximum gross weight?",
+    "choices": [
+      "The bobtail stops in about half the distance",
+      "The bobtail takes longer to stop",
+      "They stop in about the same distance",
+      "The bobtail stops faster on wet roads only"
+    ],
+    "answer": 1,
+    "explanation": "Tests have shown bobtails (tractors without semitrailers) can be very hard to stop smoothly and take longer to stop than a fully loaded tractor-semitrailer.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.1.3"
+  },
+  {
+    "id": "cdl.cv.015",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Which kind of trailer is most likely to get stuck on a raised railroad crossing?",
+    "choices": [
+      "A tanker with baffles",
+      "A dry van with a sliding tandem",
+      "A lowboy or other low-slung unit",
+      "A flatbed hauling a light load of lumber"
+    ],
+    "answer": 2,
+    "explanation": "Low-slung units such as lowboys, car carriers, moving vans, and possum-belly livestock trailers can get stuck on raised crossings.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.1.4"
+  },
+  {
+    "id": "cdl.cv.016",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Besides low-slung trailers, which rig can get stuck on a raised railroad crossing?",
+    "choices": [
+      "A tandem-axle tractor pulling a short, empty trailer with its landing gear fully raised",
+      "A bobtail tractor crossing at a sharp angle with its fifth wheel slid all the way forward",
+      "A straight truck towing a small utility trailer whose tongue jack has been removed",
+      "A single-axle tractor pulling a long trailer whose landing gear is set for a tandem-axle tractor"
+    ],
+    "answer": 3,
+    "explanation": "A single-axle tractor pulling a long trailer with its landing gear set to accommodate a tandem-axle tractor can hang up on raised crossings.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 6.1.4"
+  },
+  {
+    "id": "cdl.cv.017",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Your trailer gets stuck on railroad tracks. What should you do first?",
+    "choices": [
+      "Stay in the cab and keep trying to rock the rig free",
+      "Lower the landing gear to lift the trailer",
+      "Get out of the vehicle and away from the tracks",
+      "Walk down the tracks to flag the train"
+    ],
+    "answer": 2,
+    "explanation": "If you get stuck on the tracks, get out of the vehicle and away from the tracks. Then call for help.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.1.4"
+  },
+  {
+    "id": "cdl.cv.018",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "What tends to happen when a trailer's wheels lock up?",
+    "choices": [
+      "The tractor's steering locks",
+      "The trailer stops faster and straighter",
+      "The spring brakes release",
+      "The trailer tends to swing around"
+    ],
+    "answer": 3,
+    "explanation": "When trailer wheels lock up, the trailer tends to swing around. This type of jackknife is called a trailer jackknife.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.1.5"
+  },
+  {
+    "id": "cdl.cv.019",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "A trailer jackknife is more likely to happen when the trailer is:",
+    "choices": [
+      "Empty or lightly loaded",
+      "Fully loaded",
+      "Equipped with spring brakes",
+      "Pulled by a tractor with ABS"
+    ],
+    "answer": 0,
+    "explanation": "Trailer wheel lockup and swing-out are more likely when the trailer is empty or lightly loaded.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.1.5"
+  },
+  {
+    "id": "cdl.cv.020",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "What is the earliest and best way to recognize that your trailer has started to skid?",
+    "choices": [
+      "Feeling the steering wheel shake",
+      "Seeing it in your mirrors",
+      "Hearing the air brakes release",
+      "Watching the application pressure gauge"
+    ],
+    "answer": 1,
+    "explanation": "The earliest and best way to recognize a trailer skid is by seeing it in your mirrors. Check them any time you brake hard.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.1.5"
+  },
+  {
+    "id": "cdl.cv.021",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Your trailer starts to skid and swing out. Why should you NOT use the trailer hand brake to straighten the rig?",
+    "choices": [
+      "The hand brake works only while the rig is parked",
+      "The hand brake will release all of the tractor's brakes",
+      "The trailer brakes caused the skid in the first place",
+      "Using it will close the tractor protection valve"
+    ],
+    "answer": 2,
+    "explanation": "The brakes on the trailer wheels caused the skid. Release the brakes to get traction back; once the trailer wheels grip the road, it will follow the tractor and straighten out.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.1.5"
+  },
+  {
+    "id": "cdl.cv.022",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "What is off-tracking (also called \"cheating\")?",
+    "choices": [
+      "Rear wheels following a different path than the front",
+      "A trailer swinging out sideways when its brakes lock up",
+      "Drifting slowly out of your lane on a straight road",
+      "A trailer rolling over during a quick lane change"
+    ],
+    "answer": 0,
+    "explanation": "When a vehicle goes around a corner, the rear wheels follow a different path than the front wheels. This is off-tracking or cheating.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.1.6"
+  },
+  {
+    "id": "cdl.cv.023",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "In a turn with doubles, which wheels off-track the most?",
+    "choices": [
+      "The rear wheels of the tractor",
+      "The front wheels of the tractor",
+      "The rear wheels of the first trailer",
+      "The rear wheels of the last trailer"
+    ],
+    "answer": 3,
+    "explanation": "Longer vehicles off-track more, and if there is more than one trailer, the rear wheels of the last trailer off-track the most.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.1.6"
+  },
+  {
+    "id": "cdl.cv.024",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "You can't make a right turn without entering another lane. What is the best way to turn?",
+    "choices": [
+      "Swing wide to the left before starting the turn",
+      "Turn wide as you complete the turn",
+      "Turn from the left lane of a two-lane road",
+      "Let the rear wheels run up over the curb"
+    ],
+    "answer": 1,
+    "explanation": "Turn wide as you complete the turn. Swinging wide to the left before starting can invite other drivers to pass you on the right.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 6.1.6"
+  },
+  {
+    "id": "cdl.cv.025",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Why should you keep the rear of your vehicle close to the curb when turning right?",
+    "choices": [
+      "To reduce how much the trailer wheels off-track",
+      "So drivers can't pass you on the right",
+      "To give pedestrians more room to cross in front",
+      "To keep the trailer from jackknifing in the turn"
+    ],
+    "answer": 1,
+    "explanation": "Steer wide enough that the rear does not run over the curb, but keep the rear close to the curb so other drivers can't pass you on the right.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.1.6"
+  },
+  {
+    "id": "cdl.cv.026",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "When you start backing a trailer, which way do you turn the steering wheel?",
+    "choices": [
+      "The same direction you want the trailer to go",
+      "Fully left, then fully right",
+      "It does not matter while backing slowly",
+      "Opposite to the way you want the trailer to go"
+    ],
+    "answer": 3,
+    "explanation": "When backing a car, straight truck, or bus, you turn the top of the wheel toward where you want to go. With a trailer, you turn the wheel in the opposite direction.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.1.7"
+  },
+  {
+    "id": "cdl.cv.027",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Once the trailer starts to turn while you are backing, what must you do?",
+    "choices": [
+      "Turn the wheel the other way to follow it",
+      "Keep turning the wheel the same direction as before",
+      "Stop and pull out the trailer air supply knob",
+      "Speed up so the trailer straightens out on its own"
+    ],
+    "answer": 0,
+    "explanation": "Once the trailer starts to turn, you must turn the wheel the other way to follow it.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.1.7"
+  },
+  {
+    "id": "cdl.cv.028",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "If you must back a trailer on a curved path, which way should you back?",
+    "choices": [
+      "Toward the passenger side, to protect the cab",
+      "Either side, using only the right mirror",
+      "Toward the driver's side, so you can see",
+      "In a straight line first, then turn blind-side"
+    ],
+    "answer": 2,
+    "explanation": "Try to back in a straight line. If you must back on a curved path, back to the driver's side so you can see.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.1.7"
+  },
+  {
+    "id": "cdl.cv.029",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "While backing, your trailer begins to drift off the proper path. How do you correct it?",
+    "choices": [
+      "Turn the top of the wheel away from the drift",
+      "Apply the trailer hand valve to stop the drift",
+      "Stop, then reset the fifth wheel slide position",
+      "Turn the top of the wheel toward the drift"
+    ],
+    "answer": 3,
+    "explanation": "As soon as you see the trailer getting off the proper path, correct it by turning the top of the steering wheel in the direction of the drift.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.1.7"
+  },
+  {
+    "id": "cdl.cv.030",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "What does the manual recommend if you are unsure of your path while backing a trailer?",
+    "choices": [
+      "Rely on the right-side mirror only",
+      "Back faster to finish before traffic arrives",
+      "Get out and re-inspect your path",
+      "Sound the horn and keep backing"
+    ],
+    "answer": 2,
+    "explanation": "Check the mirrors on both sides often, and get out of the vehicle to re-inspect your path if you are unsure. Back slowly and use pull-ups as needed.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.1.7"
+  },
+  {
+    "id": "cdl.cv.031",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "What is the trailer hand valve (trolley valve or Johnson bar) meant to be used for?",
+    "choices": [
+      "Slowing the rig on downgrades",
+      "Only to test the trailer brakes",
+      "Parking the trailer",
+      "Straightening a skidding trailer"
+    ],
+    "answer": 1,
+    "explanation": "The trailer hand valve should be used only to test the trailer brakes. Using it while driving risks a trailer skid.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.2.1"
+  },
+  {
+    "id": "cdl.cv.032",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Why should you never use the trailer hand valve to park?",
+    "choices": [
+      "The air may leak away and let the trailer roll",
+      "It holds the fifth wheel jaws in the open position",
+      "It drains the tractor's air tanks within seconds",
+      "It applies only the brakes on the tractor"
+    ],
+    "answer": 0,
+    "explanation": "All the air might leak out and unlock the brakes on trailers without spring brakes. Always use the parking brakes, and chock trailers without spring brakes.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 6.2.1"
+  },
+  {
+    "id": "cdl.cv.033",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "What does the tractor protection valve do?",
+    "choices": [
+      "Saves the tractor's air if the trailer breaks away",
+      "Keeps the tractor from jackknifing on wet or icy roads",
+      "Limits the air pressure sent to the tractor's front brakes",
+      "Keeps the fifth wheel jaws locked around the kingpin"
+    ],
+    "answer": 0,
+    "explanation": "The tractor protection valve keeps air in the tractor or truck brake system should the trailer break away or develop a bad leak.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.2.2"
+  },
+  {
+    "id": "cdl.cv.034",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "The tractor protection valve closes automatically when air pressure falls into what range?",
+    "choices": [
+      "55 to 60 psi",
+      "20 to 45 psi",
+      "80 to 85 psi",
+      "100 to 125 psi"
+    ],
+    "answer": 1,
+    "explanation": "The tractor protection valve closes automatically when air pressure is low, in the range of 20 to 45 psi.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.2.2"
+  },
+  {
+    "id": "cdl.cv.035",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "When the tractor protection valve closes, what happens to the trailer?",
+    "choices": [
+      "Its service brakes release and it rolls freely behind you",
+      "It keeps braking normally using air from the tractor's tanks",
+      "Its emergency line is vented, so its emergency brakes come on",
+      "Its ABS takes over and pumps the brakes automatically"
+    ],
+    "answer": 2,
+    "explanation": "When the valve closes it stops air from leaving the tractor and lets the air out of the trailer emergency line, causing the trailer emergency brakes to come on, with possible loss of control.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.2.2"
+  },
+  {
+    "id": "cdl.cv.036",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "On newer vehicles, what does the trailer air supply control look like?",
+    "choices": [
+      "A yellow, diamond-shaped knob",
+      "A round blue knob",
+      "A green, square button",
+      "A red, eight-sided knob"
+    ],
+    "answer": 3,
+    "explanation": "The trailer air supply control is a red eight-sided knob. The yellow diamond knob is the parking brake control.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.2.3"
+  },
+  {
+    "id": "cdl.cv.037",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "What happens when you pull out the trailer air supply knob?",
+    "choices": [
+      "The trailer is supplied with air so you can drive away",
+      "The tractor's spring brakes are released for driving",
+      "Trailer air is shut off and its emergency brakes come on",
+      "The fifth wheel locking jaws open so the trailer can be dropped"
+    ],
+    "answer": 2,
+    "explanation": "Push the knob in to supply the trailer with air; pull it out to shut the air off and put on the trailer emergency brakes.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.2.3"
+  },
+  {
+    "id": "cdl.cv.038",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "What two air lines run between each vehicle in a combination?",
+    "choices": [
+      "The primary line and the secondary line",
+      "The pressure line and the return line",
+      "The parking line and the relay line",
+      "The service line and the emergency line"
+    ],
+    "answer": 3,
+    "explanation": "Every combination vehicle has two air lines, the service line (also called the control or signal line) and the emergency line (also called the supply line), running between each vehicle.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.2.4"
+  },
+  {
+    "id": "cdl.cv.039",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "What controls the air in the service line?",
+    "choices": [
+      "The foot brake or the trailer hand brake",
+      "The trailer air supply knob on the dash",
+      "The governor on the air compressor",
+      "The tractor protection valve by itself"
+    ],
+    "answer": 0,
+    "explanation": "The service line (also called the control or signal line) carries air controlled by the foot brake or the trailer hand brake. Pressure varies with how hard you apply them.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.2.4"
+  },
+  {
+    "id": "cdl.cv.040",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "What does the service line connect to on the trailer that helps the trailer brakes apply quickly?",
+    "choices": [
+      "The safety relief valve",
+      "Relay valves",
+      "The tractor protection valve",
+      "The shut-off valves"
+    ],
+    "answer": 1,
+    "explanation": "The service line is connected to relay valves, which allow the trailer brakes to be applied more quickly than would otherwise be possible.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 6.2.4"
+  },
+  {
+    "id": "cdl.cv.041",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "What are the two purposes of the emergency (supply) line?",
+    "choices": [
+      "It powers the trailer lights and the ABS malfunction lamp",
+      "It applies the service brakes and releases the parking brakes",
+      "It fills the trailer tanks and controls the emergency brakes",
+      "It drains the trailer tanks and cools the brake drums"
+    ],
+    "answer": 2,
+    "explanation": "The emergency line supplies air to the trailer air tanks and controls the emergency brakes. Loss of pressure in it causes the trailer emergency brakes to come on.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.2.4"
+  },
+  {
+    "id": "cdl.cv.042",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Your trailer breaks loose and tears the emergency air hose. What happens?",
+    "choices": [
+      "Trailer emergency brakes come on; the tractor protection valve closes",
+      "The trailer rolls freely until you press the service brake pedal",
+      "Only the tractor's front brakes are applied, by the limiting valve",
+      "The tractor's air tanks empty out through the broken hose"
+    ],
+    "answer": 0,
+    "explanation": "Loss of pressure in the emergency line puts on the trailer emergency brakes and causes the tractor protection valve to close (the air supply knob pops out).",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 6.2.4"
+  },
+  {
+    "id": "cdl.cv.043",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "What color is commonly used to mark the emergency air line?",
+    "choices": [
+      "Blue",
+      "Yellow",
+      "Green",
+      "Red"
+    ],
+    "answer": 3,
+    "explanation": "Emergency lines are often coded red, and service lines blue, to keep them from getting mixed up.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.2.4"
+  },
+  {
+    "id": "cdl.cv.044",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "What are glad hands?",
+    "choices": [
+      "Hand grips used to climb up onto the tractor's deck",
+      "Couplers for the trailer's service and emergency air lines",
+      "Gloves worn when checking and pulling slack adjusters",
+      "Latches that lock the fifth wheel jaws around the kingpin"
+    ],
+    "answer": 1,
+    "explanation": "Glad hands are coupling devices used to connect the service and emergency air lines from the truck or tractor to the trailer.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.2.5"
+  },
+  {
+    "id": "cdl.cv.045",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "How do you connect a pair of glad hands?",
+    "choices": [
+      "Line them up end to end and push them until they click",
+      "Press the seals together at 90 degrees, then turn to lock",
+      "Screw them together clockwise until they are hand-tight",
+      "Clamp them side by side using a standard hose clamp"
+    ],
+    "answer": 1,
+    "explanation": "Clean the couplers and seals, press the two seals together with the couplers at a 90-degree angle, and turn the glad hand attached to the hose to join and lock them.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.2.5"
+  },
+  {
+    "id": "cdl.cv.046",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "What should you do to the glad hand couplers and rubber seals before connecting them?",
+    "choices": [
+      "Grease them",
+      "Remove the seals",
+      "Spray them with alcohol",
+      "Clean them"
+    ],
+    "answer": 3,
+    "explanation": "Clean the couplers and rubber seals before a connection is made; the seals prevent air from escaping.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.2.5"
+  },
+  {
+    "id": "cdl.cv.047",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "You crossed the air lines when coupling a trailer that has spring brakes. What will you notice?",
+    "choices": [
+      "The trailer spring brakes won't release",
+      "The trailer brakes work normally, just a little more slowly",
+      "The low air warning comes on as soon as you start the engine",
+      "The tractor's own spring brakes come on immediately and lock"
+    ],
+    "answer": 0,
+    "explanation": "With crossed lines, supply air goes to the service line instead of charging the trailer tanks, so there is no air to release the trailer spring brakes. Check the air line connections.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 6.2.5"
+  },
+  {
+    "id": "cdl.cv.048",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Why are crossed air lines especially dangerous on an older trailer without spring brakes?",
+    "choices": [
+      "The trailer brakes would lock and drag the whole trip",
+      "The tractor protection valve would never close",
+      "You could drive away with no trailer brakes at all",
+      "The trailer lights would stop working"
+    ],
+    "answer": 2,
+    "explanation": "If the trailer air tank has leaked down and the lines are crossed, you could drive away but have no trailer brakes. Always test the trailer brakes before driving.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 6.2.5"
+  },
+  {
+    "id": "cdl.cv.049",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "What are dummy (dead-end) couplers used for?",
+    "choices": [
+      "Testing the trailer brakes before you drive away",
+      "Connecting a second trailer to the first trailer",
+      "Releasing the trailer spring brakes in an emergency",
+      "Storing unused hoses to keep water and dirt out"
+    ],
+    "answer": 3,
+    "explanation": "Dummy couplers hold the hoses when they are not in use, preventing water and dirt from getting into the coupler and air lines. It is very important to keep the air supply clean.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.2.5"
+  },
+  {
+    "id": "cdl.cv.050",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Your trailer air tanks have automatic drains. What should you still do?",
+    "choices": [
+      "Nothing; automatic drains never need checking",
+      "Drain them only once a month",
+      "Open the drains to make sure moisture is removed",
+      "Add alcohol to each tank daily instead"
+    ],
+    "answer": 2,
+    "explanation": "Drain each tank every day. Automatic drains keep most moisture out, but you should still open the drains to make sure.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.2.6"
+  },
+  {
+    "id": "cdl.cv.051",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "What is another name for shut-off valves on trailers?",
+    "choices": [
+      "Glad hands",
+      "Cut-out cocks",
+      "Relay valves",
+      "Johnson bars"
+    ],
+    "answer": 1,
+    "explanation": "Shut-off valves, also called cut-out cocks, are used in the service and supply lines at the back of trailers used to tow other trailers.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.2.7"
+  },
+  {
+    "id": "cdl.cv.052",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "In a set of doubles, which air line shut-off valves should be closed?",
+    "choices": [
+      "Only the ones at the back of the last trailer",
+      "The ones at the back of the first trailer only",
+      "All of the shut-off valves on the dolly",
+      "The ones at the front of every trailer"
+    ],
+    "answer": 0,
+    "explanation": "All shut-off valves must be open except the ones at the back of the last trailer, which must be closed.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.2.7"
+  },
+  {
+    "id": "cdl.cv.053",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Which units are NOT required to have spring brakes?",
+    "choices": [
+      "Converter dollies and trailers built before 1975",
+      "Trailers built on or after March 1, 1998",
+      "Any trailer that is equipped with working ABS",
+      "Trailers that are longer than 48 feet in length"
+    ],
+    "answer": 0,
+    "explanation": "Newer trailers have spring brakes, but converter dollies and trailers built before 1975 are not required to have them.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 6.2.8"
+  },
+  {
+    "id": "cdl.cv.054",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "You park a trailer that has no spring brakes. Why must you chock its wheels?",
+    "choices": [
+      "Its spring brakes may overheat and release overnight",
+      "Its brakes hold only until the tank air leaks away",
+      "Its parking brake works only while the engine is running",
+      "Its ABS releases the brakes after a few minutes parked"
+    ],
+    "answer": 1,
+    "explanation": "Trailers without spring brakes have no parking brake; their emergency brakes hold only while there is air in the trailer tank. Eventually the air leaks away, leaving no brakes.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 6.2.8"
+  },
+  {
+    "id": "cdl.cv.055",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Your trailer has a major leak in the service line. When are you likely to notice it?",
+    "choices": [
+      "As soon as you start the engine",
+      "Only during the pre-trip leakage test with brakes released",
+      "When you put on the brakes and tank pressure drops quickly",
+      "When the trailer ABS lamp lights up"
+    ],
+    "answer": 2,
+    "explanation": "You may not notice a major service line leak until you apply the brakes. Then the air loss lowers tank pressure quickly, and if it goes low enough the trailer emergency brakes come on.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 6.2.8"
+  },
+  {
+    "id": "cdl.cv.056",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Trailers and converter dollies are required to have ABS if they were built on or after:",
+    "choices": [
+      "March 1, 1997",
+      "January 1, 1994",
+      "January 1, 1975",
+      "March 1, 1998"
+    ],
+    "answer": 3,
+    "explanation": "All trailers and converter dollies built on or after March 1, 1998 must have ABS. (Air-braked truck tractors were required from March 1, 1997.)",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.3.1"
+  },
+  {
+    "id": "cdl.cv.057",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Only your trailer has ABS. During hard braking, the tractor starts to jackknife. What should you do?",
+    "choices": [
+      "Keep full brake pressure, since the trailer ABS will fix it",
+      "Apply the trailer hand valve to pull the tractor straight",
+      "Let up on the brakes, if safe, until you regain control",
+      "Pull out the trailer air supply knob right away"
+    ],
+    "answer": 2,
+    "explanation": "With ABS only on the trailer, the trailer is less likely to swing out, but if you lose steering control or start a tractor jackknife, let up on the brakes (if safe) until you regain control.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 6.3.2"
+  },
+  {
+    "id": "cdl.cv.058",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Which statement about driving a combination with ABS is true?",
+    "choices": [
+      "ABS lets you follow more closely in good weather conditions",
+      "ABS lets you take curves at a higher speed than normal",
+      "ABS means you no longer need to plan to brake early",
+      "ABS won't let you drive faster or follow more closely"
+    ],
+    "answer": 3,
+    "explanation": "ABS won't allow you to drive faster, follow more closely, or drive less carefully. Brake as you always have.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.3.2"
+  },
+  {
+    "id": "cdl.cv.059",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Why must the fifth wheel plate be greased as required?",
+    "choices": [
+      "Lack of grease can cause steering problems from friction",
+      "Grease keeps the kingpin from locking too tightly in the jaws",
+      "Grease keeps air from leaking out of the glad hand seals",
+      "Grease keeps the landing gear legs from rusting"
+    ],
+    "answer": 0,
+    "explanation": "Failure to keep the fifth wheel plate lubricated could cause steering problems because of friction between the tractor and trailer.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.4.1"
+  },
+  {
+    "id": "cdl.cv.060",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Before coupling, what position should the fifth wheel be in?",
+    "choices": [
+      "Tilted up toward the cab, with the jaws closed",
+      "Tilted down toward the rear, with the jaws open",
+      "Level with the frame, with the jaws closed and locked",
+      "Tilted down toward the cab, with the jaws open"
+    ],
+    "answer": 1,
+    "explanation": "The fifth wheel should be tilted down toward the rear of the tractor, jaws open, and the safety unlocking handle in the automatic lock position.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.4.1"
+  },
+  {
+    "id": "cdl.cv.061",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Why should you never back under a trailer at an angle?",
+    "choices": [
+      "The glad hands would cross each other automatically",
+      "The trailer's ABS malfunction lamp would come on and stay on",
+      "It can push the trailer sideways and break the landing gear",
+      "The kingpin would lock onto the outer edge of the jaws"
+    ],
+    "answer": 2,
+    "explanation": "Put the tractor directly in front of the trailer. Backing under at an angle might push the trailer sideways and break the landing gear.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.4.1"
+  },
+  {
+    "id": "cdl.cv.062",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "When coupling, how high should the trailer be?",
+    "choices": [
+      "Low enough that the tractor lifts it slightly",
+      "High enough that the fifth wheel clears it completely",
+      "Exactly level with the top of the fifth wheel plate",
+      "Resting on the ground at the front, below the kingpin"
+    ],
+    "answer": 0,
+    "explanation": "The trailer should be low enough that it is raised slightly by the tractor when backed under it.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.4.1"
+  },
+  {
+    "id": "cdl.cv.063",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "What can happen if the trailer is too high when you try to couple?",
+    "choices": [
+      "The tractor will strike and damage the trailer nose",
+      "The landing gear will collapse",
+      "The air lines will cross",
+      "It may not couple correctly"
+    ],
+    "answer": 3,
+    "explanation": "If the trailer is too high, it may not couple correctly. If it is too low, the tractor may strike and damage the trailer nose.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 6.4.1"
+  },
+  {
+    "id": "cdl.cv.064",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "During coupling, after supplying air to the trailer, why do you shut the engine off?",
+    "choices": [
+      "So the air tanks can fill up more quickly",
+      "So you can hear the trailer brakes work",
+      "So the tractor protection valve can reset itself",
+      "So the fifth wheel jaws can close on the kingpin"
+    ],
+    "answer": 1,
+    "explanation": "Shut the engine off so you can hear the brakes. When you apply and release the trailer brakes, you should hear them move and hear air escape on release.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.4.1"
+  },
+  {
+    "id": "cdl.cv.065",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "How do you do the tug test to check the coupling?",
+    "choices": [
+      "Release the trailer brakes and back up hard against the kingpin",
+      "Pull gently forward with the trailer brakes locked",
+      "Pull forward quickly with the landing gear still down",
+      "Drive around the yard at 15 mph and then brake hard"
+    ],
+    "answer": 1,
+    "explanation": "Raise the trailer landing gear slightly off the ground, then pull the tractor gently forward while the trailer brakes are still locked to check that the trailer is locked on.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.4.1"
+  },
+  {
+    "id": "cdl.cv.066",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Before going under the trailer to inspect the coupling, why should you shut off the engine and take the key?",
+    "choices": [
+      "So the air tanks can bleed down for the next test",
+      "So the fifth wheel jaws have time to close fully",
+      "So the trailer spring brakes will release on their own",
+      "So no one moves the truck while you're under it"
+    ],
+    "answer": 3,
+    "explanation": "Put the transmission in neutral, set the parking brakes, shut off the engine, and take the key so someone else won't move the truck while you are under it.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.4.1"
+  },
+  {
+    "id": "cdl.cv.067",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "After coupling, how much space should there be between the upper and lower fifth wheel?",
+    "choices": [
+      "None",
+      "About 1 inch",
+      "About 2 inches",
+      "About one-half inch"
+    ],
+    "answer": 0,
+    "explanation": "There should be no space between the upper and lower fifth wheel. If there is space, the kingpin may be on top of the closed jaws and the trailer could come loose.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.4.1"
+  },
+  {
+    "id": "cdl.cv.068",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "You see a gap between the upper and lower fifth wheel after coupling. What might be wrong?",
+    "choices": [
+      "The fifth wheel plate needs more grease",
+      "The trailer air tanks have not been charged yet",
+      "The kingpin may be on top of the closed jaws",
+      "The landing gear has been raised too high"
+    ],
+    "answer": 2,
+    "explanation": "A gap means something is wrong: the kingpin may be on top of the closed fifth wheel jaws, and the trailer would come loose very easily.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 6.4.1"
+  },
+  {
+    "id": "cdl.cv.069",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "When you look into the back of the fifth wheel, what should the jaws be closed around?",
+    "choices": [
+      "The head of the kingpin",
+      "The upper fifth wheel plate",
+      "The release handle",
+      "The shank of the kingpin"
+    ],
+    "answer": 3,
+    "explanation": "Make sure the fifth wheel jaws have closed around the shank of the kingpin, not the head.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.4.1"
+  },
+  {
+    "id": "cdl.cv.070",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "You find the coupling isn't right during your inspection. What should you do?",
+    "choices": [
+      "Drive slowly to the nearest shop",
+      "Drive normally and recheck at the next stop",
+      "Don't drive the coupled unit; get it fixed",
+      "Add grease and continue"
+    ],
+    "answer": 2,
+    "explanation": "If the coupling isn't right, don't drive the coupled unit. Get it fixed.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.4.1"
+  },
+  {
+    "id": "cdl.cv.071",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "When raising the landing gear after coupling, which gear range do you use?",
+    "choices": [
+      "High range to start, then low range near the very top",
+      "Low range first, then high range once it's free of weight",
+      "High range the whole way, since it is faster",
+      "Low range the whole way, stopping when it is halfway up"
+    ],
+    "answer": 1,
+    "explanation": "Use the low gear range (if equipped) to begin raising the landing gear, then switch to high once it is free of weight. Raise it all the way.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.4.1"
+  },
+  {
+    "id": "cdl.cv.072",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "During uncoupling, why do you back up gently and set the parking brakes while the tractor pushes against the kingpin?",
+    "choices": [
+      "To take pressure off the locking jaws",
+      "To lock the trailer brakes before its air is shut off",
+      "To lower the landing gear down onto the ground",
+      "To check that the trailer is still coupled tightly"
+    ],
+    "answer": 0,
+    "explanation": "Backing gently eases pressure on the fifth wheel locking jaws, and setting the parking brakes while pushing holds the rig with pressure off the jaws, making the release lever easier to pull.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 6.4.2"
+  },
+  {
+    "id": "cdl.cv.073",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "When uncoupling a loaded trailer, what should you do after the landing gear makes firm contact with the ground?",
+    "choices": [
+      "Give the crank a few extra turns in low gear",
+      "Raise the trailer completely off the fifth wheel",
+      "Stop cranking right away so the landing gear does not bend",
+      "Keep lowering the gear until the tractor's rear tires lift"
+    ],
+    "answer": 0,
+    "explanation": "With a loaded trailer, a few extra turns in low gear lift some weight off the tractor, making it easier to unlatch and to couple next time. Don't lift the trailer off the fifth wheel.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 6.4.2"
+  },
+  {
+    "id": "cdl.cv.074",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "When you first pull the tractor out from under the trailer during uncoupling, where should you stop?",
+    "choices": [
+      "Fully clear of the trailer",
+      "With the tractor frame still under the trailer",
+      "With the fifth wheel still under the kingpin",
+      "About 10 feet past the trailer's nose"
+    ],
+    "answer": 1,
+    "explanation": "Stop with the tractor frame under the trailer. This keeps the trailer from falling to the ground if the landing gear collapses or sinks.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.4.2"
+  },
+  {
+    "id": "cdl.cv.075",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "While pulling the fifth wheel release handle, what should you keep clear of the rear tractor wheels?",
+    "choices": [
+      "The air lines",
+      "The electrical cord",
+      "Your legs and feet",
+      "The wheel chocks"
+    ],
+    "answer": 2,
+    "explanation": "Keep legs and feet clear of the rear tractor wheels to avoid serious injury in case the vehicle moves.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.4.2"
+  },
+  {
+    "id": "cdl.cv.076",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "During uncoupling, when should you chock the trailer wheels?",
+    "choices": [
+      "Only if the trailer is loaded with cargo",
+      "Only when parked on a downhill grade",
+      "Never, since the trailer brakes are always enough",
+      "If it lacks spring brakes, or you aren't sure"
+    ],
+    "answer": 3,
+    "explanation": "Chock the trailer wheels if the trailer doesn't have spring brakes or if you are not sure. Air could leak from the trailer tank and release its emergency brakes.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.4.2"
+  },
+  {
+    "id": "cdl.cv.077",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "When coupling a gooseneck trailer, what should you attach after latching the coupler clamp over the ball?",
+    "choices": [
+      "The safety chains",
+      "The landing gear crank handle",
+      "The trailer hand valve line",
+      "The fifth wheel safety latch"
+    ],
+    "answer": 0,
+    "explanation": "After positioning the coupler over the ball and latching the clamp, attach the safety chains, then connect the trailer light wiring and check all lights, including brake lights.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.4.7"
+  },
+  {
+    "id": "cdl.cv.078",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "During a walk-around, which is a defect in the lower fifth wheel?",
+    "choices": [
+      "Locking jaws closed around the shank of the kingpin",
+      "No visible space between upper and lower fifth wheel",
+      "Release arm seated with the safety latch engaged",
+      "Locking jaws closed around the head of the kingpin"
+    ],
+    "answer": 3,
+    "explanation": "The locking jaws must be around the shank, not the head, of the kingpin. No visible space and an engaged safety latch are correct.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 6.5.1"
+  },
+  {
+    "id": "cdl.cv.079",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "When inspecting the air lines to the trailer, what should you look for?",
+    "choices": [
+      "Proper connection, no leaks, and slack for turns",
+      "Lines pulled tight so they cannot move around",
+      "Lines resting flat on the fifth wheel plate",
+      "Service and emergency lines taped together as one"
+    ],
+    "answer": 0,
+    "explanation": "Air lines should be properly connected to the glad hands, have no air leaks, and be properly secured with enough slack for turns. All lines should be free of damage.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.5.1"
+  },
+  {
+    "id": "cdl.cv.080",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "What should you check on the landing gear during a walk-around?",
+    "choices": [
+      "Lowered halfway so uncoupling will be quicker",
+      "Fully raised, undamaged, crank handle secured",
+      "Crank handle removed and stored inside the cab",
+      "Resting lightly on the pavement for support"
+    ],
+    "answer": 1,
+    "explanation": "Landing gear should be fully raised with no missing, bent, or damaged parts, the crank handle in place and secured, and no leaks if power operated.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.5.1"
+  },
+  {
+    "id": "cdl.cv.081",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "To check that air flows to all trailers, what do you do at the rear of the last trailer?",
+    "choices": [
+      "Pull the trailer air supply knob and watch the ABS lamp",
+      "Disconnect the glad hands and listen for escaping air",
+      "Open the emergency line valve and listen for air",
+      "Drain the last trailer's air tank all the way down"
+    ],
+    "answer": 2,
+    "explanation": "With the trailer air supply knob pushed in and the hand brake applied, open the emergency line valve at the rear of the last trailer and listen for air, then do the same for the service line. Close the valves afterward.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 6.5.2"
+  },
+  {
+    "id": "cdl.cv.082",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "During the air flow check, you hear no air from the rear shut-off valves. What should you check?",
+    "choices": [
+      "That the trailer and dolly shut-off valves are open",
+      "That the governor cut-out pressure is above 140 psi",
+      "That the trailer ABS malfunction lamp is working",
+      "That the landing gear is raised all the way up"
+    ],
+    "answer": 0,
+    "explanation": "If you do not hear air escaping from both lines, check that the shut-off valves on the trailer(s) and dolly(ies) are open. You must have air all the way to the back.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.5.2"
+  },
+  {
+    "id": "cdl.cv.083",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "How do you test the tractor protection valve?",
+    "choices": [
+      "Engine running, pull out the air supply knob and drive forward",
+      "Disconnect the service line and listen for escaping air",
+      "Open the tank drains with the engine running at fast idle",
+      "Engine off, fan the brakes until the air supply knob pops out"
+    ],
+    "answer": 3,
+    "explanation": "Charge the trailer air system, shut the engine off, and step on and off the brake pedal. The air supply control should pop out within the manufacturer's range, usually 20-45 psi.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.5.2"
+  },
+  {
+    "id": "cdl.cv.084",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "How do you test the trailer emergency brakes?",
+    "choices": [
+      "Apply the trailer hand valve while driving at about 15 mph",
+      "Pull the air supply knob out and gently pull against it",
+      "Shut off the engine and listen for any air leaks at the trailer",
+      "Disconnect the electrical cord, then drive slowly forward"
+    ],
+    "answer": 1,
+    "explanation": "Charge the trailer air system and check that the trailer rolls freely. Then stop, pull out the trailer air supply control (or set it to \"emergency\"), and pull gently with the tractor to check that the trailer emergency brakes are on.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.5.2"
+  },
+  {
+    "id": "cdl.cv.085",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "How do you test the trailer service brakes?",
+    "choices": [
+      "Pull the trailer air supply knob out while rolling",
+      "Roll forward slowly and use the trailer hand control",
+      "Set the tractor parking brake while rolling forward",
+      "Back up slowly and press the foot brake firmly"
+    ],
+    "answer": 1,
+    "explanation": "With normal air pressure and parking brakes released, move forward slowly and apply the trailer brakes with the hand control (trolley valve). You should feel the brakes come on.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.5.2"
+  },
+  {
+    "id": "cdl.cv.086",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "If the tractor protection valve does not work right, what could happen?",
+    "choices": [
+      "The trailer would never release its spring brakes",
+      "The fifth wheel could unlock while you are driving",
+      "The governor would never let the compressor cut in",
+      "A trailer leak could drain all the tractor's air"
+    ],
+    "answer": 3,
+    "explanation": "If the tractor protection valve doesn't work, an air hose or trailer brake leak could drain all the air from the tractor, causing the emergency brakes to come on with possible loss of control.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 6.5.2"
+  },
+  {
+    "id": "cdl.cv.087",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "Why must you raise the trailer landing gear all the way before driving?",
+    "choices": [
+      "The trailer ABS will not work until it is fully raised",
+      "Gear left part way up may catch on railroad tracks or other things",
+      "The fifth wheel jaws cannot lock until it is fully raised",
+      "The tractor protection valve stays closed until it is fully raised"
+    ],
+    "answer": 1,
+    "explanation": "Raise the landing gear all the way up and secure the crank handle. Never drive with the landing gear only part way up, because it may catch on railroad tracks or other things.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.4.1"
+  },
+  {
+    "id": "cdl.cv.088",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "When backing the tractor under the trailer to couple, which gear should you use?",
+    "choices": [
+      "The highest reverse gear, to reach the kingpin in one motion",
+      "Neutral, letting the tractor coast back on a slight grade",
+      "The lowest reverse gear, backing slowly",
+      "Any reverse gear, with the trailer brakes released"
+    ],
+    "answer": 2,
+    "explanation": "Use the lowest reverse gear and back slowly under the trailer to avoid hitting the kingpin too hard. The trailer brakes should be locked, and you stop when the kingpin locks into the fifth wheel.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 6.4.1"
+  },
+  {
+    "id": "cdl.cv.089",
+    "track": "cdl",
+    "topic": "cdl-combination",
+    "prompt": "After unplugging the trailer electrical cable during uncoupling, how should you hang it?",
+    "choices": [
+      "With the plug facing down",
+      "With the plug facing up",
+      "Coiled on the fifth wheel plate",
+      "Tied to the trailer's landing gear"
+    ],
+    "answer": 0,
+    "explanation": "Hang the electrical cable with the plug down to prevent moisture from entering it, and support the lines so they won't be damaged while driving the tractor.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 6.4.2"
+  }
+]

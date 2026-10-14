@@ -8,7 +8,7 @@
       "The space inside the bus between the front seats and the door",
       "The stretch of road 500 feet ahead of a bus stop",
       "The lane next to the bus where cars must stop",
-      "The area around the bus where children are most likely to be hit"
+      "The area on all sides of the bus where children may be hit"
     ],
     "answer": 3,
     "explanation": "The danger zone is the area on all sides of the bus where children are in the most danger of being hit, by another vehicle or by their own bus.",
@@ -200,7 +200,7 @@
       "Aimed down at the aisle floor so you can spot any dropped items",
       "Aimed at the service door, the steps and the right front tire",
       "Aimed through the rear window at the traffic following the bus",
-      "Rear window top at the mirror's top, all students' heads in view"
+      "Top of rear window at top of mirror; all students in view"
     ],
     "answer": 3,
     "explanation": "Position the inside mirror to see the top of the rear window in the top of the mirror and all students, including the heads of those right behind you.",
@@ -213,7 +213,7 @@
     "topic": "cdl-school-bus",
     "prompt": "The inside mirror has a large blind spot starting at the rear bumper. How should you watch traffic entering that area?",
     "choices": [
-      "Turn around and look back",
+      "Turn around in your seat and look back",
       "Use the crossover mirrors",
       "Use the outside side mirrors",
       "Ask a student to watch"
@@ -261,7 +261,7 @@
     "topic": "cdl-school-bus",
     "prompt": "If your bus has amber warning lights, when does the manual say to turn them on before a stop (unless state law differs)?",
     "choices": [
-      "At least 1,000 feet, or about 1 minute, before the stop",
+      "At least 1,000 feet, or about 30 to 60 seconds, before the stop",
       "At least 50 feet, or about 1 to 2 seconds, before the stop",
       "Only once the bus has come to a full stop",
       "At least 200 feet, or about 5 to 10 seconds, before the stop"
@@ -279,7 +279,7 @@
     "choices": [
       "About 25 to 50 feet, or 1 second, before",
       "About 100 to 300 feet, or 3 to 5 seconds, before",
-      "About 500 feet, or 10 to 15 seconds, before",
+      "About 500 to 1,000 feet, or 10 to 15 seconds, before",
       "Only after the amber lights have stopped"
     ],
     "answer": 1,
@@ -310,7 +310,7 @@
     "prompt": "At each stop, how should you secure the bus's transmission?",
     "choices": [
       "In Drive, with your foot held on the brake pedal",
-      "In first gear, with the engine turned off",
+      "In first gear, with the engine turned off and key removed",
       "In Park, or in Neutral with the parking brake set",
       "In Reverse, with the parking brake set"
     ],
@@ -488,7 +488,7 @@
       "To count the seats for the afternoon run",
       "To find hiding or sleeping students and left items",
       "To sweep the floor for the school custodian",
-      "To close every roof hatch and window"
+      "To close every roof hatch and window before the next trip"
     ],
     "answer": 1,
     "explanation": "Walk through the bus after unloading at school to check for hiding or sleeping students and items left behind.",
@@ -502,7 +502,7 @@
     "prompt": "What should students be told to do if they drop something near the bus?",
     "choices": [
       "Crawl under the bus to reach it if it rolled there",
-      "Pick it up quickly before the bus starts moving",
+      "Pick it up quickly, before the bus has a chance to start moving",
       "Leave it, move to safety, and get the driver's attention",
       "Wait beside the door until the bus pulls away"
     ],
@@ -549,7 +549,7 @@
     "topic": "cdl-school-bus",
     "prompt": "As a general rule, how is student safety best maintained during an emergency?",
     "choices": [
-      "Moving all of the students into a passing vehicle",
+      "Moving all of the students into passing vehicles as soon as possible",
       "Sending the older students home on foot right away",
       "Getting every student off the bus at once, in any case",
       "Keeping students on the bus, if that adds no undue risk"
@@ -565,7 +565,7 @@
     "topic": "cdl-school-bus",
     "prompt": "In which situation must a school bus driver evacuate the bus?",
     "choices": [
-      "A student has a minor nosebleed during the trip",
+      "A student has a minor nosebleed partway through the morning trip",
       "The bus is stalled on or next to a railroad crossing",
       "The heater has stopped working on a cold morning",
       "The bus has a flat tire on a quiet side street"
@@ -579,15 +579,15 @@
     "id": "cdl.sb.037",
     "track": "cdl",
     "topic": "cdl-school-bus",
-    "prompt": "Your bus is stopped near a hazardous materials spill. What does the manual say?",
+    "prompt": "Your bus is stopped near a hazardous materials spill. When deciding whether to evacuate, what should you keep in mind?",
     "choices": [
-      "Staying on the bus away from the material may be safer",
-      "Students should walk through the spill to reach safety",
-      "You must always evacuate the bus immediately",
-      "Open all windows and keep driving past the spill"
+      "Staying on the bus, away from the material, may be safer",
+      "Students should walk through the spill to reach safety quickly",
+      "The bus must always be evacuated at once, no matter what",
+      "Opening all windows will keep the fumes out of the bus"
     ],
     "answer": 0,
-    "explanation": "When deciding, consider that it may be safer to remain on the bus. Evacuation is mandatory when there is a need to quickly evacuate because of the spill.",
+    "explanation": "Sometimes it may be safer to remain on the bus and not come in contact with the material. Evacuation becomes mandatory only when there is a need to evacuate quickly because of the spill.",
     "difficulty": 3,
     "ref": "CDL Manual, Section 10.3.1"
   },
@@ -765,7 +765,7 @@
     "answer": 0,
     "explanation": "Stop no closer than 15 feet and no farther than 50 feet from the nearest rail, where you have the best view of the tracks.",
     "difficulty": 1,
-    "ref": "CDL Manual, Section 10.4.3; 49 CFR 392.10"
+    "ref": "CDL Manual, Section 10.4.3"
   },
   {
     "id": "cdl.sb.049",
@@ -853,7 +853,7 @@
     "topic": "cdl-school-bus",
     "prompt": "A behavior problem starts while students are unloading. What should you do?",
     "choices": [
-      "Stop the unloading and handle it right away",
+      "Stop the unloading and deal with the problem right away",
       "Wait until unloading students are off and away",
       "Leave the door open while you talk to them",
       "Ask the students getting off to help you"
@@ -869,7 +869,7 @@
     "topic": "cdl-school-bus",
     "prompt": "Where may you put a student off the bus for bad behavior?",
     "choices": [
-      "At the next stop on the route, any stop",
+      "At the next stop on the route, whichever stop it is",
       "At any safe spot along the bus route",
       "Only at school or the student's own stop",
       "At the nearest police or fire station"
@@ -1038,5 +1038,53 @@
     "explanation": "A school bus can have up to a three-foot tail swing, so check mirrors before and during turns.",
     "difficulty": 2,
     "ref": "CDL Manual, Section 10.7.4"
+  },
+  {
+    "id": "cdl.sb.066",
+    "track": "cdl",
+    "topic": "cdl-school-bus",
+    "prompt": "You are driving a school bus in strong, gusty winds. What does the manual advise?",
+    "choices": [
+      "Grip the wheel firmly and slow down, or pull off and wait",
+      "Speed up so the bus spends less time exposed to the wind",
+      "Open several windows so the wind can pass through the bus",
+      "Drive partly on the shoulder to stay clear of other traffic"
+    ],
+    "answer": 0,
+    "explanation": "The side of a school bus acts like a sail, so strong winds can push it sideways or even tip it over. Keep a strong grip on the wheel, slow down or pull off the road and wait, and contact your dispatcher.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 10.7.2"
+  },
+  {
+    "id": "cdl.sb.067",
+    "track": "cdl",
+    "topic": "cdl-school-bus",
+    "prompt": "During a post-trip inspection, which equipment unique to school buses needs special attention?",
+    "choices": [
+      "Fuel, oil and coolant levels",
+      "Mirror systems, flashing warning lamps and stop arms",
+      "Seat upholstery and floor coverings",
+      "Tire tread depth and wheel lug nuts"
+    ],
+    "answer": 1,
+    "explanation": "After a route or activity trip, walk through and around the bus checking for articles left behind, sleeping students, open windows and doors, damage, and mechanical problems, with special attention to mirror systems, flashing warning lamps and stop signal arms.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 10.2.6"
+  },
+  {
+    "id": "cdl.sb.068",
+    "track": "cdl",
+    "topic": "cdl-school-bus",
+    "prompt": "When approaching a railroad crossing, about how far before it does the manual recommend turning on your hazard lights?",
+    "choices": [
+      "About 50 feet",
+      "About 200 feet",
+      "About 500 feet",
+      "About 1,000 feet"
+    ],
+    "answer": 1,
+    "explanation": "The manual's recommended procedure is to activate hazard lights about 200 feet before the crossing so your intentions are known. Also slow down, test your brakes and check traffic behind you.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 10.4.3"
   }
 ]

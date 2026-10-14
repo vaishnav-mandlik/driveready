@@ -1,0 +1,1810 @@
+[
+  {
+    "id": "cdl.hm.001",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Which part of federal law contains the Hazardous Materials Regulations (HMR)?",
+    "choices": [
+      "49 CFR Parts 390-399",
+      "49 CFR Part 383",
+      "49 CFR Part 393",
+      "49 CFR Parts 171-180"
+    ],
+    "answer": 3,
+    "explanation": "The Hazardous Materials Regulations are found in Title 49 of the Code of Federal Regulations, Parts 171-180. Parts 390-399 are the general motor carrier safety rules, and Part 383 covers CDL standards.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9 (introduction); 49 CFR 171-180"
+  },
+  {
+    "id": "cdl.hm.002",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "At a minimum, how often must hazardous materials employees, including drivers, be trained and tested?",
+    "choices": [
+      "Once a year, before the busy season",
+      "Once every three years",
+      "Once every two years",
+      "Once every five years"
+    ],
+    "answer": 1,
+    "explanation": "The regulations require hazmat employees to be trained and tested at least once every three years. The employer or its designated representative provides this training.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9 (introduction); 49 CFR 172.704"
+  },
+  {
+    "id": "cdl.hm.003",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Rules that tell shippers how to package hazmat and drivers how to load, transport and unload it are called:",
+    "choices": [
+      "Containment rules",
+      "Segregation rules",
+      "Routing rules",
+      "Communication rules"
+    ],
+    "answer": 0,
+    "explanation": "The regulations that keep the material contained (packaging, loading, transporting, unloading) are called containment rules. Labels, shipping papers and placards are used to communicate the risk.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.1.1"
+  },
+  {
+    "id": "cdl.hm.004",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Shippers put warning labels on packages and supply shipping papers and placards mainly in order to:",
+    "choices": [
+      "Keep the material from leaking during a crash",
+      "Show which carrier owns the load",
+      "Communicate the risk of the material",
+      "Tell the driver which route to take"
+    ],
+    "answer": 2,
+    "explanation": "Labels, shipping papers, emergency response information and placards communicate the hazard to the carrier, the driver and others, such as emergency responders.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.1.2"
+  },
+  {
+    "id": "cdl.hm.005",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Who decides a hazardous material's identification number, proper shipping name, hazard class and packing group?",
+    "choices": [
+      "The carrier's dispatcher",
+      "The shipper",
+      "The driver",
+      "The consignee"
+    ],
+    "answer": 1,
+    "explanation": "The shipper uses the hazardous materials regulations to determine the product's ID number, proper shipping name, hazard class, packing group, packaging, labels, markings and placards.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.2.1"
+  },
+  {
+    "id": "cdl.hm.006",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Before transport, which party checks that the shipper correctly described, marked and labeled a shipment, and refuses improper shipments?",
+    "choices": [
+      "The National Response Center",
+      "The packaging manufacturer",
+      "The carrier",
+      "The consignee"
+    ],
+    "answer": 2,
+    "explanation": "The carrier takes the shipment to its destination. Before transport it checks that the shipper prepared the shipment correctly and refuses improper shipments.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.2.2"
+  },
+  {
+    "id": "cdl.hm.007",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "A shipper offers you a drum of hazardous material that is slowly leaking. What should you do?",
+    "choices": [
+      "Accept it and seal the leak with tape",
+      "Accept it if the vehicle is placarded",
+      "Accept it and report the leak at delivery",
+      "Refuse the package"
+    ],
+    "answer": 3,
+    "explanation": "Drivers must refuse leaking packages and shipments. It is illegal to move a vehicle with leaking hazardous materials.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.2.3; 9.4.1"
+  },
+  {
+    "id": "cdl.hm.008",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "How many hazard classes are used to classify hazardous materials?",
+    "choices": [
+      "9",
+      "6",
+      "12",
+      "8"
+    ],
+    "answer": 0,
+    "explanation": "There are nine hazard classes. Some classes are divided into divisions, such as 1.1 through 1.6 for explosives.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.3.1"
+  },
+  {
+    "id": "cdl.hm.009",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Hazard Class 3 is made up of:",
+    "choices": [
+      "Flammable solids",
+      "Flammable liquids",
+      "Flammable and non-flammable gases",
+      "Oxidizers"
+    ],
+    "answer": 1,
+    "explanation": "Class 3 is flammable liquids, such as gasoline. Flammable gases are Division 2.1, flammable solids are Division 4.1, and oxidizers are Division 5.1.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.3.1 (Figure 9.1)"
+  },
+  {
+    "id": "cdl.hm.010",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Which hazard division is poisonous (toxic) gases?",
+    "choices": [
+      "Division 2.3",
+      "Division 6.1",
+      "Division 2.2",
+      "Division 2.1"
+    ],
+    "answer": 0,
+    "explanation": "Division 2.3 is poisonous/toxic gases. Division 2.1 is flammable gases, 2.2 is non-flammable gases, and 6.1 is poison (toxic) material that is not a gas.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.3.1 (Figure 9.1)"
+  },
+  {
+    "id": "cdl.hm.011",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Battery fluid is an example of which hazard class?",
+    "choices": [
+      "Class 7, Radioactive",
+      "Class 9, Miscellaneous",
+      "Class 5, Oxidizers",
+      "Class 8, Corrosives"
+    ],
+    "answer": 3,
+    "explanation": "Class 8 is corrosives; battery fluid is the manual's example.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.3.1 (Figure 9.1)"
+  },
+  {
+    "id": "cdl.hm.012",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Uranium belongs to which hazard class?",
+    "choices": [
+      "Class 9",
+      "Class 6",
+      "Class 7",
+      "Class 1"
+    ],
+    "answer": 2,
+    "explanation": "Class 7 is radioactive material, such as uranium.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.3.1 (Figure 9.1)"
+  },
+  {
+    "id": "cdl.hm.013",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Division 4.3 materials are described as:",
+    "choices": [
+      "Flammable solids",
+      "Spontaneously combustible",
+      "Organic peroxides",
+      "Dangerous when wet"
+    ],
+    "answer": 3,
+    "explanation": "Division 4.3 is dangerous when wet (sodium is an example). Division 4.1 is flammable solids and 4.2 is spontaneously combustible.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.1 (Figure 9.1)"
+  },
+  {
+    "id": "cdl.hm.014",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Which explosives division has a mass explosion hazard?",
+    "choices": [
+      "Division 1.4",
+      "Division 1.3",
+      "Division 1.1",
+      "Division 1.2"
+    ],
+    "answer": 2,
+    "explanation": "Division 1.1 is mass explosion hazard (dynamite is the example). Division 1.2 is a projection hazard, 1.3 a fire hazard and 1.4 a minor explosion hazard.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.1 (Figure 9.1)"
+  },
+  {
+    "id": "cdl.hm.015",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Propane is classified as:",
+    "choices": [
+      "Division 2.1, flammable gas",
+      "Class 3, flammable liquid",
+      "Division 2.3, poisonous gas",
+      "Division 2.2, non-flammable gas"
+    ],
+    "answer": 0,
+    "explanation": "Propane is the manual's example of a Division 2.1 flammable gas. Helium is the example of a non-flammable gas (2.2).",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.1 (Figure 9.1)"
+  },
+  {
+    "id": "cdl.hm.016",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Infectious substances, such as a shipment of a disease-causing virus, are in which division?",
+    "choices": [
+      "Division 6.1",
+      "Division 6.2",
+      "Class 9",
+      "Division 2.3"
+    ],
+    "answer": 1,
+    "explanation": "Division 6.2 is infectious substances. Division 6.1 is poison (toxic) material, such as potassium cyanide.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.1 (Figure 9.1)"
+  },
+  {
+    "id": "cdl.hm.017",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Fuel oil is an example of which category of hazardous material?",
+    "choices": [
+      "Division 2.2 non-flammable gas",
+      "Class 9 miscellaneous material",
+      "Combustible liquid",
+      "Division 4.2 spontaneously combustible"
+    ],
+    "answer": 2,
+    "explanation": "Fuel oil is listed as a combustible liquid, a category outside the nine numbered classes. Gasoline, by contrast, is a Class 3 flammable liquid.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.1 (Figure 9.1)"
+  },
+  {
+    "id": "cdl.hm.018",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Which of these is considered a shipping paper?",
+    "choices": [
+      "A bill of lading",
+      "An annual inspection report",
+      "A vehicle registration card",
+      "A driver's record of duty status"
+    ],
+    "answer": 0,
+    "explanation": "Shipping orders, bills of lading and manifests are all shipping papers. They describe the hazardous materials being transported.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.3.1"
+  },
+  {
+    "id": "cdl.hm.019",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "How should you set hazmat shipping papers apart from other shipping papers?",
+    "choices": [
+      "Keep them at the bottom of the stack",
+      "Tab them or keep them on top of the stack",
+      "Staple them to the back of the logbook",
+      "Store them in a separate folder in the sleeper"
+    ],
+    "answer": 1,
+    "explanation": "Hazmat shipping papers must be easy to recognize. Tab them or keep them on top of other shipping papers so they can be found quickly after a crash.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.6.10"
+  },
+  {
+    "id": "cdl.hm.020",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Where must the emergency response information for a hazmat load be kept?",
+    "choices": [
+      "With the receiver's paperwork",
+      "At the carrier's terminal",
+      "In the trailer, next to the hazardous cargo",
+      "In the same place as the shipping paper"
+    ],
+    "answer": 3,
+    "explanation": "Emergency response information must be kept in the same location as the hazmat shipping paper.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.6.10"
+  },
+  {
+    "id": "cdl.hm.021",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "On a shipping paper listing both hazardous and non-hazardous items, what may be placed in the \"HM\" column to mark a hazmat entry?",
+    "choices": [
+      "A check mark",
+      "The letter H",
+      "An X",
+      "An asterisk"
+    ],
+    "answer": 2,
+    "explanation": "Hazmat entries must be listed first, highlighted in a contrasting color, or marked with an X in a column captioned HM. RQ may be used instead of X for a reportable quantity.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.5"
+  },
+  {
+    "id": "cdl.hm.022",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "In what order does the basic description of a hazardous material appear on the shipping paper?",
+    "choices": [
+      "Proper shipping name, hazard class, ID number, packing group",
+      "Hazard class, ID number, packing group, proper shipping name",
+      "Packing group, hazard class, proper shipping name, ID number",
+      "ID number, proper shipping name, hazard class, packing group"
+    ],
+    "answer": 3,
+    "explanation": "The basic description lists the identification number, proper shipping name, hazard class or division, and packing group (if any), in that order. For example: UN1263, Paint, 3, PG II.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.3.5"
+  },
+  {
+    "id": "cdl.hm.023",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "A material in the Hazardous Materials Table has a \"G\" in Column 1. What must the shipping paper also show?",
+    "choices": [
+      "The technical name of the hazardous material",
+      "The name and address of the packaging manufacturer",
+      "A second emergency phone number",
+      "The quantity in gallons only"
+    ],
+    "answer": 0,
+    "explanation": "G means the entry is a generic shipping name. A generic name must be accompanied by a technical name, which is the specific chemical that makes the product hazardous.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.3.3; 9.3.5"
+  },
+  {
+    "id": "cdl.hm.024",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "How must the shipper of a hazardous waste show that it is waste on the shipping paper?",
+    "choices": [
+      "Write HW at the end of the description",
+      "Put WASTE before the proper shipping name",
+      "Use a red highlighter on the whole entry",
+      "Add the letters HW after the hazard class number"
+    ],
+    "answer": 1,
+    "explanation": "The shipper puts WASTE before the proper shipping name, for example: UN1090, Waste Acetone, 3, PG II.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.5"
+  },
+  {
+    "id": "cdl.hm.025",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Which of these must the emergency response information for a hazmat load include?",
+    "choices": [
+      "The driver's medical card number",
+      "Immediate methods for handling fires",
+      "The vehicle's annual inspection date",
+      "The shipper's tax ID number"
+    ],
+    "answer": 1,
+    "explanation": "At a minimum it must include the basic description and technical name, immediate health hazards, fire or explosion risks, immediate precautions, methods for handling fires, initial methods for spills or leaks, and first aid measures.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.5"
+  },
+  {
+    "id": "cdl.hm.026",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "How long must a shipper keep a copy of an ordinary (non-waste) hazmat shipping paper?",
+    "choices": [
+      "90 days after delivery",
+      "1 year after delivery",
+      "3 years after the material is delivered to the receiver",
+      "2 years after the first carrier accepts it"
+    ],
+    "answer": 3,
+    "explanation": "Shippers keep shipping papers (or an electronic image) for 2 years after the initial carrier accepts the material, or 3 years for hazardous waste.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.3.5; 49 CFR 172.201(e)"
+  },
+  {
+    "id": "cdl.hm.027",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "In which case is a signed shipper's certification NOT required on the original shipping paper?",
+    "choices": [
+      "The shipment will travel less than 100 miles on public roads",
+      "The load weighs less than 1,001 pounds",
+      "A private carrier is hauling its own product",
+      "The driver has a hazmat endorsement"
+    ],
+    "answer": 2,
+    "explanation": "The only exceptions are a private carrier transporting its own product and a package provided by the carrier, such as a cargo tank.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.3.6"
+  },
+  {
+    "id": "cdl.hm.028",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Which of these is a clue that a shipment may contain hazardous materials?",
+    "choices": [
+      "The shipper is a pest control or agricultural supplier",
+      "The packages are heavy for their size",
+      "The load must be delivered early the next morning to a warehouse",
+      "The freight is stacked on wooden pallets"
+    ],
+    "answer": 0,
+    "explanation": "Clues include the shipper's business (paint dealer, chemical supply, pest control, agricultural supplier, explosives or fireworks dealer), placarded tanks, cylinders and drums, and labels or ID numbers on packages.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.8"
+  },
+  {
+    "id": "cdl.hm.029",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "When hauling hazardous waste, what document must you sign by hand and carry?",
+    "choices": [
+      "The Hazardous Materials Table",
+      "The Emergency Response Guidebook",
+      "A copy of 49 CFR Part 397",
+      "The Uniform Hazardous Waste Manifest"
+    ],
+    "answer": 3,
+    "explanation": "Hazardous waste travels with a Uniform Hazardous Waste Manifest. Each carrier must sign it by hand, and it is treated as a shipping paper.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.9"
+  },
+  {
+    "id": "cdl.hm.030",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Before hauling a material, you check three lists. Which list is Appendix B to 49 CFR 172.101?",
+    "choices": [
+      "The List of Marine Pollutants",
+      "The List of Hazardous Substances and Reportable Quantities",
+      "The list of Table 1 placards",
+      "The list of forbidden materials"
+    ],
+    "answer": 0,
+    "explanation": "The three lists are the Hazardous Materials Table (172.101), Appendix A (Hazardous Substances and Reportable Quantities) and Appendix B (Marine Pollutants).",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.3"
+  },
+  {
+    "id": "cdl.hm.031",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "What do the letters RQ on a shipping paper mean?",
+    "choices": [
+      "Required quarantine",
+      "Reduced quantity",
+      "Reportable quantity",
+      "Restricted quantity"
+    ],
+    "answer": 2,
+    "explanation": "RQ means the material is a hazardous substance being shipped in a reportable quantity or more in one package. It may appear before or after the basic description.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.3.3"
+  },
+  {
+    "id": "cdl.hm.032",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "In the Hazardous Materials Table, what does a \"Forbidden\" entry in Column 3 mean?",
+    "choices": [
+      "It may be hauled only with a special state permit",
+      "The material must never be transported",
+      "It needs Table 1 placards",
+      "It must be carried in a cargo tank"
+    ],
+    "answer": 1,
+    "explanation": "Column 3 shows the hazard class or division, or the word Forbidden. Never transport a Forbidden material.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.3"
+  },
+  {
+    "id": "cdl.hm.033",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Which column of the Hazardous Materials Table lists the identification number?",
+    "choices": [
+      "Column 2",
+      "Column 4",
+      "Column 3",
+      "Column 6"
+    ],
+    "answer": 1,
+    "explanation": "Column 4 lists the identification number for each proper shipping name. Column 2 has the shipping names, Column 3 the hazard class, and Column 6 the required labels.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.3"
+  },
+  {
+    "id": "cdl.hm.034",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "In Column 7 of the Hazardous Materials Table, what do the special provision numbers 1 through 6 tell you?",
+    "choices": [
+      "The packing group is I",
+      "The material is a marine pollutant",
+      "The material is a poison inhalation hazard",
+      "The material is forbidden by air"
+    ],
+    "answer": 2,
+    "explanation": "Numbers 1-6 in Column 7 mean the material is a poison inhalation hazard (PIH), which has special requirements for shipping papers, marking and placards.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.3.3"
+  },
+  {
+    "id": "cdl.hm.035",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "A material has an (A) in Column 1 and is not a hazardous substance or hazardous waste. It is shipped by truck. Do the HMR apply?",
+    "choices": [
+      "No, the (A) entry applies only to air transport",
+      "Yes, every listed material is regulated by highway",
+      "Only if the vehicle crosses a state line",
+      "Yes, but only if it weighs over 1,001 pounds"
+    ],
+    "answer": 0,
+    "explanation": "(A) means the material is subject to the HMR only when offered or intended for transport by air, unless it is a hazardous substance or hazardous waste.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.3.3"
+  },
+  {
+    "id": "cdl.hm.036",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Which columns of the Hazardous Materials Table do NOT apply to highway transportation?",
+    "choices": [
+      "Columns 1 and 2",
+      "Columns 7 and 8",
+      "Columns 5 and 6",
+      "Columns 9 and 10"
+    ],
+    "answer": 3,
+    "explanation": "The manual notes that Columns 9 and 10 of the Hazardous Materials Table do not apply to transportation by highway. Columns 1-8 (symbols, names, class, ID number, packing group, labels, special provisions, packaging) do.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.3.3"
+  },
+  {
+    "id": "cdl.hm.037",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "An identification number begins with \"NA\" rather than \"UN.\" What does that tell you?",
+    "choices": [
+      "The material is a marine pollutant",
+      "The shipping name is used only within the U.S. and to and from Canada",
+      "The material is not regulated by highway",
+      "The material is for international air shipment"
+    ],
+    "answer": 1,
+    "explanation": "NA numbers go with proper shipping names used only within the United States and to and from Canada. ID numbers relate to air shipments under ICAO rules.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.3.3"
+  },
+  {
+    "id": "cdl.hm.038",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "A bulk package of a marine pollutant is being hauled. Which is true about the MARINE POLLUTANT mark?",
+    "choices": [
+      "It replaces the hazard class placard on the vehicle",
+      "It is only required when the load travels by water",
+      "It is only noted on the shipping paper, not on the package",
+      "It is a marking, not a placard, and must also be shown on the vehicle"
+    ],
+    "answer": 3,
+    "explanation": "Bulk packages of a marine pollutant must show the MARINE POLLUTANT marking, which is not a placard, and it must also be displayed on the outside of the vehicle. The shipping paper must say \"Marine Pollutant.\"",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.3.3"
+  },
+  {
+    "id": "cdl.hm.039",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "How large must a hazmat placard be?",
+    "choices": [
+      "At least 100 mm (3.9 inches) square",
+      "At least 15 inches square",
+      "At least 250 mm (9.84 inches) square, set on point",
+      "At least 6 inches square"
+    ],
+    "answer": 2,
+    "explanation": "Placards are at least 250 mm (9.84 inches) square, square-on-point in a diamond shape. The 100 mm (3.9 inch) size is for ID numbers on bulk packaging.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.3"
+  },
+  {
+    "id": "cdl.hm.040",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "When must placards be attached to a vehicle that requires them?",
+    "choices": [
+      "Before you drive it",
+      "Within 24 hours of loading",
+      "Only before crossing a state line",
+      "Before you enter a city"
+    ],
+    "answer": 0,
+    "explanation": "Attach placards before you drive. You may move an improperly placarded vehicle only in an emergency to protect life or property.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.3.10"
+  },
+  {
+    "id": "cdl.hm.041",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Which of these placard practices is prohibited?",
+    "choices": [
+      "Displaying a placard when not required, if it shows the actual hazard",
+      "Placing the front placard on the trailer",
+      "Mounting placards on a contrasting background",
+      "Showing a \"Drive Safely\" slogan with the placards"
+    ],
+    "answer": 3,
+    "explanation": "Slogans such as \"Drive Safely\" are prohibited. The front placard may be on the tractor or trailer, placards must be on a contrasting background, and placards may be shown even when not required as long as they identify the hazard.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.10; 9.3.11"
+  },
+  {
+    "id": "cdl.hm.042",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "To decide which placards you need, which three things must you know?",
+    "choices": [
+      "The hazard class, the amount shipped, and the total weight of all hazmat on board",
+      "The vehicle's CDL class, the type of packaging used, and the length of the trailer",
+      "The shipper's name, the receiver's name, and the carrier's name",
+      "The route, the weather, and the delivery time"
+    ],
+    "answer": 0,
+    "explanation": "To choose placards you need the materials' hazard class, the amount shipped, and the total weight of all classes of hazardous materials in your vehicle.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.3.10"
+  },
+  {
+    "id": "cdl.hm.043",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Which of these requires placards in any amount?",
+    "choices": [
+      "Class 8 corrosives",
+      "Division 1.1 explosives",
+      "Class 3 flammable liquids",
+      "Division 2.2 non-flammable gases"
+    ],
+    "answer": 1,
+    "explanation": "Placard Table 1 materials, including Divisions 1.1, 1.2 and 1.3 explosives, must be placarded whenever any amount is transported. Classes 3, 8 and 2.2 are Table 2 materials.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.3.11 (Figure 9.7)"
+  },
+  {
+    "id": "cdl.hm.044",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "You are hauling 100 pounds of Division 4.3 (dangerous when wet) material in non-bulk packages. Is a placard required?",
+    "choices": [
+      "Yes, but a DANGEROUS placard is used instead",
+      "No, but you must carry the ERG",
+      "Yes, a DANGEROUS WHEN WET placard, because it is a Table 1 material",
+      "No, only loads of 1,001 pounds or more need placards"
+    ],
+    "answer": 2,
+    "explanation": "Division 4.3 is a Placard Table 1 material, so it must be placarded DANGEROUS WHEN WET in any amount.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.11 (Figure 9.7)"
+  },
+  {
+    "id": "cdl.hm.045",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Your only cargo is 800 pounds of Class 8 corrosives in non-bulk packages. What placards are required?",
+    "choices": [
+      "DANGEROUS placards",
+      "CORROSIVE placards",
+      "CORROSIVE placards on the front and rear only",
+      "None"
+    ],
+    "answer": 3,
+    "explanation": "Class 8 is a Table 2 material. Except for bulk packaging, Table 2 materials need placards only when the total is 1,001 pounds or more.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.11 (Figure 9.8)"
+  },
+  {
+    "id": "cdl.hm.046",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Your non-bulk load is 600 pounds of Class 3 flammable liquid and 500 pounds of Class 8 corrosive from one shipper. What placards may you use?",
+    "choices": [
+      "FLAMMABLE placards only",
+      "FLAMMABLE and CORROSIVE placards, or DANGEROUS placards instead",
+      "None, because each class is under 1,001 pounds",
+      "DANGEROUS placards only; class placards are not allowed"
+    ],
+    "answer": 1,
+    "explanation": "Add all Table 2 amounts: 1,100 pounds is 1,001 or more, so placards are needed. With two Table 2 classes and less than 2,205 pounds of either loaded at one place, DANGEROUS may replace the separate placards, but it is optional.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.3.11"
+  },
+  {
+    "id": "cdl.hm.047",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "You load 2,500 pounds of Class 8 corrosive at one shipper and 1,200 pounds of Class 3 flammable liquid at another. Can DANGEROUS placards cover the Class 8?",
+    "choices": [
+      "No, the whole load needs a Table 1 placard",
+      "Yes, DANGEROUS may cover any mix of Table 2 classes",
+      "No, the Class 8 must have CORROSIVE placards",
+      "Yes, if the trip is under 100 miles"
+    ],
+    "answer": 2,
+    "explanation": "When 2,205 pounds or more of one Table 2 class is loaded at one place, you must use the specific placard for that material. DANGEROUS could still be used for the Class 3.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.3.11; 49 CFR 172.504(b)"
+  },
+  {
+    "id": "cdl.hm.048",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "A shipping paper says INHALATION HAZARD for a small package. What placarding is required?",
+    "choices": [
+      "POISON INHALATION HAZARD or POISON GAS placards, plus class placards, in any amount",
+      "Only a DANGEROUS placard, because the package is small",
+      "Only the hazard class placard, once the load reaches 1,001 pounds",
+      "No placards, because the total is under 1,001 pounds"
+    ],
+    "answer": 0,
+    "explanation": "If INHALATION HAZARD appears on the shipping paper or package, display the POISON GAS or POISON INHALATION HAZARD placard in addition to other required placards. The 1,000-pound exception does not apply.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.3; 9.3.11"
+  },
+  {
+    "id": "cdl.hm.049",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "A material has a secondary hazard of dangerous when wet. When must the DANGEROUS WHEN WET placard be displayed?",
+    "choices": [
+      "Only when the material weighs 1,001 pounds or more in total",
+      "Only when it is raining or snowing",
+      "Never; only the primary hazard is placarded",
+      "In any amount, in addition to the other required placards"
+    ],
+    "answer": 3,
+    "explanation": "Materials with a secondary hazard of dangerous when wet must display DANGEROUS WHEN WET placards in addition to other placards. The 1,000-pound exception does not apply.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.3.11"
+  },
+  {
+    "id": "cdl.hm.050",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "You are hauling 3,000 pounds of Class 9 miscellaneous hazardous material within the United States. Is a Class 9 placard required?",
+    "choices": [
+      "Only if the vehicle has a cargo tank",
+      "Yes, a DANGEROUS placard is required",
+      "No, it is not required for domestic transportation",
+      "Yes, because the total weight is 1,001 pounds or more"
+    ],
+    "answer": 2,
+    "explanation": "Class 9 is in Placard Table 2, but the Class 9 placard is not required for domestic transportation.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.3.11 (Figure 9.8)"
+  },
+  {
+    "id": "cdl.hm.051",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Packages bearing which radioactive label require placards in any amount?",
+    "choices": [
+      "Radioactive Yellow III",
+      "Radioactive Yellow II",
+      "Radioactive White I or Yellow II",
+      "Radioactive White I"
+    ],
+    "answer": 0,
+    "explanation": "Class 7 materials with the Radioactive Yellow III label are in Placard Table 1, so any amount must be placarded RADIOACTIVE.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.11 (Figure 9.7)"
+  },
+  {
+    "id": "cdl.hm.052",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "What is bulk packaging?",
+    "choices": [
+      "Any container holding a liquid",
+      "A single container with a capacity greater than 119 gallons",
+      "Any shipment of hazardous materials weighing more than 1,001 pounds",
+      "Several drums strapped together"
+    ],
+    "answer": 1,
+    "explanation": "Bulk packaging is a single container with a capacity greater than 119 gallons.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.3.11"
+  },
+  {
+    "id": "cdl.hm.053",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "A cargo tank has just been unloaded but still holds the residue of a hazardous material. Must it stay placarded?",
+    "choices": [
+      "Only for Table 1 materials",
+      "Yes, bulk packages must be placarded even with only residue",
+      "Only if the residue is over 119 gallons",
+      "No, placards come off as soon as it is unloaded"
+    ],
+    "answer": 1,
+    "explanation": "A bulk package, and a vehicle transporting it, must be placarded even if it holds only the residue of a hazardous material.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.11"
+  },
+  {
+    "id": "cdl.hm.054",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "What should you do first, before loading or unloading hazardous materials?",
+    "choices": [
+      "Turn on the four-way flashers and set out reflective triangles",
+      "Remove the placards",
+      "Open all the trailer vents",
+      "Set the parking brake so the vehicle will not move"
+    ],
+    "answer": 3,
+    "explanation": "Before loading or unloading, set the parking brake and make sure the vehicle will not move.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.4.1"
+  },
+  {
+    "id": "cdl.hm.055",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Which tool should never be used when loading hazmat packages?",
+    "choices": [
+      "Hooks",
+      "Hand trucks",
+      "Pallet jacks",
+      "Loading ramps"
+    ],
+    "answer": 0,
+    "explanation": "Do not use any tool that might damage containers or packaging during loading. Do not use hooks.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.4"
+  },
+  {
+    "id": "cdl.hm.056",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "When loading or unloading, the manual lists classes you must never smoke around. Which of these is on that list?",
+    "choices": [
+      "Division 2.2 (Non-flammable gases)",
+      "Class 9 (Miscellaneous)",
+      "Class 5 (Oxidizers)",
+      "Class 8 (Corrosives)"
+    ],
+    "answer": 2,
+    "explanation": "Never smoke around Class 1 explosives, Division 2.1 flammable gas, Class 3 flammable liquids, Class 4 flammable solids, or Class 5 oxidizers.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.4.1"
+  },
+  {
+    "id": "cdl.hm.057",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Partway through a trip you notice a package has shifted. Which action is allowed in transit?",
+    "choices": [
+      "Emptying the package into a drum",
+      "Re-securing the package so it cannot move",
+      "Moving some product into a sturdier package",
+      "Opening the package to check the contents"
+    ],
+    "answer": 1,
+    "explanation": "All hazmat packages must be secured. After loading, do not open any package during the trip and never transfer hazmat from one package to another in transit. A cargo tank may be emptied, but no other package.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.4.1"
+  },
+  {
+    "id": "cdl.hm.058",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Cargo heater rules usually forbid using a cargo heater with which group of materials?",
+    "choices": [
+      "Class 6, Class 7, and Class 8",
+      "Division 2.2, Class 8, and Class 9",
+      "Class 4, Class 5, and Class 6",
+      "Class 1, Division 2.1, and Class 3"
+    ],
+    "answer": 3,
+    "explanation": "Special cargo heater rules apply to Class 1 explosives, Division 2.1 flammable gas and Class 3 flammable liquids. Unless you have read all the rules, don't load them in a space with a heater.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.4.1"
+  },
+  {
+    "id": "cdl.hm.059",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "You are hauling Class 4 flammable solids on a flatbed. When may they be carried outside a closed cargo space?",
+    "choices": [
+      "Only when the weather is dry and no rain is forecast",
+      "Whenever the total load is under 1,001 pounds",
+      "Only if all packages are fire and water resistant, or under a fire and water resistant tarp",
+      "Only if the packages are strapped down and it is daylight"
+    ],
+    "answer": 2,
+    "explanation": "Class 1, Class 4 and Class 5 cannot be overhang or tailgate loads. They must be in a closed cargo space unless all packages are fire and water resistant or covered with a fire and water resistant tarp.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.4.1"
+  },
+  {
+    "id": "cdl.hm.060",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "A floor liner is required for Division 1.1, 1.2 or 1.3 explosives. Which liner is acceptable?",
+    "choices": [
+      "A non-metallic liner or one made of non-ferrous metal",
+      "A galvanized steel liner",
+      "A stainless steel liner, because it will not rust or spark",
+      "A cast iron plate"
+    ],
+    "answer": 0,
+    "explanation": "The liner must be non-metallic or non-ferrous metal (metal that contains no iron). Stainless and galvanized steel both contain iron, so they are not acceptable.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.4.1"
+  },
+  {
+    "id": "cdl.hm.061",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "When may a Division 1.1, 1.2 or 1.3 explosive be transferred from one vehicle to another on a public roadway?",
+    "choices": [
+      "Only in an emergency, with warning devices set out",
+      "Whenever the receiving vehicle is placarded",
+      "Only at night",
+      "Whenever traffic is light and the shoulder is wide enough"
+    ],
+    "answer": 0,
+    "explanation": "Do not transfer these explosives on a public roadway except in an emergency. If safety requires it, set out red warning reflectors, flags or electric lanterns.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.4.1"
+  },
+  {
+    "id": "cdl.hm.062",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "A package of explosives shows an oily stain. What should you do?",
+    "choices": [
+      "Load it in a separate corner",
+      "Refuse to take the package",
+      "Load it if the label is readable",
+      "Wipe it clean and load it"
+    ],
+    "answer": 1,
+    "explanation": "Never transport damaged packages of explosives. Do not take a package that shows any dampness or oily stain.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.4.1"
+  },
+  {
+    "id": "cdl.hm.063",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "May you haul Division 1.1 explosives in a combination that includes a placarded cargo tank?",
+    "choices": [
+      "Yes, if the tank holds a non-flammable liquid",
+      "Yes, if the trip is under 50 miles",
+      "No, this is not allowed",
+      "Yes, if both units are placarded"
+    ],
+    "answer": 2,
+    "explanation": "Do not transport Division 1.1 or 1.2 in a vehicle combination if there is a marked or placarded cargo tank in the combination.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.4.1; 49 CFR 177.835(h)"
+  },
+  {
+    "id": "cdl.hm.064",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Where may nitric acid be placed in a mixed load?",
+    "choices": [
+      "Only next to oxidizers",
+      "Only on top of other cargo",
+      "Anywhere, if it is in a carboy",
+      "Never above any other product"
+    ],
+    "answer": 3,
+    "explanation": "Do not load nitric acid above any other product.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.4.1; Figure 9.9"
+  },
+  {
+    "id": "cdl.hm.065",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Corrosive liquids must never be loaded next to or above which of these?",
+    "choices": [
+      "Division 4.1 flammable solids",
+      "Class 9 miscellaneous materials",
+      "Division 2.2 non-flammable gases",
+      "Non-hazardous dry goods"
+    ],
+    "answer": 0,
+    "explanation": "Never load corrosive liquids next to or above Division 1.4 explosives, Division 4.1, Division 4.3, Class 5 oxidizers, or Division 2.3 Zone B poisonous gases.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.4.1"
+  },
+  {
+    "id": "cdl.hm.066",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Where must a package labeled POISON never be loaded?",
+    "choices": [
+      "In a trailer with a sealed floor",
+      "Behind other cargo",
+      "In a closed van",
+      "In the driver's cab or sleeper"
+    ],
+    "answer": 3,
+    "explanation": "Never load a POISON or POISON INHALATION HAZARD package in the driver's cab or sleeper, or with food for human or animal consumption.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.4.1"
+  },
+  {
+    "id": "cdl.hm.067",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "A load includes Division 6.1 poison that is not overpacked in an approved way. Which item may NOT go in the same vehicle?",
+    "choices": [
+      "Jars of skin cream",
+      "Bagged animal feed",
+      "Cases of mouthwash",
+      "Boxes of toothpaste"
+    ],
+    "answer": 1,
+    "explanation": "Poisons may not be loaded with human or animal food unless overpacked in an approved way. Foodstuffs are things you swallow; mouthwash, toothpaste and skin creams are not foodstuffs.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.4.1 (Figure 9.9)"
+  },
+  {
+    "id": "cdl.hm.068",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "What is the maximum total transport index of all radioactive packages in a single vehicle?",
+    "choices": [
+      "100",
+      "25",
+      "50",
+      "10"
+    ],
+    "answer": 2,
+    "explanation": "The transport index tells the degree of control needed in transport. The total transport index of all packages in a single vehicle must not exceed 50.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.4.1"
+  },
+  {
+    "id": "cdl.hm.069",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Which materials must never be loaded with cyanides or cyanide mixtures?",
+    "choices": [
+      "Non-flammable gases such as nitrogen and helium",
+      "Class 7 radioactive materials",
+      "Class 9 materials",
+      "Acids and other corrosive or acidic materials"
+    ],
+    "answer": 3,
+    "explanation": "Cyanides must not be loaded with acids, corrosives or other acidic materials that could release hydrocyanic acid.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.4.1 (Figure 9.9)"
+  },
+  {
+    "id": "cdl.hm.070",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "What is the difference between a cargo tank and a portable tank?",
+    "choices": [
+      "A cargo tank stays on the vehicle; a portable tank is loaded off the vehicle",
+      "A cargo tank is under 119 gallons",
+      "A cargo tank holds gases; a portable tank holds liquids",
+      "A portable tank cannot be placarded"
+    ],
+    "answer": 0,
+    "explanation": "Cargo tanks are bulk packaging permanently attached to the vehicle and stay on it during loading and unloading. Portable tanks are loaded or unloaded off the vehicle and then put on it for transport.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.5"
+  },
+  {
+    "id": "cdl.hm.071",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "The person watching a cargo tank during loading must be within how many feet of the tank?",
+    "choices": [
+      "100 feet",
+      "25 feet",
+      "50 feet",
+      "10 feet"
+    ],
+    "answer": 1,
+    "explanation": "The qualified person attending loading or unloading must be alert, have a clear view of the tank, be within 25 feet, know the hazards and emergency steps, and be authorized and able to move the tank.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.5.2; 49 CFR 177.834(i)"
+  },
+  {
+    "id": "cdl.hm.072",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "You need to move a cargo tank holding a small amount of hazmat 50 feet across the yard. What about the manholes and valves?",
+    "choices": [
+      "Close only the valves",
+      "Leave them open, since a short move inside the yard is allowed",
+      "Close them all before moving, no matter how short the distance",
+      "Close only the manholes"
+    ],
+    "answer": 2,
+    "explanation": "Close all manholes and valves before moving a hazmat tank, no matter how small the amount or how short the distance. It is illegal to move it with open valves or covers unless it is empty under 49 CFR 173.29.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.5.2"
+  },
+  {
+    "id": "cdl.hm.073",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "When filling a cargo tank of flammable liquid through an open filling hole, when must the tank be grounded?",
+    "choices": [
+      "Grounding is needed only for compressed gas tanks, not liquids",
+      "Only while the pump is running",
+      "Only after the filling hole is closed",
+      "Before opening the filling hole, until after it is closed"
+    ],
+    "answer": 3,
+    "explanation": "Ground the tank before opening the filling hole and keep it grounded until after the filling hole is closed.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.5.3"
+  },
+  {
+    "id": "cdl.hm.074",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Your engine runs the pump while delivering compressed gas. When should you turn the engine off?",
+    "choices": [
+      "After the product transfer, before unhooking the hose",
+      "After you drive away from the site",
+      "After unhooking the hose, before driving away from the site",
+      "Before starting the product transfer"
+    ],
+    "answer": 0,
+    "explanation": "If you use the engine for transfer, turn it off after product transfer and before you unhook the hose.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.5.4"
+  },
+  {
+    "id": "cdl.hm.075",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "How close to the traveled part of the road may you park with Division 1.1, 1.2 or 1.3 explosives?",
+    "choices": [
+      "Never within 300 feet",
+      "Never within 25 feet",
+      "Never within 5 feet",
+      "Never within 15 feet"
+    ],
+    "answer": 2,
+    "explanation": "Never park with Division 1.1, 1.2 or 1.3 explosives within five feet of the traveled part of the road.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.6.1; 49 CFR 397.7"
+  },
+  {
+    "id": "cdl.hm.076",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Except for brief operational needs like fueling, you may not park a vehicle with Division 1.1 explosives within how many feet of a bridge, tunnel or building?",
+    "choices": [
+      "100 feet",
+      "300 feet",
+      "500 feet",
+      "200 feet"
+    ],
+    "answer": 1,
+    "explanation": "Do not park within 300 feet of a bridge, tunnel, building, place where people gather, or open fire, except briefly for necessities such as fueling.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.6.1; 49 CFR 397.7"
+  },
+  {
+    "id": "cdl.hm.077",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "You are hauling Division 1.2 explosives. Where may you let someone else watch the parked vehicle for you?",
+    "choices": [
+      "In any well-lit rest area",
+      "On any private property",
+      "At any truck stop with security",
+      "On the shipper's, carrier's, or consignee's property"
+    ],
+    "answer": 3,
+    "explanation": "Someone must always watch the vehicle. You may let someone else watch it only if it is on the shipper's, carrier's or consignee's property.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.6.1"
+  },
+  {
+    "id": "cdl.hm.078",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "What is a safe haven?",
+    "choices": [
+      "A terminal where hazmat may be moved from one vehicle to another vehicle",
+      "An approved place for parking unattended vehicles loaded with explosives",
+      "A shelter area during a hazmat spill",
+      "A rest area for placarded vehicles"
+    ],
+    "answer": 1,
+    "explanation": "A safe haven is an approved place for parking unattended vehicles loaded with explosives. Local authorities usually designate them.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.6.1"
+  },
+  {
+    "id": "cdl.hm.079",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "You are driving a placarded vehicle with no explosives. When may you park within 5 feet of the traveled part of the road?",
+    "choices": [
+      "Never",
+      "Any time, if your flashers are on",
+      "Only when your work requires it, and only briefly",
+      "Only at night"
+    ],
+    "answer": 2,
+    "explanation": "A placarded vehicle not carrying explosives may park within five feet of the traveled part of the road only if your work requires it, and only briefly.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.6.2"
+  },
+  {
+    "id": "cdl.hm.080",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Your co-driver is asleep in the sleeper berth of your parked placarded truck. Is the vehicle attended?",
+    "choices": [
+      "No, an attendant must be awake and not in the sleeper berth",
+      "Yes, if the doors are locked",
+      "Yes, if the truck is at a truck stop",
+      "Yes, any licensed person inside the vehicle counts as the attendant"
+    ],
+    "answer": 0,
+    "explanation": "The attendant must be in the vehicle, awake and not in the sleeper berth, or within 100 feet with the vehicle in clear view.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.6.3"
+  },
+  {
+    "id": "cdl.hm.081",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "If the person attending a placarded vehicle is outside it, how close must they be?",
+    "choices": [
+      "Within 100 feet, with the vehicle in clear view",
+      "Anywhere in the same parking lot",
+      "Within 300 feet",
+      "Within 25 feet, even if the vehicle is out of view"
+    ],
+    "answer": 0,
+    "explanation": "An attendant outside the vehicle must be within 100 feet of it and have it within clear view, know the hazards, know what to do in an emergency, and be able to move it.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.6.3"
+  },
+  {
+    "id": "cdl.hm.082",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Your empty gasoline cargo tank breaks down on the shoulder. Which warning devices may you use?",
+    "choices": [
+      "Any warning device",
+      "Flares placed at least 100 feet away",
+      "Reflective triangles or red electric lights",
+      "Fusees, since the tank is empty and vapor-free"
+    ],
+    "answer": 2,
+    "explanation": "Never use burning signals such as flares or fuses around a tank used for Class 3 or Division 2.1, whether loaded or empty. Use reflective triangles or red electric lights.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.6.4"
+  },
+  {
+    "id": "cdl.hm.083",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "When driving a placarded vehicle, which places should you avoid when possible?",
+    "choices": [
+      "Rural two-lane roads",
+      "Heavily populated areas, tunnels, narrow streets and alleys",
+      "Truck routes",
+      "Interstate highways"
+    ],
+    "answer": 1,
+    "explanation": "Whenever placarded, avoid heavily populated areas, crowds, tunnels, narrow streets and alleys, even if other routes are inconvenient, unless there is no other way.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.6.5"
+  },
+  {
+    "id": "cdl.hm.084",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Who prepares the written route plan for a load of Division 1.1, 1.2 or 1.3 explosives?",
+    "choices": [
+      "The state police, before the trip begins",
+      "The shipper, in every case",
+      "The consignee who will receive the explosives",
+      "The carrier, unless the driver picks up the load away from the employer's terminal"
+    ],
+    "answer": 3,
+    "explanation": "Carriers prepare the route plan in advance and give the driver a copy. The driver may plan the route if the explosives are picked up somewhere other than the employer's terminal.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.6.5; 49 CFR 397.67"
+  },
+  {
+    "id": "cdl.hm.085",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "You may not smoke within how many feet of a placarded cargo tank used for Class 3 flammable liquids?",
+    "choices": [
+      "10 feet",
+      "25 feet",
+      "100 feet",
+      "50 feet"
+    ],
+    "answer": 1,
+    "explanation": "Do not smoke within 25 feet of a placarded cargo tank used for Class 3 or Division 2.1, or of any vehicle containing Class 1, 3, 4.1, 4.2 or 5 materials.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.6.6; 49 CFR 397.13"
+  },
+  {
+    "id": "cdl.hm.086",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "What must you do when fueling a vehicle carrying hazardous materials?",
+    "choices": [
+      "Turn off the engine and have someone at the nozzle controlling the flow",
+      "Fuel only with the placards covered",
+      "Leave the engine running so the air pressure stays high enough for the brakes",
+      "Use only the automatic nozzle latch"
+    ],
+    "answer": 0,
+    "explanation": "Turn off your engine before fueling, and someone must always be at the nozzle controlling fuel flow.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.6.7; 49 CFR 397.15"
+  },
+  {
+    "id": "cdl.hm.087",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "What fire extinguisher rating is required on the power unit of a placarded vehicle?",
+    "choices": [
+      "4 B:C or more",
+      "5 B:C or more",
+      "1 A:5 B:C or more",
+      "10 B:C or more"
+    ],
+    "answer": 3,
+    "explanation": "The power unit of a placarded vehicle must have a fire extinguisher with a UL rating of 10 B:C or more.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.6.8; 49 CFR 393.95"
+  },
+  {
+    "id": "cdl.hm.088",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "When must you check each tire on a placarded vehicle?",
+    "choices": [
+      "Only at the end of each trip",
+      "Only at the start of each day, during the pre-trip inspection",
+      "At the start of each trip and each time you park",
+      "Every 500 miles"
+    ],
+    "answer": 2,
+    "explanation": "You must examine each tire at the beginning of each trip and each time the vehicle is parked.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.6.9; 49 CFR 397.17"
+  },
+  {
+    "id": "cdl.hm.089",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Before hauling Division 1.1, 1.2 or 1.3 explosives, the carrier must give you which document?",
+    "choices": [
+      "A police escort permit",
+      "A copy of the ERG only",
+      "A special explosives CDL",
+      "A copy of FMCSR Part 397 and written emergency instructions"
+    ],
+    "answer": 3,
+    "explanation": "The carrier must give each such driver a copy of FMCSR Part 397 and written instructions on what to do if delayed or in an accident. The driver signs a receipt.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.6.10"
+  },
+  {
+    "id": "cdl.hm.090",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "A driver hauling chlorine in a cargo tank must have which equipment?",
+    "choices": [
+      "A survey meter",
+      "An approved gas mask and a leak-control kit for the dome cover plate fittings",
+      "Grounding cables for every stop",
+      "A second 10 B:C fire extinguisher"
+    ],
+    "answer": 1,
+    "explanation": "A driver transporting chlorine in cargo tanks must have an approved gas mask and an emergency kit for controlling leaks in dome cover plate fittings.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.6.11; 49 CFR 177.840"
+  },
+  {
+    "id": "cdl.hm.091",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "You must stop before a railroad crossing in which of these vehicles?",
+    "choices": [
+      "A flatbed hauling steel",
+      "Any truck over 26,000 pounds",
+      "An empty cargo tank last used for hazmat",
+      "A van with 300 pounds of unplacarded Class 9 material"
+    ],
+    "answer": 2,
+    "explanation": "Stop before a crossing if your vehicle is placarded, carries any amount of chlorine, or has cargo tanks used for hazmat, loaded or empty.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.6.12; 49 CFR 392.10"
+  },
+  {
+    "id": "cdl.hm.092",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "When required to stop at a railroad crossing, how far from the nearest rail must you stop?",
+    "choices": [
+      "15 to 50 feet",
+      "10 to 25 feet",
+      "50 to 100 feet",
+      "25 to 75 feet"
+    ],
+    "answer": 0,
+    "explanation": "Stop 15 to 50 feet before the nearest rail. Go only when sure no train is coming and you can clear the tracks without stopping, and don't shift gears while crossing.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.6.12"
+  },
+  {
+    "id": "cdl.hm.093",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Who publishes the Emergency Response Guidebook (ERG)?",
+    "choices": [
+      "Each state's fire marshal",
+      "The Environmental Protection Agency",
+      "The U.S. Department of Transportation",
+      "Each carrier"
+    ],
+    "answer": 2,
+    "explanation": "The ERG is a Department of Transportation guidebook for firefighters, police and industry workers.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.7.1"
+  },
+  {
+    "id": "cdl.hm.094",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "The ERG is indexed by:",
+    "choices": [
+      "Proper shipping name and identification number",
+      "Placard color and shape",
+      "Shipper name, consignee name, and the carrier's name",
+      "Truck type and route"
+    ],
+    "answer": 0,
+    "explanation": "The ERG is indexed by proper shipping name and identification number, which is why those items on the shipping paper must be correct.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.7.1"
+  },
+  {
+    "id": "cdl.hm.095",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "At a hazmat crash scene, where should you keep people?",
+    "choices": [
+      "Next to the vehicle to help",
+      "On the downwind shoulder",
+      "Close by and downwind",
+      "Far away and upwind"
+    ],
+    "answer": 3,
+    "explanation": "Keep people away from the scene, far away and upwind, warn others of the danger, and call for help.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.7.2"
+  },
+  {
+    "id": "cdl.hm.096",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "You suspect a fire in your cargo. How should you check before opening the trailer doors?",
+    "choices": [
+      "Spray water into the vent first",
+      "Feel the doors; if they are hot, keep them closed",
+      "Open one door slightly to look",
+      "Open them quickly so the heat and smoke can escape"
+    ],
+    "answer": 1,
+    "explanation": "Feel trailer doors before opening them. If hot, you may have a cargo fire; opening the doors lets in air and may make the fire flare up.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.7.3"
+  },
+  {
+    "id": "cdl.hm.097",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Should a driver fight a hazardous materials cargo fire?",
+    "choices": [
+      "Yes, using the 10 B:C extinguisher on the power unit",
+      "Yes, if the fire is small",
+      "No, not without special training and protective gear",
+      "Yes, after opening the trailer doors"
+    ],
+    "answer": 2,
+    "explanation": "Unless you have training and equipment to do so safely, don't fight hazmat fires. You may use the extinguisher to keep a minor truck fire from spreading to the cargo.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.7.3"
+  },
+  {
+    "id": "cdl.hm.098",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "How should you identify hazardous material leaking from your vehicle?",
+    "choices": [
+      "Use the shipping papers, labels or package location",
+      "Touch the liquid with a glove",
+      "Smell the vapors carefully",
+      "Open the damaged package to read the inside label"
+    ],
+    "answer": 0,
+    "explanation": "Identify leaking material using shipping papers, labels or package location. Never touch it or try to identify it by smell; toxic gases can destroy your sense of smell.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.7.3"
+  },
+  {
+    "id": "cdl.hm.099",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "At a rest area you find hazmat slowly leaking from your truck, and there is no phone. What should you do?",
+    "choices": [
+      "Drive slowly to the nearest truck stop that has a phone to call for help",
+      "Park, secure the area, stay there, and send someone for help",
+      "Drive back to the shipper",
+      "Leave the vehicle and walk to find help"
+    ],
+    "answer": 1,
+    "explanation": "Never keep driving with hazmat leaking to find a phone or help. Park, secure the area, stay there, and call or send someone for help with written details.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.7.3"
+  },
+  {
+    "id": "cdl.hm.100",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "After a collision involving a vehicle with explosives, what must happen before the vehicles are separated?",
+    "choices": [
+      "The placards must be removed",
+      "The explosives must be covered with a tarp",
+      "The engine must be restarted",
+      "All explosives must be removed and placed at least 200 feet away"
+    ],
+    "answer": 3,
+    "explanation": "Remove all explosives before separating vehicles in a collision. Place them at least 200 feet from the vehicles and occupied buildings.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.7.4"
+  },
+  {
+    "id": "cdl.hm.101",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Compressed gas is involved in an accident with your vehicle. Whom must you notify?",
+    "choices": [
+      "The truck's dealer",
+      "The receiving customer only",
+      "The gas manufacturer's sales office",
+      "The shipper"
+    ],
+    "answer": 3,
+    "explanation": "You must notify the shipper if compressed gas is involved in any accident.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.7.4"
+  },
+  {
+    "id": "cdl.hm.102",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "A package of flammable solids in your load is smoldering. What should you NOT do?",
+    "choices": [
+      "Remove it from the vehicle if safe",
+      "Open the package",
+      "Remove unbroken packages to cut fire risk",
+      "Warn others of the fire hazard"
+    ],
+    "answer": 1,
+    "explanation": "Do not open smoldering packages of flammable solids. Remove them from the vehicle if you can safely do so, and warn others of the fire hazard.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.7.4"
+  },
+  {
+    "id": "cdl.hm.103",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "After a spill of radioactive material, when may the vehicle be used again?",
+    "choices": [
+      "As soon as the spill is swept up",
+      "After it is aired out with the doors open for 24 hours",
+      "After it is cleaned and checked with a survey meter",
+      "After the placards are changed"
+    ],
+    "answer": 2,
+    "explanation": "Do not use the vehicle until it is cleaned and checked with a survey meter. Tell your dispatcher or supervisor as soon as possible.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.7.4"
+  },
+  {
+    "id": "cdl.hm.104",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Which event requires an immediate phone call to the National Response Center?",
+    "choices": [
+      "A person injured in a hazmat incident needs to be hospitalized",
+      "A hazmat delivery is late by a day",
+      "A placard falls off during a trip",
+      "A package's label is slightly torn"
+    ],
+    "answer": 0,
+    "explanation": "You or your employer must call when, as a direct result of hazmat, a person is killed or hospitalized, the public is evacuated for an hour or more, a major artery is closed for an hour or more, and in certain other cases.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.7.5; 49 CFR 171.15"
+  },
+  {
+    "id": "cdl.hm.105",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "A hazmat incident closes a major highway. For how long must it be closed before the National Response Center must be called?",
+    "choices": [
+      "One hour or more",
+      "24 hours or more",
+      "15 minutes or more",
+      "Four hours or more"
+    ],
+    "answer": 0,
+    "explanation": "An immediate report is required when one or more major transportation arteries or facilities are closed for one hour or more as a direct result of a hazmat incident.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.7.5; 49 CFR 171.15"
+  },
+  {
+    "id": "cdl.hm.106",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "What is CHEMTREC's main role?",
+    "choices": [
+      "Inspecting cargo tanks",
+      "Giving emergency crews technical data on hazardous materials",
+      "Collecting incident fines",
+      "Issuing hazmat endorsements after the TSA background check"
+    ],
+    "answer": 1,
+    "explanation": "CHEMTREC has a 24-hour toll-free line and provides emergency personnel with technical information about the physical properties of hazardous materials.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.7.5"
+  },
+  {
+    "id": "cdl.hm.107",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "After a reportable hazmat incident, within how many days must the carrier file a detailed written report?",
+    "choices": [
+      "90 days",
+      "7 days",
+      "60 days",
+      "30 days"
+    ],
+    "answer": 3,
+    "explanation": "Carriers must make detailed written reports within 30 days of an incident.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.7.5; 49 CFR 171.16"
+  },
+  {
+    "id": "cdl.hm.108",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "While you are driving, where must hazmat shipping papers be kept?",
+    "choices": [
+      "In the glove box, so they stay clean and dry",
+      "In a pouch on the driver's door, or in clear view within reach while belted",
+      "In the sleeper berth, together with your logbook and permits",
+      "With the cargo, next to the hazmat packages they describe"
+    ],
+    "answer": 1,
+    "explanation": "While driving, keep hazmat shipping papers in a pouch on the driver's door, or in clear view within immediate reach while your seat belt is fastened. They must be easy to see for someone entering the cab.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.3.1; 9.6.10; 49 CFR 177.817(e)"
+  },
+  {
+    "id": "cdl.hm.109",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "You leave your placarded truck to eat at a truck stop. Where should the hazmat shipping papers be?",
+    "choices": [
+      "On the driver's seat or in the driver's door pouch",
+      "Locked in the glove box",
+      "In your pocket, taken with you",
+      "Inside the trailer with the cargo"
+    ],
+    "answer": 0,
+    "explanation": "When you are out of the vehicle, leave the shipping papers on the driver's seat or in the driver's door pouch so responders can find them. You keep them with you only at a crash or incident scene, to hand to emergency personnel.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.1; 9.6.10; 49 CFR 177.817(e)"
+  },
+  {
+    "id": "cdl.hm.110",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "How many placards must a placarded vehicle display, and where?",
+    "choices": [
+      "Two, one on the front and one on the rear of the vehicle",
+      "At least four identical placards: front, rear, and both sides",
+      "Two, one on each side where other drivers can see them",
+      "One on the rear, facing following traffic"
+    ],
+    "answer": 1,
+    "explanation": "A placarded vehicle must have at least four identical placards, on the front, rear, and both sides, so they can be read from all four directions. The front placard may be on the tractor or the trailer.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.3.3; 9.3.10"
+  },
+  {
+    "id": "cdl.hm.111",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "How must the identification number of the contents be displayed on a cargo tank?",
+    "choices": [
+      "Only on the shipping paper kept in the cab",
+      "In white numbers on a red panel on the rear only",
+      "In black numbers on an orange panel, a placard, or a white diamond",
+      "On a small label near the tank's outlet valve"
+    ],
+    "answer": 2,
+    "explanation": "Cargo tanks and other bulk packaging must show the ID number in black 100 mm (3.9 inch) numbers on orange panels, on placards, or on a white diamond-shaped background if no placards are required.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.3; 9.5.1"
+  },
+  {
+    "id": "cdl.hm.112",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "Your vehicle has no racks for compressed gas cylinders. How must the cylinders be loaded?",
+    "choices": [
+      "Lying down, wedged tightly against each other",
+      "On a flat floor, held upright or in boxes that keep them from tipping",
+      "Stacked in layers with moving blankets between each layer",
+      "Standing loose, so the valves are easy to reach and check"
+    ],
+    "answer": 1,
+    "explanation": "Without racks, the cargo floor must be flat and cylinders must be held upright, in racks attached to the vehicle, or in boxes that keep them from turning over. A cylinder may lie down only if it is designed so the relief valve is in the vapor space.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.4.1 (Class 2)"
+  },
+  {
+    "id": "cdl.hm.113",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "prompt": "What must you do with the engine before loading or unloading any explosives?",
+    "choices": [
+      "Keep it idling so air pressure stays up",
+      "Turn it off, then check the cargo space",
+      "Run it only if the cargo heater is needed",
+      "Leave it running so you can move quickly in an emergency"
+    ],
+    "answer": 1,
+    "explanation": "Turn your engine off before loading or unloading any explosives, then check the cargo space: disable cargo heaters and look for sharp points that could damage the cargo.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.4.1 (Class 1)"
+  }
+]
