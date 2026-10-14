@@ -220,12 +220,12 @@
       "15 and a half"
     ],
     "answer": 0,
-    "explanation": "You must be at least 15 years old, complete the TLSAE course and pass the vision and Class E Knowledge exams to get a Florida learner's license.",
+    "explanation": "You must be at least 15 years old and pass the vision and Class E Knowledge exams to get a Florida learner's license. First-time applicants under 18 must also complete a driver education (DETS) course.",
     "states": [
       "FL"
     ],
     "difficulty": 1,
-    "ref": "Official Florida Driver License Handbook, p. 16"
+    "ref": "Official Florida Driver License Handbook, p. 16; FLHSMV, Licensing Requirements for Teens page"
   },
   {
     "id": "fl.car.013",
@@ -410,7 +410,7 @@
       "They must retake the Class E Knowledge Exam"
     ],
     "answer": 0,
-    "explanation": "Drivers under 18 who get 6 or more points within 12 months are automatically restricted to Business Purposes Only driving for one year (or until 18).",
+    "explanation": "Drivers under 18 who get 6 or more points within 12 months are automatically restricted to Business Purposes Only driving for one year. Each additional point extends the restriction by 90 days.",
     "states": [
       "FL"
     ],
@@ -421,20 +421,20 @@
     "id": "fl.car.023",
     "track": "car",
     "topic": "laws-licensing",
-    "prompt": "Who must complete a Traffic Law and Substance Abuse Education (TLSAE) course before applying for a Florida license?",
+    "prompt": "Since August 1, 2025, what course must a first-time Florida applicant under 18 complete before applying for a license?",
     "choices": [
-      "Anyone who has never held a driver license in any state or country",
-      "Only drivers over 21",
-      "Only drivers moving from another state",
-      "Only drivers who failed the knowledge exam"
+      "A 6-hour Driver Education Traffic Safety (DETS) course",
+      "A 4-hour Traffic Law and Substance Abuse Education (TLSAE) course",
+      "A 12-hour Advanced Driver Improvement (ADI) course",
+      "The Basic RiderCourse (BRC)"
     ],
     "answer": 0,
-    "explanation": "Florida requires a TLSAE course for anyone who has never held (or does not have) a driver license in any state, country or jurisdiction. Some school driver education courses can substitute.",
+    "explanation": "As of August 1, 2025, anyone under 18 who has never held a driver license must complete a 6-hour DETS course (a DELAP school driver education course can substitute). The 4-hour TLSAE course is now for first-time applicants 18 and older.",
     "states": [
       "FL"
     ],
-    "difficulty": 1,
-    "ref": "Official Florida Driver License Handbook, p. 25"
+    "difficulty": 2,
+    "ref": "FLHSMV, Driver Education Traffic Safety (DETS) page"
   },
   {
     "id": "fl.car.024",
@@ -662,7 +662,7 @@
       "FL"
     ],
     "difficulty": 3,
-    "ref": "Official Florida Driver License Handbook, p. 42"
+    "ref": "Official Florida Driver License Handbook, p. 42; Florida Statutes, s. 316.306"
   },
   {
     "id": "fl.car.036",
@@ -785,17 +785,17 @@
     "prompt": "Florida's equipment rules say which of these is NOT permitted for a driver while operating a vehicle?",
     "choices": [
       "Wearing a headset or headphones",
-      "Using a GPS mounted on the dashboard",
-      "Listening to the car radio",
+      "A horn that can be heard from 200 feet",
+      "Two working headlights",
       "Wearing sunglasses during the day"
     ],
     "answer": 0,
-    "explanation": "Florida lists headsets/headphones worn by the driver among equipment that is not permitted while operating a vehicle.",
+    "explanation": "Florida lists headsets/headphones worn by the driver among equipment that is NOT permitted while operating a vehicle. A horn audible from 200 feet is required equipment.",
     "states": [
       "FL"
     ],
     "difficulty": 2,
-    "ref": "Official Florida Driver License Handbook, p. 47"
+    "ref": "Official Florida Driver License Handbook, pp. 46-47"
   },
   {
     "id": "fl.car.043",
@@ -938,16 +938,16 @@
     "choices": [
       "Four seconds",
       "Two seconds",
-      "Three seconds",
+      "One second",
       "One car length per 10 MPH"
     ],
     "answer": 0,
-    "explanation": "Florida recommends at least four seconds of following distance in favorable conditions, and more in rain, low visibility or heavy traffic.",
+    "explanation": "Florida's handbook says to keep a minimum following distance of four seconds in favorable weather and traffic, and more in rain, low visibility or heavy traffic.",
     "states": [
       "FL"
     ],
     "difficulty": 1,
-    "ref": "Official Florida Driver License Handbook, p. 86"
+    "ref": "Official Florida Driver License Handbook, p. 69"
   },
   {
     "id": "fl.car.051",
@@ -1061,7 +1061,7 @@
       "FL"
     ],
     "difficulty": 1,
-    "ref": "Official Florida Driver License Handbook, p. 59"
+    "ref": "Official Florida Driver License Handbook, pp. 59, 87"
   },
   {
     "id": "fl.car.057",
@@ -1561,20 +1561,20 @@
     "id": "fl.car.083",
     "track": "car",
     "topic": "sharing-road",
-    "prompt": "What is the minimum fine in Florida for passing a stopped school bus on the side where children enter and exit?",
+    "prompt": "A Florida driver is convicted of passing a stopped school bus. Besides 4 points and a fine, what else is required?",
     "choices": [
-      "$465",
-      "$265",
-      "$100",
-      "$1,500"
+      "Completing a basic driver improvement course",
+      "Retaking the Class E Knowledge Exam",
+      "Installing an ignition interlock device",
+      "Nothing else"
     ],
     "answer": 0,
-    "explanation": "Passing a stopped school bus carries a minimum $265 fine, 4 points and a required driver improvement course; passing on the side where children enter and exit raises the minimum fine to $465.",
+    "explanation": "Passing a stopped school bus is a moving violation that adds 4 points to your license and requires a basic driver improvement course, in addition to a fine.",
     "states": [
       "FL"
     ],
-    "difficulty": 3,
-    "ref": "Official Florida Driver License Handbook, p. 35"
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, pp. 25, 35"
   },
   {
     "id": "fl.car.084",
@@ -1696,18 +1696,18 @@
     "topic": "hazards-conditions",
     "prompt": "When does Florida law require you to use your headlights?",
     "choices": [
-      "From sunset to sunrise, and in rain, smoke or fog",
+      "From sunset to sunrise, and during any rain, smoke or fog",
       "Only after dark on unlit roads",
       "From one hour after sunset to one hour before sunrise",
       "Only when visibility is under 500 feet"
     ],
     "answer": 0,
-    "explanation": "Florida requires headlights between sunset and sunrise, and the handbook says to turn them on in low visibility such as rain, smoke or fog. Parking lights are not a substitute.",
+    "explanation": "Florida law requires lighted headlamps from sunset to sunrise (including twilight) and during any rain, smoke or fog. Parking lights are not a substitute for headlights.",
     "states": [
       "FL"
     ],
     "difficulty": 1,
-    "ref": "Official Florida Driver License Handbook, p. 81"
+    "ref": "Florida Statutes, s. 316.217; Official Florida Driver License Handbook, p. 81"
   },
   {
     "id": "fl.car.091",
@@ -1973,7 +1973,7 @@
       "FL"
     ],
     "difficulty": 1,
-    "ref": "Official Florida Driver License Handbook, p. 95"
+    "ref": "FLHSMV, Motorcycle Rider Education & Endorsements page; Official Florida Driver License Handbook, p. 95"
   },
   {
     "id": "fl.mc.006",
@@ -2069,5 +2069,43 @@
     ],
     "difficulty": 3,
     "ref": "FLHSMV, Motorcycle Rider Education & Endorsements page"
+  },
+  {
+    "id": "fl.car.100",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "According to Florida's handbook, what does a posted speed limit tell you?",
+    "choices": [
+      "The fastest speed you may drive under favorable conditions",
+      "The speed you must drive at all times",
+      "The speed you may exceed by up to 10 MPH",
+      "The minimum speed in good weather"
+    ],
+    "answer": 0,
+    "explanation": "Speed limits show the fastest speed you may drive under favorable conditions. You must slow down for weather, roadway and traffic conditions, such as driving below the limit during a storm.",
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 76",
+    "states": [
+      "FL"
+    ]
+  },
+  {
+    "id": "fl.car.101",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 25-year-old who has never held a driver license anywhere wants a Florida license. Which course must they complete before applying?",
+    "choices": [
+      "A 4-hour Traffic Law and Substance Abuse Education (TLSAE) course",
+      "A 6-hour Driver Education Traffic Safety (DETS) course",
+      "A 12-hour Advanced Driver Improvement (ADI) course",
+      "No course is required for adults"
+    ],
+    "answer": 0,
+    "explanation": "First-time Florida applicants 18 and older must complete the 4-hour TLSAE course before applying. The 6-hour DETS course is for first-time applicants under 18.",
+    "difficulty": 2,
+    "ref": "FLHSMV, Traffic Law and Substance Abuse Education (TLSAE) page",
+    "states": [
+      "FL"
+    ]
   }
 ]

@@ -1,0 +1,822 @@
+{
+  "code": "PA",
+  "name": "Pennsylvania",
+  "agency": {
+    "name": "Pennsylvania Department of Transportation (PennDOT), Driver and Vehicle Services",
+    "abbreviation": "PennDOT",
+    "website": "https://www.pa.gov/agencies/dmv"
+  },
+  "handbook": {
+    "title": "Pennsylvania Driver's Manual",
+    "edition": "PUB 95 (4-21)",
+    "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf"
+  },
+  "knowledgeTest": {
+    "questions": 18,
+    "passingScore": 15,
+    "passingPercent": 83,
+    "roadSigns": null,
+    "timeLimitMinutes": null,
+    "format": "18 multiple-choice questions on traffic signs, Pennsylvania driving laws and safe driving practices; given in written or audio format at a Driver License Center (no appointment needed)",
+    "languages": "Written and audio, on request, at all Driver License Centers: Albanian, Amharic, Arabic, Bosnian, Burmese, Cambodian, Dari, English, Farsi, French, Greek, Hindi, Italian, Japanese, Korean, Mandarin, Mandinka, Nepali, Pashto, Polish, Portuguese, Punjabi, Russian, Somali, Spanish, Swahili, Turkish, Ukrainian, Urdu and Vietnamese (official online manual). Sign-language interpreters can be requested; contact PennDOT at least two weeks before the test (PDF manual p. 95).",
+    "retestWait": "May retake the following business day; the knowledge test may be taken only once on any day, regardless of location.",
+    "notes": "PennDOT's online manual (Testing page) and PDF manual p. 9 both state 18 multiple-choice questions with 15 correct needed to pass (83%). No appointment is needed for the knowledge test (Driver's Test Scheduling FAQs). Applicants under 18 must bring a parent/guardian consent form (DL-180TD); the DL-180 physical may be done no more than 6 months before the 16th birthday. Under 18: 6-month permit period and 65 certified hours (10 night, 5 bad weather) before the road test; a failed road test means a 7-day wait (at least 1 day if 18+); 3 road-test attempts per permit.",
+    "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/testing"
+  },
+  "motorcycleTest": {
+    "questions": 20,
+    "passingScore": null,
+    "passingPercent": null,
+    "notes": "PennDOT FAQ: a 20-question motorcycle knowledge test plus a skills test on a test pad (pre-trip inspection, left/right circles, figure eights); no on-road skills test. Passing score not published on the pages checked. Motorcycle permit: valid 1 year, riding sunrise to sunset only, no passengers except a properly licensed instructor; cannot be renewed (reapply no more than three times in five years). Under 18: 6 months on the permit, 65 hours, and the PA Motorcycle Safety Program Beginner Riding Clinic. Permit holders who pass a PAMSP licensing course are issued the Class M license.",
+    "sourceUrl": "https://www.pa.gov/agencies/dmv/faqs/driver-licensing-faqs/drivers-test-scheduling-faqs"
+  },
+  "cdlTest": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC (age 21 and over)",
+      "detail": "A driver 21 or older is considered DUI at a BAC of .08 or higher. You can also be convicted of DUI at a lower BAC if police stop you for driving erratically.",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 85,
+        "quote": "In Pennsylvania, if you are of legal drinking age (21 or older), you are considered to be driving \"while under the influence\" if your blood alcohol level is .08 or higher."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% BAC (zero tolerance)",
+      "detail": "Pennsylvania's Zero Tolerance law: a driver under 21 is considered DUI at a BAC of .02 or greater. Under-21 drivers convicted of DUI get the 'High Rate' penalties.",
+      "number": 0.02,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 86,
+        "quote": "If you are under 21, you are considered to be driving under the influence if your blood alcohol level is .02 or greater."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC (commercial vehicle drivers); 0.02% for school bus drivers",
+      "detail": "Commercial vehicle drivers with a BAC of .04 or more, and school bus drivers with a BAC of .02 or more, are subject to the High Rate DUI penalty table.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 87,
+        "quote": "(Note: This table also applies to drivers under age 21 with a BAC of .02 or more; commercial vehicle drivers with a BAC of .04 or more; school bus drivers with a BAC of .02 or more; and drivers with BAC of .08 to .099 and who are involved in a crash resulting in serious bodily injury, death or vehicle or property damage.)"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusing a breath or blood test after a DUI arrest: automatic 1-year license suspension (first refusal)",
+      "detail": "By being licensed you have agreed to chemical testing. A first refusal brings a 1-year suspension even if you are found not guilty of DUI; it is added to any DUI suspension. With a prior DUI or refusal the refusal suspension is 18 months. A $500 refusal restoration fee applies for a first refusal.",
+      "number": 1,
+      "unit": "year",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 86,
+        "quote": "If the police arrest you for driving while under the influence of alcohol or drugs and you refuse to take one (1) or more chemical tests of breath or blood, your driving privilege will be automatically suspended for one (1) year."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "General impairment (.08-.099) 1st offense: 6 months probation, $300 fine, no license suspension; High Rate (.10-.159) 1st: 2 days-6 months jail, $500-$5,000, 12-month suspension; Highest Rate (.16+) 1st: 3 days-6 months jail, $1,000-$5,000, 12-month suspension",
+      "detail": "Penalties rise with BAC level, crash injuries/damage and prior offenses. Alcohol highway safety school is required for first or second offenses at any level; first offenders at high/highest rates may be accepted into ARD.",
+      "number": 300,
+      "unit": "dollars (minimum fine, general impairment)",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 87,
+        "quote": "TABLE 1 - GENERAL IMPAIRMENT: .08 TO .099 BLOOD ALCOHOL CONCENTRATION (Note: These penalties apply to drivers of legal drinking age.) Penalty First Offense Second Offense Third Offense Sentence 6 months probation 5 days to 6 months in prison 10 days to 2 years in prison Fine $300 $300 - $2,500 $500 - $5,000 License No action"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "open_container",
+      "value": "No driver or occupant may possess an open alcoholic beverage container in a vehicle on a highway (summary offense)",
+      "detail": "Applies to the driver and passengers. Exceptions: passengers in buses, taxis and limousines, and people in the living quarters of a motor home/house trailer.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=75&div=0&chpt=38&sctn=9&subsctn=0",
+        "page": null,
+        "quote": "an individual who is an operator or an occupant in a motor vehicle may not be in possession of an open alcoholic beverage container"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_min_age",
+      "value": "16",
+      "detail": "You cannot apply for a learner's permit before your 16th birthday. The physical exam on the DL-180 may be done up to 6 months before you turn 16.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 5,
+        "quote": "You cannot apply for your permit before your 16th birthday."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "6 months (under 18)",
+      "detail": "Drivers under 18 must wait a mandatory six months from the permit issue date before taking the road test. The learner's permit is valid for one year.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 6,
+        "quote": "After you have waited the mandatory six (6) months from your permit issue date and have a signed certificate of completion for the 65 hours of skill-building including no less than 10 hours of nighttime driving and five (5) hours of bad weather driving, you may take your Road Test."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "65 hours, including at least 10 hours at night and 5 hours in bad weather (under 18)",
+      "detail": "A parent or guardian certifies the 65 hours on form DL-180C before the road test. Up to six hours of driving with a driver-education instructor can be credited toward the 65.",
+      "number": 65,
+      "unit": "hours",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 6,
+        "quote": "If you are under the age of 18, you are required to complete at least 65 hours of behind-the-wheel skill-building including no less than 10 hours of nighttime driving and five (5) hours of bad weather driving before taking your Road Test."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "A licensed driver at least 21, or a licensed parent, guardian, person in loco parentis or spouse at least 18, seated in the front seat",
+      "detail": "The supervising driver must sit in the front seat. Permit holders under 18 may not carry more passengers than there are seat belts.",
+      "number": 21,
+      "unit": "years (minimum supervisor age)",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 7,
+        "quote": "You may only drive under the supervision of a licensed driver who is at least 21 years of age or a parent, guardian, person in loco parentis, or spouse who is 18 years of age or older and holds a driver's license. The supervising driver must sit in the front seat."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 (junior driver's license); earliest in practice is 16 1/2 because of the 6-month permit period",
+      "detail": "Pennsylvania's intermediate stage is the junior driver's license, issued to 16- and 17-year-olds who pass the road test after holding a permit for 6 months with 65 certified hours.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=75&div=0&chpt=15&sctn=3&subsctn=0",
+        "page": null,
+        "quote": "The department may issue a junior driver's license to a person 16 or 17 years of age under rules and regulations adopted by the department and subject to the provisions of this section."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "No driving 11 p.m. to 5 a.m. on a junior license unless accompanied by a parent, guardian or spouse 18+",
+      "detail": "Exceptions for employment, volunteer fire company membership, or public/charitable service require carrying a notarized affidavit or certificate of authorization.",
+      "number": 23,
+      "unit": "hour (11 p.m.)",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 7,
+        "quote": "You may not drive between the hours of 11 p.m. and 5 a.m., unless your parent, guardian, person in loco parentis, or spouse who is 18 years of age or older is with you."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "First 6 months on a junior license: no more than 1 passenger under 18 who is not immediate family (unless a parent/guardian is in the vehicle); after 6 months: no more than 3",
+      "detail": "The increase to 3 does not apply if the junior driver has had a partially/fully responsible crash or any driving conviction. All drivers under 18 may not carry more passengers than seat belts.",
+      "number": 1,
+      "unit": "passenger",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 8,
+        "quote": "You may not carry more than one (1) passenger under the age of 18 who is not an immediate family member unless a parent, guardian, person in loco parentis, or spouse who is 18 years of age or older is in the vehicle with you. After the first six (6) months of driving on a junior license, the limit is increased to no more than three (3) passengers under the age of 18 who are not immediate family members"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "17, after holding a junior license for 1 year with approved driver training, no at-fault crash, no convictions and parental consent; automatic at 18",
+      "detail": "Apply early with form DL-59. Otherwise the junior license automatically becomes a regular license at 18. Because of the 6-month permit period, the earliest in practice is about 17 1/2.",
+      "number": 17,
+      "unit": "years",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 8,
+        "quote": "You may get a regular driver's license after you have held a junior driver's license for one (1) year, if you meet the following conditions:"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "Hand-held device use banned for all drivers (Paul Miller's Law, effective June 5, 2025); $50 fine from June 5, 2026",
+      "detail": "Primary offense. 'Driving' includes being temporarily stopped for traffic, a light or a stop sign. Prohibited use means holding or supporting the device with any part of the body, or dialing/answering by pressing more than a single button. Allowed: emergency calls to police or emergency services, and using the device after pulling off the road and stopping safely. The first 12 months (to June 5, 2026) were written warnings only.",
+      "number": 50,
+      "unit": "dollars",
+      "source": {
+        "url": "https://www.pa.gov/agencies/penndot/traveling-in-pa/safety/traffic-safety-driver-topics/distracted-driving",
+        "page": null,
+        "quote": "Effective June 5, 2025, the law prohibits as a primary offense any driver from using an interactive mobile device (IMD) while driving a motor vehicle."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "texting_ban",
+      "value": "Texting while driving banned for all drivers; primary offense, $50 fine",
+      "detail": "No sending, reading or writing text-based communications while the vehicle is in motion. The ban does not cover GPS devices or systems integrated into the vehicle. PennDOT's Distracted Driving page adds that the violation carries no points for non-commercial drivers.",
+      "number": 50,
+      "unit": "dollars",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 97,
+        "quote": "The law went into effect March 8, 2012, and violating the law is a primary, summary offense with convictions carrying a $50 fine."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Driver and front-seat passengers must buckle up; occupants 8 to under 18 must be belted in any seat",
+      "detail": "Passengers 8 to under 18 must be belted in any seat, and drivers under 18 may not carry more passengers than seat belts. For drivers 18 or older, the belt ticket is issued only when police stop the driver for another violation (PennDOT Seat Belts page; 75 Pa.C.S. 4581(b)).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 93,
+        "quote": "All drivers and front seat passengers in vehicles, light trucks and motor homes must wear seat belts."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Under 2: rear-facing seat; under 4: approved child safety seat; 4 to under 8: booster seat; 8 to under 18: seat belt (any seat)",
+      "detail": "Rear-facing until the child outgrows the seat's weight/height limits. Never put a rear-facing seat in front of an air bag. Children 12 and under are recommended to ride in the back seat.",
+      "number": 8,
+      "unit": "years (booster seat until age 8)",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 94,
+        "quote": "Children ages four (4) and older, but under the age of eight (8) must be buckled into a federally-approved child booster seat, which must be secured to the vehicle by the seat belt system, no matter where they ride in a vehicle (front or back seat)."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Drive slower than the posted limit when conditions are less than perfect; you can be ticketed for driving too fast for conditions even under the limit",
+      "detail": "Posted limits are the maximum safe speed under ideal road, traffic and weather conditions.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 43,
+        "quote": "Even if you are driving within the posted speed limit, you can still be ticketed for driving too fast for conditions."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "15 mph when the school-zone sign lights are flashing or during the posted times",
+      "detail": "Speeding in a school zone brings 3 points plus a fine.",
+      "number": 15,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 13,
+        "quote": "You must travel no faster than 15 mph when the yellow signals are flashing or during the time periods indicated on the sign."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "25 mph in a residence district on local (non-numbered) highways",
+      "detail": "The statewide 25 mph residence-district limit applies only if the road is not a numbered traffic route and is classified as a local highway, and it must be posted.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=75&div=0&chpt=33&sctn=62&subsctn=0",
+        "page": null,
+        "quote": "25 miles per hour in a residence district if the highway: (i) is not a numbered traffic route; and (ii) is functionally classified by the department as a local highway."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "35 mph in any urban district",
+      "detail": "Pennsylvania uses the term 'urban district' (built-up areas) rather than 'business district'; the 35 mph limit must be posted.",
+      "number": 35,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=75&div=0&chpt=33&sctn=62&subsctn=0",
+        "page": null,
+        "quote": "35 miles per hour in any urban district."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "55 mph in other locations (unless posted otherwise)",
+      "detail": "55 mph is the default maximum outside urban and residence districts; freeways may be posted at 65 or 70.",
+      "number": 55,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=75&div=0&chpt=33&sctn=62&subsctn=0",
+        "page": null,
+        "quote": "55 miles per hour in other locations."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "70 mph",
+      "detail": "The maximum speed limit in Pennsylvania is 70 mph, on freeways where posted. Interstate limits are posted after each interchange.",
+      "number": 70,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 43,
+        "quote": "The maximum speed limit in Pennsylvania is 70."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Do not drive so slowly that you impede the normal and reasonable movement of traffic",
+      "detail": "On a two-lane road (one lane each way), a slow driver holding up traffic must pull completely off onto the berm/shoulder at the first safe opportunity. The handbook also says to use hazard flashers if you must drive below 40 mph on a limited access highway.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=75&div=0&chpt=33&sctn=64&subsctn=0",
+        "page": null,
+        "quote": "no person shall drive a motor vehicle at such a slow speed as to impede the normal and reasonable movement of traffic."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a full stop, yielding to pedestrians and traffic, unless NO TURN ON RED is posted",
+      "detail": "The same turns allowed on a steady red light are allowed on a steady red arrow.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 11,
+        "quote": "You may turn right while the light is red, unless a NO TURN ON RED sign is posted at the intersection. You must first stop, check for and yield to pedestrians and other traffic."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Allowed only from a one-way street onto another one-way street, from the left lane, after stopping (unless a sign prohibits)",
+      "detail": "Left on red from a two-way street is not allowed.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 11,
+        "quote": "You may also turn left after you stop at a red light, if you are in the left lane and are turning left from a one-way street onto another one-way street, unless a sign tells you not to turn."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 100 feet before turning below 35 mph; at least 300 feet at 35 mph or more",
+      "detail": "Signaling communicates intent but does not give you the right to turn.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 48,
+        "quote": "Under Pennsylvania law, you must always use your turn signals at least 100 feet before turning, if you are driving less than 35 mph. If you are driving 35 mph or more, you must signal at least 300 feet before turning."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull over to the curb or side of the road and stop, stay clear of intersections; resume only after it passes, keeping at least 500 feet behind",
+      "detail": "Applies to vehicles with sirens and flashing red, or red and blue, lights. On a one-way street, pull to the nearest roadside. Check for a second emergency vehicle before moving.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 63,
+        "quote": "Start driving again after the emergency vehicle passes you, keeping at least 500 feet away from it."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "move_over_law",
+      "value": "Move into a lane not adjacent to an emergency response area or disabled vehicle; if you cannot, slow to at least 20 mph below the posted limit",
+      "detail": "Penalties: fine up to $500 (1st), $1,000 (2nd), $2,000 (3rd+) and 2 points; license suspension when the violation seriously injures or kills someone. Covers police, fire, EMS, tow and highway crews, and disabled vehicles marked with at least two signal lamps, flares or caution signs.",
+      "number": 20,
+      "unit": "mph below posted limit",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 63,
+        "quote": "If drivers cannot move over because of traffic or other conditions, they must reduce their speed to at least 20 miles per hour below the posted speed limit."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop at least 10 feet away when red lights flash and the stop arm is out, whether behind, meeting, or at an intersection; only exception is the opposite side of a divided highway",
+      "detail": "Divided means a physical barrier such as concrete/metal barriers, guide rails, or trees/rocks/streams/grass median. Failing to stop: 60-day license suspension, 5 points and a fine.",
+      "number": 10,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 62,
+        "quote": "When the bus stops with its red lights flashing and its stop arm extended, you must stop at least 10 feet away from the bus whether you are behind it or coming toward it on the same roadway or approaching an intersection at which the school bus is stopped."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "following_distance",
+      "value": "4 seconds (dry pavement); 5-6 seconds on wet roads",
+      "detail": "Pennsylvania teaches a 4-second rule. On wet roads increase to 5 or 6 seconds; on ice/snow leave about 10 times more space. Double following distance in work zones.",
+      "number": 4,
+      "unit": "seconds",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 39,
+        "quote": "A 4-second following distance, as shown above in Area 1 of the space management diagram, will allow you to steer or brake to avoid a hazard safely on the highway, if the pavement is dry."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "headlights_required",
+      "value": "Sunset to sunrise; when you cannot see people or vehicles 1,000 feet ahead; in rain, snow, sleet, hail, fog, smoke or smog; in work zones; whenever wipers are on due to weather",
+      "detail": "Daytime running lights are not enough; tail lights must be on. Fines start at $25 (about $100 with costs).",
+      "number": 1000,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 44,
+        "quote": "When they cannot see pedestrians or vehicles on the highway for a distance of 1,000 feet ahead of the vehicle they are operating."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "500 feet of an oncoming vehicle",
+      "detail": "Use low beams whenever you are within 500 feet of an oncoming vehicle.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 44,
+        "quote": "Pennsylvania law requires you use low beams whenever you are within 500 feet of an oncoming vehicle and when you are following a vehicle within 300 feet."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "300 feet when following a vehicle",
+      "detail": "Use low beams when following another vehicle within 300 feet.",
+      "number": 300,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 44,
+        "quote": "Pennsylvania law requires you use low beams whenever you are within 500 feet of an oncoming vehicle and when you are following a vehicle within 300 feet."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet",
+      "detail": "Do not stop, stand or park within 15 feet of a fire hydrant.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 57,
+        "quote": "Within 15 feet of a fire hydrant."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "20 feet of a crosswalk at an intersection; never on a crosswalk",
+      "detail": "No stopping, standing or parking on a crosswalk or within 20 feet of a crosswalk at an intersection.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 57,
+        "quote": "Within 20 feet of a crosswalk at an intersection."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Never within an intersection",
+      "detail": "Stopping, standing or parking within an intersection is prohibited except in emergencies or when directed by police.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 57,
+        "quote": "Within an intersection."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet of a flashing signal, stop sign, yield sign or traffic control device at the side of the road",
+      "detail": "Do not park within 30 feet of any flashing signal, stop sign, yield sign or roadside traffic control device.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 57,
+        "quote": "Within 30 feet of any flashing signal, stop sign, yield sign or traffic control device located at the side of a roadway."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet of the nearest rail at a railroad crossing; never on the tracks",
+      "detail": "No stopping, standing or parking within 50 feet of the nearest rail of a railroad crossing.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 57,
+        "quote": "Within 50 feet of the nearest rail at a railroad crossing."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet of a fire station driveway entrance",
+      "detail": "Do not park within 20 feet of the driveway entrance to a fire station.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 57,
+        "quote": "Within 20 feet of a driveway entrance to a fire station."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "No more than 12 inches from the curb",
+      "detail": "Park as close to the curb as possible but no more than 12 inches away; with no curb, pull as far off the roadway as possible. If you must park on the roadway, make sure you can be seen from 500 feet in both directions.",
+      "number": 12,
+      "unit": "inches",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 57,
+        "quote": "If the street you are on has a curb, you must park as close to it as possible, but no more than 12 inches away."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "Within 50 feet but not less than 15 feet from the nearest rail",
+      "detail": "Required when signals flash, a gate is lowered, a flagger signals, or a train is approaching/plainly visible. Driving around a lowered gate: $200-$500 fine and a 30-day suspension.",
+      "number": 15,
+      "unit": "feet (minimum)",
+      "source": {
+        "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=75&div=0&chpt=33&sctn=41&subsctn=0",
+        "page": null,
+        "quote": "the driver of the vehicle shall stop within 50 feet but not less than 15 feet from the nearest rail of the railroad and shall not proceed until it can be done safely."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 4 feet; you may cross a double yellow line to keep that clearance if it is safe",
+      "detail": "Drivers may not turn into the path of a bicyclist riding straight ahead, and forcing a cyclist off the road may bring criminal charges.",
+      "number": 4,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 96,
+        "quote": "When passing, you must allow at least four (4) feet between your vehicle and a bicycle in order to pass safely."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Yield to pedestrians at intersections without signals (crosswalk or not), in marked crosswalks, on sidewalks crossing driveways/alleys, and when turning while they cross with the light; always yield to blind pedestrians",
+      "detail": "A pedestrian with a white cane or guide dog always has the right-of-way.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 52,
+        "quote": "Drivers must yield to pedestrians when they are: a) crossing at any intersection without a traffic light (with or without a crosswalk); b) crossing the roadway in marked crosswalks, whether or not at an intersection; c) walking on a sidewalk crossing a driveway or alley; and d) when the driver is turning a corner and pedestrians are crossing with the light."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Call police if anyone is hurt or killed or a vehicle must be towed; if police do not investigate such a crash, send a Driver's Accident Report (AA-600) to PennDOT within 5 days",
+      "detail": "If you hit a parked vehicle or property, stop, try to find the owner, or leave a note with date, time, your name and phone number and call police.",
+      "number": 5,
+      "unit": "days",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 85,
+        "quote": "If the police do not investigate a crash and someone has died or been injured, or if a vehicle must be towed, send a Driver's Accident Report Form (AA-600) within five (5) days to:"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "$15,000 / $30,000 / $5,000 liability",
+      "detail": "$15,000 injury/death of one person, $30,000 for more than one person, $5,000 property damage. Driving uninsured: minimum $300 fine plus 3-month registration and license suspensions.",
+      "number": 15000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://www.pa.gov/agencies/dmv/faqs/motor-vehicle-faqs/insurance-law-faqs",
+        "page": null,
+        "quote": "$15,000 for injury or death of one person in an accident"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "point_system",
+      "value": "PennDOT acts at 6 points: first time a written special point exam, second time a departmental hearing; 3 points removed for every 12 months without violations",
+      "detail": "Drivers under 18 are suspended 90 days (120 days for later occurrences) for 6+ points or a conviction for 26+ mph over the limit. After a suspension is restored, the record shows 5 points.",
+      "number": 6,
+      "unit": "points",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 83,
+        "quote": "When a driving record reaches six (6) or more points for the first time, the driver will receive a written notice to take a written special point examination."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Helmet required unless 21+ AND either licensed 2 full years or completed a PennDOT- or MSF-approved safety course",
+      "detail": "Learner's permit holders must wear helmets. The passenger of an exempt rider is exempt only if 21 or older. Occupants of a three-wheeled motorcycle with an enclosed cab are exempt. Separately, 75 Pa.C.S. 3525(b) requires an approved eye-protective device for all riders (except on enclosed-cab three-wheelers).",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://www.pa.gov/agencies/dmv/faqs/driver-licensing-faqs/motorcycle-permit-faqs",
+        "page": null,
+        "quote": "Pennsylvania law requires that any person who operates a motorcycle must wear protective headgear unless he or she is over 21 years of age and has had a motorcycle (Class M) license for a minimum of two years or is over 21 years of age and has completed a motorcycle safety course approved by PennDOT or the Motorcycle Safety Foundation."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Illegal",
+      "detail": "No one may ride a motorcycle between lanes of traffic or between rows of vehicles. Motorcycles may not ride more than two abreast in one lane, and every motorcycle is entitled to the full use of a lane.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=75&div=0&chpt=35&sctn=23&subsctn=0",
+        "page": null,
+        "quote": "No person shall operate a motorcycle between lanes of traffic or between adjacent lines or rows of vehicles."
+      },
+      "status": "verified"
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Wipers on means headlights on",
+      "summary": "Since 2007, you must turn on your headlights (not just daytime running lights; tail lights too) whenever your wipers are in continuous or intermittent use because of weather. Fine $25, close to $100 with costs.",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 47,
+        "quote": "This law, which went into effect Jan. 28, 2007, requires motorists to turn on their headlights anytime their vehicles wipers are in continuous or intermittent use due to weather conditions."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Headlights required in all posted work zones",
+      "summary": "Headlights must be on in every posted work zone, active or not. If stopped for a violation in a work zone without headlights, you are fined an additional $25. Fines double for certain violations, including speeding, in active work zones.",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 22,
+        "quote": "If you are pulled over by police for a traffic violation in a work zone and your vehicle's headlights are not turned on, you will be fined an additional $25."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Snow and ice flying from your vehicle",
+      "summary": "If snow or ice from a moving vehicle strikes another vehicle or a pedestrian and causes death or serious bodily injury, the driver faces a fine of $200 to $1,000 per offense. Clear the hood, roof and trunk before driving.",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 45,
+        "quote": "When snow or ice is dislodged or falls from a moving vehicle and strikes another vehicle or pedestrian causing death or serious bodily injury, the operator of the vehicle from which the snow or ice came is subject to a fine of $200 to $1,000 for each offense."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Riding in an open pickup bed",
+      "summary": "An open-bed pickup or flatbed may not go faster than 35 mph with anyone in the bed, and may not be driven with a child under 18 in the bed (limited farm, hunting and parade exceptions).",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 63,
+        "quote": "An open-bed pickup truck or open flatbed truck may not be driven at a speed of more than 35 mph, if any person is occupying the bed of the truck. Such a truck may not be driven when a child under 18 years of age is occupying the bed of the truck."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Under-18 drivers: 6 points or 26+ mph over = 90-day suspension",
+      "summary": "A driver under 18 is suspended for 90 days (120 days for any later occurrence) for accumulating 6 or more points or being convicted of driving 26 mph or more over the limit.",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 83,
+        "quote": "In addition to these requirements, the driving privilege of a person under the age of 18 will be suspended if that person accumulates six (6) or more points or is convicted of driving 26 mph or more over the posted speed limit. The first suspension will be for a period of 90 days."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "School bus violation: 60-day suspension and 5 points",
+      "summary": "Failing to stop for a school bus with flashing red lights and extended stop arm brings a 60-day license suspension, 5 points and a fine.",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 62,
+        "quote": "Failure to stop for a school bus with a flashing red light and extended stop arm will result in a 60-day suspension of your driver's license, five (5) points on your driving record and a fine."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Driving around road-closed barriers (hazardous conditions)",
+      "summary": "It is illegal to drive around or through signs or devices closing a road for hazardous conditions such as flooding: 2 points and up to $250, or up to $500 plus emergency response costs if responders are called.",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 97,
+        "quote": "A conviction for violation of this law results in 2 points added to your driving record and a fine of up to $250."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Nothing hanging from the rearview mirror while moving",
+      "summary": "You may not hang or attach anything to the rearview mirror that could block your view through the windshield while driving. Tags, permits and placards may hang there only while parked.",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 35,
+        "quote": "Note: It is against the law to have any object or material hanging from the rearview mirror while moving."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Railroad gate violations bring a 30-day suspension",
+      "summary": "Failing to obey a railroad crossing gate or barrier results in a 30-day license suspension (and a $200-$500 fine under 75 Pa.C.S. 3341).",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 83,
+        "quote": "Failure to comply with a railroad crossing gate or barrier (30-day suspension)."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Funeral processions",
+      "summary": "Yield to vehicles in a funeral procession. Once the lead vehicle has entered an intersection on green (or stopped first at a stop sign), the rest may proceed through the red light or stop sign; do not cut into the procession. Processions yield to emergency vehicles.",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 68,
+        "quote": "Once the lead vehicle has cleared an intersection, the rest of the procession may proceed through the intersection, other traffic must yield."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Report a name or address change within 15 days",
+      "summary": "You must notify PennDOT within 15 days of a name or address change, even if moving out of state. There is no fee for non-commercial drivers.",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 93,
+        "quote": "if your name or address is changed, you must notify PennDOT within 15 days of that change even if moving out of state."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Flashing blue lights alone do not mean police",
+      "summary": "Police lights are red and blue (or red only on unmarked cars). A vehicle flashing only blue lights is not a police officer. If unsure, turn on your flashers, drive slowly to a well-lit populated area, and ask for ID.",
+      "source": {
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/pa-drivers-manual-non-commercial/english/pub%2095.pdf",
+        "page": 85,
+        "quote": "If the vehicle is flashing only blue lights, then it is not a police officer."
+      },
+      "status": "verified"
+    }
+  ],
+  "officialPracticeTests": [
+    "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/test-your-knowledge",
+    "https://www.pa.gov/agencies/dmv/driver-services/motorcyclists/get-the-pa-motorcycle-license-practice-test"
+  ],
+  "gaps": [
+    "novice_phone_ban: Pennsylvania has no separate phone rule for teen/junior drivers; the hand-held ban (Paul Miller's Law, 75 Pa.C.S. 3316.1, eff. June 5, 2025) and texting ban (3316) apply to all drivers.",
+    "handbook: the current PDF manual (PUB 95 (4-21)) predates Paul Miller's Law; handheld_phone_ban is sourced from PennDOT's Distracted Driving page (confirmed against 75 Pa.C.S. 3316.1).",
+    "speed_limit_business_district: Pennsylvania law uses 'urban district' (35 mph), not 'business district'; value taken from 75 Pa.C.S. 3362(a)(1).",
+    "railroad_stop_distance / open_container / motorcycle_lane_splitting / speed limits other than 15 and 70 mph: not stated in the handbook; sourced from Title 75 statutes on palegis.us.",
+    "move_over_law: handbook p. 63 (4-21 edition) suspension details may be outdated; facts and questions use only the points/fine/speed rules stated on p. 63.",
+    "bac_limit_under21 penalties: handbook p. 88 says a first under-21 DUI brings a full-year suspension; questions use the handbook wording.",
+    "motorcycleTest.passingScore: no official page checked states the motorcycle knowledge test passing score.",
+    "right turn on a steady red arrow: handbook p. 11 says turns allowed on a steady red light are also allowed on a steady red arrow; 75 Pa.C.S. 3112 does not address arrows separately."
+  ]
+}

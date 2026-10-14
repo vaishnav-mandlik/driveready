@@ -25,12 +25,12 @@
     "prompt": "Under Pennsylvania's Zero Tolerance law, a driver under 21 is considered to be driving under the influence at what BAC?",
     "choices": [
       ".02 or greater",
-      ".00 (any trace)",
+      ".04 or greater",
       ".05 or greater",
       ".08 or greater"
     ],
     "answer": 0,
-    "explanation": "Pennsylvania lowered the DUI threshold from .08 to .02 for drivers under 21. At .02 or more, an under-21 driver is DUI.",
+    "explanation": "Pennsylvania's Zero Tolerance law lowered the DUI threshold from .08 to .02 for drivers under 21. At .02 or more, an under-21 driver is considered DUI.",
     "difficulty": 1,
     "ref": "Pennsylvania Driver's Manual, p. 86",
     "states": [
@@ -326,15 +326,15 @@
     "id": "pa.car.018",
     "track": "car",
     "topic": "laws-licensing",
-    "prompt": "A Pennsylvania driver under 18 has a car with five seat belts. How many people may ride in the car, counting the driver?",
+    "prompt": "Under Pennsylvania law, what limits how many passengers a driver under 18 may carry?",
     "choices": [
-      "No more than five, one per seat belt",
-      "Six, if one passenger is a family member",
-      "Any number, as long as everyone under 18 is belted",
-      "Three"
+      "No more passengers than there are seat belts in the vehicle",
+      "No more than two passengers of any age",
+      "No limit, as long as passengers under 18 are buckled",
+      "No more than one passenger at all times"
     ],
     "answer": 0,
-    "explanation": "Drivers under 18 cannot carry more passengers than there are seat belts in the vehicle.",
+    "explanation": "A driver under 18, on a permit or junior license, may not carry more passengers than there are seat belts in the vehicle. Junior license holders also face a separate limit on non-family passengers under 18.",
     "difficulty": 1,
     "ref": "Pennsylvania Driver's Manual, p. 7",
     "states": [
@@ -676,7 +676,7 @@
       "Balancing the phone on your knee to read a map"
     ],
     "answer": 2,
-    "explanation": "Hands-free calls, GPS and music are allowed. Holding or supporting a phone with any part of your body, or pressing more than a single button to dial or answer, counts as prohibited use.",
+    "explanation": "Paul Miller's Law bans using a hand-held device while driving. Holding or supporting a phone with any part of your body, or pressing more than a single button to dial or answer, counts as prohibited use; a hands-free call does neither.",
     "difficulty": 3,
     "ref": "PennDOT Distracted Driving page (pa.gov)",
     "states": [
@@ -744,7 +744,7 @@
     "id": "pa.car.040",
     "track": "car",
     "topic": "safe-habits",
-    "prompt": "In Pennsylvania, when may a parking permit or air freshener hang from your rearview mirror?",
+    "prompt": "In Pennsylvania, when may a parking permit or placard hang from your rearview mirror?",
     "choices": [
       "Any time, if it is smaller than 3 inches",
       "Any time, if it is a handicap placard",
@@ -790,9 +790,9 @@
       "No; adults over 21 are not required to wear seat belts"
     ],
     "answer": 0,
-    "explanation": "For drivers 18 and older, the seat belt ticket is issued only when police stop you for another violation. Belt violations involving anyone under 18 are primary offenses.",
+    "explanation": "For drivers 18 and older, PennDOT says the seat belt ticket comes only when police pull you over for another violation. Drivers and passengers under 18 must always buckle up.",
     "difficulty": 3,
-    "ref": "PennDOT Seat Belts page (pa.gov)",
+    "ref": "PennDOT Seat Belts page (pa.gov); 75 Pa.C.S. § 4581(b)",
     "states": [
       "PA"
     ]
@@ -1259,13 +1259,13 @@
     "topic": "signals-markings",
     "prompt": "In Pennsylvania you face a steady red arrow pointing right, with no sign prohibiting turns on red. What may you do?",
     "choices": [
-      "Wait for a green arrow before turning",
+      "Turn right only after the arrow changes to yellow",
       "Turn right without stopping if the way is clear",
       "Turn only if a police officer waves you on",
       "Stop, yield to pedestrians and traffic, then turn right, the same as at a steady red light"
     ],
     "answer": 3,
-    "explanation": "Pennsylvania allows the same turns on a steady red arrow as on a steady red light. You must stop first and yield.",
+    "explanation": "The Pennsylvania Driver's Manual says the same turns allowed on a steady red light are allowed on a steady red arrow. You must stop first and yield to pedestrians and other traffic.",
     "difficulty": 3,
     "ref": "Pennsylvania Driver's Manual, p. 11",
     "states": [
@@ -1900,6 +1900,44 @@
     ]
   },
   {
+    "id": "pa.car.101",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Assuming no police officer directs you otherwise, where is it illegal to stop or park in Pennsylvania?",
+    "choices": [
+      "Within an intersection",
+      "25 feet from a fire hydrant",
+      "35 feet from a stop sign at the side of the road",
+      "60 feet from the nearest rail of a railroad crossing"
+    ],
+    "answer": 0,
+    "explanation": "Except in emergencies or when police direct you, you may never stop, stand or park within an intersection. The other spots are beyond the 15-foot hydrant, 30-foot stop sign and 50-foot railroad limits.",
+    "difficulty": 2,
+    "ref": "Pennsylvania Driver's Manual, p. 57",
+    "states": [
+      "PA"
+    ]
+  },
+  {
+    "id": "pa.car.102",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You are stopped at a steady red light in Pennsylvania and want to turn right. There is no NO TURN ON RED sign. What may you do?",
+    "choices": [
+      "Turn right after stopping and yielding to pedestrians and other traffic",
+      "Turn right without stopping if no cars are coming",
+      "Wait for the light to turn green before turning",
+      "Turn right only if a police officer signals you"
+    ],
+    "answer": 0,
+    "explanation": "Pennsylvania allows a right turn on a steady red light unless a NO TURN ON RED sign is posted. You must stop first and yield to pedestrians and other traffic.",
+    "difficulty": 1,
+    "ref": "Pennsylvania Driver's Manual, p. 11",
+    "states": [
+      "PA"
+    ]
+  },
+  {
     "id": "pa.mc.001",
     "track": "motorcycle",
     "topic": "mc-laws",
@@ -2058,12 +2096,12 @@
     "prompt": "Besides holding the permit for 6 months with 65 hours of practice, what must a rider under 18 complete to get a Pennsylvania motorcycle license?",
     "choices": [
       "A second written knowledge test at age 17",
-      "A Pennsylvania Motorcycle Safety Program Basic/Beginner Rider course",
+      "A Pennsylvania Motorcycle Safety Program Beginner Riding Clinic",
       "10 hours of night riding",
       "A commercial driving course"
     ],
     "answer": 1,
-    "explanation": "Riders under 18 must complete a Pennsylvania Motorcycle Safety Program beginner course, plus 6 months on the permit and 65 hours of supervised riding.",
+    "explanation": "Riders under 18 must hold the permit for at least 6 months, log 65 hours, and pass the Pennsylvania Motorcycle Safety Program Beginner Riding Clinic.",
     "difficulty": 2,
     "ref": "PennDOT Motorcycle Permit Process FAQs (pa.gov)",
     "states": [
@@ -2074,7 +2112,7 @@
     "id": "pa.mc.010",
     "track": "motorcycle",
     "topic": "mc-laws",
-    "prompt": "How often may you apply for a Pennsylvania motorcycle learner's permit?",
+    "prompt": "A Pennsylvania motorcycle learner's permit cannot be renewed. How many times may you reapply for one?",
     "choices": [
       "No more than three times in a five-year period",
       "Once a year with no limit",
@@ -2082,7 +2120,7 @@
       "Once, after which you must take a course"
     ],
     "answer": 0,
-    "explanation": "A motorcycle learner's permit cannot be renewed, and you may reapply no more than three times in a five-year period, passing the knowledge test each time.",
+    "explanation": "A motorcycle learner's permit cannot be renewed. PennDOT says you may reapply no more than three times in a five-year period, passing the vision screening and knowledge test again.",
     "difficulty": 3,
     "ref": "PennDOT Motorcycle Permit Process FAQs (pa.gov)",
     "states": [

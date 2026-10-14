@@ -11,7 +11,7 @@
       "0.08%"
     ],
     "answer": 3,
-    "explanation": "Illinois law makes it illegal to drive with a BAC of .08% or more. Other states' limits do not apply here.",
+    "explanation": "Illinois law makes it illegal to drive with a BAC of .08% or more. You can still be convicted of DUI below .08% if your driving ability is impaired.",
     "states": [
       "IL"
     ],
@@ -177,7 +177,7 @@
     "prompt": "An adult in Illinois buys cannabis legally and drives home with it. How must it be carried in the vehicle?",
     "choices": [
       "Anywhere in the vehicle, as long as it was bought legally",
-      "In the glove box, unopened",
+      "In a closed paper bag on the back seat",
       "In a sealed, odor-proof, child-resistant container",
       "Only in the trunk of the vehicle"
     ],
@@ -212,7 +212,7 @@
     "id": "il.car.012",
     "track": "car",
     "topic": "alcohol-drugs",
-    "prompt": "Which of these situations can make a DUI an Aggravated DUI (a felony) in Illinois?",
+    "prompt": "Which of these situations can make a DUI an Aggravated DUI in Illinois?",
     "choices": [
       "Committing DUI while driving without a valid license or insurance",
       "Committing a first DUI with a BAC of 0.09%",
@@ -329,7 +329,7 @@
     "prompt": "Which activity on a phone while driving does Illinois law specifically prohibit, even for adults?",
     "choices": [
       "Listening to music through the car speakers",
-      "Following voice navigation from a mounted phone",
+      "Adjusting the car's climate controls",
       "Joining a video conference such as a Zoom call",
       "Talking through a single-sided earpiece if 19 or older"
     ],
@@ -896,7 +896,7 @@
     "id": "il.car.048",
     "track": "car",
     "topic": "laws-licensing",
-    "prompt": "What is the penalty for a first conviction for passing a stopped school bus in Illinois?",
+    "prompt": "What is the penalty in Illinois for a conviction for passing a stopped school bus with its stop arm extended?",
     "choices": [
       "License suspension, a mandatory $300 fine and community service",
       "A $30 fine only",
@@ -1683,7 +1683,7 @@
       "A license suspension of at least 30 days"
     ],
     "answer": 3,
-    "explanation": "A driver under 21 convicted of two or more moving violations within 24 months faces a minimum 30-day suspension. Adults are suspended after three violations in 12 months.",
+    "explanation": "A driver under 21 convicted of two or more moving violations within 24 months faces a minimum 30-day suspension. For adults, suspension may follow three traffic violation convictions in 12 months.",
     "states": [
       "IL"
     ],
@@ -1770,15 +1770,15 @@
     "id": "il.car.094",
     "track": "car",
     "topic": "laws-licensing",
-    "prompt": "What minimum visual acuity do you need for an Illinois driver's license without restrictions?",
+    "prompt": "Illinois' vision standard for a driver's license requires a minimum visual acuity of what, with or without corrective lenses?",
     "choices": [
-      "20/20 without glasses",
-      "20/70 with glasses",
-      "20/40, with or without corrective lenses",
-      "20/100 in either eye"
+      "20/40",
+      "20/20",
+      "20/30",
+      "20/100"
     ],
-    "answer": 2,
-    "explanation": "Illinois requires 20/40 acuity with or without corrective lenses. Drivers with acuity between 20/41 and 20/70 are limited to daylight driving only.",
+    "answer": 0,
+    "explanation": "The minimum is 20/40 with or without corrective lenses. Drivers whose acuity is between 20/41 and 20/70 are limited to daylight driving only.",
     "states": [
       "IL"
     ],
@@ -1803,6 +1803,120 @@
     ],
     "difficulty": 2,
     "ref": "Illinois Rules of the Road 2026, p. 16"
+  },
+  {
+    "id": "il.car.096",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age to get an Illinois driver's license?",
+    "choices": [
+      "16",
+      "15",
+      "17",
+      "18"
+    ],
+    "answer": 0,
+    "explanation": "You must be at least 16 to get an Illinois driver's license. At 15 you can only get an instruction permit, and drivers under 18 must finish driver education and 50 practice hours first.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 1,
+    "ref": "Illinois Rules of the Road 2026, p. 7"
+  },
+  {
+    "id": "il.car.097",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "An Illinois driver turns 18 and enters the Full Licensing Phase. Which GDL rule still applies to them?",
+    "choices": [
+      "No phone use at all while driving, even hands-free, until age 19",
+      "The 10 p.m. weekday nighttime driving restriction",
+      "The one-passenger-under-20 limit",
+      "Supervision by an adult age 21 or older"
+    ],
+    "answer": 0,
+    "explanation": "In the Full Licensing Phase (ages 18-20) no age-related restrictions apply, except that any phone use while driving, including hands-free, is banned for drivers under 19 except in an emergency.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 3,
+    "ref": "Illinois Rules of the Road 2026, p. 22"
+  },
+  {
+    "id": "il.car.098",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 35-year-old Illinois driver wants to send a quick text while driving on an open road. Is this legal?",
+    "choices": [
+      "No, texting while driving is illegal for all drivers",
+      "Yes, for drivers 19 and older",
+      "Yes, if the phone is mounted on the dashboard",
+      "Yes, if the vehicle is going under 30 mph"
+    ],
+    "answer": 0,
+    "explanation": "Illinois law prohibits texting, using handheld cellphones and other electronic communications while driving, at any age. Being 19 or older only allows hands-free calling.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 1,
+    "ref": "Illinois Rules of the Road 2026, p. 25"
+  },
+  {
+    "id": "il.car.099",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "According to the Illinois handbook, when may you drive at the maximum posted speed limit?",
+    "choices": [
+      "Only under safe conditions",
+      "At any time, as long as you do not exceed it",
+      "Only on interstates and tollways",
+      "Only during daylight hours"
+    ],
+    "answer": 0,
+    "explanation": "You may drive at the maximum allowable speed only under safe conditions. You must slow down when approaching intersections, curves, hill tops and narrow or winding roads.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 1,
+    "ref": "Illinois Rules of the Road 2026, p. 27"
+  },
+  {
+    "id": "il.car.100",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Under Illinois law, where is stopping, standing, or parking prohibited even if no sign is posted?",
+    "choices": [
+      "Within an intersection",
+      "On a residential street at night",
+      "Next to an unpainted curb",
+      "Within 100 feet of a mailbox"
+    ],
+    "answer": 0,
+    "explanation": "Statewide rules prohibit stopping, standing or parking on a sidewalk, on a crosswalk, or within an intersection, as well as double parking and parking on bridges or railroad tracks.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 1,
+    "ref": "Illinois Rules of the Road 2026, p. 38"
+  },
+  {
+    "id": "il.car.101",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless another limit is posted, what is the speed limit in an Illinois alley?",
+    "choices": [
+      "15 mph",
+      "10 mph",
+      "20 mph",
+      "25 mph"
+    ],
+    "answer": 0,
+    "explanation": "The default limit in alleys is 15 mph, compared with 30 mph in city/town areas and 20 mph in school zones when children are present.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 2,
+    "ref": "Illinois Rules of the Road 2026, p. 27"
   },
   {
     "id": "il.mc.001",
@@ -1908,10 +2022,10 @@
       "Only the written motorcycle test",
       "50 hours of supervised motorcycle riding",
       "Nothing beyond a Class D license",
-      "A motorcycle training course approved by IDOT, plus the motorcycle exam"
+      "A motorcycle training course approved by IDOT"
     ],
     "answer": 3,
-    "explanation": "Riders age 16 or 17 must complete an IDOT-approved motorcycle training course in addition to passing the separate motorcycle examination.",
+    "explanation": "Riders age 16 or 17 must complete a motorcycle training course approved by the Illinois Department of Transportation (IDOT) to get a motorcycle classification. A written test alone is not enough at that age.",
     "states": [
       "IL"
     ],

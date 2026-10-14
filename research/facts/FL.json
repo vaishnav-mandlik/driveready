@@ -1,0 +1,803 @@
+{
+  "code": "FL",
+  "name": "Florida",
+  "agency": {
+    "name": "Florida Department of Highway Safety and Motor Vehicles",
+    "abbreviation": "FLHSMV",
+    "website": "https://www.flhsmv.gov"
+  },
+  "handbook": {
+    "title": "Official Florida Driver License Handbook",
+    "edition": "rev. 08/2023 (current FLHSMV edition as of Oct 2026)",
+    "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+  },
+  "knowledgeTest": {
+    "questions": 50,
+    "passingScore": 40,
+    "passingPercent": 80,
+    "roadSigns": null,
+    "timeLimitMinutes": null,
+    "format": "Class E Knowledge Exam: 50 multiple-choice questions on Florida traffic laws, safe driving practices and identifying traffic controls; taken at a service center, through an approved third-party administrator (online for applicants under 18), or through a DELAP high school driver education course",
+    "languages": "English only (FLHSMV: 'Class E knowledge examinations are available in English only.')",
+    "retestWait": "No waiting period stated by FLHSMV; the Class E Knowledge Exam re-test fee is $10 (driving skills re-test $20).",
+    "notes": "Same Class E Knowledge Exam for teens and adults; minimum age 15 for a learner's license. First-time applicants must complete a driver education course first: since August 1, 2025, a 6-hour DETS course if under 18, or the 4-hour TLSAE course if 18 or older. Applicants under 18 may take the exam online through a third-party administrator with a notarized Parent Proctoring Form; FLHSMV's third-party administrator agreement sets a 60-minute limit on those exams, and third-party passers may be randomly re-tested at no fee. There is no separate road-signs section. A Motorcycle Only license requires passing the same Class E knowledge exam plus the Basic RiderCourse.",
+    "sourceUrl": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/class-e-knowledge-exam-driving-skills-test/"
+  },
+  "motorcycleTest": null,
+  "cdlTest": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC",
+      "detail": "A driver 21 or older has the license administratively suspended at arrest with a breath or blood alcohol level of .08 or above (or for refusing a test). You can also be charged with DUI for driving while under the influence of alcohol, controlled substances, prescriptions or over-the-counter medications.",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 33,
+        "quote": "At the time of arrest, your license will be administratively suspended if you have a breath or blood alcohol level (BAL) of .08 or above"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% BAC (zero tolerance)",
+      "detail": "A driver under 21 with a BAL of .02 or higher automatically has the driving privilege suspended for six months. Under 21 with .05 or higher must also attend a substance abuse course.",
+      "number": 0.02,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 34,
+        "quote": "Any driver under 21 years of age who is stopped by law enforcement and has a BAL of .02 or higher will automatically have their driving privilege suspended for six months."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC (any alcohol = 24-hour out-of-service)",
+      "detail": "A commercial vehicle driver with any alcohol in the body is placed out of service for 24 hours; at 0.04 or more the CDL disqualification penalties of s. 322.61 also apply.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0322/Sections/0322.62.html",
+        "page": null,
+        "quote": "a person who violates this section and who has a blood-alcohol level of 0.04 or more grams of alcohol per 100 milliliters of blood, or a breath-alcohol level of 0.04 or more grams of alcohol per 210 liters of breath is subject to the penalty provided in s. 322.61."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusal: 1-year suspension (18 months for a second refusal)",
+      "detail": "By signing your license you agree to breath, blood or urine testing. A first refusal means an automatic one-year suspension; a second refusal means 18 months and a first-degree misdemeanor. Since 2025 (s. 316.1939), a first refusal is also a second-degree misdemeanor; the 08/2023 handbook predates this.",
+      "number": 1,
+      "unit": "year",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 34,
+        "quote": "If you refuse to take the tests when asked, your license will automatically be suspended for one year."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "$500-$1,000 fine, license revoked at least 180 days, up to 6 months jail",
+      "detail": "First DUI conviction: $500-$1,000 fine ($1,000-$2,000 if BAL .15+ or a minor in the vehicle), 50 hours community service, up to 1 year probation, up to 6 months jail (9 months if BAL .15+ or minor), minimum 180-day revocation, and 12 hours of DUI school.",
+      "number": 180,
+      "unit": "days",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 34,
+        "quote": "Fine: $500–$1,000 (BAL .15 or higher or minor in the vehicle, not less than $1,000 or more than $2,000)."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "open_container",
+      "value": "No open alcohol containers for drivers or passengers",
+      "detail": "Drivers and passengers may not possess an open container or drink alcohol in a moving vehicle or in a vehicle parked on a road. A container in a locked glove box, locked trunk or other locked non-passenger area is not considered in the driver's possession.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0316/Sections/0316.1936.html",
+        "page": null,
+        "quote": "It is unlawful and punishable as provided in this section for any person to possess an open container of an alcoholic beverage or consume an alcoholic beverage while operating a vehicle in the state or while a passenger in or on a vehicle being operated in the state."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15 years old",
+      "detail": "A learner's license requires being at least 15 and passing the vision and Class E Knowledge exams. Since August 1, 2025, first-time applicants under 18 must complete a 6-hour Driver Education Traffic Safety (DETS) course (the 08/2023 handbook still says TLSAE); a DELAP school driver education course can substitute.",
+      "number": 15,
+      "unit": "years",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 16,
+        "quote": "Be at least 15 years old."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "12 months or until age 18",
+      "detail": "Drivers under 18 must hold the learner's license for 12 months (or until turning 18) with no moving-violation convictions (one is allowed if adjudication is withheld). FLHSMV says a learner convicted of a moving violation cannot get a driver license until one year from the conviction date.",
+      "number": 12,
+      "unit": "months",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 16,
+        "quote": "Must hold a learner’s license for 12 months or until the 18th birthday, whichever comes first."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "50 hours, including 10 at night",
+      "detail": "A parent, legal guardian or responsible adult 21+ must certify 50 hours of driving experience, 10 of them at night, before a driver under 18 gets a Class E license.",
+      "number": 50,
+      "unit": "hours",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 16,
+        "quote": "must certify that the driver has had at least 50 hours of driving experience, of which 10 hours were at night."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Licensed driver age 21+ in the front passenger seat",
+      "detail": "A learner must always be accompanied by a licensed driver at least 21 years old sitting in the closest seat to the right of the driver. Learners may drive only in daylight for the first 3 months, then until 10 p.m.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 9,
+        "quote": "Always drive accompanied by a licensed driver, age 21+, who rides in the closest seat to the right of the driver."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 years old",
+      "detail": "A Class E license can be issued at 16 after holding a learner's license for 12 months, logging 50 hours (10 at night), and passing the driving skills test.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 16,
+        "quote": "Be at least 16 years old."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "Age 16: no driving 11 p.m.-6 a.m.; age 17: no driving 1 a.m.-5 a.m.",
+      "detail": "Exceptions: driving to or from work, or accompanied by a licensed driver 21 or older. The limits end at 18.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 33,
+        "quote": "A 16-year-old licensed driver may not drive between 11 pm and 6 am unless driving to or from work or accompanied by a licensed driver age 21 or older."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "18 years old",
+      "detail": "At 18, licensed drivers have no time-of-day restrictions.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/frequently-asked-questions/",
+        "page": null,
+        "quote": "18 years old with a driver license – Driving is allowed at all hours without an adult in the car."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "Handheld device use banned in school crossings, school zones and active work zones",
+      "detail": "Florida has no general handheld ban, but using a wireless device in a handheld manner while driving in a designated school crossing, school zone, or a work zone where workers are present is illegal (3 points). Hands-free use is allowed (s. 316.306).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 42,
+        "quote": "Florida law prohibits a person from operating a motor vehicle while using a wireless communications device in a handheld manner in a designated school crossing, school zone, or work zone."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "texting_ban",
+      "value": "Texting while driving is banned for all drivers",
+      "detail": "Florida's Ban on Texting While Driving Law prohibits typing or reading texts, emails or instant messages while the vehicle is being driven; a stationary vehicle is not being operated.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 42,
+        "quote": "It is illegal in Florida to operate a motor vehicle while texting."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Driver, front-seat passengers, and all passengers under 18",
+      "detail": "The driver is charged if any passenger under 18 is unbelted; passengers 18 or older are charged for their own violation.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 36,
+        "quote": "All drivers, front seat passengers, and passengers under the age of 18 wear safety belts"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Under 4: safety seat; ages 4-5: safety seat or booster",
+      "detail": "Children under 4 must ride in a child safety seat; children 4 and 5 in a safety seat or booster seat. Children under 13 should ride in the rear seat, and a rear-facing seat must never be placed in front of an airbag.",
+      "number": 5,
+      "unit": "years",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 36,
+        "quote": "Children under age 4 must be in a safety seat and children ages 4 and 5 must be in either a safety seat or a booster seat."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Drive at a speed safe for conditions",
+      "detail": "Posted limits are the fastest speed under favorable conditions; you must slow down for weather, road and traffic conditions. There is no 10 MPH 'speeding buffer'.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 76,
+        "quote": "Speed limits show the fastest speed you may drive under favorable conditions."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "20 MPH",
+      "detail": "Florida's standard school zone limit is 20 MPH during posted times or when the beacon flashes. Speeding fines are doubled in school and work zones.",
+      "number": 20,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 76,
+        "quote": "School Zones: 20 MPH"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "30 MPH",
+      "detail": "Unless otherwise posted, the limit in municipal, business or residential areas is 30 MPH.",
+      "number": 30,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 76,
+        "quote": "Municipal, Business, or Residential Area: 30 MPH"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "30 MPH",
+      "detail": "Unless otherwise posted, the limit in municipal, business or residential areas is 30 MPH.",
+      "number": 30,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 76,
+        "quote": "Municipal, Business, or Residential Area: 30 MPH"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "55 MPH",
+      "detail": "Unless otherwise posted, the maximum on other Florida streets and highways is 55 MPH.",
+      "number": 55,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 76,
+        "quote": "Streets and Highways: 55 MPH"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "70 MPH",
+      "detail": "The maximum on limited access highways is 70 MPH; Florida speed limits are never higher than 70 MPH.",
+      "number": 70,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 76,
+        "quote": "Limited Access Highways: 70 MPH"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "50 MPH minimum where the posted limit is 70 MPH",
+      "detail": "Driving so slowly that you block or delay normal traffic is illegal. Slower traffic keeps right.",
+      "number": 50,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 76,
+        "quote": "On highways, when the posted speed limit is 70 MPH, the minimum speed limit is 50 MPH."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop unless a NO TURN ON RED sign is posted",
+      "detail": "Yield to pedestrians in the crosswalk and to other traffic before turning.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 59,
+        "quote": "After stopping, you may turn right if there is not a NO TURN ON RED sign and the way is clear."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "One-way street onto a one-way street with traffic moving left, after stopping",
+      "detail": "Same as right-on-red: stop first, then yield to pedestrians and traffic.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 59,
+        "quote": "You may turn left from a one-way street onto a one-way street that has traffic moving to the left."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 100 feet before turning",
+      "detail": "Turn signals are required when turning, changing lanes or overtaking. Using signals to tell drivers behind you to pass is illegal.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 77,
+        "quote": "You must give a turn signal at least 100 feet BEFORE making your turn."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull over to the nearest edge of the road and stop; do not follow a responding fire truck closer than 500 feet",
+      "detail": "Yield to emergency vehicles using sirens or flashing lights, stop until they pass, and do not block intersections. Separately, the handbook (p. 70) says it is against the law to follow a fire truck responding to an emergency closer than 500 feet.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 92,
+        "quote": "Pull over to the closest edge of the roadway immediately and stop until the emergency vehicle has passed."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "move_over_law",
+      "value": "Vacate the closest lane, or slow to 20 MPH below the limit (5 MPH if the limit is 20 or less)",
+      "detail": "Applies to stopped law enforcement, emergency, tow, sanitation, utility and road maintenance vehicles with warning lights, and to disabled vehicles with hazard lights, flares/signs, or people visibly present.",
+      "number": 20,
+      "unit": "mph below limit",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 73,
+        "quote": "If you cannot move over safely, you must slow down to a speed of 20 MPH below the posted speed limit."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop in both directions; opposite-direction traffic need not stop on a highway divided by a raised barrier or unpaved median 5+ feet wide",
+      "detail": "Painted lines are not barriers. Traffic moving in the same direction as the bus must always stop and stay stopped until the stop signal is withdrawn.",
+      "number": 5,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 97,
+        "quote": "If the highway is divided by a raised barrier or an unpaved median at least five feet wide, you do not have to stop if you are moving in the opposite direction of the bus."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "following_distance",
+      "value": "At least 4 seconds",
+      "detail": "Florida's handbook recommends a minimum four-second following distance in favorable conditions (p. 69), more in rain, low visibility or heavy traffic, and more than four seconds behind a motorcycle (p. 95).",
+      "number": 4,
+      "unit": "seconds",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 86,
+        "quote": "keep at least four seconds following distance and increase following distance during unfavorable weather or heavy traffic."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "headlights_required",
+      "value": "Sunset to sunrise (including twilight), and during any rain, smoke or fog",
+      "detail": "Florida law requires lighted lamps from sunset to sunrise and during any rain, smoke or fog. The handbook adds: when you turn on your windshield wipers, turn on your headlights, and never drive with only parking lights.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0316/Sections/0316.217.html",
+        "page": null,
+        "quote": "(a) At any time from sunset to sunrise including the twilight hours. Twilight hours shall mean the time between sunset and full night or between full night and sunrise. (b) During any rain, smoke, or fog."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "500 feet",
+      "detail": "Switch to low beams within 500 feet of an oncoming vehicle.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 81,
+        "quote": "Not use high beam headlights within 500 feet of an oncoming vehicle; use low beam headlights."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "300 feet",
+      "detail": "Switch to low beams within 300 feet of a vehicle you are following.",
+      "number": 300,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 81,
+        "quote": "Not use high beam headlights within 300 feet of the vehicle ahead of you; use low beam headlights."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet",
+      "detail": "Do not park within 15 feet of a fire hydrant.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 74,
+        "quote": "15 feet of a fire hydrant."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "Not on a crosswalk; not within 20 feet of a crosswalk at an intersection",
+      "detail": "The handbook bans parking on crosswalks; the statute also bars standing or parking within 20 feet of a crosswalk at an intersection.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0316/Sections/0316.1945.html",
+        "page": null,
+        "quote": "Within 20 feet of a crosswalk at an intersection."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_intersection",
+      "value": "20 feet",
+      "detail": "Do not park in an intersection or within 20 feet of one.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 74,
+        "quote": "20 feet of an intersection."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet",
+      "detail": "Do not park within 30 feet of any flashing signal, stop sign or traffic signal.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 74,
+        "quote": "30 feet of any flashing signal, stop sign, or traffic signal."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet",
+      "detail": "Do not park within 50 feet of a railroad crossing.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 74,
+        "quote": "50 feet of a railroad crossing."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet of the entrance",
+      "detail": "Do not park within 20 feet of the entrance to a fire, ambulance or rescue station.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 74,
+        "quote": "20 feet of the entrance to a fire, ambulance, or rescue station."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "Within 12 inches",
+      "detail": "Park parallel to the curb in the direction of traffic with the right-hand wheels within 12 inches of the curb. Florida law also requires taking the keys out before leaving the vehicle.",
+      "number": 12,
+      "unit": "inches",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 73,
+        "quote": "with right-hand wheels parallel to and within 12 inches of the curb or side of roadway."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "Between 15 and 50 feet from the nearest rail",
+      "detail": "When signals flash, a gate is down, a flagger signals, or a train is visible or audible nearby, stop no closer than 15 feet and no farther than 50 feet from the nearest rail. Never drive around or under a gate.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0316/Sections/0316.1575.html",
+        "page": null,
+        "quote": "must stop within 50 feet but not less than 15 feet from the nearest rail of such railroad and may not proceed until the railroad tracks are clear and he or she can do so safely."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet",
+      "detail": "Give bicyclists at least three feet of clearance and use caution or a slow speed when driving next to or passing them. Double solid yellow lines may be crossed to pass a bicyclist when it is safe (handbook p. 52).",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 89,
+        "quote": "Florida law requires that you give bicyclists a minimum of three feet of clearance and use caution/slow speed when driving next to or passing them."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Stop and remain stopped for pedestrians at marked crossings and intersections",
+      "detail": "Never pass a vehicle stopped at a crosswalk. Stop fully for a pedestrian with a white cane or guide dog.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 96,
+        "quote": "You must stop and remain stopped for pedestrians crossing a street or driveway at any marked crossing, or intersection."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Written report to FLHSMV within 10 days if no officer report",
+      "detail": "Police complete a report if a crash involves DUI, death, injury, or a vehicle needing a tow. Otherwise, a driver whose crash caused vehicle or property damage must file a written report with FLHSMV within 10 days.",
+      "number": 10,
+      "unit": "days",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 85,
+        "quote": "If the crash results in vehicle or property damage and does not require a law enforcement report, you must make a written report of the crash to FLHSMV within 10 days."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "$10,000 PIP and $10,000 property damage liability (PDL)",
+      "detail": "Required to register a vehicle under the No-Fault Law. Bodily injury liability is not required for most drivers but is required after certain offenses (for example $100,000/$300,000/$50,000 after a DUI).",
+      "number": 10000,
+      "unit": "USD",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 31,
+        "quote": "have a minimum of $10,000 in PIP AND a minimum of $10,000 in PDL coverage"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "point_system",
+      "value": "12 points in 12 months = 30-day suspension; 18 in 18 months = 3 months; 24 in 36 months = 1 year",
+      "detail": "Common values: speeding 15 MPH or less over = 3 points, 16+ over = 4, signal/sign violation = 4, passing a stopped school bus = 4, reckless driving = 4. Drivers under 18 with 6+ points in 12 months are restricted to Business Purposes Only.",
+      "number": 12,
+      "unit": "points",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 37,
+        "quote": "12 points within a 12-month period—30 day suspension"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Required unless 21+ AND carrying $10,000 in medical insurance",
+      "detail": "Riders under 21 must always wear a helmet. Riders 21 and older may ride without one only with a policy giving at least $10,000 in medical benefits. Eye protection is required for all operators (s. 316.211(2)).",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 95,
+        "quote": "Operators of motorcycles must wear a helmet unless they are 21 or older AND carry a medical insurance policy providing for at least $10,000 in medical benefits for injuries."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Illegal",
+      "detail": "Motorcycles may not ride between lanes or rows of vehicles, may not pass in the same lane as the vehicle being passed, and may ride no more than two abreast in one lane.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0316/Sections/0316.209.html",
+        "page": null,
+        "quote": "No person shall operate a motorcycle between lanes of traffic or between adjacent lines or rows of vehicles."
+      },
+      "status": "verified"
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Learner's license: daylight only for 3 months, then until 10 p.m.",
+      "summary": "For the first three months a learner may drive only during daylight hours; after that, until 10 p.m. A licensed driver 21+ must always be in the front passenger seat.",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 33,
+        "quote": "Minors holding a learner’s license must be accompanied by a licensed driver age 21 or older, and must only drive during daylight hours. After 3 months you may drive until 10 pm."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Under-18 drivers with 6 points are restricted to Business Purposes Only",
+      "summary": "A driver under 18 who gets 6 or more points within 12 months is automatically restricted to Business Purposes Only driving for one year; each additional point extends the restriction by 90 days.",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 9,
+        "quote": "Drivers under the age of 18 who accumulate six or more points within a 12-month period are automatically restricted to driving for “Business Purposes ONLY” for one year."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Driver education course before your first license (DETS under 18, TLSAE 18+)",
+      "summary": "Since August 1, 2025, anyone under 18 who has never held a license must complete a 6-hour Driver Education Traffic Safety (DETS) course before applying; first-time applicants 18 and older take the 4-hour Traffic Law and Substance Abuse Education (TLSAE) course. A DELAP school driver education course can substitute. (The 08/2023 handbook predates DETS.)",
+      "source": {
+        "url": "https://www.flhsmv.gov/driver-licenses-id-cards/education-courses/driver-improvement-schools/driver-education-traffic-safety-dets/",
+        "page": null,
+        "quote": "As of August 1, 2025, individuals who are under 18 years old and have never held a driver license from any other state, country or jurisdiction must complete a 6-hour DETS course before applying for a license in Florida."
+      },
+      "status": "corrected"
+    },
+    {
+      "title": "Move out of the left lane for faster traffic",
+      "summary": "Florida law requires a driver to move out of the left lane when being overtaken from behind by a faster vehicle.",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 75,
+        "quote": "Florida Law states that a driver must move out of the left lane when being overtaken from behind by another vehicle traveling at a faster speed."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Move Over Law covers disabled vehicles",
+      "summary": "The Move Over Law also protects disabled vehicles showing hazard lights, using flares or signs, or with people visibly present, in addition to emergency, tow, sanitation, utility and road maintenance vehicles.",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 73,
+        "quote": "It also protects disabled motor vehicles that are stopped and displaying warning lights/hazard lights, using emergency flares or signage or where one or more persons are visibly present."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Two-lane Move Over rule",
+      "summary": "On a two-lane road you must slow to 20 MPH below the posted limit, or to 5 MPH if the limit is 20 MPH or less.",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 73,
+        "quote": "If the speed limit is 20 MPH or less, you must travel at 5 MPH."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Remove the keys when leaving a parked vehicle",
+      "summary": "Florida law requires taking the keys out of the vehicle before leaving it.",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 73,
+        "quote": "Florida law requires that you take the keys out of your vehicle before leaving it."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Passing a stopped school bus: 4 points and a driver improvement course",
+      "summary": "Passing a stopped school bus is a moving violation with 4 points and a required basic driver improvement course. (The handbook's $265/$465 minimum fines predate the current statute, s. 318.18(5), which sets minimum civil penalties of $200, or $400 for passing on the side where children enter and exit.)",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 35,
+        "quote": "Must complete a basic driver improvement course"
+      },
+      "status": "corrected"
+    },
+    {
+      "title": "No 'speeding buffer'",
+      "summary": "Florida does not allow driving up to 10 MPH over the limit; any speed over the limit can be ticketed.",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 76,
+        "quote": "You are not allowed to drive up to 10 MPH over the speed limit and may receive a citation for speeding."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Headlights on with windshield wipers",
+      "summary": "Whenever you turn on your windshield wipers (rain), turn on your headlights.",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 80,
+        "quote": "When you turn on your windshield wipers, turn on your headlights."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Disabled vehicles on limited access highways: 6-hour limit",
+      "summary": "Never stop on the pavement, shoulder or ramp of a limited access highway except in an emergency; a vehicle disabled by mechanical failure or a crash may stay on the shoulder for no more than six hours.",
+      "source": {
+        "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0316/Sections/0316.1945.html",
+        "page": null,
+        "quote": "a vehicle which is disabled or in a condition improper to be driven as a result of mechanical failure or crash may be parked on such shoulder for a period not to exceed 6 hours."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Funeral processions have the right-of-way",
+      "summary": "Drivers must yield to funeral processions; once the lead vehicle enters an intersection the rest may follow through regardless of traffic signals.",
+      "source": {
+        "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+        "page": 92,
+        "quote": "Motorists, bicyclists, and pedestrians must yield the right-of-way to funeral processions."
+      },
+      "status": "verified"
+    }
+  ],
+  "officialPracticeTests": [
+    "https://www.flhsmv.gov/pdf/teen/testyourknowledge.pdf"
+  ],
+  "gaps": [
+    "provisional_passenger_restriction: Florida has no passenger limit for teen drivers; neither the handbook nor the FLHSMV GDL page (checked Oct 2026) lists one.",
+    "novice_phone_ban: Florida has no teen-specific phone ban; the handbook and FLHSMV teen-law page list only the all-driver texting ban and the school/work-zone handheld ban.",
+    "motorcycleTest: Florida has no separate motorcycle knowledge test; a motorcycle endorsement requires a Class E license plus the Basic RiderCourse (BRC), and a Motorcycle Only license requires the same Class E knowledge test plus the BRC (flhsmv.gov motorcycle-rider-education-endorsements).",
+    "knowledgeTest.timeLimitMinutes: FLHSMV does not publish a time limit for exams at service centers; only its third-party administrator agreement (flhsmv.gov/pdf/tpa/knowledge_exam_agreement_contract.pdf) sets 60 minutes for third-party exams.",
+    "implied_consent: the 08/2023 handbook says a first refusal is a one-year suspension; s. 316.1939 (amended by ch. 2025-121) now also makes a first refusal a second-degree misdemeanor.",
+    "texting points: the handbook points table lists 3 points for texting, but s. 316.305(4) makes a first texting violation a nonmoving infraction; questions avoid texting point values.",
+    "officialPracticeTests: FLHSMV mentions a 'Class E Knowledge Practice Test' but links no online test; only the 'Test Your Knowledge' study-question PDF (2017) is published.",
+    "school bus fines: the handbook (p. 35) lists minimum fines of $265/$465, but s. 318.18(5) now sets minimum civil penalties of $200/$400; questions avoid fine amounts.",
+    "TLSAE vs DETS: the 08/2023 handbook (pp. 16, 25) says all first-time applicants take TLSAE; FLHSMV's DETS page says under-18 first-time applicants take a 6-hour DETS course as of Aug 1, 2025. The website is followed."
+  ]
+}
