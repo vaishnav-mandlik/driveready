@@ -1,0 +1,206 @@
+[
+  {
+    "id": "cdl.scn.001",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Truck A cannot make this right turn without using another lane. Why does the driver keep the rear of the truck close to the curb?",
+    "choices": [
+      "So the trailer wheels can roll up over the curb without damage",
+      "So other drivers cannot pass on the right during the turn",
+      "So the truck uses less fuel in the turn",
+      "So the driver can keep the rear in view in the right-side mirror"
+    ],
+    "answer": 1,
+    "explanation": "Turn slowly, keep the rear of your vehicle close to the curb, and turn wide only as you complete the turn. Keeping the rear near the curb stops other drivers from passing you on the right.",
+    "sign": "SCN-CDL-RIGHT-TURN",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.7.6"
+  },
+  {
+    "id": "cdl.scn.002",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "As truck A swings wide to finish its turn, it must cross into the oncoming lane of the cross street. A car is coming toward it. What should the driver do?",
+    "choices": [
+      "Back up to give the oncoming car more room",
+      "Sound the horn and keep turning at the same speed so the car will stop",
+      "Give the oncoming car room to go by or to stop, but do not back up",
+      "Stop in the middle of the turn and wave the oncoming car around the truck"
+    ],
+    "answer": 2,
+    "explanation": "If you must cross into the oncoming lane to make a turn, watch for vehicles coming toward you and give them room to go by or to stop. Do not back up for them, because you might hit someone behind you.",
+    "sign": "SCN-CDL-RIGHT-TURN",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.7.6"
+  },
+  {
+    "id": "cdl.scn.003",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "What did the driver of truck A in the picture do wrong?",
+    "choices": [
+      "Swung wide to the left before starting the right turn",
+      "Signaled the right turn much too early, well before the corner",
+      "Came to a full stop at the stop line before starting the turn",
+      "Turned on the four-way flashers too late"
+    ],
+    "answer": 0,
+    "explanation": "Do not turn wide to the left as you start a right turn. A following driver may think you are turning left and try to pass on your right, and you may crash into that vehicle as you complete the turn.",
+    "sign": "SCN-CDL-RIGHT-TURN-WRONG",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.7.6"
+  },
+  {
+    "id": "cdl.scn.004",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Why is the situation in the picture dangerous?",
+    "choices": [
+      "Car B is in the truck's lane illegally, so the truck has no duty to avoid it",
+      "The truck is too close to the curb to finish the turn",
+      "Car B is waiting to turn left in front of the truck",
+      "Truck A may hit car B when it finishes its right turn"
+    ],
+    "answer": 3,
+    "explanation": "By swinging left first, the driver left room at the curb. Car B pulled into it, and the truck can hit B as it completes the right turn. Keep the rear close to the curb and swing wide only as you finish the turn.",
+    "sign": "SCN-CDL-RIGHT-TURN-WRONG",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.7.6"
+  },
+  {
+    "id": "cdl.scn.005",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "This intersection has two left-turn lanes. Why is truck A using the right-hand one?",
+    "choices": [
+      "The inner lane is meant only for cars, pickups and other light vehicles",
+      "From the inner lane it may have to swing right to make the turn",
+      "Trucks must always stay in the far-right lane of any road",
+      "The right-hand lane gets a longer green arrow"
+    ],
+    "answer": 1,
+    "explanation": "If there are two turning lanes, always take the right turn lane. Starting in the inside lane may force you to swing right to make the turn, and drivers on your left are easier to see.",
+    "sign": "SCN-CDL-DUAL-LEFT",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.7.6"
+  },
+  {
+    "id": "cdl.scn.006",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "When should truck A in the picture begin turning left?",
+    "choices": [
+      "As soon as the front wheels pass the stop line",
+      "Before entering the intersection, to save space",
+      "After reaching the center of the intersection",
+      "Only once car B has finished its own turn"
+    ],
+    "answer": 2,
+    "explanation": "On a left turn, make sure you have reached the center of the intersection before you start turning. If you turn too soon, off-tracking can make the left side of your vehicle hit another vehicle.",
+    "sign": "SCN-CDL-DUAL-LEFT",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.7.6"
+  },
+  {
+    "id": "cdl.scn.007",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Why is truck A backing toward the driver's side?",
+    "choices": [
+      "The driver can watch the rear of the truck through the side window",
+      "Backing to the left is required by law whenever you use a loading dock",
+      "It keeps the trailer from off-tracking",
+      "It lets the helper ride safely on the rear bumper while backing"
+    ],
+    "answer": 0,
+    "explanation": "Back and turn toward the driver's side so you can see better. You can watch the rear of the vehicle out the side window. Backing toward the right side is very dangerous because you cannot see as well.",
+    "sign": "SCN-CDL-BACKING",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.2.4"
+  },
+  {
+    "id": "cdl.scn.008",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Where should the helper in the picture stand while truck A backs up?",
+    "choices": [
+      "Inside the dock building, out of the way and out of the driver's view",
+      "On the passenger side of the cab, by the door",
+      "Directly behind the truck in its path, so the driver backs toward them",
+      "Near the back of the truck, where the driver can see them"
+    ],
+    "answer": 3,
+    "explanation": "Use a helper when you can, because there are blind spots you cannot see. The helper should stand near the back of the vehicle where you can see them, and you should agree on hand signals before you start.",
+    "sign": "SCN-CDL-BACKING",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 2.2.4"
+  },
+  {
+    "id": "cdl.scn.009",
+    "track": "cdl",
+    "topic": "cdl-passenger",
+    "prompt": "Bus A has stopped before the crossing as shown. What should the driver do next?",
+    "choices": [
+      "Listen and look both ways, opening the front door if it helps",
+      "Cross right away, because the bus has already come to a complete stop",
+      "Shift gears in the middle of the tracks to cross faster",
+      "Turn off the four-way flashers first, then look for trains on each track"
+    ],
+    "answer": 0,
+    "explanation": "Stop between 15 and 50 feet before the crossing, then listen and look in both directions for trains. Open the forward door if it improves your ability to see or hear an approaching train.",
+    "sign": "SCN-CDL-BUS-RAILROAD",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 4.3.5"
+  },
+  {
+    "id": "cdl.scn.010",
+    "track": "cdl",
+    "topic": "cdl-passenger",
+    "prompt": "Bus A has a manual transmission. What must the driver never do while crossing these tracks?",
+    "choices": [
+      "Keep a steady speed",
+      "Change gears",
+      "Look for a second train",
+      "Watch the traffic ahead"
+    ],
+    "answer": 1,
+    "explanation": "If your bus has a manual transmission, never change gears while crossing the tracks. Choose a gear that will carry you all the way across before you start.",
+    "sign": "SCN-CDL-BUS-RAILROAD",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 4.3.5"
+  },
+  {
+    "id": "cdl.scn.011",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Truck A in the picture is 40 feet long and traveling at 35 mph. At least how many seconds should the driver count before reaching the shadow car B just passed?",
+    "choices": [
+      "2 seconds",
+      "3 seconds",
+      "4 seconds",
+      "8 seconds"
+    ],
+    "answer": 2,
+    "explanation": "Below 40 mph you need at least one second for each 10 feet of vehicle length. A 40-foot truck needs at least 4 seconds. Count from when the vehicle ahead passes a landmark until you reach it.",
+    "sign": "SCN-CDL-FOLLOWING",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.7.1"
+  },
+  {
+    "id": "cdl.scn.012",
+    "track": "cdl",
+    "topic": "cdl-general",
+    "prompt": "Truck A, 40 feet long, speeds up to 55 mph. What is the minimum following distance now?",
+    "choices": [
+      "4 seconds",
+      "5 seconds",
+      "6 seconds",
+      "8 seconds"
+    ],
+    "answer": 1,
+    "explanation": "One second for each 10 feet of vehicle length below 40 mph, plus 1 second at greater speeds. A 40-foot truck above 40 mph needs at least 5 seconds.",
+    "sign": "SCN-CDL-FOLLOWING",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 2.7.1"
+  }
+]

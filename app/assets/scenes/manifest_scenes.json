@@ -1,5 +1,71 @@
 [
   {
+    "code": "SCN-CDL-RIGHT-TURN",
+    "name": "Truck right turn done correctly",
+    "category": "scenario",
+    "shape": "Illustration",
+    "colors": "",
+    "meaning": "Truck A turns right from the right lane: it keeps the rear of the truck close to the curb, goes forward into the intersection and swings wide only as it completes the turn.",
+    "license": "app-drawn",
+    "svgPath": "svg/SCN-CDL-RIGHT-TURN.svg",
+    "module": "scenes_cdl.py"
+  },
+  {
+    "code": "SCN-CDL-RIGHT-TURN-WRONG",
+    "name": "Truck swinging left before a right turn",
+    "category": "scenario",
+    "shape": "Illustration",
+    "colors": "",
+    "meaning": "Truck A signals right but has swung left across the center line before turning, leaving a gap at the curb where car B has pulled up on its right.",
+    "license": "app-drawn",
+    "svgPath": "svg/SCN-CDL-RIGHT-TURN-WRONG.svg",
+    "module": "scenes_cdl.py"
+  },
+  {
+    "code": "SCN-CDL-DUAL-LEFT",
+    "name": "Truck at a double left-turn lane",
+    "category": "scenario",
+    "shape": "Illustration",
+    "colors": "",
+    "meaning": "At an intersection with two left-turn lanes, truck A is in the right (outer) turn lane and car B is in the inner turn lane; both turn left.",
+    "license": "app-drawn",
+    "svgPath": "svg/SCN-CDL-DUAL-LEFT.svg",
+    "module": "scenes_cdl.py"
+  },
+  {
+    "code": "SCN-CDL-BACKING",
+    "name": "Backing toward the driver's side",
+    "category": "scenario",
+    "shape": "Illustration",
+    "colors": "",
+    "meaning": "Truck A is backing into a loading dock on the driver's (left) side of the truck, with a helper standing near the back where the driver can see them.",
+    "license": "app-drawn",
+    "svgPath": "svg/SCN-CDL-BACKING.svg",
+    "module": "scenes_cdl.py"
+  },
+  {
+    "code": "SCN-CDL-BUS-RAILROAD",
+    "name": "Bus stopped at a railroad crossing",
+    "category": "scenario",
+    "shape": "Illustration",
+    "colors": "",
+    "meaning": "Bus A has stopped with its four-way flashers on before a railroad crossing with no stop line, between 15 and 50 feet from the nearest rail.",
+    "license": "app-drawn",
+    "svgPath": "svg/SCN-CDL-BUS-RAILROAD.svg",
+    "module": "scenes_cdl.py"
+  },
+  {
+    "code": "SCN-CDL-FOLLOWING",
+    "name": "Following distance for a 40-foot truck",
+    "category": "scenario",
+    "shape": "Illustration",
+    "colors": "",
+    "meaning": "40-foot truck A follows car B; the driver counts the seconds from when B passes a shadow on the road until the truck reaches it.",
+    "license": "app-drawn",
+    "svgPath": "svg/SCN-CDL-FOLLOWING.svg",
+    "module": "scenes_cdl.py"
+  },
+  {
     "code": "SCN-4WAY-SAME-TIME",
     "name": "4-way stop: two cars arrive together",
     "category": "scenario",

@@ -41,6 +41,7 @@ export const universalQuestionLoaders: Record<TrackId, Array<() => Question[]>> 
     () => require('./questions/cdl/cdl-general.json'),
     () => require('./questions/cdl/cdl-hazmat.json'),
     () => require('./questions/cdl/cdl-passenger.json'),
+    () => require('./questions/cdl/cdl-scenarios.json'),
     () => require('./questions/cdl/cdl-school-bus.json'),
     () => require('./questions/cdl/cdl-tanker.json'),
   ],
