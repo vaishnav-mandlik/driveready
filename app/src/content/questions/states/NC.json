@@ -1,0 +1,2189 @@
+[
+  {
+    "id": "nc.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In North Carolina, a driver 21 or older can be convicted of driving while impaired (DWI) based on a blood alcohol concentration (BAC) of at least what level?",
+    "choices": [
+      "0.10 percent",
+      "0.02 percent",
+      "0.08 percent",
+      "0.05 percent"
+    ],
+    "answer": 2,
+    "explanation": "DWI can be proven by a BAC of 0.08 percent or more (0.04 in a commercial motor vehicle), or by showing your physical or mental faculties are appreciably impaired.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 33",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What BAC is enough for a DWI when you are driving a commercial motor vehicle in North Carolina?",
+    "choices": [
+      "0.02 or more",
+      "0.06 or more",
+      "0.08 or more",
+      "0.04 or more"
+    ],
+    "answer": 3,
+    "explanation": "For commercial motor vehicle drivers the limit is 0.04, half the 0.08 limit that applies in a regular car.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 33",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 19-year-old is convicted of driving with alcohol in their body, even though their BAC was only 0.03. What happens to their North Carolina license?",
+    "choices": [
+      "They get 3 points but keep the license",
+      "It is revoked for one year",
+      "Nothing, because the BAC was under 0.08",
+      "It is suspended for 30 days"
+    ],
+    "answer": 1,
+    "explanation": "For drivers under 21, any amount of alcohol or drugs in the body is an offense. A conviction brings a one-year license revocation.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 35",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "After being charged with DWI, a driver refuses to take the required breath test. What license penalty follows?",
+    "choices": [
+      "An immediate revocation of at least 30 days plus a minimum 12-month DMV revocation",
+      "A 30-day revocation only",
+      "A warning, because the test is voluntary",
+      "A 6-month suspension that can be avoided by paying a fine"
+    ],
+    "answer": 0,
+    "explanation": "Refusing a required chemical test brings an immediate revocation of at least 30 days and an additional minimum 12-month revocation by DMV. The refusal can also be used as evidence in court.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 33",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What license penalty does North Carolina require for a first DWI conviction?",
+    "choices": [
+      "Mandatory revocation for one year",
+      "Mandatory revocation for 90 days",
+      "Suspension for 30 days",
+      "Four years of revocation"
+    ],
+    "answer": 0,
+    "explanation": "A first DWI conviction brings a mandatory one-year license revocation. Four years applies to a second conviction when the prior offense was within three years.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 34",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 17-year-old provisional licensee drinks one beer and later drives. If convicted, what is the penalty?",
+    "choices": [
+      "A one-year license revocation",
+      "No penalty if the BAC was under 0.02",
+      "A 30-day suspension",
+      "A fine only, with no effect on the license"
+    ],
+    "answer": 0,
+    "explanation": "It is unlawful for a provisional licensee (under 18) to drive after consuming any amount of alcohol or drugs. A conviction brings a one-year revocation.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 16",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In the passenger area of a commercial motor vehicle on a North Carolina highway, which alcoholic beverages are prohibited?",
+    "choices": [
+      "Only liquor, not beer or wine",
+      "None, if the driver is not drinking",
+      "Open or closed containers",
+      "Only open containers"
+    ],
+    "answer": 2,
+    "explanation": "NC DWI laws prohibit possessing alcoholic beverages, open or closed, in the passenger area of a commercial motor vehicle on any highway, street or public vehicular area.",
+    "difficulty": 3,
+    "ref": "North Carolina Driver Handbook, p. 33",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Which of these do North Carolina's DWI laws specifically prohibit for the driver of a car?",
+    "choices": [
+      "Transporting an open container of an alcoholic beverage, including in the passenger area",
+      "Carrying a sealed container of alcohol in the trunk",
+      "Driving home from a store after buying alcohol",
+      "Giving a ride to a passenger who has been drinking"
+    ],
+    "answer": 0,
+    "explanation": "NC DWI laws prohibit drinking any alcoholic beverage, including beer, while driving and transporting an open container of alcohol, including in the passenger area of the car.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 33",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.009",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "At what age may an eligible driver with a provisional license upgrade to a regular Class C driver license?",
+    "choices": [
+      "17",
+      "19",
+      "21",
+      "18"
+    ],
+    "answer": 3,
+    "explanation": "Drivers under 18 are provisional licensees. At age 18, eligible drivers may upgrade to a regular Class C license online.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 15",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.010",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the youngest age at which a North Carolina teen can get a Level 1 Limited Learner Permit?",
+    "choices": [
+      "15",
+      "14 1/2",
+      "16",
+      "15 1/2"
+    ],
+    "answer": 0,
+    "explanation": "A teen at least 15 years old who has completed an approved driver education course may apply for a Level 1 Limited Learner Permit.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 14",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.011",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Before a teen under 18 can test for a learner permit, what driver education must they have completed?",
+    "choices": [
+      "At least 30 hours of classroom and 6 hours of behind-the-wheel instruction",
+      "At least 20 hours of classroom and 10 hours behind the wheel",
+      "An online course of any length",
+      "A 4-hour drug and alcohol class only"
+    ],
+    "answer": 0,
+    "explanation": "Applicants under 18 must show a certificate for an approved driver education course of at least 30 hours classroom and 6 hours behind-the-wheel instruction.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 14",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.012",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During the first six months of a Level 1 Limited Learner Permit, when may the permit holder drive?",
+    "choices": [
+      "Daylight hours only, with any licensed adult",
+      "Between 5 a.m. and 9 p.m., with the supervising driver",
+      "Any time, with the supervising driver",
+      "Between 6 a.m. and 10 p.m., alone"
+    ],
+    "answer": 1,
+    "explanation": "For the first six months, a Level 1 permit allows driving from 5 a.m. to 9 p.m. with the supervising driver. After six months, the holder may drive at any time with a supervising driver.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 14",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.013",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long must a teen hold the Level 1 Limited Learner Permit before applying for a Level 2 Limited Provisional License?",
+    "choices": [
+      "Three months",
+      "Nine months",
+      "Six months",
+      "Twelve months"
+    ],
+    "answer": 1,
+    "explanation": "The Level 1 permit must be held for nine months before applying for a Limited Provisional License.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 14",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.014",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How much supervised driving must the Level 1 driving log show, and how much of it must be at night?",
+    "choices": [
+      "60 hours total, with at least 10 at night",
+      "50 hours total, with at least 10 at night",
+      "60 hours total, with at least 15 at night",
+      "40 hours total, with at least 6 at night"
+    ],
+    "answer": 0,
+    "explanation": "The driving log must show at least 60 hours of driving, with at least 10 hours at night. It is signed by the supervising driver and turned in when applying for the Level 2 license.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 14",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.015",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which person may serve as the supervising driver for a teen with a Level 1 permit?",
+    "choices": [
+      "An 18-year-old sibling with a valid license",
+      "Any adult who has held a license for one year",
+      "A friend's parent with a learner permit",
+      "A grandparent who has held a valid license for at least five years"
+    ],
+    "answer": 3,
+    "explanation": "A supervising driver must be a parent, grandparent, guardian, or responsible person approved by the parent or guardian. They must hold a valid license and have been licensed for at least five years.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 14",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.016",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age for a Level 2 Limited Provisional License in North Carolina?",
+    "choices": [
+      "16",
+      "15",
+      "16 1/2",
+      "17"
+    ],
+    "answer": 0,
+    "explanation": "Level 2 drivers must be at least 16 but under 18, and must have held the Level 1 permit for nine months.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 15",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.017",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old with a Level 2 Limited Provisional License wants to drive alone to a friend's house at 10 p.m. Is this allowed?",
+    "choices": [
+      "No, Level 2 drivers may never drive after dark",
+      "No, a supervising driver is needed after 9 p.m. unless driving directly to or from work or volunteer emergency service",
+      "Yes, Level 2 has no time limits",
+      "Yes, if a parent gives permission by phone"
+    ],
+    "answer": 1,
+    "explanation": "Level 2 drivers may drive unsupervised only from 5 a.m. to 9 p.m., or at any time directly to or from work or volunteer fire, rescue or EMS duty if they are a member.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 15",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.018",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Level 2 driver is driving unsupervised to the mall on a Saturday. Two 16-year-old friends who do not live with the driver want a ride. What does the law allow?",
+    "choices": [
+      "Only one of the friends may ride",
+      "The two friends may ride if they wear seat belts",
+      "The two friends may ride because they are under 18, not under 21",
+      "No passengers at all are allowed"
+    ],
+    "answer": 0,
+    "explanation": "Unsupervised Level 2 drivers may carry only one passenger under 21 who is not a household member. A second non-household passenger under 21 is allowed only when that passenger is a student riding directly to or from school.",
+    "difficulty": 3,
+    "ref": "North Carolina Driver Handbook, p. 15",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.019",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long must a driver hold a Level 2 Limited Provisional License before applying for a Level 3 Full Provisional License?",
+    "choices": [
+      "At least six months",
+      "At least nine months",
+      "At least twelve months",
+      "At least three months"
+    ],
+    "answer": 0,
+    "explanation": "A Level 2 license must be held at least six months before applying for the Full Provisional License.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 15",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.020",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A teen wants to move up from Level 1 to Level 2. Which recent conviction would stop them from graduating?",
+    "choices": [
+      "A parking ticket within the past six months",
+      "Any conviction within the past three years",
+      "A school tardy record",
+      "A seat belt infraction within the past six months"
+    ],
+    "answer": 3,
+    "explanation": "Before moving up a level, the teen must have no convictions of moving violations, seat belt infractions or cell phone infractions in the preceding six months.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 14",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.021",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which restriction still applies to a 17-year-old with a Level 3 Full Provisional License?",
+    "choices": [
+      "No cell phone use while driving, except certain emergency calls",
+      "Driving only between 5 a.m. and 9 p.m.",
+      "Only one non-family passenger under 21",
+      "A supervising driver must ride along"
+    ],
+    "answer": 0,
+    "explanation": "Level 3 removes the time, supervision and passenger limits, but drivers under 18 may still not use a cell phone while driving, except for emergency calls to listed contacts.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 15",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.022",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Under North Carolina's 'Lose Control/Lose Your License' rule, what causes a student to lose their license?",
+    "choices": [
+      "Any detention or school discipline",
+      "A school suspension of more than 10 consecutive days",
+      "Two unexcused absences in a row",
+      "A failing grade in driver education"
+    ],
+    "answer": 1,
+    "explanation": "A student loses their license if suspended for more than 10 consecutive days, or assigned to an alternative educational setting for discipline for more than 10 consecutive days. The loss lasts 12 months.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 17",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.023",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "At how many points may a North Carolina driver be assigned to a driver improvement clinic?",
+    "choices": [
+      "7 points",
+      "5 points",
+      "10 points",
+      "12 points"
+    ],
+    "answer": 0,
+    "explanation": "With seven points, you may be assigned to a driver improvement clinic. Completing it removes three points from your record.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 36",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.024",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many license points within a three-year period can lead to suspension of a North Carolina license?",
+    "choices": [
+      "8 points",
+      "10 points",
+      "15 points",
+      "12 points"
+    ],
+    "answer": 3,
+    "explanation": "Reaching 12 points within three years can lead to suspension. After reinstatement, just 8 points within three years can bring a second suspension.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 36",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.025",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many license points does a conviction for passing a stopped school bus carry for a regular (non-commercial) driver?",
+    "choices": [
+      "5",
+      "3",
+      "4",
+      "2"
+    ],
+    "answer": 0,
+    "explanation": "Passing a stopped school bus is one of the highest point values for a regular driver: 5 points (8 in a commercial vehicle). Aggressive driving is also 5.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 36",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.026",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A driver is convicted of going 72 mph in a 55 mph zone. What happens to their driving privilege?",
+    "choices": [
+      "Nothing beyond a fine, since it is a first offense",
+      "It is revoked for one year",
+      "It is suspended only if they also had a crash",
+      "It is revoked for at least 30 days"
+    ],
+    "answer": 3,
+    "explanation": "Driving more than 15 mph over the limit at a speed above 55 mph brings a revocation of at least 30 days. 72 mph in a 55 zone is 17 mph over.",
+    "difficulty": 3,
+    "ref": "North Carolina Driver Handbook, p. 38",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.027",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 17-year-old provisional licensee is convicted of a second moving violation within 12 months. What can happen?",
+    "choices": [
+      "A one-year revocation",
+      "Nothing until a fourth violation",
+      "A 30-day license suspension",
+      "A 6-month suspension"
+    ],
+    "answer": 2,
+    "explanation": "Provisional licensees may be suspended for 30 days for a second moving violation in 12 months, 90 days for a third and six months for a fourth.",
+    "difficulty": 3,
+    "ref": "North Carolina Driver Handbook, p. 41",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.028",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What are North Carolina's minimum liability insurance amounts for a private passenger vehicle?",
+    "choices": [
+      "$50,000 per person, $100,000 per crash, $25,000 property damage",
+      "$30,000 per person injured, $60,000 per crash for injuries, $25,000 property damage",
+      "$25,000 per person, $50,000 per crash, $25,000 property damage",
+      "$30,000 per person, $60,000 per crash, $15,000 property damage"
+    ],
+    "answer": 1,
+    "explanation": "NC requires at least $30,000 for injury to one person, $60,000 for all injuries in a crash, and $25,000 for property damage.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 101",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.029",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Your car insurance lapses, but your car still has a valid NC license plate. What can happen?",
+    "choices": [
+      "Nothing, if you renew within the insurer's 30-day grace period",
+      "Only your driver license is affected",
+      "Your registration is canceled for one year",
+      "The plate can be revoked for 30 days and you may face a penalty, because NC has no grace period"
+    ],
+    "answer": 3,
+    "explanation": "Owners must keep continuous liability insurance while the plate is valid. A lapse can lead to plate revocation for 30 days and a fine or penalty. NC does not honor an insurer's grace period; surrender the plate before canceling coverage.",
+    "difficulty": 3,
+    "ref": "North Carolina Driver Handbook, p. 101",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.030",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You just moved to North Carolina. How long do you have to get a North Carolina driver license?",
+    "choices": [
+      "60 days after establishing residence",
+      "30 days after establishing residence",
+      "90 days after establishing residence",
+      "One year after establishing residence"
+    ],
+    "answer": 0,
+    "explanation": "New residents have 60 days after establishing residence to get an NC license or learner permit. Holders of an out-of-state CDL have only 30 days to get an NC CDL.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 27",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.031",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which statement about texting applies to every North Carolina driver, regardless of age?",
+    "choices": [
+      "Texting is only illegal for drivers under 18",
+      "Reading texts is legal as long as you do not type",
+      "It is unlawful to use a cell phone for email or text messages while operating a vehicle on a public street or highway",
+      "Texting is legal on streets with a speed limit under 35 mph"
+    ],
+    "answer": 2,
+    "explanation": "NC law makes it unlawful for any driver to use a cell phone for email or text messages while operating a vehicle on a public street, highway or public vehicular area.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 43",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.032",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 17-year-old with a Level 3 Full Provisional License wants to make a hands-free call to a friend while driving. Is this legal?",
+    "choices": [
+      "Yes, hands-free calls are allowed at Level 3",
+      "Yes, if the phone is mounted on the dashboard",
+      "Only on roads with a speed limit under 45 mph",
+      "No, drivers under 18 may not use a cell phone or related technology while driving"
+    ],
+    "answer": 3,
+    "explanation": "Drivers under 18 may not use a cell phone or any technology associated with one while driving, including hands-free. The exceptions are emergency calls.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 43",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.033",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 16-year-old with a Level 2 license has an emergency while driving. Which call does the law allow?",
+    "choices": [
+      "A call to their parent, legal guardian or spouse about the emergency",
+      "A call to a friend to say they are running late",
+      "A call to a coworker to swap shifts",
+      "No calls of any kind"
+    ],
+    "answer": 0,
+    "explanation": "Under 18, cell phone use while driving is banned, except emergency calls to an emergency operator, hospital or doctor, ambulance service, fire department, law enforcement, or a parent, legal guardian or spouse.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 15",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.034",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which North Carolina drivers may not use a cell phone at all while driving, no matter their age?",
+    "choices": [
+      "Taxi drivers",
+      "Delivery drivers",
+      "Motorcycle riders",
+      "School bus drivers"
+    ],
+    "answer": 3,
+    "explanation": "No one may operate a school bus on a public street, highway or public vehicular area while using a cell phone or other mobile device technology.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 43",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.035",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Who must wear a seat belt in a North Carolina vehicle that was manufactured with seat belts?",
+    "choices": [
+      "Only passengers under 18",
+      "Only people in vehicles without air bags",
+      "The driver and all passengers, front and back",
+      "Only the driver and front-seat passenger"
+    ],
+    "answer": 2,
+    "explanation": "The driver and all passengers must have a seat belt fastened whenever the vehicle is moving forward on a street or highway, even if the vehicle has air bags.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 45",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.036",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 6-year-old who weighs 55 pounds is riding in your car. What does North Carolina law require?",
+    "choices": [
+      "The child must be in a weight-appropriate child restraint",
+      "An adult seat belt alone is enough",
+      "The child may ride unbuckled in the back seat",
+      "The child may ride in the front seat with an adult seat belt"
+    ],
+    "answer": 0,
+    "explanation": "A child under age 8 who weighs less than 80 pounds must be secured in a weight-appropriate child passenger restraint system.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 46",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.037",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Your car has an active passenger-side front air bag and a back seat. Where must a 3-year-old who weighs 30 pounds ride?",
+    "choices": [
+      "In the rear seat, unless the child seat is designed for use with a front air bag",
+      "In the front seat so the driver can watch the child",
+      "Anywhere, as long as the child is in a car seat",
+      "In the front seat only if the seat is moved all the way back"
+    ],
+    "answer": 0,
+    "explanation": "With an active front air bag and a rear seat available, a child under 5 and weighing less than 40 pounds must be secured in the rear seat, unless the restraint is designed for use with a front air bag.",
+    "difficulty": 3,
+    "ref": "North Carolina Driver Handbook, p. 46",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.038",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "North Carolina's child passenger law requires the driver to make sure which passengers are properly restrained?",
+    "choices": [
+      "Every passenger younger than 16",
+      "Only children under 8",
+      "Only children under 5",
+      "Only children in the front seat"
+    ],
+    "answer": 0,
+    "explanation": "Every driver carrying passengers under 16 must make sure each of them is secured in a child restraint or seat belt that meets federal standards.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 46",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.039",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Can a 12-year-old ride in the open bed of a pickup truck on a North Carolina highway?",
+    "choices": [
+      "Yes, if the tailgate is closed",
+      "Yes, on roads with speed limits under 35 mph",
+      "Yes, if a parent is driving",
+      "Not unless an exemption applies, such as an adult in the bed supervising the child"
+    ],
+    "answer": 3,
+    "explanation": "NC law prohibits children under 16 from riding in an open pickup bed. Exemptions include an adult in the bed supervising, an approved seat belt, an emergency, a parade or agricultural work.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 47",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.040",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless another limit is posted, what is the speed limit in North Carolina cities and towns?",
+    "choices": [
+      "45 mph",
+      "35 mph",
+      "25 mph",
+      "30 mph"
+    ],
+    "answer": 1,
+    "explanation": "Unless otherwise posted, the speed limit is 35 mph in cities and towns.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 55",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.041",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless another limit is posted, what is the maximum speed outside cities and towns in North Carolina?",
+    "choices": [
+      "65 mph",
+      "55 mph",
+      "45 mph",
+      "60 mph"
+    ],
+    "answer": 1,
+    "explanation": "The handbook's maximum speed limit outside cities and towns is 55 mph. Higher limits apply only where posted, such as up to 70 mph on interstates.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 55",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.042",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the highest speed limit that may be posted on North Carolina interstates?",
+    "choices": [
+      "75 mph",
+      "80 mph",
+      "70 mph",
+      "65 mph"
+    ],
+    "answer": 2,
+    "explanation": "The handbook lists 70 mph as the maximum speed limit for interstates.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 55",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.043",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the maximum speed limit for a school bus in North Carolina?",
+    "choices": [
+      "40 mph",
+      "45 mph",
+      "35 mph",
+      "55 mph"
+    ],
+    "answer": 1,
+    "explanation": "School buses are limited to 45 mph. School activity buses may go up to 55 mph.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 49",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.044",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What following distance rule does the North Carolina handbook teach?",
+    "choices": [
+      "The six-second rule",
+      "The two-second rule",
+      "The one-car-length-per-10-mph rule",
+      "The four-second rule"
+    ],
+    "answer": 1,
+    "explanation": "Allow two seconds between the moment the vehicle ahead passes a point and the moment you reach it. Increase it in bad conditions.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 56",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.045",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "According to the North Carolina handbook, where does a highway work zone begin and end?",
+    "choices": [
+      "Within 500 feet of any construction equipment",
+      "Only between orange barrels",
+      "From the first sign that marks the start of the work zone to the last sign that marks its end",
+      "Only where workers are present"
+    ],
+    "answer": 2,
+    "explanation": "A highway work zone is the area between the first sign marking its beginning and the last sign marking its end. An extra speeding penalty applies if a sign listing it is posted at the start.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 72",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.046",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "On a multi-lane highway, you are driving slower than the posted speed limit. Which lane should you use?",
+    "choices": [
+      "The center lane",
+      "Any lane, as long as you use your flashers",
+      "The far right lane, except when passing, turning left or avoiding an obstruction",
+      "The far left lane"
+    ],
+    "answer": 2,
+    "explanation": "When moving slower than the posted limit on a multi-lane highway, drive in the extreme right lane unless passing, turning left or avoiding an obstruction.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 54",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.047",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You are stopped at a steady red light and there is no NO TURN ON RED sign. What may you do?",
+    "choices": [
+      "Turn right without stopping if the way is clear",
+      "Turn left or right after stopping",
+      "Nothing until the light turns green",
+      "Turn right after a complete stop, yielding to traffic and pedestrians"
+    ],
+    "answer": 3,
+    "explanation": "Unless a NO TURN ON RED sign is posted, a right turn may be made after a complete stop. You must yield to other traffic and to pedestrians in or about to enter the crosswalk.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 82",
+    "states": [
+      "NC"
+    ],
+    "sign": "SIG-RED"
+  },
+  {
+    "id": "nc.car.048",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You arrive at an intersection where the traffic lights are dark because of a power outage, and no officer is directing traffic. What should you do?",
+    "choices": [
+      "Drive through if the road you are on is the busier one",
+      "Slow down and yield only to vehicles on your right",
+      "Treat it like a flashing yellow light",
+      "Treat it as if there is a stop sign on every approach"
+    ],
+    "answer": 3,
+    "explanation": "When a traffic light is out or malfunctioning, proceed as though the intersection has a stop sign on all approaches, unless an officer or another traffic control device is directing traffic.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 83",
+    "states": [
+      "NC"
+    ],
+    "sign": "SIG-OUT"
+  },
+  {
+    "id": "nc.car.049",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You have a green arrow to make a U-turn, and opposing traffic has a green arrow to turn right at the same time. Who should yield?",
+    "choices": [
+      "The right-turning traffic must yield to you",
+      "Whoever arrived first goes first",
+      "No one has to yield when the arrows are green",
+      "You should yield to the right-turning traffic"
+    ],
+    "answer": 3,
+    "explanation": "When both movements have their own green arrows at the same time, U-turning traffic should yield to opposing right-turning traffic.",
+    "difficulty": 3,
+    "ref": "North Carolina Driver Handbook, p. 82",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.050",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What do blue reflective pavement markers on some North Carolina roads indicate?",
+    "choices": [
+      "The location of nearby fire hydrants or water supplies",
+      "A lane reserved for buses",
+      "A wrong-way warning",
+      "A rest area ahead"
+    ],
+    "answer": 0,
+    "explanation": "In some areas, blue reflective pavement markers show the location of nearby fire hydrants or water supplies for fire fighters. Red markers indicate wrong-way movement.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 90",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.051",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "While driving at night, you see red reflective pavement markers facing you. What do they indicate?",
+    "choices": [
+      "A no-passing zone begins",
+      "A school zone is ahead",
+      "You are traveling the wrong way",
+      "A fire hydrant is nearby"
+    ],
+    "answer": 2,
+    "explanation": "Red pavement markers indicate wrong-way movement. If you see them facing you, you are going the wrong direction.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 90",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.052",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "A freeway entrance-ramp meter is dark (showing neither red nor green). What should you do?",
+    "choices": [
+      "Use the shoulder to bypass the meter",
+      "Proceed without stopping and merge as normal",
+      "Stop and wait for the meter to turn green",
+      "Stop, then go one car at a time"
+    ],
+    "answer": 1,
+    "explanation": "When a ramp meter is dark, you may proceed without stopping and merge or yield as normal. Stop on red; go on green.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 84",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.053",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "How far before a turn must you signal on a street where the speed limit is 35 mph?",
+    "choices": [
+      "At least the last 200 feet",
+      "At least the last 300 feet",
+      "At least the last 100 feet",
+      "At least the last 50 feet"
+    ],
+    "answer": 2,
+    "explanation": "Signal during at least the last 100 feet before turning or stopping. On roads with speed limits of 45 mph or more, signal at least the last 200 feet.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 71",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.054",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You plan to turn off a highway with a 55 mph speed limit. How far ahead must you signal?",
+    "choices": [
+      "At least the last 50 feet",
+      "At least the last 200 feet",
+      "At least the last 100 feet",
+      "At least the last 500 feet"
+    ],
+    "answer": 1,
+    "explanation": "If the speed limit is 45 mph or more, signal at least the last 200 feet before turning. The faster you go, the farther ahead you should signal.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 71",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.055",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What shape are North Carolina state route markers (N.C. highway numbers)?",
+    "choices": [
+      "Circle",
+      "Rectangle",
+      "Diamond",
+      "Shield"
+    ],
+    "answer": 2,
+    "explanation": "North Carolina route markers are diamond-shaped. U.S. highway markers are shields, and N.C. secondary road signs are rectangular.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 87",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.056",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "Where is the yellow, pennant-shaped no-passing warning sign placed?",
+    "choices": [
+      "On the left side of the road, at the start of the no-passing zone",
+      "On the right side of the road, at the end of the no-passing zone",
+      "Above the center lane",
+      "Painted on the pavement"
+    ],
+    "answer": 0,
+    "explanation": "The pennant is located on the left side of the road and points to the beginning of the no-passing zone. It adds emphasis to the rectangular DO NOT PASS sign.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 86",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.057",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What information does the blue Emergency Notification System sign at a North Carolina railroad crossing give you?",
+    "choices": [
+      "The crossing ID number, the railroad's name and an emergency phone number",
+      "The time of the next train",
+      "The speed limit for trains",
+      "Directions to the nearest train station"
+    ],
+    "answer": 0,
+    "explanation": "All NC highway-rail crossings must post a blue ENS sign showing the crossing ID number, the railroad company's name and an emergency number to report problems directly to the railroad.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 64",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.058",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "An ambulance with lights and siren is approaching from the opposite direction on a two-lane road. What must you do?",
+    "choices": [
+      "Stop in your lane immediately",
+      "Drive to the right-hand edge of the road and stop until it passes",
+      "Keep going, because it is in the other lane",
+      "Speed up to clear the area"
+    ],
+    "answer": 1,
+    "explanation": "All vehicles, regardless of direction, must yield to an approaching emergency vehicle by moving to the right edge and stopping. The only exception is opposite-direction traffic on a four-lane limited-access highway with a center median.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 50",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.059",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "When are you NOT required to pull over and stop for an emergency vehicle using its lights and siren?",
+    "choices": [
+      "When it is coming from the opposite direction on any road",
+      "When you are already driving at the speed limit",
+      "When you are in the left lane",
+      "When it is traveling in the opposite direction on a four-lane limited-access highway with a center median"
+    ],
+    "answer": 3,
+    "explanation": "The pull-over rule does not apply to vehicles going the opposite direction on a four-lane limited-access highway with a center median. In all other cases, pull right and stop.",
+    "difficulty": 3,
+    "ref": "North Carolina Driver Handbook, p. 50",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.060",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are on a four-lane highway (two lanes each way) and see a tow truck with flashing lights stopped on the shoulder. What does the Move Over law require?",
+    "choices": [
+      "Keep your lane and speed",
+      "Turn on your flashers and pass on the shoulder",
+      "Move into the lane not nearest the tow truck, if safe, until you are past it",
+      "Stop behind the tow truck"
+    ],
+    "answer": 2,
+    "explanation": "The law covers emergency and public service vehicles parked within 12 feet of the road with lights on. With two or more lanes in your direction, move out of the nearest lane until safely clear.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 51",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.061",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "On a two-lane road, you approach a police car stopped on the shoulder with its lights flashing. You cannot change lanes. What must you do?",
+    "choices": [
+      "Stop completely until the officer waves you on",
+      "Cross the center line to give more space",
+      "Keep your speed and drive past carefully",
+      "Slow down and drive at a reduced, safe speed until you are completely past"
+    ],
+    "answer": 3,
+    "explanation": "With only one lane in your direction, you must slow down and drive at a reduced, safe speed until completely past the stopped emergency vehicle.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 51",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.062",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are traveling on a two-lane road in the same direction as a funeral procession. May you pass it?",
+    "choices": [
+      "Only if the procession is moving below 25 mph",
+      "No, passing is allowed only on highways with two or more lanes in your direction",
+      "Yes, if no oncoming traffic is in sight",
+      "Yes, if you use your horn first"
+    ],
+    "answer": 1,
+    "explanation": "Drivers going the same direction must not pass a funeral procession unless the highway is marked for two or more lanes moving in that direction. Never drive between vehicles in a procession.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 54",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.063",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are passing a car on a two-lane road and sound your horn. What must the driver being passed do?",
+    "choices": [
+      "Come to a stop",
+      "Move to the right and not speed up",
+      "Speed up to finish quickly",
+      "Move left to block you if it is unsafe"
+    ],
+    "answer": 1,
+    "explanation": "The horn signal puts the passed driver under a legal obligation to help you pass by moving right and never speeding up. Speeding up and causing a crash is a misdemeanor.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 57",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.064",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You cross a four-lane highway whose two directions are separated by a median wider than 30 feet. How does North Carolina treat the crossing?",
+    "choices": [
+      "Each crossing of the roadway is a separate intersection",
+      "It is one single intersection",
+      "It is treated as a roundabout",
+      "It is not an intersection at all"
+    ],
+    "answer": 0,
+    "explanation": "On four-lane highways separated by a median of more than 30 feet, each crossing is a separate intersection, so you stop and yield at each one as required.",
+    "difficulty": 3,
+    "ref": "North Carolina Driver Handbook, p. 59",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.065",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "An emergency vehicle with flashing lights and siren is passing through a roundabout ahead of you. What should you do?",
+    "choices": [
+      "Do not enter the roundabout; if already inside, exit first and then pull over",
+      "Enter quickly and pull over inside the circle",
+      "Stop inside the roundabout immediately",
+      "Follow the emergency vehicle through"
+    ],
+    "answer": 0,
+    "explanation": "Never enter a roundabout while an emergency vehicle is passing through. If you are already in it, exit first, then pull over to let it pass.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 61",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.066",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "In a multi-lane roundabout, which lane does the North Carolina handbook say to use to go straight, turn left, or make a U-turn?",
+    "choices": [
+      "Either lane, changing as needed inside",
+      "The shoulder",
+      "The left lane",
+      "The right lane"
+    ],
+    "answer": 2,
+    "explanation": "Typically use the right lane to exit right, and stay in the left lane to go straight, turn left or make a U-turn. Do not change lanes inside the roundabout.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 61",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.067",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "A bicyclist is riding ahead of you inside a roundabout. What should you do?",
+    "choices": [
+      "Honk so they move to the shoulder",
+      "Pass on the right using the truck apron",
+      "Stay behind the bicyclist; do not pass inside the roundabout",
+      "Pass on the left once inside"
+    ],
+    "answer": 2,
+    "explanation": "Drivers should not pass a bicyclist while inside the roundabout. Bicyclists stay in the middle of their chosen lane.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 61",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.068",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "When passing another vehicle in North Carolina, at least how far to the left of it does the law require you to pass?",
+    "choices": [
+      "Three feet",
+      "Six feet",
+      "Two feet",
+      "One foot"
+    ],
+    "answer": 2,
+    "explanation": "The law requires the passing driver to pass at least two feet to the left of the vehicle being passed. The same 2-foot rule is given for passing a moped.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 57",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.069",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "On a curve or hill, how far ahead must you be able to see before passing is considered safe?",
+    "choices": [
+      "At least 1,000 feet",
+      "At least 500 feet",
+      "At least 200 feet",
+      "At least 300 feet"
+    ],
+    "answer": 1,
+    "explanation": "Passing is unsafe and usually illegal on any curve or hill where you cannot see at least 500 feet ahead.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 57",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.070",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "On a three-lane highway (one lane each way plus a center lane), where may you pass?",
+    "choices": [
+      "In the center lane in either direction at any time",
+      "Only in the center lane where it is marked for passing in your direction",
+      "In any lane that is open",
+      "On the right shoulder"
+    ],
+    "answer": 1,
+    "explanation": "On three-lane highways, pass only in the center lane and only where it is marked for passing in your direction. The exception is when the vehicle in the center lane is turning left.",
+    "difficulty": 3,
+    "ref": "North Carolina Driver Handbook, p. 57",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.071",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "You are being passed and you speed up, failing to give way. A crash with injury or damage results. What can you be charged with?",
+    "choices": [
+      "A misdemeanor",
+      "Nothing, because the passing driver is at fault",
+      "An infraction with no points",
+      "Only a warning"
+    ],
+    "answer": 0,
+    "explanation": "If you increase speed and fail to give way to a passing vehicle, you will be charged with a misdemeanor if a crash results in injury or property damage.",
+    "difficulty": 3,
+    "ref": "North Carolina Driver Handbook, p. 57",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.072",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How close to a fire hydrant may you park in North Carolina?",
+    "choices": [
+      "No closer than 15 feet",
+      "No closer than 10 feet",
+      "No closer than 20 feet",
+      "No closer than 30 feet"
+    ],
+    "answer": 0,
+    "explanation": "Do not park within 15 feet of a fire hydrant or the entrance to a fire station.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 58",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.073",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "On a street with curbs, how close to the curb line of an intersecting street may you park?",
+    "choices": [
+      "No closer than 20 feet",
+      "No closer than 50 feet",
+      "No closer than 25 feet",
+      "No closer than 15 feet"
+    ],
+    "answer": 2,
+    "explanation": "Do not park within 25 feet of the curb line of an intersecting street, or within 15 feet of the intersecting right-of-way lines if there is no curb.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 58",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.074",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "At an intersection with no curbs, how far from the intersecting right-of-way lines must you park?",
+    "choices": [
+      "At least 50 feet",
+      "At least 15 feet",
+      "At least 25 feet",
+      "At least 10 feet"
+    ],
+    "answer": 1,
+    "explanation": "Where there is no curb, do not park within 15 feet of the intersecting right-of-way lines. With curbs, the distance is 25 feet from the curb line.",
+    "difficulty": 3,
+    "ref": "North Carolina Driver Handbook, p. 58",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.075",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "When is it legal to park on the shoulder of a North Carolina highway?",
+    "choices": [
+      "Only if approaching drivers from both directions can see the vehicle for at least 200 feet",
+      "Any time you turn on your flashers",
+      "Only at night",
+      "Only within 100 feet of an exit"
+    ],
+    "answer": 0,
+    "explanation": "Parking on the shoulder is against the law unless approaching drivers from both directions can see the parked vehicle for at least 200 feet.",
+    "difficulty": 3,
+    "ref": "North Carolina Driver Handbook, p. 58",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.076",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Outside city limits, how close to a fire or fire truck may you park?",
+    "choices": [
+      "No closer than 400 feet",
+      "No closer than one block",
+      "No closer than 100 feet",
+      "No closer than 200 feet"
+    ],
+    "answer": 0,
+    "explanation": "Do not park within one block of a fire or fire truck in city limits, or within 400 feet outside the city.",
+    "difficulty": 3,
+    "ref": "North Carolina Driver Handbook, p. 58",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.077",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "An ambulance and police car are stopped at a crash scene helping victims. How close may you park?",
+    "choices": [
+      "No closer than 25 feet",
+      "No closer than 500 feet",
+      "No closer than 100 feet",
+      "No closer than 50 feet"
+    ],
+    "answer": 2,
+    "explanation": "Do not park within 100 feet of an emergency vehicle that has stopped to investigate a crash or give assistance.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 50",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.078",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "You realize you have entered an interstate going the wrong direction. What does the North Carolina handbook tell you to do?",
+    "choices": [
+      "Drive on the left shoulder against traffic",
+      "Pull onto the right shoulder and stop, then turn around when the way is clear",
+      "Back up to the ramp you came from",
+      "Keep driving to the next exit"
+    ],
+    "answer": 1,
+    "explanation": "If you enter an interstate the wrong way, pull over to the right shoulder and stop. When the way is clear, turn around and head the proper direction. Watch for DO NOT ENTER signs to avoid this.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 67",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.079",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "Which vehicles are NOT allowed on North Carolina interstates?",
+    "choices": [
+      "Recreational vehicles",
+      "Tractor-trailers",
+      "Farm equipment",
+      "Motorcycles"
+    ],
+    "answer": 2,
+    "explanation": "Farm equipment may legally travel on most North Carolina roads, but not interstates.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 54",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.080",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A school bus is stopped with its stop arm out on a two-lane road. Which traffic must stop?",
+    "choices": [
+      "Only traffic in the lane next to the bus",
+      "Traffic in both directions",
+      "Only traffic behind the bus",
+      "Only oncoming traffic"
+    ],
+    "answer": 1,
+    "explanation": "On a two-lane roadway, all traffic from both directions must stop for a school bus loading or unloading passengers.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 49",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.081",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A school bus stops to load children on a four-lane road with no median. You are approaching from the opposite direction. What must you do?",
+    "choices": [
+      "Slow to 15 mph and pass",
+      "Stop only if children are crossing",
+      "Stop, because all traffic in both directions must stop",
+      "Continue, because you are in the opposite lanes"
+    ],
+    "answer": 2,
+    "explanation": "On a four-lane roadway without a median separation, all traffic from both directions must stop for a stopped school bus.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 50",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.082",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A school bus stops on a five-lane road (two lanes each way plus a center turning lane). You are coming from the opposite direction. What must you do?",
+    "choices": [
+      "Continue with caution; only traffic following the bus must stop",
+      "Stop, because all traffic must stop",
+      "Stop only if you are in the left lane",
+      "Move into the center turning lane and stop"
+    ],
+    "answer": 0,
+    "explanation": "On a road of four or more lanes with a center turning lane, only traffic following the bus must stop. Be careful, because a two-lane road with a center turning lane requires both directions to stop.",
+    "difficulty": 3,
+    "ref": "North Carolina Driver Handbook, p. 50",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.083",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A school bus stops on a two-lane road that has a center turning lane. Who must stop?",
+    "choices": [
+      "Only oncoming traffic",
+      "All traffic from both directions",
+      "Only traffic following the bus",
+      "Only traffic in the turning lane"
+    ],
+    "answer": 1,
+    "explanation": "On a two-lane roadway with a center turning lane, all traffic from both directions must stop. Only roads of four or more lanes with a center turning lane or a median let opposing traffic continue.",
+    "difficulty": 3,
+    "ref": "North Carolina Driver Handbook, p. 50",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.084",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are on a divided highway with four lanes and a median. A school bus stops on the other side of the median. What must you do?",
+    "choices": [
+      "Stop only if its red lights are flashing",
+      "Pull onto the shoulder and stop",
+      "Continue with caution; only traffic following the bus must stop",
+      "Stop until the bus moves"
+    ],
+    "answer": 2,
+    "explanation": "On a divided highway of four lanes or more with a median separation, only traffic following the bus must stop.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 50",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.085",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You stopped behind a school bus that was unloading. When may you go?",
+    "choices": [
+      "As soon as the children are on the sidewalk",
+      "When the bus driver waves you around",
+      "After waiting 30 seconds",
+      "When the stop arm is withdrawn, the red lights are off and the bus has started to move"
+    ],
+    "answer": 3,
+    "explanation": "Do not pass until the mechanical stop signal is withdrawn, the flashing red lights are turned off and the bus has started to move.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 49",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.086",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "What is the safest way to pass a bicyclist, according to the North Carolina handbook?",
+    "choices": [
+      "Change lanes, passing only with abundant clearance and no oncoming traffic",
+      "Squeeze by within the same lane if the cyclist moves right",
+      "Honk and pass quickly",
+      "Pass on the right"
+    ],
+    "answer": 0,
+    "explanation": "Pass a bicyclist only when there is abundant clearance and no oncoming traffic in the opposing lane. Changing lanes is the safest way, and regular passing laws apply.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 92",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.087",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Which bicycle riders and passengers in North Carolina must wear an approved bicycle helmet?",
+    "choices": [
+      "All riders of any age",
+      "Those under age 16",
+      "Those under age 12",
+      "Those under age 18"
+    ],
+    "answer": 1,
+    "explanation": "All bicycle riders and passengers under age 16 must wear an approved protective bicycle helmet.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 92",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.088",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Under North Carolina law, what is the maximum top speed of a moped?",
+    "choices": [
+      "30 mph",
+      "25 mph",
+      "35 mph",
+      "45 mph"
+    ],
+    "answer": 0,
+    "explanation": "A moped has two or three wheels, a motor of no more than 50 cc and no external shifting device, and its top speed cannot exceed 30 mph.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 95",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.089",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "What is the minimum age to operate a moped on a North Carolina public road?",
+    "choices": [
+      "14",
+      "15",
+      "18",
+      "16"
+    ],
+    "answer": 3,
+    "explanation": "You must be at least 16 years old to operate a moped on a public roadway or public vehicular area. DWI laws also apply to moped operators.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 95",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.090",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A farm tractor ahead of you slows down and its operator signals with the left hand. What is the safest response?",
+    "choices": [
+      "Pass on the right shoulder",
+      "Honk and pass quickly",
+      "Stay back; the tractor may be turning left",
+      "Pass on the left because the operator is waving you by"
+    ],
+    "answer": 2,
+    "explanation": "Many farm-equipment crashes happen when the machine turns left and a driver tries to pass, mistaking the left signal as an invitation. Be patient; pass only when the operator moves off the road.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 53",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.091",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When does North Carolina law require you to use your headlights?",
+    "choices": [
+      "Only from one hour after sunset to one hour before sunrise",
+      "Only when visibility is under 1,000 feet",
+      "Only on unlit roads",
+      "From sunset to sunrise and whenever visibility is 400 feet or less"
+    ],
+    "answer": 3,
+    "explanation": "Headlights are required from sunset to sunrise and when visibility is 400 feet or less. They are also required whenever wipers are on due to bad weather.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 73",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.092",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "It starts raining lightly in the afternoon and you turn on your windshield wipers. What else does North Carolina law require?",
+    "choices": [
+      "Turn on your hazard flashers",
+      "Turn on your high beams",
+      "Nothing, since it is daytime",
+      "Turn on your headlights"
+    ],
+    "answer": 3,
+    "explanation": "All North Carolina motorists must use headlights whenever they are using windshield wipers because of bad weather.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 75",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.093",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You are in a crash in which no one is hurt, but the damage to the vehicles appears to be about $1,200. What must you do?",
+    "choices": [
+      "Nothing, because no one was injured",
+      "Immediately report it to the nearest law enforcement officer or agency",
+      "Only exchange information with the other driver",
+      "Report it to DMV within 30 days"
+    ],
+    "answer": 1,
+    "explanation": "Report any crash immediately to law enforcement if anyone is killed or injured, or if total property damage appears to be $1,000 or more. Failing to report can lead to prosecution and suspension.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 80",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.094",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "After a minor crash on an interstate with no injuries, both cars can still be driven safely. What should the drivers do?",
+    "choices": [
+      "Drive to the next exit and leave the scene",
+      "Move the vehicles out of the travel lane onto the shoulder",
+      "Leave the cars exactly where they stopped for police",
+      "Stand in the lane to warn traffic"
+    ],
+    "answer": 1,
+    "explanation": "If there are no injuries or deaths, each vehicle should be moved out of the travel lane onto the shoulder if it can be driven safely under its own power.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 80",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.095",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "What protection does North Carolina law give to someone who stops and gives aid at a crash?",
+    "choices": [
+      "Protection only if they are a medical professional",
+      "Protection from civil liability, except for intentional wrongdoing",
+      "Full protection even for intentional harm",
+      "No protection; they may be sued for any mistake"
+    ],
+    "answer": 1,
+    "explanation": "The law protects people who stop and render aid at a crash scene from civil liability, except for intentional wrongdoing or unruly conduct.",
+    "difficulty": 3,
+    "ref": "North Carolina Driver Handbook, p. 79",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.096",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Under North Carolina law, how far from the nearest rail must you stop when a crossing signal warns of an approaching train?",
+    "choices": [
+      "Within 50 feet but not less than 15 feet",
+      "Within 100 feet but not less than 20 feet",
+      "Within 30 feet but not less than 10 feet",
+      "Within 15 feet but not less than 5 feet"
+    ],
+    "answer": 0,
+    "explanation": "G.S. 20-142.1 requires you to stop within 50 feet, but not less than 15 feet, from the nearest rail, and not proceed until it is safe.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 62",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.097",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You are crossing the tracks when the warning lights start flashing and the gates begin to lower. What should you do?",
+    "choices": [
+      "Stop and back up",
+      "Stop on the tracks and wait",
+      "Get out and run",
+      "Keep moving; drive through the gate if it comes down"
+    ],
+    "answer": 3,
+    "explanation": "If the lights start or gates come down while you are crossing, do not stop or back up: keep moving. The gates are flexible and cannot trap you.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 63",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.098",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "A patrol car signals you to pull over, but there is no safe place to stop right away. What does the North Carolina handbook advise?",
+    "choices": [
+      "Ignore the signal until you find a parking lot",
+      "Turn on your 4-way flashers, slow down by about 10 mph, and keep driving to the nearest safe area",
+      "Stop immediately in the travel lane",
+      "Speed up to reach an exit quickly"
+    ],
+    "answer": 1,
+    "explanation": "If there is no obvious safe place, turn on your emergency flashers and reduce speed by about 10 mph to show you are aware of the officer, then continue to the nearest safe area to stop.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 51",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.099",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Your car breaks down on the highway and you need help. What does the North Carolina handbook suggest to signal for assistance?",
+    "choices": [
+      "Turn on the high beams",
+      "Tie a white cloth to the left door handle or radio aerial and raise the hood",
+      "Stand behind the car and wave at traffic",
+      "Leave the driver's door open"
+    ],
+    "answer": 1,
+    "explanation": "Move completely onto the shoulder, have everyone exit on the passenger side and stand away from the vehicle, and tie a white cloth to the left door handle or radio aerial and raise the hood.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 78",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Who must wear a motorcycle safety helmet in North Carolina?",
+    "choices": [
+      "Only riders without health insurance",
+      "Only passengers",
+      "All operators and passengers on motorcycles and mopeds",
+      "Only riders under 21"
+    ],
+    "answer": 2,
+    "explanation": "North Carolina has a universal helmet law: all operators and passengers on motorcycles and mopeds must wear a helmet that meets FMVSS 218.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 47",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A rider buys a 'novelty' helmet and sticks a separately purchased DOT sticker on the back. Is it legal in North Carolina?",
+    "choices": [
+      "Yes, any helmet with a DOT sticker is legal",
+      "Yes, if it has a chin strap",
+      "Only for passengers",
+      "No, a DOT sticker added by the rider does not make the helmet compliant"
+    ],
+    "answer": 3,
+    "explanation": "A legal helmet has the DOT symbol permanently installed by the manufacturer. A separately supplied or purchased sticker placed by the rider does not make a novelty helmet compliant.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 47",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What kind of inner liner does a legal (FMVSS 218) motorcycle helmet have?",
+    "choices": [
+      "A gel liner about 1/4 inch thick",
+      "A firm polystyrene foam liner about one inch thick",
+      "No liner, to stay lightweight",
+      "A thin, soft foam pad"
+    ],
+    "answer": 1,
+    "explanation": "A legal helmet has a firm inner liner of polystyrene foam about one inch thick. Non-compliant helmets usually have no liner or only thin soft padding.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 47",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How long is a North Carolina motorcycle learner permit valid?",
+    "choices": [
+      "18 months, renewable any number of times",
+      "24 months",
+      "12 months, renewable for one additional six-month period",
+      "6 months, with no renewal"
+    ],
+    "answer": 2,
+    "explanation": "The motorcycle learner permit is valid for 12 months and may be renewed once for an additional six months.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 11",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What restriction applies to a rider with a North Carolina motorcycle learner permit?",
+    "choices": [
+      "Riding only on weekends",
+      "No passengers may be carried",
+      "No riding on roads over 35 mph",
+      "Riding only with a parent"
+    ],
+    "answer": 1,
+    "explanation": "The motorcycle learner permit authorizes the holder to operate a motorcycle without passengers.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 10",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 16-year-old wants a motorcycle learner permit. What type of driver license must they already hold?",
+    "choices": [
+      "A Level 2 limited provisional license",
+      "No license is needed",
+      "A full provisional license (Level 3), with a parent or guardian's signature",
+      "A Level 1 limited learner permit"
+    ],
+    "answer": 2,
+    "explanation": "Applicants 16 to 17 must hold a full provisional license and have a parent or guardian sign. Applicants 18 or older must hold a license issued by DMV.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 10",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Besides holding a full provisional license, what course must a motorcycle permit applicant under 18 complete?",
+    "choices": [
+      "No course is required",
+      "The MSF Basic Rider Course or the NC Motorcycle Safety Education Program Basic Rider Course",
+      "A 30-hour classroom driver education course only",
+      "An online helmet safety video"
+    ],
+    "answer": 1,
+    "explanation": "Applicants under 18 must complete the Motorcycle Safety Foundation Basic Rider Course or the NC Motorcycle Safety Education Program Basic Rider Course.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 10",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What do you need to legally ride a motorcycle on North Carolina public roads?",
+    "choices": [
+      "Only a regular Class C license",
+      "Only motorcycle insurance",
+      "A moped registration",
+      "A driver license with a motorcycle endorsement, or a motorcycle learner permit"
+    ],
+    "answer": 3,
+    "explanation": "You need a motorcycle endorsement on your driver license (provisional, regular or commercial) or a motorcycle learner permit before riding a motorcycle on public roads.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 13",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Which tests are required for a North Carolina motorcycle learner permit?",
+    "choices": [
+      "Only a riding skills test",
+      "Only the regular car knowledge test",
+      "A vision test only",
+      "Vision, traffic signs and the motorcycle knowledge test"
+    ],
+    "answer": 3,
+    "explanation": "Required testing for the motorcycle learner permit includes vision, traffic signs and the motorcycle knowledge test.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 11",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.100",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "The posted limit is 55 mph, but heavy fog has cut your visibility. How fast may you drive?",
+    "choices": [
+      "No faster than is reasonable and safe for the fog, even if that is well below 55 mph",
+      "55 mph, because that is the posted limit",
+      "Up to 5 mph below the posted limit",
+      "At least 45 mph, so you do not block traffic"
+    ],
+    "answer": 0,
+    "explanation": "Never drive faster than the posted limit or at a speed that is unreasonable or unwise for existing conditions. You must often drive slower than the posted limit.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 55",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.101",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are not towing anything and are driving a car on a North Carolina interstate with a 55 mph limit and posted minimum-speed signs. What is the minimum speed?",
+    "choices": [
+      "40 mph",
+      "45 mph",
+      "35 mph",
+      "50 mph"
+    ],
+    "answer": 0,
+    "explanation": "On interstate and primary highways, the minimum is 40 mph in a 55 mph zone and 45 mph in a zone of 60 mph or more. These minimums apply only where minimum-speed signs are posted.",
+    "difficulty": 3,
+    "ref": "N.C. General Statutes § 20-141(c)",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.102",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are stopped at a steady red light on a one-way street and want to turn left onto another one-way street. May you turn on the red light in North Carolina?",
+    "choices": [
+      "No, North Carolina law allows only right turns on a steady red light",
+      "Yes, after a complete stop, just like a right turn on red",
+      "Yes, without stopping if no traffic is coming",
+      "Yes, but only between 10 p.m. and 6 a.m."
+    ],
+    "answer": 0,
+    "explanation": "After a complete stop at a steady red light, North Carolina law allows only a right turn (unless a sign prohibits it). The law does not allow a left turn on red, even from a one-way street onto another one-way street.",
+    "difficulty": 3,
+    "ref": "N.C. General Statutes § 20-158(b)(2)",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.103",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You are using high beams on a dark highway when a car approaches from the other direction. North Carolina law requires you to keep your lights from glaring at people within what distance?",
+    "choices": [
+      "500 feet",
+      "200 feet",
+      "300 feet",
+      "1,000 feet"
+    ],
+    "answer": 0,
+    "explanation": "When meeting another vehicle, you must dim or tilt your headlight beams so they do not project a glaring light at people within 500 feet in front of you.",
+    "difficulty": 2,
+    "ref": "N.C. General Statutes § 20-131(a)",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.104",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Which of these is a place where the North Carolina handbook says you should NOT park?",
+    "choices": [
+      "On a crosswalk, sidewalk or bridge",
+      "30 feet from a fire hydrant",
+      "50 feet from the curb line of an intersecting street",
+      "On the right side of a two-way street"
+    ],
+    "answer": 0,
+    "explanation": "Do not park on a crosswalk, sidewalk or bridge. Parking 30 feet from a hydrant or 50 feet from an intersection's curb line is beyond the 15-foot and 25-foot limits.",
+    "difficulty": 1,
+    "ref": "North Carolina Driver Handbook, p. 58",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.105",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How close to the entrance of a fire station may you park in North Carolina?",
+    "choices": [
+      "No closer than 15 feet",
+      "No closer than 25 feet",
+      "No closer than 50 feet",
+      "No closer than 10 feet"
+    ],
+    "answer": 0,
+    "explanation": "Do not park within 15 feet of a fire hydrant or the entrance to a fire station. The 25-foot distance is for the curb line of an intersecting street.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 58",
+    "states": [
+      "NC"
+    ]
+  },
+  {
+    "id": "nc.car.106",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "Your light turns green, but a pedestrian who started crossing earlier is still in the street in front of you. What must you do?",
+    "choices": [
+      "Let the pedestrian finish crossing safely before you go",
+      "Go, because your light is green",
+      "Honk and drive around the pedestrian",
+      "Go if the pedestrian is past the center of the street"
+    ],
+    "answer": 0,
+    "explanation": "If the signal changes while a pedestrian is still in the street, drivers must allow the pedestrian to complete the crossing safely.",
+    "difficulty": 2,
+    "ref": "North Carolina Driver Handbook, p. 48",
+    "states": [
+      "NC"
+    ]
+  }
+]

@@ -1,0 +1,732 @@
+{
+  "code": "OH",
+  "name": "Ohio",
+  "agency": {
+    "name": "Ohio Bureau of Motor Vehicles (Ohio Department of Public Safety)",
+    "abbreviation": "BMV",
+    "website": "https://www.bmv.ohio.gov/"
+  },
+  "handbook": {
+    "title": "Ohio Driver Manual (Digest of Ohio Motor Vehicle Laws)",
+    "edition": "January 26, 2024 (online edition, current as of Oct 2026)",
+    "url": "https://publicsafety.ohio.gov/who-we-are/resources/digest-of-motor-vehicle-laws"
+  },
+  "exam": {
+    "questions": 40,
+    "passingScore": 30,
+    "passingPercent": 75,
+    "timeLimitMinutes": null,
+    "roadSigns": "Questions cover motor vehicle regulations and traffic signs; the BMV does not describe a separately scored road-signs section.",
+    "format": "40 multiple-choice questions; taken online through BMV Online Services (webcam required) or in person at a Driver Exam Station or select Deputy Registrar agencies. Paper, audio and ASL versions available on request at Driver Exam Stations.",
+    "languages": "Text and audio: Arabic, Chinese, English, French, Haitian Creole, Japanese, Russian, Somali, Spanish; text and video: American Sign Language. Other languages: proctored test with your own interpreter at a Driver Exam Station.",
+    "retestWait": "At least 24 hours (BMV website; the Driver Manual says to wait one day). Unlimited in-person attempts, one per day; online testing is limited to two attempts in a six-month period, 24 hours apart.",
+    "notes": "Minimum age 15 years 6 months. After passing, buy the TIPIC (permit) at a Deputy Registrar within 60 days or start over. Under 18: a parent/guardian must co-sign the TIPIC application; online testers under 19 need a supervising adult who passes identity verification and serves as proctor. Under 21 (and temporary residents 21+): driver education (24 h class + 8 h driving) and 50 logged hours (10 at night) before the road test; under 18 must hold the TIPIC 6 months. The same 40-question/75% test applies to ages 18-20 and adults.",
+    "sourceUrl": "https://www.bmv.ohio.gov/dl-gdl.aspx"
+  },
+  "motorcycleExam": null,
+  "cdlExam": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC",
+      "detail": "In Ohio it is illegal to drive with a BAC of .08% or higher at any age. Lower limits apply to commercial drivers (.04%) and drivers under 21 (.02%).",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-6-state-laws-and-penalties",
+        "page": 6,
+        "quote": "In Ohio, the legal drinking age is 21 years or older and it is against the law to operate a motor vehicle with a blood-alcohol concentration (BAC) of: .08% or higher at any age"
+      }
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% BAC",
+      "detail": "A driver under 21 violates Ohio law at a BAC of .02% or higher. An OVUAC (operating a vehicle after underage alcohol consumption) can bring a 3-month to 2-year suspension.",
+      "number": 0.02,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-6-state-laws-and-penalties",
+        "page": 6,
+        "quote": ".02% or higher when under the age 21"
+      }
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC",
+      "detail": "Commercial drivers in Ohio may not drive with a BAC of .04% or higher.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-6-state-laws-and-penalties",
+        "page": 6,
+        "quote": ".04% or higher for commercial drivers"
+      }
+    },
+    {
+      "key": "implied_consent",
+      "value": "1-year license suspension for a first refusal (ALS)",
+      "detail": "Refusing a chemical test within two hours of an OVI arrest brings an immediate Administrative License Suspension: 1 year for a first refusal, rising to 2, 3 and 5 years with prior refusals or OVI convictions in 10 years. The suspension stands even if the driver is later acquitted of OVI.",
+      "number": 1,
+      "unit": "year",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-6-state-laws-and-penalties",
+        "page": 6,
+        "quote": "First Refusal – One year license suspension"
+      }
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "Fine of $565–$1,075 and a court license suspension of 1 to 3 years",
+      "detail": "A first OVI conviction also carries a mandatory 3 consecutive days in jail or a 3-day drivers' intervention program. Separately, a first chemical test over the limit brings an immediate 90-day Administrative License Suspension.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-4511.19",
+        "page": null,
+        "quote": "(iii) In all cases, a fine of not less than five hundred sixty-five and not more than one thousand seventy-five dollars; (iv) In all cases, a suspension of the offender's driver's or commercial driver's license or permit or nonresident operating privilege for a definite period of one to three years."
+      }
+    },
+    {
+      "key": "open_container",
+      "value": "No opened container of beer or liquor while driving or riding in a vehicle",
+      "detail": "Ohio prohibits possessing an opened container of beer or intoxicating liquor while operating or being a passenger in a motor vehicle on a street, highway or other property open to the public for travel or parking (limited exceptions apply).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-4301.62",
+        "page": null,
+        "quote": "(4) Except as provided in division (D) or (E) of this section, while operating or being a passenger in or on a motor vehicle on any street, highway, or other public or private property open to the public for purposes of vehicular travel or parking;"
+      }
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15 years 6 months",
+      "detail": "At 15 1/2 you may take the vision screening and knowledge test; after passing, buy the Temporary Instruction Permit Identification Card (TIPIC) at a Deputy Registrar within 60 days.",
+      "number": 15.5,
+      "unit": "years",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-1-how-to-get-your-driver-license",
+        "page": 1,
+        "quote": "At age 15 years and six months, you meet the minimum age requirement to complete the vision screening and knowledge test."
+      }
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "6 months (drivers under 18)",
+      "detail": "Drivers under 18 must hold the TIPIC for at least six months before getting a probationary license. Temporary residents 21+ hold it for at least 14 days.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-1-how-to-get-your-driver-license",
+        "page": 1,
+        "quote": "Hold the TIPIC for at least six months. (Applicable to drivers under age 18 ONLY.)"
+      }
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "50 hours, including at least 10 at night",
+      "detail": "Drivers under 21 must also complete driver education: 24 hours of classroom or online instruction plus 8 hours of driving with a licensed driver training school.",
+      "number": 50,
+      "unit": "hours",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-1-how-to-get-your-driver-license",
+        "page": 1,
+        "quote": "Complete and log 50 hours of driving with an eligible licensed driver (see TIPIC Restrictions above), with at least 10 hours of night driving."
+      }
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Under 16: parent, guardian, custodian, licensed driving instructor, or a 21+ person acting in loco parentis; 16–17: any licensed driver 21+ (parent/guardian/custodian from midnight to 6 a.m.)",
+      "detail": "The supervising adult sits in the front passenger seat and must not be intoxicated. Permit holders 18 and older may drive only with a licensed driver 21 or older. From midnight to 6 a.m. the BMV website also accepts a licensed driver 21+ named on a notarized form BMV 2438.",
+      "number": 21,
+      "unit": "years (supervisor minimum age)",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-1-how-to-get-your-driver-license",
+        "page": 1,
+        "quote": "Under age 16: If under age 16, the driver must have a parent, guardian, custodian, licensed driving instructor, or a person age 21 or older, who acts in loco parentis, occupying the front passenger seat beside the permit holder. Age 16 to 17: Driving with any valid licensed driver, age 21 or older, in the front passenger seat is permitted, except from midnight to 6 a.m. when the driver must be accompanied by a parent, guardian, or custodian who holds a valid Driver License."
+      }
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 (after holding the permit at least 6 months)",
+      "detail": "Ohio issues a probationary license to drivers at least 16 who have held the TIPIC for six months and completed driver education and 50 logged hours.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-4507.071",
+        "page": null,
+        "quote": "(A) The registrar of motor vehicles or any deputy registrar shall not issue a driver's license to any person under eighteen years of age, except that the registrar or a deputy registrar may issue a probationary license to a person who is at least sixteen years of age and has held a temporary instruction permit for a period of at least six months."
+      }
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "No driving midnight–6 a.m. during the first 12 months of the license",
+      "detail": "After the first 12 months and until 18, the restricted hours are 1 a.m.-5 a.m. Exceptions: accompanied by a parent or guardian (the BMV website also allows a licensed driver 21+ named on a notarized BMV 2438), or driving to/from work or an official school or religious event with documentation (forms BMV 2825/2826).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-12-purchase-your-driver-license",
+        "page": 12,
+        "quote": "During the first 12 months of holding a Driver License: The driver may not operate a vehicle from midnight to 6 a.m., unless:"
+      }
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "No more than 1 non-family passenger during the first 12 months (unless a parent or guardian is present)",
+      "detail": "Applies to drivers under 18 in their first 12 months of licensing. All occupants must wear safety belts and occupants cannot exceed the number of belts.",
+      "number": 1,
+      "unit": "non-family passenger",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-12-purchase-your-driver-license",
+        "page": 12,
+        "quote": "The driver may not operate a vehicle with more than one non-family member as a passenger, unless accompanied by a parent or guardian."
+      }
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "18",
+      "detail": "Ohio does not issue a regular (non-probationary) driver license to anyone under 18; probationary restrictions apply until 18.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-4507.071",
+        "page": null,
+        "quote": "(A) The registrar of motor vehicles or any deputy registrar shall not issue a driver's license to any person under eighteen years of age, except that the registrar or a deputy registrar may issue a probationary license to a person who is at least sixteen years of age and has held a temporary instruction permit for a period of at least six months."
+      }
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "Holding, using or physically supporting a phone while driving is illegal (primary offense)",
+      "detail": "Drivers 18+ may use hands-free and single-touch/swipe features. First offense in two years: 2 points and up to a $150 fine (a distracted driving course can avoid both); fines double in work zones.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-3-be-alert",
+        "page": 3,
+        "quote": "It is illegal in most cases to use, hold, or physically support a cell phone or electronic wireless communications device while driving on Ohio roads. If an officer sees a violation, they can pull you over."
+      }
+    },
+    {
+      "key": "texting_ban",
+      "value": "No manually entering letters, numbers or symbols (texting) while driving",
+      "detail": "Drivers over 18 may use hands-free calling and other features only if they do not hold or support the device or type on it; devices may be activated with a single touch or swipe.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-3-be-alert",
+        "page": 3,
+        "quote": "The law allows drivers over 18 years old to make and receive phone calls using “hands-free” technology, and use other device features, as long as they do not hold or support the device or manually enter letters, numbers, or symbols. Drivers may only activate or deactivate their devices with a single touch or swipe."
+      }
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Drivers under 18: no electronic device use at all, even hands-free",
+      "detail": "Exceptions: navigation and emergency calls. First violation: 60-day suspension and $150 fine; second: 1-year suspension and $300 fine. It is a primary offense.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-3-be-alert",
+        "page": 3,
+        "quote": "It is illegal to use any electronic device while driving, even hands-free, or while sitting at a traffic light or in a traffic jam."
+      }
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Driver and front-seat passengers must buckle up; under-18 drivers: everyone buckled",
+      "detail": "For drivers under 18, the number of occupants may not exceed the number of belts and all occupants must wear them. For adults the belt law is secondary enforcement (ORC 4513.263).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-2-before-you-drive",
+        "page": 2,
+        "quote": "Drivers and front seat occupants must wear safety belts. For drivers under age 18, the number of vehicle occupants is limited to the number of safety belts originally installed and all occupants must wear safety belts."
+      }
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Child safety seat under age 4 or under 40 lb; booster seat ages 4–7 unless 4'9\" or taller; safety belt ages 8–15",
+      "detail": "Children 12 and younger should ride in the back seat, and a rear-facing seat must never be placed in front of an active air bag. ORC 4511.81 applies the child-seat rule to a child less than 4 years old or weighing less than 40 pounds.",
+      "number": 4,
+      "unit": "years",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-6-state-laws-and-penalties",
+        "page": 6,
+        "quote": "Infants and children who are either or both under age 4 and weighing less than 40 pounds must be properly restrained in a child safety seat while being transported in a motor vehicle. The child seat must be labeled as meeting federal safety standards and be designed to meet the needs of your particular motor vehicle. Age 4 and Weight 40 pounds, But under Age 8 When any child who is at least age 4, but less than age 8, is being transported in a motor vehicle, the vehicle operator shall have the child properly restrained in a booster seat unless the child is 4-foot 9-inches in height, or taller."
+      }
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Assured clear distance ahead: never drive faster than lets you stop in the distance available",
+      "detail": "Posted limits assume ideal conditions; in bad weather, poor roads or heavy traffic a reasonable speed may be lower than the limit.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-4-rules-of-the-road",
+        "page": 4,
+        "quote": "Regardless of the posted speed limit, Ohio law prohibits a person from driving at a speed greater than what allows the driver to stop in the distance available."
+      }
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "20 mph",
+      "detail": "Applies during school recess and while children are going to or leaving school during opening or closing hours, where 20 mph school speed limit signs are erected.",
+      "number": 20,
+      "unit": "mph",
+      "source": {
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-4511.21",
+        "page": null,
+        "quote": "(1)(a) Twenty miles per hour in school zones during school recess and while children are going to or leaving school during the opening or closing hours, and when twenty miles per hour school speed limit signs are erected;"
+      }
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "25 mph",
+      "detail": "Ohio's prima-facie limit on streets within a municipal corporation (cities and villages) is 25 mph unless posted otherwise; alleys are 15 mph.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-4511.21",
+        "page": null,
+        "quote": "(2) Twenty-five miles per hour in all other portions of a municipal corporation, except on state routes outside business districts, through highways outside business districts, and alleys;"
+      }
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "25 mph",
+      "detail": "Within a municipal corporation, including business districts, the default limit is 25 mph. State routes or through highways outside business districts within a municipality are 35 mph.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-4511.21",
+        "page": null,
+        "quote": "(2) Twenty-five miles per hour in all other portions of a municipal corporation, except on state routes outside business districts, through highways outside business districts, and alleys;"
+      }
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "55 mph",
+      "detail": "Highways outside municipal corporations default to 55 mph; some two-lane state routes may be posted at 60 mph, rural divided highways 60 mph and rural expressways without signals 65 mph.",
+      "number": 55,
+      "unit": "mph",
+      "source": {
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-4511.21",
+        "page": null,
+        "quote": "(5) Fifty-five miles per hour on highways outside municipal corporations, other than highways within island jurisdictions as provided in division (B)(8) of this section, highways as provided in divisions (B)(9) and (10) of this section, and highways, expressways, and freeways as provided in divisions (B)(12), (13), (14), and (16) of this section;"
+      }
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "70 mph (rural freeways)",
+      "detail": "Urban freeways without signals are 65 mph and congested urban/outerbelt freeway sections 55 mph.",
+      "number": 70,
+      "unit": "mph",
+      "source": {
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-4511.21",
+        "page": null,
+        "quote": "(14) Seventy miles per hour on all rural freeways;"
+      }
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Do not drive so slowly that you impede the normal and reasonable movement of traffic",
+      "detail": "Posted minimum speeds on freeways/expressways may be set between 30 and 50 mph.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-4511.22",
+        "page": null,
+        "quote": "(A) No person shall stop or operate a vehicle, trackless trolley, or street car at such an unreasonably slow speed as to impede or block the normal and reasonable movement of traffic, except when stopping or reduced speed is necessary for safe operation or to comply with law."
+      }
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop unless a sign prohibits it",
+      "detail": "Yield to all crossing traffic and all pedestrians before turning.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-5-learning-to-drive",
+        "page": 5,
+        "quote": "You may turn right at a red traffic signal, unless a sign specifically prohibits it. When making a right turn on red, you must come to a complete stop and allow all crossing traffic and all pedestrians to clear the intersection before you proceed."
+      }
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Only from the extreme left lane of a one-way street onto another one-way street (unless a sign forbids)",
+      "detail": "A full stop and yielding to crossing traffic and pedestrians are still required.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-5-learning-to-drive",
+        "page": 5,
+        "quote": "You may turn left at a red traffic signal, only from the extreme left lane of a one-way street onto another one-way street, unless the intersection has a sign posted forbidding a left turn on red."
+      }
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 100 feet before turning",
+      "detail": "Signal with turn signals or hand-and-arm signals; also signal lane changes and merges.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-5-learning-to-drive",
+        "page": 5,
+        "quote": "A turn signal must be given at least 100 feet before the intended turn."
+      }
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the right side of the road and stop until the emergency vehicle passes",
+      "detail": "Avoid blocking intersections. You do not have to stop for one traveling the opposite direction on a divided highway. Ohio law also forbids following a responding emergency vehicle closer than 500 feet (ORC 4511.72).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-9-sharing-the-road",
+        "page": 9,
+        "quote": "When emergency vehicles displaying flashing lights and audible sirens and/or signals are approaching through traffic, the driver must quickly — and safely — pull to the right side of the road and stop. Avoid blocking intersections. All vehicles must remain in this position until the emergency vehicle has passed or otherwise directed by a law enforcement officer."
+      }
+    },
+    {
+      "key": "move_over_law",
+      "value": "Move to a non-adjacent lane if safe; otherwise slow down and proceed with caution",
+      "detail": "Applies to stopped police, fire and other emergency vehicles, road service vehicles (tow trucks, snowplows), waste collection, highway maintenance and public utilities commission vehicles with warning lights on. ORC 4511.213(D)(2) requires a fine of two times the usual amount for a violation.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-9-sharing-the-road",
+        "page": 9,
+        "quote": "When approaching an authorized vehicle stopped on the roadside, proceed with caution. Slow down and yield the right-of-way by making a lane change into a lane not next to that of the vehicle if safety and traffic conditions permit. If a lane change is unsafe, slow down and proceed with caution while maintaining a safe speed for traffic conditions."
+      }
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop at least 10 feet from a stopped school bus; on roads with 4+ lanes only same-direction traffic stops",
+      "detail": "On roads with fewer than four lanes, traffic from both directions stops. Stay stopped until the bus moves or the driver signals you to go. You must stop even if the bus has no stop arm.",
+      "number": 10,
+      "unit": "feet",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-5-learning-to-drive",
+        "page": 5,
+        "quote": "If the bus is stopped on a street or road with fewer than four lanes, all traffic approaching the bus from either direction must stop at least 10 feet from the front or rear of the bus and remain stopped until the bus begins to move or the bus driver signals motorists to proceed. If the bus is stopped on a street or road with four or more lanes, only traffic proceeding in the same direction as the bus must stop at the rear of the bus and remain stopped until the bus begins to move."
+      }
+    },
+    {
+      "key": "following_distance",
+      "value": "At least 4 seconds (or one vehicle length per 10 mph)",
+      "detail": "Increase the distance in bad weather, at night, on slippery roads, and behind large vehicles or vehicles that must stop at railroad crossings. Behind motorcycles: at least 3 seconds at low speed in ideal conditions, 4+ otherwise. (Section 5 separately says to allow a 3-4 second following distance.)",
+      "number": 4,
+      "unit": "seconds",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-8-safe-driving-tips",
+        "page": 8,
+        "quote": "Always try to keep a minimum following distance of one vehicle length for every 10 miles per hour of travel, or four seconds between your vehicle and the vehicle ahead."
+      }
+    },
+    {
+      "key": "headlights_required",
+      "value": "Sunset to sunrise; in rain, snow or fog; when you cannot see 1,000 feet ahead; whenever wipers are in use for precipitation",
+      "detail": "Ohio's wipers-on/lights-on rule applies at any time of day.",
+      "number": 1000,
+      "unit": "feet (visibility)",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-7-special-driving-situations",
+        "page": 7,
+        "quote": "Lights must be on: Between sunset and sunrise. During any period of rain, snow, fog, or other unfavorable atmospheric conditions — regardless of the time of day. At any other time when natural light conditions do not make it possible to clearly see objects 1,000 feet ahead. Any time windshield wipers are in use because of precipitation."
+      }
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "Dim high beams for approaching traffic (no specific distance given in Ohio's manual)",
+      "detail": "Use high beams when no vehicles are oncoming. To avoid glare, look toward the right side of the road.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-7-special-driving-situations",
+        "page": 7,
+        "quote": "Use high beam headlights whenever there are no oncoming vehicles. Ohio law requires you to dim your high beam headlights for approaching traffic."
+      }
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "10 feet",
+      "detail": "Do not stop, park or stand within 10 feet of a fire hydrant.",
+      "number": 10,
+      "unit": "feet",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-5-learning-to-drive",
+        "page": 5,
+        "quote": "Within 10 feet of a fire hydrant;"
+      }
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "20 feet",
+      "detail": "Do not stop, park or stand in or within 20 feet of a crosswalk.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-5-learning-to-drive",
+        "page": 5,
+        "quote": "In or within 20 feet of an intersection or crosswalk;"
+      }
+    },
+    {
+      "key": "parking_intersection",
+      "value": "20 feet",
+      "detail": "Do not stop, park or stand in or within 20 feet of an intersection.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-5-learning-to-drive",
+        "page": 5,
+        "quote": "In or within 20 feet of an intersection or crosswalk;"
+      }
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet",
+      "detail": "No standing or parking within 30 feet of, and on the approach to, a yield sign, stop sign or traffic signal.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-4511.68",
+        "page": null,
+        "quote": "(7) Within thirty feet of, and upon the approach to, any yield sign, stop sign, or highway traffic signal;"
+      }
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet from the nearest rail",
+      "detail": "No standing or parking within 50 feet of the nearest rail of a railroad crossing.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-4511.68",
+        "page": null,
+        "quote": "(9) Within fifty feet of the nearest rail of a railroad crossing;"
+      }
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet of the driveway entrance (75 feet on the opposite side when posted)",
+      "detail": "No standing or parking within 20 feet of a fire station driveway entrance, or within 75 feet of it on the opposite side of the street when signs are posted.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-4511.68",
+        "page": null,
+        "quote": "(10) Within twenty feet of a driveway entrance to any fire station and, on the side of the street opposite the entrance to any fire station, within seventy-five feet of the entrance when it is properly posted with signs;"
+      }
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "Within 12 inches of the curb",
+      "detail": "Park parallel, facing the direction of traffic. On one-way streets you may park within 12 inches of the right or left curb.",
+      "number": 12,
+      "unit": "inches",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-5-learning-to-drive",
+        "page": 5,
+        "quote": "Vehicles must be parked facing the direction of traffic on that side of the street, parallel to and not more than 12 inches from the right curb."
+      }
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "No closer than 15 feet and no farther than 50 feet",
+      "detail": "Stop in this zone when a train is approaching; wait until the train passes and signals stop before crossing.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-5-learning-to-drive",
+        "page": 5,
+        "quote": "Stop no closer than 15 feet and no farther than 50 feet from the crossing when a train is approaching."
+      }
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet",
+      "detail": "Slow down when approaching or passing a bicyclist, and do not sound your horn close to one.",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-9-sharing-the-road",
+        "page": 9,
+        "quote": "Maintain a safety zone of at least three feet between a motor vehicle and a bicycle."
+      }
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Yield to pedestrians entering or in a crosswalk; obey any stop line before the crosswalk",
+      "detail": "Blind or visually impaired pedestrians with a white cane or guide dog have the right-of-way. Yield to pedestrians when turning.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-4-rules-of-the-road",
+        "page": 4,
+        "quote": "You must yield the right-of-way to pedestrians entering or in a crosswalk. If there is a stop line before the crosswalk, the stop line must be obeyed."
+      }
+    },
+    {
+      "key": "crash_reporting",
+      "value": "A driver may file a BMV 3303 crash report within 6 months if damage exceeded $400 or someone was injured AND the other driver/owner was uninsured",
+      "detail": "At the scene: stop, warn traffic, exchange information, call 911 for injuries, and notify the Highway Patrol, sheriff or police. For an unattended vehicle, report to police or leave your information.",
+      "number": 400,
+      "unit": "dollars",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-10-emergency-situations",
+        "page": 10,
+        "quote": "The driver of a vehicle involved in a motor vehicle crash in Ohio may file a Crash Report (form BMV 3303 (PDF)) with the Ohio Bureau of Motor Vehicles within six months after the crash if both of the following apply: There was damage in excess of $400, or personal injury; and The driver or owner of the other vehicle did not have insurance or other financial responsibility coverage at the time of the crash."
+      }
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "25/50/25 liability",
+      "detail": "$25,000 injury/death of one person, $50,000 for two or more people, $25,000 property damage. Alternatives: a personal liability bond or a $30,000 deposit with the Registrar.",
+      "number": 25000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-6-state-laws-and-penalties",
+        "page": 6,
+        "quote": "$25,000 for injury/death of one person, and $50,000 for injury/death of two or more people, and $25,000 for property damage in an accident;"
+      }
+    },
+    {
+      "key": "point_system",
+      "value": "12 points in 2 years = suspension; 6 points = warning letter",
+      "detail": "Point values: 2 for moving violations and some speed offenses, 4 for willful or wanton disregard, 6 for failing to stop after a crash and other serious acts. Reinstatement requires a remedial driving course, SR-22 and fees.",
+      "number": 12,
+      "unit": "points",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-6-state-laws-and-penalties",
+        "page": 6,
+        "quote": "If a driver accumulates 12 or more points within a two-year period, the BMV will impose a 12-point suspension of the Driver License."
+      }
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Helmet required for riders under 18, novice (first-year) riders, permit holders, and passengers of those riders; eye protection required for all",
+      "detail": "All motorcycle operators and passengers must use safety glasses or other eye protection. Adults past novice status may ride without a helmet.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-4511.53",
+        "page": null,
+        "quote": "Except as provided in division (C)(2) of this section, no person who is under the age of eighteen years, or who holds a motorcycle operator's endorsement or license bearing a \"novice\" designation that is currently in effect as provided in section 4507.13 of the Revised Code, shall operate a motorcycle on a highway, or be a passenger on a motorcycle, unless wearing a United States department of transportation-approved protective helmet on the person's head, and no other person shall be a passenger on a motorcycle operated by such a person unless similarly wearing a protective helmet."
+      }
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Distracted-driving penalties (adults)",
+      "summary": "Holding a phone while driving is a primary offense. 1st offense in 2 years: 2 points and up to $150 (a distracted driving course can avoid the fine and points); 2nd: 3 points, up to $250; 3rd+: 4 points, up to $500 and possible 90-day suspension. Fines double in work zones.",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-3-be-alert",
+        "page": 3,
+        "quote": "1st offense in two years: 2 points assessed to Driver License, up to a $150 fine. Completion of a distracted driving course can help avoid the fine and points."
+      }
+    },
+    {
+      "title": "Under-18 electronic device violations",
+      "summary": "Drivers under 18 may not use any electronic device, even hands-free. First violation: 60-day suspension and $150 fine; second: 1-year suspension and $300 fine.",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-3-be-alert",
+        "page": 3,
+        "quote": "First violation: 60-days Driver License suspension and a $150 fine. Second violation: 1-year Driver License suspension and a $300 fine."
+      }
+    },
+    {
+      "title": "ALS suspension stands even if acquitted",
+      "summary": "A test refusal suspension starts immediately and remains even if the driver is later acquitted of the OVI charge.",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-6-state-laws-and-penalties",
+        "page": 6,
+        "quote": "The suspension will stand even if the individual is ultimately acquitted of the OVI (operating a vehicle while impaired) charge."
+      }
+    },
+    {
+      "title": "First test over the limit: 90-day ALS",
+      "summary": "Testing .08 or higher on a chemical test within two hours of arrest brings an immediate Administrative License Suspension of 90 days for a first test over the limit.",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-6-state-laws-and-penalties",
+        "page": 6,
+        "quote": "First Test Over the Limit – Three months (90 days) license suspension"
+      }
+    },
+    {
+      "title": "Probationary drivers: moving-violation suspensions",
+      "summary": "Under 18: two moving violations = automatic 3-month suspension; three = 1-year suspension; a probationary OVI = 6-month suspension.",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-6-state-laws-and-penalties",
+        "page": 6,
+        "quote": "A conviction of, or guilty plea to two moving violations, results in an automatic three-month license suspension;"
+      }
+    },
+    {
+      "title": "Studded tire season",
+      "summary": "Studded tires are legal in Ohio only from November 1 through April 15.",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-2-before-you-drive",
+        "page": 2,
+        "quote": "Studded Tires: In Ohio, studded tires are legal from November 1 through April 15."
+      }
+    },
+    {
+      "title": "Stay 500 feet behind responding emergency vehicles",
+      "summary": "Do not follow a responding emergency or public safety vehicle closer than 500 feet, or park within the block where fire apparatus has stopped for an alarm.",
+      "source": {
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-4511.72",
+        "page": null,
+        "quote": "(A) The driver of any vehicle, other than an emergency vehicle or public safety vehicle on official business, shall not follow any emergency vehicle or public safety vehicle traveling in response to an alarm closer than five hundred feet, or drive into or park such vehicle within the block where fire apparatus has stopped in answer to a fire alarm, unless directed to do so by a police officer or a firefighter."
+      }
+    },
+    {
+      "title": "Passing slow-moving vehicles across a solid yellow line",
+      "summary": "You may cross a solid yellow line to pass a slow-moving vehicle only if it is going less than half the posted limit, you do not exceed the limit while passing, and the oncoming lane is clear. The orange-and-red slow-moving vehicle emblem means the vehicle travels under 25 mph.",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-9-sharing-the-road",
+        "page": 9,
+        "quote": "You are permitted to cross a solid yellow line to pass a slow-moving vehicle as long as the vehicle is traveling less than half the posted speed limit, you do not exceed the speed limit while passing, and there is sufficient clear space in the oncoming lane in which to pass."
+      }
+    },
+    {
+      "title": "Adults 21+ who fail the driving test",
+      "summary": "An applicant 21 or older who fails the maneuverability or road test must complete an Abbreviated Adult Driver Training Course before a second attempt (unless they took approved driver ed within the past year). Under 21: wait two days before retesting.",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-11-taking-the-driving-test",
+        "page": 11,
+        "quote": "An applicant age 21 or older who fails the maneuverability or road skills portion of the driving test, is required to take an Abbreviated Adult Driver Training Course before attempting the driving test for a second time."
+      }
+    },
+    {
+      "title": "Seat belt law is secondary enforcement",
+      "summary": "Police may not stop a vehicle solely to check for or ticket a seat belt violation. Fines: $30 for the driver, $20 for a front-seat passenger. (Under-18 device violations, by contrast, are primary offenses.)",
+      "source": {
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-4513.263",
+        "page": null,
+        "quote": "(D) Notwithstanding any provision of law to the contrary, no law enforcement officer shall cause an operator of an automobile being operated on any street or highway to stop the automobile for the sole purpose of determining whether a violation of division (B) of this section has been or is being committed"
+      }
+    },
+    {
+      "title": "New residents: Ohio license within 30 days",
+      "summary": "You become an Ohio resident once you are employed, sign a lease, buy a home or enroll children in school, and must get an Ohio driver license within 30 days.",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-13-what-else-should-i-know",
+        "page": 13,
+        "quote": "Within 30 days of establishing residency, Ohio drivers must have an Ohio-issued Driver License."
+      }
+    },
+    {
+      "title": "Driving under suspension",
+      "summary": "Driving while suspended is a first-degree misdemeanor with a fine of up to $1,000 and a possible additional 1-year suspension; owners who knowingly let a suspended driver use their vehicle face the same penalty.",
+      "source": {
+        "url": "https://publicsafety.ohio.gov/wps/portal/gov/odps/who-we-are/resources/digest-of-motor-vehicle-laws/section-6-state-laws-and-penalties",
+        "page": 6,
+        "quote": "Operating a motor vehicle while your license is under suspension is a first-degree misdemeanor, and if convicted, you are subject to a fine of up to $1,000."
+      }
+    }
+  ],
+  "officialPracticeTests": [
+    "https://www.bmv.ohio.gov/dl-sample-test.aspx"
+  ],
+  "verifiedOn": "2026-10-14"
+}

@@ -1,0 +1,2110 @@
+[
+  {
+    "id": "mi.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Michigan law, an adult driver is operating while intoxicated if their blood-alcohol content (BAC) is at least what level?",
+    "choices": [
+      "0.05%",
+      "0.08%",
+      "0.10%",
+      "0.04%"
+    ],
+    "answer": 1,
+    "explanation": "Michigan's OWI law (MCL 257.625) sets the limit at an alcohol content of 0.08 or more. You can also be charged at a lower BAC if you are under the influence.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 1,
+    "ref": "Michigan Vehicle Code, MCL 257.625"
+  },
+  {
+    "id": "mi.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 19-year-old Michigan driver is stopped with a BAC of 0.03%. Which statement is correct?",
+    "choices": [
+      "It is illegal: drivers under 21 may not drive with any bodily alcohol content of 0.02% or more",
+      "It is legal, because it is below 0.08%",
+      "It is legal, because the under-21 limit is 0.05%",
+      "It is illegal only if the driver also fails a field sobriety test"
+    ],
+    "answer": 0,
+    "explanation": "Michigan's zero-tolerance law bars drivers under 21 from having any bodily alcohol content, defined as 0.02% or more (or any alcohol from drinking outside a religious ceremony).",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "Michigan Vehicle Code, MCL 257.625"
+  },
+  {
+    "id": "mi.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "How many points are added to the record of a Michigan driver younger than 21 who is convicted of driving with any bodily alcohol content?",
+    "choices": [
+      "2 points",
+      "3 points",
+      "6 points",
+      "4 points"
+    ],
+    "answer": 3,
+    "explanation": "The handbook lists 'Younger than age 21 with any bodily alcohol content' as a 4-point violation.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 28"
+  },
+  {
+    "id": "mi.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the maximum blood-alcohol content allowed for a person driving a commercial motor vehicle in Michigan?",
+    "choices": [
+      "Less than 0.08%",
+      "Less than 0.02%",
+      "Less than 0.04%",
+      "Less than 0.05%"
+    ],
+    "answer": 2,
+    "explanation": "MCL 257.625m prohibits operating a commercial motor vehicle with an alcohol content of 0.04% or more.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "Michigan Vehicle Code, MCL 257.625m"
+  },
+  {
+    "id": "mi.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Michigan's implied consent law, when are drivers considered to have agreed to a chemical test for alcohol or drugs?",
+    "choices": [
+      "Only after they are arrested",
+      "When they apply for and renew their driver's license",
+      "Only when they sign a consent form at the scene",
+      "Only if they are involved in a crash"
+    ],
+    "answer": 1,
+    "explanation": "The handbook explains that all drivers are considered to have given consent to the test when they apply for and renew their driver's license.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 1,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 29"
+  },
+  {
+    "id": "mi.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A Michigan driver refuses a chemical test for the first time and does not win a hearing. How long is the license suspended?",
+    "choices": [
+      "1 year",
+      "90 days",
+      "6 months",
+      "2 years"
+    ],
+    "answer": 0,
+    "explanation": "MCL 257.625f requires a 1-year suspension for a first refusal (2 years for a second refusal within 7 years).",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "Michigan Vehicle Code, MCL 257.625f"
+  },
+  {
+    "id": "mi.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "According to the Michigan handbook, penalties for operating under the influence of alcohol or marijuana can include which of the following?",
+    "choices": [
+      "Up to 30 days in jail, up to a $100 fine and 2 points",
+      "A warning letter for a first offense",
+      "Up to 1 year in jail, a $5,000 fine and 4 points",
+      "Up to 93 days in jail, up to a $500 fine, license suspension and 6 points"
+    ],
+    "answer": 3,
+    "explanation": "The handbook says OWI penalties (the same for alcohol and marijuana) can include up to 93 days in jail, up to a $500 fine, license suspension and six points on your record.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 29"
+  },
+  {
+    "id": "mi.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "For a first operating-while-intoxicated conviction (no priors in 7 years), how long does the Secretary of State suspend the license?",
+    "choices": [
+      "30 days, with a restricted license right away",
+      "1 year, with no restricted license at all",
+      "180 days, with no restricted license during the first 30 days",
+      "90 days, with a restricted license after 10 days"
+    ],
+    "answer": 2,
+    "explanation": "MCL 257.319 sets a 180-day suspension for a first OWI conviction; a restricted license may not be issued during the first 30 days.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 3,
+    "ref": "Michigan Vehicle Code, MCL 257.319"
+  },
+  {
+    "id": "mi.car.009",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "How do Michigan's penalties for driving under the influence of marijuana compare with those for alcohol?",
+    "choices": [
+      "They are lighter because marijuana is legal for adults",
+      "They are the same",
+      "They apply only to drivers under 21",
+      "Marijuana impairment is only a civil infraction"
+    ],
+    "answer": 1,
+    "explanation": "The handbook states that the penalties for operating under the influence of marijuana are the same as for alcohol, even though marijuana is legal for adults.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 1,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 29"
+  },
+  {
+    "id": "mi.car.010",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A passenger in your car opens a can of beer while you drive on a Michigan highway. What does Michigan law say?",
+    "choices": [
+      "No driver or passenger may possess an open alcohol container in the passenger area",
+      "It is legal as long as the driver is not drinking",
+      "It is legal if the passenger is 21 or older",
+      "It is legal if the can is kept below the window line"
+    ],
+    "answer": 0,
+    "explanation": "MCL 257.624a forbids any operator or occupant from having an open or unsealed alcohol container in the passenger area on a highway. The handbook lists an open container as a 2-point violation.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "Michigan Vehicle Code, MCL 257.624a"
+  },
+  {
+    "id": "mi.car.011",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age to apply for a Michigan Graduated Driver Licensing Level 1 Learner's License?",
+    "choices": [
+      "14 years, 8 months",
+      "15 years",
+      "15 years, 6 months",
+      "14 years, 9 months"
+    ],
+    "answer": 3,
+    "explanation": "You must be at least 14 years, 9 months old and have a Segment 1 certificate. (14 years, 8 months is the minimum age to start Segment 1 of driver education.)",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 18"
+  },
+  {
+    "id": "mi.car.012",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What score must a student earn on the Michigan Segment 1 and Segment 2 state driver education exams?",
+    "choices": [
+      "At least 80%",
+      "At least 75%",
+      "At least 70%",
+      "At least 60%"
+    ],
+    "answer": 2,
+    "explanation": "Both Segment 1 and Segment 2 require a minimum of 70 percent on the state exam.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), pp. 18-19"
+  },
+  {
+    "id": "mi.car.013",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Before taking the driving skills test, how many hours of supervised driving must a Michigan teen log?",
+    "choices": [
+      "30 hours, including 2 at night",
+      "50 hours, including 10 at night",
+      "40 hours, including 8 at night",
+      "60 hours, including 10 at night"
+    ],
+    "answer": 1,
+    "explanation": "A Level 1 driver must complete at least 50 hours of supervised driving, including 10 hours at night, before the skills test. (30 hours with 2 at night is the requirement to start Segment 2.)",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 19"
+  },
+  {
+    "id": "mi.car.014",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Who may supervise a Michigan teen driving on a Level 1 Learner's License?",
+    "choices": [
+      "A licensed parent, guardian or designated licensed adult 21 or older in the front seat",
+      "Any licensed driver 18 or older in any seat",
+      "Any licensed sibling 16 or older in the front seat",
+      "Only a certified driving instructor"
+    ],
+    "answer": 0,
+    "explanation": "Level 1 drivers may drive only with a licensed parent, guardian or designated licensed adult 21 or older seated next to them. A designated adult needs a signed letter of authorization from the parent.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 1,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 19"
+  },
+  {
+    "id": "mi.car.015",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age for a Michigan Level 2 Intermediate License?",
+    "choices": [
+      "15",
+      "16 and a half",
+      "17",
+      "16"
+    ],
+    "answer": 3,
+    "explanation": "To apply for Level 2 you must be at least 16 and have held your Level 1 license for at least 6 months.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 1,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 19"
+  },
+  {
+    "id": "mi.car.016",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long must a Michigan teen hold a Level 1 Learner's License before moving to Level 2?",
+    "choices": [
+      "At least 3 months",
+      "At least 9 months",
+      "At least 6 months",
+      "At least 12 months"
+    ],
+    "answer": 2,
+    "explanation": "Level 2 requires holding the Level 1 license for at least six months. Three months is the minimum before Segment 2.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 19"
+  },
+  {
+    "id": "mi.car.017",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During which hours is a Michigan Level 2 driver generally NOT allowed to drive?",
+    "choices": [
+      "Midnight to 5 a.m.",
+      "10 p.m. to 5 a.m.",
+      "11 p.m. to 6 a.m.",
+      "9 p.m. to 6 a.m."
+    ],
+    "answer": 1,
+    "explanation": "Level 2 drivers may not drive between 10 p.m. and 5 a.m. unless they are with a parent, guardian or designated adult 21+, or are driving for work, to or from work, or to or from an authorized activity.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 19"
+  },
+  {
+    "id": "mi.car.018",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Michigan Level 2 driver finishes a work shift at 11:30 p.m. and drives straight home alone. Is this allowed?",
+    "choices": [
+      "Yes, driving to or from employment is an exception to the night restriction",
+      "No, Level 2 drivers can never drive after 10 p.m. without an adult",
+      "Only if the trip is under 10 miles",
+      "Only if a parent gives permission by phone"
+    ],
+    "answer": 0,
+    "explanation": "The 10 p.m.-5 a.m. restriction does not apply while going to or from employment or an authorized activity.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 3,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 19"
+  },
+  {
+    "id": "mi.car.019",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "With no adult in the car, how many passengers under age 21 may a Michigan Level 2 driver carry (not counting family members)?",
+    "choices": [
+      "0",
+      "2",
+      "3",
+      "1"
+    ],
+    "answer": 3,
+    "explanation": "Level 2 drivers may not have more than one passenger under 21 unless a parent, guardian or designated adult 21+ is in the vehicle, the passengers are immediate family, or the trip is for work or an authorized activity.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 19"
+  },
+  {
+    "id": "mi.car.020",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Michigan Level 2 driver wants to drive two school friends, ages 16 and 17, to the mall with no adult present. What does the law say?",
+    "choices": [
+      "It is allowed because both friends hold licenses",
+      "It is allowed during daylight hours",
+      "This is not allowed; only one passenger under 21 is permitted without an exception",
+      "It is allowed if both passengers wear seat belts"
+    ],
+    "answer": 2,
+    "explanation": "Two non-family passengers under 21 exceed the Level 2 limit of one, and a trip to the mall is not a work or authorized-activity exception.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 3,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 19"
+  },
+  {
+    "id": "mi.car.021",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What must a Michigan teen do to receive a Level 3 Full License?",
+    "choices": [
+      "Turn 16 and pass a second road test",
+      "Be at least 17 and drive 12 consecutive months at Level 2 without a moving violation, at-fault crash, suspension or GDL violation",
+      "Be at least 18 and complete Segment 3",
+      "Log 100 hours of supervised driving"
+    ],
+    "answer": 1,
+    "explanation": "Level 3 requires age 17, at least six months at Level 2, and 12 consecutive months without a moving violation, at-fault crash, suspension or GDL restriction violation. It is issued automatically at no fee.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 19"
+  },
+  {
+    "id": "mi.car.022",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "For how long are newly licensed Michigan drivers, including GDL teens, placed on probation?",
+    "choices": [
+      "A minimum of 3 years",
+      "A minimum of 1 year",
+      "A minimum of 2 years",
+      "Until age 21"
+    ],
+    "answer": 0,
+    "explanation": "New drivers are placed on probation for at least three years. Probationary drivers may be called to a reexamination after only one or two violations.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), pp. 23, 30"
+  },
+  {
+    "id": "mi.car.023",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Michigan temporary instruction permit (TIP) for a new adult driver is valid for how long?",
+    "choices": [
+      "90 days",
+      "1 year",
+      "2 years",
+      "180 days"
+    ],
+    "answer": 3,
+    "explanation": "A TIP is valid for 180 days. If you do not pass the driving skills test in that time, you must apply for a new TIP.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 1,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 21"
+  },
+  {
+    "id": "mi.car.024",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long do points from a traffic conviction stay on a Michigan driving record?",
+    "choices": [
+      "One year from the date of the ticket",
+      "Three years from the date of conviction",
+      "Two years from the date of conviction",
+      "Seven years from the date of the ticket"
+    ],
+    "answer": 2,
+    "explanation": "Points remain on your Michigan driving record for two years from the date of conviction. (The conviction itself usually stays on the record at least seven years.)",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 27"
+  },
+  {
+    "id": "mi.car.025",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Accumulating how many points within two years requires a Michigan driver assessment reexamination?",
+    "choices": [
+      "6 or more points",
+      "12 or more points",
+      "8 or more points",
+      "15 or more points"
+    ],
+    "answer": 1,
+    "explanation": "Twelve or more points (or six or more one-point violations) within two years triggers a driver assessment reexamination.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 27"
+  },
+  {
+    "id": "mi.car.026",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "In Michigan, how many points does a conviction for driving 16 mph or more over the speed limit carry (outside a work zone)?",
+    "choices": [
+      "4 points",
+      "2 points",
+      "3 points",
+      "6 points"
+    ],
+    "answer": 0,
+    "explanation": "16 mph or more over the limit is 4 points; 11-15 over is 3 points; 6-10 over is 2 points.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 28"
+  },
+  {
+    "id": "mi.car.027",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which conviction carries 3 points on a Michigan driving record?",
+    "choices": [
+      "Drag racing",
+      "Reckless driving",
+      "Open alcohol container in the vehicle",
+      "Failing to stop for a school bus"
+    ],
+    "answer": 3,
+    "explanation": "Failing to stop for a school bus is a 3-point violation. Drag racing is 4 points, reckless driving is 6 points, and an open container is 2 points.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 3,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 28"
+  },
+  {
+    "id": "mi.car.028",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long does a conviction for impaired or drunk driving stay on a Michigan driving record?",
+    "choices": [
+      "Two years",
+      "Seven years",
+      "Permanently",
+      "Ten years"
+    ],
+    "answer": 2,
+    "explanation": "Most convictions stay at least seven years, some at least 10, but a conviction for a fatality or for impaired driving remains on your record permanently.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 27"
+  },
+  {
+    "id": "mi.car.029",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Since July 2020, what are the default bodily injury liability limits on a Michigan auto insurance policy?",
+    "choices": [
+      "$20,000 per person and $40,000 per accident",
+      "$250,000 per person and $500,000 per accident",
+      "$50,000 per person and $100,000 per accident",
+      "$100,000 per person and $300,000 per accident"
+    ],
+    "answer": 1,
+    "explanation": "MCL 500.3009 sets $250,000/$500,000 as the standard limits after July 1, 2020. Policyholders may choose lower limits, but not below $50,000/$100,000.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "Michigan Insurance Code, MCL 500.3009"
+  },
+  {
+    "id": "mi.car.030",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the lowest bodily injury liability coverage a Michigan driver may choose?",
+    "choices": [
+      "$50,000 per person and $100,000 per accident",
+      "$20,000 per person and $40,000 per accident",
+      "$25,000 per person and $50,000 per accident",
+      "$10,000 per person and $20,000 per accident"
+    ],
+    "answer": 0,
+    "explanation": "Drivers may choose limits below the $250,000/$500,000 default, but not lower than $50,000 per person and $100,000 per accident.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 3,
+    "ref": "Michigan Insurance Code, MCL 500.3009"
+  },
+  {
+    "id": "mi.car.031",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "What is the fine for a first offense of using a hand-held phone while driving in Michigan?",
+    "choices": [
+      "$50",
+      "$250",
+      "$500",
+      "$100"
+    ],
+    "answer": 3,
+    "explanation": "Drivers face a $100 fine for a first offense and $250 for later violations.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 37"
+  },
+  {
+    "id": "mi.car.032",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Michigan's general cell phone law, which of these is allowed while driving for a fully licensed adult?",
+    "choices": [
+      "Typing an address into a GPS app by hand",
+      "Reading a text message at a red light",
+      "Tapping a single button once to start a hands-free call",
+      "Watching a video on a phone held in your lap"
+    ],
+    "answer": 2,
+    "explanation": "Adults may use a device in hands-free mode if they press, tap or swipe a single button to activate a function. Entering GPS information by hand, reading texts and viewing video are not allowed.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 38"
+  },
+  {
+    "id": "mi.car.033",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Kelsey's Law, which Michigan drivers may not make or receive non-emergency phone calls while driving, even hands-free?",
+    "choices": [
+      "All drivers under 21",
+      "Teens with a GDL Level 1 or Level 2 license",
+      "Only teens with a Level 1 license",
+      "Drivers in their first year of a full license"
+    ],
+    "answer": 1,
+    "explanation": "Kelsey's Law (MCL 257.602c) prohibits teens with a GDL 1 or GDL 2 from making or receiving non-emergency phone calls. GDL 3 teens follow the general cell phone law.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 38"
+  },
+  {
+    "id": "mi.car.034",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A Michigan driver with a Level 2 license sees a crash ahead. May they call 9-1-1 while driving?",
+    "choices": [
+      "Yes, all drivers may use a phone to report a crash or other emergency",
+      "No, Level 2 drivers may never use a phone while driving",
+      "Only if a passenger dials the number",
+      "Only if they first pull completely off the road"
+    ],
+    "answer": 0,
+    "explanation": "The emergency exception applies to all drivers, including teens, for reporting a crash, medical emergency, road hazard, reckless driver or crime.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 38"
+  },
+  {
+    "id": "mi.car.035",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Michigan's seat belt law, who must wear a seat belt?",
+    "choices": [
+      "Only the driver and passengers under 8",
+      "Only front-seat passengers 16 and older",
+      "Only the driver",
+      "The driver, all front-seat passengers, and every passenger under 16 in any seat"
+    ],
+    "answer": 3,
+    "explanation": "Michigan requires all front-seat occupants (including the driver) and all passengers younger than 16 in any seating position to be buckled.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 1,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 39"
+  },
+  {
+    "id": "mi.car.036",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Until when must a Michigan child ride in a car seat or booster seat?",
+    "choices": [
+      "Until age 6 or 60 pounds",
+      "Until age 10 regardless of height",
+      "Until age 8 or 4 feet 9 inches tall, whichever comes first",
+      "Until age 4 or 40 pounds"
+    ],
+    "answer": 2,
+    "explanation": "Children must be in a car seat or booster until they are 8 years old or 4 feet 9 inches tall, whichever comes first.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 1,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 39"
+  },
+  {
+    "id": "mi.car.037",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Where must a Michigan child under age 4 ride if the vehicle has a rear seat?",
+    "choices": [
+      "In the front seat so the driver can watch them",
+      "In a rear seat, unless all rear seats are already taken by children under 4",
+      "Anywhere, as long as they are in a car seat",
+      "In the rear seat only if the trip is on a freeway"
+    ],
+    "answer": 1,
+    "explanation": "Children under 4 must be in a rear seat when one is available. Only if all rear seats are occupied by children under 4 may one ride in front in a child restraint.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 39"
+  },
+  {
+    "id": "mi.car.038",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "When may a child in a rear-facing car seat ride in the front seat in Michigan?",
+    "choices": [
+      "Only if the front passenger air bag is deactivated",
+      "Whenever the back seat is full of adults",
+      "Never, under any circumstances",
+      "When the trip is under 15 minutes"
+    ],
+    "answer": 0,
+    "explanation": "A rear-facing child restraint may be placed in the front seat only if the front passenger air bag is deactivated.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 39"
+  },
+  {
+    "id": "mi.car.039",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "In Michigan, a person under 18 may not ride in the open bed of a pickup truck traveling faster than what speed (with limited exceptions)?",
+    "choices": [
+      "25 mph",
+      "10 mph",
+      "35 mph",
+      "15 mph"
+    ],
+    "answer": 3,
+    "explanation": "Anyone under 18 is prohibited from riding in the open bed of a pickup traveling more than 15 mph, with exceptions such as farm, construction, military and parade use.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 39"
+  },
+  {
+    "id": "mi.car.040",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Michigan law, it is illegal to leave a child younger than what age unattended in a vehicle when it poses an unreasonable risk of harm?",
+    "choices": [
+      "4",
+      "8",
+      "6",
+      "12"
+    ],
+    "answer": 2,
+    "explanation": "Leaving a child younger than 6 unattended under risky conditions is illegal. Leaving them with a supervisor age 13 or older who is not legally incapacitated is allowed.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 40"
+  },
+  {
+    "id": "mi.car.041",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What does Michigan's Basic Speed Law require?",
+    "choices": [
+      "Driving at exactly the posted speed limit at all times",
+      "Driving at a careful and prudent speed that lets you stop within the clear distance ahead",
+      "Driving no more than 5 mph over the posted limit",
+      "Keeping up with the flow of traffic even if it exceeds the limit"
+    ],
+    "answer": 1,
+    "explanation": "You must drive at a careful and prudent speed that always allows you to stop within the clear distance ahead. That speed is never faster than the posted limit and may be slower.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 1,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 40"
+  },
+  {
+    "id": "mi.car.042",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the speed limit in a Michigan platted subdivision or condominium complex?",
+    "choices": [
+      "25 mph",
+      "15 mph",
+      "30 mph",
+      "35 mph"
+    ],
+    "answer": 0,
+    "explanation": "The handbook lists 25 mph for platted subdivisions and condominium complexes.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 1,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 40"
+  },
+  {
+    "id": "mi.car.043",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the speed limit on Michigan highways and streets that are not freeways?",
+    "choices": [
+      "45 mph",
+      "50 mph",
+      "65 mph",
+      "55 mph"
+    ],
+    "answer": 3,
+    "explanation": "Unless otherwise posted, the limit is 55 mph on all streets that are not designated freeways and on all highways.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 1,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 40"
+  },
+  {
+    "id": "mi.car.044",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless posted otherwise, what are the maximum and minimum speed limits on Michigan freeways?",
+    "choices": [
+      "65 mph maximum, 45 mph minimum",
+      "75 mph maximum, 40 mph minimum",
+      "70 mph maximum, 55 mph minimum",
+      "70 mph maximum, 45 mph minimum"
+    ],
+    "answer": 2,
+    "explanation": "Michigan freeways have a 70 mph maximum and a 55 mph minimum unless posted otherwise.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 1,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 40"
+  },
+  {
+    "id": "mi.car.045",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the speed limit within a business district in Michigan?",
+    "choices": [
+      "20 mph",
+      "25 mph",
+      "30 mph",
+      "35 mph"
+    ],
+    "answer": 1,
+    "explanation": "MCL 257.627 sets 25 mph on a highway segment within a business district unless another limit is posted.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "Michigan Vehicle Code, MCL 257.627"
+  },
+  {
+    "id": "mi.car.046",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the lowest speed limit that can be set in a Michigan school zone under state law?",
+    "choices": [
+      "25 mph",
+      "15 mph",
+      "20 mph",
+      "10 mph"
+    ],
+    "answer": 0,
+    "explanation": "A school-zone limit may be reduced by no more than 20 mph below the normal limit and may not be lower than 25 mph (MCL 257.627a).",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 3,
+    "ref": "Michigan Vehicle Code, MCL 257.627a"
+  },
+  {
+    "id": "mi.car.047",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What following distance does the Michigan handbook require under normal conditions?",
+    "choices": [
+      "2 seconds",
+      "1 car length per 10 mph",
+      "5 to 6 seconds",
+      "3 to 4 seconds"
+    ],
+    "answer": 3,
+    "explanation": "A 3- to 4-second following distance is required. Count from when the vehicle ahead passes a fixed point.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 1,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 78"
+  },
+  {
+    "id": "mi.car.048",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "At higher speeds or in poor driving conditions, how much should a Michigan driver increase following distance?",
+    "choices": [
+      "To exactly 4 seconds",
+      "By one car length",
+      "Up to 6 seconds or more",
+      "It should stay the same"
+    ],
+    "answer": 2,
+    "explanation": "When speeds increase or conditions are adverse, increase your following distance up to 6 seconds or more if necessary.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 78"
+  },
+  {
+    "id": "mi.car.049",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless posted differently, what is the speed limit in most Michigan construction, maintenance or surveying zones?",
+    "choices": [
+      "35 mph",
+      "45 mph",
+      "25 mph",
+      "55 mph"
+    ],
+    "answer": 1,
+    "explanation": "For most work zones the limit is 45 mph unless posted differently. Some zones return to the normal limit when workers are absent.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 1,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 41"
+  },
+  {
+    "id": "mi.car.050",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "A Michigan driver is caught going more than 15 mph over the limit in a work zone. How many points are assessed?",
+    "choices": [
+      "5 points",
+      "3 points",
+      "4 points",
+      "6 points"
+    ],
+    "answer": 0,
+    "explanation": "In work zones: 3 points for 10 mph or less over, 4 points for more than 10 up to 15 over, and 5 points for more than 15 over. Fines are also doubled.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 3,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 41"
+  },
+  {
+    "id": "mi.car.051",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You approach a police car stopped on the shoulder with its lights flashing. What does Michigan law require?",
+    "choices": [
+      "Slow to 5 mph below the limit and stay in your lane",
+      "Come to a complete stop until the officer waves you on",
+      "Speed up to pass the scene quickly",
+      "Slow to at least 10 mph below the posted limit and move over a lane if it is safe"
+    ],
+    "answer": 3,
+    "explanation": "Michigan's move-over law requires slowing at least 10 mph below the posted limit and moving over a lane when traffic and conditions allow; if you can't move over, slow down and leave as much space as possible.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 42"
+  },
+  {
+    "id": "mi.car.052",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "How far behind a moving emergency vehicle with flashing lights and siren must a Michigan driver stay?",
+    "choices": [
+      "At least 200 feet",
+      "At least 300 feet",
+      "At least 500 feet",
+      "At least 1,000 feet"
+    ],
+    "answer": 2,
+    "explanation": "Stay at least 500 feet behind any moving emergency vehicle displaying flashing warning lights and sounding a siren, and never pass it unless directed.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 42"
+  },
+  {
+    "id": "mi.car.053",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "Which vehicles have the right of way over a funeral procession in Michigan?",
+    "choices": [
+      "School buses and city buses",
+      "Fire trucks, ambulances and police vehicles",
+      "Any vehicle already in the intersection on a green light",
+      "Commercial trucks"
+    ],
+    "answer": 1,
+    "explanation": "Funeral processions have the right of way over all other vehicles except fire trucks, ambulances and police vehicles. Cutting through a procession is a civil infraction.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 45"
+  },
+  {
+    "id": "mi.car.054",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A funeral procession is coming toward you on a two-lane road in Michigan. Are you required to pull over?",
+    "choices": [
+      "No, but you should be respectful and must not cut through the procession",
+      "Yes, you must pull over and stop until it passes",
+      "Yes, but only in the daytime",
+      "Only if the procession has a police escort"
+    ],
+    "answer": 0,
+    "explanation": "Drivers should be respectful but are not required to pull over for a funeral procession. Cutting through one is a civil infraction.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 3,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 45"
+  },
+  {
+    "id": "mi.car.055",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "In Michigan, what should you do when you see flashing green lights on a state or local road maintenance vehicle?",
+    "choices": [
+      "Proceed normally; green means the road is clear",
+      "Stop and wait for a flagger",
+      "Pass it quickly on the left",
+      "Slow down and drive with caution because road work is taking place"
+    ],
+    "answer": 3,
+    "explanation": "Michigan road agencies may use flashing green lights on maintenance vehicles, activated only during road work. Slow down and drive with caution.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 41"
+  },
+  {
+    "id": "mi.car.057",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Michigan, how close to a fire hydrant may you park?",
+    "choices": [
+      "No closer than 10 feet",
+      "No closer than 15 feet",
+      "No closer than 20 feet",
+      "No closer than 30 feet"
+    ],
+    "answer": 1,
+    "explanation": "Never park within 15 feet of a fire hydrant.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 1,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 52"
+  },
+  {
+    "id": "mi.car.058",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "What is the closest a Michigan driver may park to a marked crosswalk?",
+    "choices": [
+      "20 feet",
+      "15 feet",
+      "10 feet",
+      "30 feet"
+    ],
+    "answer": 0,
+    "explanation": "Do not park within 20 feet of a marked crosswalk. If there is no crosswalk, do not park within 15 feet of an intersection.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 53"
+  },
+  {
+    "id": "mi.car.059",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "If there is no crosswalk, how far from an intersection must you park in Michigan?",
+    "choices": [
+      "At least 20 feet",
+      "At least 30 feet",
+      "At least 10 feet",
+      "At least 15 feet"
+    ],
+    "answer": 3,
+    "explanation": "Never park within 15 feet of an intersection when there is no crosswalk (20 feet applies to a marked crosswalk).",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 53"
+  },
+  {
+    "id": "mi.car.060",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Michigan, you may not park within how many feet of a stop sign, traffic light or flashing beacon?",
+    "choices": [
+      "15 feet",
+      "20 feet",
+      "30 feet",
+      "50 feet"
+    ],
+    "answer": 2,
+    "explanation": "Never park within 30 feet of a stop sign, traffic light or flashing beacon, including a warning sign.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 52"
+  },
+  {
+    "id": "mi.car.061",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How far from the nearest rail of a railroad crossing must you park in Michigan?",
+    "choices": [
+      "At least 15 feet",
+      "At least 50 feet",
+      "At least 30 feet",
+      "At least 100 feet"
+    ],
+    "answer": 1,
+    "explanation": "Never park within 50 feet of the nearest rail of a railroad crossing.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 52"
+  },
+  {
+    "id": "mi.car.062",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You want to park across the street from a fire station driveway, and the spot is marked. How far away must you park?",
+    "choices": [
+      "At least 75 feet",
+      "At least 20 feet",
+      "At least 50 feet",
+      "At least 100 feet"
+    ],
+    "answer": 0,
+    "explanation": "Do not park within 20 feet of a fire station driveway on the same side of the street or, when marked, within 75 feet on the other side.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 3,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 52"
+  },
+  {
+    "id": "mi.car.063",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "When parallel parked along a curb in Michigan, your vehicle may be no more than how far from the curb?",
+    "choices": [
+      "6 inches",
+      "18 inches",
+      "24 inches",
+      "12 inches"
+    ],
+    "answer": 3,
+    "explanation": "Never park more than 12 inches from the curb; the curb should never be more than a foot from your vehicle.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 1,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 52"
+  },
+  {
+    "id": "mi.car.064",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Michigan, you may not park within how many feet of a fire or a crash?",
+    "choices": [
+      "100 feet",
+      "200 feet",
+      "500 feet",
+      "1,000 feet"
+    ],
+    "answer": 2,
+    "explanation": "The handbook's no-parking list includes parking within 500 feet of a fire or a crash.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 52"
+  },
+  {
+    "id": "mi.car.065",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "At an intersection with a Michigan Left, how do you turn left onto the cross street?",
+    "choices": [
+      "Turn left directly from the left lane on a green arrow",
+      "Drive straight through (or turn right), then make a U-turn at a median crossover",
+      "Turn left from the right lane after yielding",
+      "Make a U-turn before the intersection and then turn right"
+    ],
+    "answer": 1,
+    "explanation": "Michigan Left intersections do not allow traditional left turns. You drive straight through the intersection, or turn right, and then make a U-turn at a median crossover.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 1,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 62"
+  },
+  {
+    "id": "mi.car.066",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "How should a Michigan driver treat a median crossover that has no pavement markings?",
+    "choices": [
+      "As a single-lane crossover, one vehicle turning at a time",
+      "As a two-lane crossover",
+      "As a no-turn zone",
+      "As a parking area for waiting vehicles"
+    ],
+    "answer": 0,
+    "explanation": "An unmarked median crossover should always be treated as a single-lane crossover. Extra width is there for large vehicles that need a wider turning radius.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 3,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 62"
+  },
+  {
+    "id": "mi.car.067",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "In Michigan, may you turn left on a red light from a two-way street onto a one-way street?",
+    "choices": [
+      "No, left turns on red are never allowed",
+      "Only from one one-way street onto another",
+      "Only if a green arrow is also shown",
+      "Yes, after a full stop and yielding, unless a sign prohibits it"
+    ],
+    "answer": 3,
+    "explanation": "Michigan allows a left turn on red from a one-way or two-way street onto a one-way street carrying traffic to the left, after stopping and yielding, unless prohibited by sign.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 3,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 44"
+  },
+  {
+    "id": "mi.car.068",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "In Michigan, a left turn on a red light is NOT permitted in which situation?",
+    "choices": [
+      "Turning onto a two-way street",
+      "Turning from a one-way street onto a one-way street whose traffic moves to the left",
+      "Turning from a two-way street onto a one-way street whose traffic moves to the left"
+    ],
+    "answer": 0,
+    "explanation": "MCL 257.612 allows a left turn on red, after a full stop, only into a one-way roadway carrying traffic in the direction of the turn (from either a one-way or two-way street). A left on red onto a two-way street is not allowed.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 3,
+    "ref": "Michigan Vehicle Code, MCL 257.612"
+  },
+  {
+    "id": "mi.car.069",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "A road has a paved median cut-through with no signs prohibiting its use. What does the Michigan handbook say?",
+    "choices": [
+      "Only emergency vehicles may use it",
+      "You may use the cut-through to make a left turn",
+      "You may use it only to make U-turns at night",
+      "You must never cross a median for any reason"
+    ],
+    "answer": 1,
+    "explanation": "If a road's cut-through is paved and there are no signs prohibiting its use, you may make a left turn using it. Driving across median strips or through barriers is otherwise illegal.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 3,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 47"
+  },
+  {
+    "id": "mi.car.070",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "To avoid a red light, a Michigan driver cuts through a gas station lot at the corner. Is this legal?",
+    "choices": [
+      "No, driving across public or private property to avoid a traffic-control device is illegal",
+      "Yes, if the driver does not stop at the station",
+      "Yes, if no pedestrians are present",
+      "Yes, private property is not covered by traffic laws"
+    ],
+    "answer": 0,
+    "explanation": "It is illegal to drive across public or private property, such as a store parking lot, to avoid a traffic-control device.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 63"
+  },
+  {
+    "id": "mi.car.072",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "When passing on a two-lane Michigan road, you must return to your lane before getting within how many feet of an oncoming vehicle?",
+    "choices": [
+      "100 feet",
+      "300 feet",
+      "200 feet",
+      "500 feet"
+    ],
+    "answer": 2,
+    "explanation": "You must return to your lane before you get within 200 feet of any oncoming vehicle.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 46"
+  },
+  {
+    "id": "mi.car.073",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "In Michigan, you may not pass another vehicle within how many feet of an intersection or railroad crossing?",
+    "choices": [
+      "50 feet",
+      "100 feet",
+      "200 feet",
+      "500 feet"
+    ],
+    "answer": 1,
+    "explanation": "Do not pass when you are within 100 feet of an intersection or railroad crossing, or when your view is blocked within 100 feet of a bridge, viaduct or tunnel.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 46"
+  },
+  {
+    "id": "mi.car.074",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "On a Michigan interstate or full-access-controlled freeway, when may you drive in the left lane?",
+    "choices": [
+      "When there is no traffic immediately behind or in front of you in the left lane",
+      "Whenever you are driving at the speed limit",
+      "Anytime you plan to exit within 10 miles",
+      "Only when towing a trailer"
+    ],
+    "answer": 0,
+    "explanation": "You must use the right-hand lane on interstates, except for congestion, weather, a right-lane hazard, yielding to emergency or construction vehicles, or when no traffic is immediately behind or in front of you in the left lane.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 3,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 47"
+  },
+  {
+    "id": "mi.car.076",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "When may a Michigan driver use a High Occupancy Vehicle (HOV) lane during its posted hours?",
+    "choices": [
+      "When the vehicle has three or more occupants",
+      "Only when driving a hybrid or electric vehicle",
+      "When the vehicle has two or more occupants",
+      "Only during rush hour if traffic is light"
+    ],
+    "answer": 2,
+    "explanation": "Vehicles must have two or more occupants to use the HOV lane during its hours. Outside those hours HOV lanes are open to everyone, and motorcycles may use them at any time.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 75"
+  },
+  {
+    "id": "mi.car.077",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "A Michigan driver comes up behind a motorcyclist riding in the left part of the lane. May the driver pass the motorcycle within the same lane?",
+    "choices": [
+      "Yes, if there is at least 3 feet of space",
+      "No, it is illegal to drive beside or pass a motorcyclist in the same lane",
+      "Yes, if the motorcycle is going under the speed limit",
+      "Yes, on roads with no center line"
+    ],
+    "answer": 1,
+    "explanation": "It is illegal for motorists to drive beside motorcyclists or pass them in the same lane. Pass using an adjacent lane when legal and safe.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 70"
+  },
+  {
+    "id": "mi.car.078",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "How much space does Michigan law require when you pass a bicyclist?",
+    "choices": [
+      "At least 3 feet",
+      "At least 2 feet",
+      "At least 5 feet",
+      "At least 6 feet"
+    ],
+    "answer": 0,
+    "explanation": "Michigan requires at least 3 feet when passing a bicyclist; if that is impractical, pass at a safe distance and speed. Some cities require 5 feet.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 1,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 71"
+  },
+  {
+    "id": "mi.car.079",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are behind a bicyclist in a no-passing zone in Michigan, and the oncoming lane is clear for a long distance. What may you do?",
+    "choices": [
+      "Never pass until the no-passing zone ends",
+      "Honk so the cyclist moves onto the shoulder",
+      "Pass only if the cyclist waves you around",
+      "Pass the bicyclist with safe clearance, since passing a bicyclist in a no-passing zone is allowed when safe"
+    ],
+    "answer": 3,
+    "explanation": "Michigan allows passing a bicyclist in a no-passing zone as long as it is safe to do so, while still leaving at least 3 feet.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 3,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 71"
+  },
+  {
+    "id": "mi.car.080",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "In Michigan, which vehicles are considered slow-moving vehicles that must display an orange triangle?",
+    "choices": [
+      "Four-wheelers and golf carts",
+      "Any vehicle going under the minimum freeway speed",
+      "Vehicles that cannot travel faster than 25 mph, such as farm machinery and Amish buggies",
+      "Mopeds and motor scooters"
+    ],
+    "answer": 2,
+    "explanation": "Slow-moving vehicles cannot travel faster than 25 mph, like Amish buggies and farm machinery, and display an orange triangle. Four-wheelers and golf carts are not considered slow-moving vehicles.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 68"
+  },
+  {
+    "id": "mi.car.081",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "When following a horse-drawn buggy in Michigan, what speed and distance does the handbook recommend?",
+    "choices": [
+      "25-30 mph and at least 10 feet back",
+      "15-20 mph and at least 20 feet back",
+      "5-10 mph and at least 50 feet back",
+      "Match the posted limit and stay 2 seconds back"
+    ],
+    "answer": 1,
+    "explanation": "Reduce your speed to 15-20 mph and keep at least 20 feet between your vehicle and the horse or buggy. Never honk or rev your engine.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 68"
+  },
+  {
+    "id": "mi.car.082",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Under Michigan law, which description fits a moped?",
+    "choices": [
+      "An engine of 100 cc or less and a top speed of 30 mph or less on level ground, with no gear shifting",
+      "An engine of 125 cc or less that may be ridden on freeways",
+      "Any two-wheeled vehicle under 250 cc",
+      "An engine of 50 cc or less with a top speed of 20 mph"
+    ],
+    "answer": 0,
+    "explanation": "A moped has two or three wheels, an engine no larger than 100 cc, cannot go faster than 30 mph on a level surface, and does not require the operator to shift gears.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 3,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 70"
+  },
+  {
+    "id": "mi.car.083",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "In Michigan, must a bicyclist ride in a bicycle lane when one is available?",
+    "choices": [
+      "Yes, at all times",
+      "Yes, except at night",
+      "Only on roads with speed limits over 35 mph",
+      "No, bicyclists are not required to use a bike lane and may leave it to turn left or avoid hazards"
+    ],
+    "answer": 3,
+    "explanation": "Bicyclists are not required to use a bicycle lane and may leave it to turn left or to avoid hazards.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 71"
+  },
+  {
+    "id": "mi.car.084",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "What following distance should you leave behind a motorcycle, scooter or bicycle in Michigan?",
+    "choices": [
+      "At least 1 second",
+      "At least 2 car lengths",
+      "At least 3 or 4 seconds",
+      "At least 10 seconds"
+    ],
+    "answer": 2,
+    "explanation": "Tailgating is illegal. Leave at least 3 or 4 seconds of space behind motorcyclists, scooter operators and bicyclists, who can stop quickly and may swerve.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 69"
+  },
+  {
+    "id": "mi.car.085",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "Which motorcycles are NOT allowed on Michigan freeways?",
+    "choices": [
+      "Motorcycles with engines over 1,000 cc",
+      "Motorcycles with engines of 124 cc or less",
+      "Three-wheeled motorcycles",
+      "Motorcycles carrying a passenger"
+    ],
+    "answer": 1,
+    "explanation": "Pedestrians, small motorcycles of 124 cc or less, mopeds, bicycles, ATVs and slow-moving vehicles are not allowed on freeways. Motorcycles of 125 cc or more may use them.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 74"
+  },
+  {
+    "id": "mi.car.086",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "Who may use the crossover lanes in the median of a Michigan freeway?",
+    "choices": [
+      "Only emergency and Michigan Department of Transportation vehicles",
+      "Any driver who has missed an exit",
+      "Any vehicle, if no traffic is coming",
+      "Passenger cars only, never trucks"
+    ],
+    "answer": 0,
+    "explanation": "Median crossovers are only for emergency and MDOT vehicles. If you miss your exit, never back up, turn around or use a crossover; drive to the next exit and come back.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 75"
+  },
+  {
+    "id": "mi.car.087",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "On a Michigan freeway with three or more lanes in your direction, which lane should you use if you are driving near the minimum speed limit?",
+    "choices": [
+      "The far left lane",
+      "The middle lane",
+      "The shoulder",
+      "The lane with the slower-moving traffic"
+    ],
+    "answer": 3,
+    "explanation": "You may use any lane on freeways with three or more lanes, but if you are at or near the minimum speed limit, stay in the lane with slower traffic.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 75"
+  },
+  {
+    "id": "mi.car.088",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "A deer suddenly appears in your lane and a crash cannot be avoided. What does the Michigan handbook advise?",
+    "choices": [
+      "Swerve sharply into the oncoming lane",
+      "Speed up to get past the deer",
+      "Brake firmly, hold the wheel with both hands and stay in your lane",
+      "Flash your high beams and honk to scare it off"
+    ],
+    "answer": 2,
+    "explanation": "Do not veer for deer: stay in your lane, brake firmly, hold the wheel with both hands, come to a controlled stop and steer well off the road.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 1,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 79"
+  },
+  {
+    "id": "mi.car.090",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When a train is approaching a Michigan railroad crossing, where must you stop?",
+    "choices": [
+      "No closer than 15 feet and no farther than 50 feet from the tracks",
+      "No closer than 5 feet and no farther than 25 feet",
+      "No closer than 20 feet and no farther than 100 feet",
+      "Right at the edge of the tracks"
+    ],
+    "answer": 0,
+    "explanation": "If a train is coming, stop no more than 50 feet or less than 15 feet from the tracks. Trains overhang the rails by at least three feet.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 49"
+  },
+  {
+    "id": "mi.car.091",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Traffic is backed up near a Michigan railroad crossing. When may you drive onto the tracks?",
+    "choices": [
+      "Whenever the lights are not flashing",
+      "As long as you can see the car ahead moving",
+      "When the gates are halfway down",
+      "Only when there is room to clear the far side of the tracks by at least 6 feet"
+    ],
+    "answer": 3,
+    "explanation": "Never cross unless there is enough space for your vehicle to completely clear the far side of the tracks by at least 6 feet.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 50"
+  },
+  {
+    "id": "mi.car.092",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Your car stalls on the tracks and no train is coming or signaling. After getting everyone out, whom should you call first?",
+    "choices": [
+      "A towing company",
+      "Your insurance company",
+      "The railroad's emergency number on the blue Emergency Notification System sign",
+      "The Secretary of State"
+    ],
+    "answer": 2,
+    "explanation": "If the lights or gates are not activated, get everyone out and call the railroad's number on the blue Emergency Notification Sign with the crossing ID, then call 911.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 3,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 50"
+  },
+  {
+    "id": "mi.car.093",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "In Michigan, which vehicles must stop at a railroad crossing even when there is no stop sign or signal (unless marked otherwise)?",
+    "choices": [
+      "All passenger cars",
+      "School buses, passenger vehicles for hire and vehicles carrying hazardous materials",
+      "Motorcycles and mopeds",
+      "Only vehicles towing trailers"
+    ],
+    "answer": 1,
+    "explanation": "Unless marked otherwise, school buses, vehicles carrying passengers for hire, gasoline trucks and other hazardous-materials vehicles must stop and check for trains.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 50"
+  },
+  {
+    "id": "mi.car.094",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When must headlights be on in Michigan?",
+    "choices": [
+      "From a half hour after sunset to a half hour before sunrise, and when you cannot clearly see 500 feet ahead",
+      "Only from sunset to sunrise",
+      "From one hour after sunset to one hour before sunrise",
+      "Only when it is raining"
+    ],
+    "answer": 0,
+    "explanation": "Headlights are required from one half-hour after sunset until one half-hour before sunrise and whenever you cannot clearly see people and vehicles 500 feet ahead.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 78"
+  },
+  {
+    "id": "mi.car.095",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "In Michigan, you must not use or even flash your high beams within what distance of an oncoming vehicle?",
+    "choices": [
+      "200 feet",
+      "300 feet",
+      "1,000 feet",
+      "500 feet"
+    ],
+    "answer": 3,
+    "explanation": "It is illegal to use or even flash high-beam headlights within 500 feet of an oncoming vehicle.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 1,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 78"
+  },
+  {
+    "id": "mi.car.096",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "After a crash in Michigan, when must you notify the police?",
+    "choices": [
+      "Only when someone is killed",
+      "When property damage exceeds $500",
+      "When anyone is injured or property damage exceeds $1,000",
+      "Only if the other driver has no insurance"
+    ],
+    "answer": 2,
+    "explanation": "Notify the police if there are injuries or property damage exceeding $1,000.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 79"
+  },
+  {
+    "id": "mi.car.097",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You are in a minor crash in Michigan with no serious injuries, and your car can still be driven safely. What must you do?",
+    "choices": [
+      "Leave the car where it is until police arrive",
+      "Move the car out of the main roadway to a safe spot such as the shoulder or a nearby lot",
+      "Drive home and report the crash later",
+      "Leave the scene once you exchange phone numbers"
+    ],
+    "answer": 1,
+    "explanation": "Vehicles in crashes without serious injury or death must be moved from the main roadway by a licensed driver or passenger if the vehicle can be driven and it is safe to do so. Leaving the scene is illegal.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 79"
+  },
+  {
+    "id": "mi.car.098",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Your car breaks down on a busy Michigan highway. What does the handbook generally recommend?",
+    "choices": [
+      "Pull as far off the road as possible, turn on hazard flashers and stay inside with your seat belt fastened",
+      "Get out and stand behind the car to warn traffic",
+      "Walk along the freeway to the next exit",
+      "Try to repair the car in the travel lane"
+    ],
+    "answer": 0,
+    "explanation": "Pull as far off the roadway as possible, activate your flashers and stay in the vehicle with your seat belt fastened. Walking on the freeway is dangerous and illegal.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 1,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 81"
+  },
+  {
+    "id": "mi.car.099",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You hit a deer in Michigan. To whom can you report it, and what can they provide?",
+    "choices": [
+      "Only the Secretary of State, which adds points",
+      "Only your insurance company",
+      "No report is needed for deer crashes",
+      "Local police, the sheriff, Michigan State Police or the DNR, who can give a permit to keep the deer"
+    ],
+    "answer": 3,
+    "explanation": "If you hit a deer, report it to local law enforcement, the county sheriff, Michigan State Police or the Department of Natural Resources. They can provide a permit to keep it.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 79"
+  },
+  {
+    "id": "mi.car.100",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "In Michigan, what does a fluorescent pink traffic sign indicate?",
+    "choices": [
+      "A school or pedestrian zone",
+      "A recreation or cultural area",
+      "An incident, emergency or unplanned event ahead",
+      "A construction zone"
+    ],
+    "answer": 2,
+    "explanation": "Fluorescent pink is used for incidents, emergencies or unplanned events. Orange is for construction, fluorescent yellow-green for school, pedestrian or bicycle caution, and brown for recreation.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 56"
+  },
+  {
+    "id": "mi.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Under Michigan law, who must wear a crash helmet when operating a motorcycle?",
+    "choices": [
+      "Only operators under 18",
+      "Only operators under 21, regardless of experience or insurance",
+      "No one; helmets are optional for adults",
+      "Every operator, unless 21+ with a 2-year endorsement or a passed safety course and at least $20,000 in medical coverage"
+    ],
+    "answer": 3,
+    "explanation": "MCL 257.658 requires motorcycle operators and passengers to wear helmets. An operator 21 or older may ride without one only with an endorsement held at least 2 years (or a passed safety course) and at least $20,000 in first-party medical benefits coverage.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "Michigan Vehicle Code, MCL 257.658"
+  },
+  {
+    "id": "mi.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 25-year-old Michigan motorcyclist has held a motorcycle endorsement for 3 years. What else is required to legally ride without a helmet?",
+    "choices": [
+      "A doctor's statement",
+      "A second endorsement for helmetless riding",
+      "At least $20,000 in first-party medical benefits coverage",
+      "Nothing else; age 21 is enough"
+    ],
+    "answer": 2,
+    "explanation": "Besides being 21+ with a 2-year endorsement or a passed safety course, the operator (or a passenger) must carry at least $20,000 in first-party medical benefits for motorcycle crashes (MCL 257.658).",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 3,
+    "ref": "Michigan Vehicle Code, MCL 257.658"
+  },
+  {
+    "id": "mi.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Is lane splitting (riding between lines of traffic) legal for motorcyclists in Michigan?",
+    "choices": [
+      "Yes, at speeds under 30 mph",
+      "No, a motorcyclist shall not pass between lines of traffic",
+      "Yes, on freeways only",
+      "Yes, when traffic is stopped"
+    ],
+    "answer": 1,
+    "explanation": "MCL 257.660 states that a motorcycle or moped operator shall not pass between lines of traffic.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 1,
+    "ref": "Michigan Vehicle Code, MCL 257.660"
+  },
+  {
+    "id": "mi.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "In Michigan, how many motorcycles may ride side by side in a single lane?",
+    "choices": [
+      "No more than 2",
+      "No more than 3",
+      "Only 1",
+      "As many as fit safely"
+    ],
+    "answer": 0,
+    "explanation": "Michigan law says a person riding a motorcycle on a roadway shall not ride more than 2 abreast, except on paths set aside for them.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "Michigan Vehicle Code, MCL 257.660"
+  },
+  {
+    "id": "mi.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Which restriction applies to a rider holding a Michigan motorcycle temporary instruction permit (TIP)?",
+    "choices": [
+      "No riding on roads posted over 35 mph, but passengers are allowed",
+      "Riding only with a parent in a car following behind",
+      "No restrictions as long as a helmet is worn",
+      "No riding at night or carrying passengers, and constant supervision by a licensed motorcyclist 18 or older"
+    ],
+    "answer": 3,
+    "explanation": "Motorcycle TIP holders must be under constant visual supervision of a licensed motorcycle operator at least 18 and may not ride at night or carry passengers.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 22"
+  },
+  {
+    "id": "mi.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How long is a Michigan motorcycle TIP valid, and how many can a rider get?",
+    "choices": [
+      "1 year; unlimited",
+      "90 days; one per lifetime",
+      "180 days; no more than two in a 10-year period",
+      "180 days; one per year"
+    ],
+    "answer": 2,
+    "explanation": "A motorcycle TIP is good for 180 days, and only two will be issued to a rider in a 10-year period.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 22"
+  },
+  {
+    "id": "mi.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What must a 16- or 17-year-old do to earn a Michigan motorcycle (CY) endorsement?",
+    "choices": [
+      "Only pass the written motorcycle test",
+      "Complete a motorcycle rider education course",
+      "Wait until age 18",
+      "Ride 50 supervised hours"
+    ],
+    "answer": 1,
+    "explanation": "A motorcycle rider education course is required for teens ages 16-17, and for adults who fail the motorcycle skills test twice.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 16"
+  },
+  {
+    "id": "mi.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "An adult in Michigan fails the motorcycle skills test twice. What is required next?",
+    "choices": [
+      "Completing a motorcycle rider education course",
+      "Waiting one year before retesting",
+      "Getting a third TIP",
+      "Taking the car driving test again"
+    ],
+    "answer": 0,
+    "explanation": "Adults who fail the motorcycle skills test twice must complete a motorcycle rider education course to get the endorsement.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 16"
+  },
+  {
+    "id": "mi.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What minimum engine size must a motorcycle have to be ridden legally on a Michigan freeway?",
+    "choices": [
+      "50 cc",
+      "250 cc",
+      "100 cc",
+      "125 cc"
+    ],
+    "answer": 3,
+    "explanation": "Motorcyclists operating vehicles with engine sizes of 125 cc or greater may drive on freeways; motorcycles of 124 cc or less are not allowed.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 70"
+  },
+  {
+    "id": "mi.mc.010",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A Michigan rider has a CY endorsement with a 3W restriction. What may they ride?",
+    "choices": [
+      "Any motorcycle under 300 cc",
+      "Any motorcycle, but only in daylight",
+      "Only three-wheeled motorcycles",
+      "Only mopeds"
+    ],
+    "answer": 2,
+    "explanation": "The CY 3W restriction allows a rider to operate only three-wheeled motorcycles on Michigan roads.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 16"
+  },
+  {
+    "id": "mi.car.101",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A school bus ahead has stopped with its red overhead lights flashing. How close may a Michigan driver stop to it?",
+    "choices": [
+      "No closer than 20 feet",
+      "No closer than 10 feet",
+      "No closer than 50 feet",
+      "No closer than 100 feet"
+    ],
+    "answer": 0,
+    "explanation": "Stop at least 20 feet from a school bus with red overhead lights flashing, and stay stopped until the lights go off or the bus moves. Fines are doubled for failing to stop.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 42"
+  },
+  {
+    "id": "mi.car.102",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "On a Michigan highway divided by a grass median, a school bus with flashing red lights is stopped on the other side. What must you do?",
+    "choices": [
+      "You do not need to stop, because a barrier separates the traffic",
+      "Stop at least 20 feet from the bus",
+      "Stop only if children are crossing toward you",
+      "Slow to 15 mph and pass with caution"
+    ],
+    "answer": 0,
+    "explanation": "You do not have to stop for a school bus on the other side of a highway divided by a barrier such as a concrete or grass median or island. Traffic on the same side as the bus must stop.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 3,
+    "ref": "What Every Driver Must Know (Oct. 2025), pp. 42-43"
+  },
+  {
+    "id": "mi.car.103",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "After coming to a full stop at a red light in Michigan, which turns may you make if no sign prohibits them?",
+    "choices": [
+      "A right turn, or a left turn onto a one-way street whose traffic moves to the left",
+      "A right turn only",
+      "No turns until the light turns green",
+      "A right turn or a left turn onto any street"
+    ],
+    "answer": 0,
+    "explanation": "Unless prohibited, MCL 257.612 lets you turn right on red, or turn left on red into a one-way roadway carrying traffic in the direction of the turn, after stopping and yielding to pedestrians, bicyclists and other traffic.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "Michigan Vehicle Code, MCL 257.612"
+  },
+  {
+    "id": "mi.car.104",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "At night you are following another car on a Michigan road, and the nearest oncoming car is more than 500 feet away. May you use your high beams?",
+    "choices": [
+      "No, do not use high beams when you are behind other vehicles",
+      "Yes, because the oncoming car is more than 500 feet away",
+      "Yes, as long as you stay at least 200 feet behind",
+      "Only if the car ahead is going slower than you"
+    ],
+    "answer": 0,
+    "explanation": "The 500-foot rule is for oncoming vehicles. The Michigan handbook also says not to use high beams when you are behind other vehicles, because the glare in their mirrors is distracting.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 3,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 78"
+  },
+  {
+    "id": "mi.car.105",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "According to the Michigan handbook, in which situation must a driver yield to a pedestrian?",
+    "choices": [
+      "A pedestrian is crossing the street from an alley, driveway or private road",
+      "Only when the pedestrian is in a marked crosswalk with a WALK signal",
+      "Only when the driver is not turning",
+      "Never when the driver's light is green"
+    ],
+    "answer": 0,
+    "explanation": "Michigan drivers must yield to pedestrians in marked crosswalks, in a crosswalk even when the light is green, when turning, and to a pedestrian crossing the street from an alley, driveway, building or private road.",
+    "states": [
+      "MI"
+    ],
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 45"
+  }
+]

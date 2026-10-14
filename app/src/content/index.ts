@@ -27,15 +27,23 @@ export const universalQuestionLoaders: Record<TrackId, Array<() => Question[]>> 
     () => require('./questions/motorcycle/mc-passengers-groups.json'),
   ],
   cdl: [
+    () => require('./questions/cdl/cdl-air-brakes.json'),
+    () => require('./questions/cdl/cdl-doubles-triples.json'),
     () => require('./questions/cdl/cdl-general.json'),
+    () => require('./questions/cdl/cdl-passenger.json'),
+    () => require('./questions/cdl/cdl-school-bus.json'),
   ],
 };
 
 export const stateQuestionLoaders: Partial<Record<StateCode, () => Question[]>> = {
   CA: () => require('./questions/states/CA.json'),
   FL: () => require('./questions/states/FL.json'),
+  GA: () => require('./questions/states/GA.json'),
   IL: () => require('./questions/states/IL.json'),
+  MI: () => require('./questions/states/MI.json'),
+  NC: () => require('./questions/states/NC.json'),
   NY: () => require('./questions/states/NY.json'),
+  OH: () => require('./questions/states/OH.json'),
   PA: () => require('./questions/states/PA.json'),
   TX: () => require('./questions/states/TX.json'),
 };
@@ -43,8 +51,12 @@ export const stateQuestionLoaders: Partial<Record<StateCode, () => Question[]>> 
 export const stateInfoLoaders: Partial<Record<StateCode, () => StateInfo>> = {
   CA: () => require('./states/CA.json'),
   FL: () => require('./states/FL.json'),
+  GA: () => require('./states/GA.json'),
   IL: () => require('./states/IL.json'),
+  MI: () => require('./states/MI.json'),
+  NC: () => require('./states/NC.json'),
   NY: () => require('./states/NY.json'),
+  OH: () => require('./states/OH.json'),
   PA: () => require('./states/PA.json'),
   TX: () => require('./states/TX.json'),
 };

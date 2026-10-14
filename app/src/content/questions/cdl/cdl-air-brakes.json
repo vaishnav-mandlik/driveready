@@ -1,0 +1,1762 @@
+[
+  {
+    "id": "cdl.ab.001",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Air brakes are really three braking systems in one. Which three?",
+    "choices": [
+      "Service, engine retarder, and trailer brakes",
+      "Primary, secondary, and spring brakes",
+      "Service, parking, and emergency brakes",
+      "Foot, hand, and exhaust brakes"
+    ],
+    "answer": 2,
+    "explanation": "The manual describes air brakes as three systems: the service brake (pedal), the parking brake (parking control), and the emergency brake, which uses parts of the other two when the system fails.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5"
+  },
+  {
+    "id": "cdl.ab.002",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "What does the air compressor do?",
+    "choices": [
+      "Pumps air into the air storage tanks",
+      "Sends air from the tanks to the brake chambers",
+      "Controls when the tanks are drained",
+      "Turns the brake lights on when you brake"
+    ],
+    "answer": 0,
+    "explanation": "The air compressor pumps air into the air storage tanks (reservoirs). It is driven by the engine through gears or a V-belt.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.1.1"
+  },
+  {
+    "id": "cdl.ab.003",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "The air compressor on your truck has its own oil supply. What should you do before driving?",
+    "choices": [
+      "Drain the compressor oil into the air tanks",
+      "Add alcohol to the compressor oil",
+      "Nothing; it is lubricated by engine oil",
+      "Check the compressor's oil level"
+    ],
+    "answer": 3,
+    "explanation": "A compressor may have its own oil supply or use engine oil. If it has its own supply, check that oil level before driving.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.1.1"
+  },
+  {
+    "id": "cdl.ab.004",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "What part controls when the air compressor pumps air into the storage tanks?",
+    "choices": [
+      "The safety relief valve",
+      "The air compressor governor",
+      "The tractor protection valve",
+      "The foot (treadle) valve"
+    ],
+    "answer": 1,
+    "explanation": "The governor stops the compressor at the cut-out pressure and lets it start pumping again at the cut-in pressure.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.1.2"
+  },
+  {
+    "id": "cdl.ab.005",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "At about what tank pressure does the governor stop the compressor from pumping (cut-out)?",
+    "choices": [
+      "About 100 psi",
+      "About 125 psi",
+      "About 150 psi",
+      "About 85 psi"
+    ],
+    "answer": 1,
+    "explanation": "The cut-out level is around 125 psi. About 100 psi is the cut-in level, and 150 psi is where the safety valve usually opens.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.1.2"
+  },
+  {
+    "id": "cdl.ab.006",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "At about what tank pressure does the governor let the compressor start pumping again (cut-in)?",
+    "choices": [
+      "About 55 psi",
+      "About 125 psi",
+      "About 60 psi",
+      "About 100 psi"
+    ],
+    "answer": 3,
+    "explanation": "When tank pressure falls to the cut-in pressure, around 100 psi, the governor lets the compressor start pumping again.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.1.2"
+  },
+  {
+    "id": "cdl.ab.007",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "How much air do the air storage tanks hold if the compressor stops working?",
+    "choices": [
+      "Enough to use the brakes several times",
+      "Enough to drive about 100 more miles at highway speed",
+      "Only enough for one brake application",
+      "Enough to refill the tires once"
+    ],
+    "answer": 0,
+    "explanation": "The tanks hold enough air to let you use the brakes several times, even if the compressor stops working.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.1.3"
+  },
+  {
+    "id": "cdl.ab.008",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Why must air tanks be drained?",
+    "choices": [
+      "To release extra pressure that the governor failed to stop",
+      "To let the alcohol evaporator refill them with fresh alcohol",
+      "Water and oil collect in them and can cause brake failure",
+      "To lower the pressure so the compressor can cool down"
+    ],
+    "answer": 2,
+    "explanation": "Compressed air carries water and oil that collect at the bottom of the tanks. Water can freeze in cold weather and cause brake failure.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.1.4"
+  },
+  {
+    "id": "cdl.ab.009",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Your air tanks have manual drain valves. How often must you drain them?",
+    "choices": [
+      "Once a week, or every 1,000 miles",
+      "Only in freezing weather",
+      "Only when the safety valve opens",
+      "At the end of each day of driving"
+    ],
+    "answer": 3,
+    "explanation": "With manually operated drains, you must drain the tanks yourself at the end of each day of driving.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.1.4"
+  },
+  {
+    "id": "cdl.ab.010",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "What is the purpose of an alcohol evaporator in an air brake system?",
+    "choices": [
+      "To clean compressor oil out of the air tanks each day",
+      "To cool the brake drums on long, steep downgrades",
+      "To reduce the risk of ice in the air system in cold weather",
+      "To replace the need for draining the air tanks"
+    ],
+    "answer": 2,
+    "explanation": "An alcohol evaporator puts alcohol into the air system to reduce the risk of ice forming in brake valves and other parts during cold weather.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.1.5"
+  },
+  {
+    "id": "cdl.ab.011",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "In cold weather, how often should you check and fill the alcohol container?",
+    "choices": [
+      "Once a week",
+      "Every day",
+      "Every 1,000 miles",
+      "Only when the warning light comes on"
+    ],
+    "answer": 1,
+    "explanation": "Check the alcohol container and fill it as necessary every day during cold weather.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.1.5"
+  },
+  {
+    "id": "cdl.ab.012",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Your truck has an alcohol evaporator but manual tank drains. What is true about draining the tanks?",
+    "choices": [
+      "You still need to drain the tanks daily to remove water and oil",
+      "Draining is not needed because the alcohol absorbs the water",
+      "Drain only when temperatures fall below freezing",
+      "Drain once a week instead of daily"
+    ],
+    "answer": 0,
+    "explanation": "The evaporator only helps prevent ice. Daily tank draining is still needed to get rid of water and oil unless the system has automatic drains.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.1.5"
+  },
+  {
+    "id": "cdl.ab.013",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Where is the safety relief valve installed?",
+    "choices": [
+      "In the first tank the compressor pumps air to",
+      "In the last tank on the trailer, farthest from the compressor",
+      "On each brake chamber, next to the slack adjuster",
+      "On the dashboard, next to the supply pressure gauges"
+    ],
+    "answer": 0,
+    "explanation": "A safety relief valve is installed in the first tank the compressor pumps air to, protecting the system from too much pressure.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.1.6"
+  },
+  {
+    "id": "cdl.ab.014",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "The safety relief valve is usually set to open at about:",
+    "choices": [
+      "125 psi",
+      "150 psi",
+      "100 psi",
+      "175 psi"
+    ],
+    "answer": 1,
+    "explanation": "The safety valve is usually set to open at 150 psi. About 125 psi is the normal governor cut-out.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.1.6"
+  },
+  {
+    "id": "cdl.ab.015",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "You hear the safety relief valve releasing air. What should you conclude?",
+    "choices": [
+      "It is normal; the valve vents each time the governor cuts in",
+      "The tanks need to be drained right away",
+      "Something is wrong, and a mechanic should fix the fault",
+      "The alcohol evaporator is empty"
+    ],
+    "answer": 2,
+    "explanation": "If the safety valve releases air, something is wrong (such as a governor fault). Have a mechanic fix it.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.1.6"
+  },
+  {
+    "id": "cdl.ab.016",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "What are two other names for the air brake pedal?",
+    "choices": [
+      "Trolley valve or Johnson bar",
+      "Relay valve or quick-release valve",
+      "Modulating valve or limiting valve",
+      "Foot valve or treadle valve"
+    ],
+    "answer": 3,
+    "explanation": "The brake pedal is also called the foot valve or treadle valve. The trolley valve (Johnson bar) is the trailer hand valve.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.1.7"
+  },
+  {
+    "id": "cdl.ab.017",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "What happens when you push the air brake pedal down harder?",
+    "choices": [
+      "The governor cuts in sooner to refill the tanks",
+      "Air is released from the spring brakes",
+      "More air pressure is applied to the brakes",
+      "The compressor pumps faster"
+    ],
+    "answer": 2,
+    "explanation": "Pushing the pedal down harder applies more air pressure; letting up reduces pressure and releases the brakes.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.1.7"
+  },
+  {
+    "id": "cdl.ab.018",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Why can pressing and releasing the brake pedal over and over (fanning) be dangerous while driving?",
+    "choices": [
+      "It overheats the governor and makes it stop working",
+      "It makes the safety relief valve stick in the open position",
+      "It uses up the alcohol in the evaporator too quickly",
+      "It can drain air faster than the compressor refills it"
+    ],
+    "answer": 3,
+    "explanation": "Each release lets some compressed air out of the system. Unnecessary fanning can drop pressure faster than the compressor refills it, and if pressure gets too low the brakes won't work.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.1.7"
+  },
+  {
+    "id": "cdl.ab.019",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "What is the most common type of foundation brake on air-braked vehicles?",
+    "choices": [
+      "The S-cam drum brake",
+      "The wedge brake",
+      "The air-operated disc brake",
+      "The hydraulic drum brake"
+    ],
+    "answer": 0,
+    "explanation": "The S-cam drum brake is the most common type. Wedge and disc brakes are less common.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.1.8"
+  },
+  {
+    "id": "cdl.ab.020",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "When you release the brake pedal on an S-cam brake, what pulls the brake shoes away from the drum?",
+    "choices": [
+      "Air pressure from the supply tank pushing them back",
+      "A spring, as the S-cam rotates back",
+      "The slack adjuster pushing outward",
+      "The wheel bearing turning the drum"
+    ],
+    "answer": 1,
+    "explanation": "When you release the pedal, the S-cam rotates back and a spring pulls the brake shoes away from the drum so the wheels can roll freely.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.1.8"
+  },
+  {
+    "id": "cdl.ab.021",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "In a wedge brake, how are the brake shoes pushed against the drum?",
+    "choices": [
+      "A slack adjuster twists an S-shaped cam against the shoes",
+      "A power screw clamps a rotor between two lining pads",
+      "A push rod forces a wedge between the shoe ends",
+      "Springs push the shoes out when air pressure is removed"
+    ],
+    "answer": 2,
+    "explanation": "In a wedge brake, the brake chamber push rod pushes a wedge directly between the ends of two brake shoes, shoving them apart and against the drum.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.1.8"
+  },
+  {
+    "id": "cdl.ab.022",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "In an air-operated disc brake, what takes the place of the S-cam?",
+    "choices": [
+      "A power screw",
+      "A wedge",
+      "A brake drum",
+      "A relay valve"
+    ],
+    "answer": 0,
+    "explanation": "Air disc brakes use a power screw instead of an S-cam. The slack adjuster turns the screw, which clamps the rotor between the pads of a caliper like a large C-clamp.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.1.8"
+  },
+  {
+    "id": "cdl.ab.023",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "What does friction between the brake linings and the drum produce besides slowing the vehicle?",
+    "choices": [
+      "Compressed air",
+      "Electric current",
+      "Moisture",
+      "Heat"
+    ],
+    "answer": 3,
+    "explanation": "Pressing the shoes and linings against the drum causes friction, which slows the vehicle and creates heat. Too much heat can make the brakes stop working.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.1.8"
+  },
+  {
+    "id": "cdl.ab.024",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "What does the supply pressure gauge tell you?",
+    "choices": [
+      "How much pressure you are applying to the brakes",
+      "How much air pressure is in the air tanks",
+      "How fast the compressor is turning",
+      "How much air is in the tires"
+    ],
+    "answer": 1,
+    "explanation": "Supply pressure gauges, connected to the air tanks, show how much pressure is in the tanks.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.1.9"
+  },
+  {
+    "id": "cdl.ab.025",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "A vehicle has a dual air brake system. How is supply pressure usually shown?",
+    "choices": [
+      "A single-needle gauge showing both systems combined",
+      "One gauge for each half, or one gauge with two needles",
+      "Only a warning light, since dual systems have no gauges",
+      "A small gauge mounted on each brake chamber"
+    ],
+    "answer": 1,
+    "explanation": "With a dual air brake system there will be a gauge for each half of the system, or a single gauge with two needles.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.1.9"
+  },
+  {
+    "id": "cdl.ab.026",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "What does the application pressure gauge show?",
+    "choices": [
+      "The amount of air stored in the supply tanks",
+      "The pressure at which the governor cuts in",
+      "The air pressure in the trailer's tires",
+      "The air pressure being applied to the brakes"
+    ],
+    "answer": 3,
+    "explanation": "The application pressure gauge shows how much air pressure you are applying to the brakes. It is not on all vehicles.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.1.10"
+  },
+  {
+    "id": "cdl.ab.027",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "On a downgrade, you must apply more and more pressure to hold the same speed. What is the most likely cause and response?",
+    "choices": [
+      "The brakes are fading; slow down and use a lower gear",
+      "The governor has cut out; keep braking steadily",
+      "The ABS is working; keep the same pressure",
+      "The tanks are overfilled; fan the brakes to release air"
+    ],
+    "answer": 0,
+    "explanation": "Increasing application pressure to hold the same speed means the brakes are fading. Slow down and use a lower gear.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.1.10"
+  },
+  {
+    "id": "cdl.ab.028",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Besides brake fade, what can cause a need for higher application pressure to stop?",
+    "choices": [
+      "Shifting into a lower gear before starting down the grade",
+      "Having working ABS on every axle of the vehicle",
+      "Brakes out of adjustment, air leaks, or mechanical problems",
+      "Keeping the alcohol evaporator full in cold weather"
+    ],
+    "answer": 2,
+    "explanation": "The need for increased application pressure can also be caused by brakes out of adjustment, air leaks, or mechanical problems.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.1.10"
+  },
+  {
+    "id": "cdl.ab.029",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Before tank pressure falls below what level must the low air pressure warning come on?",
+    "choices": [
+      "20 psi",
+      "85 psi",
+      "100 psi",
+      "55 psi"
+    ],
+    "answer": 3,
+    "explanation": "A visible warning must come on before the air pressure in the tanks falls below 55 psi (or one half the governor cut-out pressure on older vehicles).",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.1.11"
+  },
+  {
+    "id": "cdl.ab.030",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "What is the low air pressure warning signal usually?",
+    "choices": [
+      "A yellow light on the left rear of the trailer",
+      "A flashing green light",
+      "A red light, sometimes with a buzzer",
+      "A vibration in the steering wheel"
+    ],
+    "answer": 2,
+    "explanation": "The warning is usually a red light, and a buzzer may also come on. A yellow lamp is the ABS malfunction lamp.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.1.11"
+  },
+  {
+    "id": "cdl.ab.031",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "What is a \"wig wag\"?",
+    "choices": [
+      "A spring-loaded dash lever that applies the spring brakes gradually",
+      "A mechanical arm that drops into view when pressure falls below 55 psi",
+      "A valve that switches air between the primary and secondary tanks",
+      "A light on the trailer that flashes while the ABS is working"
+    ],
+    "answer": 1,
+    "explanation": "A wig wag is a low air warning device that drops a mechanical arm into the driver's view when pressure drops below 55 psi.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.1.11"
+  },
+  {
+    "id": "cdl.ab.032",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "You try to push a manual-reset wig wag out of view, but it keeps dropping back. Why?",
+    "choices": [
+      "It won't stay up until pressure is above 55 psi",
+      "The governor has not yet reached the 125 psi cut-out",
+      "Manual-reset wig wags can only be reset by a mechanic",
+      "The parking brake knob is still pulled out"
+    ],
+    "answer": 0,
+    "explanation": "A manual-reset wig wag must be placed out of view by hand, and it will not stay in place until the pressure is above 55 psi.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.1.11"
+  },
+  {
+    "id": "cdl.ab.033",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "On large buses, the low pressure warning devices commonly signal at:",
+    "choices": [
+      "80-85 psi",
+      "55-60 psi",
+      "20-45 psi",
+      "100-125 psi"
+    ],
+    "answer": 0,
+    "explanation": "The manual notes that on large buses it is common for low pressure warning devices to signal at 80-85 psi.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.1.11"
+  },
+  {
+    "id": "cdl.ab.034",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "How does an air brake system turn on the brake lights?",
+    "choices": [
+      "With a switch on the parking brake control knob",
+      "With an electric switch that works by air pressure",
+      "With a sensor that measures brake drum temperature",
+      "With a switch connected to the slack adjuster"
+    ],
+    "answer": 1,
+    "explanation": "An electric stop light switch worked by air pressure turns on the brake lights when you put on the air brakes.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.1.12"
+  },
+  {
+    "id": "cdl.ab.035",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "An older truck (built before 1975) has a front brake limiting valve control. In which position should you keep it?",
+    "choices": [
+      "\"Slippery\"",
+      "\"Slippery\" on wet roads and \"normal\" when dry",
+      "\"Normal\"",
+      "\"Emergency\""
+    ],
+    "answer": 2,
+    "explanation": "The \"slippery\" setting cuts front brake air by half and reduces stopping power. Front wheel braking is good under all conditions, so keep the control in \"normal.\"",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.1.13"
+  },
+  {
+    "id": "cdl.ab.036",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "What is true about braking with the front wheels on an icy road?",
+    "choices": [
+      "Front brake pressure should be cut in half to prevent skids",
+      "Front brakes should be turned off on icy roads",
+      "Only the trailer brakes should be used on ice",
+      "Front wheel braking is good under all conditions, even on ice"
+    ],
+    "answer": 3,
+    "explanation": "Tests have shown front wheel skids from braking are not likely even on ice. Limiting front brakes only reduces stopping power.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.1.13"
+  },
+  {
+    "id": "cdl.ab.037",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Automatic front wheel limiting valves reduce air to the front brakes EXCEPT when:",
+    "choices": [
+      "The road surface is wet, icy, or snow-covered",
+      "The driver switches the dash control to \"normal\"",
+      "The brakes are applied very hard (55 psi or more)",
+      "The vehicle is traveling at less than 20 mph"
+    ],
+    "answer": 2,
+    "explanation": "Automatic front limiting valves reduce air to the front brakes except when the brakes are put on very hard (55 psi or more application pressure). The driver cannot control them.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.1.13"
+  },
+  {
+    "id": "cdl.ab.038",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Why must parking and emergency brakes be held on by mechanical force?",
+    "choices": [
+      "Because air brakes cannot work below freezing",
+      "Because ABS needs mechanical brakes to work",
+      "Because the compressor shuts off with the engine",
+      "Because air pressure can eventually leak away"
+    ],
+    "answer": 3,
+    "explanation": "Emergency and parking brakes must be held on by mechanical force because air pressure can eventually leak away. Spring brakes usually meet this need.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.1.14"
+  },
+  {
+    "id": "cdl.ab.039",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "While you drive, what holds back the powerful springs in spring brakes?",
+    "choices": [
+      "Air pressure",
+      "The parking brake lever latch",
+      "Hydraulic fluid",
+      "The slack adjuster"
+    ],
+    "answer": 0,
+    "explanation": "When driving, the springs are held back by air pressure. If the air pressure is removed, the springs put on the brakes.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.1.14"
+  },
+  {
+    "id": "cdl.ab.040",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "On tractors and straight trucks, spring brakes come fully on when air pressure drops to:",
+    "choices": [
+      "A range of 55 to 60 psi",
+      "A range of 20 to 45 psi",
+      "A range of 80 to 85 psi",
+      "Exactly 0 psi"
+    ],
+    "answer": 1,
+    "explanation": "Tractor and straight truck spring brakes come fully on when pressure drops to 20-45 psi (typically 20-30 psi).",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.1.14"
+  },
+  {
+    "id": "cdl.ab.041",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "The low air warning light and buzzer come on while you are driving. What should you do?",
+    "choices": [
+      "Keep driving, since the spring brakes will stop you if pressure gets too low",
+      "Pump the brake pedal to build pressure back up",
+      "Stop safely right away while you can still control the brakes",
+      "Drive to the next truck stop before checking"
+    ],
+    "answer": 2,
+    "explanation": "Do not wait for the spring brakes to come on automatically. When the warning first comes on, bring the vehicle to a safe stop right away while you can still control the brakes.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.1.14"
+  },
+  {
+    "id": "cdl.ab.042",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "If the brakes are badly out of adjustment, what is affected?",
+    "choices": [
+      "The service brakes and the emergency/parking brakes alike",
+      "Only the regular service brakes, not the parking brakes",
+      "Only the parking brakes, not the service brakes",
+      "No brakes at all, because spring brakes adjust themselves"
+    ],
+    "answer": 0,
+    "explanation": "Spring brake power depends on the brakes being in adjustment. If they are not adjusted properly, neither the regular brakes nor the emergency/parking brakes will work right.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.1.14"
+  },
+  {
+    "id": "cdl.ab.043",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "On newer air-braked vehicles, what does the parking brake control look like?",
+    "choices": [
+      "A red, eight-sided push-pull knob on the dash",
+      "A round blue knob",
+      "A lever on the steering column",
+      "A yellow, diamond-shaped push-pull knob"
+    ],
+    "answer": 3,
+    "explanation": "Newer vehicles use a yellow, diamond-shaped push-pull knob. The red eight-sided knob is the trailer air supply control.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.1.15"
+  },
+  {
+    "id": "cdl.ab.044",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "How do you set the parking brakes with the yellow diamond-shaped knob?",
+    "choices": [
+      "Push the knob in",
+      "Pull the knob out",
+      "Turn the knob a quarter turn",
+      "Press the brake pedal, then push the knob in"
+    ],
+    "answer": 1,
+    "explanation": "Pull the knob out to put the parking (spring) brakes on, and push it in to release them.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.1.15"
+  },
+  {
+    "id": "cdl.ab.045",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Why should you never push the brake pedal down when the spring brakes are on?",
+    "choices": [
+      "It releases the spring brakes, and the vehicle may roll away",
+      "The springs and air pressure combined could damage the brakes",
+      "It makes the safety relief valve open and vent the tanks",
+      "It locks out the ABS until the engine is restarted"
+    ],
+    "answer": 1,
+    "explanation": "Pushing the pedal with the spring brakes on can damage the brakes through the combined forces of the springs and the air pressure. Not all systems prevent this.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.1.15"
+  },
+  {
+    "id": "cdl.ab.046",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "What is a modulating control valve?",
+    "choices": [
+      "A valve that cuts front brake pressure in half",
+      "A valve that keeps air in the tractor if the trailer breaks away",
+      "A valve that controls when the compressor pumps",
+      "A dash control handle that applies the spring brakes gradually"
+    ],
+    "answer": 3,
+    "explanation": "A modulating valve is a spring-loaded dash handle that lets you apply the spring brakes gradually, so you can control them if the service brakes fail.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.1.15"
+  },
+  {
+    "id": "cdl.ab.047",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "How should you park a vehicle that has a modulating control valve?",
+    "choices": [
+      "Move the lever all the way and lock it in place",
+      "Move the lever halfway so the brakes are partly applied",
+      "Leave the lever released and rely on wheel chocks only",
+      "Pull the lever partway, then pump the brake pedal"
+    ],
+    "answer": 0,
+    "explanation": "When parking with a modulating control valve, move the lever as far as it will go and hold it in place with the locking device.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.1.15"
+  },
+  {
+    "id": "cdl.ab.048",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "A bus has dual parking control valves with a separate air tank. What must you keep in mind when using it to move after losing main air pressure?",
+    "choices": [
+      "It refills itself from the spring brake chambers as you drive",
+      "It lets the bus be driven normally until the next service stop",
+      "Its air can release the spring brakes only a few times",
+      "It works only while the engine is shut off"
+    ],
+    "answer": 2,
+    "explanation": "The separate tank can release the spring brakes so you can move in an emergency, but it holds only enough air to do this a few times. Plan carefully, or you may be stopped in a dangerous spot.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.1.15"
+  },
+  {
+    "id": "cdl.ab.049",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "On older vehicles, the parking brake control may be:",
+    "choices": [
+      "A red eight-sided knob",
+      "A yellow diamond-shaped knob only",
+      "A foot pedal next to the clutch",
+      "A round blue knob or a lever"
+    ],
+    "answer": 3,
+    "explanation": "Newer vehicles use a yellow diamond-shaped knob. On older vehicles it may be a round blue knob or another shape, including a lever.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.4.8"
+  },
+  {
+    "id": "cdl.ab.050",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Truck tractors with air brakes are required to have ABS if they were built on or after:",
+    "choices": [
+      "March 1, 1998",
+      "January 1, 1994",
+      "March 1, 1997",
+      "January 1, 1975"
+    ],
+    "answer": 2,
+    "explanation": "Air-braked truck tractors built on or after March 1, 1997 must have ABS. Other air-braked vehicles (trucks, buses, trailers, dollies) built on or after March 1, 1998 must have it.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.1.16"
+  },
+  {
+    "id": "cdl.ab.051",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "How can you tell from paperwork on the vehicle whether it is required to have ABS?",
+    "choices": [
+      "Check the registration card for the vehicle's GVWR",
+      "Look at the certification label for the build date",
+      "See whether the parking brake knob is yellow or blue",
+      "Compare the colors of the service and emergency air lines"
+    ],
+    "answer": 1,
+    "explanation": "Check the certification label for the date of manufacture to determine if your vehicle is equipped with ABS.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.1.16"
+  },
+  {
+    "id": "cdl.ab.052",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "What color are ABS malfunction lamps?",
+    "choices": [
+      "Yellow",
+      "Red",
+      "Blue",
+      "Green"
+    ],
+    "answer": 0,
+    "explanation": "Vehicles with ABS have yellow malfunction lamps. The low air pressure warning is usually red.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.1.16"
+  },
+  {
+    "id": "cdl.ab.053",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Where is the ABS malfunction lamp on a trailer?",
+    "choices": [
+      "On the left side, front or rear corner",
+      "On the right rear corner, near the tail light",
+      "Only on the tractor's instrument panel",
+      "Centered above the rear doors"
+    ],
+    "answer": 0,
+    "explanation": "Trailers have yellow ABS malfunction lamps on the left side, either on the front or rear corner.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.1.16"
+  },
+  {
+    "id": "cdl.ab.054",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Your truck's ABS lamp comes on at start-up and then stays on after the bulb check. What does this mean?",
+    "choices": [
+      "The ABS is warming up and will work after 5 mph",
+      "You may have lost ABS control at one or more wheels",
+      "The air pressure is below 55 psi",
+      "The parking brake is still set"
+    ],
+    "answer": 1,
+    "explanation": "On newer vehicles the lamp comes on briefly for a bulb check and then goes out. If it stays on, or comes on while driving, you may have lost ABS control at one or more wheels.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.1.16"
+  },
+  {
+    "id": "cdl.ab.055",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "An older trailer was built before ABS was required. How can you check if it has ABS?",
+    "choices": [
+      "Check whether its air lines are colored red and blue",
+      "Look in the cab for a yellow diamond-shaped knob",
+      "Look underneath for an ECU and wheel speed sensor wires",
+      "See whether the trailer is fitted with spring brakes"
+    ],
+    "answer": 2,
+    "explanation": "For older towed units, look under the vehicle for the electronic control unit (ECU) and wheel speed sensor wires coming from the back of the brakes.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.1.16"
+  },
+  {
+    "id": "cdl.ab.056",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "How does ABS affect your normal braking capability?",
+    "choices": [
+      "It increases braking force on every stop",
+      "It reduces braking force to protect the drums",
+      "It doubles the force of the spring brakes",
+      "It neither increases nor decreases it"
+    ],
+    "answer": 3,
+    "explanation": "ABS is an addition to your normal brakes. It does not decrease or increase your normal braking capability and only activates when wheels are about to lock.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.1.16"
+  },
+  {
+    "id": "cdl.ab.057",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Which statement about ABS and stopping distance is correct?",
+    "choices": [
+      "It always shortens stopping distance, especially on dry pavement",
+      "It lengthens stopping distance every time you brake hard",
+      "It helps control but may not shorten the stop",
+      "It shortens stopping distance only on ice, snow, or wet roads"
+    ],
+    "answer": 2,
+    "explanation": "ABS does not necessarily shorten your stopping distance, but it helps you keep the vehicle under control during hard braking.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.1.16"
+  },
+  {
+    "id": "cdl.ab.058",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "What is a dual air brake system?",
+    "choices": [
+      "One air system with two compressors",
+      "An air system with both air and hydraulic brakes",
+      "A system with separate brake pedals for the tractor and trailer",
+      "Two separate air brake systems that use one set of brake controls"
+    ],
+    "answer": 3,
+    "explanation": "A dual air brake system has two separate air brake systems, each with its own tanks, hoses and lines, using a single set of controls.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.2"
+  },
+  {
+    "id": "cdl.ab.059",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "In a typical dual air brake system, what does the second (secondary) system usually operate?",
+    "choices": [
+      "The front axle brakes (and possibly one rear axle)",
+      "Only the trailer brakes, through the emergency line",
+      "Only the parking brakes on the drive axles",
+      "The service brakes on all of the rear axles"
+    ],
+    "answer": 0,
+    "explanation": "One system typically operates the rear axle brakes; the other operates the front axle brakes (and possibly one rear axle). Both supply air to the trailer.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.2"
+  },
+  {
+    "id": "cdl.ab.060",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Before driving a vehicle with dual air brakes, the compressor should build at least what pressure in both systems?",
+    "choices": [
+      "55 psi",
+      "100 psi",
+      "85 psi",
+      "150 psi"
+    ],
+    "answer": 1,
+    "explanation": "Allow time for the compressor to build up a minimum of 100 psi in both the primary and secondary systems before driving.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.2"
+  },
+  {
+    "id": "cdl.ab.061",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "While driving a dual-system truck, one system's pressure becomes very low. What happens?",
+    "choices": [
+      "The other system takes over, so braking is unchanged",
+      "Every wheel brake locks up at once and the vehicle skids",
+      "The front or rear brakes won't work fully, so stops take longer",
+      "Only the parking brake will still be able to stop the vehicle"
+    ],
+    "answer": 2,
+    "explanation": "If one air system is very low, either the front or the rear brakes will not be operating fully, so it will take longer to stop. Stop safely and have the system fixed.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.2"
+  },
+  {
+    "id": "cdl.ab.062",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "During the engine compartment check of an air-braked vehicle with a belt-driven compressor, what should you check?",
+    "choices": [
+      "Condition and tightness of the compressor drive belt",
+      "The pressure setting of the safety relief valve",
+      "The alcohol level in each brake chamber",
+      "The color coding of the trailer air lines"
+    ],
+    "answer": 0,
+    "explanation": "If the air compressor is belt-driven, check the condition and tightness of the belt during the engine compartment check.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.3.1"
+  },
+  {
+    "id": "cdl.ab.063",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "To check slack adjusters on S-cam brakes, what should you do first?",
+    "choices": [
+      "Set the parking brakes and pump the brake pedal several times",
+      "Build pressure to cut-out and hold the foot brake down",
+      "Drive forward at about 5 mph and apply the brakes firmly",
+      "Chock the wheels and release the parking brakes"
+    ],
+    "answer": 3,
+    "explanation": "Park on level ground, chock the wheels, and release the parking brakes so the slack adjusters can move. Then, wearing gloves, pull hard on each one you can reach.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.3.2"
+  },
+  {
+    "id": "cdl.ab.064",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "When you pull hard on a slack adjuster, it probably needs adjustment if it moves more than about how far where the push rod attaches?",
+    "choices": [
+      "About one-quarter inch",
+      "About one inch",
+      "About two inches",
+      "About three inches"
+    ],
+    "answer": 1,
+    "explanation": "If a slack adjuster moves more than about one inch where the push rod attaches to it, it probably needs adjustment.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.3.2"
+  },
+  {
+    "id": "cdl.ab.065",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "What is the most common problem found in roadside inspections?",
+    "choices": [
+      "Low tire pressure",
+      "Brakes out of adjustment",
+      "Burned-out brake lights",
+      "Crossed air lines"
+    ],
+    "answer": 1,
+    "explanation": "Out-of-adjustment brakes are the most common problem found in roadside inspections, so check the slack adjusters.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.3.2"
+  },
+  {
+    "id": "cdl.ab.066",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Vehicles built since what year have automatic slack adjusters?",
+    "choices": [
+      "1975",
+      "1998",
+      "1984",
+      "1994"
+    ],
+    "answer": 3,
+    "explanation": "All vehicles built since 1994 have automatic slack adjusters. They still must be checked.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.3.2"
+  },
+  {
+    "id": "cdl.ab.067",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "During your inspection, you find a brake with automatic slack adjusters out of adjustment. What is the recommended action?",
+    "choices": [
+      "Take the vehicle to a repair facility as soon as possible",
+      "Manually adjust it and continue on your normal schedule",
+      "Ignore it, since automatic adjusters fix themselves",
+      "Set the front brake limiting valve to \"slippery\""
+    ],
+    "answer": 0,
+    "explanation": "An out-of-adjustment automatic adjuster signals a mechanical problem. Manual adjustment usually only hides the problem, so get it repaired as soon as possible.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.3.2"
+  },
+  {
+    "id": "cdl.ab.068",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Brake drums must not have cracks longer than:",
+    "choices": [
+      "One quarter inch",
+      "One inch",
+      "One half the width of the friction area",
+      "The full width of the friction area"
+    ],
+    "answer": 2,
+    "explanation": "Brake drums (or discs) must not have cracks longer than one half the width of the friction area.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.3.2"
+  },
+  {
+    "id": "cdl.ab.069",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Which brake lining condition is acceptable during an inspection?",
+    "choices": [
+      "Slightly loose but still covering the shoe",
+      "Lightly soaked with grease from the wheel seal",
+      "Worn very thin but with no cracks",
+      "Firmly attached, dry, and not dangerously thin"
+    ],
+    "answer": 3,
+    "explanation": "Linings must not be loose, soaked with oil or grease, or dangerously thin.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.3.2"
+  },
+  {
+    "id": "cdl.ab.070",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "When checking the air hoses connected to the brake chambers, what are you looking for?",
+    "choices": [
+      "Their color code",
+      "Ice on the glad hands",
+      "Cuts or wear from rubbing",
+      "The manufacture date stamped on them"
+    ],
+    "answer": 2,
+    "explanation": "Check the air hoses connected to the brake chambers to make sure they aren't cut or worn due to rubbing.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.3.2"
+  },
+  {
+    "id": "cdl.ab.071",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "When testing governor cut-out, how should the engine be running?",
+    "choices": [
+      "Off, with the key on",
+      "At a fast idle",
+      "At highway rpm under load",
+      "At slow idle with the clutch in"
+    ],
+    "answer": 1,
+    "explanation": "Run the engine at a fast idle. The governor should cut out the compressor at about the manufacturer's specified pressure, and the gauge will stop rising.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.3.3"
+  },
+  {
+    "id": "cdl.ab.072",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "With the parking brake released, engine off, and no brakes applied, what is the maximum acceptable air loss for a single vehicle?",
+    "choices": [
+      "Less than 2 psi in one minute",
+      "Less than 3 psi in one minute",
+      "Less than 4 psi in one minute",
+      "Less than 5 psi in one minute"
+    ],
+    "answer": 0,
+    "explanation": "With the brakes released, the loss rate should be less than 2 psi in one minute for single vehicles and less than 3 psi for combination vehicles.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.3.3"
+  },
+  {
+    "id": "cdl.ab.073",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "With the brakes released and the engine off, what is the maximum acceptable leakage rate for a combination vehicle?",
+    "choices": [
+      "Less than 3 psi in one minute",
+      "Less than 2 psi in one minute",
+      "Less than 4 psi in one minute",
+      "Less than 6 psi in one minute"
+    ],
+    "answer": 0,
+    "explanation": "Released-brake leakage should be less than 3 psi per minute for combination vehicles (less than 2 psi for single vehicles).",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.3.3"
+  },
+  {
+    "id": "cdl.ab.074",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "With the engine off and the foot brake fully applied and held, a single vehicle should lose no more than how much air in one minute?",
+    "choices": [
+      "2 psi",
+      "3 psi",
+      "4 psi",
+      "10 psi"
+    ],
+    "answer": 1,
+    "explanation": "With the foot brake held for one minute, the drop should be no more than 3 psi for a single vehicle or 4 psi for a combination vehicle.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.3.3; Section 11.1.2"
+  },
+  {
+    "id": "cdl.ab.075",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "During the applied-brake leakage test on a tractor-semitrailer, the gauge drops 5 psi in one minute after stabilizing. What should you do?",
+    "choices": [
+      "Drive on, since combinations may lose up to 6 psi a minute",
+      "Repeat the test with the engine running at fast idle",
+      "Find and fix the leak first; more than 4 psi is too much",
+      "Drive on, but watch the low air warning light closely"
+    ],
+    "answer": 2,
+    "explanation": "The applied-brake limit for combination vehicles is 4 psi in one minute. More than that is too much air loss; check for leaks and fix them before driving, or you could lose your brakes.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.3.3; Section 11.1.2"
+  },
+  {
+    "id": "cdl.ab.076",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "In the applied-brake leakage test, when do you start timing the one-minute hold?",
+    "choices": [
+      "The moment you first press down on the pedal",
+      "After fanning the pressure down below 55 psi",
+      "After restarting the engine and reaching cut-out",
+      "After the gauge settles from the initial drop"
+    ],
+    "answer": 3,
+    "explanation": "Once the air gauge stabilizes after the initial drop from applying the brakes, hold the foot brake for one minute and check the loss.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 11.1.2"
+  },
+  {
+    "id": "cdl.ab.077",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "How do you test the low pressure warning signal?",
+    "choices": [
+      "Engine at fast idle, then pull the parking brake knob out",
+      "Engine running, then open the drain valve on the first tank",
+      "Engine off, power on, then fan off air with the brake pedal",
+      "Engine off, then disconnect the trailer emergency line"
+    ],
+    "answer": 2,
+    "explanation": "Shut off the engine with enough pressure that the warning is off, turn the electrical power on, and fan the brakes. The warning must come on before pressure drops below 55 psi.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.3.3"
+  },
+  {
+    "id": "cdl.ab.078",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "In a dual air system, the low pressure warning must come on before which tank drops below 55 psi?",
+    "choices": [
+      "The primary tank only, since it feeds the rear axles",
+      "The secondary tank only, since it feeds the front brakes",
+      "The trailer's air tank, if one is connected",
+      "The tank with the lowest air pressure"
+    ],
+    "answer": 3,
+    "explanation": "The warning must come on before pressure drops below 55 psi in the air tank, or in the tank with the lowest pressure in dual air systems.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.3.3"
+  },
+  {
+    "id": "cdl.ab.079",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "If the low air pressure warning signal does not work on a single-circuit system, what could happen?",
+    "choices": [
+      "Sudden emergency braking from unnoticed air loss",
+      "The governor would never cut the compressor out",
+      "The ABS would switch itself off for the rest of the trip",
+      "The compressor would overheat and stop pumping air"
+    ],
+    "answer": 0,
+    "explanation": "Without a working warning, you could lose air pressure and not know it. In a single-circuit system this could cause sudden emergency braking; in dual systems stopping distance increases.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.3.3"
+  },
+  {
+    "id": "cdl.ab.080",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "When checking that spring brakes come on automatically, at what pressure should the parking brake valve pop out?",
+    "choices": [
+      "At exactly 55 psi, when the warning light comes on",
+      "At the manufacturer's setting, within 20-45 psi",
+      "At about 80-85 psi, the same as on large buses",
+      "At about 100 psi, when the governor cuts in"
+    ],
+    "answer": 1,
+    "explanation": "Keep fanning off the air. The parking brake valve (and tractor protection valve on a tractor-trailer) should pop out at the manufacturer's specification, 20-45 psi.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.3.3"
+  },
+  {
+    "id": "cdl.ab.081",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "In a dual air system at operating rpm, pressure should build from 85 to 100 psi within:",
+    "choices": [
+      "15 seconds",
+      "2 minutes",
+      "45 seconds",
+      "3 minutes"
+    ],
+    "answer": 2,
+    "explanation": "With the engine at operating rpm, pressure should build from 85 to 100 psi within 45 seconds in dual air systems.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.3.3"
+  },
+  {
+    "id": "cdl.ab.082",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "For older single air systems (pre-1975), what is the typical buildup requirement?",
+    "choices": [
+      "50 to 90 psi within 3 minutes at 600-900 rpm idle",
+      "85 to 100 psi within 45 seconds at operating rpm",
+      "0 to 125 psi within 1 minute at a fast idle",
+      "55 to 100 psi within 5 minutes at any engine speed"
+    ],
+    "answer": 0,
+    "explanation": "Single air systems (pre-1975) typically must build from 50 to 90 psi within 3 minutes with the engine at an idle speed of 600-900 rpm.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.3.3"
+  },
+  {
+    "id": "cdl.ab.083",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "How do you test that the parking brake will hold?",
+    "choices": [
+      "Set it, then rev the engine hard in a high gear",
+      "Set it, then pump the service brake pedal several times",
+      "Release it and let the vehicle roll down a slope",
+      "Set it, then gently pull against it in a low gear"
+    ],
+    "answer": 3,
+    "explanation": "Stop the vehicle, put the parking brake on, and gently pull against it in a low gear to test that it holds.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.3.3"
+  },
+  {
+    "id": "cdl.ab.084",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "When testing the service brakes, at about what speed should you move forward before applying the brakes firmly?",
+    "choices": [
+      "About 15 mph",
+      "About 5 mph",
+      "About 25 mph",
+      "About 1 mph"
+    ],
+    "answer": 1,
+    "explanation": "Wait for normal air pressure, release the parking brake, move forward slowly (about 5 mph), and apply the brakes firmly. Note any pulling, unusual feel, or delayed stopping.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.3.3"
+  },
+  {
+    "id": "cdl.ab.085",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "On a tractor-trailer, when should the trailer air supply (tractor protection) valve pop out during the emergency brake test compared with the tractor's parking brake valve?",
+    "choices": [
+      "Only after the tractor's parking brake valve pops out",
+      "At the same time as, or before, the tractor's valve",
+      "Only when the gauge reaches 0 psi",
+      "At least 20 psi after the tractor's valve has popped out"
+    ],
+    "answer": 1,
+    "explanation": "On air-operated trailers, the tractor protection valve and trailer brake valve should pop out at the same time as or before the truck/tractor valve.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 11.1.2"
+  },
+  {
+    "id": "cdl.ab.086",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "During a normal stop with a manual transmission, when should you push in the clutch?",
+    "choices": [
+      "As soon as you start braking",
+      "Before you touch the brake pedal",
+      "Only after the vehicle has fully stopped and the parking brake is set",
+      "Not until engine rpm is down close to idle"
+    ],
+    "answer": 3,
+    "explanation": "In a normal stop, don't push the clutch in until the engine rpm is down close to idle. When stopped, select a starting gear.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.4.1"
+  },
+  {
+    "id": "cdl.ab.087",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "When you brake hard on a slippery surface without ABS and your steering wheels lock up, what happens?",
+    "choices": [
+      "You lose steering control",
+      "The trailer jackknifes immediately",
+      "The spring brakes come on",
+      "Your stopping distance gets shorter"
+    ],
+    "answer": 0,
+    "explanation": "When steering wheels lock up, you lose steering control. When other wheels lock, you may skid, jackknife, or spin.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.4.2"
+  },
+  {
+    "id": "cdl.ab.088",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Only your tractor has ABS. While braking hard, you see the trailer begin to swing out. What should you do?",
+    "choices": [
+      "Brake harder so the tractor ABS takes over",
+      "Apply the trailer hand valve to straighten the trailer",
+      "Let up on the brakes if you can safely do so",
+      "Steer sharply toward the trailer"
+    ],
+    "answer": 2,
+    "explanation": "With ABS only on the tractor you should keep steering control, but watch the trailer and let up on the brakes (if safe) if it begins to swing out.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.4.2"
+  },
+  {
+    "id": "cdl.ab.089",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "In which case does the manual say you can fully apply the brakes in an emergency stop?",
+    "choices": [
+      "When only the trailer, not the tractor, has working ABS",
+      "When the low air pressure warning light has just come on",
+      "When going downhill in the proper low gear",
+      "When the vehicle has working ABS on all axles"
+    ],
+    "answer": 3,
+    "explanation": "The one exception to normal braking is when you always drive a straight truck or combination with working ABS on all axles; then you can fully apply the brakes in an emergency stop.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.4.2"
+  },
+  {
+    "id": "cdl.ab.090",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "How should you brake a tractor-trailer that has ABS?",
+    "choices": [
+      "Pump the brake pedal rapidly to help the ABS work",
+      "Always press the brake pedal all the way to the floor",
+      "As you always have, using only the force needed",
+      "Use the trailer hand valve first, then the foot brake"
+    ],
+    "answer": 2,
+    "explanation": "Brake as you always have: use only the braking force necessary to stop safely and stay in control, regardless of which units have ABS.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.4.2"
+  },
+  {
+    "id": "cdl.ab.091",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "If your ABS malfunctions, what should you do?",
+    "choices": [
+      "Stop right away and have the vehicle towed",
+      "Drive normally and get it serviced soon",
+      "Use only the parking brake control to stop",
+      "Keep your speed under 20 mph until it is fixed"
+    ],
+    "answer": 1,
+    "explanation": "If ABS malfunctions you still have regular brakes. Drive normally, but get the system serviced soon.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.4.2"
+  },
+  {
+    "id": "cdl.ab.092",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Describe the controlled braking method.",
+    "choices": [
+      "Brake as hard as you can without locking the wheels",
+      "Apply fully, release when wheels lock, then reapply",
+      "Pull the parking brake knob out about halfway",
+      "Brake lightly and steer sharply around the hazard"
+    ],
+    "answer": 0,
+    "explanation": "In controlled braking you apply the brakes as hard as you can without locking the wheels and keep steering movements very small.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.4.3"
+  },
+  {
+    "id": "cdl.ab.093",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "While using controlled braking, you need to make a larger steering adjustment. What should you do?",
+    "choices": [
+      "Release the brakes, steer, then reapply as soon as you can",
+      "Keep full brake pressure and turn the steering wheel harder",
+      "Pull out the trailer air supply knob to slow the trailer",
+      "Downshift two gears while keeping the same brake pressure"
+    ],
+    "answer": 0,
+    "explanation": "If you need to make a larger steering adjustment or the wheels lock, release the brakes, and reapply them as soon as you can.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.4.3"
+  },
+  {
+    "id": "cdl.ab.094",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Describe the stab braking method.",
+    "choices": [
+      "Tap the brake pedal lightly several times every second",
+      "Brake fully, release when wheels lock, reapply when they roll",
+      "Hold light, steady pressure while steering to the shoulder",
+      "Pull the parking brake knob out and push it in, in short bursts"
+    ],
+    "answer": 1,
+    "explanation": "Stab braking: apply your brakes all the way, release when the wheels lock, and apply fully again as soon as the wheels start rolling.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.4.3"
+  },
+  {
+    "id": "cdl.ab.095",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "During stab braking, why must you wait before reapplying the brakes?",
+    "choices": [
+      "The compressor needs about five seconds to refill the tanks",
+      "The ABS has to reset itself before every application",
+      "The wheels need up to one second to start rolling again",
+      "The brake lights must go off before they can come on again"
+    ],
+    "answer": 2,
+    "explanation": "It can take up to one second for the wheels to start rolling after you release. If you reapply before they roll, the vehicle won't straighten out.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.4.3"
+  },
+  {
+    "id": "cdl.ab.096",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "What is \"brake lag\" in an air brake system?",
+    "choices": [
+      "The delay between seeing a hazard and moving your foot",
+      "The time the compressor takes to cut back in after braking",
+      "The time needed for the spring brakes to fully release",
+      "The delay while air flows through the lines to the brakes"
+    ],
+    "answer": 3,
+    "explanation": "Brake lag is the time required for the brakes to work after the pedal is pushed, because air takes time (one half second or more) to flow through the lines.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.4.4"
+  },
+  {
+    "id": "cdl.ab.097",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Total stopping distance for a vehicle with air brakes is made up of perception distance, reaction distance, braking distance, and:",
+    "choices": [
+      "Following distance",
+      "Off-tracking distance",
+      "Brake lag distance",
+      "Sight distance"
+    ],
+    "answer": 2,
+    "explanation": "Perception + reaction + brake lag + braking distance = total stopping distance for air-braked vehicles.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.4.4"
+  },
+  {
+    "id": "cdl.ab.098",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "At 55 mph on dry pavement, about how much distance does air brake lag add?",
+    "choices": [
+      "About 6 feet",
+      "About 100 feet",
+      "About 450 feet",
+      "About 32 feet"
+    ],
+    "answer": 3,
+    "explanation": "Air brake lag at 55 mph on dry pavement adds about 32 feet. The total stopping distance for an average driver is over 450 feet.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.4.4"
+  },
+  {
+    "id": "cdl.ab.099",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Under good traction and brake conditions, what is the total stopping distance for an air-braked vehicle at 55 mph?",
+    "choices": [
+      "Over 450 feet",
+      "About 200 feet",
+      "About 300 feet",
+      "About 150 feet"
+    ],
+    "answer": 0,
+    "explanation": "At 55 mph, for an average driver under good conditions, the total stopping distance with air brakes is over 450 feet.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.4.4"
+  },
+  {
+    "id": "cdl.ab.100",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "What causes brake fade?",
+    "choices": [
+      "Too much air pressure built up in the storage tanks",
+      "Excessive heat from overusing the service brakes",
+      "Relying on engine braking during long downgrades",
+      "Cold weather freezing water inside the brake chambers"
+    ],
+    "answer": 1,
+    "explanation": "Brakes fade or fail from excessive heat caused by using them too much and not relying on the engine braking effect.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.4.5"
+  },
+  {
+    "id": "cdl.ab.101",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Which two effects of excessive heat lead to brake fade?",
+    "choices": [
+      "Ice forming in the valves and the governor sticking",
+      "Air lines shrinking and slack adjusters tightening up",
+      "Lining changes that cut friction, and drums that expand",
+      "Compressor oil thinning out and the safety valve opening"
+    ],
+    "answer": 2,
+    "explanation": "Heat causes chemical changes in the brake lining that reduce friction and makes the drums expand, so the shoes have to move farther and press with less force.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.4.5"
+  },
+  {
+    "id": "cdl.ab.102",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "How do brakes that are out of adjustment contribute to brake fade?",
+    "choices": [
+      "They quit early, so the other brakes overheat and fade",
+      "They lock the wheels, which keeps the drums cooler",
+      "They make the ABS shut off on that axle permanently",
+      "They raise the governor's cut-out pressure too high"
+    ],
+    "answer": 0,
+    "explanation": "Brakes out of adjustment stop doing their share before those in adjustment. The other brakes then overheat and fade, leaving too little braking.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.4.5"
+  },
+  {
+    "id": "cdl.ab.103",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "On a long, steep downgrade, the use of brakes is:",
+    "choices": [
+      "The main way to control your speed",
+      "Needed only if the vehicle lacks ABS",
+      "Not allowed except in an emergency stop situation",
+      "A supplement to the engine's braking effect"
+    ],
+    "answer": 3,
+    "explanation": "The use of brakes on a long or steep downgrade is only a supplement to the braking effect of the engine; get into the proper low gear first.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.4.6"
+  },
+  {
+    "id": "cdl.ab.104",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Your safe speed on a downgrade is 40 mph and you are in the proper low gear. Using the proper braking technique, what do you do?",
+    "choices": [
+      "Brake steadily the whole way down to hold exactly 40 mph",
+      "At 40 mph, brake down to about 35 mph, then release",
+      "At 40 mph, brake down to about 20 mph, then release",
+      "At 30 mph, brake down to about 25 mph, then release"
+    ],
+    "answer": 1,
+    "explanation": "Apply the brakes when you reach your safe speed, hard enough to feel a definite slowdown, and release when you are about 5 mph below it. Repeat as needed.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.4.6"
+  },
+  {
+    "id": "cdl.ab.105",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Using the proper downgrade braking technique, about how long should each brake application last?",
+    "choices": [
+      "About ten seconds",
+      "About three seconds",
+      "About one second",
+      "Until the vehicle stops"
+    ],
+    "answer": 1,
+    "explanation": "Each application, which brings speed down about 5 mph below your safe speed, should last about three seconds.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.4.6"
+  },
+  {
+    "id": "cdl.ab.106",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Which vehicle is MOST likely to skid out of control when its spring brakes come on from low air pressure?",
+    "choices": [
+      "A heavily loaded vehicle on dry, level pavement",
+      "A fully loaded bus on a level road",
+      "A heavily loaded truck going uphill",
+      "A lightly loaded vehicle on a slippery road"
+    ],
+    "answer": 3,
+    "explanation": "Heavily loaded vehicles take a long distance to stop on spring brakes, while lightly loaded vehicles or those on slippery roads may skid out of control.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.4.7"
+  },
+  {
+    "id": "cdl.ab.107",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "You just came down a long, steep grade and your brakes are very hot. How should you park?",
+    "choices": [
+      "Chock the wheels and let the brakes cool first",
+      "Set the parking brakes right away to hold the vehicle",
+      "Set the parking brakes and pump the pedal to cool them",
+      "Leave the engine running with the transmission in gear"
+    ],
+    "answer": 0,
+    "explanation": "Don't use the parking brakes when the brakes are very hot; heat can damage them. Use wheel chocks on a level surface and let hot brakes cool first.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.4.8"
+  },
+  {
+    "id": "cdl.ab.108",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "Your brakes are very wet and the temperature is below freezing. Why should you avoid setting the parking brakes?",
+    "choices": [
+      "The wet brakes may release on their own overnight",
+      "The spring brakes will overheat while parked",
+      "They can freeze so the vehicle cannot move",
+      "The ABS will not work after the vehicle is parked"
+    ],
+    "answer": 2,
+    "explanation": "Wet brakes set in freezing temperatures can freeze so the vehicle cannot move. Chock the wheels instead, and dry the brakes by using them lightly in a low gear.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 5.4.8"
+  },
+  {
+    "id": "cdl.ab.109",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "How can you dry wet brakes?",
+    "choices": [
+      "Set the parking brake and rev the engine for a minute",
+      "Drive at highway speed without using the brakes",
+      "Open the air tank drains to remove the moisture",
+      "Use the brakes lightly while driving in a low gear"
+    ],
+    "answer": 3,
+    "explanation": "If the brakes are wet, use them lightly while driving in a low gear to heat and dry them.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 5.4.8"
+  },
+  {
+    "id": "cdl.ab.110",
+    "track": "cdl",
+    "topic": "cdl-air-brakes",
+    "prompt": "You will be away from your truck for only a few minutes. What must you do?",
+    "choices": [
+      "Nothing, if the engine is left running",
+      "Leave it in neutral with the engine off",
+      "Apply the parking brakes or chock the wheels",
+      "Hold the trailer hand valve on with a strap"
+    ],
+    "answer": 2,
+    "explanation": "Never leave your vehicle unattended without applying the parking brakes or chocking the wheels; it might roll away.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 5.4.8"
+  }
+]

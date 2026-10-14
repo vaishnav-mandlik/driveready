@@ -11,20 +11,20 @@
     "edition": "Current online edition at dds.georgia.gov/drivers-manual (checked Oct 2026). The manual is published as a web page, not a PDF; 'page' numbers in this file are the manual's Sections 1-11 (page 5 = Section 5: Traffic Laws).",
     "url": "https://dds.georgia.gov/drivers-manual"
   },
-  "knowledgeTest": {
+  "exam": {
     "questions": 40,
     "passingScore": 30,
     "passingPercent": 75,
-    "roadSigns": "Separate Road Signs test: 20 questions, at least 15 correct required. The Road Rules test is also 20 questions with at least 15 correct required. Each part is scored on its own (15 of 20 on each), so 30 of 40 overall is not enough if one part has fewer than 15.",
     "timeLimitMinutes": null,
+    "roadSigns": "Separate Road Signs test: 20 questions, at least 15 correct required. The Road Rules test is also 20 questions with at least 15 correct required. Each part is scored on its own (15 of 20 on each), so 30 of 40 overall is not enough if one part has fewer than 15.",
     "format": "Computer-based Knowledge Exam taken on a walk-in basis (no appointment) at any DDS Customer Service Center, made up of two tests: Road Signs and Road Rules. Applicants must be on the computer at least 30 minutes before the center closes. Oral tests can be requested for reading disabilities.",
     "languages": "The DDS Test and Exams page says the Road Rules and Road Signs sections of the non-commercial knowledge exam are available in 26 languages: English, Albanian, Amharic, Arabic, Burmese, Chinese, Dari, Farsi, French, German, Haitian Creole, Hindi, Italian, Japanese, Korean, Pashto, Portuguese (Brazil), Rohingya, Russian, Spanish, Swahili, Turkish, Urdu, Vietnamese, Wolof and Yoruba. (The older manual text says road signs are tested in English only; the website is newer.) The road skills test is English only.",
-    "retestWait": "After a first failure, wait until the next day (1 day) to retest; after a second or later failure, wait 7 days. Each attempt requires paying the $10 permit/test fee again.",
-    "notes": "Same knowledge exam for teens and adults. A Class C Instructional Permit (CP) is available from age 15. Applicants under 18 also need proof of school enrollment, a responsible adult's signature, and (for the Class D license) ADAP plus Joshua's Law driver education. Road test pass mark is 75%.",
+    "retestWait": "After a first failure, wait until the next day to retest; after a second or subsequent failure, wait 7 days. The $10 permit/test fee must be paid before every testing attempt.",
+    "notes": "The Class C Instructional Permit (CP) is available from age 15 and requires passing the vision test plus the Road Signs and Road Rules knowledge tests (Drivers Manual Sections 2 and 6). Applicants under 18 also need proof of school enrollment and a responsible adult's signature; the Class D license additionally requires ADAP and Joshua's Law driver education. The road test pass mark is 75%.",
     "sourceUrl": "https://dds.georgia.gov/testing-and-training/test-and-exams-information"
   },
-  "motorcycleTest": null,
-  "cdlTest": null,
+  "motorcycleExam": null,
+  "cdlExam": null,
   "facts": [
     {
       "key": "bac_limit_adult",
@@ -36,21 +36,19 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "A person 21 or more years of age is considered \"Under the Influence of Alcohol\" when 0.08 gm or more by alcohol weight is present in the blood"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "bac_limit_under21",
       "value": "0.02% BAC",
-      "detail": "A driver under 21 is irrefutably considered under the influence at 0.02 or more. A first under-21 DUI suspends the license for at least 6 months (BAC .02 to under .08) or at least 12 months (BAC .08+ or test refusal), with no limited permit.",
+      "detail": "A driver under 21 is irrefutably considered under the influence at 0.02 or more. Under the Teen Driving Laws section, a first DUI suspension is a minimum of 6 months (BAC .02 to under .08, with no prior listed conviction) or a minimum of 12 months (BAC .08+ or refused implied consent testing), and no limited driving permit is available.",
       "number": 0.02,
       "unit": "% BAC",
       "source": {
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "A person under 21 years of age is irrefutably considered \"Under the Influence of Alcohol\" when 0.02 gm or more by alcohol weight is present in the blood"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "bac_limit_commercial",
@@ -62,8 +60,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 10,
         "quote": "Driving a CMV if your BAC is .04 gm. or higher"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "implied_consent",
@@ -75,8 +72,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 10,
         "quote": "If you refuse this testing, your Georgia driver's license or privilege to drive on the highways of this state will be suspended for a minimum period of one year."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "dui_first_offense",
@@ -88,8 +84,7 @@
         "url": "https://dds.georgia.gov/georgia-licenseid/violations-suspensions-revocations/violations-and-suspensions-faqs/dui-first",
         "page": null,
         "quote": "A DUI suspense, first offense in 5 years, will be suspended for 12 months. However, at the end of 120 days, the driver can apply for reinstatement if all the conditions, listed below, are met."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "open_container",
@@ -101,8 +96,7 @@
         "url": "https://dds.georgia.gov/document/document/motorcycle-operators-manual/download",
         "page": 22,
         "quote": "The law prohibits anyone from consuming any alcoholic beverage, or possessing any open alcoholic beverage container in the passenger area of any motor vehicle"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "permit_min_age",
@@ -114,8 +108,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 6,
         "quote": "Upon reaching age 15, or anytime thereafter, you may apply for a Class C Instructional Permit (CP)."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "permit_holding_period",
@@ -127,8 +120,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 6,
         "quote": "Upon reaching age 16 and after having held a valid instructional permit for one year and one day, you may apply for a Class D Provisional License"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "supervised_driving_hours",
@@ -140,8 +132,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 6,
         "quote": "You must also have completed a cumulative total of at least 40 hours of other driving experience including at least 6 hours at night."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "permit_supervisor",
@@ -153,8 +144,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 6,
         "quote": "you may operate any Class C vehicle when accompanied by a person at least 21 years of age who is licensed to drive a Class C vehicle, who is fit and capable of exercising control over the vehicle, and who is occupying a seat beside the driver"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "provisional_license_min_age",
@@ -166,8 +156,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 2,
         "quote": "Upon reaching the age of 16, and after having held a valid instructional permit for one year and one day, you may apply for your Class D license."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "provisional_night_restriction",
@@ -179,8 +168,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 6,
         "quote": "A Class D license Holder may not drive between the hours of 12:00 a.m. and 5:00 a.m."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "provisional_passenger_restriction",
@@ -192,8 +180,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 6,
         "quote": "During the first six months following issuance, only immediate family members may ride in the vehicle."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "full_license_min_age",
@@ -205,8 +192,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 2,
         "quote": "A Class D license holder may apply for a Class C license upon reaching the age of 18."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "handheld_phone_ban",
@@ -218,8 +204,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "Georgia has a hands Free Law (HB 673) that mandates that drivers are not allowed to hold or support a phone for any reason."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "texting_ban",
@@ -231,8 +216,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "Writing, sending or reading any text-based communication, including a text message, instant message, e-mail or internet data."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "seat_belt_law",
@@ -244,8 +228,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "Georgia law states that each occupant in the front seat of a passenger vehicle traveling on Georgia roads and highways must be secured by a seat safety belt (lap and shoulder). All occupants of any passenger vehicle must utilize a seat safety belt if they are under the age of 18."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "child_restraint_law",
@@ -257,8 +240,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "Every driver transporting a child who is under eight years of age, except in a taxicab or public transit vehicle, must properly restrain the child in a child passenger restraining system appropriate for the child's height and weight."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "speed_limit_residential",
@@ -270,8 +252,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "30 miles per hour in any urban or residential district;"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "speed_limit_rural_highway",
@@ -283,8 +264,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "65 miles per hour on an urban interstate or on a multi-lane divided highway; 55 miles per hour in all other areas."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "speed_limit_interstate_max",
@@ -296,8 +276,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "70 miles per hour on a rural interstate; 65 miles per hour on an urban interstate or on a multi-lane divided highway;"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "minimum_speed_rule",
@@ -309,8 +288,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "Drivers are prohibited from driving a motor vehicle at such a slow speed as to impede the normal and reasonable movement of traffic except when a reduced speed is necessary for safe operation."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "right_turn_on_red",
@@ -322,8 +300,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "Unless a sign posted at that intersection prohibits doing so, it is permissible to make a \"right turn on red\" at an intersection controlled by a traffic control light."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "left_turn_on_red",
@@ -335,8 +312,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "it is permissible to make a \"left turn on red\" from the left lane of a one-way street onto a one-way street on which the traffic moves toward the driver's left."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "emergency_vehicles",
@@ -348,8 +324,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "must not follow any fire fighting apparatus traveling in response to a fire alarm, or other emergency vehicles, closer than 200 feet, or park any vehicle within 500 feet of any fire apparatus stopped in answer to a fire alarm."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "move_over_law",
@@ -361,21 +336,19 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "Move over to the next lane if safely possible. If unable to move over, then slow down below the speed limit and be prepared to stop."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "school_bus_stopping",
       "value": "Stop for a bus loading/unloading with red lights and stop arm; only a median-divided highway exempts oncoming traffic",
-      "detail": "All traffic in both directions must stop on two-lane roads, roads with a center turn lane, and four-lane roads without a median. On a divided highway of four or more lanes with a median, only traffic following the bus must stop. Stay stopped until the bus moves or turns off its signals and all passengers have cleared the road. Passing a stopped bus: up to $1,000 fine and 6 points.",
+      "detail": "All traffic in both directions must stop on two-lane roads, roads with a center turning lane, and four-lane roads without a median. On a divided highway of four or more lanes with a median, only traffic following the bus must stop. Stay stopped until the bus resumes motion or deactivates its warning signals and all passengers have cleared the road. Penalties: mandatory court appearance, fine up to $1,000, up to 6 points (the points table lists 6).",
       "number": null,
       "unit": null,
       "source": {
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "Once the flashing lights have turned red and the stop signs have extended from the side of the bus, it is unlawful for any vehicle to pass the stopped school bus while it is loading or unloading passengers. On a highway divided by a median, cars traveling on the opposite side from the stopped school bus are not required to stop"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "following_distance",
@@ -387,8 +360,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 8,
         "quote": "count \"one-thousand-one, one-thousand-two.\" If you pass the same spot before you are through counting, you are following too closely."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "headlights_required",
@@ -400,8 +372,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "You must use your headlights between one-half hour after sunset to one-half hour before sunrise; at any time when it is raining; or when visibility is limited."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "high_beam_dim_oncoming",
@@ -413,8 +384,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "You are within 500 feet of an approaching vehicle so as not to blind the driver;"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "high_beam_dim_following",
@@ -426,8 +396,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "You are following closely (within 200 feet) behind another vehicle;"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "parking_fire_hydrant",
@@ -439,8 +408,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "Within 15 feet of a fire hydrant;"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "parking_crosswalk",
@@ -452,8 +420,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "Within 20 feet of a crosswalk at an intersection;"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "parking_intersection",
@@ -465,8 +432,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "On a sidewalk; Within an intersection; On a crosswalk;"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "parking_stop_sign_signal",
@@ -478,8 +444,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "Within 30 feet of a stop sign, yield sign, or traffic control signal;"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "parking_railroad",
@@ -491,8 +456,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "Within 50 feet of a railroad crossing;"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "parking_fire_station",
@@ -504,8 +468,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "Within 20 feet of a fire station driveway; Within 75 feet of the spot across the street from a fire station driveway;"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "railroad_stop_distance",
@@ -517,8 +480,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "You must always stop within 50 feet, but not less than 15 feet, from the nearest rail of a railroad crossing"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "bicycle_passing",
@@ -530,8 +492,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 9,
         "quote": "The minimum legal space for a motorist to pass a bicyclist is 3 feet."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "pedestrian_rules",
@@ -543,8 +504,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 9,
         "quote": "The driver of a vehicle shall stop and remain stopped to allow a pedestrian to cross the roadway within a crosswalk: When the pedestrian is upon the half of the roadway on which the vehicle is traveling, or when the pedestrian is approaching and is within one lane of the half of the roadway on which the vehicle is traveling or onto which it is turning."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "crash_reporting",
@@ -556,8 +516,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 11,
         "quote": "Notify the nearest law enforcement agency immediately if anyone is injured or killed, or if property damage exceeds $500.00;"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "insurance_minimums",
@@ -569,8 +528,7 @@
         "url": "https://oci.georgia.gov/insurance-resources/auto",
         "page": null,
         "quote": "Bodily Injury Liability – $25,000 per person and $50,000 per incident Property Damage Liability – $25,000 per incident"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "point_system",
@@ -582,8 +540,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 10,
         "quote": "For any person who accumulates 15 or more points within 24 months;"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "motorcycle_helmet_law",
@@ -595,21 +552,19 @@
         "url": "https://dds.georgia.gov/document/document/motorcycle-operators-manual/download",
         "page": 23,
         "quote": "Georgia requires a DOT compliant helmet."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "motorcycle_lane_splitting",
-      "value": "Not allowed: do not share lanes or ride between rows of vehicles",
-      "detail": "The Motorcycle Operators Manual says motorcycles need a full lane, riders must not share lanes, and riders should not ride between rows of stopped or moving vehicles. The Drivers Manual says a motorcyclist legally occupies a full lane and drivers may not occupy the same lane while passing.",
+      "value": "Do not share lanes or ride between rows of vehicles (motorcycles need a full lane)",
+      "detail": "The Motorcycle Operators Manual says vehicles and motorcycles need a full lane, riders should not share lanes with other vehicles, and should not ride between rows of stopped or moving vehicles. The Drivers Manual says a motorcyclist legally occupies the full width of a lane and drivers may not occupy the same lane while passing.",
       "number": null,
       "unit": null,
       "source": {
         "url": "https://dds.georgia.gov/document/document/motorcycle-operators-manual/download",
         "page": 29,
         "quote": "Vehicles and motorcycles need a full lane to operate safely. Do not share lanes with other vehicles."
-      },
-      "status": "unverified"
+      }
     }
   ],
   "notableLaws": [
@@ -620,8 +575,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "Any driver convicted of speeding 75 mph or more on a two-lane road or 85 miles per hour or more on any road in Georgia, will be assessed a $200 state fee."
-      },
-      "status": "unverified"
+      }
     },
     {
       "title": "\"Slow Poke\" law (keep right except to pass)",
@@ -630,8 +584,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "Regardless of the speed you are traveling, you must move from the lane when faster traffic is approaching."
-      },
-      "status": "unverified"
+      }
     },
     {
       "title": "Hands-Free Georgia penalties",
@@ -640,8 +593,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "1st conviction - 1 point and fine not more than $50.00"
-      },
-      "status": "unverified"
+      }
     },
     {
       "title": "Under-21 suspension for serious violations (TADRA)",
@@ -650,8 +602,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 6,
         "quote": "The instructional permit or driver's license of any person under 21 years of age convicted of any of the following offenses shall be SUSPENDED for a period of six months for a first conviction, or for a period of twelve months for a second or subsequent conviction."
-      },
-      "status": "unverified"
+      }
     },
     {
       "title": "Under-18 point suspension",
@@ -660,8 +611,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 10,
         "quote": "For any person under 18 years of age with an accumulation of 4 points within twelve months."
-      },
-      "status": "unverified"
+      }
     },
     {
       "title": "Joshua's Law and ADAP",
@@ -670,8 +620,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 2,
         "quote": "To obtain a Class D license at the age of 16 or 17 you must complete both a driver education course approved by DDS and the Alcohol and Drug Awareness Program (ADAP)."
-      },
-      "status": "unverified"
+      }
     },
     {
       "title": "Passing postal and sanitation vehicles",
@@ -680,8 +629,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "The operator of a motor vehicle approaching a postal service vehicle or a vehicle with active sanitation workers that is displaying flashing yellow, amber, white, or red lights shall approach the vehicle with due caution"
-      },
-      "status": "unverified"
+      }
     },
     {
       "title": "Center left-turn lane: 300-foot limit",
@@ -690,8 +638,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 7,
         "quote": "Georgia law prohibits the use of this lane for any purpose other than making a left turn. You may enter this lane no more than 300 feet from the location of the left turn."
-      },
-      "status": "unverified"
+      }
     },
     {
       "title": "Move vehicles out of the road after a minor crash",
@@ -700,8 +647,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 11,
         "quote": "When a traffic crash occurs on a multilane highway or expressway, and if there is no apparent serious injury or death, it is the duty of the drivers of the vehicles involved to move their vehicles from the roadway to a safe location along the shoulder, emergency lane, median, or any other safe refuge."
-      },
-      "status": "unverified"
+      }
     },
     {
       "title": "Points reduction and points avoidance",
@@ -710,8 +656,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 10,
         "quote": "Licensed Georgia residents may request that DDS reduce the number of points assessed against their Georgia driver's license up to 7 points once every 5 years."
-      },
-      "status": "unverified"
+      }
     },
     {
       "title": "No headphones while driving",
@@ -720,8 +665,7 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "It is unlawful to operate a motor vehicle while wearing a headphone, headset, or any other device which would impair the driver's ability to hear."
-      },
-      "status": "unverified"
+      }
     },
     {
       "title": "No courtesy \"go ahead\" turn-signal flashing",
@@ -730,26 +674,12 @@
         "url": "https://dds.georgia.gov/drivers-manual",
         "page": 5,
         "quote": "It is against the law to flash turn signals as a courtesy or \"do pass\" signal to other drivers in the rear."
-      },
-      "status": "unverified"
+      }
     }
   ],
   "officialPracticeTests": [
     "https://online.dds.ga.gov/ddsgeorgiagov/practicetest/index.aspx",
     "https://dds.georgia.gov/testing-and-training/practice-test"
   ],
-  "gaps": [
-    "novice_phone_ban: the current Drivers Manual describes only the all-driver Hands-Free law; it states no separate phone ban for teen or permit drivers.",
-    "basic_speed_law: the manual does not state a general 'reasonable and prudent' basic speed rule; it covers default limits, work-zone limits, impeding traffic and not overdriving headlights. (The DDS points page notes no points for 'Too Fast for Conditions'.)",
-    "speed_limit_school_zone: no numeric school-zone limit is given; the manual says school zones may be posted lower at certain times and the reduced limit applies when the yellow lights flash.",
-    "speed_limit_business_district: the manual gives 30 mph for 'any urban or residential district' and has no separate business-district figure.",
-    "signal_distance: the manual requires a continuous turn signal 'for an adequate distance' but gives no number of feet.",
-    "parking_curb_distance: no legal curb distance is stated for parking; only the road test standard (park not more than 18 inches from the curb) appears in Section 3.",
-    "motorcycleTest: DDS pages describe the Motorcycle Knowledge Exam and Rider Skills Test but publish no question count or passing score; Class M knowledge scores are valid for one year.",
-    "cdlTest: not researched for this pass.",
-    "knowledgeTest.languages: the manual (Section 3) says road signs are tested in English only, while the DDS Test and Exams page (Oct 2026) lists both Road Rules and Road Signs in 26 languages; the website is followed.",
-    "knowledgeTest.timeLimitMinutes: DDS publishes no time limit; applicants must begin at least 30 minutes before the center closes.",
-    "Class C permit validity: Section 2 says the CP is valid 'for up to 2 years' and Section 6 says 'valid for 2 years'; questions avoid this detail.",
-    "Motorcycle Operators Manual (DDS-2203-P, 3/2017) is the edition DDS links today; its page numbers in this file are physical PDF pages."
-  ]
+  "verifiedOn": "2026-10-14"
 }

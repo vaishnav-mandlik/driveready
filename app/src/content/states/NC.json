@@ -11,26 +11,20 @@
     "edition": "Revised May 2025 (printed 09/25)",
     "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf"
   },
-  "knowledgeTest": {
-    "questions": null,
-    "passingScore": null,
+  "exam": {
+    "questions": 40,
+    "passingScore": 32,
     "passingPercent": 80,
-    "roadSigns": "Separate traffic-sign recognition test: Class C applicants must correctly identify 9 of 12 road signs (Class A/B: all signs) by color and shape and explain each (19A NCAC 03B .0201; NCDMV Driver License Tests page).",
     "timeLimitMinutes": null,
+    "roadSigns": "Separate traffic-sign recognition test: Class C applicants must correctly identify 9 of 12 road signs (Class A/B: all signs) by color and shape and explain each (19A NCAC 03B .0201; NCDMV Driver License Tests page).",
     "format": "Automated computer knowledge test on traffic laws and safe-driving practice, taken at a driver license office (walk-ins or appointments at skiptheline.ncdot.gov), plus separate traffic-signs and vision tests; an on-road driving test is required for a first license but not for a learner permit.",
     "languages": "NCDMV says the written knowledge test is offered in different languages (specific languages not listed); oral/audio tests are available on request for applicants who have difficulty reading.",
     "retestWait": "Applicants who fail the knowledge test or driving test for a regular Class C license may retake it in seven calendar days.",
-    "notes": "The number of knowledge-test questions is not published on the NCDMV pages checked; 80% correct is required to pass under 19A NCAC 03B .0201 (rule text on ncdot.gov). Teens 15-17 must complete driver education (30 hours classroom + 6 hours behind the wheel) and apply for a Level 1 Limited Learner Permit with a parent or guardian present for the written, sign and vision tests; Level 2 requires age 16, 9 months on Level 1, and a 60-hour log (10 at night). Adults 18+ may apply directly for a license or first get a learner permit. Effective Oct. 1, 2026, the Driving Eligibility Certificate requirement was eliminated (SL 2026-46). License renewals and transfers from other states (valid or expired under 2 years) require only the signs and vision tests.",
+    "notes": "The number of knowledge-test questions is not published on the NCDMV pages checked; 80% correct is required to pass under 19A NCAC 03B .0201 (NC Administrative Code, published by the NC Office of Administrative Hearings, reports.oah.state.nc.us). Teens 15-17 must complete driver education (30 hours classroom + 6 hours behind the wheel) and apply for a Level 1 Limited Learner Permit with a parent or guardian present for the written, sign and vision tests; Level 2 requires age 16, 9 months on Level 1, and a 60-hour log (10 at night). Adults 18+ may apply directly for a license or first get a learner permit. Effective Oct. 1, 2026, the Driving Eligibility Certificate requirement was eliminated (SL 2026-46). License renewals and transfers from other states (valid or expired under 2 years) require only the signs and vision tests. The official site does not publish the number of questions; this practice exam uses 40 questions at the official 80% passing standard.",
     "sourceUrl": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/driver-license-tests.aspx"
   },
-  "motorcycleTest": {
-    "questions": null,
-    "passingScore": null,
-    "passingPercent": null,
-    "notes": "NCDMV Motorcycles page: a motorcycle learner permit requires a full provisional, regular or commercial license plus the motorcycle knowledge, road-sign and vision tests; it is valid 12 months, renewable once for six months, and allows riding without passengers. Ages 16-18 also need parental consent and an MSF or NC Motorcycle Safety Education Program Basic Rider Course. The endorsement requires the motorcycle knowledge test plus a DMV skills test or an approved alternative (MSF Basic Rider Course, military training, or out-of-state endorsement). Knowledge and skills tests are by appointment; skills tests Tuesday-Thursday, one attempt per day. Question count and passing score not published on the page checked.",
-    "sourceUrl": "https://www.ncdot.gov/dmv/license-id/driver-licenses/motorcycle/Pages/default.aspx"
-  },
-  "cdlTest": null,
+  "motorcycleExam": null,
+  "cdlExam": null,
   "facts": [
     {
       "key": "bac_limit_adult",
@@ -42,8 +36,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 33,
         "quote": "By proving the driver's blood alcohol concentration is 0.08 percent or more, or 0.04 or more, if you are driving a Commercial Motor Vehicle."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "bac_limit_under21",
@@ -55,8 +48,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 35,
         "quote": "If a driver who is less than 21 years old is convicted for an offense of driving with any amount of alcohol or drugs in their body, their license will be revoked for one year."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "bac_limit_commercial",
@@ -68,8 +60,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 33,
         "quote": "If your blood alcohol concentration test shows a BAC of 0.08 percent or more (0.04 or more, if you are driving a commercial motor vehicle), your driving privilege will be revoked immediately for a minimum of 30 days."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "implied_consent",
@@ -81,8 +72,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 33,
         "quote": "Refusal to perform any required test will result in the immediate revocation of your driver license for at least 30 days and an additional, minimum 12-month revocation by the DMV."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "dui_first_offense",
@@ -94,8 +84,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 34,
         "quote": "First conviction: Mandatory revocation of your driver license for a period of one year."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "open_container",
@@ -107,8 +96,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 33,
         "quote": "Prohibit the transport of an open container of any alcoholic beverage, including in the passenger area of the car;"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "permit_min_age",
@@ -120,8 +108,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 14,
         "quote": "If you are at least 15 years of age and have completed an approved driver education course that meets North Carolina requirements, you may apply for a Level One Limited Learner Permit to operate vehicles requiring a Class C License."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "permit_holding_period",
@@ -133,8 +120,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 14,
         "quote": "You must hold this permit for nine months prior to applying for a Limited Provisional License."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "supervised_driving_hours",
@@ -146,21 +132,19 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 14,
         "quote": "You will be given a Driving Log to be completed detailing a minimum of 60 hours of operation. At least 10 hours must occur during nighttime hours."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "permit_supervisor",
       "value": "Parent, grandparent, guardian, or parent-approved responsible person; licensed at least 5 years",
-      "detail": "The supervising driver must hold a valid license, have been licensed at least five years, and sit beside the permit holder. Only the driver and supervisor may sit in the front seat.",
+      "detail": "The supervising driver must hold a valid license, have been licensed at least five years, and be seated next to the permit holder (NCDMV Level 1 page). Only the driver and supervising driver may sit in the front seat.",
       "number": 5,
       "unit": "years licensed",
       "source": {
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 14,
         "quote": "A supervising driver must be a parent, grandparent or guardian of the permit/license holder, or a responsible person approved by the parent or guardian. A supervising driver must hold a valid driver license and must have been licensed for at least five years."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "provisional_license_min_age",
@@ -172,8 +156,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 15,
         "quote": "Drivers must be at least 16 years old, but less than 18."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "provisional_night_restriction",
@@ -185,8 +168,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 15,
         "quote": "You may drive without supervision from 5 a.m. until 9 p.m. and at any time when driving directly to or from work or any volunteer fire, rescue or emergency medical service, if you are a member."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "provisional_passenger_restriction",
@@ -198,8 +180,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 15,
         "quote": "When driving unsupervised, there may be one passenger that is under 21 that is not a member of the same household as the driver."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "full_license_min_age",
@@ -211,21 +192,19 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 15,
         "quote": "At age 18, eligible drivers may upgrade to a regular Class C license online."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "texting_ban",
       "value": "Texting/email while driving prohibited for all drivers",
-      "detail": "It is unlawful for any driver to use a cell phone to text or email while operating a vehicle on a public street, highway or public vehicular area. The statutory penalty is a $100 fine plus court costs, with no license points.",
+      "detail": "It is unlawful for any driver to use a cell phone to text or email while operating a vehicle on a public street, highway or public vehicular area. The statutory penalty is a $100 fine plus court costs, with no license points (G.S. 20-137.4A(c)).",
       "number": 100,
       "unit": "dollars (fine)",
       "source": {
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 43,
         "quote": "It is unlawful to use a cell phone for email or text messages while operating a vehicle on a public street or highway or public vehicular area;"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "novice_phone_ban",
@@ -237,8 +216,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 43,
         "quote": "Drivers less than 18 years of age are not permitted to use a cell phone or any additional technology associated with a cell phone while operating a motor vehicle on a public street or highway or public vehicular area while the vehicle is in motion."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "seat_belt_law",
@@ -250,8 +228,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 45,
         "quote": "The driver and all passengers in a motor vehicle manufactured with seat belts shall have a seat belt properly fastened about their body at all times when the vehicle is in forward motion on a street or highway in this state."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "child_restraint_law",
@@ -263,8 +240,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 46,
         "quote": "A child under age 8 and weighing less than 80 pounds must be properly secured in a weight appropriate child passenger restraint system."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "basic_speed_law",
@@ -276,8 +252,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 55,
         "quote": "Never drive faster than the posted speed limit or at a speed that is unreasonable or unwise given the existing conditions."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "speed_limit_residential",
@@ -289,8 +264,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 55,
         "quote": "Unless otherwise posted, the speed limit is 35 mph in cities and towns."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "speed_limit_rural_highway",
@@ -302,8 +276,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 55,
         "quote": "Outside cities and towns 55"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "speed_limit_interstate_max",
@@ -315,8 +288,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 55,
         "quote": "For interstates 70"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "minimum_speed_rule",
@@ -328,8 +300,7 @@
         "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-141.html",
         "page": null,
         "quote": "(1) Forty miles per hour in a speed zone of 55 miles per hour. (2) Forty-five miles per hour in a speed zone of 60 miles per hour or greater. These minimum speeds shall be effective only when appropriate signs are posted indicating the minimum speed."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "right_turn_on_red",
@@ -341,8 +312,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 82,
         "quote": "Unless there is a sign indicating “NO TURN ON RED,” a right turn can be made after coming to a complete stop."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "left_turn_on_red",
@@ -354,47 +324,43 @@
         "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-158.html",
         "page": null,
         "quote": "After coming to a complete stop and unless prohibited by an appropriate sign, that approaching vehicle may make a right turn."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "signal_distance",
       "value": "At least 100 feet; at least 200 feet if speed limit is 45 mph or more",
-      "detail": "Signal during at least the last 100 feet before turning or stopping, and at least the last 200 feet when the speed limit is 45 mph or higher.",
+      "detail": "Signal during at least the last 100 feet before turning or stopping; if the speed limit is 45 mph or more, signal during at least the last 200 feet before turning.",
       "number": 100,
       "unit": "feet",
       "source": {
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 71,
         "quote": "Signal at least the last 100 feet before turning or stopping. If the speed limit is 45 mph or more, signal at least the last 200 feet before turning."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "emergency_vehicles",
       "value": "Pull to the right edge and stop; don't follow/park within one block of fire trucks (400 ft outside city)",
-      "detail": "When an emergency vehicle with lights and siren approaches from either direction, drive to the right-hand curb or edge and stop until it passes (except opposite-direction traffic on a four-lane divided limited-access highway). Do not park within 100 feet of an emergency vehicle at a crash, and do not drive or park closer than one block to fire trucks answering an alarm (400 feet outside cities).",
+      "detail": "When an emergency vehicle with lights and siren approaches from either direction, drive to the right-hand curb or edge and stop until it passes (except opposite-direction traffic on a four-lane limited-access highway with a center median). Do not park within 100 feet of an emergency vehicle at a crash, and do not follow or park closer than one block to fire trucks answering an alarm (400 feet outside city limits, G.S. 20-157(c); handbook p. 58).",
       "number": 400,
       "unit": "feet (fire apparatus, outside city)",
       "source": {
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 50,
         "quote": "As the emergency vehicle approaches (from ahead or behind), drive to the right-hand curb or edge of the road and stop completely;"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "move_over_law",
       "value": "Change to a non-adjacent lane, or slow down if only one lane",
-      "detail": "For an emergency or public service vehicle parked within 12 feet of the road with lights on: with two or more lanes in your direction, move out of the lane nearest it; with one lane, slow to a reduced safe speed until past. Violation is a $250 infraction.",
+      "detail": "For an emergency or public service vehicle parked or standing within 12 feet of the road with warning lights on: with two or more lanes in your direction, move out of the lane nearest it; with one lane, slow to a reduced safe speed until past. Violation is a $250 infraction (G.S. 20-157(g)).",
       "number": 12,
       "unit": "feet",
       "source": {
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 51,
         "quote": "On a highway with only one lane of traffic in the same direction you are traveling, you must slow your speed and drive at a reduced, safe speed until completely past the emergency vehicle."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "school_bus_stopping",
@@ -406,8 +372,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 50,
         "quote": "Divided highway of four lanes or more with a median separation: When school bus stops for passengers, only traffic following the bus must stop."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "following_distance",
@@ -419,8 +384,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 56,
         "quote": "The “two-second rule” says that you should allow two seconds between the time the vehicle ahead of you passes a given point and the time your vehicle reaches the same point."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "headlights_required",
@@ -432,8 +396,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 73,
         "quote": "The law requires use of headlights from sunset to sunrise and when visibility is 400 feet or less."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "high_beam_dim_oncoming",
@@ -445,8 +408,7 @@
         "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-131.html",
         "page": null,
         "quote": "when meeting another vehicle, shall so control the lights of the vehicle operated by him by shifting, depressing, deflecting, tilting, or dimming the headlight beams in such manner as shall not project a glaring or dazzling light to persons within a distance of 500 feet in front of such headlamp."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "parking_fire_hydrant",
@@ -458,8 +420,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 58,
         "quote": "Within 15 feet of a fire hydrant or entrance to a fire station;"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "parking_crosswalk",
@@ -471,8 +432,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 58,
         "quote": "On a crosswalk, sidewalk or bridge;"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "parking_intersection",
@@ -484,8 +444,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 58,
         "quote": "Within 25 feet of the curb line of an intersecting street or within 15 feet of the intersecting right of way lines if there is no curb;"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "parking_fire_station",
@@ -497,8 +456,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 58,
         "quote": "Within 15 feet of a fire hydrant or entrance to a fire station;"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "railroad_stop_distance",
@@ -510,21 +468,19 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 62,
         "quote": "the driver of the vehicle shall stop within 50 feet, but not less than 15 feet from the nearest rail of the railroad and shall not proceed until he/she can do so safely."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "bicycle_passing",
       "value": "Pass only with abundant clearance and no oncoming traffic; safest to change lanes",
-      "detail": "Bicycles are vehicles. Pass a bicyclist only when there is abundant clearance and no oncoming traffic; changing lanes is the safest way, and passing laws (at least 2 feet to the left) apply.",
+      "detail": "Bicycles are vehicles. Pass a bicyclist only when there is abundant clearance and no oncoming traffic; changing lanes is the safest way, and the vehicle passing laws apply (G.S. 20-149: pass at least 2 feet to the left). In a marked no-passing zone, G.S. 20-150(e) allows passing a bicycle or moped only if you leave at least 4 feet or move completely into the left lane.",
       "number": 2,
       "unit": "feet",
       "source": {
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 92,
         "quote": "Drivers wishing to pass a bicyclist may do so only when there is abundant clearance and no oncoming traffic is in the opposing lane. The safest way to pass a bicyclist is to change lanes."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "pedestrian_rules",
@@ -536,8 +492,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 48,
         "quote": "At intersections without traffic signals, pedestrians have the right of way if they are in marked crosswalks or in unmarked crosswalks formed by imaginary lines extending from the sidewalks across the streets;"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "crash_reporting",
@@ -549,8 +504,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 80,
         "quote": "You are required by law to make an immediate report to the nearest law enforcement officer or agency of any crash when any person is killed or injured or the total damage to vehicles and other property appears to amount to $1,000 or more."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "insurance_minimums",
@@ -562,8 +516,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 101,
         "quote": "$30,000 for injuries to any one person in a crash • $60,000 for all personal injuries in a crash • $25,000 for all property damage in a crash"
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "point_system",
@@ -575,8 +528,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 36,
         "quote": "If you accumulate as many as 12 points within a three-year period, your license may be suspended."
-      },
-      "status": "unverified"
+      }
     },
     {
       "key": "motorcycle_helmet_law",
@@ -588,8 +540,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 47,
         "quote": "All operators and passengers on motorcycles and mopeds must wear a motorcycle safety helmet of a type that complies with Federal Motor Vehicle Safety Standard (FMVSS) 218."
-      },
-      "status": "unverified"
+      }
     }
   ],
   "notableLaws": [
@@ -600,8 +551,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 16,
         "quote": "It is unlawful for a provisional licensee to drive a motor vehicle after or while consuming any amount of alcohol or drugs — a conviction of such a violation will result in a one-year license revocation."
-      },
-      "status": "unverified"
+      }
     },
     {
       "title": "Lose Control/Lose Your License",
@@ -610,8 +560,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 17,
         "quote": "A loss of license will occur if a student receives a suspension for more than 10 consecutive days or receives an assignment to an alternative educational setting due to disciplinary action for more than 10 consecutive days. This suspension remains in effect for 12 months."
-      },
-      "status": "unverified"
+      }
     },
     {
       "title": "Children under 16 may not ride in an open pickup bed",
@@ -620,8 +569,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 47,
         "quote": "North Carolina law prohibits children less than age 16 from riding in the open bed of a pick-up truck."
-      },
-      "status": "unverified"
+      }
     },
     {
       "title": "Funeral processions",
@@ -630,8 +578,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 54,
         "quote": "The driver of a vehicle traveling in the same direction as the funeral procession shall not pass or attempt to pass the funeral procession, except that the operator of such a vehicle may pass a funeral procession when the highway has been marked for two or more lanes of moving traffic in the same direction of the funeral procession."
-      },
-      "status": "unverified"
+      }
     },
     {
       "title": "Horn signal when passing; passed driver must help",
@@ -640,8 +587,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 57,
         "quote": "The horn signal places the driver of the vehicle you are passing under a legal obligation to help you pass."
-      },
-      "status": "unverified"
+      }
     },
     {
       "title": "Dark traffic signal = all-way stop",
@@ -650,8 +596,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 83,
         "quote": "When approaching an intersection with a traffic light that has malfunctioned due to a power outage or some other problem, you should approach the intersection and proceed as though the intersection is controlled by a stop sign on all approaches to the intersection."
-      },
-      "status": "unverified"
+      }
     },
     {
       "title": "Wipers on, headlights on",
@@ -660,8 +605,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 75,
         "quote": "All North Carolina motorists are required to use headlights whenever they are using windshield wipers due to inclement weather."
-      },
-      "status": "unverified"
+      }
     },
     {
       "title": "Move vehicles off the travel lane after a non-injury crash",
@@ -670,8 +614,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 80,
         "quote": "If the crash occurred on a main lane, ramp, shoulder, median or adjacent area of the highway and there are no injuries or fatalities, each vehicle should be moved out of the travel lane onto the shoulder of the road provided it can be driven safely under its own power and without causing further damage to the vehicle, other traffic or the roadway."
-      },
-      "status": "unverified"
+      }
     },
     {
       "title": "Speeding more than 15 mph over at over 55 mph: 30-day revocation",
@@ -680,8 +623,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 38,
         "quote": "Driving any vehicle more than 15 miles per hour over the speed limit, if you are driving at a speed higher than 55 mph."
-      },
-      "status": "unverified"
+      }
     },
     {
       "title": "Provisional licensee suspensions for repeat moving violations",
@@ -690,8 +632,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 41,
         "quote": "30 days, upon conviction of a second moving violation occurring within a 12-month period;"
-      },
-      "status": "unverified"
+      }
     },
     {
       "title": "Continuous liability insurance; no grace period",
@@ -700,8 +641,7 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 101,
         "quote": "North Carolina law requires the owner of every registered vehicle to maintain continuous liability insurance as long as the vehicle has a valid license plate."
-      },
-      "status": "unverified"
+      }
     },
     {
       "title": "New residents: 60 days to get an NC license",
@@ -710,24 +650,11 @@
         "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/nc-driver-handbook.pdf",
         "page": 27,
         "quote": "A new resident has 60 days after establishing residence to obtain a North Carolina license or learner permit."
-      },
-      "status": "unverified"
+      }
     }
   ],
   "officialPracticeTests": [
     "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Pages/test.aspx"
   ],
-  "gaps": [
-    "handheld_phone_ban: neither the handbook nor G.S. 20-137.4A sets a general hand-held ban for adult drivers; the handbook bans texting/email for all drivers and any cell phone use for drivers under 18 and school bus drivers.",
-    "speed_limit_school_zone: handbook says only that school zone limits are often reduced during certain hours (posted); no statewide default number.",
-    "speed_limit_business_district: handbook and G.S. 20-141(b)(1) give 35 mph inside cities/towns (municipal limits) with no separate business-district limit.",
-    "high_beam_dim_following: handbook says to use low beams when following another vehicle but gives no distance; G.S. 20-131 sets only the 500-foot meeting rule.",
-    "parking_stop_sign_signal: no distance from stop signs or signals stated in the handbook or G.S. 20-162.",
-    "parking_railroad: no railroad-crossing parking distance stated in the handbook.",
-    "parking_curb_distance: no maximum distance from the curb stated in the handbook.",
-    "motorcycle_lane_splitting: not addressed in the driver handbook; G.S. 20-146.1 gives motorcycles full use of a lane and limits them to two abreast but does not expressly address lane splitting.",
-    "knowledgeTest.questions: number of questions not published on NCDMV pages checked.",
-    "minimum_speed_rule, left_turn_on_red, high_beam_dim_oncoming: sourced from G.S. 20-141, 20-158 and 20-131 (ncleg.gov), page null.",
-    "handbook vs website: handbook p. 24 says digital proof of insurance is not accepted, while the NCDMV New Adult Drivers page (2026) allows uploading a digital copy during the visit; questions avoid this point."
-  ]
+  "verifiedOn": "2026-10-14"
 }

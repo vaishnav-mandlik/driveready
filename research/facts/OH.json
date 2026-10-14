@@ -19,15 +19,15 @@
     "timeLimitMinutes": null,
     "format": "40 multiple-choice questions; taken online through BMV Online Services (webcam required) or in person at a Driver Exam Station or select Deputy Registrar agencies. Paper, audio and ASL versions available on request at Driver Exam Stations.",
     "languages": "Text and audio: Arabic, Chinese, English, French, Haitian Creole, Japanese, Russian, Somali, Spanish; text and video: American Sign Language. Other languages: proctored test with your own interpreter at a Driver Exam Station.",
-    "retestWait": "At least 24 hours. Unlimited in-person attempts (one per day); online testing limited to two attempts in a six-month period.",
-    "notes": "Minimum age 15 years 6 months. After passing, buy the TIPIC (permit) at a Deputy Registrar within 60 days or start over. Under 18: a parent/guardian must co-sign; online testers under 19 need a supervising adult who passes identity verification. Under 21 (and temporary residents 21+): driver education (24 h class + 8 h driving) and 50 logged hours (10 at night) before the road test; under 18 must hold the TIPIC 6 months. The same 40-question/75% test applies to ages 18-20 and adults.",
+    "retestWait": "At least 24 hours (BMV website; the Driver Manual says to wait one day). Unlimited in-person attempts, one per day; online testing is limited to two attempts in a six-month period, 24 hours apart.",
+    "notes": "Minimum age 15 years 6 months. After passing, buy the TIPIC (permit) at a Deputy Registrar within 60 days or start over. Under 18: a parent/guardian must co-sign the TIPIC application; online testers under 19 need a supervising adult who passes identity verification and serves as proctor. Under 21 (and temporary residents 21+): driver education (24 h class + 8 h driving) and 50 logged hours (10 at night) before the road test; under 18 must hold the TIPIC 6 months. The same 40-question/75% test applies to ages 18-20 and adults.",
     "sourceUrl": "https://www.bmv.ohio.gov/dl-gdl.aspx"
   },
   "motorcycleTest": {
     "questions": null,
     "passingScore": null,
     "passingPercent": null,
-    "notes": "BMV page does not publish the question count or passing score. Motorcycle/scooter TIPIC at 15 years 6 months after a knowledge test (study the Ohio Motorcycle Operator Manual and Section 4 of the Digest); available in Arabic, Chinese, English, French, Japanese, Russian, Somali, Haitian Creole, Spanish and ASL. Retest after 24 hours. TIPIC valid 1 year: daylight only, no passengers, no interstates or congested roads, helmet and eye protection required. Failed skills test: wait one week. Motorcycle Ohio Basic Course card waives the skills test for 60 days. Under 18: hold TIPIC 6 months, meet probationary license requirements and complete a motorcycle safety course. Novice status lasts one year.",
+    "notes": "BMV page does not publish the question count or passing score. Motorcycle/scooter TIPIC at 15 years 6 months after a knowledge test (study the Ohio Motorcycle Operator Manual and Section 4 of the Digest); available in text and audio in Arabic, Chinese, English, French, Japanese, Russian, Somali, Haitian Creole and Spanish, and in text and video in American Sign Language. Failed knowledge test: wait at least 24 hours (no limit on retakes). TIPIC valid 1 year: daylight only, no passengers, no interstates or congested roads, helmet and eye protection required. Failed skills test: wait one week. Motorcycle Ohio Basic Course card waives the skills test for 60 days. Under 18: hold TIPIC 6 months, meet probationary license requirements and complete a motorcycle safety course. Novice status lasts one year and the license shows when it expires.",
     "sourceUrl": "https://www.bmv.ohio.gov/dl-mo-motorcycle.aspx"
   },
   "cdlTest": null,
@@ -43,7 +43,7 @@
         "page": 6,
         "quote": "In Ohio, the legal drinking age is 21 years or older and it is against the law to operate a motor vehicle with a blood-alcohol concentration (BAC) of: .08% or higher at any age"
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "bac_limit_under21",
@@ -56,7 +56,7 @@
         "page": 6,
         "quote": ".02% or higher when under the age 21"
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "bac_limit_commercial",
@@ -69,7 +69,7 @@
         "page": 6,
         "quote": ".04% or higher for commercial drivers"
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "implied_consent",
@@ -82,7 +82,7 @@
         "page": 6,
         "quote": "First Refusal – One year license suspension"
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "dui_first_offense",
@@ -95,7 +95,7 @@
         "page": null,
         "quote": "(iii) In all cases, a fine of not less than five hundred sixty-five and not more than one thousand seventy-five dollars; (iv) In all cases, a suspension of the offender's driver's or commercial driver's license or permit or nonresident operating privilege for a definite period of one to three years."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "open_container",
@@ -108,7 +108,7 @@
         "page": null,
         "quote": "(4) Except as provided in division (D) or (E) of this section, while operating or being a passenger in or on a motor vehicle on any street, highway, or other public or private property open to the public for purposes of vehicular travel or parking;"
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "permit_min_age",
@@ -121,7 +121,7 @@
         "page": 1,
         "quote": "At age 15 years and six months, you meet the minimum age requirement to complete the vision screening and knowledge test."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "permit_holding_period",
@@ -134,7 +134,7 @@
         "page": 1,
         "quote": "Hold the TIPIC for at least six months. (Applicable to drivers under age 18 ONLY.)"
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "supervised_driving_hours",
@@ -147,12 +147,12 @@
         "page": 1,
         "quote": "Complete and log 50 hours of driving with an eligible licensed driver (see TIPIC Restrictions above), with at least 10 hours of night driving."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "permit_supervisor",
       "value": "Under 16: parent, guardian, custodian, licensed driving instructor, or a 21+ person acting in loco parentis; 16–17: any licensed driver 21+ (parent/guardian/custodian from midnight to 6 a.m.)",
-      "detail": "The supervising adult sits in the front passenger seat and must not be intoxicated. Permit holders 18 and older may drive only with a licensed driver 21 or older.",
+      "detail": "The supervising adult sits in the front passenger seat and must not be intoxicated. Permit holders 18 and older may drive only with a licensed driver 21 or older. From midnight to 6 a.m. the BMV website also accepts a licensed driver 21+ named on a notarized form BMV 2438.",
       "number": 21,
       "unit": "years (supervisor minimum age)",
       "source": {
@@ -160,7 +160,7 @@
         "page": 1,
         "quote": "Under age 16: If under age 16, the driver must have a parent, guardian, custodian, licensed driving instructor, or a person age 21 or older, who acts in loco parentis, occupying the front passenger seat beside the permit holder. Age 16 to 17: Driving with any valid licensed driver, age 21 or older, in the front passenger seat is permitted, except from midnight to 6 a.m. when the driver must be accompanied by a parent, guardian, or custodian who holds a valid Driver License."
       },
-      "status": "unverified"
+      "status": "corrected"
     },
     {
       "key": "provisional_license_min_age",
@@ -173,12 +173,12 @@
         "page": null,
         "quote": "(A) The registrar of motor vehicles or any deputy registrar shall not issue a driver's license to any person under eighteen years of age, except that the registrar or a deputy registrar may issue a probationary license to a person who is at least sixteen years of age and has held a temporary instruction permit for a period of at least six months."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "provisional_night_restriction",
       "value": "No driving midnight–6 a.m. during the first 12 months of the license",
-      "detail": "After the first 12 months and until 18, the restricted hours are 1 a.m.–5 a.m. Exceptions: accompanied by a parent or guardian, or driving to/from work or an official school or religious event with documentation.",
+      "detail": "After the first 12 months and until 18, the restricted hours are 1 a.m.-5 a.m. Exceptions: accompanied by a parent or guardian (the BMV website also allows a licensed driver 21+ named on a notarized BMV 2438), or driving to/from work or an official school or religious event with documentation (forms BMV 2825/2826).",
       "number": null,
       "unit": null,
       "source": {
@@ -186,7 +186,7 @@
         "page": 12,
         "quote": "During the first 12 months of holding a Driver License: The driver may not operate a vehicle from midnight to 6 a.m., unless:"
       },
-      "status": "unverified"
+      "status": "corrected"
     },
     {
       "key": "provisional_passenger_restriction",
@@ -199,7 +199,7 @@
         "page": 12,
         "quote": "The driver may not operate a vehicle with more than one non-family member as a passenger, unless accompanied by a parent or guardian."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "full_license_min_age",
@@ -212,7 +212,7 @@
         "page": null,
         "quote": "(A) The registrar of motor vehicles or any deputy registrar shall not issue a driver's license to any person under eighteen years of age, except that the registrar or a deputy registrar may issue a probationary license to a person who is at least sixteen years of age and has held a temporary instruction permit for a period of at least six months."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "handheld_phone_ban",
@@ -225,7 +225,7 @@
         "page": 3,
         "quote": "It is illegal in most cases to use, hold, or physically support a cell phone or electronic wireless communications device while driving on Ohio roads. If an officer sees a violation, they can pull you over."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "texting_ban",
@@ -238,7 +238,7 @@
         "page": 3,
         "quote": "The law allows drivers over 18 years old to make and receive phone calls using “hands-free” technology, and use other device features, as long as they do not hold or support the device or manually enter letters, numbers, or symbols. Drivers may only activate or deactivate their devices with a single touch or swipe."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "novice_phone_ban",
@@ -251,7 +251,7 @@
         "page": 3,
         "quote": "It is illegal to use any electronic device while driving, even hands-free, or while sitting at a traffic light or in a traffic jam."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "seat_belt_law",
@@ -264,12 +264,12 @@
         "page": 2,
         "quote": "Drivers and front seat occupants must wear safety belts. For drivers under age 18, the number of vehicle occupants is limited to the number of safety belts originally installed and all occupants must wear safety belts."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "child_restraint_law",
       "value": "Child safety seat under age 4 or under 40 lb; booster seat ages 4–7 unless 4'9\" or taller; safety belt ages 8–15",
-      "detail": "Children 12 and younger should ride in the back seat, and a rear-facing seat must never be placed in front of an active air bag.",
+      "detail": "Children 12 and younger should ride in the back seat, and a rear-facing seat must never be placed in front of an active air bag. ORC 4511.81 applies the child-seat rule to a child less than 4 years old or weighing less than 40 pounds.",
       "number": 4,
       "unit": "years",
       "source": {
@@ -277,7 +277,7 @@
         "page": 6,
         "quote": "Infants and children who are either or both under age 4 and weighing less than 40 pounds must be properly restrained in a child safety seat while being transported in a motor vehicle. The child seat must be labeled as meeting federal safety standards and be designed to meet the needs of your particular motor vehicle. Age 4 and Weight 40 pounds, But under Age 8 When any child who is at least age 4, but less than age 8, is being transported in a motor vehicle, the vehicle operator shall have the child properly restrained in a booster seat unless the child is 4-foot 9-inches in height, or taller."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "basic_speed_law",
@@ -290,7 +290,7 @@
         "page": 4,
         "quote": "Regardless of the posted speed limit, Ohio law prohibits a person from driving at a speed greater than what allows the driver to stop in the distance available."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "speed_limit_school_zone",
@@ -303,7 +303,7 @@
         "page": null,
         "quote": "(1)(a) Twenty miles per hour in school zones during school recess and while children are going to or leaving school during the opening or closing hours, and when twenty miles per hour school speed limit signs are erected;"
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "speed_limit_residential",
@@ -316,7 +316,7 @@
         "page": null,
         "quote": "(2) Twenty-five miles per hour in all other portions of a municipal corporation, except on state routes outside business districts, through highways outside business districts, and alleys;"
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "speed_limit_business_district",
@@ -329,7 +329,7 @@
         "page": null,
         "quote": "(2) Twenty-five miles per hour in all other portions of a municipal corporation, except on state routes outside business districts, through highways outside business districts, and alleys;"
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "speed_limit_rural_highway",
@@ -342,7 +342,7 @@
         "page": null,
         "quote": "(5) Fifty-five miles per hour on highways outside municipal corporations, other than highways within island jurisdictions as provided in division (B)(8) of this section, highways as provided in divisions (B)(9) and (10) of this section, and highways, expressways, and freeways as provided in divisions (B)(12), (13), (14), and (16) of this section;"
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "speed_limit_interstate_max",
@@ -355,7 +355,7 @@
         "page": null,
         "quote": "(14) Seventy miles per hour on all rural freeways;"
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "minimum_speed_rule",
@@ -368,7 +368,7 @@
         "page": null,
         "quote": "(A) No person shall stop or operate a vehicle, trackless trolley, or street car at such an unreasonably slow speed as to impede or block the normal and reasonable movement of traffic, except when stopping or reduced speed is necessary for safe operation or to comply with law."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "right_turn_on_red",
@@ -381,7 +381,7 @@
         "page": 5,
         "quote": "You may turn right at a red traffic signal, unless a sign specifically prohibits it. When making a right turn on red, you must come to a complete stop and allow all crossing traffic and all pedestrians to clear the intersection before you proceed."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "left_turn_on_red",
@@ -394,7 +394,7 @@
         "page": 5,
         "quote": "You may turn left at a red traffic signal, only from the extreme left lane of a one-way street onto another one-way street, unless the intersection has a sign posted forbidding a left turn on red."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "signal_distance",
@@ -407,7 +407,7 @@
         "page": 5,
         "quote": "A turn signal must be given at least 100 feet before the intended turn."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "emergency_vehicles",
@@ -420,12 +420,12 @@
         "page": 9,
         "quote": "When emergency vehicles displaying flashing lights and audible sirens and/or signals are approaching through traffic, the driver must quickly — and safely — pull to the right side of the road and stop. Avoid blocking intersections. All vehicles must remain in this position until the emergency vehicle has passed or otherwise directed by a law enforcement officer."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "move_over_law",
       "value": "Move to a non-adjacent lane if safe; otherwise slow down and proceed with caution",
-      "detail": "Applies to stopped police, fire and other emergency vehicles, road service vehicles (tow trucks, snowplows), waste collection, highway maintenance and PUCO vehicles with warning lights on. Fines are doubled.",
+      "detail": "Applies to stopped police, fire and other emergency vehicles, road service vehicles (tow trucks, snowplows), waste collection, highway maintenance and public utilities commission vehicles with warning lights on. ORC 4511.213(D)(2) requires a fine of two times the usual amount for a violation.",
       "number": null,
       "unit": null,
       "source": {
@@ -433,7 +433,7 @@
         "page": 9,
         "quote": "When approaching an authorized vehicle stopped on the roadside, proceed with caution. Slow down and yield the right-of-way by making a lane change into a lane not next to that of the vehicle if safety and traffic conditions permit. If a lane change is unsafe, slow down and proceed with caution while maintaining a safe speed for traffic conditions."
       },
-      "status": "unverified"
+      "status": "corrected"
     },
     {
       "key": "school_bus_stopping",
@@ -446,12 +446,12 @@
         "page": 5,
         "quote": "If the bus is stopped on a street or road with fewer than four lanes, all traffic approaching the bus from either direction must stop at least 10 feet from the front or rear of the bus and remain stopped until the bus begins to move or the bus driver signals motorists to proceed. If the bus is stopped on a street or road with four or more lanes, only traffic proceeding in the same direction as the bus must stop at the rear of the bus and remain stopped until the bus begins to move."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "following_distance",
       "value": "At least 4 seconds (or one vehicle length per 10 mph)",
-      "detail": "Increase the distance in bad weather, at night, on slippery roads, and behind large vehicles or vehicles that must stop at railroad crossings. Behind motorcycles: at least 3 seconds in ideal conditions, 4+ otherwise.",
+      "detail": "Increase the distance in bad weather, at night, on slippery roads, and behind large vehicles or vehicles that must stop at railroad crossings. Behind motorcycles: at least 3 seconds at low speed in ideal conditions, 4+ otherwise. (Section 5 separately says to allow a 3-4 second following distance.)",
       "number": 4,
       "unit": "seconds",
       "source": {
@@ -459,7 +459,7 @@
         "page": 8,
         "quote": "Always try to keep a minimum following distance of one vehicle length for every 10 miles per hour of travel, or four seconds between your vehicle and the vehicle ahead."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "headlights_required",
@@ -472,7 +472,7 @@
         "page": 7,
         "quote": "Lights must be on: Between sunset and sunrise. During any period of rain, snow, fog, or other unfavorable atmospheric conditions — regardless of the time of day. At any other time when natural light conditions do not make it possible to clearly see objects 1,000 feet ahead. Any time windshield wipers are in use because of precipitation."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "high_beam_dim_oncoming",
@@ -485,7 +485,7 @@
         "page": 7,
         "quote": "Use high beam headlights whenever there are no oncoming vehicles. Ohio law requires you to dim your high beam headlights for approaching traffic."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "parking_fire_hydrant",
@@ -498,7 +498,7 @@
         "page": 5,
         "quote": "Within 10 feet of a fire hydrant;"
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "parking_crosswalk",
@@ -511,7 +511,7 @@
         "page": 5,
         "quote": "In or within 20 feet of an intersection or crosswalk;"
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "parking_intersection",
@@ -524,7 +524,7 @@
         "page": 5,
         "quote": "In or within 20 feet of an intersection or crosswalk;"
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "parking_stop_sign_signal",
@@ -537,7 +537,7 @@
         "page": null,
         "quote": "(7) Within thirty feet of, and upon the approach to, any yield sign, stop sign, or highway traffic signal;"
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "parking_railroad",
@@ -550,7 +550,7 @@
         "page": null,
         "quote": "(9) Within fifty feet of the nearest rail of a railroad crossing;"
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "parking_fire_station",
@@ -563,7 +563,7 @@
         "page": null,
         "quote": "(10) Within twenty feet of a driveway entrance to any fire station and, on the side of the street opposite the entrance to any fire station, within seventy-five feet of the entrance when it is properly posted with signs;"
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "parking_curb_distance",
@@ -576,7 +576,7 @@
         "page": 5,
         "quote": "Vehicles must be parked facing the direction of traffic on that side of the street, parallel to and not more than 12 inches from the right curb."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "railroad_stop_distance",
@@ -589,7 +589,7 @@
         "page": 5,
         "quote": "Stop no closer than 15 feet and no farther than 50 feet from the crossing when a train is approaching."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "bicycle_passing",
@@ -602,7 +602,7 @@
         "page": 9,
         "quote": "Maintain a safety zone of at least three feet between a motor vehicle and a bicycle."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "pedestrian_rules",
@@ -615,11 +615,11 @@
         "page": 4,
         "quote": "You must yield the right-of-way to pedestrians entering or in a crosswalk. If there is a stop line before the crosswalk, the stop line must be obeyed."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "crash_reporting",
-      "value": "BMV 3303 crash report within 6 months if damage over $400 or injury AND the other party was uninsured",
+      "value": "A driver may file a BMV 3303 crash report within 6 months if damage exceeded $400 or someone was injured AND the other driver/owner was uninsured",
       "detail": "At the scene: stop, warn traffic, exchange information, call 911 for injuries, and notify the Highway Patrol, sheriff or police. For an unattended vehicle, report to police or leave your information.",
       "number": 400,
       "unit": "dollars",
@@ -628,7 +628,7 @@
         "page": 10,
         "quote": "The driver of a vehicle involved in a motor vehicle crash in Ohio may file a Crash Report (form BMV 3303 (PDF)) with the Ohio Bureau of Motor Vehicles within six months after the crash if both of the following apply: There was damage in excess of $400, or personal injury; and The driver or owner of the other vehicle did not have insurance or other financial responsibility coverage at the time of the crash."
       },
-      "status": "unverified"
+      "status": "corrected"
     },
     {
       "key": "insurance_minimums",
@@ -641,7 +641,7 @@
         "page": 6,
         "quote": "$25,000 for injury/death of one person, and $50,000 for injury/death of two or more people, and $25,000 for property damage in an accident;"
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "point_system",
@@ -654,7 +654,7 @@
         "page": 6,
         "quote": "If a driver accumulates 12 or more points within a two-year period, the BMV will impose a 12-point suspension of the Driver License."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "key": "motorcycle_helmet_law",
@@ -667,7 +667,7 @@
         "page": null,
         "quote": "Except as provided in division (C)(2) of this section, no person who is under the age of eighteen years, or who holds a motorcycle operator's endorsement or license bearing a \"novice\" designation that is currently in effect as provided in section 4507.13 of the Revised Code, shall operate a motorcycle on a highway, or be a passenger on a motorcycle, unless wearing a United States department of transportation-approved protective helmet on the person's head, and no other person shall be a passenger on a motorcycle operated by such a person unless similarly wearing a protective helmet."
       },
-      "status": "unverified"
+      "status": "verified"
     }
   ],
   "notableLaws": [
@@ -679,7 +679,7 @@
         "page": 3,
         "quote": "1st offense in two years: 2 points assessed to Driver License, up to a $150 fine. Completion of a distracted driving course can help avoid the fine and points."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "title": "Under-18 electronic device violations",
@@ -689,7 +689,7 @@
         "page": 3,
         "quote": "First violation: 60-days Driver License suspension and a $150 fine. Second violation: 1-year Driver License suspension and a $300 fine."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "title": "ALS suspension stands even if acquitted",
@@ -699,7 +699,7 @@
         "page": 6,
         "quote": "The suspension will stand even if the individual is ultimately acquitted of the OVI (operating a vehicle while impaired) charge."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "title": "First test over the limit: 90-day ALS",
@@ -709,7 +709,7 @@
         "page": 6,
         "quote": "First Test Over the Limit – Three months (90 days) license suspension"
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "title": "Probationary drivers: moving-violation suspensions",
@@ -719,7 +719,7 @@
         "page": 6,
         "quote": "A conviction of, or guilty plea to two moving violations, results in an automatic three-month license suspension;"
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "title": "Studded tire season",
@@ -729,7 +729,7 @@
         "page": 2,
         "quote": "Studded Tires: In Ohio, studded tires are legal from November 1 through April 15."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "title": "Stay 500 feet behind responding emergency vehicles",
@@ -739,7 +739,7 @@
         "page": null,
         "quote": "(A) The driver of any vehicle, other than an emergency vehicle or public safety vehicle on official business, shall not follow any emergency vehicle or public safety vehicle traveling in response to an alarm closer than five hundred feet, or drive into or park such vehicle within the block where fire apparatus has stopped in answer to a fire alarm, unless directed to do so by a police officer or a firefighter."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "title": "Passing slow-moving vehicles across a solid yellow line",
@@ -749,7 +749,7 @@
         "page": 9,
         "quote": "You are permitted to cross a solid yellow line to pass a slow-moving vehicle as long as the vehicle is traveling less than half the posted speed limit, you do not exceed the speed limit while passing, and there is sufficient clear space in the oncoming lane in which to pass."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "title": "Adults 21+ who fail the driving test",
@@ -759,7 +759,7 @@
         "page": 11,
         "quote": "An applicant age 21 or older who fails the maneuverability or road skills portion of the driving test, is required to take an Abbreviated Adult Driver Training Course before attempting the driving test for a second time."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "title": "Seat belt law is secondary enforcement",
@@ -769,7 +769,7 @@
         "page": null,
         "quote": "(D) Notwithstanding any provision of law to the contrary, no law enforcement officer shall cause an operator of an automobile being operated on any street or highway to stop the automobile for the sole purpose of determining whether a violation of division (B) of this section has been or is being committed"
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "title": "New residents: Ohio license within 30 days",
@@ -779,7 +779,7 @@
         "page": 13,
         "quote": "Within 30 days of establishing residency, Ohio drivers must have an Ohio-issued Driver License."
       },
-      "status": "unverified"
+      "status": "verified"
     },
     {
       "title": "Driving under suspension",
@@ -789,17 +789,20 @@
         "page": 6,
         "quote": "Operating a motor vehicle while your license is under suspension is a first-degree misdemeanor, and if convicted, you are subject to a fine of up to $1,000."
       },
-      "status": "unverified"
+      "status": "verified"
     }
   ],
   "officialPracticeTests": [
     "https://www.bmv.ohio.gov/dl-sample-test.aspx"
   ],
   "gaps": [
-    "high_beam_dim_following: Neither the Ohio Driver Manual nor ORC 4513.15 states a distance for dimming when following another vehicle (4513.15 only requires aiming so glare is not projected into an oncoming driver's eyes).",
+    "high_beam_dim_following: Neither the Ohio Driver Manual nor ORC 4513.15 states a distance for dimming when following another vehicle (4513.15(A)(1) only requires aiming so glaring rays are not projected into an oncoming driver's eyes).",
     "high_beam_dim_oncoming: The manual requires dimming for approaching traffic but gives no distance; ORC 4513.15 likewise has no distance (fact recorded without a number).",
-    "motorcycle_lane_splitting: No Ohio statute or official manual text found that expressly permits or prohibits lane splitting; ORC 4511.55(B) limits motorcycles to two abreast in a single lane. House Bill 776 (136th GA, pending as of Oct 2026) would prohibit lane splitting and allow limited lane filtering.",
+    "motorcycle_lane_splitting: No Ohio statute or official manual text found that expressly permits or prohibits lane splitting; ORC 4511.55(B) only limits motorcycles to riding not more than two abreast in a single lane.",
+    "motorcycleTest.questions/passingScore: the BMV motorcycle page does not publish the question count or passing score.",
+    "knowledgeTest.timeLimitMinutes: no official source states a time limit.",
     "speed limits: the Digest's speed-limit table shows the numbers only as sign images (15/20/25/35 ... mph), so speed facts cite ORC 4511.21 directly.",
+    "parking_intersection: the Digest says 'In or within 20 feet of an intersection or crosswalk'; ORC 4511.68(A) words it as 'Within an intersection' and 'Within twenty feet of a crosswalk at an intersection'. The handbook figure is recorded.",
     "page numbers: the Ohio Driver Manual is an online manual with 13 sections; 'page' = section number (matches the === PAGE n === markers in research/handbooks/OH.txt). Statute-sourced facts use page null."
   ]
 }
