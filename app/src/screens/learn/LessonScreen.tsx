@@ -1,7 +1,7 @@
 import React, {useCallback, useEffect, useLayoutEffect} from 'react';
-import {NativeScrollEvent, NativeSyntheticEvent, ScrollView, StyleSheet, View} from 'react-native';
+import {NativeScrollEvent, NativeSyntheticEvent, ScrollView, StyleSheet, useWindowDimensions, View} from 'react-native';
 import {Button, Card, EmptyState, Icon, IconButton, Screen, SignImage, Text} from '../../components';
-import {getSign} from '../../data/signs';
+import {getSign, isScenario} from '../../data/signs';
 import {getLesson} from '../../data/lessons';
 import type {LessonBlock, TopicId} from '../../data/types';
 import {speech} from '../../native';
@@ -133,6 +133,7 @@ export function LessonScreen({navigation, route}: RootScreenProps<'Lesson'>) {
 
 function Block({block}: {block: LessonBlock}) {
   const {colors, spacing, radius} = useTheme();
+  const {width} = useWindowDimensions();
   switch (block.type) {
     case 'p':
       return <Text variant="body">{block.text}</Text>;
@@ -178,10 +179,12 @@ function Block({block}: {block: LessonBlock}) {
         </View>
       );
     }
-    case 'sign':
+    case 'sign': {
+      // Scenario illustrations are wide pictures: use the full content width.
+      const scene = isScenario(block.code);
       return (
-        <View style={[styles.signBox, {backgroundColor: colors.surfaceAlt, borderRadius: radius.lg, padding: spacing.lg}]}>
-          <SignImage code={block.code} size={120} />
+        <View style={[styles.signBox, {backgroundColor: colors.surfaceAlt, borderRadius: radius.lg, padding: scene ? spacing.sm : spacing.lg}]}>
+          <SignImage code={block.code} size={scene ? Math.min(width - 2 * spacing.lg - 2 * spacing.sm, 420) : 120} />
           {block.caption ?? getSign(block.code)?.name ? (
             <Text variant="caption" color="textMuted" align="center" style={{marginTop: spacing.sm}}>
               {block.caption ?? getSign(block.code)?.name}
@@ -189,6 +192,7 @@ function Block({block}: {block: LessonBlock}) {
           ) : null}
         </View>
       );
+    }
     case 'signs':
       return (
         <View style={[styles.signRow, {gap: spacing.md}]}>

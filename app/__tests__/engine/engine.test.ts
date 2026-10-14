@@ -1,5 +1,7 @@
 import {clearBankCache, getBank, searchBank} from '../../src/data/bank';
 import {getExamConfig, getExamConfigs} from '../../src/data/exams';
+import {allSigns, getSign, isScenario, searchSigns, signsByCategory} from '../../src/data/signs';
+import {signLabelFor} from '../../src/components/quiz/helpers';
 import {ACHIEVEMENTS, newlyEarned} from '../../src/engine/achievements';
 import {currentStreak, dayKey, daysUntil, formatClock, lastNDays, longestStreak} from '../../src/engine/dates';
 import {buildSession, examDecided, poolSize, QuizSpec, scoreSession, SPEED_ROUND_SECONDS, SURVIVAL_LIVES} from '../../src/engine/quiz';
@@ -357,5 +359,25 @@ describe('test-ready checklist', () => {
     expect(ready.map((i: any) => [i.id, i.done])).toEqual([
       ['coverage', true], ['chance', true], ['exams', true], ['mistakes', true], ['facts', true], ['signs', true],
     ]);
+  });
+});
+
+describe('signs and scenario pictures', () => {
+  const q = (sign: string, prompt: string) => ({id: 't', track: 'car' as const, topic: 'road-signs' as const, prompt, choices: ['a', 'b'], answer: 0, explanation: '', sign});
+
+  test('scenario illustrations are kept out of the sign library', () => {
+    expect(isScenario('SCN-4WAY-SAME-TIME')).toBe(true);
+    expect(isScenario('R1-1')).toBe(false);
+    expect(isScenario(undefined)).toBe(false);
+    expect(allSigns().some(s => s.category === 'scenario')).toBe(false);
+    expect(signsByCategory().some(g => g.signs.some(s => s.category === 'scenario'))).toBe(false);
+    expect(searchSigns('stop').some(s => s.category === 'scenario')).toBe(false);
+  });
+
+  test('screen readers get the scene description, but never a sign name that gives the answer away', () => {
+    const scene = getSign('SCN-4WAY-SAME-TIME')!;
+    expect(signLabelFor(q('SCN-4WAY-SAME-TIME', 'Which car must yield?'), false)).toBe(`Picture: ${scene.meaning}`);
+    expect(signLabelFor(q('R1-1', 'What does this sign mean?'), false)).toBe('');
+    expect(signLabelFor(q('R1-1', 'What does this sign mean?'), true)).toBeUndefined();
   });
 });

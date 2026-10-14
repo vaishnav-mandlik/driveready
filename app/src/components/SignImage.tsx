@@ -27,7 +27,7 @@ export const SignImage = memo(function SignImage({code, size = 140, style, acces
   }
   const w = sign.aspect >= 1 ? size : size * sign.aspect;
   const h = sign.aspect >= 1 ? size / sign.aspect : size;
-  const label = accessibilityLabel ?? `${sign.name} sign`;
+  const label = accessibilityLabel ?? (sign.category === 'scenario' ? `Picture: ${sign.meaning}` : `${sign.name} sign`);
   return (
     <View
       style={[{width: w, height: h}, style]}

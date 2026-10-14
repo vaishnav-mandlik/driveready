@@ -96,7 +96,12 @@ export function signLabelFor(question: Question, revealed: boolean): string | un
   if (!question.sign || revealed) {
     return undefined;
   }
-  const name = getSign(question.sign)?.name.toLowerCase();
+  const sign = getSign(question.sign);
+  if (sign?.category === 'scenario') {
+    // A scene's description is what the picture shows; screen-reader users need it to answer.
+    return `Picture: ${sign.meaning}`;
+  }
+  const name = sign?.name.toLowerCase();
   const leaksName = !!name && question.choices.some(c => c.toLowerCase().includes(name));
   return ASKS_MEANING.test(question.prompt) || leaksName ? '' : undefined;
 }
