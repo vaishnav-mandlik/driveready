@@ -1,0 +1,853 @@
+{
+  "code": "NM",
+  "name": "New Mexico",
+  "agency": {
+    "name": "New Mexico Taxation and Revenue Department, Motor Vehicle Division",
+    "abbreviation": "MVD",
+    "website": "https://www.mvd.newmexico.gov/"
+  },
+  "handbook": {
+    "title": "New Mexico Driver Manual",
+    "edition": "ver. 11.19.19 (2019 text; still the English Driver's Manual linked from the MVD study-materials page https://www.mvd.newmexico.gov/resources/mvd-procedures-manuals/ as of October 2026)",
+    "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf"
+  },
+  "knowledgeTest": {
+    "questions": null,
+    "passingScore": null,
+    "passingPercent": 70,
+    "roadSigns": null,
+    "timeLimitMinutes": null,
+    "format": "Written knowledge (permit) exam taken at an MVD field office; the exam may also be given by an MVD-contracted driver education school. State offices typically do not allow the written test to be taken after 3 p.m. (MVD, Apply for a New Driving Credential).",
+    "languages": "English, Spanish, Tagalog, Italian, German, French, Vietnamese and Chinese (MVD Driver Procedures Manual, Ch. 11, Sec. E).",
+    "retestWait": "Non-commercial knowledge exams may be taken twice per week (even twice on the same day); after a third failure the applicant may not test again for 6 months from the date of the first examination (MVD policy, Knowledge (Written) Examination Changes, rev. May 26, 2016). One application fee covers up to three attempts within six months (NMSA 66-5-9(A)). Passing scores remain valid for five years.",
+    "notes": "Class D and Class M written tests require a score of 70% or better. Teens: instruction permit at 15 (proof of enrollment in a Traffic Safety Bureau-approved driver education course with a DWI component, vision and knowledge tests, parent/guardian consent); provisional license at 15 1/2 after 6 months on the permit; unrestricted license after 12 months on the provisional license. First-time licensees aged 18-24 must complete the 'None for the Road' DWI awareness course; first-time applicants 25 or older with a DWI conviction need an approved DWI program. A current out-of-state license generally waives the written test.",
+    "sourceUrl": "https://www.mvd.newmexico.gov/chapter-11-road-and-written-test-requirements/"
+  },
+  "motorcycleTest": {
+    "questions": null,
+    "passingScore": null,
+    "passingPercent": 70,
+    "notes": "Class M written tests, like Class D, require 70% or better. Riders under 18 must complete an approved motorcycle driver education program (MSF Basic RiderCourse) before licensing; a license restricted to motorcycles of 100 cc or less is available from age 13 (no passengers on an initial license). Motorcycle instruction-permit holders may not carry passengers, and the supervising licensed driver must follow the learner. The number of questions is not published.",
+    "sourceUrl": "https://www.mvd.newmexico.gov/chapter-11-road-and-written-test-requirements/"
+  },
+  "cdlTest": {
+    "questions": null,
+    "passingScore": null,
+    "passingPercent": 80,
+    "notes": "CDL knowledge tests (general knowledge, air brakes, combination vehicles, passenger transport, tank vehicles, doubles/triples, hazardous materials) each have forms A and B and require 80% or higher; after a failure the alternate form is given, and the rule allows a retest after at least one week (18.19.5.111 NMAC). The MVD CDL page says CDL written tests can be taken up to twice a week.",
+    "sourceUrl": "https://www.srca.nm.gov/parts/title18/18.019.0005.html"
+  },
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC (age 21 and older)",
+      "detail": "Drivers 21 and older can be arrested for DWI at a blood or breath alcohol concentration of 0.08% or more, and can still be charged below that if impaired. A BAC of 0.16% or more is aggravated DWI (NMSA 66-8-102).",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 32,
+        "quote": "You can be arrested for driving with a blood alcohol content (BAC) of .08% or more."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% BAC (under 21)",
+      "detail": "Drivers under 21 can be arrested at a BAC of 0.02%. A chemical test result of 0.02% or more, or a refusal, brings a one-year license revocation for a driver under 21 (NMSA 66-8-111).",
+      "number": 0.02,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 32,
+        "quote": "In New Mexico, if you are under 21, you also can be arrested for BAC at .02%."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC in a commercial motor vehicle",
+      "detail": "It is unlawful to drive a commercial motor vehicle with an alcohol concentration of 0.04% or more within three hours of driving (NMSA 66-8-102(C)(2)). Refusing a chemical test, failing one, or a DWI conviction disqualifies a CDL holder from driving a commercial motor vehicle for at least one year (NMSA 66-5-68(B)).",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 431,
+        "quote": "a person to drive a commercial motor vehicle in this state if the person has an alcohol concentration of four one hundredths or more in the person's blood or breath within three hours of driving the commercial motor vehicle"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusing a chemical test: license revoked for 1 year",
+      "detail": "Under the Implied Consent Act, refusing a breath or blood test brings a one-year revocation. A failed test brings 6 months for a driver 21 or older (0.08% or more) with no prior revocation, and one year for a driver under 21 (0.02% or more) or anyone with a prior revocation (NMSA 66-8-111). A written hearing request must be made within 10 days of the notice of revocation (NMSA 66-8-112).",
+      "number": 1,
+      "unit": "year",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 32,
+        "quote": "If a police or traffic officer asks you to take a BAC test and refuse to do so, you can lose your driver license for one year."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "Up to 90 days in jail and/or up to $500 fine; 1-year license revocation; ignition interlock for 1 year",
+      "detail": "A first DWI conviction also brings at least 24 hours of community service, an alcohol/drug screening program and DWI school; aggravated DWI (0.16%+, causing injury, or refusing a test while impaired) adds at least 48 consecutive hours in jail. The license is revoked for one year, and the offender must drive only ignition-interlock-equipped vehicles for one year (NMSA 66-5-29, 66-8-102).",
+      "number": 90,
+      "unit": "days (maximum jail)",
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 431,
+        "quote": "A first conviction pursuant to this section shall be punished, notwithstanding the provisions of Section 31-18-13 NMSA 1978, by imprisonment for not more than ninety days or by a fine of not more than five hundred dollars ($500), or both"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "open_container",
+      "value": "No drinking and no open alcohol containers in the passenger area on a public highway",
+      "detail": "No one may drink alcohol in a vehicle on a public highway or hold an opened container. The registered owner may keep an opened container only in the trunk (or an area not normally occupied if there is no trunk), an RV's living quarters, a truck camper, or a pickup bed with no passengers; a glove or utility compartment counts as part of the passenger area. First violation: $25 penalty assessment (NMSA 66-8-138, 66-8-116).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 473,
+        "quote": "No person shall knowingly have in the person's possession on the person's body, while in a motor vehicle upon any public highway within this state, any bottle, can or other receptacle containing any alcoholic beverage that has been opened or had its seal broken or the contents of which have been partially removed."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15 years old",
+      "detail": "You must be enrolled in (or have completed) a Traffic Safety Bureau-approved driver education course that includes DWI education, pass the vision and knowledge tests, and, if under 18, have a parent or guardian sign the application.",
+      "number": 15,
+      "unit": "years",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 4,
+        "quote": "The minimum age for an instructional permit is 15 years of age."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "6 months (30 days added for each traffic violation conviction)",
+      "detail": "You must hold the instructional permit at least six months before applying for a provisional license; 30 days are added for each traffic violation conviction committed while driving on the permit (NMSA 66-5-8).",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 4,
+        "quote": "The driver must retain the instructional permit for at least six months."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "50 hours, including 10 at night",
+      "detail": "A parent or guardian must certify the 50 hours of practice driving (at least 10 at night) before the teen can get a provisional license. A teen with documented low night vision can be exempted from the night hours (NMSA 66-5-8).",
+      "number": 50,
+      "unit": "hours",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 4,
+        "quote": "The driver must complete not less than 50 hours of practice driving, including not less than 10 hours of nighttime driving."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Licensed driver 21 or older who has been licensed at least 3 years (or an approved instructor)",
+      "detail": "In a car the supervising driver sits in the right front seat; on a motorcycle the licensed driver must follow the learner.",
+      "number": 21,
+      "unit": "years old",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 4,
+        "quote": "The driver is with a licensed driver 21years of age or older who has been licensed for at least three years in this state or any other state."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "15 1/2 years old",
+      "detail": "Requires 6 months on the permit, completion of approved driver education with a DWI component, 50 certified practice hours (10 at night), no pending traffic citations, and passing the road test (NMSA 66-5-8).",
+      "number": 15.5,
+      "unit": "years",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 4,
+        "quote": "The minimum age to receive a provisional license is 15 years and 6 months if the driver has held an instructional permit for 6 months."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "No driving from midnight to 5 a.m.",
+      "detail": "Exceptions: accompanied by a licensed driver 21 or older; family or medical necessity (signed statement); driving to or from work, school or a religious activity (signed statement); or a medical emergency.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 5,
+        "quote": "The driver may not operate a motor vehicle upon public highways between the hours of midnight and 5:00 AM."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "No more than 1 passenger under 21 who is not immediate family",
+      "detail": "The Driver Manual and MVD say this limit does not apply when a licensed driver 21 or older is in the vehicle; the statute (NMSA 66-5-8(C)) states only the one-passenger limit.",
+      "number": 1,
+      "unit": "passenger under 21",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 4,
+        "quote": "Unless a licensed driver that is 21 years old or older is in the vehicle, you may not have more than one other passenger under the age of 21 who is not a member of your immediate family in the vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "16 1/2 at the earliest (after 12 months on a provisional license)",
+      "detail": "An unrestricted license requires 12 months on the provisional license (30 days added for each traffic violation conviction), compliance with its restrictions, no pending citations and no alcohol or drug offense during the provisional period (NMSA 66-5-9).",
+      "number": 16.5,
+      "unit": "years",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 5,
+        "quote": "The driver must have held a provisional license for the 12- month period immediately preceding the date of application for a driver license."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "No statewide hand-held ban for passenger vehicles; some towns require hands-free; banned in commercial motor vehicles",
+      "detail": "State law bans texting for all drivers (NMSA 66-7-374) and bans any hand-held phone use while driving a commercial motor vehicle (NMSA 66-7-375). The Driver Manual warns that some towns make phone use illegal unless you use a hands-free device.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 33,
+        "quote": "Also remember that it is illegal in some towns to use a cell phone while driving unless you are using a hands-free device."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "texting_ban",
+      "value": "No reading, viewing or typing texts on a hand-held device while driving (all drivers)",
+      "detail": "'Driving' includes being temporarily stopped in traffic or at a light or stop sign, but not being pulled off the roadway and safely stopped. Exceptions: summoning emergency help and licensed amateur radio operators; GPS and hands-free or voice-operated devices are excluded. Penalty assessment: $25 first violation, $50 after (NMSA 66-8-116).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 393,
+        "quote": "A person shall not read or view a text message or manually type on a handheld mobile communication device for any purpose while driving a motor vehicle, except to summon medical or other emergency help"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Permit and provisional drivers: phone use while driving is a graduated-licensing 'traffic violation' (adds 30 days per conviction)",
+      "detail": "For instructional permit and provisional license holders, using a mobile communication device (voice, text or image) while driving is one of the listed traffic violations; each conviction adds 30 days to the 6-month permit or 12-month provisional period (NMSA 66-5-1.1, 66-5-8, 66-5-9).",
+      "number": 30,
+      "unit": "days added per conviction",
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 217,
+        "quote": "using a mobile communication device while driving a motor vehicle, unless the driver holds a valid amateur radio operator license issued by the federal communications commission and is operating an amateur radio"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "All occupants must wear a seat belt (primary enforcement)",
+      "detail": "Every occupant of a vehicle of 10,000 pounds or less must be buckled whenever it is moving, and the law is enforced on its own (NMSA 66-7-373(D)). Penalty assessment $25 and 2 points (NMSA 66-8-116; 18.19.5.52 NMAC).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 392,
+        "quote": "each occupant of a motor vehicle having a gross vehicle weight of ten thousand pounds or less manufactured with safety belts in compliance with federal motor vehicle safety standard number 208 shall have a safety belt properly fastened about his body at all times when the vehicle is in motion on any street or highway"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Under 1: rear-facing seat in the back seat; ages 1-4 or under 40 lb: child safety seat; ages 5-6 or under 60 lb: booster or child seat; ages 7-12 (60 lb or more): child seat or seat belt; all passengers under 18 restrained",
+      "detail": "A baby under 1 must ride rear-facing in the rear seat if the vehicle has one. The weight tiers apply regardless of age, so a child under 40 pounds needs a child safety seat and a child under 60 pounds needs at least a booster seat. All passengers under 18 must be properly restrained (NMSA 66-7-369). Penalty assessment $25 and 2 points. The Driver Manual's older summary (p. 6) does not match the current statute.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 391,
+        "quote": "children one year of age through four years of age, regardless of weight, or children who weigh less than forty pounds, regardless of age, shall be properly secured in a child passenger restraint device that meets federal standards"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Never drive faster than conditions allow; limits are for ideal conditions",
+      "detail": "Slow down for rain, snow, ice, fog and heavy traffic, and always control your speed to avoid colliding with anyone on or entering the road (NMSA 66-7-301(B)).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 9,
+        "quote": "The maximum limit should be driven only in ideal driving conditions and you must reduce your speed when conditions require it."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "15 mph in a posted school zone",
+      "detail": "Applies when passing a school while children are going to or leaving school and the school zone is properly posted (NMSA 66-7-301).",
+      "number": 15,
+      "unit": "mph",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 15,
+        "quote": "15 mph within a school zone, with a posted speed limit"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "30 mph unless posted otherwise",
+      "detail": "The statutory limit in any business or residence district is 30 mph (NMSA 66-7-301).",
+      "number": 30,
+      "unit": "mph",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 15,
+        "quote": "30 mph in business or residential areas, unless posted otherwise"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "30 mph unless posted otherwise",
+      "detail": "Business and residence districts share the same 30 mph statutory limit (NMSA 66-7-301).",
+      "number": 30,
+      "unit": "mph",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 15,
+        "quote": "30 mph in business or residential areas, unless posted otherwise"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "55 mph on county roads with no posted speed limit",
+      "detail": "State law sets 55 mph for county roads that have no posted limit; other highways follow their posted limits, and no speed limit in New Mexico may be set above 75 mph (NMSA 66-7-301, 66-7-303). The 2019 Driver Manual (p. 15) words this more broadly as '55 mph on public highways, unless posted otherwise.'",
+      "number": 55,
+      "unit": "mph",
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 357,
+        "quote": "fifty-five miles per hour on a county road, as defined in Section 66-7-304 NMSA 1978, without a posted speed limit"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "75 mph",
+      "detail": "Rural interstates are 75 mph unless posted otherwise; 75 mph is the highest statutory speed limit in New Mexico (NMSA 66-7-301).",
+      "number": 75,
+      "unit": "mph",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 15,
+        "quote": "75 mph on rural interstate highways, unless, posted otherwise"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Never drive below a posted minimum or so slowly that you impede normal traffic",
+      "detail": "Slower vehicles should keep to the right-hand side. If a posted minimum speed is too fast for you, use another road (manual p. 10; NMSA 66-7-305).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 15,
+        "quote": "No one should drive at a speed less than the minimum posted speed limit. If no minimum is posted, drive so that you do not interfere with regular traffic flow."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a full stop unless a sign prohibits it",
+      "detail": "Yield to pedestrians and to vehicles lawfully in or approaching the intersection (NMSA 66-7-105).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 7,
+        "quote": "If you are turning right, you may turn after coming to a full stop, if it is safe to do so and if there is no sign prohibiting the turn on a red light."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Allowed from a one-way street onto another one-way street (after stopping) unless prohibited",
+      "detail": "Stop first, then turn only when safe, yielding to pedestrians and to vehicles lawfully in or approaching the intersection (NMSA 66-7-105(C)(2)).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 19,
+        "quote": "You may turn right on red unless prohibited. You may also turn left from a one-way street into another one-way street unless prohibited."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 100 feet before turning",
+      "detail": "The signal must be given continuously during at least the last 100 feet before a turn (NMSA 66-7-325). Also signal before changing lanes, merging or parking.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 22,
+        "quote": "Signal at least 100 feet before you make your turn."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the right edge and stop until it passes; do not follow a fire truck within 500 feet",
+      "detail": "Yield to police, fire, ambulance or other emergency vehicles using a siren, air horn or red or blue flashing lights. If you are in an intersection, drive through it before pulling over. Do not follow fire apparatus answering an alarm closer than 500 feet (NMSA 66-7-332, 66-7-361).",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 15,
+        "quote": "Pull over to the right edge of the road or as near to the right as possible when you see or hear an emergency vehicle approaching from any direction."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "move_over_law",
+      "value": "Move to a non-adjacent lane, or slow down and be prepared to stop, for stopped emergency, recovery (tow) or repair vehicles with flashing lights",
+      "detail": "Applies to stationary authorized emergency vehicles and to recovery or repair vehicles displaying flashing emergency or hazard lights. If changing lanes is not safe, slow to a reasonable and prudent speed, proceed with caution and be prepared to stop (NMSA 66-7-332(B)).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 371,
+        "quote": "Upon approaching a stationary authorized emergency vehicle or a recovery or repair vehicle displaying flashing emergency or hazard lights, unless otherwise directed, the driver of a vehicle shall: (1) if reasonably safe to do so, drive in a lane not adjacent to the stationary vehicle, decrease the speed of the vehicle to a speed that is reasonable and prudent under the circumstances and proceed with caution"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop at least 10 feet away, from either direction; no stop needed when the bus is on a separate roadway (median or barrier)",
+      "detail": "Stay stopped until the special signals are turned off, the bus moves again or the driver signals you to go, then watch for children. You need not stop for a bus on a different roadway of a divided highway (NMSA 66-7-347(C); manual p. 15). Passing a stopped school bus is a 6-point violation (18.19.5.52 NMAC).",
+      "number": 10,
+      "unit": "feet",
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 379,
+        "quote": "The driver of a vehicle upon approaching or overtaking from either direction any school bus which has stopped on the roadway, with special school bus signals in operation, for the purpose of receiving or discharging any school children, shall stop the vehicle at least ten feet before reaching the school bus"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "following_distance",
+      "value": "At least 3 seconds; 4 seconds in poorer conditions",
+      "detail": "Use 4 seconds on slippery roads, behind motorcycles, with a heavy load or trailer, behind emergency vehicles, when approaching railroad crossings and when stopped on a hill (manual p. 27).",
+      "number": 3,
+      "unit": "seconds",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 26,
+        "quote": "It is called the “three-second rule,” and it works at any speed."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "headlights_required",
+      "value": "From a half-hour after sunset to a half-hour before sunrise, and whenever people and vehicles are not clearly visible 500 feet ahead",
+      "detail": "The manual also says to turn on headlights when you use your wipers, in rain, snow or fog, and when driving away from a rising or setting sun; never drive with only parking lights on (NMSA 66-3-802).",
+      "number": 500,
+      "unit": "feet (visibility)",
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 150,
+        "quote": "from a half-hour after sunset to a half-hour before sunrise and at any other time when there is not sufficient light to render clearly discernible persons and vehicles on the highway at a distance of five hundred feet ahead"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "Within 500 feet of an oncoming vehicle",
+      "detail": "The manual phrases this as about one block; the statute sets 500 feet (NMSA 66-3-831).",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 163,
+        "quote": "whenever the driver of a vehicle approaches an oncoming vehicle within five hundred feet, such driver shall use a distribution of light or composite beam so aimed that the glaring rays are not projected into the eyes of the oncoming driver"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "Within 200 feet when following another vehicle",
+      "detail": "Also use low beams in heavy traffic, fog, snow or hard rain. The statute likewise requires dimming within 200 feet when overtaking a vehicle (NMSA 66-3-831).",
+      "number": 200,
+      "unit": "feet",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 21,
+        "quote": "Use your low beams within 200 feet when following another vehicle or when in heavy traffic."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet",
+      "detail": "Do not stop, stand or park within 15 feet of a fire hydrant (NMSA 66-7-351).",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 16,
+        "quote": "within 15 ft. of a fire hydrant,"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "20 feet from a crosswalk at an intersection (never on a crosswalk)",
+      "detail": "State law bans stopping, standing or parking on a crosswalk or within 20 feet of a crosswalk at an intersection (NMSA 66-7-351). The Driver Manual's parking list (p. 16) says 25 feet.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 381,
+        "quote": "within twenty feet of a crosswalk at an intersection"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Never within an intersection",
+      "detail": "Also not within 20 feet of a crosswalk at an intersection or within 30 feet of a stop sign or traffic signal on the approach (NMSA 66-7-351).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 16,
+        "quote": "in an intersection,"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet",
+      "detail": "The statute bars parking within 30 feet on the approach to a flashing beacon, stop sign or traffic-control signal at the side of the road (NMSA 66-7-351); the manual's list also names yield signs.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 16,
+        "quote": "within 30 ft. of a traffic signal, stop sign or yield sign,"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet",
+      "detail": "Measured from the nearest rail of the crossing (NMSA 66-7-351); never park on railroad tracks.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 16,
+        "quote": "within 50 ft. of a railroad crossing,"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet (same side); 75 feet (opposite side)",
+      "detail": "Do not park within 20 feet of a fire station driveway on the same side of the street, or within 75 feet of the entrance on the opposite side when properly signposted (NMSA 66-7-351).",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 16,
+        "quote": "within 20 ft. of a fire station driveway on the same side of the street or within 75 ft. of a driveway on the other side of the street,"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "Within 18 inches of the curb",
+      "detail": "Park with the right-hand wheels parallel to and within 18 inches of the right-hand curb (NMSA 66-7-352).",
+      "number": 18,
+      "unit": "inches",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 16,
+        "quote": "more than 18 in. from the curb,"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "Stop 15 to 50 feet from the nearest rail",
+      "detail": "Stop when a train is passing, approaching or plainly visible, its warning can be heard, or a signal, gate or officer tells you to; never go around a lowered gate. School buses, taxis and other passenger vehicles for hire, and trucks carrying explosives, gasoline or other dangerous materials must always stop at least 15 feet from a crossing (manual p. 9).",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 375,
+        "quote": "stop not more than fifty feet and not less than fifteen feet from the nearest rail of a crossing"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "Pass at a safe distance; at least 5 feet recommended",
+      "detail": "New Mexico law sets no fixed passing distance, but the manual tells drivers to try for at least five feet and to treat a bicycle as a legal, slow-moving vehicle.",
+      "number": 5,
+      "unit": "feet",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 29,
+        "quote": "Try to give bicyclists at least five feet of clearance when passing."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Always yield to pedestrians, even ones not obeying traffic controls",
+      "detail": "Yield to pedestrians in marked or unmarked crosswalks and when crossing a sidewalk from a driveway or alley, and never pass a vehicle stopped at a crosswalk for a pedestrian (NMSA 66-7-334). Under the White Cane Law (28-7-1 NMSA), take every precaution for a blind pedestrian with a white or metallic cane or a guide dog.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 14,
+        "quote": "You must always yield to a pedestrian, even if the pedestrian is not obeying traffic controls."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Notify police immediately if anyone is hurt or killed or damage is $500 or more; written report within 5 days",
+      "detail": "Notify the city police inside a municipality, otherwise the county sheriff or the nearest New Mexico State Police office (NMSA 66-7-206). The driver must also send a written report to the New Mexico Department of Transportation within five days (NMSA 66-7-207).",
+      "number": 500,
+      "unit": "dollars",
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 352,
+        "quote": "or property damage to an apparent extent of five hundred dollars ($500) or more shall immediately, by the quickest means of communication, give notice of the accident to the police department"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "25/50/10 liability",
+      "detail": "$25,000 bodily injury or death of one person, $50,000 for two or more persons, $10,000 property damage per accident (or a $60,000 surety bond or cash deposit, NMSA 66-5-208). Proof of insurance must be carried in the vehicle.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 38,
+        "quote": "$25,000 Bodily injury to or death of one person in any on accident. $50,000 Bodily injury to or death of two or more persons in any one accident. $10,000 Injury to or destruction of property of others in any one accident."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "point_system",
+      "value": "12 or more points in 12 months: license suspended for 1 year",
+      "detail": "MVD may warn a driver at 6 points and, on a judge's recommendation, suspend for up to 3 months at 7-10 points. Examples: passing a stopped school bus or reckless driving 6 points; failing to yield to an emergency vehicle 4; careless driving or following too closely 3; seat belt or child restraint 2. Points are removed after 12 months (18.19.5.51-.55 NMAC).",
+      "number": 12,
+      "unit": "points",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 17,
+        "quote": "If a driver has twelve or more points within a twelve-month period, their driver's license will be suspended for one year."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Required for riders and passengers under 18",
+      "detail": "Riders 18 and older are not required to wear a helmet, but the manual recommends helmets for everyone. Riders without an approved fixed windshield must wear eye protection (NMSA 66-7-355, 66-7-356).",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 40,
+        "quote": "New Mexico Law requires all motorcycle drivers and passengers under 18 years old to wear a helmet."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Not permitted: no New Mexico law allows it, and the manual says lane sharing is usually prohibited",
+      "detail": "Vehicles must be driven as nearly as practicable entirely within a single lane (NMSA 66-7-317). Keep a lane position that discourages drivers from squeezing past you.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 39,
+        "quote": "Cars and motorcycles need a full lane to operate safely. Lane sharing is usually prohibited."
+      },
+      "status": "verified"
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Yield to an oncoming vehicle that is passing",
+      "summary": "When an oncoming vehicle is overtaking another vehicle and coming toward you, you must yield, move as close as possible to the right edge or curb and stay there until it has passed (NMSA 66-7-332.1).",
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 372,
+        "quote": "upon the immediate approach of an oncoming vehicle overtaking or attempting to overtake a vehicle proceeding in the same direction, the driver of that vehicle shall yield the right of way and shall drive to a position parallel to and as close as possible to the right hand edge or curb of the roadway"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Two-way center left-turn lane: 200-foot limit",
+      "summary": "A two-way left-turn lane may be used only to prepare for and make a left turn, and you may not drive in it for more than 200 feet before turning. A driver turning left onto the road may stop in it as a staging area before merging (NMSA 66-7-376, enacted 2023).",
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 396,
+        "quote": "Vehicles turning left from the roadway shall not be driven in the two-way left-turn lane for more than two hundred feet while preparing for and making the turn."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Bicyclists may treat stop signs as yield signs",
+      "summary": "Since 2025 a bicyclist may go through a stop or yield sign without stopping when no pedestrian, bicycle or vehicle with the right-of-way is approaching, and may proceed through a red signal after stopping when the way is clear (NMSA 66-7-345(E)). Drivers should expect this.",
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 378,
+        "quote": "an intersection with a stop sign or a yield sign, if there is no approaching pedestrian, bicycle or vehicle traffic with the right of way, the person riding a bicycle may proceed through the intersection without stopping"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Aggravated DWI at 0.16% BAC",
+      "summary": "Driving with a BAC of 0.16% or more, causing bodily injury while impaired, or refusing a chemical test while impaired is aggravated DWI; even a first offender must serve at least 48 consecutive hours in jail (NMSA 66-8-102(D), (E)).",
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 431,
+        "quote": "driving a vehicle in this state with an alcohol concentration of sixteen one hundredths or more in the driver's blood or breath within three hours of driving the vehicle"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Ignition interlock after every DWI conviction",
+      "summary": "Every DWI conviction requires an ignition interlock license and device: 1 year for a first offense, 2 years for a second, 3 years for a third and life for a fourth or later conviction (NMSA 66-8-102(O)).",
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 434,
+        "quote": "The offender shall operate only those vehicles equipped with ignition interlock devices for: (1) a period of one year, for a first offender;"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "DWI course for first-time drivers aged 18-24 ('None for the Road')",
+      "summary": "Applicants 18 to 24 seeking a first New Mexico license must complete a bureau-approved DWI prevention and education program (the 'None for the Road' course); first-time applicants 25 or older with a DWI conviction must also complete one (NMSA 66-5-9(M), (N)).",
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 227,
+        "quote": "An applicant eighteen years of age or over, but under twenty-five years of age, who is making an application to be granted a first New Mexico driver's license shall submit evidence with the application that the applicant has successfully completed a bureau-approved DWI prevention and education program."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Graduated-license stages extended 30 days per violation",
+      "summary": "Each traffic violation conviction while driving on an instruction permit adds 30 days to the 6-month permit period, and each one on a provisional license adds 30 days to the 12-month provisional period (NMSA 66-5-8, 66-5-9).",
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 223,
+        "quote": "provided that thirty days shall be added to the six months for each adjudication or conviction of a traffic violation committed during the time the person was driving with an instruction permit"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "White Cane Law",
+      "summary": "Drivers approaching a blind or partially blind pedestrian carrying a white or metallic cane (with or without a red tip) or using a guide dog must take all necessary precautions, and a driver who fails to is liable for damages for any injury (28-7-1 NMSA).",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 14,
+        "quote": "any driver who fails to take such precautions shall be liable in damages for any injury caused to such pedestrian"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Passing a stopped school bus is a 6-point violation",
+      "summary": "Passing a school bus that is loading or unloading children with its warning signals on costs 6 points, the same as reckless driving; 12 points in 12 months means a 12-month suspension (18.19.5.52, 18.19.5.55 NMAC).",
+      "source": {
+        "url": "https://www.srca.nm.gov/parts/title18/18.019.0005.html",
+        "page": null,
+        "quote": "Six (6) points for violations of the following sections: 66-7-347 Passing school bus taking on or discharging passengers or displaying warning not to pass"
+      },
+      "status": "corrected"
+    },
+    {
+      "title": "Uninsured vehicles can lose their registration",
+      "summary": "Under the Mandatory Financial Responsibility Act, proof of liability insurance must be carried in the vehicle at all times; driving without insurance can lead to non-issuance or suspension of the registration, surrender of the plates and criminal penalties.",
+      "source": {
+        "url": "https://realfile.tax.newmexico.gov/English%20Drivers%20Manualver11.19.19.pdf",
+        "page": 38,
+        "quote": "Failure to have insurance could result in non-issuance or suspension of your vehicle registration, and surrender of the license plates, as well as possible criminal penalties."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Motorcyclists must wear eye protection without a windshield",
+      "summary": "A rider whose motorcycle has no approved fixed windshield must wear an eye protective device: a face shield on a helmet, goggles or safety eyeglasses (NMSA 66-7-355(B)).",
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 386,
+        "quote": "A person operating a motorcycle not having a fixed windshield of a type approved by regulation of the secretary shall wear an eye protective device"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Motorcycle licensing for riders under 18",
+      "summary": "Riders under 18 must complete an approved motorcycle driver education course (such as the MSF Basic RiderCourse) before being licensed; a license restricted to motorcycles of 100 cc or less is available from age 13, with no passengers on an initial license (NMSA 66-5-5).",
+      "source": {
+        "url": "https://nmonesource.com/nmos/nmsa-unanno/en/18569/1/document.do",
+        "page": 222,
+        "quote": "as a motorcycle driver who is less than eighteen years of age and who has not presented a certificate or other evidence of having successfully completed a motorcycle driver education program"
+      },
+      "status": "verified"
+    }
+  ],
+  "officialPracticeTests": [
+    "https://apps.apple.com/us/app/nm-practice-driving-test/id1578505803",
+    "https://play.google.com/store/apps/details?id=com.nic.nm.driverstest"
+  ],
+  "gaps": [
+    "knowledgeTest.questions / passingScore: MVD does not publish the number of questions; only the 70% pass mark (Driver Procedures Manual Ch. 11 Sec. E, rev. Dec 8, 2017) is official. The NM Practice Driving Test app (seller: New Mexico Motor Vehicle Division) does not state a count either.",
+    "motorcycleTest.questions: not published; Class M uses the same 70% pass mark.",
+    "Handbook currency: the MVD-linked manual is 'ver 11.19.19' (2019 text) and lags current law in places; statutes (official unannotated NMSA Chapter 66, NMOneSource PDF created 2026-07-01, saved as research/handbooks/NM_LAWS.txt) were used where they differ.",
+    "parking_crosswalk: manual p. 16 says 25 feet; NMSA 66-7-351(A)(6) says 20 feet. Statute used; questions key 20 feet and never offer 25 feet as a choice.",
+    "parking_stop_sign_signal: manual p. 16 adds yield signs; the statute lists flashing beacons, stop signs and traffic-control signals. Questions do not test yield signs.",
+    "child_restraint_law: manual p. 6 ('all children under the age of 12'; 'under the age of 24 months, or weighing less than 60 pounds') is outdated; NMSA 66-7-369 (2005) tiers and the under-18 rule are used. The value was corrected by the verifier to show that the weight tiers apply regardless of age (seat belt alone only from age 7 and 60 lb); nm.car.045's explanation flags the manual's 'under 12'.",
+    "handheld_phone_ban: no statewide hand-held ban for non-commercial drivers was found (texting ban 66-7-374; commercial-vehicle hand-held ban 66-7-375); the manual only notes local hands-free ordinances.",
+    "novice_phone_ban: no separate statewide phone ban for teen drivers; NMSA 66-5-1.1(N) counts 'using a mobile communication device while driving' as a graduated-licensing traffic violation (30 days added per conviction). Questions test only that effect.",
+    "provisional_passenger_restriction: manual and MVD add 'unless a licensed driver 21 or older is in the vehicle'; NMSA 66-5-8(C) states only the one-passenger limit. Questions key only the limit.",
+    "GDL 90-day rule: manual pp. 5 and MVD pages say no traffic conviction in the 90 days before applying for the provisional or full license; current NMSA 66-5-8 and 66-5-9 instead add 30 days per conviction and bar pending citations. Questions test only the 30-day extension.",
+    "Under-21 test failure: the MVD Learner's Permit page says a .02 result 'could result in a 6-month license revocation'; NMSA 66-8-111(C)(2) (amended 2025) and the MVD DWI Information page say one year. One year used; questions never offer 6 months for under-21 drivers.",
+    "DWI record retention: manual p. 32 says a DWI stays on the record 25 years; the MVD DWI FAQ says DWIs issued since June 17, 2005 stay 55 years. Not tested.",
+    "high_beam_dim_oncoming: manual p. 21 says 'about a one-block distance'; NMSA 66-3-831(A) says 500 feet. Statute used.",
+    "License renewal: manual p. 5 says renewal up to 90 days before or 30 days after expiration; NMSA 66-5-21 states only 'within ninety days prior'. Annual renewal age differs between MVD pages (75 vs 79; statute: license expires 30 days after the 79th birthday). Not tested.",
+    "bicycle_passing: no statutory minimum passing distance; the 5-foot figure is the manual's recommendation.",
+    "speed_limit_rural_highway (corrected by verifier): manual p. 15 says '55 mph on public highways, unless posted otherwise'; NMSA 66-7-301(A)(3) sets 55 mph only for county roads without a posted limit, with 75 mph as the statutory maximum (66-7-301(A)(4), 66-7-303). The fact now quotes the statute; nm.car.051 asks about county roads.",
+    "Verifier 2026-10-15: research/handbooks/NM_LAWS.txt pages 1-509 compared page by page with a fresh download of the official NMOneSource PDF (7-1-26_unannotated_chapter-66-motor-vehicles-2026.pdf): identical. research/handbooks/NM.txt is identical to the MVD-linked manual PDF. Page 510 (18.19.5 NMAC) re-checked on srca.nm.gov; that source is a web page, so its notable law has page null.",
+    "Laws newer than the manual: 66-7-376(B) two-way left-turn lane (200-foot limit, staging area) confirmed in the enrolled text of SB 102 (Laws 2023, ch. 96); 66-7-345(E) bicycle stop-as-yield (Laws 2025, ch. 22) confirmed by NMDOT ('Bicyclists can now treat stop signs as yields', effective July 1, 2025). Questions nm.car.087, .088 and .093 label these as current law newer than the 2019 manual.",
+    "knowledgeTest.format: 'State offices typically do not allow the written test to be taken after 3pm' and 'This test is not required if you have a current out-of-state driver license' are from the MVD page 'Apply for a New Driving Credential' (checked 2026-10-15); the 'None for the Road' course name is from the MVD 'Apply for a Learner's Permit' page.",
+    "Verifier corrections to fact text: bac_limit_commercial (CDL disqualification now cites NMSA 66-5-68(B): refusal, failed test or DWI conviction, at least one year), implied_consent (thresholds per age: 0.08% for 21+, 0.02% under 21), child_restraint_law (weight tiers), speed_limit_rural_highway (county roads, statute quote)."
+  ]
+}

@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "nm.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In New Mexico, a driver 21 or older can be arrested for DWI with a blood alcohol concentration (BAC) of at least:",
+    "choices": ["0.05%", "0.08%", "0.10%", "0.16%"],
+    "answer": 1,
+    "explanation": "Drivers 21 and older can be arrested at a BAC of 0.08% or more. A BAC of 0.16% is the level for aggravated DWI, not the starting point.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 32",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A New Mexico driver under 21 can be arrested for drinking and driving at a BAC as low as:",
+    "choices": ["0.02%", "0.04%", "0.05%", "0.08%"],
+    "answer": 0,
+    "explanation": "Drivers under 21 can be arrested at a BAC of just 0.02%. The 0.08% level is the limit for drivers 21 and older.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 32",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 19-year-old New Mexico driver takes a breath test and blows 0.03%. Which statement is correct?",
+    "choices": [
+      "The driver can be arrested, because the limit under 21 is 0.02%",
+      "The driver is legal, because the limit is 0.08%",
+      "The driver is legal, because the limit under 21 is 0.05%",
+      "The driver can only be warned on a first stop"
+    ],
+    "answer": 0,
+    "explanation": "For drivers under 21 the limit is 0.02%, so 0.03% is over the limit. The 0.08% limit is for drivers 21 and older.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 32",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the alcohol concentration limit for driving a commercial motor vehicle in New Mexico?",
+    "choices": ["0.02%", "0.04%", "0.06%", "0.08%"],
+    "answer": 1,
+    "explanation": "It is illegal to drive a commercial motor vehicle with an alcohol concentration of 0.04% or more, half the 0.08% limit for other adult drivers.",
+    "difficulty": 1,
+    "ref": "NMSA 1978, § 66-8-102(C)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "After a DWI arrest in New Mexico, a driver refuses the officer's request to take a breath test. What can happen to the driver's license?",
+    "choices": [
+      "It can be revoked for one year",
+      "It is suspended for 30 days",
+      "Nothing, if the driver is later found not guilty",
+      "It is revoked only if the driver also caused a crash"
+    ],
+    "answer": 0,
+    "explanation": "Under New Mexico's Implied Consent Act, refusing a breath or blood test can cost you your license for one year. This administrative revocation is separate from the criminal DWI case.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 32",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 30-year-old New Mexico driver with no prior revocations takes a breath test after a DWI arrest and blows 0.09%. How long is the administrative license revocation?",
+    "choices": ["90 days", "6 months", "1 year", "2 years"],
+    "answer": 1,
+    "explanation": "A first test failure at 0.08% or more brings a 6-month revocation for a driver 21 or older. Refusing the test, being under 21, or having a prior revocation means one year instead.",
+    "difficulty": 3,
+    "ref": "NMSA 1978, § 66-8-111(C); NM MVD, General DWI Information",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 20-year-old New Mexico driver is arrested and a chemical test shows a BAC of 0.03%. How long is the administrative license revocation?",
+    "choices": ["30 days", "90 days", "1 year", "2 years"],
+    "answer": 2,
+    "explanation": "For a driver under 21, a test result of 0.02% or more (or a refusal) brings a one-year revocation under the Implied Consent Act.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-8-111(C)(2); NM MVD, General DWI Information",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A New Mexico driver arrested for DWI is served a notice of revocation. Within how many days must the driver request an administrative hearing?",
+    "choices": ["10 days", "20 days", "30 days", "90 days"],
+    "answer": 0,
+    "explanation": "The written hearing request must be made within 10 days after receiving the notice of revocation; missing that deadline forfeits the right to a hearing. Without a hearing, the revocation takes effect 20 days after the notice.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-8-112(A)-(B)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.009",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the longest jail sentence a court can impose for a first DWI conviction in New Mexico?",
+    "choices": ["30 days", "90 days", "6 months", "364 days"],
+    "answer": 1,
+    "explanation": "A first DWI conviction is punishable by up to 90 days in jail, a fine of up to $500, or both, plus at least 24 hours of community service and DWI school. Up to 364 days applies to second and third convictions.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-8-102(E)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.010",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "After a first DWI conviction in a New Mexico court, how long is the driver's license revoked?",
+    "choices": ["6 months", "1 year", "2 years", "3 years"],
+    "answer": 1,
+    "explanation": "MVD revokes the license for one year after a first DWI conviction (two years for a second, three for a third, life for a fourth or more). An ignition interlock license may be available during the revocation.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-5-29(C); NM MVD, General DWI Information",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.011",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "After a first DWI conviction in New Mexico, for how long must the offender drive only vehicles equipped with an ignition interlock device?",
+    "choices": ["6 months", "1 year", "2 years", "3 years"],
+    "answer": 1,
+    "explanation": "Every DWI conviction requires an ignition interlock license and device: one year for a first offender, two years for a second, three for a third and life for a fourth or later conviction.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-8-102(O)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.012",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In New Mexico, driving with a BAC of 0.16% or more is called:",
+    "choices": ["Aggravated DWI", "Extreme DWI", "Reckless driving", "Felony DWI"],
+    "answer": 0,
+    "explanation": "A BAC of 0.16% or more, causing injury while impaired, or refusing a test while impaired is aggravated DWI. Even a first offender must then serve at least 48 consecutive hours in jail.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-8-102(D)-(E)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.013",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Where may an opened bottle of wine legally be kept in a car being driven on a New Mexico highway?",
+    "choices": [
+      "In the trunk",
+      "In the glove compartment",
+      "In a cup holder, as long as no one drinks from it",
+      "Under the driver's seat"
+    ],
+    "answer": 0,
+    "explanation": "An open container must be kept in the trunk, or in an area not normally occupied if the vehicle has no trunk. New Mexico law treats the glove compartment as part of the driver and passenger area.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-8-138",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.014",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "You are driving your pickup truck on a New Mexico highway with an opened can of beer. Where may it legally be kept?",
+    "choices": [
+      "In the truck bed, if no passengers are riding in the bed",
+      "In the center console",
+      "On the passenger-side floor",
+      "In the glove compartment"
+    ],
+    "answer": 0,
+    "explanation": "An opened container may ride in the bed of a pickup when no passengers are in the bed (or in a trunk, an RV's living quarters or a truck camper). Anywhere in the cab, including the glove compartment, counts as the passenger area.",
+    "difficulty": 3,
+    "ref": "NMSA 1978, § 66-8-138(C)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.015",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the youngest age to get an instructional permit in New Mexico?",
+    "choices": ["14", "15", "15 1/2", "16"],
+    "answer": 1,
+    "explanation": "The minimum age for an instructional permit is 15. You must also be enrolled in or have completed an approved driver education course.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 4",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.016",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Besides passing the vision and knowledge tests, what must a 15-year-old show to get a New Mexico instructional permit?",
+    "choices": [
+      "Proof of enrollment in an approved driver education course that includes DWI education",
+      "A log of 50 hours of practice driving",
+      "A passing score on the road test",
+      "Proof of car insurance in the teen's own name"
+    ],
+    "answer": 0,
+    "explanation": "A permit applicant must be enrolled in (or have completed) a Traffic Safety Bureau-approved driver education course with a DWI education component, and under 18 needs a parent or guardian's consent. The 50 hours and road test come later.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 4; NMSA 1978, § 66-5-8(E)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.017",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Who may supervise a New Mexico instructional permit holder who is driving a car?",
+    "choices": [
+      "A licensed driver 21 or older who has been licensed for at least 3 years, seated in the front passenger seat",
+      "Any licensed driver 18 or older",
+      "Any adult 21 or older, licensed or not",
+      "A licensed driver 25 or older seated anywhere in the car"
+    ],
+    "answer": 0,
+    "explanation": "The supervisor must be a licensed driver at least 21 years old who has been licensed for at least three years (or an approved instructor), sitting in the right front seat.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 4",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.018",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 22-year-old who got a driver license 18 months ago offers to supervise a New Mexico permit holder. Is this allowed?",
+    "choices": [
+      "No, the supervisor must have been licensed for at least 3 years",
+      "Yes, because the supervisor is over 21",
+      "Yes, as long as the supervisor sits in the front seat",
+      "No, the supervisor must be at least 25"
+    ],
+    "answer": 0,
+    "explanation": "Being 21 or older is not enough: the supervising driver must also have been licensed for at least three years in New Mexico or another state.",
+    "difficulty": 3,
+    "ref": "New Mexico Driver Manual, p. 4",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.019",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "With no traffic violations, how long must a New Mexico teen hold an instructional permit before applying for a provisional license?",
+    "choices": ["3 months", "6 months", "9 months", "12 months"],
+    "answer": 1,
+    "explanation": "You must hold the instructional permit for at least six months before you can apply for a provisional license.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 4",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.020",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A New Mexico permit holder is convicted of speeding while driving on the permit. How does this affect the 6-month permit period?",
+    "choices": [
+      "30 days are added to it",
+      "The 6 months start over",
+      "Nothing changes",
+      "The permit is suspended for one year"
+    ],
+    "answer": 0,
+    "explanation": "Thirty days are added to the six-month permit period for each traffic violation conviction committed while driving on the instruction permit.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-5-8(A)(2); NM MVD, Apply for a Learner's Permit",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.021",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many hours of practice driving must a New Mexico teen complete before getting a provisional license?",
+    "choices": [
+      "30 hours, including 5 at night",
+      "40 hours, including 10 at night",
+      "50 hours, including 10 at night",
+      "60 hours, including 15 at night"
+    ],
+    "answer": 2,
+    "explanation": "A parent or guardian must certify at least 50 hours of practice driving, including at least 10 hours at night.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 4",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.022",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age for a New Mexico provisional license?",
+    "choices": ["15", "15 1/2", "16", "16 1/2"],
+    "answer": 1,
+    "explanation": "The minimum age is 15 years and 6 months, and you must have held an instructional permit for 6 months.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 4",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.023",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During which hours may a New Mexico provisional licensee NOT drive, unless an exception applies?",
+    "choices": ["10 p.m. to 5 a.m.", "11 p.m. to 5 a.m.", "Midnight to 5 a.m.", "1 a.m. to 6 a.m."],
+    "answer": 2,
+    "explanation": "Provisional licensees may not drive between midnight and 5 a.m. unless an exception applies, such as having a licensed driver 21 or older in the vehicle.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 5",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.024",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A New Mexico provisional licensee needs to drive home from a late work shift at 12:30 a.m., alone. What makes this legal?",
+    "choices": [
+      "A signed statement from the employer",
+      "Nothing; the teen must wait until 5 a.m.",
+      "Having a 17-year-old licensed friend in the car",
+      "Driving below the speed limit"
+    ],
+    "answer": 0,
+    "explanation": "Driving to and from work during the midnight-5 a.m. restriction is allowed with a signed statement from the employer. Other exceptions include a licensed driver 21 or older in the car, school or religious activities, and family or medical needs.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 5",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.025",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Under the provisional license passenger rule, a New Mexico provisional driver may carry no more than how many passengers under 21 who are not immediate family?",
+    "choices": ["None", "One", "Two", "Three"],
+    "answer": 1,
+    "explanation": "A provisional licensee may have no more than one passenger under 21 who is not a member of the driver's immediate family.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 4; NMSA 1978, § 66-5-8(C)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.026",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old New Mexico provisional driver wants to take two friends, ages 16 and 17, to a game. No one 21 or older is riding along. What does the passenger rule allow?",
+    "choices": [
+      "Only one of the friends may ride",
+      "The two friends may ride together",
+      "The two may ride if one of them has a permit",
+      "No friends may ride until the driver turns 17"
+    ],
+    "answer": 0,
+    "explanation": "Provisional licensees may carry no more than one passenger under 21 who is not an immediate family member, so only one friend may ride.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 4",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.027",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long must a New Mexico teen hold a provisional license before getting an unrestricted driver license?",
+    "choices": ["6 months", "9 months", "12 months", "18 months"],
+    "answer": 2,
+    "explanation": "You must hold the provisional license for the 12 months immediately before applying, and 30 days are added for each traffic violation conviction while on the provisional license.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 5; NMSA 1978, § 66-5-9(L)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.028",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the earliest age at which a New Mexico teen can get an unrestricted (full) driver license?",
+    "choices": ["16", "16 1/2", "17", "18"],
+    "answer": 1,
+    "explanation": "A provisional license is available at 15 1/2 and must be held for 12 months, so the earliest unrestricted license comes at 16 1/2.",
+    "difficulty": 3,
+    "ref": "New Mexico Driver Manual, pp. 4-5",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.029",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 20-year-old is applying for a first New Mexico driver license. What extra requirement applies because of the applicant's age?",
+    "choices": [
+      "Completing the 'None for the Road' DWI awareness course",
+      "Holding a permit for 6 months",
+      "Completing 50 hours of supervised driving",
+      "Taking a defensive driving course"
+    ],
+    "answer": 0,
+    "explanation": "First-time licensees aged 18 to 24 must complete an approved DWI prevention and education program, the 'None for the Road' course. The permit period and 50 practice hours apply to applicants under 18.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-5-9(M); NM MVD, Apply for a Learner's Permit",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.030",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What score do you need to pass the New Mexico Class D written (knowledge) test?",
+    "choices": ["60%", "70%", "80%", "85%"],
+    "answer": 1,
+    "explanation": "MVD requires a score of 70% or better on Class D and Class M written tests. Commercial (CDL) knowledge tests require 80%.",
+    "difficulty": 1,
+    "ref": "NM MVD Driver Procedures Manual, Ch. 11, Sec. E",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.031",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You fail the New Mexico knowledge test for the third time. When can you take it again?",
+    "choices": [
+      "The next day",
+      "After one week",
+      "After 30 days",
+      "Six months after the date of your first exam"
+    ],
+    "answer": 3,
+    "explanation": "The knowledge exam may be taken up to twice a week, but after a third failure you must wait six months from the date of the first exam.",
+    "difficulty": 3,
+    "ref": "NM MVD, Knowledge (Written) Examination Changes; NMSA 1978, § 66-5-9(A)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.032",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What minimum liability insurance must New Mexico drivers carry?",
+    "choices": [
+      "$25,000 / $50,000 / $10,000",
+      "$15,000 / $30,000 / $5,000",
+      "$25,000 / $50,000 / $25,000",
+      "$50,000 / $100,000 / $25,000"
+    ],
+    "answer": 0,
+    "explanation": "The minimums are $25,000 for injury or death of one person, $50,000 for two or more people, and $10,000 for property damage in one accident.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 38",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.033",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Under New Mexico's Mandatory Financial Responsibility Act, where must proof of insurance be kept?",
+    "choices": [
+      "In the vehicle at all times",
+      "At home with the vehicle title",
+      "Only on file with MVD",
+      "With your insurance agent"
+    ],
+    "answer": 0,
+    "explanation": "The Mandatory Financial Responsibility Act requires that proof of liability insurance be carried in the vehicle at all times.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, pp. 37-38",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.034",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What can happen if a New Mexico vehicle owner does not keep the required liability insurance?",
+    "choices": [
+      "The vehicle registration can be suspended and the license plates surrendered",
+      "Nothing, unless the owner causes a crash",
+      "Only a written warning is issued",
+      "The owner must retake the knowledge test"
+    ],
+    "answer": 0,
+    "explanation": "Failure to have insurance can lead to non-issuance or suspension of the vehicle registration, surrender of the license plates, and possible criminal penalties.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 38",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.035",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many points within a 12-month period cause a one-year license suspension in New Mexico?",
+    "choices": ["6", "8", "10", "12"],
+    "answer": 3,
+    "explanation": "A driver with 12 or more points within 12 months has the license suspended for one year. At 6 points MVD may send a warning.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 17; 18.19.5.53, 18.19.5.55 NMAC",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.036",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many points does New Mexico assess for passing a school bus that is stopped to load or unload children?",
+    "choices": ["2", "3", "4", "6"],
+    "answer": 3,
+    "explanation": "Passing a stopped school bus with its warning signals on is a 6-point violation, the same as reckless driving. Twelve points in 12 months means a one-year suspension.",
+    "difficulty": 2,
+    "ref": "18.19.5.52 NMAC",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.037",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What minimum vision does New Mexico require to pass the driver license vision test?",
+    "choices": [
+      "20/20 in both eyes",
+      "20/40 in at least one eye",
+      "20/50 in both eyes",
+      "20/70 in at least one eye"
+    ],
+    "answer": 1,
+    "explanation": "You must have at least 20/40 vision in at least one eye, with or without glasses or contact lenses.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 31",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.038",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "According to the New Mexico Driver Manual, how long should a person with epilepsy be stable and seizure-free before being issued a driver license?",
+    "choices": ["1 month", "3 months", "6 months", "2 years"],
+    "answer": 2,
+    "explanation": "People with epilepsy should be stable and seizure-free for six months before being issued a license. Drivers with epilepsy, diabetes or heart conditions must also send MVD periodic medical statements.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 33",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.039",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A New Mexico provisional licensee is convicted of using a cell phone while driving. How does this affect the 12-month provisional period?",
+    "choices": [
+      "30 days are added to it",
+      "No effect, because only texting counts",
+      "The 12 months start over",
+      "The teen must retake the road test"
+    ],
+    "answer": 0,
+    "explanation": "For permit and provisional drivers, using a mobile communication device while driving is listed as a traffic violation under the graduated licensing law, and each conviction adds 30 days to the required period.",
+    "difficulty": 3,
+    "ref": "NMSA 1978, §§ 66-5-1.1(N), 66-5-9(L)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.040",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Who must wear a seat belt in a passenger vehicle in New Mexico?",
+    "choices": [
+      "Every occupant",
+      "Only the driver and front-seat passenger",
+      "Only the driver",
+      "Only passengers under 18"
+    ],
+    "answer": 0,
+    "explanation": "New Mexico requires each occupant of a vehicle of 10,000 pounds or less to have a seat belt properly fastened whenever the vehicle is moving; young children must use the required child restraints.",
+    "difficulty": 1,
+    "ref": "NMSA 1978, § 66-7-372",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.041",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Can a New Mexico police officer stop you only because you are not wearing a seat belt?",
+    "choices": [
+      "Yes, the seat belt law is enforced on its own",
+      "No, only after stopping you for another violation",
+      "Only on interstate highways",
+      "Only if a child in the car is unbuckled"
+    ],
+    "answer": 0,
+    "explanation": "New Mexico's Safety Belt Use Act is enforced whether or not another violation is involved (primary enforcement). A belt violation carries a $25 penalty assessment and 2 points.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-7-373(D); 18.19.5.52 NMAC",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.042",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "How must a baby under 1 year old ride in a New Mexico vehicle that has a back seat?",
+    "choices": [
+      "In a rear-facing child seat in the back seat",
+      "In a forward-facing child seat in the front seat",
+      "In a booster seat in the back seat",
+      "On an adult's lap, with the adult's belt fastened"
+    ],
+    "answer": 0,
+    "explanation": "Children under one year old must be secured in a rear-facing child restraint that meets federal standards, in the rear seat if the vehicle has one.",
+    "difficulty": 1,
+    "ref": "NMSA 1978, § 66-7-369(B)(1)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.043",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 3-year-old who weighs 38 pounds is riding in your car in New Mexico. What does the law require?",
+    "choices": [
+      "A child passenger restraint device (child safety seat)",
+      "A booster seat",
+      "An adult seat belt",
+      "No restraint, if the child sits in the back"
+    ],
+    "answer": 0,
+    "explanation": "Children ages 1 through 4, regardless of weight, and any child under 40 pounds must ride in a child safety seat (child passenger restraint device) that meets federal standards. A booster seat is not enough until the child is at least 5 and weighs 40 pounds or more.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-7-369(B)(2)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.044",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 6-year-old who weighs 50 pounds is riding in your car in New Mexico. What restraint is required?",
+    "choices": [
+      "A booster seat or child safety seat",
+      "An adult seat belt is enough",
+      "A rear-facing infant seat",
+      "No restraint in the back seat"
+    ],
+    "answer": 0,
+    "explanation": "Children 5 and 6 years old, and any older child under 60 pounds, must ride in a booster seat or an appropriate child safety seat. A properly fitting seat belt alone is allowed only from age 7 and 60 pounds.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-7-369(B)(3)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.045",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under New Mexico's child passenger law, passengers up to what age must always be properly restrained by a child seat, booster or seat belt?",
+    "choices": ["Under 12", "Under 16", "Under 18", "Under 21"],
+    "answer": 2,
+    "explanation": "A driver may not operate a passenger car, van or pickup unless all passengers under 18 are properly restrained, with specific child seats required for younger children. The 2019 Driver Manual's 'under 12' is outdated; the statute says under 18.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-7-369(A)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.046",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A New Mexico driver is stopped at a red light. May the driver read a text message on a hand-held phone?",
+    "choices": [
+      "No; the texting law applies while temporarily stopped in traffic or at a light",
+      "Yes, because the car is not moving",
+      "Yes, if the light stays red for more than 30 seconds",
+      "Only if the driver is 21 or older"
+    ],
+    "answer": 0,
+    "explanation": "Under New Mexico's texting law, 'driving' includes being temporarily stopped in traffic, at a light or at a stop sign. The ban does not apply once you have pulled off the roadway and stopped safely.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-7-374",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.047",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which use of a hand-held phone to text is allowed while driving under New Mexico's texting law?",
+    "choices": [
+      "Texting to summon medical or other emergency help",
+      "Reading a text while stopped at a stop sign",
+      "Typing a short reply while driving slowly",
+      "Reading an email in stop-and-go traffic"
+    ],
+    "answer": 0,
+    "explanation": "The texting ban has an exception for summoning medical or other emergency help (and for licensed amateur radio operators). Reading or typing messages in traffic or at a stop sign is not allowed.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-7-374(A)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.048",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under New Mexico state law, which drivers may not use a hand-held phone for any purpose, including calls, while driving?",
+    "choices": [
+      "Drivers of commercial motor vehicles",
+      "All drivers on all roads",
+      "Only drivers over 65",
+      "No drivers; state law restricts only texting"
+    ],
+    "answer": 0,
+    "explanation": "State law bans texting for all drivers and bans all hand-held phone use while driving a commercial motor vehicle. The Driver Manual also warns that some towns ban phone use unless you use a hands-free device.",
+    "difficulty": 3,
+    "ref": "NMSA 1978, §§ 66-7-374, 66-7-375; New Mexico Driver Manual, p. 33",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.049",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the speed limit in a posted New Mexico school zone?",
+    "choices": ["10 mph", "15 mph", "20 mph", "25 mph"],
+    "answer": 1,
+    "explanation": "The limit is 15 mph when passing a school in a properly posted school zone while children are going to or leaving school.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 15; NMSA 1978, § 66-7-301(A)(1)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.050",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless signs say otherwise, what is the speed limit in New Mexico business and residential areas?",
+    "choices": ["25 mph", "30 mph", "35 mph", "40 mph"],
+    "answer": 1,
+    "explanation": "The limit in business and residence districts is 30 mph unless a different limit is posted.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 15",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.051",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are driving on a New Mexico county road that has no posted speed limit. What is the maximum speed allowed?",
+    "choices": ["45 mph", "50 mph", "55 mph", "65 mph"],
+    "answer": 2,
+    "explanation": "State law sets 55 mph on county roads without a posted speed limit; the Driver Manual likewise lists 55 mph unless posted otherwise. Where a limit is posted, obey the sign.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-7-301(A)(3); New Mexico Driver Manual, p. 15",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.052",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless posted otherwise, what is the speed limit on New Mexico's rural interstate highways?",
+    "choices": ["65 mph", "70 mph", "75 mph", "80 mph"],
+    "answer": 2,
+    "explanation": "Rural interstates are limited to 75 mph unless posted otherwise, and 75 mph is the highest speed limit set by New Mexico law.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 15; NMSA 1978, § 66-7-301(A)(4)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.053",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are on a New Mexico highway with no minimum speed sign. What does the Driver Manual say about driving slowly?",
+    "choices": [
+      "Drive so that you do not interfere with the normal flow of traffic",
+      "Any slow speed is fine if your flashers are on",
+      "Always drive at least 10 mph under the limit",
+      "Keep to the left lane when you are slower than traffic"
+    ],
+    "answer": 0,
+    "explanation": "If no minimum speed is posted, drive so that you do not interfere with regular traffic flow, and stay on the right-hand side when you are slower than other vehicles.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, pp. 15-16",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.054",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What following distance does the New Mexico Driver Manual recommend in normal conditions?",
+    "choices": [
+      "At least 2 seconds",
+      "At least 3 seconds",
+      "At least 5 seconds",
+      "One car length for every 10 mph"
+    ],
+    "answer": 1,
+    "explanation": "Use the three-second rule: when the vehicle ahead passes a fixed point, count; if you reach the point before you finish counting to three, you are following too closely.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, pp. 26-27",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.055",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "When does the New Mexico Driver Manual say you may need a four-second following distance?",
+    "choices": [
+      "When following a motorcycle",
+      "When following a car on a dry, empty road",
+      "Only at speeds under 25 mph",
+      "Whenever you are in a residential area"
+    ],
+    "answer": 0,
+    "explanation": "Use four seconds on slippery roads, behind motorcycles, when towing or carrying a heavy load, behind emergency vehicles, when approaching railroad crossings, and when stopped on a hill.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 27",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.056",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the 'Four Second Sight Distance Rule' in the New Mexico Driver Manual used to check?",
+    "choices": [
+      "Whether you are driving too fast for how far ahead you can see",
+      "Whether you are following a truck too closely",
+      "How long to signal before a turn",
+      "When to dim your headlights"
+    ],
+    "answer": 0,
+    "explanation": "Pick a fixed object as far ahead as you can clearly see and count four seconds; if you reach it before you finish, slow down. It also helps you avoid over-driving your headlights at night.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 26",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.057",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "With good tires and brakes on dry pavement, about how much distance does the New Mexico Driver Manual say it can take to react and stop from 50 mph?",
+    "choices": ["About 100 feet", "About 200 feet", "About 400 feet", "About 800 feet"],
+    "answer": 2,
+    "explanation": "At 50 mph it can take about 400 feet, roughly a city block, to react and stop. At 30 mph it takes about 200 feet.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 25",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.058",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Your headlights let you see about 400 feet ahead. According to the New Mexico Driver Manual, about how fast can you drive and still stop within that distance?",
+    "choices": ["About 30 mph", "About 50 mph", "About 65 mph", "About 75 mph"],
+    "answer": 1,
+    "explanation": "Headlights reveal about 400 feet, and stopping from 50 mph takes about 400 feet, so drive no faster than about 50 mph at night to stop within your headlight range.",
+    "difficulty": 3,
+    "ref": "New Mexico Driver Manual, pp. 25-26",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.059",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "In very heavy rain or thick fog you can see only about 200 feet ahead. What does the New Mexico Driver Manual say is the fastest safe speed?",
+    "choices": ["20 mph", "30 mph", "40 mph", "50 mph"],
+    "answer": 1,
+    "explanation": "If you cannot see farther than about 200 feet, you cannot safely drive faster than 30 mph. In a very heavy downpour, pull off the road in a safe place and wait.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 26",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.060",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "On a wet road, about how much does the New Mexico Driver Manual tell you to reduce your speed?",
+    "choices": ["About 5 mph", "About 10 mph", "By half", "Not at all if your tires are new"],
+    "answer": 1,
+    "explanation": "Reduce speed about 10 mph on a wet road. On packed snow cut your speed in half, and on ice slow to a crawl.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 23",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.061",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "According to the New Mexico Driver Manual, in a heavy rain your tires can lose all traction with the road at about what speed?",
+    "choices": ["25 mph", "35 mph", "50 mph", "70 mph"],
+    "answer": 2,
+    "explanation": "Most tires grip well up to about 35 mph on wet roads, but in a heavy rain they can hydroplane and lose all traction at about 50 mph, or lower with worn tires.",
+    "difficulty": 3,
+    "ref": "New Mexico Driver Manual, pp. 23-24",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.062",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When does New Mexico law require you to have your headlights on?",
+    "choices": [
+      "From a half-hour after sunset to a half-hour before sunrise, and whenever people and vehicles can't be clearly seen 500 feet ahead",
+      "Only from midnight to 5 a.m.",
+      "Only from one hour after sunset to one hour before sunrise",
+      "Only when it is raining or snowing"
+    ],
+    "answer": 0,
+    "explanation": "Lights are required from a half-hour after sunset to a half-hour before sunrise and any other time there is not enough light to clearly see people and vehicles 500 feet ahead.",
+    "difficulty": 1,
+    "ref": "NMSA 1978, § 66-3-802(A)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.063",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "In New Mexico, you must switch from high beams to low beams when an oncoming vehicle is within:",
+    "choices": ["200 feet", "300 feet", "500 feet", "1,000 feet"],
+    "answer": 2,
+    "explanation": "Dim your headlights when an oncoming vehicle is within 500 feet (the manual describes this as about one block). When following another vehicle, dim within 200 feet.",
+    "difficulty": 1,
+    "ref": "NMSA 1978, § 66-3-831(A); New Mexico Driver Manual, p. 21",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.064",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When following another vehicle at night in New Mexico, you should use low beams within:",
+    "choices": ["100 feet", "200 feet", "300 feet", "500 feet"],
+    "answer": 1,
+    "explanation": "Use your low beams within 200 feet when following another vehicle or in heavy traffic so your high beams don't glare into the driver's mirrors.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 21",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.065",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "According to the New Mexico Driver Manual, in which part of the state should drivers especially watch for elk?",
+    "choices": [
+      "The western three-quarters of the state",
+      "Only the far southeastern corner",
+      "Only inside city limits",
+      "Only along the Texas border"
+    ],
+    "answer": 0,
+    "explanation": "Deer live all over the state; watch for elk in the western three-quarters, pronghorn antelope in the east and on open plains, and black bears and cougars in the mountains.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 24",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.066",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You pass a deer that has been hit by a car on the shoulder of a New Mexico highway. What does the Driver Manual say this should tell you?",
+    "choices": [
+      "You may be in an animal crossing area, so slow down",
+      "Other animals have probably left the area",
+      "You should stop and move the animal off the road",
+      "Nothing; it does not affect your driving"
+    ],
+    "answer": 0,
+    "explanation": "If you see animals that have been hit, slow down: you may be in an animal crossing area. Assume animals won't get out of your way, and remember that where one crosses, more may follow.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 24",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.067",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "About how large a gap in traffic does the New Mexico Driver Manual say you need to merge or change lanes safely?",
+    "choices": ["About 2 seconds", "About 4 seconds", "About 6 seconds", "About 10 seconds"],
+    "answer": 1,
+    "explanation": "You need a gap of about four seconds. If you move into the middle of it, both you and the vehicle now behind you have a two-second following distance.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 27",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.068",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "At 55 mph on a two-lane road, about how much time does the New Mexico Driver Manual say you need to pass another vehicle?",
+    "choices": ["About 3 seconds", "About 5 seconds", "About 10 seconds", "About 20 seconds"],
+    "answer": 2,
+    "explanation": "At 55 mph you need about 10 seconds to pass, so you need a 10-second gap in oncoming traffic and enough sight distance.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 28",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.069",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "According to the New Mexico Driver Manual, you should not start to pass if you are within what distance of a hill or curve?",
+    "choices": ["One-tenth of a mile", "One-third of a mile", "One-half of a mile", "One mile"],
+    "answer": 1,
+    "explanation": "You need to see at least one-third of a mile (about 10 seconds) ahead. Treat a hill or curve like an oncoming vehicle and don't start to pass within one-third of a mile of it.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 28",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.070",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How close to a fire hydrant may you park in New Mexico?",
+    "choices": ["No closer than 10 feet", "No closer than 15 feet", "No closer than 20 feet", "No closer than 30 feet"],
+    "answer": 1,
+    "explanation": "Do not park within 15 feet of a fire hydrant.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 16",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.071",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Under New Mexico law, you may not park within how many feet of a crosswalk at an intersection?",
+    "choices": ["10 feet", "15 feet", "20 feet", "30 feet"],
+    "answer": 2,
+    "explanation": "State law bans stopping, standing or parking on a crosswalk or within 20 feet of a crosswalk at an intersection. (The 2019 Driver Manual's parking list says 25 feet; the statute says 20.)",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-7-351(A)(6)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.072",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In New Mexico, you may not park within how many feet of a stop sign or traffic signal?",
+    "choices": ["15 feet", "20 feet", "30 feet", "50 feet"],
+    "answer": 2,
+    "explanation": "Do not park within 30 feet of a stop sign or traffic signal on the approach to it.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 16; NMSA 1978, § 66-7-351(A)(7)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.073",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "What is the closest you may park to a railroad crossing in New Mexico?",
+    "choices": ["15 feet", "25 feet", "50 feet", "100 feet"],
+    "answer": 2,
+    "explanation": "Do not park within 50 feet of a railroad crossing, measured from the nearest rail.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 16",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.074",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You want to park across the street from the entrance to a New Mexico fire station. How far from the entrance must you stay?",
+    "choices": ["20 feet", "50 feet", "75 feet", "100 feet"],
+    "answer": 2,
+    "explanation": "Do not park within 75 feet of a fire station entrance on the opposite side of the street, or within 20 feet of its driveway on the same side.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 16",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.075",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "When you park next to a curb in New Mexico, your wheels must be no more than how far from the curb?",
+    "choices": ["6 inches", "12 inches", "18 inches", "24 inches"],
+    "answer": 2,
+    "explanation": "Park with your wheels parallel to and within 18 inches of the curb.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 16",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.076",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "What does a red-painted curb mean in New Mexico?",
+    "choices": [
+      "A fire zone where no parking or standing is allowed",
+      "A loading zone",
+      "Only short stops are allowed",
+      "Parking for people with disabilities only"
+    ],
+    "answer": 0,
+    "explanation": "Red curbs mark fire zones with no parking or standing. White means short stops only, yellow a loading zone or other restriction, and blue disabled parking only.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 17",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.077",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "In New Mexico, how closely may you follow a fire truck that is responding to an alarm?",
+    "choices": ["No closer than 200 feet", "No closer than 300 feet", "No closer than 500 feet", "No closer than 1,000 feet"],
+    "answer": 2,
+    "explanation": "Unless you are on official business, you may not follow fire apparatus answering an alarm closer than 500 feet, or park within the block where it has stopped.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-7-361(A)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.078",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You approach a tow truck stopped on the shoulder of a New Mexico highway with its hazard lights flashing. What does the Move Over law require?",
+    "choices": [
+      "Move to a lane not next to it if safe; otherwise slow down and be prepared to stop",
+      "Nothing; the law covers only police cars and ambulances",
+      "Sound your horn to warn the driver",
+      "Stop in your lane until the tow truck leaves"
+    ],
+    "answer": 0,
+    "explanation": "New Mexico's Move Over law covers stationary emergency vehicles and recovery or repair vehicles with flashing emergency or hazard lights: change to a non-adjacent lane if it is safe, or slow down, proceed with caution and be prepared to stop.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-7-332(B)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.079",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A police car is stopped on the shoulder of a New Mexico highway with its emergency lights flashing, and heavy traffic keeps you from changing lanes safely. What must you do?",
+    "choices": [
+      "Slow to a reasonable and prudent speed, proceed with caution and be prepared to stop",
+      "Keep your speed, since you cannot change lanes",
+      "Stop in your lane until the officer leaves",
+      "Drive on the left shoulder to give extra room"
+    ],
+    "answer": 0,
+    "explanation": "If moving to a lane not next to the stopped vehicle is not safe, you must slow to a speed that is reasonable and prudent, proceed with caution and be prepared to stop.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-7-332(B)(2)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.080",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "On a two-lane New Mexico road, an oncoming car is passing another vehicle and is coming toward you in your lane. What does New Mexico law require you to do?",
+    "choices": [
+      "Yield, move as far right as possible and stay there until it has passed",
+      "Hold your lane position and flash your headlights",
+      "Speed up so the passing car has to drop back",
+      "Move left to go around it"
+    ],
+    "answer": 0,
+    "explanation": "When an oncoming vehicle is overtaking another vehicle, you must yield and drive as close as possible to the right edge or curb, staying there until it has passed.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-7-332.1",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.081",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "The pedestrian in the picture is carrying a white cane. Under New Mexico's White Cane Law, what happens to a driver who fails to take the necessary precautions to avoid injuring such a pedestrian?",
+    "sign": "SCN-INT-WHITE-CANE",
+    "choices": [
+      "The driver is liable for damages for any injury caused",
+      "Nothing, if the pedestrian was outside a crosswalk",
+      "The pedestrian is considered at fault",
+      "The driver receives only a warning"
+    ],
+    "answer": 0,
+    "explanation": "The White Cane Law (28-7-1 NMSA) requires drivers to take all necessary precautions for blind or visually impaired pedestrians using a white or metallic cane or a guide dog; a driver who fails to is liable for damages.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 14",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.082",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A pedestrian starts across the street in front of you against a 'Don't Walk' signal. What does the New Mexico Driver Manual say you must do?",
+    "choices": [
+      "Yield to the pedestrian anyway",
+      "Continue, because the pedestrian is breaking the law",
+      "Honk and keep going at the same speed",
+      "Yield only if the pedestrian is a child"
+    ],
+    "answer": 0,
+    "explanation": "You must always yield to a pedestrian, even one who is not obeying traffic controls, and do everything you can to avoid striking anyone.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 14",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.083",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A train is approaching a railroad crossing in New Mexico. Where must you stop?",
+    "choices": [
+      "Between 15 and 50 feet from the nearest rail",
+      "Between 5 and 10 feet from the nearest rail",
+      "Right at the edge of the tracks",
+      "At least 100 feet from the tracks"
+    ],
+    "answer": 0,
+    "explanation": "Stop no more than 50 feet and no less than 15 feet from the nearest rail when a train is approaching or visible, its horn can be heard, or signals, gates or an officer tell you to stop.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-7-341(A)(2)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.084",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "When may you turn right on a red light in New Mexico?",
+    "choices": [
+      "After a full stop, if it is safe and no sign prohibits the turn",
+      "Only when a green arrow is shown",
+      "Without stopping, if no cars are coming",
+      "Never in a business district"
+    ],
+    "answer": 0,
+    "explanation": "After coming to a full stop, you may turn right on red if it is safe and no sign prohibits the turn. Watch for pedestrians crossing in front of you.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 7",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.085",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "How far before a turn must you begin signaling in New Mexico?",
+    "choices": ["At least 50 feet", "At least 100 feet", "At least 200 feet", "At least 300 feet"],
+    "answer": 1,
+    "explanation": "Signal continuously during at least the last 100 feet before you turn.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 22; NMSA 1978, § 66-7-325(B)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.086",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "In New Mexico, when may you turn left on a red light?",
+    "choices": [
+      "From a one-way street onto another one-way street, after stopping, unless prohibited",
+      "From a two-way street onto a one-way street",
+      "Never; left turns on red are always illegal",
+      "Whenever no oncoming traffic is visible"
+    ],
+    "answer": 0,
+    "explanation": "Unless a sign prohibits it, you may turn left on red from a one-way street onto another one-way street after stopping and yielding to pedestrians and traffic.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 19; NMSA 1978, § 66-7-105(C)(2)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.087",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Under current New Mexico law (enacted in 2023), how far may you drive in a two-way center left-turn lane like this one before making your left turn?",
+    "sign": "PH-CENTER-TURN-LANE",
+    "choices": [
+      "No more than 100 feet",
+      "No more than 200 feet",
+      "No more than 500 feet",
+      "Any distance, as long as you signal"
+    ],
+    "answer": 1,
+    "explanation": "Since 2023, state law limits driving in a two-way left-turn lane to 200 feet while preparing for and making a left turn; the lane is never a passing or travel lane. This rule is newer than the 2019 Driver Manual.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-7-376(B)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.088",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are turning left out of a driveway onto a busy New Mexico road that has a two-way center left-turn lane. Under current state law (2023), how may you use the center lane?",
+    "choices": [
+      "Stop in it as a staging area, then merge when traffic in your direction is clear",
+      "Never; you must wait for a gap in both directions at once",
+      "Drive in it for a quarter mile to build up speed",
+      "Only if the center lane is empty for the next block"
+    ],
+    "answer": 0,
+    "explanation": "Since 2023, a driver turning left onto the roadway may use the two-way left-turn lane as a staging area, stopping there until traffic going the same direction clears before merging. This rule is newer than the 2019 Driver Manual.",
+    "difficulty": 3,
+    "ref": "NMSA 1978, § 66-7-376(B)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.089",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Car A is on this two-lane New Mexico road, approaching the stopped school bus from the opposite direction. What must car A's driver do?",
+    "sign": "SCN-SCHOOL-BUS-2LANE",
+    "choices": [
+      "Stop at least 10 feet from the bus until its red lights stop flashing or it moves on",
+      "Slow down and pass carefully",
+      "Continue, because the bus is in the other lane",
+      "Stop only if children are crossing in front of car A"
+    ],
+    "answer": 0,
+    "explanation": "On a road with no median or barrier, traffic from both directions must stop at least 10 feet from a school bus with its signals on, and wait until the signals go off, the bus moves or the driver waves you on.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 15; NMSA 1978, § 66-7-347(A)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.090",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "How far from a school bus with flashing red signals must you stop in New Mexico?",
+    "choices": ["At least 5 feet", "At least 10 feet", "At least 20 feet", "At least 50 feet"],
+    "answer": 1,
+    "explanation": "New Mexico law requires you to stop at least 10 feet before reaching a school bus that is loading or unloading children with its special signals on.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-7-347(A)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.091",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A school bus with flashing red lights is stopped on the far side of a median like this one, facing the other direction. Do you have to stop in New Mexico?",
+    "sign": "PH-DIVIDED-HIGHWAY-MEDIAN",
+    "choices": [
+      "No; you need not stop when a median or physical barrier separates you from the bus",
+      "Yes; all traffic must stop for a school bus",
+      "Yes, but only if children are visible",
+      "Yes, if you are in the lane closest to the median"
+    ],
+    "answer": 0,
+    "explanation": "You are not required to stop for a bus traveling toward you when the roadway is separated by a median or other physical barrier. Otherwise you must stop whether the bus is on your side, the opposite side or at an intersection ahead.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 15; NMSA 1978, § 66-7-347(C)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.092",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Car A wants to pass bicyclist C. How much clearance does the New Mexico Driver Manual tell drivers to try to give a bicyclist when passing?",
+    "sign": "SCN-PASS-BICYCLE",
+    "choices": ["At least 2 feet", "At least 3 feet", "At least 5 feet", "At least 10 feet"],
+    "answer": 2,
+    "explanation": "Keep a safe distance when passing a bicyclist, trying for at least five feet, and pass only when it is safe and legal; here car A must also wait for oncoming car B to go by.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, pp. 28-29",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.093",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A bicyclist approaches a stop sign in New Mexico, and no pedestrian, bicycle or vehicle with the right-of-way is coming. Under current state law (in effect since 2025), what may the cyclist do?",
+    "choices": [
+      "Ride through the intersection without stopping",
+      "Ride through only after a full stop and a three-second wait",
+      "Cross only by walking the bicycle",
+      "Nothing different; cyclists must stop exactly like cars"
+    ],
+    "answer": 0,
+    "explanation": "Since 2025, a cyclist may treat a stop sign like a yield sign: if no one with the right-of-way is approaching, the cyclist may proceed without stopping. This law is newer than the 2019 Driver Manual, so drivers should expect it at intersections.",
+    "difficulty": 3,
+    "ref": "NMSA 1978, § 66-7-345(E)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.094",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "The New Mexico Driver Manual says an average car at 55 mph can stop in about 400 feet. About how far could a large truck need to stop from the same speed?",
+    "choices": ["About 500 feet", "About 600 feet", "Almost 800 feet", "About 1,500 feet"],
+    "answer": 2,
+    "explanation": "A large truck at 55 mph could need almost 800 feet to stop, about twice a car's distance, so never pull in front of a big rig and then slow down suddenly.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 30",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.095",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You are involved in a crash in a New Mexico city in which someone is injured. When must police be notified?",
+    "choices": [
+      "Immediately, by the quickest means available",
+      "Within 5 days, in writing only",
+      "Within 30 days",
+      "Only if a vehicle must be towed"
+    ],
+    "answer": 0,
+    "explanation": "A driver in a crash causing injury, death or apparent property damage of $500 or more must immediately notify police by the quickest means. A written report is also due within five days.",
+    "difficulty": 1,
+    "ref": "NMSA 1978, § 66-7-206",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.096",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "If no one is hurt, a New Mexico crash must be reported to police when apparent property damage is at least:",
+    "choices": ["$250", "$500", "$1,000", "$2,500"],
+    "answer": 1,
+    "explanation": "A crash with apparent property damage of $500 or more, or any injury or death, must be reported to police immediately. The driver must also send a written report to the Department of Transportation within five days.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, §§ 66-7-206, 66-7-207",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.097",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Within how many days must a New Mexico driver send a written report of a crash involving injury, death or $500 or more in damage?",
+    "choices": ["5 days", "10 days", "30 days", "60 days"],
+    "answer": 0,
+    "explanation": "The driver must forward a written crash report to the New Mexico Department of Transportation within five days after the accident.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-7-207(A)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.098",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "A reportable crash happens on a rural New Mexico highway, outside any city. Whom must the driver notify?",
+    "choices": [
+      "The county sheriff's office or the nearest New Mexico State Police office",
+      "The police department of the nearest town",
+      "Only the insurance company",
+      "The nearest MVD field office"
+    ],
+    "answer": 0,
+    "explanation": "Inside a municipality you notify the city police; elsewhere you notify the county sheriff's office or the nearest New Mexico State Police office, by the quickest means available.",
+    "difficulty": 3,
+    "ref": "NMSA 1978, § 66-7-206",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.099",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are on a rural New Mexico interstate posted at 75 mph, and snow starts to fall. What does the Driver Manual say about your speed?",
+    "choices": [
+      "Slow down: the maximum limit is meant only for ideal conditions",
+      "Keep driving 75 mph, since that is the posted limit",
+      "Stay at 65 mph or faster so you do not block traffic",
+      "Turn on your flashers and keep your speed"
+    ],
+    "answer": 0,
+    "explanation": "The maximum limit should be driven only in ideal conditions; you must slow down when the road is slippery or in rain, snow, ice or fog. State law also requires you to control your speed as needed to avoid a collision.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 9; NMSA 1978, § 66-7-301(B)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.car.100",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In which of these places does New Mexico law prohibit parking?",
+    "choices": [
+      "Within an intersection",
+      "25 feet from a fire hydrant",
+      "40 feet before a stop sign",
+      "60 feet from a railroad crossing"
+    ],
+    "answer": 0,
+    "explanation": "Parking within an intersection is prohibited. The other spots are beyond New Mexico's minimum distances: 15 feet from a hydrant, 30 feet before a stop sign and 50 feet from the nearest rail of a crossing.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 16; NMSA 1978, § 66-7-351(A)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Who must wear a helmet when riding a motorcycle in New Mexico?",
+    "choices": [
+      "Riders and passengers under 18",
+      "All riders and passengers",
+      "Only riders under 21",
+      "Only passengers, of any age"
+    ],
+    "answer": 0,
+    "explanation": "New Mexico law requires motorcycle operators and passengers under 18 to wear a securely fastened, approved helmet. The manual recommends helmets for all riders.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 40",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "You are 25 and plan to carry your 16-year-old cousin on your motorcycle in New Mexico. What does the helmet law require?",
+    "choices": [
+      "Your cousin must wear a helmet; for you it is recommended but not required",
+      "No helmet is required for either of you",
+      "You and your cousin must each wear a helmet",
+      "Only you must wear one, as the operator"
+    ],
+    "answer": 0,
+    "explanation": "No one may carry a passenger under 18 unless the passenger wears a securely fastened approved helmet. Operators 18 and older are not required to wear one, though the manual recommends it.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-7-356(A)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Your motorcycle has no windshield. What does New Mexico law require you to wear?",
+    "choices": [
+      "Eye protection, such as a helmet face shield, goggles or safety glasses",
+      "Nothing; eye protection is only recommended",
+      "A full-face helmet",
+      "Reflective clothing"
+    ],
+    "answer": 0,
+    "explanation": "A rider whose motorcycle lacks an approved fixed windshield must wear an eye protective device: a face shield attached to a helmet, goggles or safety eyeglasses.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-7-355(B)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "May a New Mexico motorcycle instruction permit holder carry a passenger?",
+    "choices": [
+      "No, not while riding on the permit",
+      "Yes, if the passenger is a licensed rider",
+      "Yes, during daylight only",
+      "Yes, if both wear helmets"
+    ],
+    "answer": 0,
+    "explanation": "A holder of a motorcycle instruction permit may not carry any other passenger while operating a motorcycle.",
+    "difficulty": 1,
+    "ref": "NMSA 1978, § 66-5-8(H)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "When a New Mexico motorcycle permit holder rides under supervision, where must the supervising licensed driver be?",
+    "choices": [
+      "Following the learner",
+      "Riding as the learner's passenger",
+      "Leading the learner from in front",
+      "Waiting at the destination"
+    ],
+    "answer": 0,
+    "explanation": "On motorcycles, the supervising licensed driver must follow the learner. In cars, the supervisor sits in the right front seat.",
+    "difficulty": 2,
+    "ref": "New Mexico Driver Manual, p. 4",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What must a New Mexico applicant under 18 complete before getting a motorcycle license?",
+    "choices": [
+      "An approved motorcycle driver education course, such as the MSF Basic RiderCourse",
+      "Only the written test",
+      "100 hours of supervised riding",
+      "One year of holding a car license"
+    ],
+    "answer": 0,
+    "explanation": "A motorcycle driver under 18 cannot be licensed without proof of completing an approved motorcycle driver education program.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-5-5(J); NM MVD Driver Procedures Manual, Ch. 11, Sec. E",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "In New Mexico, what is the youngest age at which a person can get a license restricted to motorcycles of 100 cc or less?",
+    "choices": ["13", "14", "15", "16"],
+    "answer": 0,
+    "explanation": "A person 13 or older who passes the required exam may get a license restricted to motorcycles of 100 cc or less, and an initial license holder may not carry passengers.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-5-5(A)(4)",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What score is needed to pass the New Mexico Class M (motorcycle) written test?",
+    "choices": ["60%", "70%", "80%", "90%"],
+    "answer": 1,
+    "explanation": "Class D and Class M written tests both require a score of 70% or better.",
+    "difficulty": 1,
+    "ref": "NM MVD Driver Procedures Manual, Ch. 11, Sec. E",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What does the New Mexico Driver Manual say about lane sharing, such as riding between cars in the same lane?",
+    "choices": [
+      "It is usually prohibited, because cars and motorcycles each need a full lane",
+      "It is allowed in stopped traffic",
+      "It is allowed at speeds under 30 mph",
+      "It is allowed only on interstates"
+    ],
+    "answer": 0,
+    "explanation": "Cars and motorcycles need a full lane to operate safely, and lane sharing is usually prohibited. Keep a lane position that discourages drivers from squeezing past you.",
+    "difficulty": 1,
+    "ref": "New Mexico Driver Manual, p. 39",
+    "states": ["NM"]
+  },
+  {
+    "id": "nm.mc.010",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Under New Mexico law, when may a motorcyclist carry a passenger?",
+    "choices": [
+      "Only if the motorcycle is designed to carry more than one person, with a proper seat and passenger footrests",
+      "Any time the passenger holds on to the rider",
+      "Only on roads with limits under 45 mph",
+      "Only if the passenger is 21 or older"
+    ],
+    "answer": 0,
+    "explanation": "A passenger may ride only on a motorcycle designed for more than one person, on a seat made for two or one firmly attached, with feet on the passenger footrests.",
+    "difficulty": 2,
+    "ref": "NMSA 1978, § 66-7-355(A)",
+    "states": ["NM"]
+  }
+]
