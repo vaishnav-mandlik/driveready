@@ -12,7 +12,8 @@
     "content:check": "node scripts/validate-content.mjs",
     "typecheck": "tsc --noEmit",
     "content:release": "node scripts/publish-content.mjs --out ../research/release-preview",
-    "content:publish": "node scripts/publish-content.mjs --upload"
+    "content:publish": "node scripts/publish-content.mjs --upload",
+    "content:verify": "node scripts/check-content-index.mjs"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^3.1.1",

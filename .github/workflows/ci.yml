@@ -1,0 +1,38 @@
+# Runs on every push and pull request: the same checks agents run locally before committing.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci
+      - name: Typecheck
+        run: npx tsc --noEmit
+      - name: Unit, screen and app tests
+        run: npx jest --ci
+      - name: Content validation (questions, lessons, states, translations)
+        run: node scripts/validate-content.mjs --quiet
+      - name: Content index is current (files exist, hashes match)
+        run: node scripts/check-content-index.mjs
+      - name: Content-update signer matches the AWS SigV4 test vector
+        run: node scripts/publish-content.mjs --self-test
