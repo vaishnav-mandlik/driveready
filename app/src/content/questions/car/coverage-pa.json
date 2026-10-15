@@ -1,0 +1,419 @@
+[
+  {
+    "id": "car.cvpa.001",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "A yellow EXIT ONLY panel appears on the overhead sign above the lane you are driving in. What does it mean?",
+    "choices": [
+      "Traffic entering from the ramp must leave at the next exit",
+      "The exit ahead is closed, so continue in this lane",
+      "Stay in that lane only if you plan to take the exit",
+      "Only trucks and buses may leave the highway here"
+    ],
+    "answer": 2,
+    "explanation": "An EXIT ONLY panel means the lane under it does not continue through the interchange; it becomes the exit ramp. If you want to stay on the highway, move out of that lane early.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. PA p.23)"
+  },
+  {
+    "id": "car.cvpa.002",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "Why is the road condition this sign warns about dangerous?",
+    "choices": [
+      "Dropping a wheel off the edge can cost you control",
+      "The shoulder ahead is open only to emergency vehicles",
+      "The pavement ahead turns slick whenever it rains",
+      "The road narrows to one lane shared by both directions"
+    ],
+    "answer": 0,
+    "explanation": "This sign warns that the shoulder is lower than the pavement. If a wheel drops off, do not brake hard or jerk the wheel back; ease off the gas and steer back gently when it is safe, or you could lose control.",
+    "sign": "W8-9",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. PA p.20, FL p.58)"
+  },
+  {
+    "id": "car.cvpa.003",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You are turning left on a green arrow. The arrow goes off and only a circular green light remains. What may you do?",
+    "choices": [
+      "Keep turning without yielding, since your light is still green",
+      "Go straight only, because left turns ended with the arrow",
+      "Stop and wait for the arrow to light up again",
+      "Turn left after yielding to oncoming traffic and pedestrians"
+    ],
+    "answer": 3,
+    "explanation": "When the green arrow changes to a circular green, you may still turn, but the turn is no longer protected: oncoming traffic may now have a green light. Yield to oncoming vehicles and pedestrians first.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. PA p.11, NC p.82)"
+  },
+  {
+    "id": "car.cvpa.004",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "In a work zone, a large flashing arrow board shows a flashing bar or flashing corner lights instead of an arrow. What does it mean?",
+    "choices": [
+      "Your lane is closed, so merge left right away",
+      "Work is going on near the travel lane, so drive with extra caution",
+      "The board is broken, so you can ignore it",
+      "All traffic must stop until a flagger waves you on"
+    ],
+    "answer": 1,
+    "explanation": "An arrow on the board tells you to move or merge in that direction. A bar or flashing corners (caution mode) means there is work beside the travel lanes ahead, with no merge required, so slow down and stay alert.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. PA p.23, IL p.76)"
+  },
+  {
+    "id": "car.cvpa.005",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "On a two-lane road with a double solid yellow center line, you want to turn left into a driveway. What is true?",
+    "choices": [
+      "You must drive past and turn around, since the lines may never be crossed",
+      "You may cross them only if no traffic is in sight for a mile",
+      "You may cross the lines to make the turn when it is safe",
+      "You may cross them only during daylight hours"
+    ],
+    "answer": 2,
+    "explanation": "Solid yellow center lines mean no passing, but you may cross them to turn left into or out of a driveway, alley or private road when it is safe.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. PA p.26, CA p.19)"
+  },
+  {
+    "id": "car.cvpa.006",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "When are teen drivers statistically more likely to crash?",
+    "choices": [
+      "When they carry other teens as passengers",
+      "When they drive alone",
+      "When a licensed adult rides in the front passenger seat",
+      "When a parent is supervising"
+    ],
+    "answer": 0,
+    "explanation": "Teen drivers with teen passengers are more likely to crash than when they drive alone or with adult passengers, because friends can distract them and encourage risk-taking. That is one reason many states limit teen passengers.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. PA p.36)"
+  },
+  {
+    "id": "car.cvpa.007",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "How does smoking while driving affect safety?",
+    "choices": [
+      "It is not a distraction, because it does not involve a phone or a screen",
+      "It helps you stay alert on long trips",
+      "It only matters when the windows are closed",
+      "It is a distraction that can take your eyes and hands off driving"
+    ],
+    "answer": 3,
+    "explanation": "Lighting, holding and putting out a cigarette are distractions: they can take your hands off the wheel, your eyes off the road and your attention off driving.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. PA p.36, TX p.60)"
+  },
+  {
+    "id": "car.cvpa.008",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You must slow down where drivers behind you may not expect it, such as just before a hidden driveway. How can you warn them early?",
+    "choices": [
+      "Switch your headlights to high beam",
+      "Tap your brake pedal lightly a few times",
+      "Honk twice before you brake",
+      "Brake hard so they notice your lights sooner"
+    ],
+    "answer": 1,
+    "explanation": "Lightly tapping the brake pedal a few times flashes your brake lights and warns drivers behind you that you are about to slow or stop. Sudden hard braking invites a rear-end crash.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. PA p.48, CA p.18)"
+  },
+  {
+    "id": "car.cvpa.009",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "What is the best way to see what is behind you while you back up?",
+    "choices": [
+      "Watch only the backup camera screen",
+      "Use only your side mirrors",
+      "Turn your head and look back through the rear window",
+      "Open your door and lean out to look back"
+    ],
+    "answer": 2,
+    "explanation": "Mirrors and cameras leave blind spots. Check behind the vehicle before you get in, then turn your head and look through the rear window while you back up slowly.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. PA p.42, NY p.42)"
+  },
+  {
+    "id": "car.cvpa.010",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Why do driving handbooks stress letting other road users know where you are and what you plan to do?",
+    "choices": [
+      "It gives you the right-of-way over them",
+      "It lets you skip checking your mirrors",
+      "It matters only on highways",
+      "It helps them predict your moves, which helps prevent crashes"
+    ],
+    "answer": 3,
+    "explanation": "Using your turn signals, brake lights, headlights and, when needed, your horn lets others see you and react in time. Signaling does not give you the right-of-way.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. PA p.48, CA p.17)"
+  },
+  {
+    "id": "car.cvpa.011",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "Your car's turn signals stop working during a trip. How should you signal turns until they are fixed?",
+    "choices": [
+      "Use arm and hand signals out the driver's window",
+      "Flash your headlights before each turn",
+      "Turn on your hazard flashers each time you are about to turn",
+      "Tap the horn once for left and twice for right"
+    ],
+    "answer": 0,
+    "explanation": "If your turn signals fail, use hand signals: left arm straight out for a left turn, forearm pointing up for a right turn, and forearm pointing down to slow or stop.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. PA p.48, TX p.44)"
+  },
+  {
+    "id": "car.cvpa.012",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "In which of these situations is it most appropriate to sound your horn?",
+    "choices": [
+      "You are passing a bicyclist on a narrow road",
+      "A child near the curb is about to run into the street",
+      "The driver ahead is slow to finish a turn",
+      "You are parallel parking and want others to wait"
+    ],
+    "answer": 1,
+    "explanation": "Use your horn when a crash is possible and someone may not see you, such as a child starting to run into the street. Do not honk at bicyclists or to hurry or scold other drivers.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. PA p.48, CA p.17, OH p.8)"
+  },
+  {
+    "id": "car.cvpa.013",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Your car slides on ice and you cannot stop it from heading toward people at a bus stop. Besides working to regain control, what should you do?",
+    "choices": [
+      "Flash your high beams at them",
+      "Turn on your hazard flashers only",
+      "Sound your horn to warn them",
+      "Turn the engine off right away"
+    ],
+    "answer": 2,
+    "explanation": "If you lose control of your vehicle, sound your horn to alert people nearby while you keep steering and braking to regain control.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. PA p.48)"
+  },
+  {
+    "id": "car.cvpa.014",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "What do your brake lights tell drivers behind you?",
+    "choices": [
+      "That you are about to change lanes",
+      "That you are slowing down or stopping",
+      "That your parking brake is set and the car is parked",
+      "That you are about to turn"
+    ],
+    "answer": 1,
+    "explanation": "Brake lights come on when you press the brake pedal, warning drivers behind you that you are slowing or stopping. Turn signals, not brake lights, show turns and lane changes.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. PA p.48)"
+  },
+  {
+    "id": "car.cvpa.015",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "A driver backing out of a driveway is about to back into the side of your moving car and does not seem to see you. What should you do?",
+    "choices": [
+      "Sound your horn to warn the driver",
+      "Flash your headlights at the driver",
+      "Wave your arm out the window",
+      "Turn on your hazard flashers"
+    ],
+    "answer": 0,
+    "explanation": "Your horn gets attention instantly. Use it when you think another vehicle is about to hit you, and be ready to brake or steer away.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. PA p.48, CA p.17)"
+  },
+  {
+    "id": "car.cvpa.016",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "How does driving after going without enough sleep compare with driving after drinking alcohol?",
+    "choices": [
+      "Being tired affects only your eyesight, not your judgment",
+      "It is much safer, because tiredness fades once you start driving",
+      "Tiredness has no effect if you drink coffee first",
+      "The effects are similar: slower reactions and poorer judgment"
+    ],
+    "answer": 3,
+    "explanation": "Fatigue impairs driving much like alcohol. Being awake for about 18 hours affects driving about as much as a .05 BAC, and 24 hours about as much as .10. Only sleep cures drowsiness.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. PA p.37, FL p.43)"
+  },
+  {
+    "id": "car.cvpa.017",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "What are the main causes of deadly crashes in highway work zones?",
+    "choices": [
+      "Wet paint and loose gravel",
+      "Workers stepping into traffic",
+      "Speeding and careless driving",
+      "Construction equipment breaking down"
+    ],
+    "answer": 2,
+    "explanation": "Carelessness and speeding are the main causes of work zone fatalities. Slow down, stay alert, obey work zone signs and leave extra following distance.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. PA p.58)"
+  },
+  {
+    "id": "car.cvpa.018",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "On a road with one lane in each direction, when may you pass the vehicle ahead on its right?",
+    "choices": [
+      "Whenever it is going below the speed limit",
+      "When it is turning left and you can pass safely",
+      "When it is a large truck climbing a hill",
+      "Never, under any circumstances"
+    ],
+    "answer": 1,
+    "explanation": "Passing on the right is allowed only in limited cases, such as when the vehicle ahead is making or about to make a left turn, and only when you can do it safely.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. PA p.51)"
+  },
+  {
+    "id": "car.cvpa.019",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You are in the center lane at an intersection, and the arrow painted in your lane points both straight ahead and to the left. What may you do?",
+    "choices": [
+      "Go straight or turn left",
+      "Turn left only",
+      "Go straight only",
+      "Go straight, turn left or turn right"
+    ],
+    "answer": 0,
+    "explanation": "Lane-use arrows show the moves allowed from each lane. A combined straight-and-left arrow means you may go straight or turn left from that lane, but not turn right.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. PA p.53)"
+  },
+  {
+    "id": "car.cvpa.020",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are stopping behind another car on a steep uphill street. Why should you leave extra space in front of you?",
+    "choices": [
+      "Your brakes work poorly when you face uphill",
+      "Drivers behind you need room to see the traffic light",
+      "It keeps your engine from overheating",
+      "The car ahead may roll back when it starts to move"
+    ],
+    "answer": 3,
+    "explanation": "On an upgrade, the vehicle ahead may roll backward as it starts to move, so leave a larger space cushion when you stop behind it.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. PA p.40, FL p.69)"
+  },
+  {
+    "id": "car.cvpa.021",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "What should you do with your speed when you make a turn?",
+    "choices": [
+      "Keep the speed you had before the turn",
+      "Speed up to clear the intersection faster",
+      "Reduce it so you stay in control and in your lane",
+      "Brake hard in the middle of the turn"
+    ],
+    "answer": 2,
+    "explanation": "Speed is the most important factor in a turn. Slow down to a speed that lets you control the car, stay in your lane and react to pedestrians and other traffic.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. PA p.49)"
+  },
+  {
+    "id": "car.cvpa.022",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "The amount of space you need to cross or turn across traffic safely depends on what?",
+    "choices": [
+      "Only whether you used your turn signal",
+      "The road, the weather and the oncoming traffic",
+      "Only how many cars are waiting behind you",
+      "Whether you have a stop sign or a yield sign"
+    ],
+    "answer": 1,
+    "explanation": "Whenever you cross traffic, you need enough space to do it safely. How much depends on road and weather conditions and on the speed and distance of oncoming traffic.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. PA p.50)"
+  },
+  {
+    "id": "car.cvpa.023",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which single action does the most to lower your risk of being hurt or killed in a crash?",
+    "choices": [
+      "Driving only on weekdays",
+      "Staying in the right lane on highways",
+      "Keeping your headlights on during the day",
+      "Wearing your seat belt"
+    ],
+    "answer": 3,
+    "explanation": "Buckling up is the single most effective thing you can do to reduce your risk of death or injury in a crash. Air bags are designed to work together with seat belts.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. PA p.35, MI p.39, WA p.52)"
+  },
+  {
+    "id": "car.cvpa.024",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "The road is slick from rain or snow. How should you take turns and curves?",
+    "choices": [
+      "More slowly than you would on a dry road",
+      "At your normal speed, braking hard in the middle",
+      "Faster, so you spend less time on the slick surface",
+      "At the same speed, but with your hazard flashers on"
+    ],
+    "answer": 0,
+    "explanation": "On slippery roads your tires have less grip. Slow down before turns and curves and take them slowly; hard braking or sharp steering mid-turn can start a skid.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. PA p.19)"
+  },
+  {
+    "id": "car.cvpa.025",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which of these is a distraction that raises your crash risk while driving?",
+    "choices": [
+      "Checking your mirrors every few seconds",
+      "Scanning the road far ahead",
+      "Changing songs or adjusting the radio",
+      "Keeping both hands on the wheel"
+    ],
+    "answer": 2,
+    "explanation": "Adjusting a radio, music player or other audio device takes your eyes, hands and attention away from driving, just like using a phone. Set it before you drive or let a passenger do it.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. PA p.36, TX p.60)"
+  },
+  {
+    "id": "car.cvpa.026",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In every U.S. state, what is the minimum age to legally buy alcohol?",
+    "choices": [
+      "18",
+      "21",
+      "19",
+      "20"
+    ],
+    "answer": 1,
+    "explanation": "All 50 states and DC set 21 as the minimum legal age to buy alcohol. Drivers under 21 also face stricter (zero tolerance) drinking-and-driving limits.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. PA p.88, NC p.35)"
+  }
+]

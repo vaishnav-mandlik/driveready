@@ -1,0 +1,798 @@
+{
+  "code": "AR",
+  "name": "Arkansas",
+  "agency": {
+    "name": "Department of Finance and Administration, Office of Driver Services (licenses); Arkansas State Police (driver testing)",
+    "abbreviation": "DFA / ASP",
+    "website": "https://www.dfa.arkansas.gov/office/driver-services/"
+  },
+  "handbook": {
+    "title": "Arkansas Driver License Study Guide",
+    "edition": "Volume 1 - Edition 10, October 2026 (posted as English 10/06/2026)",
+    "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf"
+  },
+  "knowledgeTest": {
+    "questions": 25,
+    "passingScore": 20,
+    "passingPercent": 80,
+    "roadSigns": null,
+    "timeLimitMinutes": null,
+    "format": "Multiple-choice test on a touch-screen computer kiosk at an Arkansas State Police driver testing site (by appointment via telegov.egov.com/aspdlskills). You may skip up to two questions; skipped questions return at the end and are not needed once you reach 20 correct answers. An oral exam (kiosk reads questions and answers through headphones) is available to applicants who present an IEP, 504 plan or other professional evaluation of a learning difference.",
+    "languages": "The study guide is published in English (Oct 2026), Spanish (01/2018) and Vietnamese (02/2024), and the official online practice test is offered in English, Spanish and Vietnamese. No official list of knowledge-test languages was found.",
+    "retestWait": "5 calendar days after failing the knowledge test for a learner's permit, learner's license or intermediate license (ASP Non-Commercial Driver's License Testing Rule 1).",
+    "notes": "One non-commercial (NCL) knowledge exam is used for the instruction permit and all non-commercial licenses. Instruction permit from age 14 (valid 2 years, cannot be renewed); applicants under 18 need an original U.S. birth certificate and a parent/guardian signature or ASP-33 financial-responsibility form. Act 1289 of 2015 adds a $5.00 fee for each written exam, collected with the license. Pass mark: the ASP audio-testing instructions say you need 20 correct answers. Question count: the official ASP practice test (quiz.ark.org) generates 25 questions drawn from the knowledge-test question pool; no ASP or DFA page states the real test's length outright.",
+    "sourceUrl": "https://media.ark.org/dps/Audio-Testing-Instructions.pdf"
+  },
+  "motorcycleTest": {
+    "questions": null,
+    "passingScore": null,
+    "passingPercent": null,
+    "notes": "Class M (16+) requires a motorcycle knowledge exam, vision test and skills test (skills test required for 250cc or more); applicants without a Class D must first pass the regular (NCL) knowledge exam. The knowledge exam is valid one year. An MSF RiderCourse completion card presented within 90 days waives the skills test. Class MD (ages 14-15, 250cc or less) and a Motorized Bicycle certificate (50cc or less) also exist. Study material: ASP Motorcycle Endorsement Study Guide (MSF Motorcycle Operator Manual). Question count and passing score not found on an official page.",
+    "sourceUrl": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf"
+  },
+  "cdlTest": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% alcohol concentration (breath or blood)",
+      "detail": "Drivers are arrested for driving while intoxicated (DWI) at an alcohol concentration of 0.08% or more. A driver can also be charged with DWI below 0.08% (see the 0.04%-0.08% crash rule).",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 86,
+        "quote": "You will be arrested for driving while intoxicated with an alcohol concentration of 0.08% or more in the breath (grams/210 liters) or blood"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% alcohol concentration for drivers under 21",
+      "detail": "It is illegal to buy or drink alcohol under 21. A driver under 21 can be arrested for Underage Driving Under the Influence at 0.02% (Underage DUI covers 0.02%-0.079%; 0.08% or more is DWI).",
+      "number": 0.02,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 87,
+        "quote": "You can be arrested for Underage Driving Under the Influence if your alcohol concentration is 0.02%breath or blood alcohol concentration"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% in a commercial motor vehicle",
+      "detail": "DWI committed while driving a commercial motor vehicle is charged at an alcohol concentration of .04, no matter what class of license the driver holds.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.dfa.arkansas.gov/office/driver-services/dui-dwi-information/",
+        "page": null,
+        "quote": "DWI committed in a commercial vehicle, regardless of driver’s license class – BAC .04"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusing a chemical test: 180-day suspension (1st offense)",
+      "detail": "If an officer instructs you to take an alcohol test you are compelled by law to do so. Refusal suspensions: 1st 180 days; 2nd within 5 years 24 months; 3rd within 5 years 3-year revocation; 4th lifetime revocation (A.C.A. 5-65-205).",
+      "number": 180,
+      "unit": "days",
+      "source": {
+        "url": "https://www.dfa.arkansas.gov/office/driver-services/dui-dwi-information/refusals/",
+        "page": null,
+        "quote": "1st offense Refused To Test = 180-day suspension."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "6-month license suspension; $150-$1,000 fine; up to 1 year in jail",
+      "detail": "First DWI: 6-month suspension (A.C.A. 5-65-104), fine of $150 to $1,000 plus court costs, and jail from 24 hours up to 1 year (A.C.A. 5-65-111, -112). Reinstatement requires an alcohol education/treatment program, a Victim Impact Panel, an ignition interlock for the suspension period and a $150 fee. The study guide's older '120 days' suspension figure is outdated.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://www.dfa.arkansas.gov/office/driver-services/dui-dwi-information/dui-dwi-bui-bwi-offenses/",
+        "page": null,
+        "quote": "1st offense = 6 months suspension."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "open_container",
+      "value": "No open alcoholic beverage container in the passenger area",
+      "detail": "It is a Class C misdemeanor to possess an open alcoholic beverage container in the seating area or anywhere readily accessible to the driver or a passenger on a public highway. Allowed: trunk/cargo area, a locked glove compartment or console, or behind the last upright seat in a vehicle without a trunk (A.C.A. 5-71-218).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://ardot.gov/wp-content/uploads/Arkansas-Motor-Vehicle-2025-508-compliant.pdf",
+        "page": 317,
+        "quote": "It is unlawful for a person to possess an open alcoholic beverage container within an area of a motor vehicle if the area of the motor vehicle is"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_min_age",
+      "value": "14 years old (Instruction Permit)",
+      "detail": "You must be at least 14 to apply for an Instruction Permit and must pass the knowledge exam and vision test. The permit is issued for two years from the date the knowledge exam is passed and cannot be renewed.",
+      "number": 14,
+      "unit": "years",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 15,
+        "quote": "To apply for an Instruction Permit, the applicant must be at least 14 years old."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "6 months of restricted (supervised) driving",
+      "detail": "A Learner's License (ages 14-15) stays restricted until the 16th birthday and until six months of restricted driving are completed. Teens must also have no crash or serious traffic conviction in the six months before applying.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 15,
+        "quote": "This license will be restricted until the applicant’s 16th birthday AND the six months of restricted driving requirement has been completed."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Licensed driver 21 or older in the seat beside the driver",
+      "detail": "An Instruction Permit holder may drive only with a licensed driver who is at least 21 and sits beside the driver. All passengers must wear seat belts.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 15,
+        "quote": "The applicant with an Instruction Permit may drive with a licensed driver who is 21 or older AND occupies the seat beside the driver."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 (Intermediate License); restricted Learner's License at 14-15",
+      "detail": "The Intermediate License is a restricted license for ages 16 to 18. A Learner's License (ages 14-15) requires a licensed driver 21+ in the vehicle at all times.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 15,
+        "quote": "Intermediate License- This license is a restricted license issued to people between the ages of 16 and 18."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "No driving 11 p.m.-4 a.m. (Intermediate License)",
+      "detail": "Intermediate License holders may not drive between 11:00 p.m. and 4:00 a.m. unless accompanied by a licensed driver 21+, driving to or from a school activity, church-related activity or job, or driving because of an emergency (A.C.A. 27-16-804).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 16,
+        "quote": "A driver with an Intermediate License cannot operate a motor vehicle between the hours of 11 p.m. and 4 a.m."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "No more than 1 unrelated minor passenger",
+      "detail": "Intermediate License holders may not carry more than one unrelated minor passenger (under 21 and not a sibling, stepsibling or child living in the same household) unless a licensed driver 21+ is in the front seat.",
+      "number": 1,
+      "unit": "passenger",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 16,
+        "quote": "A driver with an Intermediate License shall not operate a motor vehicle with more than one (1) unrelated minor passenger unless accompanied by a licensed driver who is 21 or older AND occupies the front seat of the vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "18 (Class D, non-restricted)",
+      "detail": "The Class D License is the non-restricted license for drivers 18 or older.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 16,
+        "quote": "Class D License- This is a non-restricted license issued to people who are 18 or older."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "Hand-held phone banned in school zones (children present) and work zones (workers present); 21+ may otherwise use a phone",
+      "detail": "Drivers 21 and older are not under a general hand-held ban, but no driver may use a hand-held wireless device while passing a school building or school zone during school hours when children are present, or in a highway work zone when a worker is present, except in an emergency (A.C.A. 27-51-1605, -1606). Drivers under 21 have stricter rules.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://ardot.gov/wp-content/uploads/Arkansas-Motor-Vehicle-2025-508-compliant.pdf",
+        "page": 786,
+        "quote": "shall not use a wireless telecommunications device while operating a motor vehicle when passing a school building or school zone during school hours when children are present and outside the building"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "texting_ban",
+      "value": "Texting while driving is banned for all drivers",
+      "detail": "No driver may text or access, read or post to social media while driving (A.C.A. 27-51-1504). Fines: $25-$250 first offense, $50-$500 after; doubled if involved in a crash.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 16,
+        "quote": "Text messages are not allowed regardless of age."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Under 18: no phone use at all (even hands-free); 18-20: hands-free only",
+      "detail": "Drivers under 18 may not use a cell phone or a hands-free device while driving except in an emergency. Drivers 18 to 20 may use only a hands-free device; a hand-held phone is for emergencies only.",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 58,
+        "quote": "Under eighteen (18) years of age cell phone use is not allowed. The use of hands-free devices is not allowed."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Driver and front-seat passengers must wear a seat belt (primary law)",
+      "detail": "Since June 30, 2009, an officer can stop a vehicle just for an unbuckled driver or front-seat passenger. Fine up to $25 plus court costs. With a permit, Learner's or Intermediate License driver, all passengers must wear seat belts.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 21,
+        "quote": "Arkansas law makes it illegal to drive or to be a front-seat passenger, without wearing a safety belt."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Under 6 and under 60 lb: child safety seat; under 15: proper restraint",
+      "detail": "A child under 6 years old who weighs less than 60 pounds must ride in a child passenger safety seat. All children under 15 must wear appropriate safety restraints while the vehicle is moving. Fine $25-$100 (A.C.A. 27-34-103).",
+      "number": 6,
+      "unit": "years",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 21,
+        "quote": "A child who is less than six (6) years of age and who weighs less than sixty (60) pounds shall be restrained in a child passenger safety seat properly secured to the vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Drive no faster than is reasonable and prudent for conditions",
+      "detail": "Speed limits are for ideal conditions. Slow down for ice, rain, poor visibility or heavy traffic; you can be ticketed for driving too fast for conditions even at the posted limit.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 70,
+        "quote": "Even if you are driving the speed limit, you can get a ticket for traveling too fast for the conditions."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "25 mph in a school zone when children are present",
+      "detail": "No driver may exceed 25 mph passing a school building or school zone during school hours when children are present and outside the building. Does not apply on freeways and interstates. A school zone extends 300 feet on either side of the school building or grounds.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://ardot.gov/wp-content/uploads/Arkansas-Motor-Vehicle-2025-508-compliant.pdf",
+        "page": 765,
+        "quote": "in excess of twenty-five miles per hour (25 m.p.h.) when passing a school building or school zone during school hours when children are present and outside the building"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "30 mph in any urban district (unless posted otherwise)",
+      "detail": "Arkansas law sets a 30 mph maximum in any urban district (built-up areas) unless a different limit is posted (A.C.A. 27-51-201(c)(1)).",
+      "number": 30,
+      "unit": "mph",
+      "source": {
+        "url": "https://ardot.gov/wp-content/uploads/Arkansas-Motor-Vehicle-2025-508-compliant.pdf",
+        "page": 763,
+        "quote": "Thirty miles per hour (30 m.p.h.) in any urban district"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "40 mph on county roads unless the county judge sets a limit",
+      "detail": "If a county judge has not set a speed limit on a county road, the limit is 40 mph. Speeding more than 15 mph over the limit on a county road is a Class C misdemeanor.",
+      "number": 40,
+      "unit": "mph",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 38,
+        "quote": "then the speed limit shall be forty miles per hour (40 m.p.h.) on the county road."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "75 mph on rural, divided, 4+ lane controlled-access highways",
+      "detail": "Maximum 75 mph on controlled-access highways outside urban areas with at least four lanes divided by a median (70 mph for commercial motor vehicles); 65 mph on controlled-access highways in urban areas, where posted.",
+      "number": 75,
+      "unit": "mph",
+      "source": {
+        "url": "https://ardot.gov/wp-content/uploads/Arkansas-Motor-Vehicle-2025-508-compliant.pdf",
+        "page": 763,
+        "quote": "is seventy-five miles per hour (75 m.p.h.) if the controlled-access highway"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Do not drive so slowly that you impede normal traffic",
+      "detail": "No one may drive so slowly as to impede the normal and reasonable movement of traffic unless slower speed is needed for safety or to obey the law. If vehicles pile up behind you, pull over and let them pass.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://ardot.gov/wp-content/uploads/Arkansas-Motor-Vehicle-2025-508-compliant.pdf",
+        "page": 765,
+        "quote": "No person shall drive a motor vehicle at such a slow speed as to impede the normal and reasonable movement of traffic"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop unless a sign prohibits it",
+      "detail": "Before turning right on red, come to a complete stop, check for opposing traffic and yield to pedestrians in or near the crosswalk.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 37,
+        "quote": "The driver may turn right on red unless there is a sign prohibiting a right turn on red."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Allowed only from a one-way street onto another one-way street, after a complete stop",
+      "detail": "From the left lane of a one-way street, after a complete stop, a driver may turn left on a steady red into the left lane of another one-way street, unless a sign prohibits it (A.C.A. 27-52-107).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://ardot.gov/wp-content/uploads/Arkansas-Motor-Vehicle-2025-508-compliant.pdf",
+        "page": 795,
+        "quote": "for the purpose of making a left turn into the left lane of another one-way street only"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 100 feet before turning or changing lanes",
+      "detail": "Signal at least 100 feet before a lane change, right or left turn, merge, or parking. Turn the signal off after the turn or lane change.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 65,
+        "quote": "You should signal your intentions to turn at least 100 feet before the turn."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the right edge of the road and stop; stay 500 feet behind fire trucks",
+      "detail": "For an emergency vehicle using a siren and flashing lights, pull to the right edge of the road and stop until it passes; if you are in an intersection, drive through it before pulling over. Do not follow a fire truck answering an alarm closer than 500 feet (A.C.A. 27-51-902).",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 23,
+        "quote": "Drivers should pull over to the right edge of the road, or near to the right as possible."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "move_over_law",
+      "value": "Move to the farthest lane from a stopped authorized vehicle with lights on, or slow down",
+      "detail": "Applies to stopped emergency response and police vehicles, ARDOT and ARDOT-contractor vehicles, utility vehicles and tow trucks showing flashing lights. If you cannot change lanes safely, slow down and use due caution. Penalty (A.C.A. 27-51-310): fine of $250 to $1,000, up to 90 days in jail, up to 7 days of community service, and a possible license suspension of 90 days to 6 months. The study guide's p. 27 figure of \"up to $500\" is outdated.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 23,
+        "quote": "Arkansas law requires any motor vehicle on a multilane highway to move over, whenever possible, to the farthest lane away from any stopped law enforcement vehicle"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop for a stopped school bus from any direction; no stop only across a median 20 feet or wider",
+      "detail": "When a school bus stops with red lights flashing, every driver in either direction must stop (at least 30 feet from the bus, A.C.A. 27-51-1004) until the lights are off and the bus moves. Oncoming traffic need not stop only if separated by a median 20 feet or more wide. Fine $250-$1,000 and up to 90 days in jail.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 24,
+        "quote": "Drivers are not required to stop if the school bus is approaching along an opposite lane of travel separated by a median twenty (20) feet or more in width."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "following_distance",
+      "value": "2-second rule (4 seconds in some situations)",
+      "detail": "Use the two-second rule; increase to four seconds on slippery roads, in poor visibility and similar situations. Allow at least 4 to 6 seconds when following a motorcycle.",
+      "number": 2,
+      "unit": "seconds",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 71,
+        "quote": "Use the “two (2) second rule” to determine if you are following too close."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "headlights_required",
+      "value": "30 minutes after sunset to 30 minutes before sunrise, visibility under 500 feet, and whenever wipers are needed",
+      "detail": "Turn on headlights from 30 minutes after sunset to 30 minutes before sunrise, whenever you cannot see clearly within 500 feet, and whenever your windshield wipers are needed. Driving with only parking lights is illegal.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 63,
+        "quote": "Turn on your headlights a ½ hour (30 minutes) after sunset, a ½ hour (30 minutes) before sunrise, or anytime you cannot see a person or object clearly within 500 feet."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "Dim within 500 feet of an oncoming vehicle",
+      "detail": "Switch to low beams whenever you come within 500 feet of an oncoming vehicle.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 63,
+        "quote": "Dim your high beams whenever you come within 500 feet of an oncoming vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "Use low beams when following within 200 feet",
+      "detail": "Use low beams when following another vehicle closer than 200 feet.",
+      "number": 200,
+      "unit": "feet",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 63,
+        "quote": "Use your low-beam headlights when following another vehicle closer than 200 feet."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet",
+      "detail": "Do not park within 15 feet of a fire hydrant.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 54,
+        "quote": "Within fifteen (15) feet of a fire hydrant"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "20 feet from a crosswalk at an intersection",
+      "detail": "Do not park on a crosswalk or within 20 feet of a crosswalk at an intersection.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 54,
+        "quote": "Within twenty (20) feet of a crosswalk at an intersection"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Not within an intersection",
+      "detail": "Never park in an intersection. Also keep 20 feet from a crosswalk at an intersection and 30 feet from a stop sign, yield sign or traffic signal.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 54,
+        "quote": "DO NOT PARK: • In an intersection"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet from a traffic signal, stop sign or yield sign",
+      "detail": "Do not park within 30 feet of a traffic signal, stop sign or yield sign (or within 30 feet of a pedestrian safety zone).",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 54,
+        "quote": "Within thirty (30) feet of a traffic signal, stop sign, or yield sign."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet from a railroad crossing",
+      "detail": "Do not park within 50 feet of a railroad crossing, and never park or stop on the tracks.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 54,
+        "quote": "Within fifty (50) feet of a railroad crossing"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet from a fire station driveway (same side); 75 feet on the opposite side when signposted",
+      "detail": "Do not park within 20 feet of a fire station driveway on the same side of the street. Statute also bars parking within 75 feet of the entrance on the opposite side when signs are posted (A.C.A. 27-51-1302).",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 54,
+        "quote": "Within twenty (20) feet of a fire station driveway on the same side of the street"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "18 inches or less from the curb",
+      "detail": "When parallel parking, park 18 inches or less from the curb; parking more than 18 inches from the curb is prohibited.",
+      "number": 18,
+      "unit": "inches",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 53,
+        "quote": "When parallel parking, your vehicle should be 18 inches or less from the curb."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "Between 15 and 50 feet from the nearest rail",
+      "detail": "When a signal, lowered gate, flagger or approaching train requires a stop, stop within 50 feet but not less than 15 feet from the nearest rail. Never drive around or under a lowered gate.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://ardot.gov/wp-content/uploads/Arkansas-Motor-Vehicle-2025-508-compliant.pdf",
+        "page": 772,
+        "quote": "shall stop within fifty feet (50') but not less than fifteen feet (15') from the nearest rail of the railroad"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet when passing a bicycle",
+      "detail": "Pass a bicycle going the same direction on the left at a safe distance of not less than 3 feet, and do not move back right until safely clear. Fine up to $100; up to $1,000 if the violation causes death or serious injury.",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://ardot.gov/wp-content/uploads/Arkansas-Motor-Vehicle-2025-508-compliant.pdf",
+        "page": 769,
+        "quote": "pass to the left at a safe distance of not less than three feet (3')"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Yield to pedestrians in or about to enter a crosswalk; blind pedestrians have absolute right-of-way",
+      "detail": "Yield to pedestrians in or about to enter a marked or unmarked crosswalk and when crossing a sidewalk from a driveway or alley. Pedestrians with a white cane or guide dog have absolute right-of-way; do not honk at them.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 46,
+        "quote": "A driver must yield to pedestrians in or about to enter a crosswalk."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Notify police immediately after a crash with injury, death or apparent damage of $3,000 or more; file an SR-1 report with the Office of Driver Services within 30 days if anyone is hurt or one person's property damage exceeds $1,000",
+      "detail": "A.C.A. 27-53-202 requires the driver to notify the nearest law enforcement agency immediately when a crash causes injury, death or total property damage of an apparent $3,000 or more. A.C.A. 27-19-501 (and the DFA Safety Responsibility page) require an SR-1 accident report to the Office of Driver Services within 30 days when damage to any one person's property exceeds $1,000 or anyone is injured or killed. The study guide (pp. 92-93) reverses the two dollar figures. If the damaged car can still be driven and no one is hurt, move it off the roadway.",
+      "number": 3000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://ardot.gov/wp-content/uploads/Arkansas-Motor-Vehicle-2025-508-compliant.pdf",
+        "page": 800,
+        "quote": "of three thousand dollars ($3,000) or more shall notify the nearest law enforcement agency immediately"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "Liability 25/50/25 ($25,000 / $50,000 / $25,000)",
+      "detail": "Every vehicle must carry liability insurance of at least $25,000 for injury or death of one person, $50,000 for two or more people, and $25,000 for property damage in one accident (A.C.A. 27-22-104(b), as amended 2025; same limits in 27-19-605 and the Arkansas Insurance Department consumer guide). Proof of insurance may be paper or electronic.",
+      "number": 25000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://ardot.gov/wp-content/uploads/Arkansas-Motor-Vehicle-2025-508-compliant.pdf",
+        "page": 587,
+        "quote": "Not less than twenty-five thousand dollars ($25,000) for bodily injury or death of one (1) person in any one (1) accident"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "point_system",
+      "value": "3-8 points per moving violation; warning letter at 10; hearing at 14+",
+      "detail": "Arkansas' administrative point system assigns 3 to 8 points per moving violation. Reaching 10 points triggers a warning letter; 14 or more points brings an automatic hearing, which can lead to probation or suspension. Skipping the hearing means automatic suspension.",
+      "number": 14,
+      "unit": "points",
+      "source": {
+        "url": "https://www.dfa.arkansas.gov/office/driver-services/driver-improvements/",
+        "page": null,
+        "quote": "A point range of 3 – 8 points is assessed to all moving violations, depending on the severity of the violation."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Helmet required for riders and passengers under 21; eye protection for all",
+      "detail": "Operators and passengers of motorcycles, motor-driven cycles and motorized bicycles must wear protective headgear unless 21 or older, and all must use protective glasses, goggles or a transparent face shield (A.C.A. 27-20-104).",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://ardot.gov/wp-content/uploads/Arkansas-Motor-Vehicle-2025-508-compliant.pdf",
+        "page": 573,
+        "quote": "Protective headgear unless the person is twenty-one (21) years of age or older"
+      },
+      "status": "verified"
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Left lane is for passing only",
+      "summary": "On a multilane highway you may drive in the left lane only to pass, when all other lanes are closed or unsafe, or when preparing to exit on the left (A.C.A. 27-51-301).",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 75,
+        "quote": "Arkansas Code Annotated 27-51-301 states that a vehicle shall not be driven upon the left lane of a multilane highway, EXCEPT as follows:"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Move Over law covers ARDOT, utility and tow vehicles",
+      "summary": "Arkansas extends the Move Over law beyond police, fire and EMS to ARDOT and contractor vehicles, utility vehicles, construction vehicles and tow trucks with flashing lights: move to a non-adjacent lane or slow down.",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 33,
+        "quote": "Arkansas has expanded the law to include other vehicles with flashing lights such as:"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Work zone fines double (including mobile work zones)",
+      "summary": "Any moving violation in a work zone where workers are present carries double the fine (up to $5,000). Mobile work zones, marked on the back of ARDOT vehicles, count the same as standard work zones.",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 31,
+        "quote": "If a driver receives a citation for any moving traffic violation in a Work Zone, they will pay double the fine."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Flashing green lights mean an active work zone",
+      "summary": "Construction and maintenance vehicles may use flashing green lights (with yellow or white). Slow down and use caution when you see them.",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 30,
+        "quote": "The Arkansas Legislature recently authorized the use of flashing green lights on roadway construction and maintenance vehicles."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "No wireless device in highway work zones",
+      "summary": "No driver may use a hand-held wireless device in a highway work zone while a highway worker is present, except in an emergency (A.C.A. 27-51-1606); the same applies in school zones when children are present.",
+      "source": {
+        "url": "https://ardot.gov/wp-content/uploads/Arkansas-Motor-Vehicle-2025-508-compliant.pdf",
+        "page": 786,
+        "quote": "shall not use a wireless telecommunications device while operating a motor vehicle in a highway work zone when a highway worker is present"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "No smoking with a child under 14 in the vehicle",
+      "summary": "It is illegal to knowingly smoke tobacco in a motor vehicle when a child under 14 is a passenger (A.C.A. 20-27-1903).",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 21,
+        "quote": "A person shall not knowingly smoke tobacco in any motor vehicle in which a child who is less than fourteen (14) years of age is a passenger."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Center turn lane is not an acceleration lane",
+      "summary": "You may use a shared center left-turn lane to turn left from a street or driveway and then merge, but you may not use it as an acceleration lane.",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 44,
+        "quote": "except it is not permissible to use the center left turn lane as an acceleration lane."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Headlights with wipers; never drive on parking lights only",
+      "summary": "Headlights must be on whenever windshield wipers are needed. Driving with only parking lights on is illegal.",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 63,
+        "quote": "It is illegal in Arkansas to drive using only parking lights."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Isaac's Law - school bus death is a felony",
+      "summary": "Passing a stopped school bus is a misdemeanor ($250-$1,000 fine, up to 90 days in jail); negligently causing a death while doing so is Class C felony negligent homicide.",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 25,
+        "quote": "A person who violates this law is subject to Class C Felony, for negligent homicide if he or she negligently causes the death of another person."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "DWI possible below 0.08% after a crash",
+      "summary": "A driver involved in a traffic crash or serious traffic offense can be charged with DWI with an alcohol concentration between 0.04% and 0.08%.",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 86,
+        "quote": "you can be charged with DWI with a blood alcohol content between 0.08% and 0.04%."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Red or orange pennant on a bicycle = rider with impaired hearing",
+      "summary": "A red or orange pennant flag on a bicycle signals that the rider has impaired hearing; slow down.",
+      "source": {
+        "url": "https://media.ark.org/dps/Arkansas-DL-Study-Guide-English_10062026.pdf",
+        "page": 80,
+        "quote": "If you see a bicyclist with a red or orange pennant flag attached to the bike, slow down; this is a symbol to indicate the rider has impaired hearing."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Stay 500 feet behind fire trucks",
+      "summary": "Unless on official business, do not follow a fire truck answering an alarm closer than 500 feet, or park within the block where it has stopped (A.C.A. 27-51-902).",
+      "source": {
+        "url": "https://ardot.gov/wp-content/uploads/Arkansas-Motor-Vehicle-2025-508-compliant.pdf",
+        "page": 775,
+        "quote": "traveling in response to a fire alarm closer than five hundred feet (500')"
+      },
+      "status": "verified"
+    }
+  ],
+  "officialPracticeTests": [
+    "https://dps.arkansas.gov/law-enforcement/arkansas-state-police/services-programs/driver-examination/official-arkansas-driver-license-practice-test/"
+  ],
+  "gaps": [
+    "supervised_driving_hours: neither the study guide nor DFA/ASP pages set a required number of supervised practice hours.",
+    "speed_limit_residential: no separate residential limit; the statutory 30 mph urban-district limit (A.C.A. 27-51-201(c)(1)) is recorded under speed_limit_business_district.",
+    "motorcycle_lane_splitting: no Arkansas statute or study-guide text addressing lane splitting was found; not taught.",
+    "knowledgeTest.questions: 25 is the length of the official ASP practice test (quiz.ark.org API: num_questions 25), which draws from the knowledge-test pool; ASP pages do not state the real test length directly. Passing score 20 comes from the ASP audio-testing instructions (Version 08/2017).",
+    "knowledgeTest.languages: no official list of languages for the knowledge test was found.",
+    "dui_first_offense: study guide p. 86 says the license 'could be suspended for 120 days' for a first conviction; current law (A.C.A. 5-65-104(a)(2)(A), 2025 ed.) and the DFA page say 6 months. Questions use 6 months and never offer 120 days.",
+    "crash_reporting: the study guide reverses the statutory thresholds (p. 92: notify police above $1000; p. 93: SR-1 report above $3000). Statute: police notice at $3,000+ apparent damage (A.C.A. 27-53-202) and SR-1 report above $1,000 (A.C.A. 27-19-501, DFA Safety Responsibility page). Questions test only 'immediately' (injury crash) and the 30-day report deadline, never a dollar threshold.",
+    "insurance_minimums: the DFA Safety Responsibility page lists '$25,000, $50,000 and $75,000 limits'; the statutes (A.C.A. 27-22-104(b) as amended 2025, 27-19-605) and the Arkansas Insurance Department guide set 25/50/25. Statute used.",
+    "move_over_law: study guide p. 23 says fines up to $1,000, p. 27 says up to $500; statute (A.C.A. 27-51-310) sets $250-$1,000 and a 90-day to 6-month suspension. Questions key only the 6-month maximum suspension (all sources agree).",
+    "provisional_night_restriction: study guide p. 16 joins the exceptions with 'AND'; A.C.A. 27-16-804(g)(1)(F) lists them as alternatives (adult 21+, school/church/job, or emergency). Questions key only the 11 p.m.-4 a.m. hours; explanations follow the statute.",
+    "motorcycleTest: question count and passing score not published on an official page."
+  ]
+}
