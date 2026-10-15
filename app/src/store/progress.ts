@@ -3,7 +3,7 @@ import {persist} from 'zustand/middleware';
 import type {StateCode, TopicId, TrackId} from '../data/types';
 import {dayKey} from '../engine/dates';
 import {applyAnswer, isMistake, QStat} from '../engine/srs';
-import {persistStorage} from './storage';
+import {keepPersisted, persistStorage, rehydrateGuard} from './storage';
 
 /** Activity for one local calendar day. */
 export interface DayStat {
@@ -199,6 +199,8 @@ export const useProgress = create<ProgressState>()(
       name: 'progress.v1',
       storage: persistStorage,
       version: 1,
+      migrate: keepPersisted,
+      onRehydrateStorage: rehydrateGuard<ProgressState>('progress.v1'),
       partialize: s => ({
         stats: s.stats,
         bookmarks: s.bookmarks,

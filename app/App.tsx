@@ -1,7 +1,8 @@
-import React, {useEffect, useMemo, useRef, useState} from 'react';
+import React, {useEffect, useMemo, useState} from 'react';
 import {ActivityIndicator, AppState, StatusBar, StyleSheet, useColorScheme, View} from 'react-native';
 import {DarkTheme, DefaultTheme, NavigationContainer, NavigationState, Theme as NavTheme} from '@react-navigation/native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
+import {ErrorBoundary} from './src/components/ErrorBoundary';
 import {applyInstalledContent, checkForContentUpdate} from './src/content/updates';
 import {useHydrated} from './src/hooks/useLearner';
 import {RootNavigator} from './src/navigation/RootNavigator';
@@ -9,11 +10,16 @@ import {checkAchievements} from './src/store/actions';
 import {useSettings} from './src/store/settings';
 import {ThemeProvider, useTheme} from './src/theme/ThemeProvider';
 
+/**
+ * Current navigation state, kept outside React so remounts (language change, crash recovery via
+ * "Try again") return to the same screen; "Go to Home" clears it.
+ */
+let navState: NavigationState | undefined;
+
 function Navigation() {
   const theme = useTheme();
   // Changing the language remounts every screen (so all text is re-read) on the same route stack.
   const language = useSettings(s => s.language);
-  const navState = useRef<NavigationState | undefined>(undefined);
   const navTheme = useMemo<NavTheme>(() => {
     const base = theme.dark ? DarkTheme : DefaultTheme;
     return {
@@ -54,9 +60,9 @@ function Navigation() {
     <NavigationContainer
       key={language}
       theme={navTheme}
-      initialState={navState.current}
+      initialState={navState}
       onStateChange={state => {
-        navState.current = state;
+        navState = state;
       }}>
       <StatusBar barStyle={theme.dark ? 'light-content' : 'dark-content'} />
       <RootNavigator />
@@ -93,7 +99,12 @@ function Boot() {
   }
   return (
     <ThemeProvider>
-      <Navigation />
+      <ErrorBoundary
+        onGoHome={() => {
+          navState = undefined;
+        }}>
+        <Navigation />
+      </ErrorBoundary>
     </ThemeProvider>
   );
 }

@@ -2,7 +2,7 @@ import {create} from 'zustand';
 import {persist} from 'zustand/middleware';
 import type {StateCode, TrackId} from '../data/types';
 import {deviceLanguage, type Lang} from '../i18n/lang';
-import {persistStorage} from './storage';
+import {keepPersisted, persistStorage, rehydrateGuard} from './storage';
 
 export type ThemeMode = 'system' | 'light' | 'dark';
 
@@ -75,6 +75,8 @@ export const useSettings = create<SettingsState>()(
       name: 'settings.v1',
       storage: persistStorage,
       version: 1,
+      migrate: keepPersisted,
+      onRehydrateStorage: rehydrateGuard<SettingsState>('settings.v1'),
       partialize: ({update, completeOnboarding, resetSettings, ...rest}) => rest,
     },
   ),

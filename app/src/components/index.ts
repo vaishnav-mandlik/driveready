@@ -6,6 +6,7 @@ export {Card} from './Card';
 export {ChoiceButton} from './ChoiceButton';
 export type {ChoiceState} from './ChoiceButton';
 export {Confetti} from './Confetti';
+export {ErrorBoundary} from './ErrorBoundary';
 export {Icon, ICON_NAMES} from './Icon';
 export type {IconName} from './Icon';
 export {Divider, IconTile, ListRow, SectionHeader, ToggleRow} from './Lists';

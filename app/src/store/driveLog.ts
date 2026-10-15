@@ -2,7 +2,7 @@ import {create} from 'zustand';
 import {persist} from 'zustand/middleware';
 import type {StateFact} from '../data/types';
 import {defineStrings, tr} from '../i18n';
-import {persistStorage} from './storage';
+import {keepPersisted, persistStorage, rehydrateGuard} from './storage';
 
 /** One supervised practice drive logged by a permit holder. */
 export interface DriveEntry {
@@ -97,6 +97,8 @@ export const useDriveLog = create<DriveLogState>()(
       name: 'drivelog.v1',
       storage: persistStorage,
       version: 1,
+      migrate: keepPersisted,
+      onRehydrateStorage: rehydrateGuard<DriveLogState>('drivelog.v1'),
       partialize: s => ({entries: s.entries, requiredHours: s.requiredHours, requiredNightHours: s.requiredNightHours}),
     },
   ),

@@ -7,6 +7,7 @@ import type {ExamConfig, StateCode, StateInfo, TrackId} from '../data/types';
 import {computeReadiness, Readiness} from '../engine/readiness';
 import {useProgress} from '../store/progress';
 import {useSettings} from '../store/settings';
+import {hydrationFailed, onHydrationFailure} from '../store/storage';
 
 export interface Learner {
   state: StateCode;
@@ -48,14 +49,16 @@ export function useReadiness(exam?: ExamConfig): Readiness {
   return useMemo(() => computeReadiness(learner.bank, stats, target), [learner.bank, stats, target]);
 }
 
-/** True once both persisted stores have loaded from disk. */
+const loaded = () =>
+  (useSettings.persist.hasHydrated() || hydrationFailed('settings.v1')) &&
+  (useProgress.persist.hasHydrated() || hydrationFailed('progress.v1'));
+
+/** True once both persisted stores have loaded from disk (or failed to, in which case defaults are used). */
 export function useHydrated(): boolean {
-  const [ready, setReady] = useState(
-    () => useSettings.persist.hasHydrated() && useProgress.persist.hasHydrated(),
-  );
+  const [ready, setReady] = useState(loaded);
   useEffect(() => {
-    const check = () => setReady(useSettings.persist.hasHydrated() && useProgress.persist.hasHydrated());
-    const unsubs = [useSettings.persist.onFinishHydration(check), useProgress.persist.onFinishHydration(check)];
+    const check = () => setReady(loaded());
+    const unsubs = [useSettings.persist.onFinishHydration(check), useProgress.persist.onFinishHydration(check), onHydrationFailure(check)];
     check();
     return () => unsubs.forEach(u => u());
   }, []);
