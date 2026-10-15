@@ -1,0 +1,116 @@
+[
+  {
+    "id": "car.cvfom.001",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You triple your speed from 20 mph to 60 mph. About how much greater is the force of impact if you crash?",
+    "choices": [
+      "About 3 times greater",
+      "About 6 times greater",
+      "About 9 times greater",
+      "About 12 times greater"
+    ],
+    "answer": 2,
+    "explanation": "Impact force grows with the square of speed. Doubling your speed makes the force of impact (and the braking distance) about 4 times greater; tripling it makes them about 9 times greater.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. FL pp.68, 76; KS p.59; LA p.70; AK p.33)"
+  },
+  {
+    "id": "car.cvfom.002",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You see a red light well ahead and plan a normal, smooth stop. Which way of stopping is best?",
+    "choices": [
+      "Keep your speed up, then brake hard close to the stop line",
+      "Shift into neutral early and coast the rest of the way to the line",
+      "Turn on your hazard flashers and brake at the last moment",
+      "Check mirrors, ease off the gas, then brake with steady pressure"
+    ],
+    "answer": 3,
+    "explanation": "For a smooth stop, check your mirrors for traffic behind you, release the accelerator early so the car slows, then press the brake with steady pressure, which also lights your brake lights. Sudden, late stops invite rear-end crashes.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. FL p.76, CO p.9, KS p.30, KY p.41)"
+  },
+  {
+    "id": "car.cvfom.003",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "How do the rights and duties of motorcycle riders on public roads compare with those of car drivers?",
+    "choices": [
+      "Riders have fewer rights and must yield to cars",
+      "They are the same, and riders must obey the same traffic laws",
+      "Riders have extra rights, so cars must always yield to them",
+      "They are the same, but riders can't be ticketed for most violations"
+    ],
+    "answer": 1,
+    "explanation": "Motorcyclists have the same rights and responsibilities on the road as other drivers. A motorcycle is entitled to a full lane, and riders who break traffic laws can be ticketed like anyone else.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. FL p.93, CA p.50, CT p.20, IL p.44, MD p.39)"
+  },
+  {
+    "id": "car.cvfom.004",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "Mile for mile, why is driving on city streets usually riskier than driving on an expressway?",
+    "choices": [
+      "They have cross traffic, intersections and pedestrians",
+      "Cars usually travel faster on city streets than on expressways",
+      "City streets carry more large trucks than expressways do",
+      "Expressways are lit at night, but city streets are not"
+    ],
+    "answer": 0,
+    "explanation": "Expressways have no intersections, traffic signals or cross traffic, pedestrians are kept off them, and traffic on each side moves the same way. City streets add all of these conflicts, so scan for cross traffic and people at every intersection.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. MI p.74, NV p.36, MD p.31)"
+  },
+  {
+    "id": "car.cvfom.005",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "A sign at the curb reads 2 HOUR PARKING 8:30 AM – 5:30 PM. What does it mean?",
+    "choices": [
+      "No parking at all from 8:30 a.m. to 5:30 p.m.",
+      "Parking is allowed only for 2 hours after 5:30 p.m.",
+      "From 8:30 a.m. to 5:30 p.m., you may park there for up to 2 hours",
+      "Only vehicles displaying a permit may park there during those hours"
+    ],
+    "answer": 2,
+    "explanation": "This sign allows parking but limits how long you may stay during the hours shown: here, up to 2 hours at a time between 8:30 a.m. and 5:30 p.m. Staying longer than the limit can get you a ticket.",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2B (parking signs); Michigan What Every Driver Must Know (Oct. 2025), p. 58"
+  },
+  {
+    "id": "car.cvfom.006",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign warn you about?",
+    "choices": [
+      "A bike lane starts ahead, and cars must stay out of it",
+      "Bicycles are not allowed to use the road beyond this point",
+      "A bicycle shop or rental is nearby",
+      "Bicyclists may be riding on or crossing the road ahead"
+    ],
+    "answer": 3,
+    "explanation": "This yellow diamond warning sign means bicyclists may be riding on the road or crossing it ahead. Slow down, watch for them and give them room. A sign that bans bicycles is a white regulatory sign with a red circle and slash.",
+    "sign": "W11-1",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C (W11-1); state driver handbooks (e.g. MI p.59, FL p.58, KS p.36, MD p.22)"
+  },
+  {
+    "id": "car.cvfom.007",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign tell you?",
+    "choices": [
+      "U-turns are allowed at the next intersection ahead",
+      "A roundabout is ahead; slow down and get ready to yield",
+      "Traffic from both sides will merge into your lane ahead",
+      "A recycling center or turnaround area is ahead"
+    ],
+    "answer": 1,
+    "explanation": "This yellow warning sign shows a circular intersection (roundabout) ahead. Slow down, watch for pedestrians at the crosswalks, and be ready to yield to traffic already in the roundabout.",
+    "sign": "W2-6",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C (W2-6); state driver handbooks (e.g. MI p.59, OR p.20, LA p.30, MO p.50)"
+  }
+]

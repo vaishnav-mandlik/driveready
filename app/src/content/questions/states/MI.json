@@ -2106,5 +2106,24 @@
     ],
     "difficulty": 2,
     "ref": "What Every Driver Must Know (Oct. 2025), p. 45"
+  },
+  {
+    "id": "mi.car.106",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You pass a Michigan work zone sign that reads WHERE WORKERS PRESENT 45. In a part of the zone where no workers are present, what speed applies?",
+    "choices": [
+      "45 mph or less for the entire work zone",
+      "35 mph, because fines double in work zones",
+      "Whatever speed the traffic around you is going",
+      "A safe speed, up to the normal posted limit"
+    ],
+    "answer": 3,
+    "explanation": "A 'where workers present' limit applies only where workers are present: watch for them and slow to 45 mph or lower there. Elsewhere in the zone, drive at a safe speed for conditions, up to the normal posted limit. Fines are doubled for moving violations in work zones.",
+    "difficulty": 2,
+    "ref": "What Every Driver Must Know (Oct. 2025), p. 41",
+    "states": [
+      "MI"
+    ]
   }
 ]

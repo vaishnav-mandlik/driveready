@@ -2107,5 +2107,347 @@
     "states": [
       "FL"
     ]
+  },
+  {
+    "id": "fl.car.102",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which rule does the Florida handbook's equipment list set for a car's windshield?",
+    "choices": [
+      "It may carry any sticker smaller than 5 inches square",
+      "It may have a mirrored film as long as the side windows stay clear",
+      "It must be safety glass, with no stickers the law doesn't require",
+      "It may be made of shatter-resistant plastic instead of glass"
+    ],
+    "answer": 2,
+    "explanation": "Florida requires a windshield of safety glass that is not covered or treated to make it reflective or non-transparent, and it must be free of any stickers not required by law. Side and rear windows have their own reflectance limits.",
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 46",
+    "states": [
+      "FL"
+    ]
+  },
+  {
+    "id": "fl.car.103",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Florida's equipment rules, how much light may a car's side windows reflect?",
+    "choices": [
+      "No more than 25%",
+      "No more than 35%",
+      "No more than 50%",
+      "Any amount, as long as the windshield is clear"
+    ],
+    "answer": 0,
+    "explanation": "Side windows may not have a mirrored look or reflect more than 25% of the light; the rear window limit is 35%. Florida Statutes also limit how dark window tint may be.",
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 46",
+    "states": [
+      "FL"
+    ]
+  },
+  {
+    "id": "fl.car.104",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "What sets the highest bumper height allowed on a car or pickup truck in Florida?",
+    "choices": [
+      "The size of the tires installed on it",
+      "Its weight after a lift kit or other changes",
+      "Whether it is used for work or for personal trips",
+      "The vehicle's net shipping weight"
+    ],
+    "answer": 3,
+    "explanation": "Florida limits the height from the pavement to the bottom of each bumper by the vehicle's net shipping weight, not its modified or altered weight, so the limits differ from vehicle to vehicle. For example, a car under 2,500 lbs may be no higher than 22 inches in front and rear.",
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 49",
+    "states": [
+      "FL"
+    ]
+  },
+  {
+    "id": "fl.car.105",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "You are hauling sand in the open bed of your pickup on a Florida road. What does the law require?",
+    "choices": [
+      "Keep the sand below the top of the bed",
+      "Cover the load with a close-fitting cover",
+      "Wet the sand down first so that it cannot blow away",
+      "Drive with your hazard lights flashing"
+    ],
+    "answer": 1,
+    "explanation": "Florida requires a close-fitting cover on any load, such as dirt, sand or gravel, that could fall or blow onto the road. Every load must also be secured so it cannot drop, shift, leak or otherwise escape.",
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 50",
+    "states": [
+      "FL"
+    ]
+  },
+  {
+    "id": "fl.car.106",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "In daylight, your load sticks out 5 feet past the back of your truck on a Florida road. How must you mark its end?",
+    "choices": [
+      "With a white cloth at least 12 inches square",
+      "With your hazard flashers alone",
+      "With red flags at least 18 inches square",
+      "With an orange traffic cone tied to the load"
+    ],
+    "answer": 2,
+    "explanation": "A load that extends 4 feet or more past the rear must be clearly marked. In the daytime, red flags at least 18 inches square must mark its ends. From sunset to sunrise, and in rain, smoke or fog, red lamps and reflectors are required.",
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 50; Florida Statutes, s. 316.228",
+    "states": [
+      "FL"
+    ]
+  },
+  {
+    "id": "fl.car.107",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "At night, a load extends more than 4 feet past the rear of a vehicle in Florida. What must be shown at the back of the load?",
+    "choices": [
+      "One white lamp visible from at least 100 feet away",
+      "Two red lamps visible from at least 500 feet",
+      "Two yellow flags at least 12 inches square",
+      "The vehicle's hazard flashers only"
+    ],
+    "answer": 1,
+    "explanation": "From sunset to sunrise, and in rain, smoke or fog, the end of a load that projects 4 feet or more needs two red lamps visible from at least 500 feet to the rear, plus red reflectors (and red side lamps to show how far it overhangs). In daylight, red flags at least 18 inches square are used.",
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 50; Florida Statutes, s. 316.228",
+    "states": [
+      "FL"
+    ]
+  },
+  {
+    "id": "fl.car.108",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Can a Florida driver be ticketed for driving too slowly?",
+    "choices": [
+      "No, only drivers who speed can be ticketed",
+      "Only on interstates, and only below 40 MPH",
+      "Only after an officer has first given you a written warning",
+      "Yes, for driving so slowly that it blocks normal traffic"
+    ],
+    "answer": 3,
+    "explanation": "Driving too slowly is against Florida law: you must not drive so slowly that you block or delay traffic moving at normal, safe speeds. When you are slower than traffic, keep right. On highways posted at 70 MPH, the minimum speed is 50 MPH.",
+    "difficulty": 1,
+    "ref": "Official Florida Driver License Handbook, p. 76",
+    "states": [
+      "FL"
+    ]
+  },
+  {
+    "id": "fl.car.109",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "At a Florida intersection with no signs or signals, you are on a dirt road about to enter a paved road. A car on the paved road is coming from your left. Who must yield?",
+    "choices": [
+      "You do, because you are coming from an unpaved road",
+      "The other driver, because your car is approaching from its right",
+      "The driver who reaches the intersection second",
+      "No one has to yield if both drivers slow down"
+    ],
+    "answer": 0,
+    "explanation": "At an open intersection (no signs or signals), Florida requires you to yield when you enter a paved road from an unpaved road, even if the other vehicle is on your left. You must also yield when entering or crossing a state highway from a secondary road, when a vehicle is already in the intersection, and when turning left in front of oncoming traffic.",
+    "difficulty": 3,
+    "ref": "Official Florida Driver License Handbook, p. 70",
+    "states": [
+      "FL"
+    ]
+  },
+  {
+    "id": "fl.car.110",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are on a secondary road and want to cross a state highway at an intersection with no signs or signals. What do Florida's right-of-way rules say?",
+    "choices": [
+      "Go first if you reached the intersection first",
+      "Highway traffic must stop and let you cross",
+      "Yield to the traffic on the state highway",
+      "Yield only to trucks and buses on the highway"
+    ],
+    "answer": 2,
+    "explanation": "When you enter or cross a state highway from a secondary road at an open intersection, you must yield the right-of-way to traffic on the highway. Go only when there is a safe gap.",
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 70",
+    "states": [
+      "FL"
+    ]
+  },
+  {
+    "id": "fl.car.111",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "Florida law bans passing on a hill or curve when you cannot see at least how far ahead?",
+    "choices": [
+      "200 feet",
+      "300 feet",
+      "500 feet",
+      "1,000 feet"
+    ],
+    "answer": 2,
+    "explanation": "You must not pass on hills or curves where you cannot see at least 500 feet ahead. Don't confuse it with the 200-foot rule: after passing, you must be back on the right side before coming within 200 feet of an oncoming vehicle.",
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 75",
+    "states": [
+      "FL"
+    ]
+  },
+  {
+    "id": "fl.car.112",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "According to the Florida handbook, how should a driver with conventional (non-ABS) brakes brake in an emergency when traction is lost?",
+    "choices": [
+      "Press hard and hold the pedal down while steering",
+      "Pump the brakes",
+      "Pull the parking brake as hard as possible",
+      "Shift into neutral and coast to a stop"
+    ],
+    "answer": 1,
+    "explanation": "Florida's handbook says drivers with conventional brakes should pump the brakes in this situation so the wheels don't stay locked. With ABS, do the opposite: press hard, hold the pedal and steer, because pumping an ABS pedal makes the system disengage.",
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 86",
+    "states": [
+      "FL"
+    ]
+  },
+  {
+    "id": "fl.car.113",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "A driver leaves the scene of a Florida crash in which a person was killed. What does Florida law make this?",
+    "choices": [
+      "A third-degree felony, with no required time in prison",
+      "A second-degree misdemeanor and a fine",
+      "A noncriminal infraction with 6 points",
+      "A first-degree felony with at least 4 years in prison"
+    ],
+    "answer": 3,
+    "explanation": "Leaving the scene of a crash that causes a death is a first-degree felony with a minimum 4-year prison term. Leaving after a serious bodily injury is a second-degree felony, and after any other injury a third-degree felony; each also means losing your license for at least 3 years.",
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 85",
+    "states": [
+      "FL"
+    ]
+  },
+  {
+    "id": "fl.car.114",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Your Florida license and plate were suspended because you did not keep the required PIP and PDL insurance. What must you do to lift the suspension?",
+    "choices": [
+      "Get insurance and pay a reinstatement fee of $150 to $500",
+      "Wait 30 days for the suspension to end on its own",
+      "Take a basic driver improvement course",
+      "Apply for a temporary hardship license so you can drive to work"
+    ],
+    "answer": 0,
+    "explanation": "To lift an insurance suspension, you must get insurance and pay a reinstatement fee ($150 to $500). When your license or plate is suspended for not having insurance, you cannot get a temporary license for any reason, not even to drive to work.",
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 32",
+    "states": [
+      "FL"
+    ]
+  },
+  {
+    "id": "fl.car.115",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You were at fault in a Florida crash and cannot show the insurance that the Financial Responsibility Law requires. What can FLHSMV require before reinstating your driving privilege?",
+    "choices": [
+      "That you retake the driving skills test",
+      "That you complete 50 hours of supervised driving",
+      "That you pay for the damages you caused",
+      "That you buy new license plates for each car you own"
+    ],
+    "answer": 2,
+    "explanation": "Florida's Financial Responsibility Law requires you to prove you can pay for damages you cause, through insurance or a Financial Responsibility Certificate. If you were at fault, FLHSMV can require you to pay for the damages before your driving privilege is reinstated, and if you must carry higher coverage and do not prove it, your license and plates can be suspended for up to three years.",
+    "difficulty": 3,
+    "ref": "Official Florida Driver License Handbook, p. 32",
+    "states": [
+      "FL"
+    ]
+  },
+  {
+    "id": "fl.car.116",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What happens to the driver license of someone found guilty of racing on a Florida highway?",
+    "choices": [
+      "It gets 2 points, with no other action",
+      "It is revoked",
+      "It is suspended for 7 days",
+      "Nothing happens on a first offense except a warning"
+    ],
+    "answer": 1,
+    "explanation": "Racing on the highway is on Florida's list of offenses for which a driver license must be revoked. The handbook also lists racing among the convictions that require a basic driver improvement course.",
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, pp. 25, 39",
+    "states": [
+      "FL"
+    ]
+  },
+  {
+    "id": "fl.car.117",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You have epilepsy and are applying for a Florida driver license. What does Florida require?",
+    "choices": [
+      "Nothing, because your medical history is kept private",
+      "Mention it to the examiner, but only if the examiner asks about it",
+      "Report it only after having a seizure while driving",
+      "List it on your application; you may need a doctor's report"
+    ],
+    "answer": 3,
+    "explanation": "Florida requires you to list any physical or mental condition that might affect your driving on your license application. With conditions like epilepsy, fainting spells or blackouts, you may need your doctor to complete a medical report before a license is issued.",
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 17",
+    "states": [
+      "FL"
+    ]
+  },
+  {
+    "id": "fl.car.118",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You get a ticket for a noncriminal moving violation while driving your own car in Florida. Why might you choose to take a Basic Driver Improvement course?",
+    "choices": [
+      "To keep the points off your driving record",
+      "To get the whole fine refunded to you",
+      "To qualify for a commercial driver license later",
+      "Because every ticket requires the course"
+    ],
+    "answer": 0,
+    "explanation": "If the violation was not in a commercial vehicle and you don't hold a CDL, you may choose a Basic Driver Improvement course instead of getting points, and your civil penalty is reduced by 18 percent. You can't choose it if you were cited for going more than 30 MPH over the limit.",
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 25",
+    "states": [
+      "FL"
+    ]
+  },
+  {
+    "id": "fl.car.119",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During the backing maneuver on Florida's driving skills test, what must you do?",
+    "choices": [
+      "Back up about 50 feet while watching only your backup camera",
+      "Back up 50 feet slowly while turning to look to the rear",
+      "Back up 20 feet while watching your side mirrors",
+      "Back up 100 feet at normal driving speed"
+    ],
+    "answer": 1,
+    "explanation": "On the skills test you back up 50 feet at a slow speed while looking to the rear, without using the rear-view mirror or a backup camera. Other test maneuvers include parking on a grade, straight-in parking, a quick stop and a three-point turn in a 20 to 40 foot space.",
+    "difficulty": 2,
+    "ref": "Official Florida Driver License Handbook, p. 28",
+    "states": [
+      "FL"
+    ]
   }
 ]

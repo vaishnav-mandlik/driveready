@@ -1,0 +1,82 @@
+[
+  {
+    "id": "mc.cvfom.001",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "A rider who has been drinking wants to sober up before riding home. What actually removes alcohol from the body?",
+    "choices": [
+      "A cold shower",
+      "Strong coffee or an energy drink",
+      "Time",
+      "A big meal"
+    ],
+    "answer": 2,
+    "explanation": "Your body gets rid of alcohol at about one drink per hour, and nothing speeds that up: not coffee, cold showers or exercise. Only time works, so separate drinking from riding.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, p. 42 (Alcohol in the Body); state motorcycle manuals (e.g. OR p.13, SC p.25, TN p.15)"
+  },
+  {
+    "id": "mc.cvfom.002",
+    "track": "motorcycle",
+    "topic": "mc-basic-control",
+    "prompt": "On a motorcycle with a manual clutch, what is the \"friction zone\"?",
+    "choices": [
+      "Where the clutch starts sending power to the rear wheel",
+      "The throttle range where the engine makes its peak power",
+      "The point where the front brake lever begins to grab",
+      "The strip of tire tread that grips the road in a curve"
+    ],
+    "answer": 0,
+    "explanation": "The friction zone is the point in the clutch lever's travel where the engine's power begins to reach the rear wheel. You use it to start moving smoothly without stalling and to ease the clutch out between downshifts.",
+    "difficulty": 1,
+    "ref": "MSF Motorcycle Operator Manual, pp. 9, 12; state motorcycle manuals (e.g. OR p.26, SC p.38)"
+  },
+  {
+    "id": "mc.cvfom.003",
+    "track": "motorcycle",
+    "topic": "mc-lane-position",
+    "prompt": "There is no single correct lane position for a motorcycle. What should decide which part of the lane you ride in?",
+    "choices": [
+      "Always the left third, next to the center line",
+      "Always the right third, so faster cars can pass",
+      "The center strip, because it always gives the best traction",
+      "Where others can best see you and you keep a space cushion"
+    ],
+    "answer": 3,
+    "explanation": "No portion of the lane needs to be avoided. Ride in the part of the lane where you are most likely to be seen and can keep a space cushion around you, and change position as traffic changes. Your position should also help you avoid blind spots, surface hazards and windblast.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, p. 15 (Lane Positions); Oregon Motorcycle & Moped Manual, p. 34"
+  },
+  {
+    "id": "mc.cvfom.004",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "A group of riders on three-wheel motorcycles is riding together. Which formation should they use?",
+    "choices": [
+      "A staggered formation, the same as two-wheel groups use",
+      "Single file, keeping a safe gap between vehicles",
+      "Side by side, two vehicles to a lane",
+      "Staggered on highways, side by side in town"
+    ],
+    "answer": 1,
+    "explanation": "Three-wheel motorcycles and sidecar rigs are nearly as wide as some cars, so they cannot use a staggered formation. Ride single file and keep a safe gap between vehicles: at least 2 seconds in the MSF manual (Oregon's manual says at least 4).",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, pp. 50-51 (Three-Wheel Supplement: Lane Position); Oregon Motorcycle & Moped Manual, p. 56"
+  },
+  {
+    "id": "mc.cvfom.005",
+    "track": "motorcycle",
+    "topic": "mc-basic-control",
+    "prompt": "You are turning a three-wheel motorcycle. What should you do with your body?",
+    "choices": [
+      "Lean your upper body slightly toward the turn",
+      "Lean your body away from the turn to stay level",
+      "Press the inside handgrip forward to countersteer",
+      "Sit still and let the motorcycle lean for you"
+    ],
+    "answer": 0,
+    "explanation": "A conventional three-wheel motorcycle doesn't lean and can't be countersteered: you point the front wheel or wheels where you want to go. Leaning your upper body slightly or shifting your weight toward the turn improves control and helps keep all the wheels on the ground.",
+    "difficulty": 2,
+    "ref": "MSF Motorcycle Operator Manual, pp. 49-50 (Three-Wheel Supplement); Oregon Motorcycle & Moped Manual, pp. 57-58"
+  }
+]

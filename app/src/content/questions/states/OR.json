@@ -2107,5 +2107,176 @@
     "states": [
       "OR"
     ]
+  },
+  {
+    "id": "or.car.102",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You stop behind another car at a red light. How much room does the Oregon Driver Manual say to leave?",
+    "choices": [
+      "Enough to see its rear tires touching the road",
+      "About one foot, so the line of cars stays short",
+      "A full four seconds, as when you are moving",
+      "Enough to read the small print on its license plate"
+    ],
+    "answer": 0,
+    "explanation": "When stopped behind another vehicle, stay far enough back that you can see where its rear tires meet the road. After traffic starts to move, return to a safe following distance.",
+    "difficulty": 1,
+    "ref": "Oregon Driver Manual, p. 35",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.103",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A streetcar ahead of you in your lane stops to let riders on and off. What does the Oregon Driver Manual tell you to do?",
+    "choices": [
+      "Pass it on the left as soon as there is a gap",
+      "Honk so the riders know a car is coming",
+      "Stay behind it until it moves or the riders are safely away",
+      "Pass it on the right, in the space between the streetcar and the curb"
+    ],
+    "answer": 2,
+    "explanation": "Let streetcars and light rail trains go first. If one stops to pick up or drop off people, stay behind it until it moves again or the people are safely away, and watch for riders crossing in front of you.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 73",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.104",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are driving past a streetcar that has stopped at a platform in the lane next to yours. What hazard does the Oregon Driver Manual tell you to watch for?",
+    "choices": [
+      "The streetcar backing up to its stop",
+      "Sparks falling from the overhead wires",
+      "The streetcar pulling into your lane to pass",
+      "Riders running across your lane to catch it"
+    ],
+    "answer": 3,
+    "explanation": "Be careful where streetcars and trains stop: people get on and off, and passengers may run across lanes to catch them. Pass with caution, and never turn in front of a streetcar in the next lane, even a stopped one.",
+    "difficulty": 2,
+    "ref": "Oregon Driver Manual, p. 74",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.car.105",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "You are bringing home a partly finished bottle of wine in your car in Oregon. Where does the Oregon Driver Manual say it should be?",
+    "choices": [
+      "In the glove compartment",
+      "In the trunk",
+      "Under the front passenger seat",
+      "In a cup holder, as long as it is recorked"
+    ],
+    "answer": 1,
+    "explanation": "Oregon's Open Container law makes it illegal to have an open container of alcohol in a vehicle on any road, and a container is open once its seal is broken, even if it has been reclosed. The Oregon Driver Manual says any open bottles or containers should be in the trunk.",
+    "difficulty": 1,
+    "ref": "Oregon Driver Manual, p. 91",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.mc.011",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "Very cold weather slows your reaction time on a motorcycle. What does the Oregon Motorcycle Manual say to do about it?",
+    "choices": [
+      "Keep your speed, but grip the handlebars much more tightly",
+      "Ride in the left part of the lane to stay away from ice",
+      "Slow down and leave more space ahead and to your sides",
+      "Use only the rear brake so the front tire does not skid"
+    ],
+    "answer": 2,
+    "explanation": "Cold can slow your reactions significantly. Make up for it by reducing your speed and increasing your following distance and the space on your sides, and wear windproof, insulated riding gear.",
+    "difficulty": 2,
+    "ref": "Oregon Motorcycle & Moped Manual, p. 14",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.mc.012",
+    "track": "motorcycle",
+    "topic": "mc-basic-control",
+    "prompt": "The Oregon Motorcycle Manual teaches four steps for turning. In what order does it list them?",
+    "choices": [
+      "Look, Signal, Lean, Brake",
+      "Signal, Slow, Shift, Lean",
+      "Brake, Lean, Look, Accelerate",
+      "Slow, Look, Roll, Press"
+    ],
+    "answer": 3,
+    "explanation": "Oregon's manual lists SLOW (reduce speed before the turn), LOOK (through the turn), ROLL (roll on the throttle to hold a steady speed or gently accelerate) and PRESS (countersteer: press the handgrip in the direction of the turn). The MSF manual lists the same four steps as slow, look, press, roll; in real turns they overlap.",
+    "difficulty": 2,
+    "ref": "Oregon Motorcycle & Moped Manual, p. 28",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.mc.013",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "You are about to take a curve on a crowned road, one that is higher in the middle than at the edges. What does the Oregon Motorcycle Manual advise?",
+    "choices": [
+      "Slow down; you have less ground clearance to lean",
+      "Lean your body toward the high center of the road",
+      "Speed up so the motorcycle stays more upright",
+      "Ride along the edge, where the pavement is flatter"
+    ],
+    "answer": 0,
+    "explanation": "On a crowned road, cornering leaves you less ground clearance and less available lean angle than on a flat road, so use caution and slow down before the curve.",
+    "difficulty": 2,
+    "ref": "Oregon Motorcycle & Moped Manual, p. 47",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.mc.014",
+    "track": "motorcycle",
+    "topic": "mc-crash-avoidance",
+    "prompt": "According to the Oregon Motorcycle Manual, what may be the best way to avoid a collision on a three-wheel motorcycle?",
+    "choices": [
+      "Swerving while you brake",
+      "Countersteering sharply",
+      "Braking hard",
+      "Speeding up around the hazard"
+    ],
+    "answer": 2,
+    "explanation": "A three-wheel motorcycle is less maneuverable than a two-wheeler, so swerving is seldom the best option; hard braking may be. Look well ahead so you don't need sudden swerves, and if you must swerve, brake before or after it, never during it.",
+    "difficulty": 2,
+    "ref": "Oregon Motorcycle & Moped Manual, p. 57",
+    "states": [
+      "OR"
+    ]
+  },
+  {
+    "id": "or.mc.015",
+    "track": "motorcycle",
+    "topic": "mc-basic-control",
+    "prompt": "What can happen if you enter a turn too fast on a three-wheel motorcycle, according to the Oregon Motorcycle Manual?",
+    "choices": [
+      "Nothing; three wheels keep it stable at any speed",
+      "You may cross into another lane or lift a wheel",
+      "The front wheels will lean too far into the turn",
+      "The engine will shut itself off automatically"
+    ],
+    "answer": 1,
+    "explanation": "Approach turns and curves with caution. Entering a turn too fast on a three-wheeler can carry you into another lane of traffic, lift a wheel or take you off the road, and oversteering can cause a skid.",
+    "difficulty": 2,
+    "ref": "Oregon Motorcycle & Moped Manual, p. 56",
+    "states": [
+      "OR"
+    ]
   }
 ]
