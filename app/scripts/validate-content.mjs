@@ -177,7 +177,11 @@ for (const {f, track} of questionFiles) {
         err(f, `${where} contains banned text ${b}`);
       }
     }
-    const np = norm(q.prompt) + '|' + (q.sign ?? '') + '|' + (q.states ?? []).join(',');
+    // Duplicates matter where one learner meets both questions: within a track (car/motorcycle exams draw
+    // from every topic). CDL modules are separate knowledge tests that deliberately repeat key facts, so
+    // there a duplicate only counts within the same module (topic).
+    const scope = q.track === 'cdl' ? `cdl:${q.topic}` : q.track;
+    const np = scope + '|' + norm(q.prompt) + '|' + (q.sign ?? '') + '|' + (q.states ?? []).join(',');
     if (prompts.has(np)) {
       warn(f, `${where} duplicate prompt (also ${prompts.get(np)})`);
     }

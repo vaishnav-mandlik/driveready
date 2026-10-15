@@ -214,7 +214,7 @@ export const bundledHashes: Record<string, string> = {
   'questions/car/road-signs-guide.json': 'e3c1a03f00374ca924f6ce288e3a2f664fc50639b15a684bac32897934c3d1de',
   'questions/car/road-signs-warning.json': '439936d9f0e5923874f730a42edb683c85faa4ac68f446b1afd6cb942918cfe8',
   'questions/car/road-signs.json': '12dbdd6d1ffe794833696932971edee4831e65b3bf85ec2bb52ce12811f0f554',
-  'questions/car/safe-habits.json': '8b510de57c9cd0087b5abadf79eafebc16e0b643395f3da6e7e8e0869f8475c2',
+  'questions/car/safe-habits.json': '0a22b55f8fa451cfd69dbf9064cd0e82c13bdab46311a34114357131cfbc62ba',
   'questions/car/scenarios-intersections.json': 'e181d3dda2be99efe30637a73828e0bcbe64454cb8877202a17a670bfe4f4e5f',
   'questions/car/scenarios-road.json': '4b6f0ceca5d2275e1f198b9b76c0ff695e608d8194945566baae39b190860ff0',
   'questions/car/sharing-road.json': 'd3756a462b40376dec8dc9dd74339d7125a6fb191e9bb02ef743c8c3a8c9f66d',
