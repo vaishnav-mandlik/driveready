@@ -1,0 +1,2092 @@
+[
+  {
+    "id": "ne.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Nebraska, a driver age 21 or older is breaking the law when their blood alcohol concentration (BAC) reaches at least:",
+    "choices": [
+      "0.05%",
+      "0.12%",
+      "0.08%",
+      "0.10%"
+    ],
+    "answer": 2,
+    "explanation": "Nebraska makes it unlawful to drive with a BAC of .08% or higher, regardless of the driver's age or type of vehicle. Driving skills are impaired well below that level.",
+    "difficulty": 1,
+    "ref": "Nebraska Driver's Manual, p. 32",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 19-year-old Nebraska driver is stopped with a BAC of 0.03%. Which statement is correct?",
+    "choices": [
+      "The driver is legal because the limit for every driver is .08%",
+      "The driver is legal because the under-21 limit is .05%",
+      "The driver can be cited only if driving a commercial vehicle",
+      "The driver is violating Nebraska's zero-tolerance law, which applies at .02% or more for drivers under 21"
+    ],
+    "answer": 3,
+    "explanation": "Nebraska has a zero-tolerance law: drivers under 21 may not drive with a BAC of .02% or more. Drivers under 21 are also subject to the regular DUI laws at .08%.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 9, 32",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the BAC limit for a person driving a commercial motor vehicle in Nebraska?",
+    "choices": [
+      "0.06%",
+      "0.04%",
+      "0.02%",
+      "0.08%"
+    ],
+    "answer": 1,
+    "explanation": "It is unlawful to drive a commercial motor vehicle in Nebraska with a BAC of .04% or higher, half the .08% limit that applies to other drivers.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 32",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What administrative penalty does Nebraska impose on a driver who refuses a requested chemical test for alcohol or drugs?",
+    "choices": [
+      "A 180-day license revocation",
+      "A warning letter for a first refusal",
+      "A one-year license revocation",
+      "A 90-day license revocation"
+    ],
+    "answer": 2,
+    "explanation": "The administrative sanction for refusing a chemical test is one year of license revocation. Refusal is also a separate crime with its own criminal penalties.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 28, 32",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Nebraska's implied consent law, when did you agree to take a chemical test of your blood, breath or urine if an officer requests one?",
+    "choices": [
+      "When you chose to drive a vehicle on Nebraska roadways",
+      "Only after a judge orders the test",
+      "Only if you were involved in a crash",
+      "Only when you sign a consent form at the scene"
+    ],
+    "answer": 0,
+    "explanation": "Any driver who operates a vehicle on Nebraska roadways has already agreed to submit to chemical testing when a law enforcement officer requests it. Refusing violates the implied consent law.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 32",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A first-time offender fails a breath test after a DUI arrest in Nebraska. How long is the administrative license revocation (ALR)?",
+    "choices": [
+      "Two years",
+      "180 days",
+      "90 days",
+      "30 days"
+    ],
+    "answer": 1,
+    "explanation": "First-time offenders who fail an alcohol test serve a 180-day administrative license revocation. Repeat offenders and anyone who refuses a test serve one year.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 28",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "After a DUI arrest, a Nebraska officer can take your license and give you a temporary license. How long is that temporary license valid?",
+    "choices": [
+      "30 days",
+      "7 days",
+      "60 days",
+      "15 days"
+    ],
+    "answer": 3,
+    "explanation": "Under the administrative license revocation (ALR) law, the temporary license expires 15 days after it is issued. The revocation then begins unless a department hearing dismisses it.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 25, 28",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Which statement about open alcohol containers in a vehicle in Nebraska is correct?",
+    "choices": [
+      "Passengers may drink as long as the driver stays sober",
+      "Open containers are allowed while the vehicle is parked in a public lot",
+      "The open container rule applies only to the driver",
+      "Passengers as well as drivers may not have an open container on a public roadway or in a public parking area"
+    ],
+    "answer": 3,
+    "explanation": "It is unlawful to drink or to have an open container of alcohol inside any vehicle on a public roadway or in a public parking area in Nebraska. The law covers both drivers and passengers.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 32",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.009",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 20-year-old is convicted of driving with a BAC of .02% or more (but under .08%). What happens to their Nebraska license?",
+    "choices": [
+      "It is suspended for six months",
+      "Nothing, because the BAC was under .08%",
+      "The court impounds it for 30 days",
+      "It is revoked for one year"
+    ],
+    "answer": 2,
+    "explanation": "For a .02% conviction, the court impounds the license for 30 days and the conviction stays on the driving record for 90 days. An underage refusal brings a 90-day impoundment.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 28",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.010",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A driver is convicted of a first DUI in Nebraska with a BAC below .15 and is NOT placed on probation. What license penalty must the court order?",
+    "choices": [
+      "No license action, only a fine",
+      "A six-month revocation, with an ignition interlock permit required to drive during it",
+      "A 30-day impoundment with no other conditions",
+      "A 15-year revocation"
+    ],
+    "answer": 1,
+    "explanation": "A first DUI is a Class W misdemeanor, and the court revokes the license for six months and requires an ignition interlock permit for that period. If the driver gets probation, the revocation is 60 days plus a $500 fine.",
+    "difficulty": 3,
+    "ref": "Neb. Rev. Stat. § 60-6,197.03(1)",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.011",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Nebraska law, which phone use while driving is illegal for an adult with a regular Class O license?",
+    "choices": [
+      "Reading, typing or sending a text or other written message on a handheld device while the vehicle is moving",
+      "Any phone call, even with a hands-free device",
+      "Using a navigation screen built into the vehicle",
+      "Talking with a passenger"
+    ],
+    "answer": 0,
+    "explanation": "Nebraska bans using a handheld wireless device to read, type or send written communication (texts, e-mail, instant messages, websites) while driving. Hands-free devices and equipment built into the vehicle are not covered by the ban.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 73; Neb. Rev. Stat. § 60-6,179.01",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.012",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A Nebraska officer sees an adult driver typing a text message while driving but sees no other violation. What is true under Nebraska's texting law?",
+    "choices": [
+      "Texting is a secondary offense, so the driver can be cited for it only when stopped or cited for another violation",
+      "The officer must stop the driver because texting is a primary offense",
+      "Texting while driving is legal for drivers 21 and older",
+      "The officer may issue only a written warning"
+    ],
+    "answer": 0,
+    "explanation": "Nebraska enforces its texting ban only as a secondary action, when the driver has been cited or charged with another traffic violation or offense.",
+    "difficulty": 3,
+    "ref": "Neb. Rev. Stat. § 60-6,179.01(4); Nebraska Driver's Manual, p. 73",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.013",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "What is the fine for a first conviction of using a handheld device to read, type or send a written message while driving in Nebraska?",
+    "choices": [
+      "$100",
+      "$500",
+      "$200",
+      "$25"
+    ],
+    "answer": 2,
+    "explanation": "The fine is $200 for a first offense, $300 for a second and $500 for a third or later offense, and 3 points are assessed against the license.",
+    "difficulty": 2,
+    "ref": "Neb. Rev. Stat. § 60-6,179.01(5); Nebraska Driver's Manual, p. 27, 72",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.014",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 16-year-old with a Provisional Operator's Permit (POP) wants to make a quick hands-free phone call while driving. Is this allowed in Nebraska?",
+    "choices": [
+      "Yes. Hands-free calls are always allowed",
+      "Yes, but only between 6 a.m. and midnight",
+      "Yes, if an adult passenger is in the vehicle",
+      "No. POP holders may not use any type of interactive wireless communication device while driving"
+    ],
+    "answer": 3,
+    "explanation": "Nebraska permit holders (LPE, LPD, School Permit) and POP holders may not use any interactive wireless communication device while driving, hands-free included. A violation adds 1 point to the driving record.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 9, 27",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.015",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Nebraska's seat belt law, who must be buckled up when the driver holds a regular Class O license?",
+    "choices": [
+      "Only passengers under age 16",
+      "The driver and all front-seat passengers",
+      "Only the driver",
+      "Every person in the vehicle, including adults in the back seat"
+    ],
+    "answer": 1,
+    "explanation": "Nebraska's occupant protection law requires the driver and front-seat passengers to buckle up; it is a secondary law with a $25 fine. Children under 18 must also be secured under the child passenger law.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 34",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.016",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 16-year-old is driving on a Provisional Operator's Permit with a parent in the front seat and a grandparent in the back seat. Who must wear a seat belt?",
+    "choices": [
+      "Only the driver and the front-seat passenger",
+      "No one, if the trip is short",
+      "Everyone in the vehicle",
+      "Only the 16-year-old driver"
+    ],
+    "answer": 2,
+    "explanation": "When the driver holds a Provisional Operator's Permit or a School Permit, every person in the vehicle must be secured in a seat belt or child safety seat.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 13, 34",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.017",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Nebraska's child passenger restraint law, children must ride in a federally approved child safety seat up to what age?",
+    "choices": [
+      "8",
+      "6",
+      "10",
+      "12"
+    ],
+    "answer": 0,
+    "explanation": "Children up to age eight must ride correctly secured in a federally approved child safety seat, in a back seat when one equipped for it is available. Children 8 up to 18 must use a seat belt or child safety seat.",
+    "difficulty": 1,
+    "ref": "Nebraska Driver's Manual, p. 34",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.018",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Nebraska law, children must ride in a rear-facing car seat until what age, unless they first outgrow the seat's height or weight limit?",
+    "choices": [
+      "8",
+      "2",
+      "1",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "Nebraska requires children to ride rear-facing up to age two or until they reach the upper height or weight limit set by the car seat's manufacturer.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 34",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.019",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A Nebraska driver is cited because a 12-year-old passenger is not buckled up. What is the penalty under the child passenger restraint law?",
+    "choices": [
+      "A $25 fine and no points",
+      "A $200 fine and 3 points",
+      "No penalty, because the law covers only children under 8",
+      "A $25 fine and 1 point on the driver's record"
+    ],
+    "answer": 3,
+    "explanation": "Children ages 8 up to 18 must be secured in a seat belt or child safety seat. A violation of the child passenger restraint law carries a $25 fine and 1 point against the driver.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 27, 34",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.020",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Nebraska law prohibits children up to what age from riding in a vehicle's cargo area, such as a pickup bed?",
+    "choices": [
+      "8",
+      "12",
+      "16",
+      "18"
+    ],
+    "answer": 3,
+    "explanation": "Children up to age eighteen may not ride in cargo areas. This part of the law is a primary law, so an officer can stop you for it alone.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 34",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.021",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which of these is illegal to have in a vehicle you are driving on a Nebraska public road?",
+    "choices": [
+      "A hands-free phone mount",
+      "A radio",
+      "A television whose viewing screen the driver can see while driving",
+      "A navigation system built into the dashboard"
+    ],
+    "answer": 2,
+    "explanation": "Nebraska law makes it illegal to drive a vehicle equipped with a television set whose screen is visible to the driver while driving.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 73",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.022",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age to be issued a Nebraska Learner's Permit (LPD)?",
+    "choices": [
+      "15 and a half",
+      "15",
+      "14",
+      "16"
+    ],
+    "answer": 1,
+    "explanation": "You may apply for an LPD 60 days before your 15th birthday, but it is issued on or after the birthday. The LPD is valid for one year.",
+    "difficulty": 1,
+    "ref": "Nebraska Driver's Manual, p. 11, 12",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.023",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 14-year-old who lives in the country wants to start practicing so they can later earn a School Permit. Which Nebraska permit is available at age 14?",
+    "choices": [
+      "A School Learner's Permit (LPE)",
+      "A Provisional Operator's Permit (POP)",
+      "A Learner's Permit (LPD)",
+      "A Class O operator's license"
+    ],
+    "answer": 0,
+    "explanation": "The School Learner's Permit (LPE), minimum age 14, lets a student practice for a School Permit with a licensed driver 21 or older beside them. The LPD starts at 15 and the POP at 16.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 10",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.024",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Who may be issued a Nebraska School Permit (SCP)?",
+    "choices": [
+      "A student at least 14 years and two months old who lives or attends school outside a city of 5,000 or more",
+      "Any 14-year-old in Nebraska",
+      "Only students who live inside a city of 5,000 or more",
+      "Any student 16 or older"
+    ],
+    "answer": 0,
+    "explanation": "A School Permit is for students who live, or attend school, outside a city of 5,000 or more. The minimum age is 14 years and two months, after holding an LPE or LPD for at least two months. Without an adult, the holder may drive only to and from school and school activities.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 10",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.025",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Before applying for a Provisional Operator's Permit (POP), how long must a Nebraska teen have held an LPE, School Permit or LPD?",
+    "choices": [
+      "At least 12 months",
+      "At least 30 days",
+      "At least six months",
+      "At least three months"
+    ],
+    "answer": 2,
+    "explanation": "The teen must have held an LPE, SCP or LPD for at least six months and must not have accumulated 3 or more points in the six months before applying for the POP.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 12",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.026",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Nebraska teen applying for a POP without completing a DMV-approved driver safety course must have a certified record of how much supervised driving?",
+    "choices": [
+      "40 hours, including 10 hours at night",
+      "50 hours, with no night requirement",
+      "100 hours, including 20 hours at night",
+      "50 hours, including at least 10 hours at night"
+    ],
+    "answer": 3,
+    "explanation": "A parent, guardian or licensed driver 21 or older must sign a 50-hour certification form showing at least 10 hours driven between sunset and sunrise. Completing a DMV-approved driver safety course is the other way to qualify.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 12",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.027",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Who may supervise a Nebraska Learner's Permit (LPD) holder who is driving a car?",
+    "choices": [
+      "A licensed driver at least 19 years old in the back seat",
+      "A licensed driver at least 21 years old sitting in the seat beside the driver",
+      "Any licensed driver 18 or older, sitting anywhere in the car",
+      "Any passenger 21 or older, licensed or not"
+    ],
+    "answer": 1,
+    "explanation": "An LPD holder must be accompanied by a licensed driver at least 21 years old who occupies the seat beside the driver.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 12",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.028",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age for a Nebraska Provisional Operator's Permit (POP)?",
+    "choices": [
+      "17",
+      "16 and a half",
+      "16",
+      "15"
+    ],
+    "answer": 2,
+    "explanation": "You may apply 60 days before your 16th birthday, but the POP is issued on or after the birthday. It expires on the holder's 18th birthday.",
+    "difficulty": 1,
+    "ref": "Nebraska Driver's Manual, p. 12, 13",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.029",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During which hours may a Nebraska POP holder drive alone for any purpose?",
+    "choices": [
+      "6 a.m. to 12 midnight",
+      "5 a.m. to 11 p.m.",
+      "6 a.m. to 10 p.m.",
+      "Sunrise to sunset"
+    ],
+    "answer": 0,
+    "explanation": "A POP allows unsupervised driving from 6 a.m. to midnight. From midnight to 6 a.m., the holder may drive only to or from work or a school activity, or with a parent, guardian or licensed driver 21 or older.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 12",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.030",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old with a POP finishes a work shift at 12:30 a.m. May they drive home alone?",
+    "choices": [
+      "Only on roads with a speed limit of 35 mph or less",
+      "Yes. A POP holder may drive between midnight and 6 a.m. when going to or from work or a school activity",
+      "No. POP holders may never drive after midnight",
+      "Only with a special night driving permit"
+    ],
+    "answer": 1,
+    "explanation": "The POP night limit (midnight to 6 a.m.) has exceptions for driving to or from work or a school activity, and for driving with a parent, guardian or licensed driver 21 or older. Violating the restriction adds 1 point.",
+    "difficulty": 3,
+    "ref": "Nebraska Driver's Manual, p. 9, 12",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.031",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During the first six months of a Nebraska POP, how many passengers under 19 who are not immediate family members may the driver carry?",
+    "choices": [
+      "None",
+      "Two",
+      "Three",
+      "One"
+    ],
+    "answer": 3,
+    "explanation": "For the first six months, a POP holder may drive with no more than one passenger who is under 19 and not an immediate family member. A violation adds 1 point.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 9, 12",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.032",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old has held a POP for two months. Which group of passengers may ride with them?",
+    "choices": [
+      "Two non-family friends ages 16 and 17",
+      "Three classmates age 18",
+      "Two non-family friends age 17, if a parent approves by phone",
+      "Their younger brother and one non-family friend age 17"
+    ],
+    "answer": 3,
+    "explanation": "During the first six months, a POP holder may carry no more than one passenger under 19 who isn't immediate family. Immediate family members don't count toward that limit.",
+    "difficulty": 3,
+    "ref": "Nebraska Driver's Manual, p. 12",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.033",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "At what age can a Nebraska teen who has held a POP for 12 months, with fewer than 3 points in the last 12 months, get a Class O operator's license?",
+    "choices": [
+      "18",
+      "21",
+      "17",
+      "16"
+    ],
+    "answer": 2,
+    "explanation": "A Class O license is available at 17 to a teen who has held a POP for at least 12 months without 3 or more points in the previous 12 months. The written and drive tests are waived.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 13, 22",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.034",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A new Nebraska resident has a valid driver's license from another state. How soon must they get a Nebraska license?",
+    "choices": [
+      "Within one year",
+      "Within 30 days",
+      "Within 60 days",
+      "Within 90 days"
+    ],
+    "answer": 1,
+    "explanation": "Any new resident with a valid license from another state must obtain a Nebraska license within 30 days.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 9",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.035",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "After you move to a new address, how long do you have under Nebraska law to apply for a replacement license showing the change?",
+    "choices": [
+      "60 days",
+      "10 days",
+      "30 days",
+      "90 days"
+    ],
+    "answer": 0,
+    "explanation": "State law requires name and address changes on a license or ID card to be made within 60 days of the change.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 24; Neb. Rev. Stat. § 60-4,120",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.036",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How many points within a two-year period cause automatic revocation of a Nebraska driver's license?",
+    "choices": [
+      "12",
+      "10",
+      "15",
+      "8"
+    ],
+    "answer": 0,
+    "explanation": "Accumulating 12 points in a two-year period causes automatic revocation of the operator's license.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 26",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.037",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long is a Nebraska license revoked the first time a driver reaches 12 points within two years?",
+    "choices": [
+      "Three months",
+      "Three years",
+      "Six months",
+      "One year"
+    ],
+    "answer": 2,
+    "explanation": "A first point-system revocation lasts six months; a second within five years lasts three years. To reinstate, the driver must finish a 4-hour driver improvement course and keep SR-22 proof of insurance for three years.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 26",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.038",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Nebraska driver is convicted of driving 4 mph over the speed limit (citation issued after November 2020). How many points are assessed?",
+    "choices": [
+      "1 point",
+      "2 points",
+      "3 points",
+      "0 points"
+    ],
+    "answer": 3,
+    "explanation": "For citations dated on or after Nov. 14, 2020, speeding 1 to 5 mph over the limit adds no points. Higher speeds add 1 to 4 points depending on the speed and the type of road.",
+    "difficulty": 3,
+    "ref": "Nebraska Driver's Manual, p. 27; Neb. Rev. Stat. § 60-4,182",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.039",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 19-year-old Nebraska driver collects 6 points within one year. What must they do?",
+    "choices": [
+      "Surrender their license until age 21",
+      "Complete a driver improvement course within three months",
+      "Retake the written and drive tests",
+      "Nothing until they reach 12 points"
+    ],
+    "answer": 1,
+    "explanation": "Drivers under 21 who accumulate six or more points within one year must complete a driver improvement course within three months. If they don't, the license is suspended until they finish the course or turn 21.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 9; Neb. Rev. Stat. § 60-4,130.03",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.040",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which set of amounts matches Nebraska's minimum liability insurance (injury to one person / injury to two or more people / property damage)?",
+    "choices": [
+      "$50,000 / $100,000 / $25,000",
+      "$15,000 / $30,000 / $10,000",
+      "$25,000 / $50,000 / $25,000",
+      "$25,000 / $50,000 / $10,000"
+    ],
+    "answer": 2,
+    "explanation": "Every vehicle on Nebraska public roads must have liability coverage of at least $25,000 for injury or death of one person, $50,000 for two or more people, and $25,000 for property damage in one crash.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 36",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.041",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A driver hits a parked car, causing only property damage, and drives off without stopping or leaving a note. If convicted in Nebraska, the court may revoke their license for up to:",
+    "choices": [
+      "One year",
+      "90 days",
+      "Six months",
+      "30 days"
+    ],
+    "answer": 0,
+    "explanation": "Leaving the scene of a property-damage crash is a misdemeanor, and the court may revoke the license for up to one year; it also adds 6 points. Leaving the scene of a crash in which someone is hurt or killed is a felony with a required revocation of 1 to 15 years.",
+    "difficulty": 2,
+    "ref": "Neb. Rev. Stat. §§ 60-696(4), 60-698(2); Nebraska Driver's Manual, p. 27, 30",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.042",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A driver flees from a police officer to avoid a traffic ticket. It is the driver's first offense, no one is hurt and the driving is not reckless. What is the offense in Nebraska?",
+    "choices": [
+      "A Class IV felony in every case",
+      "A Class I misdemeanor, and the court may also revoke the license for up to one year",
+      "A traffic infraction with a small fine",
+      "No offense if the driver stops later"
+    ],
+    "answer": 1,
+    "explanation": "Fleeing in a vehicle to avoid arrest or a citation is a Class I misdemeanor, and the court may revoke the license for up to one year. It becomes a Class IV felony with a mandatory two-year revocation if the driver has a prior conviction, someone is hurt or killed, or the flight involves willful reckless driving.",
+    "difficulty": 3,
+    "ref": "Neb. Rev. Stat. § 28-905; Nebraska Driver's Manual, p. 30",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.043",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What does Nebraska's basic speed law require?",
+    "choices": [
+      "Driving at the posted speed limit at all times",
+      "Driving no more than 10 mph below the limit",
+      "Keeping up with the fastest traffic",
+      "Driving at a speed that is reasonable and safe for the existing conditions"
+    ],
+    "answer": 3,
+    "explanation": "Nebraska's speed law requires a speed that is reasonable and safe under existing conditions. In bad weather or heavy traffic that can be well below the posted limit.",
+    "difficulty": 1,
+    "ref": "Nebraska Driver's Manual, p. 60",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.044",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the speed limit in a Nebraska residential district?",
+    "choices": [
+      "20 mph",
+      "30 mph",
+      "35 mph",
+      "25 mph"
+    ],
+    "answer": 3,
+    "explanation": "The maximum speed in residential districts is 25 mph unless a different limit is posted.",
+    "difficulty": 1,
+    "ref": "Nebraska Driver's Manual, p. 60",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.045",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the speed limit in a Nebraska business district?",
+    "choices": [
+      "30 mph",
+      "15 mph",
+      "20 mph",
+      "25 mph"
+    ],
+    "answer": 2,
+    "explanation": "Nebraska's default limit in business districts is 20 mph, lower than the 25 mph residential limit.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 60",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.046",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the maximum speed on a Nebraska gravel road?",
+    "choices": [
+      "60 mph",
+      "50 mph",
+      "55 mph",
+      "45 mph"
+    ],
+    "answer": 1,
+    "explanation": "The default limit is 50 mph on any road that is gravel or not dustless-surfaced, and 55 mph on paved roads that are not part of the state highway system.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 60",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.047",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless otherwise posted, what is the maximum speed on a two-lane Nebraska state highway that is not an expressway, super-two highway or freeway?",
+    "choices": [
+      "65 mph",
+      "55 mph",
+      "70 mph",
+      "60 mph"
+    ],
+    "answer": 0,
+    "explanation": "The default limit on the state highway system is 65 mph. Expressways and super-two highways on the state system are 70 mph, and rural interstates are 75 mph.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 60",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.048",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the maximum speed limit on Nebraska's rural interstate highways?",
+    "choices": [
+      "75 mph",
+      "70 mph",
+      "80 mph",
+      "65 mph"
+    ],
+    "answer": 0,
+    "explanation": "The maximum is 75 mph on rural interstates. The statutory maximum is 65 mph on interstates in Douglas County and on I-180 and I-129.",
+    "difficulty": 1,
+    "ref": "Nebraska Driver's Manual, p. 60; Neb. Rev. Stat. § 60-6,186",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.049",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What minimum following distance does the Nebraska Driver's Manual teach?",
+    "choices": [
+      "One car length for every 10 mph",
+      "Five seconds",
+      "Three seconds",
+      "Two seconds"
+    ],
+    "answer": 2,
+    "explanation": "Use the three-second rule: when the vehicle ahead passes a fixed point, it should take you at least three seconds to reach it. Add one second for each adverse condition.",
+    "difficulty": 1,
+    "ref": "Nebraska Driver's Manual, p. 74, 75",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.050",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "It is daytime, but it is raining and traffic is heavy. Using the Nebraska manual's following-distance rule, what is the minimum gap you should keep?",
+    "choices": [
+      "3 seconds",
+      "4 seconds",
+      "2 seconds",
+      "5 seconds"
+    ],
+    "answer": 3,
+    "explanation": "The three-second rule is a minimum that should be increased by one second for each adversity factor. Rain plus heavy traffic is two factors, so 3 + 1 + 1 = 5 seconds.",
+    "difficulty": 3,
+    "ref": "Nebraska Driver's Manual, p. 74, 75",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.051",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Under the speeding fines in effect in Nebraska since September 2025, what is the fine for driving 1 to 5 mph over the limit (before court costs)?",
+    "choices": [
+      "$100",
+      "$50",
+      "$10",
+      "$25"
+    ],
+    "answer": 1,
+    "explanation": "LB 530 raised Nebraska's speeding fines to $50 (1-5 mph over), $75 (6-10), $125 (11-15), $200 (16-20), $300 (21-35) and $400 (more than 35 over). The January 2025 manual still shows the older $10 amount.",
+    "difficulty": 2,
+    "ref": "Neb. Rev. Stat. § 60-682.01 (LB 530, 2025)",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.052",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "In Nebraska, speeding fines are doubled in which situation?",
+    "choices": [
+      "On any interstate highway",
+      "Only for drivers under 21",
+      "In school zones, and in work zones when workers are present",
+      "Only at night"
+    ],
+    "answer": 2,
+    "explanation": "Speeding fines double in school crossing zones and in maintenance, repair or construction zones where workers are present.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 61; Neb. Rev. Stat. § 60-682.01",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.053",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Under a 2025 Nebraska law, driving faster than what speed is prima facie evidence of reckless driving?",
+    "choices": [
+      "More than double the maximum lawful speed limit",
+      "More than 20 mph over the limit",
+      "More than 35 mph over the limit",
+      "Any speed over 100 mph"
+    ],
+    "answer": 0,
+    "explanation": "Since LB 530 (2025), evidence that a driver exceeded double the maximum lawful speed limit is prima facie evidence of reckless driving, which is a 5-point offense.",
+    "difficulty": 3,
+    "ref": "Neb. Rev. Stat. § 60-6,213; Nebraska Driver's Manual, p. 27",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.054",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "What is the minimum speed on a Nebraska interstate under normal conditions?",
+    "choices": [
+      "50 mph",
+      "40 mph",
+      "45 mph",
+      "35 mph"
+    ],
+    "answer": 1,
+    "explanation": "The minimum speed on the interstate is 40 mph, unless weather, visibility, road or traffic conditions make a lower speed necessary for safety.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 68; Neb. Rev. Stat. § 60-6,193",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.055",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "When you plan to leave a Nebraska interstate, when should you signal and move into the proper lane for your exit?",
+    "choices": [
+      "At the start of the exit ramp",
+      "About 500 feet before the exit",
+      "Right after passing the exit sign",
+      "A mile or more before the exit"
+    ],
+    "answer": 3,
+    "explanation": "Plan ahead: watch for exit signs and signal and move into the proper lane a mile or more before the exit, then slow down after moving into the deceleration lane.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 68",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.056",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "In Nebraska it is unlawful to pass another vehicle within how many feet of an intersection or a railroad crossing?",
+    "choices": [
+      "50 feet",
+      "200 feet",
+      "300 feet",
+      "100 feet"
+    ],
+    "answer": 3,
+    "explanation": "Passing is unlawful within 100 feet of any intersection or railroad crossing, as well as in no-passing zones and on hills, curves or bridges where vision is obstructed.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 61",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.057",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "When you are passing another vehicle on a Nebraska highway, what does the law say about the speed limit?",
+    "choices": [
+      "You may exceed it if the other vehicle is going under the limit",
+      "Speed limits do not apply while you are in the passing lane",
+      "You may not exceed the posted speed limit, even while passing",
+      "You may exceed it by up to 10 mph to finish passing"
+    ],
+    "answer": 2,
+    "explanation": "Nebraska lists exceeding the posted speed limit when passing as unlawful. If you cannot pass safely within the limit, don't pass.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 61",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.058",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "May you turn right at a steady red light in Nebraska?",
+    "choices": [
+      "Yes, without stopping if no one is coming",
+      "Yes, after a complete stop and yielding, unless a sign prohibits it",
+      "Only if a green arrow is also lit",
+      "No, never"
+    ],
+    "answer": 1,
+    "explanation": "Turning right on a circular red light is allowed after a complete stop, unless a sign prohibits it. You must yield to pedestrians and other traffic; failing to stop first is a violation.",
+    "difficulty": 1,
+    "ref": "Nebraska Driver's Manual, p. 40",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.059",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "When is a left turn on a steady red light allowed in Nebraska?",
+    "choices": [
+      "Only from a one-way street onto another one-way street, after stopping",
+      "From any street onto a one-way street",
+      "Never",
+      "From a two-way street onto another two-way street when no traffic is coming"
+    ],
+    "answer": 0,
+    "explanation": "A left turn on a circular red light is allowed only when you are on a one-way street turning onto another one-way street, after stopping and yielding, and where no sign prohibits it.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 40",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.060",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are stopped at a red arrow pointing right. What does Nebraska law allow?",
+    "choices": [
+      "No turn until the arrow changes; turning on a red arrow is prohibited",
+      "A right turn after stopping, as with a circular red light",
+      "A right turn without stopping if the way is clear",
+      "A right turn after stopping if no pedestrians are present"
+    ],
+    "answer": 0,
+    "explanation": "In Nebraska, turning on a red arrow is prohibited. Stop and remain stopped as long as the arrow is red.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 40",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.061",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "A traffic signal is dark because of a power failure, and no officer or flagger is directing traffic. How must you treat the intersection?",
+    "choices": [
+      "As a green light if no one is coming",
+      "As a flashing yellow light",
+      "As an all-way stop",
+      "As a yield sign for drivers on the smaller road"
+    ],
+    "answer": 2,
+    "explanation": "If a signal is not working and no peace officer, flagger or other traffic control is in place, Nebraska law says to treat the intersection as an all-way stop.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 39; Neb. Rev. Stat. § 60-6,123(5)",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.062",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "How far before a turn or lane change must you begin signaling in Nebraska?",
+    "choices": [
+      "At least 50 feet",
+      "At least 200 feet",
+      "At least 300 feet",
+      "At least 100 feet"
+    ],
+    "answer": 3,
+    "explanation": "Signal at least 100 feet before turning or moving right or left, and keep signaling continuously during that distance.",
+    "difficulty": 1,
+    "ref": "Nebraska Driver's Manual, p. 62; Neb. Rev. Stat. § 60-6,161",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.063",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "A pedestrian hybrid beacon at a midblock crosswalk has finished its cycle and gone dark. What does the Nebraska manual say about the dark beacon?",
+    "choices": [
+      "Treat it as a flashing red light",
+      "The rule requiring drivers to stop at a dark signal does not apply to it; continue while watching for pedestrians",
+      "Treat it as an all-way stop",
+      "Stop and wait for the beacon to turn yellow"
+    ],
+    "answer": 1,
+    "explanation": "After the pedestrian cycle, a pedestrian hybrid beacon goes dark. The state rule that makes a dark traffic signal an all-way stop does not apply to these midblock beacons.",
+    "difficulty": 3,
+    "ref": "Nebraska Driver's Manual, p. 41",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.064",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "On a Nebraska roadway divided by a median, an ambulance with lights and siren approaches from the opposite direction. According to the Nebraska manual, what must you do?",
+    "choices": [
+      "Stop in your lane immediately",
+      "Drive onto the median",
+      "You are not required to stop, but stay alert",
+      "Pull to the right edge and stop"
+    ],
+    "answer": 2,
+    "explanation": "The Nebraska Driver's Manual says drivers must pull to the right edge and stop for an approaching emergency vehicle, but that on a roadway divided by a median, traffic going the opposite direction is not required to stop.",
+    "difficulty": 3,
+    "ref": "Nebraska Driver's Manual, p. 59, 60",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.065",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "How close may you follow a fire truck that is responding to an emergency in Nebraska?",
+    "choices": [
+      "No closer than 500 feet",
+      "No closer than 200 feet",
+      "No closer than 100 feet",
+      "No closer than 1,000 feet"
+    ],
+    "answer": 0,
+    "explanation": "No vehicle may follow fire apparatus traveling in an emergency status closer than 500 feet, or drive onto or park within the block where the fire apparatus has stopped.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 60",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.066",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "How does Nebraska law treat funeral procession escort vehicles?",
+    "choices": [
+      "As school buses",
+      "As emergency vehicles that you must yield to when they display proper signals",
+      "As ordinary vehicles with no special rights",
+      "As slow-moving vehicles you may pass at any time"
+    ],
+    "answer": 1,
+    "explanation": "In Nebraska, funeral procession escort vehicles are classified as emergency vehicles, and drivers must yield to them when they display proper audio or visual signals.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 60",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.067",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "Since September 2025, what must you do on a Nebraska interstate (controlled-access highway) when approaching any occupied stopped vehicle on your side of the road, such as a car with a flat tire?",
+    "choices": [
+      "Nothing; the move-over law covers only police cars and ambulances",
+      "Stop behind it until it leaves",
+      "Honk to warn the people in the vehicle",
+      "Move into a lane at least one lane away from it, or slow down and pass with care if you can't move over"
+    ],
+    "answer": 3,
+    "explanation": "LB 530 extended the move-over law on controlled-access highways to any stopped vehicle on the same side of the road. Move at least one lane away; if that isn't reasonably possible, slow down and pass with due care.",
+    "difficulty": 2,
+    "ref": "Neb. Rev. Stat. § 60-6,378 (LB 530, 2025)",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.068",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "On a Nebraska interstate with two lanes in your direction, you approach a stopped highway maintenance truck with flashing lights, but heavy traffic beside you prevents a lane change. What does the move-over law require?",
+    "choices": [
+      "Stop in your lane until the truck leaves",
+      "Change lanes anyway, because moving over is always required",
+      "Keep your speed, since you can't move over",
+      "Reduce your speed and keep a safe speed as you pass with due care"
+    ],
+    "answer": 3,
+    "explanation": "If moving into another lane is not reasonably possible because of traffic, weather or road conditions, you must reduce your speed, keep a safe speed for the conditions and pass with due care.",
+    "difficulty": 3,
+    "ref": "Neb. Rev. Stat. § 60-6,378(1)(c)",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.069",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "On a two-lane county road, you approach a stopped tow truck with flashing amber lights. What does Nebraska law require?",
+    "choices": [
+      "Stop and wait until the tow truck leaves",
+      "Honk and pass at the speed limit",
+      "Slow to a reasonable speed below the posted limit and be prepared to stop, moving over if a lane is available",
+      "Keep your speed; the move-over law applies only on interstates"
+    ],
+    "answer": 2,
+    "explanation": "On roads other than controlled-access highways, drivers approaching a stopped emergency vehicle, tow truck, utility or highway maintenance vehicle, or garbage truck with flashing lights must slow below the posted limit, move over if possible and be prepared to stop.",
+    "difficulty": 2,
+    "ref": "Neb. Rev. Stat. § 60-6,378.01",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.070",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "At a crosswalk with no working traffic signal, a pedestrian is crossing in the lane next to yours. What does Nebraska law require?",
+    "choices": [
+      "Honk to warn the pedestrian",
+      "Come to a complete stop and yield to the pedestrian",
+      "Keep going, because the pedestrian is not in your lane",
+      "Slow down and pass behind the pedestrian"
+    ],
+    "answer": 1,
+    "explanation": "Where signals are not in place or not working, Nebraska drivers must yield to a pedestrian in a crosswalk who is in their lane or the lane next to it by coming to a complete stop.",
+    "difficulty": 2,
+    "ref": "Neb. Rev. Stat. § 60-6,153(1)",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.071",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A car in the lane next to you has stopped at a marked crosswalk, and you can't see why. What should you do?",
+    "choices": [
+      "Do not pass it; it may be stopped for a pedestrian",
+      "Pass it carefully at a low speed",
+      "Honk and then pass",
+      "Pass it if your light is green"
+    ],
+    "answer": 0,
+    "explanation": "Never pass a vehicle that is stopped at a crosswalk for a pedestrian. The stopped vehicle may block your view of someone crossing.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 77; Neb. Rev. Stat. § 60-6,153(3)",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.072",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "When you must stop at a Nebraska railroad crossing and there is no stop line, where should you stop?",
+    "choices": [
+      "Between 15 and 50 feet from the nearest rail",
+      "Between 5 and 15 feet from the nearest rail",
+      "At least 100 feet from the tracks",
+      "Directly at the crossing gate"
+    ],
+    "answer": 0,
+    "explanation": "When you must stop at a railroad crossing, stop at the stop line; if there is none, stop no closer than 15 feet and no farther than 50 feet from the nearest rail.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 66; Neb. Rev. Stat. § 60-6,170",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.073",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "How much following distance does the Nebraska manual recommend when you are behind a motorcycle?",
+    "choices": [
+      "1 second",
+      "6 to 8 seconds",
+      "3 to 4 seconds",
+      "2 seconds"
+    ],
+    "answer": 2,
+    "explanation": "Allow more following distance, three or four seconds, behind a motorcycle so the rider has time to maneuver or stop in an emergency.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 76",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.074",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Under Nebraska's 2025 move-over law for vulnerable road users, which of these counts as a vulnerable road user?",
+    "choices": [
+      "A driver sitting in a parked pickup truck",
+      "A passenger on a moving bus",
+      "A semi-truck driver on the interstate",
+      "A person riding a bicycle along the highway"
+    ],
+    "answer": 3,
+    "explanation": "Vulnerable road users include people on bicycles, motorcycles and mopeds, pedestrians in crosswalks or on shoulders, highway and utility workers, horseback riders and farm equipment operators. Drivers must move over a lane, or slow down and pass with care, when passing them.",
+    "difficulty": 2,
+    "ref": "Neb. Rev. Stat. § 60-676.01; Neb. Rev. Stat. § 60-6,378.02",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.075",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a four-lane divided highway, you approach a farm tractor moving along the shoulder in your direction. What does Nebraska law require?",
+    "choices": [
+      "Stop behind the tractor until it turns off",
+      "Move into the lane farther from the tractor if possible; otherwise slow down and pass with care",
+      "Pass at full speed in the lane next to the tractor",
+      "Honk so the driver moves off the road"
+    ],
+    "answer": 1,
+    "explanation": "A farm tractor operator on or along the highway is a vulnerable road user. With two lanes in your direction, move at least one lane away; if that isn't reasonably possible, reduce speed and proceed with due care.",
+    "difficulty": 2,
+    "ref": "Neb. Rev. Stat. § 60-6,378.02(2); Neb. Rev. Stat. § 60-676.01",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.076",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A rancher leading cattle along a Nebraska highway raises a hand as you approach. What must you do?",
+    "choices": [
+      "Pass quickly to get beyond the animals",
+      "Flash your headlights and continue",
+      "Stop promptly",
+      "Honk and keep moving slowly"
+    ],
+    "answer": 2,
+    "explanation": "Since July 18, 2026, drivers must use caution near people leading, herding or driving livestock on or along a highway, yield to the animals, and stop promptly when the handler gives a distress signal by raising a hand.",
+    "difficulty": 2,
+    "ref": "Neb. Rev. Stat. § 60-6,378.02(3) (LB 977, 2026)",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.077",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "How much clearance should you leave to avoid a pedestrian on a Nebraska roadway?",
+    "choices": [
+      "At least 3 feet",
+      "At least 1 foot",
+      "At least 2 feet",
+      "At least 10 feet"
+    ],
+    "answer": 0,
+    "explanation": "Nebraska law requires drivers to exercise due care, including leaving a safe distance of no less than three feet, to avoid colliding with any pedestrian on the roadway.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 60; Neb. Rev. Stat. § 60-6,109",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.078",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "How much space must you leave when passing a bicyclist traveling in your direction in Nebraska?",
+    "choices": [
+      "At least 1 foot",
+      "At least 3 feet",
+      "At least 2 feet",
+      "At least 5 feet"
+    ],
+    "answer": 1,
+    "explanation": "Motorists overtaking a bicycle must leave no less than three feet of clearance and keep it until safely past. If three feet isn't possible, slow down and wait until it is safe to pass.",
+    "difficulty": 1,
+    "ref": "Nebraska Driver's Manual, p. 77",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.079",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A school bus ahead turns on its flashing amber (yellow) lights. What does Nebraska law require of drivers meeting or overtaking the bus?",
+    "choices": [
+      "Stop immediately",
+      "Speed up to pass before the red lights come on",
+      "Slow to 35 mph",
+      "Slow to no more than 25 mph and prepare to stop"
+    ],
+    "answer": 3,
+    "explanation": "Amber lights mean the bus is about to stop to load or unload children. Drivers meeting or overtaking the bus must slow to 25 mph and be ready to stop when the red lights and stop arm come on.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 78; Neb. Rev. Stat. § 60-6,175(1)",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.080",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A school bus is stopped with red lights flashing and its stop arm out. You are approaching from the opposite direction on a two-lane road. What must you do?",
+    "choices": [
+      "Slow to 25 mph and pass",
+      "Continue, because you are traveling the other way",
+      "Stop, then go once the children reach the curb",
+      "Stop, and stay stopped until the red lights turn off, the stop arm is retracted and the bus starts moving"
+    ],
+    "answer": 3,
+    "explanation": "On a road not divided by a median, drivers in both directions must stop for a school bus with red lights flashing and the stop arm extended. Stay stopped until the red lights are off, the stop arm is retracted and the bus resumes motion.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 78; Neb. Rev. Stat. § 60-6,175(1)",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.081",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "According to the Nebraska manual, when are you NOT required to stop for a school bus with its red lights flashing and stop arm extended?",
+    "choices": [
+      "When no children are visible",
+      "When you are behind the bus on a one-way street",
+      "When you are traveling in the opposite direction on a roadway divided by a median",
+      "When you are on any four-lane road"
+    ],
+    "answer": 2,
+    "explanation": "The manual's only exception is for drivers approaching the bus from the opposite direction on a roadway divided by a median. On an undivided road, even a four-lane road, all traffic stops.",
+    "difficulty": 3,
+    "ref": "Nebraska Driver's Manual, p. 78",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.082",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "What is the penalty in Nebraska for passing a school bus that is stopped with its red lights flashing and stop arm extended?",
+    "choices": [
+      "A $1,000 fine and 6 points",
+      "A $500 fine and 3 points",
+      "A $100 fine and 1 point",
+      "A $25 fine and no points"
+    ],
+    "answer": 1,
+    "explanation": "Violating the school bus stop law is a Class IV misdemeanor with a $500 fine, and 3 points are assessed against the driver's license.",
+    "difficulty": 2,
+    "ref": "Neb. Rev. Stat. § 60-6,175(1); Nebraska Driver's Manual, p. 27",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.083",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Except when passing, how far behind a working snowplow or other road maintenance vehicle must you stay in Nebraska?",
+    "choices": [
+      "100 feet",
+      "50 feet",
+      "200 feet",
+      "500 feet"
+    ],
+    "answer": 0,
+    "explanation": "Keep a following distance of at least 100 feet from snow removal equipment or other maintenance vehicles working on the road, except to pass. Pass only when you can clearly see the road ahead.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 78",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.084",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Nebraska, you may not park within how many feet of a fire hydrant?",
+    "choices": [
+      "15 feet",
+      "10 feet",
+      "20 feet",
+      "5 feet"
+    ],
+    "answer": 0,
+    "explanation": "Nebraska prohibits parking within 15 feet of a fire hydrant.",
+    "difficulty": 1,
+    "ref": "Nebraska Driver's Manual, p. 65",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.085",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How close to a crosswalk at an intersection may you park in Nebraska?",
+    "choices": [
+      "No closer than 30 feet",
+      "No closer than 15 feet",
+      "No closer than 20 feet",
+      "No closer than 10 feet"
+    ],
+    "answer": 2,
+    "explanation": "Do not park within 20 feet of a crosswalk at an intersection, or on the crosswalk itself.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 65",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.086",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Nebraska, you may not park within how many feet of a stop sign, yield sign or flashing signal at the side of the road?",
+    "choices": [
+      "20 feet",
+      "15 feet",
+      "50 feet",
+      "30 feet"
+    ],
+    "answer": 3,
+    "explanation": "Parking is prohibited within 30 feet of any flashing signal, stop sign, yield sign or other traffic control device at the side of the roadway.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 65",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.087",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Nebraska, you may not park within how many feet of railroad tracks?",
+    "choices": [
+      "100 feet",
+      "50 feet",
+      "15 feet",
+      "30 feet"
+    ],
+    "answer": 1,
+    "explanation": "Do not park on bridges, in highway tunnels, or within 50 feet of railroad tracks.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 65",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.088",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Under Nebraska law, how close may you park to the driveway entrance of a fire station on the same side of the street?",
+    "choices": [
+      "No closer than 50 feet",
+      "No closer than 75 feet",
+      "No closer than 20 feet",
+      "No closer than 10 feet"
+    ],
+    "answer": 2,
+    "explanation": "You may not stand or park within 20 feet of a fire station's driveway entrance. On the opposite side of the street, the limit is 75 feet when signs are posted.",
+    "difficulty": 3,
+    "ref": "Neb. Rev. Stat. § 60-6,166(1)(b)(v)",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.089",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "When you park parallel to a curb in Nebraska, your vehicle must be within how far of the curb or road edge?",
+    "choices": [
+      "12 inches",
+      "18 inches",
+      "6 inches",
+      "24 inches"
+    ],
+    "answer": 0,
+    "explanation": "Park parallel to and within 12 inches of the curb or edge of the road, on the right side unless it is a one-way street.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 64; Neb. Rev. Stat. § 60-6,167",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.090",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Where is it illegal in Nebraska to stop or park a vehicle, unless you are avoiding a conflict with traffic or following an officer's directions?",
+    "choices": [
+      "Within 100 feet of a school",
+      "Within an intersection or on a crosswalk",
+      "Within 50 feet of a mailbox",
+      "On any residential street at night"
+    ],
+    "answer": 1,
+    "explanation": "Nebraska law bans stopping, standing or parking on a sidewalk, within an intersection or on a crosswalk unless you are avoiding a conflict with traffic or following an officer's directions. You also may not park within 20 feet of a crosswalk at an intersection.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 65; Neb. Rev. Stat. § 60-6,166(1)",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.091",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When does Nebraska law require headlights to be on?",
+    "choices": [
+      "Only after 10 p.m.",
+      "Only on unlit rural roads",
+      "From one hour after sunset to one hour before sunrise",
+      "From sunset to sunrise, and whenever you can't clearly see people and vehicles 500 feet ahead"
+    ],
+    "answer": 3,
+    "explanation": "Headlights must be used from sunset to sunrise, and also at any other time when there isn't enough light to see persons and vehicles 500 feet ahead.",
+    "difficulty": 1,
+    "ref": "Nebraska Driver's Manual, p. 69; Neb. Rev. Stat. § 60-6,219",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.092",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Is it legal in Nebraska to drive at night with only your parking lights on?",
+    "choices": [
+      "Yes, on well-lit city streets",
+      "Yes, below 25 mph",
+      "Yes, but only at dusk",
+      "No. Driving with parking lights only is unlawful"
+    ],
+    "answer": 3,
+    "explanation": "Driving with only parking lights is unlawful in Nebraska. Turn on low-beam headlights as daylight begins to fade so others can see you.",
+    "difficulty": 1,
+    "ref": "Nebraska Driver's Manual, p. 69",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.093",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When you are following another vehicle in Nebraska, you must dim your high beams once you are within:",
+    "choices": [
+      "100 feet",
+      "1,000 feet",
+      "200 feet",
+      "500 feet"
+    ],
+    "answer": 2,
+    "explanation": "Nebraska requires drivers to dim their headlights when following within 200 feet of another vehicle.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 69; Neb. Rev. Stat. § 60-6,224",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.094",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Which statement matches the Nebraska Driver's Manual's advice on high beams?",
+    "choices": [
+      "High beams may stay on as long as you are not following another vehicle",
+      "Use them on open highways, but dim them when meeting oncoming vehicles and when following within 200 feet",
+      "Use them only inside city limits",
+      "Use them in fog so you can see farther ahead"
+    ],
+    "answer": 1,
+    "explanation": "Use high beams on open highways, but dim them when meeting oncoming vehicles and when following within 200 feet of another vehicle. In fog, use low beams.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 69, 70",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.095",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "The Nebraska manual says that when fog cuts visibility to less than what distance, traveling on roads with posted speeds of 40 mph or more is not recommended?",
+    "choices": [
+      "1/4 mile",
+      "1 mile",
+      "100 feet",
+      "1/2 mile"
+    ],
+    "answer": 0,
+    "explanation": "In fog, use low beams, slow down and use extreme caution. Travel on roads posted at 40 mph or more is not recommended when visibility is under a quarter mile.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 70",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.096",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "When may passenger vehicles legally use metal-studded tires in Nebraska?",
+    "choices": [
+      "From November 1 to April 1",
+      "From October 1 to May 1",
+      "Any time snow is on the road",
+      "From December 1 to March 1"
+    ],
+    "answer": 0,
+    "explanation": "Studded tires are lawful only from November 1 to April 1. School buses, mail carriers and emergency vehicles may use them year-round.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 71; Neb. Rev. Stat. § 60-6,250",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.097",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You are in a minor crash on a Nebraska interstate. No one is hurt and both cars can still be driven. What should you do?",
+    "choices": [
+      "Turn off the engines and wait in the travel lane",
+      "Leave the scene and report the crash later",
+      "Drive the vehicles to the nearest shoulder, out of the travel lanes",
+      "Leave the vehicles in place until police arrive"
+    ],
+    "answer": 2,
+    "explanation": "In minor interstate or freeway crashes with no injuries and drivable vehicles, Nebraska drivers should move the vehicles to the nearest shoulder. Vehicles that can't be moved may be pushed or removed by law enforcement.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 59",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.098",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "If a crash must be reported and no officer investigated it, how soon must a Nebraska driver send the crash report to the Department of Transportation?",
+    "choices": [
+      "Within 24 hours",
+      "Within 30 days",
+      "Within 5 days",
+      "Within 10 days"
+    ],
+    "answer": 3,
+    "explanation": "The driver must send a crash report to the Nebraska Department of Transportation within ten days when someone is injured or killed or property damage meets the reporting threshold.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 81; Neb. Rev. Stat. § 60-699",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.099",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Under current Nebraska law, a crash that no officer investigated must be reported if someone is hurt or killed, or if damage to any one person's property is at least:",
+    "choices": [
+      "$5,000",
+      "$2,000",
+      "$500",
+      "$1,000"
+    ],
+    "answer": 1,
+    "explanation": "LB 1126 raised the crash-report threshold to $2,000 of apparent damage to any one person's property, effective July 18, 2026. The January 2025 manual still lists the old $1,500 figure.",
+    "difficulty": 3,
+    "ref": "Neb. Rev. Stat. § 60-699 (LB 1126, 2026)",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.100",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "A police officer investigated your crash at the scene. Do you also need to send your own crash report to the Nebraska Department of Transportation?",
+    "choices": [
+      "Yes, within 24 hours",
+      "Only if your insurance company asks for it",
+      "No. When an officer investigates, the officer submits the report",
+      "Yes, always within 10 days"
+    ],
+    "answer": 2,
+    "explanation": "A driver's crash report is not required if a law enforcement officer investigated the crash; the officer submits the report.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 81; Neb. Rev. Stat. § 60-699",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Under Nebraska law, which motorcyclist may legally ride without a helmet?",
+    "choices": [
+      "Any rider on a road with a speed limit under 45 mph",
+      "A 25-year-old Nebraska Class M license holder who completed the required motorcycle safety course and submitted proof to the DMV",
+      "A 19-year-old who completed a motorcycle safety course",
+      "Any rider with a Class M license"
+    ],
+    "answer": 1,
+    "explanation": "A helmet is required unless the rider is at least 21 and either completed the required motorcycle safety course and submitted proof to the DMV, or holds a motorcycle license from another state.",
+    "difficulty": 2,
+    "ref": "Neb. Rev. Stat. § 60-6,279; Nebraska Motorcycle Operator Manual, p. 6",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 20-year-old Nebraska rider has completed an approved motorcycle safety course. Must they wear a helmet?",
+    "choices": [
+      "No. Course completion exempts riders of any age",
+      "Only on the interstate",
+      "Only when carrying a passenger",
+      "Yes. Riders under 21 must always wear a helmet"
+    ],
+    "answer": 3,
+    "explanation": "Nebraska's helmet exemption applies only to riders at least 21 years old who meet the course or out-of-state license conditions. Anyone younger must wear a DOT-compliant helmet.",
+    "difficulty": 2,
+    "ref": "Neb. Rev. Stat. § 60-6,279",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "When may a passenger age 21 or older ride on a motorcycle in Nebraska without a helmet?",
+    "choices": [
+      "Whenever the passenger holds a Class O license",
+      "Never; passengers must always wear helmets",
+      "Whenever the trip is under 10 miles",
+      "Only when the operator also qualifies to ride without a helmet"
+    ],
+    "answer": 3,
+    "explanation": "A passenger may ride without a helmet only if the passenger is at least 21 and the operator meets the helmet-exemption conditions (21 or older with the required course or an out-of-state motorcycle license).",
+    "difficulty": 3,
+    "ref": "Neb. Rev. Stat. § 60-6,279(2)",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Which of these satisfies Nebraska's eye-protection requirement for a motorcycle operator?",
+    "choices": [
+      "A baseball cap with a visor",
+      "Nothing is required during daylight",
+      "A windshield that protects the operator's and passenger's line of vision",
+      "A helmet without a face shield and no other eye protection"
+    ],
+    "answer": 2,
+    "explanation": "Every Nebraska motorcycle operator must use eye protection: glasses covering the eye area, a face shield attached to a helmet, goggles, or a windshield that protects the operator's and passenger's horizontal line of vision.",
+    "difficulty": 2,
+    "ref": "Neb. Rev. Stat. § 60-6,279(4)",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Is lane splitting (riding between lanes or between rows of vehicles) legal for motorcyclists in Nebraska?",
+    "choices": [
+      "Yes, if the rider signals first",
+      "No, it is prohibited",
+      "Yes, in slow traffic under 30 mph",
+      "Yes, on interstates only"
+    ],
+    "answer": 1,
+    "explanation": "No person may operate a motorcycle between lanes of traffic or between adjacent lines or rows of vehicles in Nebraska.",
+    "difficulty": 1,
+    "ref": "Nebraska Motorcycle Operator Manual, p. 6; Neb. Rev. Stat. § 60-6,308(3)",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How many motorcycles may ride side by side in a single traffic lane in Nebraska?",
+    "choices": [
+      "No more than two",
+      "Only one",
+      "Up to three",
+      "Any number if traffic is light"
+    ],
+    "answer": 0,
+    "explanation": "Motorcycles are entitled to the full use of a lane, and they may ride two abreast but not more than two abreast in a single lane.",
+    "difficulty": 2,
+    "ref": "Neb. Rev. Stat. § 60-6,308(1), (4)",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Nebraska law limits motorcycle handlebars to no more than how many inches above the handlebar mounting point?",
+    "choices": [
+      "15 inches",
+      "10 inches",
+      "20 inches",
+      "12 inches"
+    ],
+    "answer": 0,
+    "explanation": "No person may operate a motorcycle with handlebars more than fifteen inches above the mounting point of the handlebars.",
+    "difficulty": 2,
+    "ref": "Nebraska Motorcycle Operator Manual, p. 7; Neb. Rev. Stat. § 60-6,307(6)",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What must a Nebraska motorcycle have before it may carry a passenger (other than in a sidecar or enclosed cab)?",
+    "choices": [
+      "A second set of handlebars",
+      "Saddlebags",
+      "A seat designed for a passenger and footrests for the passenger",
+      "Only a passenger backrest"
+    ],
+    "answer": 2,
+    "explanation": "A motorcycle may carry a passenger only if it is designed to carry more than one person, and it must have footrests for the passenger.",
+    "difficulty": 2,
+    "ref": "Nebraska Motorcycle Operator Manual, p. 6, 7; Neb. Rev. Stat. § 60-6,307",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How can an approved motorcycle rider course help a Nebraska motorcycle license applicant?",
+    "choices": [
+      "It waives only the vision test",
+      "It lowers the minimum license age to 14",
+      "It replaces the need for motorcycle insurance",
+      "It can waive both the written and drive tests if completed within the past 24 months"
+    ],
+    "answer": 3,
+    "explanation": "Completing one of the state-approved rider courses lets the examiner waive both the written and drive tests if you apply within 24 months of finishing the course. Graduates may also get lower insurance rates.",
+    "difficulty": 2,
+    "ref": "Nebraska Motorcycle Operator Manual, p. 8",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.mc.010",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "In Nebraska, motorcycles, motor-bikes and motor scooters with an engine rating of 10 horsepower or less may NOT be operated on:",
+    "choices": [
+      "Any road after dark",
+      "The Interstate Highway System",
+      "Any city street",
+      "Gravel roads"
+    ],
+    "answer": 1,
+    "explanation": "Nebraska prohibits operating motorcycles, motor-bikes and motor scooters with 10 horsepower or less on the Interstate Highway System.",
+    "difficulty": 2,
+    "ref": "Nebraska Motorcycle Operator Manual, p. 7",
+    "states": [
+      "NE"
+    ]
+  }
+]

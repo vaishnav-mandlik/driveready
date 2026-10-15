@@ -1,0 +1,769 @@
+{
+  "code": "NE",
+  "name": "Nebraska",
+  "agency": {
+    "name": "Nebraska Department of Motor Vehicles",
+    "abbreviation": "DMV",
+    "website": "https://dmv.nebraska.gov"
+  },
+  "handbook": {
+    "title": "Nebraska Driver's Manual",
+    "edition": "January 2025 (file 'Class O Drivers Manual-English 1-2025', the car manual linked from dmv.nebraska.gov/manuals as of Oct 15, 2026; re-downloaded that day and byte-identical to the copy the stored text came from). Page numbers are PDF pages (printed page number + 8). research/handbooks/NE.txt was re-extracted from that PDF with its 'fi'/'fl' ligature glyphs repaired (they had come out as '4' and an invisible control character); page markers and all other text are unchanged. Statute quotes are in research/handbooks/NE_LAWS.txt (nebraskalegislature.gov, retrieved Oct 15, 2026; page = that file's page marker). Motorcycle quotes are in research/handbooks/NE_MOTORCYCLE.txt (Motorcycle Operator Manual, September 2024; PDF pages).",
+    "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf"
+  },
+  "exam": {
+    "questions": 25,
+    "passingScore": 20,
+    "passingPercent": 80,
+    "timeLimitMinutes": null,
+    "roadSigns": "No separate road-signs section. Sign shapes, colors and meanings are part of the single 25-question test (the DMV's online practice test, which draws on the same question pool, includes sign questions).",
+    "format": "Class O written test: 25 questions; you may miss 5 (80% to pass). The examiner manual describes automated testing tablets with headsets that read questions aloud and a SKIP button, but notes that offices are currently using paper tests. An audio version and a 24-question non-verbal picture test (may miss 4) are also offered. A passed written test is valid for 6 months.",
+    "languages": "English, Spanish and American Sign Language (written and audio versions). A non-verbal picture test is available for applicants who do not read English or Spanish. A paper or electronic foreign-language dictionary may be used after an examiner checks it.",
+    "retestWait": "A failed written test cannot be retaken the same day. Tests 1-5: one day between attempts. After a 6th failure, the applicant must complete an approved driver training course or wait 90 days from the last failure.",
+    "notes": "Source: Driver License Examiner (DLE) manual dated 11 Sep 2026, pp. 32-33 (DMV Guidance Documents page). Learner's Permit (LPD) at 15 needs vision and written tests; later permits/licenses waive the written test if a permit was issued and is valid or expired less than a year. Teens who finish a DMV-approved driver safety course have the written and drive tests waived for the School Permit/POP. Applicants 18+ who never held a POP take vision, written and drive tests. The manual (p. 6) says over 32% of first-time applicants fail the written test; the DMV's online practice test says its questions come from the same pool as the actual test.",
+    "sourceUrl": "https://dmv.nebraska.gov/sites/default/files/doc/dls/DLE%20ENTIRE%2011Sep2026.pdf"
+  },
+  "motorcycleExam": {
+    "questions": 25,
+    "passingScore": 20,
+    "passingPercent": 80,
+    "notes": "Class M written test: 25 questions, may miss 5 (80%); English only; one day between retests with no limit on attempts; valid 6 months after passing (DLE manual p. 49). Completing an MSF-approved rider course within the past 24 months can waive both the written and the Motorcycle-in-Traffic drive test.",
+    "sourceUrl": "https://dmv.nebraska.gov/sites/default/files/doc/dls/DLE%20ENTIRE%2011Sep2026.pdf"
+  },
+  "cdlExam": {
+    "questions": 50,
+    "passingScore": 40,
+    "passingPercent": 80,
+    "notes": "CLP General Knowledge test: 50 questions, may miss 10. Other CLP knowledge tests: Combination 20 (miss 4), Air Brakes 25 (miss 5), Passenger 20 (miss 4), School Bus 20 (miss 4), Tank Vehicle 20 (miss 4). A new CLP must be held 14 days before the CDL skills test (DLE manual pp. 21-22).",
+    "sourceUrl": "https://dmv.nebraska.gov/sites/default/files/doc/dls/DLE%20ENTIRE%2011Sep2026.pdf"
+  },
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC or more (any age, any vehicle)",
+      "detail": "Driving with a BAC of .08% or higher is illegal in Nebraska regardless of your age or the vehicle. Impairment begins well below .08.",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 32,
+        "quote": ".08% or higher regardless of driver’s age or vehicle type."
+      }
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% BAC for drivers under 21 (zero tolerance)",
+      "detail": "Nebraska has a zero-tolerance law: a driver under 21 may not drive with a BAC of .02% or more. A conviction means a 30-day court impoundment of the license.",
+      "number": 0.02,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 32,
+        "quote": ".02% or higher and the driver is under 21."
+      }
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC in a commercial motor vehicle",
+      "detail": "The limit is .04% when driving a commercial motor vehicle, half the .08% limit that applies to everyone else.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 32,
+        "quote": ".04% or higher when operating a commercial motor vehicle."
+      }
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusing a chemical test: 1-year administrative license revocation (refusal is also a separate crime)",
+      "detail": "By driving in Nebraska you have already agreed to a blood, breath or urine test when an officer asks. Refusal brings a one-year administrative revocation, and the criminal penalties equal those for a DUI with a BAC of .15 or more.",
+      "number": 1,
+      "unit": "year",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 32,
+        "quote": "The administrative sanction for refusal is one year of license revocation."
+      }
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "First test failure: 180-day administrative license revocation (ALR); a first DUI conviction with a BAC under .15 brings a 6-month court revocation with an ignition interlock permit",
+      "detail": "A first-time offender who fails an alcohol test loses the license for 180 days administratively (the temporary license is good for 15 days). In court, a first DUI with a BAC under .15 is a Class W misdemeanor with a 6-month revocation and an ignition interlock permit, or, on probation, a 60-day revocation and a $500 fine; at .15 or more the revocation is one year (Neb. Rev. Stat. 60-6,197.03).",
+      "number": 180,
+      "unit": "days",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 28,
+        "quote": "First time offenders who fail an alcohol test serve a 180 day administrative license revocation (ALR)."
+      }
+    },
+    {
+      "key": "open_container",
+      "value": "No open alcohol containers or drinking in any vehicle on a public road or public parking area (drivers and passengers)",
+      "detail": "It is illegal for anyone in the vehicle, driver or passenger, to drink or to have an open container of alcohol on a public roadway or in a public parking area.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 32,
+        "quote": "It is unlawful to consume or be in possession of an open container of an alcoholic beverage inside any vehicle on any public roadway or public parking area in Nebraska. This includes both drivers and passengers."
+      }
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15 for a Learner's Permit (LPD); 14 for a School Learner's Permit (LPE)",
+      "detail": "You may apply for an LPD 60 days before your 15th birthday, but it is issued on or after the birthday. An LPE (age 14) is only for teens eligible for a School Permit (those who live or attend school outside a city of 5,000 or more).",
+      "number": 15,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 11,
+        "quote": "Minimum Age: 15. May apply 60 days before 15th birthday, issuance must be on or after 15th birthday."
+      }
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "Hold a permit at least 6 months (with fewer than 3 points) before a Provisional Operator's Permit",
+      "detail": "Before applying for a POP you must have held an LPE, SCP or LPD for at least six months and not have collected 3 or more points in the six months before you apply.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 12,
+        "quote": "have held a School Learner’s Permit (LPE), School Permit (SCP) or Learner’s Permit (LPD) for at least six months"
+      }
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "50 hours, including 10 at night (if no DMV-approved driver safety course)",
+      "detail": "To get a POP without a DMV-approved driver safety course, a parent, guardian or licensed driver 21+ must certify 50 hours of driving, at least 10 of them between sunset and sunrise.",
+      "number": 50,
+      "unit": "hours",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 12,
+        "quote": "complete a 50 hour certification form signed by a parent, guardian or licensed driver who is at least 21. The certification form must indicate that at least 10 hours of motor vehicle operation was between sunset and sunrise."
+      }
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "A licensed driver at least 21, sitting in the seat beside the permit holder",
+      "detail": "A learner's permit holder may drive only with a licensed driver who is at least 21 in the front passenger seat (motorcyclists: a licensed motorcycle operator 21+ within visual contact).",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 12,
+        "quote": "Permit holder must be accompanied by a licensed driver at least 21 occupying the seat beside the driver."
+      }
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 (Provisional Operator's Permit, POP)",
+      "detail": "You may apply 60 days before your 16th birthday; the POP is issued on or after the birthday and expires at 18.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 12,
+        "quote": "Minimum Age: 16. May apply 60 days before 16th birthday, issuance must be on or after 16th birthday."
+      }
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "No unsupervised driving from midnight to 6 a.m. (except to/from work or a school activity)",
+      "detail": "A POP holder may drive alone from 6 a.m. to midnight. Between midnight and 6 a.m. they may drive only between home and work or a school activity, or with a parent, guardian or licensed driver 21+.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 12,
+        "quote": "The Provisional Operator’s Permit allows an individual to operate a motor vehicle unsupervised in Nebraska from 6 a.m. to 12 midnight."
+      }
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "First 6 months: no more than 1 passenger under 19 who is not an immediate family member",
+      "detail": "For the first six months, a POP holder may carry only one passenger under 19 who is not immediate family. A violation adds one point to the driving record.",
+      "number": 1,
+      "unit": "passenger",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 12,
+        "quote": "During the first six months of the POP, the holder can only operate a motor vehicle with no more than one passenger who is not an immediate family member and who is under nineteen years of age."
+      }
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "17 (Class O operator's license after 12 months on a POP)",
+      "detail": "A driver under 18 can get a Class O license at 17 after holding a POP for 12 months with fewer than 3 points in the previous 12 months; the written and drive tests are waived.",
+      "number": 17,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 22,
+        "quote": "Has held your Provisional Operator’s Permit for at least 12 months, 2. Is at least 17 years old, and 3. Has not accumulated three or more points on your driving record during the previous 12 month period."
+      }
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "No general handheld ban for Class O drivers: only reading, typing or sending written messages on a handheld device is illegal",
+      "detail": "Nebraska's handheld-device law covers written communication (texts, instant messages, e-mail, websites) while the vehicle is moving; it does not ban handheld voice calls for adult drivers. Permit and POP holders may not use any wireless device.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,179.01",
+        "page": 9,
+        "quote": "no person shall use a handheld wireless communication device to read a written communication, manually type a written communication, or send a written communication while operating a motor vehicle which is in motion."
+      }
+    },
+    {
+      "key": "texting_ban",
+      "value": "Texting banned for all drivers (secondary offense): $200 first, $300 second, $500 third; 3 points",
+      "detail": "Reading, typing or sending written messages on a handheld device while driving is illegal for everyone, but police enforce it only as a secondary offense (when you are stopped for something else). Fines run $200 to $500 and 3 points are assessed.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 73,
+        "quote": "Use a handheld wireless communication device to read, type, or send written communication while operating a motor vehicle"
+      }
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "LPE, LPD, School Permit and POP holders may not use any interactive wireless device while driving",
+      "detail": "Teens with an LPE, LPD, School Permit or POP may not use any type of interactive wireless communication device (hands-free included) while driving. It is enforced as a secondary offense and adds 1 point (Neb. Rev. Stat. 60-4,120.01, 60-4,123, 60-4,124).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 9,
+        "quote": "No use of any type of interactive wireless communication device while operating a motor vehicle while in motion."
+      }
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Driver and front-seat passengers must buckle up (secondary enforcement); $25 fine",
+      "detail": "Nebraska's seat belt law covers the driver and front-seat passengers (including autocycles) and is a secondary law. When the driver holds a POP or School Permit, every passenger must be buckled.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 34,
+        "quote": "Drivers and front seat passengers are required to ride buckled up in a seat belt or child safety seat, this includes autocycles. (Secondary Law)"
+      }
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Rear-facing to age 2; federally approved child safety seat to age 8 (back seat if available); seat belt or child seat ages 8-18",
+      "detail": "Children ride rear-facing until 2 (or the seat's limit) and in a child safety seat until 8, in a back seat when one is available. Ages 8 to 18 must use a seat belt or child seat. A violation is a $25 fine and 1 point.",
+      "number": 8,
+      "unit": "years",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 34,
+        "quote": "Children up to age eight must ride correctly secured in a federally approved child safety seat."
+      }
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Drive at a speed that is reasonable and safe for existing conditions",
+      "detail": "Even below the posted limit, you must slow down when traffic, weather or road conditions require it.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 60,
+        "quote": "Nebraska's speed law requires driving at a speed that is reasonable and safe under existing conditions."
+      }
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "No statewide number: obey posted school-zone signs; speeding fines are doubled in school crossing zones",
+      "detail": "In a school zone, reduce speed, obey all signs and be ready to stop at any time. Speeding fines double in school crossing zones.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 61,
+        "quote": "School Zone: reduce speed, obey all signs and be prepared to stop anytime."
+      }
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "25 mph in residential districts (unless posted)",
+      "detail": "The default limit in residential districts is 25 mph unless a different limit is posted.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 60,
+        "quote": "25 MPH in residential districts."
+      }
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "20 mph in business districts (unless posted)",
+      "detail": "Nebraska's default limit in business districts is 20 mph, lower than the 25 mph residential limit.",
+      "number": 20,
+      "unit": "mph",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 60,
+        "quote": "20 miles per hour (MPH) in business districts."
+      }
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "65 mph on the state highway system (70 on expressways/super-twos; 55 on other paved roads; 50 on gravel)",
+      "detail": "Unless posted: 50 mph on gravel or non-dustless roads, 55 mph on paved roads off the state highway system, 65 mph on state highways and on four-lane divided highways off the state system, and 70 mph on expressways and super-two highways.",
+      "number": 65,
+      "unit": "mph",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 60,
+        "quote": "65 MPH on the state highway system other than an expressway, super-two highway or freeway."
+      }
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "75 mph on rural interstates",
+      "detail": "The interstate limit is 75 mph, except 65 mph on interstates in Douglas County and on I-180 (Lancaster County) and I-129 (Dakota County) (Neb. Rev. Stat. 60-6,186).",
+      "number": 75,
+      "unit": "mph",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 60,
+        "quote": "75 MPH on rural interstate highways"
+      }
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "40 mph minimum on the interstate; never drive so slowly that you impede normal traffic",
+      "detail": "Unless conditions make it unsafe, do not drive below 40 mph on the interstate or so slowly that you block the normal flow of traffic.",
+      "number": 40,
+      "unit": "mph",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 68,
+        "quote": "Minimum speed on the interstate is 40 MPH."
+      }
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop unless a sign prohibits it",
+      "detail": "Stop completely, look both ways and yield to pedestrians and other traffic first. Failing to stop before turning on red is a violation. Turning on a red arrow is prohibited.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 40,
+        "quote": "Turning right at a circular red light after stopping is allowed, unless signs prohibiting it are posted at the intersection."
+      }
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Only from a one-way street onto another one-way street, after a complete stop",
+      "detail": "A left turn on a circular red light is allowed only from a one-way street onto another one-way street, after stopping and yielding, and only where no sign prohibits it.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 40,
+        "quote": "Turning left at a circular red light after stopping is allowed only if traveling on a one-way street and turning onto another one-way street."
+      }
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 100 feet before turning or changing lanes",
+      "detail": "Signal continuously for at least the last 100 feet before you turn or move right or left.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 62,
+        "quote": "Signal at least 100 feet before turning, or moving right or left."
+      }
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the right edge and stop until it passes; never follow fire apparatus closer than 500 feet",
+      "detail": "When an emergency vehicle uses its siren or flashing lights, yield, pull parallel to the right edge clear of intersections and stop until it passes. Do not follow a fire truck on an emergency closer than 500 feet or park in the block where it stopped.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 60,
+        "quote": "No vehicle may follow any fire apparatus traveling in an emergency status closer than 500 feet or drive onto or park within the block the fire apparatus has stopped to answer an emergency."
+      }
+    },
+    {
+      "key": "move_over_law",
+      "value": "Controlled-access highways: move one lane away from ANY stopped vehicle on your side (slow down if you can't); since Sept. 3, 2025",
+      "detail": "LB 530 extended the move-over law from emergency and road-assistance vehicles to any stopped vehicle on a controlled-access highway, unless it is unoccupied with no one nearby. If you cannot change lanes safely, slow down and pass with care. On other roads you must slow below the limit for stopped emergency, tow and maintenance vehicles with flashing lights.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,378",
+        "page": 1,
+        "quote": "The driver of a vehicle on a controlled-access highway approaching or passing a stopped vehicle located on the same side of the highway shall proceed with due care and caution as described in this section."
+      }
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop for a school bus with flashing red lights and stop arm from either direction; exception: opposite direction on a median-divided roadway",
+      "detail": "Slow to 25 mph when the bus's amber (yellow) lights flash, then stop for the red lights and stop arm and stay stopped until the red lights turn off, the stop arm is retracted and the bus starts moving (Neb. Rev. Stat. 60-6,175). Passing a stopped school bus is a $500 fine and 3 points.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 78,
+        "quote": "Not stopping when approaching or overtaking a school bus which has stop lights on and the stop arm extended is unlawful. The only exception occurs when approaching a school bus in the opposite direction on a roadway divided by a median."
+      }
+    },
+    {
+      "key": "following_distance",
+      "value": "At least 3 seconds (add 1 second for each adverse condition)",
+      "detail": "Use the three-second rule as a minimum and add one second for each adversity such as rain or heavy traffic. Allow 3 to 4 seconds behind a motorcycle.",
+      "number": 3,
+      "unit": "seconds",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 74,
+        "quote": "Use the three-second rule to determine safe following distance."
+      }
+    },
+    {
+      "key": "headlights_required",
+      "value": "From sunset to sunrise (and whenever you cannot see 500 feet ahead); parking lights alone are illegal",
+      "detail": "Headlights are required from sunset to sunrise and whenever there isn't enough light to see people and vehicles 500 feet ahead. Turn on low beams as daylight fades.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 69,
+        "quote": "Headlights must be used from sunset to sunrise."
+      }
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "Dim when meeting oncoming vehicles (no distance set)",
+      "detail": "Use high beams on open highways but dim them for oncoming vehicles. If oncoming lights blind you, look toward the right edge of the road.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 69,
+        "quote": "Dim headlights when following within 200 feet of another vehicle, and when meeting oncoming vehicles."
+      }
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "Within 200 feet of a vehicle you are following",
+      "detail": "Dim your headlights whenever you follow another vehicle within 200 feet.",
+      "number": 200,
+      "unit": "feet",
+      "source": {
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,224",
+        "page": 38,
+        "quote": "Whenever any person operating a motor vehicle on any highway in this state follows another vehicle within two hundred feet to the rear, he or she shall dim the headlights of his or her motor vehicle"
+      }
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet",
+      "detail": "Do not park within 15 feet of a fire hydrant.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 65,
+        "quote": "Within 15 feet of a fire hydrant."
+      }
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "20 feet from a crosswalk at an intersection",
+      "detail": "Do not park within 20 feet of a crosswalk at an intersection, or on any crosswalk.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 65,
+        "quote": "Within 20 feet of a crosswalk at an intersection."
+      }
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Never within an intersection, on a crosswalk or on a sidewalk (and not within 20 feet of a crosswalk at an intersection)",
+      "detail": "Never stop or park within an intersection, on a crosswalk or on a sidewalk unless avoiding a conflict with traffic or following an officer's directions. Parking is also banned within 20 feet of a crosswalk at an intersection.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 65,
+        "quote": "On a sidewalk, within an intersection, or on a crosswalk."
+      }
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet from a flashing signal, stop sign, yield sign or other roadside traffic control device",
+      "detail": "Do not park within 30 feet of a flashing signal, stop sign, yield sign or other traffic control device at the side of the road.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 65,
+        "quote": "Within 30 feet of any flashing signal, stop sign, yield sign or other traffic control device located at the side of the roadway."
+      }
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet from railroad tracks",
+      "detail": "Do not park on bridges, in highway tunnels, or within 50 feet of railroad tracks.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 65,
+        "quote": "On bridges, within a highway tunnel, or within 50 feet of railroad tracks."
+      }
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet from a fire station driveway (75 feet on the opposite side when signposted)",
+      "detail": "Do not stand or park within 20 feet of a fire station driveway entrance, or within 75 feet of it on the opposite side of the street when signs are posted.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,166",
+        "page": 34,
+        "quote": "Within twenty feet of the driveway entrance to any fire station and on the side of a street opposite the entrance to any fire station within seventy-five feet of such entrance when properly signposted"
+      }
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "Within 12 inches of the curb or road edge",
+      "detail": "Park parallel to and within 12 inches of the curb or edge of the road, on the right side unless it is a one-way street.",
+      "number": 12,
+      "unit": "inches",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 64,
+        "quote": "Park vehicle within 12 inches of and parallel to the curb, or road's edge."
+      }
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "Between 15 and 50 feet from the nearest rail (at the stop line if there is one)",
+      "detail": "When you must stop at a crossing, stop at the stop line, or if there is none, no closer than 15 feet and no farther than 50 feet from the nearest rail.",
+      "number": 15,
+      "unit": "feet (minimum)",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 66,
+        "quote": "When required to stop, stop at the stop line. If none, stop not less than 15 feet nor more than 50 feet from the nearest rail."
+      }
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet of clearance",
+      "detail": "When passing a bicyclist going your way, leave at least 3 feet and keep it until safely past. If you can't, slow down and wait.",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 77,
+        "quote": "The law requires that motorists overtaking a bicycle proceeding in the same direction must leave a safe distance of no less than three feet clearance, when applicable, when passing a bicycle and shall maintain such clearance until safely past the overtaken bicycle."
+      }
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Yield to pedestrians in crosswalks (where signals aren't working, stop for those in your lane or the next lane); give pedestrians 3 feet",
+      "detail": "Yield to all pedestrians within crosswalks and never pass a vehicle stopped for a pedestrian. Leave at least 3 feet of clearance, and stop for a person with a white cane or guide dog until they are clear of the roadway.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 60,
+        "quote": "Yield to all pedestrians within crosswalks. Slow down and be ready to stop if needed."
+      }
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Report to NDOT within 10 days if anyone is hurt or killed or property damage is $2,000+ (unless police investigated)",
+      "detail": "If no officer investigated, a driver in a crash with injury, death or apparent damage of $2,000 or more to any one person's property must send a crash report within 10 days. LB 1126 raised the threshold from $1,500 on July 18, 2026; the January 2025 manual still shows $1,500.",
+      "number": 2000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-699",
+        "page": 13,
+        "quote": "damage to the property of any one person, including such operator, to an apparent extent that equals or exceeds two thousand dollars shall within ten days forward a report of such accident to the Department of Transportation"
+      }
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "25/50/25 liability ($25,000 per person and $50,000 per crash for injury; $25,000 property damage)",
+      "detail": "Every vehicle on public roads must carry liability insurance of at least $25,000 for injury or death of one person, $50,000 for two or more people, and $25,000 for property damage in one crash.",
+      "number": 25000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 36,
+        "quote": "1) twenty-five thousand dollars because of bodily injury to or death of one person in any one crash, 2) subject to such limit for one person, in the amount of fifty thousand dollars because of bodily injury to or death of two or more persons in any one crash, and 3) in the amount of twenty-five thousand dollars because of injury to or destruction of property of others in any one crash."
+      }
+    },
+    {
+      "key": "point_system",
+      "value": "12 points in 2 years = automatic 6-month revocation",
+      "detail": "Points count for two years from the violation date (convictions stay on the record five years). A 12-point revocation lasts six months and requires a 4-hour driver improvement course and three years of SR-22 insurance.",
+      "number": 12,
+      "unit": "points",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 26,
+        "quote": "Accumulating 12 points in a two-year period causes automatic revocation of the operator's license for six months."
+      }
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Helmet required unless the rider is 21+ and has completed an approved motorcycle safety course (proof sent to DMV) or holds another state's motorcycle license; eye protection always required",
+      "detail": "Riders under 21 must always wear a DOT-compliant helmet. A rider 21 or older may ride without one only after completing the required motorcycle safety course and submitting proof to the DMV (or with an out-of-state motorcycle license); a passenger 21+ may then also ride without one. Every operator needs eye protection or a windshield.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,279",
+        "page": 45,
+        "quote": "(b)(i) At least twenty-one years of age; and (ii)(A) Has a Nebraska Class M license and received such Class M license prior to May 1, 2024, and has completed the Motorcycle Safety Foundation three-hour Basic eCourse and submitted proof of such completion to the Department of Motor Vehicles."
+      }
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Prohibited",
+      "detail": "Motorcycles may not ride between lanes or between rows of vehicles, and may not pass in the same lane as the vehicle being passed.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Motorcycle%20Drivers%20Manual%209-2024.pdf",
+        "page": 6,
+        "quote": "No person shall operate a motorcycle between lanes of traffic or between adjacent lines or rows of vehicles."
+      }
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Move over for vulnerable road users on every highway (LB 530, 2025)",
+      "summary": "Since Sept. 3, 2025, drivers must move over a lane, or slow down and pass with care if they can't, when approaching or passing vulnerable road users: pedestrians working on or along the road, people in crosswalks or on shoulders, bicyclists, motorcyclists, moped riders, people on horseback or in animal-drawn vehicles, and farm equipment operators.",
+      "source": {
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,378.02",
+        "page": 3,
+        "quote": "(1) The operator of a motor vehicle shall proceed with due care and caution as described in subsection (2) of this section when approaching or passing a vulnerable road user."
+      }
+    },
+    {
+      "title": "Livestock on the road: stop when the handler raises a hand (LB 977, 2026)",
+      "summary": "From July 18, 2026, drivers must use caution near people leading, herding or driving livestock (horses, mules, donkeys, cattle, swine, sheep or goats) on or along a highway, yield the right-of-way to the animals, and stop promptly if the handler raises a hand as a distress signal.",
+      "source": {
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,378.02",
+        "page": 3,
+        "quote": "(ii) Promptly stop such motor vehicle if a person who is leading, herding, or driving livestock on or along the highway gives a distress signal to the motor vehicle by raising a hand; and"
+      }
+    },
+    {
+      "title": "Slow down for stopped emergency and service vehicles on other roads",
+      "summary": "On roads other than controlled-access highways, when approaching a stopped emergency vehicle with flashing lights, or a stopped tow, motorist-assist, utility, highway maintenance or garbage/recycling vehicle with flashing lights, slow to a reasonable speed below the posted limit, move over a lane if possible, and be prepared to stop.",
+      "source": {
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,378.01",
+        "page": 2,
+        "quote": "(a) Reduce speed to a reasonable speed below the posted speed limit, move into another lane that is at least one moving lane apart from the stopped vehicle if possible under existing traffic and safety conditions, and be prepared to stop; or"
+      }
+    },
+    {
+      "title": "Higher speeding fines since 2025, doubled in work and school zones",
+      "summary": "LB 530 raised speeding fines to $50 (1-5 mph over), $75 (6-10), $125 (11-15), $200 (16-20), $300 (21-35) and $400 (over 35). Fines double in a work zone where workers are present and in a school crossing zone. The manual's older $10-$300 schedule is outdated.",
+      "source": {
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-682.01",
+        "page": 5,
+        "quote": "(a) Fifty dollars for traveling one to five miles per hour over the authorized speed limit;"
+      }
+    },
+    {
+      "title": "More than double the speed limit is evidence of reckless driving",
+      "summary": "Since 2025, driving faster than double the maximum lawful speed limit is prima facie evidence of reckless driving, a 5-point offense.",
+      "source": {
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,213",
+        "page": 6,
+        "quote": "evidence that such person was driving a motor vehicle in excess of double the maximum lawful speed limit shall be prima facie evidence that the motor vehicle was being driven in a manner as to indicate an indifferent or wanton disregard for the safety of persons or property."
+      }
+    },
+    {
+      "title": "Slow to 25 mph for a school bus with flashing amber lights",
+      "summary": "A school bus turns on amber (yellow) warning lights before it stops. Drivers meeting or overtaking it must slow to 25 mph and prepare to stop, then stop for the red lights and stop arm.",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 78,
+        "quote": "When meeting or overtaking a bus, slow to 25 MPH and prepare to stop."
+      }
+    },
+    {
+      "title": "Stay 100 feet behind snowplows and working maintenance vehicles",
+      "summary": "Except when passing, keep at least 100 feet behind snow removal equipment and other maintenance vehicles working on the road. Pass only when you can clearly see the road ahead.",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 78,
+        "quote": "Maintain a following distance of 100 feet from snow removal equipment or other maintenance vehicles while working on roadways, except to pass."
+      }
+    },
+    {
+      "title": "Funeral escort vehicles are emergency vehicles",
+      "summary": "Funeral procession escort vehicles are classified as emergency vehicles in Nebraska; drivers must yield to them when they display proper audio or visual signals.",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 60,
+        "quote": "Drivers are required to yield to funeral escort vehicles displaying proper audio or visual signals."
+      }
+    },
+    {
+      "title": "A dark traffic signal is an all-way stop",
+      "summary": "If a signal is out because of a power failure and no officer or flagger is directing traffic, treat the intersection as an all-way stop. This does not apply to a dark pedestrian hybrid beacon at a midblock crosswalk.",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 39,
+        "quote": "If a traffic signal is not operational (dark) because of a power failure or other cause and no peace officer, flagger or other traffic control is in place, the intersection shall be treated as an all-way stop."
+      }
+    },
+    {
+      "title": "Stop for pedestrians in your lane or the next lane at a crosswalk",
+      "summary": "Where signals are not operating, a driver must yield to a pedestrian in a crosswalk who is in the driver's lane or the adjacent lane by coming to a complete stop, and must not pass another vehicle stopped at a crosswalk for a pedestrian.",
+      "source": {
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,153",
+        "page": 41,
+        "quote": "the driver of a vehicle shall yield the right-of-way to a pedestrian crossing the roadway within a crosswalk who is in the lane in which the driver is proceeding or is in the lane immediately adjacent thereto by bringing his or her vehicle to a complete stop."
+      }
+    },
+    {
+      "title": "Studded tires only from November 1 to April 1",
+      "summary": "Metal-studded tires are legal on passenger vehicles only from November 1 to April 1 (school buses, mail carriers and emergency vehicles may use them year-round).",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 71,
+        "quote": "Studded tires are only lawful from November 1 to April 1."
+      }
+    },
+    {
+      "title": "Drivers under 21 with 6 points in a year must take a driver improvement course",
+      "summary": "A driver under 21 who collects six or more points within 12 months must finish a 4-hour driver improvement course within three months of notice, or the license is suspended until age 21 or until the course is done.",
+      "source": {
+        "url": "https://dmv.nebraska.gov/sites/default/files/doc/Class%20O%20Drivers%20Manual-English%201-2025.pdf",
+        "page": 9,
+        "quote": "Individuals under 21 accumulating six or more points within one year are required to take a driver improvement course within three months."
+      }
+    }
+  ],
+  "officialPracticeTests": [
+    "https://www.nebraska.gov/dmv/practice/",
+    "https://dmv.nebraska.gov/dl/practice-drivers-license-exam"
+  ],
+  "verifiedOn": "2026-10-15"
+}
