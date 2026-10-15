@@ -159,12 +159,12 @@
     "prompt": "In the photo, the middle lane has a solid yellow line and a broken yellow line on each side, and a white turn arrow. What is this lane for?",
     "choices": [
       "Passing slower vehicles",
-      "Through traffic that changes direction during rush hour",
+      "Slow vehicles pulling aside to let traffic pass",
       "Left turns by drivers coming from either direction",
       "Buses and emergency vehicles only"
     ],
     "answer": 2,
-    "explanation": "This is a two-way center left-turn lane. Drivers from both directions use it only to slow down and wait to turn left; never use it to pass or as a travel lane.",
+    "explanation": "This is a two-way center left-turn lane. Drivers from both directions use it to slow down and wait to turn left (or make a U-turn where allowed); never use it to pass or as a regular travel lane.",
     "sign": "PH-CENTER-TURN-LANE",
     "difficulty": 1,
     "ref": "MUTCD Part 3; state driver handbooks (e.g. AZ p.48, CA p.22, PA p.26)"
@@ -173,7 +173,7 @@
     "id": "car.ph.011",
     "track": "car",
     "topic": "sharing-road",
-    "prompt": "In the photo, a bike lane is painted bright green along the car lanes and across the area where cars merge in from a ramp. What does the green paint tell drivers?",
+    "prompt": "In the photo, a bike lane is painted bright green next to the car lanes, where drivers cross it to turn off onto a ramp. What does the green paint tell drivers?",
     "choices": [
       "It is a bus-only lane",
       "It is an extra lane drivers may use to get around slow or turning traffic",
@@ -190,11 +190,11 @@
     "id": "car.ph.012",
     "track": "car",
     "topic": "sharing-road",
-    "prompt": "You are coming down the ramp in the photo and must cross the green bike lane to merge. A bicyclist is riding in the bike lane beside you. What should you do?",
+    "prompt": "You want to turn off onto the ramp in the photo, so you must cross the green bike lane. A bicyclist is riding in the bike lane beside you. What should you do?",
     "choices": [
-      "Speed up and merge in front of the bicyclist",
-      "Slow down, let the bicyclist go by, then merge behind them",
-      "Merge right alongside the bicyclist, since you both fit in the green lane",
+      "Speed up and cut across in front of the bicyclist",
+      "Slow down, let the bicyclist go by, then cross behind them",
+      "Move into the green lane next to the bicyclist, since there is room for both",
       "Honk so the bicyclist stops and lets you go first"
     ],
     "answer": 1,
@@ -329,7 +329,7 @@
     "prompt": "In the photo, cones line your lane in a work zone and the car ahead is slowing down. What is the safest choice?",
     "choices": [
       "Pass the car ahead by using the oncoming lane",
-      "Drive on the shoulder outside the cones to get around the slow car",
+      "Use the shoulder to get around the slow car",
       "Stay in your lane and leave extra space behind the car ahead",
       "Follow close behind the car ahead so traffic keeps moving"
     ],
@@ -343,15 +343,15 @@
     "id": "car.ph.021",
     "track": "car",
     "topic": "hazards-conditions",
-    "prompt": "In the photo, a row of orange drums closes off part of the highway. Traffic is slow, and a driver wants to use the empty closed area to get ahead. Is this allowed?",
+    "prompt": "In the photo, a row of orange drums closes off a lane of the highway. Traffic is slow, and a driver wants to get ahead by using a stretch of the closed lane where no one is working. Is this allowed?",
     "choices": [
-      "Yes, as long as there are no workers or equipment in sight at the time",
+      "Yes, as long as there are no workers or equipment in that part of the lane",
       "No; stay in the open lanes and never drive inside the closed area",
       "Yes, if the driver turns on the hazard lights",
       "Only if the driver keeps to the work zone speed limit"
     ],
     "answer": 1,
-    "explanation": "Drums, cones and barriers close lanes to protect workers and equipment. Driving inside a closed area is dangerous and illegal; merge early and stay in the open lanes.",
+    "explanation": "Drums, cones and barriers close lanes to protect workers and equipment. Driving inside a closed area is dangerous and illegal even where no one is working; merge where the signs tell you to and stay in the open lanes.",
     "sign": "PH-WORK-ZONE-HIGHWAY",
     "difficulty": 1,
     "ref": "State driver handbooks (e.g. CA p.55, TX p.42)"
@@ -377,7 +377,7 @@
     "id": "car.ph.023",
     "track": "car",
     "topic": "hazards-conditions",
-    "prompt": "The drivers in the photo have their headlights on in the daytime while snow is falling. Why is this a good idea?",
+    "prompt": "Snow is falling, and the drivers in the photo have their headlights on. Why is this a good idea, even during the day?",
     "choices": [
       "It helps other drivers and pedestrians see them",
       "It melts snow off the road just ahead",
@@ -411,7 +411,7 @@
     "id": "car.ph.025",
     "track": "car",
     "topic": "sharing-road",
-    "prompt": "You come up behind the horse-drawn buggy in the photo. What should you do?",
+    "prompt": "You come up behind a slow horse-drawn buggy like the one in the photo. What should you do?",
     "choices": [
       "Honk to let the driver know you are about to pass",
       "Stay right on its tail so you are ready to pass the moment a gap opens",

@@ -395,17 +395,17 @@
     "track": "cdl",
     "topic": "cdl-hazmat",
     "sign": "HM-9",
-    "prompt": "Which hazard class does this striped placard mark?",
+    "prompt": "Which of these materials is in the hazard class this striped placard marks?",
     "choices": [
-      "Class 9, miscellaneous",
-      "Division 4.1, flammable solid",
-      "Class 8, corrosive",
-      "Class 7, radioactive"
+      "Polychlorinated biphenyls (PCBs)",
+      "Wetted ammonium picrate",
+      "Battery fluid",
+      "Uranium"
     ],
     "answer": 0,
-    "explanation": "Seven black stripes on the top half and an underlined 9 mark the CLASS 9 placard for miscellaneous hazardous materials, such as PCBs. It is not required for domestic transportation. The FLAMMABLE SOLID placard has red and white stripes.",
-    "difficulty": 1,
-    "ref": "CDL Manual, Section 9.3.11; 49 CFR 172.560"
+    "explanation": "Seven black stripes on the top half and an underlined 9 mark the CLASS 9 placard for miscellaneous hazardous materials; the manual's example is PCBs. Wetted ammonium picrate is a Division 4.1 flammable solid (its placard has red and white stripes), battery fluid is Class 8 and uranium is Class 7.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.1 (Figure 9.1); 49 CFR 172.560"
   },
   {
     "id": "cdl.hmp.025",
