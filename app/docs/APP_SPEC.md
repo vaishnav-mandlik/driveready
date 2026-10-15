@@ -39,7 +39,7 @@ Starting a quiz from anywhere: `navigation.navigate('Quiz', {spec: {mode: 'pract
   components already tap).
 - Performance: use `FlatList`/`SectionList` for long lists (states, questions, signs, history); memoize
   derived data with `useMemo`; never iterate the whole bank on every render without memoization.
-- No network calls. External links (official handbook/agency site) open with `Linking.openURL` after
+- No network calls except anonymous content-update downloads (src/content/updates.ts, off until CONTENT_BASE_URL is set). External links (official handbook/agency site) open with `Linking.openURL` after
   `Alert` confirmation ("Opens your browser").
 - Copy tone: encouraging, clear, short. Never imply government affiliation.
 

@@ -10,7 +10,9 @@
     "test": "jest",
     "content:index": "node scripts/build-content-index.mjs",
     "content:check": "node scripts/validate-content.mjs",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "content:release": "node scripts/publish-content.mjs --out ../research/release-preview",
+    "content:publish": "node scripts/publish-content.mjs --upload"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^3.1.1",

@@ -161,6 +161,11 @@ export function getStateInfo(code: StateCode): StateInfo {
   return info;
 }
 
+/** After a content update is applied. */
+export function clearStateCache() {
+  cache.clear();
+}
+
 export function hasResearchedData(code: StateCode): boolean {
   return !!stateInfoLoaders[code];
 }

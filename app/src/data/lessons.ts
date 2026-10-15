@@ -24,6 +24,11 @@ export function getLessons(track: TrackId): Lesson[] {
     .sort((a, b) => (order.get(a.topic) ?? 99) - (order.get(b.topic) ?? 99) || a.title.localeCompare(b.title));
 }
 
+/** After a content update is applied. */
+export function clearLessonCache() {
+  cache.clear();
+}
+
 export function getLesson(id: string): Lesson | undefined {
   return all().find(l => l.id === id);
 }

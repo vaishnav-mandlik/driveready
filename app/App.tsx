@@ -1,7 +1,8 @@
-import React, {useEffect, useMemo, useRef} from 'react';
-import {ActivityIndicator, StatusBar, StyleSheet, useColorScheme, View} from 'react-native';
+import React, {useEffect, useMemo, useRef, useState} from 'react';
+import {ActivityIndicator, AppState, StatusBar, StyleSheet, useColorScheme, View} from 'react-native';
 import {DarkTheme, DefaultTheme, NavigationContainer, NavigationState, Theme as NavTheme} from '@react-navigation/native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
+import {applyInstalledContent, checkForContentUpdate} from './src/content/updates';
 import {useHydrated} from './src/hooks/useLearner';
 import {RootNavigator} from './src/navigation/RootNavigator';
 import {checkAchievements} from './src/store/actions';
@@ -34,6 +35,21 @@ function Navigation() {
     checkAchievements();
   }, []);
 
+  useEffect(() => {
+    // Content updates: after the first screen is up, and whenever the app returns to the foreground.
+    // The client rate-limits itself (once per 20 h) and is a no-op until CONTENT_BASE_URL is set.
+    const timer = setTimeout(() => checkForContentUpdate(), 5000);
+    const sub = AppState.addEventListener('change', s => {
+      if (s === 'active') {
+        checkForContentUpdate();
+      }
+    });
+    return () => {
+      clearTimeout(timer);
+      sub.remove();
+    };
+  }, []);
+
   return (
     <NavigationContainer
       key={language}
@@ -48,10 +64,27 @@ function Navigation() {
   );
 }
 
+let contentApplied: Promise<void> | null = null;
+
+/** Installed content updates are applied once per launch, before the first screen renders. */
+function useContentReady(): boolean {
+  const [ready, setReady] = useState(false);
+  useEffect(() => {
+    let alive = true;
+    contentApplied ??= applyInstalledContent();
+    contentApplied.finally(() => alive && setReady(true));
+    return () => {
+      alive = false;
+    };
+  }, []);
+  return ready;
+}
+
 function Boot() {
   const hydrated = useHydrated();
+  const contentReady = useContentReady();
   const dark = useColorScheme() === 'dark';
-  if (!hydrated) {
+  if (!hydrated || !contentReady) {
     return (
       <View style={[styles.boot, dark && styles.bootDark]}>
         <ActivityIndicator color={dark ? '#4C8DFF' : '#1F6FEB'} />

@@ -20,6 +20,9 @@ export const SUPPORT_EMAIL = 'support@driveready.app';
 export const PLAY_STORE_URL = `https://play.google.com/store/apps/details?id=${ANDROID_PACKAGE}`;
 // TODO(owner): placeholder — replace with the public privacy-policy URL
 export const PRIVACY_POLICY_URL = 'https://driveready.app/privacy';
+// TODO(owner): set when the Cloudflare R2 bucket + custom domain exist (see docs/CONTENT_UPDATES.md),
+// e.g. 'https://content.example.com/v1'. Empty = content updates off: the app never touches the network.
+export const CONTENT_BASE_URL = '';
 
 const DISCLAIMERS = defineStrings(
   {

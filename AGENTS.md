@@ -61,7 +61,9 @@ Environment: Node 22, JDK 17, Android SDK at ~/Library/Android/sdk (build-tools 
 - JSX text does not process `’` escapes — type the real character (’) or use `{'’'}`.
 - Custom native module = TurboModule via app-level codegen (`codegenConfig` in package.json,
   spec `src/native/specs/NativeDriveReady.ts`, Java impl `DriveReadyModule.java`). Use `TurboModuleRegistry.get` (nullable).
-- Release builds have **no INTERNET permission** (only in src/debug manifest) — keep it that way (privacy claim).
+- Release builds use INTERNET **only** for content updates (`src/content/updates.ts`): anonymous HTTPS GETs of public
+  files, no identifiers, no analytics. Keep it that way (privacy policy + Play "no data collected" depend on it).
+  Updates are off until `CONTENT_BASE_URL` is set (app/docs/CONTENT_UPDATES.md).
 - `react-native-svg` `SvgXml` ignores `<style>`: sign SVGs are pre-processed by `scripts/build-signs.mjs` (svgo).
 
 ## Content rules (summary — full rules in app/docs/CONTENT_GUIDE.md)

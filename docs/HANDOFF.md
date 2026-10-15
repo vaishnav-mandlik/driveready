@@ -36,7 +36,7 @@ picks up the work._
 | React Native **0.87.1** (latest), React 19.2, new architecture only | Latest stable on 2026-10-13; builds cleanly with the cached Gradle 9.4.1. |
 | Minimal native deps: navigation (native-stack + bottom-tabs), screens, safe-area, svg, AsyncStorage v3, zustand, lucide icons | Reliability (fewer native build risks) and small APK. Animations use RN `Animated`. |
 | **Custom TurboModule** (Java) for read-aloud (Android TextToSpeech), haptics (performHapticFeedback, no VIBRATE permission) and daily reminders (inexact `setAndAllowWhileIdle` alarms + boot receiver) | Third-party TTS/notification libs were unmaintained or heavy; this needs no exact-alarm permission. |
-| Release build has **no INTERNET permission** | "No data collected" privacy story and simple Play Data-safety form. INTERNET exists only in the debug manifest (Metro). |
+| Content updates over the air from **Cloudflare R2** (owner's choice, 2026-10-14) | Same-day question fixes without a Play release; app stays offline-first (bundled content is the fallback). INTERNET is used only for anonymous HTTPS GETs of public files, so "no data collected" still holds. Off until `CONTENT_BASE_URL` is set (app/docs/CONTENT_UPDATES.md). |
 | Android Auto Backup enabled | Progress moves to a new phone without accounts. |
 | Content = bundled JSON, schema in `app/src/data/types.ts`, validated by `scripts/validate-content.mjs` | Offline, fast, reviewable diffs. |
 | Universal questions vs state questions | Universal questions must be correct in all 51 jurisdictions; state numbers/laws live in per-state files grounded in that state's handbook. |

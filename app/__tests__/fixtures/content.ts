@@ -183,3 +183,6 @@ export const translationLoaders: Partial<Record<Lang, TranslationLoaders>> = {
     signs: [() => ({'R1-1': {h: signHash(stop), name: 'Alto', meaning: 'Deténgase por completo.', shape: 'octágono', colors: 'rojo, blanco'}})],
   },
 };
+
+/** Bundled-file hashes (content updates compare against these). The fixtures are not real files. */
+export const bundledHashes: Record<string, string> = {};

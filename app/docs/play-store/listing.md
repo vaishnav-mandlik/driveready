@@ -50,11 +50,11 @@ DriveReady is an independent study app. It is not affiliated with, endorsed by, 
 
 ## Policy forms (answers)
 - **Government information:** The app shows government-related information but is not affiliated with any government. Disclaimer appears in the listing (above), in onboarding, and in About and Official Sources. Official source links are under Learn → Official resources and Settings → Official sources.
-- **Data safety:** No data collected. No data shared. No data encrypted in transit (none sent). Users can delete data (Settings → Reset study progress, or uninstall).
+- **Data safety:** No data collected. No data shared. (The app only downloads public question updates over HTTPS; it sends no user data.) Users can delete data (Settings → Reset study progress, or uninstall).
 - **Ads:** No ads.
 - **Target audience:** 13+ (teens studying for permits, and adults). Not designed primarily for children.
 - **Content rating (IARC):** No violence, no user-generated content, no gambling, no location sharing → expected "Everyone".
-- **Permissions:** POST_NOTIFICATIONS (optional daily reminder), RECEIVE_BOOT_COMPLETED (restore reminder after reboot). No exact alarms. No internet in release builds.
+- **Permissions:** POST_NOTIFICATIONS (optional daily reminder), RECEIVE_BOOT_COMPLETED (restore reminder after reboot). INTERNET (download public question updates; no user data sent). No exact alarms.
 
 ## Release checklist
 0. Target API: **36** (`targetSdkVersion` in `android/build.gradle`) — required for new apps and updates since Aug 31, 2026 (verified 2026-10-13). API 36 ignores orientation locks on ≥600dp screens and enforces edge-to-edge; the app already supports both.
