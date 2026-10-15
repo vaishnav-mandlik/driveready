@@ -52,7 +52,7 @@ picks up the work._
 
 ## 3. Status (what exists now)
 
-_Updated 2026-10-14 (evening)._
+_Updated 2026-10-15 (night). 41 jurisdictions live (latest: HI, NH)._
 
 ### Done
 - **App**: 32 screens, 123 Jest tests (engine, i18n, every screen in English and Spanish, App-level e2e).
@@ -82,17 +82,22 @@ _Updated 2026-10-14 (evening)._
   pins peer resolution (CI found the lockfile depended on a global setting). 141 tests.
 
 ### In progress (background agents, up to 6 at a time; prompts from tools/workflows/extract-prompts.mjs)
-- States: Idaho (author), West Virginia (author).
-- Handbook coverage audits: FL OR MD MI; VA KY TX SC AL.
-- Official online practice-test audits (`tools/workflows/practice-test-audit.js`): Nebraska pool (143 Q); CA NY NJ OH NV.
+- Maine: verifier running (author done). Montana, Rhode Island: authors running, then their verifiers
+  (`verify_MT`, `verify_RI` prompts).
+- Official online practice-test audit apps-c (AR SC MD VA GA) running.
+- If the owner's session limit cuts agents off: resume them with SendMessage (same session) or relaunch from the
+  prompt files (regenerate with extract-prompts); agents re-check what they already wrote. Untracked files in
+  `git status` are their work in progress: commit a state only after its verifier reports 0 errors.
 
 ### Next steps (prioritized)
 1. Real-test coverage: handbook audits done for PA TN WI UT KS IN CT IL (rest running); online practice-test
-   audits next for groups pdf-b (CT FL IN IL MN), apps-c (AR SC MD VA GA), misc-d, misc-e (prompts in
-   scratchpad/prompts/online, regenerate with extract-prompts). New states: run both audits after verification.
+   audits done for NE, html-a (CA NY NJ OH NV), pdf-b (CT FL IN IL MN); apps-c running; misc-d (WA OR UT WI TN IA)
+   and misc-e (OK NC MA AZ CO PA) next (regenerate prompts with extract-prompts); NY via its manual's review
+   questions (practice site blocks bots). New states: audit official samples after verification (HI 177 manual
+   questions, NH 100-item Test Your Knowledge, ME section questions, ID practice test, WV sample test, MT).
    Rule learned: PDF answer keys may be column-interleaved; the app must follow the official key + handbook.
-2. Remaining jurisdictions (`state-content-v2.js` prompts via extract-prompts): ID WV (running) · HI NH ME MT ·
-   RI DE SD ND · AK DC VT WY. Commit each verified state with a clean git worktree build of the index
+2. Remaining jurisdictions (`state-content-v2.js` prompts via extract-prompts): ME (verifying) · MT RI (authoring) ·
+   DE SD ND · AK DC VT WY. Commit each verified state with a clean git worktree build of the index
    (copy only that state's files into a HEAD worktree, build-content-index, copy index.ts back) so files other
    agents are still editing never get fingerprinted. Keep in-progress states out of the index: `EXCLUDE_STATES=XX node scripts/build-content-index.mjs`.
 3. Spanish content (`content-i18n.js` jobs or agents): universal questions, lessons, signs, then states.

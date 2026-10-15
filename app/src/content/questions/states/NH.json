@@ -1,0 +1,2168 @@
+[
+  {
+    "id": "nh.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In New Hampshire, a driver age 21 or older is legally intoxicated at what blood alcohol concentration (BAC)?",
+    "choices": [
+      "0.08% or higher",
+      "0.10% or higher",
+      "0.12% or higher",
+      "0.05% or higher"
+    ],
+    "answer": 0,
+    "explanation": "New Hampshire considers a driver legally intoxicated at a BAC of .08% or higher. A driver can also be convicted at a lower BAC if alcohol or drugs impair their driving.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 12",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 20-year-old New Hampshire driver is stopped with a BAC of 0.03%. Which statement is correct?",
+    "choices": [
+      "It is legal, because the limit is 0.08% for every driver",
+      "It is legal unless the driver also fails a field sobriety test",
+      "It is illegal only if the driver is carrying a passenger under 16",
+      "It is illegal, because drivers under 21 may not drive with a BAC of 0.02% or more"
+    ],
+    "answer": 3,
+    "explanation": "For drivers under 21 the limit is 0.02%, so 0.03% is over the limit even though it is well below the 0.08% adult limit.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 12, 14",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under New Hampshire law (RSA 265-A:23), a person driving a commercial vehicle faces additional CDL penalties at an alcohol concentration of at least:",
+    "choices": [
+      "0.08",
+      "0.10",
+      "0.04",
+      "0.06"
+    ],
+    "answer": 2,
+    "explanation": "Driving a commercial vehicle at 0.04 or more brings extra CDL sanctions on top of DWI penalties. New Hampshire also bars commercial drivers from having any alcohol in their system: any detectable amount means 24 hours out of service (RSA 265-A:24).",
+    "difficulty": 2,
+    "ref": "N.H. RSA 265-A:23; RSA 265-A:24",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "You are arrested for DWI in New Hampshire and refuse to take a breath, blood or urine test. What happens?",
+    "choices": [
+      "You get a written warning for a first refusal",
+      "Your license is suspended, in addition to any penalty for the DWI charge",
+      "You pay a fine but keep your license until the trial",
+      "Nothing, because chemical tests are voluntary in New Hampshire"
+    ],
+    "answer": 1,
+    "explanation": "By driving in New Hampshire you have given implied consent to testing. A first refusal brings a 180-day license suspension (9 months for refusals on or after January 1, 2027), on top of any DWI penalty.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 12; RSA 265-A:14",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What is the minimum fine for a first-offense DWI conviction in New Hampshire?",
+    "choices": [
+      "$500",
+      "$750",
+      "$1,000",
+      "$250"
+    ],
+    "answer": 0,
+    "explanation": "A first DWI conviction is a class B misdemeanor with a fine of at least $500, loss of driving privileges for 9 months to 2 years, and an impaired driver education program. ($750 is the minimum for aggravated DWI.)",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 15",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "For a first DWI conviction in New Hampshire, how long can a driver lose their driving privileges?",
+    "choices": [
+      "3 to 5 years",
+      "30 to 90 days",
+      "6 months to 1 year",
+      "9 months to 2 years"
+    ],
+    "answer": 3,
+    "explanation": "A first-offense DWI conviction brings a loss of driving privileges for 9 months to 2 years, and the driver must complete an approved impaired driver education program before the license is restored.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 15",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In New Hampshire, driving with an alcohol concentration of at least what level is aggravated DWI, even without any other aggravating factor?",
+    "choices": [
+      "0.12",
+      "0.15",
+      "0.16",
+      "0.10"
+    ],
+    "answer": 2,
+    "explanation": "RSA 265-A:3 makes driving with an alcohol concentration of 0.16 or more aggravated DWI, even with no other aggravating factor. It is a class A misdemeanor with a fine of at least $750, an ignition interlock and at least 18 months of license revocation (RSA 265-A:18).",
+    "difficulty": 3,
+    "ref": "N.H. RSA 265-A:3; RSA 265-A:18",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A driver impaired by alcohol is carrying a 12-year-old passenger in New Hampshire. How does the law treat this?",
+    "choices": [
+      "As reckless driving, but not as DWI",
+      "As aggravated DWI, because the passenger is under 16",
+      "As an ordinary first-offense DWI only",
+      "As a seat belt violation only"
+    ],
+    "answer": 1,
+    "explanation": "Under RSA 265-A:3, impaired driving while carrying a passenger under 16 is aggravated DWI, which carries much stiffer penalties than ordinary DWI.",
+    "difficulty": 3,
+    "ref": "N.H. RSA 265-A:3",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.009",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "You have a partly finished bottle of wine with the cork pushed back in. Where must it be while you drive in New Hampshire?",
+    "choices": [
+      "In the trunk",
+      "Anywhere, as long as no one drinks from it",
+      "On the back seat floor",
+      "In the glove compartment"
+    ],
+    "answer": 0,
+    "explanation": "Alcohol in the passenger area must be in its original container with the seal unbroken. A capped, partly full container goes in the trunk (or the area least reachable by the driver if there is no trunk). The fine is $150, and a driver can lose their license for 60 days.",
+    "difficulty": 2,
+    "ref": "N.H. RSA 265-A:44",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.010",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "An 18-year-old is driving home alone from a party with a sealed case of beer in the trunk. Under New Hampshire law, this driver:",
+    "choices": [
+      "Is within the law as long as they have not been drinking",
+      "Is breaking the law only if the beer belongs to the driver",
+      "Is within the law, because the beer is sealed and in the trunk",
+      "Is breaking the law and may have their license suspended for 60 days"
+    ],
+    "answer": 3,
+    "explanation": "A driver under 21 may not transport alcohol in any part of a vehicle unless accompanied by a parent, stepparent, legal guardian, grandparent, step-grandparent, legal-age spouse, domestic partner or sibling. The license may be suspended for 60 days.",
+    "difficulty": 3,
+    "ref": "N.H. RSA 265-A:45; New Hampshire Driver's Manual, p. 14",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.011",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "According to the New Hampshire Driver's Manual, a driver who has been awake for 18 hours straight typically performs like someone with what BAC?",
+    "choices": [
+      "0.10%",
+      "0.02%",
+      "0.05%",
+      "0.08%"
+    ],
+    "answer": 2,
+    "explanation": "Being awake 18 hours produces impairment similar to a 0.05% BAC; after 21 and 24 hours without sleep it is similar to 0.08% and 0.10%.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 13",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.012",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "You are stopped at a red light in New Hampshire. May you pick up your phone to read a text message?",
+    "choices": [
+      "Yes, if you keep one hand on the steering wheel",
+      "No, the hand-held ban also applies while you are temporarily stopped in traffic",
+      "Yes, because the vehicle is not moving",
+      "Yes, if you are 18 or older"
+    ],
+    "answer": 1,
+    "explanation": "New Hampshire bans hand-held device use while driving and while temporarily halted in traffic for a signal or other momentary delay, including reading, writing or posting messages.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 13",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.013",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 17-year-old New Hampshire driver wants to take a call through the car's built-in Bluetooth system. Is this legal?",
+    "choices": [
+      "No, drivers under 18 may not use a phone at all while driving, except to report an emergency",
+      "Yes, if the call lasts less than one minute",
+      "Yes, if the caller is a parent",
+      "Yes, hands-free calls are legal for all drivers"
+    ],
+    "answer": 0,
+    "explanation": "Drivers under 18 may not use a cell phone or other mobile device, hands-free or not, while driving or stopped in traffic, except to report an emergency to 911 or a public safety agency.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 14",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.014",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which kind of phone use is legal for a 30-year-old New Hampshire driver while driving?",
+    "choices": [
+      "Reading an email while stopped at a stop sign",
+      "Holding the phone on speaker in one hand",
+      "Typing an address into a hand-held GPS",
+      "Talking through a hands-free Bluetooth device"
+    ],
+    "answer": 3,
+    "explanation": "Drivers 18 and older may use a Bluetooth or other hands-free device as long as it does not divert attention from the road. Holding a phone, typing into a GPS and reading messages are hand-held uses that are banned.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 14",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.015",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under New Hampshire's hand-held device law, when may a driver use a hand-held phone?",
+    "choices": [
+      "While stopped at a red light",
+      "While traffic is moving under 10 mph",
+      "When the vehicle has pulled off the road where it is legal to stop and stays stopped",
+      "On a rural road when no other cars are around"
+    ],
+    "answer": 2,
+    "explanation": "RSA 265:79-c says 'driving' does not include sitting at the controls of a vehicle that has pulled to the side of or off the road where it is legal to do so and remains stationary. Being stopped at a light or in traffic does not count.",
+    "difficulty": 3,
+    "ref": "N.H. RSA 265:79-c, I(b)",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.016",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which statement about New Hampshire's seat belt law is correct?",
+    "choices": [
+      "All drivers and passengers must wear seat belts",
+      "Belts are required for everyone under 18; there is no seat belt requirement for adults",
+      "Only front-seat occupants must buckle up",
+      "Seat belts are required only on interstate highways"
+    ],
+    "answer": 1,
+    "explanation": "New Hampshire requires safety restraints for anyone under 18. Adults are not required by law to buckle up, though the manual strongly recommends seat belts for all ages.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 17",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.017",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "You are 30 and driving with a 17-year-old passenger who refuses to buckle up. Under New Hampshire law, who is in violation?",
+    "choices": [
+      "You, the driver, because you may not carry an unbelted passenger under 18",
+      "Only the passenger",
+      "No one, unless you are on an interstate",
+      "No one, because the passenger is old enough to decide"
+    ],
+    "answer": 0,
+    "explanation": "RSA 265:107-a makes it a violation to drive while carrying a passenger under 18 who is not wearing a properly fastened seat belt. The fine is $50 for a first offense and $100 after that.",
+    "difficulty": 3,
+    "ref": "N.H. RSA 265:107-a; New Hampshire Driver's Manual, p. 18",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.018",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "In New Hampshire, a child must ride in a child passenger restraint (car seat or booster) until the child is:",
+    "choices": [
+      "8 years old or weighs 80 pounds",
+      "12 years old",
+      "5 years old or weighs 40 pounds",
+      "7 years old or at least 57 inches tall"
+    ],
+    "answer": 3,
+    "explanation": "A child less than 7 years old and less than 57 inches tall must be secured in a federally approved child restraint. Once the child turns 7 or reaches 57 inches, a properly adjusted seat belt is required until 18.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 18",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.019",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under New Hampshire law, a child younger than what age must ride in a rear-facing child restraint?",
+    "choices": [
+      "7 years",
+      "1 year",
+      "2 years",
+      "4 years"
+    ],
+    "answer": 2,
+    "explanation": "Since January 1, 2024, RSA 265:107-a requires a passenger under 2 years old to be secured in a rear-facing child restraint system.",
+    "difficulty": 2,
+    "ref": "N.H. RSA 265:107-a, I-c",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.020",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "New Hampshire's motorcycle helmet law requires a helmet for:",
+    "choices": [
+      "All riders and passengers",
+      "Riders and passengers under 18",
+      "Riders under 21 only",
+      "Passengers only"
+    ],
+    "answer": 1,
+    "explanation": "New Hampshire requires all motorcycle riders and passengers under 18 to wear an approved helmet. Helmets are strongly recommended for everyone.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 18",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.021",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under a 2026 New Hampshire law, what is the fine for a first offense of using a hand-held device while driving, starting January 1, 2027, when the violation does not contribute to a crash?",
+    "choices": [
+      "$250",
+      "$500",
+      "$100",
+      "$150"
+    ],
+    "answer": 0,
+    "explanation": "The 2026 amendment to RSA 265:79-c raises the first-offense fine from $100 to $250 on January 1, 2027 ($500 if it contributes to a crash). Second and third offenses within 24 months become $500 and $750, and a third offense can also bring a license suspension.",
+    "difficulty": 3,
+    "ref": "N.H. RSA 265:79-c, III",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.022",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the youngest age at which a person may practice driving on New Hampshire roads?",
+    "choices": [
+      "16",
+      "14 and a half",
+      "15",
+      "15 and a half"
+    ],
+    "answer": 3,
+    "explanation": "New Hampshire issues no learner's permit, but a person at least 15½ may practice driving with a qualified licensed adult and must carry proof of age.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 8",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.023",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 15½-year-old New Hampshire resident wants to start practicing driving. What do they need?",
+    "choices": [
+      "A passed knowledge test and a permit fee",
+      "A learner's permit from the DMV",
+      "Proof of age in the vehicle and a qualified licensed adult in the front seat",
+      "A Youth Operator license"
+    ],
+    "answer": 2,
+    "explanation": "New Hampshire does not issue learner's permits. A learner 15½ or older may practice with a licensed parent, legal guardian or responsible adult 25 or older in the front seat, and must carry proof of age.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 8; RSA 263:25",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.024",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Who may supervise an unlicensed 16-year-old practicing driving in New Hampshire?",
+    "choices": [
+      "Any licensed driver who is at least 21",
+      "A licensed parent or legal guardian, or a licensed responsible adult 25 or older",
+      "Only a certified driving instructor",
+      "Any licensed driver who is at least 18"
+    ],
+    "answer": 1,
+    "explanation": "The learner must be accompanied by a parent, legal guardian or responsible adult who is 25 or older, and the supervisor must be a licensed driver seated beside the learner. A certified driving instructor may also supervise.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 8; RSA 263:25",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.025",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "If an unlicensed learner commits a traffic violation while practicing in New Hampshire, who is liable for it under the law?",
+    "choices": [
+      "The accompanying adult",
+      "The vehicle's insurance company",
+      "No one, because learners are exempt",
+      "Only the learner"
+    ],
+    "answer": 0,
+    "explanation": "Under RSA 263:25, the person accompanying an unlicensed driver is liable for any motor vehicle violation the learner commits.",
+    "difficulty": 3,
+    "ref": "N.H. RSA 263:25",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.026",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "To get a New Hampshire license before age 18, a driver education course must include at least how many hours of classroom instruction?",
+    "choices": [
+      "40 hours",
+      "20 hours",
+      "24 hours",
+      "30 hours"
+    ],
+    "answer": 3,
+    "explanation": "An approved driver education course includes 30 hours of classroom instruction, 10 hours of behind-the-wheel training and 6 hours of observation with a certified instructor.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 7",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.027",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Besides driver education, how much supervised driving must a New Hampshire license applicant under 18 complete?",
+    "choices": [
+      "60 hours, 15 of them at night",
+      "20 hours, 5 of them at night",
+      "40 hours, 10 of them at night",
+      "50 hours, 10 of them at night"
+    ],
+    "answer": 2,
+    "explanation": "Applicants under 18 must complete 40 hours of supervised driving with a parent, guardian or other responsible adult, and 10 of those hours must be at night.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 7",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.028",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Who receives a Youth Operator license in New Hampshire?",
+    "choices": [
+      "Only drivers under 18",
+      "Every licensed driver age 16 to under 21",
+      "Drivers who failed their first road test",
+      "Drivers under 25 during their first year"
+    ],
+    "answer": 1,
+    "explanation": "Anyone 16 or older and under 21 receives a Youth Operator license. It is printed vertically and expires on the holder's 21st birthday.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 10",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.029",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "At what age do the New Hampshire Youth Operator curfew and passenger limits stop applying?",
+    "choices": [
+      "18",
+      "20",
+      "21",
+      "17"
+    ],
+    "answer": 0,
+    "explanation": "The 1-4 a.m. curfew, the passenger limits and the ban on all phone use apply to drivers under 18. The license stays a vertical Youth Operator license until the 21st birthday.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 10",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.030",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 17-year-old Youth Operator in New Hampshire may NOT drive during which hours?",
+    "choices": [
+      "11:00 p.m. to 5:00 a.m.",
+      "9:00 p.m. to 6:00 a.m.",
+      "Midnight to 5:00 a.m.",
+      "1:00 a.m. to 4:00 a.m."
+    ],
+    "answer": 3,
+    "explanation": "A Youth Operator under 18 may not drive between 1:00 a.m. and 4:00 a.m. A first violation can bring a fine of up to $100 and a license suspension of up to 30 days (up to $200 and 90 days for later violations).",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 10",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.031",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old got a New Hampshire license 3 months ago. With no licensed adult 25 or older in the car, how many passengers under 25 who are not family members may the teen carry?",
+    "choices": [
+      "Three",
+      "None",
+      "One",
+      "Two"
+    ],
+    "answer": 2,
+    "explanation": "During the first six months, a Youth Operator under 18 may not carry more than one passenger under 25 who is not a family member unless a licensed, responsible adult 25 or older is in the vehicle.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 10",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.032",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Under New Hampshire's Youth Operator rules, a driver under 18 may never carry:",
+    "choices": [
+      "A pet without a carrier",
+      "More passengers than there are seat belts in the vehicle",
+      "Any passenger younger than 16",
+      "A passenger in the front seat"
+    ],
+    "answer": 1,
+    "explanation": "A Youth Operator under 18 may not drive with more passengers than seat belts or safety restraints in the vehicle.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 10",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.033",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 19-year-old New Hampshire driver is convicted of a first moving violation. Under the youth operator 'under 20' law, how long can the license be suspended?",
+    "choices": [
+      "20 to 40 days",
+      "45 to 90 days",
+      "90 to 180 days",
+      "10 to 20 days"
+    ],
+    "answer": 0,
+    "explanation": "For drivers under 20, the Director may suspend the license for 20 to 40 days for a first offense, 45 to 90 days for a second, and 90 to 180 days for a third (plus an in-person driver program).",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 11-12; RSA 263:14, III",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.034",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 19-year-old Youth Operator is convicted of driving 35 mph over the speed limit. Under New Hampshire law since 2026, what is required before the license can be reissued?",
+    "choices": [
+      "Six months of supervised driving with a parent",
+      "Only payment of the speeding fine",
+      "A new knowledge test only",
+      "A suspension of at least 90 days and an in-person driver attitude program"
+    ],
+    "answer": 3,
+    "explanation": "Since January 1, 2026, a Youth Operator convicted of DWI, reckless driving or speeding more than 30 mph over the limit is not eligible for a license for at least 90 days (on top of any court suspension) and until completing an in-person driver attitude program. If the program is finished during the suspension, up to 60 days may be stayed until age 21 as long as there are no new moving violations.",
+    "difficulty": 3,
+    "ref": "N.H. RSA 263:14, V",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.035",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "After moving to New Hampshire, how long does a new resident have to get a New Hampshire driver's license?",
+    "choices": [
+      "1 year",
+      "30 days",
+      "60 days",
+      "90 days"
+    ],
+    "answer": 2,
+    "explanation": "New residents have up to 60 days after moving into the state to obtain a New Hampshire driver's license.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 7",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.036",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "When a new resident gets a New Hampshire driver's license, what must they do with their valid out-of-state license?",
+    "choices": [
+      "Keep it as a backup",
+      "Surrender it",
+      "Have it marked as invalid in New Hampshire",
+      "Mail it back to their former state within 90 days"
+    ],
+    "answer": 1,
+    "explanation": "Under the One License Concept (RSA 263:4), applicants must surrender all valid driver's licenses issued by other jurisdictions.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 7",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.037",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A new resident holds a valid out-of-state driver's license. Which test must they normally pass to get a New Hampshire license?",
+    "choices": [
+      "Vision test only",
+      "Vision and knowledge tests",
+      "Knowledge and road tests",
+      "Vision, knowledge and road tests"
+    ],
+    "answer": 0,
+    "explanation": "Only a vision test is required for drivers new to New Hampshire with a valid out-of-state license. If that license has been expired for more than one year, vision, knowledge and road tests are all required.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 11",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.038",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How often does a regular New Hampshire driver's license expire?",
+    "choices": [
+      "Every 8 years on your birthday",
+      "Every 10 years on the date of issue",
+      "Every 4 years on January 1",
+      "Every 5 years on your birthday"
+    ],
+    "answer": 3,
+    "explanation": "New Hampshire driver's licenses expire on the holder's birthday every 5 years. A Youth Operator license expires on the 21st birthday.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 11",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.039",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A license applicant has sight in only one eye. What visual acuity is required to get a New Hampshire license?",
+    "choices": [
+      "20/50",
+      "20/20",
+      "20/30",
+      "20/40"
+    ],
+    "answer": 2,
+    "explanation": "Applicants need 20/40 vision in both eyes; an applicant with sight in only one eye must have 20/30. Anyone who needs glasses or contacts to pass gets a 'B' restriction.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 8",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.040",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "New Hampshire's knowledge test has 40 questions. When does the test end automatically as a failure?",
+    "choices": [
+      "When more than 4 answers are wrong",
+      "When more than 8 answers are wrong",
+      "When more than 10 answers are wrong",
+      "When more than 12 answers are wrong"
+    ],
+    "answer": 1,
+    "explanation": "The automated test has 40 multiple-choice questions and a 40-minute limit. If more than 8 are answered incorrectly, the test ends; 80% is required to pass.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 8",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.041",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "If you fail the New Hampshire knowledge test, how soon may you retest?",
+    "choices": [
+      "No sooner than 10 days",
+      "After 30 days",
+      "The next business day",
+      "After 3 days"
+    ],
+    "answer": 0,
+    "explanation": "An applicant who fails the knowledge or road test gets a retest appointment no sooner than ten days from the failed test. (Missing a road test appointment, or canceling with less than 24 hours' notice, means a 30-day wait.)",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 9; NH DMV Driver Licensing Testing Requirements page",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.042",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which statement about auto insurance in New Hampshire is true?",
+    "choices": [
+      "Only drivers under 21 must carry insurance",
+      "Insurance is required only to drive on interstate highways",
+      "Every driver must carry liability insurance to register a car",
+      "New Hampshire has no law requiring drivers to buy auto insurance"
+    ],
+    "answer": 3,
+    "explanation": "New Hampshire has no mandatory auto insurance law, so a driver may drive without insurance. Uninsured drivers are still responsible for the damage and injuries they cause.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 38",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.043",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "An uninsured New Hampshire driver causes a crash and cannot pay the other person's property damage and medical bills. What does the law require the DMV to do?",
+    "choices": [
+      "Pay the damages from a state fund",
+      "Send a warning letter",
+      "Suspend the driver's driving privileges until a settlement is reached",
+      "Nothing, since insurance is optional"
+    ],
+    "answer": 2,
+    "explanation": "An uninsured driver can be held responsible for all damages and medical bills. If unable to pay, New Hampshire law requires the DMV to suspend driving privileges until a settlement is reached, and SR-22 insurance may be required for years afterward.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 38",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.044",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "If you choose to buy auto liability insurance in New Hampshire, the policy must cover at least how much for injury to one person?",
+    "choices": [
+      "$15,000",
+      "$25,000",
+      "$50,000",
+      "$10,000"
+    ],
+    "answer": 1,
+    "explanation": "A New Hampshire liability policy must provide at least $25,000 per person and $50,000 per accident for injuries, $25,000 for property damage, and at least $1,000 of medical payments coverage.",
+    "difficulty": 3,
+    "ref": "N.H. RSA 259:61; RSA 264:16",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.045",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A New Hampshire driver who is 25 years old accumulates demerit points. How many points in one calendar year can bring a suspension of up to 3 months?",
+    "choices": [
+      "12",
+      "15",
+      "6",
+      "9"
+    ],
+    "answer": 0,
+    "explanation": "Drivers 21 and older face up to 3 months for 12 points in one calendar year, up to 6 months for 18 points in two years, and up to 1 year for 24 points in three years. Thresholds are lower for drivers under 18 (6 points) and ages 18-20 (9 points).",
+    "difficulty": 2,
+    "ref": "N.H. Admin. Rule Saf-C 212.02; NH DMV Demerit Points page",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.046",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the heaviest vehicle (gross vehicle weight) a regular New Hampshire Class D license allows you to drive?",
+    "choices": [
+      "33,000 pounds",
+      "10,000 pounds",
+      "16,000 pounds",
+      "26,000 pounds"
+    ],
+    "answer": 3,
+    "explanation": "A Class D license covers vehicles of 26,000 pounds or less (not towing a trailer over 10,000 pounds). Heavier vehicles require a commercial Class A or B license.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 10",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.047",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Who does NOT need a separate moped license to ride a moped in New Hampshire?",
+    "choices": [
+      "No one; every rider needs a moped license",
+      "Anyone over 16",
+      "A person who holds a Class A, B, C or D or a motorcycle license",
+      "Only people who completed a rider course"
+    ],
+    "answer": 2,
+    "explanation": "Drivers do not need a moped license if they already hold a Class A, B, C or D or a motorcycle license.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 10",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.048",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What does a 'B' restriction on a New Hampshire driver's license mean?",
+    "choices": [
+      "The driver may drive only in daylight",
+      "The driver must wear corrective lenses while driving",
+      "The driver may drive only an automatic transmission",
+      "The vehicle must have an outside mirror"
+    ],
+    "answer": 1,
+    "explanation": "Restriction B means corrective lenses. If glasses or contacts are needed to pass the vision test, they must be worn while driving.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 8, 10",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.049",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A New Hampshire license with an 'E' restriction means the driver:",
+    "choices": [
+      "May drive only vehicles with an automatic transmission",
+      "Must wear corrective lenses",
+      "Must use an ignition interlock device",
+      "May drive only in daylight"
+    ],
+    "answer": 0,
+    "explanation": "Restriction E limits the driver to vehicles with an automatic transmission. B is corrective lenses, G is daylight only, and IID is an ignition interlock device.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 10",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.050",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Under a 2026 New Hampshire law, if police tag your vehicle as unsafe or missing required equipment, at least how long do you have to repair it?",
+    "choices": [
+      "30 days",
+      "24 hours",
+      "3 days",
+      "7 calendar days"
+    ],
+    "answer": 3,
+    "explanation": "RSA 266:8-b (effective May 18, 2026) lets police issue a defective equipment tag that gives at least 7 calendar days to make the repair. Driving an unsafe vehicle is a $60 violation, whatever the status of the state inspection program.",
+    "difficulty": 3,
+    "ref": "N.H. RSA 266:8-b",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.051",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Unless a sign shows otherwise, what is the speed limit in a New Hampshire business or urban residence district?",
+    "choices": [
+      "40 mph",
+      "25 mph",
+      "30 mph",
+      "35 mph"
+    ],
+    "answer": 2,
+    "explanation": "The limit is 30 mph in any business or urban residence district. Rural residence districts are 35 mph.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 21",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.052",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the speed limit in a New Hampshire rural residence district when no other limit is posted?",
+    "choices": [
+      "30 mph",
+      "35 mph",
+      "45 mph",
+      "55 mph"
+    ],
+    "answer": 1,
+    "explanation": "Rural residence districts (and class V roads outside a town's compact part) have a 35 mph limit. Business and urban residence districts are 30 mph.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 21",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.053",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "With no special limit posted, what is the highest default speed limit on a New Hampshire highway that is not an interstate or divided turnpike?",
+    "choices": [
+      "55 mph",
+      "65 mph",
+      "45 mph",
+      "50 mph"
+    ],
+    "answer": 0,
+    "explanation": "RSA 265:60 sets 55 mph for other locations. Lower defaults apply in business and urban residence districts (30 mph), rural residence districts (35 mph) and on unimproved rural highways (45 mph); 65 mph applies only on interstates and divided turnpikes.",
+    "difficulty": 2,
+    "ref": "N.H. RSA 265:60, II; New Hampshire Driver's Manual, p. 21",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.054",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "In a posted New Hampshire school zone, what is the speed limit around school opening and closing times?",
+    "choices": [
+      "Half of the usual posted limit",
+      "15 mph, whatever the normal limit",
+      "20 mph",
+      "10 mph below the usual posted limit"
+    ],
+    "answer": 3,
+    "explanation": "In a posted school zone the limit is 10 mph below the usual posted limit, from 45 minutes before school opens until it opens and from school closing until 45 minutes after.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 21",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.055",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "How long before school opens and after it closes does New Hampshire's reduced school zone speed limit apply?",
+    "choices": [
+      "15 minutes",
+      "30 minutes",
+      "45 minutes",
+      "60 minutes"
+    ],
+    "answer": 2,
+    "explanation": "The reduced limit (10 mph below the posted limit) applies from 45 minutes before school opening until opening, and from school closing until 45 minutes after closing.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 21",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.056",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What minimum following distance does the New Hampshire Driver's Manual recommend in normal conditions?",
+    "choices": [
+      "3 seconds",
+      "4 seconds",
+      "6 seconds",
+      "2 seconds"
+    ],
+    "answer": 1,
+    "explanation": "New Hampshire teaches a following distance of at least four seconds, counted from a fixed object, with more space in bad weather, at night and behind large vehicles.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 22, 36",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.057",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are driving at night on a road you have never driven before. How much should you add to your normal following distance, according to the New Hampshire Driver's Manual?",
+    "choices": [
+      "At least 2 more seconds",
+      "At least 5 more seconds",
+      "Nothing extra",
+      "Half a second more"
+    ],
+    "answer": 0,
+    "explanation": "The manual says to add at least one second for night driving and at least two seconds for unfamiliar roads at night, on top of the normal four seconds.",
+    "difficulty": 3,
+    "ref": "New Hampshire Driver's Manual, p. 24",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.058",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "The posted limit on a New Hampshire highway is 55 mph, but heavy snow is falling. What does the law require?",
+    "choices": [
+      "Keep at least 45 mph so traffic keeps moving",
+      "Turn on your hazard lights and drive at the limit",
+      "You may drive 55 mph because it is the posted limit",
+      "Drive no faster than is reasonable and prudent for the conditions, even if that is well below 55 mph"
+    ],
+    "answer": 3,
+    "explanation": "Speed limits are the maximum under ideal conditions. RSA 265:60, I forbids driving faster than is reasonable and prudent for the conditions and hazards.",
+    "difficulty": 1,
+    "ref": "N.H. RSA 265:60, I; New Hampshire Driver's Manual, p. 21",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.059",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "Where is the speed limit 70 mph in New Hampshire?",
+    "choices": [
+      "On I-95 along the Seacoast",
+      "On every interstate highway",
+      "On I-93 from mile marker 45 north to the Vermont border",
+      "On the entire Everett Turnpike"
+    ],
+    "answer": 2,
+    "explanation": "The usual limit on interstates and divided turnpikes is 65 mph. The only 70 mph stretch is I-93 from mile marker 45 to the Vermont border.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 21",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.060",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "What is the speed limit on most New Hampshire interstate highways?",
+    "choices": [
+      "60 mph",
+      "65 mph",
+      "75 mph",
+      "55 mph"
+    ],
+    "answer": 1,
+    "explanation": "Interstates and the central and eastern New Hampshire turnpikes are 65 mph where they are divided highways of 4 or more lanes (70 mph on northern I-93).",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 21",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.061",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "In good weather, what is the slowest you may legally drive on a New Hampshire interstate highway?",
+    "choices": [
+      "45 mph",
+      "50 mph",
+      "35 mph",
+      "40 mph"
+    ],
+    "answer": 0,
+    "explanation": "The minimum speed on an interstate is 45 mph unless road and weather conditions make that speed unsafe.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 21",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.062",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "In New Hampshire, how far before a turn should you start signaling?",
+    "choices": [
+      "At least 200 feet",
+      "At least 500 feet",
+      "At least 50 feet",
+      "At least 100 feet"
+    ],
+    "answer": 3,
+    "explanation": "Signal at least 100 feet before a turn (RSA 265:45 requires a signal during the last 100 feet). On highways, signal at least 500 feet before changing lanes or exiting.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 21; RSA 265:45, II",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.063",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "On a New Hampshire highway, at least how far ahead should you signal before changing lanes or exiting?",
+    "choices": [
+      "200 feet",
+      "300 feet",
+      "500 feet",
+      "100 feet"
+    ],
+    "answer": 2,
+    "explanation": "The manual says to signal at least 500 feet before changing lanes or exiting on a highway, and earlier in rain, snow or fog.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 21",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.064",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "In New Hampshire, when may you turn right at a steady red light?",
+    "choices": [
+      "Never",
+      "After coming to a full stop and yielding, unless a sign prohibits the turn",
+      "Only when a green arrow is also lit",
+      "Without stopping, if no traffic is coming"
+    ],
+    "answer": 1,
+    "explanation": "Right turns on red are allowed after a full stop, yielding to pedestrians and traffic, unless a sign prohibits the turn.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 26; RSA 265:10, III",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.065",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "You are stopped at a steady red light on a one-way street and want to turn left onto another one-way street. What does New Hampshire law allow?",
+    "choices": [
+      "You may not turn left on red unless a sign at the intersection permits it",
+      "You may turn left on red if no pedestrians are present",
+      "You may turn left after stopping, if the way is clear",
+      "You may turn left on red only between midnight and 6 a.m."
+    ],
+    "answer": 0,
+    "explanation": "RSA 265:10 lets traffic facing a steady red light move only to turn right after stopping (unless prohibited) or to make a turn that a posted sign permits. New Hampshire has no one-way-to-one-way left-turn-on-red rule.",
+    "difficulty": 3,
+    "ref": "N.H. RSA 265:10, III",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.066",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "New Hampshire law requires your headlights to be on during which period?",
+    "choices": [
+      "From 1 hour after sunset to 1 hour before sunrise",
+      "Only when streetlights are off",
+      "From sunset to sunrise",
+      "From 1/2 hour after sunset to 1/2 hour before sunrise"
+    ],
+    "answer": 3,
+    "explanation": "Headlights are required from half an hour after sunset to half an hour before sunrise, and whenever rain, snow or fog keeps people and vehicles from being clearly seen 1,000 feet ahead.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 21",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.067",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "In rain, snow or fog, New Hampshire law requires headlights whenever people and vehicles are not clearly visible at what distance ahead?",
+    "choices": [
+      "200 feet",
+      "500 feet",
+      "1,000 feet",
+      "1,500 feet"
+    ],
+    "answer": 2,
+    "explanation": "Headlights must be on whenever rain, snow or fog keeps persons and vehicles from being clearly visible at a distance of 1,000 feet ahead.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 21",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.068",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "At night, New Hampshire law (RSA 265:114) requires you to dim your headlights when approaching, passing or following another vehicle within approximately what distance?",
+    "choices": [
+      "1,000 feet",
+      "150 feet",
+      "300 feet",
+      "500 feet"
+    ],
+    "answer": 1,
+    "explanation": "RSA 265:114 requires dimming when approaching, overtaking or following within approximately 150 feet of another vehicle at night. The manual also says to dim high beams for all approaching traffic and use low beams when following.",
+    "difficulty": 3,
+    "ref": "N.H. RSA 265:114",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.069",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How close to a fire hydrant may you park in New Hampshire?",
+    "choices": [
+      "No closer than 15 feet",
+      "No closer than 20 feet",
+      "No closer than 30 feet",
+      "No closer than 10 feet"
+    ],
+    "answer": 0,
+    "explanation": "Parking within 15 feet of a fire hydrant is illegal even where no sign is posted.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 34",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.070",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In New Hampshire, you may not park within how many feet of a crosswalk at an intersection?",
+    "choices": [
+      "30 feet",
+      "10 feet",
+      "15 feet",
+      "20 feet"
+    ],
+    "answer": 3,
+    "explanation": "Do not park on a crosswalk, in an intersection, or within 20 feet of a crosswalk at an intersection.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 34",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.071",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You want to park on the approach to a stop sign in New Hampshire. How far from the sign must you stay?",
+    "choices": [
+      "15 feet",
+      "20 feet",
+      "30 feet",
+      "50 feet"
+    ],
+    "answer": 2,
+    "explanation": "Parking is not allowed within 30 feet of a stop sign or a traffic control signal.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 34",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.072",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "On the side of the street opposite a New Hampshire fire station entrance, how far away must you park when the area is signposted?",
+    "choices": [
+      "50 feet",
+      "75 feet",
+      "20 feet",
+      "30 feet"
+    ],
+    "answer": 1,
+    "explanation": "Do not park within 20 feet of a fire station driveway on the same side of the street, or within 75 feet of the entrance on the opposite side (where signs are posted).",
+    "difficulty": 3,
+    "ref": "New Hampshire Driver's Manual, p. 34; RSA 265:69, II(e)",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.073",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "How close to the nearest rail of a railroad crossing may you park in New Hampshire?",
+    "choices": [
+      "No closer than 50 feet",
+      "No closer than 100 feet",
+      "No closer than 15 feet",
+      "No closer than 25 feet"
+    ],
+    "answer": 0,
+    "explanation": "Parking within 50 feet of the nearest rail of a railroad crossing is prohibited.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 34",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.074",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You must stop on a rural New Hampshire highway and cannot pull completely off the pavement. Your vehicle must be visible from at least how far in each direction?",
+    "choices": [
+      "300 feet",
+      "500 feet",
+      "100 feet",
+      "200 feet"
+    ],
+    "answer": 3,
+    "explanation": "Pull off as far as you can, leave room for other vehicles to pass, and make sure there is a clear view of your vehicle for 200 feet in each direction.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 33",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.075",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "When parking on a one-way street in New Hampshire, your wheels must be within how many inches of the curb (unless a local ordinance says otherwise)?",
+    "choices": [
+      "24 inches",
+      "6 inches",
+      "12 inches",
+      "18 inches"
+    ],
+    "answer": 2,
+    "explanation": "On a one-way roadway, park parallel in the direction of traffic with your right wheels within 12 inches of the right curb or your left wheels within 12 inches of the left curb.",
+    "difficulty": 2,
+    "ref": "N.H. RSA 265:71, II",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.076",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Under New Hampshire law, what must you do before leaving your vehicle unattended (unless it was started by a remote starter)?",
+    "choices": [
+      "Leave the engine running with the doors locked",
+      "Stop the engine, remove the key and set the brake",
+      "Turn on the hazard lights",
+      "Leave the key in the ignition for emergency responders"
+    ],
+    "answer": 1,
+    "explanation": "The law requires you to stop the engine, remove the key and set the brake before leaving a vehicle unattended, and to turn the front wheels to the curb when parked on a grade.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 34; RSA 265:72",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.077",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A person carrying a white cane is trying to cross the road in front of you in New Hampshire. What does the law require?",
+    "choices": [
+      "Come to a complete stop",
+      "Keep going if they are not yet in your lane",
+      "Flash your headlights to show it is safe",
+      "Slow down and honk so they know you are there"
+    ],
+    "answer": 0,
+    "explanation": "New Hampshire law requires drivers to come to a complete stop for a person with a white cane or a guide dog who is trying to cross. Never honk or yell at a visually impaired pedestrian.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 42",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.078",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A pedestrian is crossing at a New Hampshire intersection that has no painted crosswalk lines. What must you do?",
+    "choices": [
+      "Honk so the pedestrian waits",
+      "Yield only if the pedestrian is a child",
+      "Keep going, because there is no marked crosswalk",
+      "Yield to the pedestrian, because drivers must yield at intersections even without crosswalk lines"
+    ],
+    "answer": 3,
+    "explanation": "Drivers must yield to pedestrians crossing in marked crosswalks or at intersections, even if no crosswalk lines are painted there.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 29",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.079",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A New Hampshire funeral procession is led by a vehicle with a flashing purple light, and the cars behind it have their headlights on. What should you do?",
+    "choices": [
+      "Pass the procession as soon as you can",
+      "Join the end of the procession",
+      "Let the procession pass as a group; its vehicles have the right-of-way",
+      "Cut through the line at the next intersection"
+    ],
+    "answer": 2,
+    "explanation": "The manual says to let vehicles following a hearse with headlights on pass as a group. Under RSA 265:156 a funeral procession has the right-of-way, and funeral escort or lead vehicles use a purple flashing light.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 20; RSA 265:156",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.080",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "When a fire truck is responding to an alarm with siren or lights on, how closely may you follow it in New Hampshire?",
+    "choices": [
+      "No closer than 300 feet",
+      "No closer than 500 feet",
+      "No closer than 1,000 feet",
+      "No closer than 200 feet"
+    ],
+    "answer": 1,
+    "explanation": "Drivers must not follow a fire truck closer than 500 feet when it is sounding a siren or operating flashing lights.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 46",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.081",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A fire truck has stopped on a New Hampshire street to answer a fire alarm. What does the law prohibit?",
+    "choices": [
+      "Driving or parking within the block where the fire truck has stopped",
+      "Using your turn signals nearby",
+      "Stopping at the next intersection",
+      "Turning onto a side street before you reach it"
+    ],
+    "answer": 0,
+    "explanation": "Drivers must not drive or park a vehicle within the block where a fire truck has stopped to answer a fire alarm.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 46",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.082",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On a New Hampshire highway you approach a car stopped on the shoulder with its hazard lights flashing. What does Sherrill's Law require?",
+    "choices": [
+      "Stop behind the car until it leaves",
+      "Flash your high beams and keep your speed",
+      "Nothing, because it is not an emergency vehicle",
+      "Slow down and, if it is safe, give it a wide berth or move to a lane not next to it"
+    ],
+    "answer": 3,
+    "explanation": "Sherrill's Law (RSA 265:37-a) covers emergencies, police stops and any stopped vehicle showing hazard lights, flares, cones or signs: reduce speed, give a wide berth if practical without endangering oncoming traffic, and leave any blocked lane.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 46; RSA 265:37-a",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.083",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "When passing a bicyclist at 30 mph or less in New Hampshire, what passing distance does the law presume is safe?",
+    "choices": [
+      "At least 6 feet",
+      "At least 2 feet",
+      "At least 3 feet",
+      "At least 4 feet"
+    ],
+    "answer": 2,
+    "explanation": "A passing distance is presumed reasonable and prudent if it is at least 3 feet at 30 mph or less, plus one more foot for every 10 mph above 30.",
+    "difficulty": 1,
+    "ref": "N.H. RSA 265:143-a; New Hampshire Driver's Manual, p. 42-43",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.084",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are passing a bicyclist while traveling 50 mph in New Hampshire. How much clearance should you give?",
+    "choices": [
+      "4 feet",
+      "5 feet",
+      "6 feet",
+      "3 feet"
+    ],
+    "answer": 1,
+    "explanation": "The rule is 3 feet at 30 mph or less plus 1 foot for every 10 mph above 30, so at 50 mph you need at least 5 feet.",
+    "difficulty": 3,
+    "ref": "N.H. RSA 265:143-a; New Hampshire Driver's Manual, p. 42-43",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.085",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A train is approaching a New Hampshire railroad crossing with no stop line. Where must you stop?",
+    "choices": [
+      "15 to 50 feet from the nearest rail",
+      "50 to 100 feet from the nearest rail",
+      "5 to 15 feet from the nearest rail",
+      "10 to 40 feet from the nearest rail"
+    ],
+    "answer": 0,
+    "explanation": "When a train is approaching, stop behind the stop line or not less than 15 feet and not more than 50 feet from the nearest rail, and do not cross until the lights stop flashing or the train has passed.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 28",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.086",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "According to the New Hampshire Driver's Manual, a loaded truck traveling 55 mph under ideal conditions needs at least how many feet to stop?",
+    "choices": [
+      "535 feet",
+      "158 feet",
+      "235 feet",
+      "335 feet"
+    ],
+    "answer": 3,
+    "explanation": "A loaded truck with good tires and brakes needs at least 335 feet to stop from 55 mph, more than 1½ times a car's stopping distance, so never cut in front of a large vehicle.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 45",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.087",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "In New Hampshire, how far from a stopped school bus with flashing red lights must you stop?",
+    "choices": [
+      "At least 10 feet",
+      "At least 20 feet",
+      "At least 25 feet",
+      "At least 50 feet"
+    ],
+    "answer": 2,
+    "explanation": "Drivers in either direction must stop at least 25 feet from a school bus that is stopped with its red lights flashing or stop arm out, unless a divided highway separates them.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 33",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.088",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "You are on a New Hampshire divided highway with a median between the two roadways. A school bus traveling the other way stops on the far side with red lights flashing. What must you do?",
+    "choices": [
+      "Stop at least 25 feet away",
+      "You need not stop, because a divided highway separates you from the bus",
+      "Stop only if children are crossing",
+      "Slow to 10 mph and pass"
+    ],
+    "answer": 1,
+    "explanation": "The stop rule does not apply when the roadway is separated by a physical barrier or median: on a divided highway, drivers on the other roadway need not stop for a bus traveling the opposite way (RSA 265:54, III). Stay alert for children.",
+    "difficulty": 3,
+    "ref": "New Hampshire Driver's Manual, p. 33; RSA 265:54, III",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.089",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "What is the penalty in New Hampshire for passing a stopped school bus on the right while it is loading or unloading children (first offense)?",
+    "choices": [
+      "A $500 fine and a license suspension of up to 30 days",
+      "A $50 fine",
+      "A written warning",
+      "A $100 fine"
+    ],
+    "answer": 0,
+    "explanation": "Passing a stopped school bus on the right is a $500 fine plus penalty assessment, and the DMV suspends the license for up to 30 days for a first offense.",
+    "difficulty": 3,
+    "ref": "N.H. RSA 265:54, IV",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.090",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "After stopping for a school bus with flashing red lights in New Hampshire, when may you go?",
+    "choices": [
+      "As soon as the children reach the sidewalk",
+      "When the bus driver waves you on, even if the lights are still flashing",
+      "After 30 seconds",
+      "When the bus starts moving again or its red lights stop flashing"
+    ],
+    "answer": 3,
+    "explanation": "Drivers must remain stopped until the school bus resumes motion or until its flashing red lights stop, then proceed slowly while watching for children.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 33",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.091",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "Starting January 1, 2027, what penalty does New Hampshire law set for a first offense of failing to stop for a school bus with flashing red lights?",
+    "choices": [
+      "A $500 fine and a 30-day license suspension",
+      "A $150 fine only",
+      "A $300 fine and a 7-day license suspension",
+      "A written warning"
+    ],
+    "answer": 2,
+    "explanation": "A 2026 law makes a first offense a class B misdemeanor with a $300 fine plus penalty assessment and a mandatory 7-day license suspension, starting January 1, 2027. Until then, a first offense is a violation with a $150 fine.",
+    "difficulty": 3,
+    "ref": "N.H. RSA 265:54, I-b",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.092",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "What does New Hampshire's 'Jessica's Law' require of drivers?",
+    "choices": [
+      "Headlights on whenever wipers are on",
+      "Removing all snow and ice from the vehicle before driving",
+      "Slowing to 10 mph near school buses",
+      "Using snow tires from December to March"
+    ],
+    "answer": 1,
+    "explanation": "Since 2002, New Hampshire drivers must clear snow and ice off their vehicles before driving. The law is named for Jessica Smith, killed when ice from a tractor-trailer hit her vehicle.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 19",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.093",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Ice flies off your uncleared car roof and endangers other drivers in New Hampshire. What first-offense fine range applies under the negligent driving law?",
+    "choices": [
+      "$250 to $500",
+      "$1,000 to $2,000",
+      "$50 to $100",
+      "$100 to $200"
+    ],
+    "answer": 0,
+    "explanation": "Driving in a way that endangers people or property, including with loose snow and ice, can be negligent driving: $250 to $500 for a first offense and $500 to $1,000 for later offenses.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 19; RSA 265:79-b",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.094",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Your car breaks down in a New Hampshire snowstorm and you have no phone. What color cloth should you tie to the door handle or antenna to signal for help?",
+    "choices": [
+      "Orange",
+      "Yellow",
+      "White",
+      "Red"
+    ],
+    "answer": 3,
+    "explanation": "The manual says to raise the hood and tie a white cloth to the door handle or antenna, but a red cloth in a snowstorm, and to stay with the vehicle if possible.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 41",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.095",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Your vehicle breaks down on a New Hampshire road. If you have flares or reflectors, how far in front of and behind the vehicle should you place them?",
+    "choices": [
+      "50 feet",
+      "100 feet",
+      "200 feet",
+      "500 feet"
+    ],
+    "answer": 2,
+    "explanation": "Turn on your emergency flashers and, if available, place flares or reflectors 200 feet in front of and behind the vehicle so other drivers have time to change lanes.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 41",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.096",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Within how many days must a New Hampshire crash involving injury, death or more than $1,000 in combined damage be reported to the DMV if police did not investigate?",
+    "choices": [
+      "10 days",
+      "15 days",
+      "30 days",
+      "5 days"
+    ],
+    "answer": 1,
+    "explanation": "The Operator Accident Report (DSMV 400) must be filed with the DMV within 15 days when there is a death, an injury, or combined property damage over $1,000.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 38",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.097",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "In New Hampshire, a written crash report is required when the combined property damage is more than:",
+    "choices": [
+      "$1,000",
+      "$1,500",
+      "$2,500",
+      "$500"
+    ],
+    "answer": 0,
+    "explanation": "A report is required within 15 days for any crash causing death, injury, or combined property damage over $1,000. If unsure whether damage is over $1,000, the manual recommends filing anyway.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 38",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.098",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "A police officer investigated your New Hampshire crash. Do you also need to file your own report with the DMV?",
+    "choices": [
+      "Yes, but only if you caused the crash",
+      "No, because crashes never have to be reported",
+      "Yes, always within 5 days",
+      "No, the officer's report meets the requirement, though you may still file one"
+    ],
+    "answer": 3,
+    "explanation": "If a police officer investigates the crash, the officer's report satisfies the reporting requirement; a driver may still choose to file an Operator Report.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 38",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.099",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "An unmarked car signals you to pull over in New Hampshire. What does the manual advise?",
+    "choices": [
+      "Stop only if it also sounds a siren",
+      "Never stop for an unmarked car",
+      "Make sure it has its blue lights on, and ask an officer in plain clothes for identification",
+      "Drive to the nearest police station without stopping"
+    ],
+    "answer": 2,
+    "explanation": "If the vehicle is unmarked, be sure it has its blue lights activated. If the officer is in plain clothes, ask for identification such as a badge or department ID card.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 47",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.100",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Which of these parking spots breaks New Hampshire law even where no sign is posted?",
+    "choices": [
+      "Inside an intersection",
+      "25 feet from a fire hydrant",
+      "40 feet from a stop sign",
+      "60 feet from the nearest rail of a railroad crossing"
+    ],
+    "answer": 0,
+    "explanation": "Parking in an intersection is always illegal, marked or not. The other spots are legal because they are beyond New Hampshire's minimum distances: 15 feet from a fire hydrant, 30 feet from a stop sign and 50 feet from the nearest rail.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 34; RSA 265:69",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.101",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Under New Hampshire's license rules, what is the most power a motor-driven cycle's motor may produce?",
+    "choices": [
+      "5 horsepower",
+      "2 horsepower",
+      "10 horsepower",
+      "15 horsepower"
+    ],
+    "answer": 0,
+    "explanation": "The New Hampshire Driver's Manual describes a motor-driven cycle as a bicycle with a motor attached of no more than 5 brake horsepower, and RSA 259:65 also caps motor-driven motorcycles and scooters at 5 horsepower. A motorcycle license covers motor-driven cycles and mopeds too.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 10; RSA 259:65",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.102",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "After a hearing, New Hampshire's Director of Motor Vehicles declares a driver a Habitual Offender. For how long is the driver's license revoked?",
+    "choices": [
+      "1 to 4 years",
+      "6 months to 1 year",
+      "5 to 10 years",
+      "For life"
+    ],
+    "answer": 0,
+    "explanation": "A driver whose record has enough serious convictions to be declared a Habitual Offender has driving privileges revoked for 1 to 4 years (RSA 262:19, III). Driving while that order is in effect can bring up to 5 years in prison.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 12; RSA 262:19, III",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.103",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old in New Hampshire has finished driver education and 40 hours of supervised practice. How long must the teen have held a learner's permit before applying for a license?",
+    "choices": [
+      "No time, because New Hampshire does not issue learner's permits",
+      "6 months",
+      "12 months",
+      "90 days"
+    ],
+    "answer": 0,
+    "explanation": "New Hampshire has no learner's permit, so there is no permit holding period. Learners may practice from age 15½ with a qualified licensed adult, and applicants under 18 need approved driver education, 40 hours of supervised driving (10 at night) and written parental consent.",
+    "difficulty": 2,
+    "ref": "New Hampshire Driver's Manual, p. 7-9",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.car.104",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "To pass New Hampshire's vision test with sight in both eyes, which line on the eye chart must you be able to read?",
+    "choices": [
+      "20/40",
+      "20/20",
+      "20/30",
+      "20/50"
+    ],
+    "answer": 0,
+    "explanation": "New Hampshire requires a visual acuity of 20/40 with both eyes (20/30 if you have sight in only one eye). If you need glasses or contacts to pass, you must wear them while driving and your license gets a 'B' restriction.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 8; NH DMV Driver Licensing Testing Requirements page",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 30-year-old operator carries a 16-year-old passenger who is not wearing a helmet on a New Hampshire road. Who is in violation?",
+    "choices": [
+      "Only the passenger",
+      "The passenger and the operator",
+      "Only the operator",
+      "No one, because the operator is an adult"
+    ],
+    "answer": 1,
+    "explanation": "Riders and passengers under 18 must wear an approved helmet (RSA 265:122, I), and an operator who carries a passenger under 18 without one is also guilty of a violation (RSA 265:122, IV).",
+    "difficulty": 3,
+    "ref": "N.H. RSA 265:122",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Does New Hampshire law require a 25-year-old motorcycle operator to wear a helmet?",
+    "choices": [
+      "No, the helmet law covers only riders and passengers under 18",
+      "Only on interstate highways",
+      "Only when carrying a passenger",
+      "Yes, on all roads"
+    ],
+    "answer": 0,
+    "explanation": "New Hampshire requires helmets only for motorcycle riders and passengers under 18, though a helmet is the single most important thing a rider can wear to survive a crash.",
+    "difficulty": 1,
+    "ref": "New Hampshire Driver's Manual, p. 18; RSA 265:122",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "May a motorcyclist ride between lanes of slow-moving traffic in New Hampshire?",
+    "choices": [
+      "Yes, but only on interstates",
+      "Yes, if the rider uses hazard lights",
+      "Yes, at speeds under 30 mph",
+      "No, riding between lanes or rows of vehicles is prohibited"
+    ],
+    "answer": 3,
+    "explanation": "RSA 265:121 prohibits driving a motorcycle between lanes of traffic or between adjacent lines or rows of vehicles (lane splitting).",
+    "difficulty": 1,
+    "ref": "N.H. RSA 265:121, III",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What is the greatest number of motorcycles that may ride side by side in one lane in New Hampshire?",
+    "choices": [
+      "4",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": 2,
+    "explanation": "Every motorcycle is entitled to the full use of a lane, but two motorcycles may ride abreast in a single lane. Never more than two.",
+    "difficulty": 2,
+    "ref": "N.H. RSA 265:121, I, IV",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "May a motorcyclist pass a car by riding alongside it in the same lane in New Hampshire?",
+    "choices": [
+      "Yes, but only on the right side",
+      "No, a motorcyclist may not overtake and pass in the same lane as the vehicle being passed",
+      "Yes, if the car is turning left",
+      "Yes, if there is enough room"
+    ],
+    "answer": 1,
+    "explanation": "RSA 265:121, II forbids overtaking and passing in the same lane occupied by the vehicle being overtaken; change lanes to pass as any other vehicle would.",
+    "difficulty": 2,
+    "ref": "N.H. RSA 265:121, II",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Your motorcycle has no windshield. What does New Hampshire law require you to wear while riding?",
+    "choices": [
+      "Eyeglasses, goggles or a protective face shield",
+      "A helmet, whatever your age",
+      "A reflective vest",
+      "Nothing extra if you are over 18"
+    ],
+    "answer": 0,
+    "explanation": "If a motorcycle has no windshield or screen that protects the driver's eyes and face, the driver must wear eyeglasses, goggles or a protective face shield while the motorcycle is moving. Helmets are required only for riders and passengers under 18.",
+    "difficulty": 2,
+    "ref": "N.H. RSA 265:123",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "When may the holder of a New Hampshire motorcycle learner's permit ride on public roads?",
+    "choices": [
+      "Only on weekends",
+      "Only between 6 a.m. and 10 p.m.",
+      "At any time",
+      "Only after sunrise and before sunset"
+    ],
+    "answer": 3,
+    "explanation": "A motorcycle learner's permit allows riding on any New Hampshire road only after sunrise and before sunset.",
+    "difficulty": 1,
+    "ref": "N.H. RSA 263:32, II; NH DMV Motorcycle License Endorsement page",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "May a New Hampshire motorcycle learner's permit holder carry a passenger?",
+    "choices": [
+      "Yes, if the passenger is over 18",
+      "Yes, if the passenger has a motorcycle license",
+      "No, permit holders may not carry passengers",
+      "Yes, during daylight hours"
+    ],
+    "answer": 2,
+    "explanation": "The holder of a motorcycle learner's permit may not carry any passengers.",
+    "difficulty": 1,
+    "ref": "N.H. RSA 263:32, II; NH DMV Motorcycle License Endorsement page",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How long is a New Hampshire motorcycle learner's permit valid?",
+    "choices": [
+      "30 days, with no renewal",
+      "45 days, and it may be renewed one time",
+      "90 days, and it may be renewed twice",
+      "1 year"
+    ],
+    "answer": 1,
+    "explanation": "The permit is valid for 45 days from issuance (or until a motorcycle license is obtained) and may be renewed one time for another 45 days.",
+    "difficulty": 2,
+    "ref": "N.H. RSA 263:32, III; NH DMV Motorcycle License Endorsement page",
+    "states": [
+      "NH"
+    ]
+  },
+  {
+    "id": "nh.mc.010",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 17-year-old with a New Hampshire driver's license wants a motorcycle permit or license. What must the teen do?",
+    "choices": [
+      "Complete a motorcycle Basic Rider Course and provide a parental permission form",
+      "Wait until 18, because no one under 18 may ride",
+      "Hold a learner's permit for 6 months",
+      "Pass the DMV skills test only"
+    ],
+    "answer": 0,
+    "explanation": "Applicants for a motorcycle license must be at least 16, and anyone under 18 must complete the Basic Rider Course and give a parental permission form to apply for a motorcycle license or permit.",
+    "difficulty": 2,
+    "ref": "NH DMV Motorcycle License Endorsement page; RSA 263:32",
+    "states": [
+      "NH"
+    ]
+  }
+]
