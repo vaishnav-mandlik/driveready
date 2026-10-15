@@ -100,6 +100,7 @@ export const stateQuestionLoaders: Partial<Record<StateCode, () => Question[]>> 
   VA: () => load('questions/states/VA.json', () => require('./questions/states/VA.json')),
   WA: () => load('questions/states/WA.json', () => require('./questions/states/WA.json')),
   WI: () => load('questions/states/WI.json', () => require('./questions/states/WI.json')),
+  WV: () => load('questions/states/WV.json', () => require('./questions/states/WV.json')),
 };
 
 export const stateInfoLoaders: Partial<Record<StateCode, () => StateInfo>> = {
@@ -141,6 +142,7 @@ export const stateInfoLoaders: Partial<Record<StateCode, () => StateInfo>> = {
   VA: () => load('states/VA.json', () => require('./states/VA.json')),
   WA: () => load('states/WA.json', () => require('./states/WA.json')),
   WI: () => load('states/WI.json', () => require('./states/WI.json')),
+  WV: () => load('states/WV.json', () => require('./states/WV.json')),
 };
 
 export const lessonLoaders: Array<() => Lesson> = [
@@ -298,6 +300,7 @@ export const bundledHashes: Record<string, string> = {
   'questions/states/VA.json': '422206f6fcab82b482f33f907ab9407607eaebadca8a2e4fa67b08c25b51c380',
   'questions/states/WA.json': 'b06ba89437dc1d4419bd02eb5f6c870526382cc0cbc390088232262f57fc2c31',
   'questions/states/WI.json': '3e3b55e61f99493b64f723e16867fb8f5a6e0c6aa2c4b3a29a4b699f89c58f7d',
+  'questions/states/WV.json': '2d34f74996193eab564532e805f99f4d1e102ca20f5e7692481416149bb7968c',
   'states/AL.json': '0739319d675848d0f9d159f077851c3265588b3074a2db7ef35ced5594dd6c5d',
   'states/AR.json': '09cabc33891dfd64a4a31f244b875315b75534b61021ded710470749e6a2e08f',
   'states/AZ.json': '81a720203a16d6533cd2b948e9504e1c1fe032b8cd69b207c294ec2eba58b900',
@@ -336,4 +339,5 @@ export const bundledHashes: Record<string, string> = {
   'states/VA.json': '6c3a5de50ac09e74543c4ac562aab3044438d65d771e5b90ea007c9b089fa91c',
   'states/WA.json': '21537a625264bfd93d60a53663ed8fe1d3d6932e8a6c7bade859ed33da4d83e7',
   'states/WI.json': '911a31c5d3309a90c8620659e39c998c143e9dd1f5faadb8d962f2d960847498',
+  'states/WV.json': '769b47d00a7a1f670fb2353f6b387aacdf2b48f3a36b761fe9d2ee938a8ff6e5',
 };

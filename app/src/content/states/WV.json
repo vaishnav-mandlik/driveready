@@ -1,0 +1,783 @@
+{
+  "code": "WV",
+  "name": "West Virginia",
+  "agency": {
+    "name": "West Virginia Division of Motor Vehicles",
+    "abbreviation": "DMV",
+    "website": "https://dmv.wv.gov"
+  },
+  "handbook": {
+    "title": "West Virginia Driver's Licensing Handbook",
+    "edition": "Revised 07/2026 (cover; PDF created Aug 4, 2026): the Driver's Licensing Handbook linked from dmv.wv.gov/driver-services/drivers/drivers-licensing-handbooks on Oct 15, 2026. Page numbers are PDF pages (printed page number + 10). research/handbooks/WV.txt was extracted from that PDF with a repair: about 110,000 characters set in Type0 fonts without a Unicode map (plain extraction gives glyph IDs, i.e. text shifted by 31 with digits as control characters) were decoded through the fonts' standard ISOAdobe glyph order, and 109 'fi'/'fl'/'ff' ligature splits (e.g. 'traffi  c') were rejoined; page markers are unchanged and decoded passages were spot-checked against the rendered PDF (pp. 34, 55). Statute quotes are in research/handbooks/WV_LAWS.txt (code.wvlegislature.gov, retrieved Oct 15, 2026; page = that file's page marker). Motorcycle manual: research/handbooks/WV_MOTORCYCLE.txt (West Virginia Motorcycle Operator Manual, MSF 18th revision edited by WV DMV March 2023; PDF pages).",
+    "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf"
+  },
+  "exam": {
+    "questions": 25,
+    "passingScore": 19,
+    "passingPercent": 76,
+    "timeLimitMinutes": null,
+    "roadSigns": "No separate road-sign test: the knowledge exam covers traffic rules, regulations, signs and markings from the handbook. Applicants must also identify traffic signs during the road test.",
+    "format": "Automated knowledge exam at all DMV testing locations: at least 25 questions; you must answer 19 of 25 correctly (76%). The test is timed (length not published) and questions not answered in time count as wrong. An audio version with headphones is available for the reading impaired. The written test can also be taken online (Know To Drive Online); the certificate must then be processed at a DMV office. No phones, smart glasses or other electronic devices are allowed in the exam room.",
+    "languages": "English; audio (headphone) version for reading-impaired applicants. Other languages are not stated on official DMV sources.",
+    "retestWait": "An applicant who fails the knowledge (or road skills) test may not be tested twice within one week (W. Va. Code §17B-2-6). Fee $7.50 per attempt.",
+    "notes": "Same knowledge test for the Level 1 GDL permit (ages 15-17, parental consent on DMV-DS-23P and a certified birth certificate each time) and the regular instruction permit (18+). Vision: 20/40 or better. First-time applicants also complete a short DUI awareness course after the road skills test. Source: Driver's Licensing Handbook rev. 07/2026, PDF pp. 19, 34-36 (printed pp. 9, 24-26); fee from dmv.wv.gov/graduated-drivers-licensing-gdl.",
+    "sourceUrl": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf"
+  },
+  "motorcycleExam": {
+    "questions": 25,
+    "passingScore": 20,
+    "passingPercent": 80,
+    "notes": "Motorcycle knowledge exam: 25 questions, 80% or better (handbook PDF p. 24). Motorcycle permit at 16+ (under 18 must first meet Level 2 or Class E requirements); valid 6 months, daylight only, no passengers. Hold the permit at least 7 days, then pass the DMV on-cycle skills test or the MSF Basic Rider Course to get the F endorsement or a Class F (motorcycle-only) license.",
+    "sourceUrl": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf"
+  },
+  "cdlExam": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC or more (drivers 21 and older)",
+      "detail": "It is against the law for a driver 21 or older to drive with a BAC of 0.08% or higher; at 0.08% a driver is presumed to be under the influence. A BAC above 0.05% can also be used as evidence that a driver is impaired.",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 9,
+        "quote": "For drivers over the age of 21, it is against the law to drive if the BAC is 0.08% or higher."
+      }
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% BAC for drivers under 21 (zero tolerance)",
+      "detail": "West Virginia has a zero-tolerance law for drivers under 21. Driving with a BAC of 0.02% or more (but under 0.08%) is a misdemeanor: a first offense means a $25-$100 fine and a 60-day license suspension (W. Va. Code §17C-5-2(j)). At 0.08% the regular DUI law applies.",
+      "number": 0.02,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 9,
+        "quote": "For drivers under the age of 21, it is against the law to drive if the BAC is 0.02% or higher"
+      }
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC in a commercial motor vehicle",
+      "detail": "Driving or being in physical control of a commercial motor vehicle with a BAC of 0.04% or more is a misdemeanor (first offense: 24 hours to 6 months in jail and a $100-$500 fine). A CMV driver with any measurable alcohol is placed out of service for 24 hours.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://code.wvlegislature.gov/17E-1-14/",
+        "page": 7,
+        "quote": "any person who drives, operates or is in physical control of a commercial motor vehicle while having an alcohol concentration in his or her blood, breath or urine of four hundredths of one percent or more, by weight, is guilty of a misdemeanor"
+      }
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusing the chemical (breath) test: 1-year revocation for a first refusal, up to life",
+      "detail": "Every driver is deemed to have consented to a chemical test after a DUI arrest. A first refusal brings a one-year revocation (or 45 days off the road plus one year in the Test and Lock ignition-interlock program); a second refusal 10 years; a third, life (W. Va. Code §17C-5-7a).",
+      "number": 1,
+      "unit": "year",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 32,
+        "quote": "If you refuse to take the Breathalyzer, your privilege to operate a motor vehicle will be revoked for a period of one (1) year and up to life."
+      }
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "BAC under 0.15%: up to 6 months in jail, $100-$500 fine, 6-month license revocation",
+      "detail": "A first DUI with a BAC of 0.15% or more brings 2 days to 6 months in jail (at least 24 hours actually served), a $200-$1,000 fine and a 1-year revocation. Offenders may cut time off the road by joining the Test and Lock (ignition interlock) program (required at 0.15% or more), and must finish the Safety and Treatment Program before the license is reinstated. The handbook chart's 'minimum revocation period' (15 days; 45 days at 0.15% or more) is the minimum time off the road before joining Test and Lock, not the statutory revocation.",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://code.wvlegislature.gov/17C-5-2/",
+        "page": 3,
+        "quote": "may be confined in jail for up to six months and shall be fined not less than $100 nor more than $500, and shall have his or her license to operate a motor vehicle revoked by the Commissioner of the Division of Motor Vehicles for a period of six months"
+      }
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15 (Level 1 GDL instruction permit)",
+      "detail": "Teens 15-17 start with a Level 1 instruction permit: pass a vision screening and a knowledge test and have a parent or legal guardian consent on form DMV-DS-23P (not required for married applicants). New drivers 18 and older get a regular instruction permit.",
+      "number": 15,
+      "unit": "years",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 19,
+        "quote": "To obtain a Level 1 GDL instruction permit, you must be at least 15 years old, pass a vision screening, pass a knowledge test"
+      }
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "180 consecutive conviction-free days on the Level 1 permit (30 days for new drivers 18+)",
+      "detail": "Teens must drive conviction-free on the Level 1 permit for 180 consecutive days right before applying for the Level 2 license; a conviction restarts the period. A new driver 18 or older must hold the regular instruction permit at least 30 days before the road skills test.",
+      "number": 180,
+      "unit": "days",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 20,
+        "quote": "Have a minimum of 180 consecutive days of conviction-free driving at Level 1 GDL immediately preceding the date of your Level 2 application"
+      }
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "50 hours, including 10 at night (or an approved driver education course)",
+      "detail": "A parent or legal guardian must certify a log of at least 50 hours behind the wheel, including at least 10 hours at night, unless the teen completes a driver education course approved by the West Virginia Department of Education.",
+      "number": 50,
+      "unit": "hours",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 20,
+        "quote": "Have a parent or legal guardian certification (log sheet) of a minimum of 50 hours behind the wheel, including the minimum of 10 hours at night or complete a driver’s education course approved by the West Virginia Department of Education"
+      }
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Licensed driver at least 21 in the right front passenger seat",
+      "detail": "Level 1 permit holders may drive only with a licensed driver 21 or older (or a driving instructor) beside them, only between 5 a.m. and 10 p.m., and with no more than two additional non-family passengers. Adult regular permit holders also need a licensed driver 21+ in the front seat.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 19,
+        "quote": "You may only drive with a licensed driver who is at least 21 years old in the right front passenger seat."
+      }
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 (Level 2 intermediate driver's license)",
+      "detail": "A Level 2 intermediate license requires being at least 16, 180 conviction-free days on the Level 1 permit, the 50-hour certification (or driver education) and passing the road skills test.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 20,
+        "quote": "Be at least 16 years of age"
+      }
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "Level 2: no driving 10 p.m.-5 a.m. without a licensed driver 21 or older",
+      "detail": "Level 2 drivers may drive unsupervised only between 5 a.m. and 10 p.m. From 10 p.m. to 5 a.m. a supervising licensed driver 21+ is required, except when going to or returning from lawful employment, a school-sanctioned activity, a religious activity, or an emergency to prevent injury or death.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 20,
+        "quote": "Level 2 GDL intermediate driver’s license must drive with a supervising, licensed adult driver who is age 21 or older between the hours of 10:00 pm and 5:00 am."
+      }
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "Level 2: first 6 months no non-family passengers under 20; second 6 months at most one",
+      "detail": "During the first six months with a Level 2 license the driver may carry no passengers under 20 who are not family members; during the second six months, no more than one non-family passenger under 20.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 21,
+        "quote": "may not operate a motor vehicle during their first six months with any non-family members under the age of 20 as a passenger and may not operate a motor vehicle with more than one (1) non-family member under the age of 20 as a passenger during the second six (6) months."
+      }
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "17 for a Level 3 license (after 12 conviction-free months at Level 2)",
+      "detail": "The Level 3 license (full Class E privileges until age 21) requires being at least 17 with 12 months of conviction-free driving on the Level 2 license. Level 3 is optional: a teen may keep the Level 2 license and its restrictions until 18.",
+      "number": 17,
+      "unit": "years",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 22,
+        "quote": "To be eligible for a Level 3 GDL, you must have completed 12 months of conviction-free driving under a Level 2 GDL, be at least 17 years old, and have successfully completed all requirements."
+      }
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "Hands-free only, for all drivers",
+      "detail": "Using a phone or other electronic communications device while driving on a public street or highway is illegal unless it is hands-free. Reporting a fire, crash, serious road hazard or emergency to the authorities is not a violation.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 27,
+        "quote": "The use of any electronic communications device while driving a motor vehicle on a public street or highway is prohibited unless the use is accomplished by hands-free equipment."
+      }
+    },
+    {
+      "key": "texting_ban",
+      "value": "Texting, e-mailing, browsing and gaming on a device while driving are banned",
+      "detail": "Composing, sending or reading texts or e-mails, viewing or transmitting images or data, and playing games on a device that is not hands-free all violate West Virginia's distracted-driving law (§17C-14-15).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 27,
+        "quote": "Violation of this law includes using an electronic communications device that is not enabled as hands-free to engage in a call, view or transmit images or data, play games, or compose, send, read, view, access, browse, transmit, save, or retrieve an e-mail, text message, or other electronic data."
+      }
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Drivers under 18: no wireless device at all, even hands-free (except to call 9-1-1)",
+      "detail": "Level 1 permit and Level 2 license holders (and any driver under 18) may not use a wireless communication device while driving unless contacting 9-1-1. A citation restarts the conviction-free period (6 months at Level 1, 12 months at Level 2).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 21,
+        "quote": "Drivers under the age of 18 may not use a wireless communication device while operating a motor vehicle, unless the cell phone is used for contacting a 9-1-1 system"
+      }
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Driver, every front-seat passenger and back-seat passengers under 18 must be belted",
+      "detail": "Everyone in a passenger vehicle must buckle up except riders 18 or older in the back seat, and the driver is responsible for making sure passengers are buckled. The fine is $25, with no points (§17C-15-49).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 77,
+        "quote": "Everyone in a passenger vehicle must wear a federally approved safety belt. It is the responsibility of the driver to ensure that all passengers are buckled into their safety belts. The only legal exception is for persons 18 years or older who are riding in the back seat of a vehicle."
+      }
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Under 8: child safety seat; under 8 but at least 4'9\": safety belt is enough",
+      "detail": "A driver must secure any child under 8 in a child passenger safety device that meets federal standards. A child under 8 who is at least 4 feet 9 inches tall may use a regular safety belt. The handbook recommends that children 12 and under ride in the back seat.",
+      "number": 8,
+      "unit": "years",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 77,
+        "quote": "Every driver who transports a child under the age of 8 years in a passenger automobile, van or pickup truck other than one operated for hire shall, while the motor vehicle is in motion and operated on a street or highway of this state, provide for the protection of the child by properly placing, maintaining and securing the child in a child passenger safety device system meeting applicable federal motor vehicle safety standards"
+      }
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Never faster than is reasonable and prudent for conditions",
+      "detail": "Posted and default limits are maximums. Slow down approaching intersections, curves and hilltops, on narrow roads, and whenever traffic, weather or road hazards limit visibility or stopping distance.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 52,
+        "quote": "However West Virginia law prohibits driving at a speed that is greater than reasonable and prudent for existing conditions."
+      }
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "15 mph when children are present",
+      "detail": "The school zone limit is 15 mph during school recess or while children are going to or leaving school. A school zone is all school property plus any street or highway next to the school grounds, extending 125 feet along the road from the grounds.",
+      "number": 15,
+      "unit": "mph",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 52,
+        "quote": "School Zone (while children are present along the roadway) - 15mph"
+      }
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "25 mph",
+      "detail": "Unless another limit is posted, the limit in residential areas is 25 mph.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 52,
+        "quote": "Business or Residential Areas - 25mph"
+      }
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "25 mph",
+      "detail": "Unless another limit is posted, the limit in business areas is 25 mph.",
+      "number": 25,
+      "unit": "mph",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 52,
+        "quote": "Business or Residential Areas - 25mph"
+      }
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "55 mph on open country highways unless posted otherwise",
+      "detail": "The default limit on open country highways is 55 mph unless a different limit is posted.",
+      "number": 55,
+      "unit": "mph",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 52,
+        "quote": "Open County Highway - 55mph - unless otherwise posted"
+      }
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "70 mph unless otherwise posted",
+      "detail": "The maximum speed on interstates is 70 mph unless a different limit is posted.",
+      "number": 70,
+      "unit": "mph",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 52,
+        "quote": "Interstate - Maximum Speed 70mph unless otherwise posted"
+      }
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Interstates: not slower than 55 mph unless conditions are bad or a lower speed is posted",
+      "detail": "Driving much slower than other traffic on an interstate creates a hazard. On a road with one lane each way, a slow driver should pull off at the first safe turnout to let faster traffic pass.",
+      "number": 55,
+      "unit": "mph",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 69,
+        "quote": "Do not drive slower than 55 mph on an interstate unless the weather or road conditions are bad or a lower speed has been posted."
+      }
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop unless a sign prohibits it",
+      "detail": "Stop completely, then yield to pedestrians and traffic before turning right on red.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 54,
+        "quote": "If an intersection has no signs prohibiting a turn on red, traffic facing a red signal may, after coming to a complete stop and yielding to pedestrians and traffic, make a right turn."
+      }
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Only from a one-way street onto another one-way street, after a complete stop",
+      "detail": "After stopping and yielding to all traffic and pedestrians, a driver may turn left on red only from a one-way street onto a one-way street, unless a sign prohibits it.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 49,
+        "quote": "A driver may turn right on red at the intersection of two-way streets, or may turn left on red from a one-way street to another one-way street."
+      }
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 100 feet before turning",
+      "detail": "Signal at least 100 feet before a turn. Don't signal so early that drivers think you're turning sooner, and cancel the signal after the turn.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 53,
+        "quote": "Signal at least 100 feet before you plan to turn."
+      }
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the right edge, clear of the intersection, and stop until it passes",
+      "detail": "Yield to any ambulance, fire truck or police vehicle sounding a siren and flashing lights. Keep your foot on the brake so the driver knows you have stopped, and watch for more emergency vehicles. Do not follow an emergency vehicle answering a call closer than 500 feet (§17C-14-9).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 59,
+        "quote": "Pull over to the right edge of the road, clear of the intersection, and stop until the emergency vehicle has passed."
+      }
+    },
+    {
+      "key": "move_over_law",
+      "value": "Any stopped vehicle with flashing lights, hazards, flares or warning signs: move over a lane, or slow to 15 mph (undivided) / 25 mph (divided)",
+      "detail": "The law covers any stationary vehicle showing flashing red, blue, amber or yellow lights, emergency flashers or hazard lights, flares or a reflective warning sign. On a highway with at least four lanes (two or more in your direction), move to a lane not next to it if safe and slow to a safe speed; if you cannot change lanes, slow to no more than 15 mph on an undivided road or 25 mph on a divided highway. Up to a $500 fine and/or 60 days in jail; license suspensions if property damage (90 days), injury (6 months) or death (2 years) results.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://code.wvlegislature.gov/17C-14-9a/",
+        "page": 1,
+        "quote": "reduce the speed of the vehicle, maintaining a safe speed not to exceed 15 miles per hour on any nondivided highway or street and 25 miles per hour on any divided highway depending on road conditions, if changing lanes would be impossible or unsafe."
+      }
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Both directions stop for a loading/unloading school bus with flashing red lights; only exception: across an interstate median",
+      "detail": "The rule applies on highways, streets, parking lots, private roads and driveways, including school and private property. Stay stopped until the bus moves, the driver signals you on, or the lights stop. A first offense means a $500-$1,000 fine and/or up to 6 months in jail plus a 60-day license suspension.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 60,
+        "quote": "traffic in both directions must stop before reaching a school bus that has its red lights flashing which is receiving or discharging students. You may not proceed until the bus resumes motion, or signaled by the school bus driver to proceed or the visual signals are no longer actuated. Only on Interstate Highways does traffic coming toward a school bus stopped on the other side of the median not have to stop."
+      }
+    },
+    {
+      "key": "following_distance",
+      "value": "3-4 seconds (at least 4 in the dark or rain, 6 on ice or snow)",
+      "detail": "Pick a fixed object; when the vehicle ahead passes it, count 'one thousand one, one thousand two, one thousand three.' Reaching the object first means you are too close. Allow at least four seconds in the dark or rain and at least six on ice or snow.",
+      "number": 3,
+      "unit": "seconds",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 57,
+        "quote": "The best way to assure proper following distance is to use the three-to-four second rule."
+      }
+    },
+    {
+      "key": "headlights_required",
+      "value": "Sunset to sunrise, in fog, smoke or rain, and whenever people and vehicles aren't clearly visible at 500 feet",
+      "detail": "Turning on headlights in rain is the law, not just a good idea. Motorcycles, mopeds and school buses must use headlights at all times (§17C-15-2).",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 61,
+        "quote": "Turn on your headlights from sunset to sunrise, during fog, smoke, rain, or at any other time when persons and vehicles cannot be seen clearly at a distance of 500 feet."
+      }
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "Within 500 feet of an oncoming vehicle",
+      "detail": "Switch to low beams within 500 feet of an approaching vehicle, and also on well-lit streets and in fog.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 61,
+        "quote": "Dim your headlights within 500 feet of an approaching vehicle."
+      }
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "Within 200 feet of a vehicle you are following",
+      "detail": "Use low beams within 200 feet of the vehicle ahead of you.",
+      "number": 200,
+      "unit": "feet",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 61,
+        "quote": "Dim your headlights within 200 feet of the vehicle in front of you."
+      }
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet",
+      "detail": "No stopping, standing or parking within 15 feet of a fire hydrant.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 55,
+        "quote": "Within 15 feet of a fire hydrant"
+      }
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "20 feet from a crosswalk at an intersection (never on a crosswalk)",
+      "detail": "No stopping, standing or parking on a crosswalk or within 20 feet of a crosswalk at an intersection.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 55,
+        "quote": "Within 20 feet of a crosswalk at an intersection"
+      }
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Never within an intersection",
+      "detail": "Stopping, standing or parking within an intersection is prohibited (except to avoid a conflict with traffic or obey an officer or signal). Parking is also banned within 20 feet of a crosswalk at an intersection and within 30 feet of a stop sign or traffic signal.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 55,
+        "quote": "Within an intersection"
+      }
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet",
+      "detail": "No parking within 30 feet of any stop sign or traffic control signal.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 55,
+        "quote": "Within 30 feet of any stop sign or traffic control signal"
+      }
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet from the nearest rail",
+      "detail": "No parking within 50 feet of the nearest rail of a railroad crossing.",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 55,
+        "quote": "Within 50 feet of the nearest rail of a railroad crossing"
+      }
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet from a fire station driveway (75 feet on the opposite side when signposted)",
+      "detail": "No parking within 20 feet of the driveway entrance to a fire station, or within 75 feet of the entrance on the opposite side of the street when signs are posted.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://code.wvlegislature.gov/17C-13-3/",
+        "page": 10,
+        "quote": "Within twenty feet of the driveway entrance to any fire station and on the side of a street opposite the entrance to any fire station within seventy-five feet of the entrance (when properly signposted)"
+      }
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "Within 18 inches of the curb",
+      "detail": "When parallel parking, park with the wheels parallel to and within 18 inches of the curb (about 6 inches is ideal), facing the direction of traffic.",
+      "number": 18,
+      "unit": "inches",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 57,
+        "quote": "wheels are parallel to and within 18 inches of the right curb."
+      }
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "Between 15 and 50 feet from the nearest rail",
+      "detail": "When a signal, lowered gate, flagman or an approaching train warns of a train, stop within 50 feet but not less than 15 feet from the nearest rail and do not go until it is safe. Never drive around or under a closed gate. Fine $100 or up to 10 days in jail, and 3 points.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://code.wvlegislature.gov/17C-12-1/",
+        "page": 8,
+        "quote": "the driver of such vehicle shall stop within fifty feet but not less than fifteen feet from the nearest rail of such railroad and shall not proceed until he can do so safely."
+      }
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet, at a careful and reduced speed",
+      "detail": "When passing a bicyclist going your way, pass on the left at least three feet away and at a reduced speed; if there is no room because of oncoming traffic, wait.",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://code.wvlegislature.gov/17C-7-3/",
+        "page": 12,
+        "quote": "The driver of a vehicle overtaking a bicycle traveling in the same direction shall pass to the left of the bicycle at a distance of not less than three feet at a careful and reduced speed"
+      }
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Yield to pedestrians in crosswalks; a blind pedestrian with a white cane or guide dog always has the right-of-way",
+      "detail": "Pedestrians have the right-of-way in crosswalks and when crossing a sidewalk at an alley or driveway. A blind person using a guide dog or service animal, or carrying a white cane or walking stick, has the right-of-way whether or not in a crosswalk. Never pass a vehicle stopped at a crosswalk for a pedestrian.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 50,
+        "quote": "A blind person who is on foot and using a guide dog or other service animal, or is carrying a white cane or walking stick, has the right-of-way on a highway, street, or road regardless of whether they are in a crosswalk or not."
+      }
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Injury, death or property damage of $1,000 or more: notify police immediately",
+      "detail": "Report the crash by the quickest means to the local police if it happens inside a city or town; otherwise to the county sheriff or the nearest West Virginia State Police office. Drivers should exchange names, addresses, plate numbers and insurance information. The handbook (PDF p. 26) still says to report within five days (for damage 'in excess of $1,000'), and the knowledge test may expect that wording.",
+      "number": 1000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://code.wvlegislature.gov/17C-4-6/",
+        "page": 15,
+        "quote": "The driver of a vehicle involved in a crash resulting in injury to or death of any person or total property damage to an apparent extent of $1,000 or more shall immediately by the quickest means of communication, give notice of such crash to the local police department if such crash occurs within a municipality, otherwise to the office of the county sheriff or the nearest office of the West Virginia State Police."
+      }
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "25/50/25 liability",
+      "detail": "Minimum liability coverage: $25,000 for injury or death of one person, $50,000 for two or more, and $25,000 for property damage. Keep proof of insurance (card or an image on your phone) and the registration card in the vehicle; driving uninsured leads to suspension of the license and registration.",
+      "number": 25000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 26,
+        "quote": "$25,000 for one (1) death or injury | $50,000 for two (2) deaths or injuries | $25,000 for property damage"
+      }
+    },
+    {
+      "key": "point_system",
+      "value": "12 points: license subject to suspension",
+      "detail": "At 6 points the DMV sends a warning letter; at 12 points the license is subject to suspension. Points stay on the record for 2 years from the conviction date, and an approved 8-hour defensive driving class removes 3 points (once every 12 months).",
+      "number": 12,
+      "unit": "points",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 28,
+        "quote": "When you accumulate 12 points on your record, your driver’s license is subject to suspension."
+      }
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Required for every rider and passenger, any age",
+      "detail": "Motorcycle and motor-driven cycle operators and passengers must wear a helmet meeting DOT (FMVSS 218), ANSI Z90.1 or Snell standards, fastened with a neck or chin strap, plus shatter-resistant safety glasses, goggles or a face shield.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://code.wvlegislature.gov/17C-15-44/",
+        "page": 17,
+        "quote": "A person may not operate or be a passenger on any motorcycle or motor-driven cycle unless the person is wearing securely fastened on his or her head by either a neck or chin strap a protective helmet designed to deflect blows, resist penetration, and spread impact forces."
+      }
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Phone and texting fines rise with repeat offenses (2023 law)",
+      "summary": "Under §17C-14-15 as amended in 2023 (HB 2218; re-enacted in 2025): up to $100 for a first conviction, up to $200 for a second within 24 months, and up to $350 plus 3 points (and, at the court's discretion, a 90-day suspension) for a third or later conviction within 24 months. The handbook (PDF p. 27) still lists $300 for a third offense, and the knowledge test may still expect that figure.",
+      "source": {
+        "url": "https://code.wvlegislature.gov/17C-14-15/",
+        "page": 2,
+        "quote": "For a third or subsequent conviction within a 24-month period, as measured from the date of any prior conviction or plea: (A) A fine of not more than $350; (B) Three points on the driver's record maintained by the Division of Motor Vehicles"
+      }
+    },
+    {
+      "title": "Stay 500 feet behind emergency vehicles answering a call",
+      "summary": "Unless on official business, you may not follow an emergency vehicle responding to a fire alarm or other emergency closer than 500 feet, or drive or park within the block where it has stopped.",
+      "source": {
+        "url": "https://code.wvlegislature.gov/17C-14-9/",
+        "page": 13,
+        "quote": "may not follow any authorized emergency vehicle traveling in response to a fire alarm or other emergency closer than five hundred feet"
+      }
+    },
+    {
+      "title": "No parking within 20 feet of a mailbox on a motorized delivery route",
+      "summary": "West Virginia's no-parking list includes the area within 20 feet of a mailbox served by a carrier who uses a motor vehicle for daily deliveries; W. Va. Code §17C-13-3 applies it when the parking would interfere with or delay the carrier.",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 56,
+        "quote": "Within 20 feet of any mailbox served by a carrier using a motor vehicle for daily deliveries"
+      }
+    },
+    {
+      "title": "School zones extend 125 feet along the road",
+      "summary": "A school zone (15 mph when children are present) covers all school property and any street or highway next to the school grounds for 125 feet along the road from the grounds.",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 52,
+        "quote": "A school zone is all school property, including school grounds, and/or any street or highway abutting the school grounds and extending 125 feet along the street or highway from the school grounds."
+      }
+    },
+    {
+      "title": "Passing a stopped school bus: at least a 60-day suspension and $500 fine",
+      "summary": "A first offense brings a 60-day license suspension plus a $500-$1,000 fine and/or up to 6 months in jail; a second offense a 180-day suspension and a third a 1-year suspension (§17C-12-7). If the driver can't be identified, the vehicle's owner can be charged.",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 60,
+        "quote": "The penalty for passing a stopped school bus is a minimum of 60 days driver’s license suspension and a minimum fine of $500 or confinement in jail for not more than six (6) months for the first offense."
+      }
+    },
+    {
+      "title": "Defensive driving class removes 3 points (once every 12 months)",
+      "summary": "Points stay on the record for 2 years; 6 points brings a warning letter and 12 points a possible suspension. Completing a DMV-approved 8-hour defensive driving class removes 3 points, once every 12 months, and only if the class is taken after the points appear on the record.",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 28,
+        "quote": "You may have three (3) points deducted from your record by completing an approved eight (8) hour defensive driving class."
+      }
+    },
+    {
+      "title": "Littering: fines up to $1,000 and points",
+      "summary": "Littering from a vehicle can bring a $50-$1,000 fine, up to 60 days in jail or at least 30 hours of litter pickup, and 3 points on the driver's record.",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 87,
+        "quote": "Upon conviction, an individual can be fined not less than $50 nor more than $1,000, imprisoned in the county jail for not more than 60 days, or sentenced to remove litter from any public or private roadway for a total of not less than 30 hours."
+      }
+    },
+    {
+      "title": "State vehicle inspection every two years",
+      "summary": "Vehicles must pass a state inspection every two years at an official inspection station; the sticker shows the month and year of the next inspection and must not be removed.",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 74,
+        "quote": "West Virginia requires an inspection of all vehicles every two years to ensure they are in safe driving condition."
+      }
+    },
+    {
+      "title": "Window tint darker than 35% light transmission is illegal",
+      "summary": "The handbook's illegal-equipment list includes window tint below 35% light transmission, more than one spotlight, sirens or whistles, red or blue flashing lights on non-emergency vehicles, and loads extending past the left fenders or more than 6 inches past the right fenders.",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 35,
+        "quote": "Windows tinted to less than 35 percent light transmission"
+      }
+    },
+    {
+      "title": "No more than three people in the front seat",
+      "summary": "No more than three persons, including the driver, may ride in the driver's seat row (except a truck cab designed and registered for four). Violating this is worth 2 points.",
+      "source": {
+        "url": "https://code.wvlegislature.gov/17C-14-5/",
+        "page": 33,
+        "quote": "No more than three persons including the operator shall ride or be permitted by such operator to ride in the seat with the operator of any motor vehicle"
+      }
+    },
+    {
+      "title": "Report an address change to the DMV within 20 days",
+      "summary": "A licensed driver who moves must notify the DMV in writing within 20 days; notifying the Post Office does not update the DMV record.",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 16,
+        "quote": "If you change your address you are required to notify, in writing, the DMV within 20 days of the change."
+      }
+    },
+    {
+      "title": "New residents must get a WV license within 30 days",
+      "summary": "After establishing residency, new residents must apply for a West Virginia license within 30 days. A valid out-of-state license can be transferred after a vision screening and a brief alcohol awareness course; one expired more than 3 years requires all first-time tests.",
+      "source": {
+        "url": "https://webapps.transportation.wv.gov/TWS/DMV/Drivers_Licensing_Handbook.pdf",
+        "page": 16,
+        "quote": "After establishing WV residency, new residents who want to drive in WV must apply for a WV driver’s license within 30 days."
+      }
+    },
+    {
+      "title": "Slow to 15 mph for a stopped garbage truck",
+      "summary": "Do not go faster than 15 mph when meeting or passing a stopped curbside garbage, recycling or yard-waste truck that is showing flashing lights or a warning sign. The rule does not apply on interstates, other controlled-access highways, turnpikes, private driveways, or roads with a center line and more than two lanes. Fine $100-$300 (W. Va. Code §17C-6-11).",
+      "source": {
+        "url": "https://code.wvlegislature.gov/17C-6-11/",
+        "page": 24,
+        "quote": "No person shall drive a motor vehicle and meet or overtake from either direction a stopped waste service vehicle at a speed in excess of fifteen miles per hour."
+      }
+    },
+    {
+      "title": "Leaving school can restrict a teen's license (ages 15-16)",
+      "summary": "If a student aged 15 or 16 withdraws from school (more than 10 consecutive or 15 total unexcused absences in a school year) or fails to make satisfactory academic progress, the DMV restricts the permit or license to driving for work, medical, educational or religious purposes until the student is back in school making satisfactory progress or turns 17 (W. Va. Code §18-8-11). The handbook (PDF p. 26) still says until age 18, and the knowledge test may still expect that figure.",
+      "source": {
+        "url": "https://code.wvlegislature.gov/18-8-11/",
+        "page": 39,
+        "quote": "If restricted, the division may not reinstate an instruction permit or license until the student returns to school and shows satisfactory academic progress or until the student attains 17 years of age."
+      }
+    },
+    {
+      "title": "Motorcycle handlebars: no more than 15 inches above the seat",
+      "summary": "A motorcycle, motor-driven cycle or moped may not be ridden with handlebars or grips more than 15 inches higher than the top of the operator's seat (measured with the seat not pressed down) (W. Va. Code §17C-15-44).",
+      "source": {
+        "url": "https://code.wvlegislature.gov/17C-15-44/",
+        "page": 17,
+        "quote": "A person may not operate a motorcycle, motor-driven cycle or moped on which the handlebars or grips are more than 15 inches higher than the uppermost part of the operator’s seat when the seat is not depressed in any manner."
+      }
+    },
+    {
+      "title": "Third DUI is a felony: 2 to 5 years",
+      "summary": "A DUI conviction after two or more prior DUI convictions within 10 years is a felony: 2 to 5 years in a state correctional facility, revocation for life (or Test and Lock participation) and a possible $3,000-$5,000 fine (W. Va. Code §17C-5-2(m)). The handbook chart (PDF p. 32) still lists 1 to 3 years, and the knowledge test may still expect that figure.",
+      "source": {
+        "url": "https://code.wvlegislature.gov/17C-5-2/",
+        "page": 3,
+        "quote": "A person convicted of an offense under this section, who has previously been convicted of any offense under this section on two or more occasions, is guilty of a felony and, upon conviction thereof, shall be imprisoned in a state correctional facility for not less than two nor more than five years"
+      }
+    },
+    {
+      "title": "DMV sample test: 20 feet from a stopped school bus",
+      "summary": "The DMV's official sample test keys 20 feet as the stopping distance when you approach a school bus with flashing lights on an undivided highway. Neither the handbook nor W. Va. Code §17C-12-7 sets a distance: the law requires stopping before reaching the bus and staying stopped until it moves, the driver signals you on, or its lights go off.",
+      "source": {
+        "url": "https://dmv.wv.gov/driver-services/drivers/sample-drivers-test",
+        "page": null,
+        "quote": "When approaching a school bus, on an undivided highway, with its lights flashing, you must stop within:"
+      }
+    }
+  ],
+  "officialPracticeTests": [
+    "https://dmv.wv.gov/driver-services/drivers/sample-drivers-test"
+  ],
+  "verifiedOn": "2026-10-15"
+}
