@@ -9,6 +9,7 @@ import {defineStrings, useStrings} from '../../i18n';
 import {haptic, speech} from '../../native';
 import type {RootScreenProps} from '../../navigation/types';
 import {useProgress} from '../../store/progress';
+import {sourceLabel} from './sourceLabel';
 import {hueAt, useTheme} from '../../theme/ThemeProvider';
 
 const STR = defineStrings(
@@ -32,7 +33,6 @@ const STR = defineStrings(
     frontA11y: (label: string) => `${label}. Tap to reveal the answer.`,
     question: (label: string) => `${label}?`,
     tapFlip: 'Tap to flip',
-    handbookPage: (page: number) => `Handbook p. ${page}`,
     hear: 'Hear it',
   },
   {
@@ -55,7 +55,6 @@ const STR = defineStrings(
     frontA11y: (label: string) => `${label}. Toca para ver la respuesta.`,
     question: (label: string) => `¿${label}?`,
     tapFlip: 'Toca para voltear',
-    handbookPage: (page: number) => `Manual, pág. ${page}`,
     hear: 'Escuchar',
   },
 );
@@ -196,9 +195,9 @@ export function FactCardsScreen({navigation}: RootScreenProps<'FactCards'>) {
           <Text variant="body" color="textMuted" align="center" style={{marginTop: spacing.md}}>
             {card.detail}
           </Text>
-          {card.source.page ? (
+          {card.source.page || card.source.url ? (
             <Text variant="caption" color="textFaint" style={{marginTop: spacing.md}}>
-              {t.handbookPage(card.source.page)}
+              {sourceLabel(card.source, stateInfo.handbook.url)}
             </Text>
           ) : null}
           <Button title={t.hear} variant="ghost" size="sm" icon="volume" onPress={() => speech.speak(`${factLabel(card.key)}: ${card.value}. ${card.detail}`)} style={{marginTop: spacing.sm}} />

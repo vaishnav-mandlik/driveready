@@ -2,18 +2,17 @@ import React, {useMemo} from 'react';
 import {Alert, AlertButton, Share, StyleSheet, View} from 'react-native';
 import {Button, Card, EmptyState, Icon, IconTile, Screen, SectionHeader, Text} from '../../components';
 import {groupFacts} from '../../data/factMeta';
-import type {SourceRef, StateFact} from '../../data/types';
+import type {StateFact} from '../../data/types';
 import {useLearner} from '../../hooks/useLearner';
 import {defineStrings, tr, useStrings} from '../../i18n';
 import {speech} from '../../native';
 import type {RootScreenProps} from '../../navigation/types';
 import {hueAt, useTheme} from '../../theme/ThemeProvider';
 import {openOfficial} from '../quiz/ExamIntroScreen';
+import {sourceLabel} from './sourceLabel';
 
 const STR = defineStrings(
   {
-    handbookPage: (page: string | number) => `Handbook p. ${page}`,
-    officialWebsite: 'Official website',
     close: 'Close',
     openSource: 'Open source',
     officialSourceLink: 'the official source',
@@ -38,8 +37,6 @@ const STR = defineStrings(
     lawsChange: "Laws change. Always confirm with your state's official handbook before your test.",
   },
   {
-    handbookPage: (page: string | number) => `Manual, pág. ${page}`,
-    officialWebsite: 'Sitio web oficial',
     close: 'Cerrar',
     openSource: 'Abrir fuente',
     officialSourceLink: 'la fuente oficial',
@@ -64,13 +61,6 @@ const STR = defineStrings(
     lawsChange: 'Las leyes cambian. Confirma siempre con el manual oficial de tu estado antes de tu examen.',
   },
 );
-
-function sourceLabel(source: SourceRef, handbookUrl: string): string {
-  if (source.page && (!source.url || source.url === handbookUrl || source.url.endsWith('.pdf'))) {
-    return tr(STR).handbookPage(source.page);
-  }
-  return tr(STR).officialWebsite;
-}
 
 function showSource(fact: StateFact & {label: string}, handbookUrl: string) {
   const t = tr(STR);
