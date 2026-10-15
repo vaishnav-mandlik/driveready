@@ -1865,17 +1865,17 @@
     "id": "ne.car.099",
     "track": "car",
     "topic": "emergencies",
-    "prompt": "Under current Nebraska law, a crash that no officer investigated must be reported if someone is hurt or killed, or if damage to any one person's property is at least:",
+    "prompt": "The Nebraska Driver's Manual says a crash that no officer investigated must be reported if anyone is hurt or killed, or if damage to any one person's property reaches at least what amount?",
     "choices": [
       "$5,000",
-      "$2,000",
+      "$1,500",
       "$500",
       "$1,000"
     ],
     "answer": 1,
-    "explanation": "LB 1126 raised the crash-report threshold to $2,000 of apparent damage to any one person's property, effective July 18, 2026. The January 2025 manual still lists the old $1,500 figure.",
+    "explanation": "The manual and the DMV's official practice test use $1,500, so expect that figure on the Nebraska test. Current law is higher: LB 1126 raised the threshold to $2,000 of apparent damage to any one person's property, effective July 18, 2026. Either way, the report goes to the Nebraska Department of Transportation within 10 days.",
     "difficulty": 3,
-    "ref": "Neb. Rev. Stat. § 60-699 (LB 1126, 2026)",
+    "ref": "Nebraska Driver's Manual, p. 81; Neb. Rev. Stat. § 60-699 (LB 1126, 2026)",
     "states": [
       "NE"
     ]
@@ -2085,6 +2085,234 @@
     "explanation": "Nebraska prohibits operating motorcycles, motor-bikes and motor scooters with 10 horsepower or less on the Interstate Highway System.",
     "difficulty": 2,
     "ref": "Nebraska Motorcycle Operator Manual, p. 7",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.101",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "How far ahead does the Nebraska Driver's Manual tell you to look to take in what is happening on the road?",
+    "choices": [
+      "About 2 to 3 seconds ahead",
+      "At least 10 to 15 seconds ahead",
+      "Only as far as the bumper of the vehicle in front of you",
+      "About 4 to 5 seconds ahead"
+    ],
+    "answer": 1,
+    "explanation": "Nebraska's defensive driving section says to scan ahead, to the sides and behind you, taking in the road at least 10 to 15 seconds ahead. Looking only a few seconds ahead leaves too little time to spot hazards and react.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 74",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.102",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "According to the Nebraska Driver's Manual, how often should you check the traffic behind you?",
+    "choices": [
+      "Only right before you change lanes or back up, never in between",
+      "About once a minute on highways, and only when you plan to stop in town",
+      "At least every 10 seconds, and when slowing or going down steep hills",
+      "Only when a vehicle behind you flashes its lights or sounds a horn"
+    ],
+    "answer": 2,
+    "explanation": "The Nebraska manual says to check the traffic behind you at least every 10 seconds, and also when you change lanes, back up, slow down or drive down a steep hill. Knowing what is behind you tells you whether it is safe to slow, stop or change position.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 74",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.103",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "In a work zone, the Nebraska Driver's Manual says to keep a steady speed that matches the traffic flow and not to slow abruptly. Why?",
+    "choices": [
+      "Speed differences with nearby traffic are a major cause of rear-end crashes there",
+      "If you match the flow of traffic, the posted work zone speed limit no longer applies",
+      "Flaggers can only direct traffic that is moving at one steady speed",
+      "Hard braking can damage the temporary pavement used in work zones"
+    ],
+    "answer": 0,
+    "explanation": "Nebraska's manual names driving slower or faster than the surrounding traffic as a major cause of rear-end crashes in work zones, where there may be no room to escape. Stay alert, obey the signs and posted limit, keep away from workers and equipment, and be ready to stop at any time.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 61",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.104",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "Another vehicle is passing you on a Nebraska highway, and there is no emergency. What does the Nebraska Driver's Manual tell you to do?",
+    "choices": [
+      "Speed up a little so the pass is over sooner",
+      "Stay in your lane and slow down to help the driver get by",
+      "Move onto the shoulder until the other vehicle has gone",
+      "Stay in your lane and keep your speed steady"
+    ],
+    "answer": 3,
+    "explanation": "Nebraska's manual says to stay in your lane and maintain your speed while being passed; speeding up, slowing down or leaving the road are only for an emergency, to avoid a crash. Some other states' handbooks suggest easing off slightly, but for the Nebraska test remember: keep your lane and your speed, and never speed up.",
+    "difficulty": 3,
+    "ref": "Nebraska Driver's Manual, p. 62",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.105",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You turn left from a two-way street onto a one-way street that has three lanes, and no turn lanes are marked. Under Nebraska's rules, which lane should you finish the turn in?",
+    "choices": [
+      "The center lane, so you have room on both sides",
+      "The right lane, next to the far curb",
+      "The left lane of the one-way street",
+      "Any lane, as long as your signal is on"
+    ],
+    "answer": 2,
+    "explanation": "Nebraska's manual says that when no center turn lane is marked, a left turn is made from the left lane lawfully available and into the left lane lawfully available. On a one-way street, that is the lane along its left side (some states let you finish in any open lane; Nebraska's manual does not).",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, pp. 63-64",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.106",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You make an emergency stop on the shoulder of a Nebraska highway. According to the Nebraska Driver's Manual, what should you do once you are parked?",
+    "choices": [
+      "Leave the engine running in gear so you can pull away quickly if needed",
+      "Put it in park (or gear), set the parking brake and use your flashers",
+      "Leave the parking brake off so a tow truck can move the car easily",
+      "Turn off every light so you don't distract or dazzle passing drivers"
+    ],
+    "answer": 1,
+    "explanation": "Nebraska's emergency roadside stop steps: signal and pull as far off the road as you can, park parallel within 12 inches of the edge, make sure the vehicle can't move (proper parking gear and parking brake), turn on your 4-way flashers, turn off the engine and take the keys, and check traffic before you get out.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, pp. 64-65",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.107",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "According to the Nebraska Driver's Manual, rumble strips are sometimes placed in the travel lane itself. What do these warn a drowsy or inattentive driver about?",
+    "choices": [
+      "That the speed limit is about to go up ahead",
+      "That the lane ahead is only for buses and taxis",
+      "That a bike lane starts along the right edge",
+      "That a stop sign or signal is just ahead"
+    ],
+    "answer": 3,
+    "explanation": "Rumble strips use noise and vibration to alert drowsy or inattentive drivers. On the shoulder or near the center line they warn that you are leaving your lane; placed in the lane approaching a stop sign or signal, they warn you to get ready to stop.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 54",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.108",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Why does the Nebraska Driver's Manual warn against making sudden stops in front of large trucks and buses?",
+    "choices": [
+      "Their air brakes do not work instantly, unlike a car's hydraulic brakes",
+      "Their heavy loads let them stop much sooner than you would ever expect",
+      "Truck and bus drivers are required to hold a constant speed on highways",
+      "They always travel faster than cars on the same road"
+    ],
+    "answer": 0,
+    "explanation": "Trucks and buses use air brakes, which take a moment to apply, so they need more time and distance to stop than a car; a loaded truck at 55 mph needs at least 340 feet on a dry road. Never cut in front of a large vehicle and then slow down suddenly.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 79",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.109",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "The Nebraska Driver's Manual names a major contributing factor in Nebraska crashes that kill or seriously injure people. What is it?",
+    "choices": [
+      "Loose gravel on county roads that are not paved",
+      "Snow and ice on rural highways in the winter months",
+      "Driving after using alcohol or other drugs",
+      "Mechanical failures such as worn-out brakes or tires"
+    ],
+    "answer": 2,
+    "explanation": "The manual says driving under the influence of alcohol or other drugs is unlawful and a major contributing factor in Nebraska crashes resulting in death or serious injury. Nebraska averages over 8,000 arrests a year for driving violations involving alcohol or drugs.",
+    "difficulty": 1,
+    "ref": "Nebraska Driver's Manual, pp. 32-33",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.110",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "According to the Nebraska Driver's Manual, at what blood alcohol concentration (BAC) does a driver's risk of a crash begin to rise noticeably?",
+    "choices": [
+      "Only once BAC reaches .08%, the legal limit",
+      "Between .04% and .05%",
+      "Not until about .10%",
+      "Only above .15%"
+    ],
+    "answer": 1,
+    "explanation": "The manual says crash risk begins to rise noticeably between .04% and .05% BAC and increases rapidly after that. At .05% a driver is about twice as likely to be in a fatal crash as a driver who has not been drinking, and at .08% about three times as likely.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 33",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.111",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You plan to turn right where a bike lane runs between your lane and the curb, and no bicyclist is close. What does the Nebraska Driver's Manual say to do?",
+    "choices": [
+      "Signal and move into the bike lane before you turn",
+      "Stay in your lane and turn right across the bike lane at the corner",
+      "Sound your horn to warn bicyclists, then turn from your lane",
+      "Speed up so you finish the turn before any bicyclist arrives"
+    ],
+    "answer": 0,
+    "explanation": "Nebraska's manual says to merge with bicycle traffic before a right turn instead of turning across the path of bicyclists going the same way. Make sure the bike lane is clear and yield to any approaching bicyclist, signal, then move into the bike lane before turning; never honk at a bicyclist.",
+    "difficulty": 3,
+    "ref": "Nebraska Driver's Manual, pp. 54, 77",
+    "states": [
+      "NE"
+    ]
+  },
+  {
+    "id": "ne.car.112",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "According to the Nebraska Driver's Manual, when may you cross double solid yellow center lines?",
+    "choices": [
+      "To pass a slow vehicle when no oncoming traffic is in sight",
+      "Never, not even to turn into a driveway",
+      "Whenever you signal first and the road ahead is straight",
+      "Only to turn left or to get around an obstruction"
+    ],
+    "answer": 3,
+    "explanation": "Double solid yellow lines mean no passing in either direction. The manual says the only lawful crossings are a left turn (into or from an alley, private road or driveway, unless signs prohibit it) and avoiding an obstruction.",
+    "difficulty": 2,
+    "ref": "Nebraska Driver's Manual, p. 52",
     "states": [
       "NE"
     ]

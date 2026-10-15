@@ -639,7 +639,7 @@
     {
       "key": "crash_reporting",
       "value": "Report to NDOT within 10 days if anyone is hurt or killed or property damage is $2,000+ (unless police investigated)",
-      "detail": "If no officer investigated, a driver in a crash with injury, death or apparent damage of $2,000 or more to any one person's property must send a crash report within 10 days. LB 1126 raised the threshold from $1,500 on July 18, 2026; the January 2025 manual still shows $1,500.",
+      "detail": "If no officer investigated, a driver in a crash with injury, death or apparent damage of $2,000 or more to any one person's property must send a crash report within 10 days. LB 1126 raised the threshold from $1,500 on July 18, 2026, but the January 2025 manual and the DMV's official practice test still say $1,500, so the knowledge test may still expect $1,500.",
       "number": 2000,
       "unit": "dollars",
       "source": {
@@ -829,7 +829,7 @@
     "https://dmv.nebraska.gov/dl/practice-drivers-license-exam"
   ],
   "gaps": [
-    "crash_reporting: manual p. 81 and Motorcycle Operator Manual p. 7 still say $1,500; LB 1126 raised the 60-699 threshold to $2,000 effective July 18, 2026. Questions use $2,000 and do not offer $1,500 as a choice.",
+    "crash_reporting: manual p. 81 and Motorcycle Operator Manual p. 7 still say $1,500; LB 1126 raised the 60-699 threshold to $2,000 effective July 18, 2026. The DMV's official practice pool (exam.json #111) also keys $1,500, so ne.car.099 asks what the manual says ($1,500) and explains the 2026 change; the cheat-sheet fact gives the current law and notes the test may still expect $1,500.",
     "Speeding fine schedule on manual p. 61 ($10/$25/$75/$125/$200/$300) is outdated: LB 530 (effective Sept. 3, 2025) set $50/$75/$125/$200/$300/$400 (60-682.01). Questions use the statute.",
     "move_over_law: manual p. 59 and the back cover describe the pre-2025 law (emergency and road-assistance vehicles only; fines up to $100, then $500 and/or 7 days in jail). 60-6,378 as amended by LB 530 covers any stopped vehicle on a controlled-access highway (first violation a traffic infraction, a Class IIIA misdemeanor for a repeat within five years). Questions use the statute and do not teach the old fine amounts.",
     "seat_belt_law: manual p. 34 says '$25 fine plus court costs'; 60-6,272 says $25 with no court costs and no points. Questions mention only the $25 fine.",

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "car.cvone.001",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "At an intersection with no signs or signals, you want to turn left. One car is coming from your right and another is coming toward you from the opposite direction, both close. Whom must you yield to?",
+    "choices": [
+      "Only the car on your right",
+      "Only the oncoming car",
+      "The car on your right and the oncoming car",
+      "No one, as long as you signal your left turn first"
+    ],
+    "answer": 2,
+    "explanation": "At an uncontrolled intersection you yield to a vehicle approaching from your right, and a driver turning left must also yield to oncoming traffic close enough to be a hazard. Wait for both, then turn when it is safe.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. NE p.56, TX p.26)"
+  },
+  {
+    "id": "car.cvone.002",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You must stop at a STOP sign at a corner with sidewalks, but there is no stop line and no crosswalk painted on the street. Where should you stop?",
+    "choices": [
+      "Right beside the STOP sign post, wherever it is placed",
+      "Before the unmarked crosswalk, in line with the sidewalk",
+      "Past the sidewalk area, at the edge of the cross street",
+      "Anywhere near the corner, because unpainted crosswalks do not count"
+    ],
+    "answer": 1,
+    "explanation": "With no stop line, stop before the crosswalk, painted or not; where sidewalks meet at a corner, an unmarked crosswalk continues the sidewalk across the street. If there is no crosswalk at all, stop where you can see approaching traffic before entering the intersection.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. NE p.44, IL p.29, MN p.44)"
+  },
+  {
+    "id": "car.cvone.003",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "Your light turns green, but a pedestrian steps into the crosswalk in front of you against a steady DON'T WALK signal. What should you do?",
+    "choices": [
+      "Go ahead, because the pedestrian is the one breaking the law",
+      "Honk and drive around the pedestrian",
+      "Creep forward so the pedestrian has to step back",
+      "Wait and let the pedestrian cross safely"
+    ],
+    "answer": 3,
+    "explanation": "A pedestrian crossing against the signal is breaking the rules, but drivers must still do everything they can to avoid hitting anyone in the road. Stay stopped until the person is safely out of your path, then go.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. NE p.77, NM p.14, KS p.80)"
+  }
+]
