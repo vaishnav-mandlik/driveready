@@ -74,6 +74,18 @@ report **0 errors**.
 7. **Original wording.** Do not copy questions from other apps, websites or official sample tests.
 8. **Plain language.** ~8th-grade reading level; prompts ≤ 2 sentences when possible.
 9. **No duplicates.** Don't ask the same fact the same way twice; different angles are good.
+10. **Official test material vs. current law.** The knowledge test is built from the state's handbook
+    and official practice material, which sometimes lag the law. When they disagree:
+    - If the outdated item is likely to be tested (it is in the handbook, an official sample test or the
+      official practice pool), key what the official material says, frame the prompt as "According to
+      the <state> handbook…", and state the current law plainly in the explanation (e.g. NE crash
+      threshold $1,500 vs. $2,000 since 2026; TX 10-day crash report repealed in 2017). Do not offer the
+      current-law figure as a wrong choice in that question.
+    - Otherwise teach current law, and never present an outdated figure as the correct answer.
+    - The cheat-sheet fact gives current law and, when relevant, notes that the test may still expect
+      the old figure.
+    - PDF answer keys printed in columns can extract interleaved: confirm every key entry against the
+      handbook page it cites before trusting it.
 
 ## Lessons
 
