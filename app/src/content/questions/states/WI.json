@@ -2085,5 +2085,43 @@
     "states": [
       "WI"
     ]
+  },
+  {
+    "id": "wi.car.101",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are passing a slow car on a two-lane Wisconsin highway posted at 55 mph. How fast may you legally go to finish the pass?",
+    "choices": [
+      "Up to 65 mph, since passing allows 10 mph over the limit",
+      "Any speed needed, as long as you slow to 55 right after",
+      "No faster than 55 mph; the limit still applies when passing",
+      "Up to 60 mph, because short bursts over the limit are allowed"
+    ],
+    "answer": 2,
+    "explanation": "In Wisconsin it is illegal to drive faster than the posted speed limit, and you cannot go over the limit to pass another vehicle. If you cannot pass safely at or below the limit, stay behind.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, pp. 14, 22",
+    "states": [
+      "WI"
+    ]
+  },
+  {
+    "id": "wi.car.102",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "To keep good control of your vehicle, how far ahead does the Wisconsin Motorists' Handbook say you need to be able to see?",
+    "choices": [
+      "10 to 15 seconds ahead",
+      "About 4 seconds ahead",
+      "About 2 seconds ahead",
+      "At least 30 seconds ahead"
+    ],
+    "answer": 0,
+    "explanation": "Wisconsin's sight distance rule says you need to be able to see 10 to 15 seconds ahead of your vehicle; if you can't, slow down. Don't confuse it with the 4-second following distance.",
+    "difficulty": 2,
+    "ref": "Wisconsin Motorists' Handbook, pp. 15-16",
+    "states": [
+      "WI"
+    ]
   }
 ]
