@@ -13,7 +13,7 @@
  *   <base>/manifest.json            {schema, contentVersion, minAppVersion, files: {path: {sha256, bytes}}}
  *   <base>/blobs/<sha256>.json      file contents, immutable (content-addressed)
  */
-import AsyncStorage from '@react-native-async-storage/async-storage';
+import {createAsyncStorage} from '@react-native-async-storage/async-storage';
 import {APP_VERSION, CONTENT_BASE_URL} from '../config';
 import {clearBankCache} from '../data/bank';
 import {clearLessonCache} from '../data/lessons';
@@ -27,6 +27,12 @@ import {remote, setOverrides} from './runtime';
 import {sha256Hex} from './sha256';
 
 export const SCHEMA = 1;
+/**
+ * Separate database (databases/async-storage/databases/content.sqlite) so downloaded content is excluded
+ * from Android Auto Backup (res/xml/*_rules.xml): it is re-downloadable, and backup's 25 MB per-app quota
+ * must stay available for the learner's progress.
+ */
+const AsyncStorage = createAsyncStorage('content');
 const K_INSTALLED = 'content.v1.installed';
 const K_LAST_CHECK = 'content.v1.lastCheck';
 const BLOB_PREFIX = 'content.v1.blob.';

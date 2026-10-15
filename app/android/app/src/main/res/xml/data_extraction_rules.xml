@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Android 12+: back up study progress (stored on-device only) to the user's own Google backup and device transfers. -->
 <data-extraction-rules>
+    <!-- Downloaded content updates (src/content/updates.ts) live in their own database and are NOT backed up:
+         they can be re-downloaded, and Auto Backup has a 25 MB per-app quota that must stay free for progress. -->
     <cloud-backup>
         <include domain="database" path="." />
         <include domain="sharedpref" path="." />
         <include domain="file" path="." />
+        <exclude domain="database" path="async-storage/databases/content.sqlite" />
+        <exclude domain="database" path="async-storage/databases/content.sqlite-wal" />
+        <exclude domain="database" path="async-storage/databases/content.sqlite-shm" />
     </cloud-backup>
     <device-transfer>
         <include domain="database" path="." />
         <include domain="sharedpref" path="." />
         <include domain="file" path="." />
+        <exclude domain="database" path="async-storage/databases/content.sqlite" />
+        <exclude domain="database" path="async-storage/databases/content.sqlite-wal" />
+        <exclude domain="database" path="async-storage/databases/content.sqlite-shm" />
     </device-transfer>
 </data-extraction-rules>

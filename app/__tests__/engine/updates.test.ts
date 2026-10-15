@@ -14,8 +14,10 @@ type Mods = {
   runtime: typeof import('../../src/content/runtime');
   bank: typeof import('../../src/data/bank');
   states: typeof import('../../src/data/states');
-  storage: {getAllKeys(): Promise<string[]>; getMany(k: string[]): Promise<Record<string, string | null>>; setMany(e: Record<string, string>): Promise<void>; getItem(k: string): Promise<string | null>; setItem(k: string, v: string): Promise<void>};
+  storage: KV;
+  appStorage: KV;
 };
+type KV = {getAllKeys(): Promise<string[]>; getMany(k: string[]): Promise<Record<string, string | null>>; setMany(e: Record<string, string>): Promise<void>; getItem(k: string): Promise<string | null>; setItem(k: string, v: string): Promise<void>};
 
 /** A fresh module registry = a fresh app process. `carry` copies storage from a previous "launch". */
 async function launch(carry?: Mods): Promise<Mods> {
@@ -26,7 +28,9 @@ async function launch(carry?: Mods): Promise<Mods> {
       runtime: require('../../src/content/runtime'),
       bank: require('../../src/data/bank'),
       states: require('../../src/data/states'),
-      storage: require('@react-native-async-storage/async-storage').default,
+      // Content updates use their own database (excluded from Android Auto Backup).
+      storage: require('@react-native-async-storage/async-storage').createAsyncStorage('content'),
+      appStorage: require('@react-native-async-storage/async-storage').default,
     };
   });
   if (carry) {
@@ -93,6 +97,8 @@ describe('content updates', () => {
     const bank = second.bank.getBank('car', 'CA');
     expect(bank.byId.get('remote.1')?.prompt).toBe('Remote question remote.1?');
     expect(second.updates.contentStatus()).toEqual({contentVersion: 202610150000, files: 1});
+    // Nothing lands in the backed-up app database (progress/settings): Auto Backup's quota stays free.
+    expect((await first.appStorage.getAllKeys()).filter(k => k.startsWith('content.'))).toEqual([]);
   });
 
   test('a tampered file fails the hash check and nothing is installed', async () => {
