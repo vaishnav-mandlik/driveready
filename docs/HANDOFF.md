@@ -57,7 +57,7 @@ _Updated 2026-10-14 (evening)._
 ### Done
 - **App**: 32 screens, 123 Jest tests (engine, i18n, every screen in English and Spanish, App-level e2e).
   No builds since the owner's "don't build now".
-- **34 states live & verified** (+ AR) (facts with page + verbatim quote checked by an independent verifier, often
+- **37 states live & verified** (+ AR MS NM NE) (facts with page + verbatim quote checked by an independent verifier, often
   against current statutes; ~100-115 state questions each): CA TX FL NY PA IL OH GA NC MI · WA MA TN IN MO ·
   NJ VA AZ MD MN · WI CO SC AL LA KY · OR OK CT UT · IA NV KS. Sectioned exams: NY IL GA NC VA WI
   (`research/facts/exam-sections.json`). Verifiers regularly find handbooks that lag the law (IA teen phone ban
@@ -81,18 +81,20 @@ _Updated 2026-10-14 (evening)._
   Backup; GitHub Actions CI (tsc, jest, content validation, index integrity, signer self-test); `app/.npmrc`
   pins peer resolution (CI found the lockfile depended on a global setting). 141 tests.
 
-### In progress (background agents, ≤4 at a time; Workflow tool unavailable → plain agents with prompts from tools/workflows/extract-prompts.mjs)
-- States: Mississippi (verifier), New Mexico (author), Nebraska (author).
-- Real-test coverage audit: Kansas, Indiana, Connecticut, Illinois.
+### In progress (background agents, up to 6 at a time; prompts from tools/workflows/extract-prompts.mjs)
+- States: Idaho (author), West Virginia (author).
+- Handbook coverage audits: FL OR MD MI; VA KY TX SC AL.
+- Official online practice-test audits (`tools/workflows/practice-test-audit.js`): Nebraska pool (143 Q); CA NY NJ OH NV.
 
 ### Next steps (prioritized)
-1. Remaining real-test coverage audits (`tools/workflows/coverage-audit.js`; done: PA, TN, WI, UT): FL OR MD MI ·
-   VA KY TX SC AL · then MT, NE, AK when those states are added; CDL review questions.
-   Independent review of the 84 image questions written without a separate reviewer (photos-real-world,
-   cdl-hazmat-placards, mc-scenarios, cdl-scenarios).
-2. Remaining 16 jurisdictions (`state-content-v2.js` prompts; extract with the stub runner described in
-   tools/workflows/README.md if Workflow is unavailable): AR (running) · MS NM NE ID · WV HI NH ME · MT RI DE SD ·
-   ND AK DC VT · WY. Keep in-progress states out of the index: `EXCLUDE_STATES=XX node scripts/build-content-index.mjs`.
+1. Real-test coverage: handbook audits done for PA TN WI UT KS IN CT IL (rest running); online practice-test
+   audits next for groups pdf-b (CT FL IN IL MN), apps-c (AR SC MD VA GA), misc-d, misc-e (prompts in
+   scratchpad/prompts/online, regenerate with extract-prompts). New states: run both audits after verification.
+   Rule learned: PDF answer keys may be column-interleaved; the app must follow the official key + handbook.
+2. Remaining jurisdictions (`state-content-v2.js` prompts via extract-prompts): ID WV (running) · HI NH ME MT ·
+   RI DE SD ND · AK DC VT WY. Commit each verified state with a clean git worktree build of the index
+   (copy only that state's files into a HEAD worktree, build-content-index, copy index.ts back) so files other
+   agents are still editing never get fingerprinted. Keep in-progress states out of the index: `EXCLUDE_STATES=XX node scripts/build-content-index.mjs`.
 3. Spanish content (`content-i18n.js` jobs or agents): universal questions, lessons, signs, then states.
 4. Independent review of the motorcycle/CDL scenario questions written in the main session.
 5. One consolidated on-device check (debug build) of photos, scenes and Spanish — only when the owner allows builds.
