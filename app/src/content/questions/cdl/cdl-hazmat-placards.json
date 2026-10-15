@@ -1,0 +1,478 @@
+[
+  {
+    "id": "cdl.hmp.001",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-1.1",
+    "prompt": "Which of these materials belongs to the hazard division this placard marks?",
+    "choices": [
+      "Small-arms ammunition",
+      "Propane",
+      "Dynamite",
+      "Gasoline"
+    ],
+    "answer": 2,
+    "explanation": "This is the EXPLOSIVES 1.1 placard. Division 1.1 explosives have a mass explosion hazard; the manual's example is dynamite. Small-arms ammunition is Division 1.4 (minor explosion), propane is a Division 2.1 gas and gasoline is a Class 3 liquid.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.3.1 (Figure 9.1)"
+  },
+  {
+    "id": "cdl.hmp.002",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-1.4",
+    "prompt": "Your van carries 600 pounds of Division 1.4 ammunition in non-bulk packages and no other hazmat. Must it display this placard?",
+    "choices": [
+      "No, it is a Table 2 material under 1,001 pounds",
+      "Yes, every explosive must be placarded in any amount",
+      "Yes, ammunition must be placarded above 500 pounds",
+      "No, Division 1.4 never needs placards"
+    ],
+    "answer": 0,
+    "explanation": "Division 1.4 (minor explosion) is in Placard Table 2, so in non-bulk packages it needs placards only when Table 2 materials total 1,001 pounds or more. Only Divisions 1.1, 1.2 and 1.3 are Table 1 explosives, placarded in any amount.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.11; 49 CFR 172.504"
+  },
+  {
+    "id": "cdl.hmp.003",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-1.5",
+    "prompt": "Which statement about the cargo this placard marks is correct?",
+    "choices": [
+      "It is in Table 1 and needs placards for any amount",
+      "It is never placarded in domestic transportation",
+      "It needs placards only when it is carried in bulk packaging",
+      "It is in Table 2 and needs placards at 1,001 pounds or more"
+    ],
+    "answer": 3,
+    "explanation": "This is the Division 1.5 placard (very insensitive explosives, or blasting agents). Division 1.5 is in Placard Table 2: in non-bulk packages it needs placards when Table 2 materials total 1,001 pounds or more. Only Divisions 1.1, 1.2 and 1.3 explosives are in Table 1.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.11; 49 CFR 172.504"
+  },
+  {
+    "id": "cdl.hmp.004",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-1.6",
+    "prompt": "How does the manual describe the explosives division shown on this placard?",
+    "choices": [
+      "Very insensitive",
+      "Extremely insensitive",
+      "Mass explosion hazard",
+      "Minor explosion hazard"
+    ],
+    "answer": 1,
+    "explanation": "The number 1.6 marks Division 1.6, extremely insensitive explosives (example: explosive devices). Division 1.5 is very insensitive (blasting agents), Division 1.1 is a mass explosion hazard and Division 1.4 is a minor explosion hazard.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.1 (Figure 9.1)"
+  },
+  {
+    "id": "cdl.hmp.005",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-2.1",
+    "prompt": "Your only hazmat is 1,200 pounds of propane in cylinders. Is this the placard you need?",
+    "choices": [
+      "No, propane needs the NON-FLAMMABLE GAS placard",
+      "Yes, propane is Division 2.1 and the load is over 1,000 pounds",
+      "No, propane cylinders need placards only at 2,205 pounds or more",
+      "No, propane needs the POISON GAS placard"
+    ],
+    "answer": 1,
+    "explanation": "Propane is a Division 2.1 flammable gas, so it takes the FLAMMABLE GAS placard. Division 2.1 is in Placard Table 2, and 1,200 pounds is above the 1,001-pound threshold. The 2,205-pound figure is the limit for using a DANGEROUS placard instead.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.11; 49 CFR 172.504"
+  },
+  {
+    "id": "cdl.hmp.006",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-2.2",
+    "prompt": "Which of these loads requires this placard?",
+    "choices": [
+      "1,500 pounds of propane cylinders",
+      "300 pounds of compressed helium cylinders",
+      "50 pounds of a poisonous (Division 2.3) compressed gas",
+      "1,500 pounds of compressed helium cylinders"
+    ],
+    "answer": 3,
+    "explanation": "This is the NON-FLAMMABLE GAS placard for Division 2.2 gases such as helium. It is a Table 2 placard, so 1,500 pounds needs it but 300 pounds alone does not. Propane needs FLAMMABLE GAS, and a Division 2.3 gas needs the POISON GAS placard in any amount.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.1 and 9.3.11"
+  },
+  {
+    "id": "cdl.hmp.007",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-OXYGEN",
+    "prompt": "For domestic shipments of compressed oxygen, this placard may be used in place of which placard?",
+    "choices": [
+      "NON-FLAMMABLE GAS",
+      "FLAMMABLE GAS",
+      "OXIDIZER",
+      "ORGANIC PEROXIDE"
+    ],
+    "answer": 0,
+    "explanation": "Compressed oxygen is a Division 2.2 (non-flammable) gas. In domestic transportation the OXYGEN placard may be used in place of the NON-FLAMMABLE GAS placard. OXIDIZER is the Division 5.1 placard and ORGANIC PEROXIDE is Division 5.2.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.3.11; 49 CFR 172.504(f)(7)"
+  },
+  {
+    "id": "cdl.hmp.008",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-2.3",
+    "prompt": "Look at the class number at the bottom of this placard. What cargo does it mark?",
+    "choices": [
+      "Division 6.1 poison that is an inhalation hazard",
+      "Division 2.2 non-flammable gas",
+      "Division 2.3 poison (toxic) gas",
+      "Division 6.2 infectious substances"
+    ],
+    "answer": 2,
+    "explanation": "A skull and crossbones with INHALATION HAZARD and a 2 at the bottom is the POISON GAS placard for Division 2.3. The same design with a 6 is the POISON INHALATION HAZARD placard for Division 6.1. Division 2.3 is a Table 1 material, placarded in any amount.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.3.11; 49 CFR 172.540"
+  },
+  {
+    "id": "cdl.hmp.009",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-6.1-INHALATION",
+    "prompt": "A truck displays this placard. Which description fits its cargo?",
+    "choices": [
+      "A Division 2.3 poisonous gas",
+      "A Division 6.1 poison that is not an inhalation hazard",
+      "A Division 6.2 infectious substance",
+      "A Division 6.1 poison that is toxic by inhalation"
+    ],
+    "answer": 3,
+    "explanation": "INHALATION HAZARD with a 6 at the bottom is the POISON INHALATION HAZARD placard for Division 6.1 materials that are poisonous to breathe. It is required for any amount (Table 1). Other 6.1 poisons use the POISON placard, and Division 2.3 gases show a 2 at the bottom.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.3.11; 49 CFR 172.555"
+  },
+  {
+    "id": "cdl.hmp.010",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-3",
+    "prompt": "Your tractor-semitrailer must display this placard. Where may the front placard go?",
+    "choices": [
+      "Only on the front of the trailer",
+      "Only on the tractor's front bumper",
+      "On the front of the tractor or the front of the trailer",
+      "No front placard is needed if both sides and the rear are placarded"
+    ],
+    "answer": 2,
+    "explanation": "Placards must appear on both sides and both ends of the vehicle. The front placard may be on the front of the tractor or the front of the trailer.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.10"
+  },
+  {
+    "id": "cdl.hmp.011",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-2.1",
+    "prompt": "While driving a vehicle with this placard, you see a fire burning beside the road ahead. What does the manual say?",
+    "choices": [
+      "Drive near it only if you can safely pass without stopping",
+      "Stop at least 50 feet away until the fire is out",
+      "Pass slowly so you can watch for sparks or flying embers",
+      "Pass it only with the windows closed and the air vents shut off"
+    ],
+    "answer": 0,
+    "explanation": "Whenever you are placarded, never drive near an open fire unless you can safely pass without stopping. You also may not park within 300 feet of an open fire, so stopping 50 feet away is wrong.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.6.2 and 9.6.5"
+  },
+  {
+    "id": "cdl.hmp.012",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-3",
+    "prompt": "Your truck displays this placard and carries no explosives. What is the closest you may park to an open fire?",
+    "choices": [
+      "100 feet",
+      "300 feet",
+      "25 feet",
+      "500 feet"
+    ],
+    "answer": 1,
+    "explanation": "A placarded vehicle not carrying Division 1.1, 1.2 or 1.3 explosives must not park within 300 feet of an open fire. Twenty-five feet is the no-smoking distance, and 100 feet is how close an attendant outside the vehicle must stay.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.6.2"
+  },
+  {
+    "id": "cdl.hmp.013",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-COMBUSTIBLE",
+    "prompt": "You haul fuel oil in a cargo tank. Which placard may be used in place of this one?",
+    "choices": [
+      "DANGEROUS",
+      "OXIDIZER",
+      "FLAMMABLE",
+      "No other placard is ever allowed"
+    ],
+    "answer": 2,
+    "explanation": "Fuel oil is a combustible liquid. Placard Table 2 notes that a FLAMMABLE placard may be used in place of a COMBUSTIBLE placard on a cargo tank or portable tank.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.11 (Figure 9.8); 49 CFR 172.504(f)(2)"
+  },
+  {
+    "id": "cdl.hmp.014",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-4.1",
+    "prompt": "You may not smoke or carry a lighted cigarette within how many feet of a vehicle carrying the material this placard marks?",
+    "choices": [
+      "10 feet",
+      "50 feet",
+      "100 feet",
+      "25 feet"
+    ],
+    "answer": 3,
+    "explanation": "This is the FLAMMABLE SOLID (Division 4.1) placard. Do not smoke or carry a lighted cigarette, cigar or pipe within 25 feet of any vehicle containing Class 1, Class 3, Division 4.1, Division 4.2 or Class 5 materials.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.6.6"
+  },
+  {
+    "id": "cdl.hmp.015",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-4.2",
+    "prompt": "What does this placard tell you about the cargo?",
+    "choices": [
+      "It gives off flammable gas when it gets wet",
+      "It can catch fire on its own",
+      "It is a flammable liquid, like gasoline",
+      "It is an explosive with only a minor blast hazard"
+    ],
+    "answer": 1,
+    "explanation": "This placard marks Division 4.2 spontaneously combustible materials, such as white phosphorus, which can ignite by themselves; they must be carried in a vehicle with enough ventilation. Reacting with water describes Division 4.3.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.1 and 9.4.1"
+  },
+  {
+    "id": "cdl.hmp.016",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-4.3",
+    "prompt": "Which of these is an example of the material this placard is for?",
+    "choices": [
+      "Sodium",
+      "White phosphorus",
+      "Gasoline",
+      "Ammonium nitrate"
+    ],
+    "answer": 0,
+    "explanation": "This is the DANGEROUS WHEN WET placard for Division 4.3; the manual's example is sodium. It is a Table 1 placard, required for any amount. White phosphorus is Division 4.2, gasoline is Class 3 and ammonium nitrate is Division 5.1.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.1 (Figure 9.1) and 9.3.11"
+  },
+  {
+    "id": "cdl.hmp.017",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-5.1",
+    "prompt": "Which of these materials would be placarded with this placard?",
+    "choices": [
+      "Ammonium nitrate",
+      "Methyl ethyl ketone peroxide",
+      "Potassium cyanide",
+      "Helium"
+    ],
+    "answer": 0,
+    "explanation": "This is the OXIDIZER placard for Division 5.1, such as ammonium nitrate. Methyl ethyl ketone peroxide is a Division 5.2 organic peroxide, potassium cyanide is a Division 6.1 poison and helium is a Division 2.2 gas.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.1 (Figure 9.1)"
+  },
+  {
+    "id": "cdl.hmp.018",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-5.2",
+    "prompt": "In non-bulk packages this placard is usually needed only at 1,001 pounds or more. Which organic peroxide needs it in any amount?",
+    "choices": [
+      "Any organic peroxide in a package over 100 pounds",
+      "Any organic peroxide shipped with a Class 3 liquid",
+      "Type B, liquid or solid, temperature controlled",
+      "Type F organic peroxide that is not temperature controlled"
+    ],
+    "answer": 2,
+    "explanation": "Division 5.2 organic peroxides are in Placard Table 2, except organic peroxide Type B, liquid or solid, temperature controlled. That one is in Table 1 and needs the ORGANIC PEROXIDE placard for any amount.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.3.11; 49 CFR 172.504"
+  },
+  {
+    "id": "cdl.hmp.019",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-6.1",
+    "prompt": "This placard is for Division 6.1 poisons that are not an inhalation hazard. In non-bulk packages, when is it required?",
+    "choices": [
+      "Whenever any amount is on board",
+      "Only when 2,205 pounds or more of it is loaded at one place",
+      "Only when the shipping paper shows the letters RQ",
+      "When Table 2 materials on board total 1,001 pounds or more"
+    ],
+    "answer": 3,
+    "explanation": "Division 6.1 poisons other than inhalation hazards are in Placard Table 2: placards are needed when Table 2 materials total 1,001 pounds or more, including the packaging. Poison inhalation hazard materials are in Table 1 (any amount).",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.11; 49 CFR 172.504"
+  },
+  {
+    "id": "cdl.hmp.020",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-7",
+    "prompt": "Who must choose the route for a shipment that needs this placard?",
+    "choices": [
+      "The driver, using the shortest legal route",
+      "The carrier, which picks the safest route and shows you the plan",
+      "The shipper, who must write the route on the shipping paper before loading",
+      "The receiver, who sends directions with the order"
+    ],
+    "answer": 1,
+    "explanation": "For placarded radioactive (Class 7) materials, the carrier must choose the safest route, then tell the driver about the radioactive materials and show the route plan.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.6.5"
+  },
+  {
+    "id": "cdl.hmp.021",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-8",
+    "prompt": "You are loading breakable containers of the material this placard marks by hand. What should you do?",
+    "choices": [
+      "Roll them into place so you don't drop them",
+      "Lay them on their sides so they cannot tip over",
+      "Load them next to oxidizers to keep the groups together",
+      "Load them one by one and keep them right side up"
+    ],
+    "answer": 3,
+    "explanation": "This is the CORROSIVE (Class 8) placard. Load breakable containers of corrosive liquid one by one, right side up, onto an even floor; do not drop or roll them, and never load corrosive liquids next to or above Class 5 oxidizers.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.4.1"
+  },
+  {
+    "id": "cdl.hmp.022",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-2.2",
+    "prompt": "What does the number at the bottom corner of this placard show?",
+    "choices": [
+      "The material's four-digit identification number",
+      "The hazard class or division of the material",
+      "The packing group of the material",
+      "How many placards the vehicle must display"
+    ],
+    "answer": 1,
+    "explanation": "Placards for a material's primary or subsidiary hazard must show the hazard class or division number in the lower corner; here, 2 for a Class 2 gas. The four-digit identification number is shown separately, for example on an orange panel.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.3.11; 49 CFR 172.519"
+  },
+  {
+    "id": "cdl.hmp.023",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-8",
+    "prompt": "Your only hazmat is 500 pounds of the material this placard marks, so placards are not required. May you display them anyway?",
+    "choices": [
+      "No, displaying placards that are not required is always prohibited",
+      "Only if you also display DANGEROUS placards",
+      "Yes, if the placard identifies the hazard of the cargo",
+      "Only with written permission from the shipper"
+    ],
+    "answer": 2,
+    "explanation": "Placards may be displayed even when they are not required, as long as the placard identifies the hazard of the material being transported. Class 8 is a Table 2 material, so 500 pounds alone does not require them.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.11"
+  },
+  {
+    "id": "cdl.hmp.024",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-9",
+    "prompt": "Which hazard class does this striped placard mark?",
+    "choices": [
+      "Class 9, miscellaneous",
+      "Division 4.1, flammable solid",
+      "Class 8, corrosive",
+      "Class 7, radioactive"
+    ],
+    "answer": 0,
+    "explanation": "Seven black stripes on the top half and an underlined 9 mark the CLASS 9 placard for miscellaneous hazardous materials, such as PCBs. It is not required for domestic transportation. The FLAMMABLE SOLID placard has red and white stripes.",
+    "difficulty": 1,
+    "ref": "CDL Manual, Section 9.3.11; 49 CFR 172.560"
+  },
+  {
+    "id": "cdl.hmp.025",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-DANGEROUS",
+    "prompt": "When may you use this placard instead of separate placards?",
+    "choices": [
+      "When you carry any amount of a Table 1 material",
+      "With 1,001 pounds or more of two or more Table 2 classes",
+      "Whenever a load has two or more hazard classes, from either table",
+      "When a single Table 2 class weighs 2,205 pounds or more"
+    ],
+    "answer": 1,
+    "explanation": "The DANGEROUS placard may replace separate placards when you have 1,001 pounds or more of two or more Table 2 hazard classes needing different placards. It never replaces Table 1 placards, and 2,205 pounds or more of one class loaded at one place needs that class's own placard.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.11; 49 CFR 172.504(b)"
+  },
+  {
+    "id": "cdl.hmp.026",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-DANGEROUS",
+    "prompt": "From one shipper you load non-bulk packages: 400 pounds of Class 3, 700 pounds of Class 8 and 100 pounds of Division 4.3. Which placarding is allowed?",
+    "choices": [
+      "DANGEROUS plus DANGEROUS WHEN WET placards",
+      "DANGEROUS placards alone",
+      "FLAMMABLE and CORROSIVE placards only",
+      "No placards, because no single class reaches 1,001 pounds"
+    ],
+    "answer": 0,
+    "explanation": "The Table 2 materials total 1,100 pounds, so they need placards, and with two Table 2 classes a DANGEROUS placard may replace FLAMMABLE and CORROSIVE. Division 4.3 is a Table 1 material, so DANGEROUS WHEN WET is still required for any amount.",
+    "difficulty": 3,
+    "ref": "CDL Manual, Section 9.3.11; 49 CFR 172.504"
+  },
+  {
+    "id": "cdl.hmp.027",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-6.1",
+    "prompt": "Your truck displays this placard. After stopping before a railroad crossing and making sure no train is coming, how should you cross?",
+    "choices": [
+      "Shift to a higher gear on the tracks to clear them faster",
+      "In neutral, coasting across to keep the engine quiet",
+      "Without shifting gears while on the tracks",
+      "Stop again on the tracks to double-check for trains"
+    ],
+    "answer": 2,
+    "explanation": "A placarded vehicle must stop 15 to 50 feet before the nearest rail. Proceed only when you are sure no train is coming and you can clear the tracks without stopping, and do not shift gears while crossing.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.6.12"
+  },
+  {
+    "id": "cdl.hmp.028",
+    "track": "cdl",
+    "topic": "cdl-hazmat",
+    "sign": "HM-4.1",
+    "prompt": "Your load requires this placard, but one of the four placards is missing. When may you drive the vehicle anyway?",
+    "choices": [
+      "If the missing placard is the rear one",
+      "For trips shorter than 25 miles",
+      "If the shipping papers are kept in the driver's door pouch",
+      "Only in an emergency, to protect life or property"
+    ],
+    "answer": 3,
+    "explanation": "Attach the required placards before you drive: they must be on both sides and both ends. You may move an improperly placarded vehicle only during an emergency, to protect life or property.",
+    "difficulty": 2,
+    "ref": "CDL Manual, Section 9.3.10"
+  }
+]

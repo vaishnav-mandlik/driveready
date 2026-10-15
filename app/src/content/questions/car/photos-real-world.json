@@ -1,0 +1,529 @@
+[
+  {
+    "id": "car.ph.001",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "In the photo, each road has a crosswalk a short distance before the roundabout. As you leave the roundabout, a pedestrian is crossing your exit road in that crosswalk. What should you do?",
+    "choices": [
+      "Keep going, because traffic leaving a roundabout has the right-of-way",
+      "Stop and let the pedestrian finish crossing",
+      "Speed up to get through before the pedestrian reaches your lane",
+      "Go back into the roundabout and circle around again"
+    ],
+    "answer": 1,
+    "explanation": "Pedestrians in a crosswalk have the right-of-way at roundabout exits, just as at the entries. Leave the roundabout slowly and be ready to stop for anyone crossing.",
+    "sign": "PH-ROUNDABOUT-AERIAL",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. AL p.60, CA p.46, NH p.33)"
+  },
+  {
+    "id": "car.ph.002",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "The roundabout in the photo has no traffic lights or stop signs. Why do roundabouts like this usually have fewer serious crashes than regular intersections?",
+    "choices": [
+      "Every driver must come to a complete stop and look both ways before entering the circle",
+      "Pedestrians are not allowed to cross the roads near a roundabout",
+      "Large trucks and buses are not allowed to drive through them",
+      "Traffic moves slowly in one direction, so head-on and right-angle crashes are avoided"
+    ],
+    "answer": 3,
+    "explanation": "Everyone in a roundabout travels slowly counterclockwise and turns right to enter and leave, which removes head-on, left-turn and right-angle (T-bone) crashes. Drivers yield as they enter but do not have to stop if the way is clear.",
+    "sign": "PH-ROUNDABOUT-AERIAL",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. PA p.54, NJ p.220, TX p.56)"
+  },
+  {
+    "id": "car.ph.003",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "The school bus in the photo has its red lights flashing and its stop arm out. What does this mean?",
+    "choices": [
+      "The bus is about to stop, so slow down and get ready to stop",
+      "The bus has broken down, so drivers should pass it slowly and carefully",
+      "The bus is stopped to load or unload children, and traffic must stop",
+      "The bus driver is signaling that it is safe for you to pass"
+    ],
+    "answer": 2,
+    "explanation": "Flashing red lights and an extended stop arm mean children are getting on or off, and traffic must stop. Flashing yellow (amber) lights come first and warn that the bus is about to stop.",
+    "sign": "PH-SCHOOL-BUS-STOP-ARM",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. AK p.41, PA p.62, TX p.29)"
+  },
+  {
+    "id": "car.ph.004",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "The red STOP arm on the side of the bus in the photo looks like a regular stop sign. How is your duty different?",
+    "choices": [
+      "You must stay stopped while the arm is out, not just stop and then go",
+      "There is no difference: stop, then go when the way looks clear",
+      "It applies only to drivers coming from the opposite direction",
+      "It is only a warning, so you may pass slowly if no children are in sight"
+    ],
+    "answer": 0,
+    "explanation": "At a stop sign you stop and then go when it is safe. When a school bus has its stop arm out and red lights flashing, you must stop and stay stopped while they are on. Some states also require you to wait until the bus starts moving or the driver signals you to go.",
+    "sign": "PH-SCHOOL-BUS-STOP-ARM",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. AK p.41, IL p.36, PA p.62)"
+  },
+  {
+    "id": "car.ph.005",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "Your left-turn signal shows the flashing yellow arrow in the photo. There is a gap in oncoming traffic, but a pedestrian is crossing the street you are turning into. What should you do?",
+    "choices": [
+      "Turn now, because the arrow gives you the right-of-way over the pedestrian",
+      "Wait for the pedestrian to finish crossing, then turn when it is safe",
+      "Turn, but swing wide so you pass behind the pedestrian",
+      "Honk so the pedestrian hurries out of your way"
+    ],
+    "answer": 1,
+    "explanation": "A flashing yellow arrow lets you turn left only after yielding to oncoming traffic and to pedestrians in the crosswalk. A gap in traffic is not enough; the pedestrian goes first.",
+    "sign": "PH-FLASHING-YELLOW-ARROW",
+    "difficulty": 2,
+    "ref": "MUTCD Ch. 4D; state driver handbooks (e.g. AR p.36, CA p.40, TX p.31)"
+  },
+  {
+    "id": "car.ph.006",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "The railroad crossing in the photo has crossbuck signs but no flashing lights or gates. What does that mean for you?",
+    "choices": [
+      "Nothing will warn you of a train, so you must look and listen yourself",
+      "The tracks must be out of service, so you may cross without slowing down",
+      "Trains must stop and let cars cross first",
+      "You only need to watch for trains at night"
+    ],
+    "answer": 0,
+    "explanation": "At a crossing with only crossbucks, no lights or gates will warn you that a train is coming. Slow down, look both ways, listen, and be ready to stop for any train.",
+    "sign": "PH-RAILROAD-CROSSBUCK-RURAL",
+    "difficulty": 2,
+    "ref": "MUTCD Part 8; state driver handbooks (e.g. CO p.24, FL p.64, PA p.14)"
+  },
+  {
+    "id": "car.ph.007",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "The white X-shaped sign in the photo has the same legal meaning as which other sign?",
+    "choices": [
+      "A STOP sign: every vehicle must always stop at the tracks",
+      "A DO NOT ENTER sign: you may not cross the tracks",
+      "A warning sign: it only tells you that tracks are far ahead",
+      "A YIELD sign: you must yield to any train"
+    ],
+    "answer": 3,
+    "explanation": "A crossbuck works like a YIELD sign at the tracks: slow down, look and listen, and stop if a train is coming. Trains always have the right-of-way.",
+    "sign": "PH-RAILROAD-CROSSBUCK-RURAL",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 8B; state driver handbooks (e.g. CO p.24, FL p.64, PA p.14)"
+  },
+  {
+    "id": "car.ph.008",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are stopped at the crossing in the photo. The gates have been down for a long time, and no train has come. What should you do?",
+    "choices": [
+      "Drive slowly around the gates after looking carefully both ways for a train",
+      "Wait for the car ahead to drive around the gates, then follow it",
+      "Stay behind the gates and report it to the number posted at the crossing",
+      "Lift the gate arm by hand so traffic can get through"
+    ],
+    "answer": 2,
+    "explanation": "Never drive around lowered gates, even if you see no train. If the gates seem stuck, stay back and report it by calling the emergency number on the blue sign at the crossing, or 911.",
+    "sign": "PH-RAILROAD-GATES-DOWN",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. IA p.12, CO p.25, MN p.57)"
+  },
+  {
+    "id": "car.ph.009",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "The carpool sign in the photo has an arrow pointing straight down. What does the arrow tell you?",
+    "choices": [
+      "The carpool rule applies to the lane right below the sign",
+      "An exit for carpools is just ahead on the right",
+      "The carpool lane ends ahead and traffic must merge",
+      "Drivers must slow down because the road ahead goes steeply downhill"
+    ],
+    "answer": 0,
+    "explanation": "A downward arrow on an overhead sign points to the lane the message applies to. Here, the lane under the arrow is reserved for vehicles carrying at least the number of people shown on the sign.",
+    "sign": "PH-HOV-CARPOOL-LANE",
+    "difficulty": 2,
+    "ref": "MUTCD Sec. 2G; state driver handbooks (e.g. CA p.21-22, AZ p.33)"
+  },
+  {
+    "id": "car.ph.010",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "In the photo, the middle lane has a solid yellow line and a broken yellow line on each side, and a white turn arrow. What is this lane for?",
+    "choices": [
+      "Passing slower vehicles",
+      "Through traffic that changes direction during rush hour",
+      "Left turns by drivers coming from either direction",
+      "Buses and emergency vehicles only"
+    ],
+    "answer": 2,
+    "explanation": "This is a two-way center left-turn lane. Drivers from both directions use it only to slow down and wait to turn left; never use it to pass or as a travel lane.",
+    "sign": "PH-CENTER-TURN-LANE",
+    "difficulty": 1,
+    "ref": "MUTCD Part 3; state driver handbooks (e.g. AZ p.48, CA p.22, PA p.26)"
+  },
+  {
+    "id": "car.ph.011",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "In the photo, a bike lane is painted bright green along the car lanes and across the area where cars merge in from a ramp. What does the green paint tell drivers?",
+    "choices": [
+      "It is a bus-only lane",
+      "It is an extra lane drivers may use to get around slow or turning traffic",
+      "It marks a loading zone where drivers may make short stops",
+      "Bicyclists ride here, so watch for them and yield before crossing it"
+    ],
+    "answer": 3,
+    "explanation": "Green pavement marks a bike lane, often where bicycles and cars cross paths. Watch for bicyclists and yield to them before you merge or turn across the green lane.",
+    "sign": "PH-GREEN-BIKE-LANE",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. IA p.17, MI p.61, OR p.33)"
+  },
+  {
+    "id": "car.ph.012",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are coming down the ramp in the photo and must cross the green bike lane to merge. A bicyclist is riding in the bike lane beside you. What should you do?",
+    "choices": [
+      "Speed up and merge in front of the bicyclist",
+      "Slow down, let the bicyclist go by, then merge behind them",
+      "Merge right alongside the bicyclist, since you both fit in the green lane",
+      "Honk so the bicyclist stops and lets you go first"
+    ],
+    "answer": 1,
+    "explanation": "Bicyclists riding in a bike lane have the right-of-way over drivers crossing it. Slow down, let the bicyclist pass, and cross the bike lane behind them.",
+    "sign": "PH-GREEN-BIKE-LANE",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. CA p.24, FL p.53, NE p.54)"
+  },
+  {
+    "id": "car.ph.013",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "The marking in the photo, a bicycle with two chevrons, is painted in the travel lane instead of at the curb. What does its position in the lane tell you?",
+    "choices": [
+      "Where in the lane bicyclists are expected to ride",
+      "Where cars may park along the curb",
+      "That bicycles must use the sidewalk on this street",
+      "That the lane is only for bicycles"
+    ],
+    "answer": 0,
+    "explanation": "A shared-lane marking shows where bicyclists are likely to ride in a lane they share with cars, often away from parked car doors. Expect bicyclists there and pass only when it is safe.",
+    "sign": "PH-SHARROW",
+    "difficulty": 2,
+    "ref": "MUTCD Part 9; state driver handbooks (e.g. AL p.52, CO p.12, FL p.53)"
+  },
+  {
+    "id": "car.ph.014",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "What are the grooves cut into the shoulder in the photo for?",
+    "choices": [
+      "To drain rainwater off the road",
+      "To give tires extra grip when a driver has to make an emergency stop",
+      "To warn drivers who drift off the road with noise and vibration",
+      "To mark the edge of a bike lane"
+    ],
+    "answer": 2,
+    "explanation": "Shoulder rumble strips make a loud rumble and shake the car when your tires cross them. They warn drowsy or distracted drivers that they are leaving the lane.",
+    "sign": "PH-RUMBLE-STRIP-SHOULDER",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. CT p.30, NJ p.220, NY p.51)"
+  },
+  {
+    "id": "car.ph.015",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Your right tires roll onto a rumble strip like the one in the photo, and the car starts to shake. What should you do?",
+    "choices": [
+      "Brake hard and turn the wheel sharply to the left",
+      "Keep driving on the strip, since the noise will keep you awake",
+      "Steer onto the shoulder and stop right there",
+      "Ease off the gas and steer gently back into your lane"
+    ],
+    "answer": 3,
+    "explanation": "Jerking the wheel or slamming the brakes can send you across the road or into a skid. Ease off the accelerator, steer smoothly back into the lane, and if you are drowsy, stop at a safe place to rest.",
+    "sign": "PH-RUMBLE-STRIP-SHOULDER",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. CA p.74, IL p.90, NY p.65)"
+  },
+  {
+    "id": "car.ph.016",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "The black car in the photo is on the entrance ramp. Where should its driver look to find a safe gap before merging?",
+    "choices": [
+      "Only straight ahead, because highway traffic must make room",
+      "In the mirrors and over the left shoulder at highway traffic",
+      "Only in the inside rearview mirror",
+      "Over the right shoulder at the edge of the ramp"
+    ],
+    "answer": 1,
+    "explanation": "Traffic already on the highway has the right-of-way. Check your mirrors and glance over your left shoulder for cars in your blind spot, then adjust your speed to fit into a gap.",
+    "sign": "PH-FREEWAY-MERGE",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. CA p.29, FL p.71, PA p.50)"
+  },
+  {
+    "id": "car.ph.017",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "You are on the interstate in the photo and need to go back the other way. May you drive across the grassy median to turn around?",
+    "choices": [
+      "Yes, as long as no traffic is coming from either direction",
+      "Yes, at any paved crossover in the median",
+      "No; use an exit and get back on going the other way",
+      "Only if you missed your exit by a short distance"
+    ],
+    "answer": 2,
+    "explanation": "On interstates and other freeways you may not drive across the median or use median crossovers, which are for authorized emergency and maintenance vehicles. Go to the next exit and get back on in the other direction.",
+    "sign": "PH-DIVIDED-HIGHWAY-MEDIAN",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. AZ p.33, MI p.58, PA p.56)"
+  },
+  {
+    "id": "car.ph.018",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "The road in the photo disappears under brown floodwater that looks calm. What should you do?",
+    "choices": [
+      "Drive through slowly in a low gear",
+      "Drive through quickly so the engine does not stall",
+      "Follow the yellow center line through the water",
+      "Turn around and find another route"
+    ],
+    "answer": 3,
+    "explanation": "You can't tell how deep floodwater is or whether the road under it has washed away, and even shallow moving water can push a car off the road. Never drive into a flooded road.",
+    "sign": "PH-FLOODED-ROAD",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. IA p.60, PA p.66, TX p.56)"
+  },
+  {
+    "id": "car.ph.019",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Deer like the one in the photo are hard to see at night. How can you spot them sooner?",
+    "choices": [
+      "Use high beams when it is safe and watch for eyes shining at the roadside",
+      "Keep your eyes fixed on the road just in front of your car so you can brake quickly",
+      "Turn on your hazard lights to scare animals away",
+      "Drive with only your parking lights on so you don't startle animals"
+    ],
+    "answer": 0,
+    "explanation": "Scan the sides of the road and use your high beams when no other vehicles are near; animals' eyes reflect your headlights. Slow down near woods and fields, especially at dawn and dusk.",
+    "sign": "PH-DEER-CROSSING-ROAD",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. AK p.72, FL p.79, KS p.92)"
+  },
+  {
+    "id": "car.ph.020",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "In the photo, cones line your lane in a work zone and the car ahead is slowing down. What is the safest choice?",
+    "choices": [
+      "Pass the car ahead by using the oncoming lane",
+      "Drive on the shoulder outside the cones to get around the slow car",
+      "Stay in your lane and leave extra space behind the car ahead",
+      "Follow close behind the car ahead so traffic keeps moving"
+    ],
+    "answer": 2,
+    "explanation": "Work zones often have sudden slowdowns, narrow lanes and workers close to traffic. Slow down, stay in your lane, and increase your following distance.",
+    "sign": "PH-WORK-ZONE-TWO-LANE",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. CA p.55, NY p.49, TX p.41)"
+  },
+  {
+    "id": "car.ph.021",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "In the photo, a row of orange drums closes off part of the highway. Traffic is slow, and a driver wants to use the empty closed area to get ahead. Is this allowed?",
+    "choices": [
+      "Yes, as long as there are no workers or equipment in sight at the time",
+      "No; stay in the open lanes and never drive inside the closed area",
+      "Yes, if the driver turns on the hazard lights",
+      "Only if the driver keeps to the work zone speed limit"
+    ],
+    "answer": 1,
+    "explanation": "Drums, cones and barriers close lanes to protect workers and equipment. Driving inside a closed area is dangerous and illegal; merge early and stay in the open lanes.",
+    "sign": "PH-WORK-ZONE-HIGHWAY",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. CA p.55, TX p.42)"
+  },
+  {
+    "id": "car.ph.022",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Why should the driver in the photo NOT use high-beam headlights in this fog?",
+    "choices": [
+      "High beams use too much battery power in damp air",
+      "High beams are not allowed during the daytime",
+      "High beams make the car look farther away to other drivers",
+      "The light reflects off the fog and makes it harder to see"
+    ],
+    "answer": 3,
+    "explanation": "In fog, the bright light from high beams bounces back off the water droplets and causes glare. Use low beams (and fog lights if you have them), slow down, and leave more space.",
+    "sign": "PH-FOG-ROAD",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. AR p.63, CT p.40, NY p.63)"
+  },
+  {
+    "id": "car.ph.023",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "The drivers in the photo have their headlights on in the daytime while snow is falling. Why is this a good idea?",
+    "choices": [
+      "It helps other drivers and pedestrians see them",
+      "It melts snow off the road just ahead",
+      "It turns on the car's traction control and anti-lock brakes",
+      "It is needed for the brake lights to work"
+    ],
+    "answer": 0,
+    "explanation": "Falling snow, rain and fog make vehicles hard to see, so turn on your low-beam headlights even during the day. Many states require headlights whenever visibility is low or your wipers are on.",
+    "sign": "PH-SNOW-TRAFFIC",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. AK p.67, MI p.78, PA p.46)"
+  },
+  {
+    "id": "car.ph.024",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "The ambulance in the photo is coming toward you with its lights and siren on. You are on a two-way street with no median. What should you do?",
+    "choices": [
+      "Keep going, because only drivers in front of it in its own lane must pull over",
+      "Stop right where you are in your lane",
+      "Speed up to get past it before it reaches you",
+      "Pull over to the right edge of the road and stop until it passes"
+    ],
+    "answer": 3,
+    "explanation": "On a road without a median, drivers going both ways must yield to an emergency vehicle using lights and a siren: pull to the right edge, stop, and stay there until it has passed. Don't stop in an intersection.",
+    "sign": "PH-AMBULANCE-RESPONDING",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. CA p.51, MT p.50, NY p.35)"
+  },
+  {
+    "id": "car.ph.025",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You come up behind the horse-drawn buggy in the photo. What should you do?",
+    "choices": [
+      "Honk to let the driver know you are about to pass",
+      "Stay right on its tail so you are ready to pass the moment a gap opens",
+      "Slow down, keep back, and pass with plenty of room when it is safe",
+      "Flash your high beams so the driver pulls off the road"
+    ],
+    "answer": 2,
+    "explanation": "Horse-drawn vehicles are slow, and loud noises or close passes can startle the horse. Slow down early, leave plenty of following distance, don't honk, and pass only where it is legal and safe.",
+    "sign": "PH-HORSE-BUGGY",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. CA p.52, NY p.76, PA p.63)"
+  },
+  {
+    "id": "car.ph.026",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Farm equipment like the tractor in the photo can be wide enough to take up more than one lane. You meet one coming toward you on a two-lane road. What should you do?",
+    "choices": [
+      "Slow down and move as far right as is safe to give it room",
+      "Keep your speed and stay in the middle of your lane",
+      "Flash your headlights so the driver knows to move onto the shoulder",
+      "Honk so the driver knows you are coming"
+    ],
+    "answer": 0,
+    "explanation": "Tractors and other farm machinery may be wider than their lane and can cross the center line. When you meet one, slow down, move right as far as is safe, and be ready to stop.",
+    "sign": "PH-FARM-TRACTOR-ROAD",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. AZ p.52, KS p.88, TN p.125)"
+  },
+  {
+    "id": "car.ph.027",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "The children in the photo reach the far curb, but one crossing guard is still standing in the street holding up a STOP paddle. What should you do?",
+    "choices": [
+      "Drive slowly around the guard, since all the children are safely across",
+      "Stay stopped until the guard leaves the street and lowers the paddle",
+      "Go as soon as the children step onto the sidewalk",
+      "Honk to let the guard know you are waiting"
+    ],
+    "answer": 1,
+    "explanation": "You must obey a school crossing guard's signals, just like a police officer's. Stay stopped until the guard is out of the street and no longer signaling you to stop.",
+    "sign": "PH-SCHOOL-CROSSING-GUARDS",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. AR p.35, FL p.65, NE p.48)"
+  },
+  {
+    "id": "car.ph.028",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "The people in the photo are crossing the street you want to turn into, and your light is green. What must you do before turning?",
+    "choices": [
+      "Turn right away, because your green light gives you the right-of-way",
+      "Turn slowly and steer around them",
+      "Honk so they know you are turning",
+      "Yield and wait until they are out of your path"
+    ],
+    "answer": 3,
+    "explanation": "A green light lets you turn only after you yield to pedestrians crossing the street you are turning into. Wait until they are clear of your path.",
+    "sign": "PH-CROSSWALK-PEDESTRIANS",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. CA p.41, FL p.59, NY p.34)"
+  },
+  {
+    "id": "car.ph.029",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "The signal over the crosswalk in the photo has two red lights above one yellow light and stays dark most of the time. What is it for?",
+    "choices": [
+      "It controls traffic entering a freeway ramp",
+      "It warns drivers that a railroad crossing is just ahead on the road",
+      "It stops traffic when a pedestrian pushes the button to cross",
+      "It works like a normal traffic light all day"
+    ],
+    "answer": 2,
+    "explanation": "This is a pedestrian hybrid beacon (HAWK). It stays dark until someone pushes the crossing button; then it flashes yellow, turns steady yellow, and shows two solid red lights so traffic stops while people cross.",
+    "sign": "PH-PEDESTRIAN-HYBRID-BEACON",
+    "difficulty": 2,
+    "ref": "MUTCD Ch. 4F; state driver handbooks (e.g. FL p.63, TX p.30, VA p.8)"
+  },
+  {
+    "id": "car.ph.030",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "As you approach the signal in the photo, its bottom yellow light starts flashing. What does that mean?",
+    "choices": [
+      "A pedestrian has pushed the button; slow down and be ready to stop",
+      "The signal is not working right, so treat it the same as a stop sign",
+      "You must stop at once, even if you are very close to the crosswalk",
+      "Pedestrians must wait until all cars have passed"
+    ],
+    "answer": 0,
+    "explanation": "On a pedestrian hybrid beacon, a flashing yellow light means someone has asked to cross. Slow down and prepare to stop; the beacon will turn steady yellow and then solid red.",
+    "sign": "PH-PEDESTRIAN-HYBRID-BEACON",
+    "difficulty": 2,
+    "ref": "MUTCD Ch. 4F; state driver handbooks (e.g. FL p.63, IA p.18, TX p.30)"
+  },
+  {
+    "id": "car.ph.031",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You want to pass the group of motorcyclists in the photo on a highway with two lanes in your direction. What is the safest way?",
+    "choices": [
+      "Pass them one at a time, moving into the gaps between the riders",
+      "Use the other lane and pass the whole group before moving back",
+      "Squeeze past while sharing a lane with the last rider",
+      "Honk so the riders move into a single-file line"
+    ],
+    "answer": 1,
+    "explanation": "Each motorcycle needs a full lane, and riding groups keep gaps on purpose. Don't share a lane with a rider or cut into the group; pass in the other lane and move back only when you are well clear of the group.",
+    "sign": "PH-MOTORCYCLE-GROUP-STAGGERED",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. CA p.50, MD p.39, TX p.58)"
+  }
+]
