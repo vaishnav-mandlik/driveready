@@ -1086,17 +1086,17 @@
     "id": "ct.car.058",
     "track": "car",
     "topic": "parking",
-    "prompt": "Under Connecticut law in effect since October 1, 2025, how close to a stop sign may you park?",
+    "prompt": "According to the Connecticut Driver's Manual, how close to a stop sign may you park?",
     "choices": [
       "No closer than 10 feet",
       "No closer than 15 feet",
-      "No closer than 30 feet",
+      "No closer than 25 feet",
       "No closer than 50 feet"
     ],
     "answer": 2,
-    "explanation": "The law now bars parking within 30 feet of a stop sign or yield sign. The March 2023 manual still lists the older 25-foot rule for stop signs.",
+    "explanation": "The Connecticut Driver's Manual and the DMV practice tests say not to park within 25 feet of a stop sign. A 2025 law (P.A. 25-65, in effect since October 1, 2025) raised this to 30 feet from a stop or yield sign, so parking at least 30 feet away follows both.",
     "difficulty": 2,
-    "ref": "Conn. Gen. Stat. \u00a7 14-251",
+    "ref": "Connecticut Driver's Manual, p. 39; Conn. Gen. Stat. \u00a7 14-251",
     "states": [
       "CT"
     ]
@@ -2142,6 +2142,63 @@
     "explanation": "The manual says to flash your headlights quickly a couple of times. If the driver still does not dim, look toward the right side of the road so you are not blinded, and never keep your own high beams on to get back at them.",
     "difficulty": 2,
     "ref": "Connecticut Driver's Manual, p. 40",
+    "states": [
+      "CT"
+    ]
+  },
+  {
+    "id": "ct.car.107",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old just got a Connecticut driver's license. For how long do the teen passenger restrictions apply?",
+    "choices": [
+      "For the first 6 months",
+      "For the first 12 months",
+      "For the first 3 months",
+      "For the first 24 months"
+    ],
+    "answer": 1,
+    "explanation": "For the first six months, the only passengers allowed are a licensed driving instructor, the teen's parents or legal guardian, or one qualified adult 20 or older. In months seven through twelve, immediate family members may also ride; friends must wait until the license is one year old.",
+    "difficulty": 2,
+    "ref": "Connecticut Driver's Manual, pp. 10, 33",
+    "states": [
+      "CT"
+    ]
+  },
+  {
+    "id": "ct.car.108",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "The road ahead is covered with packed snow. According to the Connecticut Driver's Manual, how much should you cut your speed?",
+    "choices": [
+      "By about half",
+      "By about 10 mph",
+      "By about one-third",
+      "By about one-quarter"
+    ],
+    "answer": 0,
+    "explanation": "The manual says to slow down by about 10 mph on a wet road, cut your speed in half on packed snow, and slow to a crawl on ice. Use snow tires or chains when there is snow on the road.",
+    "difficulty": 2,
+    "ref": "Connecticut Driver's Manual, p. 27",
+    "states": [
+      "CT"
+    ]
+  },
+  {
+    "id": "ct.car.109",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "You drive into a Connecticut work zone, but no reduced speed limit is posted. What speed limit applies?",
+    "choices": [
+      "10 mph below the normal limit",
+      "A 25 mph limit, even without signs",
+      "Half the road's normal limit",
+      "The road's normal posted limit"
+    ],
+    "answer": 3,
+    "explanation": "Reduced work zone limits are clearly posted. If there are no reduced speed limit signs, obey the road's normal posted limit, and still be ready for workers, lane shifts and sudden stops. Speeding in a work zone can bring a fine of up to $1,000.",
+    "difficulty": 2,
+    "ref": "Connecticut Driver's Manual, p. 17",
     "states": [
       "CT"
     ]

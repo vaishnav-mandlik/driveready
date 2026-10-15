@@ -2192,5 +2192,62 @@
     ],
     "difficulty": 2,
     "ref": "Minnesota Driver's Manual, pp. 46, 68"
+  },
+  {
+    "id": "mn.car.106",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "On a Minnesota highway with three lanes in your direction, which lane should you drive in when you are not passing, turning left or exiting to the left?",
+    "choices": [
+      "The middle lane",
+      "The left-hand lane",
+      "Any lane, if you drive at the speed limit",
+      "The right-hand lane, when it is available"
+    ],
+    "answer": 3,
+    "explanation": "On roads with more than one lane in your direction, Minnesota tells you to drive in the right-hand lane when one is available. The exceptions are passing, preparing for a left turn and exiting on the left; if you are in the left-most lane, move over to let faster traffic pass when you can.",
+    "difficulty": 2,
+    "ref": "Minnesota Driver's Manual, p. 36",
+    "states": [
+      "MN"
+    ]
+  },
+  {
+    "id": "mn.car.107",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Your gas pedal sticks, so you brake and shift to neutral, but the shoulder ahead is not paved. What does the Minnesota Driver's Manual tell you to turn on while you keep steering straight?",
+    "choices": [
+      "Your hazard warning lights",
+      "Your fog lights and high beams",
+      "Your left turn signal",
+      "Your interior dome light"
+    ],
+    "answer": 0,
+    "explanation": "First try to free the pedal by hooking your toe under it. If that fails, brake, shift into neutral and steer toward the shoulder; if the shoulder is not paved, switch on your hazard lights and keep going straight until you can pull over safely.",
+    "difficulty": 2,
+    "ref": "Minnesota Driver's Manual, p. 89",
+    "states": [
+      "MN"
+    ]
+  },
+  {
+    "id": "mn.car.108",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You must stop on the shoulder of a Minnesota highway at night. According to the Minnesota Driver's Manual, how should your headlights be set?",
+    "choices": [
+      "On high beam, so others see you sooner",
+      "On low beam",
+      "Off, using only your interior light",
+      "Alternating between high and low beam"
+    ],
+    "answer": 1,
+    "explanation": "When parked on a highway at night, you need a white or amber light in front and a red taillight, both visible from 500 feet. Use parking lights or hazard warning lights to alert other drivers, and set your headlights to low beam.",
+    "difficulty": 2,
+    "ref": "Minnesota Driver's Manual, p. 40",
+    "states": [
+      "MN"
+    ]
   }
 ]

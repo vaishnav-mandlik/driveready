@@ -1,0 +1,114 @@
+[
+  {
+    "id": "car.cvob.001",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "You are merging into a gap in highway traffic. Where should you look as you move in?",
+    "choices": [
+      "Only at the cars behind the gap",
+      "Only at your speedometer and mirrors",
+      "Check behind, then watch the car ahead",
+      "Straight ahead; cars behind must make room"
+    ],
+    "answer": 2,
+    "explanation": "Check your mirrors and blind spot for traffic behind and beside the gap, then keep watching the vehicle you will follow, since it may slow or stop. Drivers already on the highway have the right-of-way, so they may not make room for you.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. MO p.30, CO p.4)"
+  },
+  {
+    "id": "car.cvob.002",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Why should you give children riding bicycles even more room than adult riders?",
+    "choices": [
+      "They're small, hard to see and less able to react",
+      "They always have the right-of-way over cars",
+      "Their bikes have weaker brakes than adult bikes",
+      "They are required to ride facing oncoming traffic"
+    ],
+    "answer": 0,
+    "explanation": "Children are small and easy to miss, they may not judge the speed and distance of cars well, and they can swerve or ride into the street without looking. Slow down and give them extra space.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. MD p.41, MT p.39, CT p.18)"
+  },
+  {
+    "id": "car.cvob.003",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You see two people walking along the edge of a two-lane road ahead. What should you do?",
+    "choices": [
+      "Keep your speed and tap the horn so they step aside",
+      "Speed up so you pass them as quickly as possible",
+      "Stay close to the edge so you don't cross the center line",
+      "Slow down and pass them with plenty of room"
+    ],
+    "answer": 3,
+    "explanation": "People walking near the road are hard to see and may move unexpectedly. Slow down and give them as much room as you safely can; if an oncoming vehicle is close, let it pass first so you deal with one hazard at a time.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. KS p.67, UT p.84)"
+  },
+  {
+    "id": "car.cvob.004",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You are stopped in a line of traffic and see that the car behind you is about to hit you. Besides pressing your head against the head restraint, what should you do?",
+    "choices": [
+      "Grip the wheel and keep pressing the brake",
+      "Let go of the wheel so your arms aren't hurt",
+      "Release the brake so your car can roll ahead",
+      "Shift into neutral to soften the impact"
+    ],
+    "answer": 0,
+    "explanation": "Keeping your foot on the brake helps stop the crash from pushing you into the car ahead, and a firm grip on the wheel helps you keep control. Bracing against the seat back and head restraint protects your neck.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. CT p.43, NJ p.111, LA p.119, ME p.95)"
+  },
+  {
+    "id": "car.cvob.005",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "A car is passing you on a two-lane road when an oncoming vehicle comes into view. How can you help the passing driver?",
+    "choices": [
+      "Speed up so the driver can fall in behind you",
+      "Move toward the center line to discourage the pass",
+      "Ease off the gas so the driver can get back in",
+      "Brake hard and stop right in your lane"
+    ],
+    "answer": 2,
+    "explanation": "Never speed up while you are being passed. If an oncoming vehicle appears, slow down and keep right so the passing driver can return to the lane ahead of you; braking hard could cause a rear-end crash.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. OK p.35, TN p.77, MA p.111)"
+  },
+  {
+    "id": "car.cvob.006",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "On a two-lane road, what does a no-passing zone usually tell you about the road ahead?",
+    "choices": [
+      "A passing lane is coming up in a short distance",
+      "You may pass there only during daylight hours",
+      "The speed limit drops for the next stretch",
+      "Your view ahead is too short to pass safely"
+    ],
+    "answer": 3,
+    "explanation": "No-passing zones are usually marked where hills, curves or other obstructions keep you from seeing far enough ahead to pass safely. Even when a zone ends, pass only if you can see that the way is clear.",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 3B.02; state driver handbooks (e.g. CT p.25, TN p.77, AK p.42)"
+  },
+  {
+    "id": "car.cvob.007",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are pulling away from the curb into moving traffic. How big a gap do you need?",
+    "choices": [
+      "One just longer than your car",
+      "One big enough to get up to the speed of traffic",
+      "Any gap, because moving drivers must slow for you",
+      "A gap right behind the first car that passes"
+    ],
+    "answer": 1,
+    "explanation": "When you enter traffic from a stop, you need room to reach the speed of traffic without making other drivers brake. Signal, check your mirrors and blind spot, and wait for a large enough gap.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. CA p.30, NM p.27, MT p.76, KS p.65)"
+  }
+]
