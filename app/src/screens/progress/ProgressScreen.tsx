@@ -1,5 +1,5 @@
 import React, {useMemo} from 'react';
-import {StyleSheet, View} from 'react-native';
+import {Pressable, StyleSheet, View} from 'react-native';
 import {BarChart, Card, Chip, Divider, Icon, IconTile, LargeHeader, ListRow, ProgressRing, ReadyChecklist, Screen, SectionHeader, StatTile, Text} from '../../components';
 import {getTopic} from '../../data/tracks';
 import {achievements} from '../../engine/achievements';
@@ -33,6 +33,8 @@ const STR = defineStrings(
     chartA11y: (today: number) => `Questions answered per day for the last 14 days. Today: ${today}`,
     topicMastery: 'Topic mastery',
     noTopics: 'Answer some questions to see your mastery by topic.',
+    topicA11y: (title: string, seen: number, total: number, accuracy: string) =>
+      `${title}: ${seen} of ${total} questions seen, ${accuracy} correct. Opens the topic.`,
     examSims: 'Exam simulations',
     all: 'All',
     passed: 'Passed',
@@ -61,6 +63,8 @@ const STR = defineStrings(
     chartA11y: (today: number) => `Preguntas respondidas por día en los últimos 14 días. Hoy: ${today}`,
     topicMastery: 'Dominio por tema',
     noTopics: 'Responde algunas preguntas para ver tu dominio por tema.',
+    topicA11y: (title: string, seen: number, total: number, accuracy: string) =>
+      `${title}: ${seen} de ${total} preguntas vistas, ${accuracy} de aciertos. Abre el tema.`,
     examSims: 'Simulaciones de examen',
     all: 'Ver todo',
     passed: 'Aprobado',
@@ -139,18 +143,24 @@ export function ProgressScreen({navigation}: TabScreenProps<'Progress'>) {
           topics.map(tp => {
             const meta = getTopic(tp.topic);
             const color = hueAt(colors, meta?.hue ?? 0);
+            const title = meta?.title ?? tp.topic;
             return (
-              <View key={tp.topic} style={{gap: 6}}>
+              <Pressable
+                key={tp.topic}
+                onPress={() => navigation.navigate('Topic', {topic: tp.topic})}
+                accessibilityRole="button"
+                accessibilityLabel={t.topicA11y(title, tp.seen, tp.total, percent(tp.accuracy))}
+                style={({pressed}) => ({gap: 6, opacity: pressed ? 0.6 : 1})}>
                 <View style={[styles.row, {gap: spacing.sm}]}>
-                  <Text variant="captionStrong" style={styles.flex} numberOfLines={1} onPress={() => navigation.navigate('Topic', {topic: tp.topic})}>
-                    {meta?.title ?? tp.topic}
+                  <Text variant="captionStrong" style={styles.flex} numberOfLines={1}>
+                    {title}
                   </Text>
                   <Text variant="caption" color="textMuted">
                     {tp.seen}/{tp.total} · {percent(tp.accuracy)}
                   </Text>
                 </View>
                 <MasteryBar seen={tp.seen} mastered={tp.mastered} total={tp.total} color={color} />
-              </View>
+              </Pressable>
             );
           })
         ) : (
