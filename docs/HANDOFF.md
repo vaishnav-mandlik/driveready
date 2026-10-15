@@ -57,13 +57,17 @@ _Updated 2026-10-14 (evening)._
 ### Done
 - **App**: 32 screens, 123 Jest tests (engine, i18n, every screen in English and Spanish, App-level e2e).
   No builds since the owner's "don't build now".
-- **33 states live & verified** (facts with page + verbatim quote checked by an independent verifier, often
+- **34 states live & verified** (+ AR) (facts with page + verbatim quote checked by an independent verifier, often
   against current statutes; ~100-115 state questions each): CA TX FL NY PA IL OH GA NC MI · WA MA TN IN MO ·
   NJ VA AZ MD MN · WI CO SC AL LA KY · OR OK CT UT · IA NV KS. Sectioned exams: NY IL GA NC VA WI
   (`research/facts/exam-sections.json`). Verifiers regularly find handbooks that lag the law (IA teen phone ban
   repealed 2025, KS refusal penalties, NV marijuana per se limit) and key questions to current law.
 - **Banks**: car ~1,120 universal (incl. 256 sign/signal/marking image questions + 84 scenario-picture
   questions), motorcycle 305, CDL 824, all independently reviewed. **Lessons** 30, illustrated.
+- **Real photos & placards (2026-10-15)**: 25 openly licensed US photos (Commons; credited in Official sources)
+  with 31 questions; 21 public-domain DOT hazmat placards (new library category) with 28 CDL questions.
+- **Real-test coverage audits**: PA, TN, WI, UT official sample questions (273) mapped to the bank; 52 gap
+  questions added; no official key contradicted the app (research/official-samples/).
 - **Images**: 228 signs in the library (public-domain MUTCD + app-drawn signals/markings/hand signals), every
   sign has questions; 52 app-drawn scenes (car 40, motorcycle 6, CDL 6) used in questions and lessons. Photo
   support (WebP + credits) and a `hazmat` category are in place.
@@ -77,17 +81,15 @@ _Updated 2026-10-14 (evening)._
   Backup; GitHub Actions CI (tsc, jest, content validation, index integrity, signer self-test); `app/.npmrc`
   pins peer resolution (CI found the lockfile depended on a global setting). 141 tests.
 
-### In progress (background agents; Workflow tool was unavailable, so plain agents ≤4 at a time)
-- Arkansas author (then verifier).
-- Real-world photos from Wikimedia Commons (PD/CC0/CC BY/CC BY-SA, US roads only) → `app/assets/photos/`,
-  questions in `car/photos-real-world.json`.
-- DOT hazmat placards (public domain) → `research/signs/svg-hazmat/`, questions `cdl/cdl-hazmat-placards.json`.
-- Real-test coverage audit, Pennsylvania (official sample questions → `research/official-samples/`, gaps filled
-  in `states/PA.json` and `car/coverage-pa.json`).
+### In progress (background agents, ≤4 at a time; Workflow tool unavailable → plain agents with prompts from tools/workflows/extract-prompts.mjs)
+- States: Mississippi (verifier), New Mexico (author), Nebraska (author).
+- Real-test coverage audit: Kansas, Indiana, Connecticut, Illinois.
 
 ### Next steps (prioritized)
-1. Coverage audits for other states with official sample questions in their handbooks: TN MT WI UT · KS IN CT
-   IL FL OR · MD MI VA AK KY NE TX SC AL, plus the motorcycle "Test Yourself" and CDL review questions.
+1. Remaining real-test coverage audits (`tools/workflows/coverage-audit.js`; done: PA, TN, WI, UT): FL OR MD MI ·
+   VA KY TX SC AL · then MT, NE, AK when those states are added; CDL review questions.
+   Independent review of the 84 image questions written without a separate reviewer (photos-real-world,
+   cdl-hazmat-placards, mc-scenarios, cdl-scenarios).
 2. Remaining 16 jurisdictions (`state-content-v2.js` prompts; extract with the stub runner described in
    tools/workflows/README.md if Workflow is unavailable): AR (running) · MS NM NE ID · WV HI NH ME · MT RI DE SD ·
    ND AK DC VT · WY. Keep in-progress states out of the index: `EXCLUDE_STATES=XX node scripts/build-content-index.mjs`.
