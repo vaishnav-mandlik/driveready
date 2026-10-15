@@ -27,6 +27,12 @@ picks up the work._
 10. "no need to create own again that image use already created high quality things by other apps.." → stop
    drawing new scenes; use openly licensed real photos / public-domain government art (never competitor images,
    which are copyrighted), credited in Official sources → Image credits.
+11. Backend: asked for options at 100k MAU; chose **B — Cloudflare R2 for content updates** (≈$1/month for the
+   domain; Supabase only later if accounts/sync/leaderboards are wanted). Asked whether premium questions for
+   ~$9 are possible later without an account → yes, Google Play Billing one-time purchase tied to the Google
+   account (15% fee); not built.
+12. "work as senior android engineer.. like building this app for 100M users.. all insane" → the engineering bar
+   in AGENTS.md (offline-first, never strand a user, fail-closed updates, backup quota, CI gates).
 
 ## 2. Key decisions (and why)
 
@@ -64,6 +70,12 @@ _Updated 2026-10-14 (evening)._
 - **Spanish**: whole UI translated and reviewed; content translation infrastructure ready (glossary from the
   official CA/TX/FL/NY Spanish handbooks: `research/notes/glossary-es.md`); content translation not started
   (a partial, unreviewed attempt is parked outside the repo).
+
+- **Engineering (2026-10-15):** OTA content updates via Cloudflare R2 (hash-verified, atomic, offline-first;
+  off until `CONTENT_BASE_URL` is set — app/docs/CONTENT_UPDATES.md); fail-safe persisted storage (corrupted
+  data can't hang boot; version bumps keep progress); root ErrorBoundary; content cache excluded from Auto
+  Backup; GitHub Actions CI (tsc, jest, content validation, index integrity, signer self-test); `app/.npmrc`
+  pins peer resolution (CI found the lockfile depended on a global setting). 141 tests.
 
 ### In progress (background agents; Workflow tool was unavailable, so plain agents ≤4 at a time)
 - Arkansas author (then verifier).

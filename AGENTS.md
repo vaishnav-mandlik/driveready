@@ -45,7 +45,9 @@ npx jest                             # tests (must pass)
 node scripts/validate-content.mjs    # content integrity (must report 0 errors)
 node scripts/build-content-index.mjs # after adding/removing content JSON files
 node scripts/import-state-facts.mjs CA TX   # research/facts/XX.json -> src/content/states/XX.json
-node scripts/build-signs.mjs [--png <dir>]  # research/signs + assets/signs-custom -> src/content/signs/index.ts
+node scripts/build-signs.mjs [--png <dir>]  # research/signs + assets/{signs-custom,scenes,photos} -> src/content/signs/index.ts
+node scripts/check-content-index.mjs        # index is current (CI runs this)
+npm run content:release / content:publish   # OTA content update: dry run / upload to R2 (app/docs/CONTENT_UPDATES.md)
 cd android && ./gradlew assembleDebug -PreactNativeArchitectures=arm64-v8a   # fast debug APK
 cd android && ./gradlew bundleRelease          # Play AAB (needs android/keystore.properties — NOT in git)
 ```
@@ -65,6 +67,23 @@ Environment: Node 22, JDK 17, Android SDK at ~/Library/Android/sdk (build-tools 
   files, no identifiers, no analytics. Keep it that way (privacy policy + Play "no data collected" depend on it).
   Updates are off until `CONTENT_BASE_URL` is set (app/docs/CONTENT_UPDATES.md).
 - `react-native-svg` `SvgXml` ignores `<style>`: sign SVGs are pre-processed by `scripts/build-signs.mjs` (svgo).
+
+## Engineering bar (the owner asked for "100M users" quality)
+- **Offline-first, instant.** All content is bundled; nothing on screen waits for the network. Content
+  updates (`src/content/updates.ts`) download in the background and apply on the next launch.
+- **Never strand a user.** Boot must always finish: storage reads never throw (`src/store/storage.ts`
+  backs up unreadable data to `<name>.corrupt`), failed hydration counts as finished, every persisted store
+  has `migrate: keepPersisted` (zustand otherwise DISCARDS data on a version bump) — add real migrations there.
+  A root `ErrorBoundary` turns render crashes into a recovery screen.
+- **Fail closed on remote data.** Downloads are hash-verified, shape-validated, size-capped and committed
+  atomically; unknown sign codes/topics are dropped, not rendered broken. Bundled content is the fallback.
+- **Protect backups.** Android Auto Backup has a 25 MB per-app quota: re-downloadable data goes in its own
+  database (`createAsyncStorage('content')`) excluded in `res/xml/*_rules.xml`.
+- **Privacy by design.** No analytics/ads/trackers/accounts; crash data comes from Play Console vitals only.
+- **Every user-visible string** goes through `defineStrings(en, es)` (see app/docs/TRANSLATION.md).
+- **Gates (CI on every push, `.github/workflows/ci.yml`):** `tsc`, `jest`, `validate-content`,
+  `check-content-index` (index current: files exist, SHA-256 match), signer self-test. Run them before committing.
+- npm resolution is pinned by `app/.npmrc` (`legacy-peer-deps=true`); the lockfile depends on it.
 
 ## Content rules (summary — full rules in app/docs/CONTENT_GUIDE.md)
 - Universal questions must be true in **every** state; anything numeric that varies by state goes in
