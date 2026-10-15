@@ -2164,5 +2164,176 @@
     "states": [
       "KS"
     ]
+  },
+  {
+    "id": "ks.car.105",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "How long does the Kansas Driving Handbook say an alert driver typically needs to recognize a hazard once their eyes see it?",
+    "choices": [
+      "Less than one-quarter of a second",
+      "Three-quarters of a second to 1 second",
+      "Two to three full seconds",
+      "Four seconds or more, even for alert drivers"
+    ],
+    "answer": 1,
+    "explanation": "Perception time is how long your brain takes to recognize a hazard your eyes have seen. The Kansas handbook puts it at three-quarters of a second to 1 second for an alert driver, and reaction time adds about another three-quarters of a second to 1 second before your foot reaches the brake.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 58",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.106",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A regular Kansas Class C license lets you drive a single vehicle up to what gross vehicle weight rating?",
+    "choices": [
+      "Under 10,001 pounds",
+      "Under 16,001 pounds",
+      "Under 26,001 pounds",
+      "Any weight, if it is not a bus"
+    ],
+    "answer": 2,
+    "explanation": "Class C covers single vehicles with a gross vehicle weight rating under 26,001 pounds, plus some light trailers. Heavier vehicles require a higher class of license, such as Class A or B.",
+    "difficulty": 2,
+    "ref": "Kansas Statutes Annotated, K.S.A. 8-234b; Kansas Driving Handbook, p. 15",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.107",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "On what date does a Kansas driver's license expire?",
+    "choices": [
+      "On January 1 of the renewal year",
+      "Exactly five years after the issue date",
+      "On the last day of the month it was issued",
+      "On the driver's birthday"
+    ],
+    "answer": 3,
+    "explanation": "Kansas licenses expire on a birthday: for drivers 21 to 64, the sixth birthday after the license is issued; at 65 and older, the fourth; and a license issued before age 21 expires on the 21st birthday. Kansas sends a renewal notice at least 30 days ahead.",
+    "difficulty": 1,
+    "ref": "Kansas Statutes Annotated, K.S.A. 8-247; Kansas Driving Handbook, pp. 14-15",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.108",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "The Kansas Driving Handbook describes a traditional side-mirror setting, where you can just see the edge of your own vehicle. When may this setting be the better choice?",
+    "choices": [
+      "When towing or backing a truck, van or SUV in tight spaces",
+      "When driving at night on a crowded interstate highway",
+      "When passing large trucks on a narrow two-lane road",
+      "Whenever passengers are riding in the back seat of the car"
+    ],
+    "answer": 0,
+    "explanation": "Kansas says the traditional setting (seeing the edge of your vehicle in each side mirror) may suit trucks, vans and SUVs when towing or backing in tight areas. The enhanced setting, aimed farther out, shows more of the lanes beside you and shrinks blind spots.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 26",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.109",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "According to the Kansas Driving Handbook, what should you make sure of before you start the engine?",
+    "choices": [
+      "That the gear selector is in Drive",
+      "That the parking brake is set",
+      "That the hazard flashers are switched on",
+      "That the engine has cooled for a few minutes"
+    ],
+    "answer": 1,
+    "explanation": "Kansas says to make sure the parking brake is set before you start the vehicle. With an automatic, keep your right foot on the brake and check that the gear selector is in Park; with a manual, press the clutch and put the shift lever in neutral.",
+    "difficulty": 1,
+    "ref": "Kansas Driving Handbook, p. 30",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.110",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Using hand-to-hand (push/pull) steering as the Kansas Driving Handbook describes, where do your hands grip the wheel?",
+    "choices": [
+      "Left near 10 o'clock, right near 2 o'clock",
+      "Left near 7 to 8 o'clock, right near 4 to 5 o'clock",
+      "Side by side at the top, near 12 o'clock",
+      "One hand at 12 o'clock and the other resting in your lap"
+    ],
+    "answer": 1,
+    "explanation": "For hand-to-hand steering, Kansas says to grip the wheel with your left hand between 7 and 8 o'clock and your right hand between 4 and 5 o'clock, then push and pull without crossing your hands. Uncrossed hands are less likely to be injured if the airbag deploys.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 31",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.111",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "How big a gap in traffic does the Kansas Driving Handbook say you need when changing lanes or merging?",
+    "choices": [
+      "About 1 second",
+      "2 seconds",
+      "4 to 6 seconds",
+      "At least 10 seconds"
+    ],
+    "answer": 2,
+    "explanation": "Kansas says you need a 4- to 6-second gap whenever you change lanes, enter a roadway or merge. Move into the middle of the gap so you and the vehicle behind can settle into a 3-second following distance.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 64",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.112",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "Rain, snow, dust, smoke or fog keeps you from seeing more than 100 feet ahead. According to the Kansas Driving Handbook, what is the fastest you can safely drive?",
+    "choices": [
+      "45 mph",
+      "15 mph",
+      "The posted limit, with low beams on",
+      "30 mph"
+    ],
+    "answer": 3,
+    "explanation": "Kansas says that when you cannot see farther than 100 feet ahead because of rain, snow, blowing dust, smoke or thick fog, you cannot safely drive faster than 30 mph. If you cannot see well enough to drive, pull off the road in a safe place and wait until it clears.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 77",
+    "states": [
+      "KS"
+    ]
+  },
+  {
+    "id": "ks.car.113",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "At night, a vehicle coming toward you keeps its high beams on. According to the Kansas Driving Handbook, what should you do first?",
+    "choices": [
+      "Flash your headlights once, quickly",
+      "Leave your high beams on until the other driver dims",
+      "Look straight at its headlights to track where it is",
+      "Stop in your lane until the vehicle has gone by"
+    ],
+    "answer": 0,
+    "explanation": "Kansas says to flash your headlights once quickly. If the driver still does not dim, look toward the right side of the road so you are not blinded, and do not try to get back at the driver by keeping your high beams on.",
+    "difficulty": 2,
+    "ref": "Kansas Driving Handbook, p. 91",
+    "states": [
+      "KS"
+    ]
   }
 ]

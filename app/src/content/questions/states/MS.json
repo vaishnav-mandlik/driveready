@@ -1,0 +1,2225 @@
+[
+ {
+  "id": "ms.car.001",
+  "track": "car",
+  "topic": "alcohol-drugs",
+  "prompt": "In Mississippi, a driver who is 21 or older is legally under the influence at what blood alcohol concentration (BAC)?",
+  "choices": [
+   "0.05% or more",
+   "0.10% or more",
+   "0.02% or more",
+   "0.08% or more"
+  ],
+  "answer": 3,
+  "explanation": "For drivers 21 and older, Mississippi's limit is .08% BAC. Drivers under 21 face a much lower .02% limit.",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 78",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.002",
+  "track": "car",
+  "topic": "alcohol-drugs",
+  "prompt": "What is the BAC limit for a Mississippi driver under 21?",
+  "choices": [
+   "0.00%",
+   "0.05%",
+   "0.02%",
+   "0.08%"
+  ],
+  "answer": 2,
+  "explanation": "Mississippi has zero tolerance for underage drinking and driving: a driver under 21 is under the influence at .02% BAC or more.",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 78",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.003",
+  "track": "car",
+  "topic": "alcohol-drugs",
+  "prompt": "A 19-year-old Mississippi driver is stopped and tests at 0.09% BAC. How is the offense classified?",
+  "choices": [
+   "As a Zero Tolerance DUI, because the driver is under 21",
+   "As a regular DUI",
+   "As a civil violation only",
+   "It is not an offense below 0.10%"
+  ],
+  "answer": 1,
+  "explanation": "Zero Tolerance DUI covers drivers under 21 with a BAC from .02% up to (but not including) .08%. At .08% or higher, even a driver under 21 is charged with a regular DUI.",
+  "difficulty": 3,
+  "ref": "Mississippi Driver's License Manual, p. 79",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.004",
+  "track": "car",
+  "topic": "alcohol-drugs",
+  "prompt": "What is the penalty for a first Zero Tolerance DUI in Mississippi (driver under 21, BAC .02% to under .08%)?",
+  "choices": [
+   "A $250 fine and a 120-day license suspension",
+   "A written warning only",
+   "A $1,000 fine and a 2-year suspension",
+   "A 30-day suspension with no fine"
+  ],
+  "answer": 0,
+  "explanation": "A first Zero Tolerance DUI brings a $250 fine and a 120-day license suspension. A second within five years means up to $500 and 1 year.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 79",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.005",
+  "track": "car",
+  "topic": "alcohol-drugs",
+  "prompt": "You refuse a breath or chemical test requested by a Mississippi officer, and you have no prior DUI. How long is your license administratively suspended?",
+  "choices": [
+   "30 days",
+   "120 days",
+   "1 year",
+   "90 days"
+  ],
+  "answer": 3,
+  "explanation": "Refusing the breath or chemical test brings a 90-day administrative suspension. It is 1 year if you have a prior DUI conviction or non-adjudication.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 78; DPS Driver Service Bureau, DUI Department page",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.006",
+  "track": "car",
+  "topic": "alcohol-drugs",
+  "prompt": "You refuse a breath test in Mississippi. What happens to your driver's license right away?",
+  "choices": [
+   "Nothing until your court date",
+   "The officer writes a note on it and gives it back",
+   "You must surrender it to the officer, and the receipt you get serves as a temporary permit for 45 days",
+   "It is mailed to you after the case is reviewed"
+  ],
+  "answer": 2,
+  "explanation": "If you refuse, you must surrender your license to the officer immediately. The officer's receipt works as a temporary driving permit valid for only 45 days.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 78",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.007",
+  "track": "car",
+  "topic": "alcohol-drugs",
+  "prompt": "Your breath test in Mississippi shows a BAC at or above your legal limit. The officer takes your license and gives you a receipt. How long does that receipt work as a temporary permit?",
+  "choices": [
+   "10 days",
+   "30 days",
+   "45 days",
+   "90 days"
+  ],
+  "answer": 1,
+  "explanation": "When your BAC reaches your limit, the officer demands your license and issues a receipt that serves as a temporary permit for only 30 days. (After a refusal, the receipt is good for 45 days.)",
+  "difficulty": 3,
+  "ref": "Mississippi Driver's License Manual, p. 78",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.008",
+  "track": "car",
+  "topic": "alcohol-drugs",
+  "prompt": "How long is the license suspension for a first DUI conviction in Mississippi (driver 21 or older)?",
+  "choices": [
+   "120 days",
+   "90 days",
+   "6 months",
+   "1 year"
+  ],
+  "answer": 0,
+  "explanation": "A first-offense DUI (.08% or more, age 21+) carries a 120-day license suspension unless a court allows an ignition-interlock restricted license, plus a $250-$1,000 fine and up to 48 hours in jail.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 79",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.009",
+  "track": "car",
+  "topic": "alcohol-drugs",
+  "prompt": "What is the fine range for a first-offense DUI in Mississippi (driver 21 or older)?",
+  "choices": [
+   "$100 to $500",
+   "$600 to $1,500",
+   "$2,000 to $5,000",
+   "$250 to $1,000"
+  ],
+  "answer": 3,
+  "explanation": "A first DUI is a misdemeanor with a $250-$1,000 fine. $600-$1,500 is the second-offense range and $2,000-$5,000 the third.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 79",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.010",
+  "track": "car",
+  "topic": "alcohol-drugs",
+  "prompt": "A Mississippi driver is convicted of a second DUI within 5 years. How long is the license suspended?",
+  "choices": [
+   "120 days",
+   "6 months",
+   "1 year",
+   "Permanently"
+  ],
+  "answer": 2,
+  "explanation": "A second DUI within five years brings a 1-year suspension, a $600-$1,500 fine and 5 days to 6 months in jail. A third within five years is a felony.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 79",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.011",
+  "track": "car",
+  "topic": "alcohol-drugs",
+  "prompt": "A driver refused the breath test and is later convicted of a first-offense DUI in Mississippi. How does the refusal affect the license penalty?",
+  "choices": [
+   "It is ignored once the driver is convicted",
+   "A 90-day suspension is added to the original penalty",
+   "The suspension is cut in half",
+   "The license is revoked for life"
+  ],
+  "answer": 1,
+  "explanation": "If you are convicted of a first-offense DUI (or first Zero Tolerance DUI) and you refused the test, a 90-day license suspension is added to the original penalty.",
+  "difficulty": 3,
+  "ref": "Mississippi Driver's License Manual, p. 79",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.012",
+  "track": "car",
+  "topic": "alcohol-drugs",
+  "prompt": "A CDL holder is driving a commercial motor vehicle in Mississippi. At what alcohol concentration does a first violation disqualify the driver from commercial driving for one year?",
+  "choices": [
+   "0.04% or more",
+   "0.02% or more",
+   "0.08% or more",
+   "0.10% or more"
+  ],
+  "answer": 0,
+  "explanation": "Operating a commercial motor vehicle with an alcohol concentration of 0.04% or more disqualifies a CDL holder from commercial driving for one year on a first violation.",
+  "difficulty": 2,
+  "ref": "Mississippi DPS Driver Service Bureau, DUI Department page",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.013",
+  "track": "car",
+  "topic": "alcohol-drugs",
+  "prompt": "Under Mississippi law, smoking medical cannabis in a motor vehicle is:",
+  "choices": [
+   "Legal if you hold a medical cannabis card",
+   "Legal for a passenger as long as the driver is sober",
+   "Legal if the vehicle is parked",
+   "A violation of Mississippi law that can result in arrest"
+  ],
+  "answer": 3,
+  "explanation": "Smoking medical cannabis in a motor vehicle, or driving or being in actual physical control of a vehicle while under its influence, violates Mississippi law and can lead to arrest.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 77",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.014",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "What is the minimum age to apply for a Regular Learner's Permit in Mississippi?",
+  "choices": [
+   "14",
+   "15 and a half",
+   "15",
+   "16"
+  ],
+  "answer": 2,
+  "explanation": "You must be at least 15 years old to apply for a Regular Learner's Permit, and you must pass the same Computerized Exam used for the regular license.",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 13",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.015",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "How long is a Mississippi Regular Learner's Permit valid?",
+  "choices": [
+   "6 months",
+   "2 years",
+   "1 year",
+   "4 years"
+  ],
+  "answer": 1,
+  "explanation": "The Regular Learner's Permit is valid for two years.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 13",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.016",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "Who must be with you when you drive on a Mississippi learner's permit?",
+  "choices": [
+   "A licensed driver 21 or older sitting in the seat next to you",
+   "Any licensed driver 18 or older, sitting anywhere in the car",
+   "A parent only",
+   "No one during daylight hours"
+  ],
+  "answer": 0,
+  "explanation": "The permit lets you drive only when a licensed driver aged 21 or older is physically occupying the seat next to you.",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 13",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.017",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "If you are under 17, how long must you hold a Mississippi learner's permit before getting a regular (Class R) license?",
+  "choices": [
+   "6 months",
+   "9 months",
+   "2 years",
+   "1 year"
+  ],
+  "answer": 3,
+  "explanation": "You must hold the learner's permit for one year before you can upgrade to a Regular Driver's License (unless you turn 17 first).",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 13",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.018",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "You received your Mississippi learner's permit at age 15 and a half. When are you first eligible for a regular driver's license?",
+  "choices": [
+   "At 16",
+   "At 17",
+   "At 16 and a half",
+   "At 18"
+  ],
+  "answer": 2,
+  "explanation": "The permit must be held for one year, so a permit issued at 15½ makes you eligible for a Regular Driver's License at 16½.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 15",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.019",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "A Mississippi permit holder turns 17 after holding the permit for only 8 months. May they apply for a regular license?",
+  "choices": [
+   "No, they must finish the full 12 months",
+   "Yes; turning 17 ends the one-year holding requirement",
+   "Only with a court order",
+   "Only after passing a road test"
+  ],
+  "answer": 1,
+  "explanation": "If you turn seventeen before you have held the learner's permit for one year, you are eligible to apply for a Regular License.",
+  "difficulty": 3,
+  "ref": "Mississippi Driver's License Manual, p. 13",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.020",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "You first apply for a Mississippi license at age 17. What may you do?",
+  "choices": [
+   "Apply directly for a regular driver's license, taking the Computerized Exam the same day",
+   "You must still hold a learner's permit for one year",
+   "Wait until you turn 18",
+   "Take a road test before the written exam"
+  ],
+  "answer": 0,
+  "explanation": "If you first apply at 17 or older, you may apply directly for a Regular Driver's License and complete the Computerized Exam on the same day.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 15",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.021",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "While on a Mississippi learner's permit, a teen is convicted of a moving violation. What happens to the one-year permit requirement?",
+  "choices": [
+   "Nothing; the time already held still counts",
+   "It is shortened to six months",
+   "The permit automatically becomes a license",
+   "The one-year holding period starts over"
+  ],
+  "answer": 3,
+  "explanation": "A DUI conviction or a moving-violation conviction restarts the one-year period a learner's permit must be held before the teen can qualify for a driver's license.",
+  "difficulty": 3,
+  "ref": "Miss. Code Ann. § 63-1-9(2)(b)",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.022",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "How many hours of driving must a parent, teacher, or guardian certify for a Mississippi license applicant under 17?",
+  "choices": [
+   "20 hours",
+   "30 hours",
+   "50 hours",
+   "60 hours"
+  ],
+  "answer": 2,
+  "explanation": "Applicants under 17 need an affidavit in which a parent, teacher, or guardian certifies watching them drive for at least 50 hours and attests to their safe driving.",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 17",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.023",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "Does Mississippi currently require a road (skills) test for a regular driver's license?",
+  "choices": [
+   "Yes, for every applicant",
+   "No; applicants under 17 submit a 50-hour Road Test Waiver affidavit instead",
+   "Yes, but only for applicants under 18",
+   "Only if you fail the Computerized Exam"
+  ],
+  "answer": 1,
+  "explanation": "DPS states that no skills (road) test is currently required for a regular license. Applicants under 17 provide the Road Test Waiver affidavit certifying 50 hours of driving.",
+  "difficulty": 2,
+  "ref": "Mississippi DPS Driver Service Bureau, Regular Driver License page",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.024",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "After you pass Mississippi's Computerized Exam, how long does your score stay valid?",
+  "choices": [
+   "2 years",
+   "30 days",
+   "6 months",
+   "1 year"
+  ],
+  "answer": 0,
+  "explanation": "Your Computerized Exam score is valid for two years. If you wait longer than two years to apply for your license, you must retake the exam.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 13",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.025",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "A Mississippi applicant under 18 brings a School Certification of Attendance form. How old may the form be?",
+  "choices": [
+   "No more than 60 days old",
+   "No more than 6 months old",
+   "Any age, as long as it is signed",
+   "No more than 30 days old"
+  ],
+  "answer": 3,
+  "explanation": "Applicants under 18 must prove school enrollment with a Certification of Attendance form that is not over thirty days old.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 16",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.026",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "In Mississippi, what is true of the adult who signs a minor's license application?",
+  "choices": [
+   "They have no legal responsibility",
+   "They must ride with the minor until age 18",
+   "They become liable for the minor's negligence or willful misconduct, and their signature must be notarized",
+   "They must also take the Computerized Exam"
+  ],
+  "answer": 2,
+  "explanation": "Whoever signs your application is liable for your negligence or willful misconduct and must have the signature notarized. The signer may later ask in writing that your license be cancelled.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 16",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.027",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "Beginning July 1, 2027, what will first-time Mississippi driver's license applicants have to show?",
+  "choices": [
+   "A passed road test with a DPS examiner",
+   "Proof of completing a certified Driver's Education and Training Program",
+   "A log of 100 hours of driving",
+   "A high school diploma"
+  ],
+  "answer": 1,
+  "explanation": "Beginning July 1, 2027, you must provide signed documentation of completing a Driver's Education and Training Program certified by the State Board of Education or the Department of Public Safety.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 16",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.028",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "You just moved to Mississippi. How long do you have to get a Mississippi driver's license?",
+  "choices": [
+   "60 days",
+   "10 days",
+   "30 days",
+   "90 days"
+  ],
+  "answer": 0,
+  "explanation": "New residents must obtain a Mississippi driver's license within 60 days (and a Mississippi license plate within 30 days).",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 11",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.029",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "After moving to Mississippi, how soon must you get a Mississippi license plate (tag)?",
+  "choices": [
+   "Within 10 days",
+   "Within 60 days",
+   "Within 6 months",
+   "Within 30 days"
+  ],
+  "answer": 3,
+  "explanation": "You must obtain a Mississippi license plate/tag within thirty days of moving to Mississippi; the driver's license deadline is 60 days.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 11",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.030",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "A new Mississippi resident's out-of-state driver's license expired 45 days ago. What must they do?",
+  "choices": [
+   "Nothing extra; it transfers like a valid license",
+   "Pass only a vision screening",
+   "Take the Computerized Exam",
+   "Take only a road test"
+  ],
+  "answer": 2,
+  "explanation": "A valid out-of-state license waives the Computerized Exam (a vision screening is still required), but a new resident whose out-of-state license has expired must take the Computerized Exam.",
+  "difficulty": 3,
+  "ref": "Mississippi Driver's License Manual, p. 11; DPS Driver Service Bureau, Regular Driver License page",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.031",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "How early may you renew a Mississippi driver's license before it expires?",
+  "choices": [
+   "Up to 30 days before",
+   "Up to 6 months before",
+   "Up to 90 days before",
+   "Up to 1 year before"
+  ],
+  "answer": 1,
+  "explanation": "A licensed driver who qualifies for renewal may renew up to six months before the expiration date.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 12",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.032",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "What are Mississippi's minimum liability insurance limits?",
+  "choices": [
+   "$25,000 per person / $50,000 per accident / $25,000 property damage",
+   "$15,000 / $30,000 / $5,000",
+   "$30,000 / $60,000 / $25,000",
+   "$50,000 / $100,000 / $50,000"
+  ],
+  "answer": 0,
+  "explanation": "Mississippi requires at least $25,000 for injury to one person, $50,000 for two or more people in one accident, and $25,000 for property damage (25/50/25).",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 76",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.033",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "Three people are injured in one crash caused by a Mississippi driver with only minimum coverage. What is the most that policy pays for all their injuries combined?",
+  "choices": [
+   "$25,000",
+   "$75,000",
+   "$100,000",
+   "$50,000"
+  ],
+  "answer": 3,
+  "explanation": "The minimum is $50,000 when two or more people are injured in a single accident ($25,000 for any one person).",
+  "difficulty": 3,
+  "ref": "Mississippi Driver's License Manual, p. 76",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.034",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "Can you show proof of insurance on your phone during a Mississippi traffic stop?",
+  "choices": [
+   "No, only a paper card is accepted",
+   "Only if your insurer emails the officer",
+   "Yes, an electronic image on a cell phone or other device is accepted",
+   "Only after a crash"
+  ],
+  "answer": 2,
+  "explanation": "Mississippi accepts proof of insurance displayed as an electronic image on a cellular phone or other electronic device. A current card must be kept in each vehicle.",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 76",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.035",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "Under Mississippi law, what can happen if you do not have your insurance card in the vehicle (or on your phone)?",
+  "choices": [
+   "Only a warning",
+   "A $100 fine and suspension of driving privileges for one year or until you show proof of insurance",
+   "A $25 fine with no suspension",
+   "A 30-day vehicle impoundment only"
+  ],
+  "answer": 1,
+  "explanation": "Failing to have the insurance card in the vehicle or on a phone is a misdemeanor punishable by a $100 fine and suspension for one year or until proof of the required liability insurance is shown (Miss. Code 63-15-4(4)).",
+  "difficulty": 3,
+  "ref": "Mississippi DPS Driver Service Bureau, Crash Reports / Judgements page",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.036",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "An uninsured Mississippi driver causes a crash that injures another person. Besides any other penalties, what must the driver do?",
+  "choices": [
+   "Buy liability insurance, file proof of it, and keep it in effect for 3 years from the crash date",
+   "Nothing once the other party is paid",
+   "Retake the Computerized Exam",
+   "Carry insurance for 6 months"
+  ],
+  "answer": 0,
+  "explanation": "An at-fault driver who had no liability insurance must buy it and file proof from a Mississippi-licensed insurer showing minimum coverage, kept in effect for three years from the date of the accident.",
+  "difficulty": 3,
+  "ref": "Mississippi Driver's License Manual, p. 76",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.037",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "Which convictions require Mississippi to revoke a driver's license for one year?",
+  "choices": [
+   "Any single speeding ticket",
+   "Two parking tickets in one year",
+   "Driving with an expired tag",
+   "Three reckless-driving convictions within 12 months"
+  ],
+  "answer": 3,
+  "explanation": "The Commissioner must revoke a license for one year after convictions such as three reckless-driving convictions within twelve months, vehicular manslaughter, or failing to stop and render aid after a crash.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 80",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.038",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "A 16-year-old got a Mississippi regular license two months ago. At 11:00 p.m. on a Tuesday, the teen wants to drive alone to a friend's house. What does state law say?",
+  "choices": [
+   "It is allowed; regular licenses have no hour limits",
+   "It is allowed only on interstates",
+   "The teen must have a parent, guardian, or licensed driver 21 or older in the seat beside them",
+   "It is allowed if a 16-year-old friend rides along"
+  ],
+  "answer": 2,
+  "explanation": "For their first six months, license holders under 18 may drive unsupervised only from 6 a.m. to 10 p.m. Sunday-Thursday (6 a.m.-11:30 p.m. Friday-Saturday), unless going directly to or from work or a school or extracurricular activity.",
+  "difficulty": 3,
+  "ref": "Miss. Code Ann. § 63-1-21(3)",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.039",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "During their first six months with a regular license, until what time may Mississippi drivers under 18 drive unsupervised on Friday and Saturday nights?",
+  "choices": [
+   "10:00 p.m.",
+   "11:30 p.m.",
+   "11:00 p.m.",
+   "Midnight"
+  ],
+  "answer": 1,
+  "explanation": "Unsupervised driving is allowed from 6:00 a.m. to 11:30 p.m. on Friday and Saturday (10:00 p.m. Sunday through Thursday) during the first six months for license holders under 18.",
+  "difficulty": 2,
+  "ref": "Miss. Code Ann. § 63-1-21(3)",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.040",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "A 16-year-old with a new Mississippi license drives home alone at 11:15 p.m. on a Wednesday, directly from a shift at work. Is this allowed?",
+  "choices": [
+   "Yes; driving directly to or from work is allowed at any time",
+   "No, never after 10 p.m.",
+   "Only with a note from the employer",
+   "Only on weekends"
+  ],
+  "answer": 0,
+  "explanation": "Drivers under 18 may drive unsupervised at any time when traveling directly to or from work or another educational or extracurricular activity.",
+  "difficulty": 3,
+  "ref": "Miss. Code Ann. § 63-1-21(3)",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.041",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "A 16-year-old holds a Mississippi hardship license. Which statement is true?",
+  "choices": [
+   "They may carry any passengers they like",
+   "They may use a phone if it is hands-free",
+   "They may drive unsupervised anywhere at any time",
+   "They may carry only immediate family members and may not use a phone at all while driving"
+  ],
+  "answer": 3,
+  "explanation": "Hardship licensees may transport only immediate family (siblings, parents, grandparents) and may not use a cell phone in any manner while driving, even hands-free. Unsupervised driving is limited to school, work, siblings' school trips and medical needs.",
+  "difficulty": 3,
+  "ref": "Mississippi DPS Driver Service Bureau, Hardship License page",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.042",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "What must a Mississippi driver do when a law enforcement officer asks to see their driver's license?",
+  "choices": [
+   "Hold it against the window without handing it over",
+   "Read the license number aloud",
+   "Hand the license to the officer for inspection",
+   "Mail a copy to DPS within 5 days"
+  ],
+  "answer": 2,
+  "explanation": "Every licensee must have the license in immediate possession when driving and display it by handing it to a law enforcement officer for inspection on demand (law effective July 1, 2026).",
+  "difficulty": 2,
+  "ref": "Miss. Code Ann. § 63-1-41",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.043",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "Mississippi requires that after-market tinted windows let through at least what percentage of light?",
+  "choices": [
+   "18%",
+   "28%",
+   "35%",
+   "50%"
+  ],
+  "answer": 1,
+  "explanation": "Tinted windows must be inspected, and a label on the windshield must certify that all windows have a light transmittance of 28% or more. The $5 decal goes on the lower left corner of the windshield.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 75",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.044",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "Under Mississippi's squatted vehicle law, it is illegal to drive a passenger vehicle altered so its front fender sits how much higher than the rear fender?",
+  "choices": [
+   "4 or more inches",
+   "2 or more inches",
+   "3 or more inches",
+   "6 or more inches"
+  ],
+  "answer": 0,
+  "explanation": "It is unlawful to drive a passenger vehicle whose suspension, frame or chassis was altered so the front fender is raised four or more inches above the rear fender.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 20",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.045",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "Does Mississippi law require a passenger car to have a rearview mirror?",
+  "choices": [
+   "Yes, always",
+   "Only for night driving",
+   "Only for drivers under 18",
+   "No, though one is recommended (a truck whose body blocks the rear view must have a side mirror)"
+  ],
+  "answer": 3,
+  "explanation": "Mississippi law does not require a rearview mirror, but having one is recommended. If you drive a truck whose body blocks your view of the road behind, a side mirror is required.",
+  "difficulty": 3,
+  "ref": "Mississippi Driver's License Manual, p. 19",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.046",
+  "track": "car",
+  "topic": "safe-habits",
+  "prompt": "Who must wear a seat belt in a moving passenger vehicle in Mississippi?",
+  "choices": [
+   "Only the driver",
+   "The driver and front-seat passengers only",
+   "The driver and every passenger, front and back seats",
+   "Only passengers under 18"
+  ],
+  "answer": 2,
+  "explanation": "Drivers and all passengers must wear a properly fastened seat belt, whether they ride in the front seat or the back seat. Violators can be fined.",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 64",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.047",
+  "track": "car",
+  "topic": "safe-habits",
+  "prompt": "In Mississippi, children younger than what age must ride in a child passenger restraint device (car seat)?",
+  "choices": [
+   "2",
+   "4",
+   "6",
+   "8"
+  ],
+  "answer": 1,
+  "explanation": "Children under four years old must be secured in a car seat that meets safety standards. Older children under seven may need a booster seat.",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 64",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.048",
+  "track": "car",
+  "topic": "safe-habits",
+  "prompt": "A Mississippi child is 5 years old, 4 feet 6 inches tall and weighs 70 pounds. What restraint does the law require?",
+  "choices": [
+   "A belt-positioning booster seat, because the child is shorter than 4 feet 9 inches",
+   "A regular seat belt, because the child weighs more than 65 pounds",
+   "A rear-facing car seat",
+   "No restraint in the back seat"
+  ],
+  "answer": 0,
+  "explanation": "Children at least 4 but under 7 who are under 4 feet 9 inches OR weigh less than 65 pounds must ride in a booster seat. Being under 4'9\" alone triggers the requirement.",
+  "difficulty": 3,
+  "ref": "Mississippi Driver's License Manual, p. 64",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.049",
+  "track": "car",
+  "topic": "safe-habits",
+  "prompt": "Which of these is illegal for every driver in Mississippi?",
+  "choices": [
+   "Talking on a hand-held phone",
+   "Following a GPS app's spoken directions",
+   "Listening to the radio at a low volume",
+   "Reading a text message on a hand-held phone while driving"
+  ],
+  "answer": 3,
+  "explanation": "Writing, sending or reading text messages and reading or posting to social networking sites on a hand-held phone are banned for all drivers. Hand-held calls are not banned for adults, but the manual recommends a hands-free device.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 23",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.050",
+  "track": "car",
+  "topic": "safe-habits",
+  "prompt": "What is the civil penalty for texting while driving in Mississippi?",
+  "choices": [
+   "$25",
+   "$50",
+   "$100",
+   "$500"
+  ],
+  "answer": 2,
+  "explanation": "Writing, sending or reading a text (or using social media) on a hand-held phone while driving is a civil violation with a $100 penalty.",
+  "difficulty": 2,
+  "ref": "Miss. Code Ann. § 63-33-1",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.051",
+  "track": "car",
+  "topic": "speed-space",
+  "prompt": "According to the Mississippi Driver's License Manual, what is the maximum speed for any vehicle in a school zone?",
+  "choices": [
+   "10 mph",
+   "15 mph",
+   "20 mph",
+   "25 mph"
+  ],
+  "answer": 1,
+  "explanation": "The manual sets 15 mph as the school-zone maximum when passing a school during recess or while children are arriving or leaving. Always obey the posted school-zone sign.",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, pp. 31, 41",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.052",
+  "track": "car",
+  "topic": "speed-space",
+  "prompt": "What is the speed limit on Mississippi interstates?",
+  "choices": [
+   "70 mph, day and night",
+   "65 mph",
+   "70 mph by day and 65 mph at night",
+   "75 mph"
+  ],
+  "answer": 0,
+  "explanation": "The interstate speed limit is 70 mph for both day and night, for ideal road and weather conditions.",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 70",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.053",
+  "track": "car",
+  "topic": "speed-space",
+  "prompt": "Unless signs say otherwise, what is the minimum speed on Mississippi interstates?",
+  "choices": [
+   "30 mph",
+   "45 mph",
+   "50 mph",
+   "40 mph"
+  ],
+  "answer": 3,
+  "explanation": "Mississippi interstates have a 40 mph minimum and a 70 mph maximum. If you are slower than other traffic, stay in the right lane.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 41",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.054",
+  "track": "car",
+  "topic": "speed-space",
+  "prompt": "Unless signs say otherwise, what is the usual maximum speed for a car on a four-lane state or U.S. highway in Mississippi?",
+  "choices": [
+   "55 mph",
+   "60 mph",
+   "65 mph",
+   "70 mph"
+  ],
+  "answer": 2,
+  "explanation": "Four-lane state and U.S. highways usually have a 65 mph maximum. Interstates are 70 mph and two-lane highways 55 mph; always follow posted signs.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 41",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.055",
+  "track": "car",
+  "topic": "speed-space",
+  "prompt": "What is the usual maximum speed for a car on a two-lane state or U.S. highway in Mississippi?",
+  "choices": [
+   "45 mph",
+   "55 mph",
+   "50 mph",
+   "65 mph"
+  ],
+  "answer": 1,
+  "explanation": "Two-lane state and U.S. highways usually have a 55 mph limit; always follow posted signs.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 41",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.056",
+  "track": "car",
+  "topic": "speed-space",
+  "prompt": "What is the maximum speed on the Natchez Trace Parkway in Mississippi?",
+  "choices": [
+   "50 mph",
+   "45 mph",
+   "55 mph",
+   "65 mph"
+  ],
+  "answer": 0,
+  "explanation": "The Natchez Trace Parkway's maximum speed is 50 mph, except where lower speeds are posted. Radar is used.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 90",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.057",
+  "track": "car",
+  "topic": "speed-space",
+  "prompt": "In Mississippi, posted speed limits are meant for:",
+  "choices": [
+   "All conditions, including rain and fog",
+   "Daytime only",
+   "Trucks and buses only",
+   "Ideal conditions; slow down when weather, traffic or visibility is poor"
+  ],
+  "answer": 3,
+  "explanation": "Posted speed limits are intended for ideal conditions. Reduce speed on curves, near intersections, on narrow roads, in congested traffic and in poor weather or visibility.",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 41",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.058",
+  "track": "car",
+  "topic": "speed-space",
+  "prompt": "Using Mississippi's following-distance rule, how much space should you leave behind another vehicle at 50 mph?",
+  "choices": [
+   "2 car lengths",
+   "3 car lengths",
+   "5 car lengths",
+   "10 car lengths"
+  ],
+  "answer": 2,
+  "explanation": "Allow at least one car length for every 10 mph of speed, so 5 car lengths at 50 mph. Leave even more room behind trucks and buses.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 43",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.059",
+  "track": "car",
+  "topic": "speed-space",
+  "prompt": "On a Mississippi interstate at 70 mph, the manual says to stay at least how far behind the vehicle ahead?",
+  "choices": [
+   "3 car lengths",
+   "7 car lengths",
+   "5 car lengths",
+   "10 car lengths"
+  ],
+  "answer": 1,
+  "explanation": "At 70 mph, stay at least seven car lengths from the vehicle ahead (one car length per 10 mph). Tailgating is a main cause of interstate collisions.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 70",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.060",
+  "track": "car",
+  "topic": "signals-markings",
+  "prompt": "When preparing for a turn in Mississippi, at least how far before the intersection should you turn on your signal and slow down?",
+  "choices": [
+   "100 feet",
+   "50 feet",
+   "200 feet",
+   "500 feet"
+  ],
+  "answer": 0,
+  "explanation": "The manual's turning steps say to turn on your signal and slow down at least 100 feet from the intersection.",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 51",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.061",
+  "track": "car",
+  "topic": "signals-markings",
+  "prompt": "Two lanes going the same direction are separated by a single solid white line. What does the Mississippi manual say about crossing it?",
+  "choices": [
+   "Crossing it is prohibited",
+   "It may be crossed only to pass on the right",
+   "It separates traffic moving in opposite directions",
+   "Crossing it is discouraged"
+  ],
+  "answer": 3,
+  "explanation": "A single solid white line separates same-direction lanes, and crossing it is discouraged. Crossing a double solid white line is prohibited.",
+  "difficulty": 3,
+  "ref": "Mississippi Driver's License Manual, p. 25",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.062",
+  "track": "car",
+  "topic": "road-signs",
+  "prompt": "In rural Mississippi, the round yellow railroad advance warning sign is normally posted how far before the tracks?",
+  "choices": [
+   "50 to 100 feet",
+   "100 to 300 feet",
+   "500 to 900 feet",
+   "About 1 mile"
+  ],
+  "answer": 2,
+  "explanation": "In rural areas the round yellow crossbuck warning sign is normally posted 500 to 900 feet before the tracks. It means look, listen, and slow down because you may have to stop.",
+  "difficulty": 3,
+  "ref": "Mississippi Driver's License Manual, p. 35",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.063",
+  "track": "car",
+  "topic": "right-of-way",
+  "prompt": "When a Mississippi school bus has its red lights flashing or its stop sign extended, how far from the bus must you stop?",
+  "choices": [
+   "At least 5 feet",
+   "At least 10 feet",
+   "At least 20 feet",
+   "At least 30 feet"
+  ],
+  "answer": 1,
+  "explanation": "Mississippi law says to come to a complete stop at least ten feet away from the bus.",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 58",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.064",
+  "track": "car",
+  "topic": "right-of-way",
+  "prompt": "You are on a two-lane Mississippi road when an oncoming school bus stops with its red lights flashing. What must you do?",
+  "choices": [
+   "Stop; you must stop for the bus regardless of your direction of travel",
+   "Keep going, since you are traveling the other way",
+   "Slow to 15 mph and pass carefully",
+   "Sound your horn and continue"
+  ],
+  "answer": 0,
+  "explanation": "You must stop for a school bus showing red lights or a stop sign regardless of your direction of travel. Only opposite-direction traffic on a divided highway of four or more lanes may continue.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 58",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.065",
+  "track": "car",
+  "topic": "right-of-way",
+  "prompt": "On a divided Mississippi highway with four or more lanes (at least two each way), a school bus stops across the median with red lights flashing. You are traveling in the opposite direction. What may you do?",
+  "choices": [
+   "You must stop at least 10 feet away",
+   "You must stop only if children are visible",
+   "You must slow to 15 mph",
+   "You may continue on your side of the divided highway without stopping"
+  ],
+  "answer": 3,
+  "explanation": "On a divided highway of four or more lanes, traffic going the opposite direction from the stopped bus may continue; traffic going the same direction must still stop.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 58",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.066",
+  "track": "car",
+  "topic": "right-of-way",
+  "prompt": "A Mississippi school bus stops in a loading zone beside the highway where pedestrians are not allowed to cross the road. Must you stop?",
+  "choices": [
+   "Yes, always",
+   "Only if you are behind the bus",
+   "No",
+   "Only before 8 a.m."
+  ],
+  "answer": 2,
+  "explanation": "If the bus stops in a loading zone that is part of or next to the highway, where pedestrians may not cross the roadway, you do not have to stop.",
+  "difficulty": 3,
+  "ref": "Mississippi Driver's License Manual, p. 58",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.067",
+  "track": "car",
+  "topic": "right-of-way",
+  "prompt": "According to the Mississippi manual, is yielding the right-of-way to a funeral procession required by law?",
+  "choices": [
+   "Yes; failing to yield is a misdemeanor",
+   "No; it is common courtesy, not required by law",
+   "Only on state highways",
+   "Only inside city limits"
+  ],
+  "answer": 1,
+  "explanation": "The manual says that although not required by law, common courtesy is to yield the right-of-way to funeral processions.",
+  "difficulty": 3,
+  "ref": "Mississippi Driver's License Manual, p. 59",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.068",
+  "track": "car",
+  "topic": "right-of-way",
+  "prompt": "A pedestrian is crossing at a corner with no painted crosswalk lines. Under Mississippi's rules, who has the right-of-way?",
+  "choices": [
+   "The pedestrian, because a crosswalk exists whether or not it is marked",
+   "The driver, because the crosswalk is not marked",
+   "Whoever arrived first",
+   "The vehicle turning right"
+  ],
+  "answer": 0,
+  "explanation": "A person walking across the street within a crosswalk, marked or not, always has the right-of-way.",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 59",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.069",
+  "track": "car",
+  "topic": "intersections-turns",
+  "prompt": "In Mississippi, what must you do before turning right on a red light where turns are not prohibited?",
+  "choices": [
+   "Slow down and yield; a full stop is optional",
+   "Wait for the light to turn green",
+   "Sound your horn to warn pedestrians",
+   "Stop completely and yield to traffic and pedestrians"
+  ],
+  "answer": 3,
+  "explanation": "You must stop completely and yield before turning right on red. Only yielding before turning is not enough and is illegal.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 37",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.070",
+  "track": "car",
+  "topic": "lanes-passing",
+  "prompt": "In Mississippi, you may not pass within how many feet of a bridge, railroad crossing, crosswalk or intersection?",
+  "choices": [
+   "50 feet",
+   "200 feet",
+   "100 feet",
+   "500 feet"
+  ],
+  "answer": 2,
+  "explanation": "Do not pass on hills or curves or within 100 feet of bridges, viaducts, overpasses, railroad crossings, crosswalks, intersections, or anywhere your view is obstructed.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 47",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.071",
+  "track": "car",
+  "topic": "lanes-passing",
+  "prompt": "On a Mississippi road with two or more lanes in your direction, when may you drive in the far-left lane?",
+  "choices": [
+   "Whenever you are going the speed limit",
+   "When passing, when the right lane is closed or unsafe, or when preparing to exit on the left",
+   "Any time traffic is light",
+   "Only at night"
+  ],
+  "answer": 1,
+  "explanation": "State law bars driving in the outermost left lane except to pass, when the right lane is closed for work or is in disrepair or unsafe, or when exiting on the left. The fine is $5 to $50.",
+  "difficulty": 2,
+  "ref": "Miss. Code Ann. § 63-3-603(2)",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.072",
+  "track": "car",
+  "topic": "lanes-passing",
+  "prompt": "According to the Mississippi manual, may you cross the center line of a four-lane highway to pass another vehicle?",
+  "choices": [
+   "No, it is never legal",
+   "Yes, if the opposing lanes are clear",
+   "Yes, on straight stretches only",
+   "Only to pass a slow truck"
+  ],
+  "answer": 0,
+  "explanation": "It is never legal to move across the center line of a four-lane highway to pass. You may pass on the left or right only in lanes going your direction.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 47",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.073",
+  "track": "car",
+  "topic": "freeway",
+  "prompt": "When leaving a Mississippi interstate, you should be in the correct lane at least how far before your exit?",
+  "choices": [
+   "500 feet",
+   "One mile",
+   "Two miles",
+   "One-quarter mile"
+  ],
+  "answer": 3,
+  "explanation": "Be sure you are in the correct lane at least one-quarter mile from your exit. Most exits are on the right, but some are on the left.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 69",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.074",
+  "track": "car",
+  "topic": "freeway",
+  "prompt": "Your car breaks down and you are stranded on a Mississippi interstate. What does the manual advise?",
+  "choices": [
+   "Walk along the shoulder to the next exit",
+   "Stand beside your car and wave traffic around it",
+   "Stay inside the vehicle, lock the doors, and wait for reliable help",
+   "Hitchhike to the nearest town"
+  ],
+  "answer": 2,
+  "explanation": "If stranded on the interstate, never get out into traffic, stand beside the car, walk along or across the interstate, or hitchhike. Stay inside, lock the doors, and wait for reliable help.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 70",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.075",
+  "track": "car",
+  "topic": "hazards-conditions",
+  "prompt": "Crossing signals are flashing at a Mississippi railroad crossing. Under state law, where must you stop?",
+  "choices": [
+   "Within 50 feet of the nearest rail, but no closer than 15 feet",
+   "No closer than 5 feet from the nearest rail",
+   "At least 100 feet from the tracks",
+   "Anywhere, as long as no part of the car is on the tracks"
+  ],
+  "answer": 0,
+  "explanation": "Mississippi law (Miss. Code 63-3-1007) requires stopping within 50 feet but not less than 15 feet from the nearest rail when signals warn of a train, and waiting until it is safe. The driver's manual still prints an older 10-foot minimum; current law says 15 feet.",
+  "difficulty": 2,
+  "ref": "Miss. Code Ann. § 63-3-1007 (2018 SB 2621); Mississippi Driver's License Manual, p. 36",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.076",
+  "track": "car",
+  "topic": "hazards-conditions",
+  "prompt": "Which vehicles must stop at every Mississippi railroad crossing, even when no signal is flashing?",
+  "choices": [
+   "A school bus carrying even one child, a vehicle for hire carrying passengers, and vehicles carrying explosives or flammable liquids",
+   "Pickup trucks and SUVs",
+   "Motorcycles",
+   "Any vehicle towing a trailer"
+  ],
+  "answer": 0,
+  "explanation": "A school bus carrying even one child, a vehicle for hire carrying passengers, and a vehicle carrying explosives or flammable liquids must stop at every crossing, even with no signal flashing: by law, within 50 feet but no closer than 15 feet from the nearest rail.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 35; Miss. Code Ann. § 63-3-1011",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.077",
+  "track": "car",
+  "topic": "hazards-conditions",
+  "prompt": "Your car is stuck on the tracks and the crossing lights start flashing. According to the Mississippi manual, how much time might you have before the train arrives?",
+  "choices": [
+   "About 2 minutes",
+   "About 5 minutes",
+   "At least 10 minutes",
+   "As little as 20 seconds"
+  ],
+  "answer": 3,
+  "explanation": "Once the warning lights activate, you may have only about 20 seconds before the train reaches the crossing. Get out of the vehicle right away.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 36",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.078",
+  "track": "car",
+  "topic": "hazards-conditions",
+  "prompt": "In Mississippi, you must use your headlights from sunset to sunrise and whenever you cannot see clearly ahead for at least:",
+  "choices": [
+   "200 feet",
+   "350 feet",
+   "500 feet",
+   "1,000 feet"
+  ],
+  "answer": 2,
+  "explanation": "Use your lights between sunset and sunrise and at any other time when you cannot see clearly ahead for 500 feet. Do not drive with only parking lights on.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 63",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.079",
+  "track": "car",
+  "topic": "hazards-conditions",
+  "prompt": "Mississippi law requires you to switch to low beams when an oncoming vehicle comes within how many feet?",
+  "choices": [
+   "200 feet",
+   "500 feet",
+   "300 feet",
+   "1,000 feet"
+  ],
+  "answer": 1,
+  "explanation": "You are required by law to use low beams within 500 feet of an oncoming vehicle.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 63",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.080",
+  "track": "car",
+  "topic": "hazards-conditions",
+  "prompt": "According to the Mississippi manual, you must use low beams when following another vehicle within how many feet?",
+  "choices": [
+   "500 feet",
+   "100 feet",
+   "200 feet",
+   "300 feet"
+  ],
+  "answer": 0,
+  "explanation": "The Mississippi manual says to use low beams when you are following within 500 feet of another vehicle, the same distance it gives for oncoming vehicles. It also says to always use low beams when following another car.",
+  "difficulty": 3,
+  "ref": "Mississippi Driver's License Manual, p. 63",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.081",
+  "track": "car",
+  "topic": "parking",
+  "prompt": "In Mississippi, you may not park within how many feet of a fire hydrant?",
+  "choices": [
+   "5 feet",
+   "15 feet",
+   "20 feet",
+   "10 feet"
+  ],
+  "answer": 3,
+  "explanation": "Mississippi prohibits parking within ten feet of a fire hydrant.",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 60",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.082",
+  "track": "car",
+  "topic": "parking",
+  "prompt": "In Mississippi, you may not park within how many feet of a crosswalk at an intersection?",
+  "choices": [
+   "10 feet",
+   "15 feet",
+   "20 feet",
+   "30 feet"
+  ],
+  "answer": 2,
+  "explanation": "You may not park on a crosswalk or within 20 feet of a crosswalk at an intersection.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 60",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.083",
+  "track": "car",
+  "topic": "parking",
+  "prompt": "In Mississippi, how far must you park from the approach to a stop sign or other traffic control device?",
+  "choices": [
+   "At least 15 feet",
+   "At least 30 feet",
+   "At least 20 feet",
+   "At least 50 feet"
+  ],
+  "answer": 1,
+  "explanation": "Parking is prohibited within thirty feet of the approach to any traffic control device.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 60",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.084",
+  "track": "car",
+  "topic": "parking",
+  "prompt": "In Mississippi, you may not park within how many feet of the nearest rail of a railroad crossing?",
+  "choices": [
+   "15 feet",
+   "10 feet",
+   "30 feet",
+   "50 feet"
+  ],
+  "answer": 0,
+  "explanation": "You may not park within fifteen feet of the nearest rail of any railroad crossing.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 60",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.085",
+  "track": "car",
+  "topic": "parking",
+  "prompt": "No signs are posted. How far must you stay from a fire station's driveway entrance when parking in Mississippi?",
+  "choices": [
+   "10 feet",
+   "50 feet",
+   "75 feet",
+   "20 feet"
+  ],
+  "answer": 3,
+  "explanation": "Do not park within 20 feet of a fire station's driveway entrance, or within 75 feet when that distance is posted.",
+  "difficulty": 3,
+  "ref": "Mississippi Driver's License Manual, p. 60",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.086",
+  "track": "car",
+  "topic": "parking",
+  "prompt": "When parallel parked in Mississippi, your tires should be within how many inches of the curb?",
+  "choices": [
+   "6 inches",
+   "18 inches",
+   "12 inches",
+   "24 inches"
+  ],
+  "answer": 2,
+  "explanation": "For vehicles parked parallel, the tires should be within twelve inches of the curb.",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 61",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.087",
+  "track": "car",
+  "topic": "parking",
+  "prompt": "You must park along a Mississippi highway outside a business or residential district. What does the manual say to do?",
+  "choices": [
+   "Leave two wheels on the pavement so others can see you",
+   "Pull all the way off the roadway, leave at least 20 feet for others to pass if possible, and park where you can be seen from 200 feet both ways",
+   "Park facing oncoming traffic",
+   "Stop in the travel lane with your flashers on"
+  ],
+  "answer": 1,
+  "explanation": "Outside business or residential districts, pull completely off the roadway, leave at least 20 feet for other vehicles to get by if possible, be visible from 200 feet in both directions, and use parking lights or flashers at night.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 60",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.088",
+  "track": "car",
+  "topic": "emergencies",
+  "prompt": "In Mississippi, you must immediately report a crash to law enforcement if it involves injury, death, or apparent property damage of at least:",
+  "choices": [
+   "$500",
+   "$250",
+   "$1,000",
+   "$2,500"
+  ],
+  "answer": 0,
+  "explanation": "State law requires an immediate report to the police, sheriff or Highway Patrol for any injury or death, or apparent property damage of $500 or more, whether or not you were at fault.",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 66; Miss. Code Ann. § 63-3-411",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.089",
+  "track": "car",
+  "topic": "emergencies",
+  "prompt": "You are in a Mississippi crash that must be reported, but you are too badly hurt to report it. Who may make the report?",
+  "choices": [
+   "Only you, after you recover",
+   "Only your insurance company",
+   "No one; the requirement is waived",
+   "Any one of your passengers"
+  ],
+  "answer": 3,
+  "explanation": "If you are injured so badly that you cannot make an immediate report, any one of your passengers may do so. These reports are confidential.",
+  "difficulty": 3,
+  "ref": "Mississippi Driver's License Manual, p. 66",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.090",
+  "track": "car",
+  "topic": "emergencies",
+  "prompt": "What can you dial on a cell phone to reach a Mississippi Highway Patrol dispatcher about an emergency on a highway?",
+  "choices": [
+   "*MS (*67)",
+   "411",
+   "*HP (*47)",
+   "*55"
+  ],
+  "answer": 2,
+  "explanation": "Dial *HP (*47) to be connected toll free to a Mississippi Highway Patrol dispatcher. Give the highway or mile marker, and report only real emergencies.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 66",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.091",
+  "track": "car",
+  "topic": "emergencies",
+  "prompt": "An ambulance with flashing lights and a siren approaches while you are in an intersection. What does the Mississippi manual say to do?",
+  "choices": [
+   "Stop immediately where you are",
+   "Proceed through the intersection, then pull over to the extreme right shoulder",
+   "Back up out of the intersection",
+   "Speed up to stay ahead of it"
+  ],
+  "answer": 1,
+  "explanation": "Emergency vehicles always have the right-of-way. If you are at an intersection, proceed through it and then pull over to the extreme right shoulder until the vehicle passes.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 67",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.092",
+  "track": "car",
+  "topic": "emergencies",
+  "prompt": "On a four-lane Mississippi highway, a police car with its lights on is parked on the shoulder ahead, and you cannot safely move to the other lane. What should you do?",
+  "choices": [
+   "Slow down and prepare to stop if necessary",
+   "Keep your speed and pass",
+   "Stop in your lane until the police car leaves",
+   "Drive onto the opposite shoulder"
+  ],
+  "answer": 0,
+  "explanation": "Merge into the lane away from a stopped emergency vehicle when it is safe. If merging is not safe, slow down and prepare to stop if necessary.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 67",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.093",
+  "track": "car",
+  "topic": "emergencies",
+  "prompt": "Your vehicle breaks down on a two-lane highway (not an interstate) and you must walk for help. Where should you walk?",
+  "choices": [
+   "On the right side, with traffic",
+   "Down the center line",
+   "On either side; it does not matter",
+   "On the left side, facing oncoming traffic"
+  ],
+  "answer": 3,
+  "explanation": "Pull over to the extreme right shoulder. If you must walk to seek help, always walk on the left side of the highway, facing oncoming traffic, and never cross an interstate.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 65",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.094",
+  "track": "car",
+  "topic": "sharing-road",
+  "prompt": "When passing a bicyclist in Mississippi, you must leave a distance of at least:",
+  "choices": [
+   "2 feet",
+   "4 feet",
+   "3 feet",
+   "6 feet"
+  ],
+  "answer": 2,
+  "explanation": "Leave a safe distance of at least three feet between your vehicle and the bicycle when passing.",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 73",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.095",
+  "track": "car",
+  "topic": "sharing-road",
+  "prompt": "According to the Mississippi manual, may you pass a bicycle traveling in your direction in a no-passing zone?",
+  "choices": [
+   "Never",
+   "Yes, when it is safe to do so",
+   "Only if the cyclist waves you around",
+   "Only on weekends"
+  ],
+  "answer": 1,
+  "explanation": "The manual says drivers may pass a bicycle traveling in the same direction in a non-passing zone only when it is safe to do so, leaving at least 3 feet.",
+  "difficulty": 3,
+  "ref": "Mississippi Driver's License Manual, p. 73",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.096",
+  "track": "car",
+  "topic": "sharing-road",
+  "prompt": "May bicyclists ride two abreast (side by side) in Mississippi?",
+  "choices": [
+   "Yes, but they must not impede the normal and reasonable movement of traffic",
+   "No, never",
+   "Yes, in groups of any size",
+   "Only on interstates"
+  ],
+  "answer": 0,
+  "explanation": "State law permits bicyclists to ride side by side, but riders two abreast should not impede the normal and reasonable movement of traffic and should stay within a single lane.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 74",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.097",
+  "track": "car",
+  "topic": "sharing-road",
+  "prompt": "Besides emergency vehicles, Mississippi's Move Over law also protects which stopped vehicles that are showing flashing lights?",
+  "choices": [
+   "Only school buses",
+   "Any private car stopped with its hazard lights on",
+   "No others; the law covers only emergency vehicles",
+   "Tow trucks, utility and sanitation vehicles, and highway maintenance vehicles"
+  ],
+  "answer": 3,
+  "explanation": "For stopped tow (recovery), utility service, sanitation and highway maintenance vehicles with flashing lights, change to a non-adjacent lane on roads with two lanes each way, or slow down and be ready to stop.",
+  "difficulty": 2,
+  "ref": "Miss. Code Ann. § 63-3-809(3)",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.098",
+  "track": "car",
+  "topic": "sharing-road",
+  "prompt": "On a four-lane Mississippi highway (two lanes each way), a rural mail carrier is stopped with flashing amber and red lights. What must you do?",
+  "choices": [
+   "Nothing special; mail vehicles are not covered",
+   "Stop until the carrier drives away",
+   "Move to a lane not next to it if safe, or slow down and be ready to stop",
+   "Sound your horn to warn the carrier"
+  ],
+  "answer": 2,
+  "explanation": "The Move Over law also covers stationary rural mail carriers: change to a non-adjacent lane when safe, or reduce speed and be prepared to stop if changing lanes is impossible or unsafe.",
+  "difficulty": 3,
+  "ref": "Miss. Code Ann. § 63-3-809(5)",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.099",
+  "track": "car",
+  "topic": "sharing-road",
+  "prompt": "After passing a large truck, when does the Mississippi manual say it is safe to move back into its lane?",
+  "choices": [
+   "As soon as your rear bumper clears its front bumper",
+   "When you can see the truck's front wheels meeting the pavement in your rearview mirror",
+   "After counting to two",
+   "When the truck driver flashes the headlights"
+  ],
+  "answer": 1,
+  "explanation": "Move back only when you can see the front wheels of the truck meeting the pavement in your rearview mirror, then maintain your speed.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 72",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.100",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "What is the youngest age at which you can get a regular (Class R) driver's license in Mississippi?",
+  "choices": [
+   "16",
+   "15",
+   "16 and a half",
+   "17"
+  ],
+  "answer": 0,
+  "explanation": "You can get a Regular (Class R) license at 16 if you have held a learner's permit for one year. Mississippi no longer has a separate intermediate license.",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 15; DPS Driver Service Bureau, Regular Driver License page",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.101",
+  "track": "car",
+  "topic": "laws-licensing",
+  "prompt": "For how long do Mississippi's nighttime driving limits apply to a new regular license holder under 18?",
+  "choices": [
+   "The first 6 months (or until age 18, if that comes first)",
+   "The first 12 months",
+   "Until the driver turns 17",
+   "Until the driver turns 21"
+  ],
+  "answer": 0,
+  "explanation": "License holders under 18 may drive unsupervised only from 6 a.m. to 10 p.m. Sunday-Thursday and 6 a.m. to 11:30 p.m. Friday-Saturday during their first six months as a regular license holder. Trips straight to or from work, school or extracurricular activities are allowed at any time.",
+  "difficulty": 2,
+  "ref": "Miss. Code Ann. § 63-1-21(3)",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.102",
+  "track": "car",
+  "topic": "parking",
+  "prompt": "In Mississippi, which of these parking spots is legal if no other restrictions apply?",
+  "choices": [
+   "15 feet from a fire hydrant",
+   "Inside an intersection",
+   "15 feet from a crosswalk at an intersection",
+   "25 feet from the approach to a stop sign"
+  ],
+  "answer": 0,
+  "explanation": "Mississippi bans parking within 10 feet of a fire hydrant, inside an intersection, within 20 feet of a crosswalk at an intersection, and within 30 feet of the approach to a stop sign or other traffic control device. Only the spot 15 feet from the hydrant is outside these limits.",
+  "difficulty": 3,
+  "ref": "Mississippi Driver's License Manual, p. 60",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.103",
+  "track": "car",
+  "topic": "emergencies",
+  "prompt": "After a minor crash on a Mississippi highway, no one needs an ambulance and both cars can be driven safely. What does state law require?",
+  "choices": [
+   "Move the cars as soon as possible to a safe spot, such as the frontage road or nearest suitable cross street",
+   "Leave the cars exactly where they stopped until police arrive",
+   "Move the cars only if a police officer tells you to",
+   "Stay in your car in the travel lane with your flashers on"
+  ],
+  "answer": 0,
+  "explanation": "Under a 2020 Mississippi law, if a highway crash causes no serious injury or death and every vehicle can be driven normally and safely, each driver must move as soon as possible to an accident investigation site, the frontage road, the nearest suitable cross street or another suitable spot. A serious injury is one that requires calling an ambulance.",
+  "difficulty": 2,
+  "ref": "Mississippi Legislature, 2020 House Bill 811, Section 1",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.car.104",
+  "track": "car",
+  "topic": "right-of-way",
+  "prompt": "What is the fine for a first conviction of illegally passing a stopped school bus in Mississippi?",
+  "choices": [
+   "$350 to $750",
+   "$100 to $250",
+   "$1,000 to $2,500",
+   "$50 to $100"
+  ],
+  "answer": 0,
+  "explanation": "Passing a school bus that is stopped with red lights flashing or its stop sign out is a misdemeanor: $350-$750 and/or up to a year in jail for a first conviction. A second conviction within five years brings $750-$1,500 and a 90-day license suspension.",
+  "difficulty": 2,
+  "ref": "Miss. Code Ann. § 63-3-615(2) (2019 HB 677)",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.mc.001",
+  "track": "motorcycle",
+  "topic": "mc-laws",
+  "prompt": "Who must wear a crash helmet on a motorcycle in Mississippi?",
+  "choices": [
+   "Every operator and every passenger",
+   "Only riders under 21",
+   "Only the operator",
+   "Only riders without health insurance"
+  ],
+  "answer": 0,
+  "explanation": "A crash helmet must be worn by anyone operating or riding any motorcycle or motor scooter on Mississippi's public roads, with no age exemption.",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 14",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.mc.002",
+  "track": "motorcycle",
+  "topic": "mc-laws",
+  "prompt": "A 50-year-old Mississippi rider wants to ride a motor scooter to work without a helmet. Is this allowed?",
+  "choices": [
+   "Yes, scooters are exempt",
+   "Yes, riders over 21 are exempt",
+   "Yes, on roads posted under 35 mph",
+   "No, a helmet is required on any motorcycle or motor scooter"
+  ],
+  "answer": 3,
+  "explanation": "Mississippi's helmet rule covers operating or riding any motorcycle or motor scooter on public roads and highways, at any age.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 14",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.mc.003",
+  "track": "motorcycle",
+  "topic": "mc-laws",
+  "prompt": "What must you pass to add a motorcycle endorsement to a Mississippi driver's license?",
+  "choices": [
+   "Only a vision test",
+   "Only a skills test",
+   "A computerized test on motorcycle operation and a skills test",
+   "Nothing; any licensed driver may ride"
+  ],
+  "answer": 2,
+  "explanation": "To receive the Motorcycle Endorsement, you must complete a computerized test on motorcycle operation and a skills test. Tell the examiner so the proper test is given.",
+  "difficulty": 1,
+  "ref": "Mississippi Driver's License Manual, p. 14",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.mc.004",
+  "track": "motorcycle",
+  "topic": "mc-laws",
+  "prompt": "You completed a motorcycle safety class endorsed by AAMVA. How does that affect your Mississippi motorcycle endorsement?",
+  "choices": [
+   "It waives both the knowledge and skills tests",
+   "It waives the skills test, but you still take the knowledge test",
+   "It waives only the vision test",
+   "It has no effect"
+  ],
+  "answer": 1,
+  "explanation": "Applicants who complete an AAMVA-endorsed motorcycle safety class are not required to take the skills test, but they must still complete the knowledge test.",
+  "difficulty": 2,
+  "ref": "Mississippi DPS Driver Service Bureau, Motorcycle Endorsement page",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.mc.005",
+  "track": "motorcycle",
+  "topic": "mc-laws",
+  "prompt": "In Mississippi, what license do you need to ride a motor scooter with an engine of 50cc or less on public roads?",
+  "choices": [
+   "A driver's license with a motorcycle endorsement, because motor scooters count as motorcycles",
+   "No license at all",
+   "A learner's permit alone",
+   "Only a bicycle registration"
+  ],
+  "answer": 0,
+  "explanation": "Under Mississippi law the term motorcycle includes motor scooters, so you must have a valid driver's license with a motorcycle endorsement.",
+  "difficulty": 2,
+  "ref": "Mississippi DPS Driver Service Bureau, Motorcycle Endorsement page",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.mc.006",
+  "track": "motorcycle",
+  "topic": "mc-laws",
+  "prompt": "Can a Mississippi Regular Learner's Permit be used to ride a motorcycle?",
+  "choices": [
+   "Yes, with a licensed adult nearby",
+   "Yes, during daylight only",
+   "Yes, on rural roads only",
+   "No; the regular learner's permit covers motor vehicles other than motorcycles"
+  ],
+  "answer": 3,
+  "explanation": "A regular learner's permit allows driving a motor vehicle other than a motorcycle, with a licensed driver 21 or older beside you. Motorcycles need a motorcycle permit or endorsement.",
+  "difficulty": 3,
+  "ref": "Miss. Code Ann. § 63-1-21(2)",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.mc.007",
+  "track": "motorcycle",
+  "topic": "mc-laws",
+  "prompt": "What is the minimum age for a Mississippi motorcycle learner's permit?",
+  "choices": [
+   "14",
+   "16",
+   "15",
+   "17"
+  ],
+  "answer": 2,
+  "explanation": "The minimum age to obtain a motorcycle learner's permit is 15; you must be 16 to get a Mississippi driver's license.",
+  "difficulty": 2,
+  "ref": "Mississippi DPS Driver Service Bureau, Motorcycle Endorsement page",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.mc.008",
+  "track": "motorcycle",
+  "topic": "mc-laws",
+  "prompt": "How long must a Mississippi motorcycle learner's permit be held?",
+  "choices": [
+   "30 days",
+   "One year or until age 17, whichever comes first",
+   "6 months",
+   "Two years"
+  ],
+  "answer": 1,
+  "explanation": "The motorcycle learner's permit must be held for one year or until the applicant reaches 17, whichever occurs first.",
+  "difficulty": 2,
+  "ref": "Mississippi DPS Driver Service Bureau, Motorcycle Endorsement page",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.mc.009",
+  "track": "motorcycle",
+  "topic": "mc-laws",
+  "prompt": "A new Mississippi resident has a valid out-of-state license with a motorcycle endorsement. What testing is needed for a Mississippi motorcycle endorsement?",
+  "choices": [
+   "No further testing",
+   "A new knowledge test and a new skills test",
+   "Only the skills test",
+   "Only the knowledge test"
+  ],
+  "answer": 0,
+  "explanation": "An applicant with a valid out-of-state license with a motorcycle endorsement may be issued a Mississippi license with the endorsement without further testing.",
+  "difficulty": 2,
+  "ref": "Mississippi DPS Driver Service Bureau, Motorcycle Endorsement page",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.mc.010",
+  "track": "motorcycle",
+  "topic": "mc-laws",
+  "prompt": "What is the minimum number of headlights Mississippi requires on a motorcycle?",
+  "choices": [
+   "Two",
+   "Three",
+   "None during daylight",
+   "One"
+  ],
+  "answer": 3,
+  "explanation": "Cars must have two headlights, but a motorcycle needs at least one, plus a red taillight visible from 500 feet behind.",
+  "difficulty": 2,
+  "ref": "Mississippi Driver's License Manual, p. 19",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.mc.011",
+  "track": "motorcycle",
+  "topic": "mc-laws",
+  "prompt": "Who must supervise a rider who holds a Mississippi temporary motorcycle (learner's) permit?",
+  "choices": [
+   "A person 21 or older whose license has a motorcycle endorsement",
+   "Any licensed driver 18 or older",
+   "A parent or guardian, even without a motorcycle endorsement",
+   "No one, as long as it is daylight"
+  ],
+  "answer": 0,
+  "explanation": "State law lets a temporary motorcycle permit holder ride only under the direct supervision of a person at least 21 who holds a valid license with a motorcycle endorsement (or a restricted motorcycle license).",
+  "difficulty": 2,
+  "ref": "Miss. Code Ann. § 63-1-6(2)(b)",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.mc.012",
+  "track": "motorcycle",
+  "topic": "mc-laws",
+  "prompt": "Which of these is allowed for a rider with a Mississippi temporary motorcycle permit?",
+  "choices": [
+   "Riding on a city street at noon, supervised by an endorsed rider age 21 or older",
+   "Carrying a passenger",
+   "Riding on an interstate or other controlled-access highway",
+   "Riding home at 7:30 p.m."
+  ],
+  "answer": 0,
+  "explanation": "Permit holders may ride only under the direct supervision of an endorsed rider 21 or older. They may not carry passengers, may not ride on controlled-access highways such as interstates, and may not ride from 6:00 p.m. through 6:00 a.m.",
+  "difficulty": 3,
+  "ref": "Miss. Code Ann. § 63-1-6(2)(b)",
+  "states": [
+   "MS"
+  ]
+ },
+ {
+  "id": "ms.mc.013",
+  "track": "motorcycle",
+  "topic": "mc-laws",
+  "prompt": "During which hours is a Mississippi temporary motorcycle permit holder banned from riding?",
+  "choices": [
+   "6:00 p.m. through 6:00 a.m.",
+   "10:00 p.m. through 6:00 a.m.",
+   "Midnight through 5:00 a.m.",
+   "9:00 p.m. through 5:00 a.m."
+  ],
+  "answer": 0,
+  "explanation": "State law bars temporary motorcycle permit holders from riding from 6:00 p.m. through 6:00 a.m. They also may not carry passengers or ride on controlled-access highways.",
+  "difficulty": 2,
+  "ref": "Miss. Code Ann. § 63-1-6(2)(b)",
+  "states": [
+   "MS"
+  ]
+ }
+]

@@ -2031,5 +2031,62 @@
     "states": [
       "IN"
     ]
+  },
+  {
+    "id": "in.car.103",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A fully loaded tractor-trailer with hot brakes is traveling 55 mph on an Indiana highway. According to the Indiana Driver's Manual, how much distance might it need to stop?",
+    "choices": [
+      "About 75 feet",
+      "About 135 feet, the same as a car",
+      "About 250 feet",
+      "More than 400 feet"
+    ],
+    "answer": 3,
+    "explanation": "The manual says a car at 55 mph can stop in about 130 to 140 feet, but a fully loaded tractor-trailer with hot brakes may need more than 400 feet, longer than a football field. Never cut in front of a truck and then slow down or stop.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 55",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.104",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "An Indiana driver with a for-hire endorsement, but no CDL, wants to haul property for pay. What is the heaviest registered gross weight the vehicle may have?",
+    "choices": [
+      "14,000 pounds",
+      "26,000 pounds",
+      "20,000 pounds",
+      "30,000 pounds"
+    ],
+    "answer": 1,
+    "explanation": "A for-hire endorsement covers hauling property for hire in a vehicle registered at 16,000 to 26,000 pounds, or carrying passengers for hire in a vehicle designed for fewer than 16 people, including the driver. It does not allow driving a commercial motor vehicle.",
+    "difficulty": 3,
+    "ref": "Indiana Driver's Manual, p. 21",
+    "states": [
+      "IN"
+    ]
+  },
+  {
+    "id": "in.car.105",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A truck is about to carry a wide load on Indiana roads. Above what width does it need a special oversize permit?",
+    "choices": [
+      "Wider than 8 feet, 6 inches",
+      "Wider than 8 feet",
+      "Wider than 10 feet",
+      "Wider than 9 feet, 6 inches"
+    ],
+    "answer": 0,
+    "explanation": "Without a special permit, no vehicle may be wider than 8 feet, 6 inches, taller than 13 feet, 6 inches, or heavier than 80,000 pounds. Bigger loads need an oversize/overweight permit, so give these trucks extra room.",
+    "difficulty": 2,
+    "ref": "Indiana Driver's Manual, p. 54",
+    "states": [
+      "IN"
+    ]
   }
 ]

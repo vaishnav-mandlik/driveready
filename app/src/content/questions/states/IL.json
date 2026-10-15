@@ -2107,5 +2107,366 @@
     ],
     "difficulty": 2,
     "ref": "Illinois Motorcycle Operator Manual (2025), p. 5"
+  },
+  {
+    "id": "il.car.102",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 17-year-old Illinois driver wants court supervision for a traffic ticket. What must the teen do to get it?",
+    "choices": [
+      "Pay the fine online, since minors don't need to go to court or class",
+      "Go to court with a parent or guardian and attend traffic school",
+      "Retake the written exam at a driver services facility",
+      "Log 50 more hours of supervised driving with a parent"
+    ],
+    "answer": 1,
+    "explanation": "To get court supervision for a traffic violation, a driver must attend traffic safety school, and a driver under 18 must also appear in court with a parent or legal guardian. Drivers under 21 are limited to one court supervision for serious traffic offenses.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 2,
+    "ref": "Illinois Rules of the Road 2026, p. 22"
+  },
+  {
+    "id": "il.car.103",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You entered an Illinois intersection on a green light to turn left, and you are still waiting for a gap in oncoming traffic when your light turns red. What should you do?",
+    "choices": [
+      "Turn at once without looking, since oncoming traffic must now stop",
+      "Yield to any oncoming vehicles, then finish your left turn",
+      "Turn right instead, since left turns end when the light is red",
+      "Go straight through the intersection to clear it quickly"
+    ],
+    "answer": 1,
+    "explanation": "If you entered the intersection while your light was green, Illinois lets you finish the left turn even though the light has turned red. Yield to oncoming traffic that is still coming through, then complete the turn so you don't block the intersection.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 2,
+    "ref": "Illinois Rules of the Road 2026, p. 29"
+  },
+  {
+    "id": "il.car.104",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are driving under the posted speed limit in Illinois. In which situation does the law still require you to slow down?",
+    "choices": [
+      "When driving on a dry, straight highway in daylight",
+      "When the car ahead of you moves into another lane",
+      "When approaching and crossing an intersection",
+      "When you merge onto a freeway from an entrance ramp"
+    ],
+    "answer": 2,
+    "explanation": "Illinois law requires you to slow down when approaching and crossing an intersection, going around a curve, approaching the top of a hill, or driving on a narrow, winding road, even if you are under the limit. The maximum speed is allowed only under safe conditions.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 2,
+    "ref": "Illinois Rules of the Road 2026, p. 27"
+  },
+  {
+    "id": "il.car.105",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "What does the Illinois Rules of the Road call the number one killer on American roadways?",
+    "choices": [
+      "Alcohol",
+      "Drowsy driving",
+      "Worn-out tires",
+      "Bad weather"
+    ],
+    "answer": 0,
+    "explanation": "The Illinois handbook calls alcohol the number one killer on American roadways. It slows your reaction time and affects your vision, and even a small amount raises the chance of causing a crash.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 1,
+    "ref": "Illinois Rules of the Road 2026, p. 51"
+  },
+  {
+    "id": "il.car.106",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "An Illinois driver who is under the influence causes a crash that seriously injures another person. What can the driver be charged with?",
+    "choices": [
+      "A regular DUI with no added penalty",
+      "Reckless driving instead of DUI",
+      "Only a ticket for causing the crash",
+      "Aggravated DUI"
+    ],
+    "answer": 3,
+    "explanation": "In Illinois, being involved in a crash that causes death or personal injury while driving under the influence can be charged as Aggravated DUI. Other examples include a third DUI and a DUI while driving a school bus with children.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 2,
+    "ref": "Illinois Rules of the Road 2026, p. 54"
+  },
+  {
+    "id": "il.car.107",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "An Illinois driver's license was revoked after a DUI. Which step is part of getting driving privileges back?",
+    "choices": [
+      "Only passing a new vision screening",
+      "Getting an alcohol/drug evaluation and paying a reinstatement fee",
+      "Nothing; a revoked license comes back on its own when the time is up",
+      "Paying the original DUI fine a second time"
+    ],
+    "answer": 1,
+    "explanation": "Before privileges are restored after a DUI revocation, you must undergo an alcohol/drug evaluation, complete a rehabilitation or education program, have a hearing with the Secretary of State and pay a reinstatement fee. A revoked license is never returned automatically.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 2,
+    "ref": "Illinois Rules of the Road 2026, pp. 53, 61"
+  },
+  {
+    "id": "il.car.108",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You caused a crash in Illinois without insurance, and your license was suspended because you did not pay for the damages. What must you file before you can drive again?",
+    "choices": [
+      "A copy of the police crash report",
+      "A certificate showing you finished a defensive driving class",
+      "Proof of financial responsibility, such as an SR-22",
+      "A new vehicle registration card"
+    ],
+    "answer": 2,
+    "explanation": "Under Illinois' Safety Responsibility Law, the suspension stays in place until you file proof of financial responsibility (such as an SR-22 insurance certificate) and keep that insurance for three years. Uninsured at-fault drivers may also have to post security for the damages.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 2,
+    "ref": "Illinois Rules of the Road 2026, p. 58"
+  },
+  {
+    "id": "il.car.109",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which of these requires an Illinois driver to file proof of financial responsibility, such as an SR-22?",
+    "choices": [
+      "A first speeding ticket",
+      "Moving to a new address in Illinois",
+      "Renewing a license that expired last month",
+      "An unpaid court judgment from a crash"
+    ],
+    "answer": 3,
+    "explanation": "Illinois requires proof of financial responsibility after an unsatisfied court judgment from a crash, a suspension for an uninsured crash, court supervision for driving uninsured, or three or more convictions for driving without insurance. Your insurance company files the SR-22.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 2,
+    "ref": "Illinois Rules of the Road 2026, p. 59"
+  },
+  {
+    "id": "il.car.110",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 30-year-old Illinois driver is convicted twice within 12 months of illegally transporting alcohol. What can happen to the driver's license?",
+    "choices": [
+      "It can be suspended",
+      "Nothing; that rule applies only to drivers under 21",
+      "It is reduced to an instruction permit",
+      "A warning is added to the record, with no license action"
+    ],
+    "answer": 0,
+    "explanation": "Illegally transporting alcohol twice in 12 months is a suspension offense for drivers 21 or older; for drivers under 21, a single offense can lead to suspension. A suspension is a temporary loss of driving privileges.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 3,
+    "ref": "Illinois Rules of the Road 2026, pp. 62-63"
+  },
+  {
+    "id": "il.car.111",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What can happen to an Illinois driver who knowingly gives the Secretary of State false information?",
+    "choices": [
+      "Only a small fine, with no effect on the license",
+      "Nothing, as long as it is corrected within a year",
+      "Revocation of driving privileges",
+      "A one-time warning letter"
+    ],
+    "answer": 2,
+    "explanation": "Giving false information to the Secretary of State (perjury) is one of the offenses for which Illinois may revoke your license. A revocation is an indefinite loss of driving privileges; you may reapply only after at least one year.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 2,
+    "ref": "Illinois Rules of the Road 2026, pp. 61-62"
+  },
+  {
+    "id": "il.car.112",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "An Illinois driver is found to be medically or visually unfit to drive safely. What can the Secretary of State do with the license?",
+    "choices": [
+      "Nothing, unless the driver causes a crash",
+      "Cancel it",
+      "Only add a note to the driving record",
+      "Let the driver keep it if they promise to drive less"
+    ],
+    "answer": 1,
+    "explanation": "Cancellation ends a license when the driver is no longer entitled to it, for example when the driver is medically or visually unfit to drive safely or fails to submit a required medical or vision report.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 2,
+    "ref": "Illinois Rules of the Road 2026, pp. 63-64"
+  },
+  {
+    "id": "il.car.113",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Can every Illinois driver whose license is suspended or revoked get a Restricted Driving Permit?",
+    "choices": [
+      "Yes, every suspended or revoked driver may get one on request",
+      "Yes, as soon as the driver pays a reinstatement fee",
+      "No, only drivers who hold a commercial license can get one",
+      "No, it is issued only in certain cases and for limited trips"
+    ],
+    "answer": 3,
+    "explanation": "A Restricted Driving Permit is not automatic. In certain cases it lets a suspended or revoked driver drive only at set times and on set routes, for example for work, school, child care or medical care, and it cannot be issued to anyone under 16.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 2,
+    "ref": "Illinois Rules of the Road 2026, p. 64"
+  },
+  {
+    "id": "il.car.114",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which of these can get an Illinois driver's license suspended?",
+    "choices": [
+      "Getting a single speeding ticket during the past year",
+      "Being in a minor crash that was not your fault",
+      "Using someone else's license or an altered one",
+      "Getting a repair ticket for a burned-out taillight"
+    ],
+    "answer": 2,
+    "explanation": "Illinois may suspend your license for using an altered license or ID, using another person's license, or letting someone else use yours. Failing to stop for a school bus and a second railroad-crossing signal violation are also suspension offenses.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 2,
+    "ref": "Illinois Rules of the Road 2026, pp. 62-63"
+  },
+  {
+    "id": "il.car.115",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "A long red light is ahead, and a gas station sits on the corner. May you drive through the station's lot to skip the light in Illinois?",
+    "choices": [
+      "No, leaving the road to avoid a signal is not allowed",
+      "Yes, if no pedestrians are in the lot",
+      "Only after the light has stayed red for two minutes",
+      "Yes, as long as you drive slowly and yield to customers"
+    ],
+    "answer": 0,
+    "explanation": "Illinois says a driver may never leave the roadway to avoid a traffic signal. Cutting through a lot puts pedestrians and other drivers at risk, so wait for the light.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 1,
+    "ref": "Illinois Rules of the Road 2026, p. 80"
+  },
+  {
+    "id": "il.car.116",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Under Illinois law, during what period must your headlights be on, no matter how well you can see?",
+    "choices": [
+      "From one hour after sunset until one hour before sunrise",
+      "From sunset to sunrise",
+      "Only between 9 p.m. and 5 a.m.",
+      "Only on roads without street lights"
+    ],
+    "answer": 1,
+    "explanation": "Illinois requires headlights from sunset to sunrise. They must also be on whenever conditions require windshield wipers, and should be used when you cannot see objects 1,000 feet away.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 1,
+    "ref": "Illinois Rules of the Road 2026, p. 95"
+  },
+  {
+    "id": "il.car.117",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Illinois law requires your car's horn to be loud enough to be heard from at least how far away?",
+    "choices": [
+      "200 feet",
+      "50 feet",
+      "500 feet",
+      "100 feet"
+    ],
+    "answer": 0,
+    "explanation": "Every car must have a working horn that can be heard from at least 200 feet. Sirens, whistles and bells are allowed only on authorized emergency vehicles.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 2,
+    "ref": "Illinois Rules of the Road 2026, p. 95"
+  },
+  {
+    "id": "il.car.118",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "What tinting does Illinois law allow on a car's front windshield?",
+    "choices": [
+      "Only a strip along the top 6 inches of the windshield",
+      "Any tint, as long as the driver can still see clearly",
+      "Light tint over the whole windshield, but no mirror finish",
+      "Any amount, since tint rules cover only the side windows"
+    ],
+    "answer": 0,
+    "explanation": "Tinted windows are not allowed on the front windshield in Illinois, except for a strip up to 6 inches deep along the entire top edge. All glass must be approved safety glass and kept free of anything that blocks the driver's view.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 2,
+    "ref": "Illinois Rules of the Road 2026, p. 95"
+  },
+  {
+    "id": "il.car.119",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A passenger wants to play a movie on a screen mounted where the driver can see it while you drive. Is that legal in Illinois?",
+    "choices": [
+      "Yes, if the sound is turned off",
+      "Yes, if the passenger controls the screen",
+      "No, not while the vehicle is moving",
+      "Yes, but only on interstate highways"
+    ],
+    "answer": 2,
+    "explanation": "Illinois prohibits TVs and video monitors that can be seen from the driver's seat while the vehicle is moving. Watching or streaming live video on a phone while driving is also illegal.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 2,
+    "ref": "Illinois Rules of the Road 2026, p. 96"
+  },
+  {
+    "id": "il.car.120",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Illinois requires a car's front and rear turn signals to be visible from at least how far away?",
+    "choices": [
+      "100 feet",
+      "200 feet",
+      "500 feet",
+      "300 feet"
+    ],
+    "answer": 3,
+    "explanation": "Cars must have right and left turn signals on the front and rear that can be seen from 300 feet. Taillights have a different rule: they must be visible from 500 feet behind.",
+    "states": [
+      "IL"
+    ],
+    "difficulty": 2,
+    "ref": "Illinois Rules of the Road 2026, p. 95"
   }
 ]

@@ -1,0 +1,697 @@
+{
+  "code": "MS",
+  "name": "Mississippi",
+  "agency": {
+    "name": "Mississippi Department of Public Safety, Driver Service Bureau",
+    "abbreviation": "MDPS",
+    "website": "https://www.driverservicebureau.dps.ms.gov"
+  },
+  "handbook": {
+    "title": "Mississippi Driver's License Manual",
+    "edition": "Revised December 2024 (DPS file \"1.15.2025 Revised MDPS Driver's Manual\", posted February 2025; still the current DPS download in October 2026). PDF page numbers equal the printed page numbers.",
+    "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf"
+  },
+  "exam": {
+    "questions": 40,
+    "passingScore": 32,
+    "passingPercent": 80,
+    "timeLimitMinutes": null,
+    "roadSigns": "No separate road-signs section is described officially. The manual says the exam checks whether you can read, understand, and follow signs and signals (Driver's License Manual p. 17).",
+    "format": "Computerized Exam: a multiple-choice test (manual p. 18) based on the Driver's License Manual, focusing on Mississippi traffic laws, safe driving rules and driver's license requirements (p. 17). All knowledge exams are taken in person at a Driver License Station, with no cell phones, ear buds, smart watches or other electronics allowed in the testing area (DSB Regular Learner's Permit page). The exam includes a headset so the machine can read questions and answers aloud for reading-impaired applicants (p. 17). The same exam is used for the learner's permit and the regular license, and a vision exam is also required (p. 13, 17).",
+    "languages": "No official list of test languages was found. Applicants who need an interpreter must complete the Mississippi Interpreter Oath and bring the form and the interpreter to the exam (DSB Regular Driver License page).",
+    "retestWait": "Not stated officially for a failed exam. An applicant caught with banned items or cheating has the test cancelled and may not test again for 6 months (DSB Regular Learner's Permit page and Knowledge Testing policy).",
+    "notes": "Learner's permit at 15 (valid 2 years, $7; proof of school enrollment), driving only with a licensed driver 21+ in the next seat. Regular Class R license at 16 after holding the permit 12 months or until the 17th birthday (whichever comes first), with a school attendance form (no older than 30 days) and a parent/teacher/guardian affidavit of 50 hours of driving (Waiver of Road Testing); applicants 17+ can get the permit and license the same day and need no affidavit. No road (skills) test is currently required for a regular license. A Computerized Exam score stays valid for two years (manual p. 13). Beginning July 1, 2027, first-time license applicants must complete a certified driver's education course. License holders under 18 have nighttime limits during their first 6 months (Miss. Code 63-1-21(3)). Neither the manual nor any DPS page states the number of questions or the passing score. Some test details could not be confirmed; check your state agency before test day.",
+    "sourceUrl": "https://www.driverservicebureau.dps.ms.gov/Drivers/Learners_Permit"
+  },
+  "motorcycleExam": null,
+  "cdlExam": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC (age 21 and older)",
+      "detail": "Drivers 21 or older are legally under the influence at a BAC of .08% or more. If your BAC reaches the limit, the officer takes your license and gives you a receipt that works as a temporary driving permit for only 30 days.",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 78,
+        "quote": "21 years old or older BAC registers .08% or more"
+      }
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% BAC (under 21)",
+      "detail": "Mississippi has zero tolerance for underage drinking and driving: a driver under 21 is under the influence at .02% or more. A BAC from .02% up to (but not including) .08% is a Zero Tolerance DUI; at .08% or more it is charged as a regular DUI, even for a driver under 21.",
+      "number": 0.02,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 78,
+        "quote": "under the age of 21 BAC registers .02% or more"
+      }
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC in a commercial motor vehicle",
+      "detail": "A CDL holder who operates a commercial motor vehicle with an alcohol concentration of 0.04% or more is disqualified from driving commercial vehicles for one year on a first violation.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/DriverRecords/DUI_Department",
+        "page": null,
+        "quote": "with an alcohol concentration of four one-hundredths percent (0.04%) or more"
+      }
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusal: surrender your license on the spot; 90-day suspension",
+      "detail": "Driving in Mississippi means you have given implied consent to breath or chemical testing. You may refuse, but you must surrender your license to the officer immediately; the receipt you get is a temporary permit valid for only 45 days, and the license is administratively suspended for 90 days (DPS: 1 year if you have a prior DUI conviction or non-adjudication). If you are later convicted of a first-offense DUI and had refused the test, another 90-day suspension is added.",
+      "number": 90,
+      "unit": "days",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 78,
+        "quote": "Your license will be administratively suspended for ninety days for refusing the breath or chemical test."
+      }
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "$250-$1,000 fine, up to 48 hours in jail, 120-day license suspension",
+      "detail": "A first DUI (age 21+, .08% or more) is a misdemeanor. A second offense within 5 years brings a $600-$1,500 fine, 5 days to 6 months in jail and a 1-year suspension; a third offense within 5 years is a felony ($2,000-$5,000 fine, 1-5 years in custody).",
+      "number": 120,
+      "unit": "days",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 79,
+        "quote": "DUI—First Offense (Misdemeanor) $250 - $1,000 Up to 48 hours 120 days"
+      }
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15",
+      "detail": "You must be at least 15 to apply for a Regular Learner's Permit. You must pass the same Computerized Exam required for a regular license plus a vision exam, and applicants under 18 must show proof of school enrollment. The permit costs $7 and is valid for two years.",
+      "number": 15,
+      "unit": "years",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 13,
+        "quote": "You must be at least fifteen years old to apply for a Regular Learner’s Permit."
+      }
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "1 year (or until you turn 17, if that comes first)",
+      "detail": "You must hold the learner's permit for one year before upgrading to a Regular (Class R) license, unless you turn 17 first. A permit issued at 15½ means license eligibility at 16½. Under state law, a DUI or moving-violation conviction restarts the one-year period (Miss. Code 63-1-9(2)(b)).",
+      "number": 12,
+      "unit": "months",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 13,
+        "quote": "You must hold the Learner’s Permit for one year before you can upgrade to a Regular Driver’s License. [If you turn seventeen before you have held the Learner's Permit for one year, you are eligible to apply for a Regular License.]"
+      }
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "50 hours, certified by a parent, teacher or guardian",
+      "detail": "Applicants under 17 must provide an affidavit (the Road Test Waiver) in which a parent, teacher, or guardian certifies watching them drive for at least 50 hours and attests to their safe driving. Mississippi currently gives no road test for a regular license; the affidavit takes its place. The manual sets no separate nighttime minimum.",
+      "number": 50,
+      "unit": "hours",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 17,
+        "quote": "provide the Affidavit from a parent, teacher, or guardian certifying that he or she has witnessed you operate a motor vehicle for at least fifty hours"
+      }
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "A licensed driver 21 or older in the seat next to you",
+      "detail": "The Regular Learner's Permit lets you drive only when a licensed driver aged 21 or older is physically occupying the seat next to you.",
+      "number": 21,
+      "unit": "years",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 13,
+        "quote": "when accompanied by a licensed driver aged twenty-one years or older who is physically occupying the seat next to you"
+      }
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 (Regular Class R license; no separate intermediate license)",
+      "detail": "At 16, after holding a learner's permit for one year, you can get a Regular (Class R) license with a school attendance form and the 50-hour affidavit. Mississippi abolished its intermediate license in 2021; instead, license holders under 18 have nighttime driving limits during their first six months.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 15,
+        "quote": "You have reached the age of sixteen and have held a Learner’s Permit for one year."
+      }
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "First 6 months, under 18: alone only 6 a.m.-10 p.m. Sun-Thu and 6 a.m.-11:30 p.m. Fri-Sat",
+      "detail": "During the first six months with a regular license, a driver under 18 who drives outside those hours must have a parent, guardian, or licensed driver aged 21 or older in the seat beside them, unless traveling directly to or from work or another educational or extracurricular activity.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://billstatus.ls.state.ms.us/documents/2021/html/SB/2500-2599/SB2598SG.htm",
+        "page": null,
+        "quote": "shall be allowed unsupervised driving from 6:00 a.m. to 10:00 p.m. Sunday through Thursday and 6:00 a.m. to 11:30 p.m. Friday and Saturday"
+      }
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "After the first 6 months with a regular license (16½ at the earliest), or at 18",
+      "detail": "The under-18 nighttime limits apply only during the first six months as a regular license holder, so a driver licensed at 16 drives without them from about 16½. Drivers 18 and older are not covered by these limits.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://billstatus.ls.state.ms.us/documents/2021/html/SB/2500-2599/SB2598SG.htm",
+        "page": null,
+        "quote": "At all other times for the first six (6) months as a regular license holder, the regular license holder under the age of eighteen (18) must be supervised"
+      }
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "No general ban on hand-held calls; a hands-free device is recommended",
+      "detail": "Mississippi law bans texting and social media on a hand-held phone while driving, but it does not ban hand-held phone calls for adult drivers. The manual says not to use a phone for calls or texts while driving and recommends a hands-free device if you must make a call.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 23,
+        "quote": "If you must make a phone call while driving. A hands-free device is recommended."
+      }
+    },
+    {
+      "key": "texting_ban",
+      "value": "Texting and social media banned for all drivers ($100 civil penalty)",
+      "detail": "No driver may write, send or read a text message, or access, read or post to a social networking site, on a hand-held phone while driving. Emergency, traffic and weather alerts and navigation messages are not text messages, and voice-operated or hands-free devices are allowed. A violation is a civil violation with a $100 penalty (Miss. Code 63-33-1(3)).",
+      "number": 100,
+      "unit": "dollar civil penalty",
+      "source": {
+        "url": "https://billstatus.ls.state.ms.us/documents/2018/html/HB/0900-0999/HB0900SG.htm",
+        "page": null,
+        "quote": "An operator of a moving motor vehicle is prohibited from writing, sending, or reading a text message and from accessing, reading or posting to a social networking site using a hand-held mobile telephone while driving said motor vehicle."
+      }
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Hardship license holders (ages 15-17) may not use a phone at all, even hands-free",
+      "detail": "A hardship license lets some 15- to 17-year-olds drive unsupervised for school, work or medical needs; holders may not use a cell phone in any manner while driving, including hands-free. Other teen drivers follow the general texting and social-media ban.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/Drivers/Drivers_Permit",
+        "page": null,
+        "quote": "The Hardship Licensee will not be allowed to use a cell phone in any matter while driving the vehicle, including handsfree usage."
+      }
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Required for the driver and every passenger, front and back seats",
+      "detail": "Every operator and every passenger must wear a properly fastened seat belt whenever the vehicle moves forward on a public road, whether they sit in the front or the back seat. Violators can be fined.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 64,
+        "quote": "Drivers and all passengers of motor vehicles shall wear a properly fastened seat belt, regardless of whether the passenger is in the front seat or back seat of the vehicle."
+      }
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Car seat under 4; booster seat ages 4-6 if under 4'9\" or under 65 lb",
+      "detail": "Children under four must ride in a child passenger restraint (car seat). Children at least four but under seven who are shorter than 4 feet 9 inches or weigh less than 65 pounds must ride in a belt-positioning booster seat. The manual also says children under 13 should always ride in the back seat.",
+      "number": 4,
+      "unit": "years",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 64,
+        "quote": "Children under the age of four years old must be properly secured in a child passenger restraint device (car seat) that meets applicable safety standards. Children at least four years old but under seven years old who are less than 4 feet 9 inches in height or who weigh less than sixty-five pounds must be properly secured in a belt-positioning booster seat system that meets applicable safety standards."
+      }
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Drive at a speed safe for conditions; posted limits are for ideal conditions",
+      "detail": "Adjust your speed to the situation: slow down on curves, near intersections, on narrow or twisting roads, in congested traffic, and when weather or visibility is poor.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 41,
+        "quote": "Posted speed limits are intended for ideal conditions."
+      }
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "15 mph",
+      "detail": "The manual's maximum for any vehicle in a school zone: when passing a school during recess or while children are arriving at or leaving school during opening and closing hours. Always obey the posted school-zone sign.",
+      "number": 15,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 41,
+        "quote": "The maximum speed for any vehicle in a SCHOOL ZONE is 15 mph."
+      }
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "55 mph on two-lane state/U.S. highways; 65 mph on four-lane highways",
+      "detail": "These are the usual limits for passenger cars on state and U.S. highways; always obey posted signs. The Natchez Trace Parkway is limited to 50 mph.",
+      "number": 55,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 41,
+        "quote": "Four-lane Highways (State & U.S.) 65 mph 40 mph Two-lane Highways (State & U.S.) 55 mph"
+      }
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "70 mph",
+      "detail": "The interstate speed limit is 70 mph by day and by night, with a 40 mph minimum. All limits assume ideal road and weather conditions.",
+      "number": 70,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 70,
+        "quote": "The speed limit for interstate driving is seventy miles per hour for both day and night."
+      }
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "40 mph minimum on interstates",
+      "detail": "Interstates have a 40 mph minimum and a 70 mph maximum. The manual's speed table also lists a 40 mph minimum for four-lane state and U.S. highways. Watch for posted minimum speed limits, and stay in the right lane if you are slower than other traffic.",
+      "number": 40,
+      "unit": "mph",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 41,
+        "quote": "MAXIMUM SPEED MINIMUM SPEED Interstates 70 mph 40 mph"
+      }
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop, unless a sign prohibits it",
+      "detail": "You may turn right on a red light only after stopping completely and yielding to other traffic and pedestrians. Merely yielding (rolling through) is illegal, and a sign can forbid turning on red.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 37,
+        "quote": "Before turning right on red you MUST first stop completely: Only yielding before turning is not enough and is illegal."
+      }
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 100 feet before turning",
+      "detail": "Turn on your signal and slow down at least 100 feet before the intersection. Arm signals must also be given continuously for at least 100 feet before you slow down, turn, stop, or change lanes.",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 51,
+        "quote": "At least one hundred feet from the intersection, turn on your left signal and slow down."
+      }
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Yield: pull to the far right shoulder until it passes (clear the intersection first)",
+      "detail": "An ambulance, fire engine, or police car flashing red or blue lights or using a bell or siren always has the right-of-way. Pull over to the extreme right shoulder until it has passed; if you are at an intersection, go through it and then pull over.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 67,
+        "quote": "If possible, pull your vehicle over to the extreme right shoulder of the road until the emergency vehicle has passed. If you are at an intersection, proceed through the intersection, and pull over to the extreme right shoulder."
+      }
+    },
+    {
+      "key": "move_over_law",
+      "value": "Move to a lane away from it on four-lane roads, or slow down and be ready to stop",
+      "detail": "For a stopped emergency vehicle with lights or siren on along a four-lane highway, merge into the lane away from it when safe; if that is not safe, slow down and prepare to stop. State law (Miss. Code 63-3-809) gives the same duty for stopped tow trucks, utility, sanitation and highway maintenance vehicles with flashing lights and for rural mail carriers; fines run up to $250, or up to $1,000 if property damage or injury results.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 67,
+        "quote": "If an emergency vehicle with lights or siren activated is parked along the side of a four-lane highway, merge into the lane away from the emergency vehicle if it is safe to do so. If merging into an adjacent lane is not safe, slow down and prepare to stop if necessary."
+      }
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop at least 10 feet away, from either direction (divided-highway exception)",
+      "detail": "When a school bus shows flashing red lights or its stop sign, stop at least 10 feet away whatever your direction, and stay stopped until the children have crossed and the bus moves on with its lights off and stop sign retracted. On a divided highway of four or more lanes (at least two each way), traffic going the opposite direction may continue; same-direction traffic must still stop. You need not stop when the bus is in a loading zone where pedestrians may not cross the road.",
+      "number": 10,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 58,
+        "quote": "COME TO A COMPLETE STOP at least ten feet away from the bus."
+      }
+    },
+    {
+      "key": "following_distance",
+      "value": "At least 1 car length for every 10 mph",
+      "detail": "Leave at least one car length per 10 mph of speed: 5 car lengths at 50 mph and 7 at 70 mph on the interstate. Leave even more room behind a large truck or bus.",
+      "number": 1,
+      "unit": "car length per 10 mph",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 43,
+        "quote": "When you are following another vehicle, allow at least one car length between you for every ten miles per hour of speed."
+      }
+    },
+    {
+      "key": "headlights_required",
+      "value": "Sunset to sunrise, and whenever you cannot see 500 feet ahead",
+      "detail": "Use your headlights between sunset and sunrise and at any other time you cannot see clearly 500 feet ahead. Do not drive with only your parking lights on.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 63,
+        "quote": "You should use your lights between sunset and sunrise and at any other time when you cannot see clearly ahead for a distance of five hundred feet."
+      }
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "Within 500 feet of an oncoming vehicle",
+      "detail": "The law requires low beams when you come within 500 feet of an oncoming vehicle. Use high beams only in open country with no other cars nearby, and use low beams on lighted streets and in fog.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 63,
+        "quote": "You are required by law to use your low beams when you approach within five hundred feet of an oncoming vehicle or when you are following within five hundred feet of another vehicle."
+      }
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "Within 500 feet of a vehicle you are following",
+      "detail": "Mississippi's manual uses the same 500-foot distance when following as for oncoming traffic. Also dim your lights when following a large truck at night, because bright lights reflect off its large side mirrors.",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 63,
+        "quote": "You are required by law to use your low beams when you approach within five hundred feet of an oncoming vehicle or when you are following within five hundred feet of another vehicle."
+      }
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "10 feet",
+      "detail": "You may not park within 10 feet of a fire hydrant.",
+      "number": 10,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 60,
+        "quote": "Within ten feet of a fire hydrant"
+      }
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "Not on a crosswalk, or within 20 feet of a crosswalk at an intersection",
+      "detail": "Parking is prohibited on a crosswalk and within 20 feet of a crosswalk at an intersection. Never stop your car on any part of a crosswalk.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 60,
+        "quote": "Within twenty feet of a crosswalk at an intersection"
+      }
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Not inside an intersection",
+      "detail": "You may not park inside an intersection (and not within 20 feet of a crosswalk at an intersection).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 60,
+        "quote": "Inside an intersection"
+      }
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet from the approach to any traffic control device",
+      "detail": "Do not park within 30 feet of the approach to any traffic control device, such as a stop sign or traffic signal.",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 60,
+        "quote": "Within thirty feet of the approach to any traffic control device"
+      }
+    },
+    {
+      "key": "parking_railroad",
+      "value": "15 feet from the nearest rail",
+      "detail": "Do not park within 15 feet of the nearest rail of a railroad crossing.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 60,
+        "quote": "Within fifteen feet of the nearest rail of any railroad crossing"
+      }
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet from a fire station driveway (75 feet if posted)",
+      "detail": "Do not park within 20 feet of the driveway entrance to a fire station, or within 75 feet when signs say so.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 60,
+        "quote": "Within twenty feet of the driveway entrance to any fire station or within seventy-five feet if it is so posted"
+      }
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "Within 12 inches of the curb",
+      "detail": "When parallel parking, your tires should be within 12 inches of the curb.",
+      "number": 12,
+      "unit": "inches",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 61,
+        "quote": "For vehicles parked parallel, tires should be within twelve inches of the curb."
+      }
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "Between 15 and 50 feet from the nearest rail",
+      "detail": "When crossing signals flash, a gate is down, a flagger signals or a train is coming, stop within 50 feet but no closer than 15 feet from the nearest rail, and stay stopped until it is safe (Miss. Code 63-3-1007). Driving around lowered gates is illegal. The current manual still prints an older 10-foot minimum; state law says 15 feet.",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://billstatus.ls.state.ms.us/documents/2018/html/SB/2600-2699/SB2621SG.htm",
+        "page": null,
+        "quote": "the driver of such vehicle shall stop within fifty (50) feet but not less than fifteen (15) feet from the nearest track of such railroad and shall not proceed until he can do so safely"
+      }
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet",
+      "detail": "A bicycle is a vehicle under Mississippi law. Leave at least 3 feet when passing a cyclist, reduce speed and pass in the next lane as you would a car. The manual allows passing a cyclist going the same direction in a no-passing zone only when it is safe to do so.",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 73,
+        "quote": "Leave a safe distance of at least three feet between the vehicle and bicycle when passing the bicycle."
+      }
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Yield to pedestrians in any crosswalk, marked or unmarked",
+      "detail": "A person walking across the street within a crosswalk always has the right-of-way, whether or not the crosswalk is marked. Any time you travel through an intersection you must yield to pedestrians and to traffic already in it.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 59,
+        "quote": "A person walking across the street within a crosswalk, whether or not the crosswalk is marked, ALWAYS HAS THE RIGHT OF WAY."
+      }
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Report immediately to police for any injury or death, or property damage of $500 or more",
+      "detail": "Stop, help anyone injured and call 911 if needed, and exchange names, addresses, plate numbers and insurance information. State law (Miss. Code 63-3-411) requires an immediate report to the police, sheriff or Highway Patrol for any injury or death or apparent property damage of $500 or more, whether or not you were at fault. If you are too badly hurt, a passenger may report it. Show your proof of insurance and policy number to the officer.",
+      "number": 500,
+      "unit": "dollars",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 66,
+        "quote": "Whether or not you are at fault in an accident, you must report it unless there are no injuries and the property damage amounts to less than $500."
+      }
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "25/50/25 liability ($25,000 / $50,000 / $25,000)",
+      "detail": "Every motor vehicle operated in Mississippi must have liability insurance of at least $25,000 for one person and $50,000 for two or more people injured in an accident, plus $25,000 for property damage. Keep a current insurance card in the vehicle; an electronic card shown on a phone is accepted.",
+      "number": 25000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 76,
+        "quote": "$25,000 single person, single vehicle accident $50,000 two or more people, single vehicle accident $25,000 property damage of others in any single accident"
+      }
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Required for every operator and rider, all ages",
+      "detail": "Anyone operating or riding a motorcycle or motor scooter on public roads must wear a crash helmet that meets the minimum guidelines of the National Highway Traffic Safety Administration. There is no age exemption.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 14,
+        "quote": "A crash helmet must be worn if operating or riding any motorcycle or motor scooter upon the public roads or highways of this state."
+      }
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Zero Tolerance DUI for drivers under 21",
+      "summary": "A driver under 21 with a BAC of .02% or more but under .08% commits a Zero Tolerance DUI: a first offense means a $250 fine and a 120-day license suspension; a second within five years up to $500 and 1 year; a third up to $1,000 and 2 years or until age 21, whichever is longer. At .08% or more it is a regular DUI.",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 79,
+        "quote": "Zero Tolerance DUI—First Offense $250 120 days"
+      }
+    },
+    {
+      "title": "Squatted vehicles are illegal",
+      "summary": "You may not drive a passenger vehicle whose suspension, frame or chassis has been altered so the front fender sits 4 or more inches higher than the rear fender (measured from the ground through the center of the wheel to the bottom of the fender).",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 20,
+        "quote": "It shall be unlawful for any person to drive a passenger motor vehicle on the streets or highways of Mississippi if, by alteration of the suspension, frame or chassis, the height of the front fender is raised four or more inches greater than the height of the rear fender."
+      }
+    },
+    {
+      "title": "Window tint needs an inspection decal (28% light)",
+      "summary": "A vehicle with after-market window tint must be inspected at an official Mississippi Window Tint Inspection Station, carry a $5 compliance certificate on the dashboard or in the dash compartment, and display the decal on the lower left corner of the windshield. All windows must let through at least 28% of light.",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 75,
+        "quote": "The windshield of the vehicle must have affixed to it a label certifying that all the windows of the vehicle have a light transmittance of 28% or more."
+      }
+    },
+    {
+      "title": "New residents: license within 60 days, tag within 30 days",
+      "summary": "People who move to Mississippi must get a Mississippi driver's license within 60 days and a Mississippi license plate (tag) within 30 days, and must surrender their out-of-state license. A valid out-of-state license waives the Computerized Exam (vision screening still required); with an expired license you must take the exam.",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 11,
+        "quote": "If you move to Mississippi, you must obtain a Mississippi driver’s license within sixty days. You must obtain a Mississippi license plate/tag within thirty days."
+      }
+    },
+    {
+      "title": "Dial *HP (*47) for the Highway Patrol",
+      "summary": "To report an emergency traffic situation on an interstate or highway, dial *HP (*47) on a cell phone to reach a Mississippi Highway Patrol dispatcher toll free. Give the highway and/or mile marker, and use it only for real emergencies.",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 66,
+        "quote": "dial *HP (*47) on a cellular phone to be connected toll free to a Mississippi Highway Patrol dispatcher"
+      }
+    },
+    {
+      "title": "Natchez Trace Parkway: 50 mph and federal rules",
+      "summary": "The Natchez Trace Parkway is run by the National Park Service. Its maximum speed is 50 mph unless lower limits are posted, commercial vehicles are excluded, National Park Rangers patrol it (report emergencies to a ranger or 1-800-300-PARK), and violations there are tried in federal court.",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 90,
+        "quote": "The maximum speed for travel on the Parkway is fifty MPH, except where lower speeds are posted."
+      }
+    },
+    {
+      "title": "Driver education required for new drivers from July 1, 2027",
+      "summary": "Beginning July 1, 2027, anyone getting a first driver's license must show completion of a Driver's Education and Training Program certified by the State Board of Education or the Department of Public Safety. People under 18 can still get a learner's permit without it.",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver%27s%20Manual.pdf",
+        "page": 16,
+        "quote": "Beginning July 1, 2027, you must provide signed documentation showing the completion of a Driver’s Education and Training Program certified the State Board of Education or the Department of Public Safety."
+      }
+    },
+    {
+      "title": "The left lane is for passing",
+      "summary": "On any road with two or more lanes in the same direction, you may not drive in the far-left lane except to pass, when the right lane is closed for construction or repair or is unsafe or impassable, or to exit on the left. Driving continuously in the left lane while impeding traffic is also banned. Fine: $5 to $50 (Miss. Code 63-3-603(2)).",
+      "source": {
+        "url": "https://billstatus.ls.state.ms.us/documents/2018/html/HB/0001-0099/HB0080SG.htm",
+        "page": null,
+        "quote": "A vehicle shall not be driven in the outermost left lane of any roadway with two (2) or more lanes allowing for movement of traffic in the same direction except when:"
+      }
+    },
+    {
+      "title": "Move Over law covers tow, utility, sanitation, highway and mail vehicles",
+      "summary": "Besides emergency vehicles, drivers must move to a non-adjacent lane (on roads with at least two lanes each way) or slow down and be ready to stop for stopped tow trucks, utility service vehicles, sanitation vehicles and highway maintenance vehicles showing flashing lights, and for stopped rural mail carriers. Fines: up to $250, or up to $1,000 if a violation damages the vehicle or injures its occupants (Miss. Code 63-3-809).",
+      "source": {
+        "url": "https://billstatus.ls.state.ms.us/documents/2017/html/SB/2300-2399/SB2305SG.htm",
+        "page": null,
+        "quote": "Upon approaching a stationary recovery vehicle, utility service vehicle, sanitation vehicle, or highway maintenance vehicle, when the stationary vehicle is giving a signal by use of authorized flashing lights, a person who drives an approaching vehicle shall:"
+      }
+    },
+    {
+      "title": "No road test for a regular license",
+      "summary": "Mississippi currently gives no skills (road) test for a regular driver's license. Sixteen-year-olds instead submit a Waiver of Road Testing Affidavit in which a parent, teacher or guardian certifies at least 50 hours of supervised driving; applicants 17 and older do not need it.",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/Drivers/ClassR",
+        "page": null,
+        "quote": "At this time, no skills (road) test is required of any applicant seeking a regular driver's license."
+      }
+    },
+    {
+      "title": "Keep proof of insurance in the vehicle",
+      "summary": "Owners and drivers must keep an insurance card in the vehicle (or show it electronically on a phone). Not having it is a misdemeanor punishable by a $100 fine and suspension of driving privileges for one year or until proof of the required liability insurance is shown (Miss. Code 63-15-4(4)).",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/DriverRecords/Accidents_Judgements",
+        "page": null,
+        "quote": "Failure of the owner or the operator of a motor vehicle to have the insurance card in the motor vehicle, or to display the insurance card by electronic image on a cellular phone or other type of electronic device, is a misdemeanor"
+      }
+    },
+    {
+      "title": "Hardship license for ages 15-17",
+      "summary": "A parent or guardian can request a hardship license for a 15- to 17-year-old who has held a learner's permit for 30 days without traffic infractions, completed a certified driver's education course and meets school attendance rules. Unsupervised driving is limited to school, taking siblings to school, work and medical needs; otherwise a licensed driver 21 or older must sit beside the driver. Passengers are limited to immediate family, no phone use is allowed (even hands-free), and it is not available to anyone with a DUI.",
+      "source": {
+        "url": "https://www.driverservicebureau.dps.ms.gov/Drivers/Drivers_Permit",
+        "page": null,
+        "quote": "The Hardship Licensee will only be allowed to transport immediate family members, such as, siblings, parents, and/or grandparents."
+      }
+    },
+    {
+      "title": "Motorcycle learner's permit limits",
+      "summary": "A temporary motorcycle (learner's) permit, available from age 15, allows riding only under the direct supervision of a person 21 or older who has a motorcycle endorsement (or a restricted motorcycle license). Permit holders may not carry passengers, may not ride on controlled-access highways such as interstates, and may not ride from 6:00 p.m. through 6:00 a.m. (Miss. Code 63-1-6(2)(b)).",
+      "source": {
+        "url": "https://billstatus.ls.state.ms.us/documents/2021/html/SB/2500-2599/SB2598SG.htm",
+        "page": null,
+        "quote": "Be prohibited from operating a motorcycle during the hours of 6:00 p.m. through 6:00 a.m."
+      }
+    },
+    {
+      "title": "Move your car out of traffic after a minor crash",
+      "summary": "If a highway crash causes no serious injury or death and every vehicle can be driven normally and safely, each driver must move as soon as possible to an accident investigation site, the frontage road, the nearest suitable cross street or another suitable spot to finish the steps the law requires after a crash and keep traffic moving (2020 law, House Bill 811). A serious injury means one that requires calling an ambulance to the scene.",
+      "source": {
+        "url": "https://billstatus.ls.state.ms.us/documents/2020/html/HB/0800-0899/HB0811SG.htm",
+        "page": null,
+        "quote": "each operator shall move the operator's vehicle as soon as possible to a designated accident investigation site, if available, a location on the frontage road, the nearest suitable cross-street, or other suitable location to complete the other requirements under the law and minimize interference with highway traffic."
+      }
+    },
+    {
+      "title": "Passing a stopped school bus: $350-$750 fine",
+      "summary": "Passing a school bus that is stopped with red lights flashing or its stop sign out is a misdemeanor: a fine of $350 to $750 and/or up to 1 year in jail for a first conviction. A second conviction within five years brings $750 to $1,500 and a 90-day license suspension (Miss. Code 63-3-615(2)).",
+      "source": {
+        "url": "https://billstatus.ls.state.ms.us/documents/2019/html/HB/0600-0699/HB0677SG.htm",
+        "page": null,
+        "quote": "shall be fined not less than Three Hundred Fifty Dollars ($350.00) nor more than Seven Hundred Fifty Dollars ($750.00), or imprisoned for not more than one (1) year, or both"
+      }
+    }
+  ],
+  "officialPracticeTests": [],
+  "verifiedOn": "2026-10-15"
+}

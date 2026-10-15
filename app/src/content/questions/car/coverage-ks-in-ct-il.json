@@ -1,0 +1,83 @@
+[
+  {
+    "id": "car.cvkic.001",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You want to add dark window tint and colored accent lights to your car. What should you know before you install them?",
+    "choices": [
+      "Anything sold at an auto parts store is legal to put on a car",
+      "Equipment laws cover only what the factory installed, not add-ons",
+      "They can be illegal if they don't meet your state's equipment laws",
+      "Tint and lighting rules apply only to trucks and commercial vehicles"
+    ],
+    "answer": 2,
+    "explanation": "Aftermarket changes such as window tint and extra lights must meet legal standards, like limits on how dark tint can be and which light colors are allowed. A store selling a product does not make it legal on the road, so check your state's rules first.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. CT p.14, MA p.42, MN p.27, IA p.24)"
+  },
+  {
+    "id": "car.cvkic.002",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are following a pickup truck on a gravel road. How should your following distance compare with what you use on dry pavement?",
+    "choices": [
+      "Keep the same gap, since gravel roads usually have lower speed limits",
+      "Stay closer, so the truck's dust cloud doesn't hide the road ahead",
+      "Leave a shorter gap, since loose gravel slows cars down faster",
+      "Leave more room, since you need longer to stop on loose gravel"
+    ],
+    "answer": 3,
+    "explanation": "Gravel and dirt give your tires much less grip than concrete or asphalt, so stopping takes longer and skids start more easily. Slow down and increase your following distance; hanging back also keeps you out of the dust the vehicle ahead kicks up.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. KS p.90, LA p.108, NJ p.98)"
+  },
+  {
+    "id": "car.cvkic.003",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign warn you about?",
+    "choices": [
+      "The right lane ends, so drivers in it must merge left",
+      "Traffic from a ramp will merge into your lane from the right",
+      "A new lane opens on the right for slower traffic",
+      "The road narrows, and both directions share one lane"
+    ],
+    "answer": 0,
+    "explanation": "This symbol sign means the right lane is ending. If you are in it, find a safe gap and merge left; if you are in the lane next to it, adjust your speed so merging drivers can get in.",
+    "sign": "W4-2R",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. IN p.34, CA p.43, FL p.57)"
+  },
+  {
+    "id": "car.cvkic.004",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Why can a state suspend or take away your driver's license when you break traffic laws?",
+    "choices": [
+      "Driving is a right that can be limited only for drivers under 21",
+      "Licenses belong to the car's owner, not to the driver",
+      "Driving is a privilege, not a right",
+      "A license is a contract that only a judge can end"
+    ],
+    "answer": 2,
+    "explanation": "A driver's license is a privilege that you earn and keep by obeying the law, not a right. If you break traffic laws or drive impaired, the state can suspend or revoke it.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. KS p.14, FL p.31, PA p.3)"
+  },
+  {
+    "id": "car.cvkic.005",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are about to slow down and stop at the side of the road. What should you check first?",
+    "choices": [
+      "Your mirrors, for traffic behind you",
+      "Your speedometer, to know your exact speed",
+      "Your fuel gauge, before you shut off the engine",
+      "Your parking brake, so it is ready to set"
+    ],
+    "answer": 0,
+    "explanation": "Check your mirrors whenever you slow down or stop, especially when you slow quickly or where drivers behind you would not expect it, such as at a driveway or parking space. Then signal so they know what you plan to do.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. KS p.58, CT p.24, MT p.64, NM p.20)"
+  }
+]
