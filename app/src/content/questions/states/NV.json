@@ -2145,5 +2145,100 @@
     "states": [
       "NV"
     ]
+  },
+  {
+    "id": "nv.car.103",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A funeral procession with headlights on comes up behind you on a Nevada road. What does the Nevada Driver's Handbook tell you to do?",
+    "choices": [
+      "Keep your speed so you don't slow the procession",
+      "Turn on your hazard lights and join the procession",
+      "Let the hearse pass, then pull in behind it",
+      "Yield and let the procession pass as a group"
+    ],
+    "answer": 3,
+    "explanation": "Nevada's right-of-way rules tell drivers to yield to funeral processions and let the vehicles with their headlights on pass as a group. Do not cut into or join the line.",
+    "states": [
+      "NV"
+    ],
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 34"
+  },
+  {
+    "id": "nv.car.104",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Which of these is a place where Nevada law says you must NEVER make a U-turn?",
+    "choices": [
+      "At a green light at an intersection with no NO U-TURN sign",
+      "Through an opening in the center divider of a divided highway",
+      "In front of a fire station",
+      "Across a double yellow line, when it is safe and legal"
+    ],
+    "answer": 2,
+    "explanation": "Never make a U-turn in front of a fire station (or use its driveway to turn around), on a one-way street, at or on a railroad crossing, or where you cannot see 200 feet each way. The other choices are listed as legal U-turns when it is safe.",
+    "states": [
+      "NV"
+    ],
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 46"
+  },
+  {
+    "id": "nv.car.105",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "In Nevada, what does a curb painted white usually mean?",
+    "choices": [
+      "Limited-time parking, with the time shown on a nearby sign",
+      "No stopping, standing or parking",
+      "A loading zone, with rules that depend on local laws",
+      "Stop only briefly to load or unload passengers or mail"
+    ],
+    "answer": 3,
+    "explanation": "A white curb usually allows only a very short stop to pick up or drop off passengers or to drop mail in a mailbox. Green is limited-time parking, yellow is a loading zone, red means no stopping, standing or parking, and blue is disabled parking.",
+    "states": [
+      "NV"
+    ],
+    "difficulty": 1,
+    "ref": "Nevada Driver’s Handbook, p. 48"
+  },
+  {
+    "id": "nv.car.106",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Nevada law, what is it to leave a dog or cat unattended in a vehicle during extreme heat or cold?",
+    "choices": [
+      "Legal, as long as a window is cracked open",
+      "Legal for up to 15 minutes",
+      "A misdemeanor",
+      "Only a parking violation"
+    ],
+    "answer": 2,
+    "explanation": "Leaving a dog or cat unattended in a vehicle during extreme heat or cold is a misdemeanor in Nevada, and officers and firefighters may use reasonable force to rescue the animal. Leaving a child 7 or younger unattended in risky conditions is also a misdemeanor.",
+    "states": [
+      "NV"
+    ],
+    "difficulty": 2,
+    "ref": "Nevada Driver’s Handbook, p. 25"
+  },
+  {
+    "id": "nv.car.107",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "The Nevada DMV suspends your car's registration because your liability insurance lapsed and you had no coverage for that time. Besides a reinstatement fee and fines, what else may happen?",
+    "choices": [
+      "Nothing else, as long as you buy a new policy within one year",
+      "Your car is permanently banned from Nevada roads",
+      "You only receive a written warning",
+      "An SR-22 requirement and/or a 30-day license suspension"
+    ],
+    "answer": 3,
+    "explanation": "Nevada's NV LIVE program finds vehicles whose insurance lapsed. If no new coverage was in place for that time, you pay a reinstatement fee and fines of $250 up to $1,750 per vehicle, and penalties may include an SR-22 and/or a 30-day suspension of your driver license.",
+    "states": [
+      "NV"
+    ],
+    "difficulty": 3,
+    "ref": "Nevada Driver’s Handbook, p. 75"
   }
 ]

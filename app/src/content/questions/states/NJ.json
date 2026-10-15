@@ -2050,5 +2050,81 @@
     "states": [
       "NJ"
     ]
+  },
+  {
+    "id": "nj.car.101",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old with a New Jersey special learner permit plans to practice driving with a qualified adult supervisor. During which hours is practice driving NOT allowed?",
+    "choices": [
+      "9:00 p.m. to 6:00 a.m.",
+      "Midnight to 6:00 a.m.",
+      "10:00 p.m. to 5:00 a.m.",
+      "11:01 p.m. to 5:00 a.m."
+    ],
+    "answer": 3,
+    "explanation": "Special learner permit holders may not drive between 11:01 p.m. and 5:00 a.m., even with a supervising driver in the car. Outside those hours they must be accompanied by a qualified adult supervising driver.",
+    "states": [
+      "NJ"
+    ],
+    "difficulty": 2,
+    "ref": "New Jersey Driver Manual, p. 20"
+  },
+  {
+    "id": "nj.car.102",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "To avoid waiting at a red light, a driver cuts across a corner gas station lot and comes out on the cross street. What is true in New Jersey?",
+    "choices": [
+      "It is a traffic violation that carries 2 points",
+      "It is legal if the driver does not stop on the lot",
+      "It is legal if the gas station is closed",
+      "It is allowed when turning right, but not left"
+    ],
+    "answer": 0,
+    "explanation": "Driving on public or private property to avoid a traffic signal or sign is a motor vehicle violation in New Jersey (N.J.S.A. 39:4-66.2), and it carries 2 points.",
+    "states": [
+      "NJ"
+    ],
+    "difficulty": 2,
+    "ref": "New Jersey Driver Manual, pp. 69, 140"
+  },
+  {
+    "id": "nj.car.103",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are driving on a New Jersey dual highway. On the other side of a raised median, an ice cream truck is stopped with red lights flashing and its stop arm out. What must you do?",
+    "choices": [
+      "Stop, then pass at no more than 15 mph",
+      "Stop and stay stopped until the truck's lights go off",
+      "Slow to 10 mph until you are past the truck",
+      "You need not stop, but stay alert for children"
+    ],
+    "answer": 3,
+    "explanation": "Drivers approaching a frozen dessert truck that shows flashing red lights and a stop arm must stop, then pass at no more than 15 mph. On a dual highway, a driver on the other side of a safety island or raised median does not have to stop, but should still watch for children.",
+    "states": [
+      "NJ"
+    ],
+    "difficulty": 3,
+    "ref": "New Jersey Driver Manual, p. 80"
+  },
+  {
+    "id": "nj.car.104",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which of these is a common reason the New Jersey MVC rejects the vehicle an applicant brings for the road test?",
+    "choices": [
+      "The examiner cannot reach the foot brake or parking brake",
+      "The vehicle has an automatic transmission",
+      "The vehicle is a small two-door car",
+      "The vehicle is more than 10 years old, even if it passed inspection"
+    ],
+    "answer": 0,
+    "explanation": "The MVC can turn away a road test vehicle for problems such as no examiner access to the foot brake or parking brake, an improper or expired inspection sticker, missing seat belts, or any defect that makes it unsafe. Age, size and transmission type are not on the list.",
+    "states": [
+      "NJ"
+    ],
+    "difficulty": 2,
+    "ref": "New Jersey Driver Manual, p. 39"
   }
 ]

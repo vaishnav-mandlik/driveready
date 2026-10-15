@@ -1,0 +1,66 @@
+[
+  {
+    "id": "car.cvoa.001",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which of these is one of the most common causes of traffic collisions?",
+    "choices": [
+      "Using low-beam headlights during the day",
+      "Driver distraction",
+      "Signaling well before every turn",
+      "Driving in the right-hand lane"
+    ],
+    "answer": 1,
+    "explanation": "Driver distraction, such as using a phone, eating or daydreaming, is one of the most common causes of collisions, along with unsafe speed and failing to yield. The other choices are normal, safe habits.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. CA p.83, NJ p.94, CO p.9, IN p.76)"
+  },
+  {
+    "id": "car.cvoa.002",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "A police officer is directing traffic at an intersection. Your light is green, but the officer holds up a hand for you to stop. What should you do?",
+    "choices": [
+      "Go ahead, because the green light gives you the right-of-way",
+      "Slow down, then go through if the way looks clear",
+      "Stop and follow the officer's directions",
+      "Honk to show the officer that your light is green"
+    ],
+    "answer": 2,
+    "explanation": "Directions from a police officer override traffic lights, signs and pavement markings. Stop and do what the officer signals, even when your light is green.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. CA p.51, TX p.31)"
+  },
+  {
+    "id": "car.cvoa.003",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "Your windshield wipers suddenly stop working in heavy rain, and you can barely see the road. What should you do?",
+    "choices": [
+      "Slow down and get safely off the road as soon as you can",
+      "Speed up to get through the storm more quickly",
+      "Stop right where you are in your lane",
+      "Follow closely behind the taillights of the car ahead of you"
+    ],
+    "answer": 0,
+    "explanation": "Without wipers you cannot see well enough to keep driving. Slow down gradually, turn on your hazard flashers and pull safely off the road; some handbooks add that you can roll down your side window to see ahead. Stopping in a travel lane or tailgating invites a crash.",
+    "difficulty": 2,
+    "ref": "State driver handbooks (e.g. AL p.77, MN p.89, NJ p.110, NV p.58)"
+  },
+  {
+    "id": "car.cvoa.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "How much alcohol does a 5-ounce glass of wine contain compared with a 12-ounce can of regular beer?",
+    "choices": [
+      "About half as much",
+      "About the same amount",
+      "About twice as much",
+      "About four times as much"
+    ],
+    "answer": 1,
+    "explanation": "A 12-ounce regular beer, a 5-ounce glass of wine and a 1.5-ounce shot of 80-proof liquor each count as one standard drink with about the same amount of alcohol. Switching from beer to wine does not make it safer to drive.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. CA p.79, NJ p.117, PA p.38, TX p.64)"
+  }
+]

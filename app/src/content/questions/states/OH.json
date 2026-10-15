@@ -2108,5 +2108,24 @@
     "states": [
       "OH"
     ]
+  },
+  {
+    "id": "oh.car.102",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "An Ohio teen is applying for a temporary instruction permit (TIPIC). Applicants younger than what age need a parent or guardian present to co-sign the application?",
+    "choices": [
+      "16",
+      "18",
+      "19",
+      "21"
+    ],
+    "answer": 1,
+    "explanation": "If a TIPIC applicant is under 18, a parent or guardian must be present to co-sign the application. The co-signer shares liability for damage the minor causes while driving until the minor turns 18.",
+    "states": [
+      "OH"
+    ],
+    "difficulty": 2,
+    "ref": "Ohio Driver Manual (Digest of Ohio Motor Vehicle Laws), pp. 1, 12"
   }
 ]

@@ -2107,5 +2107,62 @@
     ],
     "difficulty": 3,
     "ref": "California Motorcycle Handbook, p. 15"
+  },
+  {
+    "id": "ca.car.102",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "During a police chase, a driver in California flees in a car and someone is seriously injured. What is the longest sentence the law allows for this?",
+    "choices": [
+      "Up to 1 year in county jail",
+      "Up to 3 months in county jail",
+      "Up to 7 years in state prison",
+      "Up to 30 days in county jail"
+    ],
+    "answer": 2,
+    "explanation": "Using a vehicle to flee or evade police is a misdemeanor punishable by up to one year in county jail. If the driver causes serious bodily injury during the pursuit, the penalty rises to up to seven years in state prison.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 59"
+  },
+  {
+    "id": "ca.car.103",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "A minor collision in California causes only $300 in damage, but the other driver's passenger says their neck hurts. Must you report the collision to DMV?",
+    "choices": [
+      "Yes, within 10 days, because someone was hurt",
+      "No, because the damage was under the $1,000 reporting limit",
+      "Only if a police officer writes a report",
+      "Only if you caused the collision"
+    ],
+    "answer": 0,
+    "explanation": "You must file an SR 1 with DMV within 10 days if damage is more than $1,000 or if anyone is injured or killed, even if the injury seems minor. Each driver must file, whether or not they caused the collision.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 84"
+  },
+  {
+    "id": "ca.car.104",
+    "track": "car",
+    "topic": "signals-markings",
+    "prompt": "On a California road, two sets of solid double yellow lines are painted two or more feet apart. What do they mean?",
+    "choices": [
+      "A two-way center lane for left turns from either direction",
+      "A carpool lane you may enter at any point",
+      "Passing is allowed only for traffic on your side",
+      "A barrier you must not cross except at marked openings"
+    ],
+    "answer": 3,
+    "explanation": "Two sets of solid double yellow lines spaced two or more feet apart are a barrier. Do not drive over it, turn left across it, or make a U-turn across it, except at designated openings.",
+    "states": [
+      "CA"
+    ],
+    "difficulty": 2,
+    "ref": "California Driver’s Handbook, p. 19"
   }
 ]
