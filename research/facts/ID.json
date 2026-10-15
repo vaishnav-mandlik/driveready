@@ -1,0 +1,841 @@
+{
+  "code": "ID",
+  "name": "Idaho",
+  "agency": {
+    "name": "Idaho Transportation Department, Division of Motor Vehicles",
+    "abbreviation": "ITD",
+    "website": "https://itd.idaho.gov/dmv/"
+  },
+  "handbook": {
+    "title": "Idaho Driver's Handbook",
+    "edition": "July 2026 (driver_manual.pdf in wp-content/uploads/2026/04, linked as the Driver's handbook from ITD's Taking the Driver's Test guide https://itd.idaho.gov/guide/taking-the-drivers-test/ and DMV Guidance page as of Oct 15, 2026; re-downloaded that day and its extracted text is byte-identical to research/handbooks/ID.txt). PDF page = printed page number. Statute quotes are in research/handbooks/ID_LAWS.txt (41 Idaho Code sections from legislature.idaho.gov, retrieved Oct 15, 2026 and re-checked against the live pages that day; page = that file's page marker). Motorcycle quotes are in research/handbooks/ID_MOTORCYCLE.txt (Motorcycle Rider's Handbook, July 2026, also re-downloaded and byte-identical; PDF page = printed page).",
+    "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf"
+  },
+  "knowledgeTest": {
+    "questions": 40,
+    "passingScore": 34,
+    "passingPercent": 85,
+    "roadSigns": "No separate road-sign test; sign questions are part of the single 40-question test (ITD's online sample test includes 'This road sign means' items).",
+    "timeLimitMinutes": null,
+    "format": "Touch-screen computer test at a county sheriff's driver's license office (ITD news release, June 26, 2024: 'Idaho uses touch-screen computer stations to give new drivers and new residents the written portion'); paper tests are used when the stations are down. 40 questions taken directly from the Driver's Handbook; you may miss up to 6 (34 correct, 85%). Handbook p. 32.",
+    "languages": "English (written and aural), American Sign Language (video), Arabic, Chinese, Farsi, French, Korean, Russian, Serbo-Croatian, Spanish, Swahili and Vietnamese. A translator may be used if the language is not offered, or after 3 failed attempts in an offered language (ITD, Taking the Driver's Test, https://itd.idaho.gov/guide/taking-the-drivers-test/).",
+    "retestWait": "3 days after a failed knowledge test, and the $5 knowledge test fee must be paid again (handbook p. 32).",
+    "notes": "Applicants must be 15 or older to take the knowledge and skills tests. Drivers under 17 complete approved driver's education (30 hours classroom, 6 hours observation, 6 hours behind the wheel) and a 6-month supervised instruction period first; per ITD's test guide, under-17 SIP holders may take the skills test before the knowledge test, while everyone else must pass the knowledge test first (17+ need it for a Class D Instruction Permit). The handbook (pp. 12, 32) says new applicants, out-of-state transfers and Idaho licenses expired 25+ months take the test; since HB 23 (2025), Idaho Code 49-319(5) waives it for a new Class D applicant who previously held an Idaho license (ITD's New to Idaho guide: new drivers and those who never had an Idaho license are tested). Knowledge test fee $5 (handbook p. 5). The handbook (p. 32) says web-based practice tests other than ITD's own sample questions are not an accurate representation of the Idaho test; its own 20 practice questions are on pp. 134-138 (answers p. 11).",
+    "sourceUrl": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf"
+  },
+  "motorcycleTest": {
+    "questions": 25,
+    "passingScore": 20,
+    "passingPercent": 80,
+    "notes": "Count and pass mark come from Idaho STAR, the state motorcycle safety program that Idaho Code 33-4902 places under the Division of Career Technical Education (the ITD motorcycle manual p. 111 refers riders to it): 25 multiple-choice questions, miss no more than 5; results valid one year. ITD's own pages do not publish the count; they give the $5 fee, the 3-day retest wait (manual p. 17) and one-year validity of test results. Riders under 21 must complete an approved rider training course. The Motorcycle Instruction Permit (valid 1 year) requires a valid driver's license and a passed knowledge test, and allows daylight riding only, no interstate/freeway riding and no passengers. The manual has a 10-question practice test (pp. 107-108, answers p. 111).",
+    "sourceUrl": "https://idahostar.org/motorcycle-endorsement/"
+  },
+  "cdlTest": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC (age 21 and older)",
+      "detail": "Drivers 21 and older are under the influence at a BAC of 0.08 or more, and can still be convicted below 0.08 if impaired by drugs or other intoxicating substances. A BAC of 0.20 or more is 'excessive' DUI with stiffer penalties (Idaho Code 18-8004, 18-8004C).",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 131,
+        "quote": "Under Idaho law you are considered to be driving under the influence if your blood-alcohol concentration (BAC) is .02 or more if you are under 21 years of age, .04 or more if you are operating a commercial vehicle, and .08 or more if you are 21 or older."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% BAC (under 21)",
+      "detail": "A driver under 21 with a BAC of 0.02 up to 0.08 violates Idaho Code 18-8004(1)(d). A first offense brings a fine of up to $1,000 and a one-year license suspension, the first 90 days absolute (18-8004A). At 0.08 or more the regular DUI law applies.",
+      "number": 0.02,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 131,
+        "quote": "Under Idaho law you are considered to be driving under the influence if your blood-alcohol concentration (BAC) is .02 or more if you are under 21 years of age, .04 or more if you are operating a commercial vehicle, and .08 or more if you are 21 or older."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC in a commercial motor vehicle",
+      "detail": "Driving a commercial motor vehicle with a BAC of 0.04 or more is DUI (Idaho Code 18-8004(1)(b)). CDL holders face enhanced penalties, up to lifetime loss of CDL privileges.",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 131,
+        "quote": "Under Idaho law you are considered to be driving under the influence if your blood-alcohol concentration (BAC) is .02 or more if you are under 21 years of age, .04 or more if you are operating a commercial vehicle, and .08 or more if you are 21 or older."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusing a BAC/drug test: $250 civil penalty and a 1-year absolute suspension (first refusal)",
+      "detail": "Every driver has consented to evidentiary testing. Refusal brings a $250 civil penalty and a one-year suspension with no driving privileges of any kind (two years for a second refusal within 10 years), plus an ignition interlock for one year after the suspension ends. A hearing must be requested within 7 days (Idaho Code 18-8002).",
+      "number": 1,
+      "unit": "year (first refusal)",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 126,
+        "quote": "If the court upholds the officer’s findings, your license will be suspended for one year with absolutely no driving privileges of any kind if it is your first offense."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "Up to 6 months in jail, up to a $1,000 fine, and a 90-180 day suspension (first 30 days absolute)",
+      "detail": "A first DUI (BAC under 0.20) is a misdemeanor. After the 30-day absolute suspension the court may allow restricted driving. An ignition interlock must be installed within 10 days after the absolute suspension ends and kept until one year after the suspension ends, unless a court grants an exception (Idaho Code 18-8005(1)). Drivers under 21 face a one-year suspension.",
+      "number": 6,
+      "unit": "months (maximum jail)",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 132,
+        "quote": "For a first conviction: Up to six months in jail; up to a $1,000 fine; and mandatory driver’s license suspension of at least 90 days and up to 180 days (one year if you are under 21), with absolutely no driving privileges for the first 30 days."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "open_container",
+      "value": "No open alcohol containers for drivers or passengers; unsealed containers go in the trunk",
+      "detail": "No one in a motor vehicle on a public highway may drink or possess an open container of alcohol. Unsealed containers may be carried only in the trunk, or behind the last upright seat if there is no trunk. Passengers in vehicles for hire and in RV living quarters are exempt. Violation is a misdemeanor for the driver and an infraction for passengers (Idaho Code 23-505).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 130,
+        "quote": "Idaho’s open container law prohibits both drivers and passengers from drinking or possessing an open beverage container of alcohol. To transport any unsealed alcoholic beverages in a vehicle, the container must be in the trunk or behind the last upright seat if there is no trunk."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_min_age",
+      "value": "14½ (Driver Training permit for driver's education)",
+      "detail": "Teens 14½ to 17 buy a Driver Training (DT) permit before attending an approved driver's education course; after the course it serves as the Supervised Instruction Permit (SIP). Applicants 17 or older may instead get a Class D Instruction Permit after passing the knowledge test.",
+      "number": 14.5,
+      "unit": "years",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 15,
+        "quote": "Driver Training Permits (DT) allow anyone 14 1/2 and under 17 years of age to attend any public school or private driver training program."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "At least 6 months, violation-free (supervised instruction period, under 17)",
+      "detail": "Teens under 17 must complete at least 6 months of violation-free supervised driving after driver's education. A traffic conviction cancels the permit and the 6 months start over with a new permit. A license cannot be issued before age 15 or sooner than 6 months after completing driver training (Idaho Code 49-307(8)).",
+      "number": 6,
+      "unit": "months",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 19,
+        "quote": "Your minimum 6 months of supervised driving time starts over again with the issuance of a new permit."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "supervised_driving_hours",
+      "value": "50 hours, including 10 at night",
+      "detail": "During the supervised instruction period (at least 6 months) the teen must log at least 50 hours of supervised driving, at least 10 of them at night (hours of darkness).",
+      "number": 50,
+      "unit": "hours",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 19,
+        "quote": "Accumulate at least 50 hours of supervised driving time, ten hours of which must be at night."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "Licensed driver 21+ in the front seat (under-17 SIP); licensed adult 18+ for a Class D Instruction Permit (17+)",
+      "detail": "A supervised-instruction-permit driver must have a licensed driver at least 21 years old in the front seat beside them, with no other front-seat passengers. A Class D Instruction Permit holder (17 or older) must be accompanied by a licensed adult at least 18 years old seated beside them (Idaho Code 49-305(1), 49-307(8)).",
+      "number": 21,
+      "unit": "years (SIP supervisor)",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 19,
+        "quote": "Be accompanied by a valid licensed driver at least 21 years of age who is occupying the front seat beside the driver (no other passengers are allowed in the front seat)."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "15",
+      "detail": "Drivers under 17 must complete approved driver training and the graduated driver's license program (6-month supervised period) first; applicants must be at least 15 to take the knowledge and skills tests.",
+      "number": 15,
+      "unit": "years",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 3,
+        "quote": "You can be licensed in Idaho when you are 15 years of age."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "Under 16: daylight hours only (5 a.m. to 10 p.m.) unless a licensed driver 21+ sits beside you",
+      "detail": "Licensed drivers under 16 may drive only between 5:00 a.m. and 10:00 p.m. local time unless a licensed driver at least 21 years old occupies the front seat beside them, and the two are the only front-seat occupants (Idaho Code 49-307(10)).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 16,
+        "quote": "Daylight only travel is allowed unless you have a valid licensed driver who is at least 21 years of age sitting in the front seat beside you. Daylight is defined as 5:00a to 10:00p local time."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "Under 17: no more than 1 passenger under 17 for the first 6 months (relatives exempt)",
+      "detail": "For the first 6 months after a license is issued to a driver under 17, the driver may carry no more than one passenger under 17 unless the passengers are related by blood, adoption or marriage (Idaho Code 49-307(11)).",
+      "number": 1,
+      "unit": "passenger under 17",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 16,
+        "quote": "During the first 6 months from the date the license was issued, the number of passengers in the vehicle who are under the age of 17 shall be limited to not more than one passenger, unless the passenger(s) are related to the driver by blood, adoption or marriage."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "16 (full driving hours); the 1-passenger limit still lasts 6 months for drivers licensed under 17",
+      "detail": "A license issued to a driver under 16 is limited to daylight hours; full privileges begin at 16. A driver licensed before 17 still follows the one-passenger-under-17 limit for the first 6 months after the license is issued.",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch3/sect49-307/",
+        "page": 16,
+        "quote": "the permittee may apply for a class D driver’s license with driving privileges restricted to daylight hours only for persons under sixteen (16) years of age and with full privileges at sixteen (16) years of age or older."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "Yes: all drivers must be hands-free (since 2020)",
+      "detail": "Idaho Code 49-1401A bans using a handheld mobile electronic device while driving, including while stopped in traffic or at a signal; voice-operated, hands-free, one-touch and hands-free GPS use and emergency calls are allowed. It is a moving violation with primary enforcement: $75 first offense, $150 for a second within 3 years, $300 for each later one; a court may suspend the license up to 90 days after 3 convictions in 3 years; a first offense carries no points. The July 2026 handbook (p. 92) still describes only the older texting ban.",
+      "number": 75,
+      "unit": "dollars (first-offense fine)",
+      "source": {
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch14/sect49-1401a/",
+        "page": 1,
+        "quote": "Except as provided in this subsection, a person shall not operate a motor vehicle while using a mobile electronic device."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "texting_ban",
+      "value": "Yes, for all drivers",
+      "detail": "Reading, writing or sending texts while driving is illegal for every driver. Since 2020 it is covered by the hands-free law (Idaho Code 49-1401A): a moving violation with $75/$150/$300 fines; only a first conviction is exempt from points.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 92,
+        "quote": "In Idaho, reading, writing, or sending of written communication (text messaging) while driving is illegal and considered an infraction."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "No separate teen rule: the all-driver hands-free law covers permit holders and teen drivers",
+      "detail": "Idaho's graduated-licensing restrictions (Idaho Code 49-307) contain no phone rule of their own; teens are covered by the same hands-free law as every other driver (49-1401A).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch14/sect49-1401a/",
+        "page": 1,
+        "quote": "Except as provided in this subsection, a person shall not operate a motor vehicle while using a mobile electronic device."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "All occupants must buckle up; secondary enforcement; $10 fine",
+      "detail": "Every occupant of a vehicle of up to 8,000 lbs gross weight must wear a seat belt. Officers may cite only after stopping the driver for another violation. Occupants 18+ are cited themselves; a driver 18+ is cited if any occupant under 18 is unbuckled; a driver under 18 is cited for themself or any occupant under 18. Fine $10, no points (Idaho Code 49-673).",
+      "number": 10,
+      "unit": "dollars (fine)",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 41,
+        "quote": "Idaho law requires all occupants to wear safety belts and/or shoulder straps when riding in a motor vehicle equipped with these devices by the factory."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Children 6 and younger must ride in an approved child safety seat",
+      "detail": "Drivers of non-commercial vehicles must secure children 6 years old or younger in a child restraint meeting federal standard 213 (Idaho Code 49-672). The handbook adds NHTSA advice: children under 13 should ride in the back seat, and a rear-facing seat must never be placed in front of an active air bag.",
+      "number": 6,
+      "unit": "years and younger",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 41,
+        "quote": "Idaho law requires anyone carrying children 6 years of age or younger in a non-commercial motor vehicle to properly protect children in approved child car safety seats."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Drive at a 'reasonable and prudent' speed at all times",
+      "detail": "Never drive faster than is reasonable and prudent for road, weather and traffic conditions, even below the posted limit. Driving too slowly for conditions and impeding the safe flow of traffic also violates the basic rule.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 68,
+        "quote": "Idaho law has a basic rule requiring you to drive at a speed that is “reasonable and prudent” at all times."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "No statewide number: obey the posted school-zone limit",
+      "detail": "School zones have posted limits. When the sign says 'when children are present,' one or more children on the school's side of the street or across it within the marked zone triggers the limit. Minimum fine $75 (Idaho Code 49-658).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch6/sect49-658/",
+        "page": 4,
+        "quote": "No person shall operate a vehicle in excess of the posted maximum speed limit established for a posted school zone."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_residential",
+      "value": "35 mph unless otherwise posted",
+      "detail": "The default limit in any residential, business or urban district is 35 mph unless a different limit is posted (Idaho Code 49-654(2)(a)(i)).",
+      "number": 35,
+      "unit": "mph",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 68,
+        "quote": "Maximum speed in any residential, business, or urban district is 35 miles per hour unless otherwise posted."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_business_district",
+      "value": "35 mph unless otherwise posted",
+      "detail": "Business and urban districts share the 35 mph default with residential districts unless another limit is posted.",
+      "number": 35,
+      "unit": "mph",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 68,
+        "quote": "Maximum speed in any residential, business, or urban district is 35 miles per hour unless otherwise posted."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_rural_highway",
+      "value": "65 mph on state highways (70 where posted); 55 mph on other roads unless posted",
+      "detail": "State highways default to 65 mph and may be posted up to 70 after an engineering and traffic study; other roads outside residential, business and urban districts default to 55 mph unless posted (up to 70) (Idaho Code 49-654(2)(a)).",
+      "number": 65,
+      "unit": "mph (state highways)",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 68,
+        "quote": "Vehicles shall not exceed 65 miles per hour on state highways (70 may be allowed where posted)."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "speed_limit_interstate_max",
+      "value": "75 mph unless posted; up to 80 mph where posted",
+      "detail": "Interstates are 75 mph unless otherwise posted; ITD may post up to 80 mph after an engineering and traffic study (Idaho Code 49-654(2)(a)(ii)). The handbook's freeway section (p. 83) mentions up to 80 on rural interstates and up to 65 on urban interstates where designated.",
+      "number": 80,
+      "unit": "mph (highest posted)",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 68,
+        "quote": "75 miles per hour on interstates unless otherwise posted. (80 may be allowed where posted)."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Don't drive so slowly that you impede traffic; don't linger in the far-left freeway lane",
+      "detail": "It is illegal to drive so slowly that you impede the normal and reasonable flow of traffic, and no one may drive in the extreme left lane of a controlled-access highway long enough to impede traffic moving at a lawful speed (Idaho Code 49-655). A minimum speed may also be posted on freeways.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 69,
+        "quote": "It is illegal to drive so slowly that you disrupt the normal flow of traffic."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop, yielding to pedestrians and cross traffic, unless a sign prohibits it",
+      "detail": "After stopping behind the stop line or crosswalk, you may turn right on a steady red light, yielding to pedestrians and cross traffic, unless a sign prohibits it (Idaho Code 49-802(3)(b)).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 73,
+        "quote": "At a steady red light, you may turn right after stopping and yielding to cross traffic, unless otherwise posted."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Allowed onto a one-way street after stopping and yielding, unless a sign prohibits it",
+      "detail": "After a complete stop at a steady red light you may turn left onto a one-way street, yielding to pedestrians in the crosswalk and to cross traffic, unless a sign prohibits it. The statute allows the turn from any street onto a one-way street; the handbook says 'onto a one-way street' (p. 69) and describes the one-way-to-one-way case (p. 73).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch8/sect49-802/",
+        "page": 17,
+        "quote": "Except when a sign is in place prohibiting a turn, a driver after stopping, facing a steady circular red signal, may turn right, or turn left from a highway onto a one-way highway after stopping."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "signal_distance",
+      "value": "100 feet in business/residential areas; 5 seconds on freeways and highways",
+      "detail": "Signal continuously for at least the last 100 feet before turning; on controlled-access highways and when pulling away from a parked position, signal for at least 5 seconds (Idaho Code 49-808(2)).",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 72,
+        "quote": "Signals must start at least 100 feet (in business or residential areas) or five seconds (on freeways or highways) before you turn or change lanes."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Pull to the right edge and stop until it passes; stay 500 feet behind a fire truck answering an alarm",
+      "detail": "When an emergency or police vehicle approaches with a siren or flashing red or blue lights, pull to the nearest curb or edge on the right, clear of any intersection, and stop until it passes (Idaho Code 49-625). Do not follow within 500 feet of a fire apparatus answering an alarm, or stop within 500 feet of one stopped at a fire (49-626).",
+      "number": 500,
+      "unit": "feet (behind fire apparatus)",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 95,
+        "quote": "When being approached by an emergency or police vehicle sounding a siren or flashing red or blue lights, you must immediately pull to the nearest curb or the edge on the right side of the roadway and stop."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "move_over_law",
+      "value": "Slow below the posted limit; move to a non-adjacent lane when possible",
+      "detail": "Approaching a stationary police or emergency vehicle, tow truck or highway incident response vehicle with flashing lights: with two or more lanes in your direction, slow below the posted limit and move out of the adjacent lane when safe; on a road with one lane each way, slow below the posted limit and keep a safe speed until past it (Idaho Code 49-624).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 95,
+        "quote": "When you are approaching an emergency or police vehicle that is stopped with lights flashing or a tow truck or incident response vehicle, you are required to immediately reduce your speed below the posted speed limit and proceed with caution."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop from both directions for flashing red lights/stop arm; oncoming traffic need not stop on a road of 4+ lanes",
+      "detail": "Drivers meeting or overtaking a stopped school bus with its stop signals on must stop and stay stopped until the bus moves or the signals go off. Oncoming traffic on a highway of more than three lanes (the handbook: four or more lanes, two each way) need not stop. First offense: $300 infraction; a second within 5 years is a misdemeanor ($600-$1,000 and/or up to 6 months in jail) (Idaho Code 49-1422).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 70,
+        "quote": "You do not have to stop if you are traveling in the opposite direction on highways with four or more lanes if two lanes are going in each direction."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "following_distance",
+      "value": "At least 3 seconds; more at high speed, in bad weather and behind motorcycles",
+      "detail": "The three-second rule is the minimum; increase it at high speeds and several times over in bad weather, and leave more than three seconds behind a motorcycle.",
+      "number": 3,
+      "unit": "seconds",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 79,
+        "quote": "The three-second following distance rule is the minimum recommended safest procedure to use."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "headlights_required",
+      "value": "Sunset to sunrise, and whenever you can't see people and vehicles 500 feet ahead",
+      "detail": "Headlights (not just parking lights) are required from sunset to sunrise and any other time light is insufficient to see persons and vehicles 500 feet ahead, such as in fog, smoke, dust or heavy rain (Idaho Code 49-903).",
+      "number": 500,
+      "unit": "feet (visibility)",
+      "source": {
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch9/sect49-903/",
+        "page": 19,
+        "quote": "Every vehicle upon a highway at any time from sunset to sunrise and at any other time when there is not sufficient light to render clearly discernible persons and vehicles on the highway at a distance of five hundred (500) feet ahead shall display lighted lamps"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "Within 500 feet of an oncoming vehicle",
+      "detail": "Switch to low beams within 500 feet of an oncoming vehicle (Idaho Code 49-923(2)).",
+      "number": 500,
+      "unit": "feet",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 43,
+        "quote": "Headlamps must be dimmed 500 feet before meeting and 200 feet before overtaking another vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "Within 200 feet of a vehicle ahead",
+      "detail": "Use low beams when following within 200 feet of another vehicle, except while actually passing it (Idaho Code 49-923(3)).",
+      "number": 200,
+      "unit": "feet",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 43,
+        "quote": "Headlamps must be dimmed 500 feet before meeting and 200 feet before overtaking another vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "15 feet",
+      "detail": "No standing or parking within 15 feet of a fire hydrant (Idaho Code 49-660(1)(b)).",
+      "number": 15,
+      "unit": "feet",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 81,
+        "quote": "Within 15 feet of a fire hydrant"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "20 feet",
+      "detail": "No standing or parking within 20 feet of a crosswalk at an intersection (Idaho Code 49-660(1)(b)); never park on a crosswalk.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 81,
+        "quote": "Within 20 feet of a crosswalk"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Never within an intersection",
+      "detail": "Stopping, standing or parking within an intersection is prohibited (Idaho Code 49-660(1)(a)); separate distance rules cover crosswalks (20 feet) and stop signs/signals (30 feet).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 81,
+        "quote": "In intersections"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_stop_sign_signal",
+      "value": "30 feet",
+      "detail": "No standing or parking within 30 feet of a stop sign, yield sign, flashing signal or traffic signal at the side of the road (Idaho Code 49-660(1)(b)).",
+      "number": 30,
+      "unit": "feet",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 81,
+        "quote": "Within 30 feet of a stop sign, yield sign, or traffic signal"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_railroad",
+      "value": "50 feet",
+      "detail": "No parking within 50 feet of the nearest rail of a railroad crossing (Idaho Code 49-660(1)(c)).",
+      "number": 50,
+      "unit": "feet",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 81,
+        "quote": "Within 50 feet of railroad tracks"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_station",
+      "value": "20 feet of a fire station driveway (75 feet across the street when signposted)",
+      "detail": "No standing or parking within 20 feet of a fire station driveway, or within 75 feet of the entrance on the opposite side of the street when signs are posted (Idaho Code 49-660(1)(b)).",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 81,
+        "quote": "Within 20 feet of a fire station driveway"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "Within 18 inches of the curb, facing the direction of traffic",
+      "detail": "Park parallel to and within 18 inches of the curb or road edge, facing the same direction as traffic on your side.",
+      "number": 18,
+      "unit": "inches",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 80,
+        "quote": "When parking on a public road, you must park parallel to and within 18 inches of the curb or edge of the roadway, facing in the same direction as traffic on your side of the road."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "Between 15 and 50 feet from the nearest rail",
+      "detail": "When a signal, gate, flagger, stop sign or approaching train requires a stop, stop within 50 feet but no closer than 15 feet to the nearest rail, and never drive around a lowered gate (Idaho Code 49-648).",
+      "number": 15,
+      "unit": "feet (minimum)",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 60,
+        "quote": "When required to stop, you should do so within 50 feet but no less than 15 feet from the nearest rail of the crossing."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet (handbook guidance)",
+      "detail": "Move into the left lane to pass a bicyclist when possible; if you can't change lanes, pass with as much clearance as possible, at least 3 feet, even if that means waiting for a break in oncoming traffic. Slow down when passing children on bicycles. No Idaho statute sets a passing distance (a 2010 three-foot bill, S1348, did not pass).",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 98,
+        "quote": "If you are not able to change lanes, pass with as much clearance as possible. A safe margin is at least three (3) feet."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Yield to pedestrians in marked or unmarked crosswalks at intersections, at alleys/driveways, and to blind pedestrians",
+      "detail": "Drivers yield to pedestrians in any marked or unmarked crosswalk at an intersection, when entering a street from an alley or driveway, and to blind pedestrians with a white cane or guide dog. Pedestrians yield when crossing where there is no crosswalk or intersection or when a signal directs them. Never pass a vehicle stopped for a pedestrian.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 75,
+        "quote": "The pedestrian is in a marked or unmarked crosswalk at an intersection."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Report crashes with injury, death, or more than $1,500 in property damage",
+      "detail": "Immediately notify police (city police, county sheriff or state police) of any crash causing injury or death or more than $1,500 damage to one person's property (Idaho Code 49-1305). Exchange names, addresses, license numbers and insurance information.",
+      "number": 1500,
+      "unit": "dollars",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 121,
+        "quote": "You must report to police any motor vehicle crash in which someone is injured or property damage is more than $1,500."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "25/50/15 liability",
+      "detail": "Owners must continuously carry liability insurance of at least $25,000 per person and $50,000 per crash for bodily injury and $15,000 for property damage (Idaho Code 49-117(20), 49-1229). Driving uninsured is a $75 infraction for a first offense and a misdemeanor for a repeat within 5 years (49-1428), and you must file proof of financial responsibility (SR-22) for 1 year (3 years after a second offense within 5 years).",
+      "number": 25000,
+      "unit": "dollars (bodily injury per person)",
+      "source": {
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch1/sect49-117/",
+        "page": 14,
+        "quote": "in the amount of twenty-five thousand dollars ($25,000) because of bodily injury to or death of one (1) person in any one (1) accident and, subject to the limit for one (1) person, in the amount of fifty thousand dollars ($50,000) because of bodily injury to or death of two (2) or more persons in any one (1) accident, and in the amount of fifteen thousand dollars ($15,000) because of injury to or destruction of property of others in any one (1) accident."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "point_system",
+      "value": "1-4 points per moving violation; 12+ points in 12 months = 30-day suspension",
+      "detail": "8-11 points in 12 months: warning letter; 12-17 in 12 months: 30-day suspension; 18-23 in 24 months: 90 days; 24 or more in 36 months: 6 months. Once every 3 years, points can be reduced by an ITD-approved defensive driving course (up to 3 points) or a Traffic Safety Course offered by law enforcement when the citation is issued (up to 4 points; finish within 45 days).",
+      "number": 12,
+      "unit": "points in 12 months (30-day suspension)",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 123,
+        "quote": "Your driving record is evaluated by a point system in which you receive one to four points for each moving traffic violation on your record."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Required under 18",
+      "detail": "Riders and passengers under 18 must wear a DOT-compliant helmet on a motorcycle or ATV (Idaho Code 49-666, which exempts private property). Helmets are recommended for all riders.",
+      "number": 18,
+      "unit": "years (under)",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/Motorcycle_manual.pdf",
+        "page": 19,
+        "quote": "Idaho law requires all persons under the age of 18 to wear a DOT-compliant protective helmet while riding on a motorcycle or ATV on or off highway."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Not legal (neither lane splitting nor lane filtering)",
+      "detail": "Riding between lanes of moving traffic (splitting) or picking through slow or stopped traffic (filtering) is not legal in Idaho; a motorcycle is entitled to a full lane.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/Motorcycle_manual.pdf",
+        "page": 45,
+        "quote": "The practice of “lane filtering” or “splitting” is not legal in the State of Idaho."
+      },
+      "status": "verified"
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "The 'Idaho stop' for bicyclists",
+      "summary": "Bicyclists may treat a stop sign like a yield sign (slow down, yield, then proceed without a full stop) and a red light like a stop sign (stop, yield, then proceed with caution); after yielding they may turn right on red without a full stop (Idaho Code 49-720). Drivers should expect cyclists to roll through stop signs when the way is clear.",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 98,
+        "quote": "In Idaho, bicyclists do not need to come to a complete stop at stop signs."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Hands-free law (newer than the handbook's texting section)",
+      "summary": "Since July 1, 2020 (citations from January 1, 2021), drivers may not use a handheld phone or other mobile device while driving, even when stopped at a light; hands-free/voice use is allowed. Moving violation, primary enforcement: $75, then $150 and $300 within 3 years; a court may suspend the license for up to 90 days after 3 convictions in 3 years (Idaho Code 49-1401A).",
+      "source": {
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch14/sect49-1401a/",
+        "page": 1,
+        "quote": "A violation of this section shall be a moving violation and shall be an infraction punishable by a fine of seventy-five dollars ($75.00) for a first offense and one hundred fifty dollars ($150) for a second offense within a three (3) year period."
+      },
+      "status": "corrected"
+    },
+    {
+      "title": "Speeding to pass: up to 15 mph over the limit",
+      "summary": "Drivers of cars, pickups and motorcycles not towing may exceed the posted limit by up to 15 mph to pass a vehicle going below the limit on a two-lane highway posted 55 mph or more, then must return to the limit as soon as practicable. Never in construction (work) zones. Since July 1, 2025 (HB 205) it also applies in passing lanes on roads posted 55 mph or more outside incorporated cities (Idaho Code 49-654(2)(b)); the July 2026 handbook (p. 77) describes only the two-lane rule.",
+      "source": {
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch6/sect49-654/",
+        "page": 2,
+        "quote": "a driver of a passenger car, motorcycle or pickup truck, not towing any other vehicle, may exceed the posted speed limit by up to fifteen (15) miles per hour while passing another vehicle traveling at less than the posted speed limit, in order to safely pass the vehicle."
+      },
+      "status": "corrected"
+    },
+    {
+      "title": "Slow vehicles must pull over for 3 or more vehicles",
+      "summary": "On a two-lane highway outside an urban area where passing is unsafe, a vehicle with three or more vehicles lined up behind it must turn off at the nearest turnout or next safe and reasonable place to let them pass (Idaho Code 49-639, amended 2026).",
+      "source": {
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch6/sect49-639/",
+        "page": 25,
+        "quote": "behind which three (3) or more vehicles are formed in line shall turn off the roadway at the nearest place designated as a turnout or at the next available location where it is safe and reasonable for the vehicle to be pulled over in order to permit the following vehicles to pass."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Open range: livestock have the right-of-way",
+      "summary": "Livestock under controlled movement have the right-of-way, and animals may roam unfenced on open range (most areas outside cities and herd districts). If you hit livestock on open range or under controlled movement, the owner is not liable for your damage, and you may be liable for the animal if you were negligent.",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 108,
+        "quote": "If you strike and injure or kill livestock or domestic animals that are on the open range or under controlled movement, the owner of the animal(s) is not liable for damages to you or your vehicle."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Quick Clearance law",
+      "summary": "After a crash on an interstate or major divided highway with no death or injury, the drivers must safely move the vehicles out of traffic to a shoulder, median or emergency lane.",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 121,
+        "quote": "Idaho’s “Quick Clearance” law requires anyone involved in the crash (on an interstate or major divided highway), that does not cause a death or injury, to safely move the vehicle to a shoulder, median, or emergency lane."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "No lingering in the left lane of a freeway",
+      "summary": "No one may drive in the extreme left lane of a controlled-access highway for a period that impedes traffic moving at a lawful speed; the left lane is for passing and higher-speed traffic (Idaho Code 49-655).",
+      "source": {
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch6/sect49-655/",
+        "page": 3,
+        "quote": "no person shall operate a vehicle in the extreme left-hand lane of a controlled-access highway for a period of time that impedes the flow of other traffic traveling at a lawful rate of speed."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Studded tires only October 1 - April 30",
+      "summary": "Studded snow tires may be used only from October 1 to April 30; ITD sometimes adjusts the dates for weather.",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/driver_manual.pdf",
+        "page": 42,
+        "quote": "Studded snow tires may be used only from October 1 to April 30."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Seat belts: secondary enforcement, $10 fine",
+      "summary": "Officers may cite for a seat belt violation only after stopping the driver for another violation. The fine is $10 with no points; a driver 18+ is responsible for unbelted occupants under 18 (Idaho Code 49-673).",
+      "source": {
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch6/sect49-673/",
+        "page": 7,
+        "quote": "Enforcement of this section by law enforcement officers may be accomplished only as a secondary action when the operator of the motor vehicle has been detained for a suspected violation of another law."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Motorcycles at signals that don't detect them",
+      "summary": "A motorcyclist stopped at a red light controlled by a vehicle detector that does not sense the motorcycle may proceed with caution after one full signal cycle, yielding to traffic; it is no defense if the signal has no detector (Idaho Code 49-802(3)(e)).",
+      "source": {
+        "url": "https://itd.idaho.gov/wp-content/uploads/2026/04/Motorcycle_manual.pdf",
+        "page": 51,
+        "quote": "Idaho Code allows a motorcycle rider, after coming to a complete stop, to proceed with caution through a red light at an intersection. However, the rider may only do so if the signal fails to operate after waiting through one complete cycle."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Excessive DUI: BAC of 0.20 or more",
+      "summary": "A first DUI with a BAC of 0.20 or more brings at least 10 days in jail (first 48 hours consecutive, up to 1 year), a fine up to $2,000 and a one-year absolute suspension after release; a second DUI at 0.20 or more within 5 years is a felony (Idaho Code 18-8004C).",
+      "source": {
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title18/t18ch80/sect18-8004c/",
+        "page": 32,
+        "quote": "Shall be sentenced to jail for a mandatory minimum period of not less than ten (10) days, the first forty-eight (48) hours of which must be consecutive, and may be sentenced to not more than one (1) year"
+      },
+      "status": "corrected"
+    },
+    {
+      "title": "Teen (under 17) violation penalties",
+      "summary": "Drivers cited under 17 receive a warning letter for a first moving-violation conviction, a 30-day suspension for a second and a 60-day suspension for a third or later, with no restricted driving privileges, on top of any permit cancellation (Idaho Code 49-326(1)(o)).",
+      "source": {
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch3/sect49-326/",
+        "page": 24,
+        "quote": "the driver shall be sent a written warning from the Idaho transportation department for a first conviction; the driver’s license shall be suspended for a period of thirty (30) days for a second conviction; and the driver’s license shall be suspended for a period of sixty (60) days for a third or subsequent conviction"
+      },
+      "status": "verified"
+    }
+  ],
+  "officialPracticeTests": [
+    "https://apps.itd.idaho.gov/Apps/dmv-practice-tests/SampleTest.html",
+    "https://apps.itd.idaho.gov/Apps/dmv-practice-tests/SampleTestSpanish.html"
+  ],
+  "gaps": [
+    "Verifier (Oct 15, 2026): all 41 sections in ID_LAWS.txt were compared with the live legislature.idaho.gov pages (every sentence matches; 49-1428, 49-319, 49-635 and 33-4902 were added by the verifier). The handbook and motorcycle manual PDFs were re-downloaded from the ITD links and re-extracted: byte-identical to the stored text.",
+    "handheld_phone_ban / texting_ban: handbook p. 92 is outdated. It describes only the 2012 texting ban (repealed when HB 614 took effect July 1, 2020, per Idaho State Police) and says a conviction carries no points and is a moving violation only for commercial drivers. Idaho Code 49-1401A (effective July 1, 2020; amended 2021) bans using a mobile device while driving except hands-free/one-touch/voice use, is a moving violation for everyone, and exempts only a first offense from points. Questions use the statute.",
+    "Passing speed allowance: handbook p. 77 covers only two-lane roads; HB 205 (2025, ch. 78, effective July 1, 2025) extended it to passing lanes on roads posted 55+ outside incorporated cities (49-654(2)(b)(ii)).",
+    "dui_first_offense: handbook p. 132 says an ignition interlock 'will likely be required' (p. 127 says required unless the court orders otherwise); 18-8005(1)(e) requires one, unless a court grants an exception under 18-8002(12), from 10 days after the 30-day absolute suspension until one year after the suspension ends.",
+    "school_bus_stopping: handbook p. 70 says oncoming traffic need not stop on 'four or more lanes if two lanes are going in each direction'; 49-1422(1) (amended 2024) says 'more than three (3) lanes'. Questions use a 4-lane road (true under both) and a 3-lane road with a center turn lane (must stop under both).",
+    "speed_limit_interstate_max: handbook p. 68 matches 49-654(2)(a)(ii) (75 unless posted, 80 where posted after a study); pp. 83 and 85 say 'up to 80 on rural interstates and 65 on urban interstates where designated'. Questions use the statute's 75 default.",
+    "signal_distance: handbook p. 72 says 5 seconds 'on freeways or highways'; 49-808(2) requires 5 seconds on controlled-access highways and when pulling away from a parked position, and 100 feet in all other cases. Questions ask only the business/residential (100 ft) and freeway (5 s) cases.",
+    "speed_limit_school_zone: no statewide school-zone number; limits are posted (49-658).",
+    "bicycle_passing: 3 feet is handbook guidance; no statute in Title 49 chapters 6-7 sets a passing distance (checked Oct 15, 2026; 2010 bill S1348 died in committee).",
+    "motorcycle_lane_splitting: a 2025 draft to allow lane filtering (RS 32400) was returned to its sponsor in House State Affairs on Feb 17, 2025; the July 2026 manual still says it is not legal.",
+    "motorcycleTest: no ITD page states the question count or pass mark; 25 questions / miss up to 5 is from Idaho STAR (idahostar.org), the state rider-training program administered by the Division of Career Technical Education under Idaho Code 33-4902. Kept as an official state program source.",
+    "knowledgeTest.timeLimitMinutes: no time limit published by ITD. Format: ITD news release June 26, 2024 (https://itd.idaho.gov/news/idaho-dmv-issuing-paper-tests/) on touch-screen stations and paper backups.",
+    "cdlTest: ITD's CDL manual (https://itd.idaho.gov/wp-content/uploads/2025/03/cdl_manual.pdf) and Ten Steps to getting an Idaho CDL guide give no question counts (only $5 per test, 3-day retest wait, results valid one year); left null.",
+    "Laws newer than the handbook, not used in questions: HB 664 (2026, ch. 108) gives trucks with 5+ axles over 26,000 lbs the same speed limits as other vehicles (49-654(3)); S1224 (2026, ch. 120) reworded the slow-vehicle turnout rule (49-639: two-lane highways outside urban areas; handbook p. 79 says 'in a rural area or on a two-lane highway'); HB 23 (2025, ch. 24, signed March 11, 2025) made Class D and motorcycle instruction permits valid one year and removed the knowledge test for a new Class D applicant who previously held an Idaho license (49-319(5); handbook pp. 12 and 32 still say transfers take it)."
+  ]
+}
