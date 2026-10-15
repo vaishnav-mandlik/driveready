@@ -1,0 +1,35 @@
+[
+  {
+    "id": "car.cvvks.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A driver has had a few drinks. Which driving abilities can the alcohol impair?",
+    "choices": [
+      "Only judgment, since vision stays sharp until much later",
+      "Only reaction time, while judgment stays clear",
+      "Judgment, vision and coordination",
+      "Only coordination, and only after many drinks"
+    ],
+    "answer": 2,
+    "explanation": "Alcohol reduces judgment, blurs and slows your vision (including judging speed and distance) and weakens coordination and reaction time. Judgment is often affected first, but no driving skill is spared, and the effects begin with the first drink.",
+    "difficulty": 1,
+    "ref": "State driver handbooks (e.g. VA p.26, TX p.61, AL p.35, TN p.97, WA p.74)"
+  },
+  {
+    "id": "car.cvvks.002",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "What does this sign tell you about the road ahead?",
+    "choices": [
+      "Traffic will merge in from the right",
+      "It curves sharply in the direction shown",
+      "A detour turns right at the next street",
+      "The street ahead is one-way to the right"
+    ],
+    "answer": 1,
+    "explanation": "This yellow chevron alignment sign marks a sharp curve or turn and points the way the road bends; several are often placed along the outside of the curve. Slow down before you reach it. One-way signs are black and white, and detour signs are orange.",
+    "sign": "W1-8R",
+    "difficulty": 1,
+    "ref": "MUTCD Sec. 2C; state driver handbooks (e.g. SC p.64, TX p.35)"
+  }
+]

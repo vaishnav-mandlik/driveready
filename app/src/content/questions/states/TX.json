@@ -2030,5 +2030,366 @@
     "states": [
       "TX"
     ]
+  },
+  {
+    "id": "tx.car.100",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the maximum fine for a first conviction of driving without a license in Texas?",
+    "choices": [
+      "$500",
+      "$1,000",
+      "$200",
+      "$100"
+    ],
+    "answer": 2,
+    "explanation": "A first conviction for driving without a license is punishable by a fine of up to $200. If you also have no insurance and cause a crash that seriously injures or kills someone, it is a Class A misdemeanor with a fine of up to $4,000 and up to a year in jail.",
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 15",
+    "states": [
+      "TX"
+    ]
+  },
+  {
+    "id": "tx.car.101",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Your Texas vision exam shows that you see much better with your glasses on. What can DPS do?",
+    "choices": [
+      "Refuse to license you until you have corrective eye surgery",
+      "Add a restriction requiring corrective lenses to drive",
+      "Limit you to driving only within your home county",
+      "Require you to retake the driving exam every year"
+    ],
+    "answer": 1,
+    "explanation": "If corrective lenses improve your vision and help you drive more safely, you may be required to wear them while driving, and this is shown as a restriction on your license. Restrictions are not meant to keep you from driving but to make you a safer driver, and you must obey them.",
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, pp. 13, 15",
+    "states": [
+      "TX"
+    ]
+  },
+  {
+    "id": "tx.car.102",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Texas equipment rules set a standard for your car's foot brake. From 20 mph, the car must be able to stop within what distance?",
+    "choices": [
+      "50 feet",
+      "15 feet",
+      "75 feet",
+      "25 feet"
+    ],
+    "answer": 3,
+    "explanation": "A car's foot brake must be able to stop it within 25 feet at a speed of 20 mph, and the parking brake should be able to stop and hold the car. Working brakes are part of the equipment Texas requires on every car.",
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 21",
+    "states": [
+      "TX"
+    ]
+  },
+  {
+    "id": "tx.car.103",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Under Texas equipment rules, from how far away must your car's horn be able to be heard?",
+    "choices": [
+      "At least 200 feet",
+      "At least 50 feet",
+      "At least 100 feet",
+      "At least 500 feet"
+    ],
+    "answer": 0,
+    "explanation": "Texas requires a horn that can be heard from at least 200 feet. The same distance applies to your rearview mirror, which must show the highway at least 200 feet behind your car.",
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 21",
+    "states": [
+      "TX"
+    ]
+  },
+  {
+    "id": "tx.car.104",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Texas requires cars built in 1968 or later to have an exhaust emission system as well as a muffler. What is the emission system for?",
+    "choices": [
+      "To make the engine run more quietly",
+      "To help the engine stay cool in traffic",
+      "To help reduce air pollution",
+      "To give the engine more power"
+    ],
+    "answer": 2,
+    "explanation": "All 1968 and later models must have an exhaust emission system to help reduce air pollution. Keeping the engine quiet is the muffler's job, and Texas also forbids a muffler cutout.",
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, pp. 21-22",
+    "states": [
+      "TX"
+    ]
+  },
+  {
+    "id": "tx.car.105",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which of these is illegal to have on a private passenger car in Texas?",
+    "choices": [
+      "Two backup lights at the rear",
+      "A device that jams police radar or laser speed checks",
+      "Up to three extra driving lights on the front",
+      "A spotlight that is turned off for oncoming traffic"
+    ],
+    "answer": 1,
+    "explanation": "Texas forbids radar or laser interference devices on cars, along with red lights showing to the front, sirens, bells or exhaust whistles, and muffler cutouts (emergency vehicles are exempt from some of these rules). Backup lights, a properly used spotlight and up to three extra front driving lights are allowed.",
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 22",
+    "states": [
+      "TX"
+    ]
+  },
+  {
+    "id": "tx.car.106",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "According to the stopping-distance chart in the Texas Driver Handbook, once the brakes are applied at 70 mph, about how far does a car travel before it stops?",
+    "choices": [
+      "About 154 feet",
+      "About 387 feet",
+      "About 100 feet",
+      "About 233 feet"
+    ],
+    "answer": 3,
+    "explanation": "At 70 mph the chart shows about 154 feet traveled while the driver reacts (1½ seconds) and then about 233 feet after the brakes are applied, about 387 feet in all. That is with good brakes and tires on dry, level pavement.",
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 51",
+    "states": [
+      "TX"
+    ]
+  },
+  {
+    "id": "tx.car.107",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "The Texas Driver Handbook says the average driver needs 1½ seconds to see danger, react and apply the brakes. At 50 mph, about how far does the car go in that time?",
+    "choices": [
+      "About 110 feet",
+      "About 50 feet",
+      "About 229 feet",
+      "About 75 feet"
+    ],
+    "answer": 0,
+    "explanation": "At 50 mph a car covers about 73 feet per second, so in 1½ seconds it travels about 110 feet before the brakes even start working. The chart adds about 119 feet of braking, for about 229 feet in all.",
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 51",
+    "states": [
+      "TX"
+    ]
+  },
+  {
+    "id": "tx.car.108",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "The Texas Driver Handbook says that if a crash is not investigated by a law enforcement officer, a written crash report must be filed with TxDOT. By when?",
+    "choices": [
+      "Within 24 hours after the crash",
+      "Within 30 days after the crash",
+      "Within 10 days after the crash",
+      "Within 72 hours after the crash"
+    ],
+    "answer": 2,
+    "explanation": "The handbook says to file the written report on a TxDOT form no later than the 10th day after a crash that police did not investigate, so know that figure for the exam. In practice, the law section behind it (Transportation Code 550.061) was repealed in 2017 and TxDOT no longer keeps drivers' reports; keep your own record and call police right away when someone is hurt or a car can't be moved.",
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, pp. 65-66; Texas Transportation Code, Ch. 550",
+    "states": [
+      "TX"
+    ]
+  },
+  {
+    "id": "tx.car.109",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "After certain convictions, a Texas driver must keep proof of financial responsibility on file for the future (an SR-22). For how long?",
+    "choices": [
+      "Six months from the conviction date",
+      "Two years from the most recent conviction date",
+      "One year from the date the license is reinstated",
+      "Five years from the first conviction date"
+    ],
+    "answer": 1,
+    "explanation": "Some suspensions require you to file proof of financial responsibility for the future, usually an SR-22 insurance certificate. Texas requires that proof to be kept up for two years from the most recent conviction date.",
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, pp. 16, 25",
+    "states": [
+      "TX"
+    ]
+  },
+  {
+    "id": "tx.car.110",
+    "track": "car",
+    "topic": "road-signs",
+    "prompt": "In Texas, a white route marker with the word LOOP above the number tells you what about the road?",
+    "choices": [
+      "It branches off to go through a city's business district",
+      "It is an interstate highway",
+      "It is a farm-to-market road",
+      "It is a short state highway in a city or urban area"
+    ],
+    "answer": 3,
+    "explanation": "A LOOP marker, such as LOOP 270, tells you that you are on a short state highway in a city or urban area. A route marked BUSINESS is an officially designated branch through a city's business district, and interstates use a red, white and blue shield.",
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 38",
+    "states": [
+      "TX"
+    ]
+  },
+  {
+    "id": "tx.car.111",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "You are carrying a load that sticks out past the left side of your car. How far does Texas law allow it to extend?",
+    "choices": [
+      "No more than 3 inches",
+      "No more than 6 inches",
+      "No more than 12 inches",
+      "No more than 2 feet"
+    ],
+    "answer": 0,
+    "explanation": "Texas forbids anything extending more than 3 inches beyond the left side of a car's body, running board or fenders, or more than 6 inches beyond the right side. A load sticking out on the left can strike oncoming traffic.",
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 22",
+    "states": [
+      "TX"
+    ]
+  },
+  {
+    "id": "tx.car.112",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "A child runs into the street about 50 feet ahead of you. According to the Texas Driver Handbook's chart, how far does a car going just 20 mph need to stop, counting the driver's reaction time?",
+    "choices": [
+      "About 19 feet",
+      "About 44 feet",
+      "About 63 feet",
+      "About 30 feet"
+    ],
+    "answer": 2,
+    "explanation": "The chart shows about 44 feet traveled while the driver reacts plus about 19 feet of braking: about 63 feet in all at 20 mph. Even at 20 mph you could not stop within 50 feet, so slow down well below that wherever children may dart out.",
+    "difficulty": 3,
+    "ref": "Texas Driver Handbook, p. 51",
+    "states": [
+      "TX"
+    ]
+  },
+  {
+    "id": "tx.car.113",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You must park on an unlighted Texas highway at night. Besides your parking lights, which lights does the Texas Driver Handbook say you may leave on?",
+    "choices": [
+      "Your high-beam headlights",
+      "Your low-beam headlights",
+      "Your fog lights only",
+      "Your interior dome light"
+    ],
+    "answer": 1,
+    "explanation": "If you must park on an unlighted highway at night, leave your parking lights or low-beam headlights on. High beams would blind oncoming drivers. Park completely off the road if you can; if not, leave room for others to pass and make sure your car can be seen from 200 feet in each direction.",
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, pp. 48, 53",
+    "states": [
+      "TX"
+    ]
+  },
+  {
+    "id": "tx.car.114",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "When must a Texas driver show evidence of financial responsibility (proof of insurance)?",
+    "choices": [
+      "Only when renewing your driver license",
+      "Only after a crash that you caused",
+      "Only if you are cited for a moving violation",
+      "Whenever an officer asks, or after a crash"
+    ],
+    "answer": 3,
+    "explanation": "Every owner or driver must show evidence of financial responsibility to a law enforcement officer who asks for it and to anyone else involved in a crash. You also need it when you apply for a driver license or register a vehicle.",
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 24",
+    "states": [
+      "TX"
+    ]
+  },
+  {
+    "id": "tx.car.115",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "An officer asks for proof of insurance during a Texas traffic stop. Which of these is accepted?",
+    "choices": [
+      "An image of your insurance card on your phone",
+      "The registration sticker on your windshield",
+      "Your driver license, since insurance is on file",
+      "The bill of sale from when you bought the car"
+    ],
+    "answer": 0,
+    "explanation": "Texas accepts a liability insurance policy, the standard proof-of-insurance card from your insurer, an insurance binder, certain deposit certificates or bonds, or the insurance card shown as an image on a wireless device such as your phone. A registration sticker, driver license or bill of sale is not proof of insurance.",
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, p. 24",
+    "states": [
+      "TX"
+    ]
+  },
+  {
+    "id": "tx.car.116",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which of these may you drive with a Texas Class C license?",
+    "choices": [
+      "A motorcycle with an engine under 250 cc",
+      "A single truck with a 30,000-pound GVWR",
+      "A pickup towing a 9,000-pound GVWR trailer",
+      "Any vehicle, as long as it carries no passengers"
+    ],
+    "answer": 2,
+    "explanation": "Class C covers a single vehicle under 26,001 pounds GVWR towing a trailer of no more than 10,000 pounds GVWR, plus autocycles. A single vehicle of 26,001 pounds or more needs a Class B (or A) license, and any motorcycle needs Class M. You can get a Class C license at 16 with driver education.",
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, pp. 9-11",
+    "states": [
+      "TX"
+    ]
+  },
+  {
+    "id": "tx.car.117",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Two bicyclists are riding side by side on a Texas road with marked lanes. When is this legal?",
+    "choices": [
+      "Never; Texas bicyclists must always ride single file",
+      "When they stay in one lane and don't impede traffic",
+      "Only on streets with a speed limit of 30 mph or less",
+      "Only when there is no shoulder they could ride on"
+    ],
+    "answer": 1,
+    "explanation": "Texas law lets bicyclists ride two abreast, but on a road with marked lanes they must stay within a single lane and may not impede the normal flow of traffic. Riding more than two abreast is allowed only on a part of the road set aside for bicycles.",
+    "difficulty": 2,
+    "ref": "Texas Driver Handbook, p. 68; Texas Transportation Code, Sec. 551.103(c)",
+    "states": [
+      "TX"
+    ]
+  },
+  {
+    "id": "tx.car.118",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "The Texas Driver Handbook lists the most common car-bicycle crashes caused by drivers. Which driver action is one of them?",
+    "choices": [
+      "Waiting behind a bicyclist before turning right",
+      "Dimming high beams for an oncoming bicyclist",
+      "Giving a bicyclist extra room when passing",
+      "Turning left in front of an oncoming bicyclist"
+    ],
+    "answer": 3,
+    "explanation": "The three most common driver-caused crashes are turning left in front of oncoming bicycle traffic (drivers overlook it or misjudge its speed), turning right across a bicyclist's path, and pulling away from a stop sign without yielding to a bicyclist on the cross street. Waiting, dimming your lights and giving extra room are the safe choices.",
+    "difficulty": 1,
+    "ref": "Texas Driver Handbook, pp. 59-60",
+    "states": [
+      "TX"
+    ]
   }
 ]

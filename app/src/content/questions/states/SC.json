@@ -2145,5 +2145,81 @@
     "states": [
       "SC"
     ]
+  },
+  {
+    "id": "sc.mc.011",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Besides two-wheel motorcycles, what else may you operate with a South Carolina Class M license?",
+    "choices": [
+      "Cars and light trucks, as with a Class D license",
+      "Mopeds and three-wheel motorcycles",
+      "Nothing else; mopeds need their own Class G license",
+      "Only scooters, but not mopeds or three-wheelers"
+    ],
+    "answer": 1,
+    "explanation": "A Class M license is required to ride a motorcycle, or a motorcycle with a detachable sidecar, on public roads, and with it you may also operate a moped or a three-wheel motorcycle. It does not cover cars; a moped (Class G) license is only needed if you hold no higher-class license.",
+    "difficulty": 1,
+    "ref": "South Carolina Motorcycle and Moped Operator Manual, pp. 10-11",
+    "states": [
+      "SC"
+    ]
+  },
+  {
+    "id": "sc.mc.012",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "Your BAC is below 0.08, but alcohol has affected your riding. According to the South Carolina motorcycle manual, which is true?",
+    "choices": [
+      "You cannot be charged at all, since you are under 0.08",
+      "You can be charged only if you are also speeding",
+      "You can still be impaired and convicted of riding impaired",
+      "Only riders under 21 can be charged below 0.08"
+    ],
+    "answer": 2,
+    "explanation": "Impairment begins with the first drink, so even under 0.08 you can be impaired and convicted for riding impaired, and your license and riding privileges may be suspended. Riders under 21 can have their license automatically suspended at a BAC of 0.02 or higher.",
+    "difficulty": 2,
+    "ref": "South Carolina Motorcycle and Moped Operator Manual, pp. 17, 24",
+    "states": [
+      "SC"
+    ]
+  },
+  {
+    "id": "sc.mc.013",
+    "track": "motorcycle",
+    "topic": "mc-impairment",
+    "prompt": "A South Carolina motorcycle rider is 21 or older. At what BAC is the rider considered intoxicated?",
+    "choices": [
+      "0.10 percent or higher",
+      "0.15 percent or higher",
+      "0.02 percent or higher",
+      "0.08 percent or higher"
+    ],
+    "answer": 3,
+    "explanation": "An adult rider with a BAC of 0.08 percent or higher is considered intoxicated, and South Carolina law makes riding with 0.08 or more an unlawful alcohol concentration. Impairment starts well below that. Riders under 21 can lose their license at 0.02, and adults at 0.15 or higher can have their license automatically suspended.",
+    "difficulty": 1,
+    "ref": "South Carolina Motorcycle and Moped Operator Manual, pp. 17, 24; S.C. Code of Laws § 56-5-2933",
+    "states": [
+      "SC"
+    ]
+  },
+  {
+    "id": "sc.mc.014",
+    "track": "motorcycle",
+    "topic": "mc-passengers-groups",
+    "prompt": "According to South Carolina's motorcycle manual, how should three-wheel vehicles ride when traveling in a group?",
+    "choices": [
+      "Single file, at least four seconds apart",
+      "Staggered, about one second apart",
+      "Side by side, two vehicles to a lane",
+      "Single file, about one car length apart"
+    ],
+    "answer": 0,
+    "explanation": "Three-wheel vehicles are nearly as wide as some cars, so they can't use a staggered formation. South Carolina's manual says to ride single file and keep a safe margin of at least four seconds between vehicles. (The MSF manual's minimum is two seconds.)",
+    "difficulty": 2,
+    "ref": "South Carolina Motorcycle and Moped Operator Manual, p. 95",
+    "states": [
+      "SC"
+    ]
   }
 ]
