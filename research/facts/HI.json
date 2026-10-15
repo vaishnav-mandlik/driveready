@@ -1,0 +1,735 @@
+{
+  "code": "HI",
+  "name": "Hawaii",
+  "agency": {
+    "name": "Hawaii Department of Transportation, Motor Vehicle Safety Office (driver licensing and knowledge tests are run by the City & County of Honolulu and the Counties of Hawaii, Maui and Kauai)",
+    "abbreviation": "HDOT",
+    "website": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/"
+  },
+  "handbook": {
+    "title": "Hawaii Driver's Manual",
+    "edition": "2023 edition (copyright 1977-2023, 'HMG 5/2023'; digital file dated 07/19/24, uploaded November 2024). This is the file behind the 'Hawaii Driver's Manual - English (PDF)' link on the HDOT Motor Vehicle Safety Office library page as of Oct 15, 2026. Page numbers are PDF pages, which equal the printed page numbers. The September 2026 HDOT uploads named 'Hawaii-Drivers-Manual_2026_V2.pdf' (and '-1') are the Chuukese translation (old 10/18 content, linked as 'Chuukese'), not a new English edition. Statute, session-law and official web-page quotes are in research/handbooks/HI_LAWS.txt (Hawaii Revised Statutes from data.capitol.hawaii.gov, Session Laws of Hawaii, and HDOT/Kauai County pages, retrieved Oct 15, 2026; page = that file's page marker). Motorcycle quotes are in research/handbooks/HI_MOTORCYCLE.txt (Hawaii Motorcycle Operator Manual, DOT-H 2053 (R5/17), May 2017; PDF pages).",
+    "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf"
+  },
+  "knowledgeTest": {
+    "questions": 30,
+    "passingScore": 24,
+    "passingPercent": 80,
+    "roadSigns": "No separate road-sign test. Highway signs are part of the single general knowledge test (HRS 286-110(c) requires testing the applicant's understanding of highway signs), and the manual's official sample questions (pp. 99-127) include sign pictures.",
+    "timeLimitMinutes": null,
+    "format": "Class 3 (car) written test: 30 multiple-choice questions based on the Hawaii Driver's Manual; more than 6 errors fails (24 correct = 80%) (Kauai and Maui county pages). Given in person at county driver licensing offices (appointment only, limited days). Since Dec 11, 2024 the permit test can also be taken online at knowtodrive.com/hawaii (desktop or laptop with webcam; English or Spanish with audio playback; 60-minute limit). Honolulu's online-test page (updated Aug 2026) calls it a 30-question test, while HDOT's online-test page says 25 questions. The motorcycle written test is in person only.",
+    "languages": "In person: HDOT announced in 2015 that the written test is offered in 14 languages (English, Hawaiian, Traditional Chinese, Simplified Chinese, Chuukese, Ilocano, Japanese, Korean, Marshallese, Samoan, Spanish, Tagalog, Tongan, Vietnamese). Honolulu offers an oral test ($10, Kapalama and Wahiawa) for applicants who cannot read or write English. Online test: English and Spanish, with read-aloud audio.",
+    "retestWait": "7 days after failing (Kauai and Maui county pages for the in-person test; Honolulu says the same for an online test failed on knowledge). The examination fee is collected before each test and is not refunded for a failed test. A disqualified online test also requires a 7-day wait (KnowTo Drive FAQ).",
+    "notes": "Minimum age for the permit (and the online test) is 15 years 6 months; applicants under 18 need a parental consent affidavit signed by each custodial parent or guardian. For the online test, an adult must take part in the registration of an applicant under 18 and stay out of the webcam's view (HDOT says an adult over 18; Honolulu and the KnowTo Drive FAQ say at least 21). By law the knowledge test must specifically cover the law against leaving a child unattended in a vehicle (HRS 291C-121.5) and the mobile electronic device law (HRS 291C-137) (HRS 286-108(a)(3)). After passing online, applicants complete the permit application at a licensing center within 30 days (HDOT, Kauai) or 60 days (Honolulu). Kauai County's K2DO page says Kauai DMV is not processing online permit tests at this time (Oct 15, 2026). Applicants 18+ with a valid license from another U.S. state may have the written and road tests waived (HRS 286-108(c)). Sources: Kauai County Instructional Permits page (30 questions, more than 6 errors fails, 7-day wait); Maui County Class 3 Instructional Permit page (same wording, seen via search results because the site blocks automated requests); HDOT Online Learner's Permit Test page; Honolulu Online Permit Test page and FAQ.",
+    "sourceUrl": "https://www.kauai.gov/Government/Departments-Agencies/Finance/Drivers-Licensing-and-Motor-Vehicles/Instructional-Permits"
+  },
+  "motorcycleTest": {
+    "questions": 25,
+    "passingScore": null,
+    "passingPercent": null,
+    "notes": "Class 2 (motorcycle/motor scooter) instruction permit: complete a state-approved Basic Rider Course first (Act 66 of 2025; HDOT says required for new applications starting Dec 24, 2025), then pass a vision test, the 25-question motorcycle written test (in person only; based on the Motorcycle Operator Manual) and the Class 3 general knowledge test unless you already hold a Class 3 license. The passing score is not published. Permit holders may not carry passengers or ride during darkness; an off-street skills test is required for the license.",
+    "sourceUrl": "https://www.kauai.gov/Government/Departments-Agencies/Finance/Drivers-Licensing-and-Motor-Vehicles/Instructional-Permits"
+  },
+  "cdlTest": null,
+  "facts": [
+    {
+      "key": "bac_limit_adult",
+      "value": "0.08% BAC or more",
+      "detail": "Driving with a BAC of .08 or more is operating a vehicle under the influence of an intoxicant (OVUII). You can also be convicted below .08 if alcohol or drugs impair you; a BAC over .05 but under .08 may be used with other evidence (HRS 291E-3).",
+      "number": 0.08,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 56,
+        "quote": "Under the influence of alcohol if the blood alcohol content is .08 percent or more."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bac_limit_under21",
+      "value": "0.02% BAC for drivers under 21 (zero tolerance)",
+      "detail": "Under 21, driving with a 'measurable amount' of alcohol (.02 up to .08) is illegal. A first violation brings a 180-day license suspension and an alcohol education program (HRS 291E-64); for drivers 18 to 20 the court may instead order at least 30 days off the road plus a work-only license for the rest of the 180 days. At .08 or more the adult OVUII law applies.",
+      "number": 0.02,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 56,
+        "quote": "Zero Tolerance. Drivers under 21 are prohibited from operating a motor vehicle with a blood alcohol content level of .02 or more."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "bac_limit_commercial",
+      "value": "0.04% BAC in a commercial motor vehicle",
+      "detail": "It is unlawful to drive a commercial motor vehicle with a BAC of .04 or more. A commercial driver with any alcohol (.01 or more) is placed out of service for 24 hours (HRS 286-242).",
+      "number": 0.04,
+      "unit": "% BAC",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0286/HRS_0286-0242.htm",
+        "page": 61,
+        "quote": "It is unlawful for any person with an alcohol concentration of 0.04 or more grams of alcohol per two hundred ten liters of breath or with 0.04 or more grams of alcohol per one hundred milliliters or cubic centimeters of blood to drive a"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "implied_consent",
+      "value": "Refusing a breath, blood or urine test: administrative license revocation of 2 years (no prior alcohol or drug enforcement contact in 10 years), 4 years with one prior, 8 years with two or more",
+      "detail": "Anyone who drives on Hawaii's public roads is deemed to consent to a breath, blood or urine test after a lawful arrest (HRS 291E-11). Refusing costs more than failing: with no priors, a failed test (.08+) means a 1-year administrative revocation, a refusal 2 years. The Driver's Manual (p. 56) still says a refusal may bring revocation for one, two or four years, and its sample test question says twelve months, so the knowledge test may expect those figures.",
+      "number": 2,
+      "unit": "years (first refusal)",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291E/HRS_0291E-0041.htm",
+        "page": 49,
+        "quote": "the revocation imposed under subsection (b)(1), (2), or (3) shall be for a period of two years, four years, or eight years, respectively."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "dui_first_offense",
+      "value": "First OVUII conviction: license revoked for 1 year to 18 months with an ignition interlock and a 14-hour substance abuse program, plus one or more of 72 hours of community service, 48 hours to 5 days in jail, or a $250-$1,000 fine",
+      "detail": "These court penalties are separate from the administrative revocation. Carrying a passenger under 15 adds a $500 fine and 48 hours in jail (revocation at least 2 years); a BAC of .15 or more adds 48 hours in jail and 6 more months of revocation (HRS 291E-61).",
+      "number": 1,
+      "unit": "year (minimum revocation)",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291E/HRS_0291E-0061.htm",
+        "page": 50,
+        "quote": "Revocation of license to operate a vehicle for no less than one year and no more than eighteen months;"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "open_container",
+      "value": "No drinking and no opened alcohol container in the driver/passenger area; keep it in the trunk",
+      "detail": "Drivers and passengers may not drink or hold an opened container on a public road (HRS 291-3.1, 291-3.2). An opened container must be in the trunk, or an area not normally occupied if there is no trunk; the glove compartment counts as part of the passenger area (HRS 291-3.3).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 56,
+        "quote": "Storing an opened alcoholic beverage container in the area of a motor vehicle normally occupied by the driver or passengers is prohibited on any public road."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_min_age",
+      "value": "15 1/2 years",
+      "detail": "You must pass a vision test and the written rules-of-the-road test. Applicants under 18 need parental consent and must finish a state-certified driver education course before the road test.",
+      "number": 15.5,
+      "unit": "years",
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 13,
+        "quote": "The minimum age to acquire an instruction permit is 15 1/2 years."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_holding_period",
+      "value": "180 days before applying for a provisional license",
+      "detail": "Under 18 you must hold the instruction permit for at least 180 days, be at least 16, have the driver education classroom and behind-the-wheel certificates, and pass a road test. The permit is valid for one year.",
+      "number": 180,
+      "unit": "days",
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 13,
+        "quote": "You must hold a valid instruction permit for a period of 180 days before applying for a provisional license."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "permit_supervisor",
+      "value": "A licensed driver 21 or older beside you; if you are under 18, from 11 p.m. to 5 a.m. it must be your parent or guardian",
+      "detail": "The supervising driver must be licensed for that type of vehicle and sit in the right front seat (p. 11). All occupants must use seat belts or child restraints.",
+      "number": 21,
+      "unit": "years (minimum age of supervisor)",
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 13,
+        "quote": "You may operate a motor vehicle upon any highway with an instruction permit only when accompanied by a licensed driver at least 21 years of age. If between the hours of 11:00 p.m. and 5:00 a.m., you must be accompanied by your parent or guardian."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "provisional_license_min_age",
+      "value": "16 years",
+      "detail": "Hawaii's graduated licensing program has three stages for drivers under 18: instruction permit (15 1/2), provisional license (16), and driver's license (17).",
+      "number": 16,
+      "unit": "years",
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 13,
+        "quote": "The minimum age to obtain a provisional license is 16 years."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_night_restriction",
+      "value": "11 p.m. to 5 a.m. only with a licensed parent or guardian, unless driving to or from work or a school-authorized activity",
+      "detail": "For the work or school-activity exception, carry a signed statement from the employer or from a parent or guardian (HRS 286-102.6). During these hours you still may not carry more than one person under 18 without a parent or guardian.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 14,
+        "quote": "With a provisional license, you may drive between 11:00 p.m. and 5:00 a.m. only when accompanied by a licensed parent or guardian unless driving to and from employment or driving to and from the driver’s school-authorized activity."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "provisional_passenger_restriction",
+      "value": "No more than one passenger under 18 who is not a household member (unless a licensed parent or guardian is with you)",
+      "detail": "Household members (and a household member's foster or hanai child) do not count toward the limit (HRS 286-102.6). A first violation of a provisional-license restriction means a 3-month suspension; a second, a 6-month revocation.",
+      "number": 1,
+      "unit": "passenger under 18",
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 13,
+        "quote": "Your provisional license allows you to transport only one person under age 18 who is not a household member."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "full_license_min_age",
+      "value": "17 years (after holding a provisional license for 6 months)",
+      "detail": "Under 18 you must hold the provisional license for at least six months (or turn 18) and be at least 17 to get a regular license. A provisional license expires on your 19th birthday (HRS 286-102.6).",
+      "number": 17,
+      "unit": "years",
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 12,
+        "quote": "To get a class 3 license, you must be at least 17 years old."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "handheld_phone_ban",
+      "value": "No holding a phone or other mobile electronic device while driving, even when stopped in traffic or at a light; fine $300 ($400 in a school zone or construction area)",
+      "detail": "'Using' means holding the device. Exceptions: calling 911, and being stopped with the engine off in a safe place off the road (HRS 291C-137). Drivers 18 and older may use hands-free devices.",
+      "number": 300,
+      "unit": "dollars (fine)",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291C/HRS_0291C-0137.htm",
+        "page": 29,
+        "quote": "No person shall operate a motor vehicle while using a mobile electronic device."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "texting_ban",
+      "value": "Texting is covered by the mobile electronic device ban: you may not hold any phone or text-messaging device while driving",
+      "detail": "The ban covers cell phones, text-messaging devices, laptops, video games and cameras. The fine is $300, or $400 in a school zone or construction area (HRS 291C-137).",
+      "number": 300,
+      "unit": "dollars (fine)",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291C/HRS_0291C-0137.htm",
+        "page": 29,
+        "quote": "including but not limited to a cellular phone, text messaging device, paging device, personal digital assistant, laptop computer, video game, or digital photographic device"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "novice_phone_ban",
+      "value": "Drivers under 18 may not use a mobile electronic device at all while driving, not even hands-free (911 calls excepted)",
+      "detail": "Adults may talk hands-free, but anyone under 18 may not, except to call 911. The manual's sample question says to use hands-free only if you are 18 or older (p. 127).",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291C/HRS_0291C-0137.htm",
+        "page": 29,
+        "quote": "No person under eighteen years of age shall operate a motor vehicle while utilizing a hands-free mobile electronic device"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "seat_belt_law",
+      "value": "Driver and every front- and back-seat passenger must wear a seat belt",
+      "detail": "Children under 10 must instead be restrained as HRS 291-11.5 requires (a harness seat or booster seat, unless a child 7 to 9 is taller than 4 feet 9 inches and uses a lap-and-shoulder belt). The seat belt fine is $45 plus a $10 surcharge (HRS 291-11.6).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 20,
+        "quote": "All front and back seat occupants are required by law (291-11.6, HRS) to use seat belts."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "child_restraint_law",
+      "value": "Children under 10 must be restrained: under 2 in a rear-facing harness seat; 2-3 in a rear- or forward-facing harness seat; 4-9 in a harness seat or booster (ages 7-9 may use a lap-and-shoulder belt if taller than 4 feet 9 inches)",
+      "detail": "Act 122 of 2022 set these rules. The 2023 manual (p. 20) still gives the older rule (under 4 in a child restraint; under 8 belted on a booster seat if under 4 feet and 40 pounds), so the knowledge test may use those figures. A first violation: fine up to $100 plus a required child passenger restraint class (HRS 291-11.5).",
+      "number": 10,
+      "unit": "years (restraint required under this age)",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291/HRS_0291-0011_0005.htm",
+        "page": 41,
+        "quote": "no person operating a motor vehicle on a public highway in the State shall transport a child under ten years of age except under the following circumstances"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "basic_speed_law",
+      "value": "Never drive faster than is reasonable and prudent for conditions, even when under the posted limit",
+      "detail": "Choose a safe speed for the area, road and traffic, pedestrians, weather and light, and never exceed the posted maximum (manual p. 28; HRS 291C-101, 291C-102).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 28,
+        "quote": "Basic Law: You must not drive at a speed that is greater than is reasonable and prudent."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "speed_limit_school_zone",
+      "value": "Reduced limit posted near schools and playgrounds and at School Crossing signs when children are present (no single statewide number)",
+      "detail": "HDOT and the counties set and post school-zone and construction-area limits. Speeding there is a $250 fine plus surcharges (HRS 291C-104), and a phone violation there is $400 instead of $300.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 28,
+        "quote": "On streets near schools and playgrounds and at locations marked with a “School Crossing” sign when children are present."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "minimum_speed_rule",
+      "value": "Do not drive so slowly that you hold back traffic; obey posted minimum limits",
+      "detail": "If you can't keep up, pull off and let traffic pass. On a two-lane road, a vehicle going 10 mph or more under the limit with five or more vehicles lined up behind it must pull off at the nearest safe place (HRS 291C-41(d), 2024).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 28,
+        "quote": "You must not drive so slowly that you hold back other traffic. If you cannot keep up with traffic, pull off the roadway and let other traffic pass or change to another route."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "right_turn_on_red",
+      "value": "Allowed after a complete stop unless a sign prohibits it; yield to pedestrians and vehicles",
+      "detail": "Counties may prohibit right turns on red at specific intersections by posting a sign (HRS 291C-32).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 39,
+        "quote": "After stopping, you may turn right except when a sign prohibits such movement. You must yield to all pedestrians and all vehicles when making such a turn."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "left_turn_on_red",
+      "value": "Allowed after a complete stop only from a one-way street onto another one-way street with traffic moving left, unless a sign prohibits it",
+      "detail": "Yield to pedestrians and other traffic first (HRS 291C-32). A left turn on red onto a two-way street is not allowed.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 39,
+        "quote": "After stopping you may also turn left on a red light from a one-way street into a one-way street where traffic is moving to the left, except when a sign prohibits such movement."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "signal_distance",
+      "value": "At least 100 feet before turning, changing lanes or stopping",
+      "detail": "100 feet is about five car lengths; signal longer at higher speeds. Signal every time, even with no other vehicles in sight (manual pp. 27, 74; HRS 291C-84).",
+      "number": 100,
+      "unit": "feet",
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 27,
+        "quote": "Signals must be given for at least 100 feet (30.5m) before you change lanes, turn or stop."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "emergency_vehicles",
+      "value": "Yield: pull to the right edge (the nearest edge on a multilane, divided or one-way road), clear of intersections, and stop until it passes; never follow a responding emergency vehicle closer than 500 feet",
+      "detail": "If an emergency vehicle is right behind you in heavy traffic, keep moving slowly until you can get out of the way (manual p. 29; HRS 291C-65). You also may not drive or park within 500 feet of where a fire vehicle has stopped for a fire alarm (HRS 291C-128).",
+      "number": 500,
+      "unit": "feet (minimum following distance)",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291C/HRS_0291C-0128.htm",
+        "page": 6,
+        "quote": "shall not follow any emergency vehicle traveling in response to an emergency closer than five hundred feet"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "move_over_law",
+      "value": "Approaching a stopped emergency vehicle with flashing lights: slow down (stop if needed) and, if possible and safe, change lanes so an empty lane separates you from it",
+      "detail": "HRS 291C-27 covers police, fire, ambulance, ocean safety, freeway service patrol, sheriff and emergency management vehicles and tow trucks. If someone is hurt or killed because a driver did not comply, the driver can be charged with negligent injury or homicide.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 29,
+        "quote": "If you approach a stopped emergency vehicle with its lights flashing, slow down or stop as appropriate for the situation, move away so there is an empty traffic lane separating you and the emergency vehicle, if possible and safe to do so."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "school_bus_stopping",
+      "value": "Stop at least 20 feet from a school bus stopped with red lights flashing if you are in its lane or any lane next to it (either direction); wait until the bus moves and the lights are off. Traffic on the other roadway of a divided highway need not stop.",
+      "detail": "The fine is up to $500, or up to $1,000 on a state highway (HRS 291C-95, as amended in 2018). The 2023 manual (p. 96) still uses the older wording (stop 'before reaching the school bus' and wait until it 'resumes motion or' the red lamps are off), so the knowledge test may use it; on the road, wait for both.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291C/HRS_0291C-0095.htm",
+        "page": 17,
+        "quote": "shall stop the driver's vehicle not less than twenty feet from the school bus and shall not proceed until the school bus resumes motion and the visual signals are turned off."
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "following_distance",
+      "value": "At least 2 seconds",
+      "detail": "Count 'one thousand one, one thousand two' after the vehicle ahead passes a fixed marker. Allow at least twice the normal distance when it starts to rain (p. 75), and at least 2 seconds behind a motorcycle (p. 93).",
+      "number": 2,
+      "unit": "seconds",
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 67,
+        "quote": "If you get to the word two before your vehicle reaches the marker, you have at least a two second interval. You should never have less."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "headlights_required",
+      "value": "From 30 minutes after sunset until 30 minutes before sunrise",
+      "detail": "The manual also says to use low beams in heavy rain, in fog and at dawn and dusk so others can see you (pp. 76-77).",
+      "number": 30,
+      "unit": "minutes after sunset / before sunrise",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291/HRS_0291-0025.htm",
+        "page": 44,
+        "quote": "From thirty minutes after sunset until thirty minutes before sunrise, every motor vehicle moving upon any public highway shall carry at the front thereof at least two lighted head lamps"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_oncoming",
+      "value": "Use low beams when approaching other vehicles (no distance is set in the manual or law)",
+      "detail": "If an oncoming vehicle's lights are too bright, flash your high beams once and look at the right edge of the road (p. 77). Never use high beams in fog.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 77,
+        "quote": "Do not use your high beam head lamps when approaching or following other vehicles."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "high_beam_dim_following",
+      "value": "Use low beams when following other vehicles (no distance is set in the manual or law)",
+      "detail": "High beams glare in the other driver's mirrors; switch to low beams whenever you are behind another vehicle at night.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 77,
+        "quote": "Do not use your high beam head lamps when approaching or following other vehicles."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_fire_hydrant",
+      "value": "Not in front of or so close to a fire hydrant that your vehicle could interfere with its use (no statewide distance)",
+      "detail": "The manual gives no distance; counties may post signs or curb markings. Illegally parked vehicles that are hazardous may be towed.",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 28,
+        "quote": "In front of or so close to a fire hydrant that your vehicle could interfere with the use of the hydrant."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_crosswalk",
+      "value": "Not within 20 feet of a crosswalk, even if there are no signs or curb markings (since January 1, 2026)",
+      "detail": "Act 171 of 2025 created this statewide buffer so drivers and pedestrians can see each other; the fine is up to $50 per day (HRS 291C-116). The 2023 manual (p. 28) does not mention it.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291C/HRS_0291C-0116.htm",
+        "page": 23,
+        "quote": "No vehicle shall be parked abutting the curb or edge of a vehicle travel way within twenty feet of a crosswalk or intersection, regardless of the presence or absence of official signs or curb markings"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_intersection",
+      "value": "Not within 20 feet of an intersection, even if there are no signs or curb markings (since January 1, 2026)",
+      "detail": "Exceptions include emergency and government vehicles on duty, stalled vehicles and vehicles yielding to an emergency vehicle (HRS 291C-116). Never park within an intersection.",
+      "number": 20,
+      "unit": "feet",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291C/HRS_0291C-0116.htm",
+        "page": 23,
+        "quote": "No vehicle shall be parked abutting the curb or edge of a vehicle travel way within twenty feet of a crosswalk or intersection, regardless of the presence or absence of official signs or curb markings"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "parking_curb_distance",
+      "value": "Curbside wheels within 12 inches of the curb",
+      "detail": "Park parallel to the curb, facing the direction of traffic, unless angle parking is marked. Also don't park where less than 10 feet of street width is left for traffic (p. 28).",
+      "number": 12,
+      "unit": "inches",
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 73,
+        "quote": "When parallel parked, the vehicle’s curbside wheels shall be within 12 inches of the curb (30cm), or completely within the marked parking stall."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "railroad_stop_distance",
+      "value": "Stop within 50 feet but not less than 15 feet from the nearest rail",
+      "detail": "Stop when signals flash, a gate is down, a flagger signals, or a train within about 1,500 feet sounds a warning or is plainly near, and wait until it passes. Never drive around a lowered gate (HRS 291C-91; manual p. 27).",
+      "number": 15,
+      "unit": "feet (minimum)",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291C/HRS_0291C-0091.htm",
+        "page": 15,
+        "quote": "the driver of the vehicle shall stop within fifty feet but not less than fifteen feet from the nearest rail of the railroad, and shall not proceed until the train has passed."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "bicycle_passing",
+      "value": "At least 3 feet between your vehicle (including mirrors) and the bicyclist",
+      "detail": "Keep the 3 feet until you have safely passed (HRS 291C-43). Don't pass a bicyclist and then immediately turn right in front of them.",
+      "number": 3,
+      "unit": "feet",
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 97,
+        "quote": "Motorists should maintain at least 3 feet of space between the bicyclist and their vehicle until they have safely passed."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "pedestrian_rules",
+      "value": "Stop for a pedestrian in a crosswalk who is on your half of the road or approaching so closely from the other half as to be in danger; never pass a vehicle stopped at a crosswalk for a pedestrian",
+      "detail": "Fines: $150 for a first violation; $300 plus a 90-day license revocation for another within one year (HRS 291C-72). Stop for any blind pedestrian with a white cane or guide dog (manual p. 95).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291C/HRS_0291C-0072.htm",
+        "page": 13,
+        "quote": "The driver of a vehicle shall stop for a pedestrian who is crossing the roadway within a crosswalk when the pedestrian is either:"
+      },
+      "status": "verified"
+    },
+    {
+      "key": "crash_reporting",
+      "value": "Report immediately to police any crash with injury or death, or property damage of $3,000 or more",
+      "detail": "Stop, help the injured, and give your name, address and vehicle registration (show your license if asked). If you hit an unattended vehicle, find the owner or leave a written note, and notify police (manual p. 52; HRS 291C-14, 291C-15, 291C-16).",
+      "number": 3000,
+      "unit": "dollars",
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 52,
+        "quote": "Traffic crashes resulting in personal injury to any extent, or death, or property damage of $3,000 or more must be reported to the police immediately by the quickest means of communication."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "insurance_minimums",
+      "value": "Bodily injury liability $40,000 per person / $80,000 per accident, property damage liability $20,000, plus $10,000 personal injury protection (PIP), for policies from January 1, 2026",
+      "detail": "Act 138 of 2024 doubled the liability minimums printed in the 2023 manual (p. 54: $20,000/$40,000 bodily injury and $10,000 property damage); the knowledge test may still use the manual's figures. Motorcycle and motor scooter policies still require $20,000/$40,000 and $10,000 (HRS 431:10G-301).",
+      "number": 40000,
+      "unit": "dollars per person (bodily injury)",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol09_Ch0431-0435H/HRS0431/HRS_0431-0010C-0301.htm",
+        "page": 64,
+        "quote": "Liability coverage of not less than $40,000 per person, with an aggregate limit of $80,000 per accident"
+      },
+      "status": "corrected"
+    },
+    {
+      "key": "motorcycle_helmet_law",
+      "value": "Required for operators and passengers under 18; every rider needs glasses, goggles or a face shield unless the motorcycle has a windshield",
+      "detail": "Since June 25, 2025 every moped driver must wear a helmet regardless of age (HRS 291C-195). Riders and passengers 18 and older are not required to wear a helmet on a motorcycle (HRS 286-81).",
+      "number": 18,
+      "unit": "years",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0286/HRS_0286-0081.htm",
+        "page": 54,
+        "quote": "No person less than eighteen years of age shall operate or ride as a passenger on a motorcycle or motor scooter on any highway in the State unless the person wears a safety helmet securely fastened with a chin strap."
+      },
+      "status": "verified"
+    },
+    {
+      "key": "motorcycle_lane_splitting",
+      "value": "Illegal: no riding between lanes of traffic or between rows of vehicles",
+      "detail": "Motorcycles are entitled to the full use of a lane; no more than two motorcycles may ride abreast in one lane, and a rider may not pass in the same lane as the vehicle being passed (HRS 291C-153).",
+      "number": null,
+      "unit": null,
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291C/HRS_0291C-0153.htm",
+        "page": 34,
+        "quote": "No person shall operate a motorcycle between lanes of traffic or between adjacent lines or rows of vehicles."
+      },
+      "status": "verified"
+    }
+  ],
+  "notableLaws": [
+    {
+      "title": "Never leave a child under 9 alone in a vehicle for 5 minutes or more",
+      "summary": "The driver or any adult passenger breaks the law by leaving a child under nine unattended in a vehicle for five minutes or longer; leaving the child with only a minor under 12 still counts as unattended (HRS 291C-121.5).",
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 64,
+        "quote": "Hawaii law prohibits you or any adult passenger from leaving a child, under nine years of age, unattended in a motor vehicle for five minutes or longer."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "The written test must cover the phone law and the child-in-car law",
+      "summary": "Hawaii law requires the driver's license knowledge test to specifically test the mobile electronic device law (HRS 291C-137) and the law against leaving a child unattended in a vehicle (HRS 291C-121.5).",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0286/HRS_0286-0108.htm",
+        "page": 57,
+        "quote": "provided that the examination shall specifically test the applicant's knowledge of the provisions of section 291C-121.5 and section 291C-137"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Slow drivers must pull over for a line of five or more vehicles (2024)",
+      "summary": "On a two-lane, two-way road where passing is not possible or allowed, a vehicle going 10 mph or more below the posted limit with five or more vehicles following must pull off at the nearest safe place to let them pass (HRS 291C-41(d), Act 175 of 2024, effective July 2, 2024).",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291C/HRS_0291C-0041.htm",
+        "page": 8,
+        "quote": "any vehicle proceeding at ten miles per hour or more below the posted speed limit where overtaking or passing another vehicle is not possible or permitted, and a line of five or more vehicles is following immediately behind, shall move off the roadway at the nearest safe location"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Excessive speeding: 30 mph over the limit, or 80 mph anywhere, is a crime",
+      "summary": "Driving 30 mph or more over the limit, or 80 mph or more regardless of the limit, is a petty misdemeanor. A first offense brings a $500-$1,000 fine, a 30-day license suspension, a driver retraining course, and 36 hours of community service or 48 hours to 5 days in jail (HRS 291C-105, amended by Act 170 of 2025).",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291C/HRS_0291C-0105.htm",
+        "page": 21,
+        "quote": "Eighty miles per hour or more irrespective of the applicable state or county speed limit."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Riding in a pickup truck bed",
+      "summary": "No one may stand in the bed of a moving pickup. Passengers may sit in the bed only if there is no seating left in the cab, the side racks are attached, the tailgate is closed and they sit on the floor; children 12 and under may not ride in the bed except in an emergency or an authorized parade (HRS 291-14).",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291/HRS_0291-0014.htm",
+        "page": 43,
+        "quote": "No operator of any pickup truck may operate the vehicle with any passenger twelve years of age or under in the bed or load-carrying area of the vehicle"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Yearly safety inspection (PMVI)",
+      "summary": "Every vehicle needs a periodic motor vehicle inspection at least once a year (ambulances every six months); a new vehicle's first inspection lasts two years. You must show your insurance card to pass, and a current inspection is required to register the vehicle (manual pp. 18, 21; HRS 286-26).",
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 18,
+        "quote": "All motor vehicles operated on the public highways must have an official Periodic Motor Vehicle Inspection (PMVI), at least once a year, except that ambulances must be inspected once every six months, and new vehicles do not need to be inspected until two years after their initial inspection on the date that they are first sold."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "No-fault insurance: when you can sue for injuries",
+      "summary": "Your own personal injury protection (PIP, up to $10,000) pays your medical bills after a crash. You can sue for property damage at any time, but for injuries only if PIP benefits reach $5,000 or the crash causes death, a significant permanent loss of use of a body part or function, or permanent serious disfigurement (HRS 431:10C-306; manual p. 54).",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol09_Ch0431-0435H/HRS0431/HRS_0431-0010C-0306.htm",
+        "page": 65,
+        "quote": "the personal injury protection benefits incurred by such person equal or exceed $5,000"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Driving uninsured: $500 fine and a license suspension",
+      "summary": "If convicted of having no insurance, the fine is $500 for a first offense (at least $2,000 for another within five years), and the court either suspends the license for 3 months (1 year for a repeat) or requires a nonrefundable six-month policy (HRS 431:10C-117, amended in 2024). Carry the insurance card whenever you drive (HRS 286-116).",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol09_Ch0431-0435H/HRS0431/HRS_0431-0010C-0117.htm",
+        "page": 63,
+        "quote": "the fine shall be $500 for the first offense and a minimum of $2,000 for each subsequent offense that occurs within a five-year period from any prior offense"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Parked on any grade: turn the front wheels to the curb",
+      "summary": "Before leaving a vehicle unattended you must stop the engine, lock the ignition, remove the key, set the brake and, on any grade, turn the front wheels to the curb or side of the road (HRS 291C-121). The manual says to turn the wheels to the right whether you park uphill or downhill (pp. 29, 71).",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291C/HRS_0291C-0121.htm",
+        "page": 24,
+        "quote": "when standing upon any grade, turning the front wheels to the curb or side of the highway."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Stop before the sidewalk when leaving a driveway",
+      "summary": "When driving out of a driveway, alley or building, stop before crossing the sidewalk area (or, with no sidewalk, where you can see traffic) and yield to pedestrians, bicyclists and vehicles (manual p. 64; HRS 291C-94, 291C-64).",
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 64,
+        "quote": "Always stop before entering the roadway. The stop should be made before crossing the sidewalk area. Failure to stop is unlawful."
+      },
+      "status": "verified"
+    },
+    {
+      "title": "Mopeds: age 16, a helmet for every driver, no passengers (2025)",
+      "summary": "Since June 25, 2025 (Act 222), no one under 16 may drive a moped and every moped driver must wear a helmet fastened with a chin strap. A driver's license of any category is required, two-wheeled mopeds may not carry passengers, and mopeds must be registered and inspected (HRS 291C-195; manual pp. 17, 23).",
+      "source": {
+        "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291C/HRS_0291C-0195.htm",
+        "page": 36,
+        "quote": "Less than sixteen years of age shall drive a moped on a highway, street, or roadway, or any other public property in the State"
+      },
+      "status": "verified"
+    },
+    {
+      "title": "No grace period after your license expires",
+      "summary": "A Hawaii driver's license is void after its expiration date, so you may not drive on it. You may still renew within a year after it expires; after that you must start over with the procedure for an original license (manual p. 15).",
+      "source": {
+        "url": "https://hidot.hawaii.gov/highways/files/2024/11/2023-Hawaii-Drivers-Manual_5.375x8.375_Final-r3-Digital-071924web.pdf",
+        "page": 15,
+        "quote": "EVERY HAWAII STATE DRIVER’S LICENSE IS VOID AFTER THE EXPIRATION DATE. THERE IS NO GRACE PERIOD."
+      },
+      "status": "verified"
+    }
+  ],
+  "officialPracticeTests": [],
+  "gaps": [
+    "Verifier (Oct 15, 2026): the manual PDF behind HDOT's 'Hawaii Driver's Manual - English (PDF)' link and the Motorcycle Operator Manual PDF were re-downloaded and re-extracted with research/tools/extract_pdf.py; output is byte-identical to HI.txt and HI_MOTORCYCLE.txt. Manual pages 14 and 16 were rendered: p. 14 gives 17 as the minimum age for a driver's license, and p. 16 (an image-only page in the text layer) says to notify the county examiner of drivers in writing within 30 days of an address change. All 67 HRS sections in HI_LAWS.txt (pages 1-67) were compared with the live data.capitol.hawaii.gov pages: the text matches (only case notes and cross references are omitted). The HDOT motorcycle and online-test pages, the HDOT library links, the Kauai permit and K2DO pages and Honolulu's online-test, procedures and motorcycle pages were re-checked live.",
+    "knowledgeTest: 30 questions / 24 correct confirmed on the Kauai County page (Maui County's identical wording seen via search results). HDOT's online-test page says the online test has 25 questions, while Honolulu's online-test page (updated Aug 5, 2026) says 30; the app uses 30/24. No official time limit for the in-person test; the online test allows 60 minutes.",
+    "Universal bank conflict fixed for Hawaii: car.pk.003, car.pk.006, car.scnr.032 and car.scnr.033 keyed 'uphill with a curb: wheels away from the curb', which contradicts HRS 291C-121 and manual p. 71 (turn the wheels toward the curb, to the right, whether uphill or downhill). They now exclude HI (same mechanism as the Minnesota dark-signal questions) and the car parking lesson says 'most states' and names the Hawaii exception.",
+    "supervised_driving_hours: neither the manual nor HRS 286-102.6/286-108 sets a number of supervised practice hours. Applicants under 18 must hold the permit 180 days and complete a state-certified driver education course with behind-the-wheel training (manual p. 13; HRS 286-108(b)).",
+    "speed_limit_residential: no statewide default. The manual (p. 28) only says reduced limits apply in residential and business areas; limits are set by county ordinance or posted by HDOT (HRS 291C-102).",
+    "speed_limit_business_district: no statewide default (same as residential).",
+    "speed_limit_rural_highway: no statewide default; obey the posted limit (HRS 291C-102).",
+    "speed_limit_interstate_max: no statewide maximum in the manual or HRS; limits on H-1, H-2 and H-3 are posted by HDOT.",
+    "parking_stop_sign_signal: no statewide distance in the manual or HRS chapter 291C; restrictions come from county ordinances and signs (HRS 291C-111).",
+    "parking_railroad: no statewide distance in the manual or HRS chapter 291C.",
+    "parking_fire_station: no statewide distance in the manual or HRS chapter 291C. (HRS 291C-128 bars driving or parking within 500 feet of where a fire vehicle has stopped in answer to a fire alarm, a different rule.)",
+    "point_system: no driver point system found in the manual, HRS chapter 286 or county DMV pages; not taught.",
+    "parking_fire_hydrant: the manual (p. 28) gives no distance and no statewide statute was found; recorded without a number.",
+    "high_beam_dim_oncoming / high_beam_dim_following: neither the manual (p. 77) nor HRS 291-25 sets a dimming distance; recorded without numbers.",
+    "insurance_minimums: manual p. 54 still shows $20,000/$40,000 bodily injury and $10,000 property damage. Act 138 of 2024, Part II (effective Jan 1, 2026) raised them to $40,000/$80,000 and $20,000 (HRS 431:10C-301; HI_LAWS pp. 64, 68). The cheat sheet gives the new amounts; because the knowledge test is built from the manual, questions hi.car.039-040 ask what the manual says and state current law in the explanation (CONTENT_GUIDE rule 10).",
+    "child_restraint_law: manual p. 20 ('under age 4 ... child restraint; under age 8 ... booster seat if under four feet and less than forty pounds') predates Act 122 of 2022 (children under 10; HRS 291-11.5). hi.car.020-022 use scenarios on which the manual and the statute agree; hi.car.101 asks what the manual says about booster seats and states current law in the explanation (CONTENT_GUIDE rule 10).",
+    "implied_consent: manual p. 56 says refusal may bring revocation for 'one year, two years or four years', and sample question 92 says twelve months. HRS 291E-41(c) sets 2, 4 or 8 years for refusal (1, 2 or 4 years apply to a failed test). A 12-month suspension applies only to an under-21 driver who refuses a test in a measurable-alcohol (.02) case (HRS 291E-65). Question hi.car.004 asks what the manual says (one, two or four years) and states current law in the explanation (CONTENT_GUIDE rule 10); hi.car.005 teaches the 1-year revocation for a failed test.",
+    "school_bus_stopping: manual p. 96 says stop 'before reaching the school bus' until it 'resumes motion or' the lights are off, and that failure 'can cost you $1,000'. HRS 291C-95 (amended 2018) requires stopping at least 20 feet away until the bus moves and the lights are off; the fine is up to $500, or up to $1,000 on a state highway. hi.car.082 teaches the 20-foot rule (the manual gives no distance); hi.car.083 asks what the manual says about when you may go and states current law in the explanation (CONTENT_GUIDE rule 10).",
+    "Driving uninsured: manual p. 54 says a fine not to exceed $5,000 or 30 days in jail, license suspension or registration forfeiture. HRS 431:10C-117 (amended by Act 138 of 2024) sets $100-$5,000 per violation and $500 for a first no-insurance conviction ($2,000 minimum for a repeat within 5 years) plus a 3-month suspension or a six-month nonrefundable policy; jail of up to 30 days applies to repeat convictions. hi.car.043 teaches the $500 first-offense fine, which the manual's 'not to exceed $5,000' does not contradict.",
+    "parking_crosswalk / parking_intersection: the 20-foot statewide rule (HRS 291C-116, Act 171 of 2025, effective Jan 1, 2026) is newer than the manual.",
+    "Motorcycle Operator Manual (May 2017) predates Act 66 of 2025 (Basic Rider Course required before a motorcycle instruction permit, HRS 286-110(b)) and Act 222 of 2025 (moped drivers: minimum age 16, helmet at any age, HRS 291C-195). Questions follow the statutes and the HDOT page (HI_LAWS p. 76).",
+    "Motorcycle Operator Manual p. 5 (PDF) says under-18 riders practice 90 days on the permit before the skills test; Honolulu's motorcycle page says 180 days. Not taught.",
+    "Manual p. 56 calls a BAC over .05 but under .08 'impaired'; HRS 291E-3(b) says such a BAC may be considered with other competent evidence but creates no presumption. Questions use the statute's meaning.",
+    "Manual p. 73 says hazard lights should never be used while moving, but the manual's own sample question 129 treats a heavy truck or bus climbing a hill as a proper use. Not taught.",
+    "officialPracticeTests: no official online practice test was found. The manual's appendix (pp. 99-127) contains 177 official sample 'General Test Questions' (not copied into the app; several reflect outdated law, e.g. question 92).",
+    "motorcycleTest: 25 questions (Kauai County page; Maui per search results); the passing score is not published (Honolulu's motorcycle page gives none). The motorcycle written test is in person only (Honolulu).",
+    "Handbook: HI.txt p. 14 reads 'The minimum age to obtain a driver's license is __ years' because the number is missing from the PDF text layer; the rendered page and p. 12 say 17. HI.txt p. 16 is empty because that page is an image (it covers duplicate licenses, change of address/name and license restrictions).",
+    "cdlTest: not researched (the Hawaii CDL manual, June 2025, is on the HDOT library page)."
+  ]
+}

@@ -1,0 +1,2130 @@
+[
+  {
+    "id": "hi.car.001",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Hawaii, what is the lowest blood alcohol content (BAC) at which a driver 21 or older is considered under the influence of alcohol?",
+    "choices": [
+      "0.05%",
+      "0.10%",
+      "0.08%",
+      "0.12%"
+    ],
+    "answer": 2,
+    "explanation": "Hawaii's OVUII law applies at a BAC of .08 or more. You can still be convicted below .08 if alcohol or drugs impair your driving.",
+    "difficulty": 1,
+    "ref": "Hawaii Driver's Manual, p. 56; Haw. Rev. Stat. § 291E-61",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.002",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 19-year-old Hawaii driver is stopped with a BAC of 0.03%. Which statement is correct?",
+    "choices": [
+      "The driver is legal because the limit for every driver is 0.08%",
+      "The driver is violating Hawaii's zero tolerance law, which applies at 0.02% or more for drivers under 21",
+      "The driver is legal unless the officer sees unsafe driving",
+      "The driver is violating the law only if holding a provisional license"
+    ],
+    "answer": 1,
+    "explanation": "Drivers under 21 may not drive with a measurable amount of alcohol, defined as a BAC of .02 up to .08. A first violation brings a 180-day license suspension and an alcohol education program.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 56; Haw. Rev. Stat. §§ 291E-1, 291E-64",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.003",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Hawaii law makes it unlawful to drive a commercial motor vehicle with a BAC of at least what level?",
+    "choices": [
+      "0.10%",
+      "0.06%",
+      "0.08%",
+      "0.04%"
+    ],
+    "answer": 3,
+    "explanation": "It is unlawful to drive a commercial motor vehicle with a BAC of .04 or more, half the .08 limit for other drivers. Commercial drivers may not have any alcohol at all: .01 or more brings a 24-hour out-of-service order.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 286-242",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.004",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "According to the Hawaii Driver's Manual, refusing an alcohol test that a police officer requests can lead to license revocation for how long?",
+    "choices": [
+      "One year, two years or four years, depending on prior alcohol enforcement contacts",
+      "30 days, 60 days or 90 days, depending on prior alcohol enforcement contacts",
+      "Six months, no matter how many prior contacts",
+      "No revocation unless you are later convicted of DUI"
+    ],
+    "answer": 0,
+    "explanation": "The manual (p. 56) lists one, two or four years, and its sample test says a refusal alone can cost you your license for twelve months, so expect those figures on the test. Current law is stricter: a refusal brings a 2-year administrative revocation with no prior contacts in 10 years, 4 years with one and 8 years with two or more (HRS 291E-41(c)).",
+    "difficulty": 3,
+    "ref": "Hawaii Driver's Manual, pp. 56, 114; Haw. Rev. Stat. § 291E-41(c)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.005",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A Hawaii driver with no prior alcohol or drug enforcement contacts in 10 years takes a breath test after an impaired-driving arrest and blows 0.09%. How long is the administrative license revocation?",
+    "choices": [
+      "30 days",
+      "1 year",
+      "3 months",
+      "4 years"
+    ],
+    "answer": 1,
+    "explanation": "A test result of .08 or more leads to administrative revocation; with no prior alcohol or drug enforcement contacts in the past 10 years it lasts one year (two years with one prior contact, four with two or more). Under current law a refusal brings twice those periods.",
+    "difficulty": 3,
+    "ref": "Haw. Rev. Stat. § 291E-41(b)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.006",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "After an arrest for driving under the influence of alcohol in Hawaii, the officer takes your license and gives you a notice of administrative revocation. If you were validly licensed, what does that notice serve as?",
+    "choices": [
+      "A permanent restricted license",
+      "Proof that your case is closed",
+      "A 30-day temporary driving permit",
+      "A one-year work-only permit"
+    ],
+    "answer": 2,
+    "explanation": "Your license is taken and the notice serves as a 30-day temporary driving permit; for an alcohol offense the revocation takes effect 30 days after the notice unless it is reversed. You may request a hearing.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 55; Haw. Rev. Stat. § 291E-31",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.007",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "For a first OVUII conviction in Hawaii (no prior conviction within 10 years), the court must revoke the driver's license for:",
+    "choices": [
+      "30 to 90 days",
+      "6 months",
+      "1 year to 18 months",
+      "5 years"
+    ],
+    "answer": 2,
+    "explanation": "A first conviction brings a revocation of no less than one year and no more than 18 months with an ignition interlock, a 14-hour substance abuse program, and community service, 48 hours to 5 days in jail, and/or a $250-$1,000 fine.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 291E-61(b)(1)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.008",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "You are driving on a Hawaii road with a partly empty bottle of wine from dinner. Where may the opened bottle legally be kept?",
+    "choices": [
+      "In the trunk",
+      "In the glove compartment",
+      "On the back seat if no one drinks from it",
+      "In a cup holder with the cork pushed back in"
+    ],
+    "answer": 0,
+    "explanation": "An opened container must be kept in the trunk, or in an area not normally occupied by the driver or passengers if the vehicle has no trunk. The glove compartment counts as part of the passenger area.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 56; Haw. Rev. Stat. § 291-3.3",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.009",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Your adult passenger wants to drink a beer while you drive on a Hawaii highway. Is that allowed?",
+    "choices": [
+      "Yes, as long as the driver does not drink",
+      "Yes, if the passenger sits in the back seat",
+      "Yes, if the beer is poured into a cup",
+      "No, passengers may not drink or hold an opened alcoholic beverage in a vehicle on a public road"
+    ],
+    "answer": 3,
+    "explanation": "Hawaii prohibits passengers, as well as drivers, from drinking or possessing an opened container of alcohol in a motor vehicle on a public street, road or highway.",
+    "difficulty": 1,
+    "ref": "Hawaii Driver's Manual, p. 56; Haw. Rev. Stat. § 291-3.2",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.010",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A Hawaii driver's BAC is 0.06%, below the 0.08% limit, but the driver was weaving across lanes. Can the driver still be convicted of OVUII?",
+    "choices": [
+      "No, any BAC under 0.08% is legal",
+      "Yes; a BAC above 0.05% can be considered with other evidence that the driver was under the influence",
+      "No, unless the driver is under 18",
+      "Only if the driver also refused a breath test"
+    ],
+    "answer": 1,
+    "explanation": "Driving while impaired by alcohol is OVUII even below .08. A BAC over .05 but under .08 does not prove impairment by itself, but it may be considered with other evidence such as unsafe driving; at .05 or less the driver is presumed not to be under the influence.",
+    "difficulty": 3,
+    "ref": "Hawaii Driver's Manual, p. 56; Haw. Rev. Stat. §§ 291E-3, 291E-61",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.011",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "A 17-year-old is convicted for the first time of driving with a BAC between 0.02% and 0.08%. What license penalty must the Hawaii court impose?",
+    "choices": [
+      "A written warning only",
+      "A 60-day suspension",
+      "A 180-day suspension",
+      "A 10-year revocation"
+    ],
+    "answer": 2,
+    "explanation": "For a first violation, the court must order a 180-day prompt license suspension and an alcohol abuse education and counseling program, which a parent or guardian must also attend when the driver is under 18.",
+    "difficulty": 3,
+    "ref": "Haw. Rev. Stat. § 291E-64(b)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.012",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "Under Hawaii's implied consent law, a person who drives on a public road in Hawaii:",
+    "choices": [
+      "Is deemed to have agreed to a breath, blood or urine test if lawfully arrested for impaired driving",
+      "May refuse any test with no consequences",
+      "Must take a breath test every time police stop the vehicle",
+      "Can be tested only after signing a consent form"
+    ],
+    "answer": 0,
+    "explanation": "Anyone who drives on Hawaii's public roads is deemed to consent to testing for alcohol or drugs after a lawful arrest. You may refuse, but a refusal leads to license revocation, and under current law a longer one than failing the test.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 55; Haw. Rev. Stat. §§ 291E-11, 291E-41",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.013",
+    "track": "car",
+    "topic": "alcohol-drugs",
+    "prompt": "In Hawaii, a driver with a BAC of at least what level is a 'highly intoxicated driver' who faces extra jail time and a longer revocation?",
+    "choices": [
+      "0.10%",
+      "0.15%",
+      "0.20%",
+      "0.12%"
+    ],
+    "answer": 1,
+    "explanation": "A highly intoxicated driver has a BAC of .15 or more. A first OVUII conviction at that level adds 48 consecutive hours in jail and six more months of revocation (at least 18 months in total).",
+    "difficulty": 3,
+    "ref": "Haw. Rev. Stat. §§ 291E-1, 291E-61(b)(4)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.014",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "While stopped at a red light, a Hawaii driver picks up her phone to read a text. Under Hawaii law, this is:",
+    "choices": [
+      "Legal, because the car is not moving",
+      "Illegal, because the ban covers holding a device while stopped in traffic or at a light",
+      "Legal if she puts the phone down before the light turns green",
+      "Illegal only in a school zone"
+    ],
+    "answer": 1,
+    "explanation": "Hawaii bans holding a mobile electronic device while operating a vehicle, and 'operating' includes being temporarily stopped for traffic, a traffic light or a stop sign. The fine is $300, or $400 in a school zone or construction area.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 291C-137",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.015",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "What is the fine for holding a phone while driving through a Hawaii school zone or construction area?",
+    "choices": [
+      "$100",
+      "$200",
+      "$300",
+      "$400"
+    ],
+    "answer": 3,
+    "explanation": "Violating Hawaii's mobile electronic device law costs $300, or $400 when it happens in a school zone or construction area.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 291C-137(f)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.016",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 17-year-old Hawaii driver wants to take a call through the car's built-in hands-free system while driving. Is that allowed?",
+    "choices": [
+      "Yes, hands-free calls are legal for every driver",
+      "Yes, but only on freeways",
+      "No, drivers under 18 may not use any mobile electronic device while driving, even hands-free, except to call 911",
+      "No, unless a parent is in the car"
+    ],
+    "answer": 2,
+    "explanation": "Drivers 18 and older may use hands-free devices, but drivers under 18 may not use a hands-free mobile electronic device while driving except to make a 911 emergency call.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 291C-137(c); Hawaii Driver's Manual, p. 127",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.017",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "When may a Hawaii driver legally hold a phone to make a non-emergency call?",
+    "choices": [
+      "When stopped at a stop sign",
+      "When driving under 25 mph",
+      "When stuck in slow traffic",
+      "When stopped with the engine off in a safe place off the road"
+    ],
+    "answer": 3,
+    "explanation": "The ban does not apply to a vehicle that is completely stopped with the engine turned off in a safe location by the side of the road, out of traffic. Holding a phone at a stop sign or in traffic is still illegal.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 291C-137(d)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.018",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Hawaii's mobile electronic device law bans drivers from holding which of the following?",
+    "choices": [
+      "A phone, tablet, laptop or handheld video game",
+      "Only phones being used for voice calls",
+      "Only devices being used for texting",
+      "Only devices that are not connected to the car"
+    ],
+    "answer": 0,
+    "explanation": "A 'mobile electronic device' includes cell phones, text-messaging devices, laptops, video games and digital cameras; holding any of them while driving is illegal. Audio equipment and installed navigation systems are not covered.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 291C-137",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.019",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Who must wear a seat belt in a car on a Hawaii road?",
+    "choices": [
+      "Only the driver",
+      "The driver and front-seat passengers only",
+      "The driver and every front- and back-seat passenger",
+      "Only passengers under 18"
+    ],
+    "answer": 2,
+    "explanation": "Hawaii law requires all front and back seat occupants to use seat belts; children under 10 must instead be restrained as the child passenger restraint law requires. The fine is $45 plus a surcharge.",
+    "difficulty": 1,
+    "ref": "Hawaii Driver's Manual, p. 20; Haw. Rev. Stat. § 291-11.6",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.020",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Under Hawaii's child passenger law, how must a 1-year-old ride in a car?",
+    "choices": [
+      "In a forward-facing booster seat",
+      "In a rear-facing child safety seat with a harness",
+      "On an adult's lap in the back seat",
+      "Buckled in a regular seat belt in the back seat"
+    ],
+    "answer": 1,
+    "explanation": "A child under two must be properly restrained in a rear-facing child passenger restraint system with a harness. Children 2 and 3 may use a rear- or forward-facing harness seat.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 291-11.5",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.021",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 6-year-old who is 3 feet 10 inches tall and weighs 38 pounds rides in your car in Hawaii. What restraint does the law require?",
+    "choices": [
+      "A seat belt alone is enough at age 6",
+      "No restraint if the child sits in the back seat",
+      "A rear-facing infant seat",
+      "A child safety seat with a harness, or a booster seat"
+    ],
+    "answer": 3,
+    "explanation": "Children 4 through 9 must ride in a harness seat or booster seat. Only children 7 to 9 who are taller than 4 feet 9 inches may use a lap-and-shoulder belt instead.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 291-11.5",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.022",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "A 9-year-old is 4 feet 10 inches tall. In Hawaii, may the child ride using only the car's lap-and-shoulder belt?",
+    "choices": [
+      "Yes, because the child is 7 to 9 and taller than 4 feet 9 inches",
+      "No, every child under 10 must use a booster seat",
+      "Yes, but only in the front seat",
+      "No, children under 12 must use a booster seat"
+    ],
+    "answer": 0,
+    "explanation": "Children ages 7 through 9 may use a properly worn lap-and-shoulder belt instead of a booster seat if they are taller than 4 feet 9 inches. Otherwise, children under 10 need a harness seat or booster.",
+    "difficulty": 3,
+    "ref": "Haw. Rev. Stat. § 291-11.5(a)(4)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.023",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Hawaii law prohibits leaving a child under 9 unattended in a motor vehicle for how long?",
+    "choices": [
+      "15 minutes or longer",
+      "5 minutes or longer",
+      "30 minutes or longer",
+      "10 minutes or longer"
+    ],
+    "answer": 1,
+    "explanation": "The driver or any adult passenger may not leave a child under nine years old unattended in a vehicle for five minutes or longer. Children can suffer heat injury quickly in a parked car.",
+    "difficulty": 1,
+    "ref": "Hawaii Driver's Manual, p. 64; Haw. Rev. Stat. § 291C-121.5",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.024",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "You run into a store for 10 minutes, leaving your 5-year-old in the car with her 11-year-old brother. Under Hawaii law, is the 5-year-old unattended?",
+    "choices": [
+      "No, because another child is with her",
+      "No, as long as the engine is running",
+      "Yes, leaving a child with only a minor under 12 counts as unattended",
+      "Yes, but only if the windows are closed"
+    ],
+    "answer": 2,
+    "explanation": "Hawaii defines 'unattended' as leaving a child under nine alone or with a minor under the age of 12. Leaving for five minutes or longer violates the law.",
+    "difficulty": 3,
+    "ref": "Haw. Rev. Stat. § 291C-121.5",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.025",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Which people can violate Hawaii's law against leaving a child unattended in a vehicle?",
+    "choices": [
+      "The driver or any adult passenger who leaves the child",
+      "Only the child's parent or legal guardian",
+      "Only the vehicle's registered owner",
+      "Only someone paid to watch the child"
+    ],
+    "answer": 0,
+    "explanation": "The law applies to the operator or any adult passenger who leaves the vehicle for five minutes or longer with an unattended child under nine inside, whether or not that person is in charge of the child.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 64; Haw. Rev. Stat. § 291C-121.5",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.026",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "Your 10-year-old nephew asks to ride in the bed of your pickup truck on a Hawaii road. What does the law say?",
+    "choices": [
+      "It is allowed if he sits on the floor",
+      "It is allowed if the tailgate is closed",
+      "It is allowed on roads posted under 35 mph",
+      "It is not allowed; passengers 12 and under may not ride in a pickup bed except in an emergency or an authorized parade"
+    ],
+    "answer": 3,
+    "explanation": "A pickup driver may not carry a passenger 12 or younger in the bed or cargo area unless there is a life-threatening emergency or the truck is in an officially authorized parade, caravan or exhibition. The fine is $50.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 291-14(c)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.027",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "When may an adult legally ride in the bed of a pickup truck on a Hawaii road?",
+    "choices": [
+      "Any time, if holding on to the side rail",
+      "Only if wearing a helmet",
+      "Only when the cab has no seats left, the side racks are attached, the tailgate is closed, and the rider sits on the floor",
+      "Never under any circumstances"
+    ],
+    "answer": 2,
+    "explanation": "No one may stand in the bed of a moving pickup. A passenger may sit in the bed only if there is no seating available in the cab, the side racks are securely attached, the tailgate is closed, and the passenger sits on the floor.",
+    "difficulty": 3,
+    "ref": "Haw. Rev. Stat. § 291-14(a)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.028",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "According to the Hawaii Driver's Manual, carrying how many people in the front seat may unlawfully interfere with the driver?",
+    "choices": [
+      "More than two",
+      "More than three",
+      "More than four",
+      "Any passenger at all"
+    ],
+    "answer": 1,
+    "explanation": "Driving with more than three persons in the front seat of your vehicle may constitute interference with the driver, and such interference is prohibited.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 29",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.029",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age to get an instruction (learner's) permit in Hawaii?",
+    "choices": [
+      "15",
+      "15 1/2",
+      "16",
+      "14 1/2"
+    ],
+    "answer": 1,
+    "explanation": "You must be at least 15 1/2 to get a Hawaii instruction permit. You must pass a vision test and the written rules-of-the-road test; applicants under 18 also need parental consent.",
+    "difficulty": 1,
+    "ref": "Hawaii Driver's Manual, p. 13",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.030",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old with a Hawaii instruction permit is driving at 3 p.m. Who must be with them?",
+    "choices": [
+      "Any licensed driver 18 or older",
+      "Any adult, licensed or not",
+      "A licensed driver at least 21, sitting in the front passenger seat",
+      "A licensed driver at least 25, sitting anywhere in the car"
+    ],
+    "answer": 2,
+    "explanation": "A permit holder must be accompanied by a driver at least 21 years old who is licensed for that type of vehicle and sits in the right front seat.",
+    "difficulty": 1,
+    "ref": "Hawaii Driver's Manual, pp. 11, 13; Haw. Rev. Stat. § 286-110(e)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.031",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old permit holder wants to drive at 11:30 p.m. with a 25-year-old licensed cousin in the passenger seat. Is this allowed in Hawaii?",
+    "choices": [
+      "No, between 11 p.m. and 5 a.m. the supervising driver must be the permit holder's parent or guardian",
+      "Yes, any licensed driver 21 or older may supervise at any hour",
+      "Yes, if they stay under 35 mph",
+      "No, permit holders may never drive after sunset"
+    ],
+    "answer": 0,
+    "explanation": "When a permit holder under 18 drives between 11 p.m. and 5 a.m., a licensed parent or guardian must sit beside them. At other hours any licensed driver 21 or older may supervise.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 13; Haw. Rev. Stat. § 286-110(e)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.032",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How long must a teen hold a Hawaii instruction permit before applying for a provisional license?",
+    "choices": [
+      "90 days",
+      "30 days",
+      "1 year",
+      "180 days"
+    ],
+    "answer": 3,
+    "explanation": "You must hold a valid instruction permit for at least 180 days, be at least 16, complete a state-certified driver education course (classroom and behind-the-wheel), and pass a road test.",
+    "difficulty": 1,
+    "ref": "Hawaii Driver's Manual, p. 13",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.033",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What is the minimum age for a Hawaii provisional driver's license?",
+    "choices": [
+      "15 1/2",
+      "16",
+      "17",
+      "18"
+    ],
+    "answer": 1,
+    "explanation": "The minimum age for a provisional license is 16. You must also have held your instruction permit for 180 days and completed driver education.",
+    "difficulty": 1,
+    "ref": "Hawaii Driver's Manual, p. 13",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.034",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 16-year-old with a Hawaii provisional license is driving in the afternoon without a parent. How many passengers under 18 who are not household members may ride along?",
+    "choices": [
+      "One",
+      "None",
+      "Two",
+      "Three"
+    ],
+    "answer": 0,
+    "explanation": "A provisional licensee may transport only one person under 18 who is not a household member, unless a licensed parent or guardian is in the car. Household members do not count toward the limit.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 13; Haw. Rev. Stat. § 286-102.6",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.035",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A 17-year-old provisional licensee drives home alone from her restaurant job at midnight. Which statement is true?",
+    "choices": [
+      "She is breaking the law; provisional drivers may never drive after 11 p.m.",
+      "It is legal only on weekends",
+      "It is legal only with a passenger 21 or older",
+      "It is legal if she carries a signed statement from her employer verifying her work hours"
+    ],
+    "answer": 3,
+    "explanation": "From 11 p.m. to 5 a.m. a provisional licensee needs a licensed parent or guardian in the car, except when driving to or from work or a school-authorized activity. For the work exception she must carry a signed statement from her employer.",
+    "difficulty": 3,
+    "ref": "Hawaii Driver's Manual, p. 14; Haw. Rev. Stat. § 286-102.6(c)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.036",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What happens the first time a Hawaii provisional licensee is found to have violated a passenger or late-night restriction?",
+    "choices": [
+      "A written warning only",
+      "A $1,000 fine but no suspension",
+      "The provisional license is suspended for 3 months",
+      "The license is revoked until age 21"
+    ],
+    "answer": 2,
+    "explanation": "For a first violation, a judge suspends the provisional license for three months (or until age 18, if sooner). A second violation brings a six-month revocation.",
+    "difficulty": 3,
+    "ref": "Haw. Rev. Stat. § 286-102.6(d)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.037",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Hawaii driver under 18 may trade a provisional license for a regular driver's license after:",
+    "choices": [
+      "Holding the provisional license for 6 months and turning at least 17",
+      "Holding the provisional license for 30 days",
+      "Turning 16 1/2",
+      "Logging 50 hours of supervised night driving"
+    ],
+    "answer": 0,
+    "explanation": "You must hold a provisional license for six months before applying for a driver's license, and the minimum age for a regular (class 3) license is 17.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, pp. 12, 14; Haw. Rev. Stat. § 286-102.6(f)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.038",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Before a Hawaii driver under 18 can take the road test for a provisional license, what training is required?",
+    "choices": [
+      "None, if a parent signs a practice log",
+      "A state-certified driver education course with both classroom and behind-the-wheel certificates",
+      "An online safety video only",
+      "A defensive driving class within a year after licensing"
+    ],
+    "answer": 1,
+    "explanation": "Applicants under 18 must complete a state-certified driver education course and hold both the classroom and behind-the-wheel certificates before the road test.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 13; Haw. Rev. Stat. § 286-108(b)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.039",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "According to the Hawaii Driver's Manual, what minimum bodily injury liability coverage must a car insurance policy include?",
+    "choices": [
+      "$15,000 per person / $30,000 per accident",
+      "$25,000 per person / $50,000 per accident",
+      "$20,000 per person / $40,000 per accident",
+      "$100,000 per person / $300,000 per accident"
+    ],
+    "answer": 2,
+    "explanation": "The manual (p. 54) lists $20,000 per person and $40,000 per accident for bodily injury, plus $10,000 for property damage, so expect those figures on the test. Current law is higher: since January 1, 2026, car policies must carry at least $40,000/$80,000 and $20,000 (HRS 431:10C-301, Act 138 of 2024).",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 54; Haw. Rev. Stat. § 431:10C-301(b)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.040",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "According to the Hawaii Driver's Manual, how much property damage liability coverage must a car insurance policy include?",
+    "choices": [
+      "$5,000",
+      "$10,000",
+      "$15,000",
+      "$50,000"
+    ],
+    "answer": 1,
+    "explanation": "The manual (p. 54) lists $10,000 of property damage liability per accident, so expect that figure on the test. Current law doubled it: since January 1, 2026, car policies must carry at least $20,000, along with $40,000/$80,000 bodily injury liability (HRS 431:10C-301, Act 138 of 2024).",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 54; Haw. Rev. Stat. § 431:10C-301(b)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.041",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Hawaii is a no-fault state. What is the basic personal injury protection (PIP) limit per person in a car insurance policy?",
+    "choices": [
+      "$5,000",
+      "$25,000",
+      "$100,000",
+      "$10,000"
+    ],
+    "answer": 3,
+    "explanation": "Personal injury protection pays medical and rehabilitative expenses up to $10,000 per person, no matter who caused the crash. Insurers may offer more coverage.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 54; Haw. Rev. Stat. § 431:10C-103.5",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.042",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Under Hawaii's no-fault law, when may you sue another driver for your own crash injuries?",
+    "choices": [
+      "When your PIP medical benefits reach $5,000, or the injury causes death, permanent loss of a body function, or serious permanent disfigurement",
+      "Never; no-fault means no lawsuits of any kind",
+      "Any time, for any injury",
+      "Only if the other driver received a ticket"
+    ],
+    "answer": 0,
+    "explanation": "You can always sue for property damage, but for bodily injury only if PIP benefits reach $5,000, or the crash causes death, a significant permanent loss of use of a body part or function, or permanent and serious disfigurement.",
+    "difficulty": 3,
+    "ref": "Hawaii Driver's Manual, p. 54; Haw. Rev. Stat. § 431:10C-306",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.043",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "A Hawaii driver is convicted for the first time of driving with no insurance policy in effect. What fine does the law set?",
+    "choices": [
+      "$50",
+      "$250",
+      "$500",
+      "Nothing; only a warning"
+    ],
+    "answer": 2,
+    "explanation": "The fine for a first conviction of having no motor vehicle insurance is $500 (at least $2,000 for another within five years). The court also suspends the license for three months or requires a six-month nonrefundable policy.",
+    "difficulty": 3,
+    "ref": "Haw. Rev. Stat. § 431:10C-117(a)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.044",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What must you carry every time you drive in Hawaii and show a police officer on request?",
+    "choices": [
+      "The vehicle's certificate of title",
+      "Your birth certificate",
+      "Your last safety inspection receipt",
+      "Your driver's license and the vehicle's insurance identification card"
+    ],
+    "answer": 3,
+    "explanation": "Hawaii requires drivers to have their valid driver's license in their immediate possession, plus the vehicle's insurance identification card, and to show them when a police officer asks. An electronic insurance card on a phone is accepted.",
+    "difficulty": 1,
+    "ref": "Hawaii Driver's Manual, p. 17; Haw. Rev. Stat. § 286-116",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.045",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "How often must a passenger car registered in Hawaii pass a safety inspection (PMVI)?",
+    "choices": [
+      "Every year, except that a new car's first inspection is good for two years",
+      "Every five years",
+      "Only when the car is sold",
+      "Every two years for all cars"
+    ],
+    "answer": 0,
+    "explanation": "Every vehicle on Hawaii's highways needs a Periodic Motor Vehicle Inspection at least once a year (ambulances every six months); a new vehicle needs no further inspection until two years after it is first sold. You must show your insurance card to pass.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 18; Haw. Rev. Stat. § 286-26",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.046",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "After you move, how must you notify Hawaii's examiner of drivers of your new address?",
+    "choices": [
+      "In person within 10 days",
+      "In writing within 30 days",
+      "By phone within 60 days",
+      "Only when you renew your license"
+    ],
+    "answer": 1,
+    "explanation": "A license holder must notify the examiner of drivers in writing within 30 days of a change of address. A vehicle's registered owner must also notify the county in writing within 30 days.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 16; Haw. Rev. Stat. § 286-116.5",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.047",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Your Hawaii driver's license expired yesterday. Which statement is correct?",
+    "choices": [
+      "You may keep driving during a 90-day grace period",
+      "You may drive only to and from work",
+      "You may not drive on it, because it is void after it expires, but you can still renew it within a year",
+      "You may drive if a licensed adult rides with you"
+    ],
+    "answer": 2,
+    "explanation": "Every Hawaii license is void after its expiration date; there is no grace period for driving. You may renew within a year after expiration; after that you must follow the procedure for an original license.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 15",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.048",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Where must a vehicle that you drive on Hawaii's public roads be registered?",
+    "choices": [
+      "In any Hawaii county you choose",
+      "Only with the state Department of Transportation",
+      "In the state where you bought it",
+      "In the county where you operate the vehicle"
+    ],
+    "answer": 3,
+    "explanation": "Hawaii law requires your vehicle to be registered, and licensed each year, by the county in which you operate it. It must have a current safety inspection certificate before it can be registered.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 21",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.049",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Which vehicles in Hawaii display a license plate on the rear only?",
+    "choices": [
+      "Motorcycles, trailers and semi-trailers",
+      "Passenger cars",
+      "Pickup trucks",
+      "Electric cars"
+    ],
+    "answer": 0,
+    "explanation": "Motorcycles, trailers and semi-trailers display a plate on the rear; all other vehicles must display license plates on both the front and the rear.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 23",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.050",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "According to the Hawaii manual, when must a trailer have its own brakes and breakaway protection?",
+    "choices": [
+      "Only when it carries passengers",
+      "Only when it is wider than 6 feet",
+      "When its loaded weight is more than half the towing vehicle's weight or is 3,000 pounds or more",
+      "Never; the towing vehicle's brakes are enough"
+    ],
+    "answer": 2,
+    "explanation": "A loaded trailer that weighs more than half the weight of the towing vehicle, or 3,000 pounds or more, must be equipped with brakes and breakaway protection. Its safety chains must attach to the towing vehicle's frame.",
+    "difficulty": 3,
+    "ref": "Hawaii Driver's Manual, p. 87",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.051",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "What do you need to drive a moped on Hawaii's public streets?",
+    "choices": [
+      "Nothing; mopeds are treated like bicycles",
+      "A driver's license of any category",
+      "A commercial driver's license",
+      "Only a moped license plate"
+    ],
+    "answer": 1,
+    "explanation": "A driver's license (any category) is required to operate a moped on public streets; if you have no license, you can get a category 1 (moped) license. Mopeds must also be registered and inspected.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, pp. 17, 23",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.052",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "The Hawaii Driver's Manual says you should never follow the vehicle ahead with less than:",
+    "choices": [
+      "A 1-second interval",
+      "One car length",
+      "50 feet",
+      "A 2-second interval"
+    ],
+    "answer": 3,
+    "explanation": "Note when the vehicle ahead passes a fixed marker and count 'one thousand one, one thousand two.' If you reach the marker first, you are too close; you should never have less than two seconds.",
+    "difficulty": 1,
+    "ref": "Hawaii Driver's Manual, p. 67",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.053",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "The posted limit is 45 mph, but heavy rain is falling and the road is slick. Under Hawaii's basic speed law, you must:",
+    "choices": [
+      "Drive 45 mph, since that is the posted limit",
+      "Drive no faster than is reasonable and prudent for the conditions",
+      "Turn on your hazard lights and drive the limit",
+      "Keep at least 40 mph so traffic keeps moving"
+    ],
+    "answer": 1,
+    "explanation": "Hawaii's basic law says you must not drive faster than is reasonable and prudent for the conditions, even when that is below the posted limit.",
+    "difficulty": 1,
+    "ref": "Hawaii Driver's Manual, p. 28; Haw. Rev. Stat. § 291C-101",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.054",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "In Hawaii, what speed counts as 'excessive speeding,' a criminal offense?",
+    "choices": [
+      "30 mph or more over the limit, or 80 mph or more anywhere",
+      "15 mph or more over the limit",
+      "20 mph or more over the limit, or 70 mph anywhere",
+      "Any speed over 65 mph"
+    ],
+    "answer": 0,
+    "explanation": "Excessive speeding is driving 30 mph or more over the applicable speed limit, or 80 mph or more regardless of the limit. It is a petty misdemeanor, not just a traffic infraction.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 291C-105",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.055",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "A driver with no prior offense is convicted of excessive speeding in Hawaii. Which is part of the required sentence?",
+    "choices": [
+      "A $50 fine only",
+      "A written warning",
+      "A one-year revocation with no fine",
+      "A fine of $500 to $1,000 and a 30-day license suspension"
+    ],
+    "answer": 3,
+    "explanation": "A first excessive-speeding conviction brings a $500-$1,000 fine, a 30-day license suspension (or at least 15 days plus work-only driving), a driver retraining course, and 36 hours of community service or 48 hours to 5 days in jail.",
+    "difficulty": 3,
+    "ref": "Haw. Rev. Stat. § 291C-105(c)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.056",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "On a Hawaii freeway posted at 60 mph, a driver is clocked at 82 mph. Which statement is correct?",
+    "choices": [
+      "It is only a regular speeding ticket because the driver was 22 mph over",
+      "It is legal if traffic is light",
+      "It is excessive speeding because the driver was going 80 mph or more",
+      "It is excessive speeding only at night"
+    ],
+    "answer": 2,
+    "explanation": "Driving 80 mph or more is excessive speeding no matter what the posted limit is, even when the driver is less than 30 mph over the limit.",
+    "difficulty": 3,
+    "ref": "Haw. Rev. Stat. § 291C-105(a)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.057",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "What is the fine for speeding in a Hawaii school zone or construction area (when it is not excessive speeding)?",
+    "choices": [
+      "$50",
+      "$250",
+      "$100",
+      "$1,000"
+    ],
+    "answer": 1,
+    "explanation": "Speeding in a school zone or construction area is a $250 fine plus possible surcharges. Going 30 mph or more over the limit, or 80 mph or more, there is excessive speeding instead.",
+    "difficulty": 3,
+    "ref": "Haw. Rev. Stat. § 291C-104(c)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.058",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "According to the Hawaii Driver's Manual, where are reduced speed limits required?",
+    "choices": [
+      "Near schools and playgrounds and at School Crossing signs when children are present, and on residential and business streets",
+      "Only on freeways",
+      "Only after dark",
+      "Only on roads without sidewalks"
+    ],
+    "answer": 0,
+    "explanation": "Speed limits are posted on signs, and reduced limits are required near schools and playgrounds (at School Crossing signs when children are present) and on streets in residential or business areas.",
+    "difficulty": 1,
+    "ref": "Hawaii Driver's Manual, p. 28",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.059",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "You are driving 15 mph below the posted limit on a two-lane Hawaii road where passing is not possible, and five cars are lined up behind you. What does Hawaii law require?",
+    "choices": [
+      "Speed up to the limit right away",
+      "Turn on your hazard lights and keep going",
+      "Nothing; slower drivers have the right of way",
+      "Pull off the road at the nearest safe place to let them pass"
+    ],
+    "answer": 3,
+    "explanation": "Since 2024, a vehicle going 10 mph or more below the posted limit on a two-lane, two-way road where passing isn't possible or allowed must pull off at the nearest safe location when five or more vehicles are following.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 291C-41(d)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.060",
+    "track": "car",
+    "topic": "speed-space",
+    "prompt": "If you cannot keep up with the normal flow of traffic, the Hawaii manual says you should:",
+    "choices": [
+      "Drive on the shoulder with your hazard lights on",
+      "Stay in the left lane",
+      "Pull off the roadway and let traffic pass, or take another route",
+      "Sound your horn to warn faster drivers"
+    ],
+    "answer": 2,
+    "explanation": "You must not drive so slowly that you hold back other traffic. If you can't keep up, pull off the roadway and let others pass or change to another route; on multilane roads, use the right lane.",
+    "difficulty": 1,
+    "ref": "Hawaii Driver's Manual, p. 28",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.061",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Since January 1, 2026, how close to a crosswalk may you park along a curb in Hawaii?",
+    "choices": [
+      "No closer than 10 feet",
+      "Right up to the crosswalk if the curb is not painted",
+      "No closer than 20 feet",
+      "No closer than 30 feet"
+    ],
+    "answer": 2,
+    "explanation": "HRS 291C-116 bans parking within 20 feet of a crosswalk or intersection, even where there are no signs or curb markings, so drivers and pedestrians can see each other. The fine is up to $50 per day.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 291C-116",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.062",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You find an open curb space 12 feet from an intersection on a Hawaii street with no signs and no painted curb. May you park there?",
+    "choices": [
+      "Yes, parking is allowed unless a sign or painted curb prohibits it",
+      "No, parking within 20 feet of an intersection is prohibited even without signs",
+      "Yes, for up to 24 hours",
+      "Yes, if you stay in the vehicle"
+    ],
+    "answer": 1,
+    "explanation": "Under a law effective January 1, 2026, no vehicle may park within 20 feet of a crosswalk or intersection, whether or not there are signs or curb markings.",
+    "difficulty": 3,
+    "ref": "Haw. Rev. Stat. § 291C-116",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.063",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "When parallel parked in Hawaii, your curbside wheels must be within:",
+    "choices": [
+      "12 inches of the curb",
+      "6 inches of the curb",
+      "18 inches of the curb",
+      "24 inches of the curb"
+    ],
+    "answer": 0,
+    "explanation": "Your curbside wheels must be within 12 inches of the curb, or completely within the marked parking stall. Where angle parking isn't marked, park parallel to the curb facing the direction of traffic.",
+    "difficulty": 1,
+    "ref": "Hawaii Driver's Manual, pp. 28, 73",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.064",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You park facing uphill on a Hawaii street with a curb. According to Hawaii law and the Hawaii manual, which way should you turn your front wheels?",
+    "choices": [
+      "Away from the curb, toward the street",
+      "Straight ahead",
+      "Toward the center line",
+      "Toward the curb (to the right)"
+    ],
+    "answer": 3,
+    "explanation": "Hawaii law requires turning the front wheels to the curb or side of the road whenever a vehicle is left on a grade, and the manual says to turn them to the right whether you park uphill or downhill. Also set the parking brake and shift to Park.",
+    "difficulty": 3,
+    "ref": "Hawaii Driver's Manual, p. 71; Haw. Rev. Stat. § 291C-121",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.065",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "Hawaii prohibits parking on a public street or highway for a continuous period of more than:",
+    "choices": [
+      "8 hours",
+      "24 hours",
+      "12 hours",
+      "72 hours"
+    ],
+    "answer": 1,
+    "explanation": "Parking on a public street or highway for more than 24 hours in a row is prohibited, and a vehicle left unattended on the highway for more than 24 hours is considered abandoned.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, pp. 8, 29",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.066",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "You may not park where your vehicle would leave less than how much of the street's width open for traffic?",
+    "choices": [
+      "5 feet",
+      "8 feet",
+      "10 feet",
+      "15 feet"
+    ],
+    "answer": 2,
+    "explanation": "Parking is prohibited at any place where less than 10 feet of the width of the street remains for the free movement of traffic.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 28",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.067",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "What is the fine for parking in a bicycle lane in Hawaii?",
+    "choices": [
+      "$25",
+      "$50",
+      "$100",
+      "$200"
+    ],
+    "answer": 3,
+    "explanation": "Parking on a bicycle lane or path is prohibited and carries a $200 fine. Drivers may enter a bike lane only to make a legal turn, lane change or parking maneuver, or in an emergency.",
+    "difficulty": 3,
+    "ref": "Haw. Rev. Stat. § 291C-123",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.068",
+    "track": "car",
+    "topic": "parking",
+    "prompt": "What does the Hawaii Driver's Manual say about parking near a fire hydrant?",
+    "choices": [
+      "You may park in front of a hydrant if you stay in the car",
+      "Hydrant rules apply only at night",
+      "Do not park in front of or so close to a hydrant that your vehicle could interfere with its use",
+      "You may park at a hydrant for up to 15 minutes"
+    ],
+    "answer": 2,
+    "explanation": "Parking is prohibited in front of or so close to a fire hydrant that your vehicle could interfere with its use. Firefighters need immediate access in an emergency.",
+    "difficulty": 1,
+    "ref": "Hawaii Driver's Manual, p. 28",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.069",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A pedestrian has just stepped into a marked crosswalk on the far side of a two-lane Hawaii street. When does the law require you to stop?",
+    "choices": [
+      "Only when the pedestrian is directly in your lane",
+      "When the pedestrian is on your half of the road, or approaching it so closely as to be in danger",
+      "Only if there is a traffic signal",
+      "Only if the pedestrian signals with a hand wave"
+    ],
+    "answer": 1,
+    "explanation": "Hawaii drivers must stop for a pedestrian crossing in a crosswalk who is on the half of the roadway the vehicle is traveling on, or approaching so closely from the opposite half as to be in danger, and wait until the pedestrian has passed.",
+    "difficulty": 3,
+    "ref": "Haw. Rev. Stat. § 291C-72(a); Hawaii Driver's Manual, p. 36",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.070",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "On a multilane Hawaii street, the car in the lane next to yours stops just before a crosswalk. What should you do?",
+    "choices": [
+      "Pass it carefully on the left",
+      "Pass it on the right if no one is coming",
+      "Do not pass it; it may be stopped for a pedestrian you can't see",
+      "Honk and continue at the same speed"
+    ],
+    "answer": 2,
+    "explanation": "When a vehicle is stopped at a crosswalk to let a pedestrian cross, drivers approaching from behind must not overtake and pass it.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 95; Haw. Rev. Stat. § 291C-72(d)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.071",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A Hawaii driver fails to stop for a pedestrian in a crosswalk for the second time within one year. What is the penalty?",
+    "choices": [
+      "A $50 fine",
+      "A $150 fine only",
+      "A written warning",
+      "A $300 fine and a 90-day license revocation"
+    ],
+    "answer": 3,
+    "explanation": "A first crosswalk violation is a $150 fine. A second within one year is $300 plus a 90-day license revocation, and a third within two years brings a $1,000 fine and a 180-day revocation.",
+    "difficulty": 3,
+    "ref": "Haw. Rev. Stat. § 291C-72(e)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.072",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are driving forward out of a driveway that crosses a sidewalk. What does Hawaii law require?",
+    "choices": [
+      "Stop before crossing the sidewalk area, then yield to pedestrians and traffic",
+      "Slow down and honk before crossing the sidewalk",
+      "Stop only if a pedestrian is visible",
+      "Stop at the edge of the street, after crossing the sidewalk"
+    ],
+    "answer": 0,
+    "explanation": "When entering the roadway from a driveway, you must stop before crossing the sidewalk area (failing to stop is unlawful), then yield to pedestrians, bicyclists and approaching vehicles.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 64; Haw. Rev. Stat. § 291C-94",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.073",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "A fire truck with its siren on passes you on its way to an emergency. How closely may you follow it?",
+    "choices": [
+      "No closer than 100 feet",
+      "No closer than 200 feet",
+      "No closer than 500 feet",
+      "Any distance, if you match its speed"
+    ],
+    "answer": 2,
+    "explanation": "Unless you are on official business, you may not follow an emergency vehicle responding to an emergency closer than 500 feet, or drive or park within 500 feet of where it has stopped for a fire alarm.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 291C-128",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.074",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "You are in the left lane of a one-way Hawaii street when an ambulance approaches with its siren and flashing lights. What should you do?",
+    "choices": [
+      "Stop in your lane immediately",
+      "Speed up to stay ahead of it",
+      "Move right only if it flashes its high beams",
+      "Pull to the nearest edge or curb, clear of any intersection, and stop until it passes"
+    ],
+    "answer": 3,
+    "explanation": "Yield to an emergency vehicle using its siren and lights by driving, clear of intersections, to the right edge (or the nearest edge on a one-way street or a divided or multilane highway) and stopping until it has passed.",
+    "difficulty": 3,
+    "ref": "Hawaii Driver's Manual, p. 29; Haw. Rev. Stat. § 291C-65",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.075",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "An ambulance with its siren on is directly behind you in heavy traffic, and you can't pull over yet. What does the Hawaii manual advise?",
+    "choices": [
+      "Stop right where you are",
+      "Turn on your hazard lights and wait",
+      "Keep moving slowly until you can get out of the way",
+      "Speed up to clear the lane"
+    ],
+    "answer": 2,
+    "explanation": "Don't panic and jam on the brakes. If the emergency vehicle is directly behind you in heavy traffic, keep moving slowly until you can move out of its path.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 29",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.076",
+    "track": "car",
+    "topic": "right-of-way",
+    "prompt": "Warning lights are flashing at a railroad crossing ahead. Where must you stop?",
+    "choices": [
+      "Within 15 feet but not less than 5 feet from the nearest rail",
+      "Within 100 feet but not less than 50 feet from the nearest rail",
+      "Right at the edge of the nearest rail",
+      "Within 50 feet but not less than 15 feet from the nearest rail"
+    ],
+    "answer": 3,
+    "explanation": "When a signal, gate, flagger or approaching train warns of a train, stop within 50 feet but no closer than 15 feet from the nearest rail, and do not go until the train has passed.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 27; Haw. Rev. Stat. § 291C-91",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.077",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "When passing a bicyclist in Hawaii, how much space must you leave between your vehicle and the bicycle?",
+    "choices": [
+      "At least 1 foot",
+      "At least 2 feet",
+      "At least 3 feet",
+      "At least 6 feet"
+    ],
+    "answer": 2,
+    "explanation": "Hawaii law requires at least three feet between the right side of your vehicle, including its mirrors, and the bicyclist until you have safely passed.",
+    "difficulty": 1,
+    "ref": "Hawaii Driver's Manual, p. 97; Haw. Rev. Stat. § 291C-43",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.078",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Where may bicyclists in Hawaii ride on a sidewalk?",
+    "choices": [
+      "Anywhere, at any speed",
+      "Outside business districts, at 10 mph or less, yielding to pedestrians",
+      "Nowhere; sidewalks are for pedestrians only",
+      "Only in business districts"
+    ],
+    "answer": 1,
+    "explanation": "Bicycles may not be ridden on sidewalks in business districts. Elsewhere, unless prohibited, bicyclists may ride on sidewalks at 10 mph or less and must yield to pedestrians.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 98; Haw. Rev. Stat. § 291C-148",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.079",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Under Hawaii law, who must wear a helmet when riding a bicycle on a street or bike path?",
+    "choices": [
+      "Riders of every age",
+      "Riders under 12",
+      "Only riders on electric bicycles",
+      "Riders under 16"
+    ],
+    "answer": 3,
+    "explanation": "Anyone under 16 must wear a properly fitted and fastened bicycle helmet, including a child in a bike seat or trailer. The manual recommends a helmet for every ride.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 291C-150; Hawaii Driver's Manual, p. 98",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.080",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Under a 2025 Hawaii law, which moped drivers must wear a helmet?",
+    "choices": [
+      "Every moped driver, regardless of age",
+      "Only drivers under 18",
+      "Only drivers under 16",
+      "Only drivers of rented mopeds"
+    ],
+    "answer": 0,
+    "explanation": "Since June 25, 2025, no one may drive a moped without a safety helmet securely fastened with a chin strap, whatever their age.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 291C-195",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.081",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "What is the minimum age to drive a moped on Hawaii roads?",
+    "choices": [
+      "14",
+      "15",
+      "16",
+      "18"
+    ],
+    "answer": 2,
+    "explanation": "Act 222 of 2025 raised the minimum moped age from 15 to 16. A driver's license is also required, and a two-wheeled moped may not carry a passenger.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 291C-195",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.082",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A school bus is stopped ahead of you with its red lights flashing. How far from the bus does Hawaii law require you to stop?",
+    "choices": [
+      "At least 10 feet",
+      "At least 20 feet",
+      "At least 50 feet",
+      "Right behind its bumper"
+    ],
+    "answer": 1,
+    "explanation": "Drivers who must stop for a school bus must stop at least 20 feet from it (HRS 291C-95); the manual simply says to stop before reaching the bus. Under current law, stay stopped until the bus moves and its red lights are off.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 291C-95(a)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.083",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "According to the Hawaii Driver's Manual, after you stop for a school bus with flashing red lamps, when may you go on?",
+    "choices": [
+      "When the children who got off have reached the sidewalk",
+      "When the bus driver waves you on",
+      "When the bus resumes motion or its flashing red lamps are turned off",
+      "After you have waited one full minute"
+    ],
+    "answer": 2,
+    "explanation": "The manual (p. 96) says not to proceed until the school bus resumes motion or its flashing red lamps are turned off, so expect that wording on the test. Current law (HRS 291C-95, amended 2018) is stricter: stop at least 20 feet away and wait until the bus is moving and its red lights are off.",
+    "difficulty": 3,
+    "ref": "Hawaii Driver's Manual, p. 96; Haw. Rev. Stat. § 291C-95(a)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.084",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "You are on a divided highway with a median, and a school bus with flashing red lights is stopped on the other roadway, facing the opposite direction. What must you do?",
+    "choices": [
+      "Stop at least 20 feet from the bus",
+      "Stop only if children are crossing",
+      "You do not have to stop, but watch for children",
+      "Turn on your hazard lights and stop"
+    ],
+    "answer": 2,
+    "explanation": "The school bus stopping rule does not apply when the bus and your vehicle are on different roadways of a divided highway; drivers on the bus's side must stop.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 96; Haw. Rev. Stat. § 291C-95(b)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.085",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "On an undivided Hawaii road, a school bus stops with its red lights flashing. Which drivers must stop?",
+    "choices": [
+      "Drivers in the bus's lane and in every lane next to it, whichever direction they are traveling",
+      "Only drivers behind the bus in its lane",
+      "Only drivers coming toward the bus",
+      "Only drivers within 100 feet of the bus"
+    ],
+    "answer": 0,
+    "explanation": "Drivers in the lane occupied by the bus and in all lanes adjacent to it, regardless of the direction of traffic in those lanes, must stop at least 20 feet from the bus.",
+    "difficulty": 3,
+    "ref": "Haw. Rev. Stat. § 291C-95(a)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.086",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "A police car is stopped on the shoulder of a Hawaii highway with its emergency lights flashing. What must you do as you approach?",
+    "choices": [
+      "Slow down and, if possible and safe, change lanes so an empty lane separates you from the police car",
+      "Keep your speed and stay in your lane",
+      "Stop in your lane until the police car leaves",
+      "Honk to alert the officer"
+    ],
+    "answer": 0,
+    "explanation": "Hawaii's move-over law requires slowing to a safe speed and, if necessary and safe, moving over so one lane separates you from a stopped emergency vehicle with flashing lights.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 29; Haw. Rev. Stat. § 291C-27",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.087",
+    "track": "car",
+    "topic": "sharing-road",
+    "prompt": "Hawaii's law requiring drivers to slow down and move over for a stopped emergency vehicle with flashing lights also protects which of these?",
+    "choices": [
+      "A parked delivery van",
+      "A stopped mail truck",
+      "A tow truck",
+      "A city bus at a bus stop"
+    ],
+    "answer": 2,
+    "explanation": "For this law, 'emergency vehicle' includes police, fire, ambulance, ocean safety, freeway service patrol, sheriff and emergency management vehicles, and tow trucks.",
+    "difficulty": 3,
+    "ref": "Haw. Rev. Stat. § 291C-27(b)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.088",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "You are stopped at a red light in Hawaii and want to turn right. No sign prohibits it. What may you do?",
+    "choices": [
+      "Turn right without stopping if the way is clear",
+      "Turn right after stopping and yielding to pedestrians and vehicles",
+      "Wait for green; right turns on red are illegal in Hawaii",
+      "Turn right only if a green arrow appears"
+    ],
+    "answer": 1,
+    "explanation": "After a complete stop you may turn right on red unless a sign prohibits it, but you must yield to all pedestrians and vehicles.",
+    "difficulty": 1,
+    "ref": "Hawaii Driver's Manual, p. 39; Haw. Rev. Stat. § 291C-32",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.089",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "In Hawaii, when may you turn left on a steady red light?",
+    "choices": [
+      "Never",
+      "From any street onto a one-way street",
+      "From a one-way street onto another one-way street with traffic moving left, after stopping and yielding, unless a sign prohibits it",
+      "Whenever no oncoming traffic is in sight"
+    ],
+    "answer": 2,
+    "explanation": "After stopping, you may turn left on red only from a one-way street into a one-way street where traffic moves to the left, yielding to pedestrians and traffic, unless a sign prohibits it.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 39; Haw. Rev. Stat. § 291C-32",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.090",
+    "track": "car",
+    "topic": "intersections-turns",
+    "prompt": "Hawaii law requires you to signal continuously for at least how far before you turn or change lanes?",
+    "choices": [
+      "100 feet",
+      "50 feet",
+      "75 feet",
+      "200 feet"
+    ],
+    "answer": 0,
+    "explanation": "Signal for at least the last 100 feet (about five car lengths) before you turn, change lanes or stop, and longer at higher speeds. Signal every time, even when no one seems to be around.",
+    "difficulty": 1,
+    "ref": "Hawaii Driver's Manual, pp. 27, 74; Haw. Rev. Stat. § 291C-84",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.091",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "On a two-lane Hawaii road, you may not drive on the left side to pass when you are within how many feet of an intersection or railroad crossing?",
+    "choices": [
+      "50 feet",
+      "200 feet",
+      "500 feet",
+      "100 feet"
+    ],
+    "answer": 3,
+    "explanation": "Do not drive on the left half of the road when approaching within 100 feet of, or passing through, an intersection or railroad crossing, or within 100 feet of a bridge, viaduct or tunnel when your view is obstructed.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, pp. 26, 31; Haw. Rev. Stat. § 291C-46",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.092",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "The Hawaii manual says not to pass when approaching a hill or curve unless you can see at least how much clear road ahead?",
+    "choices": [
+      "200 to 300 feet",
+      "400 to 500 feet",
+      "700 to 1,000 feet",
+      "1,500 to 2,000 feet"
+    ],
+    "answer": 2,
+    "explanation": "Do not pass when approaching a hill or curve where there is not 700 to 1,000 feet of clear distance ahead; an oncoming vehicle could appear before you finish.",
+    "difficulty": 3,
+    "ref": "Hawaii Driver's Manual, p. 30",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.093",
+    "track": "car",
+    "topic": "lanes-passing",
+    "prompt": "On a two-way Hawaii road with four or more lanes, when may you drive to the left of the center line?",
+    "choices": [
+      "When signs or markings direct you to, or when turning left into or out of a driveway or alley",
+      "To pass a slow vehicle when no one is coming",
+      "Any time traffic is light",
+      "Never, not even to turn left"
+    ],
+    "answer": 0,
+    "explanation": "On roads with four or more lanes for two-way traffic you must not drive left of the center line unless official signs or markings allow it or you must go around an obstruction; crossing it to turn left into or from an alley, private road or driveway is allowed.",
+    "difficulty": 3,
+    "ref": "Hawaii Driver's Manual, p. 26; Haw. Rev. Stat. § 291C-41(c)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.094",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "In Hawaii, a crash must be reported to police immediately if it causes any injury or death, or property damage of at least:",
+    "choices": [
+      "$500",
+      "$1,000",
+      "$2,500",
+      "$3,000"
+    ],
+    "answer": 3,
+    "explanation": "Crashes with personal injury to any extent, death, or property damage of $3,000 or more must be reported to the police immediately by the quickest means of communication.",
+    "difficulty": 1,
+    "ref": "Hawaii Driver's Manual, p. 52; Haw. Rev. Stat. § 291C-16",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.095",
+    "track": "car",
+    "topic": "emergencies",
+    "prompt": "You back into an unattended parked car in Hawaii and can't find its owner. What must you do?",
+    "choices": [
+      "Leave, since no one saw it happen",
+      "Wait at the car for up to 24 hours",
+      "Securely leave a written note with your name, address and vehicle registration number, and notify the police",
+      "Call only your insurance company"
+    ],
+    "answer": 2,
+    "explanation": "After striking an unattended vehicle, stop and either find the owner or securely attach a written notice with your name, address and registration number, then notify the nearest police officer without unnecessary delay.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 52; Haw. Rev. Stat. § 291C-15",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.096",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Driving in fog on a Hawaii mountain road, you cannot see at least two car lengths (about 40 feet) ahead. What should you do?",
+    "choices": [
+      "Pull completely off the pavement, stop and turn on your hazard warning lights",
+      "Switch to high beams and continue",
+      "Follow the taillights of the car ahead closely",
+      "Stop in your traffic lane"
+    ],
+    "answer": 0,
+    "explanation": "If you are unable to see at least two car lengths (40 feet), pull completely off the pavement and stop, then turn on your hazard warning signals. Never use high beams in fog.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 76",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.097",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "The Hawaii manual warns never to drive through a flooded area where swiftly moving water is deeper than:",
+    "choices": [
+      "1 inch",
+      "3 inches",
+      "1 foot",
+      "3 feet"
+    ],
+    "answer": 2,
+    "explanation": "Avoid flooded areas. Never drive through a flooded area where water over one foot deep is moving swiftly; it can sweep your vehicle off the road.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 76",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.098",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "Hawaii law requires headlights on a moving vehicle from:",
+    "choices": [
+      "Sunset to sunrise",
+      "1 hour after sunset until 1 hour before sunrise",
+      "Dusk until midnight",
+      "30 minutes after sunset until 30 minutes before sunrise"
+    ],
+    "answer": 3,
+    "explanation": "From 30 minutes after sunset until 30 minutes before sunrise, every moving motor vehicle must show at least two lighted headlamps. Also use low beams in heavy rain, fog, and at dawn and dusk.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 291-25; Hawaii Driver's Manual, pp. 76-77",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.099",
+    "track": "car",
+    "topic": "hazards-conditions",
+    "prompt": "At night on a Hawaii highway, when should you switch from high beams to low beams?",
+    "choices": [
+      "Only when an oncoming driver flashes their lights",
+      "Only in the city",
+      "Whenever you are approaching or following another vehicle",
+      "Only when it rains"
+    ],
+    "answer": 2,
+    "explanation": "Do not use high beams when approaching or following other vehicles. If an oncoming vehicle's lights are too bright, flash your high beams once and look at the right edge of the road.",
+    "difficulty": 1,
+    "ref": "Hawaii Driver's Manual, p. 77",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.100",
+    "track": "car",
+    "topic": "freeway",
+    "prompt": "You see a disabled car on the shoulder of a Hawaii freeway. What does the Hawaii manual advise?",
+    "choices": [
+      "Do not stop; report the situation to the proper authorities",
+      "Stop behind the car to help",
+      "Stop in the lane next to it to ask if they need help",
+      "Honk as you pass so they know help is coming"
+    ],
+    "answer": 0,
+    "explanation": "On freeways, do not stop to assist other drivers in trouble; report the situation to the proper authorities instead. If your own car breaks down, never stand or walk on the freeway.",
+    "difficulty": 2,
+    "ref": "Hawaii Driver's Manual, p. 79",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.101",
+    "track": "car",
+    "topic": "safe-habits",
+    "prompt": "According to the Hawaii Driver's Manual, which children must ride belted on a booster seat?",
+    "choices": [
+      "Children under 8 who are under 4 feet tall and less than 40 pounds",
+      "Children under 4 only; older children may use a regular seat belt",
+      "Children under 12 who are under 5 feet tall",
+      "Any child riding in the front seat"
+    ],
+    "answer": 0,
+    "explanation": "The manual (p. 20) says children under 4 must be in a child restraint and children under 8 must be belted on a booster seat if under four feet and less than forty pounds, so expect that wording on the test. Current law (HRS 291-11.5, since 2022) covers children under 10: a harness seat until age 4, then a harness seat or booster seat, unless a child 7 to 9 is taller than 4 feet 9 inches and wears a lap-and-shoulder belt.",
+    "difficulty": 3,
+    "ref": "Hawaii Driver's Manual, p. 20; Haw. Rev. Stat. § 291-11.5",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.car.102",
+    "track": "car",
+    "topic": "laws-licensing",
+    "prompt": "Hawaii law requires the driver's license knowledge test to specifically test your knowledge of which two laws?",
+    "choices": [
+      "The moped helmet law and the pickup truck passenger law",
+      "The mobile electronic device law and the law against leaving a child unattended in a vehicle",
+      "The excessive speeding law and the motorcycle lane-splitting law",
+      "The vehicle registration law and the safety inspection law"
+    ],
+    "answer": 1,
+    "explanation": "HRS 286-108 requires the examination to specifically test HRS 291C-137 (no holding a mobile electronic device while driving) and HRS 291C-121.5 (never leave a child under 9 unattended in a vehicle for five minutes or longer), so expect questions on both.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 286-108(a)(3)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.mc.001",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "A 17-year-old rides as a passenger on her uncle's motorcycle in Hawaii. Must she wear a helmet?",
+    "choices": [
+      "No, helmets are required only for operators",
+      "No, if the motorcycle has a windshield",
+      "Yes, any operator or passenger under 18 must wear a helmet fastened with a chin strap",
+      "Only on roads posted over 35 mph"
+    ],
+    "answer": 2,
+    "explanation": "Hawaii requires every motorcycle or motor scooter operator and passenger under 18 to wear a safety helmet securely fastened with a chin strap. Riders 18 and older are not required by law to wear one.",
+    "difficulty": 1,
+    "ref": "Haw. Rev. Stat. § 286-81(e); Hawaii Motorcycle Operator Manual, p. 7",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.mc.002",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "In Hawaii, when must a motorcycle operator and passenger wear glasses, goggles or a face shield?",
+    "choices": [
+      "Only at night",
+      "Whenever the motorcycle has no windshield or windscreen",
+      "Only on freeways",
+      "Only riders under 18"
+    ],
+    "answer": 1,
+    "explanation": "Every operator and passenger must wear safety glasses, goggles or a face shield unless the motorcycle or motor scooter is equipped with a windshield or windscreen.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 286-81(a); Hawaii Motorcycle Operator Manual, p. 7",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.mc.003",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What is the youngest passenger a Hawaii motorcyclist may carry on a standard two-wheeled motorcycle?",
+    "choices": [
+      "5 years old",
+      "7 years old",
+      "10 years old",
+      "12 years old"
+    ],
+    "answer": 1,
+    "explanation": "It is unlawful to carry a passenger under seven years of age on a motorcycle or motor scooter (a narrow exception covers enclosed three-wheeled electric vehicles with seat belts). The fine is up to $200.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 291-11; Hawaii Motorcycle Operator Manual, p. 7",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.mc.004",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Which restrictions apply to a Hawaii motorcycle instruction permit holder?",
+    "choices": [
+      "No freeway riding, but passengers are allowed",
+      "No passengers and no riding during hours of darkness",
+      "No riding without a licensed adult on the back seat",
+      "No riding over 25 mph"
+    ],
+    "answer": 1,
+    "explanation": "A holder of a motorcycle or motor scooter instruction permit may not carry any passengers or ride during hours of darkness.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 286-110(f); Hawaii Motorcycle Operator Manual, p. 5",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.mc.005",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Under Act 66 of 2025, what must you complete before Hawaii will issue you a motorcycle instruction permit?",
+    "choices": [
+      "A state-approved Basic Rider Course",
+      "100 hours of supervised riding",
+      "A motorcycle road test",
+      "Nothing; the course is optional"
+    ],
+    "answer": 0,
+    "explanation": "Hawaii now requires applicants to successfully complete a basic motorcycle rider course approved by the Department of Transportation before a motorcycle (class 2) instruction permit is issued.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 286-110(b)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.mc.006",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Traffic is stopped on a multilane Hawaii road. May a motorcyclist ride between the lines of cars to get ahead?",
+    "choices": [
+      "Yes, at 10 mph or less",
+      "Yes, if traffic is completely stopped",
+      "Yes, on freeways only",
+      "No, Hawaii prohibits riding between lanes or between rows of vehicles"
+    ],
+    "answer": 3,
+    "explanation": "Lane splitting is illegal in Hawaii: no one may operate a motorcycle between lanes of traffic or between adjacent lines or rows of vehicles.",
+    "difficulty": 1,
+    "ref": "Haw. Rev. Stat. § 291C-153(c)",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.mc.007",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "How high may a Hawaii motorcycle's handlebars be above the operator's seat?",
+    "choices": [
+      "No more than 15 inches",
+      "No more than 10 inches",
+      "No more than 20 inches",
+      "There is no limit"
+    ],
+    "answer": 0,
+    "explanation": "No one may operate a motorcycle with handlebars more than 15 inches above the part of the seat occupied by the operator.",
+    "difficulty": 3,
+    "ref": "Haw. Rev. Stat. § 291C-155(b); Hawaii Motorcycle Operator Manual, p. 6",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.mc.008",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "What minimum liability insurance must a Hawaii motorcycle or motor scooter policy include?",
+    "choices": [
+      "$10,000 per person / $20,000 per accident and $5,000 property damage",
+      "$20,000 per person / $40,000 per accident and $10,000 property damage",
+      "$40,000 per person / $80,000 per accident and $20,000 property damage",
+      "None; insurance is optional for motorcycles"
+    ],
+    "answer": 1,
+    "explanation": "Motorcycle and motor scooter policies must carry at least $20,000 per person and $40,000 per accident for bodily injury and $10,000 for property damage. The higher $40,000/$80,000/$20,000 minimums that took effect in 2026 apply to car policies.",
+    "difficulty": 3,
+    "ref": "Haw. Rev. Stat. § 431:10G-301; Hawaii Motorcycle Operator Manual, p. 7",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.mc.009",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Which rule about lane use applies to motorcycles in Hawaii?",
+    "choices": [
+      "Motorcycles may ride three abreast in one lane",
+      "A motorcyclist may pass a car within the same lane if there is room",
+      "Motorcycles are entitled to the full use of a lane, and no more than two may ride side by side in one lane",
+      "Cars may share a lane with a motorcycle if the rider keeps right"
+    ],
+    "answer": 2,
+    "explanation": "Every motorcycle is entitled to the full use of a lane, and motorcycles may not be operated more than two abreast in a single lane. A rider may not pass a vehicle in the same lane it occupies.",
+    "difficulty": 2,
+    "ref": "Haw. Rev. Stat. § 291C-153",
+    "states": [
+      "HI"
+    ]
+  },
+  {
+    "id": "hi.mc.010",
+    "track": "motorcycle",
+    "topic": "mc-laws",
+    "prompt": "Your Hawaii motorcycle instruction permit expires before you have taken the skills test even once. What happens?",
+    "choices": [
+      "You may renew it immediately",
+      "You must wait three months before applying for another motorcycle permit",
+      "You must wait one year",
+      "Your car license is suspended"
+    ],
+    "answer": 1,
+    "explanation": "A motorcycle permit can be renewed only if you took the license (skills) test at least once before it expired; otherwise you must wait three months before applying for another motorcycle instruction permit.",
+    "difficulty": 3,
+    "ref": "Haw. Rev. Stat. § 286-110(g); Hawaii Motorcycle Operator Manual, pp. 5-6",
+    "states": [
+      "HI"
+    ]
+  }
+]
